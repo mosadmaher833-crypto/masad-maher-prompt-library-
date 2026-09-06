@@ -1,36 +1,9 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-06T18:36:34.756963+00:00",
+  "generated_at": "2026-09-06T18:44:58.550391+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
-    {
-      "id": "civitai-141991865",
-      "title": "Civitai prompt 141991865",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "ERA: Vienna, Austria-Hungary, 1897. An adult woman in her early thirties stands alone in a narrow apartment room during late afternoon, conducting an experiment with an unfamiliar optical instrument assembled from brass, wood and blackened metal. The scene is not a laboratory fantasy but an ordinary private room adapted temporarily for scientific curiosity. She wears a historically accurate high-necked dark wool day dress with a fitted bodice, long sleeves, a floor-length skirt and a modest white collar, with her dark hair pinned into a period-appropriate updo. She stands beside a heavy wooden table on which sits a brass optical apparatus consisting of a circular lens housing, adjustable arm, small mirror and mechanical scale. A sharp beam of sunlight enters through tall double windows and projects the silhouette of the apparatus onto a pale plaster wall. The woman is not posing for the camera; she is leaning slightly forward and adjusting a small screw with concentrated attention. The room contains period-specific objects chosen without decorative excess: a writing desk with an ink bottle, a folded newspaper from the late nineteenth century, a porcelain cup, a wooden chair, a coal-burning heating stove and a small stack of scientific books bound in dark cloth. Through the window, only a fragment of Vienna is visible—stucco façades, narrow sidewalks, early electric street lighting infrastructure and horse-drawn traffic suggested at a distance, with no automobiles dominating the scene. The central visual motif is the mechanically produced shadow, whose geometry appears strangely precise against the plaster. Nothing supernatural is occurring; the uncanny quality comes from the precision of light, machinery and human observation. The time-travel photographer captures the moment from the doorway at approximately chest height, using available window light rather than artificial studio illumination. The image should resemble an authentic late nineteenth-century photographic document, with the characteristic limitations of period optics: modest depth of field, slightly soft edges, delicate highlight roll-off, restrained silver-gelatin tonal character and visible but fine organic grain. It must not look like modern digital photography wearing vintage filters. Surfaces should retain tactile detail—wool fibers, aged wood, brass oxidation, plaster imperfections and paper texture. The atmosphere is quiet, intellectual and slightly mysterious without becoming theatrical. Vertical 9:16 composition, allowing the full woman, optical apparatus, projected shadow and architectural interior to remain visible.",
-      "quality_score": 9.5,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/141991865",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1e819cd-22e1-4892-b2cf-e2356ba2bfae/original=true/e1e819cd-22e1-4892-b2cf-e2356ba2bfae.jpeg",
-      "model": "jibMixKrea2_v40Habanero",
-      "model_version_ids": [],
-      "width": 768,
-      "height": 1344,
-      "seed": 620678413436963,
-      "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.748684+00:00"
-    },
     {
       "id": "civitai-141904893",
       "title": "Civitai prompt 141904893",
@@ -56,7 +29,7 @@
       "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.748786+00:00"
+      "discovered_at": "2026-09-06T18:44:58.541932+00:00"
     },
     {
       "id": "civitai-141912296",
@@ -83,7 +56,7 @@
       "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.748999+00:00"
+      "discovered_at": "2026-09-06T18:44:58.542174+00:00"
     },
     {
       "id": "civitai-141927781",
@@ -110,7 +83,7 @@
       "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.749350+00:00"
+      "discovered_at": "2026-09-06T18:44:58.542529+00:00"
     },
     {
       "id": "civitai-141929944",
@@ -137,7 +110,7 @@
       "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.749909+00:00"
+      "discovered_at": "2026-09-06T18:44:58.543012+00:00"
     },
     {
       "id": "civitai-141990593",
@@ -164,7 +137,150 @@
       "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.750470+00:00"
+      "discovered_at": "2026-09-06T18:44:58.543521+00:00"
+    },
+    {
+      "id": "civitai-141991865",
+      "title": "Civitai prompt 141991865",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ERA: Vienna, Austria-Hungary, 1897. An adult woman in her early thirties stands alone in a narrow apartment room during late afternoon, conducting an experiment with an unfamiliar optical instrument assembled from brass, wood and blackened metal. The scene is not a laboratory fantasy but an ordinary private room adapted temporarily for scientific curiosity. She wears a historically accurate high-necked dark wool day dress with a fitted bodice, long sleeves, a floor-length skirt and a modest white collar, with her dark hair pinned into a period-appropriate updo. She stands beside a heavy wooden table on which sits a brass optical apparatus consisting of a circular lens housing, adjustable arm, small mirror and mechanical scale. A sharp beam of sunlight enters through tall double windows and projects the silhouette of the apparatus onto a pale plaster wall. The woman is not posing for the camera; she is leaning slightly forward and adjusting a small screw with concentrated attention. The room contains period-specific objects chosen without decorative excess: a writing desk with an ink bottle, a folded newspaper from the late nineteenth century, a porcelain cup, a wooden chair, a coal-burning heating stove and a small stack of scientific books bound in dark cloth. Through the window, only a fragment of Vienna is visible—stucco façades, narrow sidewalks, early electric street lighting infrastructure and horse-drawn traffic suggested at a distance, with no automobiles dominating the scene. The central visual motif is the mechanically produced shadow, whose geometry appears strangely precise against the plaster. Nothing supernatural is occurring; the uncanny quality comes from the precision of light, machinery and human observation. The time-travel photographer captures the moment from the doorway at approximately chest height, using available window light rather than artificial studio illumination. The image should resemble an authentic late nineteenth-century photographic document, with the characteristic limitations of period optics: modest depth of field, slightly soft edges, delicate highlight roll-off, restrained silver-gelatin tonal character and visible but fine organic grain. It must not look like modern digital photography wearing vintage filters. Surfaces should retain tactile detail—wool fibers, aged wood, brass oxidation, plaster imperfections and paper texture. The atmosphere is quiet, intellectual and slightly mysterious without becoming theatrical. Vertical 9:16 composition, allowing the full woman, optical apparatus, projected shadow and architectural interior to remain visible.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141991865",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1e819cd-22e1-4892-b2cf-e2356ba2bfae/original=true/e1e819cd-22e1-4892-b2cf-e2356ba2bfae.jpeg",
+      "model": "jibMixKrea2_v40Habanero",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 1344,
+      "seed": 620678413436963,
+      "negative_prompt": "warm colors, blurry, yellow color, sweat, oily skin , finger rings, tan lines",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.543921+00:00"
+    },
+    {
+      "id": "civitai-142018918",
+      "title": "Civitai prompt 142018918",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "boobsgame style, cartoon style,\nConcept art, digital artwork, illustrative, painterly, matte painting, highly detailed, a majestic knight in ornate, polished gold and black plate armor, wearing a winged helm, riding a powerful white stallion with a flowing mane and tail, the horse is adorned with intricate golden barding and decorative tassels, the rider holds a curved scimitar, set against a dramatic nocturnal backdrop of towering, dark, gothic-style spires with glowing amber windows, a large full moon casting a soft, ethereal glow through a misty, dark blue night sky, a sense of epic fantasy, cinematic lighting, rich textures of metal, fur, and stone, atmospheric fog swirling around the base of the dark rocky foreground, hyper-realistic details, epic composition, sweeping atmosphere. Gender reinterpretation: all depicted humanoid characters, sentient creatures, monsters, and character-like beings are adults aged 21 or older. Any character not already explicitly female is reimagined as an adult female version while preserving the original identity, species, role, pose, action, outfit, composition, environment, and art style. Give each such version clearly feminine anatomy appropriate to the design: prominent natural breasts, a defined feminine waist, rounded hips, shapely thighs, and a distinctly feminine silhouette. For nonhuman, monstrous, alien, or mechanical characters, translate these traits into a clearly feminine humanoid or anthropomorphic form appropriate to the original species or machine design; reinterpret any remaining masculine descriptors as feminine equivalents.,\n<lora:Krea2_Boobsgame_MERGED_070_025_exact_bf16:0.9>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018918",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85979a59-ca6d-437a-b14d-75caf8a7086e/original=true/85979a59-ca6d-437a-b14d-75caf8a7086e.jpeg",
+      "model": "lustify-v10-krea-turbo-int8_convrot",
+      "model_version_ids": [
+        3112728,
+        3296070
+      ],
+      "width": 1408,
+      "height": 1600,
+      "seed": 2656866602,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.545750+00:00"
+    },
+    {
+      "id": "civitai-142018843",
+      "title": "Civitai prompt 142018843",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Portrait of a cute and beautiful 20-year old woman with natural turquoise eyes, blunt bangs and a stylish inverted black bobcut. She is posing sitting on her own feet amidst some large pastel pillows in an appratment with lots of green plants and warm light. She is wearing an oversized grey woolen sweater. In her hands, she is holding a large mug. Her mouth is hidden behind the cup. Her eyes stare at us with joyful laughing lines. \n\nSet the aperture to f2.8 to blur the background and to isolate the woman on the foreground, The subject is fully in focus.  Apply an editorial photographic style with bright, muted colors and color grading with cool shadows and warm highlights.\n\nGive the woman a realistic appearance, charming, and with natural, soft features and  a grounded, relatable human presence.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018843",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84eab2cb-dd03-40fd-a8bd-10707f07d752/original=true/84eab2cb-dd03-40fd-a8bd-10707f07d752.jpeg",
+      "model": "K2/Muse-BSY-Krea2-V3.5-Extended-Pro-C84-int8convrot",
+      "model_version_ids": [],
+      "width": 1184,
+      "height": 1768,
+      "seed": 868716871,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.545947+00:00"
+    },
+    {
+      "id": "civitai-142018796",
+      "title": "Civitai prompt 142018796",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ta86_inkriot,  thin black outlines,\nA beautiful young witch flying on a wooden broomstick over a snowy city at night during a blizzard. She is wearing a traditional Russian floral shawl wrapped around her head and shoulders, a dark winter coat, and floral mittens with fur trim. She has a joyful, bright smile. A fluffy black cat with yellow eyes is perched on her shoulder, looking at the viewer. The background features a snow-covered city with glowing windows and a tall spire in the distance. Dynamic low-angle shot, magical realism, highly detailed digital painting, cinematic lighting, vibrant colors, masterpiece, 8k resolution.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018796",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6b0ae15-5e47-479e-84a5-c9dacee9dd90/original=true/b6b0ae15-5e47-479e-84a5-c9dacee9dd90.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1213262478,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.546198+00:00"
+    },
+    {
+      "id": "civitai-142018753",
+      "title": "Civitai prompt 142018753",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "boobsgame style, cartoon style,\nconcept art Bradhamel art style. A striking portrait of a young woman with short, tousled light-colored hair and thick-rimmed glasses, her face partially shadowed against a solid black background; she gazes directly at the viewer with intense, reflective eyes, her hand resting thoughtfully near her lips with dark-painted nails, rendered in high-contrast ink line work with soft grayscale shading, capturing a contemplative, intellectual mood through dynamic linework and dramatic chiaroscuro lighting, framed as a close-up headshot with no additional props or distractions. . digital artwork, illustrative, painterly, matte painting, highly detailed nekotaylor,, Bradhamel art style Gender reinterpretation: all depicted humanoid characters, sentient creatures, monsters, and character-like beings are adults aged 21 or older. Any character not already explicitly female is reimagined as an adult female version while preserving the original identity, species, role, pose, action, outfit, composition, environment, and art style. Give each such version clearly feminine anatomy appropriate to the design: prominent natural breasts, a defined feminine waist, rounded hips, shapely thighs, and a distinctly feminine silhouette. For nonhuman, monstrous, alien, or mechanical characters, translate these traits into a clearly feminine humanoid or anthropomorphic form appropriate to the original species or machine design; reinterpret any remaining masculine descriptors as feminine equivalents.,\n<lora:Krea2_Boobsgame_MERGED_070_025_exact_bf16:0.9>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018753",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25761b43-f59d-42e3-890e-9021ef2a8565/original=true/25761b43-f59d-42e3-890e-9021ef2a8565.jpeg",
+      "model": "lustify-v10-krea-turbo-int8_convrot",
+      "model_version_ids": [
+        3112728,
+        3296070
+      ],
+      "width": 1408,
+      "height": 1600,
+      "seed": 3839239675,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.546532+00:00"
     },
     {
       "id": "civitai-142016754",
@@ -191,142 +307,7 @@
       "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.750888+00:00"
-    },
-    {
-      "id": "civitai-142016767",
-      "title": "Civitai prompt 142016767",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "digital illustration, solo, 1boy, adult man, modern punk style, short lean build, sharp chin, pale beige skin, hostile expression, red brown eyes, intense glare, black mohawk with crimson tips, shaved sides, lip ring, wearing sleeveless black denim vest, striped long sleeve shirt, ripped grey jeans, heavy boots, chain necklace, standing in a narrow underpass, fists in pockets, feet planted wide, full body, low angle, concrete walls, old posters, puddles, night, harsh red overhead light, black red and grey palette, aggressive mood, gritty polished finish\n\n@sam_yang,@samm1eyang",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142016767",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/636925d7-a265-4fdc-b701-f65074f79c94/original=true/636925d7-a265-4fdc-b701-f65074f79c94.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1453893506,
-      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.751014+00:00"
-    },
-    {
-      "id": "civitai-142016771",
-      "title": "Civitai prompt 142016771",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, absurdres, safe, solo, original character, adult woman, half-length portrait cropped cleanly, rich brown skin, athletic poised build, honey blond half-up hair knot, turquoise eyes, sharp jawline, gentle worried look, checking a small object in the palm, pleated skirt with glossy loafers, resting manicured fingers on a locker, exclusive cafe booth, bright polished hallway light, dynamic fabric motion and saturated color accents. The expression hints at charm, impatience, and a story already in motion.\n\n@sam_yang,@samm1eyang",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142016771",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f12312-2c4d-4041-883e-e9eea16e23fc/original=true/52f12312-2c4d-4041-883e-e9eea16e23fc.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1691040039,
-      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.751314+00:00"
-    },
-    {
-      "id": "civitai-142016775",
-      "title": "Civitai prompt 142016775",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, absurdres, safe, 1girl, adult woman, upper body, portrait composition, face and shoulders emphasized, freckled fairy woman, black hair with pale streaks, pale rose skin, honey brown eyes, fairy, fae, translucent wings, freckles, arrogant side glance, midnight blue mantle, detailed face. The freckled fairy wo woman stands out through black hair with pale streaks, honey brown eyes, and a carefully chosen midnight blue mantle. Translucent wings and delicate features make the character feel airy and strange; freckles keep the fairy face lively and specific. The simple background, soft cream backdrop is uncluttered, dark room rim light shapes the cheeks and collar, and arrogant side glance gives the portrait its emotional hook. The face remains the anchor of the scene, especially through her arrogant side glance. The lower lashes are drawn with extra care, making the gaze feel sharper.\n\n@sam_yang,@samm1eyang",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142016775",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/936d9173-34bd-4bc2-bd4e-775b3b5fb2a8/original=true/936d9173-34bd-4bc2-bd4e-775b3b5fb2a8.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 3265112339,
-      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.751488+00:00"
-    },
-    {
-      "id": "civitai-142016777",
-      "title": "Civitai prompt 142016777",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, absurdres, safe, 1girl, adult woman, upper body, portrait composition, face and shoulders emphasized, white-haired oni women, white-haired oni wo woman, messy platinum hair, stone gray skin, gold eyes, oni, oni horns, tusks, white hair, guarded expression, structured black coat, detailed face. The white-haired oni wo woman is drawn with upper body, portrait composition, face and shoulders emphasized, messy platinum hair, stone gray skin, and gold eyes. Oni horns and small tusks give the face a mythic force; white hair contrasts sharply with the eyes and skin tone. The simple background, warm beige backdrop keeps every line readable, while green forest shade picks out ink stained gloves, the collar, and the character's guarded expression. The portrait feels like a paused moment from a larger story, carried by the eyes and posture. The fabric near the shoulder shows a subtle woven texture.\n\n\n@sam_yang,@samm1eyang",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142016777",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1638eda7-36fc-4454-9254-eb98b7734d34/original=true/1638eda7-36fc-4454-9254-eb98b7734d34.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1491902952,
-      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.751665+00:00"
-    },
-    {
-      "id": "civitai-142016800",
-      "title": "Civitai prompt 142016800",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, absurdres, safe, \nA portrait of a dark-skinned woman adorned in elaborate gold jewelry and deep crimson fabric, sharp highlight on one cheekbone, the other side dissolving into warm shadow, minimal background with soft bokeh light circles.\n\n@sam_yang,@samm1eyang",
-      "quality_score": 8.4,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142016800",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d29f7214-d734-42d4-9ff2-d40038fbc7e2/original=true/d29f7214-d734-42d4-9ff2-d40038fbc7e2.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 4243366043,
-      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752066+00:00"
+      "discovered_at": "2026-09-06T18:44:58.546710+00:00"
     },
     {
       "id": "civitai-142016766",
@@ -353,7 +334,142 @@
       "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752189+00:00"
+      "discovered_at": "2026-09-06T18:44:58.546825+00:00"
+    },
+    {
+      "id": "civitai-142016767",
+      "title": "Civitai prompt 142016767",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "digital illustration, solo, 1boy, adult man, modern punk style, short lean build, sharp chin, pale beige skin, hostile expression, red brown eyes, intense glare, black mohawk with crimson tips, shaved sides, lip ring, wearing sleeveless black denim vest, striped long sleeve shirt, ripped grey jeans, heavy boots, chain necklace, standing in a narrow underpass, fists in pockets, feet planted wide, full body, low angle, concrete walls, old posters, puddles, night, harsh red overhead light, black red and grey palette, aggressive mood, gritty polished finish\n\n@sam_yang,@samm1eyang",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142016767",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/636925d7-a265-4fdc-b701-f65074f79c94/original=true/636925d7-a265-4fdc-b701-f65074f79c94.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1453893506,
+      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.546941+00:00"
+    },
+    {
+      "id": "civitai-142016771",
+      "title": "Civitai prompt 142016771",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, safe, solo, original character, adult woman, half-length portrait cropped cleanly, rich brown skin, athletic poised build, honey blond half-up hair knot, turquoise eyes, sharp jawline, gentle worried look, checking a small object in the palm, pleated skirt with glossy loafers, resting manicured fingers on a locker, exclusive cafe booth, bright polished hallway light, dynamic fabric motion and saturated color accents. The expression hints at charm, impatience, and a story already in motion.\n\n@sam_yang,@samm1eyang",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142016771",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f12312-2c4d-4041-883e-e9eea16e23fc/original=true/52f12312-2c4d-4041-883e-e9eea16e23fc.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1691040039,
+      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.547214+00:00"
+    },
+    {
+      "id": "civitai-142016775",
+      "title": "Civitai prompt 142016775",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, safe, 1girl, adult woman, upper body, portrait composition, face and shoulders emphasized, freckled fairy woman, black hair with pale streaks, pale rose skin, honey brown eyes, fairy, fae, translucent wings, freckles, arrogant side glance, midnight blue mantle, detailed face. The freckled fairy wo woman stands out through black hair with pale streaks, honey brown eyes, and a carefully chosen midnight blue mantle. Translucent wings and delicate features make the character feel airy and strange; freckles keep the fairy face lively and specific. The simple background, soft cream backdrop is uncluttered, dark room rim light shapes the cheeks and collar, and arrogant side glance gives the portrait its emotional hook. The face remains the anchor of the scene, especially through her arrogant side glance. The lower lashes are drawn with extra care, making the gaze feel sharper.\n\n@sam_yang,@samm1eyang",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142016775",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/936d9173-34bd-4bc2-bd4e-775b3b5fb2a8/original=true/936d9173-34bd-4bc2-bd4e-775b3b5fb2a8.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3265112339,
+      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.547375+00:00"
+    },
+    {
+      "id": "civitai-142016777",
+      "title": "Civitai prompt 142016777",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, safe, 1girl, adult woman, upper body, portrait composition, face and shoulders emphasized, white-haired oni women, white-haired oni wo woman, messy platinum hair, stone gray skin, gold eyes, oni, oni horns, tusks, white hair, guarded expression, structured black coat, detailed face. The white-haired oni wo woman is drawn with upper body, portrait composition, face and shoulders emphasized, messy platinum hair, stone gray skin, and gold eyes. Oni horns and small tusks give the face a mythic force; white hair contrasts sharply with the eyes and skin tone. The simple background, warm beige backdrop keeps every line readable, while green forest shade picks out ink stained gloves, the collar, and the character's guarded expression. The portrait feels like a paused moment from a larger story, carried by the eyes and posture. The fabric near the shoulder shows a subtle woven texture.\n\n\n@sam_yang,@samm1eyang",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142016777",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1638eda7-36fc-4454-9254-eb98b7734d34/original=true/1638eda7-36fc-4454-9254-eb98b7734d34.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1491902952,
+      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.547537+00:00"
+    },
+    {
+      "id": "civitai-142016800",
+      "title": "Civitai prompt 142016800",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, safe, \nA portrait of a dark-skinned woman adorned in elaborate gold jewelry and deep crimson fabric, sharp highlight on one cheekbone, the other side dissolving into warm shadow, minimal background with soft bokeh light circles.\n\n@sam_yang,@samm1eyang",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142016800",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d29f7214-d734-42d4-9ff2-d40038fbc7e2/original=true/d29f7214-d734-42d4-9ff2-d40038fbc7e2.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 4243366043,
+      "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, realistic, photorealistic, 3d, worst quality, low quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digits, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, old, early, lowres, logo, mutated hands, ugly, worst quality, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, mammal, anthro, furry, ambiguous form, feral, semi-anthro, boring, ugly, ai generated, low perspective, bad eyes, deformed irises, small head, long neck, small body, child body, child, kid, bad proportions,(((three fingers, four fingers, six fingers, seven fingers, extra fingers, missing fingers, fused fingers, deformed fingers, ugly fingers, deformed hands, bad hands, worst time, worst hands, wrong hands, twisted hands, ugly hands, deformed toes, fused toes, missing toes, wrong feet, deformed feet, ugly feet))),,score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, halo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.547899+00:00"
     },
     {
       "id": "civitai-142018687",
@@ -380,34 +496,7 @@
       "negative_prompt": "(low quality:1.4),(worstquality:1.4),monochrome,zombie,(extra arms:1.5),(extra legs:1.5),(extra feet:1.2),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(extra limb:1.2),(extra limbs:1.35),(poorly drawn face:1.4),(bad feet:1.2),(disconnected limbs:1.6),(the wrong dress:1.2),(feet only,:1.3),(bad proportions:1.3),(malformed limbs:1.5),（Legs that are too long）\n(bar censor:1.5),(normal quality:1.2),(lowres:1.2),(bad anatomy:1.5),(signature:1.2),(watermark:1.4),(mosaic censoring:1.5),(bad:1.2),(unrealistic:1.4),(not fully dressed:1.2),(watermark:1.3),(text:1.3),(extra fingers:1.3),(extra fingers:1.3),(fewer fingers:1.2),(poorly drawn eyes:1.4),(camcorder:1.4),red，hair",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752283+00:00"
-    },
-    {
-      "id": "civitai-142018684",
-      "title": "Civitai prompt 142018684",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "[Portrait of a man with pale skin and dark hair, wearing a vintage 1990s black vest, holding a large flamethrower, intense expression, dramatic lighting, high contrast, photorealistic style, cinematic composition, depth of field, shallow focus on subject, background blurred with warm orange and yellow tones, professional photography, 8k resolution, detailed textures]",
-      "quality_score": 9.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142018684",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e13eb3f-4c7e-4f60-8d90-6fc686634b81/original=true/5e13eb3f-4c7e-4f60-8d90-6fc686634b81.jpeg",
-      "model": "Krea2Wowser_v11Int8Bf16",
-      "model_version_ids": [],
-      "width": 1088,
-      "height": 1448,
-      "seed": 529475435618776,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752347+00:00"
+      "discovered_at": "2026-09-06T18:44:58.547989+00:00"
     },
     {
       "id": "civitai-142018677",
@@ -434,7 +523,7 @@
       "negative_prompt": "(low quality:1.4),(worstquality:1.4),monochrome,zombie,(extra arms:1.5),(extra legs:1.5),(extra feet:1.2),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(extra limb:1.2),(extra limbs:1.35),(poorly drawn face:1.4),(bad feet:1.2),(disconnected limbs:1.6),(the wrong dress:1.2),(feet only,:1.3),(bad proportions:1.3),(malformed limbs:1.5),（Legs that are too long）\n(bar censor:1.5),(normal quality:1.2),(lowres:1.2),(bad anatomy:1.5),(signature:1.2),(watermark:1.4),(mosaic censoring:1.5),(bad:1.2),(unrealistic:1.4),(not fully dressed:1.2),(watermark:1.3),(text:1.3),(extra fingers:1.3),(extra fingers:1.3),(fewer fingers:1.2),(poorly drawn eyes:1.4),(camcorder:1.4),red，hair",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752475+00:00"
+      "discovered_at": "2026-09-06T18:44:58.548092+00:00"
     },
     {
       "id": "civitai-142018678",
@@ -461,7 +550,34 @@
       "negative_prompt": "(low quality:1.4),(worstquality:1.4),monochrome,zombie,(extra arms:1.5),(extra legs:1.5),(extra feet:1.2),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(extra limb:1.2),(extra limbs:1.35),(poorly drawn face:1.4),(bad feet:1.2),(disconnected limbs:1.6),(the wrong dress:1.2),(feet only,:1.3),(bad proportions:1.3),(malformed limbs:1.5),（Legs that are too long）\n(bar censor:1.5),(normal quality:1.2),(lowres:1.2),(bad anatomy:1.5),(signature:1.2),(watermark:1.4),(mosaic censoring:1.5),(bad:1.2),(unrealistic:1.4),(not fully dressed:1.2),(watermark:1.3),(text:1.3),(extra fingers:1.3),(extra fingers:1.3),(fewer fingers:1.2),(poorly drawn eyes:1.4),(camcorder:1.4),red，hair",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752576+00:00"
+      "discovered_at": "2026-09-06T18:44:58.548184+00:00"
+    },
+    {
+      "id": "civitai-142018685",
+      "title": "Civitai prompt 142018685",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, top quality, best quality:1.2), (highly detailed:1.1),anime style, clean lineart, vibrant colors, pure white background, dramatic lighting, sharp focus on face and hands, depth of field.full body，\n\nOne girl, long hair, silver-white hair, twin tails, panda accessories, blue eyes, neutral expression, crop top, black stripes, teal jacket, black sleeves, white collar, white buttons, pleated skirt, teal skirt, white belt, panda keychain, high boots, white boots, black laces, ankle straps, hands naturally apart, standing pose, full body.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018685",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd9833a2-973d-410c-98c4-bf9c724e856f/original=true/cd9833a2-973d-410c-98c4-bf9c724e856f.jpeg",
+      "model": "WAI-Nsfw-Illustrious-17",
+      "model_version_ids": [],
+      "width": 2048,
+      "height": 3072,
+      "seed": 950295036984873,
+      "negative_prompt": "(low quality:1.4),(worstquality:1.4),monochrome,zombie,(extra arms:1.5),(extra legs:1.5),(extra feet:1.2),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(extra limb:1.2),(extra limbs:1.35),(poorly drawn face:1.4),(bad feet:1.2),(disconnected limbs:1.6),(the wrong dress:1.2),(feet only,:1.3),(bad proportions:1.3),(malformed limbs:1.5),（Legs that are too long）\n(bar censor:1.5),(normal quality:1.2),(lowres:1.2),(bad anatomy:1.5),(signature:1.2),(watermark:1.4),(mosaic censoring:1.5),(bad:1.2),(unrealistic:1.4),(not fully dressed:1.2),(watermark:1.3),(text:1.3),(extra fingers:1.3),(extra fingers:1.3),(fewer fingers:1.2),(poorly drawn eyes:1.4),(camcorder:1.4),red，hair",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.548446+00:00"
     },
     {
       "id": "civitai-142018682",
@@ -488,7 +604,7 @@
       "negative_prompt": "(low quality:1.4),(worstquality:1.4),monochrome,zombie,(extra arms:1.5),(extra legs:1.5),(extra feet:1.2),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(extra limb:1.2),(extra limbs:1.35),(poorly drawn face:1.4),(bad feet:1.2),(disconnected limbs:1.6),(the wrong dress:1.2),(feet only,:1.3),(bad proportions:1.3),(malformed limbs:1.5),（Legs that are too long）\n(bar censor:1.5),(normal quality:1.2),(lowres:1.2),(bad anatomy:1.5),(signature:1.2),(watermark:1.4),(mosaic censoring:1.5),(bad:1.2),(unrealistic:1.4),(not fully dressed:1.2),(watermark:1.3),(text:1.3),(extra fingers:1.3),(extra fingers:1.3),(fewer fingers:1.2),(poorly drawn eyes:1.4),(camcorder:1.4),red，hair",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.752871+00:00"
+      "discovered_at": "2026-09-06T18:44:58.548553+00:00"
     },
     {
       "id": "civitai-142013334",
@@ -515,7 +631,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.753217+00:00"
+      "discovered_at": "2026-09-06T18:44:58.548827+00:00"
     },
     {
       "id": "civitai-142013357",
@@ -542,7 +658,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.753520+00:00"
+      "discovered_at": "2026-09-06T18:44:58.549077+00:00"
     },
     {
       "id": "civitai-142016309",
@@ -569,7 +685,36 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.753681+00:00"
+      "discovered_at": "2026-09-06T18:44:58.549220+00:00"
+    },
+    {
+      "id": "civitai-142018538",
+      "title": "Civitai prompt 142018538",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The photo is a high-resolution epic cinematic professional photo of an adult 30y-o caucasian woman with gray Elegant Twisted Bun hair. She is wearing Pencil skirts and Qipao (Cheongsam). She is wearing glasses. in a dynamic sexy pose, posing for the viewer The scene is captured in a in a subway car late at night, when it's almost empty and peaceful location with detailed background details in the environment. The award-winning photo is a close-up (film grain:1.2) photo shot with a Canon EOS R5 Mirrorless Camera. The photograph is highly detailed.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142018538",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea9c0af-7e5f-4095-b231-4126dba9609b/original=true/aea9c0af-7e5f-4095-b231-4126dba9609b.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1270155617,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T18:44:58.549385+00:00"
     },
     {
       "id": "civitai-142018389",
@@ -599,94 +744,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.754800+00:00"
-    },
-    {
-      "id": "civitai-141993999",
-      "title": "Civitai prompt 141993999",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "An extremely realistic scene and insanely pulchritudinous young middle eastern woman Yasmin with long wavy dark brown hair with highlights, golden olive skin, slim athletic frame, large breasts, tiny waist, photographed by Bert Stern. An unparalleled superlative Ultra-High Definition absurdres magnum opus masterwork hyper-photorealistic 64K IMG_1245.DNG raw photo pro model shoot incredibly beautiful woman that has aesthetically pleasing features with an athletic toned female body anatomy, Midjourney Style, Fantastic, gorgeous, and a hourglass figure physique. She's wearing a light blue crop top overhang and pink bodycon hot pants. She has professionally finished eyelashes, subtle eye shadow, and eyeliner that further emphasizes her beauty. She fashion poses on a hiking trail that has lush vegetation with vibrant flowers, the background features a vista view of hawaiian islands during a sunny day, creating an unprecedented visual experience. This model shoot has vivid colors that exceeds well over high dynamic range color picture. This immaculate image consists crisp visual clarity, Diffused, glowing, glamour photography style, brightphoto, saturatedphoto, highcontrastphoto, Photogenic_Shot",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/141993999",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31dd8e9c-dae0-45fd-99bb-d4e87bd3c641/original=true/31dd8e9c-dae0-45fd-99bb-d4e87bd3c641.jpeg",
-      "model": "finalDESTINATIONDARK_v20.safetensors",
-      "model_version_ids": [
-        2393449
-      ],
-      "width": 1408,
-      "height": 1856,
-      "seed": 159535099,
-      "negative_prompt": "low resolution, incorrect anatomy, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, ugly, scan artifacts, scanlines, pixelated",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.755915+00:00"
-    },
-    {
-      "id": "civitai-136941884",
-      "title": "Civitai prompt 136941884",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "(highest quality, highest details, Masterpiece, Ultra-photoRealistic, ultra-Realistic, Cinematic, 8K, square Format), a cinematic scene set in Jerusalem circa 30 AD, capturing the moment when Jesus of Nazareth drives the merchants and money changers out of the Temple courtyard. Jesus, around 30 years old, stands in the center of the frame with an intense and righteous expression, his hair shoulder-length, dark and tousled, his beard short and trimmed, eyes blazing with moral authority. He wears a simple undyed linen robe, cinched with a rope belt, the hem dusty from the Temple stones. In one hand, he holds a makeshift rope whip, raised as he strides forward.\nAround him, chaos unfolds: tables overturned, coins scattering across the ground, and merchants recoiling in shock or fleeing, their baskets, doves, and sacrificial animals in disarray. One man clutches a money bag, another scrambles to gather spilled goods. Animals scatter — doves flap from broken cages, a goat darts past.\nThe Temple architecture looms in the background — tall white limestone colonnades, marble stairs, and Hebrew inscriptions. Onlookers, including poor pilgrims and a few stunned elders, watch from the perimeter — some astonished, others silently approving.\nMood: explosive, righteous fury — a moment of divine defiance\nStyle: Ultra-realistic, dramatic lighting, historically accurate Middle Eastern features and garments\nFormat: dynamic square (1:1) for compositional focus\nResolution: 8K level detail",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/136941884",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2af01221-b81a-461b-9c1d-08be60fcc9e8/original=true/2af01221-b81a-461b-9c1d-08be60fcc9e8.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2880272
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": -1,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.756696+00:00"
-    },
-    {
-      "id": "civitai-136941885",
-      "title": "Civitai prompt 136941885",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "(highest quaity, highest details, Masterpiece, Ultra-photoRealistic, Ultra-Realistic, Golden Hour, 8K, square):\nA warm, ultra-realistic morning scene on the shore of the Sea of Galilee. Jesus stands barefoot at the water’s edge, gesturing with quiet authority toward two astonished fishermen — Peter and Andrew — as they pull nets onto their simple wooden boat. The lake is calm, reflecting the golden-pink hues of dawn. A few other fishermen and nets lie on the sand. Jesus wears a weathered robe and speaks softly; the men freeze mid-action, struck by the moment. Seagulls circle above. The water shimmers behind them.\nMood: serene, sacred invitation, humble setting\nStyle: Warm sunrise tones, ultra-photorealistic details in figures, light, and water\nFormat: sqaure (1:1), 8K",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/136941885",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0cc810e2-eb19-4cae-b6a6-14ed881e2c2b/original=true/0cc810e2-eb19-4cae-b6a6-14ed881e2c2b.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2880272
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": -1,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T18:36:34.756885+00:00"
+      "discovered_at": "2026-09-06T18:44:58.550208+00:00"
     }
   ]
 }
