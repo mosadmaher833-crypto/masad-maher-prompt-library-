@@ -1,0 +1,14 @@
+{
+  "name": "مكتبة مسعد ماهر للـPrompts",
+  "short_name": "مسعد ماهر Prompts",
+  "description": "منصة عربية احترافية لاكتشاف وهندسة وإدارة البرومبتات.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./library-final.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#312e81",
+  "categories": ["productivity", "education", "developer tools"],
+  "icons": []
+}
