@@ -1,9 +1,39 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-06T19:27:37.675114+00:00",
+  "generated_at": "2026-09-06T19:52:48.934414+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
+    {
+      "id": "civitai-141818014",
+      "title": "Civitai prompt 141818014",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "l1ndong, solo, anthropomorphic panda, panda furry, \nfriendly character design, black and white panda color scheme,\nlarge and sturdy build, broad shoulders,\nstrong but natural proportions, detailed fluffy fur,\nheterochromia, both eyes fully visible,\nright eye golden, left eye silver,\nbright clear eyes, detailed pupils,\nsmall black stripes only at the outer corners of both eyes,\nno panda eye patches, no black eye mask,\nboth eyes unobstructed, symmetrical facial features,\nfour limbs with smooth natural gradient coloration,\nblack gradually transitioning into white toward the extremities,\nnatural fur color transition, detailed paws,\nwearing an ivory-white short-sleeved shirt,\ncasual summer shirt, fully clothed,\nblack summer shorts, comfortable summer outfit,\nnatural fabric folds, neat clothing,\nwell-fitted casual clothing,\nanthropomorphic animal character,\nupright standing pose,\nrelaxed friendly expression,\nlooking at viewer,\nfront-facing,\nstraight-on view,\nclear facial features,\nboth eyes clearly visible,\nbalanced facial proportions,\nupper body portrait,\nblue sky, beach, ocean background,\nbright summer atmosphere,\nclean composition,\nmasterpiece, best quality, amazing quality,\nhigh quality, detailed fur, detailed eyes,\nsharp facial details, clean linework,\nbeautiful character illustration",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141818014",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/318f8a20-5acd-438d-ba97-0255e7f32715/original=true/318f8a20-5acd-438d-ba97-0255e7f32715.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1761560,
+        2128574
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 605974561,
+      "negative_prompt": "nsfw, adult content, erotic, sexualized,\nsuggestive pose, provocative pose,\nnudity, underwear, exposed body,\nfetish, seductive expression,\nexaggerated anatomy,\nexplicit content,\npanda eye patches, black eye mask,\none eye closed, missing eye, hidden eye,\nobscured eye, asymmetrical eyes,\nextra eyes, deformed eyes,\nside view, profile view,\ncropped face, distorted face\nbad anatomy, asymmetrical eyes, one eye closed,\none eye missing, hidden eye, covered eye,\nobscured eye, deformed eye, extra eye,\npanda eye patches, black eye mask,\nside view, profile, extreme side angle,\ncropped face, distorted face, malformed face",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T19:52:48.925106+00:00"
+    },
     {
       "id": "civitai-142009276",
       "title": "Civitai prompt 142009276",
@@ -32,67 +62,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.661559+00:00"
-    },
-    {
-      "id": "civitai-142015104",
-      "title": "Civitai prompt 142015104",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "an action-packed scene from a Star Wars movie, with real actors and incredible HDR and CGI-like post-processing. filmed with a state-of-the-art large-lens digital movie camera, with an anamorphic lens. dramatic, exaggerated lighting and contrast.\nthree companions are joined in battle:\ncentral piece is AvelineX <lora:training_12661119-20260906014446544:1>, a 21-year-old adult woman with loosely wavy light brown hair with golden highlights and a center part. she wields a light saber, the motion blur capturing the moment she goes into an engarde samurai-like pose. her pose is dramatic with knees bent. she wears a skimpy version of a beige Jedi suit, its front open halfway to expose her cleavage and a hint of a black bandeau beneath. the woman's skin shows hints of dust and grime from battle, but not overly so. likewise the suit shows signs of wear and tear. her expression is a fierce battle cry. her hair wafts dramatically in the wind.\nto the left, slightly behind the woman, her companion KTTY69, a sexy and curvy BD-3000 Luxury Droid in its factory magenta-white dual color scheme, also known as a \"Bettie Bot\". her upper chest shows the \"KTTY69\" name in a futuristic sans-serif font. KTTY69 wields a DL-44 blaster pistol, the weapon ready to fire but cold, and stands in a sexy pose which pronounces her feminine gynoid form - thick thighs, a swell of a metal bosom, and a solid metallic head ornament in the shape of long flowing hair.\nto the right, we can see a Tar'vo, a Gank Killer cyborg. Tar'vo wears a mask looking like some kind of robo-skull. he wields a E-11 blaster rifle, confidently firing the weapon from his hip.\nthe environment is a on a rooftop of Coruscant: The Industrial Underlevels (Level 1313), A claustrophobic, vertical canyon of neon signage, rusted ventilation shafts, and massive structural pillars that hold up the city above.\nthe mood is one of battle, action, showing motion blur and a tremendous amount of details. small sparks and dust particles enrich the detailed view.",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142015104",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6617cff7-3a64-4dee-a512-5b42ed2a8e0b/original=true/6617cff7-3a64-4dee-a512-5b42ed2a8e0b.jpeg",
-      "model": "sickOllie_krea2_INT8",
-      "model_version_ids": [
-        3154408,
-        3301556
-      ],
-      "width": 1280,
-      "height": 1920,
-      "seed": 2301573155,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.662171+00:00"
-    },
-    {
-      "id": "civitai-142015382",
-      "title": "Civitai prompt 142015382",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A cinematic full-body shot captured on a Phase One XF with a 35mm wide-angle lens, featuring AvelineX <lora:training_12661119-20260906014446544:1>, a 21-year-old adult woman with loosely wavy light brown hair with golden highlights and a center part. She is captured in a powerful, heroic wide stance; one foot stepped forward and the other planted firmly back, with her hands propped high on her waists in a confident power pose. Her head is tilted sideways and cocked back, casting a challenging, authoritative downwards glance directly into the camera lens.\nShe is clad in a hyperfuturistic red combat suit featuring a high-gloss, polished lacquer finish that catches the sharp artificial lighting. The suit is integrated with several small, circular green-blinking buttons scattered across the torso and limbs; these buttons emit a vivid, neon-green luminescence with a pronounced light-bleed effect, creating soft ethereal halos around each point of light.\nThe setting is a gargantuan, oppressive industrial tunnel characterized by bizarre, non-euclidean metallic formations and brutalist obsidian-colored alloys that warp and twist along the walls. Thick, volumetric plumes of pressurized steam waft through the atmosphere, creating layers of depth and atmospheric haze. \nThe lighting is high-contrast chiaroscuro, with cool-toned overhead industrial strips clashing against the warm red of her suit. Technical photographic details include a shallow depth of field, subtle motion blur in the drifting steam, hyper-realistic skin textures with visible pores and fine perspiration, and an ultra-sharp focus on her piercing eyes. 8k resolution, ray-traced reflections on the metallic surfaces, industrial sci-fi aesthetic, photorealistic, shot on 70mm film.",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142015382",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2a333e8-c1a4-465a-8635-93157c9f1995/original=true/a2a333e8-c1a4-465a-8635-93157c9f1995.jpeg",
-      "model": "sickOllie_krea2_INT8",
-      "model_version_ids": [
-        3154408,
-        3301556
-      ],
-      "width": 1280,
-      "height": 1920,
-      "seed": 3136092521,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.662547+00:00"
+      "discovered_at": "2026-09-06T19:52:48.925946+00:00"
     },
     {
       "id": "civitai-142016075",
@@ -122,7 +92,7 @@
       "negative_prompt": "worst quality, bad quality, low quality, human, humans",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.662928+00:00"
+      "discovered_at": "2026-09-06T19:52:48.926170+00:00"
     },
     {
       "id": "civitai-142016076",
@@ -152,7 +122,7 @@
       "negative_prompt": "worst quality, bad quality, low quality, human, humans",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.663308+00:00"
+      "discovered_at": "2026-09-06T19:52:48.926395+00:00"
     },
     {
       "id": "civitai-142016083",
@@ -182,7 +152,67 @@
       "negative_prompt": "worst quality, bad quality, low quality, human, humans",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.663729+00:00"
+      "discovered_at": "2026-09-06T19:52:48.926620+00:00"
+    },
+    {
+      "id": "civitai-142015104",
+      "title": "Civitai prompt 142015104",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "an action-packed scene from a Star Wars movie, with real actors and incredible HDR and CGI-like post-processing. filmed with a state-of-the-art large-lens digital movie camera, with an anamorphic lens. dramatic, exaggerated lighting and contrast.\nthree companions are joined in battle:\ncentral piece is AvelineX <lora:training_12661119-20260906014446544:1>, a 21-year-old adult woman with loosely wavy light brown hair with golden highlights and a center part. she wields a light saber, the motion blur capturing the moment she goes into an engarde samurai-like pose. her pose is dramatic with knees bent. she wears a skimpy version of a beige Jedi suit, its front open halfway to expose her cleavage and a hint of a black bandeau beneath. the woman's skin shows hints of dust and grime from battle, but not overly so. likewise the suit shows signs of wear and tear. her expression is a fierce battle cry. her hair wafts dramatically in the wind.\nto the left, slightly behind the woman, her companion KTTY69, a sexy and curvy BD-3000 Luxury Droid in its factory magenta-white dual color scheme, also known as a \"Bettie Bot\". her upper chest shows the \"KTTY69\" name in a futuristic sans-serif font. KTTY69 wields a DL-44 blaster pistol, the weapon ready to fire but cold, and stands in a sexy pose which pronounces her feminine gynoid form - thick thighs, a swell of a metal bosom, and a solid metallic head ornament in the shape of long flowing hair.\nto the right, we can see a Tar'vo, a Gank Killer cyborg. Tar'vo wears a mask looking like some kind of robo-skull. he wields a E-11 blaster rifle, confidently firing the weapon from his hip.\nthe environment is a on a rooftop of Coruscant: The Industrial Underlevels (Level 1313), A claustrophobic, vertical canyon of neon signage, rusted ventilation shafts, and massive structural pillars that hold up the city above.\nthe mood is one of battle, action, showing motion blur and a tremendous amount of details. small sparks and dust particles enrich the detailed view.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142015104",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6617cff7-3a64-4dee-a512-5b42ed2a8e0b/original=true/6617cff7-3a64-4dee-a512-5b42ed2a8e0b.jpeg",
+      "model": "sickOllie_krea2_INT8",
+      "model_version_ids": [
+        3154408,
+        3301556
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 2301573155,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T19:52:48.926941+00:00"
+    },
+    {
+      "id": "civitai-142015382",
+      "title": "Civitai prompt 142015382",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic full-body shot captured on a Phase One XF with a 35mm wide-angle lens, featuring AvelineX <lora:training_12661119-20260906014446544:1>, a 21-year-old adult woman with loosely wavy light brown hair with golden highlights and a center part. She is captured in a powerful, heroic wide stance; one foot stepped forward and the other planted firmly back, with her hands propped high on her waists in a confident power pose. Her head is tilted sideways and cocked back, casting a challenging, authoritative downwards glance directly into the camera lens.\nShe is clad in a hyperfuturistic red combat suit featuring a high-gloss, polished lacquer finish that catches the sharp artificial lighting. The suit is integrated with several small, circular green-blinking buttons scattered across the torso and limbs; these buttons emit a vivid, neon-green luminescence with a pronounced light-bleed effect, creating soft ethereal halos around each point of light.\nThe setting is a gargantuan, oppressive industrial tunnel characterized by bizarre, non-euclidean metallic formations and brutalist obsidian-colored alloys that warp and twist along the walls. Thick, volumetric plumes of pressurized steam waft through the atmosphere, creating layers of depth and atmospheric haze. \nThe lighting is high-contrast chiaroscuro, with cool-toned overhead industrial strips clashing against the warm red of her suit. Technical photographic details include a shallow depth of field, subtle motion blur in the drifting steam, hyper-realistic skin textures with visible pores and fine perspiration, and an ultra-sharp focus on her piercing eyes. 8k resolution, ray-traced reflections on the metallic surfaces, industrial sci-fi aesthetic, photorealistic, shot on 70mm film.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142015382",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2a333e8-c1a4-465a-8635-93157c9f1995/original=true/a2a333e8-c1a4-465a-8635-93157c9f1995.jpeg",
+      "model": "sickOllie_krea2_INT8",
+      "model_version_ids": [
+        3154408,
+        3301556
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 3136092521,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T19:52:48.927184+00:00"
     },
     {
       "id": "civitai-142016240",
@@ -212,7 +242,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.664219+00:00"
+      "discovered_at": "2026-09-06T19:52:48.927474+00:00"
     },
     {
       "id": "civitai-142021719",
@@ -241,7 +271,7 @@
       "negative_prompt": "Multiple limbs, wrong anatomy, distorted hands, three arms, three legs, distorted face",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.667262+00:00"
+      "discovered_at": "2026-09-06T19:52:48.929251+00:00"
     },
     {
       "id": "civitai-142021712",
@@ -270,7 +300,7 @@
       "negative_prompt": "BadDream, (UnrealisticDream:1.3), Multiple limbs, wrong anatomy, distorted hands, three arms, three legs, distorted face",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.667797+00:00"
+      "discovered_at": "2026-09-06T19:52:48.929553+00:00"
     },
     {
       "id": "civitai-142021724",
@@ -299,7 +329,7 @@
       "negative_prompt": "Multiple limbs, wrong anatomy, distorted hands, three arms, three legs, distorted face",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.668931+00:00"
+      "discovered_at": "2026-09-06T19:52:48.930204+00:00"
     },
     {
       "id": "civitai-142021721",
@@ -328,7 +358,7 @@
       "negative_prompt": "BadDream, (UnrealisticDream:1.3)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.669721+00:00"
+      "discovered_at": "2026-09-06T19:52:48.930653+00:00"
     },
     {
       "id": "civitai-142021689",
@@ -357,7 +387,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.670439+00:00"
+      "discovered_at": "2026-09-06T19:52:48.931033+00:00"
     },
     {
       "id": "civitai-142017245",
@@ -384,7 +414,7 @@
       "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, additional limbs, bad fingers, six fingers",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.671292+00:00"
+      "discovered_at": "2026-09-06T19:52:48.931423+00:00"
     },
     {
       "id": "civitai-142017261",
@@ -411,7 +441,7 @@
       "negative_prompt": "worst quality, low quality, score_3, score_2, score_1, worst quality, low quality, lowres, score_4,score_5, twitter signature, twitter watermark, twitter sign, @, artist name, weibo signature, weibo username, additional limbs, bad fingers, six fingers",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.671583+00:00"
+      "discovered_at": "2026-09-06T19:52:48.931708+00:00"
     },
     {
       "id": "civitai-142021631",
@@ -444,7 +474,7 @@
       "negative_prompt": "extra digits, conjoined fingers, wrong hand, extra legs, worst quality, low quality, early, old, score_1, score_2, score_3, cartoon, graphic, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, long body, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, fewer digits, cropped, very displeasing, artist name, blurry, jpeg artifacts, lowres, censor, text bubble, speech bubble, child, kid, young",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.672133+00:00"
+      "discovered_at": "2026-09-06T19:52:48.932595+00:00"
     },
     {
       "id": "civitai-142021482",
@@ -473,7 +503,7 @@
       "negative_prompt": "score_4, score_5, score_6, lowres, (bad anatomy, bad hands:1.2), text, watermark. chromatic aberration, (nsfw:1.5),lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, artist name, old, oldest,Lowres, worst quality, low quality, blurry, (jpeg artifacts, grainy, cropped and out of frame, overexposed, signature, watermark, text, multiple angles, artist name, simple background, unfinished, flat background, Poorly defined details, with bad proportions, off-topic, poorly drawn crappy art of bad quality:1.5),(score_1, score_2, score_3:0.25)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.672659+00:00"
+      "discovered_at": "2026-09-06T19:52:48.933130+00:00"
     },
     {
       "id": "civitai-142021467",
@@ -502,7 +532,7 @@
       "negative_prompt": "score_4, score_5, score_6, lowres, (bad anatomy, bad hands:1.2), text, watermark. chromatic aberration, (nsfw:1.5),lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, artist name, old, oldest,Lowres, worst quality, low quality, blurry, (jpeg artifacts, grainy, cropped and out of frame, overexposed, signature, watermark, text, multiple angles, artist name, simple background, unfinished, flat background, Poorly defined details, with bad proportions, off-topic, poorly drawn crappy art of bad quality:1.5),(score_1, score_2, score_3:0.25)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.673291+00:00"
+      "discovered_at": "2026-09-06T19:52:48.933522+00:00"
     },
     {
       "id": "civitai-142021459",
@@ -531,67 +561,7 @@
       "negative_prompt": "score_4, score_5, score_6, lowres, (bad anatomy, bad hands:1.2), text, watermark. chromatic aberration, (nsfw:1.5),lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, artist name, old, oldest,Lowres, worst quality, low quality, blurry, (jpeg artifacts, grainy, cropped and out of frame, overexposed, signature, watermark, text, multiple angles, artist name, simple background, unfinished, flat background, Poorly defined details, with bad proportions, off-topic, poorly drawn crappy art of bad quality:1.5),(score_1, score_2, score_3:0.25)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.673745+00:00"
-    },
-    {
-      "id": "civitai-142021246",
-      "title": "Civitai prompt 142021246",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "((one woman)) A masterpiece photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of beautiful 25 year old goth woman with long platinum-white hair parted in the center and softly waved, pale cool-toned skin, and blue eyes. Her eyelids are shaded with dark charcoal smoky eyeshadow and thin winged eyeliner, and she wears matte deep oxblood lipstick, , She is wearing a voluminous black velvet gown and lounging on a vintage couch. She is wearing a beautiful golden necklace with vibrant purple gems that sparkle in the light. The image should focus on her pretty face and eye catching jewelry.\nCamera angle Front on\n,\n(matte skin:1.3), dry complexion, natural skin texture, soft diffuse lighting, non-glossy, powdery finish. clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142021246",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b7eb9c4-23d4-462a-af2d-911df12cce86/original=true/0b7eb9c4-23d4-462a-af2d-911df12cce86.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3140151,
-        3295321
-      ],
-      "width": 1184,
-      "height": 896,
-      "seed": 129525769,
-      "negative_prompt": "blurry",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.674399+00:00"
-    },
-    {
-      "id": "civitai-142021008",
-      "title": "Civitai prompt 142021008",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "(score_9, score_8_up, score_7_up), masterpiece, highres, 4k, absurdres, ultra-detailed, newest, very aesthetic, skeletal demon creature, undead monster character, yellow-green ossified exoskeleton, hollow skull face with grimacing jaw, exposed ribcage lattice cavity, multi-jointed elongated limbs with talon claws, spiked cranial protrusions, dynamic crouching combat stance, surreal dreampunk aesthetic, ethereal reality-bending atmosphere, dreamlike distortion of space, glowing bioluminescent bone texture, intricate carved osseous surface detail, 85mm lens, shallow depth of field, cinematic composition, dramatic low-angle shot, volumetric god rays, subsurface scattering on bone material, ray tracing reflections, 3d shadowing, specular highlights on chitinous surfaces, cracked arid desert rock base, swirling atmospheric haze, aerial perspective depth fog, chaotic layered background elements, fractured reality visual flow, dynamic diagonal energy lines, 60 percent dominant yellow-green bone tones, 30 percent deep shadow blacks and dark earth reds, 10 percent electric accent highlights in violet and amber, bold complementary color contrasts, anticipation pose with secondary action in clawed hands, intricate pencil illustration cross-hatching blended with digital paint, epic composition with foreground mid-ground background separation, artgerm inspired fine detail rendering, range murata compositional dynamism, alphonse mucha ornamental negative space, lifelike material detail, crisp edge definition, beautifully detailed face with hollow orbital eyes, intricate filigree bone cage chest cavity, swirling dust particles in atmosphere, moody cinematic lighting, rim lighting on skeletal silhouette, dramatic chiaroscuro contrast, finished masterpiece dynamic background",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142021008",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73d9c79a-db93-46af-9d27-e611965ef6a3/original=true/73d9c79a-db93-46af-9d27-e611965ef6a3.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3189283
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 533908608,
-      "negative_prompt": "score_4, score_5, score_6, lowres, (bad anatomy, bad hands:1.2), text, watermark. chromatic aberration, (nsfw:1.5),lowres, worst quality, bad quality, bad anatomy, sketch, jpeg artifacts, signature, watermark, artist name, old, oldest,Lowres, worst quality, low quality, blurry, (jpeg artifacts, grainy, cropped and out of frame, overexposed, signature, watermark, text, multiple angles, artist name, simple background, unfinished, flat background, Poorly defined details, with bad proportions, off-topic, poorly drawn crappy art of bad quality:1.5),(score_1, score_2, score_3:0.25)",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-06T19:27:37.674858+00:00"
+      "discovered_at": "2026-09-06T19:52:48.933945+00:00"
     }
   ]
 }
