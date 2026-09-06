@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "policy": {
     "allow_only_declared_connectors": true,
     "prefer_official_api_or_rss": true,
@@ -10,92 +10,20 @@
     "preserve_attribution_and_license": true
   },
   "connectors": [
-    {
-      "source_id": "github",
-      "type": "github_search",
-      "status": "enabled",
-      "endpoint": "https://api.github.com/search/code",
-      "notes": "Search public GitHub code for prompt files/snippets; apply rate limits and attribution."
-    },
-    {
-      "source_id": "lexica",
-      "type": "documented_public_json_api",
-      "status": "enabled",
-      "endpoint": "https://lexica.art/api/v1/search",
-      "notes": "Use Lexica's documented public search API; preserve prompt, image, model and gallery attribution."
-    },
-    {
-      "source_id": "civitai",
-      "type": "documented_public_json_api",
-      "status": "enabled",
-      "endpoint": "https://civitai.com/api/v1/images",
-      "notes": "Use the documented public images endpoint with metadata, SFW filtering, attribution and quality scoring."
-    },
-    {
-      "source_id": "openai",
-      "type": "official_docs",
-      "status": "review_required",
-      "endpoint": "https://platform.openai.com/docs/overview"
-    },
-    {
-      "source_id": "anthropic",
-      "type": "official_docs",
-      "status": "review_required",
-      "endpoint": "https://docs.anthropic.com/"
-    },
-    {
-      "source_id": "gemini",
-      "type": "official_docs",
-      "status": "review_required",
-      "endpoint": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
-    },
-    {
-      "source_id": "prompt-engineering-guide",
-      "type": "educational_docs",
-      "status": "review_required",
-      "endpoint": "https://www.promptingguide.ai/"
-    },
-    {
-      "source_id": "openart",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://openart.ai/"
-    },
-    {
-      "source_id": "krea",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://www.krea.ai/"
-    },
-    {
-      "source_id": "god-of-prompt",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://godofprompt.ai/"
-    },
-    {
-      "source_id": "prompthero",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://prompthero.com/"
-    },
-    {
-      "source_id": "promptbase",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://promptbase.com/"
-    },
-    {
-      "source_id": "flowgpt",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://flowgpt.com/"
-    },
-    {
-      "source_id": "aiprm",
-      "type": "api_or_rss",
-      "status": "review_required",
-      "endpoint": "https://www.aiprm.com/"
-    }
+    {"source_id":"github","type":"github_search","status":"enabled","endpoint":"https://api.github.com/search/code","notes":"Search public GitHub code for prompt files/snippets; apply rate limits and attribution."},
+    {"source_id":"lexica","type":"documented_public_json_api","status":"enabled","endpoint":"https://lexica.art/api/v1/search","notes":"Use Lexica's documented public search API; preserve prompt, image, model and gallery attribution."},
+    {"source_id":"civitai","type":"documented_public_json_api","status":"enabled","endpoint":"https://civitai.com/api/v1/images","notes":"Use the documented public images endpoint with metadata, SFW filtering, attribution and quality scoring."},
+    {"source_id":"openai","type":"licensed_github_source","status":"enabled","endpoint":"https://github.com/openai/openai-cookbook","notes":"Import prompt-like examples from the MIT-licensed OpenAI Cookbook through GitHub API; preserve source file and license."},
+    {"source_id":"gemini","type":"licensed_github_source","status":"enabled","endpoint":"https://github.com/google-gemini/cookbook","notes":"Import prompt-like examples from the Apache-2.0 Gemini Cookbook through GitHub API; preserve source file and license."},
+    {"source_id":"prompt-engineering-guide","type":"licensed_github_source","status":"enabled","endpoint":"https://github.com/dair-ai/Prompt-Engineering-Guide","notes":"Import prompt examples from the MIT-licensed guide through GitHub API; preserve attribution and license."},
+    {"source_id":"microsoft","type":"licensed_github_source","status":"enabled","endpoint":"https://github.com/microsoft/prompts-for-edu","notes":"Import reusable educational prompts from Microsoft's MIT-licensed Prompts for Education repository through GitHub API."},
+    {"source_id":"anthropic","type":"official_docs","status":"review_required","endpoint":"https://docs.anthropic.com/"},
+    {"source_id":"openart","type":"api_or_rss","status":"review_required","endpoint":"https://openart.ai/"},
+    {"source_id":"krea","type":"api_or_rss","status":"review_required","endpoint":"https://www.krea.ai/"},
+    {"source_id":"god-of-prompt","type":"api_or_rss","status":"review_required","endpoint":"https://godofprompt.ai/"},
+    {"source_id":"prompthero","type":"api_or_rss","status":"review_required","endpoint":"https://prompthero.com/"},
+    {"source_id":"promptbase","type":"api_or_rss","status":"review_required","endpoint":"https://promptbase.com/"},
+    {"source_id":"flowgpt","type":"api_or_rss","status":"review_required","endpoint":"https://flowgpt.com/"},
+    {"source_id":"aiprm","type":"api_or_rss","status":"review_required","endpoint":"https://www.aiprm.com/"}
   ]
 }
