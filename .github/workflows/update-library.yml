@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update-library:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,6 +42,9 @@ jobs:
       - name: Discover prompts from Lexica
         run: python scripts/lexica_prompt_connector.py
 
+      - name: Discover prompts from Civitai
+        run: python scripts/civitai_prompt_connector.py
+
       - name: Import and publish candidates from enabled connectors
         run: python scripts/update-library.py
 
@@ -67,7 +70,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/prompts.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json
+          git add data/prompts.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json
           if git diff --cached --quiet; then
             echo 'No generated data changes.'
           else
