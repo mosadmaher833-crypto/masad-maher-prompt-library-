@@ -1,12 +1,13 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "policy": {
     "allow_only_declared_connectors": true,
     "prefer_official_api_or_rss": true,
     "no_arbitrary_scraping": true,
     "require_source_url": true,
     "require_prompt_text": true,
-    "deduplicate": true
+    "deduplicate": true,
+    "preserve_attribution_and_license": true
   },
   "connectors": [
     {
@@ -22,6 +23,13 @@
       "status": "enabled",
       "endpoint": "https://lexica.art/api/v1/search",
       "notes": "Use Lexica's documented public search API; preserve prompt, image, model and gallery attribution."
+    },
+    {
+      "source_id": "civitai",
+      "type": "documented_public_json_api",
+      "status": "enabled",
+      "endpoint": "https://civitai.com/api/v1/images",
+      "notes": "Use the documented public images endpoint with metadata, SFW filtering, attribution and quality scoring."
     },
     {
       "source_id": "openai",
@@ -46,12 +54,6 @@
       "type": "educational_docs",
       "status": "review_required",
       "endpoint": "https://www.promptingguide.ai/"
-    },
-    {
-      "source_id": "civitai",
-      "type": "api",
-      "status": "review_required",
-      "endpoint": "https://civitai.com/"
     },
     {
       "source_id": "openart",
