@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "policy": {
+    "allow_only_declared_connectors": true,
+    "prefer_official_api_or_rss": true,
+    "no_arbitrary_scraping": true,
+    "require_source_url": true,
+    "require_prompt_text": true,
+    "deduplicate": true
+  },
+  "connectors": [
+    {
+      "source_id": "github",
+      "type": "github_search",
+      "status": "enabled",
+      "endpoint": "https://api.github.com/search/code",
+      "notes": "Search public GitHub code for prompt files/snippets; apply rate limits and attribution."
+    },
+    {
+      "source_id": "openai",
+      "type": "official_docs",
+      "status": "review_required",
+      "endpoint": "https://platform.openai.com/docs/overview"
+    },
+    {
+      "source_id": "anthropic",
+      "type": "official_docs",
+      "status": "review_required",
+      "endpoint": "https://docs.anthropic.com/"
+    },
+    {
+      "source_id": "gemini",
+      "type": "official_docs",
+      "status": "review_required",
+      "endpoint": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    },
+    {
+      "source_id": "prompt-engineering-guide",
+      "type": "educational_docs",
+      "status": "review_required",
+      "endpoint": "https://www.promptingguide.ai/"
+    },
+    {
+      "source_id": "civitai",
+      "type": "api",
+      "status": "review_required",
+      "endpoint": "https://civitai.com/"
+    },
+    {
+      "source_id": "openart",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://openart.ai/"
+    },
+    {
+      "source_id": "lexica",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://lexica.art/"
+    },
+    {
+      "source_id": "krea",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://www.krea.ai/"
+    },
+    {
+      "source_id": "god-of-prompt",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://godofprompt.ai/"
+    },
+    {
+      "source_id": "prompthero",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://prompthero.com/"
+    },
+    {
+      "source_id": "promptbase",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://promptbase.com/"
+    },
+    {
+      "source_id": "flowgpt",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://flowgpt.com/"
+    },
+    {
+      "source_id": "aiprm",
+      "type": "api_or_rss",
+      "status": "review_required",
+      "endpoint": "https://www.aiprm.com/"
+    }
+  ]
+}
