@@ -1,7 +1,404 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-06T20:06:37.872001+00:00",
+  "generated_at": "2026-09-06T20:09:29.358446+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
-  "candidates": []
+  "candidates": [
+    {
+      "id": "civitai-142025957",
+      "title": "Civitai prompt 142025957",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, authentic 1950s romance comic illustration, beautiful young redheaded woman, softly curled shoulder-length copper hair, pale skin with delicate freckles, expressive green eyes, slightly raised eyebrows, dreamy yet mischievous expression, glancing coyly over her shoulder toward the viewer, wearing a fitted powder-blue dress with a modest sweetheart neckline and a small pearl necklace, elegant feminine posture, waist-up portrait, warm cream background with subtle illustrated floral motifs, dramatic romantic composition, thick black ink outlines, clean cel shading, bold flat color areas, expressive comic-book linework, ornate decorative panel border, Ben-Day halftone dots, limited vintage color palette, offset printing, subtle color misregistration, distressed ink, aged newsprint texture, authentic 1950s romance-comic aesthetic",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025957",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9308a190-bd4d-4c16-95ee-4d95df4c08a3/original=true/9308a190-bd4d-4c16-95ee-4d95df4c08a3.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 954961639,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.354027+00:00"
+    },
+    {
+      "id": "civitai-142025958",
+      "title": "Civitai prompt 142025958",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, authentic 1950s American commercial advertising illustration, elegant blonde woman with perfectly styled platinum-blonde hair in a smooth sculpted bouffant, luminous fair skin, bright blue eyes, carefully applied vintage makeup, coral-red lipstick, warm polished smile, looking directly at the viewer, wearing a tailored turquoise day dress with a white Peter Pan collar, small pearl earrings, elegant upright posture, waist-up studio portrait, perfectly symmetrical composition, generous negative space, clean pale yellow background, polished mid-century commercial artwork, crisp simplified forms, precise black contour lines, smooth flat color, restrained cel shading, minimal modeling, sophisticated limited color palette, vintage fashion advertisement aesthetic, clean lithographic printing, subtle paper grain, slightly faded period ink, authentic 1950s magazine advertising aesthetic, no comic speech bubbles, no action scene",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025958",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8938c85-ca5d-4447-a90f-55fbc6c0789c/original=true/e8938c85-ca5d-4447-a90f-55fbc6c0789c.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 383836611,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.354243+00:00"
+    },
+    {
+      "id": "civitai-142025959",
+      "title": "Civitai prompt 142025959",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, vintage 1950s pulp crime comic illustration, striking dark-haired femme fatale, sleek jet-black hair in a dramatic sculpted updo, pale olive skin, heavily defined dark eyes, arched eyebrows, bold crimson lipstick, cool calculating expression, intense sidelong glance, wearing a fitted emerald-green evening gown, long black gloves, dramatic teardrop earrings, one gloved hand resting lightly against her shoulder, three-quarter portrait, body turned away while looking toward the viewer, smoky charcoal-gray background, hard-boiled noir atmosphere, dramatic silhouette, thick black ink outlines, stark cel shading, bold flat colors, high-contrast graphic composition, ornate pulp-comic border, dense Ben-Day halftone dots, rough offset printing, imperfect color registration, distressed ink, yellowed newsprint, authentic 1950s crime-comic aesthetic",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025959",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54ac5a30-402c-410c-9524-8fee78289340/original=true/54ac5a30-402c-410c-9524-8fee78289340.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1211378951,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.354440+00:00"
+    },
+    {
+      "id": "civitai-142025960",
+      "title": "Civitai prompt 142025960",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "arcanapress, masterpiece, best quality, highly detailed vintage comic-book illustration, glamorous 1950s American woman, elegant feminine beauty, victory-roll hairstyle, perfectly styled dark hair, dark red lipstick, expressive eyes, knowing sidelong glance, poised confident expression, wearing a sophisticated fitted black dress, strand of classic pearl jewelry, upper-body portrait, centered composition, against a solid mustard-yellow background, bold graphic composition, iconic mid-century pulp-comic aesthetic, thick black ink outlines, clean cel shading, solid flat color blocks, minimal tonal shading, strong silhouette, ornate decorative comic-panel border, heavy Ben-Day halftone dot pattern, vintage offset printing, subtle color misregistration, limited retro color palette, distressed aged newsprint texture, authentic 1950s printed comic aesthetic, crisp linework, screen-print texture, slightly faded ink, tactile paper grain",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025960",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8837f15-331a-4728-9b90-5e528d2d8c5d/original=true/c8837f15-331a-4728-9b90-5e528d2d8c5d.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1953904867,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.354632+00:00"
+    },
+    {
+      "id": "civitai-142025757",
+      "title": "Civitai prompt 142025757",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highres, 1girl . sakura , green eyes, pink hair, silver armor, silver and gold metal, flower crown, gold jewelry, holding sword, dynamic pose, dynamic angle, dramatic lighting, depth of field, blurred background, grassy field, stone castle,\n\nsakura haruno, green eyes, pink hair, tank top, hairband, sling slap, breast plate ,  muscles , muscular, abs, biceps, buff girl, bodybuilder girl, hourglass body shape, covered nipples, \n\nhigh contrast, grain effect prominent throughout image, vibrant colors",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025757",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9cfd5e23-339f-48be-8d52-938251dd8544/original=true/9cfd5e23-339f-48be-8d52-938251dd8544.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:827184@2883731",
+      "model_version_ids": [
+        164821,
+        1835318,
+        2498503,
+        2630567,
+        2883731,
+        2975889
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 127313708,
+      "negative_prompt": "photo, photography, bad quality, worst quality, low quality, low resolution, extra fingers, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, jpeg artifacts, deformed, noisy, bad anatomy, bad hands",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.354785+00:00"
+    },
+    {
+      "id": "civitai-142025492",
+      "title": "Civitai prompt 142025492",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Vertical composition of a young blonde woman enjoying a peaceful picnic beneath a large, sprawling flowering tree.\nShe is sitting casually on a patterned woven blanket, wearing a fashionable sleeveless summer top and high-waisted shorts. Her blonde hair catches the warm light.\nNearby on the blanket are fresh fruit and an open book.\nThe background features a sunlit meadow filled with wildflowers and distant rolling green hills.\nWarm afternoon sunlight filters through the leaves, creating dappled light and soft bloom effects.\nThe image exhibits crisp forms and rich natural textures with sophisticated atmospheric depth.\nRendered with controlled painterly brushwork, reminiscent of classical oil painting.\nColor palette dominated by vibrant emerald green, golden ochre, warm amber, deep crimson, cobalt blue, and ivory.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025492",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09ca032a-5620-40b3-a5ce-3758a8920206/original=true/09ca032a-5620-40b3-a5ce-3758a8920206.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3291238
+      ],
+      "width": 1344,
+      "height": 1792,
+      "seed": -1,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.355461+00:00"
+    },
+    {
+      "id": "civitai-142025500",
+      "title": "Civitai prompt 142025500",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "LORA MODEL AVAILABLE ON MY TELEGRAM GROUP t.me/RDigitalArtistDGirls\n\na beautiful female with long brunette hair, sun kissed skin,\nin a luxurious modern home, Standing beside a hotel minibar counter with one hand resting on the surface and soft evening lighting  the background decor colours dusty blue, light oak and cream limestone, her facial expression Fingertip resting lightly near the corner of her mouth, direct eye contact, slight smirk, raised eyebrow, teasing editorial expression, she is wearing  Pearl white satin halter chemise with a softly gathered waist, flowing skirt and gold decorative trim , shot with a Direct midday sunlight photograph, full-frame camera with 35mm f/2 lens, ISO 100, f/4, 1/1000s, crisp hard shadows, strong highlights, realistic contrast, detailed environment, fashion street-photography aesthetic,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025500",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afea9724-6db3-4d18-8ee0-b864448528c8/original=true/afea9724-6db3-4d18-8ee0-b864448528c8.jpeg",
+      "model": "Krea Models\\krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1776,
+      "height": 2368,
+      "seed": 846120511644449,
+      "negative_prompt": "red dots on skin, isolated red spots, random red speckles, red blemishes, red pinprick marks, unexplained skin redness, irritated skin, blotchy redness, acne, pimples, pustules, inflamed pores, rash, hives, broken capillaries, excessive rosacea, unnatural skin discoloration, artificial freckles, excessive freckles, clustered freckles, harsh age spots, large dark spots, hyperpigmentation patches, dirty-looking skin, mottled skin, blotchy complexion, uneven artificial skin tone, waxy skin, plastic skin, porcelain skin, overly smooth skin, airbrushed skin, excessive skin smoothing, CGI skin, synthetic skin texture, rubber skin, wax figure appearance, oversharpened skin, harsh skin texture, excessive pores, enlarged pores, deep wrinkles, exaggerated wrinkles, facial distortion, asymmetrical eyes, crossed eyes, lazy eye, malformed eyes, distorted pupils, extra fingers, missing fingers, fused fingers, malformed hands, deformed anatomy, unnatural body proportions, warped limbs, duplicate body parts, extra limbs, bad teeth, distorted mouth, malformed lips, blurry face, soft facial features, smeared details, oversaturated skin, unnatural skin color, color banding, compression artifacts, noise, excessive grain, low resolution",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.355631+00:00"
+    },
+    {
+      "id": "civitai-142025336",
+      "title": "Civitai prompt 142025336",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Rikki, A vertical selfie taken with a smartphone held in the left hand at arm’s length, slight wide-angle lens distortion and on-device flash mixed with ambient indoor light. A young woman with fair skin and slender build, her long straight dark blue hair styled into two high twin tails that fall past her chest, straight-cut bangs framing her forehead, dark eyes with heavy black eyeliner and mascara, glossy bright red lips slightly parted, playful expression. She wears an oversized long-sleeved camouflage jacket in mottled green-brown-black woodland pattern unbuttoned over a plain white crew-neck t-shirt, the jacket fabric showing visible weave and soft folds. In her right hand she grips a black polymer AK-style assault rifle held vertically by the pistol grip with the barrel pointing upward, the weapon’s matte finish, magazine, and stock clearly detailed. Skin shows fine pores and natural texture under makeup, individual hair strands with slight flyaways, fabric texture of the camo jacket and smooth plastic of the phone case printed with a detailed illustration, metal and polymer surfaces of the rifle with subtle scuffs. The background is a domestic interior reflected in a large rectangular mirror with dark frame, wooden door with glass panels on the left, white walls, framed pictures on the far wall, black-and-white checkered tile floor, a white mannequin torso partially visible in the lower left, soft indoor lighting with mild specular highlights and natural room shadows. Neutral indoor color palette of greens, browns, blues, whites and blacks with the sharp digital clarity of a smartphone selfie, mild noise and the candid unpolished quality of a casual photo.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025336",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/467316e4-0597-4ce4-93be-7b39c6ca6ece/original=true/467316e4-0597-4ce4-93be-7b39c6ca6ece.jpeg",
+      "model": "krea2_turbo_fp8",
+      "model_version_ids": [
+        3060999,
+        3075498,
+        3075606,
+        3084537,
+        3103326,
+        3109006
+      ],
+      "width": 2350,
+      "height": 3526,
+      "seed": 355689458932982,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.356311+00:00"
+    },
+    {
+      "id": "civitai-142025418",
+      "title": "Civitai prompt 142025418",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "art style: A dreamy anime style clean line and ink wash illustration. Serene magical atmosphere, crisp details, lush details and accurate textures, cinematic wide shot, painterly texture, gentle mood, award winning masterpiece, delicate ink drawing aesthetic.,\ngender: a woman,\nancestry: persian, Middle Eastern features, large almond eyes, an oval face, a straight prominent nose, sharply defined lips, long wavy hair, light olive skin,\nbuild: a slender build with curvy, full hips, a dancer's frame, very small breasts, thick thighs and a large rear,\nmetatype: human, no metahuman traits, natural human features,\neyes: cat eyes, slitted eyes, detailed eyes,\nlips: upturned lips,\nhair: salt-and-pepper grey hair, slicked straight back flat against the head,\noutfit: a long riding coat of oxblood leather split high for the saddle, a black hat with a silver concho band, a black bib shirt with a silver-buttoned placket, twin holsters with matched brass-framed revolvers - tied down at both thighs - black gloves, a silver-and-jet bolo at the throat, black trousers into polished black boots with Mexican-rowel spurs, the whole rig too fine to be honest,\npose: the subject leans one shoulder against a column with the ankles crossed and the arms folded, an unhurried waiting posture,\nshot: off center compositionbackground: parchment paper dyed a deep umbered orange, hand-made paper with asymetrical texturing, no highlights, no shadows, no backlights,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025418",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d457a63-c3b0-493c-9c43-f5aef1300e5c/original=true/0d457a63-c3b0-493c-9c43-f5aef1300e5c.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2442439
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1540598869,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.356489+00:00"
+    },
+    {
+      "id": "civitai-142025366",
+      "title": "Civitai prompt 142025366",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up portrait of a beautiful 30 years old woman. She has long light brown hair, with parted bangs. The hair is tied in a half updo in the back of her head. She has colourful blue eyes, looking to the side. She puckers her lips and bulges one cheek, in an indecisive yet funny expression. Her soft freckles embellish her nose. She wears a light fantasy-style armor, evoking a military uniform with a golden cloak on one shoulder.\n, best quality, very aesthetic, grimmsfantasy",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025366",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0bde47d-33d9-43d5-904f-a760f3e0f59b/original=true/b0bde47d-33d9-43d5-904f-a760f3e0f59b.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3145754,
+        3183952
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1246048754,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.357047+00:00"
+    },
+    {
+      "id": "civitai-142025309",
+      "title": "Civitai prompt 142025309",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Werfmight, 1girl, solo, looking at viewer, long sweatshirt, smile, medium hair, blue eyes, simple background, open eyes, smile, happy, dynamic angle, dynamic pose, choker, ribbed sweatshirt, oversized sweatshirt, one off shoulder, light brown hair, pink background, grey sweatshirt, solid colour sweater, solid colour top, black denim pants, torn pants, alternative fashion, black eyeliner, makeup, hair between eyes, closed mouth, torn clothes, striped sleeves, oversized sleeves, medium chest, medium breasts, realistic, small hips, \nmasterpiece, best quality, amazing quality, newest, absurdres, ultra-detailed, sndcvrn,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025309",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fbfbdfb-cc28-440f-bed6-3254af0df224/original=true/4fbfbdfb-cc28-440f-bed6-3254af0df224.jpeg",
+      "model": null,
+      "model_version_ids": [
+        391999,
+        1131261,
+        1755601,
+        1937683,
+        2167369,
+        2365203,
+        2415963
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1847361213,
+      "negative_prompt": "(((text, white rectangle, white print on chest, white paint on chest))), Eyeshadow, dark eyelids, Print, printed top, printed shirt, Turtleneck, heart,",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.357202+00:00"
+    },
+    {
+      "id": "civitai-142025259",
+      "title": "Civitai prompt 142025259",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "RAW full body analogue photo of a beautiful 20 years old Regency woman, clear focus, 8K, horror movie scene, eerie old mansion hallway: 1 woman, (frightened expression, apprehensive posture) with [analytical mind], long curly brown hair styled in ringlets, (full bust with natural lift), wearing a (form fitting translucent white gown), and a nervous expression, inspired by the Hammer Films horror movies, Ingrid Pitt, with (moody colors) and (expressive brushstrokes), characterized by (atmospheric composition) and sense of danger, (noir atmosphere) and curious nature. ,photo Photorealistic, real photo, god rays, 1girl, 21yo,realistic,\n Medium Long Shot\n , clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025259",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/117f30de-574d-443c-9690-7f8592a89cc4/original=true/117f30de-574d-443c-9690-7f8592a89cc4.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332,
+        3140151,
+        3301240
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 1962060879,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.357368+00:00"
+    },
+    {
+      "id": "civitai-142025176",
+      "title": "Civitai prompt 142025176",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style.A black cat with strikingly bright eyes walks directly toward the camera on a wooden floor, кот держит в зубах женские кружевные плавки, captured in a high-contrast black-and-white photograph with shallow depth of field that blurs the background hallway, emphasizing the cat’s focused gaze and the intricate texture of the lace against its dark fur.",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025176",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/471336cc-def8-41dd-a1e0-3c25975852e8/original=true/471336cc-def8-41dd-a1e0-3c25975852e8.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 397449501,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-06T20:09:29.357659+00:00"
+    }
+  ]
 }
