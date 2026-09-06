@@ -1,13 +1,14 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
-  "mode": "safe",
-  "auto_publish": false,
+  "mode": "safe_auto",
+  "auto_publish": true,
   "min_quality_score": 8,
   "deduplicate_by": ["id", "normalized_prompt"],
   "sources_file": "data/sources.json",
   "prompts_file": "data/prompts.json",
+  "inbox_files": ["data/inbox/github-prompts.json"],
   "log_file": "data/update-log.json",
   "rules": {
     "prefer_official_sources": true,
@@ -15,6 +16,8 @@
     "reject_empty_or_duplicate": true,
     "keep_source_url": true,
     "preserve_existing_prompts": true,
-    "review_before_publish": true
+    "auto_publish_only_enabled_connectors": true,
+    "minimum_quality_for_auto_publish": 8,
+    "review_before_publish": false
   }
 }
