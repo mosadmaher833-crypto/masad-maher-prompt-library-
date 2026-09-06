@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "purpose": "Professional normalized schema for the Masad Maher Prompt Platform",
+  "record": {
+    "id": "stable unique id",
+    "title": "human readable title",
+    "category": "canonical category",
+    "subcategory": "canonical subcategory",
+    "task_type": "generation|editing|analysis|writing|education|coding|planning|other",
+    "modality": "image|video|text|audio|data|code|multimodal",
+    "tags": ["searchable tags"],
+    "models": ["target models/tools"],
+    "prompt": "full prompt text",
+    "negative_prompt": "optional negative prompt",
+    "template": "prompt engineering formula",
+    "variables": [{"name":"variable","default":"","description":""}],
+    "quality_score": 0,
+    "language": "ar|en|mixed|other",
+    "source": "display source",
+    "source_id": "connector source id",
+    "source_url": "canonical source URL",
+    "source_repository": "optional repository",
+    "license": "license/attribution information",
+    "image_url": "optional preview",
+    "model_version_ids": [],
+    "width": 0,
+    "height": 0,
+    "seed": null,
+    "created_at": "ISO timestamp",
+    "updated_at": "ISO timestamp",
+    "imported_at": "ISO timestamp",
+    "search_text": "prebuilt normalized search field"
+  },
+  "quality": {
+    "minimum_auto_publish": 8,
+    "required": ["prompt", "source_url", "source_id"],
+    "dedupe": ["normalized_prompt_hash", "semantic_candidates"]
+  }
+}
