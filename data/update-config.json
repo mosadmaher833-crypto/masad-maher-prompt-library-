@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
   "mode": "safe_auto",
@@ -12,7 +12,8 @@
     "data/inbox/github-prompts.json",
     "data/inbox/lexica-prompts.json",
     "data/inbox/civitai-prompts.json",
-    "data/inbox/official-github-prompts.json"
+    "data/inbox/official-github-prompts.json",
+    "data/inbox/official-model-prompts.json"
   ],
   "log_file": "data/update-log.json",
   "rules": {
@@ -25,6 +26,7 @@
     "minimum_quality_for_auto_publish": 8,
     "review_before_publish": false,
     "preserve_rich_metadata": true,
-    "preserve_license": true
+    "preserve_license": true,
+    "never_scrape_review_required_sources": true
   }
 }
