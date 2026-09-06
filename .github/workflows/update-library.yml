@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: prompt-library-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-library:
@@ -24,6 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -91,7 +92,9 @@ jobs:
           git add data/prompts.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json
           if git diff --cached --quiet; then
             echo 'No generated data changes.'
-          else
-            git commit -m 'تحديث تلقائي للمكتبة من الموصلات المفعلة'
-            git push
+            exit 0
           fi
+          git commit -m 'تحديث تلقائي للمكتبة من الموصلات المفعلة'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
