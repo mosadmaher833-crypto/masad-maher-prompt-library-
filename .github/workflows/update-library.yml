@@ -85,16 +85,41 @@ jobs:
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Commit generated data
+      - name: Commit and push generated data safely
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
           git add data/prompts.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json
+
           if git diff --cached --quiet; then
             echo 'No generated data changes.'
             exit 0
           fi
+
           git commit -m 'تحديث تلقائي للمكتبة من الموصلات المفعلة'
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
+
+          # Rebase before the first push, then retry safely if another update
+          # reaches main between fetch and push. Never force-push main.
+          for attempt in 1 2 3 4 5; do
+            echo "Synchronizing with origin/main (attempt $attempt)..."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo 'Rebase conflict detected. Aborting instead of risking main.'
+              git rebase --abort || true
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo 'Generated data pushed successfully.'
+              exit 0
+            fi
+
+            echo "Push was rejected because main changed. Retrying..."
+            sleep $((attempt * 5))
+          done
+
+          echo 'Unable to push after 5 safe attempts.'
+          exit 1
