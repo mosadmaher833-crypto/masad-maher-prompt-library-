@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "sources": [
+    {"id":"god-of-prompt","name":"God of Prompt","type":"Prompt Library","focus":["General","AI","Marketing"],"url":"https://godofprompt.ai/","priority":"high"},
+    {"id":"prompthero","name":"PromptHero","type":"Prompt Library","focus":["Image","AI Art","Video"],"url":"https://prompthero.com/","priority":"high"},
+    {"id":"promptbase","name":"PromptBase","type":"Prompt Marketplace","focus":["Image","Writing","Marketing"],"url":"https://promptbase.com/","priority":"high"},
+    {"id":"flowgpt","name":"FlowGPT","type":"Prompt Community","focus":["General","Writing","Coding"],"url":"https://flowgpt.com/","priority":"high"},
+    {"id":"aiprm","name":"AIPRM","type":"Prompt Library","focus":["Writing","SEO","Marketing"],"url":"https://www.aiprm.com/","priority":"high"},
+    {"id":"civitai","name":"Civitai","type":"AI Art Community","focus":["Image","Models","Prompts"],"url":"https://civitai.com/","priority":"critical"},
+    {"id":"openart","name":"OpenArt","type":"AI Art Platform","focus":["Image","Video","Prompts"],"url":"https://openart.ai/","priority":"critical"},
+    {"id":"lexica","name":"Lexica","type":"Prompt Search","focus":["Image","AI Art"],"url":"https://lexica.art/","priority":"high"},
+    {"id":"krea","name":"Krea","type":"Creative AI Platform","focus":["Image","Video","Realtime"],"url":"https://www.krea.ai/","priority":"high"},
+    {"id":"openai","name":"OpenAI","type":"Official Documentation","focus":["Prompt Engineering","ChatGPT","API"],"url":"https://platform.openai.com/docs/overview","priority":"critical"},
+    {"id":"anthropic","name":"Anthropic / Claude","type":"Official Documentation","focus":["Prompt Engineering","Claude"],"url":"https://docs.anthropic.com/","priority":"critical"},
+    {"id":"gemini","name":"Google Gemini","type":"Official Documentation","focus":["Prompt Engineering","Gemini"],"url":"https://ai.google.dev/gemini-api/docs/prompting-strategies","priority":"critical"},
+    {"id":"microsoft","name":"Microsoft","type":"Official Documentation","focus":["Prompt Engineering","Copilot","AI"],"url":"https://learn.microsoft.com/","priority":"high"},
+    {"id":"github","name":"GitHub","type":"Developer Platform","focus":["Coding","AI","Prompt Engineering"],"url":"https://github.com/","priority":"high"},
+    {"id":"prompt-engineering-guide","name":"Prompt Engineering Guide","type":"Educational Guide","focus":["Prompt Engineering","LLMs"],"url":"https://www.promptingguide.ai/","priority":"critical"},
+    {"id":"midjourney","name":"Midjourney","type":"Image AI","focus":["Image","Style","Prompting"],"url":"https://www.midjourney.com/","priority":"critical"},
+    {"id":"nano-banana","name":"Nano Banana","type":"Image AI","focus":["Image Editing","Image Generation"],"url":"https://gemini.google.com/","priority":"high"},
+    {"id":"flux","name":"FLUX","type":"Image Model","focus":["Image","Photorealism"],"url":"https://blackforestlabs.ai/","priority":"critical"},
+    {"id":"stable-diffusion","name":"Stable Diffusion","type":"Image Model","focus":["Image","Generative AI"],"url":"https://stability.ai/","priority":"critical"},
+    {"id":"sdxl","name":"SDXL","type":"Image Model","focus":["Image","Stable Diffusion"],"url":"https://stability.ai/","priority":"high"},
+    {"id":"veo","name":"Veo","type":"Video AI","focus":["Video","Cinematic"],"url":"https://deepmind.google/models/veo/","priority":"critical"},
+    {"id":"runway","name":"Runway","type":"Video AI","focus":["Video","Generation","Editing"],"url":"https://runwayml.com/","priority":"critical"},
+    {"id":"kling","name":"Kling","type":"Video AI","focus":["Video","Motion","Image-to-Video"],"url":"https://klingai.com/","priority":"critical"},
+    {"id":"sora","name":"Sora","type":"Video AI","focus":["Video","Text-to-Video"],"url":"https://openai.com/sora/","priority":"critical"},
+    {"id":"seedance","name":"Seedance","type":"Video AI","focus":["Video","Generation"],"url":"https://seed.bytedance.com/","priority":"high"},
+    {"id":"ltx","name":"LTX","type":"Video AI","focus":["Video","Open Source"],"url":"https://ltx.video/","priority":"high"},
+    {"id":"wan","name":"Wan","type":"Video AI","focus":["Video","Open Source"],"url":"https://wan.video/","priority":"high"}
+  ]
+}
