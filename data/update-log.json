@@ -1,10 +1,11 @@
 {
-  "version": "1.1",
-  "last_run": "2026-09-06T17:39:57.706673+00:00",
-  "status": "dry_run",
+  "version": "1.2",
+  "last_run": "2026-09-06T18:16:10.656259+00:00",
+  "status": "completed_auto_publish",
   "added": 0,
   "updated": 0,
   "rejected": 0,
+  "deduplicated": 0,
   "source_count": 27,
   "prompt_count": 22,
   "connectors": {
@@ -15,12 +16,13 @@
       "github"
     ]
   },
-  "auto_publish": false,
-  "notes": "المرحلة الحالية تتحقق من البيانات وقواعد الموصلات. لا يتم سحب محتوى من مصدر إلا عبر موصل معلن ومفعل.",
+  "auto_publish": true,
+  "imported_ids": [],
+  "notes": "يتم النشر التلقائي فقط من الموصلات المعلنة والمفعلة وبحد جودة أدنى، مع الاحتفاظ برابط المصدر وبيانات الترخيص عند توفرها.",
   "workflow": {
     "status": "completed",
     "event": "push",
-    "run_id": "34049295636",
-    "completed_at": "2026-09-06T17:39:57.739937+00:00"
+    "run_id": "34051156462",
+    "completed_at": "2026-09-06T18:16:10.703013+00:00"
   }
 }
