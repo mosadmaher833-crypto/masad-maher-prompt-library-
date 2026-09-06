@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "name": "Masad Maher Prompt Taxonomy",
+  "description": "تصنيف موحد للبحث والاكتشاف وهندسة البرومبتات.",
+  "categories": [
+    {"id":"image","name":"الصور","subcategories":["بورتريه","منتجات","طعام","أزياء","مناظر","سينمائي","فن","3D","هوية ووجه","تصميم","إضاءة"]},
+    {"id":"video","name":"الفيديو","subcategories":["سينمائي","إعلانات","حركة كاميرا","حركة الشخصيات","تحويل صورة إلى فيديو","مشاهد متعددة","صوت وحوار"]},
+    {"id":"advertising","name":"الإعلانات","subcategories":["منتجات","سوشيال ميديا","فيديو إعلاني","حملات","Copywriting","CTA","هوية تجارية"]},
+    {"id":"writing","name":"الكتابة والمحتوى","subcategories":["منشورات","مقالات","سيناريو","قصص","إعادة صياغة","تلخيص","SEO"]},
+    {"id":"education","name":"التعليم","subcategories":["خطط دروس","شرح","اختبارات","واجبات","معلم","تعلم شخصي"]},
+    {"id":"data","name":"البيانات","subcategories":["تحليل","تقارير","KPIs","تنظيف بيانات","تصور بيانات","توقعات"]},
+    {"id":"programming","name":"البرمجة","subcategories":["تطوير","مراجعة كود","تصحيح أخطاء","API","أمن","اختبارات","توثيق"]},
+    {"id":"contracting","name":"المقاولات","subcategories":["تكاليف","عمالة","مواد","حصر كميات","تسعير","مشروعات","محاسبة"]},
+    {"id":"architecture","name":"العمارة والتصميم","subcategories":["واجهات","داخلية","مخططات","مناظير","لاندسكيب","إضاءة"]},
+    {"id":"photography","name":"التصوير","subcategories":["بورتريه","منتجات","طعام","شارع","طبيعة","استوديو"]},
+    {"id":"prompt-engineering","name":"هندسة البرومبتات","subcategories":["تحليل Prompt","تحسين","قوالب","System Prompt","Agents","تحويل النماذج"]},
+    {"id":"business","name":"الأعمال","subcategories":["تسويق","مبيعات","استراتيجية","خدمة عملاء","إدارة","أبحاث"]},
+    {"id":"apps","name":"التطبيقات","subcategories":["UI/UX","MVP","Web App","Mobile App","SaaS","ميزات"]}
+  ],
+  "models": ["Nano Banana","Gemini","Midjourney","FLUX","Stable Diffusion","SDXL","Veo","Runway","Kling","Sora","Seedance","LTX","Wan","ChatGPT","Claude"]
+}
