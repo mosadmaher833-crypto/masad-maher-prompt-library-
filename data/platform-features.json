@@ -1,0 +1,31 @@
+{
+  "version":"2.0",
+  "platform":"مكتبة مسعد ماهر للـPrompts",
+  "features":{
+    "catalog":true,
+    "smart_search":true,
+    "prompt_engineer_pro":true,
+    "prompt_generator":true,
+    "prompt_editor":true,
+    "collections_local":true,
+    "favorites_local":true,
+    "profile_local":true,
+    "community_submission":true,
+    "prompt_rating_local":true,
+    "prompt_comparison":true,
+    "analytics":true,
+    "daily_auto_update":true,
+    "deduplication":true,
+    "source_attribution":true,
+    "pwa":true
+  },
+  "architecture":{
+    "frontend":"Static HTML/CSS/JavaScript on GitHub Pages",
+    "central_data":"JSON in Git repository",
+    "automation":"GitHub Actions",
+    "user_storage":"Browser LocalStorage",
+    "central_auth":"not enabled in static phase",
+    "central_user_database":"requires external backend/authentication"
+  },
+  "policy":"لا يتم نشر مساهمات المستخدمين مركزيًا مباشرة من المتصفح؛ تمر عبر مراجعة المصدر والجودة والتكرار."
+}
