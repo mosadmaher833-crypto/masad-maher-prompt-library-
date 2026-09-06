@@ -16,7 +16,6 @@ concurrency:
 
 jobs:
   update-library:
-    # A bot commit produced by this workflow must not start another update cycle.
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -37,6 +36,9 @@ jobs:
           echo "Event: ${{ github.event_name }}"
           echo "Commit: ${{ github.sha }}"
           python --version
+
+      - name: Validate existing library data
+        run: python scripts/validate_library.py
 
       - name: Discover prompts from GitHub
         env:
@@ -61,6 +63,9 @@ jobs:
 
       - name: Import and publish candidates from enabled connectors
         run: python scripts/update-library.py
+
+      - name: Validate imported library data
+        run: python scripts/validate_library.py
 
       - name: Record run status
         run: |
