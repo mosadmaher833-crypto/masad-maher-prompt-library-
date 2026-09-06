@@ -1,24 +1,41 @@
 name: Update Prompt Library
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: prompt-library-update
+  cancel-in-progress: false
+
 jobs:
   update-library:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
+      - name: Verify workflow is running
+        run: |
+          echo "Workflow run started successfully."
+          echo "Event: ${{ github.event_name }}"
+          echo "Commit: ${{ github.sha }}"
+          python --version
 
       - name: Run GitHub prompt discovery (review only)
         env:
@@ -28,14 +45,32 @@ jobs:
       - name: Run safe updater
         run: python scripts/update-library.py
 
+      - name: Record run status
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          path = Path('data/update-log.json')
+          data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+          data['workflow'] = {
+              'status': 'completed',
+              'event': '${{ github.event_name }}',
+              'run_id': '${{ github.run_id }}',
+              'completed_at': datetime.now(timezone.utc).isoformat()
+          }
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
       - name: Commit generated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/prompts.json data/update-log.json data/inbox/github-prompts.json
           if git diff --cached --quiet; then
-            echo 'No data changes.'
+            echo 'No generated data changes.'
           else
-            git commit -m 'تحديث تلقائي لمكتبة البرومبتات ومراجعة مصادر GitHub'
+            git commit -m 'تحديث تلقائي لمكتبة البرومبتات وتسجيل التشغيل'
             git push
           fi
