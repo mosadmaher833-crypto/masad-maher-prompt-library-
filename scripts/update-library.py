@@ -2,8 +2,8 @@
 """Update engine for Masad Maher Prompt Library.
 
 Validates the local library, imports candidates from explicitly enabled
-connectors, removes duplicates, and records a complete update log.
-No arbitrary website scraping is performed by this engine.
+connectors, removes duplicates, preserves rich source metadata, and records a
+complete update log. No arbitrary website scraping is performed here.
 """
 import hashlib
 import json
@@ -116,23 +116,36 @@ def import_inbox(data, config, enabled_sources):
                 rejected += 1
                 continue
             h = prompt_hash(text)
-            pid = str(item.get("id") or "gh-" + h[:12])
+            pid = str(item.get("id") or "imported-" + h[:12])
             if pid in existing_ids or h in existing_hashes:
                 continue
+
+            # Preserve the useful metadata supplied by the connector rather
+            # than reducing every imported record to only title/prompt/source.
             record = {
                 "id": pid,
                 "title": item.get("title") or "Prompt مستورد",
                 "category": item.get("category") or "prompt-engineering",
+                "subcategory": item.get("subcategory"),
                 "tags": item.get("tags") or ["imported"],
                 "prompt": text,
                 "quality_score": quality,
-                "source": item.get("source") or "GitHub",
+                "source": item.get("source") or "Unknown",
+                "source_id": item.get("source_id"),
                 "source_repository": item.get("source_repository"),
                 "source_url": item.get("source_url"),
+                "image_url": item.get("image_url"),
+                "model": item.get("model"),
+                "model_version_ids": item.get("model_version_ids"),
+                "width": item.get("width"),
+                "height": item.get("height"),
+                "seed": item.get("seed"),
+                "negative_prompt": item.get("negative_prompt"),
                 "license": item.get("license"),
                 "imported_at": datetime.now(timezone.utc).isoformat(),
                 "import_method": "enabled_connector_auto_publish",
             }
+            record = {k: v for k, v in record.items() if v is not None}
             current.append(record)
             existing_ids.add(pid)
             existing_hashes.add(h)
@@ -151,7 +164,10 @@ def main():
     connectors, enabled_sources = connector_summary(rules)
 
     before = len(data.get("prompts", []))
-    data, imported, import_rejected, imported_ids = import_inbox(data, config, enabled_sources) if config.get("auto_publish") else (data, 0, 0, [])
+    if config.get("auto_publish"):
+        data, imported, import_rejected, imported_ids = import_inbox(data, config, enabled_sources)
+    else:
+        imported, import_rejected, imported_ids = 0, 0, []
     unique, dedupe_rejected, _, _ = validate_and_dedupe(data.get("prompts", []))
     data["prompts"] = unique
     after = len(unique)
@@ -159,7 +175,7 @@ def main():
     now = datetime.now(timezone.utc).isoformat()
 
     log = {
-        "version": "1.2",
+        "version": "1.3",
         "last_run": now,
         "status": "completed_auto_publish" if config.get("auto_publish") else "dry_run",
         "added": imported,
@@ -171,7 +187,7 @@ def main():
         "connectors": connectors,
         "auto_publish": bool(config.get("auto_publish", False)),
         "imported_ids": imported_ids[:100],
-        "notes": "يتم النشر التلقائي فقط من الموصلات المعلنة والمفعلة وبحد جودة أدنى، مع الاحتفاظ برابط المصدر وبيانات الترخيص عند توفرها."
+        "notes": "النشر التلقائي محصور في الموصلات المعلنة والمفعلة وبجودة دنيا 8/10، مع الاحتفاظ برابط المصدر وبيانات الصورة/النموذج والترخيص عند توفرها."
     }
 
     write_json(PROMPTS, data)
