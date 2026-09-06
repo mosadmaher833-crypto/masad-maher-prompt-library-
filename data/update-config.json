@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
   "mode": "safe_auto",
@@ -8,7 +8,11 @@
   "deduplicate_by": ["id", "normalized_prompt"],
   "sources_file": "data/sources.json",
   "prompts_file": "data/prompts.json",
-  "inbox_files": ["data/inbox/github-prompts.json", "data/inbox/lexica-prompts.json"],
+  "inbox_files": [
+    "data/inbox/github-prompts.json",
+    "data/inbox/lexica-prompts.json",
+    "data/inbox/civitai-prompts.json"
+  ],
   "log_file": "data/update-log.json",
   "rules": {
     "prefer_official_sources": true,
@@ -18,6 +22,7 @@
     "preserve_existing_prompts": true,
     "auto_publish_only_enabled_connectors": true,
     "minimum_quality_for_auto_publish": 8,
-    "review_before_publish": false
+    "review_before_publish": false,
+    "preserve_rich_metadata": true
   }
 }
