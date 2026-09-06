@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>مكتبة مسعد ماهر للـPrompts</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f5f7fb;color:#172033}header{background:#111827;color:white;padding:28px 6%;text-align:center}main{max-width:1100px;margin:30px auto;padding:0 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.card{background:white;border-radius:14px;padding:20px;box-shadow:0 3px 14px #0001}.card a{display:inline-block;margin-top:10px;text-decoration:none;font-weight:bold}h1{margin:0 0 8px}h2{margin-top:36px}.badge{display:inline-block;background:#eef2ff;padding:6px 10px;border-radius:999px;margin:4px;font-size:13px}footer{text-align:center;padding:30px;color:#667085}.search{width:100%;box-sizing:border-box;padding:14px;border:1px solid #ddd;border-radius:10px;font-size:16px}
+</style>
+</head><body>
+<header><h1>📚 مكتبة مسعد ماهر للـPrompts</h1><p>مكتبة عربية احترافية لبناء وحفظ وتطوير واستخدام البرومبتات.</p></header>
+<main>
+<input id="q" class="search" placeholder="ابحث عن قسم أو قالب..." oninput="filter()">
+<h2>الأقسام الأساسية</h2><div id="cards" class="grid">
+<div class="card"><h3>🎨 الصور</h3><p>برومبتات وتكوينات الصور والإعلانات والشخصيات.</p><a href="prompts/image/">فتح القسم</a></div>
+<div class="card"><h3>🎬 الفيديو</h3><p>الموضوع، الحركة، الكاميرا، البيئة، الإضاءة، الصوت والقيود.</p><a href="prompts/video/">فتح القسم</a></div>
+<div class="card"><h3>✍️ المحتوى</h3><p>كتابة، إعادة صياغة، سوشيال ميديا، سكربتات وتسويق.</p><a href="prompts/content/">فتح القسم</a></div>
+<div class="card"><h3>📊 الأعمال</h3><p>تخطيط، تسويق، تحليل، عروض، مشاريع وإدارة.</p><a href="prompts/business/">فتح القسم</a></div>
+<div class="card"><h3>🎓 التعليم</h3><p>شرح، خطط دراسية، أسئلة، تدريب وبحث.</p><a href="prompts/education/">فتح القسم</a></div>
+<div class="card"><h3>🏗️ المقاولات</h3><p>إدارة العمال، الحسابات، المشاريع، التكاليف والتقارير.</p><a href="prompts/construction/">فتح القسم</a></div>
+<div class="card"><h3>💻 البرمجة</h3><p>تطوير، مراجعة كود، تصحيح أخطاء وتحليل تقني.</p><a href="prompts/coding/">فتح القسم</a></div>
+<div class="card"><h3>🧠 هندسة البرومبت</h3><p>القواعد والقوالب الموحدة وبناء البرومبتات المتقدمة.</p><a href="guides/prompt-engineering.md">فتح الدليل</a></div>
+</div>
+<h2>القالب الأساسي للصور</h2><div class="card"><b>الموضوع → الوضعية → البيئة → التكوين → الكاميرا → الإضاءة → الأسلوب → التفاصيل → القيود → الناتج</b></div>
+<h2>القالب الأساسي للفيديو</h2><div class="card"><b>الموضوع → الحركة → البيئة → حركة الكاميرا → الحركة البيئية → التوقيت → الإضاءة → الأسلوب → الصوت → القيود</b></div>
+<h2>مصادر المكتبة</h2><p><span class="badge">God of Prompt</span><span class="badge">PromptHero</span><span class="badge">PromptBase</span><span class="badge">FlowGPT</span><span class="badge">AIPRM</span><span class="badge">Civitai</span><span class="badge">OpenArt</span><span class="badge">Lexica</span><span class="badge">Krea</span><span class="badge">OpenAI</span><span class="badge">Anthropic</span><span class="badge">Gemini</span><span class="badge">Microsoft</span><span class="badge">GitHub</span></p>
+</main><footer>Masad Maher Prompt Library — الإصدار الأول المنظم</footer>
+<script>function filter(){let q=document.getElementById('q').value.trim().toLowerCase();document.querySelectorAll('#cards .card').forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?'block':'none')}</script>
+</body></html>
