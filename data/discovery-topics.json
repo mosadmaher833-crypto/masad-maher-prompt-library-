@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "rotation": "daily",
+  "topics": [
+    {"id":"image","queries":["image prompt","photorealistic prompt","cinematic image prompt","product photography prompt","portrait prompt"]},
+    {"id":"video","queries":["video prompt","cinematic video prompt","camera movement prompt","Veo prompt","Runway prompt","Kling prompt"]},
+    {"id":"advertising","queries":["advertising prompt","product ad prompt","social media ad prompt","commercial prompt"]},
+    {"id":"writing","queries":["writing prompt","content prompt","copywriting prompt","social media prompt"]},
+    {"id":"education","queries":["education prompt","lesson plan prompt","teacher prompt","learning prompt"]},
+    {"id":"data","queries":["data analysis prompt","analytics prompt","dashboard prompt","business intelligence prompt"]},
+    {"id":"coding","queries":["coding prompt","code review prompt","software engineering prompt","debugging prompt"]},
+    {"id":"architecture","queries":["architecture prompt","interior design prompt","architectural visualization prompt"]},
+    {"id":"photography","queries":["photography prompt","fashion photography prompt","food photography prompt"]},
+    {"id":"prompt-engineering","queries":["prompt engineering template","system prompt","prompt framework","AI instruction template"]}
+  ]
+}
