@@ -18,7 +18,7 @@ concurrency:
 jobs:
   update-library:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,12 +37,15 @@ jobs:
           echo "Commit: ${{ github.sha }}"
           python --version
 
-      - name: Run GitHub prompt discovery (review only)
+      - name: Discover prompts from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/github_prompt_connector.py
 
-      - name: Run safe updater
+      - name: Discover prompts from Lexica
+        run: python scripts/lexica_prompt_connector.py
+
+      - name: Import and publish candidates from enabled connectors
         run: python scripts/update-library.py
 
       - name: Record run status
@@ -67,10 +70,10 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/prompts.json data/update-log.json data/inbox/github-prompts.json
+          git add data/prompts.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json
           if git diff --cached --quiet; then
             echo 'No generated data changes.'
           else
-            git commit -m 'تحديث تلقائي لمكتبة البرومبتات وتسجيل التشغيل'
+            git commit -m 'تحديث تلقائي للمكتبة من الموصلات المفعلة'
             git push
           fi
