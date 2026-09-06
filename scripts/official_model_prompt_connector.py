@@ -7,6 +7,7 @@ scrapes or republishes material without a verified license/API route.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -42,16 +43,15 @@ def get(url: str):
 
 def score(text: str) -> int:
     t = text.lower()
-    score = 5
-    if len(text) >= 80: score += 1
-    if len(text) >= 160: score += 1
+    value = 5
+    if len(text) >= 80: value += 1
+    if len(text) >= 160: value += 1
     for k in ("camera", "lighting", "motion", "scene", "subject", "style", "action", "prompt"):
-        if k in t: score += 1
-    return min(score, 10)
+        if k in t: value += 1
+    return min(value, 10)
 
 
 def extract_prompts(markdown: str):
-    # Prefer explicit prompt-labelled blocks and quoted prompt examples.
     blocks = []
     for m in re.finditer(r"(?is)(?:prompt|text-to-video prompt|image prompt)\s*[:\-]\s*(.+?)(?=\n\s*\n|\n#{1,4}\s|$)", markdown):
         text = re.sub(r"\s+", " ", m.group(1)).strip(" `>\t")
@@ -62,11 +62,16 @@ def extract_prompts(markdown: str):
         if 80 <= len(text) <= 2500 and score(text) >= 8:
             blocks.append(text)
     seen = set()
-    for x in blocks:
-        key = re.sub(r"[^a-z0-9]+", " ", x.lower()).strip()
-        if key not in seen:
+    for text in blocks:
+        key = re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+        if key and key not in seen:
             seen.add(key)
-            yield x
+            yield text
+
+
+def stable_id(source_id: str, prompt: str) -> str:
+    digest = hashlib.sha256(prompt.encode("utf-8")).hexdigest()[:16]
+    return f"{source_id}-official-{digest}"
 
 
 def main():
@@ -79,20 +84,21 @@ def main():
             continue
         try:
             readme = get(f"https://raw.githubusercontent.com/{src['repo']}/main/README.md")
-        except Exception:
+        except Exception as exc:
+            print(f"official-model connector: skipped {src['repo']}: {exc}")
             continue
-        for idx, prompt in enumerate(extract_prompts(readme)):
-            q = score(prompt)
-            if q < 8:
+        for prompt in extract_prompts(readme):
+            quality = score(prompt)
+            if quality < 8:
                 continue
             candidates.append({
-                "id": f"{src['source_id']}-official-{idx}-{abs(hash(prompt))}",
-                "title": f"{src['model']} official prompt example {idx + 1}",
+                "id": stable_id(src["source_id"], prompt),
+                "title": f"{src['model']} official prompt example",
                 "category": "video" if src["source_id"] in {"wan", "ltx", "runway", "kling", "sora", "seedance"} else "image",
                 "subcategory": "official-model-prompts",
                 "tags": [src["source_id"], "official", "prompt-engineering"],
                 "prompt": prompt,
-                "quality_score": q,
+                "quality_score": quality,
                 "source": src["repo"],
                 "source_id": src["source_id"],
                 "source_url": f"https://github.com/{src['repo']}",
