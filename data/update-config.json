@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
   "mode": "safe_auto",
@@ -8,7 +8,7 @@
   "deduplicate_by": ["id", "normalized_prompt"],
   "sources_file": "data/sources.json",
   "prompts_file": "data/prompts.json",
-  "inbox_files": ["data/inbox/github-prompts.json"],
+  "inbox_files": ["data/inbox/github-prompts.json", "data/inbox/lexica-prompts.json"],
   "log_file": "data/update-log.json",
   "rules": {
     "prefer_official_sources": true,
