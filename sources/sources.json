@@ -1,0 +1,33 @@
+{
+  "library": "مكتبة مسعد ماهر للـPrompts",
+  "version": "1.0.0",
+  "description": "السجل الأساسي للمصادر المعتمدة في مكتبة مسعد ماهر للـPrompts.",
+  "sources": [
+    {"name":"God of Prompt","category":"prompt-library","url":"https://www.godofprompt.ai/","focus":"مكتبة برومبتات وأدوات هندسة الأوامر"},
+    {"name":"PromptHero","category":"prompt-library","url":"https://prompthero.com/","focus":"برومبتات توليد الصور"},
+    {"name":"PromptBase","category":"prompt-library","url":"https://promptbase.com/","focus":"سوق ومكتبة برومبتات"},
+    {"name":"FlowGPT","category":"prompt-library","url":"https://flowgpt.com/","focus":"مشاركة واكتشاف البرومبتات"},
+    {"name":"AIPRM","category":"prompt-library","url":"https://www.aiprm.com/","focus":"قوالب وبرومبتات جاهزة"},
+    {"name":"Civitai","category":"image-prompts","url":"https://civitai.com/","focus":"نماذج وصور وبرومبتات للذكاء الاصطناعي"},
+    {"name":"OpenArt","category":"image-prompts","url":"https://openart.ai/","focus":"إنشاء الصور واكتشاف البرومبتات"},
+    {"name":"Lexica","category":"image-prompts","url":"https://lexica.art/","focus":"محرك بحث للصور والبرومبتات"},
+    {"name":"Krea","category":"image-prompts","url":"https://www.krea.ai/","focus":"توليد وتحرير الصور بالذكاء الاصطناعي"},
+    {"name":"OpenAI","category":"official-prompt-engineering","url":"https://platform.openai.com/docs/","focus":"إرشادات رسمية لهندسة الأوامر ونماذج OpenAI"},
+    {"name":"Anthropic","category":"official-prompt-engineering","url":"https://docs.anthropic.com/","focus":"إرشادات Claude وهندسة الأوامر"},
+    {"name":"Google Gemini","category":"official-prompt-engineering","url":"https://ai.google.dev/","focus":"إرشادات Gemini والبرومبتات متعددة الوسائط"},
+    {"name":"Microsoft","category":"official-prompt-engineering","url":"https://learn.microsoft.com/","focus":"إرشادات الذكاء الاصطناعي وهندسة الأوامر"},
+    {"name":"GitHub","category":"official-prompt-engineering","url":"https://github.com/","focus":"مشروعات وأدوات ومصادر مفتوحة للبرومبتات"},
+    {"name":"Prompt Engineering Guide","category":"prompt-engineering","url":"https://www.promptingguide.ai/","focus":"مرجع شامل لهندسة الأوامر"},
+    {"name":"Midjourney","category":"image-specialized","url":"https://www.midjourney.com/","focus":"توليد الصور"},
+    {"name":"FLUX","category":"image-specialized","url":"https://blackforestlabs.ai/","focus":"نماذج توليد الصور"},
+    {"name":"Stable Diffusion","category":"image-specialized","url":"https://stability.ai/","focus":"توليد الصور والنماذج المفتوحة"},
+    {"name":"SDXL","category":"image-specialized","url":"https://stability.ai/","focus":"نماذج Stable Diffusion XL"},
+    {"name":"Veo","category":"video-specialized","url":"https://deepmind.google/models/veo/","focus":"توليد الفيديو"},
+    {"name":"Runway","category":"video-specialized","url":"https://runwayml.com/","focus":"توليد وتحرير الفيديو"},
+    {"name":"Kling","category":"video-specialized","url":"https://klingai.com/","focus":"توليد الفيديو"},
+    {"name":"Sora","category":"video-specialized","url":"https://openai.com/sora/","focus":"توليد الفيديو"},
+    {"name":"Seedance","category":"video-specialized","url":"https://seed.bytedance.com/","focus":"نماذج الفيديو"},
+    {"name":"LTX","category":"video-specialized","url":"https://ltx.video/","focus":"توليد الفيديو"},
+    {"name":"Wan","category":"video-specialized","url":"https://github.com/Wan-Video/Wan2.1","focus":"نماذج فيديو مفتوحة المصدر"}
+  ]
+}
