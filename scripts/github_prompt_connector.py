@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Discover candidate prompts from public GitHub into a review inbox.
 
-The connector is intentionally review-only. It prefers authenticated GitHub API
-requests, checks the dedicated code-search quota before using code search, and
-falls back to repository/README discovery when code search is rate-limited.
-Candidates never go directly into data/prompts.json.
+The connector is intentionally review-only. It uses public GitHub API search,
+rotates discovery themes, preserves attribution/license metadata, and never
+publishes directly into the canonical prompt corpus.
 """
 import hashlib
 import json
@@ -20,26 +19,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INBOX = ROOT / "data" / "inbox" / "github-prompts.json"
 CODE_QUERIES = [
-    '"prompt template"',
-    '"system prompt"',
-    '"You are" prompt',
-    '"Act as" prompt',
+    '"prompt template"', '"system prompt"', '"You are" prompt', '"Act as" prompt',
+    '"image prompt"', '"video prompt"', '"advertising prompt"', '"education prompt"',
+    '"data analysis prompt"', '"coding prompt"', '"architecture prompt"', '"photography prompt"'
 ]
 REPO_QUERIES = [
-    "prompt engineering",
-    "prompt templates",
+    "prompt engineering", "prompt templates", "AI image prompts", "AI video prompts",
+    "LLM prompts", "generative AI prompts", "Midjourney prompts", "Flux prompts",
+    "Gemini prompts", "ChatGPT prompts", "Claude prompts", "AI advertising prompts"
 ]
-MAX_RESULTS = 5
-MAX_REPOS = 3
+MAX_RESULTS = 8
+MAX_REPOS = 4
 MAX_FILE_BYTES = 200_000
 
 
 def headers():
-    h = {
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2026-03-10",
-        "User-Agent": "masad-maher-prompt-library",
-    }
+    h = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2026-03-10", "User-Agent": "masad-maher-prompt-library"}
     token = os.getenv("GITHUB_TOKEN")
     if token:
         h["Authorization"] = f"Bearer {token}"
@@ -47,7 +42,6 @@ def headers():
 
 
 def api(url, retries=3):
-    """GET JSON with respectful rate-limit handling."""
     for attempt in range(retries + 1):
         req = urllib.request.Request(url, headers=headers())
         try:
@@ -64,7 +58,7 @@ def api(url, retries=3):
                 wait = min(90, max(1, int(reset) - int(time.time()) + 1))
             else:
                 wait = min(60, 2 ** attempt * 5)
-            print(f"Rate limited ({exc.code}); waiting {wait}s before retry {attempt + 1}/{retries}")
+            print(f"Rate limited ({exc.code}); waiting {wait}s")
             time.sleep(wait)
     raise RuntimeError("GitHub API rate limit retry budget exhausted")
 
@@ -76,25 +70,17 @@ def normalize(text):
 def score(text):
     t = normalize(text)
     points = 0
-    if len(t) >= 120:
-        points += 2
-    if len(t) >= 300:
-        points += 2
-    if any(x in t for x in ("role", "goal", "context", "instructions", "output")):
-        points += 2
-    if "you are" in t or "act as" in t:
-        points += 1
-    if any(x in t for x in ("constraints", "format", "steps", "criteria")):
-        points += 2
-    if "http://" in t or "https://" in t:
-        points -= 1
+    if len(t) >= 120: points += 2
+    if len(t) >= 300: points += 2
+    if any(x in t for x in ("role", "goal", "context", "instructions", "output")): points += 2
+    if "you are" in t or "act as" in t: points += 1
+    if any(x in t for x in ("constraints", "format", "steps", "criteria")): points += 2
+    if "http://" in t or "https://" in t: points -= 1
     return max(0, min(10, points))
 
 
 def extract(text):
-    candidates = []
-    blocks = re.findall(r"```(?:text|markdown|prompt)?\s*\n(.*?)```", text, re.I | re.S)
-    candidates.extend(blocks)
+    candidates = re.findall(r"```(?:text|markdown|prompt)?\s*\n(.*?)```", text, re.I | re.S)
     for m in re.finditer(r"(?im)^\s*(?:prompt|system prompt)\s*[:\-]\s*(.{80,1500})$", text):
         candidates.append(m.group(1))
     return [c.strip() for c in candidates if len(c.strip()) >= 80]
@@ -115,24 +101,16 @@ def add_candidate(existing, seen, prompt, title, source_url, repository, license
     if s < 8:
         return False
     existing["candidates"].append({
-        "id": "gh-" + h[:12],
-        "title": title,
-        "category": "prompt-engineering",
-        "tags": ["github", "review"],
-        "prompt": prompt,
-        "quality_score": s,
-        "source": "GitHub",
-        "source_repository": repository,
-        "source_url": source_url,
-        "license": license_name,
-        "status": "pending_review",
+        "id": "gh-" + h[:12], "title": title, "category": "prompt-engineering",
+        "tags": ["github", "review"], "prompt": prompt, "quality_score": s,
+        "source": "GitHub", "source_id": "github", "source_repository": repository,
+        "source_url": source_url, "license": license_name, "status": "pending_review"
     })
     seen.add(h)
     return True
 
 
-def code_search(existing, seen):
-    """Use at most one code-search request when that quota is available."""
+def code_search(existing, seen, day_index):
     try:
         limits = api("https://api.github.com/rate_limit")
         remaining = limits.get("resources", {}).get("code_search", {}).get("remaining", 0)
@@ -142,15 +120,13 @@ def code_search(existing, seen):
     except Exception as exc:
         print(f"Could not inspect code-search quota: {exc}")
         return 0
-
-    q = CODE_QUERIES[datetime.now(timezone.utc).timetuple().tm_yday % len(CODE_QUERIES)]
+    q = CODE_QUERIES[day_index % len(CODE_QUERIES)]
     url = "https://api.github.com/search/code?" + urllib.parse.urlencode({"q": q, "per_page": MAX_RESULTS})
     try:
         result = api(url)
     except Exception as exc:
         print(f"Code search unavailable: {exc}")
         return 0
-
     added = 0
     for item in result.get("items", []):
         repo = item.get("repository", {})
@@ -162,14 +138,17 @@ def code_search(existing, seen):
         for prompt in extract(raw):
             if add_candidate(existing, seen, prompt, item.get("name") or item.get("path"), item.get("html_url"), repo.get("full_name"), None):
                 added += 1
-        time.sleep(0.5)
+        time.sleep(0.4)
     return added
 
 
-def repository_fallback(existing, seen):
-    """Search repositories (normal search quota) and inspect small README files."""
+def repository_fallback(existing, seen, day_index):
     added = 0
-    for q in REPO_QUERIES:
+    # Two rotating themes per run: broad enough for discovery, small enough
+    # to respect API limits and keep the scheduled job predictable.
+    start = (day_index * 2) % len(REPO_QUERIES)
+    selected = [REPO_QUERIES[start], REPO_QUERIES[(start + 1) % len(REPO_QUERIES)]]
+    for q in selected:
         url = "https://api.github.com/search/repositories?" + urllib.parse.urlencode({"q": q, "sort": "stars", "order": "desc", "per_page": MAX_REPOS})
         try:
             result = api(url)
@@ -187,32 +166,33 @@ def repository_fallback(existing, seen):
             for prompt in extract(raw):
                 if add_candidate(existing, seen, prompt, f"{full_name} README prompt", f"https://github.com/{full_name}/blob/{branch}/README.md", full_name, (repo.get("license") or {}).get("spdx_id")):
                     added += 1
-            time.sleep(0.5)
-        time.sleep(1)
+            time.sleep(0.4)
+        time.sleep(0.8)
     return added
 
 
 def main():
-    existing = {"version": "1.0", "generated_at": None, "status": "review_required", "candidates": []}
+    existing = {"version":"2.0", "generated_at":None, "status":"review_required", "candidates":[]}
     if INBOX.exists():
         existing = json.loads(INBOX.read_text(encoding="utf-8"))
     seen = {x.get("hash") for x in existing.get("candidates", []) if x.get("hash")}
-    # Rebuild hashes for older inbox records that predate the hash field.
     for item in existing.get("candidates", []):
         if not item.get("hash") and item.get("prompt"):
             seen.add(hashlib.sha256(normalize(item["prompt"]).encode("utf-8")).hexdigest())
 
-    added = code_search(existing, seen)
+    day_index = datetime.now(timezone.utc).timetuple().tm_yday
+    added = code_search(existing, seen, day_index)
     if added == 0:
-        added += repository_fallback(existing, seen)
+        added += repository_fallback(existing, seen, day_index)
 
     existing["generated_at"] = datetime.now(timezone.utc).isoformat()
     existing["added_this_run"] = added
     existing["status"] = "review_required"
-    existing["last_strategy"] = "code_search_then_repository_fallback"
+    existing["last_strategy"] = "rotating_code_search_then_repository_discovery"
+    existing["last_themes"] = [CODE_QUERIES[day_index % len(CODE_QUERIES)], REPO_QUERIES[(day_index * 2) % len(REPO_QUERIES)], REPO_QUERIES[(day_index * 2 + 1) % len(REPO_QUERIES)]]
     INBOX.parent.mkdir(parents=True, exist_ok=True)
     INBOX.write_text(json.dumps(existing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"status": "review_required", "added": added, "total_candidates": len(existing["candidates"]), "strategy": existing["last_strategy"]}, ensure_ascii=False))
+    print(json.dumps({"status":"review_required","added":added,"total_candidates":len(existing["candidates"]),"strategy":existing["last_strategy"]}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
