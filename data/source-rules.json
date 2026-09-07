@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "policy": {
     "allow_only_declared_connectors": true,
     "prefer_official_api_or_rss": true,
@@ -33,6 +33,21 @@
     {"source_id":"prompthero","type":"api_or_rss","status":"review_required","endpoint":"https://prompthero.com/","notes":"No verified public discovery API; retain attribution-first review route."},
     {"source_id":"promptbase","type":"api_or_rss","status":"review_required","endpoint":"https://promptbase.com/","notes":"No verified public discovery API; retain attribution-first review route."},
     {"source_id":"flowgpt","type":"api_or_rss","status":"review_required","endpoint":"https://flowgpt.com/","notes":"No verified public discovery API; retain attribution-first review route."},
-    {"source_id":"aiprm","type":"api_or_rss","status":"review_required","endpoint":"https://www.aiprm.com/","notes":"No verified public discovery API; retain attribution-first review route."}
+    {"source_id":"aiprm","type":"api_or_rss","status":"review_required","endpoint":"https://www.aiprm.com/","notes":"No verified public discovery API; retain attribution-first review route."},
+    {"source_id":"youmind","type":"public_prompt_library_review","status":"review_required","endpoint":"https://youmind.com/prompts","notes":"Public library exposes prompt text and visual results, but no verified redistribution API; review individual items, attribution and terms before import."},
+    {"source_id":"promptlabhub","type":"visual_prompt_review","status":"review_required","endpoint":"https://promptlabhub.com/","notes":"Pinterest-style prompt discovery with creator attribution; manual/review import only."},
+    {"source_id":"nanoprompts","type":"visual_prompt_review","status":"review_required","endpoint":"https://nanoprompts.live/","notes":"Public Pinterest-style Nano Banana prompt board; manual/review import only."},
+    {"source_id":"aqprompts","type":"public_prompt_library_review","status":"review_required","endpoint":"https://www.aqprompts.com/","notes":"Public free prompt library; review attribution and terms before importing prompt text."},
+    {"source_id":"promptlibrary-space","type":"public_prompt_library_review","status":"review_required","endpoint":"https://www.promptlibrary.space/","notes":"Public social-ad prompt templates; review before redistribution."},
+    {"source_id":"promhance","type":"public_prompt_library_review","status":"review_required","endpoint":"https://www.promhance.com/viral-prompts","notes":"Large public viral prompt collection; import only reviewed items with attribution and compatible terms."},
+    {"source_id":"sureprompts","type":"public_prompt_library_review","status":"review_required","endpoint":"https://sureprompts.com/blog/ai-prompts-for-social-media","notes":"Public social-media prompt collection; review before redistribution."},
+    {"source_id":"ai-photo-prompts","type":"public_prompt_library_review","status":"review_required","endpoint":"https://aiphotoprompts.spr.lv/meta-ai-prompts/","notes":"Public Meta AI photo prompts; review attribution and terms before import."},
+    {"source_id":"socialbyidm","type":"creator_attribution_review","status":"review_required","endpoint":"https://socialbyidm.com/ai-image-prompts-viral-social-media-editing/","notes":"Prompts are attributed to named Instagram creators; preserve creator attribution and import only permitted items."},
+    {"source_id":"promptspace","type":"public_prompt_library_review","status":"review_required","endpoint":"https://www.promptspace.in/blog/top-50-ai-image-prompts-for-instagram-reels","notes":"Public Instagram prompt collection; review before redistribution."},
+    {"source_id":"promptstudio-x","type":"social_creator_review","status":"review_required","endpoint":"https://linktr.ee/promptstudio.x","notes":"Social creator hub linking Instagram, Facebook, Pinterest, Telegram and Threads; discovery/review only."},
+    {"source_id":"reddit-promptengineering","type":"community_review","status":"review_required","endpoint":"https://www.reddit.com/r/PromptEngineering/","notes":"Community prompt examples; use attribution, respect subreddit rules and do not bulk-copy user content without permission."},
+    {"source_id":"reddit-midjourney","type":"community_review","status":"review_required","endpoint":"https://www.reddit.com/r/midjourney/","notes":"Community image/prompt sharing; manual review and attribution only."},
+    {"source_id":"facebook-ai-prompts","type":"social_community_review","status":"review_required","endpoint":"https://www.facebook.com/","notes":"Discovery category for public Facebook prompt communities; manual review only because platform access and reuse permissions vary."},
+    {"source_id":"pinterest-ai-prompts","type":"visual_social_review","status":"review_required","endpoint":"https://www.pinterest.com/search/pins/?q=ai%20prompts","notes":"Discovery source for public Pinterest prompt pins/boards; manual review and attribution required; no arbitrary scraping."}
   ]
 }
