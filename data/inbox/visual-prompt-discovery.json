@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "status": "ready_for_review",
+  "items": [],
+  "fields": {
+    "source_id": "source identifier",
+    "source_url": "original post/page URL",
+    "image_url": "public result image URL",
+    "prompt_text": "prompt exactly as published when permitted",
+    "creator": "creator/display name",
+    "creator_url": "creator profile URL",
+    "model": "model/tool used",
+    "license": "license or reuse note",
+    "discovered_at": "ISO timestamp",
+    "review_status": "pending_review|approved|rejected"
+  }
+}
