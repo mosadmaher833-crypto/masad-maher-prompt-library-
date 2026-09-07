@@ -1,9 +1,126 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-07T10:51:03.260790+00:00",
+  "generated_at": "2026-09-07T11:03:43.772581+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
+    {
+      "id": "civitai-142001679",
+      "title": "Civitai prompt 142001679",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "best quality, score_7, score_9, very aesthetic, ultra detailed, anime screencap, anime coloring, kyoto animation, <lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>, 1girl, fujibayashi kyou, hair ribbon, solo, collared gym shirt, red buruma, white thighhighs, cowboy shot framing, looking at the viewer with an embarrassed blush, one hand gripping her own arm, flustered tsundere expression with squeezed-together posture, in a gym storeroom, depth of field<lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142001679",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dc0e9fc4-69df-4e06-b508-5bb0f6ab9ae6/original=true/dc0e9fc4-69df-4e06-b508-5bb0f6ab9ae6.jpeg",
+      "model": "waiANIMA_v10Base10",
+      "model_version_ids": [
+        2983680
+      ],
+      "width": 3072,
+      "height": 4096,
+      "seed": 1058781880699712,
+      "negative_prompt": "worst quality, low quality, deformed, mutated, ugly, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, artist name, lowres, censor, snake wrapped around body",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-07T11:03:43.765113+00:00"
+    },
+    {
+      "id": "civitai-142001683",
+      "title": "Civitai prompt 142001683",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "best quality, score_7, score_9, very aesthetic, ultra detailed, anime screencap, anime coloring, kyoto animation, <lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>, 1girl, fujibayashi kyou, hair ribbon, solo, white sailor shirt, red neck ribbon, short sleeves, blue suspender skirt, white thighhighs, standing confidently with hand on hip, waving at the viewer with an energetic smile, cowboy shot framing in a schoolyard with cherry blossom petals drifting through the air, depth of field<lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142001683",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e48a42c2-83ff-4e6a-9e8b-29c462a6881a/original=true/e48a42c2-83ff-4e6a-9e8b-29c462a6881a.jpeg",
+      "model": "waiANIMA_v10Base10",
+      "model_version_ids": [
+        2983680
+      ],
+      "width": 3072,
+      "height": 4096,
+      "seed": 875517503273828,
+      "negative_prompt": "worst quality, low quality, deformed, mutated, ugly, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, artist name, lowres, censor, snake wrapped around body",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-07T11:03:43.765294+00:00"
+    },
+    {
+      "id": "civitai-142001694",
+      "title": "Civitai prompt 142001694",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "best quality, score_7, score_9, very aesthetic, ultra detailed, anime coloring, @imamura ryou, @ikeda kazumi, <lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>, 1girl, fujibayashi kyou, hair ribbon, solo, white sailor shirt, red neck ribbon, short sleeves, blue suspender skirt, white thighhighs, loafers, standing with a finger pressed to her lips and a coy expression, parted lips, looking at the viewer with a slightly mischievous gaze, full body shot in a schoolyard with cherry blossoms in bloom, depth of field<lora:Char-Fujibayashi_Kyou-V1-Anima:0.9>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142001694",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d42f72c6-8ece-47c4-a458-79eece8598df/original=true/d42f72c6-8ece-47c4-a458-79eece8598df.jpeg",
+      "model": "ramthrustsNSFWPINK_v31RAMSDelicious",
+      "model_version_ids": [
+        3278527
+      ],
+      "width": 3072,
+      "height": 4096,
+      "seed": 63646997988261,
+      "negative_prompt": "worst quality, low quality, deformed, mutated, ugly, bad anatomy, bad hands, missing fingers, extra fingers, extra digits, artist name, lowres, censor, snake wrapped around body",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-07T11:03:43.765447+00:00"
+    },
+    {
+      "id": "civitai-142022771",
+      "title": "Civitai prompt 142022771",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zy_cinematic, A heavily cloaked post-apocalyptic scavenger standing atop a massive sand dune, looking up at a colossal, half-buried obsidian alien monolith glowing with internal red runes. Harsh midday sun, extreme heat distortion, flying sand particles, gritty texture, raw cinematic aesthetic, 4:5 aspect ratio.",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142022771",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9473644-7a87-4efd-8a9c-bd551bd4b369/original=true/c9473644-7a87-4efd-8a9c-bd551bd4b369.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332,
+        3085969
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 1591770893,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-07T11:03:43.765534+00:00"
+    },
     {
       "id": "civitai-142083663",
       "title": "Civitai prompt 142083663",
@@ -34,7 +151,7 @@
       "negative_prompt": "full_body, long_shot, wide_shot, feet, shoes, boots, thighs, legs,, loli, kids, sepia, shota, child, clone, blood, blurry, junior, Horror, Violence, grayscale, monochrome, white_hair, purple_theme, school_uniform, artist:toymark, artist:kotneciii, artist:amayoruao, artist:muninshiki, artist:marghe_bita,\n,,loli,text,logo,rape,sepia,shota,4koma,clone,mirror,blurry,username,bad_hands,watermark,grayscale,signature,duplicate,conjoined,monochrome,,denden artist style,yonedatomo_mizu artist style,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.255047+00:00"
+      "discovered_at": "2026-09-07T11:03:43.766819+00:00"
     },
     {
       "id": "civitai-142083597",
@@ -61,7 +178,7 @@
       "negative_prompt": "blured eyes, female, furry, worst quality,old,early,low quality,fusion,mess,year2009,year2010,year2011,year2012,year2013,year2014,lowres,signature,username,bad hands,mutated hands,mammal,anthro,ambiguous form,cartoon, anime, illustration, painting, 3d render, cgi, plastic skin, airbrushed, oversaturated, blurry, low quality, deformed, bad anatomy, extra fingers, watermark, text, logo",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.255128+00:00"
+      "discovered_at": "2026-09-07T11:03:43.766885+00:00"
     },
     {
       "id": "civitai-142083474",
@@ -88,7 +205,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.255372+00:00"
+      "discovered_at": "2026-09-07T11:03:43.767127+00:00"
     },
     {
       "id": "civitai-142083568",
@@ -117,7 +234,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256036+00:00"
+      "discovered_at": "2026-09-07T11:03:43.767792+00:00"
     },
     {
       "id": "civitai-142083572",
@@ -146,7 +263,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256148+00:00"
+      "discovered_at": "2026-09-07T11:03:43.767902+00:00"
     },
     {
       "id": "civitai-142083553",
@@ -175,7 +292,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256257+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768013+00:00"
     },
     {
       "id": "civitai-142083571",
@@ -204,7 +321,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256361+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768119+00:00"
     },
     {
       "id": "civitai-142083556",
@@ -233,7 +350,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256467+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768246+00:00"
     },
     {
       "id": "civitai-142083554",
@@ -262,7 +379,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256668+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768456+00:00"
     },
     {
       "id": "civitai-142083552",
@@ -291,7 +408,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256782+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768564+00:00"
     },
     {
       "id": "civitai-142083562",
@@ -320,7 +437,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.256938+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768676+00:00"
     },
     {
       "id": "civitai-142083561",
@@ -349,7 +466,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.257057+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768787+00:00"
     },
     {
       "id": "civitai-142083560",
@@ -378,7 +495,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.257170+00:00"
+      "discovered_at": "2026-09-07T11:03:43.768896+00:00"
     },
     {
       "id": "civitai-142083559",
@@ -407,7 +524,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.257284+00:00"
+      "discovered_at": "2026-09-07T11:03:43.769008+00:00"
     },
     {
       "id": "civitai-142083565",
@@ -436,7 +553,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.257395+00:00"
+      "discovered_at": "2026-09-07T11:03:43.769132+00:00"
     },
     {
       "id": "civitai-142083461",
@@ -463,7 +580,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.258202+00:00"
+      "discovered_at": "2026-09-07T11:03:43.769931+00:00"
     },
     {
       "id": "civitai-142062208",
@@ -493,7 +610,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.258329+00:00"
+      "discovered_at": "2026-09-07T11:03:43.770058+00:00"
     },
     {
       "id": "civitai-142062213",
@@ -523,7 +640,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.258453+00:00"
+      "discovered_at": "2026-09-07T11:03:43.770181+00:00"
     },
     {
       "id": "civitai-142062221",
@@ -553,7 +670,7 @@
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.258577+00:00"
+      "discovered_at": "2026-09-07T11:03:43.770421+00:00"
     },
     {
       "id": "civitai-142083444",
@@ -582,7 +699,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.258891+00:00"
+      "discovered_at": "2026-09-07T11:03:43.770731+00:00"
     },
     {
       "id": "civitai-142083447",
@@ -611,7 +728,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.259091+00:00"
+      "discovered_at": "2026-09-07T11:03:43.770932+00:00"
     },
     {
       "id": "civitai-142083448",
@@ -640,7 +757,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.259199+00:00"
+      "discovered_at": "2026-09-07T11:03:43.771040+00:00"
     },
     {
       "id": "civitai-142083452",
@@ -669,7 +786,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.259304+00:00"
+      "discovered_at": "2026-09-07T11:03:43.771145+00:00"
     },
     {
       "id": "civitai-142083458",
@@ -698,7 +815,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.259495+00:00"
+      "discovered_at": "2026-09-07T11:03:43.771365+00:00"
     },
     {
       "id": "civitai-142083459",
@@ -727,7 +844,7 @@
       "negative_prompt": "worst quality, low quality, cowboy shot, full body, wide shot, distant view, feet, legs, thighs, torso",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.259598+00:00"
+      "discovered_at": "2026-09-07T11:03:43.771472+00:00"
     },
     {
       "id": "civitai-142083280",
@@ -757,7 +874,7 @@
       "negative_prompt": "(worst quality, low quality:1.4), normal quality, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry, artist name, poorly drawn, deformed, ugly, duplicate, morbid, mutilated, extra limbs, unsightly, prosthetic, out of frame, smooth skin, plastic, shiny, metal, glass, realistic flesh, fresh water, wet, mud, dirt",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-07T10:51:03.260557+00:00"
+      "discovered_at": "2026-09-07T11:03:43.772429+00:00"
     }
   ]
 }
