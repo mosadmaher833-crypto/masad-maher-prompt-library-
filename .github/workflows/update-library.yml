@@ -39,8 +39,8 @@ jobs:
           echo "Commit: ${{ github.sha }}"
           python --version
 
-      - name: Verify Arabic UI patcher
-        run: python -m py_compile scripts/add-arabic-ui.py
+      - name: Verify connector syntax
+        run: python -m py_compile scripts/add-arabic-ui.py scripts/visual_prompt_discovery.py
 
       - name: Validate existing library data
         run: python scripts/validate_library.py
@@ -66,6 +66,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/official_model_prompt_connector.py
 
+      - name: Discover visual prompts into review inbox
+        run: python scripts/visual_prompt_discovery.py
+
       - name: Import and publish candidates from enabled connectors
         run: python scripts/update-library.py
 
@@ -83,6 +86,20 @@ jobs:
 
       - name: Validate imported library data
         run: python scripts/validate_library.py
+
+      - name: Validate visual review inbox JSON
+        run: python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/inbox/visual-prompt-discovery.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          assert isinstance(data.get('items'), list), 'visual inbox items must be a list'
+          for item in data['items']:
+              for key in ('source_url','image_url','prompt_text'):
+                  assert str(item.get(key,'')).startswith('https://') if key != 'prompt_text' else len(str(item.get(key,''))) >= 100, f'invalid {key}'
+              assert item.get('review_status') in {'pending_review','approved','rejected'}
+          print(f"Visual review inbox: PASS ({len(data['items'])} items)")
+        PY
 
       - name: Record run status
         run: |
@@ -109,14 +126,14 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          git add data/prompts.json data/search-index.json data/taxonomy.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json library-pro.html smart-search.html prompt-details.html
+          git add data/prompts.json data/search-index.json data/taxonomy.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json data/inbox/visual-prompt-discovery.json library-pro.html smart-search.html prompt-details.html
 
           if git diff --cached --quiet; then
             echo 'No generated data/UI changes.'
             exit 0
           fi
 
-          git commit -m 'إظهار ترجمة البرومبتات العربية داخل المنصة'
+          git commit -m 'إضافة اكتشاف البرومبتات المصورة وصندوق المراجعة'
 
           for attempt in 1 2 3 4 5; do
             echo "Synchronizing with origin/main (attempt $attempt)..."
