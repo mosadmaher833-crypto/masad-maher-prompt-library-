@@ -1,10 +1,10 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "name": "مكتبة مسعد ماهر - اكتشاف البرومبتات المصورة",
-  "purpose": "تجميع مصادر تعرض نتيجة بصرية مع البرومبت أو وصف قابل للاستخراج، ثم وضع العناصر في صندوق مراجعة قبل النشر.",
+  "purpose": "اكتشاف عناصر تجمع صورة + Prompt + منشئ + رابط المنشور الأصلي، ثم وضعها في صندوق مراجعة قبل النشر.",
   "workflow": ["discover", "extract", "validate", "deduplicate", "review", "publish"],
   "required_fields": ["source_id", "source_url", "prompt_text", "image_url"],
-  "recommended_fields": ["creator", "creator_url", "model", "title", "license", "published_at", "discovered_at"],
+  "recommended_fields": ["creator", "creator_url", "model", "title", "license", "quality_score", "discovered_at"],
   "review_rules": {
     "minimum_quality": 8,
     "require_prompt_text": true,
@@ -13,15 +13,20 @@
     "deduplicate_by_normalized_prompt": true,
     "preserve_creator_attribution": true,
     "never_bulk_copy_social_content_without_permission": true,
+    "auto_publish": false,
     "social_and_pinterest_default_status": "review_required"
   },
-  "sources": [
-    {"source_id":"youmind","mode":"review","url":"https://youmind.com/prompts","supports":["image","video","webpage"],"priority":"critical"},
-    {"source_id":"promptlabhub","mode":"review","url":"https://promptlabhub.com/prompts","supports":["image","video","creators"],"priority":"critical"},
-    {"source_id":"nanoprompts","mode":"review","url":"https://nanoprompts.live/","supports":["image","nano_banana"],"priority":"critical"},
-    {"source_id":"pinterest-ai-prompts","mode":"review","url":"https://www.pinterest.com/search/pins/?q=ai%20prompts","supports":["image","prompt_cards","boards"],"priority":"high"},
-    {"source_id":"reddit-midjourney","mode":"review","url":"https://www.reddit.com/r/midjourney/","supports":["image","midjourney","community"],"priority":"high"},
-    {"source_id":"reddit-promptengineering","mode":"review","url":"https://www.reddit.com/r/PromptEngineering/","supports":["prompt_engineering","image","video","writing"],"priority":"high"},
-    {"source_id":"facebook-ai-prompts","mode":"review","url":"https://www.facebook.com/","supports":["image","social","community"],"priority":"high"}
-  ]
+  "automatic_connectors": [
+    {"source_id":"reddit-midjourney","mode":"rss_review","url":"https://www.reddit.com/r/midjourney/.rss","supports":["image","prompt","creator","original_post"],"priority":"high"},
+    {"source_id":"reddit-promptengineering","mode":"rss_review","url":"https://www.reddit.com/r/PromptEngineering/.rss","supports":["image","prompt","creator","original_post"],"priority":"high"}
+  ],
+  "manual_review_sources": [
+    {"source_id":"youmind","url":"https://youmind.com/prompts","supports":["image","video","webpage"]},
+    {"source_id":"promptlabhub","url":"https://promptlabhub.com/prompts","supports":["image","video","creators"]},
+    {"source_id":"nanoprompts","url":"https://nanoprompts.live/","supports":["image","nano_banana"]},
+    {"source_id":"pinterest-ai-prompts","url":"https://www.pinterest.com/search/pins/?q=ai%20prompts","supports":["image","prompt_cards","boards"]},
+    {"source_id":"facebook-ai-prompts","url":"https://www.facebook.com/","supports":["image","social","community"]}
+  ],
+  "manual_seed_file": "data/inbox/visual-prompt-discovery-seeds.json",
+  "review_ui": "visual-prompt-review.html"
 }
