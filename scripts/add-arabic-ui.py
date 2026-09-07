@@ -23,7 +23,7 @@ JS = r"""
   function apply(){
     document.querySelectorAll('[data-mm-prompt]').forEach(el=>{const p=map.get(String(el.dataset.mmPrompt));if(!p)return;el.innerHTML=esc(lang==='ar'?(p.prompt_ar||p.prompt||''):(p.prompt||p.prompt_ar||''));});
     document.querySelectorAll('.mm-langbar button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
-    const note=document.querySelector('.mm-lang-note');if(note)note.textContent=lang==='ar'?'العربية هي اللغة الافتراضية — الأصل الإنجليزي محفوظ':'English source is shown — Arabic translation is محفوظة';
+    const note=document.querySelector('.mm-lang-note');if(note)note.textContent=lang==='ar'?'العربية هي اللغة الافتراضية — الأصل الإنجليزي محفوظ':'English source is shown — الترجمة العربية محفوظة';
   }
   function scan(){document.querySelectorAll('article').forEach(card=>{const id=getId(card);if(!id)return;const p=card.querySelector('.prompt');if(p&&!p.dataset.mmPrompt){p.dataset.mmPrompt=id;}});apply();}
   function render(){scan();}
@@ -52,4 +52,3 @@ for path in FILES:
         text += payload
     path.write_text(text, encoding='utf-8')
     print('patched', path)
-"""
