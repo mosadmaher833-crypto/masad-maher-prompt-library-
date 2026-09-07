@@ -6238,8 +6238,1227 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/471336cc-def8-41dd-a1e0-3c25975852e8/original=true/471336cc-def8-41dd-a1e0-3c25975852e8.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-f5090c505df3",
+      "title": "CONTRIBUTING.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "ChatGPT",
+        "Claude"
+      ],
+      "prompt": "### Quality Standards\n\n✅ **Do:**\n- Test prompts with multiple LLMs (Claude, ChatGPT, etc.)\n- Provide clear, specific instructions\n- Include concrete examples\n- Follow arc42 and docToolchain conventions\n- Use consistent terminology\n- Include validation criteria\n\n❌ **Don't:**\n- Create overly broad or vague prompts\n- Assume specific LLM capabilities\n- Forget to test the prompt thoroughly\n- Include proprietary or sensitive information in examples\n\n### File Naming Conventions\n\n- Use descriptive, hyphenated names: `context-diagram-generator.md`\n- For AsciiDoc versions: `90-Context-Diagram-Generator.adoc`\n- Examples: `context-diagram-example.adoc`\n- Descriptions: `Context-Diagram-Generator-Description.adoc`\n\n## 🔍 Testing Your Contributions\n\n### Prompt Testing Checklist\n\n- [ ] Prompt works with Claude Sonnet/Opus\n- [ ] Prompt works with ChatGPT 4\n- [ ] Output follows specified format\n- [ ] Example produces expected results\n- [ ] Instructions are clear and unambiguous\n- [ ] Integration with docToolchain works\n- [ ] AsciiDoc syntax is valid\n\n### Documentation Testing",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "docToolchain/LLM-Prompts",
+      "source_url": "https://github.com/docToolchain/LLM-Prompts/blob/b725899eaacae0f6e3dc084b5a0fd491ce9270be/CONTRIBUTING.md",
+      "imported_at": "2026-09-07T08:25:16.896522+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f5090c505df349d4549896cb7862e278cfb805a9f58a14e235c994c11502f49d",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "search_text": "contributing.md prompt-engineering ### quality standards ✅ **do:** - test prompts with multiple llms (claude, chatgpt, etc.) - provide clear, specific instructions - include concrete examples - follow arc42 and doctoolchain conventions - use consistent terminology - include validation criteria ❌ **don't:** - create overly broad or vague prompts - assume specific llm capabilities - forget to test the prompt thoroughly - include proprietary or sensitive information in examples ### file naming conventions - use descriptive, hyphenated names: `context-diagram-generator.md` - for asciidoc versions: `90-context-diagram-generator.adoc` - examples: `context-diagram-example.adoc` - descriptions: `context-diagram-generator-description.adoc` ## 🔍 testing your contributions ### prompt testing checklist - [ ] prompt works with claude sonnet/opus - [ ] prompt works with chatgpt 4 - [ ] output follows specified format - [ ] example produces expected results - [ ] instructions are clear and unambiguous - [ ] integration with doctoolchain works - [ ] asciidoc syntax is valid ### documentation testing github review chatgpt claude chatgpt claude",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/docToolchain/LLM-Prompts/blob/b725899eaacae0f6e3dc084b5a0fd491ce9270be/CONTRIBUTING.md",
+          "source_repository": "docToolchain/LLM-Prompts"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142054315",
+      "title": "Civitai prompt 142054315",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, Jeddtl02, expressivebmtzz, nsfw, sam yang\nBREAK \n((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((Detailed Background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination\n[were]\noutdoors, flower, plant, red flower, bench, day, dappled sunlight \n[who]\n1girl, solo, Asian, medium breasts, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes\n[ropa]\n(plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow)\n[act]\nOn bench, looking at viewer, sexy, sensual, motion lines, sound effects",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142054315",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b091b4f5-58b4-4a86-8055-f0d9f5914c2e/original=true/b091b4f5-58b4-4a86-8055-f0d9f5914c2e.jpeg",
+      "model_version_ids": [
+        1340633,
+        1470551,
+        1567829,
+        1668031,
+        2196453,
+        2748316,
+        2883731
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1649828913,
+      "negative_prompt": "Loli, Child, big head, worst quality, low quality, normal quality, lowres, blurry, ugly, bad anatomy, bad hands, bad body, bad feet, bad toes, bad face, deformed, extra limbs, extra fingers, extra hands, extra arms, missing fingers, extra legs, poorly drawn hands, poorly drawn feet, poorly drawn face, mutation, mutated, gross proportions, long neck, duplicate, blurry, cropped, out of frame, out of focus, disfigured, liquid hands, distorted, dismembered, amputation, floating limbs, disconnected limbs, malformed, morbid, disgusting, contorted, multiple heads, multiple bodies, extra_feet, missing_arms, missing_legs, missing_ears, missing_nose, futa, futanari, multiple views, screen caps, Japanese text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.896918+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3c035f887579233fe7831c4c5f49bc874fd76e62e3e9fca4c25ddeadbbad0d6c",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142054315 image ai-image-prompts masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, jeddtl02, expressivebmtzz, nsfw, sam yang break ((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((detailed background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination [were] outdoors, flower, plant, red flower, bench, day, dappled sunlight [who] 1girl, solo, asian, medium breasts, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes [ropa] (plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow) [act] on bench, looking at viewer, sexy, sensual, motion lines, sound effects civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142054315",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b091b4f5-58b4-4a86-8055-f0d9f5914c2e/original=true/b091b4f5-58b4-4a86-8055-f0d9f5914c2e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142054320",
+      "title": "Civitai prompt 142054320",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, Jeddtl02, expressivebmtzz, nsfw, sam yang\nBREAK \n((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((Detailed Background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination\n[were]\noutdoors, flower, plant, red flower, bench, day, dappled sunlight \n[who]\n1girl, solo, Asian, medium hair, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes\n[ropa]\n(plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow)\n[act]\nOn bench, looking at viewer, sexy, sensual, motion lines, sound effects",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142054320",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d89e5391-9720-4574-8816-218d65ff8ccf/original=true/d89e5391-9720-4574-8816-218d65ff8ccf.jpeg",
+      "model_version_ids": [
+        1340633,
+        1470551,
+        1567829,
+        1668031,
+        2196453,
+        2514310,
+        2748316
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1224042366,
+      "negative_prompt": "Loli, Child, big head, worst quality, low quality, normal quality, lowres, blurry, ugly, bad anatomy, bad hands, bad body, bad feet, bad toes, bad face, deformed, extra limbs, extra fingers, extra hands, extra arms, missing fingers, extra legs, poorly drawn hands, poorly drawn feet, poorly drawn face, mutation, mutated, gross proportions, long neck, duplicate, blurry, cropped, out of frame, out of focus, disfigured, liquid hands, distorted, dismembered, amputation, floating limbs, disconnected limbs, malformed, morbid, disgusting, contorted, multiple heads, multiple bodies, extra_feet, missing_arms, missing_legs, missing_ears, missing_nose, futa, futanari, multiple views, screen caps, Japanese text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.896940+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6cf46982bab9161c4f82f3d68a574f62c436fe522e28584cf956e92c4cd4aac4",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142054320 image ai-image-prompts masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, jeddtl02, expressivebmtzz, nsfw, sam yang break ((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((detailed background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination [were] outdoors, flower, plant, red flower, bench, day, dappled sunlight [who] 1girl, solo, asian, medium hair, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes [ropa] (plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow) [act] on bench, looking at viewer, sexy, sensual, motion lines, sound effects civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142054320",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d89e5391-9720-4574-8816-218d65ff8ccf/original=true/d89e5391-9720-4574-8816-218d65ff8ccf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142054322",
+      "title": "Civitai prompt 142054322",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, Jeddtl02, expressivebmtzz, nsfw\nBREAK \n((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((Detailed Background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination\n[were]\noutdoors, flower, plant, red flower, bench, day, dappled sunlight \n[who]\n1girl, solo, Asian, medium hair, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes\n[ropa]\n(plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow)\n[act]\nOn bench, looking at viewer, sexy, sensual, motion lines, sound effects",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142054322",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c29a44b-d6fd-4830-83ae-122ee28ee71d/original=true/6c29a44b-d6fd-4830-83ae-122ee28ee71d.jpeg",
+      "model_version_ids": [
+        1340633,
+        1470551,
+        1567829,
+        1668031,
+        2196453,
+        2514310,
+        2748316
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2111931961,
+      "negative_prompt": "Loli, Child, big head, worst quality, low quality, normal quality, lowres, blurry, ugly, bad anatomy, bad hands, bad body, bad feet, bad toes, bad face, deformed, extra limbs, extra fingers, extra hands, extra arms, missing fingers, extra legs, poorly drawn hands, poorly drawn feet, poorly drawn face, mutation, mutated, gross proportions, long neck, duplicate, blurry, cropped, out of frame, out of focus, disfigured, liquid hands, distorted, dismembered, amputation, floating limbs, disconnected limbs, malformed, morbid, disgusting, contorted, multiple heads, multiple bodies, extra_feet, missing_arms, missing_legs, missing_ears, missing_nose, futa, futanari, multiple views, screen caps, Japanese text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.896954+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f13bdd03a09896b0df4ff6a5e1b4cf7df897ea6b26333463cdcdb67a83ea98a2",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142054322 image ai-image-prompts masterpiece, best quality, newest, absurdres, highres, ultra detailed, sharp focus, depth of field, depuss, (cel shading:1.3), addmicrodetails, jeddtl02, expressivebmtzz, nsfw break ((dynamic angle:1.2), dynamic pose:1.2), (dynamic composition:1.2), ((detailed background:1.2)), (heavy lines, black outline), perfect hands, cinematic lighting, perfect shadows, perfect illumination [were] outdoors, flower, plant, red flower, bench, day, dappled sunlight [who] 1girl, solo, asian, medium hair, medium hair, black hair, red highlights, blunt bangs, long red sidelocks, green eyes [ropa] (plaid dress, red and black dress, gingham dress, short sleeves, short dress, historical clothing, bow, retro americana dress, (hair bow, big bow, red bow) [act] on bench, looking at viewer, sexy, sensual, motion lines, sound effects civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142054322",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c29a44b-d6fd-4830-83ae-122ee28ee71d/original=true/6c29a44b-d6fd-4830-83ae-122ee28ee71d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142025029",
+      "title": "Civitai prompt 142025029",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed, 8K, absurdres, photorealistic, cinematic, painterly, highres, realistic lighting, depth of field, sharp focus, smooth edges) \nAn oil painting in style of Edmund Leighton depicting a beautiful woman with long brown hair, slim and toned physique, light skin tone, smiling at the viewer, she wears a stunning, textured Victorian-style dress in a rich teal hue, adorned with intricate black lace trim and delicate button detailing along the bodice. A dainty gold pendant necklace rests against her collarbone. Also wearing dark green, teardrop-shaped earrings. Stretching out on a chaise-longue with red upholstery. In the background a 19th century sitting room with paintings and large windows. The style is realistic with a touch of classical elegance. The lighting is sunny and bright, characterized by deep teal and emerald shadows mixed with soft, warm highlights that accentuate her genuine friendliness. The overall style is reminiscent of historical Victorian fashion. The painting captures a serene and intimate moment, with a dreamlike quality created by soft, blended brushstrokes and a luminous pastel color palette. The scene is bathed in warm, diffused light, emphasizing the elegance and romance of the moment. \nstyle of Edmund Leighton fantasy painting",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142025029",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c47d5835-6094-4913-98cb-639a06783f29/original=true/c47d5835-6094-4913-98cb-639a06783f29.jpeg",
+      "model_version_ids": [
+        691639,
+        800276,
+        1334949
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2041115843,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.896974+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "31d2f4832d707bcdac67b143dc35dc6f6a06d123ca63d337a9abbfdfeb9ccd17",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 142025029 fashion ai-image-prompts (masterpiece, best quality, ultra-detailed, 8k, absurdres, photorealistic, cinematic, painterly, highres, realistic lighting, depth of field, sharp focus, smooth edges) an oil painting in style of edmund leighton depicting a beautiful woman with long brown hair, slim and toned physique, light skin tone, smiling at the viewer, she wears a stunning, textured victorian-style dress in a rich teal hue, adorned with intricate black lace trim and delicate button detailing along the bodice. a dainty gold pendant necklace rests against her collarbone. also wearing dark green, teardrop-shaped earrings. stretching out on a chaise-longue with red upholstery. in the background a 19th century sitting room with paintings and large windows. the style is realistic with a touch of classical elegance. the lighting is sunny and bright, characterized by deep teal and emerald shadows mixed with soft, warm highlights that accentuate her genuine friendliness. the overall style is reminiscent of historical victorian fashion. the painting captures a serene and intimate moment, with a dreamlike quality created by soft, blended brushstrokes and a luminous pastel color palette. the scene is bathed in warm, diffused light, emphasizing the elegance and romance of the moment. style of edmund leighton fantasy painting civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142025029",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c47d5835-6094-4913-98cb-639a06783f29/original=true/c47d5835-6094-4913-98cb-639a06783f29.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138339714",
+      "title": "Civitai prompt 138339714",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": ";_, ;3, lying on stomach, propped on elbows, swinging bare feet slightly in the air, looking back over shoulder, heavy eyelids, parted lips, radiant skin, messy bedhead, magnetic, at viewer indirectly, detailed eyes, micro-details, swinging feet,\n\nErza \\(Fairy Tail\\), \n(cowboy-shot:1.3), \n\n(sculpted into the shape of a dramatic facial mask paired with broad layered shoulder armor and a rigid chest plate:1.4), made entirely of dark polished lacquered wood with intricate gold maki-e patterns and sharp metallic iron-like accents, no fabric, historical feudal luxury aesthetic, smooth glossy wood mixed with sharp dark metal, deep black and bright gold, highly detailed wood grain and metallic reflections\n\n(4k, 8k, Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, shallow depth of field, cinematic lighting, dual lighting, bloom effect, absolutely eye-catching, CG, detailed illustration, portrait composition, glossy lips, cinematic anime style, award-winning digital art, subtle shoulder blush,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138339714",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19085fe0-275c-48f5-8ace-53235c27153c/original=true/19085fe0-275c-48f5-8ace-53235c27153c.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 197389611279049,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, nsfw, cleavage, exposed cleavage, nipples, \nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist. text, logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, text, watermark, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.896989+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ed9a6f879302edf439f47ac631eb9cc6e3827891b5ef7383e623232a227d9608",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 138339714 image ai-image-prompts ;_, ;3, lying on stomach, propped on elbows, swinging bare feet slightly in the air, looking back over shoulder, heavy eyelids, parted lips, radiant skin, messy bedhead, magnetic, at viewer indirectly, detailed eyes, micro-details, swinging feet, erza \\(fairy tail\\), (cowboy-shot:1.3), (sculpted into the shape of a dramatic facial mask paired with broad layered shoulder armor and a rigid chest plate:1.4), made entirely of dark polished lacquered wood with intricate gold maki-e patterns and sharp metallic iron-like accents, no fabric, historical feudal luxury aesthetic, smooth glossy wood mixed with sharp dark metal, deep black and bright gold, highly detailed wood grain and metallic reflections (4k, 8k, ultra hd), masterpiece, best quality, ultra-detailed, very aesthetic, shallow depth of field, cinematic lighting, dual lighting, bloom effect, absolutely eye-catching, cg, detailed illustration, portrait composition, glossy lips, cinematic anime style, award-winning digital art, subtle shoulder blush, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138339714",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19085fe0-275c-48f5-8ace-53235c27153c/original=true/19085fe0-275c-48f5-8ace-53235c27153c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138339717",
+      "title": "Civitai prompt 138339717",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of Erza \\(Fairy Tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes,\nmouth open in O shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in O shape, thunder lightning eighth note, eighth note lightning trails,\n\nsilhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form,\n\noutfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface,\n\nsculpted (fire opal tech-harness crop top and cargo pants:1.4), (prismatic light streetwear armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, geometric crystalline chest harness, angular cargo pants with rainbow light beam straps, rainbow refraction, glowing neon colors, crystalline and ethereal, highly detailed light refraction, magical armor\n\nsingle dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene,\n\nvolumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only,\n\n4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138339717",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/35d38d34-02bb-4f09-870a-2d0f23884185/original=true/35d38d34-02bb-4f09-870a-2d0f23884185.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 1074201281729741,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, nsfw, face,\nvisible skin, skin texture, detailed face, detailed eyes, eyelashes, glossy lips, blush, facial features, flat lit face, front lighting on face, illuminated skin, semi-transparent silhouette, grey silhouette, washed out silhouette, low contrast silhouette\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist. text, logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, text, watermark, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897010+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "271eb2080f31fea1332dda1d06d3d3b398e52926a6db26282f6ea9e084312bdd",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 138339717 fashion ai-image-prompts 1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of erza \\(fairy tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes, mouth open in o shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in o shape, thunder lightning eighth note, eighth note lightning trails, silhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form, outfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface, sculpted (fire opal tech-harness crop top and cargo pants:1.4), (prismatic light streetwear armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, geometric crystalline chest harness, angular cargo pants with rainbow light beam straps, rainbow refraction, glowing neon colors, crystalline and ethereal, highly detailed light refraction, magical armor single dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene, volumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only, 4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138339717",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/35d38d34-02bb-4f09-870a-2d0f23884185/original=true/35d38d34-02bb-4f09-870a-2d0f23884185.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138339753",
+      "title": "Civitai prompt 138339753",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of Erza \\(Fairy Tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes,\nmouth open in O shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in O shape, thunder lightning eighth note, eighth note lightning trails,\n\nsilhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form,\n\noutfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface,\n\nsculpted (fire opal nebula cloak and starburst corset:1.4), (prismatic light celestial armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, tight crystalline corset with radiating geometric starburst patterns, massive flowing angular cloak made of solidified rainbow light, rainbow refraction, glowing neon colors, crystalline and ethereal, highly detailed light refraction, magical armor\n\nsingle dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene,\n\nvolumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only,\n\n4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138339753",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9814ad59-d10e-4a9b-86d7-afb77e1f9485/original=true/9814ad59-d10e-4a9b-86d7-afb77e1f9485.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 349494542682987,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, nsfw, face,\nvisible skin, skin texture, detailed face, detailed eyes, eyelashes, glossy lips, blush, facial features, flat lit face, front lighting on face, illuminated skin, semi-transparent silhouette, grey silhouette, washed out silhouette, low contrast silhouette\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist. text, logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, text, watermark, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897028+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "da390f6f5da68bf948f68a3bca8908a9d89a6661a38230931c29e171bb4e6dd1",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 138339753 fashion ai-image-prompts 1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of erza \\(fairy tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes, mouth open in o shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in o shape, thunder lightning eighth note, eighth note lightning trails, silhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form, outfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface, sculpted (fire opal nebula cloak and starburst corset:1.4), (prismatic light celestial armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, tight crystalline corset with radiating geometric starburst patterns, massive flowing angular cloak made of solidified rainbow light, rainbow refraction, glowing neon colors, crystalline and ethereal, highly detailed light refraction, magical armor single dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene, volumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only, 4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138339753",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9814ad59-d10e-4a9b-86d7-afb77e1f9485/original=true/9814ad59-d10e-4a9b-86d7-afb77e1f9485.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138339755",
+      "title": "Civitai prompt 138339755",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of Erza \\(Fairy Tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes,\nmouth open in O shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in O shape, thunder lightning eighth note, eighth note lightning trails,\n\nsilhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form,\n\noutfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface,\n\nsculpted (fire opal volcanic magma flow gown:1.4), (prismatic light tectonic armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, dark crystalline base plates with deep geometric fissures leaking blinding neon rainbow light like molten lava, asymmetrical flowing hem, rainbow refraction, crystalline and ethereal, highly detailed light refraction, magical armor\n\nsingle dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene,\n\nvolumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only,\n\n4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138339755",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46c9fedc-8091-4188-a960-f0f32d3b8229/original=true/46c9fedc-8091-4188-a960-f0f32d3b8229.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 696029445208638,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, nsfw, face,\nvisible skin, skin texture, detailed face, detailed eyes, eyelashes, glossy lips, blush, facial features, flat lit face, front lighting on face, illuminated skin, semi-transparent silhouette, grey silhouette, washed out silhouette, low contrast silhouette\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist. text, logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, text, watermark, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897046+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b80e8519c5a8da35f4f447b56e043dbde32964b0016f6ef0303f3ed422a0e651",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 138339755 fashion ai-image-prompts 1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of erza \\(fairy tail\\), red long hair, full black silhouette figure, perky breasts, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes, mouth open in o shape, singing, humming, joyful, musical, bright expression, at viewer, detailed eyes, micro-details, mouth open in o shape, thunder lightning eighth note, eighth note lightning trails, silhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form, outfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface, sculpted (fire opal volcanic magma flow gown:1.4), (prismatic light tectonic armor:1.3), made of shifting iridescent fire opals and solidified rainbow light beams, no fabric, blindingly bright, sharp geometric angles, dark crystalline base plates with deep geometric fissures leaking blinding neon rainbow light like molten lava, asymmetrical flowing hem, rainbow refraction, crystalline and ethereal, highly detailed light refraction, magical armor single dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene, volumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only, 4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138339755",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46c9fedc-8091-4188-a960-f0f32d3b8229/original=true/46c9fedc-8091-4188-a960-f0f32d3b8229.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138339758",
+      "title": "Civitai prompt 138339758",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of Erza \\(Fairy Tail\\), red long hair, full black silhouette figure, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes,\n\n\nthunder lightning eighth note, eighth note lightning trails,\n\nsilhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form,\n\noutfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface,\n\nsculpted entirely of prismatic rainbow static electricity, (solidified rainbow lightning beams forming the dress:1.4), (shifting iridescent thunder energy fabric:1.3), blindingly bright, sharp geometric angles of crackling rainbow lightning, highly detailed light refraction, crystalline and ethereal prismatic thunder, (prismatic rainbow lightning trails:1.4), glowing crackling neon spectrum energy, sparks of refracted rainbow light across the surface, electric threads forming the garment in sharp geometric prismatic shapes, faint iridescent lightning texture, detached short prismatic thunder translucent sleeves, (prismatic electric arc choker:1.3) pulsing faintly like a live wire of solidified rainbow light, (orbiting prismatic spark earrings:1.2), (static rainbow ring bracelet:1.3), rotating rings of iridescent static energy circling the wrist like small tesla coils shooting prismatic arcs, (prismatic static energy belt:1.3), condensed crackling band of rainbow lightning at the waist, (crackling prismatic electricity ring circling leg:1.2), glowing prismatic thunderbolt-symbol and iridescent eighth note lightning trails drifting around the figure, prismatic thunder particles and rainbow refraction floating in the air, magical armor aesthetic\n\n\nsingle dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene,\n\nvolumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only,\n\n4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138339758",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a1e08e9-5aa0-43b7-b314-a5ddcdea026b/original=true/0a1e08e9-5aa0-43b7-b314-a5ddcdea026b.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 896611783554532,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, nsfw, face,\nvisible skin, skin texture, detailed face, detailed eyes, eyelashes, glossy lips, blush, facial features, flat lit face, front lighting on face, illuminated skin, semi-transparent silhouette, grey silhouette, washed out silhouette, low contrast silhouette\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, painting by bad-artist. text, logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, text, watermark, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897070+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "16e6dbe6b9cfe0a556e896f454bef936d3cd632813833a0d836a7cf71eeaf678",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 138339758 fashion ai-image-prompts 1girl, solo, shadow silhouette, curvy upper-body focus, (androgynous anime silhouette:1.5) of erza \\(fairy tail\\), red long hair, full black silhouette figure, androgynous anime silhouette, backlit, rim thunder lighting trails, high contrast against light source, no visible skin detail, pure black shadow form, villainess, glowing thunder eyes, thunder lightning eighth note, eighth note lightning trails, silhouette outline shows dramatically cinched waist, elongated thin torso, slender linear form, outfit rendered as glowing rim-light contour only: edge glow of crackling static electricity in gold, pale-blue, red, yellow, purple lightning trails her hair, (glowing electric contour lines:1.4), sparking rim outline at collar, wrists, waist, ankle, faint lightning texture visible only as edge glow, not as lit surface, sculpted entirely of prismatic rainbow static electricity, (solidified rainbow lightning beams forming the dress:1.4), (shifting iridescent thunder energy fabric:1.3), blindingly bright, sharp geometric angles of crackling rainbow lightning, highly detailed light refraction, crystalline and ethereal prismatic thunder, (prismatic rainbow lightning trails:1.4), glowing crackling neon spectrum energy, sparks of refracted rainbow light across the surface, electric threads forming the garment in sharp geometric prismatic shapes, faint iridescent lightning texture, detached short prismatic thunder translucent sleeves, (prismatic electric arc choker:1.3) pulsing faintly like a live wire of solidified rainbow light, (orbiting prismatic spark earrings:1.2), (static rainbow ring bracelet:1.3), rotating rings of iridescent static energy circling the wrist like small tesla coils shooting prismatic arcs, (prismatic static energy belt:1.3), condensed crackling band of rainbow lightning at the waist, (crackling prismatic electricity ring circling leg:1.2), glowing prismatic thunderbolt-symbol and iridescent eighth note lightning trails drifting around the figure, prismatic thunder particles and rainbow refraction floating in the air, magical armor aesthetic single dramatic backlight source, deep blue-black shadow body with faint smoky undefined edges, warm amber rim light tracing the silhouette's outer edge only, dimly lit elegant night scene, volumetric haze, ambient bokeh particles, cinematic composition, moody atmosphere, depth of field, dramatic chiaroscuro lighting, bloom effect on rim light only, 4k, 8k, ultra-detailed background, masterpiece, best quality, cinematic anime illustration, award-winning digital art civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138339758",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a1e08e9-5aa0-43b7-b314-a5ddcdea026b/original=true/0a1e08e9-5aa0-43b7-b314-a5ddcdea026b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141612213",
+      "title": "Civitai prompt 141612213",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "illustration image. A wide scene of a woman ascending a spiraling staircase of pure light between the nine heavenly realms, each step glowing softly beneath her feet as she climbs, her flowing robes trailing luminous particles behind her like a comet's tail. Intricate filigree railings made of starlight, reflective cosmic clouds below. Ethereal dreamlike transcendence, sparkling detail throughout, manhwa fantasy composition. <lora:KR2_Galactium:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141612213",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d47c1926-b404-4c6d-95eb-95b219cd67ea/original=true/d47c1926-b404-4c6d-95eb-95b219cd67ea.jpeg",
+      "model": "DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [
+        3151280,
+        3272732
+      ],
+      "width": 2732,
+      "height": 4098,
+      "seed": 798864796395107,
+      "negative_prompt": "lowres, bad anatomy, bad hands, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897082+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f9bf0e37195a1e2ae8e00c870665b3fd472b90f5f8204f26b6b782012b4ac71",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 141612213 image ai-image-prompts illustration image. a wide scene of a woman ascending a spiraling staircase of pure light between the nine heavenly realms, each step glowing softly beneath her feet as she climbs, her flowing robes trailing luminous particles behind her like a comet's tail. intricate filigree railings made of starlight, reflective cosmic clouds below. ethereal dreamlike transcendence, sparkling detail throughout, manhwa fantasy composition. <lora:kr2_galactium:1> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141612213",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d47c1926-b404-4c6d-95eb-95b219cd67ea/original=true/d47c1926-b404-4c6d-95eb-95b219cd67ea.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141612145",
+      "title": "Civitai prompt 141612145",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "illustration image. A striking wide view of a crystal palace gate guarded by two carved jade pillars, glowing filigree patterns etched into their surface, a robed cultivator woman ascending the wide staircase toward the entrance, her flowing hanfu-style sleeves trailing behind her. Celestial orbs embedded within the pillars casting soft glowing light, star-filled sky reflected in the polished glass steps beneath her feet. Ethereal ornamental atmosphere, luminous cosmic detail, manhwa fantasy key art composition. <lora:KR2_Galactium:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141612145",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d86dd0e9-a0e0-4a0c-90e4-aa61592e0746/original=true/d86dd0e9-a0e0-4a0c-90e4-aa61592e0746.jpeg",
+      "model": "DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [
+        3151280,
+        3272732
+      ],
+      "width": 2732,
+      "height": 4098,
+      "seed": 309526445860771,
+      "negative_prompt": "lowres, bad anatomy, bad hands, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897091+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e46b0deee99fe6412889c11523fdd4daf06931f9ef7e5e9d059c68ff40b2ab9f",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 141612145 image ai-image-prompts illustration image. a striking wide view of a crystal palace gate guarded by two carved jade pillars, glowing filigree patterns etched into their surface, a robed cultivator woman ascending the wide staircase toward the entrance, her flowing hanfu-style sleeves trailing behind her. celestial orbs embedded within the pillars casting soft glowing light, star-filled sky reflected in the polished glass steps beneath her feet. ethereal ornamental atmosphere, luminous cosmic detail, manhwa fantasy key art composition. <lora:kr2_galactium:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141612145",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d86dd0e9-a0e0-4a0c-90e4-aa61592e0746/original=true/d86dd0e9-a0e0-4a0c-90e4-aa61592e0746.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141612156",
+      "title": "Civitai prompt 141612156",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "illustration image. A close celestial portrait of a robed immortal woman weaving threads of pure starlight between her fingers, the luminous strands forming an intricate lace pattern suspended in the air before her. Her East Asian-inspired robe embroidered with matching filigree constellations, soft glowing light emanating directly from her hands. Ethereal dreamlike atmosphere, sparkling illumination, delicate ornamental detail, manhwa fantasy character illustration. <lora:KR2_Galactium:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141612156",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee29d3ce-cb7c-4a0d-86eb-5986d3bd0007/original=true/ee29d3ce-cb7c-4a0d-86eb-5986d3bd0007.jpeg",
+      "model": "DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [
+        3151280,
+        3272732
+      ],
+      "width": 2732,
+      "height": 4098,
+      "seed": 799727889598179,
+      "negative_prompt": "lowres, bad anatomy, bad hands, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897101+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7c19d492b851b0f7c464455ca5aff579c11277ad178faa24aa7fdc74b319f5a2",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 141612156 image ai-image-prompts illustration image. a close celestial portrait of a robed immortal woman weaving threads of pure starlight between her fingers, the luminous strands forming an intricate lace pattern suspended in the air before her. her east asian-inspired robe embroidered with matching filigree constellations, soft glowing light emanating directly from her hands. ethereal dreamlike atmosphere, sparkling illumination, delicate ornamental detail, manhwa fantasy character illustration. <lora:kr2_galactium:1> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141612156",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee29d3ce-cb7c-4a0d-86eb-5986d3bd0007/original=true/ee29d3ce-cb7c-4a0d-86eb-5986d3bd0007.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141612157",
+      "title": "Civitai prompt 141612157",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "illustration image. A wide scene of a mystical weaving hall filled with looms made of crystal and glass, several robed star-weaver women guiding glowing threads of celestial light through delicate filigree frames, luminous fabric spilling from each loom like liquid starlight. Intricate lace patterns forming in real time, soft moonlight filtering through glass ceiling panels above. Ethereal magical atmosphere, sparkling detail, dreamlike manhwa-inspired composition. <lora:KR2_Galactium:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141612157",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a372b385-5a64-4dd4-b0c6-0f82123ed423/original=true/a372b385-5a64-4dd4-b0c6-0f82123ed423.jpeg",
+      "model": "DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [
+        3151280,
+        3272732
+      ],
+      "width": 2732,
+      "height": 4098,
+      "seed": 184812581403963,
+      "negative_prompt": "lowres, bad anatomy, bad hands, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897110+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f7fe2f5dd38d613b0e7ece66ec113fff0ef7f67494aaf5dd64c2d0e624b115c",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 141612157 image ai-image-prompts illustration image. a wide scene of a mystical weaving hall filled with looms made of crystal and glass, several robed star-weaver women guiding glowing threads of celestial light through delicate filigree frames, luminous fabric spilling from each loom like liquid starlight. intricate lace patterns forming in real time, soft moonlight filtering through glass ceiling panels above. ethereal magical atmosphere, sparkling detail, dreamlike manhwa-inspired composition. <lora:kr2_galactium:1> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141612157",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a372b385-5a64-4dd4-b0c6-0f82123ed423/original=true/a372b385-5a64-4dd4-b0c6-0f82123ed423.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141612162",
+      "title": "Civitai prompt 141612162",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "illustration image. A close portrait of a woman holding a finished bolt of celestial silk fabric woven from starlight itself, the cloth glowing faintly with embedded points of light like a captured night sky, intricate lace trim along its edges. Her flowing East Asian-inspired sleeves draped elegantly as she presents the fabric, soft luminous glow reflecting on her face. Ethereal ornamental beauty, sparkling cosmic detail, manhwa fantasy portrait style. <lora:KR2_Galactium:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141612162",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/463ddbe6-c351-4e49-8912-ed7e6f55384c/original=true/463ddbe6-c351-4e49-8912-ed7e6f55384c.jpeg",
+      "model": "DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [
+        3151280,
+        3272732
+      ],
+      "width": 2732,
+      "height": 4098,
+      "seed": 582770675607639,
+      "negative_prompt": "lowres, bad anatomy, bad hands, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897119+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2db1b5c87ab586987d4eac8201d43d4a3ee1bd28a21fd4c019d9e9e9f7a8c526",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 141612162 image ai-image-prompts illustration image. a close portrait of a woman holding a finished bolt of celestial silk fabric woven from starlight itself, the cloth glowing faintly with embedded points of light like a captured night sky, intricate lace trim along its edges. her flowing east asian-inspired sleeves draped elegantly as she presents the fabric, soft luminous glow reflecting on her face. ethereal ornamental beauty, sparkling cosmic detail, manhwa fantasy portrait style. <lora:kr2_galactium:1> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141612162",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/463ddbe6-c351-4e49-8912-ed7e6f55384c/original=true/463ddbe6-c351-4e49-8912-ed7e6f55384c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142022664",
+      "title": "Civitai prompt 142022664",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zy_cinematic, Frontal macro portrait of a terrifying bioluminescent mermaid queen in the abyssal zone. Glowing teal and purple tendrils crown her head, pitch-black ocean background. Soft, diffused natural lighting highlights the translucent, iridescent scales and sharp aquatic features. Cinematic dark fantasy, surreal aesthetic, high contrast, 4:5 framing.",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142022664",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c7da9fd-91d6-4d9c-8b69-48ab9eac0468/original=true/1c7da9fd-91d6-4d9c-8b69-48ab9eac0468.jpeg",
+      "model_version_ids": [
+        3072332,
+        3085969
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 952068777,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897127+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bcf3727f470e575a4977762f8eab79f55be0030e92bbcb0f9954c176a21a0fd1",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142022664 image ai-image-prompts zy_cinematic, frontal macro portrait of a terrifying bioluminescent mermaid queen in the abyssal zone. glowing teal and purple tendrils crown her head, pitch-black ocean background. soft, diffused natural lighting highlights the translucent, iridescent scales and sharp aquatic features. cinematic dark fantasy, surreal aesthetic, high contrast, 4:5 framing. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142022664",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c7da9fd-91d6-4d9c-8b69-48ab9eac0468/original=true/1c7da9fd-91d6-4d9c-8b69-48ab9eac0468.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142067609",
+      "title": "Civitai prompt 142067609",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(GIRL: (1girl, female, feminine, tiefling, slender, (purple skin), (horns, smooth oni horns), (high-pointed nose, neat nose, scar on nose), (thick purple demon tail), ((no pupils), yellow sclera, glowing sclera), (short white hair, bob cut, side-swept bangs), (natural medium breasts), (OUTFIT: white medieval shirt), tender), sitting). BREAK\n(STYLE: (masterpiece, best quality, high quality, absurdres, high detail, soft shading, depth of field, dynamic lighting, natural lighting, amazing composition, soft reflections, perfect hands, perfect fingers, detailed eyes, ultra detailed, western comics style, dark fantasy art, flat colors, no outline)). BREAK\n(BACKGROUND: medieval, night, dark, medieval tavern, crowded tavern, moonlight), (upper body shot, eyes focus, face focus, portrait, looking at viewer)",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142067609",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56149bea-1b53-4cd1-a0db-ae466e8482b7/original=true/56149bea-1b53-4cd1-a0db-ae466e8482b7.jpeg",
+      "model": "hyphoriaIlluNAI_v001",
+      "model_version_ids": [
+        1082928,
+        1242203,
+        1805971,
+        1896603,
+        2838060,
+        2854725
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1694054667,
+      "negative_prompt": "tan lines, bad quality, worst quality, worst detail, jpeg artifacts, sketch, poorly drawn, simple background, bad anatomy, anatomical nonsense, bad proportions, bad face, bad eyes, bad pupils, bad hair, bad hands, bad feet, deformed fingers, extra limbs, extra toes, extra fingers, extra arms, extra head, missing fingers, fused fingers, long neck, glitch, deformed, mutated, disfigured, watermark, text, logo, signature, username, censored, bar_censor, mosaic_censor, skin blemishes, skin spots, acne, 3D render, doll, anime, underaged, child, loli, futanari, strabismus, blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897138+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8e521cc4074f7557248e1f901de77ece97454d0373698e697c837eec57487b9d",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 142067609 fashion ai-image-prompts (girl: (1girl, female, feminine, tiefling, slender, (purple skin), (horns, smooth oni horns), (high-pointed nose, neat nose, scar on nose), (thick purple demon tail), ((no pupils), yellow sclera, glowing sclera), (short white hair, bob cut, side-swept bangs), (natural medium breasts), (outfit: white medieval shirt), tender), sitting). break (style: (masterpiece, best quality, high quality, absurdres, high detail, soft shading, depth of field, dynamic lighting, natural lighting, amazing composition, soft reflections, perfect hands, perfect fingers, detailed eyes, ultra detailed, western comics style, dark fantasy art, flat colors, no outline)). break (background: medieval, night, dark, medieval tavern, crowded tavern, moonlight), (upper body shot, eyes focus, face focus, portrait, looking at viewer) civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142067609",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56149bea-1b53-4cd1-a0db-ae466e8482b7/original=true/56149bea-1b53-4cd1-a0db-ae466e8482b7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142031419",
+      "title": "Civitai prompt 142031419",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dndstyle, Beneath the endless, twilight sky of Shadowvale, a solitary figure stands at the forest’s edge, their silhouette fractured by the soft, perpetual glow of the perpetual dusk. The air is thick with the scent of moss and ancient bark, the forest floor a tapestry of fallen leaves and spongy, shadow-drenched moss that absorbs the faint, melancholic light. The wide-angle lens captures the scene in a shallow depth of field, the towering, skeletal trees blurred into indistinct, jagged shadows, while the subject remains sharply focused, their posture frozen in a moment of quiet, unspoken dread. The sky, a deep, indistinct mix of purples and indigos",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142031419",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d6f939e-a153-4497-81d0-099bb7c4386f/original=true/2d6f939e-a153-4497-81d0-099bb7c4386f.jpeg",
+      "model": "DasiwaKrea2TurboRaw_mirroredskiesV1Turbo",
+      "model_version_ids": [
+        3093121,
+        3107017,
+        3188312,
+        3291557
+      ],
+      "width": 2112,
+      "height": 1696,
+      "seed": 384149685768568,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897157+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "beadd14c62a129ad5cb1118db1d8a32ab5e5e904c6b4cd1b11e49b8780047bd4",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 142031419 photography ai-image-prompts dndstyle, beneath the endless, twilight sky of shadowvale, a solitary figure stands at the forest’s edge, their silhouette fractured by the soft, perpetual glow of the perpetual dusk. the air is thick with the scent of moss and ancient bark, the forest floor a tapestry of fallen leaves and spongy, shadow-drenched moss that absorbs the faint, melancholic light. the wide-angle lens captures the scene in a shallow depth of field, the towering, skeletal trees blurred into indistinct, jagged shadows, while the subject remains sharply focused, their posture frozen in a moment of quiet, unspoken dread. the sky, a deep, indistinct mix of purples and indigos civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142031419",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d6f939e-a153-4497-81d0-099bb7c4386f/original=true/2d6f939e-a153-4497-81d0-099bb7c4386f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840125",
+      "title": "Civitai prompt 141840125",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, highres:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\nA bustling civilization inside a single drop of morning dew, tiny houses, bridges, vibrant, fantasy macro,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing sculpted charizard themed battle outfit, orange and cream crop top, dark blue pleated skirt, (back wings sculpted from hardened orange dragon-scale and dark blue membrane:1.3), (tail flame molded from glowing crystallized amber and ruby:1.2), boot claws carved from charred black obsidian, flame-shaped gold earrings, belt with glowing fire gem, confident smirk, dynamic action pose, fiery particle effects, warm rim lighting, anime style",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840125",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e75ab897-ee0c-4da7-9875-01b62794e195/original=true/e75ab897-ee0c-4da7-9875-01b62794e195.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 773431214574063,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897171+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b3287a3a4fd7a5b231221b5e9911c1aebb09ce1916097d9d156bc1fc5c2cfe34",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 141840125 fashion ai-image-prompts (masterpiece, best quality, highres:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, a bustling civilization inside a single drop of morning dew, tiny houses, bridges, vibrant, fantasy macro, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing sculpted charizard themed battle outfit, orange and cream crop top, dark blue pleated skirt, (back wings sculpted from hardened orange dragon-scale and dark blue membrane:1.3), (tail flame molded from glowing crystallized amber and ruby:1.2), boot claws carved from charred black obsidian, flame-shaped gold earrings, belt with glowing fire gem, confident smirk, dynamic action pose, fiery particle effects, warm rim lighting, anime style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840125",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e75ab897-ee0c-4da7-9875-01b62794e195/original=true/e75ab897-ee0c-4da7-9875-01b62794e195.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840151",
+      "title": "Civitai prompt 141840151",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing (edgy punk streetwear:1.3), cropped neon-yellow leather vest and asymmetrical pleated mini skirt, (sculpted bright yellow spiked resin forming the shoulder epaulets and skirt hem:1.4), thick fluffy white faux-fur collar mimicking a ruff, outfit constructed from distressed yellow leather interwoven with conductive silver lightning-bolt threads, (solidified static-electricity frayed edges glowing faintly:1.3), punk accessories: (choker with a sculpted yellow lightning-bolt pendant:1.3), (spiked yellow resin hoop earrings:1.2), (white faux-fur leg warmers with yellow lightning-bolt straps:1.2), black fishnet stockings with deliberate yellow static-tear patterns, chunky platform boots with yellow spiked soles.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840151",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9bf2095c-6e56-46f4-8867-e82376dc3534/original=true/9bf2095c-6e56-46f4-8867-e82376dc3534.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 512634477493782,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897185+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cb4e00508e525c0cadbf3315b4dfc8824e3d678dc203989471e0ec865ca75c75",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 141840151 fashion ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing (edgy punk streetwear:1.3), cropped neon-yellow leather vest and asymmetrical pleated mini skirt, (sculpted bright yellow spiked resin forming the shoulder epaulets and skirt hem:1.4), thick fluffy white faux-fur collar mimicking a ruff, outfit constructed from distressed yellow leather interwoven with conductive silver lightning-bolt threads, (solidified static-electricity frayed edges glowing faintly:1.3), punk accessories: (choker with a sculpted yellow lightning-bolt pendant:1.3), (spiked yellow resin hoop earrings:1.2), (white faux-fur leg warmers with yellow lightning-bolt straps:1.2), black fishnet stockings with deliberate yellow static-tear patterns, chunky platform boots with yellow spiked soles. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840151",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9bf2095c-6e56-46f4-8867-e82376dc3534/original=true/9bf2095c-6e56-46f4-8867-e82376dc3534.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840152",
+      "title": "Civitai prompt 141840152",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing a fluid-dynamics dress sculpted entirely from living water and sea-foam, (glowing translucent cyan and aquamarine liquid forming the fabric:1.4), (sculpted water-tension skirt:1.5), (floating iridescent bubbles integrated into the ruffles:1.3), (water droplets suspended in mid-air across surface:1.4), dress made of flowing liquid with surface tension holding its physical shape, sparkling water-refraction fabric, glowing aquamarine threads forming the garment, faint white-foam texture across the hem, single cream-colored and cyan fin-like collar-Pauldron.\n(liquid water choker:1.3) flowing smoothly around the neck like a living river, (floating bubble earrings:1.2), (water-ribbon bracelets:1.3), streams of water defying gravity circling the wrists like liquid rings, (surface-tension belt:1.3), a sleek band of high-pressure sculpted water at the waist, (sculpted dorsal fin thigh-guard:1.2), a translucent cream and blue fin wrapping around the thigh like a physical strap.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840152",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f49b6325-9ef3-4fcc-9f02-d7d9adf9a083/original=true/f49b6325-9ef3-4fcc-9f02-d7d9adf9a083.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 229549681144083,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897202+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "66ae32ce611dae85b7d4eb86d5112ed0c77de61cd9761b2fc21cfe86e66c5d96",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 141840152 image ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing a fluid-dynamics dress sculpted entirely from living water and sea-foam, (glowing translucent cyan and aquamarine liquid forming the fabric:1.4), (sculpted water-tension skirt:1.5), (floating iridescent bubbles integrated into the ruffles:1.3), (water droplets suspended in mid-air across surface:1.4), dress made of flowing liquid with surface tension holding its physical shape, sparkling water-refraction fabric, glowing aquamarine threads forming the garment, faint white-foam texture across the hem, single cream-colored and cyan fin-like collar-pauldron. (liquid water choker:1.3) flowing smoothly around the neck like a living river, (floating bubble earrings:1.2), (water-ribbon bracelets:1.3), streams of water defying gravity circling the wrists like liquid rings, (surface-tension belt:1.3), a sleek band of high-pressure sculpted water at the waist, (sculpted dorsal fin thigh-guard:1.2), a translucent cream and blue fin wrapping around the thigh like a physical strap. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840152",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f49b6325-9ef3-4fcc-9f02-d7d9adf9a083/original=true/f49b6325-9ef3-4fcc-9f02-d7d9adf9a083.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840153",
+      "title": "Civitai prompt 141840153",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing high-tech aviator flight jumpsuit, rayquaza motif, (distinct yellow ring patterns wrapping around the arms and thighs:1.4), form-fitting dark emerald green and black pressurized flight suit, sculpted golden dragon-scale armor plating on the chest and shoulders, heavy tactical flight boots with gold buckles, (aviator goggles with glowing green lenses resting on forehead:1.3), thick utility belt, matte rubber and glossy carbon-fiber textures, sleek aerodynamic silhouette.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840153",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5c3ccaf-02ef-4ae2-9ce0-7fb6579ff7a8/original=true/b5c3ccaf-02ef-4ae2-9ce0-7fb6579ff7a8.jpeg",
+      "model": "novaAnimeAM_v40",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 677261490484051,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897215+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "104ebcf711404bffecf5f4eae36d7ace2b4f08146e8c3d550b5cae6f6a12dd0c",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 141840153 image ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing high-tech aviator flight jumpsuit, rayquaza motif, (distinct yellow ring patterns wrapping around the arms and thighs:1.4), form-fitting dark emerald green and black pressurized flight suit, sculpted golden dragon-scale armor plating on the chest and shoulders, heavy tactical flight boots with gold buckles, (aviator goggles with glowing green lenses resting on forehead:1.3), thick utility belt, matte rubber and glossy carbon-fiber textures, sleek aerodynamic silhouette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840153",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5c3ccaf-02ef-4ae2-9ce0-7fb6579ff7a8/original=true/b5c3ccaf-02ef-4ae2-9ce0-7fb6579ff7a8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840157",
+      "title": "Civitai prompt 141840157",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing stealth cyber-ninja techwear, umbreon motif, matte black skin-tight tactical bodysuit top, glowing neon yellow circular rings wrapping around the biceps and neck, black utility cargo pants with hidden zippers, elongated sharp black ear-like cowl attachments on the hood, glowing crimson red visor goggles, matte black combat boots with glowing yellow soles, sleek synthetic neoprene mixed with nylon webbing, futuristic assassin silhouette, highly detailed tactical gear.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840157",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f0154e9-68e9-4451-8e3e-aed315b94fe3/original=true/6f0154e9-68e9-4451-8e3e-aed315b94fe3.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 155071832420107,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897228+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d32bb4bbb14dafb73caa2b3cec6c2b302bc9f9bcc174b77b9f35806d0313a963",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 141840157 image ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing stealth cyber-ninja techwear, umbreon motif, matte black skin-tight tactical bodysuit top, glowing neon yellow circular rings wrapping around the biceps and neck, black utility cargo pants with hidden zippers, elongated sharp black ear-like cowl attachments on the hood, glowing crimson red visor goggles, matte black combat boots with glowing yellow soles, sleek synthetic neoprene mixed with nylon webbing, futuristic assassin silhouette, highly detailed tactical gear. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840157",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f0154e9-68e9-4451-8e3e-aed315b94fe3/original=true/6f0154e9-68e9-4451-8e3e-aed315b94fe3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840162",
+      "title": "Civitai prompt 141840162",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing aerodynamic racing flight suit, rayquaza motif, matte black and forest green carbon-fiber textured bodysuit, bright neon yellow glowing ring patterns tracing the joints and spine, twin flowing translucent green aerodynamic ribbons trailing dynamically from the shoulders, sleek red visor helmet with jagged jawline detailing, metallic black racing boots, futuristic mecha-musume streetwear, glossy synthetic fabric mixed with rigid armor plating, high-speed dynamic pose.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840162",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c64b9bb-892d-46ea-9820-23232650134a/original=true/3c64b9bb-892d-46ea-9820-23232650134a.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 268695073488896,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897241+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f3b6ae3d27960aa7b7127fb92f1d063de1fdccb1a99e48e8c230621b071a6f32",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 141840162 photography ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing aerodynamic racing flight suit, rayquaza motif, matte black and forest green carbon-fiber textured bodysuit, bright neon yellow glowing ring patterns tracing the joints and spine, twin flowing translucent green aerodynamic ribbons trailing dynamically from the shoulders, sleek red visor helmet with jagged jawline detailing, metallic black racing boots, futuristic mecha-musume streetwear, glossy synthetic fabric mixed with rigid armor plating, high-speed dynamic pose. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840162",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c64b9bb-892d-46ea-9820-23232650134a/original=true/3c64b9bb-892d-46ea-9820-23232650134a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840193",
+      "title": "Civitai prompt 141840193",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing high-fashion metallic tailored power suit, scizor motif, crimson red metallic-leather blazer, massive sculpted metallic crab-pincer shaped shoulder pauldrons extending into sharp angular sleeves, sleek black pinstripe wide-leg trousers, silver carapace-textured under-corset, sharp stiletto heels, rigid bug-armor aesthetic mixed with corporate executive fashion, highly polished metal textures, sharp aggressive tailoring, imposing and sleek silhouette.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840193",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2593e1ff-b336-4695-90bd-c20b415aee84/original=true/2593e1ff-b336-4695-90bd-c20b415aee84.jpeg",
+      "model": "unholyDesireMixDark_v10Anima29B",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 961306430529432,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897254+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "275edd8fcd4345821028594ae48a25bc4f730c0c8688b14851c4f0bf128cfeae",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 141840193 fashion ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing high-fashion metallic tailored power suit, scizor motif, crimson red metallic-leather blazer, massive sculpted metallic crab-pincer shaped shoulder pauldrons extending into sharp angular sleeves, sleek black pinstripe wide-leg trousers, silver carapace-textured under-corset, sharp stiletto heels, rigid bug-armor aesthetic mixed with corporate executive fashion, highly polished metal textures, sharp aggressive tailoring, imposing and sleek silhouette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840193",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2593e1ff-b336-4695-90bd-c20b415aee84/original=true/2593e1ff-b336-4695-90bd-c20b415aee84.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840201",
+      "title": "Civitai prompt 141840201",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "solo, Erza \\(Fairy Tail\\), glossy hair, cowboy-shot\nmicro detailed eyes,\n\nDark Academia study, towering bookshelves, rain against gothic windows, warm desk lamp, leather chairs, dusty, scholarly, moody,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing sculpted (kinetic glass rose diffuser:1.4), dramatic shoulder drape made of translucent frosted glass petals articulated to slowly open and close, releasing a visible glowing pink vapor from its geometric core, highly detailed mechanical joints, soft volumetric lighting, and delicate glass textures",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840201",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1d8b362-fbf3-4dad-8076-f520cbd63098/original=true/e1d8b362-fbf3-4dad-8076-f520cbd63098.jpeg",
+      "model": "novaAnimeAM_v40",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1200,
+      "seed": 878320472066654,
+      "negative_prompt": "sprite sheet, a phone, logo, fat, man, male, male body, subtitle, nude, nsfw, cleavage, high cut, high-cut, high leg, french cut, low rise, low-rise, low waist, micro shorts, micro skirt, booty shorts, slit\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897267+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0b2aa6c9a7a42e448a129ca2113912807bd8e7f0b95ee265b8426bf872530ce7",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 141840201 image ai-image-prompts solo, erza \\(fairy tail\\), glossy hair, cowboy-shot micro detailed eyes, dark academia study, towering bookshelves, rain against gothic windows, warm desk lamp, leather chairs, dusty, scholarly, moody, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing sculpted (kinetic glass rose diffuser:1.4), dramatic shoulder drape made of translucent frosted glass petals articulated to slowly open and close, releasing a visible glowing pink vapor from its geometric core, highly detailed mechanical joints, soft volumetric lighting, and delicate glass textures civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840201",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1d8b362-fbf3-4dad-8076-f520cbd63098/original=true/e1d8b362-fbf3-4dad-8076-f520cbd63098.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840208",
+      "title": "Civitai prompt 141840208",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed:1.2), 1girl, \n\nsolo, (Erza \\(Fairy Tail\\):1.5), glossy hair, cowboy-shot\nmicro detailed eyes,\n\n,,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing cyberpunk techwear outfit, asymmetrical bright yellow and matte black waterproof jacket, (pikachu motif:1.3), high collar with two distinct red circular cheek-patch accents, glowing yellow lightning-bolt zipper pulls, sculpted zigzag tail-shaped glowing yellow scarf wrapping dynamically around the waist, black utility cargo pants with yellow geometric circuitry patterns on the thighs, chunky yellow and black platform sneakers, (glowing electric arc goggles resting on head:1.2), matte rubber and neon synthetic fabric textures, sharp silhouettes, highly detailed streetwear.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840208",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5876d95e-b193-439c-b96a-0ee774d41e33/original=true/5876d95e-b193-439c-b96a-0ee774d41e33.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1136,
+      "seed": 404027771837769,
+      "negative_prompt": "sprite sheet, a phone, cleavage, nsfw, nipples, defined nipples, boobs\nbikini, swimsuit, fabric, cloth, bikini straps, bikini top, standard swimwear, simple clothing\nbig-breasts, at, man, male, male body, subtitle, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897280+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8e9ec4b85f8d94a643e99ffdfcf66011a31755f51df82d183de9bc689889141",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 141840208 fashion ai-image-prompts (masterpiece, best quality, ultra-detailed:1.2), 1girl, solo, (erza \\(fairy tail\\):1.5), glossy hair, cowboy-shot micro detailed eyes, ,, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing cyberpunk techwear outfit, asymmetrical bright yellow and matte black waterproof jacket, (pikachu motif:1.3), high collar with two distinct red circular cheek-patch accents, glowing yellow lightning-bolt zipper pulls, sculpted zigzag tail-shaped glowing yellow scarf wrapping dynamically around the waist, black utility cargo pants with yellow geometric circuitry patterns on the thighs, chunky yellow and black platform sneakers, (glowing electric arc goggles resting on head:1.2), matte rubber and neon synthetic fabric textures, sharp silhouettes, highly detailed streetwear. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840208",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5876d95e-b193-439c-b96a-0ee774d41e33/original=true/5876d95e-b193-439c-b96a-0ee774d41e33.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-141840558",
+      "title": "Civitai prompt 141840558",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "solo, Erza \\(Fairy Tail\\), glossy hair, cowboy-shot\nmicro detailed eyes,\n\nCubist room, fragmented geometric shapes, multiple perspectives at once, Picasso style, bold contrasting colors, abstract,\n\nnewest, slender, no lineart\n(4k,8k,Ultra HD), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, CG, cute girl, eyelashes, lips,\n \ncinematic lighting, beautiful, wearing sculpted (volatile top note dissolution sculpture:1.4), lower body as a solid polished pristine obsidian form, actively transitioning upward into millions of fine glowing fragrant oil particles floating and dissipating into the air, highly detailed particulate physics, stark material contrast, and volumetric floating mist",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/141840558",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1c3810-c5e6-404b-b4ac-7630aded7bd7/original=true/ac1c3810-c5e6-404b-b4ac-7630aded7bd7.jpeg",
+      "model": "unholyDesireMixSinister_v80",
+      "model_version_ids": [],
+      "width": 984,
+      "height": 1136,
+      "seed": 52412773349765,
+      "negative_prompt": "sprite sheet, a phone, cleavage, nsfw, nipples, defined nipples, boobs\nbikini, swimsuit, fabric, cloth, bikini straps, bikini top, standard swimwear, simple clothing\nbig-breasts, at, man, male, male body, subtitle, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-07T08:25:16.897291+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "33ebf219a0a81592b712fa201575164ab20e2dddcbad4a126a8f59ef766d84c6",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 141840558 image ai-image-prompts solo, erza \\(fairy tail\\), glossy hair, cowboy-shot micro detailed eyes, cubist room, fragmented geometric shapes, multiple perspectives at once, picasso style, bold contrasting colors, abstract, newest, slender, no lineart (4k,8k,ultra hd), masterpiece, best quality, very awa, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic, ambient occlusion, raytracing, soft lighting, blum effect, absolutely eye-catching, intricate cinematic background, amazing quality, illustrating, cg, cute girl, eyelashes, lips, cinematic lighting, beautiful, wearing sculpted (volatile top note dissolution sculpture:1.4), lower body as a solid polished pristine obsidian form, actively transitioning upward into millions of fine glowing fragrant oil particles floating and dissipating into the air, highly detailed particulate physics, stark material contrast, and volumetric floating mist civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/141840558",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1c3810-c5e6-404b-b4ac-7630aded7bd7/original=true/ac1c3810-c5e6-404b-b4ac-7630aded7bd7.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-06T20:16:22.168068+00:00",
-  "prompt_count": 163
+  "generated_at": "2026-09-07T08:25:16.972965+00:00",
+  "prompt_count": 191
 }

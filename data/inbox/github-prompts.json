@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-06T20:16:10.142923+00:00",
+  "generated_at": "2026-09-07T08:25:03.701446+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -189,14 +189,31 @@
       "source_url": "https://github.com/langgptai/awesome-claude-prompts/blob/586aea8d3b815cc119e6a906404231d4e0f71b0b/README.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-f5090c505df3",
+      "title": "CONTRIBUTING.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### Quality Standards\n\n✅ **Do:**\n- Test prompts with multiple LLMs (Claude, ChatGPT, etc.)\n- Provide clear, specific instructions\n- Include concrete examples\n- Follow arc42 and docToolchain conventions\n- Use consistent terminology\n- Include validation criteria\n\n❌ **Don't:**\n- Create overly broad or vague prompts\n- Assume specific LLM capabilities\n- Forget to test the prompt thoroughly\n- Include proprietary or sensitive information in examples\n\n### File Naming Conventions\n\n- Use descriptive, hyphenated names: `context-diagram-generator.md`\n- For AsciiDoc versions: `90-Context-Diagram-Generator.adoc`\n- Examples: `context-diagram-example.adoc`\n- Descriptions: `Context-Diagram-Generator-Description.adoc`\n\n## 🔍 Testing Your Contributions\n\n### Prompt Testing Checklist\n\n- [ ] Prompt works with Claude Sonnet/Opus\n- [ ] Prompt works with ChatGPT 4\n- [ ] Output follows specified format\n- [ ] Example produces expected results\n- [ ] Instructions are clear and unambiguous\n- [ ] Integration with docToolchain works\n- [ ] AsciiDoc syntax is valid\n\n### Documentation Testing",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "docToolchain/LLM-Prompts",
+      "source_url": "https://github.com/docToolchain/LLM-Prompts/blob/b725899eaacae0f6e3dc084b5a0fd491ce9270be/CONTRIBUTING.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
-  "added_this_run": 0,
+  "added_this_run": 1,
   "last_strategy": "rotating_code_search_then_repository_discovery",
   "last_themes": [
-    "\"coding prompt\"",
-    "Midjourney prompts",
-    "Flux prompts"
+    "\"architecture prompt\"",
+    "Gemini prompts",
+    "ChatGPT prompts"
   ]
 }
