@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "name": "مكتبة مسعد ماهر - اكتشاف البرومبتات المصورة",
+  "purpose": "تجميع مصادر تعرض نتيجة بصرية مع البرومبت أو وصف قابل للاستخراج، ثم وضع العناصر في صندوق مراجعة قبل النشر.",
+  "workflow": ["discover", "extract", "validate", "deduplicate", "review", "publish"],
+  "required_fields": ["source_id", "source_url", "prompt_text", "image_url"],
+  "recommended_fields": ["creator", "creator_url", "model", "title", "license", "published_at", "discovered_at"],
+  "review_rules": {
+    "minimum_quality": 8,
+    "require_prompt_text": true,
+    "require_source_url": true,
+    "require_image_or_result_url": true,
+    "deduplicate_by_normalized_prompt": true,
+    "preserve_creator_attribution": true,
+    "never_bulk_copy_social_content_without_permission": true,
+    "social_and_pinterest_default_status": "review_required"
+  },
+  "sources": [
+    {"source_id":"youmind","mode":"review","url":"https://youmind.com/prompts","supports":["image","video","webpage"],"priority":"critical"},
+    {"source_id":"promptlabhub","mode":"review","url":"https://promptlabhub.com/prompts","supports":["image","video","creators"],"priority":"critical"},
+    {"source_id":"nanoprompts","mode":"review","url":"https://nanoprompts.live/","supports":["image","nano_banana"],"priority":"critical"},
+    {"source_id":"pinterest-ai-prompts","mode":"review","url":"https://www.pinterest.com/search/pins/?q=ai%20prompts","supports":["image","prompt_cards","boards"],"priority":"high"},
+    {"source_id":"reddit-midjourney","mode":"review","url":"https://www.reddit.com/r/midjourney/","supports":["image","midjourney","community"],"priority":"high"},
+    {"source_id":"reddit-promptengineering","mode":"review","url":"https://www.reddit.com/r/PromptEngineering/","supports":["prompt_engineering","image","video","writing"],"priority":"high"},
+    {"source_id":"facebook-ai-prompts","mode":"review","url":"https://www.facebook.com/","supports":["image","social","community"],"priority":"high"}
+  ]
+}
