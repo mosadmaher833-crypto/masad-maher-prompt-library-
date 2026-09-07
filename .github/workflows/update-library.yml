@@ -5,6 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: '17 3 * * *'
+    - cron: '17 15 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,7 +19,7 @@ jobs:
   update-library:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -65,6 +66,9 @@ jobs:
       - name: Import and publish candidates from enabled connectors
         run: python scripts/update-library.py
 
+      - name: Translate English prompts to Arabic
+        run: python scripts/translate-prompts.py
+
       - name: Normalize, classify and merge canonical prompts
         run: python scripts/enrich-library.py
 
@@ -86,7 +90,8 @@ jobs:
               'status': 'completed',
               'event': '${{ github.event_name }}',
               'run_id': '${{ github.run_id }}',
-              'completed_at': datetime.now(timezone.utc).isoformat()
+              'completed_at': datetime.now(timezone.utc).isoformat(),
+              'schedule': '03:17 and 15:17 UTC daily'
           }
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
@@ -105,10 +110,8 @@ jobs:
             exit 0
           fi
 
-          git commit -m 'تحديث تلقائي للمكتبة من الموصلات المفعلة'
+          git commit -m 'تحديث وترجمة تلقائية للمكتبة'
 
-          # Rebase before the first push, then retry safely if another update
-          # reaches main between fetch and push. Never force-push main.
           for attempt in 1 2 3 4 5; do
             echo "Synchronizing with origin/main (attempt $attempt)..."
             git fetch origin main
