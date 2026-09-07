@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "policy": {
     "allow_only_declared_connectors": true,
     "prefer_official_api_or_rss": true,
@@ -7,7 +7,8 @@
     "require_source_url": true,
     "require_prompt_text": true,
     "deduplicate": true,
-    "preserve_attribution_and_license": true
+    "preserve_attribution_and_license": true,
+    "visual_prompt_discovery_review_only": true
   },
   "connectors": [
     {"source_id":"github","type":"github_search","status":"enabled","endpoint":"https://api.github.com/search/code","notes":"Search public GitHub code for prompt files/snippets; apply rate limits and attribution."},
@@ -45,8 +46,8 @@
     {"source_id":"socialbyidm","type":"creator_attribution_review","status":"review_required","endpoint":"https://socialbyidm.com/ai-image-prompts-viral-social-media-editing/","notes":"Prompts are attributed to named Instagram creators; preserve creator attribution and import only permitted items."},
     {"source_id":"promptspace","type":"public_prompt_library_review","status":"review_required","endpoint":"https://www.promptspace.in/blog/top-50-ai-image-prompts-for-instagram-reels","notes":"Public Instagram prompt collection; review before redistribution."},
     {"source_id":"promptstudio-x","type":"social_creator_review","status":"review_required","endpoint":"https://linktr.ee/promptstudio.x","notes":"Social creator hub linking Instagram, Facebook, Pinterest, Telegram and Threads; discovery/review only."},
-    {"source_id":"reddit-promptengineering","type":"community_review","status":"review_required","endpoint":"https://www.reddit.com/r/PromptEngineering/","notes":"Community prompt examples; use attribution, respect subreddit rules and do not bulk-copy user content without permission."},
-    {"source_id":"reddit-midjourney","type":"community_review","status":"review_required","endpoint":"https://www.reddit.com/r/midjourney/","notes":"Community image/prompt sharing; manual review and attribution only."},
+    {"source_id":"reddit-promptengineering","type":"public_rss_visual_review","status":"enabled","endpoint":"https://www.reddit.com/r/PromptEngineering/.rss","notes":"Public RSS discovery only; candidates require image + prompt + original post URL and remain review-only."},
+    {"source_id":"reddit-midjourney","type":"public_rss_visual_review","status":"enabled","endpoint":"https://www.reddit.com/r/midjourney/.rss","notes":"Public RSS discovery only; candidates require image + prompt + original post URL and remain review-only."},
     {"source_id":"facebook-ai-prompts","type":"social_community_review","status":"review_required","endpoint":"https://www.facebook.com/","notes":"Discovery category for public Facebook prompt communities; manual review only because platform access and reuse permissions vary."},
     {"source_id":"pinterest-ai-prompts","type":"visual_social_review","status":"review_required","endpoint":"https://www.pinterest.com/search/pins/?q=ai%20prompts","notes":"Discovery source for public Pinterest prompt pins/boards; manual review and attribution required; no arbitrary scraping."}
   ]
