@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>مراجعة البرومبتات المصورة — مكتبة مسعد ماهر</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f5f7fb;color:#172033}.hero{background:linear-gradient(135deg,#111827,#312e81,#4f46e5);color:#fff;padding:32px 16px}.wrap{max-width:1200px;margin:auto;padding:18px 14px}.nav,.actions{display:flex;gap:8px;flex-wrap:wrap}.nav a,.btn{padding:10px 13px;border-radius:10px;text-decoration:none;border:0;cursor:pointer;font:inherit}.nav a{background:#fff;color:#312e81}.btn{background:#312e81;color:#fff}.btn.alt{background:#e5e7eb;color:#172033}.btn.good{background:#166534}.btn.bad{background:#991b1b}.status{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:14px;margin:14px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;box-shadow:0 6px 18px #00000008}.card img{width:100%;height:230px;object-fit:cover;background:#e5e7eb}.body{padding:14px}.meta{font-size:12px;color:#64748b;line-height:1.8}.prompt{background:#f8fafc;border-radius:10px;padding:11px;line-height:1.8;font-size:13px;max-height:190px;overflow:auto;direction:ltr;text-align:left;white-space:pre-wrap}.badge{display:inline-block;padding:5px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:11px}.empty{text-align:center;padding:45px;color:#64748b}.danger{color:#991b1b}.small{font-size:12px;color:#64748b}@media(max-width:600px){.card img{height:200px}.hero h1{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap"><div class="nav"><a href="library-final.html">🏠 الرئيسية</a><a href="library-pro.html">📚 المكتبة</a><a href="community.html">👥 المجتمع</a><a href="add-prompt.html">➕ إضافة</a></div><h1>🖼️ صندوق مراجعة البرومبتات المصورة</h1><p>صورة + Prompt + منشئ + رابط المنشور الأصلي، ثم مراجعة قبل أي نشر.</p></div></header>
+<main class="wrap">
+<div class="status" id="status">جاري تحميل صندوق المراجعة...</div>
+<div class="actions"><button class="btn" onclick="setFilter('all')">الكل</button><button class="btn alt" onclick="setFilter('pending_review')">قيد المراجعة</button><button class="btn good" onclick="setFilter('approved')">مقبول محليًا</button><button class="btn bad" onclick="setFilter('rejected')">مرفوض</button><button class="btn alt" onclick="exportApproved()">⬇️ تصدير المقبول</button></div>
+<section id="grid" class="grid" style="margin-top:16px"></section>
+<p class="small">الموافقة هنا تحفظ قرار المراجعة في هذا المتصفح فقط. النشر المركزي لا يتم من هذه الصفحة، وتظل مصادر المجتمع/السوشيال خاضعة للمراجعة والإسناد والترخيص.</p>
+</main>
+<script>
+let items=[],filter='all';const KEY='mm_visual_prompt_review';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function decisions(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch{return {}}}
+function setFilter(f){filter=f;render()}
+function statusOf(x){return decisions()[x.id]||x.review_status||'pending_review'}
+function mark(id,status){const d=decisions();d[id]=status;localStorage.setItem(KEY,JSON.stringify(d));render()}
+function render(){const shown=items.filter(x=>filter==='all'||statusOf(x)===filter);document.getElementById('status').innerHTML=`📦 إجمالي المرشحين: <b>${items.length}</b> — المعروض: <b>${shown.length}</b>`;document.getElementById('grid').innerHTML=shown.length?shown.map(x=>{const st=statusOf(x);return `<article class="card"><img src="${esc(x.image_url)}" alt="${esc(x.title)}" loading="lazy" onerror="this.style.display='none'"><div class="body"><span class="badge">${esc(st)}</span><h3>${esc(x.title||'برومبت مصور')}</h3><div class="meta">المصدر: ${esc(x.source||x.source_id)}<br>المنشئ: ${esc(x.creator||'غير متوفر')}<br>النموذج: ${esc(x.model||'غير محدد')}<br>الجودة: ${esc(x.quality_score||'—')}/10</div><p><a href="${esc(x.source_url)}" target="_blank" rel="noopener">🔗 فتح المنشور الأصلي</a>${x.creator_url?` · <a href="${esc(x.creator_url)}" target="_blank" rel="noopener">👤 صفحة المنشئ</a>`:''}</p><div class="prompt">${esc(x.prompt_text||x.prompt||'')}</div><div class="actions" style="margin-top:10px"><button class="btn good" onclick="mark('${esc(x.id)}','approved')">✓ قبول</button><button class="btn bad" onclick="mark('${esc(x.id)}','rejected')">✕ رفض</button><button class="btn alt" onclick="mark('${esc(x.id)}','pending_review')">↺ مراجعة</button></div></div></article>`}).join(''):'<div class="empty">لا توجد عناصر في هذا القسم حاليًا.</div>'}
+function exportApproved(){const approved=items.filter(x=>statusOf(x)==='approved');const payload={version:'1.0',exported_at:new Date().toISOString(),items:approved};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='visual-prompt-approved.json';a.click();URL.revokeObjectURL(a.href)}
+async function load(){try{const r=await fetch('data/inbox/visual-prompt-discovery.json?'+Date.now(),{cache:'no-store'});const d=await r.json();items=Array.isArray(d.items)?d.items:[];render()}catch(e){document.getElementById('status').innerHTML='<span class="danger">تعذر تحميل صندوق المراجعة.</span>'}}
+load();
+</script>
+</body></html>
