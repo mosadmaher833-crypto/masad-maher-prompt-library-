@@ -24,7 +24,6 @@ FEEDS = [
     {"source_id": "reddit-promptengineering", "name": "Reddit r/PromptEngineering", "url": "https://www.reddit.com/r/PromptEngineering/.rss", "model": "Prompt Engineering"},
 ]
 
-PROMPT_MARKERS = ("prompt", "prompt:", "prompt text", "my prompt", "used this prompt", "the prompt i used")
 MODEL_WORDS = ("midjourney", "nano banana", "flux", "stable diffusion", "sdxl", "runway", "kling", "sora", "veo")
 
 
@@ -51,7 +50,6 @@ def clean_html(value):
 
 def extract_prompt(text):
     raw = clean_html(text)
-    # Prefer an explicit prompt section and stop at the next common section.
     patterns = [
         r"(?:prompt(?:\s+text)?|my prompt|prompt i used)\s*[:\-]\s*(.{100,5000}?)(?=\s+(?:negative prompt|model|settings|parameters|source|image|credits)\s*[:\-]|$)",
         r"(?:prompt(?:\s+text)?|my prompt|prompt i used)\s+(.{100,5000}?)(?=\s+(?:negative prompt|model|settings|parameters)\b|$)",
@@ -66,11 +64,11 @@ def extract_prompt(text):
 
 
 def extract_image(text):
-    match = re.search(r"IMAGE_URL:(https?://[^\s]+)", text or "", re.I)
+    raw = html.unescape(str(text or ""))
+    match = re.search(r"IMAGE_URL:(https?://[^\s]+)", raw, re.I)
     if match and valid_https(match.group(1)):
         return match.group(1).rstrip(")>,\"'")
-    # Reddit RSS often exposes preview links as normal image URLs in content.
-    for url in re.findall(r"https://[^\s<>'\"]+", html.unescape(str(text or ""))):
+    for url in re.findall(r"https://[^\s<>'\"]+", raw):
         u = url.rstrip(")>,\"'")
         if re.search(r"\.(?:jpg|jpeg|png|webp)(?:\?|$)", u, re.I) and valid_https(u):
             return u
@@ -111,9 +109,11 @@ def parse_feed(xml_text, feed):
         if node.tag.split("}")[-1] not in ("item", "entry"):
             continue
         values = {}
+        raw_values = {}
         for child in list(node):
             key = child.tag.split("}")[-1]
             values.setdefault(key, []).append("".join(child.itertext()).strip())
+            raw_values.setdefault(key, []).append(ET.tostring(child, encoding="unicode"))
             href = child.attrib.get("href")
             if href:
                 values.setdefault(key + "_href", []).append(href)
@@ -122,7 +122,7 @@ def parse_feed(xml_text, feed):
         if not valid_https(link):
             link = (values.get("link_href") or [""])[0]
         author = (values.get("author") or values.get("creator") or [""])[0]
-        description = (values.get("description") or values.get("content") or values.get("summary") or [""])[0]
+        description = (raw_values.get("description") or raw_values.get("content") or raw_values.get("summary") or [""])[0]
         prompt = extract_prompt(description)
         image_url = extract_image(description)
         if not prompt or not image_url or not valid_https(link):
