@@ -39,6 +39,9 @@ jobs:
           echo "Commit: ${{ github.sha }}"
           python --version
 
+      - name: Verify Arabic UI patcher
+        run: python -m py_compile scripts/add-arabic-ui.py
+
       - name: Validate existing library data
         run: python scripts/validate_library.py
 
@@ -75,6 +78,9 @@ jobs:
       - name: Build fast search index
         run: python scripts/build-search-index.py
 
+      - name: Add visible Arabic/English prompt switch
+        run: python scripts/add-arabic-ui.py
+
       - name: Validate imported library data
         run: python scripts/validate_library.py
 
@@ -103,14 +109,14 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          git add data/prompts.json data/search-index.json data/taxonomy.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json
+          git add data/prompts.json data/search-index.json data/taxonomy.json data/update-log.json data/inbox/github-prompts.json data/inbox/lexica-prompts.json data/inbox/civitai-prompts.json data/inbox/official-github-prompts.json data/inbox/official-model-prompts.json library-pro.html smart-search.html prompt-details.html
 
           if git diff --cached --quiet; then
-            echo 'No generated data changes.'
+            echo 'No generated data/UI changes.'
             exit 0
           fi
 
-          git commit -m 'تحديث وترجمة تلقائية للمكتبة'
+          git commit -m 'إظهار ترجمة البرومبتات العربية داخل المنصة'
 
           for attempt in 1 2 3 4 5; do
             echo "Synchronizing with origin/main (attempt $attempt)..."
@@ -122,7 +128,7 @@ jobs:
             fi
 
             if git push origin HEAD:main; then
-              echo 'Generated data pushed successfully.'
+              echo 'Generated data/UI pushed successfully.'
               exit 0
             fi
 
