@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
   "mode": "safe_auto",
@@ -13,7 +13,8 @@
     "data/inbox/lexica-prompts.json",
     "data/inbox/civitai-prompts.json",
     "data/inbox/official-github-prompts.json",
-    "data/inbox/official-model-prompts.json"
+    "data/inbox/official-model-prompts.json",
+    "data/inbox/mohamed-ain-prompts.json"
   ],
   "log_file": "data/update-log.json",
   "rules": {
