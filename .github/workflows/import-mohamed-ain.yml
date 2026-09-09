@@ -3,6 +3,8 @@ name: Import Mohamed Ain Prompt
 on:
   push:
     branches: [main]
+    paths:
+      - 'data/inbox/mohamed-ain-prompts.json'
 
 permissions:
   contents: write
