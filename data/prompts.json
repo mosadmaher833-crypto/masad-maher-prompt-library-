@@ -14493,6 +14493,32 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/763af517-d073-4711-a61d-898b1376a1cb/original=true/763af517-d073-4711-a61d-898b1376a1cb.jpeg"
         }
       ]
+    },
+    {
+      "id": "mohamed-ain-floor-plan-2d-to-3d-001",
+      "title": "ABSOLUTE 2D TO 3D FLOOR PLAN CONVERSION ENGINE",
+      "category": "architecture",
+      "subcategory": "floor-plan-to-3d",
+      "tags": [
+        "architecture",
+        "floor plan",
+        "2D to 3D",
+        "architectural visualization",
+        "rendering",
+        "Nano Banana"
+      ],
+      "prompt": "Convert the supplied 2D architectural floor plan into a clean, realistic 3D architectural visualization. The supplied floor plan is the ABSOLUTE AND SUPREME DESIGN AUTHORITY. DO NOT redesign it. DO NOT reinterpret it. DO NOT improve the layout. DO NOT modify it. DO NOT add architectural spaces. DO NOT remove architectural spaces. The task is ONLY: 2D FLOOR PLAN → 3D ARCHITECTURAL VISUALIZATION. Preserve the original geometry and design exactly, including walls, openings, rooms and the furniture shown in the plan. Treat the drawing as the authoritative source and focus only on creating a realistic 3D architectural visualization.",
+      "prompt_ar": "حوّل المسقط المعماري ثنائي الأبعاد إلى تصور معماري ثلاثي الأبعاد واقعي، مع اعتبار المسقط المرجع الهندسي المطلق وعدم تغيير التصميم أو توزيع الفراغات.",
+      "prompt_hash": "34e8ba682374d9925c4d831030a2cb59e36abe6ce8863e65167ba345b0f4d0d5",
+      "quality_score": 9.5,
+      "source": "Mohamed Ain / محمد عين",
+      "source_id": "mohamed-ain",
+      "source_url": "https://www.facebook.com/",
+      "creator": "Mohamed Ain",
+      "attribution_required": true,
+      "license": "Source attribution required; imported from user-provided screenshot",
+      "imported_at": "2026-09-09T18:43:21.064419+00:00",
+      "import_method": "user_requested_manual_import"
     }
   ],
   "generated_at": "2026-09-07T14:09:51.706503+00:00",
