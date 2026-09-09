@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "source": "Mohamed Ain / محمد عين",
+  "source_id": "mohamed-ain",
+  "candidates": [
+    {
+      "id": "mohamed-ain-floor-plan-2d-to-3d-001",
+      "title": "ABSOLUTE 2D TO 3D FLOOR PLAN CONVERSION ENGINE",
+      "category": "architecture",
+      "subcategory": "floor-plan-to-3d",
+      "tags": ["architecture","floor plan","2D to 3D","architectural visualization","rendering","Nano Banana"],
+      "prompt": "Convert the supplied 2D architectural floor plan into a clean, realistic 3D architectural visualization. The supplied floor plan is the ABSOLUTE AND SUPREME DESIGN AUTHORITY. DO NOT redesign it. DO NOT reinterpret it. DO NOT improve the layout. DO NOT modify it. DO NOT add architectural spaces. DO NOT remove architectural spaces. The task is ONLY: 2D FLOOR PLAN → 3D ARCHITECTURAL VISUALIZATION. Preserve the original geometry and design exactly, including walls, openings, rooms and the furniture shown in the plan. Treat the drawing as the authoritative source and focus only on creating a realistic 3D architectural visualization.",
+      "quality_score": 9.5,
+      "status": "ready",
+      "source": "Mohamed Ain / محمد عين",
+      "source_id": "mohamed-ain",
+      "source_url": "https://www.facebook.com/",
+      "creator": "Mohamed Ain",
+      "attribution_required": true,
+      "license": "Source attribution required; imported from user-provided screenshot",
+      "import_method": "user_requested_manual_import",
+      "notes": "Exact source page URL was not visible in the screenshot. The prompt text imported here is limited to the prompt content visibly supplied by the user in the screenshot; additional prompts from the same page should be added when the exact page URL or additional screenshots are supplied."
+    }
+  ]
+}
