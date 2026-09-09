@@ -1,0 +1,87 @@
+name: Import Mohamed Ain Prompt
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  import-mohamed-ain:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Import approved Mohamed Ain candidates
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          prompts_path = Path('data/prompts.json')
+          inbox_path = Path('data/inbox/mohamed-ain-prompts.json')
+          data = json.loads(prompts_path.read_text(encoding='utf-8'))
+          inbox = json.loads(inbox_path.read_text(encoding='utf-8'))
+          prompts = data.setdefault('prompts', [])
+          existing_ids = {str(p.get('id','')) for p in prompts}
+          existing_hashes = {str(p.get('prompt_hash','')) for p in prompts if p.get('prompt_hash')}
+
+          def normalize(text):
+              return ' '.join(str(text or '').lower().split())
+
+          added = []
+          for item in inbox.get('candidates', []):
+              pid = str(item.get('id','')).strip()
+              text = str(item.get('prompt','')).strip()
+              if not pid or not text or pid in existing_ids:
+                  continue
+              h = hashlib.sha256(normalize(text).encode('utf-8')).hexdigest()
+              if h in existing_hashes:
+                  continue
+              record = {
+                  'id': pid,
+                  'title': item.get('title') or 'Mohamed Ain Architectural Prompt',
+                  'category': item.get('category') or 'architecture',
+                  'subcategory': item.get('subcategory') or 'architectural-visualization',
+                  'tags': item.get('tags') or ['architecture','Mohamed Ain'],
+                  'prompt': text,
+                  'prompt_ar': 'حوّل المسقط المعماري ثنائي الأبعاد إلى تصور معماري ثلاثي الأبعاد واقعي، مع اعتبار المسقط المرجع الهندسي المطلق وعدم تغيير التصميم أو توزيع الفراغات.',
+                  'prompt_hash': h,
+                  'quality_score': float(item.get('quality_score', 9.5)),
+                  'source': 'Mohamed Ain / محمد عين',
+                  'source_id': 'mohamed-ain',
+                  'source_url': item.get('source_url') or 'https://www.facebook.com/',
+                  'creator': item.get('creator') or 'Mohamed Ain',
+                  'attribution_required': True,
+                  'license': item.get('license') or 'Source attribution required; imported from user-provided screenshot',
+                  'imported_at': datetime.now(timezone.utc).isoformat(),
+                  'import_method': 'user_requested_manual_import'
+              }
+              prompts.append(record)
+              existing_ids.add(pid)
+              existing_hashes.add(h)
+              added.append(pid)
+
+          data['prompts'] = prompts
+          prompts_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps({'added': added, 'prompt_count': len(prompts)}, ensure_ascii=False))
+          PY
+
+      - name: Commit imported prompt
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/prompts.json
+          if git diff --cached --quiet; then
+            echo 'No new Mohamed Ain prompt to import.'
+            exit 0
+          fi
+          git commit -m 'استيراد برومبت محمد عين إلى المكتبة'
+          git push origin HEAD:main
