@@ -1,0 +1,89 @@
+{
+  "version":"1.0",
+  "source":"محمد النخيلي / Nekhly Academy",
+  "source_id":"nekhly-academy",
+  "source_url":"https://nekhelyacademy.com/",
+  "creator":"محمد النخيلي / Nekhly Academy",
+  "candidates":[
+    {
+      "id":"nekhly-image-prompt-structure-001",
+      "title":"احترافي: بناء برومبت صورة منظم",
+      "category":"image",
+      "subcategory":"prompt-engineering",
+      "tags":["image","prompt engineering","subject","pose","environment","camera","lighting","style"],
+      "prompt":"اكتب برومبت صورة احترافيًا لمشهد [الموضوع] مع تحديد الوضعية، البيئة، التكوين، نوع اللقطة والعدسة، الإضاءة، والأسلوب البصري. اجعل الوصف سرديًا ومحددًا بصريًا، وتجنب كلمات الحشو.",
+      "prompt_ar":"اكتب برومبت صورة احترافيًا لمشهد [الموضوع] مع تحديد الوضعية، البيئة، التكوين، نوع اللقطة والعدسة، الإضاءة، والأسلوب البصري. اجعل الوصف سرديًا ومحددًا بصريًا، وتجنب كلمات الحشو.",
+      "quality_score":9.2,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/how-to-write-image-prompt/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-image-edit-lock-change-002",
+      "title":"تعديل صورة: ثبّت ثم غيّر",
+      "category":"image",
+      "subcategory":"image-editing",
+      "tags":["image editing","preserve identity","background replacement","controlled edit"],
+      "prompt":"حافظ على الوجه والملابس والإضاءة والتكوين كما هي تمامًا، وغيّر [عنصرًا واحدًا فقط] إلى [التغيير المطلوب] دون تعديل أي عنصر آخر.",
+      "prompt_ar":"حافظ على الوجه والملابس والإضاءة والتكوين كما هي تمامًا، وغيّر [عنصرًا واحدًا فقط] إلى [التغيير المطلوب] دون تعديل أي عنصر آخر.",
+      "quality_score":9.4,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/how-to-write-image-prompt/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-video-prompt-framework-003",
+      "title":"فيديو AI: القالب السينمائي الكامل",
+      "category":"video",
+      "subcategory":"text-to-video",
+      "tags":["video","Veo","Kling","Runway","camera","motion","timing"],
+      "prompt":"أنشئ فيديو عن [الموضوع] وهو [الحركة] داخل [البيئة]. استخدم [نوع اللقطة] مع حركة كاميرا [الحركة]، إضاءة [الوصف]، أسلوب [الأسلوب]، وتوقيت حركة واضح. ركز على حدث رئيسي واحد.",
+      "prompt_ar":"أنشئ فيديو عن [الموضوع] وهو [الحركة] داخل [البيئة]. استخدم [نوع اللقطة] مع حركة كاميرا [الحركة]، إضاءة [الوصف]، أسلوب [الأسلوب]، وتوقيت حركة واضح. ركز على حدث رئيسي واحد.",
+      "quality_score":9.3,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/how-to-write-ai-video-prompt/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-image-to-video-motion-004",
+      "title":"Image-to-Video: صف الحركة فقط",
+      "category":"video",
+      "subcategory":"image-to-video",
+      "tags":["image-to-video","motion","camera movement","Runway","Kling"],
+      "prompt":"استخدم الصورة المرفقة كمرجع ثابت للشخصية والمشهد. صف الحركة فقط: [حركة الشخصية]، مع [حركة الكاميرا] و[توقيت الحركة]، دون إعادة وصف الملابس أو الخلفية الموجودة في الصورة.",
+      "prompt_ar":"استخدم الصورة المرفقة كمرجع ثابت للشخصية والمشهد. صف الحركة فقط: [حركة الشخصية]، مع [حركة الكاميرا] و[توقيت الحركة]، دون إعادة وصف الملابس أو الخلفية الموجودة في الصورة.",
+      "quality_score":9.5,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/how-to-write-ai-video-prompt/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-faceless-video-ideas-005",
+      "title":"YouTube Faceless: توليد أفكار فيديو",
+      "category":"content",
+      "subcategory":"youtube",
+      "tags":["YouTube","faceless","content ideas","hooks"],
+      "prompt":"أنت استراتيجي محتوى لقناة YouTube بدون ظهور في نيتش [النيتش]. اقترح 20 فكرة تستهدف [الجمهور]، ولكل فكرة اكتب عنوانًا جذابًا وخطافًا لأول 3 ثوانٍ، ورتب الأفكار حسب قابلية الانتشار.",
+      "prompt_ar":"أنت استراتيجي محتوى لقناة YouTube بدون ظهور في نيتش [النيتش]. اقترح 20 فكرة تستهدف [الجمهور]، ولكل فكرة اكتب عنوانًا جذابًا وخطافًا لأول 3 ثوانٍ، ورتب الأفكار حسب قابلية الانتشار.",
+      "quality_score":9.0,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/faceless-youtube-channel-ai/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-social-content-plan-006",
+      "title":"سوشيال ميديا: خطة محتوى شهرية",
+      "category":"marketing",
+      "subcategory":"social-media",
+      "tags":["social media","content plan","Instagram","Facebook","marketing"],
+      "prompt":"أنت خبير تسويق سوشيال ميديا. أنشئ خطة محتوى لمدة 30 يومًا لـ[النشاط] تستهدف [الجمهور]، مع نوع المنشور، الفكرة، الهدف التسويقي، وخطاف البداية لكل يوم، مع توازن بين القيمة والتفاعل والبيع.",
+      "prompt_ar":"أنت خبير تسويق سوشيال ميديا. أنشئ خطة محتوى لمدة 30 يومًا لـ[النشاط] تستهدف [الجمهور]، مع نوع المنشور، الفكرة، الهدف التسويقي، وخطاف البداية لكل يوم، مع توازن بين القيمة والتفاعل والبيع.",
+      "quality_score":9.1,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/make-money-with-ai-services/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-reels-script-007",
+      "title":"Reels: سكريبت قصير بتوقيت ولقطات",
+      "category":"content",
+      "subcategory":"reels-script",
+      "tags":["Reels","Shorts","script","hook","CTA"],
+      "prompt":"اكتب سكريبت Reel مدته [30] ثانية عن [الفكرة] لجمهور [الجمهور] بهدف [الهدف]. ابدأ بثلاثة Hooks مختلفة، ثم وزّع الكلام واللقطة على خط زمني واضح، وأنهِ بدعوة إجراء واحدة.",
+      "prompt_ar":"اكتب سكريبت Reel مدته [30] ثانية عن [الفكرة] لجمهور [الجمهور] بهدف [الهدف]. ابدأ بثلاثة Hooks مختلفة، ثم وزّع الكلام واللقطة على خط زمني واضح، وأنهِ بدعوة إجراء واحدة.",
+      "quality_score":9.2,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/ai-reels-script-writing/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    },
+    {
+      "id":"nekhly-cv-ats-008",
+      "title":"سيرة ذاتية: CV مهيأ لـATS",
+      "category":"career",
+      "subcategory":"cv-resume",
+      "tags":["CV","resume","ATS","job application","career"],
+      "prompt":"أنت خبير توظيف وATS. اكتب سيرة ذاتية مخصصة لوظيفة [الوظيفة] من بياناتي [البيانات] وإعلان الوظيفة [الإعلان]. استخدم الكلمات المفتاحية بصدق، ابدأ الإنجازات بأفعال قوية، ولا تضف خبرة أو شهادة لم أذكرها.",
+      "prompt_ar":"أنت خبير توظيف وATS. اكتب سيرة ذاتية مخصصة لوظيفة [الوظيفة] من بياناتي [البيانات] وإعلان الوظيفة [الإعلان]. استخدم الكلمات المفتاحية بصدق، ابدأ الإنجازات بأفعال قوية، ولا تضف خبرة أو شهادة لم أذكرها.",
+      "quality_score":9.4,"source":"محمد النخيلي / Nekhly Academy","source_id":"nekhly-academy","source_url":"https://nekhelyacademy.com/ai-cv-resume-builder-arabic/","creator":"محمد النخيلي / Nekhly Academy","attribution_required":true,"license":"attribution-required / adapted from public source","status":"ready","import_method":"web_research_adapted"
+    }
+  ]
+}
