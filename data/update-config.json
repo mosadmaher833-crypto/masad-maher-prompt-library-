@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "library": "مكتبة مسعد ماهر للـPrompts",
   "schedule": "daily",
   "mode": "safe_auto",
@@ -14,7 +14,8 @@
     "data/inbox/civitai-prompts.json",
     "data/inbox/official-github-prompts.json",
     "data/inbox/official-model-prompts.json",
-    "data/inbox/mohamed-ain-prompts.json"
+    "data/inbox/mohamed-ain-prompts.json",
+    "data/inbox/nekhly-academy-prompts.json"
   ],
   "log_file": "data/update-log.json",
   "rules": {
