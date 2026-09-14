@@ -37,6 +37,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/github_prompt_connector.py
 
+      - name: Discover declared GitHub prompt sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/github_prompt_sources_connector.py
+
       - name: Discover Lexica prompts
         run: python scripts/lexica_prompt_connector.py
 
