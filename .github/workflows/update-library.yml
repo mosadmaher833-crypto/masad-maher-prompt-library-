@@ -1,12 +1,10 @@
 name: Update Prompt Library
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'
     - cron: '17 15 * * *'
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,12 +14,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-library:
-    if: github.actor != 'github-actions[bot]'
+  update:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,129 +29,62 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Verify workflow is running
-        run: |
-          echo "Workflow run started successfully."
-          echo "Event: ${{ github.event_name }}"
-          echo "Commit: ${{ github.sha }}"
-          python --version
-
-      - name: Verify connector syntax
-        run: python -m py_compile scripts/add-arabic-ui.py scripts/visual_prompt_discovery.py
-
-      - name: Validate existing library data
+      - name: Validate library
         run: python scripts/validate_library.py
 
-      - name: Discover prompts from GitHub
+      - name: Discover GitHub prompts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/github_prompt_connector.py
 
-      - name: Discover prompts from Lexica
+      - name: Discover Lexica prompts
         run: python scripts/lexica_prompt_connector.py
 
-      - name: Discover prompts from Civitai
+      - name: Discover Civitai prompts
         run: python scripts/civitai_prompt_connector.py
 
-      - name: Discover licensed prompts from official educational GitHub sources
+      - name: Discover official GitHub prompts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/official_github_prompt_connector.py
 
-      - name: Discover official model prompt examples
+      - name: Discover official model prompts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/official_model_prompt_connector.py
 
-      - name: Discover visual prompts into review inbox
+      - name: Discover visual prompts for review
         run: python scripts/visual_prompt_discovery.py
 
-      - name: Import and publish candidates from enabled connectors
+      - name: Import approved enabled-source inbox candidates
         run: python scripts/update-library.py
 
-      - name: Translate English prompts to Arabic
+      - name: Translate prompts
         run: python scripts/translate-prompts.py
 
-      - name: Normalize, classify and merge canonical prompts
+      - name: Enrich and classify
         run: python scripts/enrich-library.py
 
-      - name: Build fast search index
+      - name: Build search index
         run: python scripts/build-search-index.py
 
-      - name: Add visible Arabic/English prompt switch
+      - name: Update Arabic UI
         run: python scripts/add-arabic-ui.py
 
-      - name: Validate imported library data
+      - name: Final validation
         run: python scripts/validate_library.py
 
-      - name: Validate visual review inbox JSON
-        run: python - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path('data/inbox/visual-prompt-discovery.json')
-          data = json.loads(p.read_text(encoding='utf-8'))
-          assert isinstance(data.get('items'), list), 'visual inbox items must be a list'
-          for item in data['items']:
-              for key in ('source_url','image_url','prompt_text'):
-                  assert str(item.get(key,'')).startswith('https://') if key != 'prompt_text' else len(str(item.get(key,''))) >= 100, f'invalid {key}'
-              assert item.get('review_status') in {'pending_review','approved','rejected'}
-          print(f"Visual review inbox: PASS ({len(data['items'])} items)")
-        PY
-
-      - name: Record run status
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          from datetime import datetime, timezone
-          path = Path('data/update-log.json')
-          data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
-          data['workflow'] = {
-              'status': 'completed',
-              'event': '${{ github.event_name }}',
-              'run_id': '${{ github.run_id }}',
-              'completed_at': datetime.now(timezone.utc).isoformat(),
-              'schedule': '03:17 and 15:17 UTC daily'
-          }
-          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
-
-      - name: Commit and push generated data safely
+      - name: Commit all generated library data
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-
-          # Pick up every declared/managed inbox automatically. This keeps
-          # future sources independent of this workflow file.
           git add data
           git add library-pro.html smart-search.html prompt-details.html
-
           if git diff --cached --quiet; then
-            echo 'No generated data/UI changes.'
+            echo 'No generated changes.'
             exit 0
           fi
-
           git commit -m 'تحديث مكتبة البرومبتات تلقائيا'
-
-          for attempt in 1 2 3 4 5; do
-            echo "Synchronizing with origin/main (attempt $attempt)..."
-            git fetch origin main
-            if ! git rebase origin/main; then
-              echo 'Rebase conflict detected. Aborting instead of risking main.'
-              git rebase --abort || true
-              exit 1
-            fi
-
-            if git push origin HEAD:main; then
-              echo 'Generated data/UI pushed successfully.'
-              exit 0
-            fi
-
-            echo "Push was rejected because main changed. Retrying..."
-            sleep $((attempt * 5))
-          done
-
-          echo 'Unable to push after 5 safe attempts.'
-          exit 1
+          git push origin HEAD:main
