@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-15T08:47:35.044679+00:00",
+  "generated_at": "2026-09-15T09:35:03.054072+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1087,19 +1087,12 @@
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
-  "added_this_run": 32,
+  "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
     "\"advertising prompt\"",
     "prompt engineering",
     "prompt templates"
   ],
-  "last_sources": [
-    "prompts-chat",
-    "frontier-ai-prompts",
-    "frontier-ai-prompts",
-    "frontier-ai-prompts",
-    "frontier-ai-prompts",
-    "ai-prompt-cheatsheet"
-  ]
+  "last_sources": []
 }
