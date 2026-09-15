@@ -1,12 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-15T09:39:08.604853+00:00",
+  "generated_at": "2026-09-15T19:01:19.487100+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-142818391",
-      "title": "Civitai prompt 142818391",
+      "id": "civitai-138087367",
+      "title": "Civitai prompt 138087367",
       "category": "architecture",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -15,273 +15,25 @@
         "imported",
         "api"
       ],
-      "prompt": "@NIJISIS, A beautiful surreal anime-style timelapse composition showing the exact same cozy bedroom across four different seasons and times of day. The image is divided into four equal horizontal panels stacked vertically from top to bottom. The bedroom layout, bed, mattress, pillows, bedside furniture and window remain perfectly consistent in all four panels, creating a seamless visual time-lapse of the passage of time.\nPanel 1 — Spring morning:\nSoft fresh morning sunlight enters through the window. The room is bright, peaceful and airy. Pale green leaves and delicate spring flowers can be seen outside the window. Warm gentle sunlight falls across the white bed and clean mattress, with subtle floating dust particles in the sunbeams.\nPanel 2 — Summer noon:\nThe exact same bedroom under intense bright summer sunlight. Strong sunlight pours directly through the window, creating crisp luminous highlights and warm natural shadows across the bed and floor. Outside the window are lush green trees under a vivid blue sky. The atmosphere feels hot, bright and energetic.\nPanel 3 — Autumn sunset:\nThe same room during a beautiful autumn sunset. Warm orange, amber and crimson light enters through the window. Outside, autumn trees covered in red, orange and golden leaves are visible. Long dramatic shadows stretch across the bed and floor. A few autumn leaves gently drift outside the window, creating a nostalgic and melancholic atmosphere.\nPanel 4 — Winter night:\nThe same bedroom at deep winter night. The room is dark and quiet, illuminated only by soft cool moonlight entering through the window. Heavy snow falls outside, with snow-covered trees and rooftops visible beyond the glass. A thin layer of frost subtly covers the window edges. The bed appears cozy and warm against the cold blue darkness outside.\nThe four panels must clearly represent the passage from spring to summer to autumn to winter while preserving exactly the same bedroom architecture, bed position, window position, furniture arrangement and camera perspective in every panel.\nClean horizontal four-panel layout, perfectly aligned panels, consistent perspective, strong visual continuity between panels, cinematic environmental storytelling.\nBeautiful polished anime illustration, surreal seasonal time-lapse concept, detailed interior background, soft painterly textures, clean anime linework, subtle cel shading, atmospheric lighting, highly detailed fabric and room textures.\nColor progression from fresh pastel green and warm morning light, to vivid summer blue and golden sunlight, to rich autumn orange and crimson, finally to deep midnight blue, icy cyan and snowy white.\nPoetic, peaceful, nostalgic and cinematic atmosphere, visual representation of time passing through the four seasons.\n16:9 overall composition, four equal horizontal panels stacked vertically.",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142818391",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91477331-1a14-4d55-92ad-03942fedb29e/original=true/91477331-1a14-4d55-92ad-03942fedb29e.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3302337
-      ],
-      "width": 768,
-      "height": 1376,
-      "seed": 1449403216,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.593893+00:00"
-    },
-    {
-      "id": "civitai-142818480",
-      "title": "Civitai prompt 142818480",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "zidiusArt, ta86_inkriot, dark fantasy illustration, psychological horror seinen style, deep charcoal ink hatching, cold lunar highlights, fierce predator intensity. masterpiece, best quality, ultra-detailed, surreal anime silhouette artwork,  cinematic anime fantasy illustration, extreme close-up portrait of a mysterious girl holding a glowing sword vertically in front of her face, sword blade positioned exactly in the center of the composition, the blade visually splitting the entire world into two contrasting seasons, highly symmetrical framing, sad emotion, left side theme: radiant summer landscape reflected inside the left half of the blade, bright blue sky, warm sunlight, lush green trees, shimmering lake water, soft clouds, vivid atmosphere, golden summer lighting, floating flower petals and glowing dust, right side theme: frozen winter landscape reflected inside the right half of the blade, snowy mountains, dead frozen trees, heavy snow, icy wind, pale moonlight, cold blue tones, frost particles and crystalline snowflakes, the girl has long white hair partially covering her face, red skin, melancholic expression, glossy lips, intense gaze directed toward viewer, ornate fantasy sword with intricate silver engravings, glowing crystal embedded in the guard, reflective magical metal, luminous edges, refracted light along the blade surface, magical energy dividing both worlds, elegant celestial jewelry, dangling earrings shaped like miniature planets and moons, crystal chains in hair, silver rings on fingers,hand gripping the sword near the bottom foreground in forced perspective, dominant colors: strong contrast between warm sunlight and icy moonlight, volumetric lighting, bloom effects, sparkling particles, fantasy atmosphere, emotional and mystical mood, extremely detailed eyes, highly detailed rendering, depth of field, dramatic lighting, glowing reflections, anime key visual aesthetic, dark fantasy mixed with celestial fantasy, visual composition inspired by magical object portrait illustrations",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142818480",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e56ecd39-c74b-46fd-90ee-02d33349dc28/original=true/e56ecd39-c74b-46fd-90ee-02d33349dc28.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3116962,
-        3190465
-      ],
-      "width": 928,
-      "height": 1152,
-      "seed": 333486814,
-      "negative_prompt": "blurry, photorealistic photograph, 3d cgi, smooth plastic doll skin, soft round anime eyes, cute moe, colorful pastel rainbow, clean pristine clothes, deformed hands, extra fingers, missing fingers, crowded clutter, washed out colors, flat lighting",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.594211+00:00"
-    },
-    {
-      "id": "civitai-142818504",
-      "title": "Civitai prompt 142818504",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "@NJSW33T, m0nm0n. \n cinematic anime fantasy illustration, extreme close-up portrait of a mysterious girl holding a glowing sword vertically in front of her face, sword blade positioned exactly in the center of the composition, the blade visually splitting the entire world into two contrasting seasons, highly symmetrical framing, sad emotion, left side theme: radiant summer landscape reflected inside the left half of the blade, bright blue sky, warm sunlight, lush green trees, shimmering lake water, soft clouds, vivid atmosphere, golden summer lighting, floating flower petals and glowing dust, right side theme: frozen winter landscape reflected inside the right half of the blade, snowy mountains, dead frozen trees, heavy snow, icy wind, pale moonlight, cold blue tones, frost particles and crystalline snowflakes, the girl has long white hair partially covering her face, red skin, melancholic expression, glossy lips, intense gaze directed toward viewer, ornate fantasy sword with intricate silver engravings, glowing crystal embedded in the guard, reflective magical metal, luminous edges, refracted light along the blade surface, magical energy dividing both worlds, elegant celestial jewelry, dangling earrings shaped like miniature planets and moons, crystal chains in hair, silver rings on fingers,hand gripping the sword near the bottom foreground in forced perspective, dominant colors: strong contrast between warm sunlight and icy moonlight, volumetric lighting, bloom effects, sparkling particles, fantasy atmosphere, emotional and mystical mood, extremely detailed eyes, highly detailed rendering, depth of field, dramatic lighting, glowing reflections, anime key visual aesthetic, dark fantasy mixed with celestial fantasy, visual composition inspired by magical object portrait illustrations",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142818504",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b1115d5-bea9-43f9-a7cd-0b8a8a8515ff/original=true/5b1115d5-bea9-43f9-a7cd-0b8a8a8515ff.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3168308,
-        3210573,
-        3305239
-      ],
-      "width": 768,
-      "height": 1376,
-      "seed": 797164666,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.594468+00:00"
-    },
-    {
-      "id": "civitai-142834287",
-      "title": "Civitai prompt 142834287",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "nature, A high-angle view of a futuristic city featuring massive, cylindrical, bright red towers with a weathered, industrial aesthetic. The towers are covered in antennas, windows, and attached mechanical structures. A wide, white pedestrian plaza connects the towers, bustling with tiny figures and market stalls. In the background, a dense, hazy blue-grey futuristic cityscape stretches infinitely to the horizon. High contrast between the vibrant red foreground and the cool blue background, highly detailed, sci-fi concept art, cinematic lighting, 8k resolution, masterpiece.",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834287",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26530371-28b9-4965-803a-baa7e5e1f077/original=true/26530371-28b9-4965-803a-baa7e5e1f077.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3141844,
-        3189191
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 997761354,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.595126+00:00"
-    },
-    {
-      "id": "civitai-142834291",
-      "title": "Civitai prompt 142834291",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "nature, An epic fantasy sci-fi illustration of a young hero standing on a rocky cliff edge next to a fluffy, golden-brown dog. The hero wears intricate white and gold armor with glowing blue energy lines and a red cape, looking heroically into the distance. Behind them, a massive, pale blue planet with distinct concentric ring patterns dominates the sky. Below, floating islands and castles drift in the clouds. Bright, ethereal lighting, wind blowing the hero's hair and the dog's fur, highly detailed, cinematic composition, masterpiece.",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834291",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a92cda9-ae02-44bc-893c-92b093676386/original=true/9a92cda9-ae02-44bc-893c-92b093676386.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3113770,
-        3125118,
-        3189191
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 220162854,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.595435+00:00"
-    },
-    {
-      "id": "civitai-142834195",
-      "title": "Civitai prompt 142834195",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "dora, A dramatic, cinematic still capturing the loading of a shell into a massive railway gun during World War II. Shot from a low angle, the image is dominated by the imposing, dark-iron breech mechanism positioned beside the colossal shell. Amidst hazy, smoke-filled air, helmeted German soldiers move across multi-tiered steel scaffolding and catwalks. The scene features atmospheric, cinematic lighting where deep shadows accentuate the texture of cold metal and rivets. It is characterized by a desaturated, historical color palette, an oppressive and intimidating wartime atmosphere, and a texture reminiscent of 35mm film. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60> <lora:A60_kr2_epoch_10:0.90> <lora:dorakr2_krea2_3204129_epoch_10:1>",
+      "prompt": "A pilot's-eye view fills the frame from inside a sleek flying car cockpit, angular dashboard edges framing the lower portion of the composition, dense clusters of glowing holographic displays curve across the console, thin cyan wireframe readouts, scrolling amber text, a pulsing radar overlay tracking distant shapes, faint reflections of the instrument glow visible on the curved windshield glass, one gloved hand rests on a sculpted control yoke rendered in confident angular brushwork, fine mechanical detail suggested through loose expressive strokes rather than hard precision, beyond the windshield the vast futuristic city sprawls in every direction, towering megastructures stacked with dense layered signage, glowing kanji and unreadable neon script in crimson, amber, and acid green blazing against churning teal-black night sky, holographic advertisements the size of buildings flicker and shift mid-air between the towers, colossal projected figures dissolving and reforming in cyan and magenta light, streams of other flying vehicles cut through the middle distance, their trailing thruster light streaking in long luminous red and gold lines through the misty air, layered smog and atmospheric haze soften the furthest towers into loose abstracted color blocks, while nearer structures remain richly textured with visible directional brushwork across glass, steel, and weathered concrete, thin rain streaks diagonally across the windshield glass, catching and refracting the city's light into elongated smeared reflections, steam and cloud drift lazily between the lower skyscraper levels far below, hinting at the teeming streets, distant and obscured beneath the haze, composition centered on the vast depth beyond the cockpit, dashboard details anchoring the lower frame while the eye is pulled deep into the glowing vertical sprawl ahead, mood awestruck and immersive, technological intimacy of the cockpit contrasted against the overwhelming scale of the living dystopian metropolis. Style loose painterly digital illustration in the tradition of neo-noir concept art, thick expressive brushstrokes with visible directional texture throughout, dominant teal and cyan atmospheric palette punctuated by explosive bursts of crimson, amber, and magenta light, dramatic high contrast between near-black silhouette forms and blazing saturated glowing elements, heavy atmospheric fog and haze softening distant depth while foreground cockpit details remain textured and tactile, glowing reflective rain-streaked glass rendered in smeared elongated brushwork, dynamic cinematic composition achieved through paint rather than photographic technique, richly atmospheric matte painting finish evoking dystopian futuristic scale and immersion",
       "quality_score": 8.9,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834195",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d23e53f-0337-4652-af12-6e5b08d86314/original=true/9d23e53f-0337-4652-af12-6e5b08d86314.jpeg",
-      "model": "krea2\\krea2TurboOfficialComfy_krea2TurboInt8.safetensors",
-      "model_version_ids": [
-        3091481
-      ],
-      "width": 1216,
-      "height": 832,
-      "seed": 16005455312654,
-      "negative_prompt": "dora, A dramatic, cinematic still capturing the loading of a shell into a massive railway gun during World War II. Shot from a low angle, the image is dominated by the imposing, dark-iron breech mechanism positioned beside the colossal shell. Amidst hazy, smoke-filled air, helmeted German soldiers move across multi-tiered steel scaffolding and catwalks. The scene features atmospheric, cinematic lighting where deep shadows accentuate the texture of cold metal and rivets. It is characterized by a desaturated, historical color palette, an oppressive and intimidating wartime atmosphere, and a texture reminiscent of 35mm film.",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.596557+00:00"
-    },
-    {
-      "id": "civitai-142834233",
-      "title": "Civitai prompt 142834233",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "dora, An epic, photorealistic cinematic movie still of the massive German Schwerer Gustav railway gun, shot from a sharp ground-level horizontal side profile. The immense scale of the weapon completely dominates the frame as its giant steel barrel points aggressively upward toward the top right sky. Light airborne dust and faint industrial smoke drift around the complex multi-tiered metal chassis and rows of iron wheels. The lighting is dramatic, casting soft highlights along the top edge of the long barrel against a moody, hazy desaturated background sky. High contrast, grit, heavy mechanical realism, 35mm film look. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60> <lora:A60_kr2_epoch_10:0.90>",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834233",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04eeb97-2651-4a22-9bbc-249d95d67747/original=true/d04eeb97-2651-4a22-9bbc-249d95d67747.jpeg",
-      "model": "krea2\\krea2TurboOfficialComfy_krea2TurboInt8.safetensors",
-      "model_version_ids": [
-        3091481
-      ],
-      "width": 864,
-      "height": 1152,
-      "seed": 191972240752501,
-      "negative_prompt": "dora, An epic, photorealistic cinematic movie still of the massive German Schwerer Gustav railway gun, shot from a sharp ground-level horizontal side profile. The immense scale of the weapon completely dominates the frame as its giant steel barrel points aggressively upward toward the top right sky. Light airborne dust and faint industrial smoke drift around the complex multi-tiered metal chassis and rows of iron wheels. The lighting is dramatic, casting soft highlights along the top edge of the long barrel against a moody, hazy desaturated background sky. High contrast, grit, heavy mechanical realism, 35mm film look.",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.596669+00:00"
-    },
-    {
-      "id": "civitai-142834262",
-      "title": "Civitai prompt 142834262",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "dora, his image captures the massive German railway gun \"Dora\" in a scene reminiscent of a grand, photorealistic motion picture. Shot from a low angle looking up at the front-left, the composition emphasizes the gun's rugged texture and allows its overwhelming scale to dominate the frame. The base of the barrel gleams with a raw, inorganic metallic luster. German soldiers wearing helmets patrol the complex network of iron catwalks and stairways. Cold ambient light, casting deep shadows, highlights the dust, rust, and countless heavy iron rivets covering the colossal structure. The image features a dramatic, desaturated color palette, high contrast, an imposing scale evocative of wartime, and the distinctive visual characteristics of a 35mm anamorphic lens. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60> <lora:A60_kr2_epoch_10:0.90>",
-      "quality_score": 9.5,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834262",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab8622f3-0fc6-42d3-a103-c0ffa4e3e069/original=true/ab8622f3-0fc6-42d3-a103-c0ffa4e3e069.jpeg",
-      "model": "krea2\\krea2TurboOfficialComfy_krea2TurboInt8.safetensors",
-      "model_version_ids": [
-        3091481
-      ],
-      "width": 864,
-      "height": 1152,
-      "seed": 1052849611688623,
-      "negative_prompt": "dora, his image captures the massive German railway gun \"Dora\" in a scene reminiscent of a grand, photorealistic motion picture. Shot from a low angle looking up at the front-left, the composition emphasizes the gun's rugged texture and allows its overwhelming scale to dominate the frame. The base of the barrel gleams with a raw, inorganic metallic luster. German soldiers wearing helmets patrol the complex network of iron catwalks and stairways. Cold ambient light, casting deep shadows, highlights the dust, rust, and countless heavy iron rivets covering the colossal structure. The image features a dramatic, desaturated color palette, high contrast, an imposing scale evocative of wartime, and the distinctive visual characteristics of a 35mm anamorphic lens.",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.596790+00:00"
-    },
-    {
-      "id": "civitai-142829515",
-      "title": "Civitai prompt 142829515",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "@NJSW33T, m0nm0n. A bright and joyful anime illustration of a beautiful woman being lifted high into the sky by a large bunch of vibrant colorful balloons. She holds tightly onto the balloon strings with both hands as the powerful upward pull gently carries her off the ground.\nThe woman is floating naturally in mid-air, her body slightly tilted upward, legs trailing below her, long hair and flowing clothes fluttering dramatically in the wind. Her expression is delighted and surprised, capturing a sense of freedom, excitement and childlike wonder.\nAbove her is an enormous cluster of glossy balloons in vivid red, yellow, orange, pink, blue, turquoise and purple. The balloons vary slightly in size and overlap naturally, creating a large colorful mass that fills the upper part of the composition. Their surfaces have beautiful glossy reflections from the sunlight.\nBright modern anime aesthetic, clean crisp linework, polished character design, vibrant saturated colors, soft cel shading combined with delicate painterly rendering, luminous skin, glossy hair, beautiful atmospheric perspective, cinematic lighting, high-key illumination.\nmagical and adventurous atmosphere, feeling of freedom and weightlessness, spectacular blue-sky scenery, brilliant sunlight, vivid colorful balloons, sparkling highlights.",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142829515",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b0bd84f-d20f-4d9d-8f10-a970783636f1/original=true/0b0bd84f-d20f-4d9d-8f10-a970783636f1.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3168308,
-        3210573,
-        3305239
-      ],
-      "width": 768,
-      "height": 1376,
-      "seed": 486032898,
+      "source_url": "https://civitai.com/images/138087367",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/253050cb-7dad-43a1-8fcd-c340769ac8a6/original=true/253050cb-7dad-43a1-8fcd-c340769ac8a6.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 888,
+      "height": 1184,
+      "seed": 991190306913244,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.597434+00:00"
+      "discovered_at": "2026-09-15T19:01:19.482075+00:00"
     },
     {
-      "id": "civitai-142834210",
-      "title": "Civitai prompt 142834210",
+      "id": "civitai-142858007",
+      "title": "Civitai prompt 142858007",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -290,91 +42,54 @@
         "imported",
         "api"
       ],
-      "prompt": ", masterpiece, best quality, score_9, score_8, score_7, very aesthetic, ultra-detailed, newest, year 2025, year 2024, @ebihurai, 1girl, solo, very long dark brown hair, low twintails, dark eyes, black t-shirt, oversized light grey hoodie off shoulders, black shorts, dark boots, night rooftop walkway, metal fences, distant city skyline, cloudy night sky, detailed background, smile, open mouth, looking back, full body, from behind, running, cool blue night lighting, dim city glow,\nShe runs along a narrow rooftop passage in the center of a vertical frame, caught mid-stride while looking back over her shoulder, her long hair and loose hoodie lifted mid-motion by the night wind rather than hanging motionless. Muted anime illustration with rough linework and flat cel shading, limited night palette of deep blue and grey.\n, \n<lora:Detailer-KREA2:1.2> <lora:HonnryouHanaru-k2_c1-st3000:0.4> <lora:reoen_krea2_v1:0.85>",
-      "quality_score": 8.1,
+      "prompt": "<lora:Strange Reverie - Krea2_000002500:1.1> strangedaal. An alluring 1950s-inspired pinup model with a confident, seductive gaze walks through a golden wheat field, her fingertips trailing gently along the tops of the wheat ears as she passes. She wears a pastel yellow halter dress and elegant brown leather pumps. Behind her, a classic cream-colored car sits parked at the edge of the field. The rural backdrop features the sweeping wheat field during golden hour, with the setting sun casting a warm, rich honey-colored light over the entire scene. Breezes gently ruffle her hair and dress. Glistening dust particles float in the cinematic air. This filmic shot emphasizes sharp material details, from the wheat's fine texture and reflective leather shoes to the soft fabric folds, captured with gorgeous, warm color grading.",
+      "quality_score": 8.9,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834210",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72351161-8666-400c-8da6-504fa1477ec1/original=true/72351161-8666-400c-8da6-504fa1477ec1.jpeg",
-      "model": "JANK2_v1.0_INT8_CONVROT",
+      "source_url": "https://civitai.com/images/142858007",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb94f9b9-53f1-4ad1-abd7-75312459a65f/original=true/bb94f9b9-53f1-4ad1-abd7-75312459a65f.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-15T19:01:19.482918+00:00"
+    },
+    {
+      "id": "civitai-134919086",
+      "title": "Civitai prompt 134919086",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n(@naguru_\\(cyoroama\\):0.5),\n_\n(lizard:1.1), \n_\nforest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm,\n_\ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/134919086",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a44017a8-a6d2-4bf8-a66a-60f99f2a4e28/original=true/a44017a8-a6d2-4bf8-a66a-60f99f2a4e28.jpeg",
+      "model": null,
       "model_version_ids": [
-        3068874,
-        3238899,
-        3267724,
-        3275395
+        2836417
       ],
       "width": 832,
       "height": 1216,
-      "seed": 1114931714687356,
-      "negative_prompt": null,
+      "seed": 878262837,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.597743+00:00"
+      "discovered_at": "2026-09-15T19:01:19.484021+00:00"
     },
     {
-      "id": "civitai-142831127",
-      "title": "Civitai prompt 142831127",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "foodgoldenhour2, product photography of a bowl of pasta, Outdoors at golden hour, warm low sunlight and long soft shadows, romantic mood, professional food photography, appetizing, high-end restaurant menu style. (cup of coffee, stack of pancakes, bowl of pasta, slice of layered cake, glass of red wine), professional studio lighting, e-commerce product photo, blank unlabeled packaging, no text, no logo, no watermark, sharp focus, highly detailed, 8k uhd <lora:HanselCraft_Style\\food_golden_hour_v2_v1:0.8>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142831127",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f69f949a-4b6f-4f84-a167-c788f5938dd9/original=true/f69f949a-4b6f-4f84-a167-c788f5938dd9.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [
-        1759168
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 2416803586,
-      "negative_prompt": "text, watermark, logo, letters, writing, signature, label, brand name, packaging text, blurry, low quality, worst quality, jpeg artifacts, extra limbs, deformed, ugly, duplicate, cropped, out of frame, oversaturated, underexposed, overexposed",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.597865+00:00"
-    },
-    {
-      "id": "civitai-142834107",
-      "title": "Civitai prompt 142834107",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": ", masterpiece, best quality, score_9, score_8, score_7, very aesthetic, ultra-detailed, newest, year 2025, year 2024, @ebihurai, 1girl, solo, short messy black hair, brown eyes, oversized grey hoodie, soda can, night rooftop ledge, blurred city lights, bokeh, starry night sky, tall buildings, neutral expression, looking at viewer, cowboy shot, straight on, sitting, holding can with both hands, cool blue night lighting, city glow rim light,\nShe sits on a rooftop ledge in the lower center of a vertical frame, her figure large against a blurred sea of city lights stretching behind her, holding a small can between her hands near her knees while wind lifts strands of her short hair rather than hanging motionless. Muted anime illustration with flat cel shading and limited night palette of deep blue, grey and warm orange bokeh.\ncel shading, night illustration, \n<lora:Detailer-KREA2:1.2> <lora:HonnryouHanaru-k2_c1-st3000:0.4> <lora:reoen_krea2_v1:0.85>",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834107",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cd24b9d-72dd-40f4-9b2c-beef1201b688/original=true/3cd24b9d-72dd-40f4-9b2c-beef1201b688.jpeg",
-      "model": "JANK2_v1.0_INT8_CONVROT",
-      "model_version_ids": [
-        3068874,
-        3238899,
-        3267724,
-        3275395
-      ],
-      "width": 1824,
-      "height": 1248,
-      "seed": 39033177933623,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, username, watermark, watermark, artist name, web address, copyright, bad anatomy",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.598039+00:00"
-    },
-    {
-      "id": "civitai-142834057",
-      "title": "Civitai prompt 142834057",
+      "id": "civitai-134919087",
+      "title": "Civitai prompt 134919087",
       "category": "photography",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -383,31 +98,27 @@
         "imported",
         "api"
       ],
-      "prompt": "ta86_inkriot, thin black outlines,\nA menacing horned warrior archer crouching on a rocky outcrop in a dark, ancient forest. The warrior has large curved ram horns, pale skin covered in red blood paint and war markings, muscular build with tribal tattoos, wearing minimal leather and bone armor. He holds a massive longbow with a notched arrow, a quiver of arrows strapped to his back. His face is painted red with dripping blood-like markings, eyes glowing with feral intensity. The forest background features towering ancient trees with golden autumn leaves, shafts of dramatic light piercing through the canopy, creating high contrast between bright highlights and deep shadows. The ground is rocky and earthy with warm orange-brown tones. Style: painterly digital art with strong ink outlines, high contrast chiaroscuro lighting, gritty atmospheric mood, dynamic composition, hyper-detailed textures of skin, blood, wood and stone, menacing presence, dark fantasy aesthetic, 8k resolution, Ludongjun style, dramatic color palette of reds, browns, and golds.",
-      "quality_score": 8.1,
+      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n_\n(lizard:1.1), \n_\nforest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm,\n_\ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
+      "quality_score": 8.2,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834057",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70926220-6f33-4daa-b488-c23b60374fb7/original=true/70926220-6f33-4daa-b488-c23b60374fb7.jpeg",
+      "source_url": "https://civitai.com/images/134919087",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0952ab77-20bb-4fd2-899e-331e2b78ec91/original=true/0952ab77-20bb-4fd2-899e-331e2b78ec91.jpeg",
       "model": null,
       "model_version_ids": [
-        3072332,
-        3141844,
-        3168285,
-        3190465,
-        3220691
+        2836417
       ],
       "width": 832,
-      "height": 1248,
-      "seed": 1373496817,
-      "negative_prompt": null,
+      "height": 1216,
+      "seed": 878262837,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.598422+00:00"
+      "discovered_at": "2026-09-15T19:01:19.484122+00:00"
     },
     {
-      "id": "civitai-142834061",
-      "title": "Civitai prompt 142834061",
+      "id": "civitai-134919099",
+      "title": "Civitai prompt 134919099",
       "category": "photography",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -416,32 +127,28 @@
         "imported",
         "api"
       ],
-      "prompt": "ta86_inkriot, thin black outlines,\nA whimsical and cozy winter fantasy scene in a snowy forest. A small character wearing a purple coat and carrying a backpack stands before a large, hollowed-out fallen log that has been converted into a charming dwelling. The log has a rounded entrance and is covered in thick, pillowy snow. A brass teapot hangs from a branch, and a wooden sign reads \"CAFE\". Warm golden light glows from inside the hollow log. The surrounding forest features tall tree trunks with snow-covered branches, and a frozen stream or pond reflects the scene. The lighting suggests late afternoon winter sun, casting long shadows and creating a magical atmosphere with soft purple and orange tones. Style: Children's book illustration, painterly digital art, soft and whimsical mood, highly detailed textures of wood and snow, 8k resolution, square composition, sense of warmth and adventure.\nThe art style is painterly with strong ink outlines, high contrast, dynamic movement, and a gritty, atmospheric mood. with dynamic composition with high detail, menacing presence, hellish atmosphere.",
-      "quality_score": 8.7,
+      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n(@naguru_\\(cyoroama\\):0.5),\n_\n(lizard:1.1), \n(forest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm:0.8), \ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
+      "quality_score": 8.2,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834061",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffccce8e-b785-40ee-bfa7-fd7a3ae379cd/original=true/ffccce8e-b785-40ee-bfa7-fd7a3ae379cd.jpeg",
+      "source_url": "https://civitai.com/images/134919099",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83e4575d-2075-40fb-bb8a-355c426f57fa/original=true/83e4575d-2075-40fb-bb8a-355c426f57fa.jpeg",
       "model": null,
       "model_version_ids": [
-        3072332,
-        3141844,
-        3168285,
-        3190465,
-        3220691
+        2836417
       ],
       "width": 832,
-      "height": 1248,
-      "seed": 1836406005,
-      "negative_prompt": "cartoon, anime, bright cheerful, low quality, blurry, distorted, clean city, modern intact buildings.",
+      "height": 1216,
+      "seed": 151071072,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.598830+00:00"
+      "discovered_at": "2026-09-15T19:01:19.484228+00:00"
     },
     {
-      "id": "civitai-142834062",
-      "title": "Civitai prompt 142834062",
-      "category": "photography",
+      "id": "civitai-142822962",
+      "title": "Civitai prompt 142822962",
+      "category": "food",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -449,371 +156,31 @@
         "imported",
         "api"
       ],
-      "prompt": "ta86_inkriot, thin black outlines,\nEpic fantasy‑sci‑fi art: a colossal citadel enclosed within a glowing energy dome; the dome is translucent with subtle starfield patterns inside, crisscrossed by thin luminous lines and framed by massive dark supports shaped in swirling, organic curves; inside the dome, the citadel’s spires and towers rise majestically, their facades illuminated by warm golden light that contrasts with the dome’s cool cyan glow; in the foreground, a small group of figures in cloaks and armor stand on a rocky outcrop, gazing at the city with a mix of awe and caution, their silhouettes emphasizing the monumental scale of the dome and citadel; the surrounding landscape features dark coniferous trees, jagged rocks, and a calm body of water reflecting the city lights; in the distance, a range of mountains fades into the night haze, while dark green energy vortices swirl above them, suggesting a charged, magical atmosphere; lighting is dramatic and cinematic, with the citadel as the primary light source, casting warm highlights and deep shadows, and the dome’s glow adding a cool, ethereal accent; atmospheric haze and volumetric rays enhance depth and mystery; color palette balances deep blacks, dark greens, and grays of the landscape and night with warm ambers and golds of the city and cool blues and cyans of the dome and energy effects; style is digital painting with visible brushwork, soft grain, and gentle transitions for a handcrafted concept‑art feel; 8K resolution, extreme texture detail, volumetric lighting, global illumination, ray‑traced materials, soft glow.\nSubject:\nThe energy dome: tiny details: individual luminous lines with subtle thickness variations, small glowing nodes at intersections, delicate light refraction and diffraction effects, soft gradients from cyan to pale blue, subtle motion blur suggesting a faint pulsation.\nThe citadel: tiny details: spire tips, window patterns, balcony railings, small banners or pennants, delicate light reflections on stone and metal, subtle weathering and texture on the facades.\nThe supports: tiny details: swirling curves, surface grain, small rivets or seams, subtle light catch along the edges, delicate shadow definition.\nThe figures: tiny details: cloak folds, armor plates, subtle facial expressions, small accessories or weapons, delicate silhouette edge definition with soft rim light.\nEnvironment:\nThe landscape: tiny details: individual tree shapes, rock surface patterns, small tufts of grass or moss, subtle color variations in the ground cover.\nThe water: tiny details: gentle ripples, small foam patterns, delicate light refraction and reflection, subtle color shifts from deep blue to golden where it catches the city light.\nThe mountains and haze: tiny details: distant structural variations, subtle color gradients, delicate light flares and volumetric rays, small dust or energy particles visible in the haze.\nLighting:\nPrimary light is the citadel’s warm golden illumination; it highlights the upper levels, the dome’s inner surface, and the figures’ silhouettes, creating strong highlights and deep shadows.\nSecondary light is the dome’s cool cyan glow and the dark green energy vortices; they add dramatic accents and a sense of otherworldly power.\nVolumetric rays pierce the haze and highlight the dome, the citadel, and the figures; they add depth and a sense of scale.\nRim light softly outlines the dome, the supports, and the figures, separating them from the background and adding dimension.\nSubtle bounce light from the water and the landscape softens the shadows and makes the scene feel cohesive.\nColor palette:\nDominant deep blacks, dark greens, and grays for the landscape, night sky, and shadows; these create a sense of mystery and grandeur.\nWarm ambers, golds, and soft oranges for the citadel’s lights; these provide emotional warmth and a sense of life and power.\nCool cyans, pale blues, and subtle purples for the dome and the energy effects; these add a sense of magic and technology.\nPure whites and soft silvers for the highlights and the energy vortices; these add brightness and a sense of energy.\nDark browns and muted greens for the trees and the ground; these ground the palette and add a sense of nature.\nComposition:\nA balanced, slightly low‑angle composition with the dome and citadel as the main focal point; the figures and the landscape create secondary focal points and add narrative depth.\nThe dome’s curves and the citadel’s spires lead the eye upward, reinforcing the sense of scale and grandeur.\nNegative space in the upper frame keeps the composition open and emphasizes the size of the dome and the vastness of the sky.\nThe background is softly blurred to keep the focus on the dome, the citadel, and the figures.\nTechnical:\nUltra‑detailed textures (stone grain, metal seams, tree bark, rock surface, water ripples, and subtle haze particles).\nPhysically based rendering with realistic material properties and subtle subsurface scattering for the dome and the energy effects.\nShallow depth of field with a soft, defocused background to keep the focus on the dome, the citadel, and the figures.\nThe art style is painterly with strong ink outlines, high contrast, dynamic movement, and a gritty, atmospheric mood.",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834062",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65410704-71e9-465d-aff6-b1662a35ef9b/original=true/65410704-71e9-465d-aff6-b1662a35ef9b.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3141844,
-        3168285,
-        3190465,
-        3220691
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 492230452,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.599651+00:00"
-    },
-    {
-      "id": "civitai-142834087",
-      "title": "Civitai prompt 142834087",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": ", , 1girl, solo, long red hair, ponytail, ahoge, brown eyes, blue yukata with white floral print, red obi with large back bow, metal railing, night summer festival, fireworks in night sky, distant city lights, mountain silhouette, balcony overlook, detailed background, gentle smile, blush, looking up, cowboy shot, from behind, leaning on railing, watching fireworks, fireworks glow, warm rim lighting, night,\nShe stands at a balcony railing seen from behind in three-quarter view, her left hand resting on the rail as she looks up at a large burst of fireworks filling the night sky, her long ponytail and sleeves lifted mid-motion by the evening wind rather than hanging motionless. Delicate anime illustration with soft glowing light, warm summer night colors and sparkling particles in the air.\ndetailed background, vibrant colors, bokeh, masterpiece, best quality, amazing quality, highres, absurdres, newest, very awa\n<lora:Detailer-KREA2:1.2> <lora:HonnryouHanaru-k2_c1-st3000:0.4> <lora:reoen_krea2_v1:0.85>",
+      "prompt": "masterpiece, best quality, Nqu4ntum, A whimsical steampunk robot (qu4ntum style) with brass limbs, exposed gears, and a top hat plays a ridiculous steam-powered piano-like instrument in a crowded Victorian-style tavern. The ‘piano’ is over-engineered with pipes, valves, and a mini boiler that occasionally puffs smoke in sync with the music. The robot has an exaggerated ‘showman’ pose, grinning with glowing ocular lenses. The bar is dimly lit by gas lamps, with copper details, spilled ale, and a chalkboard menu listing ‘Oil & Ale Specials.’ , Detailed but slightly cartoonish, like Dishonored meets Terry Pratchett, cinematic lighting, fantasy realism",
       "quality_score": 8.1,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834087",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52460dbb-7940-4cca-a8a0-5e95ee3b150f/original=true/52460dbb-7940-4cca-a8a0-5e95ee3b150f.jpeg",
-      "model": "JANK2_v1.0_INT8_CONVROT",
-      "model_version_ids": [
-        3068874,
-        3238899,
-        3267724,
-        3275395
-      ],
-      "width": 1248,
-      "height": 1824,
-      "seed": 1079464594398776,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, username, watermark, watermark, artist name, web address, copyright, bad anatomy",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.599869+00:00"
-    },
-    {
-      "id": "civitai-142834026",
-      "title": "Civitai prompt 142834026",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "1girl, solo, light brown hair, long hair, side ponytail, bangs, brown eyes, black down jacket with fur-trimmed hood, black scarf, black gloves, black tights, black lace-up boots, old maroon sedan, snowy apartment courtyard, panel apartment buildings, balconies, bare tree, power lines, snow patches, dusk sky, detailed background, expressionless, looking to the side, full body, from below, sitting on car hood, knees bent, boots braced on front bumper, dusk, backlighting, cold blue shadows,\nShe sits sideways on the hood of an old boxy maroon sedan in the upper left of a tall frame, knees drawn up with her laced boots braced against the front bumper and gloved hands resting on her thighs, looking away past the viewer with a blank expression. The car's long body and rectangular headlight fill the lower left, and behind her a row of grey panel apartment blocks recedes toward the upper right, their windows catching the last pink light. The dusk sky fades from pale pink to cold blue, leaving warm light on the building faces and deep blue shadow across the snow, the car and her black coat. Flat cel shading with a muted cold palette and a quiet melancholic mood., \n<lora:Detailer-KREA2:1.2> <lora:HonnryouHanaru-k2_c1-st3000:0.4> <lora:reoen_krea2_v1:0.85>",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142834026",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82786f68-884c-4986-ba52-10b4728a3b38/original=true/82786f68-884c-4986-ba52-10b4728a3b38.jpeg",
-      "model": "JANK2_v1.0_INT8_CONVROT",
-      "model_version_ids": [
-        3068874,
-        3238899,
-        3267724,
-        3275395
-      ],
-      "width": 1152,
-      "height": 2016,
-      "seed": 974326605862158,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, username, watermark, watermark, artist name, web address, copyright, bad anatomy",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.600085+00:00"
-    },
-    {
-      "id": "civitai-142833801",
-      "title": "Civitai prompt 142833801",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "foodgoldenhour4, product photography of a stack of pancakes, Outdoors at golden hour, warm low sunlight and long soft shadows, romantic mood, professional food photography, appetizing, high-end restaurant menu style. (cup of coffee, stack of pancakes, bowl of pasta, slice of layered cake, glass of red wine), professional studio lighting, e-commerce product photo, blank unlabeled packaging, no text, no logo, no watermark, sharp focus, highly detailed, 8k uhd <lora:HanselCraft_Style\\food_golden_hour_v4_v1:0.8>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833801",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d3b34df-906e-44c7-a6dc-64dca0c61356/original=true/7d3b34df-906e-44c7-a6dc-64dca0c61356.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [
-        1759168
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 910023557,
-      "negative_prompt": "text, watermark, logo, letters, writing, signature, label, brand name, packaging text, blurry, low quality, worst quality, jpeg artifacts, extra limbs, deformed, ugly, duplicate, cropped, out of frame, oversaturated, underexposed, overexposed",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.600632+00:00"
-    },
-    {
-      "id": "civitai-142833807",
-      "title": "Civitai prompt 142833807",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "foodgoldenhour4, product photography of a bowl of pasta, Outdoors at golden hour, warm low sunlight and long soft shadows, romantic mood, professional food photography, appetizing, high-end restaurant menu style. (cup of coffee, stack of pancakes, bowl of pasta, slice of layered cake, glass of red wine), professional studio lighting, e-commerce product photo, blank unlabeled packaging, no text, no logo, no watermark, sharp focus, highly detailed, 8k uhd <lora:HanselCraft_Style\\food_golden_hour_v4_v1:0.8>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833807",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41b83d1a-1c2e-4db4-b6fb-473c339c04df/original=true/41b83d1a-1c2e-4db4-b6fb-473c339c04df.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [
-        1759168
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 2740932636,
-      "negative_prompt": "text, watermark, logo, letters, writing, signature, label, brand name, packaging text, blurry, low quality, worst quality, jpeg artifacts, extra limbs, deformed, ugly, duplicate, cropped, out of frame, oversaturated, underexposed, overexposed",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.600726+00:00"
-    },
-    {
-      "id": "civitai-142833803",
-      "title": "Civitai prompt 142833803",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "foodgoldenhour4, product photography of a cup of coffee, Outdoors at golden hour, warm low sunlight and long soft shadows, romantic mood, professional food photography, appetizing, high-end restaurant menu style. (cup of coffee, stack of pancakes, bowl of pasta, slice of layered cake, glass of red wine), professional studio lighting, e-commerce product photo, blank unlabeled packaging, no text, no logo, no watermark, sharp focus, highly detailed, 8k uhd <lora:HanselCraft_Style\\food_golden_hour_v4_v1:0.8>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833803",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3770a12a-606a-42e0-b81c-12906680f570/original=true/3770a12a-606a-42e0-b81c-12906680f570.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [
-        1759168
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 4054867408,
-      "negative_prompt": "text, watermark, logo, letters, writing, signature, label, brand name, packaging text, blurry, low quality, worst quality, jpeg artifacts, extra limbs, deformed, ugly, duplicate, cropped, out of frame, oversaturated, underexposed, overexposed",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.600815+00:00"
-    },
-    {
-      "id": "civitai-142833565",
-      "title": "Civitai prompt 142833565",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "best quality, absurdres, <lora:EHBITS:0.8>,EHBITS, 1girl, solo, furry, mature female, slim, snout, digitigrade, hair over eyes, black hair, grey hair, two-tone hair, dog tail, dark grey skin, earrings, green tanktop, green drawstring shorts, standing, walking, hand in hair, hand at side, full body, head turned, head tilted up at viewer, sharp teeth, smile, (profile:0.5), (from above:0.6), directional light, morning sunlight, curving pathway background, park",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833565",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6f6cd60-1bd5-4e13-82ff-81ab0310dc5a/original=true/c6f6cd60-1bd5-4e13-82ff-81ab0310dc5a.jpeg",
-      "model": "anzatoonmix_v40",
-      "model_version_ids": [
-        1978211,
-        2771676
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1648872220,
-      "negative_prompt": "lazyneg",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.600927+00:00"
-    },
-    {
-      "id": "civitai-142833532",
-      "title": "Civitai prompt 142833532",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "lazypos, qu4ntum,\nmedieval knight, full plate armor fully morphed into polished gold and silver metal, full body, sitting awkwardly on brass toilet still wearing armor, ornate golden tank,\neating pizza, (gauntlet hand holding pizza slice: 1.2), visor slightly lifted to eat, pizza box on armored lap,\narmor plates connected by visible copper hinges and small pistons, elaborate engraved victorian filigree, cape replaced by draped chainmail of tiny brass rings,\nsword leaning against wall, blade replaced by a rotating brass gear-edge, hilt with a small pressure gauge,\nshield on floor, shield crest replaced by an ornate clockwork emblem,\npizza made of golden dough, gear-shaped pepperoni, mechanical cheese strands,\nstone bathroom walls retrofitted with copper piping, small stained glass window, warm torchlight mixed with golden metal glow,\ndynamic lighting, intricate detail, masterpiece, best quality",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833532",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8cb4e893-3e4a-4128-9a81-d36fb1edc8ac/original=true/8cb4e893-3e4a-4128-9a81-d36fb1edc8ac.jpeg",
+      "source_url": "https://civitai.com/images/142822962",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e199c06d-6340-4de3-a682-a48fa472c7da/original=true/e199c06d-6340-4de3-a682-a48fa472c7da.jpeg",
       "model": null,
       "model_version_ids": [
         135867,
+        708019,
         709338,
-        1601074,
-        1833157,
-        1860747,
-        2858836,
-        3017793
+        1227475,
+        1591915
       ],
-      "width": null,
-      "height": null,
-      "seed": 1905965587,
-      "negative_prompt": "lazyneg, lazynsfw, matte finish, dull colors, plastic material, modern bathroom, blurry, extra limbs, bad hands, simple background, low detail",
+      "width": 1216,
+      "height": 832,
+      "seed": 401585316,
+      "negative_prompt": "logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, NSFW, lazyneg",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.601116+00:00"
+      "discovered_at": "2026-09-15T19:01:19.484507+00:00"
     },
     {
-      "id": "civitai-142833373",
-      "title": "Civitai prompt 142833373",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc serious anthropomorphic penguin secret agent as the dominant comedic protagonist, transformed into an extraordinarily elaborate Quantum Punk steampunk operative, compact body covered in polished gold armor with sleek silver metallic accents, attempting a stealth mission while carrying an absurd number of exposed gears, pipes, valves, pressure gauges, telescopic mechanisms and tiny steam engines, crouching dramatically behind a small crate while one enormous golden pipe sticks several meters above his hiding place releasing steam, penguin maintaining a perfectly professional expression despite the obvious failure of stealth, tiny silver mechanical goggles over his eyes, retractable gadgets extending from both wings, Victorian airship hangar filled with ornate machinery, golden boilers and silver conduits, warm atmospheric steam, highly reflective metallic sheen, cinematic spy composition, intricate handcrafted engineering, deadpan visual comedy",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833373",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/858dd928-9e54-478d-b3a9-9c8190d432fc/original=true/858dd928-9e54-478d-b3a9-9c8190d432fc.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 3506232647,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.601520+00:00"
-    },
-    {
-      "id": "civitai-142833357",
-      "title": "Civitai prompt 142833357",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc mischievous anthropomorphic raccoon as the dominant protagonist, transformed into an extraordinarily sophisticated Quantum Punk steampunk inventor, body built from polished gold mechanical plates with contrasting silver components, striped tail formed from alternating bands of golden gears and chrome articulated sections, surrounded by an impossibly elaborate handcrafted machine made from hundreds of pipes, valves, cogs, gauges and connectors, clearly a technological masterpiece, yet the raccoon is ignoring it completely and has both arms buried inside a simple metal trash can searching excitedly for scraps, ornate mechanical goggles pushed onto forehead, tiny steam engine mounted on backpack, elaborate Victorian workshop filled with golden piping and silver machinery, polished reflective surfaces, warm workshop lighting, drifting steam, cinematic character composition, sophisticated contrast between genius engineering and raccoon instincts, hyper-detailed steampunk aesthetic",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833357",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86c71771-8ddb-4430-a461-dabd4b713375/original=true/86c71771-8ddb-4430-a461-dabd4b713375.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 35209777,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.601819+00:00"
-    },
-    {
-      "id": "civitai-142833358",
-      "title": "Civitai prompt 142833358",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc colossal mechanical dragon as the huge dominant protagonist, completely constructed in luxurious Quantum Punk steampunk style, magnificent body covered in polished gold armor scales with silver chrome edges, enormous wings built from articulated metallic ribs, gears and intricate piping, dragon standing heroically atop a Victorian tower preparing to unleash a devastating breath attack, chest reactor glowing with pressure, dozens of gauges climbing dramatically, valves spinning and pistons pumping, dragon opens its enormous mechanical jaws expecting an apocalyptic blast but only a tiny pathetic puff of white steam emerges, dragon staring cross-eyed at the tiny cloud in embarrassed disbelief, small mechanical knight below trying not to laugh, hundreds of exposed gears inside the jaw and neck, elaborate gold pipes and silver conduits across the entire body, Victorian airships and industrial city in background, spectacular sunset reflections across polished metal, cinematic epic composition deliberately ruined by mechanical failure, hyper-detailed handcrafted steampunk machinery",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833358",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e91a9f5-2e7c-47d9-9486-22f3c8058980/original=true/7e91a9f5-2e7c-47d9-9486-22f3c8058980.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1149328583,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.602140+00:00"
-    },
-    {
-      "id": "civitai-142833361",
-      "title": "Civitai prompt 142833361",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc hilarious anthropomorphic snail as the huge dominant protagonist, transformed into an outrageously elaborate Quantum Punk steampunk machine, preserving its unmistakable spiral-shell silhouette and expressive eye stalks, enormous shell constructed from hundreds of interlocking polished gold and silver gears arranged in a perfect spiral, intricate copper-gold piping wrapping around the shell, chrome pistons, tiny pressure gauges, valves, connectors and miniature steam turbines covering the body, two gigantic polished turbine engines mounted dramatically on the sides, snail leaning forward with an intensely determined racing expression as every gauge reaches maximum pressure and the engines blast enormous clouds of steam, yet the snail has moved only a few centimeters beyond the starting line, bored race official asleep beside a stopwatch in the background, Victorian mechanical racetrack filled with brass machinery and ornate industrial structures, brilliant polished gold primary surfaces with contrasting silver chrome accents, spectacular reflective metallic sheen, countless handcrafted mechanical details, cinematic low-angle racing composition, absurd engineering overkill, warm dramatic workshop lighting, hyper-detailed steampunk illustration",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833361",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f38f686-5574-4416-a9bf-92402c35f855/original=true/6f38f686-5574-4416-a9bf-92402c35f855.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 4194289922,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.602495+00:00"
-    },
-    {
-      "id": "civitai-142833362",
-      "title": "Civitai prompt 142833362",
+      "id": "civitai-142641233",
+      "title": "Civitai prompt 142641233",
       "category": "architecture",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -822,149 +189,25 @@
         "imported",
         "api"
       ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc tiny smug anthropomorphic frog as the central comedic protagonist piloting an absurdly enormous Quantum Punk mechanical exosuit, frog clearly visible inside a glass cockpit in the chest, gigantic humanoid machine constructed from brilliant polished gold armor with extensive silver chrome accents, hundreds of exposed gears, intricate pipes, pressure gauges, valves, pistons and connectors covering every limb, frog proudly attempting an elegant heroic pose while the enormous machine sinks ankle-deep into a small garden pond under its own weight, one tiny lily pad stuck to the massive golden foot, elaborate Victorian greenhouse surrounding the scene, ornate pipes winding through glass-and-metal architecture, reflective gold surfaces, silver mechanical detailing, warm sunlight and steam, cinematic low-angle composition emphasizing ridiculous scale, handcrafted complex machinery, whimsical steampunk comedy, extremely detailed illustration",
-      "quality_score": 8.3,
+      "prompt": "ta86_inkriot, graphic cel shading, bold black outlines, cinematic contemplative fantasy illustration, atmospheric environmental storytelling, storyscape image where the landscape tells the story, vertical composition, quiet highland atmosphere,\nThe Last Cliff Orchard, a remote orchard sanctuary cultivated across several narrow stone terraces descending along a steep mountain cliff above a vast sea of pale mist,\nthe orchard itself is the main subject of the image, with multiple small cultivated terraces connected by irregular stone steps, narrow paths and simple wooden ladders,\nseveral modest old fruit trees grow from the terraces, shaped by wind and age, with pale green foliage and small yellow or soft pink fruits, no large red tree, no dominant ornamental tree,\na small weathered house-shrine is partially integrated into the rock higher on the slope, simple and understated, built from grey stone and aged timber, with a tiled roof, faded prayer ribbons and a tiny covered porch,\nclear traces of long-term care are visible everywhere: woven harvest baskets, pruning tools, stacked firewood, repaired stone walls, irrigation channels carved into the terraces, clay water jars, drying herbs and fruit laid out on simple racks,\nno visible central character, but the entire place should strongly suggest that someone still lives here and tends the orchard every day,\nthe composition should reveal the terraces progressively from foreground to background, creating a layered vertical rhythm rather than focusing on one spectacular tree or landmark,\nthe cliff drops away beside the cultivated terraces into pale cloud and mist, with distant rock faces barely visible through the haze,\navoid dramatic Chinese-style pine silhouettes, avoid giant sacred trees, avoid bright orange or red foliage, avoid a pilgrimage-road composition,\nearly morning light, cool and milky atmosphere, pale grey stone, moss green, muted olive foliage, weathered brown wood, soft cream mist, restrained yellow and pink fruit accents,\nthe mood should feel humble, ancient, peaceful and carefully maintained, emphasizing patience, continuity and human presence through objects and cultivation rather than through a heroic figure,\nhighly detailed vegetation and stonework, strong readable depth, subtle worldbuilding, quiet visual poetry, architecture and agriculture as storytelling, no text, no watermark",
+      "quality_score": 8.7,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833362",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9631e0c-63e1-4dc9-841f-857adbfbd22f/original=true/e9631e0c-63e1-4dc9-841f-857adbfbd22f.jpeg",
-      "model": "animidnight",
+      "source_url": "https://civitai.com/images/142641233",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43a78aeb-1140-4149-872f-12de3aa119fe/original=true/43a78aeb-1140-4149-872f-12de3aa119fe.jpeg",
+      "model": null,
       "model_version_ids": [
-        135867,
-        567119,
-        709338
+        164821,
+        3072332,
+        3190465
       ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 2169794887,
+      "width": 1408,
+      "height": 2048,
+      "seed": 1962724894,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.602773+00:00"
-    },
-    {
-      "id": "civitai-142833364",
-      "title": "Civitai prompt 142833364",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc charismatic anthropomorphic octopus as the dominant comedic protagonist, transformed into an extraordinarily complex Quantum Punk steampunk machine, eight tentacles constructed from articulated polished gold segments with silver joints, flexible metallic pipes and hundreds of tiny gears, sitting proudly inside an absurd Victorian control room containing hundreds of levers, valves, dials and pressure gauges, all eight mechanical arms frantically operating different controls simultaneously while a ninth important warning lever flashes just beyond reach, octopus staring at it in offended disbelief, bulbous head formed from polished golden armor with intricate silver mechanical filigree, transparent pressure chambers, chrome connectors and exposed clockwork, elaborate handcrafted machinery filling the background, warm steam drifting through reflective gold surfaces, dramatic cinematic lighting, extraordinarily detailed construction, whimsical industrial comedy, premium steampunk illustration",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833364",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93ec12a5-9ea5-4234-9fb5-bb0c8ca5a059/original=true/93ec12a5-9ea5-4234-9fb5-bb0c8ca5a059.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 245966458,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.603065+00:00"
-    },
-    {
-      "id": "civitai-142833365",
-      "title": "Civitai prompt 142833365",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc round anthropomorphic panda as the huge dominant protagonist, completely reconstructed as an elaborate Quantum Punk steampunk automaton, sitting in perfect meditation pose with eyes closed and desperately attempting inner peace, body built from polished gold armor panels with contrasting silver mechanical sections, belly containing a spectacular exposed clockwork mechanism with rotating gears, pistons, pressure chambers and intricate piping, dozens of tiny gauges vibrating, valves releasing steam, gears clicking and miniature bells ringing around him, one eye slowly opening in extreme irritation, tiny mechanical bird peacefully sleeping on his head despite the noise, ornate Victorian mechanical temple surrounding him, golden pipes integrated into columns, silver cogs and handcrafted machinery everywhere, reflective polished metal sheen, warm shafts of light through steam, cinematic symmetrical composition, sophisticated visual comedy, extremely intricate mechanical detail",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833365",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa2a9566-0b1f-4d58-b4d5-4e01826051fb/original=true/aa2a9566-0b1f-4d58-b4d5-4e01826051fb.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1764496410,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.603392+00:00"
-    },
-    {
-      "id": "civitai-142833369",
-      "title": "Civitai prompt 142833369",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc extravagant anthropomorphic peacock as the magnificent dominant protagonist, completely transformed into an elaborate Quantum Punk mechanical masterpiece, proudly displaying an enormous fan-shaped tail composed of hundreds of individually articulated polished gold mechanical feathers, each feather containing concentric silver gears, tiny pressure gauges, rotating cogs and glowing glass pressure chambers forming spectacular eye-like patterns, intricate gold piping connecting every feather, chrome joints and tiny valves throughout, peacock body constructed from sculpted polished gold plates with silver accents and exposed clockwork, posing with unbearable pride while one tiny mechanic behind the tail desperately tries to stop a leaking steam valve, enormous symmetrical mechanical feather fan filling most of the composition, ornate Victorian conservatory with brass machinery, polished marble floor reflecting the metallic structure, warm theatrical lighting, spectacular gold and silver reflections, extreme handcrafted detail, luxurious steampunk fashion illustration",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833369",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0000537b-3236-440f-abb5-ef6befe9a371/original=true/0000537b-3236-440f-abb5-ef6befe9a371.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 309235210,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.603684+00:00"
-    },
-    {
-      "id": "civitai-142833371",
-      "title": "Civitai prompt 142833371",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "the protagonist is physically constructed from complex handcrafted Victorian machinery rather than merely wearing steampunk accessories, dominant polished gold metallic surfaces contrasted by bright silver and chrome components, dense networks of clearly visible pipes and conduits following the anatomy, exposed interlocking gears and cogs, functional pistons, valves, pressure gauges, connectors, rivets and miniature mechanical assemblies, highly reflective real-metal sheen, extremely elaborate construction with mechanical detail visible at every scale\n <lora:Qu4ntumPunk_04XL:0.7> qu4ntum <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc massive anthropomorphic crocodile as the dominant comedic protagonist, reconstructed entirely as a luxurious Quantum Punk steampunk machine, long body covered in overlapping polished gold armor plates with silver chrome edges, enormous jaws operated by ridiculously elaborate external pistons, gears, hydraulic-looking brass pipes, pressure valves and tiny gauges, crocodile attempting to bite a tiny sandwich while an enormous sequence of gears begins turning just to open its mouth, sandwich sitting patiently on a silver plate, one pressure gauge already entering the red zone, mechanical eyes showing intense concentration, tail composed of articulated golden segments connected by polished silver joints, Victorian industrial kitchen filled with pipes, boilers and ornate machinery, warm steam, brilliant metallic reflections, cinematic side lighting, handcrafted mechanical complexity, absurd overengineering comedy, hyper-detailed steampunk aesthetic",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142833371",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c4ee166-fbe3-4ad2-aaaa-662947feee7c/original=true/3c4ee166-fbe3-4ad2-aaaa-662947feee7c.jpeg",
-      "model": "animidnight",
-      "model_version_ids": [
-        135867,
-        567119,
-        709338
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 3746541413,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T09:39:08.603974+00:00"
+      "discovered_at": "2026-09-15T19:01:19.485238+00:00"
     }
   ]
 }
