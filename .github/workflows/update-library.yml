@@ -1,10 +1,6 @@
 name: Update Prompt Library
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/update-library.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'
