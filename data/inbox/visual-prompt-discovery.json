@@ -1,22 +1,11 @@
 {
   "version": "1.1",
   "status": "ready_for_review",
-  "generated_at": null,
+  "generated_at": "2026-09-15T08:47:46.967871+00:00",
   "added_this_run": 0,
-  "errors": [],
+  "errors": [
+    "reddit-promptengineering: HTTP Error 429: Too Many Requests"
+  ],
   "items": [],
-  "fields": {
-    "source_id": "declared source identifier",
-    "source_url": "original post/page URL",
-    "image_url": "public result image URL",
-    "prompt_text": "prompt exactly as published when permitted",
-    "creator": "creator/display name",
-    "creator_url": "creator profile URL",
-    "model": "model/tool used",
-    "license": "license or reuse note",
-    "quality_score": "0-10 quality score",
-    "discovered_at": "ISO timestamp",
-    "review_status": "pending_review|approved|rejected"
-  },
   "policy": "review_required; never auto-publish social/community candidates"
 }
