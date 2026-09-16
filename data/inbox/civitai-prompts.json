@@ -1,39 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-15T19:01:19.487100+00:00",
+  "generated_at": "2026-09-16T08:41:43.661014+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-138087367",
-      "title": "Civitai prompt 138087367",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A pilot's-eye view fills the frame from inside a sleek flying car cockpit, angular dashboard edges framing the lower portion of the composition, dense clusters of glowing holographic displays curve across the console, thin cyan wireframe readouts, scrolling amber text, a pulsing radar overlay tracking distant shapes, faint reflections of the instrument glow visible on the curved windshield glass, one gloved hand rests on a sculpted control yoke rendered in confident angular brushwork, fine mechanical detail suggested through loose expressive strokes rather than hard precision, beyond the windshield the vast futuristic city sprawls in every direction, towering megastructures stacked with dense layered signage, glowing kanji and unreadable neon script in crimson, amber, and acid green blazing against churning teal-black night sky, holographic advertisements the size of buildings flicker and shift mid-air between the towers, colossal projected figures dissolving and reforming in cyan and magenta light, streams of other flying vehicles cut through the middle distance, their trailing thruster light streaking in long luminous red and gold lines through the misty air, layered smog and atmospheric haze soften the furthest towers into loose abstracted color blocks, while nearer structures remain richly textured with visible directional brushwork across glass, steel, and weathered concrete, thin rain streaks diagonally across the windshield glass, catching and refracting the city's light into elongated smeared reflections, steam and cloud drift lazily between the lower skyscraper levels far below, hinting at the teeming streets, distant and obscured beneath the haze, composition centered on the vast depth beyond the cockpit, dashboard details anchoring the lower frame while the eye is pulled deep into the glowing vertical sprawl ahead, mood awestruck and immersive, technological intimacy of the cockpit contrasted against the overwhelming scale of the living dystopian metropolis. Style loose painterly digital illustration in the tradition of neo-noir concept art, thick expressive brushstrokes with visible directional texture throughout, dominant teal and cyan atmospheric palette punctuated by explosive bursts of crimson, amber, and magenta light, dramatic high contrast between near-black silhouette forms and blazing saturated glowing elements, heavy atmospheric fog and haze softening distant depth while foreground cockpit details remain textured and tactile, glowing reflective rain-streaked glass rendered in smeared elongated brushwork, dynamic cinematic composition achieved through paint rather than photographic technique, richly atmospheric matte painting finish evoking dystopian futuristic scale and immersion",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/138087367",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/253050cb-7dad-43a1-8fcd-c340769ac8a6/original=true/253050cb-7dad-43a1-8fcd-c340769ac8a6.jpeg",
-      "model": "krea2_turbo_fp8_scaled",
-      "model_version_ids": [],
-      "width": 888,
-      "height": 1184,
-      "seed": 991190306913244,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.482075+00:00"
-    },
-    {
-      "id": "civitai-142858007",
-      "title": "Civitai prompt 142858007",
+      "id": "civitai-142926812",
+      "title": "Civitai prompt 142926812",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -42,112 +15,55 @@
         "imported",
         "api"
       ],
-      "prompt": "<lora:Strange Reverie - Krea2_000002500:1.1> strangedaal. An alluring 1950s-inspired pinup model with a confident, seductive gaze walks through a golden wheat field, her fingertips trailing gently along the tops of the wheat ears as she passes. She wears a pastel yellow halter dress and elegant brown leather pumps. Behind her, a classic cream-colored car sits parked at the edge of the field. The rural backdrop features the sweeping wheat field during golden hour, with the setting sun casting a warm, rich honey-colored light over the entire scene. Breezes gently ruffle her hair and dress. Glistening dust particles float in the cinematic air. This filmic shot emphasizes sharp material details, from the wheat's fine texture and reflective leather shoes to the soft fabric folds, captured with gorgeous, warm color grading.",
-      "quality_score": 8.9,
+      "prompt": "masterpiece, best quality, ultra-detailed, 8k resolution, high dynamic range, absurdres, stunningly beautiful, intricate details, sharp focus, cinematic color grading, high-resolution texture, nails, semi-realistic digital media \\(artwork\\), dark theme, low light, concept art, \nmoebius inspired metal hurlant art Scavengers armed with laser guns in a neon-lit war zone, warhammen 40k style, rain pouring down, muddy terrain, tense expressions, rigid, alert., the contrast in colors and textures should be distinct vibrant yet slightly desaturated,retro-futuristic,sense of motion\ndark theme, low light, at night, \nfrightening, horror theme,\nlow view angle, detailed background, fog, complex lighting, volumetric light",
+      "quality_score": 9.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142858007",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb94f9b9-53f1-4ad1-abd7-75312459a65f/original=true/bb94f9b9-53f1-4ad1-abd7-75312459a65f.jpeg",
-      "model": "Krea-2-Turbo-Diffusers",
+      "source_url": "https://civitai.com/images/142926812",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ca34c3c-0dd4-4a34-9887-781d7a23861c/original=true/8ca34c3c-0dd4-4a34-9887-781d7a23861c.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2132517,
+        2883731
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1417725078,
+      "negative_prompt": "(worst quality:2), (low quality:2), (normal quality:2), bad anatomy, bad proportions, poorly drawn face, poorly drawn hands, missing fingers, extra limbs, blurry, pixelated, distorted, lowres, jpeg artifacts, watermark, signature, text",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.654532+00:00"
+    },
+    {
+      "id": "civitai-142926726",
+      "title": "Civitai prompt 142926726",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, highres, year 2025,, hiwatari kanae \\\\(gakumas\\\\) leans forward in a heavy throne, her body angled away from the camera as she sits with thighs apart. Her hand rests between her legs, gripping a scarf that trails onto the brick floor. A magical object held in her palm casts a sharp light against her measured face, while snow drifts through the high windows of the hall.\nhiwatari kanae \\\\(gakumas\\\\): grey hair, yellow eyes, short hair, maid headdress, blue dress, white apron, long sleeves, frills, puffy sleeves, white socks\n1girls, hiwatari kanae \\\\(gakumas\\\\), over-the-shoulder, seated on throne, thighs apart, hand between legs, knees down, ankles down, face turned away, chin level, holding glowing object, scarf trailing, school bag nearby, brick wall, banners, candlelight, light snowfall, positioned in midground, out of focus foreground, background classroom at dusk, orange sunset sky, school desks.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926726",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5428ccb4-cfae-4979-99e2-c10531cfefec/original=true/5428ccb4-cfae-4979-99e2-c10531cfefec.jpeg",
+      "model": null,
       "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 20260914,
-      "negative_prompt": null,
+      "width": 2432,
+      "height": 2432,
+      "seed": 0,
+      "negative_prompt": "unknown",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.482918+00:00"
+      "discovered_at": "2026-09-16T08:41:43.654917+00:00"
     },
     {
-      "id": "civitai-134919086",
-      "title": "Civitai prompt 134919086",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n(@naguru_\\(cyoroama\\):0.5),\n_\n(lizard:1.1), \n_\nforest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm,\n_\ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
-      "quality_score": 8.2,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/134919086",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a44017a8-a6d2-4bf8-a66a-60f99f2a4e28/original=true/a44017a8-a6d2-4bf8-a66a-60f99f2a4e28.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2836417
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 878262837,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.484021+00:00"
-    },
-    {
-      "id": "civitai-134919087",
-      "title": "Civitai prompt 134919087",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n_\n(lizard:1.1), \n_\nforest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm,\n_\ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
-      "quality_score": 8.2,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/134919087",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0952ab77-20bb-4fd2-899e-331e2b78ec91/original=true/0952ab77-20bb-4fd2-899e-331e2b78ec91.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2836417
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 878262837,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.484122+00:00"
-    },
-    {
-      "id": "civitai-134919099",
-      "title": "Civitai prompt 134919099",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, absurdres, score_9, best quality, newest, \n_\n(@chii-kun_\\(seedyoulater\\):0.5),\n(@pikaole:0.5),\n(@naguru_\\(cyoroama\\):0.5),\n_\n(lizard:1.1), \n(forest cabin, wood smoke curling, porch chair, distant creek, quiet reading, birdsong, morning calm:0.8), \ndepth of field, cinematic, beautiful background,\n_\nfocus on character, close up view of the character, full body view, \n(no humans:1.1), (cute:1.2), comfy, solo, cozy,",
-      "quality_score": 8.2,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/134919099",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83e4575d-2075-40fb-bb8a-355c426f57fa/original=true/83e4575d-2075-40fb-bb8a-355c426f57fa.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2836417
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 151071072,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, jpeg artifacts, logo, watermark, censored",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.484228+00:00"
-    },
-    {
-      "id": "civitai-142822962",
-      "title": "Civitai prompt 142822962",
+      "id": "civitai-142926731",
+      "title": "Civitai prompt 142926731",
       "category": "food",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -156,32 +72,28 @@
         "imported",
         "api"
       ],
-      "prompt": "masterpiece, best quality, Nqu4ntum, A whimsical steampunk robot (qu4ntum style) with brass limbs, exposed gears, and a top hat plays a ridiculous steam-powered piano-like instrument in a crowded Victorian-style tavern. The ‘piano’ is over-engineered with pipes, valves, and a mini boiler that occasionally puffs smoke in sync with the music. The robot has an exaggerated ‘showman’ pose, grinning with glowing ocular lenses. The bar is dimly lit by gas lamps, with copper details, spilled ale, and a chalkboard menu listing ‘Oil & Ale Specials.’ , Detailed but slightly cartoonish, like Dishonored meets Terry Pratchett, cinematic lighting, fantasy realism",
+      "prompt": "Three-quarter close-up front portrait-style image of the upper body, including the sternum, shoulders, and head of a girl in the medieval era. \nHer hair colour is slightly reddish brown. She uses exposed forehead. Side-swept hairstyle. She uses deeply wavy hair with medium-length very skinny ponytail tied with a huge hair white bow. Extremely huge strands in front of face.\nShe has greenish brown eyes. She has long square clean face. Barefaced face. She has skinny tall body, small chest, and clean skin. She has big head and big facial features. She has short neck. Medium-size upturned nose. Cute small lips. Very narrow face and body. Very small facial features.\nShe is a simple with symphatetic expression, medium grin, curious eyes and tilted head. She slightly raises her hand in a feminine way.\nShe wears a simple conservative tight linen grayish dress with sleeves, but with bare ears and covered neck and without jewelry. She doesn't use makeup or eyeshadow, but she is very feminine. \nThe scene takes place in a day inside a medieval house. \nMasterpiece, background daylight, window",
       "quality_score": 8.1,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142822962",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e199c06d-6340-4de3-a682-a48fa472c7da/original=true/e199c06d-6340-4de3-a682-a48fa472c7da.jpeg",
+      "source_url": "https://civitai.com/images/142926731",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85a8e756-c19f-4df5-b174-f2686988ecfa/original=true/85a8e756-c19f-4df5-b174-f2686988ecfa.jpeg",
       "model": null,
       "model_version_ids": [
-        135867,
-        708019,
-        709338,
-        1227475,
-        1591915
+        2290816
       ],
-      "width": 1216,
-      "height": 832,
-      "seed": 401585316,
-      "negative_prompt": "logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, NSFW, lazyneg",
+      "width": 1024,
+      "height": 1024,
+      "seed": 1140077737,
+      "negative_prompt": "jewel, jewelry, makeup, neckline, harness, collar\n, scar, indian, hindu, dirt, signal, watermark, sign, signature, symbol, tatoo, text, kanji, draw, birthmark, blemish, smudge, crown, tatoo, spider, bug, blood,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.484507+00:00"
+      "discovered_at": "2026-09-16T08:41:43.655613+00:00"
     },
     {
-      "id": "civitai-142641233",
-      "title": "Civitai prompt 142641233",
-      "category": "architecture",
+      "id": "civitai-142915220",
+      "title": "Civitai prompt 142915220",
+      "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -189,25 +101,273 @@
         "imported",
         "api"
       ],
-      "prompt": "ta86_inkriot, graphic cel shading, bold black outlines, cinematic contemplative fantasy illustration, atmospheric environmental storytelling, storyscape image where the landscape tells the story, vertical composition, quiet highland atmosphere,\nThe Last Cliff Orchard, a remote orchard sanctuary cultivated across several narrow stone terraces descending along a steep mountain cliff above a vast sea of pale mist,\nthe orchard itself is the main subject of the image, with multiple small cultivated terraces connected by irregular stone steps, narrow paths and simple wooden ladders,\nseveral modest old fruit trees grow from the terraces, shaped by wind and age, with pale green foliage and small yellow or soft pink fruits, no large red tree, no dominant ornamental tree,\na small weathered house-shrine is partially integrated into the rock higher on the slope, simple and understated, built from grey stone and aged timber, with a tiled roof, faded prayer ribbons and a tiny covered porch,\nclear traces of long-term care are visible everywhere: woven harvest baskets, pruning tools, stacked firewood, repaired stone walls, irrigation channels carved into the terraces, clay water jars, drying herbs and fruit laid out on simple racks,\nno visible central character, but the entire place should strongly suggest that someone still lives here and tends the orchard every day,\nthe composition should reveal the terraces progressively from foreground to background, creating a layered vertical rhythm rather than focusing on one spectacular tree or landmark,\nthe cliff drops away beside the cultivated terraces into pale cloud and mist, with distant rock faces barely visible through the haze,\navoid dramatic Chinese-style pine silhouettes, avoid giant sacred trees, avoid bright orange or red foliage, avoid a pilgrimage-road composition,\nearly morning light, cool and milky atmosphere, pale grey stone, moss green, muted olive foliage, weathered brown wood, soft cream mist, restrained yellow and pink fruit accents,\nthe mood should feel humble, ancient, peaceful and carefully maintained, emphasizing patience, continuity and human presence through objects and cultivation rather than through a heroic figure,\nhighly detailed vegetation and stonework, strong readable depth, subtle worldbuilding, quiet visual poetry, architecture and agriculture as storytelling, no text, no watermark",
+      "prompt": "by sasha khmel, by omar dogan, by Sorapoi, by Krekkov, 1girl, black eyeliner, laracroftre, brown hair, braided ponytail, brown eyes, tank top, sunglasses, tinted eyewear, red-tinted eyewear, orange-tinted eyewear, huge breasts, lara croft \\(Tomb Raider\\), simple background, looking viewer, from front, light blue background, masterpiece, best quality, absurdres, perfect quality, detailed background, intricate details, standing, ((close up, portrait:1.1))",
       "quality_score": 8.7,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/142641233",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43a78aeb-1140-4149-872f-12de3aa119fe/original=true/43a78aeb-1140-4149-872f-12de3aa119fe.jpeg",
+      "source_url": "https://civitai.com/images/142915220",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/204a2f0a-a9cc-42dc-a3fb-cbe363942120/original=true/204a2f0a-a9cc-42dc-a3fb-cbe363942120.jpeg",
       "model": null,
       "model_version_ids": [
-        164821,
-        3072332,
-        3190465
+        1380286,
+        1837143,
+        2332386,
+        2438763
       ],
-      "width": 1408,
-      "height": 2048,
-      "seed": 1962724894,
+      "width": 832,
+      "height": 1216,
+      "seed": 625867261,
+      "negative_prompt": "lowres, worst quality, bad quality, bad anatomy, signature, username, logo, watermark, artist name, bad hands",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.655917+00:00"
+    },
+    {
+      "id": "civitai-142926689",
+      "title": "Civitai prompt 142926689",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, best quality, ultra-detailed anime-style illustration of a handsome young man with a sharp, intense expression. He has long straight black hair with blunt bangs that flow wildly in the wind.\nHe is dual-wielding two long katanas in a powerful mid-air jumping attack. One katana is raised high above his head while the other is sweeping downward in a fierce slash. His body is twisted dynamically in mid-leap, with strong foreshortening on the leading arm and blade. One leg is bent forward and the other extended backward.\nHe wears a stylish dark outfit consisting of a black open jacket with detailed moving folds, tight black pants, and black boots, with subtle armor accents on the shoulders.\nThe scene is shot from an extreme low angle with a dramatic upward perspective. Motion blur trails the blades and hair, accompanied by sharp speed lines, flying sparks, energy trails from the katanas, and swirling dust. Dramatic volumetric lighting with strong rim light creates high contrast and a cinematic atmosphere.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926689",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/719bd4fa-7ba7-490d-aea1-f312d5d79f3e/original=true/719bd4fa-7ba7-490d-aea1-f312d5d79f3e.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3227488,
+        3289643
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 305793840,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.656150+00:00"
+    },
+    {
+      "id": "civitai-142926297",
+      "title": "Civitai prompt 142926297",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zidiusArt, A breathtaking aerial view of a colossal, jagged mountain ridge resembling a giant dragon's spine or fossilized bone, piercing through thick, rolling clouds and mist. The white, weathered rock formations are sharp, spiky, and ancient. A dark, cavernous tunnel is carved directly into the side of the ridge, from which a rustic, vintage train or caravan is emerging. Tiny figures and pack animals walk along a narrow, treacherous dirt path beside the tracks. Deep valleys filled with mist and dark pine forests are visible far below. Cinematic lighting, moody atmosphere, photorealistic fantasy landscape, epic scale, highly detailed, 8k resolution, masterpiece.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926297",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a923bb53-8acf-42ac-a692-abe8d83a2bee/original=true/a923bb53-8acf-42ac-a692-abe8d83a2bee.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3125118,
+        3141844
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1483741525,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-15T19:01:19.485238+00:00"
+      "discovered_at": "2026-09-16T08:41:43.657936+00:00"
+    },
+    {
+      "id": "civitai-142922913",
+      "title": "Civitai prompt 142922913",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@gold can | @mori toshiaki | @yellowroom,\n@eulbhitomi | @yoellim5 | @gotica,\ndepth of field, bloom,\nvolumetric lighting, cinematic lighting, dappled light,\n1girl,\nimaizumi kagerou, two-tone dress, brown hair, long hair, red eyes, wolf girl, tail, wolf ears, :>,\nlooking afar, looking to the side, open mouth, :>, blush stickers,  \n(tall female, tall:1.3),\nbamboo forest, bamboo, \nbeer, beer can, (beer can to cheek, can to cheek, beer can against cheek:1.3),\ntwo beer cans, multiple beer cans, \npresenting beer can, she is presenting one beer can to viewer and pressing another beer can against her own cheek, \noutstretched arm, \n(foreshortening, foreshortening of beer can:1.3),\nYami kawaii glitch art with visceral flesh textures and abstract organic forms rendered through extreme digital distortion. The dominant palette is cyan, turquoise, aqua, blue, electric blue, and white, interrupted by smaller regions of vivid pink and orange that overlap, merge, and repeat through the composition. Create a dense, chaotic image where nearly every surface contains some form of visual interference. Use vertical CRT scanlines, dithering patterns, inverted color strips, pixelated patches, broken gradients, image tearing, melting distortions, digital smearing, and wavy noise interference. Organic flesh-like shapes should appear fragmented, warped, duplicated, and partially obscured by corrupted image patterns. Include repeating abstract fragments where parts of forms reappear as offset copies, broken silhouettes, distorted textures, or tiled visual remnants. Some sections should look stretched, liquefied, compressed, displaced, or erased, as though the source image is continuously breaking down. Keep the colors extremely saturated and bright, with cyan and aqua dominating while blue, white, pink, and orange create sharp color interruptions. Apply gritty digital noise, compression artifacts, pixel corruption, scanline texture, and uneven color inversion across the whole image. Nothing should appear perfectly clean, polished, or isolated. The result should be visually overloaded, psychedelic, fragmented, and incoherent, with a consistent corrupted-CRT appearance.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142922913",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d471e55-a00d-462c-992b-34ba692fee2c/original=true/5d471e55-a00d-462c-992b-34ba692fee2c.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2945208
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 308775282,
+      "negative_prompt": "bad perspective, bad anatomy, bad hands, bad leg, bad arm, extra arms, extra hands, extra legs, 2girls, 3girls, multiple girls, three beer cans",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.658210+00:00"
+    },
+    {
+      "id": "civitai-142926264",
+      "title": "Civitai prompt 142926264",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece:1.2), highres, absurdres, (HD Face:2), (HD eyes:2), detailed perfect face, precise anatomy, clear focus, camera focus, aesthetic art style, Tatiana style, anime style, RF7H STYLE,\nBREAK\n1girl, female, female_focus, focus face, focus legs, solo, general, sensitive, explicit, questionable, withe sclera, 20s, mature, tall, slender body, long legs, huge breasts, prominent bust, mature build,\nBREAK\nfair skin, light skin, pale skin, natural skin texture, smooth skin,\nBREAK\n(black hair:1.3), short hair, bob cut, blunt bob, blunt bangs, straight hair, hair under hat, neat hair,\nBREAK\n(red eyes:1.2), sharp eyes, sanpaku eyes, serious expression, stoic, neutral expression, closed mouth, cold glare, looking at viewer, direct gaze,\nBREAK\n(black wide-brim hat:1.3), feather hat ornament, white feathers, black witch hat, black hat, (white blouse:1.2), ruffled collar, high neck collar, long sleeves, puff sleeves, black bow tie, red brooch, red gem brooch, (black suspenders:1.2), suspenders, (high-waisted pants:1.2), black trousers, black pants, leather belt, belt buckle, black gloves, short gloves, black boots, leather boots, black cape, coat draped on shoulders,\nBREAK\n(holding sword:1.3), longsword, silver sword, sword hilt, blade, weapon, adjusting hat, hands on hat, standing, full body, upper body, close-up, portrait, (Character sheet of two shots:1.3), character sheet of two views, multiple views, character sheet, model sheet, white outline,\nBREAK\ndynamic pose, expressive pose, lazypos, Expressiveh, standing, looking at viewer,\nBREAK\nstanding, direct gaze, front view, (Character sheet:1.2), Character sheet of two shots, character sheet of two views, full body, cowboy shot, simple background, simple white background",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926264",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4121ff32-db3a-4ba6-ba96-bec0ad536f20/original=true/4121ff32-db3a-4ba6-ba96-bec0ad536f20.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1607510,
+        1833157,
+        2069051,
+        2121199,
+        3045332,
+        3241057
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 556125722,
+      "negative_prompt": "(score_6), lazyneg, lazyloli, lazynsfw, easynegative, gray eyes, pale_skin, blush, (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, (comics:1.4), (symbols:1.4), (robot:1.5), jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, (text:2.4), logo, backpack, letters, logos, tattoos, white and black shot, shadow on the eyes, hair,",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.658481+00:00"
+    },
+    {
+      "id": "civitai-142926201",
+      "title": "Civitai prompt 142926201",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, newest, absurdres, ultra detailed, high resolution, premium cinematic 3D fantasy illustration, spiking neurons, intricate branching neural networks, glowing filaments, neural tendrils, warm golden-orange glow, spiky dendritic appendages, deep dark base, luminous nodes, bright synaptic junctions, one mischievous black cat, solo main subject, recognizable cat silhouette, full body visible, cat body reconstructed from dense dark neural matter threaded with thousands of thin glowing golden dendrites and bright synaptic nodes, elegant branching filaments following the anatomy of the cat, sitting innocently on a dark neural control platform, extending one paw toward one single intensely glowing neural node, paw just touching the node, enormous chain reaction of firing neurons spreading outward from that single contact point across the entire environment, waves of golden pulses travelling through branching dendrites, thousands of luminous nodes igniting one after another, gigantic neural city in the background suddenly lighting up like a cosmic brain, one yellow rubber duck wearing sunglasses escaping on a tiny skateboard, pizza slice balanced absurdly on the cat head, completely innocent deadpan expression, clear cause and effect, instantly readable visual joke, centered composition, dramatic perspective, dark black and deep blue base contrasted with intense gold orange light, volumetric glow, sharp focus",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926201",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/584aa428-6aa7-4a3c-ad4c-e5ebc5adbcb4/original=true/584aa428-6aa7-4a3c-ad4c-e5ebc5adbcb4.jpeg",
+      "model": null,
+      "model_version_ids": [
+        135867,
+        682602,
+        2858836,
+        3017793
+      ],
+      "width": null,
+      "height": null,
+      "seed": 1350166314,
+      "negative_prompt": "worst quality, low quality, lowres, blurry, ordinary furry cat, multiple cats, extra paws, extra tails, weak neural transformation, generic lightning, ordinary tree branches, neurons only in background, branching network missing, glowing filaments missing, luminous nodes missing, golden glow missing, dark base missing, chain reaction unclear, cat hidden by effects, excessive visual noise, flat lighting, text, watermark, signature, logo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.658737+00:00"
+    },
+    {
+      "id": "civitai-142926184",
+      "title": "Civitai prompt 142926184",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:spiking_neurons_lora_flux_f16:0.85> spiking neurons round lovable anthropomorphic panda as the huge dominant protagonist, sitting in perfect meditation pose while completely transformed into the Spiking Neurons aesthetic, recognizable panda silhouette built from deep charcoal-black organic matter threaded with thousands of intricate glowing golden-orange neural filaments, branching dendrites covering arms, belly and face, luminous nodes pulsing at every intersection, enormous halo-like explosion of neural tendrils and sharp spiky axons radiating from behind his head, panda maintaining a desperately calm closed-eye expression while the neural network around his brain fires in complete chaotic overload, one eye beginning to twitch open, tiny peaceful butterfly sitting calmly on his nose, dark minimalist temple environment, brilliant warm golden neural glow against near-black surroundings, intense rim lighting, elegant symmetrical cinematic composition, intricate branching networks, countless luminous nodes, beautiful controlled chaos, sophisticated visual comedy",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926184",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fb64921-ce06-4e97-9954-d47edddcb289/original=true/7fb64921-ce06-4e97-9954-d47edddcb289.jpeg",
+      "model": "JjdoeFlux_v10",
+      "model_version_ids": [
+        781779,
+        1623121
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1285167241,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.658976+00:00"
+    },
+    {
+      "id": "civitai-142926185",
+      "title": "Civitai prompt 142926185",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:spiking_neurons_lora_flux_f16:0.85> spiking neurons mischievous anthropomorphic cat as the dominant protagonist, completely transformed into a breathtaking Spiking Neurons neural creature, crouching intensely in hunting position, dark feline silhouette covered with thousands of glowing golden-orange branching dendrites, long tail formed from intertwined luminous neural filaments and sharp neural tendrils, enormous radiant network spreading from the cat's head like a complex biological supercomputer, countless bright nodes and branching pathways visibly converging toward the cat's eyes, every neural pathway ultimately pointing toward one tiny red laser dot on the dark floor, cat staring at the insignificant dot with absurd cosmic concentration, one paw raised to strike, magnificent spiky neural projections forming a glowing crown around the head, deep black environment, warm golden illumination, spectacular contrast, cinematic low-angle composition, intricate dendritic detail, brilliant nodes, visual comedy through enormous neural complexity devoted entirely to chasing one tiny dot",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926185",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbb61220-1e78-452a-bfdc-f21b9d4fb44a/original=true/fbb61220-1e78-452a-bfdc-f21b9d4fb44a.jpeg",
+      "model": "JjdoeFlux_v10",
+      "model_version_ids": [
+        781779,
+        1623121
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 3701665473,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.659201+00:00"
+    },
+    {
+      "id": "civitai-142926188",
+      "title": "Civitai prompt 142926188",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:spiking_neurons_lora_flux_f16:0.85> spiking neurons extravagant anthropomorphic peacock as the magnificent dominant protagonist, completely transformed into the Spiking Neurons aesthetic, displaying an enormous symmetrical tail fan made entirely from intricate branching neural networks, every feather constructed from hundreds of thin luminous golden-orange filaments, tree-like dendrites and sharp neural tendrils, traditional eye-spots replaced by spectacular intensely glowing neural nodes connected through branching pathways, thousands of pointed axon projections forming the outer silhouette of the tail, peacock body dark charcoal-black with delicate golden neural circuitry spreading across neck and face, protagonist posing with absurd pride while one tiny neural branch at the edge flickers embarrassingly and refuses to light, deep black garden environment, intense warm golden bioluminescence, brilliant luminous intersections, dramatic symmetrical composition, cinematic rim lighting, extremely intricate organic branching detail, majestic and slightly humorous neural fantasy",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142926188",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb3b283c-4fe3-4063-970c-2b7d408aae55/original=true/eb3b283c-4fe3-4063-970c-2b7d408aae55.jpeg",
+      "model": "JjdoeFlux_v10",
+      "model_version_ids": [
+        781779,
+        1623121
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 3164443862,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-16T08:41:43.659404+00:00"
     }
   ]
 }
