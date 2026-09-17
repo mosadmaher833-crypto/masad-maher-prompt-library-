@@ -20124,15 +20124,793 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bcecacf2-ffb2-49af-8a37-669c9ef57db0/original=true/bcecacf2-ffb2-49af-8a37-669c9ef57db0.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-6781d024d3a5",
+      "title": "core-concepts.mdx",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### Tools\n\nTools are like POST endpoints - they provide functionality that LLMs can invoke to take actions or perform computations.\n\n**Key characteristics:**\n- **Action-oriented**: Tools do things rather than just return data\n- **Parameterized**: Accept structured input arguments\n- **Typed schemas**: Define expected parameter types and constraints\n- **Return results**: Provide structured output back to the LLM\n\n**Example use cases:**\n- Calculations (`calculate`, `convert_units`)\n- File operations (`create_file`, `search_files`)\n- API calls (`send_email`, `create_ticket`)\n- System commands (`run_command`, `check_status`)",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "mark3labs/mcp-go",
+      "source_url": "https://github.com/mark3labs/mcp-go/blob/c413b9e94ca0ee5efc7a1bcd404dc8501309da8d/www/docs/pages/core-concepts.mdx",
+      "imported_at": "2026-09-17T08:45:41.463953+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6781d024d3a59d00d0b599f240e611cf64ed8d3eea7faf1cd60b77d12440fff2",
+      "prompt_ar": "### الأدوات\n\nتشبه الأدوات نقاط نهاية POST - فهي توفر وظائف يمكن لـ LLMs استدعاءها لاتخاذ إجراءات أو إجراء عمليات حسابية.\n\n** الخصائص الرئيسية: **\n- **موجهة نحو العمل**: تقوم الأدوات بأشياء بدلاً من مجرد إرجاع البيانات\n- **المعلمات**: قبول وسيطات الإدخال المنظمة\n- **المخططات المكتوبة**: تحديد أنواع وقيود المعلمات المتوقعة\n- **نتائج الإرجاع**: تقديم مخرجات منظمة إلى LLM\n\n** أمثلة لحالات الاستخدام: **\n- العمليات الحسابية (`حساب`، `تحويل_الوحدات`)\n- عمليات الملف (`create_file`، `search_files`)\n- استدعاءات واجهة برمجة التطبيقات (`send_email`، `create_ticket`)\n- أوامر النظام (`run_command`، `check_status`)",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:42Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "core-concepts.mdx prompt-engineering ### tools tools are like post endpoints - they provide functionality that llms can invoke to take actions or perform computations. **key characteristics:** - **action-oriented**: tools do things rather than just return data - **parameterized**: accept structured input arguments - **typed schemas**: define expected parameter types and constraints - **return results**: provide structured output back to the llm **example use cases:** - calculations (`calculate`, `convert_units`) - file operations (`create_file`, `search_files`) - api calls (`send_email`, `create_ticket`) - system commands (`run_command`, `check_status`) github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/mark3labs/mcp-go/blob/c413b9e94ca0ee5efc7a1bcd404dc8501309da8d/www/docs/pages/core-concepts.mdx",
+          "source_repository": "mark3labs/mcp-go"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015533",
+      "title": "Civitai prompt 143015533",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. A vibrant cyberpunk composition featuring a pilot in a cluttered mechanical cockpit. Dutch angle tilt of 30 degrees. The pilot's booted leg is thrust forward toward the viewer, utilizing extreme foreshortening to dominate the foreground. Glowing holographic interface lights reflect on a chrome helmet. Saturated purples and teals against deep blacks, high-key lighting, and intricate mechanical textures. Shot with a wide-angle lens to accentuate the distorted perspective. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015533",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26836e7e-514c-492d-8bb7-e0aa68503aed/original=true/26836e7e-514c-492d-8bb7-e0aa68503aed.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464154+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0c43dd37c23951f2b14d26aacb45b1fffa6d5985afcbedff54a612a5b9b35aa5",
+      "prompt_ar": "StrangeDaal. تركيبة سايبربانك نابضة بالحياة تظهر طيارًا في قمرة القيادة الميكانيكية المزدحمة. الهولندية زاوية الميل 30 درجة. يتم دفع ساق الطيار المرتدية للأمام نحو المشاهد، باستخدام التقصير الشديد للسيطرة على المقدمة. تنعكس أضواء الواجهة الثلاثية الأبعاد المتوهجة على خوذة الكروم. ألوان أرجوانية وزرقاء مشبعة مقابل اللون الأسود العميق، وإضاءة عالية المستوى، وأنسجة ميكانيكية معقدة. تم التصوير باستخدام عدسة واسعة الزاوية لإبراز المنظور المشوه. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015533 image ai-image-prompts strangedaal. a vibrant cyberpunk composition featuring a pilot in a cluttered mechanical cockpit. dutch angle tilt of 30 degrees. the pilot's booted leg is thrust forward toward the viewer, utilizing extreme foreshortening to dominate the foreground. glowing holographic interface lights reflect on a chrome helmet. saturated purples and teals against deep blacks, high-key lighting, and intricate mechanical textures. shot with a wide-angle lens to accentuate the distorted perspective. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015533",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26836e7e-514c-492d-8bb7-e0aa68503aed/original=true/26836e7e-514c-492d-8bb7-e0aa68503aed.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015602",
+      "title": "Civitai prompt 143015602",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. A cyberpunk street samurai mid-strike, katana swinging toward the viewer, captured with a strong Dutch angle of ~30 degrees. Extreme foreshortening: blade dominates foreground, oversized and sharp, while body recedes dramatically. Camera extremely close to the weapon tip, ultra-wide perspective. Sparks and rain droplets frozen mid-air. Background city tilting diagonally, glowing signage stretched across frame. High shutter freeze and motion trails hybrid. Harsh rim lighting, reflective surfaces, gritty realism, cinematic intensity, dynamic composition. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015602",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b300f25d-2ee6-4a55-b5bc-767ce8db6c1b/original=true/b300f25d-2ee6-4a55-b5bc-767ce8db6c1b.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464167+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "df7179671413f39320c1d107e6276fafd2e53ad5d80bab564f4b8f64749246f5",
+      "prompt_ar": "StrangeDaal. ضربة متوسطة لساموراي شارع سايبربانك، كاتانا تتأرجح نحو المشاهد، تم التقاطها بزاوية هولندية قوية تصل إلى 30 درجة تقريبًا. تقصير شديد: تهيمن الشفرة على المقدمة، كبيرة الحجم وحادة، بينما ينحسر الجسم بشكل كبير. الكاميرا قريبة جدًا من طرف السلاح، ومنظور واسع جدًا. الشرر وقطرات المطر متجمدة في الهواء. خلفية المدينة تميل قطريًا، وتمتد اللافتات المتوهجة عبر الإطار. تجميد مصراع عالي ومسارات حركة هجينة. إضاءة حافة قاسية، أسطح عاكسة، واقعية جريئة، كثافة سينمائية، تكوين ديناميكي. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015602 image ai-image-prompts strangedaal. a cyberpunk street samurai mid-strike, katana swinging toward the viewer, captured with a strong dutch angle of ~30 degrees. extreme foreshortening: blade dominates foreground, oversized and sharp, while body recedes dramatically. camera extremely close to the weapon tip, ultra-wide perspective. sparks and rain droplets frozen mid-air. background city tilting diagonally, glowing signage stretched across frame. high shutter freeze and motion trails hybrid. harsh rim lighting, reflective surfaces, gritty realism, cinematic intensity, dynamic composition. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015602",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b300f25d-2ee6-4a55-b5bc-767ce8db6c1b/original=true/b300f25d-2ee6-4a55-b5bc-767ce8db6c1b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015618",
+      "title": "Civitai prompt 143015618",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. Surreal floating ancient Japanese temple complex dramatically tilted at a sharp Dutch angle, extreme foreshortening from a very low viewpoint making the pagoda roofs and stone lanterns rush powerfully toward the camera, cherry blossoms swirling in the air, glowing lanterns, mystical fog, impossible floating islands in the background, ethereal teal and gold lighting, breathtaking cinematic composition, intricate details, otherworldly beauty, masterpiece. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015618",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1301f7c6-07ca-4ac3-b977-e878e20313c3/original=true/1301f7c6-07ca-4ac3-b977-e878e20313c3.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464176+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b445516a336edef1ead56a0d199867fac71c35723f6375397c83fc287f9ccdcf",
+      "prompt_ar": "StrangeDaal. مجمع المعابد اليابانية القديمة العائمة السريالية يميل بشكل كبير بزاوية هولندية حادة، وتقصير شديد من وجهة نظر منخفضة جدًا مما يجعل أسطح الباغودا والفوانيس الحجرية تندفع بقوة نحو الكاميرا، وأزهار الكرز تحوم في الهواء، وفوانيس متوهجة، وضباب غامض، وجزر عائمة مستحيلة في الخلفية، وإضاءة باللون الأزرق المخضر والذهبي الأثيري، وتكوين سينمائي مذهل، وتفاصيل معقدة، وجمال دنيوي آخر، وتحفة فنية. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015618 image ai-image-prompts strangedaal. surreal floating ancient japanese temple complex dramatically tilted at a sharp dutch angle, extreme foreshortening from a very low viewpoint making the pagoda roofs and stone lanterns rush powerfully toward the camera, cherry blossoms swirling in the air, glowing lanterns, mystical fog, impossible floating islands in the background, ethereal teal and gold lighting, breathtaking cinematic composition, intricate details, otherworldly beauty, masterpiece. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015618",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1301f7c6-07ca-4ac3-b977-e878e20313c3/original=true/1301f7c6-07ca-4ac3-b977-e878e20313c3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015624",
+      "title": "Civitai prompt 143015624",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. Intense male model with sharp facial features in a black trench coat, shot from extreme low Dutch angle with radical foreshortening, his outstretched hand and face dominating the frame while his body dramatically recedes, intense eye contact, moody cinematic lighting with strong rim light and deep shadows, wet reflective streets at night, neon reflections, high fashion editorial style, ultra realistic yet artistic, dramatic atmosphere, masterpiece. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015624",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/175aa0e6-2b1f-4c57-9764-df629908c7ae/original=true/175aa0e6-2b1f-4c57-9764-df629908c7ae.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464183+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5aeea925452ecba9b6cca896b20c57a7c06b2ca92ffcb8348c4540d40e7201eb",
+      "prompt_ar": "StrangeDaal. عارض أزياء قوي ذو ملامح وجه حادة يرتدي معطفًا أسود، تم تصويره من زاوية هولندية منخفضة للغاية مع تقصير جذري، ويده الممدودة ووجهه يسيطران على الإطار بينما يتراجع جسده بشكل كبير، اتصال مكثف بالعين، إضاءة سينمائية متقلبة مع ضوء حافة قوي وظلال عميقة، شوارع عاكسة رطبة في الليل، انعكاسات النيون، أسلوب تحريري للأزياء الراقية، واقعي للغاية ولكنه فني، جو درامي، تحفة فنية. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143015624 fashion ai-image-prompts strangedaal. intense male model with sharp facial features in a black trench coat, shot from extreme low dutch angle with radical foreshortening, his outstretched hand and face dominating the frame while his body dramatically recedes, intense eye contact, moody cinematic lighting with strong rim light and deep shadows, wet reflective streets at night, neon reflections, high fashion editorial style, ultra realistic yet artistic, dramatic atmosphere, masterpiece. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015624",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/175aa0e6-2b1f-4c57-9764-df629908c7ae/original=true/175aa0e6-2b1f-4c57-9764-df629908c7ae.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015639",
+      "title": "Civitai prompt 143015639",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. A lone figure in a flowing charcoal coat reaches upward, their hand and forearm rendered in extreme foreshortening, looming large in the foreground while the torso recedes dramatically. Composed at a sharp Dutch angle, the tilted horizon amplifies quiet tension. Floating crystalline geometries hover in a misty pearl-gray void. Cinematic chiaroscuro lighting, soft volumetric rays, contemporary fine art aesthetic, muted sage and oxidized copper palette, painterly texture with refined digital finish, hauntingly elegant mood, masterfully layered depth, gallery-quality detail. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015639",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73469c38-b1ed-45d5-85db-2085db2b5bd7/original=true/73469c38-b1ed-45d5-85db-2085db2b5bd7.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464191+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5d899d41061bdd6d4bbd55ca19c2f1e03cafe2001e33b9fe374880e5681c3911",
+      "prompt_ar": "StrangeDaal. هناك شخصية وحيدة ترتدي معطفًا فحميًا متدفقًا تصل إلى الأعلى، وقد تم تقصير يدها وساعدها بشكل كبير، وتلوح في الأفق بشكل كبير في المقدمة بينما يتراجع الجذع بشكل كبير. تم تشكيل الأفق المائل بزاوية هولندية حادة مما يزيد من التوتر الهادئ. تحوم الأشكال الهندسية البلورية العائمة في فراغ رمادي لؤلؤي ضبابي. إضاءة تشياروسكورو سينمائية، وأشعة حجمية ناعمة، وجمالية الفنون الجميلة المعاصرة، ولوحة نحاسية مؤكسدة ومريمية صامتة، وملمس رسومي مع تشطيب رقمي مصقول، ومزاج أنيق للغاية، وعمق متعدد الطبقات ببراعة، وتفاصيل بجودة المعرض. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015639 image ai-image-prompts strangedaal. a lone figure in a flowing charcoal coat reaches upward, their hand and forearm rendered in extreme foreshortening, looming large in the foreground while the torso recedes dramatically. composed at a sharp dutch angle, the tilted horizon amplifies quiet tension. floating crystalline geometries hover in a misty pearl-gray void. cinematic chiaroscuro lighting, soft volumetric rays, contemporary fine art aesthetic, muted sage and oxidized copper palette, painterly texture with refined digital finish, hauntingly elegant mood, masterfully layered depth, gallery-quality detail. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015639",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73469c38-b1ed-45d5-85db-2085db2b5bd7/original=true/73469c38-b1ed-45d5-85db-2085db2b5bd7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015674",
+      "title": "Civitai prompt 143015674",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. A cybernetic warrior kneels on a rain-slicked obsidian platform, their katana extended directly toward the viewer in extreme foreshortening, the blade's tip massive and razor-sharp in the foreground while the hilt and arm recede sharply. Composed at a dynamic Dutch angle, the tilted frame amplifies tension. Neon cyan and magenta reflections bleed through atmospheric fog, illuminating intricate armor plating. High-end concept art aesthetic, neon-noir color grading, cinematic rim lighting, stylized realism with painterly edge work, intense and meticulously detailed. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015674",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d1efdaa-61dd-487d-a9af-d4c98fffc34a/original=true/5d1efdaa-61dd-487d-a9af-d4c98fffc34a.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464199+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "71c01c85e8fc3588d4a4b96c9f861c3c5d009373252d1b2ec9db82b09104f43c",
+      "prompt_ar": "StrangeDaal. يركع محارب سيبراني على منصة سبج ملقاة بالمطر، ويمتد سيف الكاتانا الخاص به مباشرة نحو المشاهد في تقصير شديد، وطرف الشفرة ضخم وحاد للغاية في المقدمة بينما ينحسر المقبض والذراع بشكل حاد. يتكون الإطار المائل بزاوية هولندية ديناميكية، مما يزيد من التوتر. تتدفق انعكاسات النيون السماوي والأرجواني عبر الضباب الجوي، مما يضيء طلاء الدروع المعقد. مفهوم جمالي فني متطور، وتدرج ألوان نيون نوير، وإضاءة حافة سينمائية، وواقعية منمقة مع أعمال تصويرية مكثفة ومفصلة بدقة. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015674 image ai-image-prompts strangedaal. a cybernetic warrior kneels on a rain-slicked obsidian platform, their katana extended directly toward the viewer in extreme foreshortening, the blade's tip massive and razor-sharp in the foreground while the hilt and arm recede sharply. composed at a dynamic dutch angle, the tilted frame amplifies tension. neon cyan and magenta reflections bleed through atmospheric fog, illuminating intricate armor plating. high-end concept art aesthetic, neon-noir color grading, cinematic rim lighting, stylized realism with painterly edge work, intense and meticulously detailed. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015674",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d1efdaa-61dd-487d-a9af-d4c98fffc34a/original=true/5d1efdaa-61dd-487d-a9af-d4c98fffc34a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143015679",
+      "title": "Civitai prompt 143015679",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "StrangeDaal. Extreme dutch angle, extreme foreshortening. A cyberpunk street-samurai lunging forward, her chrome cybernetic arm and glowing katana reaching directly into the camera lens, filling the immediate foreground and appearing massive. Her face and body recede dramatically into the background, compressed by the extreme perspective. The background is a tilted, neon-drenched rain-slicked alleyway in Kowloon. Anamorphic lens flare, rim lighting, high contrast cinematic lighting, dystopian aesthetic, photorealistic masterpiece. <lora:Strange Reverie - Krea2_000002500:1.1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143015679",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dde6e3f-344e-4dbc-9dfa-1e1f1279c49f/original=true/2dde6e3f-344e-4dbc-9dfa-1e1f1279c49f.jpeg",
+      "model": "Krea-2-Turbo-Diffusers",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20260914,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464206+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "709d5314207191ca3c3faf8ab36fd97d94d6b01c2ccf8f8c4a0b4d3cb2122b7e",
+      "prompt_ar": "StrangeDaal. زاوية هولندية شديدة، تقصير شديد. تندفع ساموراي شوارع سايبربانك للأمام، وتصل ذراعها السيبرانية المصنوعة من الكروم والكاتانا المتوهجة مباشرة إلى عدسة الكاميرا، وتملأ المقدمة المباشرة وتبدو ضخمة. يتراجع وجهها وجسمها بشكل كبير في الخلفية، مضغوطين بالمنظور المتطرف. الخلفية عبارة عن زقاق مائل ومبلل بالنيون وممطر في كولون. توهج عدسة بصرية مشوهة، وإضاءة حافة، وإضاءة سينمائية عالية التباين، وجمالية بائسة، وتحفة فنية واقعية. <لورا: حلم خيالي غريب - Krea2_000002500:1.1>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143015679 image ai-image-prompts strangedaal. extreme dutch angle, extreme foreshortening. a cyberpunk street-samurai lunging forward, her chrome cybernetic arm and glowing katana reaching directly into the camera lens, filling the immediate foreground and appearing massive. her face and body recede dramatically into the background, compressed by the extreme perspective. the background is a tilted, neon-drenched rain-slicked alleyway in kowloon. anamorphic lens flare, rim lighting, high contrast cinematic lighting, dystopian aesthetic, photorealistic masterpiece. <lora:strange reverie - krea2_000002500:1.1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143015679",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dde6e3f-344e-4dbc-9dfa-1e1f1279c49f/original=true/2dde6e3f-344e-4dbc-9dfa-1e1f1279c49f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143018267",
+      "title": "Civitai prompt 143018267",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "lazypos, highly detailed and hyper realistic, Ultrarealistic, sharp focus, dynamic lighting, amazing composition, photorealistic, great composition, masterpiece, best quality, perfectly symmetrical face, detailed skin, amazing photograph, 8K, high quality, photorealistic, realism, art photography, Nikon D850, 16k, sharp focus, masterpiece, breathtaking, atmospheric perspective, diffusion, pore correlation, skin imperfections, DSLR, 80mm Sigma f2, depth of field, intricate natural lighting, codeandigital, c0dean0igital, cyberw0rlds, giant techno dragon, flying over dystopian city, High Angle Shot",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143018267",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0e5d1d-e6d3-4bca-a2d1-427d9e8b0464/original=true/8a0e5d1d-e6d3-4bca-a2d1-427d9e8b0464.jpeg",
+      "model_version_ids": [
+        135867,
+        674797,
+        1591915,
+        1759168
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1026650832,
+      "negative_prompt": "lazynsfw, lazyneg, (deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464213+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6046a96aafea2ebf448719493f516c18f54bb66c69cb368d307b40c81d4cd1fc",
+      "prompt_ar": "Lazypos، مفصلة للغاية وواقعية للغاية، واقعية للغاية، تركيز حاد، إضاءة ديناميكية، تكوين مذهل، صورة واقعية، تكوين رائع، تحفة، أفضل جودة، وجه متناسق تمامًا، بشرة مفصلة، صورة مذهلة، 8K، جودة عالية، صور واقعية، واقعية، تصوير فني، Nikon D850، 16k، تركيز حاد، تحفة، لالتقاط الأنفاس، منظور جوي، انتشار، ارتباط المسام، عيوب الجلد، كاميرا DSLR، 80 مم سيجما f2، عمق المجال، الإضاءة الطبيعية المعقدة، codeandigital، c0dean0igital، cyberw0rlds، تنين تكنو العملاق، التحليق فوق مدينة ديستوبيا، لقطة عالية الزاوية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143018267 image ai-image-prompts lazypos, highly detailed and hyper realistic, ultrarealistic, sharp focus, dynamic lighting, amazing composition, photorealistic, great composition, masterpiece, best quality, perfectly symmetrical face, detailed skin, amazing photograph, 8k, high quality, photorealistic, realism, art photography, nikon d850, 16k, sharp focus, masterpiece, breathtaking, atmospheric perspective, diffusion, pore correlation, skin imperfections, dslr, 80mm sigma f2, depth of field, intricate natural lighting, codeandigital, c0dean0igital, cyberw0rlds, giant techno dragon, flying over dystopian city, high angle shot civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143018267",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0e5d1d-e6d3-4bca-a2d1-427d9e8b0464/original=true/8a0e5d1d-e6d3-4bca-a2d1-427d9e8b0464.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143018747",
+      "title": "Civitai prompt 143018747",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "2d anime style, rezero style, a close-up shot focuses on the head and upper shoulders of a man with long, vibrant red hair cascading down around his face and back. The man has tanned skin, sharp facial features, a prominent nose, and a confident, slightly mischievous grin with his mouth open and his perfect smooth teeth and smile. His left eye is bright blue, while his right eye is covered by a black eyepatch adorned with a white symbol. The background is a blurred, earthy outdoor terrain with muted browns and grays under natural lighting.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143018747",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d337cfd0-8b49-4ca5-badd-d94ac35ead7a/original=true/d337cfd0-8b49-4ca5-badd-d94ac35ead7a.jpeg",
+      "model": "krea2_turbo_bf16",
+      "model_version_ids": [],
+      "width": 1928,
+      "height": 1088,
+      "seed": 998186198441890,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464222+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b31715e3c554d2eb996a3f4e19c7484a96dd089c09c9b27438263a7e94665784",
+      "prompt_ar": "أسلوب الرسوم المتحركة ثنائي الأبعاد، أسلوب ريزيرو، لقطة قريبة تركز على الرأس والكتفين العلويين لرجل ذو شعر أحمر طويل نابض بالحياة يتدلى حول وجهه وظهره. يتمتع الرجل ببشرة مسمرة، وملامح وجه حادة، وأنف بارز، وابتسامة واثقة ومؤذية قليلاً وفمه مفتوح وأسنانه وابتسامته الناعمة المثالية. عينه اليسرى زرقاء زاهية، بينما عينه اليمنى مغطاة برقعة عين سوداء مزينة برمز أبيض. الخلفية عبارة عن تضاريس خارجية ترابية غير واضحة مع ألوان بنية ورمادية خافتة تحت الإضاءة الطبيعية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143018747 image ai-image-prompts 2d anime style, rezero style, a close-up shot focuses on the head and upper shoulders of a man with long, vibrant red hair cascading down around his face and back. the man has tanned skin, sharp facial features, a prominent nose, and a confident, slightly mischievous grin with his mouth open and his perfect smooth teeth and smile. his left eye is bright blue, while his right eye is covered by a black eyepatch adorned with a white symbol. the background is a blurred, earthy outdoor terrain with muted browns and grays under natural lighting. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143018747",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d337cfd0-8b49-4ca5-badd-d94ac35ead7a/original=true/d337cfd0-8b49-4ca5-badd-d94ac35ead7a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143018784",
+      "title": "Civitai prompt 143018784",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "2d anime style, rezero style, A blonde girl with intense red eyes crouches low in a neon-lit urban alley, gripping a futuristic black handgun with both hands, wind blowing her hair sharply to the side. The narrow alley is flanked by towering metal buildings covered in pipes and wires, sunlight piercing through overhead scaffolding, casting dramatic streaks of light on the wet pavement. Her jacket ripples slightly from the motion as she readies herself to spring forward. The camera slowly arcs upward from ground level, emphasizing her dominant pose and the gleam of her weapon. The mood is tense and cinematic, with shimmering puddles reflecting city lights, but no lens flare or artificial glow effects present.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143018784",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05a38a11-b64c-4923-b905-1e81e5df619a/original=true/05a38a11-b64c-4923-b905-1e81e5df619a.jpeg",
+      "model": "krea2_turbo_bf16",
+      "model_version_ids": [],
+      "width": 1928,
+      "height": 1088,
+      "seed": 704194451398736,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464231+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2dd6e98b722dedddd58737787b02cf901b852280a0f1cdeeefadcf4176be21ff",
+      "prompt_ar": "أسلوب الرسوم المتحركة ثنائي الأبعاد، أسلوب ريزيرو، فتاة شقراء ذات عيون حمراء شديدة تجثم في زقاق حضري مضاء بالنيون، وتمسك بكلتا يديها بمسدس أسود مستقبلي، وتهب الرياح بشعرها بشكل حاد إلى الجانب. ويحيط بالزقاق الضيق مباني معدنية شاهقة مغطاة بالأنابيب والأسلاك، ويخترق ضوء الشمس السقالات العلوية، ويلقي خطوطًا دراماتيكية من الضوء على الرصيف الرطب. تتموج سترتها قليلاً من الحركة وهي تستعد للانطلاق للأمام. تنحني الكاميرا ببطء نحو الأعلى من مستوى الأرض، لتؤكد على وضعيتها المهيمنة وبريق سلاحها. المزاج متوتر وسينمائي، مع برك متلألئة تعكس أضواء المدينة، ولكن لا يوجد توهج عدسة أو تأثيرات توهج اصطناعية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143018784 architecture ai-image-prompts 2d anime style, rezero style, a blonde girl with intense red eyes crouches low in a neon-lit urban alley, gripping a futuristic black handgun with both hands, wind blowing her hair sharply to the side. the narrow alley is flanked by towering metal buildings covered in pipes and wires, sunlight piercing through overhead scaffolding, casting dramatic streaks of light on the wet pavement. her jacket ripples slightly from the motion as she readies herself to spring forward. the camera slowly arcs upward from ground level, emphasizing her dominant pose and the gleam of her weapon. the mood is tense and cinematic, with shimmering puddles reflecting city lights, but no lens flare or artificial glow effects present. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143018784",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05a38a11-b64c-4923-b905-1e81e5df619a/original=true/05a38a11-b64c-4923-b905-1e81e5df619a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143020386",
+      "title": "Civitai prompt 143020386",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An authentic historical aviation photograph from World War II. In the foreground, a Japanese Mitsubishi A6M Zero fighter aircraft is captured in a crisp side-profile view, flying elegantly through the air. The plane features a classic light grey-green naval paint scheme with prominent red Hinomaru sun discs on the fuselage and wings, and the tactical identification code \"オ-101\" painted on its vertical tail fin. A streamlined drop fuel tank is attached underneath the belly. The majestic background features a massive, snow-capped Mount Fuji towering above a thick, fluffy sea of clouds under a clear pale blue sky. Natural bright daylight, subtle vintage film grain, exceptional historical realism and dramatic aerial composition. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143020386",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a3b659c-4d06-4e20-a009-f2b31320ca0a/original=true/9a3b659c-4d06-4e20-a009-f2b31320ca0a.jpeg",
+      "model": "krea2\\krea2TurboINT8_v10.safetensors",
+      "model_version_ids": [
+        3109341
+      ],
+      "width": 864,
+      "height": 1152,
+      "seed": 448657348911470,
+      "negative_prompt": "An authentic historical aviation photograph from World War II. In the foreground, a Japanese Mitsubishi A6M Zero fighter aircraft is captured in a crisp side-profile view, flying elegantly through the air. The plane features a classic light grey-green naval paint scheme with prominent red Hinomaru sun discs on the fuselage and wings, and the tactical identification code \"オ-101\" painted on its vertical tail fin. A streamlined drop fuel tank is attached underneath the belly. The majestic background features a massive, snow-capped Mount Fuji towering above a thick, fluffy sea of clouds under a clear pale blue sky. Natural bright daylight, subtle vintage film grain, exceptional historical realism and dramatic aerial composition.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464244+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "13bb9d2bcd13429fef482b97d3b32836073d1c14757a3b0425dc0e0f0c315f9c",
+      "prompt_ar": "صورة طيران تاريخية أصلية من الحرب العالمية الثانية. في المقدمة، تم التقاط طائرة مقاتلة يابانية من طراز Mitsubishi A6M Zero في منظر جانبي واضح، وهي تحلق بأناقة في الهواء. تتميز الطائرة بطلاء بحري كلاسيكي باللون الرمادي والأخضر الفاتح مع أقراص شمس هينومارو حمراء بارزة على جسم الطائرة والأجنحة، ورمز التعريف التكتيكي \"オ-101\" مرسوم على زعنفة الذيل العمودية. يتم تركيب خزان وقود مبسط أسفل البطن. تتميز الخلفية المهيبة بجبل فوجي الضخم المغطى بالثلوج، والذي يرتفع فوق بحر كثيف ورقيق من السحب تحت سماء زرقاء شاحبة صافية. ضوء النهار الطبيعي الساطع، وحبوب الأفلام العتيقة الدقيقة، والواقعية التاريخية الاستثنائية والتكوين الجوي الدرامي. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143020386 image ai-image-prompts an authentic historical aviation photograph from world war ii. in the foreground, a japanese mitsubishi a6m zero fighter aircraft is captured in a crisp side-profile view, flying elegantly through the air. the plane features a classic light grey-green naval paint scheme with prominent red hinomaru sun discs on the fuselage and wings, and the tactical identification code \"オ-101\" painted on its vertical tail fin. a streamlined drop fuel tank is attached underneath the belly. the majestic background features a massive, snow-capped mount fuji towering above a thick, fluffy sea of clouds under a clear pale blue sky. natural bright daylight, subtle vintage film grain, exceptional historical realism and dramatic aerial composition. <lora:detailer-krea2:0.70> <lora:niceday_epoch_10:0.60> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143020386",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a3b659c-4d06-4e20-a009-f2b31320ca0a/original=true/9a3b659c-4d06-4e20-a009-f2b31320ca0a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143020387",
+      "title": "Civitai prompt 143020387",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A realistic cinematic movie still of a whimsical furry creature in a gritty city alley. The creature is covered in hyper-realistic, fluffy yellow and brown fur, wearing a weathered black top hat. It stands on a damp, detailed cobblestone pavement covered in colorful street art spray paint. The background features authentic aged red brick walls with real graffiti tags and industrial pipes. Dramatic cinematic side lighting highlights the soft fur texture, casting realistic shadows. Saturated yet gritty color grading, high contrast, 35mm anamorphic film look. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143020387",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7317e1fa-963d-463c-899b-c91c31888140/original=true/7317e1fa-963d-463c-899b-c91c31888140.jpeg",
+      "model": "krea2\\krea2TurboINT8_v10.safetensors",
+      "model_version_ids": [
+        3109341
+      ],
+      "width": 864,
+      "height": 1152,
+      "seed": 63995104459944,
+      "negative_prompt": "A realistic cinematic movie still of a whimsical furry creature in a gritty city alley. The creature is covered in hyper-realistic, fluffy yellow and brown fur, wearing a weathered black top hat. It stands on a damp, detailed cobblestone pavement covered in colorful street art spray paint. The background features authentic aged red brick walls with real graffiti tags and industrial pipes. Dramatic cinematic side lighting highlights the soft fur texture, casting realistic shadows. Saturated yet gritty color grading, high contrast, 35mm anamorphic film look.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464252+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "80ab14e94b1b5b435a8392c4aa8678512470b9e4feb5421eb6c498ff101a54fc",
+      "prompt_ar": "فيلم سينمائي واقعي لا يزال لمخلوق فروي غريب الأطوار في زقاق مدينة شجاع. المخلوق مغطى بفراء واقعي للغاية، أصفر وبني، ويرتدي قبعة سوداء مقاومة للطقس. إنه يقف على رصيف رطب ومفصل مرصوف بالحصى ومغطى بطلاء رش فني ملون للشارع. تتميز الخلفية بجدران أصلية من الطوب الأحمر القديم مع علامات جرافيتي حقيقية وأنابيب صناعية. تسلط الإضاءة الجانبية السينمائية الدرامية الضوء على نسيج الفرو الناعم، وتلقي ظلالاً واقعية. تدرج ألوان مشبعة ولكن جريئة، وتباين عالٍ، ومظهر فيلم بصري مشوه مقاس 35 مم. <lora:Detailer-KREA2:0.70> <lora:niceday_epoch_10:0.60>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143020387 image ai-image-prompts a realistic cinematic movie still of a whimsical furry creature in a gritty city alley. the creature is covered in hyper-realistic, fluffy yellow and brown fur, wearing a weathered black top hat. it stands on a damp, detailed cobblestone pavement covered in colorful street art spray paint. the background features authentic aged red brick walls with real graffiti tags and industrial pipes. dramatic cinematic side lighting highlights the soft fur texture, casting realistic shadows. saturated yet gritty color grading, high contrast, 35mm anamorphic film look. <lora:detailer-krea2:0.70> <lora:niceday_epoch_10:0.60> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143020387",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7317e1fa-963d-463c-899b-c91c31888140/original=true/7317e1fa-963d-463c-899b-c91c31888140.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142524947",
+      "title": "Civitai prompt 142524947",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A colossal crystal wine glass standing in a vineyard, filled with deep red wine, a full-sized sailing ship floating inside the glass, the ship's masts reaching above the rim, grapes growing around the base, warm sunset light, captured in a photorealistic cinematic wide shot with luxurious lighting, impossible scale beverage scene.",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142524947",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63a45581-c57c-4911-b81a-ca8f6a36e16f/original=true/63a45581-c57c-4911-b81a-ca8f6a36e16f.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464259+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e03c59474c02b2758c12934ce0b859a40d21623a701580de3972442f54391ff7",
+      "prompt_ar": "كأس نبيذ كريستالي ضخم يقف في كرم، مملوء بالنبيذ الأحمر العميق، وسفينة شراعية كاملة الحجم تطفو داخل الزجاج، وصواري السفينة تصل إلى ما فوق الحافة، وعنب ينمو حول القاعدة، وضوء غروب الشمس الدافئ، تم التقاطه في لقطة سينمائية واسعة النطاق مع إضاءة فاخرة، ومشهد مشروبات على نطاق مستحيل.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142524947 image ai-image-prompts a colossal crystal wine glass standing in a vineyard, filled with deep red wine, a full-sized sailing ship floating inside the glass, the ship's masts reaching above the rim, grapes growing around the base, warm sunset light, captured in a photorealistic cinematic wide shot with luxurious lighting, impossible scale beverage scene. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142524947",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63a45581-c57c-4911-b81a-ca8f6a36e16f/original=true/63a45581-c57c-4911-b81a-ca8f6a36e16f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143020081",
+      "title": "Civitai prompt 143020081",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n  \"photographic_specification\": {\n    \"skin_quality\": \"High-resolution organic texture, visible pores, subtle subsurface scattering, natural dewy finish, avoiding digital smoothing.\",\n    \"lighting\": {\n      \"key_light\": \"Rembrandt style, softbox with grid at 45-degree angle\",\n      \"rim_light\": \"Subtle deep crimson backlight on hair and shoulder\",\n      \"color_temperature\": \"5600K key light with 3200K tungsten accents\",\n      \"fill_ratio\": \"3:1 key-to-fill, deep shadow retention\"\n    },\n    \"clothing\": {\n      \"material\": \"Heavy matte satin with delicate lace trimming\",\n      \"texture\": \"Visible weave, soft folds, intricate pleating at the shoulders\"\n    },\n    \"optical_settings\": {\n      \"aperture\": \"f/1.4\",\n      \"depth_of_field\": \"Shallow, focusing on the eye and rose, with creamy background bokeh\",\n      \"focal_length\": \"85mm prime lens\"\n    },\n    \"composition\": {\n      \"framing\": \"Medium close-up, rule of thirds, subject gaze directed off-frame\",\n      \"background\": \"Abstract dark blue mottled studio backdrop with subtle atmosphere\",\n      \"pose\": \"Elegant profile, hands clasped, delicate grip on the rose stem\"\n    },\n    \"atmosphere\": {\n      \"mood\": \"Melancholy, romanticism, cinematic drama\",\n      \"tonality\": \"Cool blues in background contrasted with deep reds and warm skin tones\"\n    },\n    \"technical_details\": {\n      \"camera\": \"Hasselblad H6D-100c\",\n      \"grain\": \"Fine, organic 120 film grain\",\n      \"dynamic_range\": \"Zones II-VIII, preserved highlight rolloff\"\n    },\n    \"actionable_corrections\": [\n      \"Increase micro-contrast in the fabric folds\",\n      \"Refine the iris catchlight for higher specular intensity\",\n      \"Enhance the depth of the red backlight for better subject separation\",\n      \"Add slight chromatic aberration for an authentic analog look\"\n    ],\n    \"master_photographers\": [\n      \"Peter Lindbergh\",\n      \"Paolo Roversi\",\n      \"Annie Leibovitz\"\n    ],\n    \"master_prompt\": \"An exhibition-grade portrait of a woman in a vintage white Victorian-style satin dress holding a singular deep red rose. Profile pose, melancholic and introspective expression. Expert Rembrandt lighting, soft studio light with a subtle deep crimson rim light kiss on her dark hair. Background is a dramatic, out-of-focus deep blue mottled theatrical canvas. Shot on Hasselblad H6D-100c, 85mm f/1.4 lens. High-fashion editorial aesthetic, 8k resolution, cinematic color grading, rich textures, visible fabric weave, organic skin pores, fine film grain, moody atmosphere, romantic noir style.\"\n  }\n}",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143020081",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/326e67ff-73ab-45f6-8938-4af20f98db81/original=true/326e67ff-73ab-45f6-8938-4af20f98db81.jpeg",
+      "model_version_ids": [
+        3311436
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464277+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "58674d29486dc35a44d477673d35fce196554b315d987aea8ee4c2b8d248a039",
+      "prompt_ar": "{\n  \"مواصفات_التصوير الفوتوغرافي\": {\n    \"skin_quality\": \"ملمس عضوي عالي الدقة، مسام مرئية، تناثر دقيق تحت السطح، لمسة نهائية ندية طبيعية، تجنب التجانس الرقمي.\",\n    \"الإضاءة\": {\n      \"key_light\": \"نمط رامبرانت، صندوق ناعم مع شبكة بزاوية 45 درجة\"،\n      \"rim_light\": \"إضاءة خلفية قرمزية عميقة ودقيقة على الشعر والكتف\"،\n      \"color_temperature\": \"مصباح رئيسي 5600 كلفن مع لمسات تنجستن 3200 كلفن\"،\n      \"fill_ratio\": \"مفتاح للتعبئة بنسبة 3:1، الاحتفاظ بالظل العميق\"\n    },\n    \"الملابس\": {\n      \"material\": \"ساتان ثقيل غير لامع مع زخرفة دانتيل دقيقة\"،\n      \"الملمس\": \"نسيج مرئي، طيات ناعمة، ثنيات معقدة عند الأكتاف\"\n    },\n    \"الإعدادات_البصرية\": {\n      \"الفتحة\": \"f/1.4\"،\n      \"deep_of_field\": \"سطحي، مع التركيز على العين والورد، مع خلفية بوكيه كريمية\"،\n      \"الطول البؤري\": \"العدسة الأساسية 85 ملم\"\n    },\n    \"التكوين\": {\n      \"framing\": \"لقطة قريبة متوسطة، قاعدة الثلث، نظرة الهدف موجهة خارج الإطار\"،\n      \"background\": \"خلفية استوديو مجردة مرقطة باللون الأزرق الداكن مع جو رقيق\"،\n      \"pose\": \"مظهر أنيق، أيدي متشابكة، قبضة دقيقة على جذع الورد\"\n    },\n    \"الجو\": {\n      \"مزاج\": \"حزن، رومانسية، دراما سينمائية\"،\n      \"tonality\": \"اللون الأزرق الهادئ في الخلفية يتناقض مع اللون الأحمر الداكن وألوان البشرة الدافئة\"\n    },\n    \"التفاصيل_التقنية\": {\n      \"الكاميرا\": \"هاسيلبلاد H6D-100c\"،\n      \"grain\": \"حبوب رقيقة وعضوية تحتوي على 120 فيلمًا\"،\n      \"dynamic_range\": \"المناطق من II إلى VIII، التظليل المحفوظ\"\n    },\n    \"تصحيح_الإجراء\": [\n      \"زيادة التباين الجزئي في طيات القماش\"،\n      \"قم بتحسين ضوء القزحية للحصول على كثافة براق أعلى\"،\n      \"تعزيز عمق الإضاءة الخلفية الحمراء لفصل أفضل للهدف\"،\n      \"أضف انحرافًا لونيًا بسيطًا للحصول على مظهر تناظري أصيل\"\n    ]،\n    \"المصورون الرئيسيون\": [\n      \"بيتر ليندبيرغ\"،\n      \"باولو روفرسي\"،\n      \"آني ليبوفيتز\"\n    ]،\n    \"master_prompt\": \"صورة شخصية لامرأة ترتدي فستانًا أبيض عتيقًا من الساتان على الطراز الفيكتوري وتحمل وردة حمراء عميقة فريدة. وضع جانبي، تعبير حزين واستبطاني. إضاءة رامبرانت الاحترافية، ضوء استوديو ناعم مع قبلة خفيفة على شعرها الداكن بحافة قرمزية عميقة ودقيقة. الخلفية عبارة عن لوحة مسرحية دراماتيكية مرقطة باللون الأزرق العميق خارج نطاق التركيز. تم تصويرها على Hasselblad H6D-100c، 85 مم عدسة f/1.4. جمالية تحريرية راقية، دقة 8k، تدرج ألوان سينمائي، نسيج غني، نسج نسيج مرئي، مسام جلدية عضوية، حبيبات سينمائية رائعة، جو متقلب المزاج، أسلوب نوير رومانسي.\"\n  }\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143020081 fashion ai-image-prompts { \"photographic_specification\": { \"skin_quality\": \"high-resolution organic texture, visible pores, subtle subsurface scattering, natural dewy finish, avoiding digital smoothing.\", \"lighting\": { \"key_light\": \"rembrandt style, softbox with grid at 45-degree angle\", \"rim_light\": \"subtle deep crimson backlight on hair and shoulder\", \"color_temperature\": \"5600k key light with 3200k tungsten accents\", \"fill_ratio\": \"3:1 key-to-fill, deep shadow retention\" }, \"clothing\": { \"material\": \"heavy matte satin with delicate lace trimming\", \"texture\": \"visible weave, soft folds, intricate pleating at the shoulders\" }, \"optical_settings\": { \"aperture\": \"f/1.4\", \"depth_of_field\": \"shallow, focusing on the eye and rose, with creamy background bokeh\", \"focal_length\": \"85mm prime lens\" }, \"composition\": { \"framing\": \"medium close-up, rule of thirds, subject gaze directed off-frame\", \"background\": \"abstract dark blue mottled studio backdrop with subtle atmosphere\", \"pose\": \"elegant profile, hands clasped, delicate grip on the rose stem\" }, \"atmosphere\": { \"mood\": \"melancholy, romanticism, cinematic drama\", \"tonality\": \"cool blues in background contrasted with deep reds and warm skin tones\" }, \"technical_details\": { \"camera\": \"hasselblad h6d-100c\", \"grain\": \"fine, organic 120 film grain\", \"dynamic_range\": \"zones ii-viii, preserved highlight rolloff\" }, \"actionable_corrections\": [ \"increase micro-contrast in the fabric folds\", \"refine the iris catchlight for higher specular intensity\", \"enhance the depth of the red backlight for better subject separation\", \"add slight chromatic aberration for an authentic analog look\" ], \"master_photographers\": [ \"peter lindbergh\", \"paolo roversi\", \"annie leibovitz\" ], \"master_prompt\": \"an exhibition-grade portrait of a woman in a vintage white victorian-style satin dress holding a singular deep red rose. profile pose, melancholic and introspective expression. expert rembrandt lighting, soft studio light with a subtle deep crimson rim light kiss on her dark hair. background is a dramatic, out-of-focus deep blue mottled theatrical canvas. shot on hasselblad h6d-100c, 85mm f/1.4 lens. high-fashion editorial aesthetic, 8k resolution, cinematic color grading, rich textures, visible fabric weave, organic skin pores, fine film grain, moody atmosphere, romantic noir style.\" } } civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143020081",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/326e67ff-73ab-45f6-8938-4af20f98db81/original=true/326e67ff-73ab-45f6-8938-4af20f98db81.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143012820",
+      "title": "Civitai prompt 143012820",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Marnie, solo, 1girl, pigtails, asymmetrical bangs, hair ribbons, \nWearing (flowing maxi dress woven from pink peony-scented mist:1.4), (empire waist with smoke gathered into soft folds:1.3), (billowing sleeves made of delicate vapor wisps:1.2), dreamy romantic aesthetic, smoke behaves like lightweight chiffon but remains clearly gaseous, soft diffused lighting creating halo effect around figure, feminine and graceful, garden party elegance, translucent layers overlapping\nmasterpiece, best quality, highly detailed, 8k, moody cinematic lighting, rich color palette",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143012820",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5b260a9-b01f-43bb-889a-d54ebfdefbc2/original=true/b5b260a9-b01f-43bb-889a-d54ebfdefbc2.jpeg",
+      "model_version_ids": [
+        3249380
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1027513017,
+      "negative_prompt": "wet clothes, sprite sheet, a phone, logo, fat, man, male, male body, subtitle, butt, ass, buttock, nude, nsfw, cleavage,\nbig-breasts, phone, a camera, bad-eyes, eye-glasses, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermark, ugly, imperfect eyes, skewed eyes, unnatural face, error, extra limb, missing limbs, painting by bad-artist. logo, horns, \nmalformed hands, long neck, cross-eyed, mutated, cartoonish, 3d, doll-like\ndistorted anatomy, extra limbs, blurry face, low quality, bad hands, disfigured, luttered background, photorealistic, western comic style",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464284+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1d897b5c28821c9221010ae12ada0a8163126a0e8c64b30799ecd4b940bf9182",
+      "prompt_ar": "مارني, منفردا, 1girl, أسلاك التوصيل المصنوعة, الانفجارات غير المتكافئة, أشرطة الشعر, \nيرتدي (فستان طويل متدفق منسوج من رذاذ برائحة الفاوانيا الوردية: 1.4)، (خصر إمبراطوري مع دخان متجمع في طيات ناعمة: 1.3)، (أكمام منتفخة مصنوعة من خصلات بخار رقيقة: 1.2)، جمالية رومانسية حالمة، يتصرف الدخان مثل الشيفون خفيف الوزن ولكنه يظل غازيًا بشكل واضح، إضاءة ناعمة منتشرة تخلق تأثير هالة حول الشكل، أنثوية ورشيقة، أناقة حفلة الحديقة، طبقات شفافة متداخلة\nتحفة، أفضل جودة، مفصلة للغاية، 8K، إضاءة سينمائية متقلبة، لوحة ألوان غنية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143012820 image ai-image-prompts marnie, solo, 1girl, pigtails, asymmetrical bangs, hair ribbons, wearing (flowing maxi dress woven from pink peony-scented mist:1.4), (empire waist with smoke gathered into soft folds:1.3), (billowing sleeves made of delicate vapor wisps:1.2), dreamy romantic aesthetic, smoke behaves like lightweight chiffon but remains clearly gaseous, soft diffused lighting creating halo effect around figure, feminine and graceful, garden party elegance, translucent layers overlapping masterpiece, best quality, highly detailed, 8k, moody cinematic lighting, rich color palette civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143012820",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5b260a9-b01f-43bb-889a-d54ebfdefbc2/original=true/b5b260a9-b01f-43bb-889a-d54ebfdefbc2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143019918",
+      "title": "Civitai prompt 143019918",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "\"male character bust portrait, short curly black hair, glowing purple eyes, pale skin, subtle scar on cheek, ancient greek white loose robe,  smooth doll-like skin, front bust shot, head centered, rim golden outline light, dramatic block shading, dark space background, mysterious atmosphere, clean art style, sharp line art --ar 2:3\"",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143019918",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8894cebf-77da-473e-acb1-6069f7611979/original=true/8894cebf-77da-473e-acb1-6069f7611979.jpeg",
+      "model_version_ids": [
+        2983022
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 1193328744,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464292+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6c762873e89a4efdbb6e8a7755859f2f5251bb321238149718ee020add1d69d2",
+      "prompt_ar": "\"صورة تمثال نصفي لشخصية ذكر، شعر أسود مجعد قصير، عيون أرجوانية متوهجة، بشرة شاحبة، ندبة خفية على الخد، رداء أبيض يوناني قديم فضفاض، جلد ناعم يشبه الدمية، لقطة للتمثال النصفي الأمامي، الرأس في المنتصف، ضوء مخطط ذهبي للحافة، تظليل دراماتيكي، خلفية فضاء داكنة، جو غامض، أسلوب فني نظيف، فن خط حاد --ar 2:3\"",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143019918 image ai-image-prompts \"male character bust portrait, short curly black hair, glowing purple eyes, pale skin, subtle scar on cheek, ancient greek white loose robe, smooth doll-like skin, front bust shot, head centered, rim golden outline light, dramatic block shading, dark space background, mysterious atmosphere, clean art style, sharp line art --ar 2:3\" civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143019918",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8894cebf-77da-473e-acb1-6069f7611979/original=true/8894cebf-77da-473e-acb1-6069f7611979.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143019850",
+      "title": "Civitai prompt 143019850",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, year 2025, newest, highres, absurdres, very aesthetic,masterpiece,ultra-HD,photorealistic,high detail,depth of field,best quality,very aesthetic,8k,best quality,realistic,rating_explicit,couch,(sexy),(perfect body),realistic skin,highres,detailed skin,hypersexualized,mature themes,nsfw,erotic,suggestive,intimate,provocative,dynamic lighting,dynamic pose,dynamic angle,absurdres,realistic,detailed,very high details,slender body, hourglass body shape, big thighs, long eyelashes, realistic skin detail, BREAK\nmasterpiece, best quality, amazing quality, absurdres, anime screenshot, 1girl, solo, <lora:Mashiro:1> mashiro, green hair, short hair, brown eyes, grey eyes, goggles, goggles on head, scarf, japanese clothes, gloves, bodysuit, messy hair,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143019850",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640/original=true/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640.jpeg",
+      "model": "Anima\\novaExanimeAM_v10",
+      "model_version_ids": [],
+      "width": 896,
+      "height": 1152,
+      "seed": 699053879219956,
+      "negative_prompt": "low quality, worst quality, score_1, score_2, score_3, bad anatomy, bad feet, bad hands, bad fingers, extra fingers, missing fingers, fused fingers, broken limbs, flat lighting, blurry, noisy, jpeg artifacts, plastic skin, waxy skin, overexposed, underexposed, asymmetrical eyes, see-through clothes,muted colors, blended colors, mixed colors, overly shiny skin, oversaturated,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T08:45:41.464299+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "09cfba3c4792e8e5dac3b1616f0e9daa52eeea83d0108b605e7f5d138e536e0f",
+      "prompt_ar": "تحفة، أفضل جودة، Score_9، Score_8، Score_7، عام 2025، الأحدث، أعلى، سخافات، جمالية للغاية، تحفة، فائقة الدقة، واقعية، تفاصيل عالية، عمق المجال، أفضل جودة، جمالية للغاية، 8K، أفضل جودة، واقعي، تصنيف_صريح، أريكة، (مثير)، (جسم مثالي)، بشرة واقعية، عالية، بشرة مفصلة، مفرطة الجنس، ناضجة موضوعات،NSFW،إثارة،إيحائية،حميمة،استفزازية،إضاءة ديناميكية،وضعية ديناميكية،زاوية ديناميكية،سخافات،واقعية،مفصلة،تفاصيل عالية جدًا،جسم نحيف،شكل جسم الساعة الرملية،فخذين كبيرين،رموش طويلة،تفاصيل واقعية للبشرة، استراحة\nتحفة، أفضل جودة، جودة مذهلة، سخافات، لقطة شاشة أنيمي، فتاة واحدة، منفردة، <lora:Mashiro:1> ماشيرو، شعر أخضر، شعر قصير، عيون بنية، عيون رمادية، نظارات واقية، نظارات واقية على الرأس، وشاح، ملابس يابانية، قفازات، ملابس داخلية، شعر فوضوي،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T08:45:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143019850 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, year 2025, newest, highres, absurdres, very aesthetic,masterpiece,ultra-hd,photorealistic,high detail,depth of field,best quality,very aesthetic,8k,best quality,realistic,rating_explicit,couch,(sexy),(perfect body),realistic skin,highres,detailed skin,hypersexualized,mature themes,nsfw,erotic,suggestive,intimate,provocative,dynamic lighting,dynamic pose,dynamic angle,absurdres,realistic,detailed,very high details,slender body, hourglass body shape, big thighs, long eyelashes, realistic skin detail, break masterpiece, best quality, amazing quality, absurdres, anime screenshot, 1girl, solo, <lora:mashiro:1> mashiro, green hair, short hair, brown eyes, grey eyes, goggles, goggles on head, scarf, japanese clothes, gloves, bodysuit, messy hair, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143019850",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640/original=true/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-16T18:57:59.753081+00:00",
-  "prompt_count": 468,
+  "generated_at": "2026-09-17T08:45:44.902541+00:00",
+  "prompt_count": 486,
   "translation": {
     "language": "ar",
-    "translated_count": 14,
-    "skipped_count": 452,
+    "translated_count": 18,
+    "skipped_count": 466,
     "failed_count": 2,
-    "updated_at": "2026-09-16T18:57:59Z"
+    "updated_at": "2026-09-17T08:45:44Z"
   }
 }

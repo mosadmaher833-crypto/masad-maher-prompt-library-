@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-16T18:57:43.836750+00:00",
+  "generated_at": "2026-09-17T08:45:22.118879+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1084,15 +1084,32 @@
       "status": "pending_review",
       "attribution_required": true,
       "import_method": "declared_github_source_connector"
+    },
+    {
+      "id": "gh-6781d024d3a5",
+      "title": "core-concepts.mdx",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### Tools\n\nTools are like POST endpoints - they provide functionality that LLMs can invoke to take actions or perform computations.\n\n**Key characteristics:**\n- **Action-oriented**: Tools do things rather than just return data\n- **Parameterized**: Accept structured input arguments\n- **Typed schemas**: Define expected parameter types and constraints\n- **Return results**: Provide structured output back to the LLM\n\n**Example use cases:**\n- Calculations (`calculate`, `convert_units`)\n- File operations (`create_file`, `search_files`)\n- API calls (`send_email`, `create_ticket`)\n- System commands (`run_command`, `check_status`)",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "mark3labs/mcp-go",
+      "source_url": "https://github.com/mark3labs/mcp-go/blob/c413b9e94ca0ee5efc7a1bcd404dc8501309da8d/www/docs/pages/core-concepts.mdx",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"education prompt\"",
-    "AI image prompts",
-    "AI video prompts"
+    "\"data analysis prompt\"",
+    "LLM prompts",
+    "generative AI prompts"
   ],
   "last_sources": []
 }
