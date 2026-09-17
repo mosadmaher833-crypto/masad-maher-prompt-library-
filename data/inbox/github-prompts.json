@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-17T08:45:22.118879+00:00",
+  "generated_at": "2026-09-17T19:02:34.251702+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1100,6 +1100,40 @@
       "source_repository": "mark3labs/mcp-go",
       "source_url": "https://github.com/mark3labs/mcp-go/blob/c413b9e94ca0ee5efc7a1bcd404dc8501309da8d/www/docs/pages/core-concepts.mdx",
       "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-f95392b42076",
+      "title": "linshenkx/prompt-optimizer README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Make sure to replace `localhost:8081` with the actual address and port where you've deployed Prompt Optimizer.\n\n#### Available Tools\n\n- **optimize-user-prompt**: Optimize user prompts to improve LLM performance\n- **optimize-system-prompt**: Optimize system prompts to improve LLM performance\n- **iterate-prompt**: Iteratively improve mature prompts based on specific requirements\n\nFor more detailed information, please refer to the [MCP Server User Guide](docs/user/mcp-server_en.md).\n</details>\n\n## ⚙️ API Key Configuration\n\n<details>\n<summary>Click to view API key configuration methods</summary>\n\n### Method 1: Via Interface (Recommended)\n1. Click the \"⚙️Settings\" button in the upper right corner\n2. Select the \"Model Management\" tab\n3. Click on the model you need to configure (such as OpenAI, Gemini, DeepSeek, Grok, etc.)\n4. Enter the corresponding API key in the configuration box\n5. Click \"Save\"\n\nSupported models: OpenAI, Gemini, DeepSeek, Grok, Zhipu AI, SiliconFlow, Custom API (OpenAI compatible interface)\n\nIn addition to API keys, you can configure advanced LLM parameters for each model individually. These parameters are configured through a field called `llmParams`, which allows you to specify any parameters supported by the LLM SDK in key-value pairs for fine-grained control over model behavior.\n\n**Advanced LLM Parameter Configuration Examples:**\n- **OpenAI/Compatible APIs**: `{\"temperature\": 0.7, \"max_tokens\": 4096, \"timeout\": 60000}`\n- **Gemini**: `{\"temperature\": 0.8, \"maxOutputTokens\": 2048, \"topP\": 0.95}`\n- **DeepSeek**: `{\"temperature\": 0.5, \"top_p\": 0.9, \"frequency_penalty\": 0.1}`\n\nFor more detailed information about `llmParams` configuration, please refer to the [LLM Parameters Configuration Guide](docs/developer/llm-params-guide.md).\n\n### Method 2: Via Environment Variables\nConfigure environment variables through the `-e` parameter when deploying with Docker:",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "linshenkx/prompt-optimizer",
+      "source_url": "https://github.com/linshenkx/prompt-optimizer/blob/develop/README.md",
+      "license": "NOASSERTION",
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-0e2583d67cff",
+      "title": "aws-samples/amazon-bedrock-serverless-prompt-chaining README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "The Bedrock Flows condition example [here](techniques_bedrock_flows/stacks/conditional_chain.py)\ncontains an example of invoking a Lambda function as part of a flow.\n\n</details>\n\n### Handle failures in chains\n\nWhen a particular format is required for the model response (such as JSON array),\nthe model may occasionally fail to comply with all instructions about the desired format.\nTo improve the likelihood of success, the model can be re-prompted to fix its own\nresponse to comply with the desired format.\n\nIn this example, if parsing the model response against a JSON schema fails,\nthen the model is prompted to fix the response to comply with the schema.\nIf the model cannot fix the JSON within three attempts, the workflow fails.\n\n<table>\n<tr>\n<td> Sample chain </td> <td> Sample output </td>\n</tr>\n<tr>\n<td width=\"390px\"><img src=\"docs/screenshots/validation.png\" alt=\"Screenshot\" /></td>\n<td>",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "aws-samples/amazon-bedrock-serverless-prompt-chaining",
+      "source_url": "https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/blob/main/README.md",
+      "license": "MIT-0",
       "status": "pending_review"
     }
   ],

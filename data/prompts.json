@@ -20902,15 +20902,898 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640/original=true/19c54906-f2c3-4a2b-8c8b-9ca2d8d58640.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-f95392b42076",
+      "title": "linshenkx/prompt-optimizer README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Gemini"
+      ],
+      "prompt": "Make sure to replace `localhost:8081` with the actual address and port where you've deployed Prompt Optimizer.\n\n#### Available Tools\n\n- **optimize-user-prompt**: Optimize user prompts to improve LLM performance\n- **optimize-system-prompt**: Optimize system prompts to improve LLM performance\n- **iterate-prompt**: Iteratively improve mature prompts based on specific requirements\n\nFor more detailed information, please refer to the [MCP Server User Guide](docs/user/mcp-server_en.md).\n</details>\n\n## ⚙️ API Key Configuration\n\n<details>\n<summary>Click to view API key configuration methods</summary>\n\n### Method 1: Via Interface (Recommended)\n1. Click the \"⚙️Settings\" button in the upper right corner\n2. Select the \"Model Management\" tab\n3. Click on the model you need to configure (such as OpenAI, Gemini, DeepSeek, Grok, etc.)\n4. Enter the corresponding API key in the configuration box\n5. Click \"Save\"\n\nSupported models: OpenAI, Gemini, DeepSeek, Grok, Zhipu AI, SiliconFlow, Custom API (OpenAI compatible interface)\n\nIn addition to API keys, you can configure advanced LLM parameters for each model individually. These parameters are configured through a field called `llmParams`, which allows you to specify any parameters supported by the LLM SDK in key-value pairs for fine-grained control over model behavior.\n\n**Advanced LLM Parameter Configuration Examples:**\n- **OpenAI/Compatible APIs**: `{\"temperature\": 0.7, \"max_tokens\": 4096, \"timeout\": 60000}`\n- **Gemini**: `{\"temperature\": 0.8, \"maxOutputTokens\": 2048, \"topP\": 0.95}`\n- **DeepSeek**: `{\"temperature\": 0.5, \"top_p\": 0.9, \"frequency_penalty\": 0.1}`\n\nFor more detailed information about `llmParams` configuration, please refer to the [LLM Parameters Configuration Guide](docs/developer/llm-params-guide.md).\n\n### Method 2: Via Environment Variables\nConfigure environment variables through the `-e` parameter when deploying with Docker:",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "linshenkx/prompt-optimizer",
+      "source_url": "https://github.com/linshenkx/prompt-optimizer/blob/develop/README.md",
+      "license": "NOASSERTION",
+      "imported_at": "2026-09-17T19:02:50.919082+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f95392b420765e9792bd28255c532569eecb86015cc70053d287681d17edf8c1",
+      "prompt_ar": "تأكد من استبدال \"localhost:8081\" بالعنوان الفعلي والمنفذ الذي قمت بنشر Prompt Optimizer فيه.\n\n#### الأدوات المتاحة\n\n- **optimize-user-prompt**: قم بتحسين مطالبات المستخدم لتحسين أداء LLM\n- **optimize-system-prompt**: تحسين مطالبات النظام لتحسين أداء LLM\n- **iterate-prompt**: تحسين المطالبات الناضجة بشكل متكرر بناءً على متطلبات محددة\n\nلمزيد من المعلومات التفصيلية، يرجى الرجوع إلى [دليل مستخدم خادم MCP](docs/user/mcp-server_en.md).\n</التفاصيل>\n\n## ⚙️ تكوين مفتاح API\n\n<التفاصيل>\n<summary>انقر لعرض طرق تكوين مفتاح واجهة برمجة التطبيقات</summary>\n\n### الطريقة الأولى: عبر الواجهة (مستحسن)\n1. انقر على زر \"⚙️الإعدادات\" في الزاوية اليمنى العليا\n2. حدد علامة التبويب \"إدارة النماذج\".\n3. انقر على النموذج الذي تريد تكوينه (مثل OpenAI، وGemini، وDeepSeek، وGrok، وما إلى ذلك)\n4. أدخل مفتاح واجهة برمجة التطبيقات (API) المقابل في مربع التكوين\n5. انقر على \"حفظ\"\n\nالنماذج المدعومة: OpenAI، وGemini، وDeepSeek، وGrok، وZhipu AI، وSiliconFlow، وCustom API (واجهة متوافقة مع OpenAI)\n\nبالإضافة إلى مفاتيح API، يمكنك تكوين معلمات LLM المتقدمة لكل نموذج على حدة. يتم تكوين هذه المعلمات من خلال حقل يسمى \"llmParams\"، والذي يسمح لك بتحديد أي معلمات مدعومة بواسطة LLM SDK في أزواج القيمة الرئيسية للتحكم الدقيق في سلوك النموذج.\n\n**أمثلة على تكوين معلمات LLM المتقدمة:**\n- **OpenAI/واجهات برمجة التطبيقات المتوافقة**: `{\"درجة الحرارة\": 0.7، \"max_tokens\": 4096، \"timeout\": 60000}`\n- **الجوزاء**: `{\"درجة الحرارة\": 0.8، \"maxOutputTokens\": 2048، \"topP\": 0.95}`\n- **DeepSeek**: `{\"درجة الحرارة\": 0.5، \"top_p\": 0.9، \"frequency_penalty\": 0.1}`\n\nلمزيد من المعلومات التفصيلية حول تكوين `llmParams`، يرجى الرجوع إلى [دليل تكوين معلمات LLM](docs/developer/llm-params-guide.md).\n\n### الطريقة الثانية: عبر متغيرات البيئة\nقم بتكوين متغيرات البيئة من خلال المعلمة `-e` عند النشر باستخدام Docker:",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Gemini"
+      ],
+      "search_text": "linshenkx/prompt-optimizer readme prompt prompt-engineering make sure to replace `localhost:8081` with the actual address and port where you've deployed prompt optimizer. #### available tools - **optimize-user-prompt**: optimize user prompts to improve llm performance - **optimize-system-prompt**: optimize system prompts to improve llm performance - **iterate-prompt**: iteratively improve mature prompts based on specific requirements for more detailed information, please refer to the [mcp server user guide](docs/user/mcp-server_en.md). </details> ## ⚙️ api key configuration <details> <summary>click to view api key configuration methods</summary> ### method 1: via interface (recommended) 1. click the \"⚙️settings\" button in the upper right corner 2. select the \"model management\" tab 3. click on the model you need to configure (such as openai, gemini, deepseek, grok, etc.) 4. enter the corresponding api key in the configuration box 5. click \"save\" supported models: openai, gemini, deepseek, grok, zhipu ai, siliconflow, custom api (openai compatible interface) in addition to api keys, you can configure advanced llm parameters for each model individually. these parameters are configured through a field called `llmparams`, which allows you to specify any parameters supported by the llm sdk in key-value pairs for fine-grained control over model behavior. **advanced llm parameter configuration examples:** - **openai/compatible apis**: `{\"temperature\": 0.7, \"max_tokens\": 4096, \"timeout\": 60000}` - **gemini**: `{\"temperature\": 0.8, \"maxoutputtokens\": 2048, \"topp\": 0.95}` - **deepseek**: `{\"temperature\": 0.5, \"top_p\": 0.9, \"frequency_penalty\": 0.1}` for more detailed information about `llmparams` configuration, please refer to the [llm parameters configuration guide](docs/developer/llm-params-guide.md). ### method 2: via environment variables configure environment variables through the `-e` parameter when deploying with docker: github review gemini gemini",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/linshenkx/prompt-optimizer/blob/develop/README.md",
+          "source_repository": "linshenkx/prompt-optimizer",
+          "license": "NOASSERTION"
+        }
+      ]
+    },
+    {
+      "id": "gh-0e2583d67cff",
+      "title": "aws-samples/amazon-bedrock-serverless-prompt-chaining README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "The Bedrock Flows condition example [here](techniques_bedrock_flows/stacks/conditional_chain.py)\ncontains an example of invoking a Lambda function as part of a flow.\n\n</details>\n\n### Handle failures in chains\n\nWhen a particular format is required for the model response (such as JSON array),\nthe model may occasionally fail to comply with all instructions about the desired format.\nTo improve the likelihood of success, the model can be re-prompted to fix its own\nresponse to comply with the desired format.\n\nIn this example, if parsing the model response against a JSON schema fails,\nthen the model is prompted to fix the response to comply with the schema.\nIf the model cannot fix the JSON within three attempts, the workflow fails.\n\n<table>\n<tr>\n<td> Sample chain </td> <td> Sample output </td>\n</tr>\n<tr>\n<td width=\"390px\"><img src=\"docs/screenshots/validation.png\" alt=\"Screenshot\" /></td>\n<td>",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "aws-samples/amazon-bedrock-serverless-prompt-chaining",
+      "source_url": "https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/blob/main/README.md",
+      "license": "MIT-0",
+      "imported_at": "2026-09-17T19:02:50.919116+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0e2583d67cff4027cb9dc97ecb7c1c6c294957277b3426d148a0f07b84975c9a",
+      "prompt_ar": "مثال لشرط تدفقات الأساس [هنا](techniques_bedrock_flows/stacks/conditional_chain.py)\nيحتوي على مثال لاستدعاء دالة Lambda كجزء من التدفق.\n\n</التفاصيل>\n\n### التعامل مع الفشل في السلاسل\n\nعندما يكون تنسيق معين مطلوبًا لاستجابة النموذج (مثل مصفوفة JSON)،\nقد يفشل النموذج أحيانًا في الالتزام بجميع التعليمات المتعلقة بالتنسيق المطلوب.\nلتحسين احتمالية النجاح، يمكن إعادة مطالبة النموذج بإصلاح نموذجه الخاص\nالاستجابة للامتثال للشكل المطلوب.\n\nفي هذا المثال، إذا فشل تحليل استجابة النموذج مقابل مخطط JSON،\nثم يُطلب من النموذج إصلاح الاستجابة للامتثال للمخطط.\nإذا لم يتمكن النموذج من إصلاح JSON خلال ثلاث محاولات، فسيفشل سير العمل.\n\n<الجدول>\n<تر>\n<td> سلسلة العينة </td> <td> إخراج العينة </td>\n</tr>\n<تر>\n<td width=\"390px\"><img src=\"docs/screenshots/validation.png\" alt=\"لقطة شاشة\" /></td>\n<TD>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:51Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "aws-samples/amazon-bedrock-serverless-prompt-chaining readme prompt prompt-engineering the bedrock flows condition example [here](techniques_bedrock_flows/stacks/conditional_chain.py) contains an example of invoking a lambda function as part of a flow. </details> ### handle failures in chains when a particular format is required for the model response (such as json array), the model may occasionally fail to comply with all instructions about the desired format. to improve the likelihood of success, the model can be re-prompted to fix its own response to comply with the desired format. in this example, if parsing the model response against a json schema fails, then the model is prompted to fix the response to comply with the schema. if the model cannot fix the json within three attempts, the workflow fails. <table> <tr> <td> sample chain </td> <td> sample output </td> </tr> <tr> <td width=\"390px\"><img src=\"docs/screenshots/validation.png\" alt=\"screenshot\" /></td> <td> github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining/blob/main/README.md",
+          "source_repository": "aws-samples/amazon-bedrock-serverless-prompt-chaining",
+          "license": "MIT-0"
+        }
+      ]
+    },
+    {
+      "id": "civitai-138276060",
+      "title": "Civitai prompt 138276060",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A graceful cat whose entire body is formed from a continuous language of intricate geometric ornament. Flowing networks of interlocking polygons, woven lattices, elegant tessellations, carved relief, and delicate arabesque curves follow the natural anatomy, wrapping seamlessly around the head, shoulders, spine, and tail. Every pattern transitions smoothly into the next, creating the impression of a single living structure that has grown organically while remaining mathematically harmonious. The silhouette is unmistakably feline, with poised ears, an elongated neck, fluid musculature, and a long sweeping tail, all expressed through ornament rather than fur.\n\nThe surfaces combine glazed ceramic, polished stone, carved wood, luminous glass, brushed bronze, and subtle gold inlay, blending naturally without abrupt boundaries. Rich cobalt blue, turquoise, emerald green, warm ivory, sandstone, and muted gold create a refined palette that feels timeless and elegant. Gentle variations in material and texture add depth while preserving the unity of the design.\n\nSoft botanical motifs, climbing vines, delicate leaves, flowering tendrils, and crystalline forms are woven naturally into the geometry, as though the ornament itself were quietly alive. They enhance the flowing structure without interrupting it, creating a balance between mathematical precision and natural growth. Light glides across polished surfaces and carved details, revealing extraordinary craftsmanship and subtle depth.\n\nThe composition is asymmetrical but balanced, allowing ornamental complexity to gather naturally around the shoulders, chest, and curling tail while leaving quieter passages that let the eye rest. The cat appears serene, elegant, and almost sacred, like a living work of architecture or a mythical guardian shaped from centuries of master craftsmanship. Every detail contributes to a unified visual language that feels fluid, harmonious, and endlessly intricate, rendered with exceptional realism and exquisite material detail.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/138276060",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f82b8f37-513a-48a4-b916-341144421c09/original=true/f82b8f37-513a-48a4-b916-341144421c09.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 888,
+      "height": 1184,
+      "seed": 1028716650186628,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919386+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2f51eaf7594fa58a1811eb58fedfbfb8a213e7bc63180e711b748d49b248f639",
+      "prompt_ar": "قطة رشيقة يتكون جسمها بالكامل من لغة متواصلة من الزخارف الهندسية المعقدة. تتبع الشبكات المتدفقة من المضلعات المتشابكة، والشبكات المنسوجة، والفسيفساء الأنيقة، والنقش المنحوت، ومنحنيات الأرابيسك الدقيقة التشريح الطبيعي، وتلتف بسلاسة حول الرأس والكتفين والعمود الفقري والذيل. وينتقل كل نمط بسلاسة إلى النمط التالي، مما يخلق انطباعًا بوجود بنية حية واحدة نما عضويًا مع الحفاظ على انسجامه رياضيًا. الصورة الظلية هي قطط بشكل لا لبس فيه، مع آذان متوازنة، ورقبة ممدودة، وعضلات انسيابية، وذيل طويل كاسح، وكل ذلك يتم التعبير عنه من خلال الزخرفة بدلاً من الفراء.\n\nتجمع الأسطح بين السيراميك المزجج، والحجر المصقول، والخشب المنحوت، والزجاج المضيء، والبرونز المصقول، والترصيع الذهبي الدقيق، تمتزج بشكل طبيعي دون حدود مفاجئة. الأزرق الكوبالت الغني، والفيروز، والأخضر الزمردي، والعاجي الدافئ، والحجر الرملي، والذهب الصامت يخلق لوحة راقية تشعرك بالأناقة والخالدة. تضيف الاختلافات اللطيفة في المواد والملمس عمقًا مع الحفاظ على وحدة التصميم.\n\nتم نسج الزخارف النباتية الناعمة، والكروم المتسلقة، والأوراق الرقيقة، والمحلاق المزهرة، والأشكال البلورية بشكل طبيعي في الهندسة، كما لو كانت الزخرفة نفسها حية بهدوء. إنها تعزز البنية المتدفقة دون مقاطعتها، مما يخلق توازنًا بين الدقة الرياضية والنمو الطبيعي. ينساب الضوء على الأسطح المصقولة والتفاصيل المنحوتة، ليكشف عن براعة غير عادية وعمق دقيق.\n\nالتركيبة غير متماثلة ولكنها متوازنة، مما يسمح للتعقيد الزخرفي بالتجمع بشكل طبيعي حول الكتفين والصدر والذيل الملتف مع ترك ممرات أكثر هدوءًا تسمح للعين بالراحة. تبدو القطة هادئة وأنيقة ومقدسة تقريبًا، مثل عمل معماري حي أو حارس أسطوري تم تشكيله من قرون من الحرف اليدوية المتقنة. تساهم كل التفاصيل في تكوين لغة بصرية موحدة تبدو سلسة ومتناغمة ومعقدة إلى ما لا نهاية، ويتم تقديمها بواقعية استثنائية وتفاصيل مادية رائعة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:51Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 138276060 architecture ai-image-prompts a graceful cat whose entire body is formed from a continuous language of intricate geometric ornament. flowing networks of interlocking polygons, woven lattices, elegant tessellations, carved relief, and delicate arabesque curves follow the natural anatomy, wrapping seamlessly around the head, shoulders, spine, and tail. every pattern transitions smoothly into the next, creating the impression of a single living structure that has grown organically while remaining mathematically harmonious. the silhouette is unmistakably feline, with poised ears, an elongated neck, fluid musculature, and a long sweeping tail, all expressed through ornament rather than fur. the surfaces combine glazed ceramic, polished stone, carved wood, luminous glass, brushed bronze, and subtle gold inlay, blending naturally without abrupt boundaries. rich cobalt blue, turquoise, emerald green, warm ivory, sandstone, and muted gold create a refined palette that feels timeless and elegant. gentle variations in material and texture add depth while preserving the unity of the design. soft botanical motifs, climbing vines, delicate leaves, flowering tendrils, and crystalline forms are woven naturally into the geometry, as though the ornament itself were quietly alive. they enhance the flowing structure without interrupting it, creating a balance between mathematical precision and natural growth. light glides across polished surfaces and carved details, revealing extraordinary craftsmanship and subtle depth. the composition is asymmetrical but balanced, allowing ornamental complexity to gather naturally around the shoulders, chest, and curling tail while leaving quieter passages that let the eye rest. the cat appears serene, elegant, and almost sacred, like a living work of architecture or a mythical guardian shaped from centuries of master craftsmanship. every detail contributes to a unified visual language that feels fluid, harmonious, and endlessly intricate, rendered with exceptional realism and exquisite material detail. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/138276060",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f82b8f37-513a-48a4-b916-341144421c09/original=true/f82b8f37-513a-48a4-b916-341144421c09.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143051434",
+      "title": "Civitai prompt 143051434",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A stylized illustration blending crisp character rendering with a cool, atmospheric color palette dominated by slate blues, misty greys, and deep forest greens. Vertical composition looking slightly upward from the water's edge, framing the scene through jagged rocks in the foreground leading to a towering waterfall. A woman with long black hair tied back sits perched on a large dark grey stone near the pool's edge, wearing a fitted green dress with white fur trim along the shoulders secured by a gold clasp and a brown leather belt cinched at the waist, paired with brown boots. Her fair skin shows subtle freckles, and her green eyes look forward with a calm expression. She leans slightly back on one hand resting against the rock, her legs bent with feet near the flowing water. Behind her, the waterfall cascades down a sheer cliff face, generating a thick mist that softens the background trees framing the upper corners. The lighting is diffused and cool, highlighting the texture of the fur trim and the movement of the falling water.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143051434",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe951ad0-bb5a-4fbe-932a-abcd6145fd8f/original=true/fe951ad0-bb5a-4fbe-932a-abcd6145fd8f.jpeg",
+      "model": "krea2WRC8_fp8",
+      "model_version_ids": [
+        3316184
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 2530831553,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919408+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e860bf163d63476f24d4185eff881574354233bcbfbc79532133f23e7d5b4e4c",
+      "prompt_ar": "رسم توضيحي منمق يمزج بين عرض الشخصية الواضحة ولوحة ألوان رائعة وجذابة يهيمن عليها اللون الأزرق الداكن والرمادي الضبابي وخضراء الغابات العميقة. تركيبة عمودية تنظر إلى الأعلى قليلاً من حافة الماء، وتؤطر المشهد من خلال الصخور المسننة في المقدمة المؤدية إلى شلال شاهق. تجلس امرأة ذات شعر أسود طويل مربوط إلى الخلف على حجر كبير رمادي داكن بالقرب من حافة المسبح، وترتدي فستانًا أخضر ضيقًا مع زخرفة من الفرو الأبيض على طول الكتفين ومثبتة بمشبك ذهبي وحزام جلدي بني مثبت عند الخصر، مع حذاء بني. تُظهر بشرتها الفاتحة نمشًا خفيفًا، وتتطلع عيناها الخضراء إلى الأمام بتعبير هادئ. تتكئ قليلاً إلى الخلف على إحدى يديها وتستريح على الصخرة، وتثني ساقيها وقدميها بالقرب من المياه المتدفقة. خلفها، يتدفق الشلال أسفل منحدر شديد الانحدار، مما يولد ضبابًا كثيفًا يخفف من أشجار الخلفية التي تؤطر الزوايا العليا. الإضاءة منتشرة وباردة، وتسلط الضوء على نسيج تقليم الفرو وحركة المياه المتساقطة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:51Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143051434 photography ai-image-prompts a stylized illustration blending crisp character rendering with a cool, atmospheric color palette dominated by slate blues, misty greys, and deep forest greens. vertical composition looking slightly upward from the water's edge, framing the scene through jagged rocks in the foreground leading to a towering waterfall. a woman with long black hair tied back sits perched on a large dark grey stone near the pool's edge, wearing a fitted green dress with white fur trim along the shoulders secured by a gold clasp and a brown leather belt cinched at the waist, paired with brown boots. her fair skin shows subtle freckles, and her green eyes look forward with a calm expression. she leans slightly back on one hand resting against the rock, her legs bent with feet near the flowing water. behind her, the waterfall cascades down a sheer cliff face, generating a thick mist that softens the background trees framing the upper corners. the lighting is diffused and cool, highlighting the texture of the fur trim and the movement of the falling water. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143051434",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe951ad0-bb5a-4fbe-932a-abcd6145fd8f/original=true/fe951ad0-bb5a-4fbe-932a-abcd6145fd8f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143051436",
+      "title": "Civitai prompt 143051436",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A visual style merging smooth, gradient-rich character illustration with the geometric, blocky aesthetic of high-resolution pixel art. The perspective is a low-angle shot looking slightly upward, framing the central figure against towering architectural elements to emphasize scale. An elf woman stands centrally, her long crimson hair cascading down her back, wearing pointed ears that peek through the strands. She is dressed in a white tunic with teal accents and gold jewelry, including a circlet and necklaces, with a dark cloak draped over her shoulders. Her pose is dynamic yet balanced; she holds her arms slightly raised with palms open, conjuring two distinct fireballs that float near her hands, their light illuminating her face and attire. The background depicts the interior of a large, ancient stone gate or temple, constructed from dark blocks that create a sense of depth and texture similar to retro computer graphics. Tall pillars rise on either side, holding glowing lanterns that emit a warm orange hue, contrasting with the cool teal shadows filling the recesses of the structure. The ground is paved with uneven stones, leading up to a dark entrance in the center background.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143051436",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d940c186-5130-4788-a665-e40073a90ffb/original=true/d940c186-5130-4788-a665-e40073a90ffb.jpeg",
+      "model": "krea2WRC8_fp8",
+      "model_version_ids": [
+        3316184
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 773381820,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919428+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6826a5d0284425bdd1e1b5d279457bcd4574b7077c526a560cd3fd4bbbe01160",
+      "prompt_ar": "نمط مرئي يدمج الرسوم التوضيحية السلسة والغنية بالتدرج مع الجمالية الهندسية الممتلئة لفن البكسل عالي الدقة. المنظور عبارة عن لقطة ذات زاوية منخفضة تنظر إلى الأعلى قليلاً، وتؤطر الشكل المركزي مقابل العناصر المعمارية الشاهقة للتأكيد على الحجم. تقف امرأة قزم في المنتصف، وشعرها القرمزي الطويل يتدلى على ظهرها، وترتدي أذنين مدببتين تنظران من خلال الخصلات. وهي ترتدي سترة بيضاء مع لمسات من اللون الأزرق المخضر ومجوهرات ذهبية، بما في ذلك الخاتم والقلائد، مع عباءة داكنة ملفوفة على كتفيها. وقفتها ديناميكية ولكنها متوازنة. تحمل ذراعيها مرفوعتين قليلاً مع فتح راحتيها، مستحضرة كرتين ناريتين متميزتين تطفوان بالقرب من يديها، ويضيء ضوءهما وجهها وملابسها. تصور الخلفية الجزء الداخلي لبوابة أو معبد حجري قديم كبير، مبني من كتل داكنة تخلق إحساسًا بالعمق والملمس مشابهًا لرسومات الكمبيوتر القديمة. ترتفع أعمدة طويلة على كلا الجانبين، وتحمل فوانيس متوهجة ينبعث منها لون برتقالي دافئ، يتناقض مع الظلال الزرقاء المخضرة الباردة التي تملأ تجاويف الهيكل. الأرض مرصوفة بالحجارة غير المستوية، مما يؤدي إلى مدخل مظلم في الخلفية الوسطى.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:51Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143051436 architecture ai-image-prompts a visual style merging smooth, gradient-rich character illustration with the geometric, blocky aesthetic of high-resolution pixel art. the perspective is a low-angle shot looking slightly upward, framing the central figure against towering architectural elements to emphasize scale. an elf woman stands centrally, her long crimson hair cascading down her back, wearing pointed ears that peek through the strands. she is dressed in a white tunic with teal accents and gold jewelry, including a circlet and necklaces, with a dark cloak draped over her shoulders. her pose is dynamic yet balanced; she holds her arms slightly raised with palms open, conjuring two distinct fireballs that float near her hands, their light illuminating her face and attire. the background depicts the interior of a large, ancient stone gate or temple, constructed from dark blocks that create a sense of depth and texture similar to retro computer graphics. tall pillars rise on either side, holding glowing lanterns that emit a warm orange hue, contrasting with the cool teal shadows filling the recesses of the structure. the ground is paved with uneven stones, leading up to a dark entrance in the center background. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143051436",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d940c186-5130-4788-a665-e40073a90ffb/original=true/d940c186-5130-4788-a665-e40073a90ffb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058272",
+      "title": "Civitai prompt 143058272",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, breathtaking ultra-detailed sci-fi anime illustration of four adult women standing inside a futuristic space station before a massive panoramic window showing a glowing planet, stars and nebulae. The first is a blonde commander with blue eyes, fair skin and a statuesque athletic build, wearing a tailored white-and-gold command uniform. The second is an Asian-looking scientist with long dark brown hair, amber eyes, light skin and a slim elegant silhouette, wearing a fitted white-blue research outfit and holding a holographic tablet. The third is a dark-skinned pilot with short silver hair, teal eyes and a strong compact-athletic frame, wearing a black flight suit with cyan details and gloves. The fourth is a red-haired communications officer with green eyes, pale skin and a softer curvy figure, wearing a burgundy-accented station uniform with a short jacket. One stands centered with arms folded, one studies data, one leans against a console, and one sits on the edge of a control desk while turning toward the viewer. Holographic interfaces, metallic flooring, glowing control panels and deep-space lighting enhance the scene. Wide cinematic 16:9 composition, full-body group shot, crisp sci-fi detail, dramatic blue-violet space backlight, premium semi-realistic anime rendering, no text, no logo, no watermark.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058272",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48a1e68d-8ae6-4b31-9269-1e093ef0c1ad/original=true/48a1e68d-8ae6-4b31-9269-1e093ef0c1ad.jpeg",
+      "model": "See-Krea2-Genesisv2-int8_convrot",
+      "model_version_ids": [
+        3320733
+      ],
+      "width": 768,
+      "height": 1368,
+      "seed": 896783523299932,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919447+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "402d576605d0a151c01a5391c27a070d190bb28d366176181e41f4d057db8cbd",
+      "prompt_ar": "تحفة فنية، رسم توضيحي من الخيال العلمي مفصل للغاية ومذهل لأربع نساء بالغات يقفن داخل محطة فضائية مستقبلية أمام نافذة بانورامية ضخمة تظهر كوكبًا متوهجًا ونجومًا وسدمًا. الأول هو قائد أشقر ذو عيون زرقاء وبشرة فاتحة وبنية رياضية تمثالية، يرتدي زي قيادة أبيض وذهبي. والثاني هو عالم ذو مظهر آسيوي بشعر بني غامق طويل وعينين كهرمانيتين وبشرة فاتحة وصورة ظلية نحيفة وأنيقة، يرتدي زي بحث أبيض وأزرق ويحمل جهازًا لوحيًا ثلاثي الأبعاد. والثالث طيار ذو بشرة داكنة وشعر فضي قصير وعينان زرقاوان وجسم رياضي قوي ومضغوط، يرتدي بدلة طيران سوداء بتفاصيل سماوية وقفازات. والرابع هو ضابط اتصالات ذو شعر أحمر وعينين خضراوين وبشرة شاحبة وجسم متعرج أكثر نعومة، ويرتدي زي المحطة باللون العنابي مع سترة قصيرة. يقف أحدهم في المنتصف وذراعيه مطويتين، ويدرس الآخر البيانات، ويتكئ الآخر على وحدة التحكم، ويجلس الآخر على حافة مكتب التحكم بينما يتجه نحو المشاهد. تعمل الواجهات ثلاثية الأبعاد والأرضيات المعدنية ولوحات التحكم المتوهجة وإضاءة الفضاء العميق على تعزيز المشهد. تكوين سينمائي واسع بنسبة 16:9، لقطة جماعية لكامل الجسم، تفاصيل خيال علمي واضحة، إضاءة خلفية درامية باللون الأزرق البنفسجي، عرض أنيمي شبه واقعي ممتاز، بدون نص، بدون شعار، بدون علامة مائية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:51Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143058272 fashion ai-image-prompts masterpiece, breathtaking ultra-detailed sci-fi anime illustration of four adult women standing inside a futuristic space station before a massive panoramic window showing a glowing planet, stars and nebulae. the first is a blonde commander with blue eyes, fair skin and a statuesque athletic build, wearing a tailored white-and-gold command uniform. the second is an asian-looking scientist with long dark brown hair, amber eyes, light skin and a slim elegant silhouette, wearing a fitted white-blue research outfit and holding a holographic tablet. the third is a dark-skinned pilot with short silver hair, teal eyes and a strong compact-athletic frame, wearing a black flight suit with cyan details and gloves. the fourth is a red-haired communications officer with green eyes, pale skin and a softer curvy figure, wearing a burgundy-accented station uniform with a short jacket. one stands centered with arms folded, one studies data, one leans against a console, and one sits on the edge of a control desk while turning toward the viewer. holographic interfaces, metallic flooring, glowing control panels and deep-space lighting enhance the scene. wide cinematic 16:9 composition, full-body group shot, crisp sci-fi detail, dramatic blue-violet space backlight, premium semi-realistic anime rendering, no text, no logo, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058272",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48a1e68d-8ae6-4b31-9269-1e093ef0c1ad/original=true/48a1e68d-8ae6-4b31-9269-1e093ef0c1ad.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058316",
+      "title": "Civitai prompt 143058316",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "c0dean0igital, cyberw0rlds,, dapper digital gangster dragon robot riding a skateboard, holding a large revolver, wearing sunglasses, cyberpunk city, rubber duck, matrix digital world, codeandigital, luminous  green neon highlights, manic energy,  masterfully crafted neural psychedelic, dark background, hard contrast, contrasting dark tones providing a backdrop for the luminous structures, green black color bias, gibbering freaks, pizza shop, toilet, swagger, sinister, royal, stylish,  complex reflections, cinematic lighting,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058316",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66016a52-8075-465d-b0c8-632814379cd2/original=true/66016a52-8075-465d-b0c8-632814379cd2.jpeg",
+      "model_version_ids": [
+        135867,
+        674797,
+        2429027,
+        3003771
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 997945122,
+      "negative_prompt": "blurry, low quality, poor quality, boring",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919456+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0c8cc7bc914ac34d679a601ef4838140a4a8f3a463deb2261b3e60f3790aeb12",
+      "prompt_ar": "c0dean0igital، cyberw0rlds،، روبوت تنين رجل العصابات الرقمي الأنيق يركب لوح تزلج، يحمل مسدسًا كبيرًا، يرتدي النظارات الشمسية، مدينة السايبربانك، البطة المطاطية، عالم المصفوفة الرقمي، codeandigital، أضواء النيون الخضراء المضيئة، طاقة الهوس، مخدر عصبي متقن الصنع، خلفية داكنة، تباين قوي، نغمات داكنة متباينة توفر خلفية للهياكل المضيئة، انحياز اللون الأخضر الأسود، نزوات ثرثرة، متجر بيتزا، مرحاض، اختيال، شرير، ملكي، أنيق، انعكاسات معقدة، إضاءة سينمائية،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143058316 image ai-image-prompts c0dean0igital, cyberw0rlds,, dapper digital gangster dragon robot riding a skateboard, holding a large revolver, wearing sunglasses, cyberpunk city, rubber duck, matrix digital world, codeandigital, luminous green neon highlights, manic energy, masterfully crafted neural psychedelic, dark background, hard contrast, contrasting dark tones providing a backdrop for the luminous structures, green black color bias, gibbering freaks, pizza shop, toilet, swagger, sinister, royal, stylish, complex reflections, cinematic lighting, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058316",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66016a52-8075-465d-b0c8-632814379cd2/original=true/66016a52-8075-465d-b0c8-632814379cd2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058231",
+      "title": "Civitai prompt 143058231",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8, 8K, masterpiece, ultra detailed,\n1girl, Alice Margatroid, Touhou Project,\nblonde short hair, blue eyes, hairband,\nblue dress, white apron, puff sleeves, red ribbon,\nAlice is a puppeteer,\ncontrolling two miniature dolls with only her right hand,\nher right hand is raised,\nthin puppet strings wrapped around her right fingertips,\nclear strings extending from her fingertips directly to the two dolls,\nthe strings are attached to the dolls' joints,\nher left hand is relaxed near her chest,\nleft hand empty,\nno strings connected to left hand,\nexactly two miniature handmade cloth puppets on a small canvas puppet stage,\none Reimu Hakurei doll,\nblack hair, large red ribbon bow,\nred and white shrine maiden outfit,\none Marisa Kirisame doll,\nblonde hair,\nlarge black witch hat,\nblack and white witch outfit,\ntwo dolls sitting on the left and right sides of the canvas stage,\npeacefully facing each other,\nAlice looking down at the dolls,\ngentle smile,\nfocused puppeteer expression,\nwooden desk,\ncozy magical workshop,\nwarm lamp light,\nnight interior,\nsoft curtains,\nfloating dust,\ncinematic lighting,\nshallow depth of field,\nsoft bokeh,\nfantasy illustration,\ndetailed textures<lora:zy_BackgroundDetail_K2:0.9> <lora:Anima_detailer_by_Volnovik_v1_0:1.1> <lora:anima_context_detailer_base10:0.3> <lora:kibro_anima_multires_v1-000040:0.9>",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058231",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01e306ac-3fe0-4adb-8854-a5641808a9b4/original=true/01e306ac-3fe0-4adb-8854-a5641808a9b4.jpeg",
+      "model": "animaDeltaMix29B_animaDeltaMix29BV30",
+      "model_version_ids": [
+        2945421,
+        3035441,
+        3142679,
+        3211112,
+        3300191
+      ],
+      "width": 3328,
+      "height": 4864,
+      "seed": 208084938700527,
+      "negative_prompt": "worst quality, low quality, lowres, score_1, score_2, score_3, blurry, jpeg artifacts, bad anatomy, watermark, artist name, worst quality, low quality, normal quality, lowres, (close-up:1.4), (medium shot:1.4), character filling frame, (beam behind character:1.5), (pillar behind person:1.5), (solid stone tower:1.4), sharp architecture, (raising left hand:1.4), (lightning from hands:1.4), hand magic, casting spell with left hand, ground, jumping from ground, standing on floor, (sword:1.5), (excalibur:1.5), dual wielding, helmet, pegasus, wings on horse, bad anatomy, bad hands, deformed horse, flat lighting, blurry background, signature, watermark, text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919474+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cc89420bef0b25843c7e6f3534c3c94d62d7e807f1df4b2a17ed71b4c280ed26",
+      "prompt_ar": "Score_9، Score_8، 8K، تحفة، مفصلة للغاية،\n1 فتاة، أليس مارغاترويد، مشروع توهو،\nشعر أشقر قصير، عيون زرقاء، ربطة شعر،\nفستان أزرق، ساحة بيضاء، أكمام منتفخة، شريط أحمر،\nأليس هي محركة الدمى،\nتتحكم في دميتين صغيرتين بيدها اليمنى فقط،\nورفعت يدها اليمنى\nخيوط دمية رفيعة ملفوفة حول أطراف أصابعها اليمنى،\nخيوط واضحة تمتد من أطراف أصابعها مباشرة إلى الدميتين،\nيتم ربط الخيوط بمفاصل الدمى،\nيدها اليسرى مسترخية بالقرب من صدرها،\nاليد اليسرى فارغة،\nلا توجد خيوط متصلة باليد اليسرى،\nبالضبط اثنين من الدمى القماشية المصغرة المصنوعة يدويًا على مسرح عرائس صغير من القماش،\nدمية ريمو هاكوري واحدة،\nشعر أسود، وقوس كبير من الشريط الأحمر،\nالزي الأحمر والأبيض ضريح البكر,\nدمية ماريسا كيريسامي واحدة،\nشعر أشقر,\nقبعة ساحرة سوداء كبيرة,\nزي الساحرة بالأبيض والأسود,\nدميتان تجلسان على الجانبين الأيمن والأيسر من خشبة المسرح،\nيواجهون بعضهم البعض بسلام،\nأليس تنظر إلى الدمى،\nابتسامة لطيفة،\nالتعبير المركز لمحرك الدمى،\nمكتب خشبي,\nورشة عمل سحرية مريحة,\nضوء المصباح الدافئ,\nالداخلية الليلية,\nستائر ناعمة،\nالغبار العائم,\nالإضاءة السينمائية,\nعمق المجال الضحل,\nبوكيه ناعم,\nالتوضيح الخيال,\nالأنسجة التفصيلية<lora:zy_BackgroundDetail_K2:0.9> <lora:Anima_detailer_by_Volnovik_v1_0:1.1> <lora:anima_context_detailer_base10:0.3> <lora:kibro_anima_multires_v1-000040:0.9>",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143058231 architecture ai-image-prompts score_9, score_8, 8k, masterpiece, ultra detailed, 1girl, alice margatroid, touhou project, blonde short hair, blue eyes, hairband, blue dress, white apron, puff sleeves, red ribbon, alice is a puppeteer, controlling two miniature dolls with only her right hand, her right hand is raised, thin puppet strings wrapped around her right fingertips, clear strings extending from her fingertips directly to the two dolls, the strings are attached to the dolls' joints, her left hand is relaxed near her chest, left hand empty, no strings connected to left hand, exactly two miniature handmade cloth puppets on a small canvas puppet stage, one reimu hakurei doll, black hair, large red ribbon bow, red and white shrine maiden outfit, one marisa kirisame doll, blonde hair, large black witch hat, black and white witch outfit, two dolls sitting on the left and right sides of the canvas stage, peacefully facing each other, alice looking down at the dolls, gentle smile, focused puppeteer expression, wooden desk, cozy magical workshop, warm lamp light, night interior, soft curtains, floating dust, cinematic lighting, shallow depth of field, soft bokeh, fantasy illustration, detailed textures<lora:zy_backgrounddetail_k2:0.9> <lora:anima_detailer_by_volnovik_v1_0:1.1> <lora:anima_context_detailer_base10:0.3> <lora:kibro_anima_multires_v1-000040:0.9> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058231",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01e306ac-3fe0-4adb-8854-a5641808a9b4/original=true/01e306ac-3fe0-4adb-8854-a5641808a9b4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058214",
+      "title": "Civitai prompt 143058214",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "extreme macro photograph of a large bristly fly perched on tiny white flowers, dark body heavily covered in long spiky black bristles, prominent reddish-brown compound eyes, pale face, translucent wings folded back with visible venation, hairy black legs gripping fuzzy pale green buds, soft natural lighting, shallow depth of field, blurred vibrant green background, sharp focus on insect textures, highly detailed nature photography<lora:INSANE_BY_STX_V4:1>, dark  themed background. very dark and scary horror vibes. hyper intricate details. purple, red, white colors. hyperrealistic artwork style. scary horror metal music vibe. godrays, gorgeous, amazing, intricate, highly detailed, digital painting, artstatio, Style of stephen gammell, watercolors, black and white, swamp, shadowy creatures, dripping, infected",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058214",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/259f8d81-fecd-49e8-b90c-12d63935a9ba/original=true/259f8d81-fecd-49e8-b90c-12d63935a9ba.jpeg",
+      "model": "Krea2-SAT-IORv3-INT8_CONVROT",
+      "model_version_ids": [
+        3212048,
+        3317204
+      ],
+      "width": 1536,
+      "height": 1536,
+      "seed": 2814184278,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919486+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f4ba2c0f99f6b8ab66b36ff420437173cd6f056063928dceaff614e2593b653d",
+      "prompt_ar": "صورة مقربة للغاية لذبابة خشنة كبيرة تجلس على زهور بيضاء صغيرة، جسم داكن مغطى بكثافة بشعيرات سوداء طويلة شائكة، عيون مركبة بارزة ذات لون بني محمر، وجه شاحب، أجنحة شفافة مطوية للخلف مع تهوية مرئية، أرجل سوداء مشعرة تمسك براعم خضراء شاحبة غامضة، إضاءة طبيعية ناعمة، عمق مجال ضحل، خلفية خضراء نابضة بالحياة غير واضحة، تركيز حاد على قوام الحشرات، تصوير فوتوغرافي للطبيعة مفصل للغاية<lora:INSANE_BY_STX_V4:1>، خلفية تحت عنوان الظلام. مشاعر رعب مظلمة ومخيفة للغاية. تفاصيل شديدة التعقيد. الألوان الأرجواني والأحمر والأبيض. أسلوب العمل الفني الواقعي. موسيقى ميتال رعب مخيفة. godrays، رائع، مذهل، معقد، مفصل للغاية، رسم رقمي، artstatio، أسلوب ستيفن جاميل، ألوان مائية، أبيض وأسود، مستنقع، مخلوقات غامضة، يقطر، مصاب",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143058214 food ai-image-prompts extreme macro photograph of a large bristly fly perched on tiny white flowers, dark body heavily covered in long spiky black bristles, prominent reddish-brown compound eyes, pale face, translucent wings folded back with visible venation, hairy black legs gripping fuzzy pale green buds, soft natural lighting, shallow depth of field, blurred vibrant green background, sharp focus on insect textures, highly detailed nature photography<lora:insane_by_stx_v4:1>, dark themed background. very dark and scary horror vibes. hyper intricate details. purple, red, white colors. hyperrealistic artwork style. scary horror metal music vibe. godrays, gorgeous, amazing, intricate, highly detailed, digital painting, artstatio, style of stephen gammell, watercolors, black and white, swamp, shadowy creatures, dripping, infected civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058214",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/259f8d81-fecd-49e8-b90c-12d63935a9ba/original=true/259f8d81-fecd-49e8-b90c-12d63935a9ba.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058118",
+      "title": "Civitai prompt 143058118",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed), a bowl of cereal morphed into a miniature futuristic city, Code & Digital World Morph style, vertical glowing data streams rising from the milk like cascading code, reflective bowl surface mirroring the neon-green glow, dominant neon-green digital atmosphere, tiny futuristic towers built from crunchy flakes, dark silhouette of the bowl against radiant glowing light, subtle digital grid patterns in the milk, whimsical cyberpunk atmosphere, macro photography, dramatic lighting, highly detailed, 8k, creative concept",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058118",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b114840e-5643-4b34-9f25-615dc89ee038/original=true/b114840e-5643-4b34-9f25-615dc89ee038.jpeg",
+      "model_version_ids": [
+        128078,
+        674797
+      ],
+      "seed": 706375782,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919496+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f03009492a7e06744bc2504d9c55015700d09a19ee315c1e29e9c83c6a20237f",
+      "prompt_ar": "(تحفة، أفضل جودة، مفصلة للغاية)، وعاء من الحبوب يتحول إلى مدينة مستقبلية مصغرة، نمط Code & Digital World Morph، تدفقات بيانات متوهجة عمودية تتصاعد من الحليب مثل الكود المتتالي، سطح وعاء عاكس يعكس توهج النيون الأخضر، جو رقمي أخضر نيون مهيمن، أبراج مستقبلية صغيرة مبنية من رقائق مقرمشة، صورة ظلية داكنة للوعاء ضد الضوء المتوهج المشع، أنماط شبكة رقمية دقيقة في الحليب، جو سايبربانك غريب الأطوار، ماكرو التصوير الفوتوغرافي، الإضاءة الدرامية، التفصيلية للغاية، 8K، المفهوم الإبداعي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143058118 image ai-image-prompts (masterpiece, best quality, ultra-detailed), a bowl of cereal morphed into a miniature futuristic city, code & digital world morph style, vertical glowing data streams rising from the milk like cascading code, reflective bowl surface mirroring the neon-green glow, dominant neon-green digital atmosphere, tiny futuristic towers built from crunchy flakes, dark silhouette of the bowl against radiant glowing light, subtle digital grid patterns in the milk, whimsical cyberpunk atmosphere, macro photography, dramatic lighting, highly detailed, 8k, creative concept civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058118",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b114840e-5643-4b34-9f25-615dc89ee038/original=true/b114840e-5643-4b34-9f25-615dc89ee038.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058123",
+      "title": "Civitai prompt 143058123",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed), a lone figure standing in a rain-slicked cyberpunk alley, Code & Digital World Morph style, vertical glowing data streams flowing around the person like falling code, reflective wet ground mirroring the neon-green glow, dominant neon-green digital atmosphere, towering futuristic buildings with glowing signage, dark silhouette of the person framed against radiant light, faint digital grid patterns in the background, gritty cyberpunk mood, dramatic rim lighting, highly detailed, 8k, cinematic",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058123",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dcca3f6-b140-443a-a1c5-7517da697567/original=true/0dcca3f6-b140-443a-a1c5-7517da697567.jpeg",
+      "model_version_ids": [
+        128078,
+        674797
+      ],
+      "seed": 271263528,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919507+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "04c615532e790b7db70a728326829b366a26e46186be9c533dc6e7bda550a58a",
+      "prompt_ar": "(تحفة فنية، أفضل جودة، مفصلة للغاية)، شخصية وحيدة تقف في زقاق سايبربانك ممطر، نمط Code & Digital World Morph، تدفقات بيانات متوهجة عمودية تتدفق حول الشخص مثل الكود المتساقط، أرض رطبة عاكسة تعكس توهج النيون الأخضر، الجو الرقمي الأخضر النيون المهيمن، مباني مستقبلية شاهقة مع لافتات متوهجة، صورة ظلية داكنة للشخص مؤطرة ضد ضوء مشع، أنماط شبكة رقمية باهتة في الخلفية، مزاج سايبربانك شجاع، حافة درامية الإضاءة، مفصلة للغاية، 8K، سينمائية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143058123 architecture ai-image-prompts (masterpiece, best quality, ultra-detailed), a lone figure standing in a rain-slicked cyberpunk alley, code & digital world morph style, vertical glowing data streams flowing around the person like falling code, reflective wet ground mirroring the neon-green glow, dominant neon-green digital atmosphere, towering futuristic buildings with glowing signage, dark silhouette of the person framed against radiant light, faint digital grid patterns in the background, gritty cyberpunk mood, dramatic rim lighting, highly detailed, 8k, cinematic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058123",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dcca3f6-b140-443a-a1c5-7517da697567/original=true/0dcca3f6-b140-443a-a1c5-7517da697567.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058119",
+      "title": "Civitai prompt 143058119",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed), a dense enchanted forest transformed into a digital dreamscape, Code & Digital World Morph style, vertical glowing data streams flowing down tree trunks like cascading code, reflective puddles and forest floor mirroring the green glow, neon-green digital atmosphere, towering futuristic structures emerging from the treetops, dark tree silhouettes against luminous light, subtle digital grid patterns woven into the undergrowth, mysterious cyberpunk atmosphere, bioluminescent details, atmospheric depth, 8k, photorealistic",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058119",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4a2c05a-6a03-4c45-bbe4-96b03b15114c/original=true/a4a2c05a-6a03-4c45-bbe4-96b03b15114c.jpeg",
+      "model_version_ids": [
+        128078,
+        674797
+      ],
+      "seed": 1452893337,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919517+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b3a47bc8ce8351e5587474e5363236ea836f0e0c3015fed1414dc4e67422ea00",
+      "prompt_ar": "(تحفة فنية، أفضل جودة، مفصلة للغاية)، غابة كثيفة مسحورة تتحول إلى مشهد أحلام رقمي، نمط Code & Digital World Morph، تدفقات بيانات متوهجة عمودية تتدفق أسفل جذوع الأشجار مثل التعليمات البرمجية المتتالية، البرك العاكسة وأرضية الغابة التي تعكس التوهج الأخضر، الجو الرقمي الأخضر النيون، الهياكل المستقبلية الشاهقة الخارجة من قمم الأشجار، الصور الظلية للشجرة الداكنة ضد الضوء المضيء، أنماط الشبكة الرقمية الدقيقة المنسوجة في الشجيرات، جو Cyberpunk الغامض، الإضاءة الحيوية تفاصيل، عمق جوي، 8K، واقعي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143058119 photography ai-image-prompts (masterpiece, best quality, ultra-detailed), a dense enchanted forest transformed into a digital dreamscape, code & digital world morph style, vertical glowing data streams flowing down tree trunks like cascading code, reflective puddles and forest floor mirroring the green glow, neon-green digital atmosphere, towering futuristic structures emerging from the treetops, dark tree silhouettes against luminous light, subtle digital grid patterns woven into the undergrowth, mysterious cyberpunk atmosphere, bioluminescent details, atmospheric depth, 8k, photorealistic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058119",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4a2c05a-6a03-4c45-bbe4-96b03b15114c/original=true/a4a2c05a-6a03-4c45-bbe4-96b03b15114c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143058126",
+      "title": "Civitai prompt 143058126",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, ultra-detailed), a sleek black cat sitting atop a glowing rooftop in a cyberpunk city, Code & Digital World Morph style, vertical glowing data streams cascading like falling green code, reflective wet road mirroring neon glow, dominant neon-green digital atmosphere, sharp futuristic towers rising into a dark smoggy sky, dark cat silhouette contrasted against bright glowing light, subtle digital grid patterns on the ground, cinematic lighting, cyberpunk mood, wide angle, 8k, Unreal Engine 5 render",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143058126",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a91e4ba5-e525-4eee-8d33-4c5842e03923/original=true/a91e4ba5-e525-4eee-8d33-4c5842e03923.jpeg",
+      "model_version_ids": [
+        128078,
+        674797
+      ],
+      "seed": 899830122,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919527+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7f409b281299fd75c034dd36a85f46f5bf0564b626c97b68ea900b56be4a820f",
+      "prompt_ar": "(تحفة فنية، أفضل جودة، مفصلة للغاية)، قطة سوداء أنيقة تجلس فوق سطح متوهج في مدينة سايبربانك، أسلوب Code & Digital World Morph، تدفقات بيانات متوهجة عمودية تتدفق مثل الكود الأخضر المتساقط، طريق رطب عاكس يعكس وهج النيون، جو رقمي أخضر نيون مهيمن، أبراج مستقبلية حادة ترتفع إلى سماء ضبابية داكنة، صورة ظلية لقط داكن تتناقض مع الضوء المتوهج الساطع، أنماط شبكة رقمية دقيقة على الأرض، إضاءة سينمائية، مزاج السايبربانك، زاوية واسعة، 8K، تقديم محرك غير واقعي 5",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143058126 image ai-image-prompts (masterpiece, best quality, ultra-detailed), a sleek black cat sitting atop a glowing rooftop in a cyberpunk city, code & digital world morph style, vertical glowing data streams cascading like falling green code, reflective wet road mirroring neon glow, dominant neon-green digital atmosphere, sharp futuristic towers rising into a dark smoggy sky, dark cat silhouette contrasted against bright glowing light, subtle digital grid patterns on the ground, cinematic lighting, cyberpunk mood, wide angle, 8k, unreal engine 5 render civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143058126",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a91e4ba5-e525-4eee-8d33-4c5842e03923/original=true/a91e4ba5-e525-4eee-8d33-4c5842e03923.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057979",
+      "title": "Civitai prompt 143057979",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hyper-realistic cinematic photograph of an enormous natural limestone cavern deep beneath a remote mountainous region, large enough to contain a complete railway station and an entire underground ecosystem.\nThe cave is colossal, with cathedral-like vaulted ceilings, enormous limestone formations, vertical rock walls, stalactites and stalagmites, underground waterfalls and a wide crystal-clear river flowing through the cavern.\nA functioning old-fashioned railway station has been built naturally into the cavern floor.\nTwo railway tracks run through the immense underground chamber and disappear into dark tunnels at both ends of the cave.\nA beautiful historic railway platform stands beside the tracks, with an elegant old station building constructed from stone, dark wood and glass.\nWarm lamps illuminate the platform and station building, creating a strong contrast with the cool blue-gray darkness of the cave.\nA large underground river passes beneath an old stone railway bridge near the station, while several smaller streams flow down the cavern walls.\nLush ferns, mosses and other shade-loving vegetation grow naturally around the river and near areas where shafts of light enter from cracks high above.\nSeveral dramatic openings in the cavern ceiling allow narrow columns of daylight to reach the underground landscape, illuminating patches of vegetation and wet stone.\nA few adult passengers wait calmly on the platform with luggage, making the impossible location feel strangely ordinary.\nA train is approaching slowly through one of the tunnels, its warm headlights illuminating mist and moisture in the air.\nThe station should feel old but functional, with believable railway engineering, realistic tracks, signaling equipment, benches, lamps, signage structures and weathered materials.\nThe cave itself must remain the dominant natural feature. The railway infrastructure should look as though it was carefully built into the existing geology rather than replacing it.\nPhotorealistic subterranean environment, realistic limestone geology, accurate water reflections, realistic railway engineering, natural vegetation, atmospheric mist, cinematic lighting, extremely detailed textures and sophisticated composition.\nStrong contrast between cool natural blue-gray cavern light and warm amber station lighting.\nShot with a high-end professional full-frame camera, realistic exposure, natural optical rendering, subtle film grain and extremely high photographic realism.\nFull-bleed composition.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057979",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abc57b4f-5af8-48ee-95f8-e75b8216b372/original=true/abc57b4f-5af8-48ee-95f8-e75b8216b372.jpeg",
+      "model_version_ids": [
+        3291238
+      ],
+      "width": 2048,
+      "height": 1152,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919553+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "94655ef322f38e6ae2ab1cbe3752c4cef7ce1ce4a12ebaa4dfebc9d2e6913197",
+      "prompt_ar": "صورة سينمائية واقعية للغاية لكهف ضخم من الحجر الجيري الطبيعي يقع في أعماق منطقة جبلية نائية، كبير بما يكفي لاحتواء محطة سكة حديد كاملة ونظام بيئي كامل تحت الأرض.\nالكهف ضخم، بأسقف مقببة تشبه الكاتدرائية، وتكوينات هائلة من الحجر الجيري، وجدران صخرية عمودية، وهوابط وصواعد، وشلالات تحت الأرض، ونهر واسع واضح وضوح الشمس يتدفق عبر الكهف.\nتم بناء محطة سكة حديد قديمة الطراز بشكل طبيعي في أرضية الكهف.\nيمر مساران للسكك الحديدية عبر الغرفة الضخمة الموجودة تحت الأرض ويختفيان في الأنفاق المظلمة على طرفي الكهف.\nتقف منصة السكك الحديدية التاريخية الجميلة بجانب القضبان، مع مبنى محطة قديم أنيق مبني من الحجر والخشب الداكن والزجاج.\nتضيء المصابيح الدافئة المنصة ومبنى المحطة، مما يخلق تباينًا قويًا مع ظلام الكهف ذو اللون الأزرق الرمادي البارد.\nويمر نهر كبير تحت الأرض أسفل جسر حجري قديم للسكك الحديدية بالقرب من المحطة، بينما تتدفق عدة جداول أصغر أسفل جدران الكهف.\nتنمو السرخس والطحالب وغيرها من النباتات المحبة للظل بشكل طبيعي حول النهر وبالقرب من المناطق التي تدخل فيها أعمدة الضوء من الشقوق المرتفعة أعلاه.\nتسمح الفتحات العديدة المثيرة في سقف الكهف لأعمدة ضيقة من ضوء النهار بالوصول إلى المناظر الطبيعية تحت الأرض، مما يضيء بقع النباتات والحجر الرطب.\nينتظر عدد قليل من الركاب البالغين بهدوء على المنصة مع أمتعتهم، مما يجعل الموقع المستحيل يبدو عاديًا بشكل غريب.\nيقترب قطار ببطء عبر أحد الأنفاق، ومصابيحه الأمامية الدافئة تضيء الضباب والرطوبة في الهواء.\nيجب أن تبدو المحطة قديمة ولكنها عملية، مع هندسة سكك حديدية معقولة، ومسارات واقعية، ومعدات إشارات، ومقاعد، ومصابيح، وهياكل لافتات، ومواد متأثرة بالعوامل الجوية.\nويجب أن يظل الكهف نفسه هو السمة الطبيعية السائدة. يجب أن تبدو البنية التحتية للسكك الحديدية وكأنها بنيت بعناية في الجيولوجيا الحالية بدلاً من استبدالها.\nبيئة جوفية واقعية، وجيولوجيا الحجر الجيري الواقعية، وانعكاسات مائية دقيقة، وهندسة سكك حديدية واقعية، ونباتات طبيعية، وضباب جوي، وإضاءة سينمائية، وأنسجة مفصلة للغاية وتركيبة متطورة.\nتباين قوي بين ضوء الكهف الطبيعي الأزرق والرمادي وإضاءة المحطة الدافئة باللون الكهرماني.\nتم التصوير باستخدام كاميرا احترافية كاملة الإطار ومتطورة، وتعريض واقعي، وعرض بصري طبيعي، وحبوب فيلم دقيقة وواقعية تصوير عالية للغاية.\nتكوين النزيف الكامل.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143057979 architecture ai-image-prompts a hyper-realistic cinematic photograph of an enormous natural limestone cavern deep beneath a remote mountainous region, large enough to contain a complete railway station and an entire underground ecosystem. the cave is colossal, with cathedral-like vaulted ceilings, enormous limestone formations, vertical rock walls, stalactites and stalagmites, underground waterfalls and a wide crystal-clear river flowing through the cavern. a functioning old-fashioned railway station has been built naturally into the cavern floor. two railway tracks run through the immense underground chamber and disappear into dark tunnels at both ends of the cave. a beautiful historic railway platform stands beside the tracks, with an elegant old station building constructed from stone, dark wood and glass. warm lamps illuminate the platform and station building, creating a strong contrast with the cool blue-gray darkness of the cave. a large underground river passes beneath an old stone railway bridge near the station, while several smaller streams flow down the cavern walls. lush ferns, mosses and other shade-loving vegetation grow naturally around the river and near areas where shafts of light enter from cracks high above. several dramatic openings in the cavern ceiling allow narrow columns of daylight to reach the underground landscape, illuminating patches of vegetation and wet stone. a few adult passengers wait calmly on the platform with luggage, making the impossible location feel strangely ordinary. a train is approaching slowly through one of the tunnels, its warm headlights illuminating mist and moisture in the air. the station should feel old but functional, with believable railway engineering, realistic tracks, signaling equipment, benches, lamps, signage structures and weathered materials. the cave itself must remain the dominant natural feature. the railway infrastructure should look as though it was carefully built into the existing geology rather than replacing it. photorealistic subterranean environment, realistic limestone geology, accurate water reflections, realistic railway engineering, natural vegetation, atmospheric mist, cinematic lighting, extremely detailed textures and sophisticated composition. strong contrast between cool natural blue-gray cavern light and warm amber station lighting. shot with a high-end professional full-frame camera, realistic exposure, natural optical rendering, subtle film grain and extremely high photographic realism. full-bleed composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057979",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abc57b4f-5af8-48ee-95f8-e75b8216b372/original=true/abc57b4f-5af8-48ee-95f8-e75b8216b372.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057958",
+      "title": "Civitai prompt 143057958",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Illustration in the style of Tetsuya Nomura, dynamic multi-character composite, painterly cel-shaded rendering, high contrast rim lighting.\n\nCamera/angle: third-person over-the-shoulder from behind the page, seated on the opposite bench, his shoulder and jawline framing the left edge of the shot, the knight beyond him lit as the clear subject.\n\nBackground: the tufted interior wall of a stagecoach, a small curtained window with blurred countryside streaking past, a lantern swinging gently from the ceiling.\n\nMidground: not applicable, tight two-character composition.\n\nForeground, left edge, seen from behind: the over-eager page leaning forward, one shoulder and the back of his head visible, hands , he holds the knight's bare foot and massages it.\n\nBeyond him, center-right frame: a mature female knight in full plate, one bare leg, seated with her leg stretched across the coach, cheek propped on one fist against the window frame, gaze drifting outside with weary indifference, dignified and weathered features caught in the swinging lantern light. her face is squared with flowing red hair and an armored diadem, her body strong.\n\nSetting: warm interior stagecoach light contrasted against a cool blurred exterior, motion streaks outside the window suggesting speed, soft vignette framing the knight at center while the page's silhouette anchors the foreground.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057958",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/020c3d29-627f-44f3-b6a7-095b6e9fc046/original=true/020c3d29-627f-44f3-b6a7-095b6e9fc046.jpeg",
+      "model": "Krea 2\\realistic\\DasiwaKrea2TurboRaw_cutedisasterV2Turbo",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 768,
+      "seed": 454792753747426,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919571+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fb5cb4eec629131584ad5994a8cd9a48dae218c2c40e8dc7d5b13896b0d36174",
+      "prompt_ar": "رسم توضيحي بأسلوب تيتسويا نومورا، مركب ديناميكي متعدد الأحرف، عرض مظلل بالرسومات، إضاءة حافة عالية التباين.\n\nالكاميرا/الزاوية: شخص ثالث من فوق الكتف من خلف الصفحة، جالس على المقعد المقابل، وكتفه وخط فكه يؤطران الحافة اليسرى من اللقطة، والفارس خلفه مضاء كهدف واضح.\n\nالخلفية: الجدار الداخلي المعنقد لعربة الحنطور، ونافذة صغيرة مغطاة بستائر يحيط بها ريف غير واضح المعالم، وفانوس يتأرجح بلطف من السقف.\n\nمنتصف الأرض: لا ينطبق، تكوين محكم مكون من حرفين.\n\nالمقدمة، الحافة اليسرى، مرئية من الخلف: الصفحة المتلهفة تميل إلى الأمام، كتف واحدة ومؤخرة رأسه مرئية، يديه، يمسك قدم الفارس العارية ويدلكها.\n\nخلفه، إطار يمين الوسط: فارسة ناضجة في لوحة كاملة، ساق واحدة عارية، تجلس وساقها ممدودة عبر الحافلة، خدها مسند بقبضة واحدة على إطار النافذة، تنظر إلى الخارج بلامبالاة مرهقة، وملامح مهيبة ومتأثّرة عالقة في ضوء الفانوس المتأرجح. وجهها مربع بشعر أحمر متدفق وإكليل مدرع وجسمها قوي.\n\nالإعداد: ضوء الحنطور الداخلي الدافئ يتناقض مع المظهر الخارجي غير الواضح البارد، وخطوط الحركة خارج النافذة تشير إلى السرعة، والمقالة القصيرة الناعمة تؤطر الفارس في المنتصف بينما تثبت الصورة الظلية للصفحة المقدمة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143057958 architecture ai-image-prompts illustration in the style of tetsuya nomura, dynamic multi-character composite, painterly cel-shaded rendering, high contrast rim lighting. camera/angle: third-person over-the-shoulder from behind the page, seated on the opposite bench, his shoulder and jawline framing the left edge of the shot, the knight beyond him lit as the clear subject. background: the tufted interior wall of a stagecoach, a small curtained window with blurred countryside streaking past, a lantern swinging gently from the ceiling. midground: not applicable, tight two-character composition. foreground, left edge, seen from behind: the over-eager page leaning forward, one shoulder and the back of his head visible, hands , he holds the knight's bare foot and massages it. beyond him, center-right frame: a mature female knight in full plate, one bare leg, seated with her leg stretched across the coach, cheek propped on one fist against the window frame, gaze drifting outside with weary indifference, dignified and weathered features caught in the swinging lantern light. her face is squared with flowing red hair and an armored diadem, her body strong. setting: warm interior stagecoach light contrasted against a cool blurred exterior, motion streaks outside the window suggesting speed, soft vignette framing the knight at center while the page's silhouette anchors the foreground. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057958",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/020c3d29-627f-44f3-b6a7-095b6e9fc046/original=true/020c3d29-627f-44f3-b6a7-095b6e9fc046.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057708",
+      "title": "Civitai prompt 143057708",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, highres), 1girl, filomena, (dark gothic mourning aesthetic:1.6), long silver-white hair flowing, glowing blue eyes dimmed with sorrow, (standing beside ornate black coffin with golden nameplate reading \"KARL\":1.8), (wearing elegant black lace mourning dress, fishnet stockings, chunky platform boots:1.7), holding single black rose, somber expression, dramatic dark candlelight, gothic cathedral background, misty atmosphere, masterpiece anime style, detailed coffin, detailed dress, cinematic composition, breathtaking dark beauty",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057708",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ee6ff6e-e6fd-4217-8202-af5c6f48794e/original=true/6ee6ff6e-e6fd-4217-8202-af5c6f48794e.jpeg",
+      "model_version_ids": [
+        2945208,
+        3047431,
+        3266732
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 247720355,
+      "negative_prompt": "(worst quality, low quality:1.4), ugly, deformed, blurry, bad anatomy, extra limbs, fused fingers, watermark, text, 3d, realistic, photorealistic, fat, muscular, masculine, explicit, pornographic, vulgar, boring, plain background, cropped head",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919580+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a382dff4da5458dafa8a37bfd18af3bb993161432b9c45d2f2581a7b7c31e659",
+      "prompt_ar": "(تحفة، أفضل جودة، عالية)، فتاة واحدة، فيلومينا، (جمالية الحداد القوطي الداكن: 1.6)، شعر طويل فضي أبيض متدفق، عيون زرقاء متوهجة باهتة من الحزن، (تقف بجانب نعش أسود مزخرف مع لوحة ذهبية مكتوب عليها \"KARL\": 1.8)، (ترتدي فستان حداد أنيق من الدانتيل الأسود، جوارب شبكية، حذاء سميك ذو نعل سميك: 1.7)، تحمل وردة سوداء واحدة، تعبير كئيب، ضوء شموع داكن مثير، قوطي خلفية الكاتدرائية أجواء ضبابية تحفة أسلوب الأنمي تابوت مفصل فستان مفصل تكوين سينمائي جمال داكن لالتقاط الأنفاس",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143057708 image ai-image-prompts (masterpiece, best quality, highres), 1girl, filomena, (dark gothic mourning aesthetic:1.6), long silver-white hair flowing, glowing blue eyes dimmed with sorrow, (standing beside ornate black coffin with golden nameplate reading \"karl\":1.8), (wearing elegant black lace mourning dress, fishnet stockings, chunky platform boots:1.7), holding single black rose, somber expression, dramatic dark candlelight, gothic cathedral background, misty atmosphere, masterpiece anime style, detailed coffin, detailed dress, cinematic composition, breathtaking dark beauty civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057708",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ee6ff6e-e6fd-4217-8202-af5c6f48794e/original=true/6ee6ff6e-e6fd-4217-8202-af5c6f48794e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057711",
+      "title": "Civitai prompt 143057711",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality), 1girl, filomena, (cinematic movie still:1.7), long silver hair, (wearing elegant black evening dress, fishnet stockings, platform boots:1.8), standing in rain, dramatic street lighting, glowing blue eyes, intense expression, wide cinematic shot, anime style, breathtaking composition, epic movie atmosphere",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057711",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19e0eca8-36ec-4b7c-bbae-86627bf1cc6f/original=true/19e0eca8-36ec-4b7c-bbae-86627bf1cc6f.jpeg",
+      "model_version_ids": [
+        2945208,
+        3047431,
+        3266732
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1600343498,
+      "negative_prompt": "(worst quality, low quality:1.4), ugly, deformed, blurry, bad anatomy, extra limbs, fused fingers, watermark, text, 3d, realistic, photorealistic, fat, muscular, masculine, explicit, pornographic, vulgar, boring, plain background, cropped head",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919587+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c287c52f2a9a6f5e7e871dd51ee383dc5d216cb6a58761e1d9f51b6e04a71286",
+      "prompt_ar": "(تحفة، أفضل جودة)، فتاة واحدة، فيلومينا، (لقطة سينمائية سينمائية: 1.7)، شعر فضي طويل، (ترتدي فستان سهرة أسود أنيق، جوارب شبكية، أحذية منصة: 1.8)، تقف تحت المطر، إضاءة الشوارع الدرامية، عيون زرقاء متوهجة، تعبير مكثف، لقطة سينمائية واسعة، أسلوب أنيمي، تكوين مذهل، جو فيلم ملحمي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143057711 image ai-image-prompts (masterpiece, best quality), 1girl, filomena, (cinematic movie still:1.7), long silver hair, (wearing elegant black evening dress, fishnet stockings, platform boots:1.8), standing in rain, dramatic street lighting, glowing blue eyes, intense expression, wide cinematic shot, anime style, breathtaking composition, epic movie atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057711",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19e0eca8-36ec-4b7c-bbae-86627bf1cc6f/original=true/19e0eca8-36ec-4b7c-bbae-86627bf1cc6f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057737",
+      "title": "Civitai prompt 143057737",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece, best quality, highres), 1girl, filomena dota dragons blood, (canon appearance, young elven woman:1.5), long silver-white hair flowing, glowing blue eyes, (taking selfie with smartphone, holding phone up, posing beside ornate black coffin lying on grass:1.8), golden nameplate \"KARL\" visible on coffin, (wearing elegant black lace mourning dress, fishnet stockings, chunky platform boots:1.7), confident smirk, one hand on hip, misty forest clearing, moonlight, fireflies, dramatic atmosphere, smartphone wide-angle view, realistic lighting, detailed outfit, anime style, masterpiece, best quality, highres, cinematic composition, dark playful beauty",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057737",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03458d23-617d-4f23-846d-aef1a7617f74/original=true/03458d23-617d-4f23-846d-aef1a7617f74.jpeg",
+      "model_version_ids": [
+        2945208,
+        3047431,
+        3266732
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 154544810,
+      "negative_prompt": "(worst quality, low quality:1.4), ugly, deformed, blurry, bad anatomy, extra limbs, fused fingers, watermark, text, 3d, realistic, photorealistic, fat, muscular, masculine, explicit, pornographic, vulgar, boring, plain background, cropped head",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919598+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1dcdff53752c7f610c8a429829b26864b3442f3191e669bbd77f81bb44271b64",
+      "prompt_ar": "(تحفة، أفضل جودة، أعلى)، فتاة واحدة، filomena dota dragons blood، (مظهر كانون، امرأة إلفين شابة: 1.5)، شعر أبيض فضي طويل متدفق، عيون زرقاء متوهجة، (تلتقط صورة شخصية بهاتف ذكي، تمسك الهاتف لأعلى، تقف بجانب نعش أسود مزخرف مستلقي على العشب: 1.8)، لوحة ذهبية تحمل اسم \"KARL\" مرئية على التابوت، (ترتدي فستان حداد أنيق من الدانتيل الأسود، جوارب شبكية، حذاء سميك ذو منصة: 1.7)، واثقة من نفسها ابتسامة متكلفة، يد واحدة على الورك، إزالة الغابات الضبابية، ضوء القمر، اليراعات، جو درامي، عرض الهاتف الذكي بزاوية واسعة، إضاءة واقعية، ملابس مفصلة، أسلوب الأنيمي، تحفة فنية، أفضل جودة، عالية الجودة، تكوين سينمائي، جمال مرح داكن",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143057737 fashion ai-image-prompts (masterpiece, best quality, highres), 1girl, filomena dota dragons blood, (canon appearance, young elven woman:1.5), long silver-white hair flowing, glowing blue eyes, (taking selfie with smartphone, holding phone up, posing beside ornate black coffin lying on grass:1.8), golden nameplate \"karl\" visible on coffin, (wearing elegant black lace mourning dress, fishnet stockings, chunky platform boots:1.7), confident smirk, one hand on hip, misty forest clearing, moonlight, fireflies, dramatic atmosphere, smartphone wide-angle view, realistic lighting, detailed outfit, anime style, masterpiece, best quality, highres, cinematic composition, dark playful beauty civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057737",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03458d23-617d-4f23-846d-aef1a7617f74/original=true/03458d23-617d-4f23-846d-aef1a7617f74.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143042310",
+      "title": "Civitai prompt 143042310",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Neo-Pop European bande dessinée illustration, a solitary adult detective standing inside an old Parisian train station, full body occupying roughly 40 percent of the composition, tailored dark coat, leather briefcase, calm observant expression, enormous geometric iron roof and distant platforms behind him, ligne claire clean ink linework, flat printed colors, expressive European comic composition, crimson accents, cobalt blue shadows, acid yellow station lights, bold Pop Art color blocking, subtle halftone dots, slightly aged paper texture, screen-print imperfections, sophisticated vintage French album aesthetic, cinematic negative space, no photorealism",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143042310",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/170375af-edf6-4dab-b990-cececb60f230/original=true/170375af-edf6-4dab-b990-cececb60f230.jpeg",
+      "model": "redcraft23INT8INT4FP8_30Krea2",
+      "model_version_ids": [],
+      "width": 1256,
+      "height": 1672,
+      "seed": 210031086660695,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919614+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2c8082d626e1fb0ea8a8643e4e1a2cba7613254d05d750553f8ce55b43c8854f",
+      "prompt_ar": "رسم توضيحي لموسيقى البوب الأوروبية الجديدة، محقق بالغ منعزل يقف داخل محطة قطار باريسية قديمة، جسم كامل يشغل حوالي 40 بالمائة من التكوين، معطف داكن مصمم، حقيبة جلدية، تعبير ملاحظ هادئ، سقف حديدي هندسي ضخم ومنصات بعيدة خلفه، خط حبر نظيف، ألوان مطبوعة مسطحة، تكوين كوميدي أوروبي معبر، لهجات قرمزية، ظلال زرقاء كوبالت، أضواء محطة صفراء حمضية، حجب ألوان فن البوب الجريء، ألوان نصفية دقيقة النقاط، نسيج الورق القديم قليلاً، عيوب طباعة الشاشة، جمالية الألبوم الفرنسي القديم المتطور، المساحة السلبية السينمائية، عدم وجود صور واقعية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143042310 image ai-image-prompts neo-pop european bande dessinée illustration, a solitary adult detective standing inside an old parisian train station, full body occupying roughly 40 percent of the composition, tailored dark coat, leather briefcase, calm observant expression, enormous geometric iron roof and distant platforms behind him, ligne claire clean ink linework, flat printed colors, expressive european comic composition, crimson accents, cobalt blue shadows, acid yellow station lights, bold pop art color blocking, subtle halftone dots, slightly aged paper texture, screen-print imperfections, sophisticated vintage french album aesthetic, cinematic negative space, no photorealism civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143042310",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/170375af-edf6-4dab-b990-cececb60f230/original=true/170375af-edf6-4dab-b990-cececb60f230.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143057638",
+      "title": "Civitai prompt 143057638",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, high res, ultra detailed, very aesthetic, best quality, best hands, best eyes, open eyes, detailed, depth of field, dynamic angle, Dutch angle, anime coloring, anime screencap, anime screenshot, 1girl, solo, alone, looking at viewer, confident, curvy, attractive, graceful, wet, sweat drop visible on face, sweating a lot, elegant posture, female, (thick lips), (thick lashes same color as the silver/white hair), dim light on darkness, cold colors, clean composition, depth of field She is beautiful bodyguard. She smiles seductively. She is sitting on her bed. She is gonna protects you. She is dressed sharply in a black suit jacket layered over a crisp white collared shirt and a glossy black tie, accented by black choker around her neck. She wears large, ornate sophisticated look teal circlet, (tomboy:1.5), thick lips, thick lashes, solo, hair over one eye and both ears cover, short inverse bob hair with blunt bangs",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143057638",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000ca2ec-c3c1-4286-8e61-456b294444a7/original=true/000ca2ec-c3c1-4286-8e61-456b294444a7.jpeg",
+      "model_version_ids": [
+        2883731
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 872979434,
+      "negative_prompt": "ears, blur,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-17T19:02:50.919628+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "223e141428fff5b8879ecfca3e51913cf2470138bc29d47bcccf803e5db28992",
+      "prompt_ar": "تحفة فنية، دقة عالية، تفاصيل فائقة، جمالية للغاية، أفضل جودة، أفضل الأيدي، أفضل العيون، عيون مفتوحة، تفصيلية، عمق المجال، زاوية ديناميكية، زاوية هولندية، تلوين الأنمي، لقطة شاشة للأنمي، لقطة شاشة للأنيمي، فتاة واحدة، منفردة، وحدها، تنظر إلى المشاهد، واثقة، متعرجة، جذابة، رشيقة، رطبة، قطرة عرق مرئية على الوجه، تتعرق كثيرًا، وضعية أنيقة، أنثى، (شفاه كثيفة)، (رموش كثيفة نفس لون الشعر الفضي/الأبيض)، ضوء خافت في الظلام، بارد الألوان، التركيبة النظيفة، عمق الميدان، إنها حارسة شخصية جميلة. تبتسم بشكل مغر. وهي تجلس على سريرها. إنها سوف تحميك كانت ترتدي سترة بدلة سوداء فوق قميص أبيض هش بياقة وربطة عنق سوداء لامعة، مزينة بقلادة سوداء حول رقبتها. إنها ترتدي دائرة كبيرة ومزخرفة ذات مظهر أنيق باللون الأزرق المخضر (الفتاة المسترجلة: 1.5)، وشفاه سميكة، ورموش كثيفة، منفردة، وشعر فوق عين واحدة وغطاء لكلا الأذنين، وشعر بوب قصير معكوس مع غرة حادة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-17T19:02:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143057638 image ai-image-prompts masterpiece, high res, ultra detailed, very aesthetic, best quality, best hands, best eyes, open eyes, detailed, depth of field, dynamic angle, dutch angle, anime coloring, anime screencap, anime screenshot, 1girl, solo, alone, looking at viewer, confident, curvy, attractive, graceful, wet, sweat drop visible on face, sweating a lot, elegant posture, female, (thick lips), (thick lashes same color as the silver/white hair), dim light on darkness, cold colors, clean composition, depth of field she is beautiful bodyguard. she smiles seductively. she is sitting on her bed. she is gonna protects you. she is dressed sharply in a black suit jacket layered over a crisp white collared shirt and a glossy black tie, accented by black choker around her neck. she wears large, ornate sophisticated look teal circlet, (tomboy:1.5), thick lips, thick lashes, solo, hair over one eye and both ears cover, short inverse bob hair with blunt bangs civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143057638",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000ca2ec-c3c1-4286-8e61-456b294444a7/original=true/000ca2ec-c3c1-4286-8e61-456b294444a7.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-17T08:45:44.902541+00:00",
-  "prompt_count": 486,
+  "generated_at": "2026-09-17T19:02:54.112257+00:00",
+  "prompt_count": 506,
   "translation": {
     "language": "ar",
-    "translated_count": 18,
-    "skipped_count": 466,
+    "translated_count": 20,
+    "skipped_count": 484,
     "failed_count": 2,
-    "updated_at": "2026-09-17T08:45:44Z"
+    "updated_at": "2026-09-17T19:02:53Z"
   }
 }
