@@ -21785,15 +21785,1356 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000ca2ec-c3c1-4286-8e61-456b294444a7/original=true/000ca2ec-c3c1-4286-8e61-456b294444a7.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-21675ec93635",
+      "title": "README.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Midjourney",
+        "Wan",
+        "Claude"
+      ],
+      "prompt": "---\n\n## 🎰 Qualitative Diffusion (QDAD) — New Technique\n\n**An N×N noun×verb grid: high-temp invent, critic rewrite, then one synthesizer.** Available as:\n\n1. **App Slot Machine Mode** in this app (full LangGraph engine + logs + matrix transparency)\n2. **Portable `/qdad` skill** for Grok Build and other agentic coders — no server required\n\n| Classical diffusion | Qualitative Diffusion (QDAD) |\n|---------------------|------------------------------|\n| Continuous noise in latent space | **Controlled qualitative noise** at high temperature |\n| Denoising network | **Critic agents** (reverse diffusion / score matching in language) |\n| Pixel / embedding basis | **Nouns × verbs** as orthogonal basis directions |\n| Image from a vague prompt | **Buildable agentic coding prompt** from a vague aesthetic app prompt |\n\n**How it works**\n\n1. **Foundation** — From your Midjourney-style intent, sample **N nouns** and **N verbs** (shared qualitative basis).\n2. **Grid** — Build an **N×N** grid of FeatureAgents. Cell *(i, j)* is permanently bound to `nouns[i] × verbs[j]`.\n3. **Forward diffusion** — In parallel, each agent invents one wild, imperfect feature at **noise temperature**.\n4. **Reverse diffusion** — For each denoising step, CriticAgents with the *same* noun+verb signature clean, sharpen, and implementabilize the matrix.\n5. **Decode** — A Synthesizer collapses the clean matrix into a structured **# App Build Prompt** you can hand to Grok-Build, Cursor, Claude Artifacts, etc.\n\n**Philosophy (strict)**\n\n- Language is the computational medium.\n- Nouns and verbs act as orthogonal basis directions.\n- High temperature = a sampling knob on the invent step.\n- Critic agents rewrite the same cell (design-language: reverse diffusion / score matching).\n- The whole process turns a vague aesthetic prompt into a concrete, buildable app specification. Quality versus one long prompt is unevaluated.\n\n**Why a grid (not a flat feature list)?** Features sit on a forced tensor product of basis directions. Exploration is *systematic*. Critics cannot change the signature of a cell — they score-match *along* that noun×verb chart. Synthesis is a separate decode step, not “pick the best idea.”\n\n| Run it… | Location |\n|---------|----------|\n| In-app | **App Slot Machine Mode** · `deepthink/qdad/` |\n| In Grok Build / any agent | [`skills/qdad/SKILL.md`](./skills/qdad/SKILL.md) · `/qdad` · release zip `qdad-skill-*.zip` |\n\n---\n\n## The Core Problem with \"Just Add More Agents\"\n\nTypical multi-agent setups (including many \"16 expert\" or \"army of agents\" brainstorming interfaces) work like this:\n\n- Spawn N agents with static or lightly templated personas.\n- Run them in parallel or loose conversation.\n- Synthesize once (or a few turns).\n- Done.\n\nYou get diversity of perspective, but the agents themselves do not become meaningfully better at the *specific* problem over time. There is no topology, no persistent specialization, no mechanism that rewires *how* the system thinks, and almost never a reusable artifact of the reasoning process.\n\nopen-deepthink treats agents like **neurons in a network** whose \"weights\" are rich natural-language personas, and whose learning rule is **Mirror Descent** — an LLM rewriting those prompts (not gradient descent). See [`docs/DESIGN_NOTES.md`](./docs/DESIGN_NOTES.md).\n\n---\n\n## What Makes a QNN Different\n\nA QNN is a directed, layered graph of LLM agents with three repeating phases per epoch:\n\n1. **Forward Pass** — Problem is decomposed across the topology. Layer 0 runs in parallel. Each subsequent layer receives context from the previous layer and builds deeper analysis. Information flows structurally, not just through a shared chat.\n\n2. **Qualitative Self-Attention (brainstorm)** — Within each epoch, neurons do **not** only see graph neighbors. Each agent scores a capped pool of past / non-local neurons by **lexical overlap** (persona tokens vs past text) and injects the top-k excerpts. No MatMul, no extra LLM call. Inspired by [colony](https://github.com/iblameandrew/colony). Implementation: `deepthink/self_attention.py`.\n\n3. **Reflection + Mirror Descent** — After synthesis, the system does not just \"critique the answer.\" It:\n   - Evaluates which agents struggled vs. succeeded on their specific sub-problems.\n   - Extracts attributes and \"hard requests\" from current personas.\n   - Uses a dense-spanner mechanism (or explicit mixing in Distillation) to **rewrite the system prompts, attributes, and skills** of agents for the next round.\n   - In Knowledge Distillation mode, literally **spawns evolved child agents** that inherit context memory and replace struggling parents in the live topology.\n\n4. **Problem Reframing** — A dedicated re-framer node looks at the current solution and formulates a *harder, more advanced version* of the problem. The network is then forced to solve the harder problem in the next epoch with its newly evolved agents.\n\nThis loop (decompose → structured forward **+ attend** → synthesize → reframe the goal → mutate the thinkers) is repeated for as many epochs as you allocate. The result is compounding depth rather than repeated breadth.\n\n---\n\n## Three Powerful Operating Modes\n\n### 1. ⚗️ Knowledge Distillation Mode (The Data Engine)\n\nThe most distinctive and high-leverage mode.\n\n- Fixed powerful topology: **1×2×2×2×2×2×1** (7 layers, 12 agents).\n- 12 distinct cognitive archetypes (The Initiator, Builder, Connector, Preserver, Performer, Analyst, Diplomat, Transformer, Explorer, Architect, Visionary, Dreamer) with hand-crafted system prompts, attributes, and skills.\n- **Task Master** decomposes the anchor question into 12 Socratically-linked sub-questions.\n- Full forward pass with layer-to-layer context.\n- **Mirror Descent** evaluates every agent-question pair. Hard agents trigger **live evolutionary replacement**: a Mixing Agent combines the struggling agent with the best resonant helper from the *current* grid. The child inherits the parent's 100k-token context memory and keeps the difficult question.\n- **Seed Creator** evolves the topic set itself each epoch, generating ontologically adjacent new topics.\n- Runs until your token budget is exhausted.\n\n**Primary output**: A structured JSON dataset of every (epoch, agent, archetype, question, answer) pair, plus a complete `topology_archive.json` containing the full evolutionary history (every system prompt mutation, every inheritance, every difficulty judgment).\n\nThis is not generic chat logs. It is **structured developmental trace data** (QA pairs + topology archive). The intent is that traces like these could help train later models. That use is **unevaluated**.\n\n### 2. 🧠 Brainstorming Mode (Full QNN Expert Panel)\n\nA chat-first interface that runs the **same QNN deepthink algorithm** as the portable `/qnn` skill — not a flat static expert panel.\n\n**Step-by-step each run:**\n\n0. **Brief** — Impasse/enrich summary from prompt + attachments  \n1. **Topology** — Auto (complexity → L×W×E) or Manual/Massive  \n2. **Seeds** — Verbs + nouns from the problem space (related + far semantic fields), sampled into per-column word-vectors — same spanning DNA as qualitative verb/noun bases  \n\n3. **Personas** — Input-span careers/attributes/skills from those guiding_words (layer 0 diverge; deeper layers converge/critique)  \n4. **Epoch loop** — Layered forward pass **with qualitative self-attention** → epoch map → Mirror Descent → harder reframe  \n5. **Solution-Space Report** — Divergent strategies with falsifiers and first probes (handoff to edit→run→debug)\n\n#### Self-attention inside the epoch (from colony QSA)\n\nFeed-forward edges only connect a neuron to the **previous layer**. Self-attention adds a second path: each agent scores a capped pool of **non-neighbor past neurons** (skipped earlier layers this epoch + other agents’ multi-epoch memory) and injects the top‑k as a sparse attended-value block.\n\n| Transformer | Brainstorm QSA (`deepthink/self_attention.py`) |\n|-------------|------------------------------------------------|\n| Tokens | QNN neurons (`agent_{layer}_{width}`) |\n| Q / K | Query persona traits vs past solution text |\n| Softmax | Strength buckets `none/low/med/high` + distance `near/mid/far` |\n| V | Excerpt + rationale injected into the agent prompt |\n| Attention matrix | `state[\"attention_edges\"]` (per-agent edge lists) |\n\nLogs: `LOG: [QNN ATTEND] agent_L_W self-attention → k non-local past neuron(s): …`\n\n- **Auto mode**: Complexity estimator recommends a small topology; hard cap **24 agents**.\n- **Manual mode**: You set L×W. CLI refuses runs estimated at >80 LLM calls unless `--yes` (or `--debug`).\n- Intermediate epochs produce compact **epoch maps**; the final epoch polishes the full report.\n- Rich markdown chat interface for the report and logs for each QNN step.\n\nUse this when you want deeper insight than a single model or a flat expert panel can deliver.\n\n### 3. 🎰 App Slot Machine Mode (Qualitative Diffusion App Designer)\n\nReplaces Algorithm Design Mode with **Qualitative Diffusion App Designer (QDAD)** — diffusion re-implemented at a purely qualitative scale.\n\n**Philosophy:** language = computational medium · nouns/verbs = orthogonal basis · high T = controlled noise · critics = reverse diffusion / score matching · vague prompt → buildable app spec (Midjourney for apps).\n\n| Layer | Path |\n|-------|------|\n| Package | `deepthink/qdad/` (`state`, `nodes`, `graph`, `pipeline`, `utils`) |\n| Chains | `deepthink/chains/qdad_chains.py` |\n| GUI | Same chat shell as Brainstorming + N / Temperature Scale / Denoising Steps / Noun-Verb T |\n| Graph | LangGraph: `foundation → grid → noise → denoise⟲ → synthesize` |\n\n- **Phase 0** — N nouns + N verbs (shared qualitative basis, noun/verb temperature)\n- **Phase 1** — N×N FeatureAgents permanently bound to `nouns[i] × verbs[j]`\n- **Phase 2** — Parallel forward diffusion (noise temperature)\n- **Phase 3** — Iterative reverse diffusion via CriticAgents (same signature)\n- **Phase 4** — Synthesizer → structured **agentic coding prompt** + transparent matrix\n\nFeed a Midjourney-style app prompt; hand the result to Grok-Build, Cursor, Claude Artifacts, etc.\n\n---\n\n## The Outputs That Actually Matter\n\nA single deep open-deepthink run produces far more than an answer:\n\n- **Evolved QNN artifacts** — Portable, versionable \"trained\" multi-agent systems you can share and reuse.\n- **Full evolutionary traces** — Every prompt before/after Mirror Descent, every difficulty classification, every child/parent relationship, every reframed problem.\n- **Structured distillation datasets** — Purpose-built for fine-tuning or synthetic data pipelines targeting advanced reasoning and multi-agent behavior.\n- **Interpretable intermediate state** — Because everything is explicit natural-language personas and traceable sub-problems, you can diagnose *why* the system thought what it thought at any layer and epoch.\n- **Accumulated executable knowledge** (in code modes) — Real modules that survived sandbox validation and were re-used.\n\nThese artifacts are the real product. The final synthesized answer is a byproduct.\n\n---\n\n## Why This Matters for Agentic Coding and Reasoning Research\n\n- **Test-time compute, done right and observably.** Many frontier systems hide their long reasoning inside a single model. open-deepthink makes the structure, specialization, and adaptation explicit and archivable.\n- **Traces, not proven training data.** Distillation writes QA pairs and topology archives. Whether those traces improve a base model is unevaluated.\n- **Reusable specialized reasoners.** An exported QNN stores evolved personas and structure. That is a different artifact from a single system prompt; we do not claim it is a better reasoner.\n- **Local and long-horizon by design.** Small topologies (2×2×1, 3×3×2) fit a laptop. Larger runs are an explicit, estimated cost.\n\n---\n\n## Technical Strengths\n\n- Built on **LangGraph** with cyclic graphs, parallel layers, and shared library engines for the UI, CLI, and skills.\n- Phase test suite + control-flow tests (`python tests/run_all.py`) with mock LLMs — no API keys. Includes a free **structural eval** (`deepthink eval`).\n- Clean provider model: only OpenRouter (cloud) and LlamaCpp / llama.cpp server (local).\n- Robust JSON handling, token tracking, streaming logs, RAPTOR indexing, AST+subprocess sandbox, disk-backed sessions, and a pre-run **cost estimator**.\n- Real export/import of QNN state. One `GraphState` (library = web).\n- Manual mode can grow large if you pass `--yes`; auto mode caps at 24 agents. Estimate first.\n\n---\n\n## Quick Start\n\n### A. Python package (algorithms library)\n\nAll three modes ship as an importable package — **no web server required**.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "iblameandrew/open-deepthink",
+      "source_url": "https://github.com/iblameandrew/open-deepthink/blob/b440af10fd8fc9550b3a70fc76761465aede7a4b/README.md",
+      "imported_at": "2026-09-18T08:21:03.755692+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "21675ec936351db3058e3ae830baa6c7c092517a36fc287985f4d5036057852f",
+      "prompt_ar": "---\n\n## 🎰 الانتشار النوعي (QDAD) — تقنية جديدة\n\n** شبكة اسم N × N × فعل: اختراع بدرجة حرارة عالية، وإعادة كتابة الناقد، ثم مركب واحد. ** متوفر على النحو التالي:\n\n1. **وضع App Slot Machine** في هذا التطبيق (محرك LangGraph الكامل + السجلات + شفافية المصفوفة)\n2. **مهارة `/qdad` المحمولة** لـ Grok Build والمبرمجين الوكيلين الآخرين - لا يلزم وجود خادم\n\n| الانتشار الكلاسيكي | الانتشار النوعي (QDAD) |\n|---------------------|----------------------------|\n| الضوضاء المستمرة في الفضاء الكامن | **الضوضاء النوعية الخاضعة للرقابة** عند درجة حرارة عالية |\n| شبكة تقليل الضوضاء | **الوكلاء الناقدون** (الانتشار العكسي/مطابقة النتائج في اللغة) |\n| بكسل / أساس التضمين | **الأسماء × الأفعال** كتوجيهات أساس متعامدة |\n| صورة من موجه غامض | ** موجه ترميز وكيل قابل للبناء ** من موجه تطبيق جمالي غامض |\n\n**كيفية العمل**\n\n1. **الأساس** — من أسلوب منتصف الرحلة الخاص بك، عينة **الأسماء N** و **الأفعال N** (أساس نوعي مشترك).\n2. **الشبكة** — أنشئ شبكة **N×N** من وكلاء الميزات. الخلية *(i, j)* مرتبطة بشكل دائم بـ `الأسماء[i] × الأفعال[j]`.\n3. **الانتشار الأمامي** — بالتوازي، يخترع كل وكيل ميزة جامحة وغير كاملة عند **درجة حرارة الضوضاء**.\n4. **الانتشار العكسي** — لكل خطوة لتقليل الضوضاء، يقوم CriticAgents الذين يحملون الاسم *نفس* + توقيع الفعل بتنظيف المصفوفة وشحذها وتنفيذها.\n5. **فك التشفير** — يقوم المُركِّب بتجميع المصفوفة النظيفة في شكل منظم **# App Build Prompt** الذي يمكنك تسليمه إلى Grok-Build، وCursor، وClaude Artifacts، وما إلى ذلك.\n\n**فلسفة (صارمة)**\n\n- اللغة هي الوسيلة الحسابية .\n- الأسماء والأفعال بمثابة توجيهات أساس متعامد.\n- درجة حرارة عالية = مقبض أخذ العينات في خطوة الاختراع.\n- يقوم العملاء الناقدون بإعادة كتابة نفس الخلية (لغة التصميم: الانتشار العكسي / مطابقة النتيجة).\n- تعمل العملية برمتها على تحويل المطالبة الجمالية الغامضة إلى مواصفات تطبيق ملموسة وقابلة للبناء. لم يتم تقييم الجودة مقابل موجه واحد طويل.\n\n** لماذا شبكة (وليست قائمة ميزات مسطحة)؟ ** تقع الميزات على منتج موتر قسري لاتجاهات الأساس. الاستكشاف *منهجي*. لا يستطيع النقاد تغيير توقيع الخلية - فهم يطابقون * على طول * مخطط الاسم × الفعل. التوليف هو خطوة منفصلة لفك التشفير، وليس \"اختيار أفضل فكرة\".\n\n| تشغيله… | الموقع |\n|---------|---------|\n| داخل التطبيق | **وضع آلة فتحة التطبيق** · `deepthink/qdad/` |\n| في جروك بيلد / اي وكيل | [`skills/qdad/SKILL.md`](./skills/qdad/SKILL.md) · `/qdad` · قم بتحرير الرمز البريدي `qdad-skill-*.zip` |\n\n---\n\n## المشكلة الأساسية في \"فقط قم بإضافة المزيد من الوكلاء\"\n\nتعمل الإعدادات النموذجية متعددة الوكلاء (بما في ذلك العديد من واجهات العصف الذهني \"16 خبيرًا\" أو \"جيش الوكلاء\") على النحو التالي:\n\n- نشر عملاء N بشخصيات ثابتة أو ذات قوالب خفيفة.\n- تشغيلها في محادثة متوازية أو فضفاضة.\n- التوليف مرة واحدة (أو بضع دورات).\n- منتهي.\n\nتحصل على تنوع في وجهات النظر، لكن الوكلاء أنفسهم لا يصبحون أفضل بشكل ملموس في المشكلة *المحددة* بمرور الوقت. لا توجد طوبولوجيا، ولا تخصص مستمر، ولا توجد آلية تعيد ضبط *كيفية* تفكير النظام، ولا توجد أبدًا قطعة أثرية قابلة لإعادة الاستخدام من عملية التفكير.\n\nيتعامل التفكير العميق المفتوح مع العملاء مثل **الخلايا العصبية في الشبكة** التي تمثل \"أوزانها\" شخصيات غنية باللغة الطبيعية، وقاعدة تعلمها هي **نزول المرآة** - وهو ماجستير في القانون يعيد كتابة تلك المطالبات (وليس نزول التدرج). راجع [`docs/DESIGN_NOTES.md`](./docs/DESIGN_NOTES.md).\n\n---\n\n## ما الذي يجعل شبكة QNN مختلفة؟\n\nQNN عبارة عن رسم بياني موجه متعدد الطبقات لوكلاء LLM مع ثلاث مراحل متكررة لكل عصر:\n\n1. **التمرير الأمامي** — المشكلة متحللة عبر الهيكل. تعمل الطبقة 0 بالتوازي. تتلقى كل طبقة لاحقة السياق من الطبقة السابقة وتقوم ببناء تحليل أعمق. تتدفق المعلومات بشكل هيكلي، وليس فقط من خلال الدردشة المشتركة.\n\n2. **الانتباه الذاتي النوعي (العصف الذهني)** — في كل فترة، لا ترى الخلايا العصبية سوى الرسم البياني المجاور. يسجل كل وكيل مجموعة محددة من الخلايا العصبية السابقة/غير المحلية عن طريق **التداخل المعجمي** (الرموز الشخصية مقابل النص السابق) ويدخل مقتطفات top-k. لا يوجد MatMul، ولا توجد مكالمة LLM إضافية. مستوحاة من [مستعمرة](https://github.com/iblameandrew/colony). التنفيذ: \"deepthink/self_attention.py\".\n\n3. **الانعكاس + نزول المرآة** — بعد التركيب، لا يقوم النظام فقط \"بنقد الإجابة\". هو:\n   - تقييم العملاء الذين ناضلوا مقابل النجاح في مشاكلهم الفرعية المحددة.\n   - يستخرج السمات و\"الطلبات الصعبة\" من الشخصيات الحالية.\n   - يستخدم آلية المفك الكثيف (أو المزج الواضح في التقطير) **لإعادة كتابة مطالبات النظام وسماته ومهاراته** الخاصة بالوكلاء للجولة التالية.\n   - في وضع تقطير المعرفة، **ينتج حرفيًا عوامل فرعية متطورة** ترث ذاكرة السياق وتحل محل الوالدين المتعثرين في الهيكل المباشر.\n\n4. **إعادة صياغة المشكلة** — تبحث عقدة إعادة صياغة المشكلة في الحل الحالي وتقوم بصياغة *نسخة أصعب وأكثر تقدمًا* من المشكلة. تُجبر الشبكة بعد ذلك على حل المشكلة الأصعب في الحقبة التالية باستخدام عملائها المتطورين حديثًا.\n\nتتكرر هذه الحلقة (تحليل ← منظم إلى الأمام **+ حضور** ← تركيب ← إعادة صياغة الهدف ← تغيير المفكرين) لعدد من العصور التي تخصصها. والنتيجة هي مضاعفة العمق بدلاً من الاتساع المتكرر.\n\n---\n\n## ثلاثة أوضاع تشغيل قوية\n\n### 1. ⚗️ وضع تقطير المعرفة (محرك البيانات)\n\nالوضع الأكثر تميزًا والرافعة المالية العالية.\n\n- طوبولوجيا قوية ثابتة: **1×2×2×2×2×2×1** (7 طبقات، 12 وكيل).\n- 12 نموذجًا إدراكيًا متميزًا (البادئ، والباني، والموصل، والحافظ، والمؤدي، والمحلل، والدبلوماسي، والمحول، والمستكشف، والمهندس المعماري، والحالم، والحالم) مع مطالبات وسمات ومهارات نظامية مصنوعة يدويًا.\n- **المهمة الرئيسية** تقسم السؤال الأساسي إلى 12 سؤالًا فرعيًا مرتبطًا بسقراطيًا.\n- تمريرة أمامية كاملة مع سياق طبقة إلى طبقة.\n- **Mirror Descent** يقوم بتقييم كل زوج من أسئلة الوكيل. تؤدي العوامل الصلبة إلى **الاستبدال التطوري المباشر**: يجمع عامل الخلط بين العامل المكافح وأفضل مساعد رنان من الشبكة *الحالية*. يرث الطفل ذاكرة السياق التي تبلغ 100 كيلو بايت الخاصة بالوالد ويحتفظ بالسؤال الصعب.\n- **منشئ البذور** يطور الموضوع الذي يضعه لنفسه في كل عصر، مما يؤدي إلى إنشاء موضوعات جديدة متجاورة وجوديًا.\n- يعمل حتى يتم استنفاد ميزانية الرمز المميز الخاص بك.\n\n**المخرجات الأساسية**: مجموعة بيانات JSON منظمة لكل زوج (عصر، وكيل، نموذج أصلي، سؤال، إجابة)، بالإضافة إلى `topology_archive.json` كامل يحتوي على التاريخ التطوري الكامل (كل طفرة في النظام، كل وراثة، كل حكم صعب).\n\nهذه ليست سجلات دردشة عامة. إنها **بيانات التتبع التنموي المنظمة** (أزواج ضمان الجودة + أرشيف الهيكل). والقصد من ذلك هو أن مثل هذه الآثار يمكن أن تساعد في تدريب النماذج اللاحقة. هذا الاستخدام **غير مقيّم**.\n\n### 2. 🧠 وضع العصف الذهني (فريق خبراء QNN الكامل)\n\nواجهة الدردشة الأولى التي تدير **نفس خوارزمية QNN Deepthink** مثل مهارة `/qnn` المحمولة - وليست لوحة خبراء ثابتة مسطحة.\n\n** خطوة بخطوة كل جولة: **\n\n0. **موجز** — الطريق المسدود/ملخص إثراء من الموجه + المرفقات  \n1. **الطوبولوجيا** — تلقائي (التعقيد → L×W×E) أو يدوي/ضخم  \n2. **البذور** — أفعال + أسماء من مساحة المشكلة (مجالات ذات صلة + مجالات دلالية بعيدة)، تم أخذ عينات منها في ناقلات الكلمات لكل عمود — نفس الحمض النووي الممتد كقواعد فعل/اسم نوعية  \n\n3. **الشخصيات** — وظائف/سمات/مهارات تمتد على نطاق الإدخال من تلك الكلمات التوجيهية (الطبقة 0 تتباعد؛ الطبقات الأعمق تتقارب/النقد)  \n4. **حلقة العصر** — تمريرة أمامية متعددة الطبقات **مع اهتمام ذاتي نوعي** ← خريطة العصر ← هبوط المرآة ← إعادة صياغة أصعب  \n5. **تقرير مساحة الحل** — إستراتيجيات متباينة باستخدام أدوات التزييف والمسابير الأولى (التسليم للتحرير → التشغيل → تصحيح الأخطاء)\n\n#### الاهتمام بالذات داخل العصر (من مستعمرة QSA)\n\nتقوم حواف التغذية الأمامية فقط بتوصيل الخلايا العصبية بـ **الطبقة السابقة**. يضيف الاهتمام الذاتي مسارًا ثانيًا: يسجل كل وكيل مجموعة محددة من **الخلايا العصبية السابقة غير المجاورة** (تم تخطي الطبقات السابقة في هذه الحقبة + الذاكرة متعددة العصور للوكلاء الآخرين) ويحقن أعلى k ككتلة متفرقة ذات قيمة حاضرة.\n\n| محول | العصف الذهني QSA (`deepthink/self_attention.py`) |\n|-------------|------------------------------------------------|\n| الرموز | الخلايا العصبية QNN (`agent_{layer}_{width}`) |\n| س/ ك | الاستعلام عن السمات الشخصية مقابل نص الحل السابق |\n| سوفت ماكس | دلاء القوة `لا شيء/منخفض/متوسط/مرتفع` + المسافة `قريب/منتصف/بعيد` |\n| الخامس | مقتطف + الأساس المنطقي الذي تم إدخاله في موجه الوكيل |\n| مصفوفة الانتباه | `state[\"attention_edges\"]` (قوائم الحواف لكل وكيل) |\n\nالسجلات: `السجل: [QNN ATTEND] Agent_L_W الاهتمام الذاتي → k الخلايا العصبية السابقة غير المحلية: ...`\n\n- **الوضع التلقائي**: يوصي مُقدِّر التعقيد بهيكل صغير؛ غطاء صلب ** 24 وكيلًا **.\n- **الوضع اليدوي**: يمكنك ضبط الطول × العرض. ترفض واجهة سطر الأوامر (CLI) عمليات التشغيل المقدرة بأكثر من 80 مكالمة LLM ما لم تكن `--yes` (أو `--debug`).\n- تنتج العصور المتوسطة **خرائط عصر** مدمجة؛ العصر الأخير يصقل التقرير الكامل.\n- واجهة دردشة تخفيض السعر الغنية للتقرير والسجلات لكل خطوة من خطوات QNN.\n\nاستخدم هذا عندما تريد رؤية أعمق مما يمكن أن يقدمه نموذج واحد أو لجنة خبراء مسطحة.\n\n### 3. 🎰 وضع App Slot Machine (مصمم تطبيق الانتشار النوعي)\n\nيستبدل وضع تصميم الخوارزمية بـ **مصمم تطبيق النشر النوعي (QDAD)** - إعادة تنفيذ النشر على نطاق نوعي بحت.\n\n**الفلسفة:** اللغة = وسيط حسابي · الأسماء/الأفعال = أساس متعامد · ارتفاع T = ضوضاء متحكم فيها · النقاد = الانتشار العكسي / مطابقة النتيجة · موجه غامض → مواصفات التطبيق القابلة للبناء (رحلة منتصف العمر للتطبيقات).\n\n| طبقة | المسار |\n|-------|------|\n| الحزمة | `deepthink/qdad/` ('state`، `nodes`، `graph`، `pipeline`، `utils`) |\n| سلاسل | `deepthink/chains/qdad_chains.py` |\n| واجهة المستخدم الرسومية | نفس غلاف الدردشة مثل Brainstorming + N / مقياس درجة الحرارة / خطوات تقليل الضوضاء / Noun-Verb T |\n| رسم بياني | LangGraph: `الأساس ← الشبكة ← الضوضاء ← تقليل الضوضاء ⟲ ← التركيب` |\n\n- **المرحلة 0** — الأسماء N + الأفعال N (أساس نوعي مشترك، درجة حرارة الاسم/الفعل)\n- **المرحلة 1** — N×N FeaturesAgents مرتبطون بشكل دائم بـ `الأسماء[i] × الأفعال[j]`\n- **المرحلة الثانية** — الانتشار الأمامي المتوازي (درجة حرارة الضوضاء)\n- **المرحلة 3** — الانتشار العكسي التكراري عبر CriticAgents (نفس التوقيع)\n- **المرحلة 4** — المُركِّب → منظم **موجه الترميز الوكيل** + مصفوفة شفافة\n\nتغذية موجه التطبيق على غرار Midjourney؛ قم بتسليم النتيجة إلى Grok-Build وCursor وClaude Artifacts وما إلى ذلك.\n\n---\n\n## المخرجات المهمة بالفعل\n\nإن جولة واحدة من التفكير العميق المنفتح تنتج أكثر بكثير من مجرد إجابة:\n\n- **عناصر QNN المتطورة** — أنظمة متعددة الوكلاء محمولة وقابلة للإصدار \"مدربة\" يمكنك مشاركتها وإعادة استخدامها.\n- **آثار تطورية كاملة** — كل مطالبة قبل/بعد هبوط المرآة، كل تصنيف للصعوبة، كل علاقة بين الطفل والوالد، كل مشكلة تم إعادة صياغتها.\n- **مجموعات بيانات التقطير المنظمة** — مصممة خصيصًا للضبط الدقيق أو خطوط أنابيب البيانات الاصطناعية التي تستهدف الاستدلال المتقدم والسلوك متعدد الوكلاء.\n- **حالة وسيطة قابلة للتفسير** — نظرًا لأن كل شيء عبارة عن شخصيات صريحة بلغة طبيعية ومشكلات فرعية يمكن تتبعها، يمكنك تشخيص *لماذا* يفكر النظام بما كان يفكر فيه في أي طبقة أو عصر.\n- **المعرفة القابلة للتنفيذ المتراكمة** (في أوضاع التعليمات البرمجية) — وحدات حقيقية نجت من التحقق من صحة وضع الحماية وتم إعادة استخدامها.\n\nهذه القطع الأثرية هي المنتج الحقيقي. الإجابة المركبة النهائية هي نتيجة ثانوية.\n\n---\n\n## لماذا يعد هذا مهمًا لأبحاث الترميز والاستدلال\n\n- **حساب وقت الاختبار، يتم إجراؤه بشكل صحيح ويمكن ملاحظته.** تخفي العديد من الأنظمة الحدودية تفكيرها الطويل داخل نموذج واحد. التفكير العميق المفتوح يجعل الهيكل والتخصص والتكيف واضحًا وقابلاً للأرشفة.\n- **الآثار، بيانات التدريب غير المثبتة.** يكتب التقطير أزواج ضمان الجودة وأرشيفات الهيكل. ما إذا كانت هذه الآثار تعمل على تحسين النموذج الأساسي أم لا، فهو أمر غير مقيم.\n- **مفكرات متخصصة قابلة لإعادة الاستخدام.** طورت متاجر QNN المصدرة الشخصيات والبنية. وهذا أمر مختلف عن موجه نظام واحد؛ ونحن لا ندعي أنه أفضل العقل.\n- **أفق محلي وطويل حسب التصميم.** هياكل صغيرة (2×2×1، 3×3×2) تناسب جهاز كمبيوتر محمول. تعتبر عمليات التشغيل الأكبر تكلفة صريحة ومقدرة.\n\n---\n\n## نقاط القوة التقنية\n\n- مبني على **LangGraph** مع الرسوم البيانية الدورية والطبقات المتوازية ومحركات المكتبة المشتركة لواجهة المستخدم وCLI والمهارات.\n- مجموعة اختبار المرحلة + اختبارات التحكم في التدفق (`python test/run_all.py`) مع LLMs وهمية - بدون مفاتيح API. يتضمن **تقييمًا هيكليًا** مجانيًا (`تقييم التفكير العميق`).\n- نموذج الموفر النظيف: فقط OpenRouter (سحابي) وخادم LlamaCpp / llama.cpp (محلي).\n- معالجة قوية لـ JSON، وتتبع الرمز المميز، وسجلات البث، وفهرسة RAPTOR، ووضع الحماية للعملية الفرعية AST+، والجلسات المدعومة بالقرص، و**مقدر التكلفة** الذي يتم تشغيله مسبقًا.\n- التصدير/الاستيراد الحقيقي لدولة QNN. `GraphState` واحد (مكتبة = ويب).\n- يمكن أن يكبر الوضع اليدوي إذا نجحت في `--نعم`؛ قبعات الوضع التلقائي في 24 وكيلا. تقدير أولا.\n\n---\n\n## بداية سريعة\n\n### أ. حزمة بايثون (مكتبة الخوارزميات)\n\nيتم شحن الأوضاع الثلاثة جميعها كحزمة قابلة للاستيراد — **لا يلزم وجود خادم ويب**.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Midjourney",
+        "Wan",
+        "Claude"
+      ],
+      "search_text": "readme.md prompt-engineering --- ## 🎰 qualitative diffusion (qdad) — new technique **an n×n noun×verb grid: high-temp invent, critic rewrite, then one synthesizer.** available as: 1. **app slot machine mode** in this app (full langgraph engine + logs + matrix transparency) 2. **portable `/qdad` skill** for grok build and other agentic coders — no server required | classical diffusion | qualitative diffusion (qdad) | |---------------------|------------------------------| | continuous noise in latent space | **controlled qualitative noise** at high temperature | | denoising network | **critic agents** (reverse diffusion / score matching in language) | | pixel / embedding basis | **nouns × verbs** as orthogonal basis directions | | image from a vague prompt | **buildable agentic coding prompt** from a vague aesthetic app prompt | **how it works** 1. **foundation** — from your midjourney-style intent, sample **n nouns** and **n verbs** (shared qualitative basis). 2. **grid** — build an **n×n** grid of featureagents. cell *(i, j)* is permanently bound to `nouns[i] × verbs[j]`. 3. **forward diffusion** — in parallel, each agent invents one wild, imperfect feature at **noise temperature**. 4. **reverse diffusion** — for each denoising step, criticagents with the *same* noun+verb signature clean, sharpen, and implementabilize the matrix. 5. **decode** — a synthesizer collapses the clean matrix into a structured **# app build prompt** you can hand to grok-build, cursor, claude artifacts, etc. **philosophy (strict)** - language is the computational medium. - nouns and verbs act as orthogonal basis directions. - high temperature = a sampling knob on the invent step. - critic agents rewrite the same cell (design-language: reverse diffusion / score matching). - the whole process turns a vague aesthetic prompt into a concrete, buildable app specification. quality versus one long prompt is unevaluated. **why a grid (not a flat feature list)?** features sit on a forced tensor product of basis directions. exploration is *systematic*. critics cannot change the signature of a cell — they score-match *along* that noun×verb chart. synthesis is a separate decode step, not “pick the best idea.” | run it… | location | |---------|----------| | in-app | **app slot machine mode** · `deepthink/qdad/` | | in grok build / any agent | [`skills/qdad/skill.md`](./skills/qdad/skill.md) · `/qdad` · release zip `qdad-skill-*.zip` | --- ## the core problem with \"just add more agents\" typical multi-agent setups (including many \"16 expert\" or \"army of agents\" brainstorming interfaces) work like this: - spawn n agents with static or lightly templated personas. - run them in parallel or loose conversation. - synthesize once (or a few turns). - done. you get diversity of perspective, but the agents themselves do not become meaningfully better at the *specific* problem over time. there is no topology, no persistent specialization, no mechanism that rewires *how* the system thinks, and almost never a reusable artifact of the reasoning process. open-deepthink treats agents like **neurons in a network** whose \"weights\" are rich natural-language personas, and whose learning rule is **mirror descent** — an llm rewriting those prompts (not gradient descent). see [`docs/design_notes.md`](./docs/design_notes.md). --- ## what makes a qnn different a qnn is a directed, layered graph of llm agents with three repeating phases per epoch: 1. **forward pass** — problem is decomposed across the topology. layer 0 runs in parallel. each subsequent layer receives context from the previous layer and builds deeper analysis. information flows structurally, not just through a shared chat. 2. **qualitative self-attention (brainstorm)** — within each epoch, neurons do **not** only see graph neighbors. each agent scores a capped pool of past / non-local neurons by **lexical overlap** (persona tokens vs past text) and injects the top-k excerpts. no matmul, no extra llm call. inspired by [colony](https://github.com/iblameandrew/colony). implementation: `deepthink/self_attention.py`. 3. **reflection + mirror descent** — after synthesis, the system does not just \"critique the answer.\" it: - evaluates which agents struggled vs. succeeded on their specific sub-problems. - extracts attributes and \"hard requests\" from current personas. - uses a dense-spanner mechanism (or explicit mixing in distillation) to **rewrite the system prompts, attributes, and skills** of agents for the next round. - in knowledge distillation mode, literally **spawns evolved child agents** that inherit context memory and replace struggling parents in the live topology. 4. **problem reframing** — a dedicated re-framer node looks at the current solution and formulates a *harder, more advanced version* of the problem. the network is then forced to solve the harder problem in the next epoch with its newly evolved agents. this loop (decompose → structured forward **+ attend** → synthesize → reframe the goal → mutate the thinkers) is repeated for as many epochs as you allocate. the result is compounding depth rather than repeated breadth. --- ## three powerful operating modes ### 1. ⚗️ knowledge distillation mode (the data engine) the most distinctive and high-leverage mode. - fixed powerful topology: **1×2×2×2×2×2×1** (7 layers, 12 agents). - 12 distinct cognitive archetypes (the initiator, builder, connector, preserver, performer, analyst, diplomat, transformer, explorer, architect, visionary, dreamer) with hand-crafted system prompts, attributes, and skills. - **task master** decomposes the anchor question into 12 socratically-linked sub-questions. - full forward pass with layer-to-layer context. - **mirror descent** evaluates every agent-question pair. hard agents trigger **live evolutionary replacement**: a mixing agent combines the struggling agent with the best resonant helper from the *current* grid. the child inherits the parent's 100k-token context memory and keeps the difficult question. - **seed creator** evolves the topic set itself each epoch, generating ontologically adjacent new topics. - runs until your token budget is exhausted. **primary output**: a structured json dataset of every (epoch, agent, archetype, question, answer) pair, plus a complete `topology_archive.json` containing the full evolutionary history (every system prompt mutation, every inheritance, every difficulty judgment). this is not generic chat logs. it is **structured developmental trace data** (qa pairs + topology archive). the intent is that traces like these could help train later models. that use is **unevaluated**. ### 2. 🧠 brainstorming mode (full qnn expert panel) a chat-first interface that runs the **same qnn deepthink algorithm** as the portable `/qnn` skill — not a flat static expert panel. **step-by-step each run:** 0. **brief** — impasse/enrich summary from prompt + attachments 1. **topology** — auto (complexity → l×w×e) or manual/massive 2. **seeds** — verbs + nouns from the problem space (related + far semantic fields), sampled into per-column word-vectors — same spanning dna as qualitative verb/noun bases 3. **personas** — input-span careers/attributes/skills from those guiding_words (layer 0 diverge; deeper layers converge/critique) 4. **epoch loop** — layered forward pass **with qualitative self-attention** → epoch map → mirror descent → harder reframe 5. **solution-space report** — divergent strategies with falsifiers and first probes (handoff to edit→run→debug) #### self-attention inside the epoch (from colony qsa) feed-forward edges only connect a neuron to the **previous layer**. self-attention adds a second path: each agent scores a capped pool of **non-neighbor past neurons** (skipped earlier layers this epoch + other agents’ multi-epoch memory) and injects the top‑k as a sparse attended-value block. | transformer | brainstorm qsa (`deepthink/self_attention.py`) | |-------------|------------------------------------------------| | tokens | qnn neurons (`agent_{layer}_{width}`) | | q / k | query persona traits vs past solution text | | softmax | strength buckets `none/low/med/high` + distance `near/mid/far` | | v | excerpt + rationale injected into the agent prompt | | attention matrix | `state[\"attention_edges\"]` (per-agent edge lists) | logs: `log: [qnn attend] agent_l_w self-attention → k non-local past neuron(s): …` - **auto mode**: complexity estimator recommends a small topology; hard cap **24 agents**. - **manual mode**: you set l×w. cli refuses runs estimated at >80 llm calls unless `--yes` (or `--debug`). - intermediate epochs produce compact **epoch maps**; the final epoch polishes the full report. - rich markdown chat interface for the report and logs for each qnn step. use this when you want deeper insight than a single model or a flat expert panel can deliver. ### 3. 🎰 app slot machine mode (qualitative diffusion app designer) replaces algorithm design mode with **qualitative diffusion app designer (qdad)** — diffusion re-implemented at a purely qualitative scale. **philosophy:** language = computational medium · nouns/verbs = orthogonal basis · high t = controlled noise · critics = reverse diffusion / score matching · vague prompt → buildable app spec (midjourney for apps). | layer | path | |-------|------| | package | `deepthink/qdad/` (`state`, `nodes`, `graph`, `pipeline`, `utils`) | | chains | `deepthink/chains/qdad_chains.py` | | gui | same chat shell as brainstorming + n / temperature scale / denoising steps / noun-verb t | | graph | langgraph: `foundation → grid → noise → denoise⟲ → synthesize` | - **phase 0** — n nouns + n verbs (shared qualitative basis, noun/verb temperature) - **phase 1** — n×n featureagents permanently bound to `nouns[i] × verbs[j]` - **phase 2** — parallel forward diffusion (noise temperature) - **phase 3** — iterative reverse diffusion via criticagents (same signature) - **phase 4** — synthesizer → structured **agentic coding prompt** + transparent matrix feed a midjourney-style app prompt; hand the result to grok-build, cursor, claude artifacts, etc. --- ## the outputs that actually matter a single deep open-deepthink run produces far more than an answer: - **evolved qnn artifacts** — portable, versionable \"trained\" multi-agent systems you can share and reuse. - **full evolutionary traces** — every prompt before/after mirror descent, every difficulty classification, every child/parent relationship, every reframed problem. - **structured distillation datasets** — purpose-built for fine-tuning or synthetic data pipelines targeting advanced reasoning and multi-agent behavior. - **interpretable intermediate state** — because everything is explicit natural-language personas and traceable sub-problems, you can diagnose *why* the system thought what it thought at any layer and epoch. - **accumulated executable knowledge** (in code modes) — real modules that survived sandbox validation and were re-used. these artifacts are the real product. the final synthesized answer is a byproduct. --- ## why this matters for agentic coding and reasoning research - **test-time compute, done right and observably.** many frontier systems hide their long reasoning inside a single model. open-deepthink makes the structure, specialization, and adaptation explicit and archivable. - **traces, not proven training data.** distillation writes qa pairs and topology archives. whether those traces improve a base model is unevaluated. - **reusable specialized reasoners.** an exported qnn stores evolved personas and structure. that is a different artifact from a single system prompt; we do not claim it is a better reasoner. - **local and long-horizon by design.** small topologies (2×2×1, 3×3×2) fit a laptop. larger runs are an explicit, estimated cost. --- ## technical strengths - built on **langgraph** with cyclic graphs, parallel layers, and shared library engines for the ui, cli, and skills. - phase test suite + control-flow tests (`python tests/run_all.py`) with mock llms — no api keys. includes a free **structural eval** (`deepthink eval`). - clean provider model: only openrouter (cloud) and llamacpp / llama.cpp server (local). - robust json handling, token tracking, streaming logs, raptor indexing, ast+subprocess sandbox, disk-backed sessions, and a pre-run **cost estimator**. - real export/import of qnn state. one `graphstate` (library = web). - manual mode can grow large if you pass `--yes`; auto mode caps at 24 agents. estimate first. --- ## quick start ### a. python package (algorithms library) all three modes ship as an importable package — **no web server required**. github review midjourney wan claude midjourney wan claude",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/iblameandrew/open-deepthink/blob/b440af10fd8fc9550b3a70fc76761465aede7a4b/README.md",
+          "source_repository": "iblameandrew/open-deepthink"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143103812",
+      "title": "Civitai prompt 143103812",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "PGM300_style, solo, ultra quality, sharp detail, detailed face, sharp lineart,  masterpiece, ultra quality, detailed clothes, PGM300_style, AmericanSoldier, anthro, fox, foxgirl, female, averi, furry, green eyes, fur, clothed, thin waist, big chest, skinny, clothes, camo clothes, military uniform, pouches, military gear, helmet, knee pads, load bearing vest, complex background, desert,  looking at viewer, smile, cactuses, pose, turned to camera, tan camo, tan clothes, tan helmet, tan camo shirt, tan camo pants, looking serious, salute, standing straight, gun, holding gu, m4 carabine, camp, sandbags, military camp, military base,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143103812",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d056ae1-f02b-41a2-8c00-56ce338b0278/original=true/0d056ae1-f02b-41a2-8c00-56ce338b0278.jpeg",
+      "model_version_ids": [
+        1477232,
+        1586878,
+        2066978,
+        2961728
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 372983052,
+      "negative_prompt": "Covered face, obscured eyes, fat, ugly, lewd unclothed, saluting with both hands, both hands in the air, two hands in the air, brown hair, tan hair,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756201+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "13dae12844a35aaa95f326f519c9ef47fe6a303f8ced0ca6724f5167acb16cf3",
+      "prompt_ar": "PGM300_style، منفرد، جودة فائقة، تفاصيل حادة، وجه تفصيلي، خطي حاد، تحفة، جودة فائقة، ملابس مفصلة، PGM300_style، AmericanSoldier، anthro، fox، foxgirl، أنثى، averi، فروي، عيون خضراء، فرو، مكسو، خصر رفيع، صدر كبير، نحيف، ملابس، ملابس مموهة، زي عسكري، أكياس، معدات عسكرية، خوذة، وسادات الركبة، سترة تحمل، خلفية معقدة، صحراء، النظر إلى المشاهد، ابتسامة، صبار، وضعية، تحولت إلى الكاميرا، تان كامو، ملابس تان، خوذة تان، قميص تان كامو، بنطال كامو تان، تبدو جادة، تحية، الوقوف بشكل مستقيم، بندقية، عقد غو، M4 كارابين، معسكر، أكياس الرمل، معسكر عسكري، قاعدة عسكرية،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143103812 image ai-image-prompts pgm300_style, solo, ultra quality, sharp detail, detailed face, sharp lineart, masterpiece, ultra quality, detailed clothes, pgm300_style, americansoldier, anthro, fox, foxgirl, female, averi, furry, green eyes, fur, clothed, thin waist, big chest, skinny, clothes, camo clothes, military uniform, pouches, military gear, helmet, knee pads, load bearing vest, complex background, desert, looking at viewer, smile, cactuses, pose, turned to camera, tan camo, tan clothes, tan helmet, tan camo shirt, tan camo pants, looking serious, salute, standing straight, gun, holding gu, m4 carabine, camp, sandbags, military camp, military base, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143103812",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d056ae1-f02b-41a2-8c00-56ce338b0278/original=true/0d056ae1-f02b-41a2-8c00-56ce338b0278.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142528052",
+      "title": "Civitai prompt 142528052",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The ruins of an ancient temple where the massive supporting columns are made of solid frozen waterfalls, intricate ice crystals forming the architectural details, warm torchlight inside the temple contrasting with the cool blue ice, snow falling gently outside, captured in a photorealistic cinematic wide shot with dramatic contrast lighting, magical frozen antiquity atmosphere.",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142528052",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5bf9361-8f7b-40b7-a3b9-186d6b1c3513/original=true/b5bf9361-8f7b-40b7-a3b9-186d6b1c3513.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756223+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b2907cad44bf0bdaabae891f6c3c138d00b770f3f02de67d96e327ef548f6f0c",
+      "prompt_ar": "أطلال معبد قديم حيث تتكون الأعمدة الداعمة الضخمة من شلالات متجمدة صلبة، وبلورات ثلجية معقدة تشكل التفاصيل المعمارية، وضوء شعلة دافئ داخل المعبد يتناقض مع الجليد الأزرق البارد، والثلج يتساقط بلطف في الخارج، تم التقاطه في لقطة سينمائية واسعة النطاق مع إضاءة متباينة دراماتيكية، وأجواء العصور القديمة السحرية المتجمدة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142528052 image ai-image-prompts the ruins of an ancient temple where the massive supporting columns are made of solid frozen waterfalls, intricate ice crystals forming the architectural details, warm torchlight inside the temple contrasting with the cool blue ice, snow falling gently outside, captured in a photorealistic cinematic wide shot with dramatic contrast lighting, magical frozen antiquity atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142528052",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5bf9361-8f7b-40b7-a3b9-186d6b1c3513/original=true/b5bf9361-8f7b-40b7-a3b9-186d6b1c3513.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143107093",
+      "title": "Civitai prompt 143107093",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "C:\\Users\\Erika\\Pictures\\IMG_926.webp\nUltra-photorealistic, lifelike photograph. masterpiece, best quality, ultra detailed, photorealistic, 8k raw photo, film grain.\nA regal, dark-haired woman with striking golden eyes and black lipstick, adorned with gold facial markings and a triangular forehead ornament, wears an ornate dark blue and gold gown with high shoulder accents and red-trimmed edges; her hand is extended forward as if casting a spell or commanding attention, set against a softly blurred, swirling marble-like background in muted beige and cream tones, illuminated by soft directional lighting that highlights her features and jewelry, capturing a moment of intense focus and power",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143107093",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6c6f2ad-1c0c-4035-ab6d-5db82cfc5730/original=true/a6c6f2ad-1c0c-4035-ab6d-5db82cfc5730.jpeg",
+      "model": "926CustomMerge5-Krea2-1-fp16",
+      "model_version_ids": [
+        3336249
+      ],
+      "width": 2160,
+      "height": 3840,
+      "seed": 142798052,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756241+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "effed2c912d7351dcb35a7812f420ae0527b548b99f3d395f97d16ca736365d6",
+      "prompt_ar": "C:\\Users\\Erika\\Pictures\\IMG_926.webp\nصورة واقعية للغاية ونابضة بالحياة. تحفة فنية، أفضل جودة، تفاصيل فائقة، واقعية، صورة خام بدقة 8K، حبيبات الفيلم.\nامرأة ملكية ذات شعر داكن ذات عيون ذهبية ملفتة للنظر وأحمر شفاه أسود، مزينة بعلامات وجه ذهبية وزخرفة جبين مثلثة، ترتدي ثوبًا مزخرفًا باللونين الأزرق الداكن والذهبي مع لمسات من الكتف العالي وحواف مزينة باللون الأحمر؛ تمد يدها إلى الأمام كما لو كانت تلقي تعويذة أو تجذب الانتباه، على خلفية رخامية غير واضحة المعالم ودوامة بألوان البيج والكريمي الصامتة، مضاءة بإضاءة اتجاهية ناعمة تسلط الضوء على ملامحها ومجوهراتها، وتلتقط لحظة من التركيز الشديد والقوة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143107093 image ai-image-prompts c:\\users\\erika\\pictures\\img_926.webp ultra-photorealistic, lifelike photograph. masterpiece, best quality, ultra detailed, photorealistic, 8k raw photo, film grain. a regal, dark-haired woman with striking golden eyes and black lipstick, adorned with gold facial markings and a triangular forehead ornament, wears an ornate dark blue and gold gown with high shoulder accents and red-trimmed edges; her hand is extended forward as if casting a spell or commanding attention, set against a softly blurred, swirling marble-like background in muted beige and cream tones, illuminated by soft directional lighting that highlights her features and jewelry, capturing a moment of intense focus and power civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143107093",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6c6f2ad-1c0c-4035-ab6d-5db82cfc5730/original=true/a6c6f2ad-1c0c-4035-ab6d-5db82cfc5730.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143107065",
+      "title": "Civitai prompt 143107065",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "xiaowu,亚洲女性,，兔耳少女，深紫色高马尾长发，银质花纹头饰带紫宝石,\n\nDSLR portrait photography, realistic photograph, raw photo, natural skin texture, skin pores, realistic bokeh, natural soft office lighting, shallow depth of field, real fabric reflection, natural human facial features, lifelike skin tone, film grain, shot on Canon 5D4, natural body shadow, physical light refraction, authentic material texture\n\nTight close-up of a woman on a snowy street at night, one plain dark gray wool scarf wrapped high over her nose and mouth, only her eyes and the bridge of her nose visible, lashes holding tiny snowflakes. She wears one plain black coat, collar up, dark hair tucked away. Her eyes look slightly off-camera, catching the warm light of a streetlamp, a small white cloud of breath escaping above the scarf. Behind her, falling snow and blurred streetlight halos in amber against deep blue night, 85mm, f/1.8, focus locked on her eyes.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143107065",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34b711dd-4979-42d6-8c17-357e21554d74/original=true/34b711dd-4979-42d6-8c17-357e21554d74.jpeg",
+      "model": "redcraft23INT8INT4FP8_30Krea2",
+      "model_version_ids": [],
+      "width": 1040,
+      "height": 1944,
+      "seed": 639657674121277,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756271+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "76ca63fe9d2192a9a6485d487e251e9d993e3997c44604d73a11e5689751517b",
+      "prompt_ar": "شياوو، 亚洲女性،،،兔耳少女،深紫色高马尾长发،银质花纹头饰带紫宝石،\n\nتصوير بورتريه DSLR، صورة واقعية، صورة خام، ملمس جلد طبيعي، مسام الجلد، بوكيه واقعي، إضاءة مكتب طبيعية ناعمة، عمق مجال ضحل، انعكاس نسيج حقيقي، ملامح وجه بشرية طبيعية، لون بشرة نابض بالحياة، حبيبات فيلم، تم التقاطها بكاميرا Canon 5D4، ظل جسم طبيعي، انكسار الضوء المادي، نسيج مادة أصلية\n\nلقطة مقربة لامرأة في شارع مغطى بالثلوج ليلاً، ووشاح من الصوف الرمادي الداكن يلتف عاليًا فوق أنفها وفمها، ولا يظهر منها سوى عينيها وجسر أنفها، ورموشها تحمل ندفات ثلج صغيرة. ترتدي معطفًا أسود عاديًا، بياقة عالية، وشعر داكن مطوي بعيدًا. تبدو عيناها بعيدًا عن الكاميرا قليلاً، حيث تلتقط الضوء الدافئ لمصباح الشارع، وسحابة بيضاء صغيرة من التنفس تتسرب فوق الوشاح. خلفها، تساقط الثلوج وهالات أضواء الشوارع غير الواضحة باللون الكهرماني في مواجهة ليل أزرق داكن، مقاس 85 ملم، f/1.8، التركيز مثبت على عينيها.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143107065 image ai-image-prompts xiaowu,亚洲女性,，兔耳少女，深紫色高马尾长发，银质花纹头饰带紫宝石, dslr portrait photography, realistic photograph, raw photo, natural skin texture, skin pores, realistic bokeh, natural soft office lighting, shallow depth of field, real fabric reflection, natural human facial features, lifelike skin tone, film grain, shot on canon 5d4, natural body shadow, physical light refraction, authentic material texture tight close-up of a woman on a snowy street at night, one plain dark gray wool scarf wrapped high over her nose and mouth, only her eyes and the bridge of her nose visible, lashes holding tiny snowflakes. she wears one plain black coat, collar up, dark hair tucked away. her eyes look slightly off-camera, catching the warm light of a streetlamp, a small white cloud of breath escaping above the scarf. behind her, falling snow and blurred streetlight halos in amber against deep blue night, 85mm, f/1.8, focus locked on her eyes. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143107065",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34b711dd-4979-42d6-8c17-357e21554d74/original=true/34b711dd-4979-42d6-8c17-357e21554d74.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143107044",
+      "title": "Civitai prompt 143107044",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "C:\\Users\\Erika\\Pictures\\IMG_926.webp\nUltra-photorealistic, lifelike photograph. masterpiece, best quality, ultra detailed, photorealistic, 8k raw photo, film grain.\nA wary Soviet partisan woman crouching low behind stacked wooden crates in a sunlit warehouse at midday, captured in a full body shot with tall dusty windows and shafts of light visible behind her. She has fair skin with a dusting of freckles and long light-brown hair braided and tucked beneath a woolen pilotka side cap, her green eyes scanning the doorway with years of resistance experience, her full feminine figure coiled in layered partisan clothing. Wearing a fitted quilted jacket with patched elbows over a striped shirt that accentuates her elegant curves and a leather belt with pouches, she crouches in the shadow-line holding a PPSh submachine gun with a wooden stock and drum magazine ready at her chest, the weapon gleaming in the bright light shafts. Brilliant midday sun pierces the tall warehouse windows, illuminating floating dust motes and stacked supply crates in warm gold while creating clean highlights across her alert mature face. Pigeons flutter in the rafters above, and the distant sound of trucks echoes outside, creating an atmosphere of quiet resistance bathed in pure partisan luminosity.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143107044",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af6d4949-a9ff-4213-932e-c849cf2dce0d/original=true/af6d4949-a9ff-4213-932e-c849cf2dce0d.jpeg",
+      "model": "926CustomMerge5-Krea2-1-fp16",
+      "model_version_ids": [
+        3336249
+      ],
+      "width": 2160,
+      "height": 3840,
+      "seed": 142798052,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756293+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6eb746b9fa7d303e50aaba9c90ccdfe3c07c5cc74ee6895254aedab7c883951e",
+      "prompt_ar": "C:\\Users\\Erika\\Pictures\\IMG_926.webp\nصورة واقعية للغاية ونابضة بالحياة. تحفة فنية، أفضل جودة، تفاصيل فائقة، واقعية، صورة خام بدقة 8K، حبيبات الفيلم.\nامرأة حزبية سوفيتية حذرة تجلس خلف صناديق خشبية مكدسة في مستودع مضاء بنور الشمس في منتصف النهار، تم التقاطها في لقطة كاملة للجسم مع نوافذ طويلة مغبرة وأعمدة من الضوء مرئية خلفها. تتمتع ببشرة فاتحة مع غبار من النمش وشعر طويل بني فاتح مضفر ومدسوس تحت غطاء جانبي من الصوف، وعينيها الخضراوين تفحصان المدخل مع سنوات من الخبرة في المقاومة، وشخصيتها الأنثوية الكاملة ملفوفة في ملابس حزبية متعددة الطبقات. ترتدي سترة مبطنة مع مرفقين مرقّعين فوق قميص مخطط يبرز منحنياتها الأنيقة وحزامًا جلديًا مع جيوب، وهي تجثم في خط الظل ممسكة بمدفع رشاش PPSh مع مخزون خشبي ومجلة طبلة جاهزة عند صدرها، والسلاح يلمع في أعمدة الضوء الساطعة. تخترق شمس منتصف النهار الرائعة نوافذ المستودعات الطويلة، وتضيء ذرات الغبار العائمة وصناديق الإمداد المكدسة باللون الذهبي الدافئ بينما تخلق أضواء واضحة على وجهها الناضج المنبه. يرفرف الحمام على العوارض الخشبية في الأعلى، ويتردد صدى صوت الشاحنات البعيد في الخارج، مما يخلق جوًا من المقاومة الهادئة المغمورة بضياء حزبي خالص.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143107044 image ai-image-prompts c:\\users\\erika\\pictures\\img_926.webp ultra-photorealistic, lifelike photograph. masterpiece, best quality, ultra detailed, photorealistic, 8k raw photo, film grain. a wary soviet partisan woman crouching low behind stacked wooden crates in a sunlit warehouse at midday, captured in a full body shot with tall dusty windows and shafts of light visible behind her. she has fair skin with a dusting of freckles and long light-brown hair braided and tucked beneath a woolen pilotka side cap, her green eyes scanning the doorway with years of resistance experience, her full feminine figure coiled in layered partisan clothing. wearing a fitted quilted jacket with patched elbows over a striped shirt that accentuates her elegant curves and a leather belt with pouches, she crouches in the shadow-line holding a ppsh submachine gun with a wooden stock and drum magazine ready at her chest, the weapon gleaming in the bright light shafts. brilliant midday sun pierces the tall warehouse windows, illuminating floating dust motes and stacked supply crates in warm gold while creating clean highlights across her alert mature face. pigeons flutter in the rafters above, and the distant sound of trucks echoes outside, creating an atmosphere of quiet resistance bathed in pure partisan luminosity. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143107044",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af6d4949-a9ff-4213-932e-c849cf2dce0d/original=true/af6d4949-a9ff-4213-932e-c849cf2dce0d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106991",
+      "title": "Civitai prompt 143106991",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "FLUX"
+      ],
+      "prompt": "Astral Aura, A human hand, aged and weathered, emerges from dark, turbulent oil, as if its owner were hidden underoil. The fingers are slightly curved and spread, as if it were about to fully emerge. The oil, speckled with small, glittering particles, surrounds the hand, creating a luminous halo. The oil is dark, almost black, with golden reflections. The lighting is dim, with the main focus on the hand and surrounding oil. The composition is asymmetrical, with the hand positioned on the left side of the frame. The camera perspective is slightly from below, as if the viewer is looking up from the oil's surface. The hand occupies a large portion of the frame, emphasizing its importance, astral, colorful aura, vibrant energy,",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106991",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f5ccfd1-2267-4d5a-9807-dbc21575a6f3/original=true/2f5ccfd1-2267-4d5a-9807-dbc21575a6f3.jpeg",
+      "model": "flux_dev",
+      "model_version_ids": [
+        691639,
+        793777,
+        1244911,
+        1999263,
+        2033508,
+        2093133
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 94129683005317,
+      "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756310+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3475b4ad80db8eaab91a61e6d876de0b2af7f3ad13da48155d5ae89292880832",
+      "prompt_ar": "الهالة النجمية، يد بشرية عجوز ومتضررة، تخرج من الزيت المظلم المضطرب، كما لو كان صاحبها مختبئًا تحت الزيت. تكون الأصابع منحنية قليلاً ومنتشرة، كما لو كانت على وشك البروز بشكل كامل. يحيط الزيت، المرقط بجزيئات صغيرة لامعة، باليد، مما يخلق هالة مضيئة. الزيت داكن، أسود تقريبًا، مع انعكاسات ذهبية. الإضاءة خافتة، مع التركيز الأساسي على اليد والزيت المحيط بها. التركيبة غير متماثلة، مع وضع اليد على الجانب الأيسر من الإطار. منظور الكاميرا من الأسفل قليلاً، وكأن المشاهد ينظر إلى الأعلى من سطح الزيت. تشغل اليد جزءًا كبيرًا من الإطار، مما يؤكد أهميتها النجمية، وهالة الألوان، والطاقة النابضة بالحياة،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "FLUX"
+      ],
+      "search_text": "civitai prompt 143106991 image ai-image-prompts astral aura, a human hand, aged and weathered, emerges from dark, turbulent oil, as if its owner were hidden underoil. the fingers are slightly curved and spread, as if it were about to fully emerge. the oil, speckled with small, glittering particles, surrounds the hand, creating a luminous halo. the oil is dark, almost black, with golden reflections. the lighting is dim, with the main focus on the hand and surrounding oil. the composition is asymmetrical, with the hand positioned on the left side of the frame. the camera perspective is slightly from below, as if the viewer is looking up from the oil's surface. the hand occupies a large portion of the frame, emphasizing its importance, astral, colorful aura, vibrant energy, civitai ai-image imported api flux flux",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106991",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2f5ccfd1-2267-4d5a-9807-dbc21575a6f3/original=true/2f5ccfd1-2267-4d5a-9807-dbc21575a6f3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143107024",
+      "title": "Civitai prompt 143107024",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Expressive digital oil painting with heavy impasto brushwork, surrealist portrait of a humanoid figure, a giant pale hand is pressed against the face acting as a mask, a single piercing red eye with a concentric hypnotic spiral pupil is embedded in the palm of the hand, fragmented purple and indigo hair flowing in chaotic strokes, tattered royal attire with a prominent gold and ruby brooch, interior of a gothic library with towering bookshelves and tall arched windows, high-contrast chiaroscuro lighting, harsh white light streaming from the right creating deep cinematic shadows, color palette of deep violet, crimson, obsidian black and ivory white, thick visible paint textures and palette knife scrapings, distorted anatomy, psychological horror undertone, wide angle low perspective, shot on 35mm film with heavy grain and high saturation, color graded with deep moody purples and warm gold highlights, influence of Salvador Dalí and Yoshitaka Amano, ethereal and unsettling atmosphere, splattered paint effects, raw emotional intensity, fragmented composition.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143107024",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44e65ccd-46bd-418a-9470-d83b4ed87817/original=true/44e65ccd-46bd-418a-9470-d83b4ed87817.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1216,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756339+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "535a71d8425c01ea639d0215cb7df0fc9c253f6c7a7f6757ee8d8ece44c7fd4a",
+      "prompt_ar": "لوحة زيتية رقمية معبرة باستخدام فرشاة إمباستو ثقيلة، صورة سريالية لشخصية بشرية، يد شاحبة عملاقة مضغوطة على الوجه لتكون بمثابة قناع، عين حمراء ثاقبة مع تلميذ حلزوني منوم متحد المركز مدمج في كف اليد، شعر أرجواني ونيلي مجزأ يتدفق في ضربات فوضوية، ملابس ملكية ممزقة مع بروش بارز من الذهب والياقوت، داخل مكتبة قوطية مع أرفف كتب شاهقة وطويلة نوافذ مقوسة، إضاءة تشياروسكورو عالية التباين، ضوء أبيض قاس يتدفق من اليمين مما يخلق ظلال سينمائية عميقة، لوحة ألوان من اللون البنفسجي العميق، القرمزي، الأسود والأبيض العاجي، قوام الطلاء المرئي السميك وكشط سكين اللوحة، التشريح المشوه، مسحة الرعب النفسي، منظور منخفض واسع الزاوية، تم تصويره على فيلم مقاس 35 مم بحبيبات ثقيلة وتشبع عالي، لون متدرج مع درجات أرجوانية مزاجية عميقة وإبرازات ذهبية دافئة، تأثير سلفادور دالي ويوشيتاكا أمانو، الجو الأثيري والمقلق، وتأثيرات الطلاء المتناثرة، والكثافة العاطفية الخام، والتكوين المجزأ.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143107024 architecture ai-image-prompts expressive digital oil painting with heavy impasto brushwork, surrealist portrait of a humanoid figure, a giant pale hand is pressed against the face acting as a mask, a single piercing red eye with a concentric hypnotic spiral pupil is embedded in the palm of the hand, fragmented purple and indigo hair flowing in chaotic strokes, tattered royal attire with a prominent gold and ruby brooch, interior of a gothic library with towering bookshelves and tall arched windows, high-contrast chiaroscuro lighting, harsh white light streaming from the right creating deep cinematic shadows, color palette of deep violet, crimson, obsidian black and ivory white, thick visible paint textures and palette knife scrapings, distorted anatomy, psychological horror undertone, wide angle low perspective, shot on 35mm film with heavy grain and high saturation, color graded with deep moody purples and warm gold highlights, influence of salvador dalí and yoshitaka amano, ethereal and unsettling atmosphere, splattered paint effects, raw emotional intensity, fragmented composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143107024",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44e65ccd-46bd-418a-9470-d83b4ed87817/original=true/44e65ccd-46bd-418a-9470-d83b4ed87817.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106545",
+      "title": "Civitai prompt 143106545",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Back view of young Caucasian woman walking away along dirt path, long straight brown hair pulled tight into low ponytail secured with thin elastic band, loose strands framing nape of neck and upper shoulders. She wears faded denim jacket draped casually over torso, hem resting just above waistline. Foreground grassy field stretches into distance, transitioning to autumnal foliage—yellow birch leaves, dark evergreens lining horizon. In middle ground sits large house with reddish-brown roof partially obscured by tree branches, glowing softly against twilight sky. Above, expansive clouds painted in warm orange-pink gradients fading to cool violet-blue haze at zenith, scattered wispy cirrus formations catching last light. Lens flare streaks diagonally across lower-right corner, soft bokeh orbs dotting distant trees. Vintage Carl Zeiss Sonar lens captures shallow depth of field keeping subject sharp while blurring background elements gently. Color grading leans nostalgic sepia tone overlay reducing saturation but preserving warmth in cloud reflections. Analog film grain texture overlays entire frame subtly, mimicking 1990s Kodak Portra 800 aesthetic. Slight vignetting corners darken edges inward, drawing focus centrally onto figure silhouetted against vibrant sunset backdrop. Overall impression evokes serene melancholy solitude amid rustic countryside setting during golden hour transition period.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106545",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5b61920-f6b5-46a6-bbf0-122a3d8d7a67/original=true/d5b61920-f6b5-46a6-bbf0-122a3d8d7a67.jpeg",
+      "model": "krea2/CinEro-Krea2-bf16-v2c",
+      "model_version_ids": [],
+      "width": 1184,
+      "height": 1168,
+      "seed": 1093013307436738,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756374+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fac28455bc6227e99b2e0630a2e4958b5f8ce3ebaf1d394ebeadfbd9bb94a3e7",
+      "prompt_ar": "منظر خلفي لامرأة شابة قوقازية تسير بعيدًا على طول طريق ترابي، وشعر بني طويل مستقيم مشدود بإحكام إلى ذيل حصان منخفض مثبت بشريط مطاطي رفيع، وخيوط فضفاضة تؤطر مؤخرة العنق والكتفين العلويين. ترتدي سترة من الدنيم الباهت ملفوفة بشكل عرضي على الجذع، وتستقر الحاشية فوق خط الخصر مباشرةً. يمتد الحقل العشبي في المقدمة إلى مسافة بعيدة، ويتحول إلى أوراق الشجر الخريفية - أوراق البتولا الصفراء، والخضرة الداكنة التي تبطن الأفق. في الأرض الوسطى يوجد منزل كبير ذو سقف بني محمر تحجبه جزئيًا أغصان الأشجار، ويتوهج بهدوء في سماء الشفق. في الأعلى، تظهر سحب واسعة مطلية بتدرجات برتقالية وردية دافئة تتلاشى لتتحول إلى ضباب بارد باللون البنفسجي والأزرق عند ذروتها، وتشكيلات سمحاقية متناثرة تلتقط الضوء الأخير. يمتد توهج العدسة قطريًا عبر الزاوية اليمنى السفلية، وتنتشر الأجرام السماوية الناعمة على الأشجار البعيدة. تلتقط عدسة Vintage Carl Zeiss Sonar عمقًا ضحلًا للمجال مما يحافظ على وضوح الهدف مع تشويش عناصر الخلفية بلطف. يميل تدرج الألوان إلى تراكب درجة اللون البني الداكن الذي يبعث على الحنين إلى الماضي مما يقلل من التشبع مع الحفاظ على الدفء في انعكاسات السحابة. يغطي النسيج التناظري للفيلم الإطار بأكمله بمهارة، ويحاكي جمالية التسعينيات Kodak Portra 800. تعمل الزوايا المظللة قليلاً على تغميق الحواف إلى الداخل، مما يوجه التركيز مركزيًا إلى الشكل المظلل على خلفية غروب الشمس النابضة بالحياة. يثير الانطباع العام العزلة الحزينة والهادئة وسط أجواء الريف الريفي خلال فترة الساعة الذهبية الانتقالية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143106545 food ai-image-prompts back view of young caucasian woman walking away along dirt path, long straight brown hair pulled tight into low ponytail secured with thin elastic band, loose strands framing nape of neck and upper shoulders. she wears faded denim jacket draped casually over torso, hem resting just above waistline. foreground grassy field stretches into distance, transitioning to autumnal foliage—yellow birch leaves, dark evergreens lining horizon. in middle ground sits large house with reddish-brown roof partially obscured by tree branches, glowing softly against twilight sky. above, expansive clouds painted in warm orange-pink gradients fading to cool violet-blue haze at zenith, scattered wispy cirrus formations catching last light. lens flare streaks diagonally across lower-right corner, soft bokeh orbs dotting distant trees. vintage carl zeiss sonar lens captures shallow depth of field keeping subject sharp while blurring background elements gently. color grading leans nostalgic sepia tone overlay reducing saturation but preserving warmth in cloud reflections. analog film grain texture overlays entire frame subtly, mimicking 1990s kodak portra 800 aesthetic. slight vignetting corners darken edges inward, drawing focus centrally onto figure silhouetted against vibrant sunset backdrop. overall impression evokes serene melancholy solitude amid rustic countryside setting during golden hour transition period. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106545",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5b61920-f6b5-46a6-bbf0-122a3d8d7a67/original=true/d5b61920-f6b5-46a6-bbf0-122a3d8d7a67.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106677",
+      "title": "Civitai prompt 143106677",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Two young people occupy a sun-drenched interior dominated by large windows framing greenery outside. On the right, a fair-skinned woman with brown hair pulled back sits at a weathered wooden table, wearing a striped tank top and white trousers. She leans forward intensely over a closed laptop, illuminated by strong backlight that casts deep shadows on her face. To her left, another fair-skinned youth with curly dark hair sits cross-legged on a sofa upholstered in colorful abstract tapestry patterns. He wears a loose white t-shirt and grey sweatpants, gazing downward while holding a small bowl containing food and a spoon. Between them rests a tall amber glass bottle next to a jar filled with yellow liquid. Behind them hang walls decorated with vibrant geometric murals rendered in ochre blues and yellows. Sunlight streams through multiple panes creating intense highlights and soft vignettes across the scene. Vintage Carl Zeiss Sonar lens captures the image with heavy chromatic aberration along edges, soft focus rendering distant window foliage blurry while keeping subjects relatively crisp yet retaining slight haze typical of 90s analog film stock. Color grading emphasizes warm golden hour tones contrasting cool greens outside, producing a nostalgic indie aesthetic reminiscent of early digital cinema films. Lens flare artifacts appear subtly near upper corners where direct sunlight enters frame, adding authenticity to the retro vibe. Overall composition balances intimate domestic moments with bokeh effects blurring peripheral elements to emphasize interaction between characters and their shared workspace.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106677",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb2ba1cb-47b7-4a45-b6e9-d668e7d15aff/original=true/cb2ba1cb-47b7-4a45-b6e9-d668e7d15aff.jpeg",
+      "model": "krea2/CinEro-Krea2-bf16-v2c",
+      "model_version_ids": [],
+      "width": 1584,
+      "height": 880,
+      "seed": 362405907719323,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756398+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ef3af5b7847b9f205713f20e564f18dc3246d6679fe0b43f74455c5e4cd1b7a9",
+      "prompt_ar": "يشغل شابان مساحة داخلية مشمسة تهيمن عليها نوافذ كبيرة تحيط بالخضرة في الخارج. على اليمين، تجلس امرأة ذات بشرة فاتحة وشعر بني مشدود إلى الخلف على طاولة خشبية متهالكة، وترتدي قميصًا مخططًا وسروالًا أبيض. تميل إلى الأمام بكثافة فوق جهاز كمبيوتر محمول مغلق، مضاء بإضاءة خلفية قوية تلقي بظلال عميقة على وجهها. على يسارها، يجلس شاب آخر ذو بشرة فاتحة وشعر داكن مجعد على أريكة منجدة بأنماط نسيجية مجردة ملونة. يرتدي قميصًا أبيض فضفاضًا وسروالًا رياضيًا رماديًا، وينظر إلى الأسفل بينما يحمل وعاءًا صغيرًا يحتوي على طعام وملعقة. بينهما توجد زجاجة طويلة من الزجاج الكهرماني بجوار جرة مملوءة بسائل أصفر. وخلفها تتدلى جدران مزينة بجداريات هندسية نابضة بالحياة مطلية باللونين الأزرق والأصفر. يتدفق ضوء الشمس من خلال أجزاء متعددة مما يؤدي إلى إنشاء إضاءات مكثفة ومقالات صغيرة ناعمة عبر المشهد. تلتقط عدسة Vintage Carl Zeiss Sonar الصورة مع انحراف لوني ثقيل على طول الحواف، وتركيز ناعم يجعل أوراق الشجر البعيدة للنافذة ضبابية مع الحفاظ على الموضوعات واضحة نسبيًا مع الاحتفاظ بضباب طفيف نموذجي لمخزون الأفلام التناظرية في التسعينيات. يؤكد تدرج الألوان على درجات الساعة الذهبية الدافئة التي تتناقض مع اللون الأخضر البارد في الخارج، مما ينتج جمالية مستقلة تبعث على الحنين إلى الماضي تذكرنا بأفلام السينما الرقمية المبكرة. تظهر مؤثرات توهج العدسة بمهارة بالقرب من الزوايا العلوية حيث يدخل ضوء الشمس المباشر إلى الإطار، مما يضيف أصالة إلى الأجواء القديمة. يوازن التكوين العام اللحظات المنزلية الحميمة مع تأثيرات البوكيه التي تشوش العناصر الطرفية للتأكيد على التفاعل بين الشخصيات ومساحة العمل المشتركة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106677 advertising ai-image-prompts two young people occupy a sun-drenched interior dominated by large windows framing greenery outside. on the right, a fair-skinned woman with brown hair pulled back sits at a weathered wooden table, wearing a striped tank top and white trousers. she leans forward intensely over a closed laptop, illuminated by strong backlight that casts deep shadows on her face. to her left, another fair-skinned youth with curly dark hair sits cross-legged on a sofa upholstered in colorful abstract tapestry patterns. he wears a loose white t-shirt and grey sweatpants, gazing downward while holding a small bowl containing food and a spoon. between them rests a tall amber glass bottle next to a jar filled with yellow liquid. behind them hang walls decorated with vibrant geometric murals rendered in ochre blues and yellows. sunlight streams through multiple panes creating intense highlights and soft vignettes across the scene. vintage carl zeiss sonar lens captures the image with heavy chromatic aberration along edges, soft focus rendering distant window foliage blurry while keeping subjects relatively crisp yet retaining slight haze typical of 90s analog film stock. color grading emphasizes warm golden hour tones contrasting cool greens outside, producing a nostalgic indie aesthetic reminiscent of early digital cinema films. lens flare artifacts appear subtly near upper corners where direct sunlight enters frame, adding authenticity to the retro vibe. overall composition balances intimate domestic moments with bokeh effects blurring peripheral elements to emphasize interaction between characters and their shared workspace. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106677",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb2ba1cb-47b7-4a45-b6e9-d668e7d15aff/original=true/cb2ba1cb-47b7-4a45-b6e9-d668e7d15aff.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106924",
+      "title": "Civitai prompt 143106924",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8, BREAK, solo, SaiginaOC, 1girl, dark blue hair, yellow eye, eyepatch, heart printed eyepatch, ear piercings, black sleeveless top, breasts, midriff, navel, denim shorts, left arm tattoo, bandages, fingerless gloves, barefoot, polished nails, polished toenails, (((aged up))), big breasts, self portrait, smile, looking at viewer, outdoors, sunlight, shadows, evening lighting, natural lighting, forest, trees, grass, orange sky, sunset, sitting, (armpit focus), excessive sweating, soaking sweat, (sweat stain), ((excessive armpit hair)), sweating, armpit sweat, sweat stain, armpit focus, close-up of armpit macro shot of armpit, armpit hair, musk, steamy armpit, armpit odor, hairy legs,",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106924",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f738942a-8a19-4ce8-8d9f-09e168d97eb6/original=true/f738942a-8a19-4ce8-8d9f-09e168d97eb6.jpeg",
+      "model_version_ids": [
+        354187,
+        2883731,
+        3288168
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1785441901,
+      "negative_prompt": "Score_6, score_5, score_4, easynegative, watermark, logo, text, extra eyes, blurry, low poly, bad quality, black and white, doppelganger, 2girls, 3girls, 4girls, missing toes, extra toes, multiple toes, underage, loli, child, chibi, kid, small, flat chest, female child, big head, head bigger than the body, short, short height, small breasts, no breasts, aged down",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756412+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9511ddf32aa097f0c1e6b7bac5466e5460c2c012fb14ee3deb644f3df716c179",
+      "prompt_ar": "نتيجة_9، نتيجة_8، استراحة، منفرد، SaiginaOC، فتاة واحدة، شعر أزرق داكن، عين صفراء، رقعة عين، رقعة عين مطبوعة على شكل قلب، ثقب الأذن، قمة سوداء بلا أكمام، الثديين، الحجاب الحاجز، السرة، شورت جينز، وشم الذراع الأيسر، ضمادات، قفازات بدون أصابع، حافي القدمين، أظافر مصقولة، أظافر مصقولة، (((أكبر)))، ثديين كبيرين، صورة شخصية، ابتسامة، النظر إلى المشاهد، في الهواء الطلق، ضوء الشمس، الظلال، مساء الإضاءة، الإضاءة الطبيعية، الغابة، الأشجار، العشب، السماء البرتقالية، غروب الشمس، الجلوس، (التركيز على الإبط)، التعرق الزائد، العرق المبلّل، (بقعة العرق)، ((شعر الإبط الزائد)))، التعرق، عرق الإبط، بقعة العرق، التركيز على الإبط، لقطة قريبة للإبط من الإبط، شعر الإبط، المسك، الإبط البخاري، رائحة الإبط، الأرجل المشعرة،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143106924 photography ai-image-prompts score_9, score_8, break, solo, saiginaoc, 1girl, dark blue hair, yellow eye, eyepatch, heart printed eyepatch, ear piercings, black sleeveless top, breasts, midriff, navel, denim shorts, left arm tattoo, bandages, fingerless gloves, barefoot, polished nails, polished toenails, (((aged up))), big breasts, self portrait, smile, looking at viewer, outdoors, sunlight, shadows, evening lighting, natural lighting, forest, trees, grass, orange sky, sunset, sitting, (armpit focus), excessive sweating, soaking sweat, (sweat stain), ((excessive armpit hair)), sweating, armpit sweat, sweat stain, armpit focus, close-up of armpit macro shot of armpit, armpit hair, musk, steamy armpit, armpit odor, hairy legs, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106924",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f738942a-8a19-4ce8-8d9f-09e168d97eb6/original=true/f738942a-8a19-4ce8-8d9f-09e168d97eb6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143104357",
+      "title": "Civitai prompt 143104357",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "vintage Kodak Portra 800 texture, authentic camera look, tactile analog photography feel.\nyoung Asian woman, short dark brown bob hair, messy bangs blowing across face, monolid eyes, oriental facial features, natural skin texture, subtle skin pores, authentic look, realistic skin, neutral expression, slightly parted lips, thin red spaghetti strap dress, orange fabric, loose fit, bare shoulders, standing in profile facing left, looking directly at camera, blurred background, muted green and grey tones, soft diffused lighting, overcast daylight, volumetric light, shallow depth of field, 35mm lens, raw photo, film grain, high resolution, detailed hair strands, natural wind effect.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143104357",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/284c617b-ef0f-4511-a468-a97a76198cc1/original=true/284c617b-ef0f-4511-a468-a97a76198cc1.jpeg",
+      "model_version_ids": [],
+      "width": 2730,
+      "height": 4096,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756427+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f638ec09ad20faa2410b7be11e890e604b4bbaa5a4857127949576f8568e4fcd",
+      "prompt_ar": "نسيج Kodak Portra 800 العتيق، مظهر الكاميرا الأصلي، إحساس التصوير التناظري الملموس.\nامرأة آسيوية شابة، شعر قصير بني غامق، غرة فوضوية تهب على الوجه، عيون أحادية، ملامح وجه شرقية، ملمس جلد طبيعي، مسام جلدية خفية، مظهر أصيل، بشرة واقعية، تعبير محايد، شفاه متباعدة قليلاً، فستان أحمر رفيع بحزام سباغيتي، قماش برتقالي، قصة فضفاضة، أكتاف عارية، الوقوف في الجانب المواجه لليسار، النظر مباشرة إلى الكاميرا، خلفية غير واضحة، نغمات خضراء ورمادية صامتة، إضاءة ناعمة منتشرة، ضوء نهار ملبد، ضوء حجمي، عمق مجال ضحل، عدسة مقاس 35 مم، صورة خام، حبيبات الفيلم، دقة عالية، خصلات شعر مفصلة، تأثير الرياح الطبيعي.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143104357 image ai-image-prompts vintage kodak portra 800 texture, authentic camera look, tactile analog photography feel. young asian woman, short dark brown bob hair, messy bangs blowing across face, monolid eyes, oriental facial features, natural skin texture, subtle skin pores, authentic look, realistic skin, neutral expression, slightly parted lips, thin red spaghetti strap dress, orange fabric, loose fit, bare shoulders, standing in profile facing left, looking directly at camera, blurred background, muted green and grey tones, soft diffused lighting, overcast daylight, volumetric light, shallow depth of field, 35mm lens, raw photo, film grain, high resolution, detailed hair strands, natural wind effect. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143104357",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/284c617b-ef0f-4511-a468-a97a76198cc1/original=true/284c617b-ef0f-4511-a468-a97a76198cc1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143104665",
+      "title": "Civitai prompt 143104665",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "clean japanese cinematography style, soft natural diffused light, transparent skin tones. (East Asian Clean Aesthetic)\n\nyoung woman with long wavy chestnut brown hair, monolid eyes, oriental facial features, realistic skin texture, subtle skin pores, natural makeup, authentic expression, slight head tilt looking toward camera, kneeling on beige carpeted floor, legs folded beneath, wearing white tiered ruffled dress with gathered waist and drawstring details, light blue fuzzy knit cardigan draped over shoulders with frayed edges, grey ribbed knee-high socks, dark brown leather loafers with metal buckles, floral patterned wallpaper background in muted sage green tones, soft diffused indoor lighting, gentle shadows, natural daylight atmosphere, 35mm lens, raw photo, film grain, authentic look, detailed fabric texture, realistic hair strands, no airbrushing, no plastic skin, no heavy makeup, no overly generic influencer face.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143104665",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58feafe0-97c5-460e-932d-8b32335aa54e/original=true/58feafe0-97c5-460e-932d-8b32335aa54e.jpeg",
+      "model_version_ids": [],
+      "width": 2730,
+      "height": 4096,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756442+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "da440ef59282f81b4fca24da19345fecd8e9a19388da5f8395eb37372901f5d1",
+      "prompt_ar": "أسلوب تصوير سينمائي ياباني نظيف، وضوء طبيعي ناعم منتشر، وألوان بشرة شفافة. (جمالية شرق آسيا النظيفة)\n\nامرأة شابة ذات شعر بني كستنائي طويل مموج، عيون أحادية، ملامح وجه شرقية، ملمس بشرة واقعي، مسام جلدية خفية، مكياج طبيعي، تعبير أصيل، ميل طفيف للرأس نحو الكاميرا، راكعة على أرضية مغطاة بسجاد باللون البيج، أرجل مطوية من الأسفل، ترتدي فستانًا أبيض مكشكشًا مع خصر مجمع وتفاصيل برباط، سترة صوفية زرقاء فاتحة متماسكة ملفوفة على الأكتاف بحواف مهترئة، جوارب رمادية مضلعة تصل إلى الركبة، أحذية جلدية بنية داكنة مع أبازيم معدنية، وورق حائط منقوش بالزهور الخلفية بألوان خضراء داكنة، وإضاءة داخلية منتشرة ناعمة، وظلال لطيفة، وأجواء ضوء النهار الطبيعية، وعدسة 35 مم، وصورة خام، وحبيبات الفيلم، ومظهر أصيل، وملمس قماش مفصل، وخصلات شعر واقعية، بدون استخدام البخاخة، بدون بشرة بلاستيكية، بدون مكياج ثقيل، بدون وجه مؤثر عام بشكل مفرط.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143104665 image ai-image-prompts clean japanese cinematography style, soft natural diffused light, transparent skin tones. (east asian clean aesthetic) young woman with long wavy chestnut brown hair, monolid eyes, oriental facial features, realistic skin texture, subtle skin pores, natural makeup, authentic expression, slight head tilt looking toward camera, kneeling on beige carpeted floor, legs folded beneath, wearing white tiered ruffled dress with gathered waist and drawstring details, light blue fuzzy knit cardigan draped over shoulders with frayed edges, grey ribbed knee-high socks, dark brown leather loafers with metal buckles, floral patterned wallpaper background in muted sage green tones, soft diffused indoor lighting, gentle shadows, natural daylight atmosphere, 35mm lens, raw photo, film grain, authentic look, detailed fabric texture, realistic hair strands, no airbrushing, no plastic skin, no heavy makeup, no overly generic influencer face. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143104665",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58feafe0-97c5-460e-932d-8b32335aa54e/original=true/58feafe0-97c5-460e-932d-8b32335aa54e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143104786",
+      "title": "Civitai prompt 143104786",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "kor_77, young asian woman, natural facial features, oriental facial features, monolid eyes, dark brown hair in messy bun with straight bangs, subtle skin pores, realistic skin texture, small beauty marks on face, soft faint smile, relaxed expression, lying flat on back, arms extended upwards out of frame, wearing white and light blue polka dot camisole tank top, thin straps, frayed edges, loose fit, cotton fabric, green and white striped linen bedsheet background, natural daylight, soft diffused lighting, gentle shadows, authentic look, candid photography, raw photo, 35mm lens, film grain, medium shot, shallow depth of field, no makeup, clean skin, unposed, lifestyle photography.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143104786",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25c63e29-da32-4b59-9d2b-7dc83437cdde/original=true/25c63e29-da32-4b59-9d2b-7dc83437cdde.jpeg",
+      "model_version_ids": [],
+      "width": 2730,
+      "height": 4096,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756456+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f700c295d75ebd232a184851ad5cbc4438688ccff043653c41783d1272d7900",
+      "prompt_ar": "kor_77، امرأة آسيوية شابة، ملامح وجه طبيعية، ملامح وجه شرقية، عيون أحادية، شعر بني داكن في كعكة فوضوية مع غرة مستقيمة، مسام جلدية خفية، نسيج جلد واقعي، علامات جمال صغيرة على الوجه، ابتسامة باهتة ناعمة، تعبير مريح، مستلق على الظهر، ذراعان ممدودتان لأعلى خارج الإطار، ترتدي قميصًا قصيرًا منقطًا باللونين الأبيض والأزرق الفاتح، أشرطة رفيعة، حواف متوترة، مقاس فضفاض، قماش قطني، خلفية ملاءة سرير مخططة باللونين الأخضر والأبيض، ضوء النهار الطبيعي، إضاءة منتشرة ناعمة، ظلال لطيفة، مظهر أصيل، تصوير فوتوغرافي صريح، صورة أولية، عدسة مقاس 35 مم، حبيبات فيلم، لقطة متوسطة، عمق مجال ضحل، بدون مكياج، بشرة نظيفة، تصوير غير موضوعي، تصوير لأسلوب الحياة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143104786 image ai-image-prompts kor_77, young asian woman, natural facial features, oriental facial features, monolid eyes, dark brown hair in messy bun with straight bangs, subtle skin pores, realistic skin texture, small beauty marks on face, soft faint smile, relaxed expression, lying flat on back, arms extended upwards out of frame, wearing white and light blue polka dot camisole tank top, thin straps, frayed edges, loose fit, cotton fabric, green and white striped linen bedsheet background, natural daylight, soft diffused lighting, gentle shadows, authentic look, candid photography, raw photo, 35mm lens, film grain, medium shot, shallow depth of field, no makeup, clean skin, unposed, lifestyle photography. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143104786",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25c63e29-da32-4b59-9d2b-7dc83437cdde/original=true/25c63e29-da32-4b59-9d2b-7dc83437cdde.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106360",
+      "title": "Civitai prompt 143106360",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "conf3tti, made of confetti, made of wagyu,The shot starts from the provided first frame and ends at the provided final frame. Keep the same composition, outfit, accessories, flowers, moon, lighting, and overall scene. The woman remains in the same general pose, but she is allowed a subtle, harmonious body motion. She gently sways and lightly breathes, with a small natural movement of the upper body, shoulders, and head, as if softly responding to the atmosphere and breeze. The motion stays elegant, calm, and restrained, without abrupt shifts or a new pose.\nA gentle breeze moves the loose fabric, hanging panels, tassels, and ornaments. The rooted red spider lilies sway softly on their stems. Her hair moves softly in the same breeze: the free lengths and loose strands drift gently, while the hairstyle, bun, bangs, and overall shape remain recognizable.\nThe hair begins black and gradually becomes white through a clearly visible mixed phase with black and white strands presentq for much of the clip. The moon stays still. The camera is locked off. Only faint red haze and tiny dust-like particles add atmosphere.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106360",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a41b1567-2268-4575-9026-e54281e87bf9/original=true/a41b1567-2268-4575-9026-e54281e87bf9.jpeg",
+      "model_version_ids": [
+        128078,
+        681811
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1433900797,
+      "negative_prompt": "body rotation, pose drift, lateral drift, strong swaying, head turning, arm movement, silhouette change, hair whipping, hair covering face, abrupt hair jump, global hair fade, flying petals, moon rotation, camera movement, morphing, flicker",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756475+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "695e01ea63dc1f61d7618929cf2dcb86c235f34a6d5327273503d19bf2606acd",
+      "prompt_ar": "قصاصات من الورق، مصنوعة من قصاصات الورق، مصنوعة من الواغيو، تبدأ اللقطة من الإطار الأول المقدم وتنتهي عند الإطار النهائي المقدم. احتفظ بنفس التكوين والزي والإكسسوارات والزهور والقمر والإضاءة والمشهد العام. تبقى المرأة في نفس الوضع العام، ولكن يُسمح لها بحركة جسدها الدقيقة والمتناغمة. إنها تتأرجح بلطف وتتنفس بخفة، مع حركة طبيعية صغيرة للجزء العلوي من الجسم والكتفين والرأس، كما لو كانت تستجيب بهدوء للجو والنسيم. تظل الحركة أنيقة وهادئة ومنضبطة، دون تغييرات مفاجئة أو وضعية جديدة.\nنسيم لطيف يحرك القماش الفضفاض والألواح المعلقة والشرابات والزخارف. تتمايل زنابق العنكبوت الحمراء ذات الجذور بهدوء على سيقانها. يتحرك شعرها بنعومة مع النسيم نفسه: تنجرف الأطوال الحرة والخيوط الفضفاضة بلطف، بينما يظل من الممكن التعرف على تصفيفة الشعر والكعكة والغرات والشكل العام.\nيبدأ الشعر باللون الأسود ويتحول تدريجياً إلى اللون الأبيض خلال مرحلة مختلطة واضحة المعالم مع وجود خيوط سوداء وبيضاء في معظم أجزاء المقطع. يبقى القمر ساكنا. تم قفل الكاميرا. فقط الضباب الأحمر الخافت والجزيئات الصغيرة التي تشبه الغبار هي التي تضيف الغلاف الجوي.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143106360 fashion ai-image-prompts conf3tti, made of confetti, made of wagyu,the shot starts from the provided first frame and ends at the provided final frame. keep the same composition, outfit, accessories, flowers, moon, lighting, and overall scene. the woman remains in the same general pose, but she is allowed a subtle, harmonious body motion. she gently sways and lightly breathes, with a small natural movement of the upper body, shoulders, and head, as if softly responding to the atmosphere and breeze. the motion stays elegant, calm, and restrained, without abrupt shifts or a new pose. a gentle breeze moves the loose fabric, hanging panels, tassels, and ornaments. the rooted red spider lilies sway softly on their stems. her hair moves softly in the same breeze: the free lengths and loose strands drift gently, while the hairstyle, bun, bangs, and overall shape remain recognizable. the hair begins black and gradually becomes white through a clearly visible mixed phase with black and white strands presentq for much of the clip. the moon stays still. the camera is locked off. only faint red haze and tiny dust-like particles add atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106360",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a41b1567-2268-4575-9026-e54281e87bf9/original=true/a41b1567-2268-4575-9026-e54281e87bf9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106409",
+      "title": "Civitai prompt 143106409",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@Ani3rel, masterpiece, best quality, score_7, explicit, solo, meru, purple hair, very long hair, long hair, hair down, pointy ears, heterochromia, purple eyes, grey eyes, large breasts, hair ornament, hair between eyes, bangs, miko, japanese clothes, kimono, wide sleeves, hakama, hakama skirt, Cowboy shot, Dutch angle, deep depth of field, rule of thirds composition, 1girl, looking over the shoulder, gentle smile, head tilted back slightly, standing gracefully, one hand reaching out to catch digital snow, palm facing upwards, slender fingers relaxed and naturally curved, other hand resting on the hip with fingers softly curled against the fabric, elegant hand posture, thumb pointing forward, delicate hands, hair whipping around in a synthetic updraft, coat hem violently fluttering upwards, tassels swinging dynamically, towering neon-lit torii gates, holographic cherry blossoms, floating digital talismans, suspended glowing data streams, cyan and magenta volumetric lighting, cinematic rim light, cold neon blue environment light reflecting vividly on skin, neutral lighting, (@ichika (ichika87):0.3), @ningen_mame, detail eyes",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106409",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/905837f9-c20b-467a-91d4-7aa9554f00c0/original=true/905837f9-c20b-467a-91d4-7aa9554f00c0.jpeg",
+      "model": "anima-base-v1.0",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 2208,
+      "seed": 1320142755097404200,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, bad hands, extra digits, missing fingers, fused fingers, bad feet, extra legs, missing legs, malformed limbs, multiple people, background characters, extra person, duplicate person, disembodied limbs, floating limbs, bad perspective, warped background, distorted body",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756493+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "19c618cfd88f15c36ea65c564fe667003a6a08f0daf367828aec7a821aaef67a",
+      "prompt_ar": "@Ani3rel، تحفة، أفضل جودة، Score_7، صريح، منفرد، ميرو، شعر أرجواني، شعر طويل جدًا، شعر طويل، شعر لأسفل، آذان مدببة، تغاير اللون، عيون أرجوانية، عيون رمادية، ثديين كبيرين، زخرفة الشعر، شعر بين العينين، غرة، ميكو، ملابس يابانية، كيمونو، أكمام واسعة، هاكاما، تنورة هاكاما، لقطة رعاة البقر، زاوية هولندية، عمق المجال العميق، تكوين قاعدة الثلث، فتاة واحدة، تنظر فوق الكتف، ابتسامة لطيفة، يميل الرأس إلى الخلف قليلاً، ويقف برشاقة، يد واحدة تمد يده لالتقاط الثلج الرقمي، راحة اليد متجهة للأعلى، الأصابع النحيلة مسترخية ومنحنية بشكل طبيعي، اليد الأخرى تستقر على الورك مع ثني الأصابع بلطف على القماش، وضعية يد أنيقة، الإبهام يشير إلى الأمام، الأيدي الرقيقة، الشعر يتطاير في تيار صاعد اصطناعي، حاشية المعطف ترفرف بعنف لأعلى، الشرابات تتأرجح ديناميكيًا، بوابات توري شاهقة مضاءة بالنيون، أزهار الكرز ثلاثية الأبعاد، رقمية عائمة تعويذات، تدفقات بيانات متوهجة معلقة، إضاءة حجمية باللونين السماوي والأرجواني، ضوء حافة سينمائي، ضوء بيئة نيون أزرق بارد ينعكس بشكل واضح على الجلد، إضاءة محايدة، (@ichika (ichika87):0.3)، @ningen_mame، عيون تفصيلية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106409 image ai-image-prompts @ani3rel, masterpiece, best quality, score_7, explicit, solo, meru, purple hair, very long hair, long hair, hair down, pointy ears, heterochromia, purple eyes, grey eyes, large breasts, hair ornament, hair between eyes, bangs, miko, japanese clothes, kimono, wide sleeves, hakama, hakama skirt, cowboy shot, dutch angle, deep depth of field, rule of thirds composition, 1girl, looking over the shoulder, gentle smile, head tilted back slightly, standing gracefully, one hand reaching out to catch digital snow, palm facing upwards, slender fingers relaxed and naturally curved, other hand resting on the hip with fingers softly curled against the fabric, elegant hand posture, thumb pointing forward, delicate hands, hair whipping around in a synthetic updraft, coat hem violently fluttering upwards, tassels swinging dynamically, towering neon-lit torii gates, holographic cherry blossoms, floating digital talismans, suspended glowing data streams, cyan and magenta volumetric lighting, cinematic rim light, cold neon blue environment light reflecting vividly on skin, neutral lighting, (@ichika (ichika87):0.3), @ningen_mame, detail eyes civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106409",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/905837f9-c20b-467a-91d4-7aa9554f00c0/original=true/905837f9-c20b-467a-91d4-7aa9554f00c0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106381",
+      "title": "Civitai prompt 143106381",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy\n\ngigantic whale, made of confetti\n\nelephant entirely constructed from millions of colorful confetti pieces, \noverlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, \ncountless individual pieces visible across the surface, realistic paper textures\n\nstanding in the middle of a grand parade avenue, \nenormous decorated floats, colorful banners, cheering crowds, \nconfetti filling the sky, festive architecture\n\njoyful surreal fantasy, dynamic atmosphere",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106381",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a47730bb-5bbc-4567-ad91-490286b470c4/original=true/a47730bb-5bbc-4567-ad91-490286b470c4.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 1490514046,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, light, dim lighting, lowres, blurry, deformed, distorted, disfigured, poor lighting, bad anatomy, wrong limbs, extra limbs, missing limbs, fused fingers, too many fingers, long neck, username, logo, signature, jpeg artifacts, noise, grain, monochrome, flat lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756506+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3c23a6d45b3c516927fa73ecb7d05d49980c2242c585ab14eaa8b1534c06fda5",
+      "prompt_ar": "تحفة فنية، أفضل جودة، تفاصيل فائقة، ضوء نهار ساطع، تكوين سينمائي واسع، مقياس مذهل، خيال واقعي\n\nحوت عملاق مصنوع من قصاصات الورق\n\nالفيل مصنوع بالكامل من ملايين قطع القصاصات الملونة، \nشظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا مجعدة للجسم، \nعدد لا يحصى من القطع الفردية المرئية عبر السطح، وأنسجة ورقية واقعية\n\nيقف في منتصف شارع العرض الكبير، \nعربات مزخرفة ضخمة، ولافتات ملونة، وحشود مبتهجة، \nقصاصات من الورق تملأ السماء، والهندسة المعمارية الاحتفالية\n\nخيال سريالي بهيج، جو ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106381 architecture ai-image-prompts masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy gigantic whale, made of confetti elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, realistic paper textures standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture joyful surreal fantasy, dynamic atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106381",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a47730bb-5bbc-4567-ad91-490286b470c4/original=true/a47730bb-5bbc-4567-ad91-490286b470c4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106385",
+      "title": "Civitai prompt 143106385",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy\n\ngigantic wolf, made of confetti\n\nelephant entirely constructed from millions of colorful confetti pieces, \noverlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, \ncountless individual pieces visible across the surface, realistic paper textures\n\nstanding in the middle of a grand parade avenue, \nenormous decorated floats, colorful banners, cheering crowds, \nconfetti filling the sky, festive architecture\n\njoyful surreal fantasy, dynamic atmosphere",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106385",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d82adbb-7a43-4801-8c9b-f9b209d325be/original=true/4d82adbb-7a43-4801-8c9b-f9b209d325be.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 1634915217,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, light, dim lighting, lowres, blurry, deformed, distorted, disfigured, poor lighting, bad anatomy, wrong limbs, extra limbs, missing limbs, fused fingers, too many fingers, long neck, username, logo, signature, jpeg artifacts, noise, grain, monochrome, flat lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756518+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "085b62dcbbe3e55bc327b829c2fcb9a60adb51708981923cd16996196b4f56f1",
+      "prompt_ar": "تحفة فنية، أفضل جودة، تفاصيل فائقة، ضوء نهار ساطع، تكوين سينمائي واسع، مقياس مذهل، خيال واقعي\n\nالذئب العملاق، مصنوع من قصاصات الورق\n\nالفيل مصنوع بالكامل من ملايين قطع القصاصات الملونة، \nشظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا مجعدة للجسم، \nعدد لا يحصى من القطع الفردية المرئية عبر السطح، وأنسجة ورقية واقعية\n\nيقف في منتصف شارع العرض الكبير، \nعربات مزخرفة ضخمة، ولافتات ملونة، وحشود مبتهجة، \nقصاصات من الورق تملأ السماء، والهندسة المعمارية الاحتفالية\n\nخيال سريالي بهيج، جو ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106385 architecture ai-image-prompts masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy gigantic wolf, made of confetti elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, realistic paper textures standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture joyful surreal fantasy, dynamic atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106385",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d82adbb-7a43-4801-8c9b-f9b209d325be/original=true/4d82adbb-7a43-4801-8c9b-f9b209d325be.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106383",
+      "title": "Civitai prompt 143106383",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy\n\ngigantic ant, made of confetti\n\nelephant entirely constructed from millions of colorful confetti pieces, \noverlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, \ncountless individual pieces visible across the surface, realistic paper textures\n\nstanding in the middle of a grand parade avenue, \nenormous decorated floats, colorful banners, cheering crowds, \nconfetti filling the sky, festive architecture\n\njoyful surreal fantasy, dynamic atmosphere",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106383",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73cbdc89-70df-4963-a03a-308adb3fadfc/original=true/73cbdc89-70df-4963-a03a-308adb3fadfc.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 2035432759,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, light, dim lighting, lowres, blurry, deformed, distorted, disfigured, poor lighting, bad anatomy, wrong limbs, extra limbs, missing limbs, fused fingers, too many fingers, long neck, username, logo, signature, jpeg artifacts, noise, grain, monochrome, flat lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756530+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e642baea7eae2870d39331f7393f0897edeb4dc4195be7002abfdfc5dd935528",
+      "prompt_ar": "تحفة فنية، أفضل جودة، تفاصيل فائقة، ضوء نهار ساطع، تكوين سينمائي واسع، مقياس مذهل، خيال واقعي\n\nنملة عملاقة، مصنوعة من قصاصات الورق\n\nالفيل مصنوع بالكامل من ملايين قطع القصاصات الملونة، \nشظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا مجعدة للجسم، \nعدد لا يحصى من القطع الفردية المرئية عبر السطح، وأنسجة ورقية واقعية\n\nيقف في منتصف شارع العرض الكبير، \nعربات مزخرفة ضخمة، ولافتات ملونة، وحشود مبتهجة، \nقصاصات من الورق تملأ السماء، والهندسة المعمارية الاحتفالية\n\nخيال سريالي بهيج، جو ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:05Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106383 architecture ai-image-prompts masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy gigantic ant, made of confetti elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, realistic paper textures standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture joyful surreal fantasy, dynamic atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106383",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73cbdc89-70df-4963-a03a-308adb3fadfc/original=true/73cbdc89-70df-4963-a03a-308adb3fadfc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106379",
+      "title": "Civitai prompt 143106379",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy\n\ngigantic horse, made of confetti\n\nelephant entirely constructed from millions of colorful confetti pieces, \noverlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, \ncountless individual pieces visible across the surface, realistic paper textures\n\nstanding in the middle of a grand parade avenue, \nenormous decorated floats, colorful banners, cheering crowds, \nconfetti filling the sky, festive architecture\n\njoyful surreal fantasy, dynamic atmosphere",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106379",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2385239-af83-4f67-a923-f9e50243206e/original=true/f2385239-af83-4f67-a923-f9e50243206e.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 1062599314,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, light, dim lighting, lowres, blurry, deformed, distorted, disfigured, poor lighting, bad anatomy, wrong limbs, extra limbs, missing limbs, fused fingers, too many fingers, long neck, username, logo, signature, jpeg artifacts, noise, grain, monochrome, flat lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756541+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "842bee267aaff64d8d99bad734c34c4175ecdda5d977020354762e3b00448130",
+      "prompt_ar": "تحفة فنية، أفضل جودة، تفاصيل فائقة، ضوء نهار ساطع، تكوين سينمائي واسع، مقياس مذهل، خيال واقعي\n\nحصان عملاق مصنوع من قصاصات الورق\n\nالفيل مصنوع بالكامل من ملايين قطع القصاصات الملونة، \nشظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا مجعدة للجسم، \nعدد لا يحصى من القطع الفردية المرئية عبر السطح، وأنسجة ورقية واقعية\n\nيقف في منتصف شارع العرض الكبير، \nعربات مزخرفة ضخمة، ولافتات ملونة، وحشود مبتهجة، \nقصاصات من الورق تملأ السماء، والهندسة المعمارية الاحتفالية\n\nخيال سريالي بهيج، جو ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106379 architecture ai-image-prompts masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy gigantic horse, made of confetti elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, realistic paper textures standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture joyful surreal fantasy, dynamic atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106379",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2385239-af83-4f67-a923-f9e50243206e/original=true/f2385239-af83-4f67-a923-f9e50243206e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106384",
+      "title": "Civitai prompt 143106384",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy\n\ngigantic elephant, made of confetti\n\nelephant entirely constructed from millions of colorful confetti pieces, \noverlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, \ncountless individual pieces visible across the surface, realistic paper textures\n\nstanding in the middle of a grand parade avenue, \nenormous decorated floats, colorful banners, cheering crowds, \nconfetti filling the sky, festive architecture\n\njoyful surreal fantasy, dynamic atmosphere",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106384",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a94efa37-4278-4231-98a4-059181b15c92/original=true/a94efa37-4278-4231-98a4-059181b15c92.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 1116260728,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, watermark, text, light, dim lighting, lowres, blurry, deformed, distorted, disfigured, poor lighting, bad anatomy, wrong limbs, extra limbs, missing limbs, fused fingers, too many fingers, long neck, username, logo, signature, jpeg artifacts, noise, grain, monochrome, flat lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756552+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5b83ed0994c3576029da12a3871d973c95adcc89bec1dbf4388b6e2ae62883ee",
+      "prompt_ar": "تحفة فنية، أفضل جودة، تفاصيل فائقة، ضوء نهار ساطع، تكوين سينمائي واسع، مقياس مذهل، خيال واقعي\n\nالفيل العملاق، مصنوع من قصاصات الورق\n\nالفيل مصنوع بالكامل من ملايين قطع القصاصات الملونة، \nشظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا مجعدة للجسم، \nعدد لا يحصى من القطع الفردية المرئية عبر السطح، وأنسجة ورقية واقعية\n\nيقف في منتصف شارع العرض الكبير، \nعربات مزخرفة ضخمة، ولافتات ملونة، وحشود مبتهجة، \nقصاصات من الورق تملأ السماء، والهندسة المعمارية الاحتفالية\n\nخيال سريالي بهيج، جو ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106384 architecture ai-image-prompts masterpiece, best quality, ultra detailed, bright daylight, wide cinematic composition, spectacular scale, photorealistic fantasy gigantic elephant, made of confetti elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, realistic paper textures standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture joyful surreal fantasy, dynamic atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106384",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a94efa37-4278-4231-98a4-059181b15c92/original=true/a94efa37-4278-4231-98a4-059181b15c92.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106378",
+      "title": "Civitai prompt 143106378",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, 8k, photorealistic fantasy, animal made of confetti, a gigantic elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture, bright daylight, spectacular scale, wide cinematic composition, realistic paper textures, joyful surreal fantasy",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106378",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a59a15c7-2179-4a57-b847-b412ce96975f/original=true/a59a15c7-2179-4a57-b847-b412ce96975f.jpeg",
+      "model_version_ids": [
+        681811,
+        1970825
+      ],
+      "seed": 1975171018,
+      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,watermark, text, light ,dim lighting,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756565+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d9bdc4ffc768d3279b55411369e48f144777ef04e5b023a29cf4aa6abbf1e6d9",
+      "prompt_ar": "تحفة، أفضل جودة، مفصلة للغاية، 8K، خيال واقعي، حيوان مصنوع من قصاصات الورق، فيل ضخم مصنوع بالكامل من ملايين قطع القصاصات الملونة، شظايا ورق متداخلة تشكل آذانًا ضخمة وجذعًا وأرجلًا وخطوطًا متجعدة للجسم، قطع فردية لا تعد ولا تحصى مرئية عبر السطح، تقف في منتصف طريق العرض الكبير، عوامات مزخرفة هائلة، لافتات ملونة، حشود مبتهجة، قصاصات ورق تملأ السماء، هندسة احتفالية، ضوء النهار الساطع، نطاق مذهل، سينمائي واسع تكوين، نسيج ورقي واقعي، خيال سريالي مبهج",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106378 architecture ai-image-prompts masterpiece, best quality, ultra detailed, 8k, photorealistic fantasy, animal made of confetti, a gigantic elephant entirely constructed from millions of colorful confetti pieces, overlapping paper fragments forming massive ears, trunk, legs and wrinkled body contours, countless individual pieces visible across the surface, standing in the middle of a grand parade avenue, enormous decorated floats, colorful banners, cheering crowds, confetti filling the sky, festive architecture, bright daylight, spectacular scale, wide cinematic composition, realistic paper textures, joyful surreal fantasy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106378",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a59a15c7-2179-4a57-b847-b412ce96975f/original=true/a59a15c7-2179-4a57-b847-b412ce96975f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106025",
+      "title": "Civitai prompt 143106025",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - STYLE - COMIC - Nix Comic (v1.0 Overbaked):1>,A hyper-realistic,cinematic 8K shot: A beaming 18th-century noblewoman in a lace-trimmed blue gown with gold roses sits atop a roaring,flame-spewing piano,fingers mid-air like she's conducting fire music - while beside her,a grinning modern vacuum salesman in a tailored suit shoves a giant upright vacuum through the grand hall's marble floor,The chamber glows with late afternoon sunbeams slicing across opulent columns and velvet drapes,contrasting her powdered wig with his chrome nozzle,Behind her,dusty desert dunes swirl past via time-loop glitch effects - sand blowing toward her feet,yet she dances joyfully despite the inferno-keys! Her lips split wide in manic delight,eyebrows arched like a circus lioness caught mid-chaos dance,Motion blur trails behind the vacuum hose whipping across history's polished stone floors,Ultra HDR lighting,volumetric smoke particles,insane motion exaggeration,digital painterly realism with comic-book physics bounce,Rendered in 8K UHD with chaotic vibrancy and zero gravity slapstick,🎭🔥🪄",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106025",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7658c7a5-192d-4d52-968d-33fc9a0469a1/original=true/7658c7a5-192d-4d52-968d-33fc9a0469a1.jpeg",
+      "model": "Krea2 - BASE - FASCIUM KREA2 (safe4MERGE_fp8)",
+      "model_version_ids": [
+        3203942,
+        3205595
+      ],
+      "width": 2048,
+      "height": 1792,
+      "seed": 592786190,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756621+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "83ae8bc1423c14361938426da4df31a64268e3915dd2ab57b27db32ffd69c293",
+      "prompt_ar": "<lora:Krea2 - STYLE - COMIC - Nix Comic (v1.0 Overbaked):1>،لقطة سينمائية واقعية للغاية بدقة 8K: سيدة نبيلة مبهرة من القرن الثامن عشر ترتدي ثوبًا أزرق مزينًا بالدانتيل مع ورود ذهبية، تجلس فوق بيانو صاخب ينفث اللهب، وأصابعها في الهواء وكأنها تقود موسيقى نارية - بينما بجانبها، بائع مكنسة كهربائية حديث مبتسم في بدلة مصممة خصيصًا تدفع مكنسة كهربائية عملاقة منتصبة عبر الأرضية الرخامية للقاعة الكبرى، تتوهج الغرفة بأشعة الشمس في وقت متأخر بعد الظهر التي تقطع الأعمدة الفخمة والستائر المخملية، وتتناقض مع شعرها المستعار المسحوق مع فوهة الكروم الخاصة به، وخلفها، تدور الكثبان الصحراوية المتربة عبر تأثيرات خلل الحلقة الزمنية - الرمال تهب نحو قدميها، ومع ذلك فهي ترقص بفرح على الرغم من مفاتيح الجحيم! انقسمت شفتاها على نطاق واسع في فرحة جنونية، وحواجب مقوسة مثل لبؤة سيرك ترقص وسط الفوضى، ومسارات الحركة الضبابية خلف خرطوم المكنسة الكهربائية التي تسير عبر الأرضيات الحجرية المصقولة في التاريخ، وإضاءة Ultra HDR، وجزيئات الدخان الحجمي، ومبالغة الحركة الجنونية، وواقعية الرسم الرقمي مع ارتداد فيزياء الكتاب الهزلي، تم تقديمها بدقة 8K UHD مع حيوية فوضوية وتهريجية منعدمة الجاذبية،🎭🔥🪄",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106025 image ai-image-prompts <lora:krea2 - style - comic - nix comic (v1.0 overbaked):1>,a hyper-realistic,cinematic 8k shot: a beaming 18th-century noblewoman in a lace-trimmed blue gown with gold roses sits atop a roaring,flame-spewing piano,fingers mid-air like she's conducting fire music - while beside her,a grinning modern vacuum salesman in a tailored suit shoves a giant upright vacuum through the grand hall's marble floor,the chamber glows with late afternoon sunbeams slicing across opulent columns and velvet drapes,contrasting her powdered wig with his chrome nozzle,behind her,dusty desert dunes swirl past via time-loop glitch effects - sand blowing toward her feet,yet she dances joyfully despite the inferno-keys! her lips split wide in manic delight,eyebrows arched like a circus lioness caught mid-chaos dance,motion blur trails behind the vacuum hose whipping across history's polished stone floors,ultra hdr lighting,volumetric smoke particles,insane motion exaggeration,digital painterly realism with comic-book physics bounce,rendered in 8k uhd with chaotic vibrancy and zero gravity slapstick,🎭🔥🪄 civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106025",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7658c7a5-192d-4d52-968d-33fc9a0469a1/original=true/7658c7a5-192d-4d52-968d-33fc9a0469a1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106077",
+      "title": "Civitai prompt 143106077",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - POSE - Natural Posture Correction (v2.0):1>,A grotesquely delighted Victorian-era vampireess in a frilly white silk gown with exaggerated bosoms and sharp fangs bursts into a raucous pub-party orgy-she's now balancing a green bottle atop her head while dancing mid-air with gravity-defying grace,Her porcelain teeth gleam under neon strobes as she winks at the center stage: a hairy gray-bearded man in a button-down vest,slinging whiskey like he's conducting symphony orchestra-his chest bare,sweat-slicked,screaming \"MORE!\" The whole scene? Ultra-HD cinematic hyper-realism meets slapstick cartoon madness-with spilled beer forming lava pools around feet,feathers floating like confetti,and all four revelers (including a redhead in a bustier) caught mid-laugh amid smoke bombs and glitter cannons,Color palette explodes: crimson lips meet cobalt shadows; charcoal gloom clashes with golden-hour highlights,Dynamic motion lines swirl like paint drips-the entire frame vibrates with manic joy,Cinematic lighting! Unreal Engine-grade textures! 8K resolution zoom-in finale: HER EYES WINKING AS SHE SLAMS THE GLASS DOWN IN PURE ABSURDIST TRIUMPH",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106077",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa94cfc8-948a-455a-a296-a8c095fbe749/original=true/fa94cfc8-948a-455a-a296-a8c095fbe749.jpeg",
+      "model": "Krea2 - BASE - Kreamania (variant5_int8_convrot)",
+      "model_version_ids": [
+        3141463,
+        3210124
+      ],
+      "width": 1472,
+      "height": 2048,
+      "seed": 762562650,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756644+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "184a772d18195eb71a22b9882568fccf93f0dadc8edfcc5a2342687b841b8200",
+      "prompt_ar": "<lora:Krea2 - POSE - Natural Posture Correction (v2.0):1>,مصاصة دماء من العصر الفيكتوري مبتهجة بشكل غريب ترتدي ثوبًا حريريًا أبيض مكشكشًا مع صدور مبالغ فيها وأنياب حادة تنفجر في طقوس العربدة الصاخبة في حفلة الحانة - إنها الآن توازن زجاجة خضراء فوق رأسها بينما ترقص في الهواء بنعمة تتحدى الجاذبية، وتلمع أسنانها الخزفية تحت النيون تومض وهي تغمز في وسط المسرح: رجل مشعر ذو لحية رمادية يرتدي سترة ذات أزرار، يشرب الويسكي وكأنه يقود أوركسترا سيمفونية - صدره عاري، متعرق، يصرخ \"المزيد!\" المشهد كله؟ تجتمع الواقعية السينمائية الفائقة الدقة مع جنون الرسوم المتحركة التهريجية - مع البيرة المسكوبة التي تشكل بركًا من الحمم البركانية حول الأقدام، والريش العائم مثل قصاصات الورق، وجميع المحتفلين الأربعة (بما في ذلك الشعر الأحمر في تمثال نصفي) يضحكون وسط قنابل دخان ومدافع لامعة، تنفجر لوحة الألوان: شفاه قرمزية تلتقي بظلال الكوبالت؛ تتصادم كآبة الفحم مع أبرز معالم الساعة الذهبية، خطوط الحركة الديناميكية تدور مثل قطرات الطلاء - يهتز الإطار بأكمله بفرح جنوني، إضاءة سينمائية! قوام غير واقعي على مستوى المحرك! خاتمة تكبير بدقة 8K: عيناها تغمضان وهي تضرب الزجاج لأسفل في انتصار عبثي خالص",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143106077 advertising ai-image-prompts <lora:krea2 - pose - natural posture correction (v2.0):1>,a grotesquely delighted victorian-era vampireess in a frilly white silk gown with exaggerated bosoms and sharp fangs bursts into a raucous pub-party orgy-she's now balancing a green bottle atop her head while dancing mid-air with gravity-defying grace,her porcelain teeth gleam under neon strobes as she winks at the center stage: a hairy gray-bearded man in a button-down vest,slinging whiskey like he's conducting symphony orchestra-his chest bare,sweat-slicked,screaming \"more!\" the whole scene? ultra-hd cinematic hyper-realism meets slapstick cartoon madness-with spilled beer forming lava pools around feet,feathers floating like confetti,and all four revelers (including a redhead in a bustier) caught mid-laugh amid smoke bombs and glitter cannons,color palette explodes: crimson lips meet cobalt shadows; charcoal gloom clashes with golden-hour highlights,dynamic motion lines swirl like paint drips-the entire frame vibrates with manic joy,cinematic lighting! unreal engine-grade textures! 8k resolution zoom-in finale: her eyes winking as she slams the glass down in pure absurdist triumph civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106077",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa94cfc8-948a-455a-a296-a8c095fbe749/original=true/fa94cfc8-948a-455a-a296-a8c095fbe749.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143106136",
+      "title": "Civitai prompt 143106136",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - CLOTHE - Regency Fashion (V1):1> Regencyfashion,A hyper-realistic,cinematic 8K shot: a Regency-era empress in a corseted empire-waist gown-satin damask taffeta-with lace fan and pearl choker,now violently squeezing her own colossal,silicone-tinged bust through a sheer negligee mid-air,screaming in ecstasy while riding atop a vintage convertible parked in a sun-scorched desert,Her fiery pink hair flies wildly as wind gusts whip her around like a tornado in slow motion,Below,a bearded desert sage slumps behind the wheel,eyes wide,jaw dropped-in awe-as she smashes his engine with a slapstick breast-flip,Golden-hour backlight glows molten amber across stone ruins,casting dramatic chiaroscuro shadows,Ultra-HD texture fidelity,volumetric rays,insane kinetic energy,dripping sweat,wild expression morphing between orgasmic triumph and existential panic-all framed in Dutch angle,ultra-wide lens distortion,Rendered with Unreal Engine realism + studio-grade CGI saturation+motion blur+,Pure slapstick divine madness",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143106136",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d00ec881-ddc9-47c7-a292-8602b257f507/original=true/d00ec881-ddc9-47c7-a292-8602b257f507.jpeg",
+      "model": "Krea2 - BASE - FASCIUM KREA2 (safe4MERGE_fp8)",
+      "model_version_ids": [
+        3205292,
+        3205595
+      ],
+      "width": 2048,
+      "height": 1792,
+      "seed": 592786330,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756662+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "46d853fe06be4bef8558bd938718dbff7f58e134ed1fca124c112ca687a09200",
+      "prompt_ar": "<lora:Krea2 - CLOTHE - Regency Fashion (V1):1> Regencyfashion،لقطة سينمائية واقعية للغاية بدقة 8K: إمبراطورة من عصر الوصاية ترتدي ثوبًا مشدًا بخصر إمبراطوري من قماش التفتا الساتان الدمشقي مع مروحة من الدانتيل وقلادة من اللؤلؤ، وهي الآن تضغط بعنف على تمثالها النصفي الضخم المشوب بالسيليكون من خلال إهمال شفاف في الهواء، وتصرخ في الداخل نشوة أثناء ركوبها فوق سيارة مكشوفة قديمة متوقفة في صحراء محروقة بالشمس، يتطاير شعرها الوردي الناري بعنف بينما تهب الرياح مثل الإعصار في حركة بطيئة، أدناه، حكيم الصحراء الملتحي ينزلق خلف عجلة القيادة، وعيناه متسعتان، وفكه مندهش بينما تحطم محركه بقلب تهريجي، تضيء الإضاءة الخلفية للساعة الذهبية باللون الكهرماني المنصهر عبر الأنقاض الحجرية، مما يؤدي إلى دراماتيكية ظلال تشياروسكورو، دقة نسيج فائقة الدقة، أشعة حجمية، طاقة حركية جنونية، عرق متقطر، تعبير جامح يتحول بين انتصار النشوة الجنسية والذعر الوجودي - كل ذلك مؤطر بزاوية هولندية، تشويه عدسة واسع للغاية، مقدم بواقعية محرك غير واقعي + تشبع CGI على مستوى الاستوديو + ضبابية الحركة +، جنون إلهي تهريجي خالص",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143106136 fashion ai-image-prompts <lora:krea2 - clothe - regency fashion (v1):1> regencyfashion,a hyper-realistic,cinematic 8k shot: a regency-era empress in a corseted empire-waist gown-satin damask taffeta-with lace fan and pearl choker,now violently squeezing her own colossal,silicone-tinged bust through a sheer negligee mid-air,screaming in ecstasy while riding atop a vintage convertible parked in a sun-scorched desert,her fiery pink hair flies wildly as wind gusts whip her around like a tornado in slow motion,below,a bearded desert sage slumps behind the wheel,eyes wide,jaw dropped-in awe-as she smashes his engine with a slapstick breast-flip,golden-hour backlight glows molten amber across stone ruins,casting dramatic chiaroscuro shadows,ultra-hd texture fidelity,volumetric rays,insane kinetic energy,dripping sweat,wild expression morphing between orgasmic triumph and existential panic-all framed in dutch angle,ultra-wide lens distortion,rendered with unreal engine realism + studio-grade cgi saturation+motion blur+,pure slapstick divine madness civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143106136",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d00ec881-ddc9-47c7-a292-8602b257f507/original=true/d00ec881-ddc9-47c7-a292-8602b257f507.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143105844",
+      "title": "Civitai prompt 143105844",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - POSE - Ass lying (v1.0):1>,A Colombian-French-Vietnamese-Armenian woman,mid-bite of a giant taco,giggles hysterically as she's perched atop a crumbling skyscraper in a post-apocalyptic city-wearing a delicate blue floral sundress like Prompt A's laughing goddess-but now surrounded by flaming rubble,ash,and half-eaten tacos flying through the air,Her cheeks puff out in delight,eyebrows twitching with embarrassment,teeth gleaming under chaotic golden-hour backlight,Below,a man in a gray button-up yells wildly,arms flailing near shattered glass,his turquoise sunglasses reflecting fire and panic,The entire scene erupts in slapstick-an explosion of flavor and mayhem-with volumetric orange flames contrasting cool steel ruins,Ultra-HDR cinematic realism,ultra-sharp fabric folds,exaggerated motion blur around airborne food bits,film grain overlay,Dynamic 35mm lens capturing high-speed chaos,Maximum kinetic joy meets utter destruction-all rendered in 8K hyper-detailed absurdity,Unreal Engine-grade polish,laugh-out-loud momentum,gravity-defying nonsense",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143105844",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44188dd0-e752-4207-b6e9-057079de8f10/original=true/44188dd0-e752-4207-b6e9-057079de8f10.jpeg",
+      "model": "Krea2 - BASE - Artaix (v10_fp8)",
+      "model_version_ids": [
+        3116204,
+        3209774
+      ],
+      "width": 2048,
+      "height": 1792,
+      "seed": 1348597648,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756679+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dbe6eb5f1b142b0f888e1734f773a6c63ade19d601773d7fc91c554c3719319e",
+      "prompt_ar": "<lora:Krea2 - POSE - Assكذب (الإصدار 1.0):1>،امرأة كولومبية-فرنسية-فيتنامية-أرمنية، تضحك بشكل هستيري بينما تجلس فوق ناطحة سحاب متهدمة في مدينة ما بعد نهاية العالم، وترتدي فستان الشمس الزهري الأزرق الرقيق مثل إلهة Prompt A الضاحكة - ولكنها الآن محاطة بالنيران. الأنقاض والرماد والتاكو نصف المأكول يتطاير في الهواء، خدودها منتفخة من البهجة، حواجبها ترتعش من الإحراج، أسنان تلمع تحت الإضاءة الخلفية الفوضوية للساعة الذهبية، أدناه، رجل يرتدي زرًا رماديًا يصرخ بعنف، ذراعيه تتطاير بالقرب من الزجاج المكسور، نظارته الشمسية الفيروزية تعكس النار والذعر، ينفجر المشهد بأكمله في تهريج - انفجار في النكهة والفوضى - مع ألسنة اللهب البرتقالية الحجمية المتناقضة مع الأطلال الفولاذية الرائعة، واقعية سينمائية فائقة الدقة، طيات قماش حادة للغاية، ضبابية الحركة المبالغ فيها حول قطع الطعام المحمولة جواً، تراكب حبيبات الفيلم، عدسة ديناميكية مقاس 35 مم تلتقط الفوضى عالية السرعة، أقصى قدر من المتعة الحركية يلتقي بالتدمير المطلق - كل ذلك يتم تقديمه بسخافة شديدة التفصيل بدقة 8K، طلاء غير واقعي على مستوى المحرك، ضحك بصوت عالٍ الزخم، هراء يتحدى الجاذبية",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:07Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143105844 food ai-image-prompts <lora:krea2 - pose - ass lying (v1.0):1>,a colombian-french-vietnamese-armenian woman,mid-bite of a giant taco,giggles hysterically as she's perched atop a crumbling skyscraper in a post-apocalyptic city-wearing a delicate blue floral sundress like prompt a's laughing goddess-but now surrounded by flaming rubble,ash,and half-eaten tacos flying through the air,her cheeks puff out in delight,eyebrows twitching with embarrassment,teeth gleaming under chaotic golden-hour backlight,below,a man in a gray button-up yells wildly,arms flailing near shattered glass,his turquoise sunglasses reflecting fire and panic,the entire scene erupts in slapstick-an explosion of flavor and mayhem-with volumetric orange flames contrasting cool steel ruins,ultra-hdr cinematic realism,ultra-sharp fabric folds,exaggerated motion blur around airborne food bits,film grain overlay,dynamic 35mm lens capturing high-speed chaos,maximum kinetic joy meets utter destruction-all rendered in 8k hyper-detailed absurdity,unreal engine-grade polish,laugh-out-loud momentum,gravity-defying nonsense civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143105844",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44188dd0-e752-4207-b6e9-057079de8f10/original=true/44188dd0-e752-4207-b6e9-057079de8f10.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143105878",
+      "title": "Civitai prompt 143105878",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - STYLE - Sponge Painting (Krea 2):0.9> spngpaint,sponge painting style \\n <lora:Krea2 - STYLE - V67 Deep Sea (V1):0.9> dark seabed,seabed,Doris Dandelion,gravity-defying blonde mane flailing wildly like a comet tail,balances upside-down on a shattered mirror suspended over a Baroque cathedral library-shattered glass reflects screaming faces,floating books erupt from bookshelves like angry demons,Her red-lipped mouth stretches in a manic grin as she performs a handstand atop broken mirrors,muscles straining against celestial physics; behind her,professors in suspenders drool in awe as candles flicker amid porcelain saints roaring fury,Golden hour light slices through stained glass,illuminating her neon-blue bioluminescent halo amidst hydrothermal vent smoke rising from ancient wrecked ruins,Bob the Barber scribbles \"Cosmic Haircut Disaster\" onto parchment while Ethel screams about viral trends,All rendered in hyper-detailed cinematic realism,8K masterpiece-with insane slapstick momentum,exaggerated panic,and zero mercy,Ultra-sharp focus,vibrant surreal contrast,chaotic elegance amplified tenfold",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143105878",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef205e53-ed77-4bd3-b1d0-21321405ed0b/original=true/ef205e53-ed77-4bd3-b1d0-21321405ed0b.jpeg",
+      "model": "Krea2 - BASE - FASCIUM KREA2 (nsfwmerge4_fp8)",
+      "model_version_ids": [
+        3169253,
+        3202596,
+        3205770
+      ],
+      "width": 1472,
+      "height": 2048,
+      "seed": 693996961,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756696+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "332a56974d561e37c502224909237c47dd4edf7245c5073ef610cb6ba390c52a",
+      "prompt_ar": "<lora:Krea2 - STYLE - رسم إسفنجي (Krea 2):0.9> spngpaint، نمط رسم إسفنجي \\n <lora:Krea2 - STYLE - V67 Deep Sea (V1):0.9> قاع البحر الداكن، قاع البحر، دوريس دانديليون، عرف أشقر يتحدى الجاذبية ويتطاير بعنف مثل ذيل مذنب، يتوازن رأسًا على عقب على مرآة محطمة معلقة فوق تمثال باروكي. يعكس الزجاج المحطم بمكتبة الكاتدرائية وجوهًا صارخة، وتنبثق الكتب العائمة من أرفف الكتب مثل الشياطين الغاضبين، ويمتد فمها ذو الشفاه الحمراء في ابتسامة جنونية وهي تؤدي الوقوف على يديها فوق المرايا المكسورة، وعضلاتها تجهد ضد الفيزياء السماوية؛ خلفها، يسيل لعاب الأساتذة في الحمالات في رهبة بينما تومض الشموع وسط قديسي الخزف الذين يزأرون بالغضب، شرائح ضوء الساعة الذهبية من خلال الزجاج الملون، تضيء هالتها المضيئة باللون الأزرق النيون وسط دخان الفتحات الحرارية المائية المتصاعد من الآثار القديمة المحطمة، بوب الحلاق يخربش \"كارثة قص الشعر الكونية\" على الرق بينما تصرخ إثيل حول الاتجاهات الفيروسية، كل ذلك مقدم في واقعية سينمائية مفصلة للغاية، تحفة فنية بدقة 8K - مع زخم تهريجي مجنون، ذعر مبالغ فيه، وانعدام الرحمة، تركيز فائق الوضوح، تباين سريالي نابض بالحياة، أناقة فوضوية تضخيم عشرة أضعاف",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143105878 image ai-image-prompts <lora:krea2 - style - sponge painting (krea 2):0.9> spngpaint,sponge painting style \\n <lora:krea2 - style - v67 deep sea (v1):0.9> dark seabed,seabed,doris dandelion,gravity-defying blonde mane flailing wildly like a comet tail,balances upside-down on a shattered mirror suspended over a baroque cathedral library-shattered glass reflects screaming faces,floating books erupt from bookshelves like angry demons,her red-lipped mouth stretches in a manic grin as she performs a handstand atop broken mirrors,muscles straining against celestial physics; behind her,professors in suspenders drool in awe as candles flicker amid porcelain saints roaring fury,golden hour light slices through stained glass,illuminating her neon-blue bioluminescent halo amidst hydrothermal vent smoke rising from ancient wrecked ruins,bob the barber scribbles \"cosmic haircut disaster\" onto parchment while ethel screams about viral trends,all rendered in hyper-detailed cinematic realism,8k masterpiece-with insane slapstick momentum,exaggerated panic,and zero mercy,ultra-sharp focus,vibrant surreal contrast,chaotic elegance amplified tenfold civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143105878",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef205e53-ed77-4bd3-b1d0-21321405ed0b/original=true/ef205e53-ed77-4bd3-b1d0-21321405ed0b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143105959",
+      "title": "Civitai prompt 143105959",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Krea2 - CLOTHE - Regency Fashion (V1):1> Regencyfashion,A grumpy British espionage handler,half-sunk in a threadbare couch,coffee mug perched precariously on his chest,now inexplicably riding a roaring,flame-spewing motorcycle through the Sahara - his fedora askew,trench coat billowing,jaw clenched like a berserker,Behind him,a furious wizard with soot-streaked face and frizzy white hair shrieks spells that liquefy into molten potion streams,transforming dunes into volcanic battlegrounds,The spy winks mischievously,laptop floating midair beside him as he dodges flying glass shards and spell-fueled tornadoes,Cinematic realism collides with hyper-magical chaos - deep chiaroscuro slashlights pierce dust clouds,volumetric fog curls around screaming runes,motion-blur limbs slice through cactus spikes,Unreal Engine perfection,HDR,4K,cinematic scope,shallow depth-of-field,gritty texture detail - all captured in golden-hour grit,Pure slapstick sorcery gone rogue!",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143105959",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5282078-f023-4a2a-910f-4162f019ca12/original=true/e5282078-f023-4a2a-910f-4162f019ca12.jpeg",
+      "model": "Krea2 - BASE - CenterSemiraw (v10Int8)",
+      "model_version_ids": [
+        3074558,
+        3205292
+      ],
+      "width": 1472,
+      "height": 2048,
+      "seed": 350068883,
+      "negative_prompt": "Worst quality, Normal quality, Low quality, Low res, Blurry, Jpeg artifacts, Grainy, text, logo, watermark, banner, extra digits, signature, Poorly drawn face, missing fingers, extra fingers, elongated fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756711+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a3fbb96576198df57569175022e916dd61dff0c8578732d1ff7bba298f8c0e15",
+      "prompt_ar": "<lora:Krea2 - CLOTHE - Regency Fashion (V1):1> Regencyfashion، عامل تجسس بريطاني غاضب، نصف غارق في أريكة رثة، قدح قهوة جاثم بشكل غير مستقر على صدره، الآن يركب دراجة نارية هادرة تنفث اللهب عبر الصحراء الكبرى - قبعته منحرفة، معطف واق من المطر يتصاعد، فكه مشدود مثل هائج، خلفه، ساحر غاضب ذو وجه مملوء بالسخام وشعر أبيض مجعد يصرخ تعويذات تسيل في تيارات جرعات منصهرة، ويحول الكثبان الرملية إلى ساحات معارك بركانية، يغمز الجاسوس بشكل مؤذ، ويطفو الكمبيوتر المحمول في الهواء بجانبه وهو يتفادى شظايا الزجاج المتطايرة والأعاصير التي تغذيها التعاويذ، تصطدم الواقعية السينمائية بفوضى سحرية مفرطة - عميقة أضواء مائلة مائلة تخترق سحب الغبار، تجعيد ضباب حجمي حول الأحرف الرونية الصارخة، أطراف ضبابية الحركة تقطع من خلال أشواك الصبار، محرك غير واقعي، HDR، 4K، نطاق سينمائي، عمق مجال ضحل، تفاصيل نسيج شجاع - تم التقاط كل ذلك في ساعة ذهبية، شعوذة تهريجية خالصة أصبحت مارقة!",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:06Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143105959 fashion ai-image-prompts <lora:krea2 - clothe - regency fashion (v1):1> regencyfashion,a grumpy british espionage handler,half-sunk in a threadbare couch,coffee mug perched precariously on his chest,now inexplicably riding a roaring,flame-spewing motorcycle through the sahara - his fedora askew,trench coat billowing,jaw clenched like a berserker,behind him,a furious wizard with soot-streaked face and frizzy white hair shrieks spells that liquefy into molten potion streams,transforming dunes into volcanic battlegrounds,the spy winks mischievously,laptop floating midair beside him as he dodges flying glass shards and spell-fueled tornadoes,cinematic realism collides with hyper-magical chaos - deep chiaroscuro slashlights pierce dust clouds,volumetric fog curls around screaming runes,motion-blur limbs slice through cactus spikes,unreal engine perfection,hdr,4k,cinematic scope,shallow depth-of-field,gritty texture detail - all captured in golden-hour grit,pure slapstick sorcery gone rogue! civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143105959",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5282078-f023-4a2a-910f-4162f019ca12/original=true/e5282078-f023-4a2a-910f-4162f019ca12.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143105877",
+      "title": "Civitai prompt 143105877",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "codeandigital,, c0dean0igital, cyberw0rlds, A single pair of worn plastic flip-flop sandals displayed like a sacred holy relic on a glowing pedestal, positioned at the center of a neon-green digital cyberworld, tall futuristic towers with sharp angular edges rising in the background, vertical glowing data streams cascading down like falling matrix code on both sides of the frame, reflective wet-look floor mirroring the green neon glow and the sandals themselves, faint digital grid pattern subtly visible across the ground and background, dramatic dark silhouettes of robed figures kneeling in reverence at a distance, moody gritty cyberpunk atmosphere, cinematic low-angle hero shot, volumetric god-ray lighting beaming down on the sandals, hyper-detailed, dramatic shadows, epic scale, 8k quality",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143105877",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78da14d0-d1e0-414b-b283-536baf4cd049/original=true/78da14d0-d1e0-414b-b283-536baf4cd049.jpeg",
+      "model_version_ids": [
+        128078,
+        674797
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1276085963,
+      "negative_prompt": "blurry, low quality, watermark, text, extra limbs, deformed, warm color tones, daytime, bright sunny sky",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756726+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f1994c1b0a0a313472845650923258674ef24a604c45447a7f6089aa90f8493c",
+      "prompt_ar": "codeandigital،، c0dean0igital، cyberw0rlds، زوج واحد من الصنادل البلاستيكية البالية معروضة مثل بقايا مقدسة مقدسة على قاعدة متوهجة، موضوعة في وسط عالم إلكتروني رقمي أخضر نيون، وأبراج مستقبلية طويلة ذات حواف زاوية حادة ترتفع في الخلفية، وتدفقات بيانات متوهجة عمودية تتساقط مثل كود المصفوفة المتساقطة على جانبي الإطار، وأرضية عاكسة ذات مظهر رطب تعكس توهج النيون الأخضر و الصنادل نفسها، نمط شبكي رقمي خافت يمكن رؤيته بمهارة عبر الأرض والخلفية، صور ظلية داكنة مثيرة لشخصيات ترتدي ملابس راكعة في تقديس على مسافة، جو سايبربانك متقلب المزاج، لقطة سينمائية للبطل بزاوية منخفضة، إضاءة شعاعية إلهية حجمية تنعكس على الصنادل، ظلال درامية شديدة التفاصيل، مقياس ملحمي، جودة 8K",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:07Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143105877 image ai-image-prompts codeandigital,, c0dean0igital, cyberw0rlds, a single pair of worn plastic flip-flop sandals displayed like a sacred holy relic on a glowing pedestal, positioned at the center of a neon-green digital cyberworld, tall futuristic towers with sharp angular edges rising in the background, vertical glowing data streams cascading down like falling matrix code on both sides of the frame, reflective wet-look floor mirroring the green neon glow and the sandals themselves, faint digital grid pattern subtly visible across the ground and background, dramatic dark silhouettes of robed figures kneeling in reverence at a distance, moody gritty cyberpunk atmosphere, cinematic low-angle hero shot, volumetric god-ray lighting beaming down on the sandals, hyper-detailed, dramatic shadows, epic scale, 8k quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143105877",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78da14d0-d1e0-414b-b283-536baf4cd049/original=true/78da14d0-d1e0-414b-b283-536baf4cd049.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143105905",
+      "title": "Civitai prompt 143105905",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:detailed photorealism style v3:1>\ndetailed photorealism style, hyperrealism art style, realistic textures, photorealistic style, Hyperrealism (visual arts), image looking from beyond, A cinematic skin texture style still facial closeup image of beautiful Celtic long silver reddish hair woman with a smile, green eyes with a 1 Celtic star/Cross tattoo on arm, wearing flannel shirt, blue jeans, tennis shoes, leather vest, coffee cup in hand looking at the USS Constitution 3 masted Navy ship with her gray reddish bearded, bald headed husband who is flannel  shirt, blue jeans and boots clothing in Charlestown naval shipyard Boston Massachusetts. Early morning at Charlestown naval shipyard Boston Massachusetts in background, detailed skin pore, film still, still photography style, sharp style, detailed style, perfect style, perfection style, Kodak film skin tone style, fujifilm skin tone style, professional photography style, skin textured, skin texture style, 1 Celtic silver reddish head white woman.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143105905",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c89f651b-fd41-4766-af38-8fb06522ed42/original=true/c89f651b-fd41-4766-af38-8fb06522ed42.jpeg",
+      "model_version_ids": [
+        691639,
+        820397
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 760649425,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-18T08:21:03.756743+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2f473e22d71a1a080cde9dc837ac89c6b5e452727b9436d62481b000cc613696",
+      "prompt_ar": "<لورا: أسلوب التصوير الواقعي التفصيلي الإصدار 3:1>\nأسلوب تصوير واقعي تفصيلي، أسلوب فني واقعي مفرط، نسيج واقعي، أسلوب واقعي، الواقعية المفرطة (فنون بصرية)، صورة تنظر من الخارج، نمط ملمس جلد سينمائي، صورة مقربة لوجه ثابت لامرأة سلتيكية جميلة ذات شعر فضي طويل محمر مع ابتسامة، عيون خضراء مع وشم نجمة سلتيك واحدة/صليب على الذراع، ترتدي قميصًا من الفلانيل، وجينز أزرق، وأحذية تنس، وسترة جلدية، وفنجان قهوة في اليد تنظر إلى السفينة البحرية يو إس إس كونستيتيوشن 3 بلحيتها الرمادية المحمرّة، زوج أصلع الرأس يرتدي قميصًا من الفلانيل وجينزًا أزرقًا ويرتدي أحذية طويلة في حوض بناء السفن البحري في تشارلزتاون في بوسطن ماساتشوستس. في الصباح الباكر في حوض بناء السفن البحري في تشارلزتاون في بوسطن ماساتشوستس في الخلفية، مسام الجلد التفصيلية، صورة ثابتة للفيلم، أسلوب التصوير الفوتوغرافي الثابت، أسلوب حاد، أسلوب تفصيلي، أسلوب مثالي، أسلوب مثالي، نمط لون بشرة فيلم كوداك، نمط لون بشرة فوجيفيلم، أسلوب تصوير احترافي، نسيج الجلد، نمط نسيج الجلد، 1 رأس سيلتيك فضي محمر امرأة بيضاء.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-18T08:21:07Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143105905 food ai-image-prompts <lora:detailed photorealism style v3:1> detailed photorealism style, hyperrealism art style, realistic textures, photorealistic style, hyperrealism (visual arts), image looking from beyond, a cinematic skin texture style still facial closeup image of beautiful celtic long silver reddish hair woman with a smile, green eyes with a 1 celtic star/cross tattoo on arm, wearing flannel shirt, blue jeans, tennis shoes, leather vest, coffee cup in hand looking at the uss constitution 3 masted navy ship with her gray reddish bearded, bald headed husband who is flannel shirt, blue jeans and boots clothing in charlestown naval shipyard boston massachusetts. early morning at charlestown naval shipyard boston massachusetts in background, detailed skin pore, film still, still photography style, sharp style, detailed style, perfect style, perfection style, kodak film skin tone style, fujifilm skin tone style, professional photography style, skin textured, skin texture style, 1 celtic silver reddish head white woman. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143105905",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c89f651b-fd41-4766-af38-8fb06522ed42/original=true/c89f651b-fd41-4766-af38-8fb06522ed42.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-17T19:02:54.112257+00:00",
-  "prompt_count": 506,
+  "generated_at": "2026-09-18T08:21:07.691649+00:00",
+  "prompt_count": 536,
   "translation": {
     "language": "ar",
-    "translated_count": 20,
-    "skipped_count": 484,
+    "translated_count": 30,
+    "skipped_count": 504,
     "failed_count": 2,
-    "updated_at": "2026-09-17T19:02:53Z"
+    "updated_at": "2026-09-18T08:21:07Z"
   }
 }
