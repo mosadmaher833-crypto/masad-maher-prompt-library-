@@ -23689,15 +23689,474 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/926f1ae4-0d65-41f7-a364-f61ff91b6159/original=true/926f1ae4-0d65-41f7-a364-f61ff91b6159.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-7350774b79af",
+      "title": "code-yeongyu/oh-my-openagent README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Wan"
+      ],
+      "prompt": "Agents auto-read relevant context. Zero manual management.\n\n### Planning. The Ultrawork Planner\n\nComplex task? Don't prompt and pray.\n\nThe Ultrawork Planner (`/ulw-plan`) **interviews you like a real engineer**, identifies scope and ambiguities, and writes a reviewed plan to `.omo/plans/` before touching code. `/ulw-execute` then has the main agent execute that plan in the same session. The agent knows what it's building before it starts.\n\n### Skills\n\nSkills aren't just prompts. Each brings domain-tuned system instructions, embedded MCP servers on demand, and scoped permissions so agents stay in bounds.\n\nBuilt-ins include `playwright` (browser automation), `git-master` (atomic commits, rebase surgery) and `frontend` (design-first UI).\n\nAdd your own under `.opencode/skills/*/SKILL.md` or `~/.config/opencode/skills/*/SKILL.md`.\n\n**Want the full feature breakdown?** See the **[Features Documentation](docs/reference/features.md)** for agents, hooks, tools, MCPs, and everything else in detail.\n\n---\n\n> **New to oh-my-openagent?** Read the **[Overview](docs/guide/overview.md)** to understand what you have, or check the **[Orchestration Guide](docs/guide/orchestration.md)** for how agents collaborate.\n\n## Uninstallation\n\nRemoving oh-my-openagent takes four steps.\n\n### Remove the plugin from your OpenCode config\n\nEdit `~/.config/opencode/opencode.json` (or `opencode.jsonc`) and remove either `\"oh-my-openagent\"` or the legacy `\"oh-my-opencode\"` entry from the `plugin` array:",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "code-yeongyu/oh-my-openagent",
+      "source_url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+      "license": "NOASSERTION",
+      "imported_at": "2026-09-19T08:09:08.229958+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7350774b79afff920de8c2835be8afa54ad24f6d1982f9e18509ffd1fb90a09b",
+      "prompt_ar": "يقوم الوكلاء بقراءة السياق ذي الصلة تلقائيًا. الإدارة اليدوية صفر.\n\n### تخطيط. مخطط Ultrawork\n\nمهمة معقدة؟ لا تأمر وتصلي.\n\nيقوم Ultrawork Planner (`/ulw-plan`) ** بإجراء مقابلات معك كمهندس حقيقي**، ويحدد النطاق وجوانب الغموض، ويكتب خطة تمت مراجعتها إلى `.omo/plans/` قبل لمس الرمز. `/ulw-execute` ثم يطلب من الوكيل الرئيسي تنفيذ تلك الخطة في نفس الجلسة. يعرف الوكيل ما يبنيه قبل أن يبدأ.\n\n### المهارات\n\nالمهارات ليست مجرد مطالبات. يقدم كل منها تعليمات النظام التي تم ضبطها في المجال، وخوادم MCP المضمنة عند الطلب، والأذونات المحددة النطاق بحيث يظل الوكلاء ضمن الحدود.\n\nتشتمل العناصر المضمنة على \"الكاتب المسرحي\" (أتمتة المتصفح)، و\"git-master\" (الالتزامات الذرية، وجراحة إعادة القاعدة)، و\"الواجهة الأمامية\" (واجهة المستخدم ذات التصميم الأول).\n\nأضف ما تريده ضمن `.opencode/skills/*/SKILL.md` أو `~/.config/opencode/skills/*/SKILL.md`.\n\n**هل تريد تفصيل الميزات بالكامل؟** راجع **[توثيق الميزات](docs/reference/features.md)** للتعرف على الوكلاء والخطافات والأدوات وMCPs وكل شيء آخر بالتفصيل.\n\n---\n\n> **هل أنت جديد على oh-my-openagent؟** اقرأ **[نظرة عامة](docs/guide/overview.md)** لفهم ما لديك، أو راجع **[دليل التنسيق](docs/guide/orchestration.md)** للتعرف على كيفية تعاون الوكلاء.\n\n## إلغاء التثبيت\n\nتستغرق إزالة oh-my-openagent أربع خطوات.\n\n### قم بإزالة المكون الإضافي من تكوين OpenCode الخاص بك\n\nقم بتحرير `~/.config/opencode/opencode.json` (أو `opencode.jsonc`) وقم بإزالة إما `\"oh-my-openagent\"` أو الإدخال القديم `\"oh-my-opencode\"` من مصفوفة `البرنامج الإضافي`:",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:08Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "code-yeongyu/oh-my-openagent readme prompt prompt-engineering agents auto-read relevant context. zero manual management. ### planning. the ultrawork planner complex task? don't prompt and pray. the ultrawork planner (`/ulw-plan`) **interviews you like a real engineer**, identifies scope and ambiguities, and writes a reviewed plan to `.omo/plans/` before touching code. `/ulw-execute` then has the main agent execute that plan in the same session. the agent knows what it's building before it starts. ### skills skills aren't just prompts. each brings domain-tuned system instructions, embedded mcp servers on demand, and scoped permissions so agents stay in bounds. built-ins include `playwright` (browser automation), `git-master` (atomic commits, rebase surgery) and `frontend` (design-first ui). add your own under `.opencode/skills/*/skill.md` or `~/.config/opencode/skills/*/skill.md`. **want the full feature breakdown?** see the **[features documentation](docs/reference/features.md)** for agents, hooks, tools, mcps, and everything else in detail. --- > **new to oh-my-openagent?** read the **[overview](docs/guide/overview.md)** to understand what you have, or check the **[orchestration guide](docs/guide/orchestration.md)** for how agents collaborate. ## uninstallation removing oh-my-openagent takes four steps. ### remove the plugin from your opencode config edit `~/.config/opencode/opencode.json` (or `opencode.jsonc`) and remove either `\"oh-my-openagent\"` or the legacy `\"oh-my-opencode\"` entry from the `plugin` array: github review wan wan",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+          "source_repository": "code-yeongyu/oh-my-openagent",
+          "license": "NOASSERTION"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143061726",
+      "title": "Civitai prompt 143061726",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic wide shot of three beautiful young women with long blonde hair walking gracefully through a vast, golden wheat field under a bright blue sky with scattered fluffy white clouds. The woman on the left wears a wide-brimmed straw hat and a vintage-style blue dress with an off-shoulder white blouse. The woman in the center wears a vibrant, deep red Victorian-inspired gown with puff sleeves. The woman on the right wears a rustic beige and floral patterned dress, also with an off-shoulder white blouse. They are walking along a dirt path amidst the tall, swaying stalks of grain. The lighting is warm and bright, reminiscent of a sunny summer afternoon, capturing a serene, pastoral, and ethereal atmosphere with a soft, dreamlike focus. Highly detailed textures on the fabric of their dresses and the golden stalks of wheat, photorealistic style, sharp focus on the subjects with a slightly blurred background of distant rolling hills.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143061726",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3851c7f-7fd8-4fda-9eaf-47673e7442a4/original=true/b3851c7f-7fd8-4fda-9eaf-47673e7442a4.jpeg",
+      "model_version_ids": [
+        3207633
+      ],
+      "width": 1140,
+      "height": 1472,
+      "seed": 1761869816,
+      "negative_prompt": "SDXLnegXL",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230257+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b405e01ec86203a19492426eabd8bf5838b6a23b9b3f3bf64b5b6bc508ba9955",
+      "prompt_ar": "لقطة سينمائية واسعة لثلاث شابات جميلات بشعر أشقر طويل يسيرن برشاقة عبر حقل قمح ذهبي واسع تحت سماء زرقاء لامعة مع سحب بيضاء رقيقة متناثرة. ترتدي المرأة الموجودة على اليسار قبعة من القش واسعة الحواف وفستانًا أزرقًا على الطراز العتيق مع بلوزة بيضاء مكشوفة الكتفين. ترتدي المرأة الموجودة في المنتصف ثوبًا أحمرًا نابضًا بالحياة مستوحى من العصر الفيكتوري بأكمام منتفخة. ترتدي المرأة الموجودة على اليمين فستانًا ريفيًا باللون البيج ومزخرف بالزهور، مع بلوزة بيضاء مكشوفة الأكتاف. إنهم يسيرون على طول طريق ترابي وسط سيقان الحبوب الطويلة المتمايلة. الإضاءة دافئة ومشرقة، تذكرنا بفترة ما بعد الظهيرة الصيفية المشمسة، وتلتقط جوًا هادئًا ورعويًا وأثيريًا مع تركيز ناعم يشبه الحلم. قوام مفصل للغاية على قماش فساتينهم وسيقان القمح الذهبية، وأسلوب واقعي، وتركيز حاد على الموضوعات مع خلفية غير واضحة قليلاً للتلال البعيدة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:08Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143061726 image ai-image-prompts a cinematic wide shot of three beautiful young women with long blonde hair walking gracefully through a vast, golden wheat field under a bright blue sky with scattered fluffy white clouds. the woman on the left wears a wide-brimmed straw hat and a vintage-style blue dress with an off-shoulder white blouse. the woman in the center wears a vibrant, deep red victorian-inspired gown with puff sleeves. the woman on the right wears a rustic beige and floral patterned dress, also with an off-shoulder white blouse. they are walking along a dirt path amidst the tall, swaying stalks of grain. the lighting is warm and bright, reminiscent of a sunny summer afternoon, capturing a serene, pastoral, and ethereal atmosphere with a soft, dreamlike focus. highly detailed textures on the fabric of their dresses and the golden stalks of wheat, photorealistic style, sharp focus on the subjects with a slightly blurred background of distant rolling hills. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143061726",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3851c7f-7fd8-4fda-9eaf-47673e7442a4/original=true/b3851c7f-7fd8-4fda-9eaf-47673e7442a4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196738",
+      "title": "Civitai prompt 143196738",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A woman is depicted in a cool, enigmatic portrait that leans toward realistic fine art photography while embracing a moody, cinematic sensibility. The composition shifts to an oblique viewing angle, her face turned slightly away from the viewer, allowing one eye to remain partially in shadow while the other catches a sharp, icy highlight. This asymmetry creates tension and intrigue, suggesting inner depth and unspoken narrative. Lighting is distinctly cool and directional, dominated by desaturated blue gray and steel tones that skim across her cheekbone, temple, and the bridge of her nose, while the opposite side of her face dissolves into soft darkness. Her hair falls in controlled yet natural waves, absorbing the light in muted silver highlights that blend seamlessly into the background. The palette remains largely monochrome, punctuated only by minimal, deliberate color accents such as a faint cold sheen in the eyes and a barely perceptible tonal shift along the lips. Skin texture is realistic and refined, rendered with subtle grain and smooth tonal transitions that enhance depth without overt stylization. The background recedes into layered shadow and atmospheric blur, offering no clear spatial context and reinforcing a sense of mystery. The overall impression is restrained, cool, and psychologically charged, combining realistic portraiture with a noir inspired, contemporary art aesthetic that invites prolonged contemplation rather than immediate clarity.  photorealistic, raw photo, canon eos 5d, 30mm lens, f2.8, 8k",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196738",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbd62cd5-0527-4709-bcfb-ef1dff8a5cb8/original=true/fbd62cd5-0527-4709-bcfb-ef1dff8a5cb8.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [],
+      "width": 1088,
+      "height": 1920,
+      "seed": 5174,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230322+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "58faf08e95a37c93dd59adf3131a52f5c31fc9cd1c36c1d33e4026e1514bd7a8",
+      "prompt_ar": "تم تصوير امرأة في صورة رائعة وغامضة تميل نحو التصوير الفوتوغرافي الواقعي للفنون الجميلة بينما تحتضن إحساسًا سينمائيًا متقلبًا. يتحول التكوين إلى زاوية رؤية مائلة، حيث يبتعد وجهها قليلاً عن المشاهد، مما يسمح لإحدى العينين بالبقاء جزئيًا في الظل بينما تلتقط الأخرى تسليط الضوء الجليدي الحاد. يخلق عدم التناسق هذا التوتر والإثارة، مما يوحي بالعمق الداخلي والسرد غير المعلن. تتميز الإضاءة بأنها باردة وموجهة بشكل واضح، ويهيمن عليها اللون الأزرق الرمادي غير المشبع والألوان الفولاذية التي تنساب عبر عظام وجنتها وصدغها وجسر أنفها، بينما يذوب الجانب الآخر من وجهها في ظلام ناعم. يتساقط شعرها في أمواج طبيعية ومتحكم فيها، ويمتص الضوء في لمسات فضية صامتة تمتزج بسلاسة مع الخلفية. تظل اللوحة أحادية اللون إلى حد كبير، ولا تتخللها سوى لمسات لونية بسيطة ومتعمدة مثل اللمعان البارد الخافت في العيون والتحول اللوني الذي بالكاد يمكن إدراكه على طول الشفاه. ملمس البشرة واقعي ومصقول، ومصنوع من حبيبات دقيقة وانتقالات لونية ناعمة تعزز العمق دون أسلوب واضح. تنحسر الخلفية إلى ظلال ذات طبقات وضبابية جوية، مما لا يوفر سياقًا مكانيًا واضحًا ويعزز الشعور بالغموض. الانطباع العام مقيد ورائع ومشحون نفسيًا، ويجمع بين التصوير الواقعي وجمالية الفن المعاصر المستوحاة من اللون الأسود والتي تدعو إلى التأمل المطول بدلاً من الوضوح الفوري.  صورة واقعية، صورة خام، كاميرا Canon eos 5d، عدسة 30 مم، f2.8، 8k",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:08Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143196738 image ai-image-prompts a woman is depicted in a cool, enigmatic portrait that leans toward realistic fine art photography while embracing a moody, cinematic sensibility. the composition shifts to an oblique viewing angle, her face turned slightly away from the viewer, allowing one eye to remain partially in shadow while the other catches a sharp, icy highlight. this asymmetry creates tension and intrigue, suggesting inner depth and unspoken narrative. lighting is distinctly cool and directional, dominated by desaturated blue gray and steel tones that skim across her cheekbone, temple, and the bridge of her nose, while the opposite side of her face dissolves into soft darkness. her hair falls in controlled yet natural waves, absorbing the light in muted silver highlights that blend seamlessly into the background. the palette remains largely monochrome, punctuated only by minimal, deliberate color accents such as a faint cold sheen in the eyes and a barely perceptible tonal shift along the lips. skin texture is realistic and refined, rendered with subtle grain and smooth tonal transitions that enhance depth without overt stylization. the background recedes into layered shadow and atmospheric blur, offering no clear spatial context and reinforcing a sense of mystery. the overall impression is restrained, cool, and psychologically charged, combining realistic portraiture with a noir inspired, contemporary art aesthetic that invites prolonged contemplation rather than immediate clarity. photorealistic, raw photo, canon eos 5d, 30mm lens, f2.8, 8k civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196738",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbd62cd5-0527-4709-bcfb-ef1dff8a5cb8/original=true/fbd62cd5-0527-4709-bcfb-ef1dff8a5cb8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196599",
+      "title": "Civitai prompt 143196599",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality,\nsolo, 1girl,close up,\nmechanical appearance,\nbird mask,\nFolk aesthetics,\nLong sleeves,wide sleeves,\nchina dress with peacock feathers Texture,\nsharp details\ncovered face,close up,  mechanical armor,military coat, floating coat,\nshadowplay, shimmering holographic bat floating,  cyberpunk aesthetics,,digital made of corrupted data fragments,\n, iloha24, v3rox_2th,, colorful,, abstract,, surreal,, extra eyes,horror \\(theme\\),",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196599",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cfb59a6-544d-437b-9bd1-7aea8fb0f033/original=true/2cfb59a6-544d-437b-9bd1-7aea8fb0f033.jpeg",
+      "model_version_ids": [
+        1256784,
+        2050041,
+        2691971,
+        2883731
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 288126953,
+      "negative_prompt": "nsfw, worst quality, bad quality, low quality, lowres, anatomical nonsense, artistic error, bad anatomy, interlocked fingers, extra fingers, text, artist name, signature, bad feet, extra toes, ugly, poorly drawn, censor, blurry, watermark, simple background, transparent background, old, oldest, glitch, deformed, mutated, disfigured, long body, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing, sketch, jpeg artifacts, username, censored, bar_censor, mosaic_censor, conjoined, bad ai-generated, nsfw, long neck, skin blemishes, skin spots, acne, the wrong limb, error, black line, excess hands",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230341+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1a181cf297a49d9ac3e638d70c7a010e785fa842fd3e9597df24dc94254b788b",
+      "prompt_ar": "تحفة، أفضل نوعية،\nمنفردا, 1girl,قرب,\nالمظهر الميكانيكي،\nقناع الطيور,\nجماليات شعبية,\nأكمام طويلة، وأكمام واسعة،\nفستان الصين مع نسيج ريش الطاووس،\nتفاصيل حادة\nوجه مغطى، قريب، درع ميكانيكي، معطف عسكري، معطف عائم،\nShadowplay، الخفافيش الثلاثية الأبعاد المتلألئة العائمة، جماليات السايبربانك،، رقمية مصنوعة من أجزاء بيانات تالفة،\n, iloha24, v3rox_2th,, ملون,, مجردة,, سريالية,, عيون اضافية,رعب \\(موضوع\\),",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:08Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143196599 image ai-image-prompts masterpiece, best quality, solo, 1girl,close up, mechanical appearance, bird mask, folk aesthetics, long sleeves,wide sleeves, china dress with peacock feathers texture, sharp details covered face,close up, mechanical armor,military coat, floating coat, shadowplay, shimmering holographic bat floating, cyberpunk aesthetics,,digital made of corrupted data fragments, , iloha24, v3rox_2th,, colorful,, abstract,, surreal,, extra eyes,horror \\(theme\\), civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196599",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cfb59a6-544d-437b-9bd1-7aea8fb0f033/original=true/2cfb59a6-544d-437b-9bd1-7aea8fb0f033.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196600",
+      "title": "Civitai prompt 143196600",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality,\nsolo, 1girl,close up,\nmechanical appearance,\nbird mask,\nFolk aesthetics,\nLong sleeves,wide sleeves,\nchina dress with peacock feathers Texture,\nsharp details\ncovered face,close up,  mechanical armor,military coat, floating coat,\nshadowplay, shimmering holographic bat floating,  cyberpunk aesthetics,,digital made of corrupted data fragments,Stylized geometric bat with halftone \n, iloha24, v3rox_2th,, colorful,, abstract,, surreal,, extra eyes,horror \\(theme\\),",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196600",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3a2ff90-a17e-4b56-be89-96d366d42e04/original=true/f3a2ff90-a17e-4b56-be89-96d366d42e04.jpeg",
+      "model_version_ids": [
+        1256784,
+        2050041,
+        2691971,
+        2883731
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 844274463,
+      "negative_prompt": "nsfw, worst quality, bad quality, low quality, lowres, anatomical nonsense, artistic error, bad anatomy, interlocked fingers, extra fingers, text, artist name, signature, bad feet, extra toes, ugly, poorly drawn, censor, blurry, watermark, simple background, transparent background, old, oldest, glitch, deformed, mutated, disfigured, long body, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing, sketch, jpeg artifacts, username, censored, bar_censor, mosaic_censor, conjoined, bad ai-generated, nsfw, long neck, skin blemishes, skin spots, acne, the wrong limb, error, black line, excess hands",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230354+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "806ab4f0e640ed821c0f75701cc239c3a93ac8dfa281ac95ab70584011b43855",
+      "prompt_ar": "تحفة، أفضل نوعية،\nمنفردا, 1girl,قرب,\nالمظهر الميكانيكي،\nقناع الطيور,\nجماليات شعبية,\nأكمام طويلة، وأكمام واسعة،\nفستان الصين مع نسيج ريش الطاووس،\nتفاصيل حادة\nوجه مغطى، قريب، درع ميكانيكي، معطف عسكري، معطف عائم،\nShadowplay، الخفافيش الثلاثية الأبعاد المتلألئة العائمة، جماليات السايبربانك،،رقمية مصنوعة من أجزاء بيانات تالفة،خفاش هندسي منمق بألوان نصفية \n, iloha24, v3rox_2th,, ملون,, مجردة,, سريالي,, عيون اضافية,رعب \\(موضوع\\),",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:08Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143196600 image ai-image-prompts masterpiece, best quality, solo, 1girl,close up, mechanical appearance, bird mask, folk aesthetics, long sleeves,wide sleeves, china dress with peacock feathers texture, sharp details covered face,close up, mechanical armor,military coat, floating coat, shadowplay, shimmering holographic bat floating, cyberpunk aesthetics,,digital made of corrupted data fragments,stylized geometric bat with halftone , iloha24, v3rox_2th,, colorful,, abstract,, surreal,, extra eyes,horror \\(theme\\), civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196600",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3a2ff90-a17e-4b56-be89-96d366d42e04/original=true/f3a2ff90-a17e-4b56-be89-96d366d42e04.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143189996",
+      "title": "Civitai prompt 143189996",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "A photorealistic upper torso emphasis portrait rendered in cinematic sunset lighting with a shallow depth of field, capturing Piper, an adult woman in her early 20s, with copper-red hair slightly damp and tousled, blue-green eyes, fair freckled skin, and soft feminine features. She wears a black wool Victorian-style coat over a black lace ruffle blouse with high collar, a black velvet underbust corset, black velvet maxi skirt, black platform Victorian boots, a cameo choker, and black lace fingerless gloves. Her pose is one of reaching wistfully upward, one open hand lightly parted toward a bare overhanging branch, face lifted after it, conveying a playful intimate expression and tasteful sensual mood. The setting is an overgrown Victorian cemetery in autumn, with leaning moss-eaten headstones, weeping stone angels, bare black trees shedding last brown leaves, rusted wrought-iron fencing sagging between plots, fog pooling low over sunken graves, and a corroded gate to a vine-strangled mausoleum, drifts of dead leaves banked against the stones. The scene is bathed in wan misty light, rendered in weathered-grey and dead-leaf-amber palette, with natural color and true-to-life lighting, captured with a high-end camera and prime lens at natural shallow depth of field, showcasing exceptional sharpness and richly detailed textures including individual hair strands, fabric weave, realistic natural skin showing pores and fine texture, accurate lifelike anatomy and proportions, and professional 8K clarity with tack-sharp focus.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143189996",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3075286d-4b08-4049-8a1e-80f6a3ff80c4/original=true/3075286d-4b08-4049-8a1e-80f6a3ff80c4.jpeg",
+      "model": "bf95 Dark Realism v4",
+      "model_version_ids": [
+        3244465,
+        3311768,
+        3335603
+      ],
+      "width": 1664,
+      "height": 2432,
+      "seed": 2699482911,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230379+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "10110329d97ca68f65234fd4145ca3b24b312fa564385ae29804fe0035ae6250",
+      "prompt_ar": "صورة واقعية للجذع العلوي تم تقديمها في إضاءة سينمائية لغروب الشمس مع عمق مجال ضحل، تلتقط بايبر، وهي امرأة بالغة في أوائل العشرينات من عمرها، بشعر أحمر نحاسي رطب قليلاً وأشعث، وعينان زرقاء وخضراء، وبشرة منمشة فاتحة اللون، وملامح أنثوية ناعمة. ترتدي معطفًا من الصوف الأسود على الطراز الفيكتوري فوق بلوزة مكشكشة من الدانتيل الأسود مع ياقة عالية، ومشد مخملي أسود تحت الصدر، وتنورة ماكسي مخملية سوداء، وحذاء أسود على الطراز الفيكتوري، وقلادة حجاب، وقفازات من الدانتيل الأسود بدون أصابع. وضعيتها هي الوصول إلى الأعلى بحزن، ويد مفتوحة متباعدة بخفة نحو فرع متدلي عاري، ووجه مرفوع بعده، مما ينقل تعبيرًا حميميًا مرحًا ومزاجًا حسيًا لذيذًا. المكان عبارة عن مقبرة فيكتورية متضخمة في الخريف، مع شواهد القبور المائلة التي أكلتها الطحالب، والملائكة الحجرية الباكية، والأشجار السوداء العارية التي تتساقط آخر أوراقها البنية، وسياج من الحديد المطاوع الصدأ يتدلى بين قطع الأراضي، وتجمع الضباب على ارتفاع منخفض فوق القبور الغارقة، وبوابة متآكلة إلى ضريح مخنوق بالكروم، وانجرافات من الأوراق الميتة ترتكز على الحجارة. المشهد مغمور بضوء ضبابي باهت، تم عرضه في لوحة رمادية اللون وكهرمانية ميتة، مع لون طبيعي وإضاءة واقعية، تم التقاطه بكاميرا متطورة وعدسة رئيسية بعمق مجال ضحل طبيعي، مما يعرض دقة استثنائية وأنسجة مفصلة غنية بما في ذلك خصلات الشعر الفردية، ونسج القماش، والجلد الطبيعي الواقعي الذي يظهر المسام والملمس الناعم، والتشريح الدقيق والنسب النابضة بالحياة، ووضوح احترافي بدقة 8K مع تركيز حاد للغاية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:09Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 143189996 image ai-image-prompts a photorealistic upper torso emphasis portrait rendered in cinematic sunset lighting with a shallow depth of field, capturing piper, an adult woman in her early 20s, with copper-red hair slightly damp and tousled, blue-green eyes, fair freckled skin, and soft feminine features. she wears a black wool victorian-style coat over a black lace ruffle blouse with high collar, a black velvet underbust corset, black velvet maxi skirt, black platform victorian boots, a cameo choker, and black lace fingerless gloves. her pose is one of reaching wistfully upward, one open hand lightly parted toward a bare overhanging branch, face lifted after it, conveying a playful intimate expression and tasteful sensual mood. the setting is an overgrown victorian cemetery in autumn, with leaning moss-eaten headstones, weeping stone angels, bare black trees shedding last brown leaves, rusted wrought-iron fencing sagging between plots, fog pooling low over sunken graves, and a corroded gate to a vine-strangled mausoleum, drifts of dead leaves banked against the stones. the scene is bathed in wan misty light, rendered in weathered-grey and dead-leaf-amber palette, with natural color and true-to-life lighting, captured with a high-end camera and prime lens at natural shallow depth of field, showcasing exceptional sharpness and richly detailed textures including individual hair strands, fabric weave, realistic natural skin showing pores and fine texture, accurate lifelike anatomy and proportions, and professional 8k clarity with tack-sharp focus. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143189996",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3075286d-4b08-4049-8a1e-80f6a3ff80c4/original=true/3075286d-4b08-4049-8a1e-80f6a3ff80c4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196275",
+      "title": "Civitai prompt 143196275",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "8uairandomanimv1\n\nTITLE:\nThe_Clockwork_Forest_of_Floating_Rivers\n\nCharacter:\nbeautiful 23 years old Middle Eastern woman, feminine figure, elegant narrow face, delicate features, curious playful expression, expressive eyes\n\nHair & Eyes:\nvery long dark brown hair, soft natural waves, layered lengths, long curtain bangs, small copper leaf hair clip, expressive anime eyes, luminous amber irises, detailed radial iris patterns, natural eye symmetry\n\nSkin:\nclean anime skin rendering, soft shading, subtle warm skin tone variation\n\nHands & Feet:\none leg extended extremely close toward the camera, oversized in the immediate foreground through strong perspective and foreshortening, polished boot partially dominating the lower frame, both hands gripping a large mechanical branch deeper in the scene, anatomically coherent proportions\n\nPose & Action:\nseated sideways on a giant rotating wooden mechanism, one leg thrust toward the camera while the other remains folded on the structure, torso leaning backward slightly, hair and skirt flowing with the movement of the machinery\n\nOutfit & Accessories:\nshort forest-green fantasy dress with layered cream fabric, fitted brown leather corset, copper belt, thigh-high brown boots, small mechanical leaf ornaments, leather wristbands, copper pendant\n\nEnvironment / Background:\nan enormous enchanted forest filled with colossal mechanical trees, transparent rivers floating horizontally through the air, giant wooden gears turning between the trunks, glowing mushrooms beneath the canopy, suspended bridges connecting enormous branches, tiny luminous villages hidden among the foliage\n\nLighting / Atmosphere:\nbright morning daylight filtering through the mechanical canopy, warm sunbeams, soft green shadows, glowing particles drifting through the air, whimsical adventurous atmosphere\n\nCamera / Composition:\nextreme near-camera leg foreground, camera positioned low and directly along the extended leg, nearest boot dramatically enlarged by perspective while remaining anatomically coherent, character torso and face receding behind it, enormous mechanical forest and floating rivers creating deep background layers, dynamic diagonal composition\n\nRendering:\nhigh-quality anime illustration, detailed manga-inspired rendering, strong perspective and foreshortening, expressive character design, intricate mechanical details, detailed fantasy environment, flowing fabric and hair\n\nColor Grading:\nforest green, copper, warm brown, cream, amber, emerald, golden yellow, luminous cyan accents, vibrant harmonious fantasy palette\n\nanime style\nmanga style\nhigh quality\nhighly detailed\nbeautiful illustration\ndynamic composition",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196275",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f48f26df-7404-457c-aeda-e1ce7a05b222/original=true/f48f26df-7404-457c-aeda-e1ce7a05b222.jpeg",
+      "model": "Anima\\theAWondermix_v1",
+      "model_version_ids": [],
+      "width": 720,
+      "height": 1280,
+      "seed": 46110511968762,
+      "negative_prompt": "blurry, jpeg artifacts, sepia, artist name, man, boy, multiple, glossy, wet, reflection, glossy skin, bad hands, deformation,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230411+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dc9ca2466653f67f1674e07555853a9b39899bb226da1731a18124fcdbeac3a8",
+      "prompt_ar": "8uairandomanimv1\n\nالعنوان:\nThe_Clockwork_Forest_of_Floating_Rivers\n\nالحرف:\nامرأة شرق أوسطية جميلة تبلغ من العمر 23 عامًا، شخصية أنثوية، وجه ضيق أنيق، ملامح رقيقة، تعبير مرح فضولي، عيون معبرة\n\nالشعر والعينين:\nشعر بني غامق طويل جدًا، أمواج طبيعية ناعمة، أطوال متعددة الطبقات، غرة ستائر طويلة، مشبك شعر صغير من أوراق النحاس، عيون أنمي معبرة، قزحية كهرمانية مضيئة، أنماط قزحية شعاعية مفصلة، تناسق طبيعي للعين\n\nالجلد:\nتجسيد جلد الأنيمي النظيف، والتظليل الناعم، والتباين الدقيق في لون البشرة الدافئة\n\nاليدين والقدمين:\nامتدت إحدى ساقيها بالقرب من الكاميرا، وهي كبيرة الحجم في المقدمة المباشرة من خلال منظور قوي وتقصير أمامي، ويهيمن الحذاء المصقول جزئيًا على الإطار السفلي، وتمسك كلتا اليدين بفرع ميكانيكي كبير أعمق في المشهد، بنسب متماسكة تشريحيًا\n\nالوضع والحركة:\nيجلس بشكل جانبي على آلية خشبية دوارة عملاقة، وإحدى ساقيه موجهة نحو الكاميرا بينما تظل الأخرى مطوية على الهيكل، ويميل الجذع إلى الخلف قليلاً، ويتدفق الشعر والتنورة مع حركة الآلة\n\nالزي والإكسسوارات:\nفستان خيالي قصير باللون الأخضر الغاب مع طبقات من القماش الكريمي، ومشد من الجلد البني المجهز، وحزام نحاسي، وأحذية بنية تصل إلى الفخذ، وزخارف أوراق ميكانيكية صغيرة، وأساور جلدية، وقلادة نحاسية\n\nالبيئة / الخلفية:\nغابة مسحورة ضخمة مليئة بأشجار ميكانيكية هائلة، وأنهار شفافة تطفو أفقيًا في الهواء، وتروس خشبية عملاقة تدور بين الجذوع، وفطر متوهج تحت المظلة، وجسور معلقة تربط الفروع الضخمة، وقرى صغيرة مضيئة مختبئة بين أوراق الشجر\n\nالإضاءة / الجو:\nضوء النهار المشرق يتسلل عبر المظلة الميكانيكية، وأشعة الشمس الدافئة، والظلال الخضراء الناعمة، والجزيئات المتوهجة التي تنجرف عبر الهواء، وأجواء المغامرة الغريبة\n\nالكاميرا / التكوين:\nأقصى مقدمة ساق الكاميرا القريبة، تم وضع الكاميرا في مكان منخفض ومباشرة على طول الساق الممتدة، وتم تكبير الحذاء الأقرب بشكل كبير من خلال المنظور مع الحفاظ على التماسك التشريحي، ويتراجع جذع الشخصية والوجه خلفها، وتخلق الغابة الميكانيكية الهائلة والأنهار العائمة طبقات خلفية عميقة، وتكوين قطري ديناميكي\n\nتقديم:\nرسوم توضيحية عالية الجودة للأنيمي، عرض تفصيلي مستوحى من المانجا، منظور قوي وتقصير، تصميم شخصيات معبر، تفاصيل ميكانيكية معقدة، بيئة خيالية مفصلة، قماش وشعر متدفق\n\nتصنيف اللون:\nأخضر الغابة، النحاس، البني الدافئ، الكريمي، العنبر، الزمرد، الأصفر الذهبي، لمسات سماوية مضيئة، لوحة خيالية متناغمة ونابضة بالحياة\n\nأسلوب أنيمي\nأسلوب المانجا\nجودة عالية\nمفصلة للغاية\nرسم توضيحي جميل\nتكوين ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:10Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143196275 fashion ai-image-prompts 8uairandomanimv1 title: the_clockwork_forest_of_floating_rivers character: beautiful 23 years old middle eastern woman, feminine figure, elegant narrow face, delicate features, curious playful expression, expressive eyes hair & eyes: very long dark brown hair, soft natural waves, layered lengths, long curtain bangs, small copper leaf hair clip, expressive anime eyes, luminous amber irises, detailed radial iris patterns, natural eye symmetry skin: clean anime skin rendering, soft shading, subtle warm skin tone variation hands & feet: one leg extended extremely close toward the camera, oversized in the immediate foreground through strong perspective and foreshortening, polished boot partially dominating the lower frame, both hands gripping a large mechanical branch deeper in the scene, anatomically coherent proportions pose & action: seated sideways on a giant rotating wooden mechanism, one leg thrust toward the camera while the other remains folded on the structure, torso leaning backward slightly, hair and skirt flowing with the movement of the machinery outfit & accessories: short forest-green fantasy dress with layered cream fabric, fitted brown leather corset, copper belt, thigh-high brown boots, small mechanical leaf ornaments, leather wristbands, copper pendant environment / background: an enormous enchanted forest filled with colossal mechanical trees, transparent rivers floating horizontally through the air, giant wooden gears turning between the trunks, glowing mushrooms beneath the canopy, suspended bridges connecting enormous branches, tiny luminous villages hidden among the foliage lighting / atmosphere: bright morning daylight filtering through the mechanical canopy, warm sunbeams, soft green shadows, glowing particles drifting through the air, whimsical adventurous atmosphere camera / composition: extreme near-camera leg foreground, camera positioned low and directly along the extended leg, nearest boot dramatically enlarged by perspective while remaining anatomically coherent, character torso and face receding behind it, enormous mechanical forest and floating rivers creating deep background layers, dynamic diagonal composition rendering: high-quality anime illustration, detailed manga-inspired rendering, strong perspective and foreshortening, expressive character design, intricate mechanical details, detailed fantasy environment, flowing fabric and hair color grading: forest green, copper, warm brown, cream, amber, emerald, golden yellow, luminous cyan accents, vibrant harmonious fantasy palette anime style manga style high quality highly detailed beautiful illustration dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196275",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f48f26df-7404-457c-aeda-e1ce7a05b222/original=true/f48f26df-7404-457c-aeda-e1ce7a05b222.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196220",
+      "title": "Civitai prompt 143196220",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "<lora:F42_Daily_Challenge:0.4>\nWhimsical and Playful, breathtaking, ecstatic <lora:xl_rpr_soulgemmed_v1_710110:1>, rp_slgd,  A complete crystalline transmutation of Darth Vader, whose entire being is a towering, sharp figure of geometric fragments and glowing crystal shards. He is in a meticulously rendered maid's uniform, which is entirely made of translucent, highly polished prismatic crystal facets. He is kneeling, his crystalline fingers delicately scrubbing a violently faceted toilet, which itself is a complex structure of glowing geometric crystal shards. The setting is a chaotic, intensely messy bathroom where the fixtures and porcelain have been entirely replaced by sharp, fractured, angular crystalline geometry and scattered fragments. Dramatic rim lighting illuminates the myriad facets, creating a brilliant prismatic light show across the entire scene. Ultra-high detail, 16k resolution, photorealistic concept art, sharp edges, depth of field, cinematic color grading. , award-winning, professional, highly detailed, imaginative, fantastical, bright colors, stylized, happy, Whimsical and Playful, 3d , dynamic action, closeup, cute and adorable, cute big circular reflective eyes, nebulae, Pixar render, unreal engine cinematic smooth, intricate detail, cinematic\n<F42>​​​",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196220",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/870902ad-5fee-4fbe-874f-8ec4bc57586b/original=true/870902ad-5fee-4fbe-874f-8ec4bc57586b.jpeg",
+      "model": "f42SDXL_v20VAE",
+      "model_version_ids": [
+        710110,
+        1227475,
+        2558484
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2527916969,
+      "negative_prompt": "extra legs, ugly, deformed, noisy, blurred, distorted, grainy, low contrast, dreary, boring​​​",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230444+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5477e8e1e61997f5b90c3341fd87cecf285b3650b5d0171dd917d6c65e003c24",
+      "prompt_ar": "<لورا:F42_Daily_Challenge:0.4>\nغريب الأطوار ومرح، يحبس الأنفاس، منتشي <lora:xl_rpr_soulgemmed_v1_710110:1>، rp_slgd، تحويل بلوري كامل لدارث فيدر، الذي يكون كيانه بالكامل عبارة عن شكل شاهق وحاد من الأجزاء الهندسية وشظايا الكريستال المتوهجة. إنه يرتدي زي خادمة مصنوع بدقة، وهو مصنوع بالكامل من جوانب كريستال منشورية شفافة مصقولة للغاية. إنه راكع، وأصابعه البلورية تنظف بدقة المرحاض ذو الأوجه العنيفة، والذي في حد ذاته عبارة عن بنية معقدة من شظايا الكريستال الهندسية المتوهجة. المكان عبارة عن حمام فوضوي شديد الفوضى حيث تم استبدال التركيبات والخزف بالكامل بهندسة بلورية حادة ومكسورة وزاوية وشظايا متناثرة. تضيء إضاءة الحافة الدرامية الجوانب التي لا تعد ولا تحصى، مما يخلق عرضًا ضوئيًا منشوريًا رائعًا عبر المشهد بأكمله. تفاصيل عالية جدًا، دقة 16 كيلو، فن مفهوم واقعي، حواف حادة، عمق المجال، تدرج ألوان سينمائي. ، حائز على جوائز، احترافي، مفصل للغاية، خيالي، خيالي، ألوان زاهية، منمقة، سعيدة، غريب الأطوار ومرح، ثلاثي الأبعاد، حركة ديناميكية، لقطة مقربة، لطيفة ورائعة، عيون عاكسة دائرية كبيرة لطيفة، سديم، عرض بيكسار، محرك غير واقعي سينمائي سلس، تفاصيل معقدة، سينمائي\n<F42>​​​",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:10Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 143196220 image ai-image-prompts <lora:f42_daily_challenge:0.4> whimsical and playful, breathtaking, ecstatic <lora:xl_rpr_soulgemmed_v1_710110:1>, rp_slgd, a complete crystalline transmutation of darth vader, whose entire being is a towering, sharp figure of geometric fragments and glowing crystal shards. he is in a meticulously rendered maid's uniform, which is entirely made of translucent, highly polished prismatic crystal facets. he is kneeling, his crystalline fingers delicately scrubbing a violently faceted toilet, which itself is a complex structure of glowing geometric crystal shards. the setting is a chaotic, intensely messy bathroom where the fixtures and porcelain have been entirely replaced by sharp, fractured, angular crystalline geometry and scattered fragments. dramatic rim lighting illuminates the myriad facets, creating a brilliant prismatic light show across the entire scene. ultra-high detail, 16k resolution, photorealistic concept art, sharp edges, depth of field, cinematic color grading. , award-winning, professional, highly detailed, imaginative, fantastical, bright colors, stylized, happy, whimsical and playful, 3d , dynamic action, closeup, cute and adorable, cute big circular reflective eyes, nebulae, pixar render, unreal engine cinematic smooth, intricate detail, cinematic <f42>​​​ civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196220",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/870902ad-5fee-4fbe-874f-8ec4bc57586b/original=true/870902ad-5fee-4fbe-874f-8ec4bc57586b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196105",
+      "title": "Civitai prompt 143196105",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style, kanerah_pfkm, elegant tiefling woman and dark-element kineticist, portrayed in a dreamy expressive watercolor fantasy illustration. She has deep crimson-red skin, pointed ears, intense intelligent red glowing eyes, long dark hair flowing loosely around her shoulders, prominent curved tiefling horns sweeping backward from her head and tiefling tail with sharp ending. Her expression is composed, confident, slightly aloof and mysterious.\nShe wears an elegant dark fantasy outfit inspired by her Pathfinder: Kingmaker appearance, combining black and deep burgundy fabrics, fitted leather elements, delicate golden jewelry and refined infernal ornamentation. The costume is sophisticated rather than heavily armored, with flowing fabric and intricate details around the neckline, waist and shoulders.\nHalf-body portrait, graceful three-quarter pose. One hand is raised near her face, conjuring flame kinetic energy: smoky black and orange elemental ribbons spiral between her fingers, mixed with tiny glowing crimson sparks and fragments of shadow. Her long hair and loose fabric drift gently as if moved by supernatural energy.\nDreamlike traditional watercolor aesthetic on textured cold-pressed paper, delicate graphite and ink linework, translucent layered washes, wet-on-wet pigments, blooming watercolor edges, granulation, visible brush texture, uncontrolled paint bleeds and elegant dripping pigment.\nA dramatic forest background.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196105",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9920f532-bc2b-45df-9480-aac849f2c373/original=true/9920f532-bc2b-45df-9480-aac849f2c373.jpeg",
+      "model_version_ids": [
+        3072332,
+        3251685,
+        3336703
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1592250150,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230466+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a76fc59acf924f7e697a62066aede05dc6ad60da493e13937da884fcc57fb070",
+      "prompt_ar": "أسلوب برادهاميل الفني، kanerah_pfkm، امرأة أنيقة ومصممة حركية للعنصر الداكن، تم تصويرها في رسم توضيحي خيالي بالألوان المائية معبر وحالم. لديها بشرة قرمزية حمراء عميقة، وأذنان مدببتان، وعيون حمراء متوهجة شديدة الذكاء، وشعر طويل داكن يتدفق بشكل فضفاض حول كتفيها، وقرون منحنية بارزة تجتاح رأسها للخلف وذيل مربوط بنهاية حادة. تعبيرها مؤلف وواثق ومنعزل بعض الشيء وغامض.\nإنها ترتدي زيًا خياليًا داكنًا أنيقًا مستوحى من مظهر Pathfinder: Kingmaker، الذي يجمع بين الأقمشة السوداء والبورجوندي الغامق، والعناصر الجلدية المجهزة، والمجوهرات الذهبية الرقيقة والزخرفة الجهنمية الراقية. الزي متطور وليس مدرعًا بشكل كبير، مع نسيج متدفق وتفاصيل معقدة حول خط العنق والخصر والكتفين.\nصورة نصف الجسم، ووضعية رشيقة لثلاثة أرباع. تم رفع يد واحدة بالقرب من وجهها، مستحضرة طاقة اللهب الحركية: أشرطة عنصرية سوداء وبرتقالية دخانية تلتف بين أصابعها، ممزوجة بشرارات قرمزية صغيرة متوهجة وشظايا من الظل. ينجرف شعرها الطويل وقماشها الفضفاض بلطف كما لو كانت تحركها طاقة خارقة للطبيعة.\nجمالية الألوان المائية التقليدية الشبيهة بالحلم على ورق منسوج مضغوط على البارد، وخطوط دقيقة من الجرافيت والحبر، وغسلات ذات طبقات شفافة، وأصباغ مبللة، وحواف ألوان مائية مزهرة، وتحبيب، وملمس فرشاة مرئي، ونزيف طلاء غير متحكم فيه، وصبغة متساقطة أنيقة.\nخلفية غابة مثيرة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:10Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143196105 fashion ai-image-prompts bradhamel art style, kanerah_pfkm, elegant tiefling woman and dark-element kineticist, portrayed in a dreamy expressive watercolor fantasy illustration. she has deep crimson-red skin, pointed ears, intense intelligent red glowing eyes, long dark hair flowing loosely around her shoulders, prominent curved tiefling horns sweeping backward from her head and tiefling tail with sharp ending. her expression is composed, confident, slightly aloof and mysterious. she wears an elegant dark fantasy outfit inspired by her pathfinder: kingmaker appearance, combining black and deep burgundy fabrics, fitted leather elements, delicate golden jewelry and refined infernal ornamentation. the costume is sophisticated rather than heavily armored, with flowing fabric and intricate details around the neckline, waist and shoulders. half-body portrait, graceful three-quarter pose. one hand is raised near her face, conjuring flame kinetic energy: smoky black and orange elemental ribbons spiral between her fingers, mixed with tiny glowing crimson sparks and fragments of shadow. her long hair and loose fabric drift gently as if moved by supernatural energy. dreamlike traditional watercolor aesthetic on textured cold-pressed paper, delicate graphite and ink linework, translucent layered washes, wet-on-wet pigments, blooming watercolor edges, granulation, visible brush texture, uncontrolled paint bleeds and elegant dripping pigment. a dramatic forest background. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196105",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9920f532-bc2b-45df-9480-aac849f2c373/original=true/9920f532-bc2b-45df-9480-aac849f2c373.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143196110",
+      "title": "Civitai prompt 143196110",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style, kanerah_pfkm, elegant tiefling woman and dark-element kineticist, portrayed in a dreamy expressive watercolor fantasy illustration. She has deep crimson-red skin, pointed ears, intense intelligent eyes, long dark hair flowing loosely around her shoulders, and prominent curved tiefling horns sweeping backward from her head. Her expression is composed, confident, slightly aloof and mysterious.\nShe wears an elegant dark fantasy outfit inspired by her Pathfinder: Kingmaker appearance, combining black and deep burgundy fabrics, fitted leather elements, delicate golden jewelry and refined infernal ornamentation. The costume is sophisticated rather than heavily armored, with flowing fabric and intricate details around the neckline, waist and shoulders.\nHalf-body portrait, graceful three-quarter pose. One hand is raised near her face, conjuring dark kinetic energy: smoky black and violet elemental ribbons spiral between her fingers, mixed with tiny glowing crimson sparks and fragments of shadow. Her long hair and loose fabric drift gently as if moved by supernatural energy.\nDreamlike traditional watercolor aesthetic on textured cold-pressed paper, delicate graphite and ink linework, translucent layered washes, wet-on-wet pigments, blooming watercolor edges, granulation, visible brush texture, uncontrolled paint bleeds and elegant dripping pigment. The face and eyes are rendered with relatively precise detail while the hair, clothing and background gradually dissolve into loose expressive brushstrokes.\nA dramatic abstract halo of burgundy, crimson, dusty rose, violet, indigo and smoky black watercolor blooms behind her head. Splashes of pigment, fine ink marks, scattered gold accents and flowing paint trails surround the silhouette. Large areas of untouched ivory paper remain visible, giving the composition an airy, luminous feeling.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143196110",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d2e1cb2-e5ad-4eb6-8b74-7bdef8f7df00/original=true/8d2e1cb2-e5ad-4eb6-8b74-7bdef8f7df00.jpeg",
+      "model_version_ids": [
+        3072332,
+        3251685,
+        3336703
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1097588280,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-19T08:09:08.230490+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "700e1c23888e461b75f0071ce45cd142301d5ecb0f0b77e00d5f6f49affc1512",
+      "prompt_ar": "أسلوب برادهاميل الفني، kanerah_pfkm، امرأة أنيقة ومصممة حركية للعنصر الداكن، تم تصويرها في رسم توضيحي خيالي بالألوان المائية معبر وحالم. تتمتع ببشرة قرمزية حمراء عميقة، وأذنان مدببتان، وعينان شديدتا الذكاء، وشعر طويل داكن يتدفق بشكل فضفاض حول كتفيها، وقرون منحنيتان بارزتان تتجهان إلى الخلف من رأسها. تعبيرها مؤلف وواثق ومنعزل بعض الشيء وغامض.\nإنها ترتدي زيًا خياليًا داكنًا أنيقًا مستوحى من مظهر Pathfinder: Kingmaker، الذي يجمع بين الأقمشة السوداء والبورجوندي الغامق، والعناصر الجلدية المجهزة، والمجوهرات الذهبية الرقيقة والزخرفة الجهنمية الراقية. الزي متطور وليس مدرعًا بشكل كبير، مع نسيج متدفق وتفاصيل معقدة حول خط العنق والخصر والكتفين.\nصورة نصف الجسم، ووضعية رشيقة لثلاثة أرباع. ترفع إحدى يديها بالقرب من وجهها، تستحضر الطاقة الحركية المظلمة: شرائط عنصرية سوداء والبنفسجية الدخانية تلتف بين أصابعها، ممزوجة بشرارات قرمزية صغيرة متوهجة وشظايا من الظل. ينجرف شعرها الطويل وقماشها الفضفاض بلطف كما لو كانت تحركها طاقة خارقة للطبيعة.\nجمالية الألوان المائية التقليدية الشبيهة بالحلم على ورق منسوج مضغوط على البارد، وخطوط دقيقة من الجرافيت والحبر، وغسلات ذات طبقات شفافة، وأصباغ مبللة، وحواف ألوان مائية مزهرة، وتحبيب، وملمس فرشاة مرئي، ونزيف طلاء غير متحكم فيه، وصبغة متساقطة أنيقة. يتم تقديم الوجه والعينين بتفاصيل دقيقة نسبيًا بينما يذوب الشعر والملابس والخلفية تدريجيًا في ضربات فرشاة معبرة فضفاضة.\nهالة مجردة مثيرة من اللون العنابي والقرمزي والورد المغبر والبنفسجي والنيلي والألوان المائية السوداء الدخانية تزدهر خلف رأسها. بقع من الصبغة وعلامات الحبر الدقيقة ولمسات ذهبية متناثرة ومسارات طلاء متدفقة تحيط بالصورة الظلية. تظل مساحات كبيرة من الورق العاجي غير الممسوح مرئية، مما يمنح التركيبة إحساسًا متجدد الهواء ومشرقًا.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-19T08:09:10Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143196110 fashion ai-image-prompts bradhamel art style, kanerah_pfkm, elegant tiefling woman and dark-element kineticist, portrayed in a dreamy expressive watercolor fantasy illustration. she has deep crimson-red skin, pointed ears, intense intelligent eyes, long dark hair flowing loosely around her shoulders, and prominent curved tiefling horns sweeping backward from her head. her expression is composed, confident, slightly aloof and mysterious. she wears an elegant dark fantasy outfit inspired by her pathfinder: kingmaker appearance, combining black and deep burgundy fabrics, fitted leather elements, delicate golden jewelry and refined infernal ornamentation. the costume is sophisticated rather than heavily armored, with flowing fabric and intricate details around the neckline, waist and shoulders. half-body portrait, graceful three-quarter pose. one hand is raised near her face, conjuring dark kinetic energy: smoky black and violet elemental ribbons spiral between her fingers, mixed with tiny glowing crimson sparks and fragments of shadow. her long hair and loose fabric drift gently as if moved by supernatural energy. dreamlike traditional watercolor aesthetic on textured cold-pressed paper, delicate graphite and ink linework, translucent layered washes, wet-on-wet pigments, blooming watercolor edges, granulation, visible brush texture, uncontrolled paint bleeds and elegant dripping pigment. the face and eyes are rendered with relatively precise detail while the hair, clothing and background gradually dissolve into loose expressive brushstrokes. a dramatic abstract halo of burgundy, crimson, dusty rose, violet, indigo and smoky black watercolor blooms behind her head. splashes of pigment, fine ink marks, scattered gold accents and flowing paint trails surround the silhouette. large areas of untouched ivory paper remain visible, giving the composition an airy, luminous feeling. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143196110",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d2e1cb2-e5ad-4eb6-8b74-7bdef8f7df00/original=true/8d2e1cb2-e5ad-4eb6-8b74-7bdef8f7df00.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-18T18:31:52.220921+00:00",
-  "prompt_count": 548,
+  "generated_at": "2026-09-19T08:09:10.511362+00:00",
+  "prompt_count": 558,
   "translation": {
     "language": "ar",
-    "translated_count": 12,
-    "skipped_count": 534,
+    "translated_count": 10,
+    "skipped_count": 546,
     "failed_count": 2,
-    "updated_at": "2026-09-18T18:31:52Z"
+    "updated_at": "2026-09-19T08:09:10Z"
   }
 }

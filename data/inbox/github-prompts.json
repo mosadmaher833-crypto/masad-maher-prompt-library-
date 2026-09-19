@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-18T18:31:33.180163+00:00",
+  "generated_at": "2026-09-19T08:08:56.223514+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1152,15 +1152,32 @@
       "source_url": "https://github.com/iblameandrew/open-deepthink/blob/b440af10fd8fc9550b3a70fc76761465aede7a4b/README.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-7350774b79af",
+      "title": "code-yeongyu/oh-my-openagent README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Agents auto-read relevant context. Zero manual management.\n\n### Planning. The Ultrawork Planner\n\nComplex task? Don't prompt and pray.\n\nThe Ultrawork Planner (`/ulw-plan`) **interviews you like a real engineer**, identifies scope and ambiguities, and writes a reviewed plan to `.omo/plans/` before touching code. `/ulw-execute` then has the main agent execute that plan in the same session. The agent knows what it's building before it starts.\n\n### Skills\n\nSkills aren't just prompts. Each brings domain-tuned system instructions, embedded MCP servers on demand, and scoped permissions so agents stay in bounds.\n\nBuilt-ins include `playwright` (browser automation), `git-master` (atomic commits, rebase surgery) and `frontend` (design-first UI).\n\nAdd your own under `.opencode/skills/*/SKILL.md` or `~/.config/opencode/skills/*/SKILL.md`.\n\n**Want the full feature breakdown?** See the **[Features Documentation](docs/reference/features.md)** for agents, hooks, tools, MCPs, and everything else in detail.\n\n---\n\n> **New to oh-my-openagent?** Read the **[Overview](docs/guide/overview.md)** to understand what you have, or check the **[Orchestration Guide](docs/guide/orchestration.md)** for how agents collaborate.\n\n## Uninstallation\n\nRemoving oh-my-openagent takes four steps.\n\n### Remove the plugin from your OpenCode config\n\nEdit `~/.config/opencode/opencode.json` (or `opencode.jsonc`) and remove either `\"oh-my-openagent\"` or the legacy `\"oh-my-opencode\"` entry from the `plugin` array:",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "code-yeongyu/oh-my-openagent",
+      "source_url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+      "license": "NOASSERTION",
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"coding prompt\"",
-    "Midjourney prompts",
-    "Flux prompts"
+    "\"architecture prompt\"",
+    "Gemini prompts",
+    "ChatGPT prompts"
   ],
   "last_sources": []
 }
