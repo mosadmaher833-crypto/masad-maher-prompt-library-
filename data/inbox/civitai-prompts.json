@@ -1,12 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-20T08:41:26.860973+00:00",
+  "generated_at": "2026-09-20T18:12:37.707215+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-143262933",
-      "title": "Civitai prompt 143262933",
+      "id": "civitai-143329818",
+      "title": "Civitai prompt 143329818",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -15,25 +15,28 @@
         "imported",
         "api"
       ],
-      "prompt": "Photorealistic, detailed, 3d, colorful, Full body portrait of Raithwyn, black fox-girl with twin braids, red eyes with black sclera. She wears a dramatic dress made entirely of large layered feathers, peacock-like and voluminous. In one hand she holds a large feather fan - that covers her chest and lower part of face, making her look mysterious and mischievous. She stands, looking at viewer. Sketch aesthetic, detailed feathers, masterpiece. The dress has iridiscent metalic green feathers. It is colorful and over the top. Dark background, dramatic, glowing eyes, color accents",
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted long-sleeved trench coat dress with asymmetrical chest storm flap, light grey pleated skirt panels inserted at sides and back, dark blue neck ribbon tie, light grey collared inner shirt, matching red waist belt with metal buckle, dark charcoal knee-high socks, brown loafers, \nanime screencap,official art,studio animation style,",
       "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143262933",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7313d21f-b9f8-464e-b85e-801c778fa710/original=true/7313d21f-b9f8-464e-b85e-801c778fa710.jpeg",
-      "model": "krea2TurboOfficialComfy_krea2TurboFp8",
-      "model_version_ids": [],
-      "width": 1536,
-      "height": 2048,
-      "seed": 956219087476422,
-      "negative_prompt": "worst quality, low quality, lowres, score_1, score_2, score_3, blurry, jpeg artifacts, bad anatomy, watermark, artist name, extra fingers",
+      "source_url": "https://civitai.com/images/143329818",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0841dd99-e673-4c4d-8f7d-85b35362ba85/original=true/0841dd99-e673-4c4d-8f7d-85b35362ba85.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 3165,
+      "height": 4096,
+      "seed": 2230702551,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.857187+00:00"
+      "discovered_at": "2026-09-20T18:12:37.704258+00:00"
     },
     {
-      "id": "civitai-143301826",
-      "title": "Civitai prompt 143301826",
+      "id": "civitai-143330459",
+      "title": "Civitai prompt 143330459",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -42,56 +45,28 @@
         "imported",
         "api"
       ],
-      "prompt": "HDR, 8K, high contrast, masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra_detailed, absurdres, very awa, newest, ssambatea, quasarcake, Fishine, arutera, soresaki, reoen, sanbonzakura, askzy, solo, negative space, 1990's \\(style\\), 1990's aesthetic, manga \\(style\\), g-taste \\(style\\), Koto Tsumi \\(style\\), traditional media, official art, anime coloring,\n\n\nno humans, animal focus, crow, bird, black feathers, wings, beak, talons, human skull, undead bird, cadavarous, death theme, (fantasy),\n\ndark \\(theme\\), horror \\(theme\\), dreamlike, insane visuals, visceral textures, jaggy lines, warped lines, (abstract visuals:1.4), halftone, black background, red theme,\n\n(abstract:1.7, surreal:1.7), intense mood, depth of field, volumetric lighting, saturated, vivid colors, vibrant colors, dynamic pose, dynamic angle, detailed background, god-tier illustration, highly detailed, high quality, (dithering, pixel art), (illustration:1.3), (complex scene),",
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted short-sleeved coat dress with chest flap, light grey pleated side panels, dark blue ribbon bow tie, collared shirt underneath, red waist belt, red band on left wrist, dark charcoal knee-high socks, brown loafers, \nanime screencap,official art,studio animation style,",
       "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143301826",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48e9e3a1-57ea-4f3a-b18d-92ffadc49d90/original=true/48e9e3a1-57ea-4f3a-b18d-92ffadc49d90.jpeg",
-      "model": null,
-      "model_version_ids": [],
-      "width": 1824,
-      "height": 1248,
-      "seed": null,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.858584+00:00"
-    },
-    {
-      "id": "civitai-143301758",
-      "title": "Civitai prompt 143301758",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "<lora:F42_Daily_Challenge:0.4>\nWhimsical and Playful, breathtaking, ecstatic An ultra-maximalist, highly detailed movie poster featuring an ecstatic rubber duck in a dramatic action pose, screaming with exaggerated, joyful intensity. The rubber duck is wearing a  Darth Vader costume, which itself is meticulously constructed entirely from intricate, interlocking human teeth and serrated jawbone fragments. He wears matching, elaborate goggles made of sharpened molars. The scene is a chaotic, bizarre landscape where every element—including a glowing pizza, a grotesque toilet throne, a miniature skateboard, and a vibrant butterfly—is composed entirely of sharp, complex dental structures. The lighting is hyper-dramatic with strong rim lighting and deep shadows, creating a grotesque yet darkly humorous atmosphere. Volumetric light beams, cinematic composition, anamorphic lens, hyper-detailed textures, 8k resolution, Octane render, Surreal Maximalism, Greg Rutkowski and H.R. Giger inspired. <lora:teef_652454:1>, made_from_teef, \ndense, hyper-detailed aggregation of ivory dental structures, featuring smooth, yellowish-white dental shapes, razor-sharp conical spikes, and broad, ridged molar plates, arranged in tight, repetitive patterns, hyper-realistic concept art, the entire surface is encasing the forms in a porous, matte bone-like texture, subtle waxy enamel-like highlights catching the light, studio lighting with soft shadows, shot on 100mm macro lens, shallow depth of field, ultra-high detail, 8k, Octane render, award-winning, professional, highly detailed, imaginative, fantastical, bright colors, stylized, happy, Whimsical and Playful, 3d , dynamic action, closeup, cute and adorable, cute big circular reflective eyes, nebulae, Pixar render, unreal engine cinematic smooth, intricate detail, cinematic\n<F42>​​​",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143301758",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a78c9657-d6bb-4122-ad4d-8b9a2c1bab11/original=true/a78c9657-d6bb-4122-ad4d-8b9a2c1bab11.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/143330459",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f24d35-7ead-4ae7-ab69-cdc776306c10/original=true/52f24d35-7ead-4ae7-ab69-cdc776306c10.jpeg",
+      "model": "anima_baseV10",
       "model_version_ids": [
-        652454,
-        1227475,
-        2558484
+        2945208,
+        3343378
       ],
-      "width": null,
-      "height": null,
-      "seed": 1434719201,
-      "negative_prompt": "extra legs, ugly, deformed, noisy, blurred, distorted, grainy, low contrast, dreary, boring​​​",
+      "width": 3165,
+      "height": 4096,
+      "seed": 1440935846,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.859153+00:00"
+      "discovered_at": "2026-09-20T18:12:37.704711+00:00"
     },
     {
-      "id": "civitai-143293494",
-      "title": "Civitai prompt 143293494",
+      "id": "civitai-143331913",
+      "title": "Civitai prompt 143331913",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -100,35 +75,29 @@
         "imported",
         "api"
       ],
-      "prompt": "lazypos, made_from_teef, professional photography of a cute and adorable kitten, happy eyes, eye sparkle, big laugh, big eyes, high detailed eyes, funny eyes, big glowing wings made of teeth, elegant wings, clothing, wearing [high hat | crown | baseball cap | Viking's helmet | fedora hat | straw hat | headphones | chef's hat | trendy glasses], holding [ microphone | banana | pizza | sausage | guitar | balloon | wrench | can of cola | ice-cream cone | spoon ladle] , flying, (fully suspended in mid-air:1.3), vibrant, detailed background, the background shows dentist room, highly detailed, high resolution textures, ultra high resolution, sharp and clear visual execution, mobe-fcc, (Sorry, but that's what the bot wants:0.9)",
-      "quality_score": 8.1,
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, small side ponytail on left with red bow, ahoge,large expressive bright red eyes, medium breasts, wearing bright red kimono top with dark navy and green layered collar trim, long cream-colored bibless waist apron with front pocket and tied two-tone red and navy ribbon sash, dark navy long skirt underneath, cross-tied white tasuki apron straps, light green obi bow tied on back, white tabi socks, red-strapped zori sandals, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143293494",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f11f93c-aa7b-49df-b00a-6804669495e3/original=true/3f11f93c-aa7b-49df-b00a-6804669495e3.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/143331913",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1d6d7b-5e88-46da-9dce-63a28247a275/original=true/ac1d6d7b-5e88-46da-9dce-63a28247a275.jpeg",
+      "model": "anima_baseV10",
       "model_version_ids": [
-        652454,
-        947620,
-        1591915,
-        1645671,
-        1768080,
-        1833157,
-        2166100,
-        2173174
+        2945208,
+        3343378
       ],
-      "width": 1216,
-      "height": 832,
-      "seed": 1279038046,
-      "negative_prompt": "lazyneg, bad quality, worst quality, low quality, lowres, jpeg artifacts, missing limbs, extra limbs",
+      "width": 3165,
+      "height": 4096,
+      "seed": 957891140,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.859706+00:00"
+      "discovered_at": "2026-09-20T18:12:37.705430+00:00"
     },
     {
-      "id": "civitai-143301570",
-      "title": "Civitai prompt 143301570",
-      "category": "fashion",
+      "id": "civitai-143332626",
+      "title": "Civitai prompt 143332626",
+      "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -136,29 +105,29 @@
         "imported",
         "api"
       ],
-      "prompt": "An oil painting.\n\nIn the background a retro-futuristic beach near the ocean. \n\nThe style is realistic with a touch of classical elegance. \n\nThe lighting is sunny and bright, characterized by deep teal and emerald shadows mixed with soft, warm highlights that accentuate her genuine friendliness. \n\nThe overall style is reminiscent of early 90' fashion. \n\nThe painting captures a serene and intimate moment, with a dreamlike quality created by soft, blended brushstrokes and a luminous pastel color palette. \n\nThe scene is bathed in warm, diffused light, emphasizing the elegance and romance of the moment. \nstyle of Edmund Leighton fantasy painting\n\n\nVolumetric lighting breaks through dramatic, heavy cumulus clouds, creating a sense of scale and motion.\n\nNoon.\nRealistic shadows.\nLife-like details.\nCinematic. \nDramatic. \nDynamic. \nExtremely refined lines and and shapes.\nExtremely refined details on objects.\nSharp details.\nWide range of colors.\nMany details everywhere. Ray-Tracing. Anti-Aliasing. Realistic soft shadows. Low saturation colors. Insane quality. Insane resolution. Insane details. Masterpiece. 32k resolution.\n\nFlat shading, faded colors, faded bright colors, retro-futuristic imagery, geometric graphic design, holographic and reflective elements, geometric influences, straight lines, Bauhaus minimalism, shapes, lines.",
-      "quality_score": 8.7,
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, yellow oval hair clip on left side with small hair tuft,large expressive bright red eyes, medium breasts, wearing oversized light purple denim jacket over loose off-white sweatshirt dress with green cursive chest text, thick fluffy pastel pink snood scarf wrapped around neck, magenta tights, black sneakers with neon green soles, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143301570",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/590e0818-470d-408a-9aa9-e8a8df9aefb6/original=true/590e0818-470d-408a-9aa9-e8a8df9aefb6.jpeg",
-      "model": "urn:air:sd1:checkpoint:civitai:4384@128713",
+      "source_url": "https://civitai.com/images/143332626",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25e704bb-d2c6-4357-aed8-5fff53ddd721/original=true/25e704bb-d2c6-4357-aed8-5fff53ddd721.jpeg",
+      "model": "anima_baseV10",
       "model_version_ids": [
-        128713,
-        164821
+        2945208,
+        3343378
       ],
-      "width": 3840,
-      "height": 2688,
-      "seed": 1394807761,
-      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, sepia, artist signature, signature, artist name, watermark, text, logos, logos, score_1, score_2, score_3, jpeg artifacts, logo, watermark, signature,",
+      "width": 3165,
+      "height": 4096,
+      "seed": 940961742,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.860083+00:00"
+      "discovered_at": "2026-09-20T18:12:37.706079+00:00"
     },
     {
-      "id": "civitai-143301512",
-      "title": "Civitai prompt 143301512",
-      "category": "architecture",
+      "id": "civitai-143334178",
+      "title": "Civitai prompt 143334178",
+      "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -166,53 +135,24 @@
         "imported",
         "api"
       ],
-      "prompt": "full body portrait of a young woman with long bright blue hair in two very long braids, pale skin, sly mischievous grin with pink glowing eyes, head tilted down looking up, wearing a huge oversized long coat completely covered in Teef-morph texture, coat and big hood and boots all completely encased in dense repetition of ivory-colored teeth, sharp spikes, molar shapes, bone texture matte organic porous, monochrome ivory, slight sheen waxy, one foot on a broken toilet completely covered in Teef-morph ivory teeth texture, toilet cracked with crooked lid few teeth missing funny defeated, background is a bathroom interior completely covered in Teef-morph ivory teeth texture, bathroom trashed messy tiles cracked, graffiti on wall made of small bright pink teeth forming a stylized tag, graffiti made of tiny pink teeth, ultra detailed, bright lighting, no text letters",
-      "quality_score": 9.3,
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, platinum blonde hair styled in low braided chignon bun updo with black ribbon bow at back, side locks framing face, blunt bangs,large expressive bright red eyes, medium breasts, bare shoulders, collarbone, wearing backless dark red halterneck balloon minidress with gathered waist and puffy hem, keyhole opening on upper chest beneath wide black buckled choker collar, black sheer tights, black high heels, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143301512",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e88046c-a700-4713-8589-e0ebed7b5709/original=true/9e88046c-a700-4713-8589-e0ebed7b5709.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/143334178",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4e87c59-303b-486f-9fd1-4a1f616482f0/original=true/a4e87c59-303b-486f-9fd1-4a1f616482f0.jpeg",
+      "model": "anima_baseV10",
       "model_version_ids": [
-        652454,
-        1759168
+        2945208,
+        3343378
       ],
-      "width": null,
-      "height": null,
-      "seed": 136436468,
-      "negative_prompt": "text, letters, signs, black background, colorful background, plastic glossy, smooth surface, original fabric visible, cartoon, lowres, blurry, cropped",
+      "width": 896,
+      "height": 1216,
+      "seed": 3270226408,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.860170+00:00"
-    },
-    {
-      "id": "civitai-143301393",
-      "title": "Civitai prompt 143301393",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A young woman wearing a black balaclava and an oversized black hooded techwear jacket stands beneath a concrete highway overpass at night, photographed from an extreme low angle, with the camera positioned near ground level and tilted upward so she appears imposing and dominant. She fills the foreground of the frame, staring coldly and directly into the camera.\nHer right hand is raised near her temple in a finger-gun gesture, with the index and middle fingers extended together, the thumb raised, and the remaining fingers curled inward. Her left hand rests loosely along her upper thigh. The jacket is bulky and slightly oversized, with a high collar, matte black fabric, and sharp white graphic logos on the chest and shoulders, giving it a dark streetwear / underground aesthetic.\nBehind her, massive concrete support pillars rise into the darkness, clearly visible and framing the scene. The pillar on the right is covered with layered urban graffiti and tags, including the readable phrase \"Are you okay?\" sprayed across it. On the left side of the frame, a modern dark-colored car is parked with bright cool-white LED headlights on, casting a harsh glow across the asphalt and the lower part of the scene.\nThe lighting is moody and cinematic, dominated by the cold blue-white headlights, with subtle warm amber streetlight spill in the background. Deep shadows, high contrast, black and charcoal tones, slight bloom, urban night atmosphere, cinematic street photography, dark editorial fashion, ominous mood.",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143301393",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72cbfb0b-8c5e-4e81-b145-d0bce955c640/original=true/72cbfb0b-8c5e-4e81-b145-d0bce955c640.jpeg",
-      "model": "BSSDesirexKrea2_x2INT8ConvrotFastest",
-      "model_version_ids": [
-        3339307
-      ],
-      "width": 1560,
-      "height": 2344,
-      "seed": 13,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-20T08:41:26.860613+00:00"
+      "discovered_at": "2026-09-20T18:12:37.707094+00:00"
     }
   ]
 }

@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -25196,7 +25196,7 @@
       "imported_at": "2026-09-20T08:41:39.247875+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "df644639cb61553375497d797ca80a6cffd955f7af4843a8ad2ab1d8c75a398d",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
@@ -25209,7 +25209,9 @@
           "source_url": "https://github.com/GammaLabTechnologies/harmonist/blob/6fd5941cce8c3f6f411fd14cde0daa663ccffa8f/playbooks/nexus-strategy.md",
           "source_repository": "GammaLabTechnologies/harmonist"
         }
-      ]
+      ],
+      "prompt_ar": "## مستند تسليم NEXUS\n\n### البيانات الوصفية\n- **من**: [اسم الوكيل] ([القسم])\n- **إلى**: [اسم الوكيل] ([القسم])\n- **المرحلة**: [مرحلة الترابط الحالية]\n- **مرجع المهمة**: [معرف المهمة من تراكم أولويات Sprint]\n- **الأولوية**: [حرجة / عالية / متوسطة / منخفضة]\n- **الطابع الزمني**: [ISO 8601]\n\n### السياق\n- **المشروع**: [اسم المشروع ووصف مختصر]\n- **الحالة الحالية**: [ما تم إنجازه حتى الآن]\n- **الملفات ذات الصلة**: [قائمة الملفات/العناصر المطلوب مراجعتها]\n- **التبعيات**: [ما يعتمد عليه هذا العمل]\n\n### طلب قابل للتسليم\n- **ما هو مطلوب**: [نتائج محددة وقابلة للقياس]\n- **معايير القبول**: [كيف سيتم قياس النجاح]\n- **القيود**: [القيود الفنية أو الجدول الزمني أو الموارد]\n- **المواد المرجعية**: [روابط للمواصفات والتصاميم والأعمال السابقة]\n\n### توقعات الجودة\n- **يجب النجاح**: [معايير الجودة المحددة]\n- **الدليل المطلوب**: [كيف يبدو إثبات الإكمال]\n- **التسليم إلى التالي**: [من يتلقى المخرجات وما يحتاج إليه]",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143262933",
@@ -25238,7 +25240,7 @@
       "imported_at": "2026-09-20T08:41:39.248089+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "4dd882d318b4db0e046e09f151e3ea87ef440e9e9f249bb995acfa000507d894",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -25252,7 +25254,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7313d21f-b9f8-464e-b85e-801c778fa710/original=true/7313d21f-b9f8-464e-b85e-801c778fa710.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة واقعية، مفصلة، ​​ثلاثية الأبعاد، ملونة، لكامل الجسم لرايثوين، فتاة ثعلب سوداء ذات ضفائر مزدوجة، عيون حمراء مع الصلبة السوداء. ترتدي فستانًا دراميًا مصنوعًا بالكامل من الريش ذو الطبقات الكبيرة، الذي يشبه الطاووس وضخم. تحمل في إحدى يديها مروحة كبيرة من الريش - تغطي صدرها والجزء السفلي من وجهها، مما يجعلها تبدو غامضة ومؤذية. تقف وتنظر إلى المشاهد. رسم جمالي، ريش تفصيلي، تحفة فنية. يحتوي الفستان على ريش أخضر معدني قزحي الألوان. إنها ملونة وفوق القمة. خلفية داكنة، درامية، عيون متوهجة، لهجات ملونة",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143301826",
@@ -25278,7 +25282,7 @@
       "imported_at": "2026-09-20T08:41:39.248103+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "59dcb669a341803c606ac5c79fcad650319c25f7598e3867d0c9b4873d983f54",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -25292,7 +25296,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48e9e3a1-57ea-4f3a-b18d-92ffadc49d90/original=true/48e9e3a1-57ea-4f3a-b18d-92ffadc49d90.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "HDR، 8K، تباين عالٍ، تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، دقة عالية، مفصلة للغاية، سخيفة، آوا جدًا، الأحدث، سامباتيا، كواساركيك، فيشين، أروتيرا، سوريساكي، ريوين، سانبونزاكورا، أسكي، سولو، مساحة سلبية، التسعينيات \\(نمط\\)، جمالية التسعينيات، مانغا \\(ستايل\\)، جي-تاست \\(النمط\\)، كوتو تسومي \\(النمط\\)، الوسائط التقليدية، الفن الرسمي، تلوين الأنمي،\n\n\nلا بشر، التركيز على الحيوانات، غراب، طائر، ريش أسود، أجنحة، منقار، مخالب، جمجمة بشرية، طائر أوندد، جثث، موضوع الموت، (خيال)،\n\nداكن \\(السمة\\)، رعب \\(السمة\\)، تشبه الحلم، صور جنونية، قوام عميق، خطوط متعرجة، خطوط مشوهة، (صور مجردة: 1.4)، ألوان نصفية، خلفية سوداء، سمة حمراء،\n\n(تجريد: 1.7، سريالية: 1.7)، مزاج حاد، عمق المجال، إضاءة حجمية، ألوان مشبعة، زاهية، ألوان نابضة بالحياة، وضع ديناميكي، زاوية ديناميكية، خلفية مفصلة، توضيح من الدرجة الإلهية، مفصل للغاية، جودة عالية، (التردد، فن البكسل)، (التوضيح: 1.3)، (مشهد معقد)،",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143301758",
@@ -25322,7 +25328,7 @@
       "imported_at": "2026-09-20T08:41:39.248135+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "5bac5d12aa5fe2cbfcbc96c7c53c09fac2036ed7329a10e03eb415f344df1aea",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -25336,7 +25342,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a78c9657-d6bb-4122-ad4d-8b9a2c1bab11/original=true/a78c9657-d6bb-4122-ad4d-8b9a2c1bab11.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "<لورا:F42_Daily_Challenge:0.4>\nغريب الأطوار ومرح، لالتقاط الأنفاس، منتشي، ملصق فيلم فائق التفاصيل، يتميز ببطة مطاطية منتشية في وضع درامي، تصرخ بكثافة مبالغ فيها ومبهجة. ترتدي البطة المطاطية زي دارث فيدر، والذي تم تصنيعه بدقة كاملة من أسنان بشرية معقدة ومتشابكة وشظايا عظم الفك المسننة. يرتدي نظارات واقية متطابقة ومتقنة مصنوعة من أضراس حادة. المشهد عبارة عن منظر طبيعي فوضوي وغريب حيث يتكون كل عنصر - بما في ذلك بيتزا متوهجة، وعرش مرحاض بشع، ولوح تزلج مصغر، وفراشة نابضة بالحياة - بالكامل من هياكل أسنان حادة ومعقدة. الإضاءة درامية للغاية مع إضاءة حافة قوية وظلال عميقة، مما يخلق جوًا بشعًا وروح الدعابة المظلمة. أشعة ضوئية حجمية، تكوين سينمائي، عدسة بصرية مشوهة، مواد شديدة التفصيل، دقة 8K، عرض أوكتان، الحد الأقصى السريالي، مستوحى من جريج روتكوفسكي وإتش آر جيجر. <لورا:teef_652454:1>، made_from_teef، \nمجموعة كثيفة ومفصلة للغاية من هياكل الأسنان العاجية، تتميز بأشكال أسنان ناعمة ذات لون أبيض مصفر، وأشواك مخروطية حادة للغاية، وألواح ضروس واسعة ومُحززة، مرتبة في أنماط ضيقة ومتكررة، وفن مفهوم واقعي للغاية، ويغطي السطح بأكمله الأشكال في نسيج مسامي غير لامع يشبه العظم، وإبرازات شمعية دقيقة تشبه المينا تلتقط الضوء، وإضاءة الاستوديو بظلال ناعمة، تم تصويرها على عدسة ماكرو مقاس 100 مم، عمق مجال سطحي، تفاصيل عالية جدًا، 8K، عرض أوكتان، حائز على جوائز، محترف، مفصل للغاية، خيالي، خيالي، ألوان زاهية، منمق، سعيد، غريب الأطوار ومرح، ثلاثي الأبعاد، حركة ديناميكية، قريب، لطيف ورائع، عيون عاكسة دائرية كبيرة لطيفة، سديم، عرض بيكسار، محرك غير واقعي سينمائي سلس، تفاصيل معقدة، سينمائي\n<F42>​​​",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143293494",
@@ -25374,7 +25382,7 @@
       "imported_at": "2026-09-20T08:41:39.248146+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bec14a0775e3c33918b5f1e26895966cadbe05beb6ec8e117d73b28e2cef3349",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -25390,7 +25398,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f11f93c-aa7b-49df-b00a-6804669495e3/original=true/3f11f93c-aa7b-49df-b00a-6804669495e3.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "كسلبوس، made_from_teef، تصوير احترافي لقطط لطيفة ورائعة، عيون سعيدة، بريق العين، ضحكة كبيرة، عيون كبيرة، عيون عالية التفاصيل، عيون مضحكة، أجنحة كبيرة متوهجة مصنوعة من الأسنان، أجنحة أنيقة، ملابس، ارتداء [قبعة عالية | تاج | قبعة بيسبول | خوذة الفايكنج | قبعة فيدورا | قبعة من القش | سماعات الرأس | قبعة الشيف | نظارات عصرية]، تحمل [ميكروفون | موز | بيتزا | سجق | جيتار | بالون | وجع | علبة كولا | مخروط الآيس كريم | مغرفة ملعقة]، طائرة، (معلقة بالكامل في الهواء: 1.3)، خلفية نابضة بالحياة ومفصلة، ​​تظهر الخلفية غرفة طبيب الأسنان، مفصلة للغاية، مواد عالية الدقة، دقة عالية جدًا، تنفيذ مرئي حاد وواضح، mobe-fcc، (عذرًا، ولكن هذا ما يريده الروبوت: 0.9)",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143301570",
@@ -25422,7 +25432,7 @@
       "imported_at": "2026-09-20T08:41:39.248160+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "00b7205b1089d4b4224f0f1eda967ae22f0e12e610d135a5850a3206fb151735",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -25436,7 +25446,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/590e0818-470d-408a-9aa9-e8a8df9aefb6/original=true/590e0818-470d-408a-9aa9-e8a8df9aefb6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "لوحة زيتية.\n\nفي الخلفية شاطئ مستقبلي قديم بالقرب من المحيط. \n\nالنمط واقعي مع لمسة من الأناقة الكلاسيكية. \n\nالإضاءة مشمسة ومشرقة، وتتميز بظلال زرقاء داكنة وظلال زمردية ممزوجة بإبرازات ناعمة ودافئة تبرز صداقتها الحقيقية. \n\nالنمط العام يذكرنا بأزياء أوائل التسعينات. \n\nتلتقط اللوحة لحظة هادئة وحميمية، بجودة تشبه الحلم تم إنشاؤها بواسطة ضربات الفرشاة الناعمة والممزوجة ولوحة ألوان الباستيل المضيئة. \n\nيغمر المشهد ضوء دافئ منتشر، مما يؤكد على أناقة ورومانسية اللحظة. \nأسلوب الرسم الخيالي لإدموند لايتون\n\n\nتخترق الإضاءة الحجمية السحب الركامية الثقيلة، مما يخلق إحساسًا بالحجم والحركة.\n\nالظهر.\nظلال واقعية.\nتفاصيل تشبه الحياة.\nسينمائية. \nدراماتيكي. \nمتحرك. \nخطوط وأشكال راقية للغاية.\nتفاصيل دقيقة للغاية عن الأشياء.\nتفاصيل حادة.\nمجموعة واسعة من الألوان.\nتفاصيل كثيرة في كل مكان. تتبع الأشعة. مكافحة التعرج. ظلال ناعمة واقعية. ألوان منخفضة التشبع. جودة مجنونة. قرار مجنون. تفاصيل مجنونة تحفة. دقة 32 كيلو\n\nالتظليل المسطح، الألوان الباهتة، الألوان الزاهية الباهتة، الصور المستقبلية الرجعية، التصميم الجرافيكي الهندسي، العناصر المجسمة والعاكسة، التأثيرات الهندسية، الخطوط المستقيمة، بساطة باوهاوس، الأشكال، الخطوط.",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143301512",
@@ -25465,7 +25477,7 @@
       "imported_at": "2026-09-20T08:41:39.248172+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "6cacd3597b056a201cc1d553e04599e5c65e63ae14c70e6ac40bb7ae8eabc86f",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "architecture",
       "modality": "image",
@@ -25479,7 +25491,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e88046c-a700-4713-8589-e0ebed7b5709/original=true/9e88046c-a700-4713-8589-e0ebed7b5709.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة كاملة للجسم لامرأة شابة ذات شعر أزرق لامع طويل في ضفيرتين طويلتين جدًا، بشرة شاحبة، ابتسامة ماكرة ماكرة مع عيون وردية متوهجة، رأس مائل لأسفل يبحث عن أعلى، ترتدي معطفًا طويلًا ضخمًا مغطى بالكامل بملمس تيف مورف، معطف وقلنسوة كبيرة وأحذية كلها مغطاة تمامًا بتكرار كثيف لأسنان عاجية اللون، مسامير حادة، أشكال ضرس، نسيج عظمي مسامي عضوي غير لامع، عاجي أحادي اللون، لمعان طفيف شمعي، قدم واحدة على مرحاض مكسور مغطى بالكامل بأسنان عاجية الشكل، مرحاض متشقق بغطاء ملتوي، القليل من الأسنان المفقودة مهزومة بشكل مضحك، الخلفية عبارة عن حمام داخلي مغطى بالكامل بملمس أسنان عاجية الشكل، الحمام ممزق، بلاط فوضوي متصدع، جرافيتي على الحائط مصنوع من أسنان وردية زاهية صغيرة تشكل علامة منمقة، جرافيتي مصنوع من أسنان وردية صغيرة، إضاءة ساطعة مفصلة للغاية، بدون رسائل نصية",
+      "translated_at": "2026-09-20T18:12:53Z"
     },
     {
       "id": "civitai-143301393",
@@ -25509,7 +25523,7 @@
       "imported_at": "2026-09-20T08:41:39.248188+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "f1d3e8ea458b87b813ec6098511feea341e9bb53d1356f4f4a260398d811960c",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -25523,16 +25537,289 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72cbfb0b-8c5e-4e81-b145-d0bce955c640/original=true/72cbfb0b-8c5e-4e81-b145-d0bce955c640.jpeg"
         }
+      ],
+      "prompt_ar": "تقف امرأة شابة ترتدي قناعًا أسود وسترة سوداء كبيرة الحجم تحت جسر خرساني على الطريق السريع ليلاً، وقد تم تصويرها من زاوية منخفضة للغاية، مع وضع الكاميرا بالقرب من مستوى الأرض ومائلة للأعلى بحيث تبدو مهيبة ومهيمنة. إنها تملأ مقدمة الإطار، وتحدق ببرود ومباشرة في الكاميرا.\nتم رفع يدها اليمنى بالقرب من صدغها في لفتة مسدس الإصبع، مع تمديد السبابة والأصابع الوسطى معًا، ورفع الإبهام، وتجعد الأصابع المتبقية إلى الداخل. يدها اليسرى تقع بشكل فضفاض على طول فخذها العلوي. السترة ضخمة وكبيرة الحجم قليلاً، مع ياقة عالية، وقماش أسود غير لامع، وشعارات جرافيكية بيضاء حادة على الصدر والكتفين، مما يمنحها مظهرًا داكنًا للشارع / جمالية تحت الأرض.\nوخلفها، ترتفع أعمدة دعم خرسانية ضخمة في الظلام، مرئية بوضوح وتؤطر المشهد. العمود الموجود على اليمين مغطى بكتابات وعلامات حضرية متعددة الطبقات، بما في ذلك العبارة المقروءة \"هل أنت بخير؟\" رش عبرها. على الجانب الأيسر من الإطار، تقف سيارة حديثة داكنة اللون مضاءة بمصابيح أمامية LED بيضاء اللون، مما يلقي وهجًا حادًا عبر الأسفلت والجزء السفلي من المشهد.\nالإضاءة متقلبة وسينمائية، وتهيمن عليها المصابيح الأمامية ذات اللون الأزرق والأبيض البارد، مع انسكاب ضوء الشارع باللون الكهرماني الدافئ في الخلفية. الظلال العميقة، التباين العالي، درجات الأسود والفحمي، إزهار طفيف، جو ليلي حضري، تصوير سينمائي للشوارع، أزياء تحريرية داكنة، مزاج مشؤوم.",
+      "translated_at": "2026-09-20T18:12:53Z"
+    },
+    {
+      "id": "gh-9acbe0a57ee3",
+      "title": "djcode0718/UGC-Ad-Studio README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Gemini"
+      ],
+      "prompt": "---\n\n# ⚙️ Tech Stack\n\n## Frontend\n\n* Next.js 14\n* TypeScript\n* Tailwind CSS\n* shadcn/ui\n* Framer Motion\n\n---\n\n## AI\n\n* Google Gemini API\n\n---\n\n## Deployment\n\n* Vercel\n\n---\n\n# 🔄 Pipeline\n\n## Step 1 — User Input\n\nThe user provides:\n\n* Product name\n* Product description\n* Audience\n* Tone\n* Platform\n* Goal\n\n---\n\n## Step 2 — Prompt Engineering\n\nThe backend dynamically constructs structured prompts optimized for:\n\n* UGC ads\n* TikTok/Reels formats\n* Viral hooks\n* Creator-style storytelling\n\n---\n\n## Step 3 — AI Generation\n\nGemini generates:\n\n* Hooks\n* Scripts\n* Storyboards\n* Captions\n* Hashtags\n* CTA\n* Image prompts\n\n---\n\n## Step 4 — Structured Parsing\n\nResponses are converted into clean JSON objects for frontend rendering.\n\n---\n\n## Step 5 — UI Rendering\n\nThe frontend displays:\n\n* Interactive tabs\n* Storyboard timelines\n* Creative cards\n* Copy-ready outputs\n\n---\n\n# 📂 Project Structure",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "djcode0718/UGC-Ad-Studio",
+      "source_url": "https://github.com/djcode0718/UGC-Ad-Studio/blob/main/README.md",
+      "imported_at": "2026-09-20T18:12:52.557300+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9acbe0a57ee3bb88b67a719fb00b988c55c55d21425b97173aafadf8554c90f3",
+      "prompt_ar": "---\n\n# ⚙️ مكدس التكنولوجيا\n\n## الواجهة الأمامية\n\n* التالي.js 14\n* الآلة الكاتبة\n* الريح الخلفية CSS\n* shadcn/ui\n* حركة فريمر\n\n---\n\n## الذكاء الاصطناعي\n\n* جوجل الجوزاء API\n\n---\n\n## النشر\n\n* فيرسيل\n\n---\n\n# 🔄 خط الأنابيب\n\n## الخطوة 1 — إدخال المستخدم\n\nيوفر المستخدم:\n\n* اسم المنتج\n* وصف المنتج\n* الجمهور\n* لهجة\n* منصة\n* الهدف\n\n---\n\n## الخطوة الثانية – الهندسة السريعة\n\nتقوم الواجهة الخلفية بشكل ديناميكي ببناء المطالبات المنظمة المُحسّنة من أجل:\n\n* إعلانات المحتوى الذي ينشئه المستخدمون\n* تنسيقات TikTok/Reels\n* السنانير الفيروسية\n* رواية القصص بأسلوب المبدع\n\n---\n\n## الخطوة 3 – إنشاء الذكاء الاصطناعي\n\nالجوزاء يولد:\n\n* السنانير\n* البرامج النصية\n* القصص المصورة\n* التسميات التوضيحية\n* الهاشتاجات\n* الحث على اتخاذ إجراء\n* يطالب الصورة\n\n---\n\n## الخطوة الرابعة – التحليل المنظم\n\nيتم تحويل الاستجابات إلى كائنات JSON نظيفة لعرض الواجهة الأمامية.\n\n---\n\n## الخطوة 5 – عرض واجهة المستخدم\n\nتعرض الواجهة الأمامية:\n\n* علامات التبويب التفاعلية\n* الجداول الزمنية للقصة المصورة\n* بطاقات إبداعية\n* مخرجات جاهزة للنسخ\n\n---\n\n# 📂 هيكل المشروع",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:54Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Gemini"
+      ],
+      "search_text": "djcode0718/ugc-ad-studio readme prompt prompt-engineering --- # ⚙️ tech stack ## frontend * next.js 14 * typescript * tailwind css * shadcn/ui * framer motion --- ## ai * google gemini api --- ## deployment * vercel --- # 🔄 pipeline ## step 1 — user input the user provides: * product name * product description * audience * tone * platform * goal --- ## step 2 — prompt engineering the backend dynamically constructs structured prompts optimized for: * ugc ads * tiktok/reels formats * viral hooks * creator-style storytelling --- ## step 3 — ai generation gemini generates: * hooks * scripts * storyboards * captions * hashtags * cta * image prompts --- ## step 4 — structured parsing responses are converted into clean json objects for frontend rendering. --- ## step 5 — ui rendering the frontend displays: * interactive tabs * storyboard timelines * creative cards * copy-ready outputs --- # 📂 project structure github review gemini gemini",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/djcode0718/UGC-Ad-Studio/blob/main/README.md",
+          "source_repository": "djcode0718/UGC-Ad-Studio"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143329818",
+      "title": "Civitai prompt 143329818",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted long-sleeved trench coat dress with asymmetrical chest storm flap, light grey pleated skirt panels inserted at sides and back, dark blue neck ribbon tie, light grey collared inner shirt, matching red waist belt with metal buckle, dark charcoal knee-high socks, brown loafers, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143329818",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0841dd99-e673-4c4d-8f7d-85b35362ba85/original=true/0841dd99-e673-4c4d-8f7d-85b35362ba85.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 3165,
+      "height": 4096,
+      "seed": 2230702551,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-20T18:12:52.557537+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dabe50992a04ec9f8c8c6a9b774e55c8e15a0fa5f704d440e4109eff412f89d2",
+      "prompt_ar": "درجة 7، تحفة، أفضل جودة، جمالية للغاية، سخافات، عالية الوضوح، عيون ووجه مفصلة للغاية، تفاصيل معقدة، ملمس ناعم للبشرة، أصابع صحيحة تشريحيًا، تركيز حاد، حواف واضحة، [خطوط تفصيلية]، تفاصيل معقدة، خطي نظيف،\nصورة للجزء العلوي من الجسم للشخصية في وضع مريح ومحايد للأمام بدون إيماءات اليد، مبتسمًا بسرور للمشاهد على خلفية بيضاء صلبة بسيطة.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,فتاة واحدة، منفردة، LycoReco-Nishikigi-Chisato، أبعاد نحيلة، شعر أشقر بلاتيني قصير، قصة بوب، غرة غير حادة، شريط أحمر في الشعر، أهوجي، عيون حمراء كبيرة معبرة، صدر متوسط، ترتدي معطفًا أحمر داكنًا مزدوج الصدر بأكمام طويلة وفستانًا مع غطاء غير متماثل على الصدر، رمادي فاتح ألواح تنورة مطوية مُدرجة على الجانبين والظهر، وربطة عنق شريطية باللون الأزرق الداكن، وقميص داخلي بياقة باللون الرمادي الفاتح، وحزام خصر أحمر مطابق بإبزيم معدني، وجوارب فحمية داكنة تصل إلى الركبة، وأحذية لوفر بنية، \nشاشة الأنمي، الفن الرسمي، أسلوب الرسوم المتحركة في الاستوديو،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143329818 image ai-image-prompts score 7,masterpiece,best quality,very aesthetic,absurdres,highres,high definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart, an upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background. <lora:lycoreco-nishikigi-chisato-anima-2:1>,1girl, solo, lycoreco-nishikigi-chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted long-sleeved trench coat dress with asymmetrical chest storm flap, light grey pleated skirt panels inserted at sides and back, dark blue neck ribbon tie, light grey collared inner shirt, matching red waist belt with metal buckle, dark charcoal knee-high socks, brown loafers, anime screencap,official art,studio animation style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143329818",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0841dd99-e673-4c4d-8f7d-85b35362ba85/original=true/0841dd99-e673-4c4d-8f7d-85b35362ba85.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143330459",
+      "title": "Civitai prompt 143330459",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted short-sleeved coat dress with chest flap, light grey pleated side panels, dark blue ribbon bow tie, collared shirt underneath, red waist belt, red band on left wrist, dark charcoal knee-high socks, brown loafers, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143330459",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f24d35-7ead-4ae7-ab69-cdc776306c10/original=true/52f24d35-7ead-4ae7-ab69-cdc776306c10.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 3165,
+      "height": 4096,
+      "seed": 1440935846,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-20T18:12:52.557562+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "26c2d39aa82d5b3c163e237fc7a32f997398b1239062d3f808a923f873b702cf",
+      "prompt_ar": "درجة 7، تحفة، أفضل جودة، جمالية للغاية، سخافات، عالية الوضوح، عيون ووجه مفصلة للغاية، تفاصيل معقدة، ملمس ناعم للبشرة، أصابع صحيحة تشريحيًا، تركيز حاد، حواف واضحة، [خطوط تفصيلية]، تفاصيل معقدة، خطي نظيف،\nصورة للجزء العلوي من الجسم للشخصية في وضع مريح ومحايد للأمام بدون إيماءات اليد، مبتسمًا بسرور للمشاهد على خلفية بيضاء صلبة بسيطة.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,فتاة واحدة، منفردة، LycoReco-Nishikigi-Chisato، أبعاد نحيلة، شعر أشقر بلاتيني قصير، قصة بوب، غرة غير حادة، شريط أحمر في الشعر، أهوجي، عيون حمراء كبيرة معبرة، صدر متوسط، ترتدي معطفًا أحمر داكن مزدوج الصدر بأكمام قصيرة مع غطاء على الصدر، ألواح جانبية مطوية باللون الرمادي الفاتح، أزرق داكن ربطة عنق شريطية، وقميص بياقة تحته، وحزام خصر أحمر، وشريط أحمر على المعصم الأيسر، وجوارب داكنة داكنة تصل إلى الركبة، وأحذية لوفر بنية، \nشاشة الأنمي، الفن الرسمي، أسلوب الرسوم المتحركة في الاستوديو،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143330459 image ai-image-prompts score 7,masterpiece,best quality,very aesthetic,absurdres,highres,high definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart, an upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background. <lora:lycoreco-nishikigi-chisato-anima-2:1>,1girl, solo, lycoreco-nishikigi-chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, red ribbon in hair, ahoge,large expressive bright red eyes, medium breasts, wearing dark red double-breasted short-sleeved coat dress with chest flap, light grey pleated side panels, dark blue ribbon bow tie, collared shirt underneath, red waist belt, red band on left wrist, dark charcoal knee-high socks, brown loafers, anime screencap,official art,studio animation style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143330459",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f24d35-7ead-4ae7-ab69-cdc776306c10/original=true/52f24d35-7ead-4ae7-ab69-cdc776306c10.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143331913",
+      "title": "Civitai prompt 143331913",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, small side ponytail on left with red bow, ahoge,large expressive bright red eyes, medium breasts, wearing bright red kimono top with dark navy and green layered collar trim, long cream-colored bibless waist apron with front pocket and tied two-tone red and navy ribbon sash, dark navy long skirt underneath, cross-tied white tasuki apron straps, light green obi bow tied on back, white tabi socks, red-strapped zori sandals, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143331913",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1d6d7b-5e88-46da-9dce-63a28247a275/original=true/ac1d6d7b-5e88-46da-9dce-63a28247a275.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 3165,
+      "height": 4096,
+      "seed": 957891140,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-20T18:12:52.557581+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e2ce5ca0b2bca83964531f4c6c7e17be413304b10e1df077f0ee0461e6ed9040",
+      "prompt_ar": "درجة 7، تحفة، أفضل جودة، جمالية للغاية، سخافات، عالية الوضوح، عيون ووجه مفصلة للغاية، تفاصيل معقدة، ملمس ناعم للبشرة، أصابع صحيحة تشريحيًا، تركيز حاد، حواف واضحة، [خطوط تفصيلية]، تفاصيل معقدة، خطي نظيف،\nصورة للجزء العلوي من الجسم للشخصية في وضع مريح ومحايد للأمام بدون إيماءات اليد، مبتسمًا بسرور للمشاهد على خلفية بيضاء صلبة بسيطة.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,فتاة واحدة، منفردة، LycoReco-Nishikigi-Chisato، ذات أبعاد نحيلة، وشعر أشقر بلاتيني قصير، وقصة بوب، وغرة غير حادة، وذيل حصان صغير على الجانب الأيسر مع فيونكة حمراء، وأهوغ، وعيون حمراء لامعة كبيرة ومعبرة، وثدي متوسط، وترتدي سترة كيمونو حمراء زاهية مع زخرفة طبقات من اللون الأزرق الداكن والأخضر، وطويلة بلون كريمي مئزر الخصر الكتابي مع جيب أمامي ووشاح شريطي باللونين الأحمر والبحري مربوط، وتنورة طويلة باللون الأزرق الداكن تحتها، وأشرطة مريلة تاسوكي بيضاء مربوطة بشكل متقاطع، وقوس أوبي أخضر فاتح مربوط على الظهر، وجوارب تابي بيضاء، وصنادل زوري ذات أحزمة حمراء، \nشاشة الأنمي، الفن الرسمي، أسلوب الرسوم المتحركة في الاستوديو،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143331913 image ai-image-prompts score 7,masterpiece,best quality,very aesthetic,absurdres,highres,high definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart, an upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background. <lora:lycoreco-nishikigi-chisato-anima-2:1>,1girl, solo, lycoreco-nishikigi-chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, small side ponytail on left with red bow, ahoge,large expressive bright red eyes, medium breasts, wearing bright red kimono top with dark navy and green layered collar trim, long cream-colored bibless waist apron with front pocket and tied two-tone red and navy ribbon sash, dark navy long skirt underneath, cross-tied white tasuki apron straps, light green obi bow tied on back, white tabi socks, red-strapped zori sandals, anime screencap,official art,studio animation style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143331913",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1d6d7b-5e88-46da-9dce-63a28247a275/original=true/ac1d6d7b-5e88-46da-9dce-63a28247a275.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143332626",
+      "title": "Civitai prompt 143332626",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, yellow oval hair clip on left side with small hair tuft,large expressive bright red eyes, medium breasts, wearing oversized light purple denim jacket over loose off-white sweatshirt dress with green cursive chest text, thick fluffy pastel pink snood scarf wrapped around neck, magenta tights, black sneakers with neon green soles, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143332626",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25e704bb-d2c6-4357-aed8-5fff53ddd721/original=true/25e704bb-d2c6-4357-aed8-5fff53ddd721.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 3165,
+      "height": 4096,
+      "seed": 940961742,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-20T18:12:52.557597+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cd098f8475900514bcd487f1493455cfa6cb4dd30aea64792193b51ed549ebd7",
+      "prompt_ar": "درجة 7، تحفة، أفضل جودة، جمالية للغاية، سخافات، عالية الوضوح، عيون ووجه مفصلة للغاية، تفاصيل معقدة، ملمس ناعم للبشرة، أصابع صحيحة تشريحيًا، تركيز حاد، حواف واضحة، [خطوط تفصيلية]، تفاصيل معقدة، خطي نظيف،\nصورة للجزء العلوي من الجسم للشخصية في وضع مريح ومحايد للأمام بدون إيماءات اليد، مبتسمًا بسرور للمشاهد على خلفية بيضاء صلبة بسيطة.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,فتاة واحدة، منفردة، LycoReco-Nishikigi-Chisato، أبعاد نحيلة، شعر أشقر بلاتيني قصير، قصة بوب، غرة غير حادة، مشبك شعر بيضاوي أصفر على الجانب الأيسر مع خصلة شعر صغيرة، عيون حمراء زاهية كبيرة ومعبرة، صدر متوسط، ترتدي سترة دنيم أرجوانية فاتحة كبيرة الحجم فوق فستان فضفاض من النوع الثقيل باللون الأبيض العاجي مع نص أخضر متصل على الصدر، سميك وشاح سنود وردي فاتح رقيق ملفوف حول الرقبة، وجوارب أرجوانية، وأحذية رياضية سوداء بنعل أخضر نيون، \nشاشة الأنمي، الفن الرسمي، أسلوب الرسوم المتحركة في الاستوديو،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143332626 image ai-image-prompts score 7,masterpiece,best quality,very aesthetic,absurdres,highres,high definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart, an upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background. <lora:lycoreco-nishikigi-chisato-anima-2:1>,1girl, solo, lycoreco-nishikigi-chisato, slender proportions, short platinum blonde hair, bob cut, blunt bangs, yellow oval hair clip on left side with small hair tuft,large expressive bright red eyes, medium breasts, wearing oversized light purple denim jacket over loose off-white sweatshirt dress with green cursive chest text, thick fluffy pastel pink snood scarf wrapped around neck, magenta tights, black sneakers with neon green soles, anime screencap,official art,studio animation style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143332626",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25e704bb-d2c6-4357-aed8-5fff53ddd721/original=true/25e704bb-d2c6-4357-aed8-5fff53ddd721.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143334178",
+      "title": "Civitai prompt 143334178",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score 7,masterpiece,best quality,very aesthetic,absurdres,highres,High Definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart,\nAn upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>,1girl, solo, LycoReco-Nishikigi-Chisato, slender proportions, platinum blonde hair styled in low braided chignon bun updo with black ribbon bow at back, side locks framing face, blunt bangs,large expressive bright red eyes, medium breasts, bare shoulders, collarbone, wearing backless dark red halterneck balloon minidress with gathered waist and puffy hem, keyhole opening on upper chest beneath wide black buckled choker collar, black sheer tights, black high heels, \nanime screencap,official art,studio animation style,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143334178",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4e87c59-303b-486f-9fd1-4a1f616482f0/original=true/a4e87c59-303b-486f-9fd1-4a1f616482f0.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3343378
+      ],
+      "width": 896,
+      "height": 1216,
+      "seed": 3270226408,
+      "negative_prompt": "score 1,score 2,score3,6 fingers,6 toes,ai-generated,bad eyes,bad pupils,bad iris,bad hands,bad fingers,watermark,patreon logo,blurry,jpeg artifacts,sepia,\nphotorealistic,realistic,photograph,photography,film grain,3d,3d render,lowres,bokeh,depth of field,sharp focus,lens flare,film look,cinematic lighting,scanned,raw photo,physical,grainy,real life,realistic skin,realistic texture,\nmosaic censored,(mosaic:1.5),(censoring:1.5),(bar censor:1.5),(white censor:1.5),(blurred:1.3),(pixelated:1.4),(censor blur:1.4),(black bar:1.4),(shredded:1.2),(noise:1.2),(grid:1.2),\n(soft focus:1.3),(blurry:1.3),lowres,blurry edges,smudged,haze,washed out colors,low contrast,depth of field,fairy,pokemon (creature),(lipstick, lip:1.5),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-20T18:12:52.557612+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c4bf1384fe4900bda22b23251cd9220123610b77c44d0ca1018b64640ac9f465",
+      "prompt_ar": "درجة 7، تحفة، أفضل جودة، جمالية للغاية، سخافات، عالية الوضوح، عيون ووجه مفصلة للغاية، تفاصيل معقدة، ملمس ناعم للبشرة، أصابع صحيحة تشريحيًا، تركيز حاد، حواف واضحة، [خطوط تفصيلية]، تفاصيل معقدة، خطي نظيف،\nصورة للجزء العلوي من الجسم للشخصية في وضع مريح ومحايد للأمام بدون إيماءات اليد، مبتسمًا بسرور للمشاهد على خلفية بيضاء صلبة بسيطة.\n<lora:LycoReco-Nishikigi-Chisato-Anima-2:1>،فتاة واحدة، منفردة، LycoReco-Nishikigi-Chisato، ذات أبعاد نحيلة، وشعر أشقر بلاتيني مصفف في كعكة العقدة المضفرة المنخفضة مع شريط أسود في الخلف، وأقفال جانبية تؤطر الوجه، وغرة غير حادة، وعيون حمراء كبيرة معبرة، وثديين متوسطين، وأكتاف عارية، وعظمة الترقوة، وترتدي بالونًا بحمالة عنق حمراء داكنة بدون ظهر فستان قصير بخصر متجمع وحاشية منتفخة، وفتحة مفتاح على الجزء العلوي من الصدر أسفل ياقة واسعة بإبزيم أسود، وجوارب سوداء شفافة، وكعب عالٍ أسود، \nشاشة الأنمي، الفن الرسمي، أسلوب الرسوم المتحركة في الاستوديو،",
+      "translation_status": "translated",
+      "translated_at": "2026-09-20T18:12:55Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143334178 image ai-image-prompts score 7,masterpiece,best quality,very aesthetic,absurdres,highres,high definition,extremely detailed eyes and face,intricate details,soft skin texture,anatomically correct fingers,sharp-focus,crisp edges,[detailed lines],intricate details,clean lineart, an upper-body portrait of the character in a relaxed, neutral front-facing pose without hand gestures, smiling pleasantly at the viewer against a plain solid white background. <lora:lycoreco-nishikigi-chisato-anima-2:1>,1girl, solo, lycoreco-nishikigi-chisato, slender proportions, platinum blonde hair styled in low braided chignon bun updo with black ribbon bow at back, side locks framing face, blunt bangs,large expressive bright red eyes, medium breasts, bare shoulders, collarbone, wearing backless dark red halterneck balloon minidress with gathered waist and puffy hem, keyhole opening on upper chest beneath wide black buckled choker collar, black sheer tights, black high heels, anime screencap,official art,studio animation style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143334178",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4e87c59-303b-486f-9fd1-4a1f616482f0/original=true/a4e87c59-303b-486f-9fd1-4a1f616482f0.jpeg"
+        }
       ]
     }
   ],
-  "generated_at": "2026-09-20T08:41:41.027270+00:00",
-  "prompt_count": 589,
+  "generated_at": "2026-09-20T18:12:55.514500+00:00",
+  "prompt_count": 595,
   "translation": {
     "language": "ar",
-    "translated_count": 0,
+    "translated_count": 14,
     "skipped_count": 578,
-    "failed_count": 11,
-    "updated_at": "2026-09-20T08:41:40Z"
+    "failed_count": 3,
+    "updated_at": "2026-09-20T18:12:55Z"
   }
 }

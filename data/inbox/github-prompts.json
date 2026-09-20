@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-20T08:41:24.611658+00:00",
+  "generated_at": "2026-09-20T18:12:35.715975+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1201,6 +1201,23 @@
       "source_id": "github",
       "source_repository": "GammaLabTechnologies/harmonist",
       "source_url": "https://github.com/GammaLabTechnologies/harmonist/blob/6fd5941cce8c3f6f411fd14cde0daa663ccffa8f/playbooks/nexus-strategy.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-9acbe0a57ee3",
+      "title": "djcode0718/UGC-Ad-Studio README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "---\n\n# ⚙️ Tech Stack\n\n## Frontend\n\n* Next.js 14\n* TypeScript\n* Tailwind CSS\n* shadcn/ui\n* Framer Motion\n\n---\n\n## AI\n\n* Google Gemini API\n\n---\n\n## Deployment\n\n* Vercel\n\n---\n\n# 🔄 Pipeline\n\n## Step 1 — User Input\n\nThe user provides:\n\n* Product name\n* Product description\n* Audience\n* Tone\n* Platform\n* Goal\n\n---\n\n## Step 2 — Prompt Engineering\n\nThe backend dynamically constructs structured prompts optimized for:\n\n* UGC ads\n* TikTok/Reels formats\n* Viral hooks\n* Creator-style storytelling\n\n---\n\n## Step 3 — AI Generation\n\nGemini generates:\n\n* Hooks\n* Scripts\n* Storyboards\n* Captions\n* Hashtags\n* CTA\n* Image prompts\n\n---\n\n## Step 4 — Structured Parsing\n\nResponses are converted into clean JSON objects for frontend rendering.\n\n---\n\n## Step 5 — UI Rendering\n\nThe frontend displays:\n\n* Interactive tabs\n* Storyboard timelines\n* Creative cards\n* Copy-ready outputs\n\n---\n\n# 📂 Project Structure",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "djcode0718/UGC-Ad-Studio",
+      "source_url": "https://github.com/djcode0718/UGC-Ad-Studio/blob/main/README.md",
       "license": null,
       "status": "pending_review"
     }
