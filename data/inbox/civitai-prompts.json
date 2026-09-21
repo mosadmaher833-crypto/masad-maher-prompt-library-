@@ -1,44 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-09-21T09:07:28.138635+00:00",
+  "generated_at": "2026-09-21T20:00:26.517950+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-143389757",
-      "title": "Civitai prompt 143389757",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "blurr, grainy, A dark, atmospheric, and highly dramatic photograph of a massive raven perched on a charred, smoldering tree branch in a misty forest at night. The raven's feathers are dark, blending into the shadows, but its eyes glow with an intense, fiery orange light. The air around the raven is filled with thousands of floating, glowing embers and ash particles swirling in a gentle, magical updraft. Wisps of smoke curl around its talons. Lighting: Extreme low-key lighting (chiaroscuro), with the only light sources being the glowing embers and the raven's eyes, casting a warm, flickering orange glow on its beak and head. Color grading: Deep, crushed blacks, rich charcoal grays, and vibrant, fiery oranges and reds. High contrast, mysterious and ominous mood. Shot from a slightly low angle, straight on. dark fantasy photography, highly detailed texture on feathers and bark.",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143389757",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a3db27aa-aabf-4b1a-a59a-db51641e5a7d/original=true/a3db27aa-aabf-4b1a-a59a-db51641e5a7d.jpeg",
-      "model": "krea2TurboOfficialComfy_krea2TurboInt8.safetensors",
-      "model_version_ids": [
-        3091481,
-        3114935,
-        3116962,
-        3125118
-      ],
-      "width": 1440,
-      "height": 2160,
-      "seed": 638551212686274,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133063+00:00"
-    },
-    {
-      "id": "civitai-143400094",
-      "title": "Civitai prompt 143400094",
+      "id": "civitai-143441971",
+      "title": "Civitai prompt 143441971",
       "category": "architecture",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -47,125 +15,29 @@
         "imported",
         "api"
       ],
-      "prompt": "Masterpiece , A cozy, rustic living room interior with a massive stone fireplace. Inside the hearth, a miniature active volcano is erupting, spewing thick, glowing orange lava and dark smoke. Molten lava streams are cascading out of the fireplace and flowing onto the hardwood floor, melting the rug. Dramatic contrast between the soft, warm ambient light of the room and the intense, incandescent glow of the magma. High-detail textures, cinematic lighting, hyper-realistic, volumetric smoke, 8k resolution, intricate shadows, sparks flying in the air. ehmuse",
-      "quality_score": 8.7,
+      "prompt": "tim_burtonise, lucas vosterman engraving hatching style, masterpiece, 8k resolution, photorealistic, intricate details, hyperdetailed, sharp focus, cinematic lighting, dramatic shadows, professional lighting, award-winning art, breathtaking atmosphere, highly detailed textures, exquisite composition, A striking surreal digital illustration of a person standing on a rooftop at night, holding open a large glowing glass mason jar. A vibrant, swirling stream of hundreds of tiny, brilliantly glowing neon-pink and golden magical light-hearts pours out of the jar like a galaxy. The magical stream of hearts flows down into a dark, monochrome, desaturated city below, physically lighting up the dark streets and turning the buildings colorful wherever they touch. High contrast, masterpiece, 8k resolution, sharp focus, cinematic lighting, dramatic volumetric glow, hyperdetailed, exquisite composition, emotional storytelling art, perfect anatomy",
+      "quality_score": 9.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143400094",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79328aac-7368-4629-a380-0deb5be9b82d/original=true/79328aac-7368-4629-a380-0deb5be9b82d.jpeg",
+      "source_url": "https://civitai.com/images/143441971",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63a8180b-dfad-438b-8e97-b8eb6b2076a9/original=true/63a8180b-dfad-438b-8e97-b8eb6b2076a9.jpeg",
       "model": null,
       "model_version_ids": [
-        653477,
-        1759168,
-        2587061
-      ],
-      "width": 1216,
-      "height": 832,
-      "seed": 1500530306,
-      "negative_prompt": "blurry, lowres, low resolution, blurry, low quality, distorted, cartoon, painting, illustration, text, watermark, signature, messy, out of focus, simple background, ugly, deformed, grain, noise",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133359+00:00"
-    },
-    {
-      "id": "civitai-143404319",
-      "title": "Civitai prompt 143404319",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A tight, dramatic close-up shot focusing on a skull-faced figure behind the wheel of an open-top vintage roadster, forged entirely from flowing, intricate patterns of fire. The framing is cropped tightly on the upper body and fiery skull driver, filling the entire shot with intense detail. The skull's features are intricately defined by arabesque flame filigree in bright orange and yellow hues, with glowing light blazing from its hollow eye sockets. Dynamic, artistic plumes of flame curve tightly around the steering wheel and interior, weaving detailed calligraphy-like designs into the darkness. Radiant, luminous embers sparkle like floating jewels across the fiery textures, casting high-contrast light against a pitch-black, shadowed background",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404319",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39e280e7-fcfc-46b0-b5b1-3c6fca83e400/original=true/39e280e7-fcfc-46b0-b5b1-3c6fca83e400.jpeg",
-      "model": null,
-      "model_version_ids": [
-        128078,
-        653477
+        3072332,
+        3179959,
+        3227082
       ],
       "width": 1024,
       "height": 1024,
-      "seed": 1714129067,
-      "negative_prompt": "blurry, low quality, static fire, realistic human face, flesh, skin, eyes, hair, daytime, daylight, bright background, white background, blue flames, green flames, cold colors, flat lighting, simple smoke, extra limbs, deformed skull, watermark, text, signature, logo, low contrast, dull colors, overexposed",
+      "seed": 94575666,
+      "negative_prompt": "deformed hands, extra fingers, missing limbs, fused fingers, asymmetrical eyes, distorted faces, backward limbs, floating body parts, broken anatomy, unnatural posture, blurry, low resolution, compressed artifacts, noisy texture, poorly drawn feet, extra legs, cloned limbs, dull",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133633+00:00"
+      "discovered_at": "2026-09-21T20:00:26.515643+00:00"
     },
     {
-      "id": "civitai-143404316",
-      "title": "Civitai prompt 143404316",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "8k resolution, ultra detailed, sharp focus, crisp details, ray tracing reflections, full creature view, entire creature frame, head-to-tail shot, complete quadruped framing, Cute T-Rex entirely composed of flowing luminous fire, vibrant swirling flame patterns, orange and yellow hues, glowing embers, dark background, detailed dark forest campsite at night, accidentally burning a wooden stick while roasting marshmallows, glowing campfire, rich environmental detail, funny camping comedy⁠",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404316",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/951d6c48-b86c-49da-b3d5-8dae56f57556/original=true/951d6c48-b86c-49da-b3d5-8dae56f57556.jpeg",
-      "model": null,
-      "model_version_ids": [
-        135867,
-        653477,
-        2555897,
-        2858836,
-        3065517
-      ],
-      "width": null,
-      "height": null,
-      "seed": 1119290507,
-      "negative_prompt": "woman, female, girl, lady, feminine features, female face, female body, breasts, blurry, low resolution, noise, pixelated, jpeg artifacts, compression artifacts, grainy, bad focus, out of focus, smudged, muddy texture, nsfw, nudity, human, humanoids, additional people, side character, handler, organic dinosaur skin, smooth scales, bright studio background, white void, neutral background, static pose, boring pose, cropped, cut off, out of frame, extra limbs, missing limbs, blur, multiple subjects⁠",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133743+00:00"
-    },
-    {
-      "id": "civitai-143404309",
-      "title": "Civitai prompt 143404309",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "8k resolution, ultra detailed, sharp focus, crisp details, ray tracing reflections, full creature view, entire creature frame, head-to-tail shot, complete quadruped framing, majestic Lion entirely composed of flowing luminous fire, giant swirling flame mane, orange and yellow hues, glowing embers, dark background, detailed rocky mountain cliff at night, roaring against a starry night sky, dramatic wind blowing flames, rich environmental detail, epic majestic composition⁠",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404309",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f07a9b33-8427-4a87-8ec7-5c342af0d4db/original=true/f07a9b33-8427-4a87-8ec7-5c342af0d4db.jpeg",
-      "model": null,
-      "model_version_ids": [
-        135867,
-        653477,
-        2555897,
-        2858836,
-        3065517
-      ],
-      "width": null,
-      "height": null,
-      "seed": 406571384,
-      "negative_prompt": "woman, female, girl, lady, feminine features, female face, female body, breasts, blurry, low resolution, noise, pixelated, jpeg artifacts, compression artifacts, grainy, bad focus, out of focus, smudged, muddy texture, nsfw, nudity, human, humanoids, additional people, side character, handler, real fur, organic mane, bright studio background, white void, neutral background, static pose, boring pose, cropped, cut off, out of frame, extra limbs, missing limbs, blur, multiple subjects⁠, multiple animals",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133845+00:00"
-    },
-    {
-      "id": "civitai-143404314",
-      "title": "Civitai prompt 143404314",
+      "id": "civitai-143441896",
+      "title": "Civitai prompt 143441896",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -174,31 +46,31 @@
         "imported",
         "api"
       ],
-      "prompt": "8k resolution, ultra detailed, sharp focus, crisp details, ray tracing reflections, full creature view, entire creature frame, head-to-tail shot, complete quadruped framing, Crocodile entirely composed of flowing luminous fire, vibrant swirling flame patterns, orange and yellow hues, glowing embers, dark background, detailed dark swamp lake at night, rising from dark water with steam and rising sparks, water reflections, rich environmental detail, dramatic action composition⁠",
+      "prompt": "m0nm0n. rolw. A full-length illustration of a three figures. on the left side of the composition, in the foreground stands a masculine man with tall, upright white hair, ashen black skin and long pointed elf-like ears. he cocks one white eyebrow. his body is mostly obscured by his long, ankle-length jacket, his back slightly towards the viewer. the jacket is purple but covered in a dense pattern of different-sized, eye-shaped, black-and-white blobs. his pants are striped in black and white. he aims a flintlock pistol horizontally across the composition to the right. his near shoulder partially obscuring the lower part of his face.\nbehind him and more centered in the composition are two women clad in nun's garb, both looking to the right with expressions of surprise. the women are different heights, with the taller woman's hands on the shorter woman's shoulders. the short one has short black pixie cut hair. the tall one has medium length brown hair.\nbehind them is a desolate-looking desert town with scattered off-white rounded modernist houses. gradient sky transitioning from sandy brown into beige into light blue.",
       "quality_score": 8.1,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404314",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c0fbbc2-e747-4a4e-ba12-cf6dc81276bb/original=true/0c0fbbc2-e747-4a4e-ba12-cf6dc81276bb.jpeg",
+      "source_url": "https://civitai.com/images/143441896",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99a9e262-5b51-4f9b-93b2-6f44d8c4c925/original=true/99a9e262-5b51-4f9b-93b2-6f44d8c4c925.jpeg",
       "model": null,
       "model_version_ids": [
-        135867,
-        653477,
-        2555897,
-        2858836,
-        3065517
+        3072329,
+        3088732,
+        3125118,
+        3168308,
+        3305239
       ],
-      "width": null,
-      "height": null,
-      "seed": 847759116,
-      "negative_prompt": "woman, female, girl, lady, feminine features, female face, female body, breasts, blurry, low resolution, noise, pixelated, jpeg artifacts, compression artifacts, grainy, bad focus, out of focus, smudged, muddy texture, nsfw, nudity, human, humanoids, additional people, side character, handler, organic scales, smooth leather, bright studio background, white void, neutral background, static pose, boring pose, cropped, cut off, out of frame, extra limbs, missing limbs, blur, multiple subjects⁠",
+      "width": 832,
+      "height": 1248,
+      "seed": 2138278868,
+      "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.133954+00:00"
+      "discovered_at": "2026-09-21T20:00:26.516059+00:00"
     },
     {
-      "id": "civitai-143404313",
-      "title": "Civitai prompt 143404313",
+      "id": "civitai-143441822",
+      "title": "Civitai prompt 143441822",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -207,32 +79,34 @@
         "imported",
         "api"
       ],
-      "prompt": "8k resolution, ultra detailed, sharp focus, crisp details, ray tracing reflections, full body shot, complete head-to-toe frame, anthropomorphic Darth Vader entirely composed of flowing luminous fire, vibrant swirling flame patterns, orange and yellow hues, glowing embers, dark background, outdoors at night, detailed backyard barbecue party, melting metal tongs on a smoking grill, rich environmental detail, cinematic dramatic lighting, intense luminous glow⁠",
-      "quality_score": 9.3,
+      "prompt": "masterpiece, best quality, absurdres, amazing quality, ZSA_IL_POS_V2, atsuage_(kakinop), artist:mika_pikazo, wlop, reoen, tianliang_duohe_fangdongye, [ask_(askzy)], [kantoku], year_2023, [[artist:ningen_mame]], artist:ciloranko, noyu_(noyu23386566), \n1girl, kuriyama mirai, pink shirt, green theme, school uniform, red-framed eyewear, looking at viewer, arm rest, plant, potted plant, too many flowers, transparent border, wind chime, wooden wall, bookstore, outdoors, bokeh, rim light, moody lighting, foreshortening, from above, \nwindow, close-up,",
+      "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404313",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b3ffecb-0afe-4d55-b0a5-6d620faef10c/original=true/4b3ffecb-0afe-4d55-b0a5-6d620faef10c.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/143441822",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5df72111-20b3-4773-8664-c8422ddfd881/original=true/5df72111-20b3-4773-8664-c8422ddfd881.jpeg",
+      "model": "oneObsession_v21Anime",
       "model_version_ids": [
-        135867,
-        653477,
-        2555897,
-        2858836,
-        3065517
+        1667494,
+        2061146,
+        2268235,
+        2363632,
+        2555799,
+        2572951,
+        2823418
       ],
-      "width": null,
-      "height": null,
-      "seed": 2006140959,
-      "negative_prompt": "woman, female, girl, lady, feminine features, female face, female body, breasts, blurry, low resolution, noise, pixelated, jpeg artifacts, compression artifacts, grainy, bad focus, out of focus, smudged, muddy texture, nsfw, nudity, barefoot, bare feet, shoes, boots, sneakers, footwear, clown shoes, visible human face, organic skin, smooth metal, bright studio background, white void, neutral background, static pose, boring pose, cropped, cut off, out of frame, extra limbs, missing limbs, blur, multiple subjects⁠",
+      "width": 3072,
+      "height": 4608,
+      "seed": 805963825048688,
+      "negative_prompt": "lazyreal, lazyhand, bad hands, extra legs, lowres, worst quality, low quality, bad anatomy, bad hands, 4koma, comic, greyscale, censored, jpeg artifacts, overly saturated, overly vivid, chinese clothes, chinese hairpin, qi lolita, qi maid, china dress, back hair, hair pulled back, long hair, very long hair, shiny skin, shiny clothes, shiny legwear, shiny footwear, shiny pantyhose, shiny eyes, 3d, 3d background, realistic, ZSA_IL_Neg, dark skin, brown pantyhose, toeless legwear, toeless footwear, black skin, extra arms, extra legs, extra hands, photorealistic, reflection, english text, transparent pantyhose, wet, wet clothes, wet skirt, wet skin, bad feet, 6 toes, 4 toes, semi-rimless eyewear, semi-circular eyewear, under-rim eyewear, rimless eyewear, red pupils,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.134077+00:00"
+      "discovered_at": "2026-09-21T20:00:26.516195+00:00"
     },
     {
-      "id": "civitai-143404310",
-      "title": "Civitai prompt 143404310",
-      "category": "image",
+      "id": "civitai-142309571",
+      "title": "Civitai prompt 142309571",
+      "category": "advertising",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -240,120 +114,30 @@
         "imported",
         "api"
       ],
-      "prompt": "8k resolution, ultra detailed, sharp focus, crisp details, ray tracing reflections, full quadruped view, entire creature frame, head-to-tail shot, complete quadruped framing, gigantic elephant entirely composed of flowing luminous fire, vibrant swirling flame patterns, orange and yellow hues, glowing embers, dark background, detailed public park at night, melting the paved path under giant flaming feet, glowing trees and embers in the air, rich environmental detail, scale mismatch humor⁠",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404310",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73fccc3d-dba3-42f8-93cc-a02b0e92afc0/original=true/73fccc3d-dba3-42f8-93cc-a02b0e92afc0.jpeg",
-      "model": null,
-      "model_version_ids": [
-        135867,
-        653477,
-        2555897,
-        2858836,
-        3065517
-      ],
-      "width": null,
-      "height": null,
-      "seed": 13603118,
-      "negative_prompt": "woman, female, girl, lady, feminine features, female face, female body, breasts, blurry, low resolution, noise, pixelated, jpeg artifacts, compression artifacts, grainy, bad focus, out of focus, smudged, muddy texture, nsfw, nudity, human, humanoids, additional people, side character, handler, organic elephant skin, smooth skin, bright studio background, white void, neutral background, static pose, boring pose, cropped, cut off, out of frame, extra limbs, missing limbs, blur, multiple subjects⁠, multiple animals",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.134182+00:00"
-    },
-    {
-      "id": "civitai-143404308",
-      "title": "Civitai prompt 143404308",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "(photorealistic:1.4),35mm lens,f/ 1.8, standing, full body, dynamic angle, best quality, masterpiece, ultra detailed, ultra highres, ultra quality, extremely detailed CG, intricate, professional quality, photo of an old girl, a girl, 40 years old, japanese, real person, looking at viewer, detailed, detailed skin, shoot from below, tall, lanky, leggy, slim, fit, slender, Correct generation of 5 fingers, Correct generation of 5 fingers and hands and arms, light smile, ((black hair, ponytail,)), ((wearing white-business blouse, open clothes, black-pencil skirt, black-ankle boots,)), ((no background))",
+      "prompt": "@mgong520,(excellent depth of field:1.3), (oil painting (medium):1.2), (impressionism:1.2), (partly realistic texture:1.1)\n(mood lighting:1.4), (cinematic lighting:1.3), (volumetric lighting:1.3), (ray tracing:1.2), (dramatic shadows:1.2),  (soft glow:1.3), 1 girl, solo, advertising style, detailed background, bright smile,, fish,gradient hair, blue to yellow hair, blue hair, yellow hair, simple background, grid background, looking at viewer, jewelry, blue hair, blue eyes, candy,tropical fish, socks, fins, skirt, bow, bracelet, hair ornament, bandaid, blue headwear, white socks, flower, blush, beads, masterpiece,bubbles,dark-skinned female,very dark skin, fish themed vtuber girl,cute design, dynamic pose, grin, sailor design, asymmetrical design, yellow blue and green theme, impressionism, excellent depth of field, partly realistic texture, dramatic lighting, sharp focus, ,,mixed media, strong texture, , painting \\(medium\\),The composition is centered, placing the girl as the primary subject. Simple background. Impressionism background. Underwater. Corrals:2. Seaweed:2.",
       "quality_score": 9.9,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404308",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1dece46-f3de-4f8e-96c2-3198b1dc0aa1/original=true/d1dece46-f3de-4f8e-96c2-3198b1dc0aa1.jpeg",
+      "source_url": "https://civitai.com/images/142309571",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d59a277-3c99-407b-aa46-830558513331/original=true/4d59a277-3c99-407b-aa46-830558513331.jpeg",
       "model": null,
       "model_version_ids": [
-        3086021
-      ],
-      "width": 896,
-      "height": 1200,
-      "seed": 978657574,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.134265+00:00"
-    },
-    {
-      "id": "civitai-143404186",
-      "title": "Civitai prompt 143404186",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "1girl, professional 3d blender render, Afrofuturism, highly detailed, full body shot of a dressed in a very Tender Gray Golden Age [Linen:Nickel:13] [Sports team uniform:Wide-leg jumpsuit and clutch:18], muscular Greek ([Katy Mixon:Luna Lovegood:1]:1.3) , Luna Lovegood is very Pretty and Pure, she is inside a Crystal Ball, she is feeling very fearful as a Yoga instructor, her hair is Ethereal and styled as Tousled, Luna Lovegood has a Fiery Metalhead dark red Tiara, Personal ray-ban glasses, from inside of a [Enthralling|Characteristic] Laundromat, DayGlo purple trees and beach, Smoky Conditions, Sharp and in focus, Detailed illustration, Amusing, split lighting, F/8, CineColor, Swirling Rainbow, Embroidery, freckles, realistic cozy face, RTX, octane engine, [ (art by Ryan Ottley:1.0) | (Charles Ellison:1.2) ]",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404186",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b7e188b-0234-45f4-8aaf-8125f126a453/original=true/5b7e188b-0234-45f4-8aaf-8125f126a453.jpeg",
-      "model": "fakePvcStyle_11",
-      "model_version_ids": [
-        19683,
-        94057,
-        125849
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 3352959606,
-      "negative_prompt": "bad-hands-5, FastNegativeV2",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.134849+00:00"
-    },
-    {
-      "id": "civitai-143404132",
-      "title": "Civitai prompt 143404132",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, ultra-detailed, realistic Ponyta (Pokémon), single character, full body, graceful young horse, smooth cream-colored fur, large expressive brown eyes, pointed ears, slender legs, glossy hooves, blazing orange-and-yellow fire mane and tail, warm fiery glow, adorable gentle expression, cinematic lighting, clean simple background, sharp focus, no humans, no other Pokémon",
-      "quality_score": 8.8,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404132",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2110a97e-38bd-49d4-9300-6b2e99441323/original=true/2110a97e-38bd-49d4-9300-6b2e99441323.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2642671
+        2949124,
+        3007041,
+        3088923,
+        3112659
       ],
       "width": 832,
       "height": 1216,
-      "seed": 877902321,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor, jpeg artifacts, signature, watermark,white background, artist name, bad anatomy, pink anus,",
+      "seed": 419120205,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, english text, signature, cropped,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.135387+00:00"
+      "discovered_at": "2026-09-21T20:00:26.516329+00:00"
     },
     {
-      "id": "civitai-143404128",
-      "title": "Civitai prompt 143404128",
+      "id": "civitai-143441675",
+      "title": "Civitai prompt 143441675",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -362,60 +146,29 @@
         "imported",
         "api"
       ],
-      "prompt": "zidiusArt, Create a dramatic oil painting in the style of classic marine art, with rich, saturated colors and pronounced impasto texture. Depict a three‑masted sailing ship cutting through rough seas, its sails billowing with wind. Position the ship slightly off‑center, angled to convey forward motion, with detailed rigging lines subtly visible against the sails.\nRender the sails in warm, translucent beige and cream tones, catching the golden light of a massive full moon. Add subtle creases and folds to show the fabric’s movement and volume.\nIn the foreground, paint turbulent waves with dynamic, swirling motion; use thick, textured brushstrokes for the water’s surface and dense, sculptural white foam on the wave crests. Include spray and droplets catching the moonlight with delicate highlights.\nIn the background, compose a dramatic sky with deep navy and charcoal clouds contrasted by fiery orange, red, and gold hues near the horizon. Paint the clouds with loose, energetic strokes, leaving some areas translucent to reveal the darker sky beneath.\nPlace a large, luminous full moon near the horizon, slightly to the right; give it a textured, slightly grainy surface with warm gradients from deep gold to pale yellow and subtle white highlights. Let the moonlight cast a glowing path across the water.\nUse a color palette that emphasizes dramatic contrast: fiery oranges, reds, and golds for the sky and moonlight; deep blues, greens, and grays for the sea and shadows; warm beige and cream for the sails. The lighting should be moody and intense, with the moon as the primary light source creating sharp highlights and deep shadows.\nPrioritize a tactile, painterly quality: visible ridges, directional brushstrokes, and areas of thick impasto should be evident throughout the image, especially on the wave foam, sails, and cloud edges. The overall mood should be adventurous, dramatic, and awe‑inspiring, evoking the power of the sea and the romance of the open voyage. Aim for an 8K resolution, and a style that blends realistic detail with expressive, emotive brushwork",
-      "quality_score": 8.1,
+      "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,(A beautiful blood queen, red glowing eyes, cracked glowing skin in red, red clowing silver crown, in a dark fantasy style, digital art portrait, pov from the side:1.2) hkevil, masterpiece, best quality, highly detailed, sharp focus, dynamic lighting",
+      "quality_score": 8.2,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404128",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/936291de-bd56-4cef-aaad-b38e0b5b11b8/original=true/936291de-bd56-4cef-aaad-b38e0b5b11b8.jpeg",
+      "source_url": "https://civitai.com/images/143441675",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20dc54bc-6495-4ed7-8d56-d19b7157c2f9/original=true/20dc54bc-6495-4ed7-8d56-d19b7157c2f9.jpeg",
       "model": null,
       "model_version_ids": [
-        3072332,
-        3116962,
-        3125118,
-        3141844
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 1223387984,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.135815+00:00"
-    },
-    {
-      "id": "civitai-143404089",
-      "title": "Civitai prompt 143404089",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "hyperdetailed fiery photography, sharp focus, intricate flowing flame textures, brilliant glowing embers sparkling like diamonds in the dark. Darth Vader's form radiating intense orange and yellow hues, with intricate swirling patterns of fire clearly defining his helmet and armor. The normal duck's hilariously panicked eyes, ruffled feathers, and tight grip on the tiny fire extinguisher. The flaming roosters leaving dynamic, artistic trails of fire in the air. Luminous sparks, deep shadows, high contrast, 8k, raw photo, high fidelity, masterpiece, striking composition, vibrant warm colors against pitch black, humorous and witty atmosphere, deep depth of field. <lora:lightx2v_t2v_14b_cfg_step_distill_v2_lora_rank32_bf16:0.5> <lora:Flame_Style-000009:1.0>",
-      "quality_score": 9.5,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404089",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55d3ee57-e642-4b1c-88d2-d8ac385912b6/original=true/55d3ee57-e642-4b1c-88d2-d8ac385912b6.jpeg",
-      "model": "seedvr2_7b_int8_convrot.safetensors",
-      "model_version_ids": [
         653477,
-        2187773
+        708553,
+        914390
       ],
-      "width": 1536,
-      "height": 832,
-      "seed": 111357231878664,
-      "negative_prompt": "blurry, low quality, dull colors, flat lighting, overexposed, washed out, no flame texture, no embers, realistic feathers, biological fire, smoke, ash, deformed, extra limbs, missing limbs, text, watermark, bright background, daylight, muddy colors.",
+      "width": null,
+      "height": null,
+      "seed": 246222190,
+      "negative_prompt": "text, watermark, low quality, worst quality, bad compostion, poor, low effort, child, childish, young, (rough sketch:1.1), censored, (derpibooru_p_low), source_comic, (human:1.25)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.135940+00:00"
+      "discovered_at": "2026-09-21T20:00:26.516502+00:00"
     },
     {
-      "id": "civitai-143404079",
-      "title": "Civitai prompt 143404079",
+      "id": "civitai-143441327",
+      "title": "Civitai prompt 143441327",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -424,240 +177,92 @@
         "imported",
         "api"
       ],
-      "prompt": "A woman with dark, shoulder-length hair lies supine on a teal pool table felt, her head tilted back slightly, eyes closed or nearly so, mouth slightly parted in a relaxed expression. She wears a black sleeveless dress with thin straps that exposes her shoulders and upper chest; the fabric drapes loosely over her torso. Her right arm is extended along her side while her left hand grips a wooden pool cue resting diagonally across her body. Several billiard balls are scattered on the table around her head and upper body, including a white ball near her shoulder, an orange-and-white striped ball, a black eight-ball, and others partially visible in the frame. She wears a thick, sparkling choker necklace that sits high on her neck. The lighting is bright and direct, casting soft shadows beneath her torso and arms; the overall mood is calm and posed with a hint of leisurely elegance. The image has a clean, photorealistic quality without heavy noise or amateur digicam artifacts.",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404079",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65da18eb-9da5-48a5-ae30-4e3b828a29a2/original=true/65da18eb-9da5-48a5-ae30-4e3b828a29a2.jpeg",
-      "model": "krea2Turbo_v10",
-      "model_version_ids": [
-        3064297,
-        3075498,
-        3075606,
-        3109006,
-        3267820
-      ],
-      "width": 1088,
-      "height": 1920,
-      "seed": 913135334677111,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.136210+00:00"
-    },
-    {
-      "id": "civitai-143404090",
-      "title": "Civitai prompt 143404090",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "zidiusArt, Create a romantic, oil‑painting style portrait inspired by the works of Richard S. Johnson. girl, cat girl, cat ears, cat tail, short curly hair, brown hair, cream eyes, slight smile, holding tray, cafe apron, puff sleeves, lace cuffs, name tag, coffee stain rings, steam ribbons, menu typography fragments, warm cafe interior, window light, steam glow, anime illustration A caramel-haired cafe catgirl offers a polite tired smile over a tray, cream eyes catching window light. Apron straps and lace cuffs stay practical. Coffee-ring geometry and steam ribbons lift off the tray and fade, leaving her face in a quiet pocket of warm air. \nBalance the composition with a natural flow from the figure to the flowers and architectural details. Use a rich, contrasting palette: deep reds and terracottas against mint greens and dark browns, with warm golden highlights and deep, velvety shadows.\nPrioritize a tactile, painterly quality: visible, impasto brushstrokes in the light areas and flowers, and smoother, glazed layers in the shadows and drapery. The mood should be romantic and contemplative, evoking a fleeting, sunlit moment filled with quiet anticipation. Aim for an 8K resolution, a vertical aspect ratio, and a style that blends realistic detail with emotive, impressionistic brushwork",
+      "prompt": "tudvaseva inputwo stylecorrect anatomy\nsfw only\nhd quality\nabstract shapes\ngrafitti\nscore_9, score_8_up, score_7_up, score_6_up, score_5_up, tudvas, \nwhite background, simple background, multiple portraits in frames, sketch, digital art,\ntudvas,, colorful, , character design, , digital painting, brushstrokes, digital painting, brush texture,, shiny, , sharp shapes,\n6 sketch portraits female\ncolorful, light particles, painting \\(medium\\), dynamic composition, limited palette, ray Tracing,\nmasterpice HD eyes, thick thighs, correct anatomy rating_safe, adult woman\nbackground - like drawn on real sketchbook and edited in drawing problem as digital art - \ninput2, tudvas,, colorful, , character design, , digital painting, brushstrokes, digital painting, brush texture,, shiny, , sharp shapes,\n1) facial mark, long hair, looking at viewer, jewelry, forehead mark, makeup, white background, crescent, earrings, closed mouth, leaf, horn ornament, simple background, necklace, portrait, lipstick, green hair, grey hair, blue eyes, upper body, colored skin,\n2)colorful, character design, digital painting, brushstrokes, digital painting, brush texture, shiny, sharp shapes, freckles, white hair, long bangs, golden eyes, pale skin, green dress, medium shot\n3) ...",
       "quality_score": 9.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404090",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9030d185-35ff-4294-80ea-149ef7e68f1c/original=true/9030d185-35ff-4294-80ea-149ef7e68f1c.jpeg",
+      "source_url": "https://civitai.com/images/143441327",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63e36ddf-a54a-456f-84be-f5d96e489403/original=true/63e36ddf-a54a-456f-84be-f5d96e489403.jpeg",
       "model": null,
       "model_version_ids": [
-        3072332,
-        3116962,
-        3125118,
-        3141844
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 1801401701,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.136453+00:00"
-    },
-    {
-      "id": "civitai-143404060",
-      "title": "Civitai prompt 143404060",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "ta86_inkriot, graphic cel shading, bold black outlines, a highly detailed vertical illustration of a small flying ramen foodboat suspended high between futuristic skyscrapers before dawn, inspired by a lively retro-futuristic sci-fi city, the boat glowing with warm orange and red light against a vast cold blue urban canyon, large Japanese signage on the boat reading \"ラーメン\", a single vendor inside the foodboat, only one character visible in the boat, serving a steaming bowl of ramen to a lone maintenance worker standing on a narrow suspended catwalk nearby, enormous city depth, layered towers, distant traffic lights, mist and neon in the background, emotional contrast between the immense impersonal city and this tiny warm human moment, cinematic atmosphere, poetic solitude, rich reflections, intricate futuristic architecture, strong focal lighting, storytelling composition",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404060",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a21468d-1dcd-41c9-892e-36fb92e52f9e/original=true/3a21468d-1dcd-41c9-892e-36fb92e52f9e.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3072332,
-        3190465
-      ],
-      "width": 1184,
-      "height": 896,
-      "seed": 956721626,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.136938+00:00"
-    },
-    {
-      "id": "civitai-143404012",
-      "title": "Civitai prompt 143404012",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A single, glowing golden ember igniting inside an extremely dark, pitch-black ambient void, intense radiant light, dramatic chiaroscuro, cinematic composition, photorealistic style, macro photograph, floating sparkling light particles, dust motes in light beam, hyper-detailed, sharp focus, octane render style, high resolution",
-      "quality_score": 8.8,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143404012",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97a5c502-edfc-4a76-a918-ac673e142ae5/original=true/97a5c502-edfc-4a76-a918-ac673e142ae5.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2442439
-      ],
-      "width": 1216,
-      "height": 832,
-      "seed": 637072142,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.137120+00:00"
-    },
-    {
-      "id": "civitai-143403903",
-      "title": "Civitai prompt 143403903",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "1girl, vibrant Airbrush painting, elegant Raw digital photo, dark Redshift render, award winning, extreme close-up shot of a Raging Aesthetically Pleasing ([Wolf:Ranch house:2] Playwright:1.3) , the Wolf is wearing an its Obscene robe tailored by Simone Rocha, The robe tailored by Thom Browne is inspired by the Prince of Persia game and Gryffindor, Thoughtful Pose, inside a Dried lake, autumn woods and flower field, Spring, shallow depth of field, Regret, fairy tale, Aestheticism, Nostalgic lighting, Fast Shutter Speed, Hasselblad, F/8, Amaro, MOBA style, (Azure and Crimson:0.7) , award winning, unreal engine, (abstract art designed by Nicolaes Maes:0.8) , (Ghada Amer:0.9)",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143403903",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/850a4236-1f4d-4fa7-8af4-0c1fb1f161a8/original=true/850a4236-1f4d-4fa7-8af4-0c1fb1f161a8.jpeg",
-      "model": "qchanVariations_realistic2",
-      "model_version_ids": [
-        94057,
-        125849,
-        3345489
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 981505705,
-      "negative_prompt": "bad-hands-5, FastNegativeV2",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.137729+00:00"
-    },
-    {
-      "id": "civitai-143403917",
-      "title": "Civitai prompt 143403917",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "1girl, (photography art designed by Nathan Wirth:0.7) and (Hendrick ter Brugghen:1.2) and (Scarlett Hooft Graafland:0.9) and (Hasui Kawase:0.9) , [grand portrait, (Peach theme:0.7) , close up of a Dreamcore [Tropical|Repulsive] Copper and Teal traditional Yuan Dynasty ([jicama|Orion]:1.3) , it is covered in Ice, it is engraved with DayGlo and fluorescent yellow patterns, insane details, inside a 1960'S city street, winter foliage with Poppies, Moon in the night, Sharp and in focus, Simple and clean, Proud, Decora, Sunlight, F/14, Cinestill, cute and charming, Movie concept art, octane engine, ultra high res::16], great, sleek, kawaii",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143403917",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2f2dec8-8bad-4c80-a47b-69802f98a29c/original=true/a2f2dec8-8bad-4c80-a47b-69802f98a29c.jpeg",
-      "model": "qchanVariations_realistic2",
-      "model_version_ids": [
-        94057,
-        125849,
-        3345489
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 981505710,
-      "negative_prompt": "bad-hands-5, FastNegativeV2",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.137860+00:00"
-    },
-    {
-      "id": "civitai-143403959",
-      "title": "Civitai prompt 143403959",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "1girl, [ (magical realism art designed by Alex Colville:0.9) and (Denys Lasdun:1.0) :12], realism art, artistic Chalk painting, behance, Fashion shot of a Glamorous [Visual|Maximalist] Maori ([Horse-drawn carriage:Tidal forces:3]:1.3) , it is with Absurd adornments, it is made from Flower, lava pit and Shrub background, desolate beach with Cherry blossom tree, Foggy conditions, Sharp and in focus, detailed, masterpiece, Grim, Breakcore, electric red lighting, 35mm, CineColor, Bright design, Ribbons, dslr, Best quality",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143403959",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/278e58d6-e714-4261-8f2c-2def49945ca0/original=true/278e58d6-e714-4261-8f2c-2def49945ca0.jpeg",
-      "model": "qchanVariations_realistic2",
-      "model_version_ids": [
-        94057,
-        125849,
-        3345489
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 981505696,
-      "negative_prompt": "bad-hands-5, FastNegativeV2",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.138479+00:00"
-    },
-    {
-      "id": "civitai-143403980",
-      "title": "Civitai prompt 143403980",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, ultra-detailed, realistic Eevee (Pokémon), single character, full body, fluffy brown fur, large pointed ears, dark inner ears, big warm brown eyes, thick cream-colored neck ruff, bushy tail, adorable gentle expression, glossy detailed fur, soft cinematic lighting, clean simple background, sharp focus, no humans, no other Pokémon",
-      "quality_score": 8.8,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/143403980",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81bf632e-55c9-4921-8978-c568f9e008fd/original=true/81bf632e-55c9-4921-8978-c568f9e008fd.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2642671
+        1056053,
+        1678869,
+        2247497,
+        2559323,
+        2862490
       ],
       "width": 832,
       "height": 1216,
-      "seed": 240622037,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor, jpeg artifacts, signature, watermark,white background, artist name, bad anatomy, pink anus,",
+      "seed": 314803922,
+      "negative_prompt": "score_6, score_5, score_4, lowres, bad anatomy, bad hands, text, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, username, artist name, twitter username, logo, sign, extra limbs, bad art, fused hands, bad proportions, deformed, bad hands, broken finger, 3d, extra fingers, distorted hands, compression artifacts, source_anime, deformed body, crossed-eyed, closed eyes\n artist tag, low quality, more than one character\nnsfw, sexy, ugly face,  sitting, 3d, score_5, 3d render, 3d model, blender render, abs, muscles, muscular woman, muscle mommy, source_pony, nsfw, woman, man, girl, boy, human, face deffects, glitches, ugly face\ngrey and durty colors\nshirt dress or skirt\nworst quality, nsfw, mature content, \nlow quality,\nbrown color and hues,\nbad face,\ndeformed face,\ndeformed hands,\nasymmetrical eyes,\ncross-eyed,\nextra eyes,\nextra nose,\nextra mouth,\nmutated face,\ndisfigured,\nbad anatomy,\npoorly drawn face,\nblurry face,\nmissing facial features,\ndistorted features,\njpeg artifacts,\ntext,\nwatermark",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-09-21T09:07:28.138556+00:00"
+      "discovered_at": "2026-09-21T20:00:26.516883+00:00"
+    },
+    {
+      "id": "civitai-143441393",
+      "title": "Civitai prompt 143441393",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "tudvaseva inputwo stylecorrect anatomy\nsfw only\nscore_9, score_8_up, score_7_up, score_6_up, score_5_up, tudvas, \nwhite background, simple background, multiple portraits in frames, sketch, digital art,\ntudvas,, colorful, , character design, , digital painting, brushstrokes, digital painting, brush texture,, shiny, , sharp shapes,\n6 sketch portraits female\ncolorful, light particles, painting \\(medium\\), dynamic composition, limited palette, ray Tracing,\nmasterpice HD eyes, thick thighs, correct anatomy rating_safe, adult woman\nbackground - like drawn on real sketchbook and edited in drawing problem as digital art - \ninput2, tudvas,, colorful, , character design, , digital painting, brushstrokes, digital painting, brush texture,, shiny, , sharp shapes,\n1) facial mark, long hair, looking at viewer, jewelry, forehead mark, makeup, white background, crescent, earrings, closed mouth, leaf, horn ornament, simple background, necklace, portrait, lipstick, green hair, grey hair, blue eyes, upper body, colored skin,\n2)colorful, character design, digital painting, brushstrokes, digital painting, brush texture, shiny, sharp shapes, freckles, white hair, long bangs, golden eyes, pale skin, green dress, medium shot\n3) ...",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143441393",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09fb9f9b-6051-4b9c-afeb-ad93bbd83b66/original=true/09fb9f9b-6051-4b9c-afeb-ad93bbd83b66.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1056053,
+        1678869,
+        2247497,
+        2559323,
+        2862490
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2123799914,
+      "negative_prompt": "score_6, score_5, score_4, lowres, bad anatomy, bad hands, text, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, username, artist name, twitter username, logo, sign, extra limbs, bad art, fused hands, bad proportions, deformed, bad hands, broken finger, 3d, extra fingers, distorted hands, compression artifacts, source_anime, deformed body, crossed-eyed, closed eyes\n artist tag, low quality, more than one character\nnsfw, sexy, ugly face,  sitting, 3d, score_5, 3d render, 3d model, blender render, abs, muscles, muscular woman, muscle mommy, source_pony, nsfw, woman, man, girl, boy, human, face deffects, glitches, ugly face\ngrey and durty colors\nshirt dress or skirt\nworst quality, nsfw, mature content, \nlow quality,\nbrown color and hues,\nbad face,\ndeformed face,\ndeformed hands,\nasymmetrical eyes,\ncross-eyed,\nextra eyes,\nextra nose,\nextra mouth,\nmutated face,\ndisfigured,\nbad anatomy,\npoorly drawn face,\nblurry face,\nmissing facial features,\ndistorted features,\njpeg artifacts,\ntext,\nwatermark",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-21T20:00:26.517070+00:00"
+    },
+    {
+      "id": "civitai-143441419",
+      "title": "Civitai prompt 143441419",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "tudvaseva inputwo stylecorrect anatomy\nsfw only\nscore_9, score_8_up, score_7_up, score_6_up, score_5_up, tudvas, \nwhite background, simple background, multiple portraits in frames, sketch, digital art,\ntudvas,, colorful, , character design, , digital painting, brushstrokes, digital painting, brush texture,, shiny, , sharp shapes,\n6 spetch portraits female\nmasterpice HD eyes, thick thighs, correct anatomy rating_safe, adult woman\n1) facial mark, long hair, looking at viewer, jewelry, forehead mark, makeup, white background, crescent, earrings, closed mouth, leaf, horn ornament, simple background, necklace, portrait, lipstick, green hair, grey hair, blue eyes, upper body, colored skin,\n2)colorful, character design, digital painting, brushstrokes, digital painting, brush texture, shiny, sharp shapes, freckles, white hair, long bangs, golden eyes, pale skin, green dress, medium shot",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143441419",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83c85ba8-2cdc-46ab-a3f9-056e4b2ab774/original=true/83c85ba8-2cdc-46ab-a3f9-056e4b2ab774.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1056053,
+        1678869,
+        2559323,
+        2862490
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2017590922,
+      "negative_prompt": "score_6, score_5, score_4, lowres, bad anatomy, bad hands, text, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, username, artist name, twitter username, logo, sign, extra limbs, bad art, fused hands, bad proportions, deformed, bad hands, broken finger, 3d, extra fingers, distorted hands, compression artifacts, source_anime, deformed body, crossed-eyed, closed eyes\n artist tag, low quality, more than one character\nnsfw, sexy, ugly face,  sitting, 3d, score_5, 3d render, 3d model, blender render, abs, muscles, muscular woman, muscle mommy, source_pony, nsfw, woman, man, girl, boy, human, face deffects, glitches, ugly face\ngrey and durty colors\nshirt dress or skirt\nworst quality, nsfw, mature content, \nlow quality,\nbrown color and hues,\nbad face,\ndeformed face,\ndeformed hands,\nasymmetrical eyes,\ncross-eyed,\nextra eyes,\nextra nose,\nextra mouth,\nmutated face,\ndisfigured,\nbad anatomy,\npoorly drawn face,\nblurry face,\nmissing facial features,\ndistorted features,\njpeg artifacts,\ntext,\nwatermark",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-09-21T20:00:26.517250+00:00"
     }
   ]
 }
