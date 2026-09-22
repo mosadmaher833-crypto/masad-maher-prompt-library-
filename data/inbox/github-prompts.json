@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-21T20:00:24.845512+00:00",
+  "generated_at": "2026-09-22T08:38:50.924927+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1220,15 +1220,83 @@
       "source_url": "https://github.com/djcode0718/UGC-Ad-Studio/blob/main/README.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-ed0035f93e20",
+      "title": "W3.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "| 區塊 | 工程意義 |\n|------|---------|\n| Role | 能力邊界：定義 Agent 的專業領域，防止超出能力範圍的操作 |\n| Goal | 成功標準：明確定義什麼叫「任務完成」，是 Agent 決策的北極星 |\n| Constraints | 安全邊界：定義 Agent 不能做什麼，是系統安全的第一道防線 |\n| Output Format | 可測試規格：定義輸出格式，讓 Eval 能夠自動化驗證 |\n\n### 3.3 Tool Schema 設計原則\n\n> **核心思維**：Tool Schema 是 LLM 的 API 文件。你怎麼寫 API 文件，就怎麼寫 Tool Schema。\n\n| 原則 | 說明 | 範例 |\n|------|------|------|\n| 描述要精確 | 說清楚工具的用途、適用情境、不適用情境 | 適用於X，不適用於Y |\n| 參數要有型別 | 明確指定 type、format、enum | `type: integer` |\n| 加上預設值 | 減少 LLM 需要猜測的地方 | `default: 5` |\n| 加上限制範圍 | 防止越界輸入，保護系統安全 | `minimum: 1, maximum: 100` |\n| 說明何時呼叫 | 幫助 LLM 判斷正確的呼叫時機 | 當使用者問到XX時使用 |\n| 說明回傳格式 | 讓 LLM 知道如何正確解讀回傳值 | 回傳 JSON，包含 results 陣列 |\n\n**範例對比：**",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "ktchuang/TAICA_AIASE2026",
+      "source_url": "https://github.com/ktchuang/TAICA_AIASE2026/blob/7006f53f8986aaa96d7d8a3f7b1700fc6dbf0042/W3.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-97faa6b3fe6f",
+      "title": "API.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "---\n\n## `llm_text_generate(text TEXT, [image1, image2, ...], options TEXT)`\n\n**Returns:** `TEXT`\n\n**Description:**\nGenerates a full-text completion based on input, with optional configuration provided as a comma-separated list of key=value pairs.\n\nWhen a vision model is loaded via `llm_vision_load()`, you can pass one or more images as additional arguments. Images can be file paths (TEXT) or raw image data (BLOB). Supported image formats: JPG, PNG, BMP, GIF.\n\nRequires a text generation context. Contexts from `llm_context_create_textgen()`,\n`llm_context_create_chat()` and a plain `llm_context_create()` are all accepted — they are\nconfigured identically. Calling this against an embedding context fails with\n`SQLITE_MISUSE` rather than returning an empty string, which also covers embedding\n*models*: on a BERT-family model every context is an embedding context, so generation is\nrejected there no matter which constructor was used.\n\n**Examples:**",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "sqliteai/sqlite-ai",
+      "source_url": "https://github.com/sqliteai/sqlite-ai/blob/16f0ca845657e4866e08badbf258f42cac414264/API.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-1469ba6c6aef",
+      "title": "API.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "---\n\n## `llm_chat_respond(text TEXT, [image1, image2, ...])`\n\n**Returns:** `TEXT`\n\n**Description:**\nGenerates a context-aware reply using chat memory, returned as a single, complete response.\nFor a streaming model reply, use the llm_chat virtual table.\n\nWhen a vision model is loaded via `llm_vision_load()`, you can pass one or more images as additional arguments. Images can be file paths (TEXT) or raw image data (BLOB). Supported image formats: JPG, PNG, BMP, GIF.\n\n**Examples:**",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "sqliteai/sqlite-ai",
+      "source_url": "https://github.com/sqliteai/sqlite-ai/blob/16f0ca845657e4866e08badbf258f42cac414264/API.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-a7749a37b885",
+      "title": "API.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "---\n\n### `audio_model_transcribe(input TEXT/BLOB, options TEXT)`\n\n**Returns:** `TEXT`\n\n**Description:**\nTranscribes audio to text using the loaded Whisper model. The input can be either:\n- **TEXT**: A file path to an audio file (WAV, MP3, or FLAC)\n- **BLOB**: Raw audio data (format auto-detected from magic bytes)\n\nAn optional second parameter accepts comma-separated key=value pairs to configure transcription behavior.\n\nSupported audio formats: WAV, MP3, FLAC. Audio is automatically converted to mono 16kHz PCM as required by Whisper.\n\n**Transcription options:**\n\n| Key                | Type     | Default | Meaning                                                    |\n| ------------------ | -------- | ------- | ---------------------------------------------------------- |\n| `language`         | `text`   | `en`    | Language code (e.g., `en`, `it`, `fr`, `de`).              |\n| `translate`        | `1 or 0` | `0`    | Translate to English.                                      |\n| `n_threads`        | `number` | `4`     | Number of threads for decoding.                            |\n| `offset_ms`        | `number` | `0`     | Start transcription at this offset (milliseconds).         |\n| `duration_ms`      | `number` | `0`     | Transcribe only this duration (0 = full audio).            |\n| `no_timestamps`    | `1 or 0` | `0`    | Suppress timestamps in output.                             |\n| `single_segment`   | `1 or 0` | `0`    | Force single segment output.                               |\n| `token_timestamps` | `1 or 0` | `0`    | Enable token-level timestamps.                             |\n| `initial_prompt`   | `text`   |         | Initial prompt to guide the model.                         |\n| `temperature`      | `float`  | `0.0`   | Sampling temperature.                                      |\n| `beam_size`        | `number` | `-1`    | Beam search size (-1 = use default).                       |\n| `audio_ctx`        | `number` | `0`     | Audio context size (0 = use default).                      |\n| `suppress_regex`   | `text`   |         | Regex pattern for suppressing tokens.                      |\n| `max_len`          | `number` | `0`     | Maximum segment length in characters (0 = no limit).       |\n| `print_timestamps` | `1 or 0` | `0`    | Include timestamps in transcribed text.                    |\n\n**Examples:**",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "sqliteai/sqlite-ai",
+      "source_url": "https://github.com/sqliteai/sqlite-ai/blob/16f0ca845657e4866e08badbf258f42cac414264/API.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"prompt template\"",
-    "prompt engineering",
-    "prompt templates"
+    "\"system prompt\"",
+    "AI image prompts",
+    "AI video prompts"
   ],
   "last_sources": []
 }
