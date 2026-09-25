@@ -33231,15 +33231,362 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9a1b4f0-0e71-4cf1-8e26-bf239ce90bf1/original=true/f9a1b4f0-0e71-4cf1-8e26-bf239ce90bf1.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-143203373",
+      "title": "Civitai prompt 143203373",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vast endless field of bright red poppies under a dramatic dark stormy sky, a single shaft of golden sunlight breaking through the clouds and lighting up one patch of flowers in the middle of the field, the rest of the field in cool blue shadow, rolling hills on the horizon with no buildings or trees, wind gently bending the flowers, captured in a photorealistic cinematic wide shot with dramatic contrast lighting, emotional powerful landscape, simple clean horizon.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143203373",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/136371c8-f5ed-4dbb-9262-bd536fe11575/original=true/136371c8-f5ed-4dbb-9262-bd536fe11575.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518509+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "981df1573daece91008805ecb7b8c7a956a77f678bd9063e34d2e5c7ee6d89e8",
+      "prompt_ar": "حقل واسع لا نهاية له من الخشخاش الأحمر الساطع تحت سماء عاصفة داكنة مثيرة، وعمود واحد من ضوء الشمس الذهبي يخترق السحب ويضيء رقعة واحدة من الزهور في منتصف الحقل، وبقية الحقل في ظل أزرق بارد، وتلال متدحرجة في الأفق بدون مباني أو أشجار، والرياح تثني الزهور بلطف، تم التقاطها في لقطة سينمائية واسعة النطاق مع إضاءة متباينة دراماتيكية، ومناظر طبيعية قوية عاطفية، وأفق نظيف وبسيط.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:54Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143203373 architecture ai-image-prompts a vast endless field of bright red poppies under a dramatic dark stormy sky, a single shaft of golden sunlight breaking through the clouds and lighting up one patch of flowers in the middle of the field, the rest of the field in cool blue shadow, rolling hills on the horizon with no buildings or trees, wind gently bending the flowers, captured in a photorealistic cinematic wide shot with dramatic contrast lighting, emotional powerful landscape, simple clean horizon. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143203373",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/136371c8-f5ed-4dbb-9262-bd536fe11575/original=true/136371c8-f5ed-4dbb-9262-bd536fe11575.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143817937",
+      "title": "Civitai prompt 143817937",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "GrimmsPaint, SplashPastoDaal, \n\nRealistic photograph of a young woman with Rope Twist — Long hair styled into a thick two-strand rope twist with smooth controlled texture, wearing Late Night Gamer Outfit — loose charcoal hoodie slipping naturally over fitted black shorts, comfortable socks, sleepy late-night gaming atmosphere., Sitting beside a fireplace on a woven rug with her hands resting behind her. A black and white spotted bunny with bright eyes and white paws curls up against her left hip. Behind her, Bed And Breakfast — cozy upscale bedroom with elegant bedding, soft neutral decor and large windows, gentle diffused window light, morning.\nColors: dark walnut,travertine and calcatta viola marble\nWarm cozy, lovely",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143817937",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55bb9bd7-9ee7-4e92-890b-db7b422d1197/original=true/55bb9bd7-9ee7-4e92-890b-db7b422d1197.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 808,
+      "height": 1216,
+      "seed": 233507673203269,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518558+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9ee2ed7b37ab792301bb62f570fa7f7c72fc647713df938589174df7e7980064",
+      "prompt_ar": "جريمسبينت، سبلاش باستودال، \n\nصورة واقعية لامرأة شابة مع حبل تويست - شعر طويل مصفف على شكل حبل سميك من خصلتين مع ملمس ناعم يمكن التحكم فيه، ترتدي ملابس وقت متأخر من الليل - سترة فضفاضة من الفحم تنزلق بشكل طبيعي فوق شورت أسود مناسب، وجوارب مريحة، وأجواء ألعاب هادئة في وقت متأخر من الليل. تجلس بجانب المدفأة على سجادة منسوجة ويداها تستريحان خلفها. أرنب مرقط بالأبيض والأسود بعيون مشرقة وأقدام بيضاء يتجعد على وركها الأيسر. خلفها، السرير والإفطار - غرفة نوم مريحة راقية مع أسرة أنيقة وديكور محايد ناعم ونوافذ كبيرة وضوء نافذة منتشر لطيف في الصباح.\nالألوان: الجوز الداكن والحجر الجيري ورخام كالكاتا فيولا\nدافئ ومريح، جميل",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:55Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143817937 fashion ai-image-prompts grimmspaint, splashpastodaal, realistic photograph of a young woman with rope twist — long hair styled into a thick two-strand rope twist with smooth controlled texture, wearing late night gamer outfit — loose charcoal hoodie slipping naturally over fitted black shorts, comfortable socks, sleepy late-night gaming atmosphere., sitting beside a fireplace on a woven rug with her hands resting behind her. a black and white spotted bunny with bright eyes and white paws curls up against her left hip. behind her, bed and breakfast — cozy upscale bedroom with elegant bedding, soft neutral decor and large windows, gentle diffused window light, morning. colors: dark walnut,travertine and calcatta viola marble warm cozy, lovely civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143817937",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55bb9bd7-9ee7-4e92-890b-db7b422d1197/original=true/55bb9bd7-9ee7-4e92-890b-db7b422d1197.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143817820",
+      "title": "Civitai prompt 143817820",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A full-length outdoor portrait of a young woman with long, voluminous wavy brown hair featuring bangs framing her face, standing on a wet, muddy path at night. She wears a black faux-leather cropped jacket draped loosely over her shoulders, a white polka-dotted romper with black lace trim at the neckline and a wide black band at the waist, paired with black thigh-high stockings and black ankle boots. Her large silver hoop earrings and a delicate chain necklace are visible against her layered outfit. She is facing the camera with a calm, slightly serious expression, hands relaxed at her sides.\nThe composition is a centered, eye-level full-body shot taken in the evening, with tall apartment buildings in the background, their windows glowing with warm yellow light, interspersed with green trees and parked cars. The ground is damp and brown from the rain, reflecting ambient light with glossy patches. The lighting is flat and slightly harsh, typical of nighttime flash photography, casting subtle shadows on her face and creating a casual, candid snapshot aesthetic. The overall mood is intimate and nocturnal, with a nostalgic, low-resolution digital camera feel.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143817820",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2059d7aa-4bd7-4139-963a-8a5a3dedf8f5/original=true/2059d7aa-4bd7-4139-963a-8a5a3dedf8f5.jpeg",
+      "model": "qwen_image_2.1_int8_convrot",
+      "model_version_ids": [
+        3344958
+      ],
+      "width": 1776,
+      "height": 2352,
+      "seed": 1019020667301036,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518586+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d6a21206e1bfa16e990c735e569ee8cabaa738711771b83e66634a2f1880ae40",
+      "prompt_ar": "صورة كاملة الطول في الهواء الطلق لامرأة شابة ذات شعر بني طويل وكثيف ومموج يتميز بغرة تؤطر وجهها، وتقف على طريق موحل مبلل في الليل. ترتدي سترة قصيرة من الجلد الصناعي الأسود منسدلة بشكل فضفاض على كتفيها، ورومبير أبيض منقّط مع تقليم من الدانتيل الأسود عند خط العنق وشريط أسود عريض عند الخصر، مقترنًا بجوارب سوداء تصل إلى الفخذ وأحذية سوداء حتى الكاحل. تظهر أقراطها الفضية الكبيرة وقلادة السلسلة الرقيقة على ملابسها ذات الطبقات. إنها تواجه الكاميرا بتعبير هادئ وجدي بعض الشيء، ويداها مسترخيتان على جانبيها.\nالتركيبة عبارة عن لقطة مركزية لكامل الجسم على مستوى العين تم التقاطها في المساء، مع مباني سكنية شاهقة في الخلفية، ونوافذها متوهجة بضوء أصفر دافئ، تتخللها أشجار خضراء وسيارات متوقفة. أصبحت الأرض رطبة وبنية اللون بسبب المطر، وتعكس الضوء المحيط ببقع لامعة. الإضاءة مسطحة وقاسية بعض الشيء، وهي نموذجية للتصوير الفوتوغرافي بالفلاش الليلي، وتلقي ظلالًا خفيفة على وجهها وتخلق لقطة جمالية غير رسمية وصريحة. المزاج العام حميمي وليلي، مع شعور بالحنين إلى الكاميرا الرقمية منخفضة الدقة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:54Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143817820 architecture ai-image-prompts a full-length outdoor portrait of a young woman with long, voluminous wavy brown hair featuring bangs framing her face, standing on a wet, muddy path at night. she wears a black faux-leather cropped jacket draped loosely over her shoulders, a white polka-dotted romper with black lace trim at the neckline and a wide black band at the waist, paired with black thigh-high stockings and black ankle boots. her large silver hoop earrings and a delicate chain necklace are visible against her layered outfit. she is facing the camera with a calm, slightly serious expression, hands relaxed at her sides. the composition is a centered, eye-level full-body shot taken in the evening, with tall apartment buildings in the background, their windows glowing with warm yellow light, interspersed with green trees and parked cars. the ground is damp and brown from the rain, reflecting ambient light with glossy patches. the lighting is flat and slightly harsh, typical of nighttime flash photography, casting subtle shadows on her face and creating a casual, candid snapshot aesthetic. the overall mood is intimate and nocturnal, with a nostalgic, low-resolution digital camera feel. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143817820",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2059d7aa-4bd7-4139-963a-8a5a3dedf8f5/original=true/2059d7aa-4bd7-4139-963a-8a5a3dedf8f5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143818042",
+      "title": "Civitai prompt 143818042",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Create a warm vintage aesthetic collage featuring six Polaroid-style photographs hanging on rustic jute ropes with wooden clothespins against a textured beige wall. with a korean young woman with short purple hair with bangs. Match the six different expressions and poses from the woman exactly—laughing, looking upward thoughtfully, playful wink, confident front portrait, joyful hands raised celebration, and elegant over-the-shoulder glance. Give her a different outfit in every frame with stylish casual and chic clothing in neutral earth tones. Use soft golden-hour lighting, subtle window shadows, warm sepia color grading, shallow depth of field, realistic skin texture, cinematic portrait photography, premium fashion editorial look, high detail, ultra-realistic, nostalgic mood, clean composition, 8K.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143818042",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ed49c61-89df-4812-9fe0-d1bfff61aa39/original=true/8ed49c61-89df-4812-9fe0-d1bfff61aa39.jpeg",
+      "model": "QWEN_21\\redqw21UNLOCKEDREDGPTK2tAE_redqw21UNLOCKEDV1T2I_bf16",
+      "model_version_ids": [],
+      "width": 1280,
+      "height": 1920,
+      "seed": 593103825222985,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518612+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2d2d785582e240d21abd325d81239ec27d28944f1ab0ba85833b355c2b4aa6b4",
+      "prompt_ar": "قم بإنشاء مجموعة جمالية دافئة عتيقة تضم ست صور فوتوغرافية على طراز بولارويد معلقة على حبال من الجوت الريفي مع مشابك غسيل خشبية على جدار بيج مزخرف. مع شابة كورية ذات شعر أرجواني قصير مع غرة. قم بمطابقة التعبيرات والأوضاع الستة المختلفة للمرأة تمامًا - الضحك، والنظر إلى الأعلى بشكل مدروس، والغمز المرح، والصورة الأمامية الواثقة، والأيدي المبهجة المرفوعة احتفالًا، والنظرة الأنيقة من فوق الكتف. امنحها ملابس مختلفة في كل إطار مع ملابس أنيقة وغير رسمية بألوان ترابية محايدة. استخدم إضاءة الساعة الذهبية الناعمة، وظلال النوافذ الدقيقة، وتدرج الألوان البني الداكن الدافئ، وعمق المجال الضحل، وملمس الجلد الواقعي، والتصوير الفوتوغرافي السينمائي للصور، والمظهر التحريري للأزياء المتميزة، والتفاصيل العالية، والواقعية للغاية، والمزاج الحنين، والتكوين النظيف، 8K.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143818042 fashion ai-image-prompts create a warm vintage aesthetic collage featuring six polaroid-style photographs hanging on rustic jute ropes with wooden clothespins against a textured beige wall. with a korean young woman with short purple hair with bangs. match the six different expressions and poses from the woman exactly—laughing, looking upward thoughtfully, playful wink, confident front portrait, joyful hands raised celebration, and elegant over-the-shoulder glance. give her a different outfit in every frame with stylish casual and chic clothing in neutral earth tones. use soft golden-hour lighting, subtle window shadows, warm sepia color grading, shallow depth of field, realistic skin texture, cinematic portrait photography, premium fashion editorial look, high detail, ultra-realistic, nostalgic mood, clean composition, 8k. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143818042",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ed49c61-89df-4812-9fe0-d1bfff61aa39/original=true/8ed49c61-89df-4812-9fe0-d1bfff61aa39.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143817780",
+      "title": "Civitai prompt 143817780",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "This is a photograph of a black and red futuristic car named Quadra from cyberpunk 2077, taken from a low-angle, close-up perspective. The car is positioned slightly to the right, with its front left tire in the foreground. The Quadra features a sleek, aerodynamic design with a prominent hood, black horizontal stripes, and red accents. The front grille is black with the Quadra logo in white letters \"Quadra\". The car's headlights are not visible, but the lower part of the front bumper is illuminated by sunlight, creating a bright reflection on the tire. The tire is a white, multi-spoke alloy wheel with visible tire markings. The background is blurred, showcasing an urban setting with green and brown buildings, and some industrial elements like pipes and metal structures. The sunlight casts a warm, golden glow, highlighting the car's glossy, reflective surface. The texture of the ground is gravelly, adding a rough contrast to the car's smooth, polished exterior. The overall composition emphasizes the car's aggressive and powerful aesthetic, with the sunlight enhancing the dramatic shadows and highlights.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143817780",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7162e20d-5892-4ea5-bd05-21be749dffa2/original=true/7162e20d-5892-4ea5-bd05-21be749dffa2.jpeg",
+      "model_version_ids": [
+        3072329
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 0,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518635+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7079ed0a047e615b068828874bc4ef951aae24012fe431cfbfd059c645534c7d",
+      "prompt_ar": "هذه صورة لسيارة مستقبلية باللونين الأسود والأحمر تدعى Quadra من لعبة Cyberpunk 2077، مأخوذة من منظور قريب ومنخفض الزاوية. تم وضع السيارة قليلاً إلى اليمين، مع إطارها الأمامي الأيسر في المقدمة. تتميز كوادرا بتصميم أنيق وديناميكي هوائي مع غطاء محرك بارز وخطوط أفقية سوداء ولمسات حمراء. الشبكة الأمامية باللون الأسود مع شعار كوادرا بأحرف بيضاء \"Quadra\". المصابيح الأمامية للسيارة غير مرئية، ولكن الجزء السفلي من المصد الأمامي مضاء بأشعة الشمس، مما يخلق انعكاسًا ساطعًا على الإطار. الإطار عبارة عن عجلة معدنية بيضاء متعددة الأضلاع مع علامات إطار مرئية. الخلفية غير واضحة، وتعرض بيئة حضرية بها مباني خضراء وبنية، وبعض العناصر الصناعية مثل الأنابيب والهياكل المعدنية. يلقي ضوء الشمس وهجًا ذهبيًا دافئًا، مما يسلط الضوء على سطح السيارة اللامع والعاكس. ملمس الأرض حصوي، مما يضيف تباينًا قاسيًا إلى المظهر الخارجي المصقول الناعم للسيارة. ويؤكد التركيب العام على جمالية السيارة العدوانية والقوية، حيث يعزز ضوء الشمس الظلال والإضاءة الدرامية.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:54Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143817780 architecture ai-image-prompts this is a photograph of a black and red futuristic car named quadra from cyberpunk 2077, taken from a low-angle, close-up perspective. the car is positioned slightly to the right, with its front left tire in the foreground. the quadra features a sleek, aerodynamic design with a prominent hood, black horizontal stripes, and red accents. the front grille is black with the quadra logo in white letters \"quadra\". the car's headlights are not visible, but the lower part of the front bumper is illuminated by sunlight, creating a bright reflection on the tire. the tire is a white, multi-spoke alloy wheel with visible tire markings. the background is blurred, showcasing an urban setting with green and brown buildings, and some industrial elements like pipes and metal structures. the sunlight casts a warm, golden glow, highlighting the car's glossy, reflective surface. the texture of the ground is gravelly, adding a rough contrast to the car's smooth, polished exterior. the overall composition emphasizes the car's aggressive and powerful aesthetic, with the sunlight enhancing the dramatic shadows and highlights. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143817780",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7162e20d-5892-4ea5-bd05-21be749dffa2/original=true/7162e20d-5892-4ea5-bd05-21be749dffa2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143817784",
+      "title": "Civitai prompt 143817784",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "This is a front photograph of a futuristic car named Quadra from cyberpunk 2077r, specifically a Quaider with a distinctive, aerodynamic design. The car is viewed from the front, showcasing its sleek, angular lines and prominent features. The hood is adorned with two rectangular, blue-tinted air vents positioned in the center, flanked by golden, horizontal stripes on either side. The Quaider's logo is visible on the lower left side of the hood, and the car has a bold, black, horizontal grille at the front. The car's headlights are partially visible at the top corners of the hood. \nInside the car, two individuals are seated in the front, with their heads and upper torsos visible through the windshield. Both individuals are wearing orange, possibly racing, helmets. The background reveals a concrete, outdoor racing or testing environment, with a yellow and red striped curb on the right side and a gray, textured surface. The overall image has a slightly warm, nostalgic, and realistic color palette, emphasizing the car's classic, early 1980s racing aesthetic. The photograph captures the car's powerful, sporty, and historical essence, highlighting its unique design and the racing atmosphere.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143817784",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d761832-b90f-431f-bf25-a26aa4bd0bc0/original=true/5d761832-b90f-431f-bf25-a26aa4bd0bc0.jpeg",
+      "model_version_ids": [
+        3072329
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518658+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "687429988e7b7d118d3ae6b548ff09612181181e3ab57d18ccaac8028a998b3f",
+      "prompt_ar": "هذه صورة أمامية لسيارة مستقبلية اسمها Quadra من لعبة Cyberpunk 2077r وبالتحديد سيارة Quaider ذات التصميم الديناميكي الهوائي المميز. يتم النظر إلى السيارة من الأمام، حيث تظهر خطوطها الأنيقة والزاوية وميزاتها البارزة. تم تزيين غطاء المحرك بفتحتين تهوية مستطيلتين باللون الأزرق موضوعتين في المنتصف، ومحاطتين بخطوط أفقية ذهبية على كلا الجانبين. يظهر شعار Quaider على الجانب الأيسر السفلي من غطاء المحرك، وتتمتع السيارة بشبكة أفقية سوداء جريئة في المقدمة. تظهر المصابيح الأمامية للسيارة جزئيًا في الزوايا العلوية لغطاء المحرك. \nداخل السيارة، يجلس شخصان في المقدمة، ويمكن رؤية رأسيهما وجذعهما العلوي من خلال الزجاج الأمامي. كلا الشخصين يرتديان خوذات برتقالية، ربما للسباق. تكشف الخلفية عن بيئة خرسانية للسباق أو الاختبار في الهواء الطلق، مع حافة مخططة باللونين الأصفر والأحمر على الجانب الأيمن وسطح رمادي مزخرف. تتميز الصورة العامة بلوحة ألوان دافئة وحنين وواقعية قليلاً، مما يؤكد على جمالية السباق الكلاسيكية للسيارة في أوائل الثمانينيات. وتلتقط الصورة جوهر السيارة القوي والرياضي والتاريخي، وتسلط الضوء على تصميمها الفريد وأجواء السباق.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:55Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 143817784 image ai-image-prompts this is a front photograph of a futuristic car named quadra from cyberpunk 2077r, specifically a quaider with a distinctive, aerodynamic design. the car is viewed from the front, showcasing its sleek, angular lines and prominent features. the hood is adorned with two rectangular, blue-tinted air vents positioned in the center, flanked by golden, horizontal stripes on either side. the quaider's logo is visible on the lower left side of the hood, and the car has a bold, black, horizontal grille at the front. the car's headlights are partially visible at the top corners of the hood. inside the car, two individuals are seated in the front, with their heads and upper torsos visible through the windshield. both individuals are wearing orange, possibly racing, helmets. the background reveals a concrete, outdoor racing or testing environment, with a yellow and red striped curb on the right side and a gray, textured surface. the overall image has a slightly warm, nostalgic, and realistic color palette, emphasizing the car's classic, early 1980s racing aesthetic. the photograph captures the car's powerful, sporty, and historical essence, highlighting its unique design and the racing atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143817784",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d761832-b90f-431f-bf25-a26aa4bd0bc0/original=true/5d761832-b90f-431f-bf25-a26aa4bd0bc0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142642579",
+      "title": "Civitai prompt 142642579",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, RL-Executive Command, NSFW, 18+) a cinematic wide-angle capture of a sophisticated, sultry female executive who radiates magnetic dominance. She is wearing a precisely tailored, skin-tight deep burgundy power suit with the blazer draped over her shoulders, paired with perfectly fitted tapered trousers and sky-high pointed pumps. She is leaning back in a massive mahogany executive chair with a smoldering, knowing gaze, she is adjusting a gold wristwatch. The setting is a dark, moody wood-paneled boardroom in New York City, featuring a dramatic sunset glow that highlights the sheen of the fabric. The shot is captured with a shallow depth of field, creating a creamy bokeh background, featuring a sharp, crisp professional architectural photograph.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142642579",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ecc2dc1-436d-4950-b426-38a7e5fdff14/original=true/3ecc2dc1-436d-4950-b426-38a7e5fdff14.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 3072,
+      "seed": 503168653,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518674+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "91d2827958aaa7e3306ca35ad6c898eef65e948313f56c1da7bef56ea74898db",
+      "prompt_ar": "(Masters Media، RL-Executive Command، NSFW، 18+) لقطة سينمائية واسعة الزاوية لمديرة تنفيذية متطورة ومثيرة تشع بهيمنة مغناطيسية. إنها ترتدي بدلة قوية مصممة بدقة وضيقة باللون العنابي العميق مع السترة المسدلة على كتفيها، مقترنة بسراويل مدببة ملائمة تمامًا ومضخات مدببة عالية الارتفاع. إنها تتكئ إلى الخلف على كرسي تنفيذي ضخم من خشب الماهوغوني بنظرة مشتعلة وعارفة، وهي تضبط ساعة يد ذهبية. المكان عبارة عن غرفة اجتماعات داكنة ومزاجية ومكسوة بألواح خشبية في مدينة نيويورك، وتتميز بتوهج غروب الشمس المثير الذي يسلط الضوء على لمعان القماش. يتم التقاط اللقطة بعمق مجال ضحل، مما يؤدي إلى إنشاء خلفية بوكيه كريمية، تتميز بصورة معمارية احترافية حادة وواضحة.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:55Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142642579 image ai-image-prompts (masters media, rl-executive command, nsfw, 18+) a cinematic wide-angle capture of a sophisticated, sultry female executive who radiates magnetic dominance. she is wearing a precisely tailored, skin-tight deep burgundy power suit with the blazer draped over her shoulders, paired with perfectly fitted tapered trousers and sky-high pointed pumps. she is leaning back in a massive mahogany executive chair with a smoldering, knowing gaze, she is adjusting a gold wristwatch. the setting is a dark, moody wood-paneled boardroom in new york city, featuring a dramatic sunset glow that highlights the sheen of the fabric. the shot is captured with a shallow depth of field, creating a creamy bokeh background, featuring a sharp, crisp professional architectural photograph. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142642579",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ecc2dc1-436d-4950-b426-38a7e5fdff14/original=true/3ecc2dc1-436d-4950-b426-38a7e5fdff14.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-142642590",
+      "title": "Civitai prompt 142642590",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, RL-Executive Command, NSFW, 18+) a provocative, candid office shot of a fierce, alluring female executive who radiates unapologetic confidence. She is wearing a dangerously sleek midnight black power suit with the blazer open to reveal a daringly low-cut silk camisole, paired with perfectly fitted tapered trousers and sky-high pointed pumps. She is standing authoritatively by a floor-to-ceiling window with a playful yet commanding expression, her perfectly manicured hands adjusting a gold wristwatch. The setting is a dark, moody wood-paneled boardroom in London, featuring warm, golden hour light that highlights the glistening gold jewelry. The shot is captured with a shallow depth of field, creating a creamy bokeh background, featuring a cinematic grain, vogue-style color grading.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/142642590",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/773cf97b-522a-4aa0-a0d8-6db35964f26e/original=true/773cf97b-522a-4aa0-a0d8-6db35964f26e.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 3072,
+      "seed": 630530474,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-09-25T19:15:53.518690+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "77b49216791f77deb0056a9ca041bfc0f0a93617397386f0e32dcaf99de49235",
+      "prompt_ar": "(Masters Media، RL-Executive Command، NSFW، 18+) لقطة مكتبية استفزازية وصريحة لمديرة تنفيذية شرسة وجذابة تشع بثقة غير اعتذارية. إنها ترتدي بدلة سوداء أنيقة بشكل خطير في منتصف الليل مع السترة المفتوحة لتكشف عن قميص قصير حريري جريء، مقترنًا بسراويل مدببة مناسبة تمامًا ومضخات مدببة عالية الارتفاع. إنها تقف بسلطان بجوار نافذة ممتدة من الأرض حتى السقف بتعبير مرح ومهيمن، ويداها المشذبتان بشكل مثالي تضبطان ساعة يد ذهبية. المكان عبارة عن قاعة اجتماعات مظلمة ومزاجية ومكسوة بألواح خشبية في لندن، تتميز بإضاءة ساعة ذهبية دافئة تسلط الضوء على المجوهرات الذهبية المتلألئة. يتم التقاط اللقطة بعمق مجال سطحي، مما يؤدي إلى إنشاء خلفية بوكيه كريمية، تتميز بحبيبات سينمائية، وتدرج ألوان على طراز رائج.",
+      "translation_status": "translated",
+      "translated_at": "2026-09-25T19:15:55Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 142642590 image ai-image-prompts (masters media, rl-executive command, nsfw, 18+) a provocative, candid office shot of a fierce, alluring female executive who radiates unapologetic confidence. she is wearing a dangerously sleek midnight black power suit with the blazer open to reveal a daringly low-cut silk camisole, paired with perfectly fitted tapered trousers and sky-high pointed pumps. she is standing authoritatively by a floor-to-ceiling window with a playful yet commanding expression, her perfectly manicured hands adjusting a gold wristwatch. the setting is a dark, moody wood-paneled boardroom in london, featuring warm, golden hour light that highlights the glistening gold jewelry. the shot is captured with a shallow depth of field, creating a creamy bokeh background, featuring a cinematic grain, vogue-style color grading. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/142642590",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/773cf97b-522a-4aa0-a0d8-6db35964f26e/original=true/773cf97b-522a-4aa0-a0d8-6db35964f26e.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-25T08:56:15.985718+00:00",
-  "prompt_count": 756,
+  "generated_at": "2026-09-25T19:15:55.655347+00:00",
+  "prompt_count": 764,
   "translation": {
     "language": "ar",
-    "translated_count": 22,
-    "skipped_count": 731,
+    "translated_count": 8,
+    "skipped_count": 753,
     "failed_count": 3,
-    "updated_at": "2026-09-25T08:56:15Z"
+    "updated_at": "2026-09-25T19:15:55Z"
   }
 }
