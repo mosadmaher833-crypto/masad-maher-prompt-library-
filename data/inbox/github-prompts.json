@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-25T19:15:37.557033+00:00",
+  "generated_at": "2026-09-26T08:41:48.571412+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1288,15 +1288,66 @@
       "source_url": "https://github.com/sqliteai/sqlite-ai/blob/16f0ca845657e4866e08badbf258f42cac414264/API.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-f151db01c27a",
+      "title": "README.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "This script first uses the T2V model to generate the first shot as the initial memory. It then uses our M2V model to generate the remaining shots shot by shot, automatically extracting keyframes and updating the memory after each shot.\r\n\r\n**Key arguments**:\r\n- `story_script_path`: Path to the story script JSON file.\r\n- `output_dir`: Directory to save the generated videos. Default is `./results`.\r\n- `t2v_model_path`: Path to the T2V model. Default is `./models/Wan2.2-T2V-A14B`.\r\n- `i2v_model_path`: Path to the I2V model. Default is `./models/Wan2.2-I2V-A14B`.\r\n- `lora_weight_path`: Path to the M2V LoRA weights. Default is `./models/StoryMem`.\r\n- `seed`: Random seed. Default is `0`.\r\n- `size`: Output video resolution. Default is `832*480`.\r\n- `max_memory_size`: Maximum number of shots to keep in memory. Default is `10`.\r\n- `t2v_first_shot`: Use T2V to generate the first shot as the initial memory.\r\n- `m2v_first_shot`: Use M2V to generate the first shot (for the MR2V setting, where reference images are provided as initial memory). Reference images should be placed in `output_dir` as `00_00_keyframe0.jpg`, ..., `00_00_keyframeN.jpg`.\r\n- `mi2v`: Enable MI2V (memory + first-frame image conditioning) to connect adjacent shots when `scene_cut` is `False`.\r\n- `mm2v`: Enable MM2V (memory + first 5 motion frames conditioning) to connect adjacent shots when `scene_cut` is `False`.\r\n\r\n### ST-Bench\r\nTo support evaluating multi-shot long video storytelling, we establish and release *ST-Bench*, which can be found in the subfloder `./story`.\r\nWe prompt GPT-5 to create 30 long story scripts spanning diverse styles, each containing a story overview, 8–12 shot-level text prompts, and scene-cut indicators.\r\nIn total, *ST-Bench* provides 300 detailed video prompts describing characters, scenes, dynamic events, shot types, and possibly camera movements.\r\n\r\nTo create your own story script, you can follow the system prompt below, which we use to generate structured, shot-level story scripts:\r\n\r\n<details>\r\n<summary><b>System prompt for story script (click to expand)</b></summary>\r\n\r\n\r\n> You are an expert director of story videos. Your task is to design a story script about [..., e.g. a funny man].\r\n> \r\n> Each prompt corresponds to a five-second video clip, so avoid overly complex text rendering, extreme motions, or audio-dependent effects. The overall story should remain simple, clear, and easy to follow.\r\n>\r\n> Your output must follow the JSON format shown in the example:\r\n> \r\n> [ ... an example json story script here, e.g. `./story/black.json` ... ]\r\n> \r\n> **Field Instructions**:\r\n> \r\n> - **story_overview**: A concise summary of the whole story.\r\n> - **scene_num**: Sequential index of the scene.\r\n> - **cut**: Whether this prompt starts with a scene cut:\r\n>   - `\"True\"`: a new cut.\r\n>   - `\"False\"`: continue smoothly from the last frame of the previous prompt. Must ensure the two adjacent prompts can be naturally concatenated into a smooth continuous clip.\r\n>   - The first prompt in the story must always have `\"True\"`.\r\n> - **video_prompts**: A list of text-to-video prompts forming the story beats within the scene. Prompts should reflect natural, smooth, and logical story progression.\r\n> \r\n> **What Each Video Prompt Should Describe (if relevant)**  \r\n> \r\n> - **Characters**: appearance, attire, age, style.\r\n> - **Actions & interactions**: motion, gestures, expressions, eye contact, simple physical actions.\r\n> - **Scene & background**: indoor/outdoor location, props, layout, lighting, environment details.\r\n> - **Atmosphere & mood**: emotional tone, colors, aesthetic feeling.\r\n> - **Camera & editing**: shot type (e.g., close-up / medium / wide), simple camera movement, transitions.\r\n>\r\n> The prompts should be concise but sufficiently detailed (1–4 sentences).\r\n>\r\n> Return only a valid JSON story script.\r\n\r\n</details>\r\n\r\nTo improve consistency, it would be better to provide\r\nmore explicit character descriptions in each shot prompt, helping the model match the intended memory.\r\n\r\n## ❤️ Ackowledgement\r\nOur implementation is based on [Wan2.2](https://github.com/Wan-Video/Wan2.2/tree/main). Thanks for the great open-source work!\r\n\r\n## 📌 Citation\r\nIf any part of our paper or code is helpful to your research, please consider citing our work 📝 and give us a star ⭐. Thanks for your support!",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "Kevin-thu/StoryMem",
+      "source_url": "https://github.com/Kevin-thu/StoryMem/blob/052c68d2627a22a95f79dbb4d3376cc30c96f1a3/README.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-9c1cba8b8653",
+      "title": "README.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "---\n\n### Print from USB\n\nLists all `.mp4` files found on the inserted USB drive. Selecting a file:\n\n1. If the filename encodes an RPM (e.g. `part_9rpm.mp4`), the motor speed is pre-set automatically.\n2. A **RPM adjustment screen** appears — rotate to change, click to confirm and start the print.\n3. The projector displays a black image while in this menu — this is intentional to avoid accidentally curing resin while browsing.\n4. A **Print Status screen** shows while the print is running. Click to stop.\n5. If **USB video prompt** is enabled (see Settings), you will be asked whether to save the camera recording to USB after stopping.\n\n> **Note:** Files with \"recording\" in the filename are hidden from this list (they are camera output files). Avoid using \"recording\" in your print filenames.\n\n> **Recording format:** The camera saves recordings as `.h264` (raw H.264 bitstream), not `.mp4`. To convert for playback on a computer:\n>",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "computed-axial-lithography/OpenCAL-Firmware",
+      "source_url": "https://github.com/computed-axial-lithography/OpenCAL-Firmware/blob/47e964e1249496ddd734906c633898e3eb5e7928/README.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-58779f08956d",
+      "title": "README.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Write a video prompt with exactly [NUMBER] segments describing [YOUR SUBJECT/SCENARIO].\n\nRules:\n1. Begin each segment with a header on its own line. Format: one word, a space, a number, a colon. Example: Scene 1:\n2. Write the segment text on the line after the header.\n3. Segment 1 describes only the static visible state of the provided input. No motion. No action. Nothing not present in the input.\n4. Each segment after segment 1 describes only what is changing or moving during that period. Do not repeat anything from segment 1.\n5. Output only the formatted segments. Nothing else.",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "kijai/ComfyUI-PromptRelay",
+      "source_url": "https://github.com/kijai/ComfyUI-PromptRelay/blob/ca5d4e3edb6abd9c2a4c68a3a6798eec1980f450/README.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"image prompt\"",
-    "Gemini prompts",
-    "ChatGPT prompts"
+    "\"video prompt\"",
+    "Claude prompts",
+    "AI advertising prompts"
   ],
   "last_sources": []
 }
