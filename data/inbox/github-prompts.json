@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-09T10:42:26.563075+00:00",
+  "generated_at": "2026-10-09T20:07:01.938945+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1555,14 +1555,12 @@
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
-  "added_this_run": 3,
+  "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
     "\"advertising prompt\"",
     "prompt engineering",
     "prompt templates"
   ],
-  "last_sources": [
-    "prompts-chat"
-  ]
+  "last_sources": []
 }

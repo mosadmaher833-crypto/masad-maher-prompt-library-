@@ -1,12 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-10-09T10:42:27.709312+00:00",
+  "generated_at": "2026-10-09T20:07:04.611404+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-145137654",
-      "title": "Civitai prompt 145137654",
+      "id": "civitai-145173014",
+      "title": "Civitai prompt 145173014",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -15,270 +15,60 @@
         "imported",
         "api"
       ],
-      "prompt": "high-tech aesthetics.\n\nA cinematic wide shot framing two diminutive figures seated at an ancient stone chessboard in deep shadow along a weathered quayside: a striking cybernetically-enhanced mercenary woman, her athletic form clad in tight tactical gear of dark matte polymer and brushed steel plating that catches subtle glints from above, one arm replaced by a sleek chrome prosthetic joint with visible hydraulic cabling and glowing amber accents. Her gaze is fixed intently on the board as she leans forward to move a piece, long hair falling across her shoulders in waves of deep burgundy against pale skin. Across from her sits a grizzled goblin elder, hunched over his own set of weathered wooden pieces with sharp yellow eyes and wrinkled greenish-brown leather-like skin. Between them rests an ornate chessboard carved from dark wood with ivory pieces showing subtle wear at the corners where fingers have played thousands of moves. Behind this intimate scene stretches a vast sprawling cyberpunk cityscape that dominates two-thirds of the frame — towering skyscrapers draped in cascading neon signage of electric blues, hot pinks and warm ambers create an almost overwhelming visual rhythm against the cool dark sky above. The mercenary and goblin are rendered small against the immensity before them like figures on a chessboard within another board, emphasizing quiet solitude amidst urban frenzy. Dramatic chiaroscuro lighting from below illuminates their faces while casting deep shadows across their forms as if they exist in a private pocket of time separated from the pulsing energy behind them. Soft focus and painterly brushstroke textures overlay the neon cityscape creating an impressionistic depth that contrasts with sharper definition on skin, fabric weave patterns, and metallic surfaces. Rich warm color palette balancing cool shadow tones against vibrant electric highlights achieves an evocative moody atmosphere blending digital precision with traditional oil painting warmth — thick impasto-like texture in background layers suggesting movement through layered translucent washes while foreground figures show cleaner brushwork defining muscle tension, material reflections and individual strands of hair.",
+      "prompt": "malfoid, female genderbend, cute adult anime girl, short fluffy platinum blonde bob with side-swept bangs, huge bright grey eyes, playful wink, puffed cheeks, cheeky confident smile, green necktie, tiny yellow gold earrings, green Slytherin uniform, soft oversized grey sweater, black pleated skirt, black pantyhose, black robe fluttering behind her, energetic midair dash toward the camera, one hand reaching forward, the other gripping a magic wand, knees tucked dynamically, extreme foreshortening, sparkling emerald magical trail, silver stars bursting behind her, little magical serpents made of glowing green light, hair bouncing with motion, Hogwarts corridor rushing past in the background, tilted camera angle, speed lines, vibrant anime action composition, adorable facial expression, bright glossy eyes, clean expressive outlines, soft blush, rich cel shading, playful fantasy atmosphere, high-quality Japanese anime illustration",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145173014",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd019024-cba2-4fc9-804e-fe81ccbcb936/original=true/cd019024-cba2-4fc9-804e-fe81ccbcb936.jpeg",
+      "model": "uwazumimixAnima_V40.safetensors",
+      "model_version_ids": [
+        2979642,
+        3385953,
+        3393885
+      ],
+      "width": 1568,
+      "height": 672,
+      "seed": 904724808318123,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, sepia",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.607413+00:00"
+    },
+    {
+      "id": "civitai-145172994",
+      "title": "Civitai prompt 145172994",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:refusal_reduction_v2_full_rank:1>, <lora:training_12100319-20261009050858838-2dd2:1>. An close-up portrait illustration of the bodhisattva of compassion, Avalokiteshvara. She is sitting with one knee up while reclining on it and with her head slightly tilted as she gazes at the viewer. She has a slender nose and small lips, gently curved into a serene smile. Her eyes are large, elongated, and almond-shaped, conveying a compassionate look. Her finely drawn, slightly elongated ears feature elegant lobes that descend along the jawline, adorned with delicately crafted gold earrings. Her abundant dark hair is styled in an elaborate updo, crowned by a delicately wrought gold diadem featuring five points—each set with gems in rich red, blue, and green hues—and secured by a filigree band studded with tiny pearls. She is dressed in light silks and airy scarves. She holds a lotus flower near her face with her fingertips. The composition follows the golden ratio, and the image evokes an atmosphere of candor and intimacy. OCCULTINK. high contrast, heavy ink texture, sharp edges",
       "quality_score": 8.9,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145137654",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ed8fc06-5348-4259-9715-9e257f425414/original=true/1ed8fc06-5348-4259-9715-9e257f425414.jpeg",
-      "model": "krea2Turbo_v10_2951489",
-      "model_version_ids": [],
-      "width": 1248,
-      "height": 1872,
-      "seed": 72,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.702853+00:00"
-    },
-    {
-      "id": "civitai-145137651",
-      "title": "Civitai prompt 145137651",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "painterly 16-bit pixel art illustration, fine small pixel clusters, detailed pixel art aesthetic, rich color dithering with hue-shifted shadows, soft atmospheric lighting, atmospheric depth, extremely wide cinematic establishing shot,\na vast ruined frozen cathedral seen from far back, towering broken stone pillars rising out of frame on both sides forming a frame around the scene, a huge shattered stained glass window glowing gold and amber at the top of a grand ice-covered staircase, drifting snow, icicles and frost clinging to the masonry, thin cold mist hanging in the air,\na single knight seen from behind and slightly to the side, standing upright and tall near the foot of the stairs, small in the frame, about one third of the image height, looking up toward the window, shoulders back, one gauntleted hand resting on the hilt of a long greatsword planted point-down in the step,\nhe wears weathered deep sapphire blue plate armour, desaturated cold blue steel with indigo shadows and pale cyan highlights, aged gold filigree catching warm light, a great helm with a narrow eye slit and a tall plume, a long dark blue cape dusted with snow and frost, snowflakes settled on his shoulders, a thin warm gold rim light along the edges of his armour and cape facing the window, the side away from the light in cold blue shadow,\na long shaft of golden light from the window cutting through the falling snow and the mist, deep indigo and teal shadows, pale blue highlights, warm gold light as the only warm accent, solemn and majestic, extremely detailed stonework, fully rendered environment,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145137651",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc/original=true/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/145172994",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e520382-0f1e-400f-8a33-89284461f1e0/original=true/0e520382-0f1e-400f-8a33-89284461f1e0.jpeg",
+      "model": "DasiwaKrea2TurboRaw_darkdesireV3TurboUC_fp8Mixed",
       "model_version_ids": [
-        2635223,
-        2649446,
-        2814411
-      ],
-      "width": 768,
-      "height": 1344,
-      "seed": 1468438427,
-      "negative_prompt": "shiny plastic, glossy, smooth surfaces, anime, cartoon, vector art, cel shading, flat colors, blurry, bokeh, depth of field, out of focus, motion blur, vignette, oversaturated, neon colors, bad anatomy, deformed, distorted, extra fingers, watermark, text, signature, 3D render, digital plastic look, bird head, beak, round eye, hunched, slouching, bowed head, front-facing portrait, close-up",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.703122+00:00"
-    },
-    {
-      "id": "civitai-145137470",
-      "title": "Civitai prompt 145137470",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Bradhamel art style.\ntext\nbearded male musician performing live on stage, seated acoustic guitar performance, playing a honey-colored wooden acoustic guitar, wearing a colorful tropical short-sleeve button-up shirt with purple blue yellow and white patterns, dark hair slicked back, thick dark beard and mustache, eyes gently closed, expressive relaxed facial expression, head tilted slightly to the side, fingers strumming guitar strings, other hand positioned on the guitar fretboard, black microphone on stand in front of him, guitar pickup and sound hole details, deep royal blue stage backdrop, tiny glowing star-like stage lights, soft theatrical spotlight, vintage live television concert footage, intimate musical performance, mid-shot composition, musician positioned slightly left of center, guitar filling the lower half of the frame, subtle analog video grain, slightly soft focus, nostalgic 1990s concert aesthetic, natural stage lighting, candid performance moment, realistic proportions, authentic live music atmosphere, warm wood tones contrasting with cool blue background, 4:3 aspect ratio",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145137470",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91461940-796b-42bd-ae72-93d193d94f32/original=true/91461940-796b-42bd-ae72-93d193d94f32.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3377061,
-        3382274
-      ],
-      "width": 832,
-      "height": 1248,
-      "seed": 1697571068,
-      "negative_prompt": "unknown",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.704065+00:00"
-    },
-    {
-      "id": "civitai-145119715",
-      "title": "Civitai prompt 145119715",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Top Gun\": a confident 30-year-old man with aviator sunglasses pushed up on his forehead, wearing a green flight suit fully zipped with long sleeves, stands beside a sleek fighter jet holding a pilot helmet, a pair of dog tags resting on the aircraft wing as the witness, blazing golden hour sunlight with deep metallic shadows, suit-green-and-sky-blue grade, quiet heroic ambition mood, elegant typography in uppercase only centered at the bottom reading 'TOP GUN' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119715",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39104c10-f1db-473b-bcec-e30b79c5afb0/original=true/39104c10-f1db-473b-bcec-e30b79c5afb0.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 3748034888,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.704542+00:00"
-    },
-    {
-      "id": "civitai-145119712",
-      "title": "Civitai prompt 145119712",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Jaws\": a rugged 40-year-old man with sun-weathered skin and stubble, wearing a faded navy work shirt buttoned to the collar and a captain's cap, grips the wheel of a battered fishing boat while staring in horror at the dark water, where a massive grey dorsal fin slices toward the boat, a crushed yellow oil barrel floating in the wake as the witness, harsh midday ocean sunlight with deep water shadows, shirt-navy-and-fin-grey grade, quiet primal dread mood, elegant typography in uppercase only centered at the bottom reading 'JAWS' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119712",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2822ed20-a1ed-41f2-bd0f-abb9a39813f7/original=true/2822ed20-a1ed-41f2-bd0f-abb9a39813f7.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 161120378,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.704807+00:00"
-    },
-    {
-      "id": "civitai-145119710",
-      "title": "Civitai prompt 145119710",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Titanic\": a 25-year-old woman with fiery red hair pinned up loosely, wearing a flowing white evening gown with a high lace neckline and long sleeves, the gown fully covering her shoulders and chest, stands at the very bow of a massive ocean liner with arms spread wide, while a 25-year-old man in a worn brown jacket buttoned over a shirt and a flat cap stands behind her steadying her waist, a single golden hairpin slipping from her hair as the witness, cold Atlantic twilight with warm golden hour glow on skin, gown-white-and-sea-navy grade, quiet transcendent freedom mood, elegant typography in uppercase only centered at the bottom reading 'TITANIC' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119710",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157/original=true/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1467611066,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.705079+00:00"
-    },
-    {
-      "id": "civitai-145119717",
-      "title": "Civitai prompt 145119717",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Raiders of the Lost Ark\": a rugged 35-year-old man with a three-day stubble and a battered brown fedora, wearing a worn leather jacket zipped over a khaki long-sleeve shirt and a coiled bullwhip at his hip, snatches a golden idol from a stone pedestal inside a torch-lit temple, while a massive rolling boulder looms in the background, a single grain of sand trickling off the pedestal as the witness, flickering torch-orange with deep stone shadows, jacket-brown-and-idol-gold grade, quiet desperate adventure mood, elegant typography in uppercase only centered at the bottom reading 'RAIDERS OF THE LOST ARK' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119717",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c308b31d-0eed-47e8-a5a7-2fce0d33c48e/original=true/c308b31d-0eed-47e8-a5a7-2fce0d33c48e.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 354812623,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.705528+00:00"
-    },
-    {
-      "id": "civitai-145119724",
-      "title": "Civitai prompt 145119724",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"The Thing\": a rugged 40-year-old man with a thick beard and intense eyes, wearing a heavy green parka fully zipped with a fur-lined hood and long sleeves, holds a flamethrower in a freezing Antarctic outpost, a single drop of frozen blood on the snow as the witness, cold blue arctic light with warm orange flame glow, parka-green-and-ice-white grade, quiet paranoid isolation mood, elegant typography in uppercase only centered at the bottom reading 'THE THING' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119724",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbe69b30-8a28-4494-a5dd-46bb26edbfa0/original=true/fbe69b30-8a28-4494-a5dd-46bb26edbfa0.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1366344787,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.705773+00:00"
-    },
-    {
-      "id": "civitai-145137355",
-      "title": "Civitai prompt 145137355",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Enchanting nocturnal fantasy landscape of a hidden forest valley surrounding a calm winding lake. Dense towering trees rise along both sides, their slender trunks disappearing into deep teal and indigo shadows. The foreground and riverbanks overflow with thousands of luminous wildflowers in vivid scarlet, coral, orange, magenta, violet, lavender, cobalt blue and tiny touches of white. Bright flowers emerge dramatically from the dark vegetation like scattered jewels. Moss covered rocks and hanging plants frame the water. In the distance, steep misty mountains form a narrow valley with a delicate waterfall descending through blue haze. An enormous pale golden full moon rises directly behind the mountains, partially obscured by the peaks and mist. Its warm reflection creates a subtle shimmering path across the dark blue green water. A tiny warmly illuminated wooden cottage rests beside the lake in the middle distance, almost hidden among the trees. Refined fantasy oil painting, highly detailed fine brushwork, delicate botanical rendering, subtle visible pigment texture, layered translucent color, soft atmospheric blending, rich jewel tones against deep shadow, luminous flowers, painterly reflections, romantic naturalism, magical realism, cinematic depth, mysterious, lush, serene, award winning, a breathtaking masterpiece,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145137355",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60d73552-196a-442b-9517-9aba86921825/original=true/60d73552-196a-442b-9517-9aba86921825.jpeg",
-      "model": null,
-      "model_version_ids": [
-        1966530
+        3359022,
+        3362930,
+        3393779
       ],
       "width": 832,
       "height": 1216,
-      "seed": 1104978640,
+      "seed": 2327498865,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.706081+00:00"
+      "discovered_at": "2026-10-09T20:07:04.607948+00:00"
     },
     {
-      "id": "civitai-145119783",
-      "title": "Civitai prompt 145119783",
+      "id": "civitai-145172988",
+      "title": "Civitai prompt 145172988",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -287,152 +77,154 @@
         "imported",
         "api"
       ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Singin' in the Rain\": a lanky 30-year-old man with a boyish grin and a rolled-up umbrella, wearing a tan trench coat buttoned with long sleeves and a fedora, dances joyfully around a lamppost in a flooded city street, splashing water with each step, while a stern policeman in a buttoned uniform watches from a doorway with arms crossed, a single lost shoe floating in a puddle as the witness, warm golden lamplight against cool blue rain, coat-tan-and-rain-silver grade, quiet pure cinematic joy mood, elegant typography in uppercase only centered at the bottom reading 'SINGIN IN THE RAIN' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "prompt": "((realistic, photorealistic, realistic shading)), (masterpiece, best quality, amazing quality), very aesthetic, ultra detailed, highly detailed, intricate details, absurdres, (volumetric lighting, HDR) 1girl, solo, &ndr01d18, blonde hair, short hair, blue eyes, large forehead, breathing, intense gaze, closed mouth, tired, miserable expression, big breast, police uniform, indoors, leaning against wall, apartment, apartment doorway, side view, night time, blush, darkness, night, illuminated, depth of field, eye level, rustic atmosphere, detailed texture, artistic composition, godrays, dramatic light, volumetric lighting, dappled light, light particles, dramatic shadows, cinematic lighting, clean background,, Ani2rel",
       "quality_score": 10.0,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119783",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d0081d5-977d-4358-81e0-bc9ffe5e5b55/original=true/4d0081d5-977d-4358-81e0-bc9ffe5e5b55.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 449332294,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.706370+00:00"
-    },
-    {
-      "id": "civitai-145119789",
-      "title": "Civitai prompt 145119789",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"2001: A Space Odyssey\": a lone astronaut in a bulky white spacesuit fully sealed floats silently through a vast, rotating space station corridor, reaching toward a glowing red circular eye of a computer panel, while a black monolith reflects starlight in the distance beyond the window, a single floating pen drifting weightlessly as the witness, cold sterile white with deep space black and red computer glow, suit-white-and-space-black grade, quiet cosmic isolation mood, elegant typography in uppercase only centered at the bottom reading '2001 A SPACE ODYSSEY' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119789",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05ac9c2a-f846-40ec-8ee9-184e0471245f/original=true/05ac9c2a-f846-40ec-8ee9-184e0471245f.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 3644083866,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.707105+00:00"
-    },
-    {
-      "id": "civitai-145119791",
-      "title": "Civitai prompt 145119791",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Taxi Driver\": a gaunt 30-year-old man with a wild mohawk and haunted eyes, wearing a faded army field jacket zipped over a plaid long-sleeve shirt, stares at his own reflection in a dirty bathroom mirror pointing his finger like a gun, while steam rises around him and a revolver lies on the sink, a single crumpled taxi fare receipt on the tile floor as the witness, sickly yellow fluorescent with deep green shadows, jacket-olive-and-mirror-silver grade, quiet urban isolation mood, elegant typography in uppercase only centered at the bottom reading 'TAXI DRIVER' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119791",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f77ec5b-162e-4c38-b9cf-321ad01f46f2/original=true/6f77ec5b-162e-4c38-b9cf-321ad01f46f2.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 3776789600,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.707422+00:00"
-    },
-    {
-      "id": "civitai-145119809",
-      "title": "Civitai prompt 145119809",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Interstellar\": a rugged 40-year-old man in a bulky orange spacesuit fully sealed stands on the surface of a desolate water-covered planet, staring up at a massive black hole warping the sky above, while a colossal tidal wave rises silently on the horizon behind him, a single grain of corn from Earth tucked in his suit pocket as the witness, cold deep-space black with warm orange suit glow, suit-orange-and-void-black grade, quiet cosmic desperation mood, elegant typography in uppercase only centered at the bottom reading 'INTERSTELLAR' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119809",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7386d372-6392-4087-87e8-c74fc70f3a02/original=true/7386d372-6392-4087-87e8-c74fc70f3a02.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
-      "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
-      ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 2173076884,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.707673+00:00"
-    },
-    {
-      "id": "civitai-145100350",
-      "title": "Civitai prompt 145100350",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Graphic novel illustration. Delicate and fine ink lines. Precise line work. Vivid colors. High contrast. Deep shadows. Dramatic cinematic shot composition. Anamorphic lens effect.\nCore Subject: A close-up portrait of a woman bathed in intense crimson light with wet strands of hair across her face.\nFraming & Camera Angle: Tight front-facing portrait, cropped from the chin to the top of the head. The camera is at eye level looking straight forward with no tilt. Extremely shallow depth of field, with sharp focus on her eyes and lips while the surrounding background falls into complete darkness.\nComposition & Layout:\nThe face fills almost the entire frame.\nEyes are positioned in the upper half, looking directly into the camera lens with a sultrily heavy-lidded gaze.\nFull, glossy lips centered in the lower-middle third, slightly parted.\nDark, damp strands of hair fall diagonally across the forehead, nose, and cheeks, cutting through the red illumination.\nBackground is completely dark, smooth, and featureless.\nCharacter & Appearance Details:\nFace & Skin: Smooth facial features completely saturated in rich red light.\nEyes & Brows: Dark, almond-shaped eyes with long dark lashes; thick, sharply defined dark eyebrows arched slightly.\nLips & Mouth: Plump, full lips with clear high-shine gloss catching strong highlights on the lower lip.\nHair: Wet, stringy black hair falling in loose, thin strands over the face and draping past the shoulders.\nClothing & Accessories: No visible clothing or jewelry within the tight crop.\nLighting & Atmosphere: Single intense red light source casting strong monochrome red illumination over the entire face. Soft, deep shadows contour the cheekbones, jawline, and nose, creating high-contrast mood lighting.\nColor Palette: Monochromatic red tint mixed with deep shadow blacks, featuring bright crimson highlights on the forehead, cheekbones, nose bridge, and lip gloss.",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145100350",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ce3bb9c-d068-41b0-b1e4-0182e717d594/original=true/5ce3bb9c-d068-41b0-b1e4-0182e717d594.jpeg",
+      "source_url": "https://civitai.com/images/145172988",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/297df32c-abf6-467a-8e14-453398ffb3b1/original=true/297df32c-abf6-467a-8e14-453398ffb3b1.jpeg",
       "model": null,
       "model_version_ids": [
-        3072332,
-        3192665
+        2240633,
+        2414241,
+        2538958
       ],
-      "width": 768,
-      "height": 1376,
-      "seed": 1339869400,
+      "width": 832,
+      "height": 1216,
+      "seed": 513002224,
+      "negative_prompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor, (pregnant), chibi, loli, simple background, child, double",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.608011+00:00"
+    },
+    {
+      "id": "civitai-145172970",
+      "title": "Civitai prompt 145172970",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "((realistic, photorealistic, realistic shading)), (masterpiece, best quality, amazing quality), very aesthetic, ultra detailed, highly detailed, intricate details, absurdres, (volumetric lighting, HDR) 1girl, solo, &ndr01d18, blonde hair, short hair, blue eyes, large forehead, breathing, intense gaze, closed mouth, devastated, hopeless expression, big breast, police uniform, outdoors, curled up, on the ground, city ruins, ruined city, night time, blush, darkness, night, illuminated, depth of field, eye level, rustic atmosphere, detailed texture, artistic composition, godrays, dramatic light, volumetric lighting, dappled light, light particles, dramatic shadows, cinematic lighting, clean background, Ani2rel",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172970",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efb5ad12-71c8-49a6-9159-9db4f69a3e3d/original=true/efb5ad12-71c8-49a6-9159-9db4f69a3e3d.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2240633,
+        2414241,
+        2538958
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2013585623,
+      "negative_prompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor, (pregnant), chibi, loli, simple background, child, double",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.608067+00:00"
+    },
+    {
+      "id": "civitai-145049348",
+      "title": "Civitai prompt 145049348",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, detailed digital painting, fantasy illustration style, painterly brushstrokes, stylized art, cowboy shot, from head to hips, upper body portrait, 1girl, solo, 25 year old adult woman, mature elegant beauty, sly mischievous attractive feminine face, pale skin with soft blush on cheeks, bright cyan-blue eyes without glow, soft natural medium-thickness light brown eyebrows matching honey-blonde hair color, clearly visible below bangs, not black, small neat refined delicate nose, small black star tattoo on left cheek under eye, extra full plump glossy pouty lips with deep defined cupid's bow, slightly parted lips showing hint of upper teeth, sensual pout, painted with glossy bordeaux wine-red lipstick, small neat mouth, calm thoughtful neutral expression, warm honey-blonde hair in shoulder-length bob with straight blunt bangs ending just above eyebrows, dark blonde with golden honey tone, neon pink streak on left side of bangs, electric blue streak in middle of bangs, acid green streak on right side of bangs, oversized faded olive-green chunky knit sweater like Sergei Bodrov sweater from Brat movie, thick ribbed knit texture, wide neckline pulled down asymmetrically revealing one bare shoulder and collarbone, plain simple sweater with no hood no drawstrings no cords no zipper no buttons, black fingerless leather gloves on both hands, dark navy blue shiny leggings with three parallel white vertical stripes running down outer side of each leg, classic 1990s CIS adidas tracksuit style three stripes, simple parallel side stripes like track pants, perfect hands, anatomically correct hands, five fingers on each hand, sitting on windowsill of old soviet wooden window with two opening sashes, side view full profile facing window, legs hanging down beside windowsill, holding compact futuristic submachine gun in lap with both hands, weapon based on HK MP7 submachine gun design: compact rectangular neon pink receiver with black accents and circuit pattern engravings, vertical magazine fully inserted inside pistol grip so no magazine sticks out below receiver, short angular barrel with black muzzle, smooth handguard with no vertical foregrip and no grip under barrel, top rail with integrated red dot holographic sight, foldable wire stock collapsed at rear, properly proportioned gun, looking out through window at rainy night city, neon signs mounted on facade outside: pink neon cyrillic sign reading \"Хлеб +18\" and cyan neon english sign reading \"Open 24/7\", rain drops on window glass, wet reflections, neon glow lighting her profile, faded yellow floral wallpaper at edge, dim warm lamp light mixed with neon glow, moody atmospheric lighting",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145049348",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4d74d3f-2c9c-4c21-90f9-79573c5063ff/original=true/b4d74d3f-2c9c-4c21-90f9-79573c5063ff.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3068874,
+        3071726,
+        3154408,
+        3273026,
+        3304095,
+        3317278
+      ],
+      "width": 1024,
+      "height": 1504,
+      "seed": 1003227840908857,
+      "negative_prompt": "ugly, deformed, bad anatomy, bad hands, malformed hands, mutated hands, extra fingers, six fingers, 6 fingers, too many fingers, missing fingers, fewer fingers, fused fingers, joined fingers, broken fingers, extra limbs, extra arms, extra hands, duplicate hands, poorly drawn hands, wrong number of fingers, finger deformities, long fingers, clawed hands, blurry hands, disfigured hands, deformed gun, bent gun, warped gun, melted gun, twisted gun, broken gun, wrong gun shape, unrealistic gun, badly drawn gun, gun deformity, crooked gun, misshapen gun, vertical foregrip, foregrip, forward grip, extra grip under barrel, grip sticking through hand, grip through fingers, curved magazine, magazine sticking out below receiver, magazine in wrong place, misplaced magazine, double magazine, drum magazine, magazine hanging from center of gun, rifle, long gun, assault rifle, sniper rifle, pistol, revolver, child, young girl, teenager, baby face, childish face, masculine, male, photorealistic, photograph, 3d render, realism, ultra realistic, black hair, light blonde hair, platinum hair, brown hair, dark brown hair, chestnut hair, red hair, white hair, grey hair, plain honey-blonde hair without streaks, black eyebrows, dark eyebrows, pencil thin eyebrows, overplucked eyebrows, thread thin eyebrows, heavy brow ridge, unibrow, hidden eyebrows, no eyebrows, brow covered by bangs, low forehead, amber eyes, yellow eyes, brown eyes, purple eyes, glowing eyes, big nose, wide nose, crooked nose, hooked nose, long nose, thin lips, pale lips, unpainted lips, matte dry lips, pink lipstick, bright red lipstick, nude lips, deformed lips, extra lips, asymmetrical lips, crooked mouth, twisted mouth, closed tight lips, smile, smiling, grin, smirk, teeth showing in smile, multiple posters, many posters on wall, extra posters, poster collage, smiling pepe, happy pepe, human face on poster, man on poster, person on poster, realistic human on poster, photorealistic face on poster, human man in suit on poster, non-frog face on poster, cables on ceiling, wires on ceiling, hanging cables, tangled wires on ceiling, single pane window, frameless window, solid glass wall, window without sashes, one piece glass, window without frame bars, floating neon signs, signs floating in air, neon signs in sky, detached signs, japanese text, kanji, chinese characters, gibberish text, wrong text, misspelled text, blurry text, black leggings, single stripe on leggings, two stripes on leggings, four stripes on leggings, five stripes on leggings, wrong number of stripes, neon stripes on leggings, geometric pattern on leggings, diagonal stripes on leggings, zigzag pattern, chevron pattern, broken pattern on clothes, asymmetrical pattern on leggings, modern western clothing, jeans, cargo pants, skirt, dress, clean sweater, new clothes, spotless outfit, both shoulders covered, symmetrical neckline, long fingered gloves, full gloves with fingers, armor, plate armor, cloak, cape, magic, glowing magic effects, fire, sparks, embers, lanterns, candles, medieval, fantasy setting, clean modern apartment, luxury apartment, minimalist interior, bright daylight, sunny day, full body, full length, legs visible, feet visible, lower body, tiny face, small face, blurry face, unfocused face, poorly drawn face, bad face, cleavage, deep cleavage, underboob, sideboob, exposed bra, lingerie, bikini, naked, nude, nsfw, see-through clothing, transparent fabric",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.608343+00:00"
+    },
+    {
+      "id": "civitai-145172935",
+      "title": "Civitai prompt 145172935",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "((realistic, photorealistic, realistic shading)), (masterpiece, best quality, amazing quality), very aesthetic, ultra detailed, highly detailed, intricate details, absurdres, (volumetric lighting, HDR) 1girl, solo, &ndr01d18, blonde hair, short hair, blue eyes, large forehead, breathing, intense gaze, closed mouth, tired, miserable expression, big breast, police uniform, indoors, leaning against wall, apartment, apartment doorway, side view, night time, blush, darkness, night, illuminated, depth of field, eye level, rustic atmosphere, detailed texture, artistic composition, godrays, dramatic light, volumetric lighting, dappled light, light particles, dramatic shadows, cinematic lighting, clean background, Ani2rel",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172935",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/764dd197-7ad7-4cac-ab22-9aee24c1ae0e/original=true/764dd197-7ad7-4cac-ab22-9aee24c1ae0e.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2240633,
+        2538958,
+        3113078
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 253941238,
+      "negative_prompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor, (pregnant), chibi, loli, simple background, child, double",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.608398+00:00"
+    },
+    {
+      "id": "civitai-145172716",
+      "title": "Civitai prompt 145172716",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Photorealistic full-body fashion photograph of a handsome adult Italian man in his early 30s sitting casually on a wooden seaside bench, looking out towards the open sea. \nHe has thick, wavy dark brown hair, beard and white  sunglasses with blue lens. \nHe wears a linen open-collar  shirt with, tucked into high-waisted pastel blue pleated trousers with a brown leather belt. \nBrown leather loafers, a gold wristwatch and a thin gold chain complete the outfit. His shirt is slightly open at the collar, revealing thick chest hair. He sits in a relaxed pose, legs comfortably crossed at the ankles, one hand resting on the bench and the other resting casually on his thigh. \nA beautiful Mediterranean coastline stretches out behind him, with deep blue seawater sparkling in the sunlight, a clear pale blue sky and a distant coastal horizon. \nWarm late-afternoon sunlight, gentle sea breeze, understated Italian summer elegance, peaceful holiday atmosphere. \nVertical full-body composition, natural eye-level camera angle, realistic anatomy and body proportions, authentic skin texture, tailored trousers, natural shadows, subtle film grain, professional full-frame camera, 35mm lens, photorealistic luxury lifestyle editorial photography, true-to-life colours. No illustration, no CGI, no artificial skin smoothing.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172716",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6668f242-017b-4a5d-ac11-f18a2332efd1/original=true/6668f242-017b-4a5d-ac11-f18a2332efd1.jpeg",
+      "model": "finepornV5INT8FP8_v5FP8",
+      "model_version_ids": [
+        3361846
+      ],
+      "width": 1080,
+      "height": 1920,
+      "seed": 3215499064,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708074+00:00"
+      "discovered_at": "2026-10-09T20:07:04.608560+00:00"
     },
     {
-      "id": "civitai-145066518",
-      "title": "Civitai prompt 145066518",
+      "id": "civitai-145172703",
+      "title": "Civitai prompt 145172703",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -441,120 +233,27 @@
         "imported",
         "api"
       ],
-      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality, BSSINCASE, long hair, looking at viewer, smile, open mouth, blue eyes, simple background, multiple girls, 2girls, bare shoulders, blue hair, upper body, pink hair, parted lips, teeth, sleeveless, tongue, blunt bangs, tongue out, pink eyes, grin, blue background, pink background, tank top, bright pupils, white pupils, two-tone background, blue theme, limited palette, halftone, pink theme, heads together, flat color, cheek-to-cheek, symmetry, blending, blue camisole, contrast\n(volumetric light, masterpiece, shiny skin, bokeh,  cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145066518",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06e794ef-60f0-4003-b035-9180b84b63ba/original=true/06e794ef-60f0-4003-b035-9180b84b63ba.jpeg",
-      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
-      "model_version_ids": [
-        1714002,
-        1843558
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 620763449,
-      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708204+00:00"
-    },
-    {
-      "id": "civitai-145066514",
-      "title": "Civitai prompt 145066514",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality, BSSINCASE,  1girl, solo, looking at viewer, short hair, simple background, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, own hands together, black background, black nails, ear piercing, body writing,\n(volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145066514",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b65817-b444-4c69-9535-224362e1d9a2/original=true/27b65817-b444-4c69-9535-224362e1d9a2.jpeg",
-      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
-      "model_version_ids": [
-        1714002,
-        1843558
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 4224658493,
-      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708312+00:00"
-    },
-    {
-      "id": "civitai-145066511",
-      "title": "Civitai prompt 145066511",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality,  1girl, solo, looking at viewer, short hair, cathedral background,, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, beckoning, inviting, , black background, black nails, ear piercing, body writing, smirk, crazy eyes,, altar, cathedral, demon horns, demon wings, reaching, foreshortening, candles, stained glass, wide shot, \n(volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>  <lora:Runic_Backlit_Illu_Edition:1> rbl-illu, magic circle, glowing",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145066511",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c7219ae-1019-4bde-a347-f9d70bdc37f8/original=true/7c7219ae-1019-4bde-a347-f9d70bdc37f8.jpeg",
-      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
-      "model_version_ids": [
-        1335966,
-        1714002,
-        1843558
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1751280196,
-      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708439+00:00"
-    },
-    {
-      "id": "civitai-145119808",
-      "title": "Civitai prompt 145119808",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Gladiator\": a broad-shouldered 35-year-old man with a scarred face and short cropped hair, wearing battered leather armor over a long-sleeve linen tunic and a dented helmet held under his arm, stands alone in the center of a vast sand-covered arena, pointing a gladius toward the emperor's balcony, while thousands of tiny figures cheer in the colosseum tiers above, a single broken chariot wheel half-buried in the sand as the witness, harsh Roman noon sun with deep arena shadows, armor-brown-and-sand-gold grade, quiet defiant honor mood, elegant typography in uppercase only centered at the bottom reading 'GLADIATOR' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "prompt": "Top quality anime aesthetic portrait, masterpiece, best quality, highly detailed, sharp focus, high resolution, absurdres, highres, 8k, 1girl, medium symmetrical shot, 2d illustration, elegant woman, sharp red double breasted coat with high side slits, black lace thigh band, wide brim hat shading eyes, red lips, leaning against dark car trunk, modest neckline, stud earrings, pure black negative space, curling smoke, glowing red taillights, lens flares, strong side lighting, deep noir shadows, heavy film grain, cold 1930s night atmosphere, elegant and dangerous",
       "quality_score": 10.0,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119808",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/393aadce-ec9e-4fe3-bd1a-339baf654832/original=true/393aadce-ec9e-4fe3-bd1a-339baf654832.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
+      "source_url": "https://civitai.com/images/145172703",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71b616e0-1aea-4597-8c98-c94a974163f1/original=true/71b616e0-1aea-4597-8c98-c94a974163f1.jpeg",
+      "model": null,
       "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
+        2883731
       ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1169831805,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "width": 1216,
+      "height": 832,
+      "seed": 1428097839,
+      "negative_prompt": "earrings, NSFW, human ears, animal ears, ears, extra fingers, extra arms, bad quality, worst quality, censor, watermark, signature, patreon logo,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708700+00:00"
+      "discovered_at": "2026-10-09T20:07:04.608610+00:00"
     },
     {
-      "id": "civitai-145119804",
-      "title": "Civitai prompt 145119804",
+      "id": "civitai-145172681",
+      "title": "Civitai prompt 145172681",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -563,29 +262,27 @@
         "imported",
         "api"
       ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"The Green Mile\": a colossal gentle man with a shaved head and deep sad eyes, wearing a plain white prison jumpsuit buttoned to the neck with long sleeves, sits on a narrow cot in a stone cell, tiny glowing golden sparks floating from his enormous cupped palms, while a thin elderly guard in a khaki uniform buttoned watches from the bars in stunned silence, a single mouse peeking from under the cot as the witness, cold stone gray with warm supernatural gold glow, jumpsuit-white-and-cell-stone grade, quiet miraculous sorrow mood, elegant typography in uppercase only centered at the bottom reading 'THE GREEN MILE' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "prompt": "Top quality anime aesthetic portrait, masterpiece, best quality, highly detailed, sharp focus, 1girl, medium symmetrical shot, 2d illustration, elegant woman, sharp red double breasted coat with high side slits, black lace thigh band above knee, elegant hat with wide curved brim covering upper half of face, revealing lower half of face, thin precisely painted red lips, leaning back against rear of dark car, lower back and hips pressed against trunk, legs slightly crossed, modest neckline, simple small stud earrings, composition dominated by pure black negative space framing red coat, thin trail of smoke curling upward, red taillights of car glowing behind her, clear lens flares, soft optical blooms, sharp light reflections, strong side lighting, deep noir shadows, subtle light blooms, heavy film grain, pronounced chromatic aberration, atmosphere of cold 1930s night, elegant and slightly dangerous, masterpiece, best quality, highly detailed, sharp focus, high resolution, absurdres, highres, 8k",
       "quality_score": 10.0,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119804",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00b32322-ee5a-4b84-a374-085735d9be9a/original=true/00b32322-ee5a-4b84-a374-085735d9be9a.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
+      "source_url": "https://civitai.com/images/145172681",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba847df4-ba87-4e02-af15-fb2952c931a3/original=true/ba847df4-ba87-4e02-af15-fb2952c931a3.jpeg",
+      "model": null,
       "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
+        2883731
       ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 434931403,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "width": 1216,
+      "height": 832,
+      "seed": 1428097839,
+      "negative_prompt": "earrings, NSFW, human ears, animal ears, ears, extra fingers, extra arms, bad quality, worst quality, censor, watermark, signature, patreon logo,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.708988+00:00"
+      "discovered_at": "2026-10-09T20:07:04.608779+00:00"
     },
     {
-      "id": "civitai-145119797",
-      "title": "Civitai prompt 145119797",
+      "id": "civitai-145172629",
+      "title": "Civitai prompt 145172629",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -594,25 +291,232 @@
         "imported",
         "api"
       ],
-      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Lawrence of Arabia\": a striking 30-year-old man with piercing blue eyes, wearing a flowing white Bedouin robe fully covering his body and a golden headscarf, stands atop a desert dune, a single brass compass resting on the sand as the witness, blazing African sunrise with deep amber shadows, robe-white-and-sand-gold grade, quiet epic destiny mood, elegant typography in uppercase only centered at the bottom reading 'LAWRENCE OF ARABIA' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
-      "quality_score": 10.0,
+      "prompt": "Masterpiece anime coloring, source anime, anime screencap, best quality, amazing quality, highly detailed, sharp focus, very aesthetic, high resolution, absurdres, highres, newest, rating safe, female, solo, mature female, 1girl, one girl, sakura tree, petals falling, Rem, blue hair, hair decoration, short hair, medium breasts, blue eyes, dancing, happy expression, kimono, pull down, looking up, sharp contrast, studio lighting, soft shadows, retro style, elegant composition, depth of field, window",
+      "quality_score": 9.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145119797",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a/original=true/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a.jpeg",
-      "model": "FKR2MP0610-int8_convrot",
+      "source_url": "https://civitai.com/images/145172629",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aef91caf-1f82-46a8-824f-0dc75cef626d/original=true/aef91caf-1f82-46a8-824f-0dc75cef626d.jpeg",
+      "model": null,
       "model_version_ids": [
-        3240968,
-        3387367,
-        3391425
+        2851583
       ],
-      "width": 1024,
-      "height": 1536,
-      "seed": 2944510699,
-      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "width": 1216,
+      "height": 832,
+      "seed": 318952546,
+      "negative_prompt": "nsfw, worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra limbs, watermark, text, deformed hands, human ears, monochrome, loli, man, blur, naked, porn, sex, penis, full body standing",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-09T10:42:27.709227+00:00"
+      "discovered_at": "2026-10-09T20:07:04.609057+00:00"
+    },
+    {
+      "id": "civitai-145172588",
+      "title": "Civitai prompt 145172588",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, absurdres, highres, 1girl, solo, official style, official art, orange hair, long hair, blue eyes, red shirt, sleeveless, skirt, belt, looking at viewer, from front, hand on own hip, half closed eyes, evil smile, closed mouth, dynamic pose, detailed face, detailed eyes, detailed lips, detailed fabric, detailed skin, soft lighting, cinematic lighting, depth of field, bokeh, sharp focus, 8k, ultra detailed",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172588",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65270267-7720-45c9-bd92-69f70c490d7a/original=true/65270267-7720-45c9-bd92-69f70c490d7a.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2851583
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1045106399,
+      "negative_prompt": "nsfw, worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra limbs, watermark, text, deformed hands, human ears, monochrome, loli, man, blur, naked, porn, sex, penis, full body standing",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.609515+00:00"
+    },
+    {
+      "id": "civitai-145172287",
+      "title": "Civitai prompt 145172287",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece anime coloring, source anime, anime screencap, best quality, amazing quality, highly detailed, sharp focus, very aesthetic, high resolution, absurdres, highres, newest, rating safe, 1girl, female, solo, mature female, pekomama, mature female, rabbit ears, yellow eyes with thick lashes, light smile, blush, flush, closed mouth, breast, hair carrot, red tassels earrings, teal circlet, nose, center parted, view from frontal focusing on upper body, formal black gown featuring a draped cowl neck, teal accent jewelry, athletic definition, opera gloves, illuminated city skyline at night, luxury automobile in a snowy background, sharp contrast, studio lighting, soft shadows, retro style, elegant composition, depth of field, window",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172287",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfccc796-870d-45c4-b295-8a55c548c184/original=true/cfccc796-870d-45c4-b295-8a55c548c184.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1726883,
+        2702856
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1829822443,
+      "negative_prompt": "nsfw, worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra limbs, watermark, text, deformed hands, human ears, monochrome, loli, man, blur, naked, porn, sex, penis, full body standing",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.610220+00:00"
+    },
+    {
+      "id": "civitai-145172433",
+      "title": "Civitai prompt 145172433",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A beautiful East-asian female social media influencer, tall and feminine figure, captured mid-stream on a live webcam.\nSeductive pose and expression, confident gaze, elegant posture.\nMedium close-up shot, camera angle slightly low to enhance commanding presence.\nSoftly lit with warm ambient lighting, highlighting smooth skin and flowing hair.\nMinimalist studio background with subtle bokeh effects, drawing focus to the subject.\nWearing modern, form-fitting satin attire that accentuates silhouette without revealing intimate details.\nPolished, professional demeanor suitable for streaming content, radiating allure.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172433",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1b4619a-e90e-4099-b19e-ca80c828b2cc/original=true/a1b4619a-e90e-4099-b19e-ca80c828b2cc.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3387411
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1524455985,
+      "negative_prompt": "blurry, low resolution, distorted proportions, extra limbs, bad anatomy, explicit nudity, overly bright, harsh shadows, cluttered background, text, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.610333+00:00"
+    },
+    {
+      "id": "civitai-124926296",
+      "title": "Civitai prompt 124926296",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "amazing quality, absurdres, newest, perfect quality,(Masterpiece)1.2, (Detailed)1.5, extreme detailed, bara, furry grandpa strongman, 1boy, 70 years old, manly, heavy chin, male focus\n5 fingers,mane, majestic mane, tall and big lion, hairy body, scars, orange skin, huge muscular lion, orange chest, ap0ll0, digimon (creature), long blonde hair, cyborg, blue eyes, lion mecha, orange skin, robotic features, split halo behind head, shoulder armor, crotch plate, faulds, Spacecore, galaxy, nebula, neon, star, holographic, shadows, low angle, from below, comic, panel, close-up on face shot, , angel wings, \n(sky background, outside, clouds, stars, at night), dynamic pose, white Arabic skirt, tiara, jewelry, halo, close up, looking at viewer, photorealistic, action lines, serious, standing, front angle view, foreshortening, extreme perspective, praying,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/124926296",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6d8256b-304f-4a25-8ff7-f617f3d030ff/original=true/c6d8256b-304f-4a25-8ff7-f617f3d030ff.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1607510,
+        1738575,
+        1927539,
+        2053476
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1641964345,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, censor, deformed, bad proportions, female, logo, frame, deformed limbs, blurry, young, kid, child, small body, slender body, duo, group, full body, Bad hands, fused fingers, gut, fat",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.610580+00:00"
+    },
+    {
+      "id": "civitai-145172233",
+      "title": "Civitai prompt 145172233",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece anime coloring, source anime, anime screencap, best quality, amazing quality, highly detailed, sharp focus, very aesthetic, high resolution, absurdres, highres, newest, rating safe, ultra detailed, 8k, volumetric lighting, soft shading, ultra detailed face, ultra detailed eyes, perfect eyes, detailed iris, high gradient eyes, 1girl, pekomama, mature female, rabbit ears, yellow eyes, looking at viewer, hair between eyes, hair ribbon, sitting, v arms, arms between legs, shy expression, looking at viewer, body blush, head tilt, pink pillow, white couch, on couch, indoors, bookshelf, books, plant, atmospheric perspective, light particles, bokeh",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172233",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/04b9b399-a0d0-42b5-9b91-72992caa04fe/original=true/04b9b399-a0d0-42b5-9b91-72992caa04fe.jpeg",
+      "model": null,
+      "model_version_ids": [
+        2851583
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 191054742,
+      "negative_prompt": "nsfw, worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra limbs, watermark, text, deformed hands, human ears, monochrome, loli, man, blur, naked, porn, sex, penis, full body standing",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.611058+00:00"
+    },
+    {
+      "id": "civitai-145172215",
+      "title": "Civitai prompt 145172215",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highres, absurdres, 1woman, brown hair , sitting, cafe, new orleans, french quarter, looking at coffee, sad, pensive, passersby staring, detailed background, soft natural lighting, depth of field, cinematic lighting",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172215",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4d634ed-76e4-41b9-a4a7-f1c4636a9e5d/original=true/c4d634ed-76e4-41b9-a4a7-f1c4636a9e5d.jpeg",
+      "model": null,
+      "model_version_ids": [
+        128078,
+        403123
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1901072759,
+      "negative_prompt": "low quality, worst quality, blurry, distorted, deformed, ugly, bad hands, extra limbs, watermark, text, signature, username, logo",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.611095+00:00"
+    },
+    {
+      "id": "civitai-145172213",
+      "title": "Civitai prompt 145172213",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece anime coloring, source anime, anime screencap, best quality, amazing quality, highly detailed, sharp focus, very aesthetic, high resolution, absurdres, highres, newest, rating safe, ultra detailed, 8k, volumetric lighting, soft shading, ultra detailed face, ultra detailed eyes, perfect eyes, detailed iris, high gradient eyes, 1girl, hatsune_miku, slim, small breasts, goth fashion, twintails, very long twintails, glowing eyes, aqua eyes, aqua hair, black short dress, sleeveless, frills, neck ribbon, wide dress, pale skin, pink blush, ear piercing, hair between eyes, hair ribbon, sitting, v arms, arms between legs, shy expression, looking at viewer, body blush, head tilt, pink pillow, white couch, on couch, indoors, bookshelf, books, plant, atmospheric perspective, light particles, bokeh",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145172213",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce09601e-c35f-424d-b4c1-efce64d7b802/original=true/ce09601e-c35f-424d-b4c1-efce64d7b802.jpeg",
+      "model": null,
+      "model_version_ids": [
+        1726883,
+        2702856
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1829822443,
+      "negative_prompt": "nsfw, worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, extra limbs, watermark, text, deformed hands, human ears, monochrome, loli, man, blur, naked, porn, sex, penis, full body standing",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-09T20:07:04.611175+00:00"
     }
   ]
 }
