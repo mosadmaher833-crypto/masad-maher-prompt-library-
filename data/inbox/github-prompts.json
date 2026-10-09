@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-08T20:42:31.824983+00:00",
+  "generated_at": "2026-10-09T10:42:26.563075+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1475,15 +1475,94 @@
       "source_url": "https://github.com/caura-ai/caura/blob/51542cb92a882fe9027ae67fe6773e037d8cdfba/static/docs/integration-guide.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-de94efa72645",
+      "title": "gallery-seedance-2-0-part-3.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Create an 8 second square 1:1 experimental art film featuring a small stack of handmade playing cards placed in the exact center of a deep crimson red textured surface. Use a perfectly locked top down overhead camera with a clean, symmetrical composition. The frame should feel balanced and minimal, with the deck centered and enough negative space around it. No camera movement, no hands, and no surrounding objects.\n\nThe cards are warm off white with slightly uneven handmade edges, softly bent corners, subtle paper fibers, realistic thickness, delicate contact shadows, and a faint shadow beneath the deck. The background is a rich dark red textured surface, resembling paper, fabric, or velvet, with soft studio lighting, a gentle vignette, and darker edges.\n\nAnimate the top card using rapid rhythmic stop-motion jump cuts. Replace the card approximately every three frames, creating around eight sharp transformations per second. Each new card should remain briefly frozen before instantly changing into another design. Add extremely subtle deck wobble, tiny positional shifts, slight changes in rotation, natural paper vibration, and occasional one frame motion smears during transitions.\n\nEach card contains a different bold editorial illustration created only with black, white, and vivid scarlet-red ink. Cycle through surreal minimalist artwork such as: horse riders, galloping horses, elegant female silhouettes, dancers, abstract human faces, expressive eyes, red lips, flowers, fashion portraits, masked figures, brush painted bodies, geometric facial fragments, mysterious black shadows, and poetic botanical symbols.\n\nUse rough ink strokes, screen printed textures, imperfect paint edges, dry brush marks, vintage European graphic design, contemporary fashion branding, handmade collage aesthetics, and refined artistic playing card composition. Include small abstract playing card rank and suit markings in opposite corners, but no readable sentences, logos, captions, or watermarks.\n\nKeep the white deck consistently centered while only the illustration, card markings, slight card shape, and tiny rotation change. Synchronize every transformation to a fast sequence of crisp mechanical clicks, card tapping sounds, and minimalist percussion. Build a hypnotic rhythm that becomes slightly more intense toward the end.\n\nFinish on a clean card featuring a graceful black human silhouette with one strong red accent. Hold the final image sharply for a brief moment before ending with a direct cut.\n\nVisual quality: premium studio photography, realistic paper texture, sharp graphic details, deep red and black contrast, soft cinematic shadows, polished art direction, subtle film grain, high end editorial branding film, smooth 24 fps output while preserving the deliberate 8 fps stop motion transformation rhythm.\n\nAvoid: moving camera, zooming, human hands, floating cards, cards flying away, messy background, colorful rainbow palette, blue or green tones, readable words, distorted card stacks, melting paper, excessive 3D effects, smooth morphing between illustrations, cartoon animation, subtitles, or watermark.",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "LearnPrompt/awesome-seedance",
+      "source_url": "https://github.com/LearnPrompt/awesome-seedance/blob/6690bcf0f60c75feb3ab23be411ff82a90cf2f9d/docs/gallery-seedance-2-0-part-3.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "ghsrc-prompts-chat-23dbb953e035",
+      "title": "Code Review Assistant",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "{\"role\": \"Code Review Assistant\", \"context\": {\"language\": \"JavaScript\", \"framework\": \"React\", \"focus_areas\": [\"performance\", \"security\", \"best_practices\"]}, \"review_format\": {\"severity\": \"high|medium|low\", \"category\": \"string\", \"line_number\": \"number\", \"suggestion\": \"string\", \"code_example\": \"string\"}, \"instructions\": \"Review the provided code and return findings\"}",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "status": "pending_review",
+      "attribution_required": true,
+      "import_method": "declared_github_source_connector"
+    },
+    {
+      "id": "ghsrc-prompts-chat-f9251239b88f",
+      "title": "Predictive Eye Tracking Heatmap Generator",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "{\n  \"system_configuration\": {\n    \"role\": \"Senior UX Researcher & Cognitive Science Specialist\",\n    \"simulation_mode\": \"Predictive Visual Attention Modeling (Eye-Tracking Simulation)\",\n    \"reference_authority\": [\"Nielsen Norman Group (NN/g)\", \"Cognitive Load Theory\", \"Gestalt Principles\"]\n  },\n  \"task_instructions\": {\n    \"input\": \"Analyze the provided UI screenshots of web/mobile applications.\",\n    \"process\": \"Simulate user eye movements based on established cognitive science principles, aiming for 85-90% predictive accuracy compared to real human data.\",\n    \"critical_constraint\": \"The primary output MUST be a generated IMAGE representing a thermal heatmap overlay. Do not provide random drawings; base visual intensity strictly on the defined scientific rules.\"\n  },\n  \"scientific_rules_engine\": [\n    {\n      \"principle\": \"1. Biological Priority\",\n      \"directive\": \"Identify human faces or eyes. These areas receive immediate, highest-intensity focus (hottest red zones within milliseconds).\"\n    },\n    {\n      \"principle\": \"2. Von Restorff Effect (Isolation Paradigm)\",\n      \"directive\": \"Identify elements with high contrast or unique visual weight (e.g., primary CTAs like a 'Create' button). These must be marked as high-priority fixation points.\"\n    },\n    {\n      \"principle\": \"3. F-Pattern Scanning Gravity\",\n      \"directive\": \"Apply a default top-left to bottom-right reading gravity biased towards the left margin, typical for western text scanning.\"\n    },\n    {\n      \"principle\": \"4. Goal-Directed Affordance Seeking\",\n      \"directive\": \"Highlight areas perceived as actionable (buttons, inputs, navigation links) where the brain expects interactivity.\"\n    }\n  ],\n  \"output_visualization_specs\": {\n    \"format\": \"IMAGE_GENERATION (Heatmap Overlay)\",\n    \"style_guide\": {\n      \"base_layer\": \"Original UI Screenshot (semi-transparent)\",\n      \"overlay_layer\": \"Thermal Heatmap\",\n      \"color_coding\": {\n        \"Red (Hot)\": \"Areas of intense fixation and dwell time.\",\n        \"Yellow/Orange (Warm)\": \"Areas scanned but with less dwell time.\",\n        \"Blue/Transparent (Cold)\": \"Areas likely ignored or seen only peripherally.\"\n      }\n    }\n  }\n}",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "status": "pending_review",
+      "attribution_required": true,
+      "import_method": "declared_github_source_connector"
+    },
+    {
+      "id": "ghsrc-prompts-chat-e13986d638e4",
+      "title": "Clean BibTeX Formatter for Academic Projects",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "I am preparing a BibTeX file for an academic project.\nPlease convert the following references into a single, consistent BibTeX format with these rules:\nUse a single citation key format: firstauthorlastname + year (e.g., esteva2017)\nUse @article for journal papers and @misc for web tools or demos\nInclude at least the following fields: title, author, journal (if applicable), year\nAdditionally, include doi, url, and a short abstract if available\nEnsure author names follow BibTeX standards (Last name, First name)\nAvoid Turkish characters, uppercase letters, or long citation keys\nOutput only valid BibTeX entries.",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "status": "pending_review",
+      "attribution_required": true,
+      "import_method": "declared_github_source_connector"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
-  "added_this_run": 0,
+  "added_this_run": 3,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"video prompt\"",
-    "Claude prompts",
-    "AI advertising prompts"
+    "\"advertising prompt\"",
+    "prompt engineering",
+    "prompt templates"
   ],
-  "last_sources": []
+  "last_sources": [
+    "prompts-chat"
+  ]
 }

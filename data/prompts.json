@@ -52832,15 +52832,1105 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88ffe025-fb55-424e-bdee-61b57c127200/original=true/88ffe025-fb55-424e-bdee-61b57c127200.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-de94efa72645",
+      "title": "gallery-seedance-2-0-part-3.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Seedance"
+      ],
+      "prompt": "Create an 8 second square 1:1 experimental art film featuring a small stack of handmade playing cards placed in the exact center of a deep crimson red textured surface. Use a perfectly locked top down overhead camera with a clean, symmetrical composition. The frame should feel balanced and minimal, with the deck centered and enough negative space around it. No camera movement, no hands, and no surrounding objects.\n\nThe cards are warm off white with slightly uneven handmade edges, softly bent corners, subtle paper fibers, realistic thickness, delicate contact shadows, and a faint shadow beneath the deck. The background is a rich dark red textured surface, resembling paper, fabric, or velvet, with soft studio lighting, a gentle vignette, and darker edges.\n\nAnimate the top card using rapid rhythmic stop-motion jump cuts. Replace the card approximately every three frames, creating around eight sharp transformations per second. Each new card should remain briefly frozen before instantly changing into another design. Add extremely subtle deck wobble, tiny positional shifts, slight changes in rotation, natural paper vibration, and occasional one frame motion smears during transitions.\n\nEach card contains a different bold editorial illustration created only with black, white, and vivid scarlet-red ink. Cycle through surreal minimalist artwork such as: horse riders, galloping horses, elegant female silhouettes, dancers, abstract human faces, expressive eyes, red lips, flowers, fashion portraits, masked figures, brush painted bodies, geometric facial fragments, mysterious black shadows, and poetic botanical symbols.\n\nUse rough ink strokes, screen printed textures, imperfect paint edges, dry brush marks, vintage European graphic design, contemporary fashion branding, handmade collage aesthetics, and refined artistic playing card composition. Include small abstract playing card rank and suit markings in opposite corners, but no readable sentences, logos, captions, or watermarks.\n\nKeep the white deck consistently centered while only the illustration, card markings, slight card shape, and tiny rotation change. Synchronize every transformation to a fast sequence of crisp mechanical clicks, card tapping sounds, and minimalist percussion. Build a hypnotic rhythm that becomes slightly more intense toward the end.\n\nFinish on a clean card featuring a graceful black human silhouette with one strong red accent. Hold the final image sharply for a brief moment before ending with a direct cut.\n\nVisual quality: premium studio photography, realistic paper texture, sharp graphic details, deep red and black contrast, soft cinematic shadows, polished art direction, subtle film grain, high end editorial branding film, smooth 24 fps output while preserving the deliberate 8 fps stop motion transformation rhythm.\n\nAvoid: moving camera, zooming, human hands, floating cards, cards flying away, messy background, colorful rainbow palette, blue or green tones, readable words, distorted card stacks, melting paper, excessive 3D effects, smooth morphing between illustrations, cartoon animation, subtitles, or watermark.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "LearnPrompt/awesome-seedance",
+      "source_url": "https://github.com/LearnPrompt/awesome-seedance/blob/6690bcf0f60c75feb3ab23be411ff82a90cf2f9d/docs/gallery-seedance-2-0-part-3.md",
+      "imported_at": "2026-10-09T10:42:45.226179+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "de94efa72645b745ce4c8c6189c4924761b44d3231ca9e19e9298cd9cc8bc673",
+      "prompt_ar": "أنشئ فيلمًا فنيًا تجريبيًا مربعًا مدته 8 ثوانٍ بنسبة 1:1 يضم مجموعة صغيرة من أوراق اللعب المصنوعة يدويًا الموضوعة في منتصف سطح مزخرف باللون الأحمر القرمزي العميق. استخدم كاميرا علوية مغلقة بشكل مثالي من أعلى إلى أسفل بتركيبة نظيفة ومتناسقة. يجب أن يبدو الإطار متوازنًا وبسيطًا، مع وضع السطح في المنتصف ومساحة سلبية كافية حوله. لا توجد حركة للكاميرا ولا أيدي ولا أشياء محيطة.\n\nتتميز البطاقات باللون الأبيض الفاتح مع حواف غير متساوية قليلاً مصنوعة يدويًا، وزوايا منحنية بلطف، وألياف ورقية رقيقة، وسمك واقعي، وظلال تلامس دقيقة، وظل خافت أسفل سطح السفينة. الخلفية عبارة عن سطح مزخرف باللون الأحمر الداكن الغني، يشبه الورق أو القماش أو المخمل، مع إضاءة استوديو ناعمة، ومقالة صغيرة لطيفة، وحواف داكنة.\n\nقم بتحريك البطاقة العلوية باستخدام قطع القفز الإيقاعي السريع وإيقاف الحركة. استبدل البطاقة كل ثلاثة إطارات تقريبًا، مما يؤدي إلى إنشاء حوالي ثمانية تحولات حادة في الثانية. يجب أن تظل كل بطاقة جديدة مجمدة لفترة وجيزة قبل أن تتحول على الفور إلى تصميم آخر. أضف تمايلًا دقيقًا للغاية على سطح السفينة، وإزاحات موضعية صغيرة، وتغييرات طفيفة في التدوير، واهتزاز الورق الطبيعي، ومسحات حركة إطار واحد عرضية أثناء التحولات.\n\nتحتوي كل بطاقة على رسم توضيحي تحريري جريء مختلف تم إنشاؤه فقط بالحبر الأسود والأبيض والأحمر القرمزي الزاهي. قم بالتنقل عبر الأعمال الفنية السريالية البسيطة مثل: راكبي الخيول، والخيول الراكضة، والصور الظلية الأنثوية الأنيقة، والراقصات، والوجوه البشرية المجردة، والعيون التعبيرية، والشفاه الحمراء، والزهور، وصور الموضة، والأشكال المقنعة، والأجسام المطلية بالفرشاة، وشظايا الوجه الهندسية، والظلال السوداء الغامضة، والرموز النباتية الشعرية.\n\nاستخدم ضربات الحبر الخشنة، والأنسجة المطبوعة على الشاشة، وحواف الطلاء غير المثالية، وعلامات الفرشاة الجافة، والتصميم الجرافيكي الأوروبي العتيق، والعلامات التجارية للأزياء المعاصرة، وجماليات الكولاج المصنوعة يدويًا، وتكوين بطاقة اللعب الفنية المصقولة. قم بتضمين ترتيب أوراق اللعب المجردة الصغيرة وعلامات البدلة في الزوايا المتقابلة، ولكن لا تحتوي على جمل أو شعارات أو تسميات توضيحية أو علامات مائية قابلة للقراءة.\n\nاحتفظ بالسطح الأبيض في المنتصف باستمرار مع تغيير الرسم التوضيحي وعلامات البطاقة وشكل البطاقة الطفيف والتدوير البسيط فقط. قم بمزامنة كل تحويل مع تسلسل سريع من النقرات الميكانيكية الواضحة وأصوات النقر على البطاقات والإيقاع البسيط. قم ببناء إيقاع منوم يصبح أكثر كثافة قليلاً في النهاية.\n\nانتهي من بطاقة نظيفة تتميز بصورة ظلية بشرية سوداء رشيقة مع لمسة حمراء قوية. أمسك الصورة النهائية بشكل حاد للحظة وجيزة قبل أن تنتهي بقص مباشر.\n\nالجودة المرئية: تصوير فوتوغرافي متميز في الاستوديو، وملمس ورقي واقعي، وتفاصيل رسومية حادة، وتباين عميق باللونين الأحمر والأسود، وظلال سينمائية ناعمة، واتجاه فني مصقول، وحبيبات فيلم دقيقة، وفيلم علامة تجارية تحريرية راقية، وإخراج سلس بمعدل 24 إطارًا في الثانية مع الحفاظ على إيقاع تحويل الحركة المتوقف بمعدل 8 إطارات في الثانية.\n\nتجنب: تحريك الكاميرا، والتكبير/التصغير، والأيدي البشرية، والبطاقات العائمة، والبطاقات المتطايرة بعيدًا، والخلفية الفوضوية، ولوحة ألوان قوس قزح الملونة، ودرجات اللون الأزرق أو الأخضر، والكلمات المقروءة، ومجموعات البطاقات المشوهة، وذوبان الورق، والتأثيرات ثلاثية الأبعاد المفرطة، والتحول السلس بين الرسوم التوضيحية، والرسوم المتحركة المتحركة، والترجمات، أو العلامة المائية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Seedance"
+      ],
+      "search_text": "gallery-seedance-2-0-part-3.md prompt-engineering create an 8 second square 1:1 experimental art film featuring a small stack of handmade playing cards placed in the exact center of a deep crimson red textured surface. use a perfectly locked top down overhead camera with a clean, symmetrical composition. the frame should feel balanced and minimal, with the deck centered and enough negative space around it. no camera movement, no hands, and no surrounding objects. the cards are warm off white with slightly uneven handmade edges, softly bent corners, subtle paper fibers, realistic thickness, delicate contact shadows, and a faint shadow beneath the deck. the background is a rich dark red textured surface, resembling paper, fabric, or velvet, with soft studio lighting, a gentle vignette, and darker edges. animate the top card using rapid rhythmic stop-motion jump cuts. replace the card approximately every three frames, creating around eight sharp transformations per second. each new card should remain briefly frozen before instantly changing into another design. add extremely subtle deck wobble, tiny positional shifts, slight changes in rotation, natural paper vibration, and occasional one frame motion smears during transitions. each card contains a different bold editorial illustration created only with black, white, and vivid scarlet-red ink. cycle through surreal minimalist artwork such as: horse riders, galloping horses, elegant female silhouettes, dancers, abstract human faces, expressive eyes, red lips, flowers, fashion portraits, masked figures, brush painted bodies, geometric facial fragments, mysterious black shadows, and poetic botanical symbols. use rough ink strokes, screen printed textures, imperfect paint edges, dry brush marks, vintage european graphic design, contemporary fashion branding, handmade collage aesthetics, and refined artistic playing card composition. include small abstract playing card rank and suit markings in opposite corners, but no readable sentences, logos, captions, or watermarks. keep the white deck consistently centered while only the illustration, card markings, slight card shape, and tiny rotation change. synchronize every transformation to a fast sequence of crisp mechanical clicks, card tapping sounds, and minimalist percussion. build a hypnotic rhythm that becomes slightly more intense toward the end. finish on a clean card featuring a graceful black human silhouette with one strong red accent. hold the final image sharply for a brief moment before ending with a direct cut. visual quality: premium studio photography, realistic paper texture, sharp graphic details, deep red and black contrast, soft cinematic shadows, polished art direction, subtle film grain, high end editorial branding film, smooth 24 fps output while preserving the deliberate 8 fps stop motion transformation rhythm. avoid: moving camera, zooming, human hands, floating cards, cards flying away, messy background, colorful rainbow palette, blue or green tones, readable words, distorted card stacks, melting paper, excessive 3d effects, smooth morphing between illustrations, cartoon animation, subtitles, or watermark. github review seedance seedance",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/LearnPrompt/awesome-seedance/blob/6690bcf0f60c75feb3ab23be411ff82a90cf2f9d/docs/gallery-seedance-2-0-part-3.md",
+          "source_repository": "LearnPrompt/awesome-seedance"
+        }
+      ]
+    },
+    {
+      "id": "ghsrc-prompts-chat-23dbb953e035",
+      "title": "Code Review Assistant",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "{\"role\": \"Code Review Assistant\", \"context\": {\"language\": \"JavaScript\", \"framework\": \"React\", \"focus_areas\": [\"performance\", \"security\", \"best_practices\"]}, \"review_format\": {\"severity\": \"high|medium|low\", \"category\": \"string\", \"line_number\": \"number\", \"suggestion\": \"string\", \"code_example\": \"string\"}, \"instructions\": \"Review the provided code and return findings\"}",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "imported_at": "2026-10-09T10:42:45.226212+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "23dbb953e03520e49760710b44f04d8527c7cf1b3e73a4e3ffa237481396b360",
+      "prompt_ar": "{\"role\": \"مساعد مراجعة التعليمات البرمجية\"، \"السياق\": {\"language\": \"JavaScript\"، \"framework\": \"React\"، \"focus_areas\": [\"performance\"، \"security\"، \"best_practices\"]}، \"review_format\": {\"severity\": \"high|medium|low\"، \"category\": \"string\"، \"line_number\": \"number\"، \"suggestion\": \"string\"، \"code_example\": \"string\"}, \"instructions\": \"راجع الكود المقدم وأرجع النتائج\"}",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "code review assistant prompt-engineering {\"role\": \"code review assistant\", \"context\": {\"language\": \"javascript\", \"framework\": \"react\", \"focus_areas\": [\"performance\", \"security\", \"best_practices\"]}, \"review_format\": {\"severity\": \"high|medium|low\", \"category\": \"string\", \"line_number\": \"number\", \"suggestion\": \"string\", \"code_example\": \"string\"}, \"instructions\": \"review the provided code and return findings\"} github prompts-chat auto-discovery",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "prompts-chat",
+          "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+          "source_repository": "f/prompts.chat",
+          "license": "CC0-1.0 (prompt data, per repository README)"
+        }
+      ]
+    },
+    {
+      "id": "ghsrc-prompts-chat-f9251239b88f",
+      "title": "Predictive Eye Tracking Heatmap Generator",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "{\n  \"system_configuration\": {\n    \"role\": \"Senior UX Researcher & Cognitive Science Specialist\",\n    \"simulation_mode\": \"Predictive Visual Attention Modeling (Eye-Tracking Simulation)\",\n    \"reference_authority\": [\"Nielsen Norman Group (NN/g)\", \"Cognitive Load Theory\", \"Gestalt Principles\"]\n  },\n  \"task_instructions\": {\n    \"input\": \"Analyze the provided UI screenshots of web/mobile applications.\",\n    \"process\": \"Simulate user eye movements based on established cognitive science principles, aiming for 85-90% predictive accuracy compared to real human data.\",\n    \"critical_constraint\": \"The primary output MUST be a generated IMAGE representing a thermal heatmap overlay. Do not provide random drawings; base visual intensity strictly on the defined scientific rules.\"\n  },\n  \"scientific_rules_engine\": [\n    {\n      \"principle\": \"1. Biological Priority\",\n      \"directive\": \"Identify human faces or eyes. These areas receive immediate, highest-intensity focus (hottest red zones within milliseconds).\"\n    },\n    {\n      \"principle\": \"2. Von Restorff Effect (Isolation Paradigm)\",\n      \"directive\": \"Identify elements with high contrast or unique visual weight (e.g., primary CTAs like a 'Create' button). These must be marked as high-priority fixation points.\"\n    },\n    {\n      \"principle\": \"3. F-Pattern Scanning Gravity\",\n      \"directive\": \"Apply a default top-left to bottom-right reading gravity biased towards the left margin, typical for western text scanning.\"\n    },\n    {\n      \"principle\": \"4. Goal-Directed Affordance Seeking\",\n      \"directive\": \"Highlight areas perceived as actionable (buttons, inputs, navigation links) where the brain expects interactivity.\"\n    }\n  ],\n  \"output_visualization_specs\": {\n    \"format\": \"IMAGE_GENERATION (Heatmap Overlay)\",\n    \"style_guide\": {\n      \"base_layer\": \"Original UI Screenshot (semi-transparent)\",\n      \"overlay_layer\": \"Thermal Heatmap\",\n      \"color_coding\": {\n        \"Red (Hot)\": \"Areas of intense fixation and dwell time.\",\n        \"Yellow/Orange (Warm)\": \"Areas scanned but with less dwell time.\",\n        \"Blue/Transparent (Cold)\": \"Areas likely ignored or seen only peripherally.\"\n      }\n    }\n  }\n}",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "imported_at": "2026-10-09T10:42:45.226253+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f9251239b88fafafb97d18f81963b131faf0c2856a26102c3eda42ac6975b80f",
+      "prompt_ar": "{\n  \"تكوين_النظام\": {\n    \"الدور\": \"باحث أول في مجال تجربة المستخدم وأخصائي في العلوم المعرفية\"،\n    \"simulation_mode\": \"نمذجة الانتباه البصري التنبؤي (محاكاة تتبع العين)\"،\n    \"reference_authority\": [\"Nielsen Norman Group (NN/g)\"، \"نظرية الحمل المعرفي\"، \"مبادئ الجشطالت\"]\n  },\n  \"تعليمات_المهمة\": {\n    \"input\": \"تحليل لقطات شاشة واجهة المستخدم المقدمة لتطبيقات الويب/الجوال.\",\n    \"process\": \"محاكاة حركات عين المستخدم بناءً على مبادئ العلوم المعرفية الراسخة، بهدف الحصول على دقة تنبؤية بنسبة 85-90% مقارنة بالبيانات البشرية الحقيقية.\",\n    \"critical_constraint\": \"يجب أن يكون الإخراج الأساسي عبارة عن صورة تم إنشاؤها تمثل تراكب خريطة الحرارة الحرارية. لا تقدم رسومات عشوائية؛ يجب أن تعتمد الكثافة البصرية بشكل صارم على القواعد العلمية المحددة.\"\n  },\n  \"محرك_القواعد_العلمية\": [\n    {\n      \"المبدأ\": \"1. الأولوية البيولوجية\"،\n      \"directive\": \"حدد الوجوه أو العيون البشرية. تتلقى هذه المناطق تركيزًا فوريًا وأعلى كثافة (المناطق الحمراء الأكثر سخونة خلال أجزاء من الثانية).\"\n    },\n    {\n      \"المبدأ\": \"2. تأثير فون ريستورف (نموذج العزل)\"،\n      \"directive\": \"حدد العناصر ذات التباين العالي أو الوزن المرئي الفريد (على سبيل المثال، عبارات الحث على اتخاذ إجراء الأساسية مثل زر \"إنشاء\"). ويجب وضع علامة عليها كنقاط تثبيت ذات أولوية عالية.\"\n    },\n    {\n      \"المبدأ\": \"3. جاذبية مسح نمط F\"،\n      \"directive\": \"تطبيق جاذبية القراءة الافتراضية من أعلى اليسار إلى أسفل اليمين متحيزة نحو الهامش الأيسر، وهو نموذجي لمسح النص الغربي.\"\n    },\n    {\n      \"المبدأ\": \"4. البحث عن القدرة الموجه نحو الهدف\"،\n      \"directive\": \"تسليط الضوء على المناطق التي يُنظر إليها على أنها قابلة للتنفيذ (الأزرار، والمدخلات، وروابط التنقل) حيث يتوقع الدماغ التفاعل.\"\n    }\n  ]،\n  \"output_visualization_specs\": {\n    \"تنسيق\": \"IMAGE_GENERATION (تراكب الخريطة الحرارية)\"،\n    \"دليل_الأسلوب\": {\n      \"base_layer\": \"لقطة شاشة لواجهة المستخدم الأصلية (شبه شفافة)\"،\n      \"overlay_layer\": \"خريطة الحرارة الحرارية\"،\n      \"تشفير_اللون\": {\n        \"أحمر (ساخن)\": \"مناطق التثبيت الشديد ووقت البقاء.\",\n        \"أصفر/برتقالي (دافئ)\": \"المناطق التي تم مسحها ضوئيًا ولكن بوقت بقاء أقل.\",\n        \"أزرق/شفاف (بارد)\": \"من المحتمل أن يتم تجاهل المناطق أو رؤيتها بشكل محيطي فقط.\"\n      }\n    }\n  }\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "predictive eye tracking heatmap generator prompt-engineering { \"system_configuration\": { \"role\": \"senior ux researcher & cognitive science specialist\", \"simulation_mode\": \"predictive visual attention modeling (eye-tracking simulation)\", \"reference_authority\": [\"nielsen norman group (nn/g)\", \"cognitive load theory\", \"gestalt principles\"] }, \"task_instructions\": { \"input\": \"analyze the provided ui screenshots of web/mobile applications.\", \"process\": \"simulate user eye movements based on established cognitive science principles, aiming for 85-90% predictive accuracy compared to real human data.\", \"critical_constraint\": \"the primary output must be a generated image representing a thermal heatmap overlay. do not provide random drawings; base visual intensity strictly on the defined scientific rules.\" }, \"scientific_rules_engine\": [ { \"principle\": \"1. biological priority\", \"directive\": \"identify human faces or eyes. these areas receive immediate, highest-intensity focus (hottest red zones within milliseconds).\" }, { \"principle\": \"2. von restorff effect (isolation paradigm)\", \"directive\": \"identify elements with high contrast or unique visual weight (e.g., primary ctas like a 'create' button). these must be marked as high-priority fixation points.\" }, { \"principle\": \"3. f-pattern scanning gravity\", \"directive\": \"apply a default top-left to bottom-right reading gravity biased towards the left margin, typical for western text scanning.\" }, { \"principle\": \"4. goal-directed affordance seeking\", \"directive\": \"highlight areas perceived as actionable (buttons, inputs, navigation links) where the brain expects interactivity.\" } ], \"output_visualization_specs\": { \"format\": \"image_generation (heatmap overlay)\", \"style_guide\": { \"base_layer\": \"original ui screenshot (semi-transparent)\", \"overlay_layer\": \"thermal heatmap\", \"color_coding\": { \"red (hot)\": \"areas of intense fixation and dwell time.\", \"yellow/orange (warm)\": \"areas scanned but with less dwell time.\", \"blue/transparent (cold)\": \"areas likely ignored or seen only peripherally.\" } } } } github prompts-chat auto-discovery",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "prompts-chat",
+          "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+          "source_repository": "f/prompts.chat",
+          "license": "CC0-1.0 (prompt data, per repository README)"
+        }
+      ]
+    },
+    {
+      "id": "ghsrc-prompts-chat-e13986d638e4",
+      "title": "Clean BibTeX Formatter for Academic Projects",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "I am preparing a BibTeX file for an academic project.\nPlease convert the following references into a single, consistent BibTeX format with these rules:\nUse a single citation key format: firstauthorlastname + year (e.g., esteva2017)\nUse @article for journal papers and @misc for web tools or demos\nInclude at least the following fields: title, author, journal (if applicable), year\nAdditionally, include doi, url, and a short abstract if available\nEnsure author names follow BibTeX standards (Last name, First name)\nAvoid Turkish characters, uppercase letters, or long citation keys\nOutput only valid BibTeX entries.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "imported_at": "2026-10-09T10:42:45.226267+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e13986d638e4a173dec95a76bccd602430eeefe4429a19ab6e69ac1f420360fa",
+      "prompt_ar": "أقوم بإعداد ملف BibTeX لمشروع أكاديمي.\nيرجى تحويل المراجع التالية إلى تنسيق BibTeX واحد ومتسق مع هذه القواعد:\nاستخدم تنسيق مفتاح اقتباس واحد: الاسم الأول للمؤلف + السنة (على سبيل المثال، esteva2017)\nاستخدم @article لأبحاث المجلات و@misc لأدوات الويب أو العروض التوضيحية\nقم بتضمين الحقول التالية على الأقل: العنوان، المؤلف، المجلة (إن أمكن)، السنة\nبالإضافة إلى ذلك، قم بتضمين doi وurl وملخص قصير إذا كان متاحًا\nتأكد من أن أسماء المؤلفين تتبع معايير BibTeX (الاسم الأخير، الاسم الأول)\nتجنب الأحرف التركية أو الأحرف الكبيرة أو مفاتيح الاقتباس الطويلة\nإخراج إدخالات BibTeX الصالحة فقط.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "clean bibtex formatter for academic projects prompt-engineering i am preparing a bibtex file for an academic project. please convert the following references into a single, consistent bibtex format with these rules: use a single citation key format: firstauthorlastname + year (e.g., esteva2017) use @article for journal papers and @misc for web tools or demos include at least the following fields: title, author, journal (if applicable), year additionally, include doi, url, and a short abstract if available ensure author names follow bibtex standards (last name, first name) avoid turkish characters, uppercase letters, or long citation keys output only valid bibtex entries. github prompts-chat auto-discovery",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "prompts-chat",
+          "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+          "source_repository": "f/prompts.chat",
+          "license": "CC0-1.0 (prompt data, per repository README)"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145137654",
+      "title": "Civitai prompt 145137654",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "high-tech aesthetics.\n\nA cinematic wide shot framing two diminutive figures seated at an ancient stone chessboard in deep shadow along a weathered quayside: a striking cybernetically-enhanced mercenary woman, her athletic form clad in tight tactical gear of dark matte polymer and brushed steel plating that catches subtle glints from above, one arm replaced by a sleek chrome prosthetic joint with visible hydraulic cabling and glowing amber accents. Her gaze is fixed intently on the board as she leans forward to move a piece, long hair falling across her shoulders in waves of deep burgundy against pale skin. Across from her sits a grizzled goblin elder, hunched over his own set of weathered wooden pieces with sharp yellow eyes and wrinkled greenish-brown leather-like skin. Between them rests an ornate chessboard carved from dark wood with ivory pieces showing subtle wear at the corners where fingers have played thousands of moves. Behind this intimate scene stretches a vast sprawling cyberpunk cityscape that dominates two-thirds of the frame — towering skyscrapers draped in cascading neon signage of electric blues, hot pinks and warm ambers create an almost overwhelming visual rhythm against the cool dark sky above. The mercenary and goblin are rendered small against the immensity before them like figures on a chessboard within another board, emphasizing quiet solitude amidst urban frenzy. Dramatic chiaroscuro lighting from below illuminates their faces while casting deep shadows across their forms as if they exist in a private pocket of time separated from the pulsing energy behind them. Soft focus and painterly brushstroke textures overlay the neon cityscape creating an impressionistic depth that contrasts with sharper definition on skin, fabric weave patterns, and metallic surfaces. Rich warm color palette balancing cool shadow tones against vibrant electric highlights achieves an evocative moody atmosphere blending digital precision with traditional oil painting warmth — thick impasto-like texture in background layers suggesting movement through layered translucent washes while foreground figures show cleaner brushwork defining muscle tension, material reflections and individual strands of hair.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145137654",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ed8fc06-5348-4259-9715-9e257f425414/original=true/1ed8fc06-5348-4259-9715-9e257f425414.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1872,
+      "seed": 72,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226677+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ffa58128f815c9b0108a527925e7322e41d2593fbdbe13830facd788cf43c848",
+      "prompt_ar": "جماليات التكنولوجيا الفائقة.\n\nلقطة سينمائية واسعة تؤطر شخصيتين صغيرتين تجلسان على رقعة شطرنج حجرية قديمة في ظل عميق على طول رصيف الميناء: امرأة مرتزقة ملفتة للنظر معززة إلكترونيًا، وشكلها الرياضي يرتدي معدات تكتيكية ضيقة من البوليمر الداكن غير اللامع وطلاء فولاذي مصقول يلتقط بريقًا رقيقًا من الأعلى، وتم استبدال ذراع واحدة بمفصل صناعي أنيق من الكروم مع كابلات هيدروليكية مرئية ولمسات كهرمانية متوهجة. نظرتها مثبتة باهتمام على اللوح وهي تميل إلى الأمام لتحريك قطعة، وشعرها الطويل ينسدل على كتفيها في موجات من اللون العنابي العميق على البشرة الشاحبة. على الجانب الآخر منها يجلس عفريت أشيب، منحنيًا على مجموعته الخاصة من القطع الخشبية ذات العيون الصفراء الحادة والجلد البني المخضر المتجعد الذي يشبه الجلد. ويوجد بينهما رقعة شطرنج مزخرفة منحوتة من الخشب الداكن مع قطع عاجية تظهر تآكلًا خفيفًا في الزوايا حيث لعبت الأصابع آلاف الحركات. خلف هذا المشهد الحميم يمتد مشهد مدينة سايبربانك مترامي الأطراف يهيمن على ثلثي الإطار - ناطحات السحاب الشاهقة المغطاة بلافتات النيون المتتالية ذات اللون الأزرق الكهربائي والوردي الساخن والكهرمان الدافئ تخلق إيقاعًا بصريًا ساحقًا تقريبًا مقابل السماء المظلمة الباردة أعلاه. يتم جعل المرتزق والعفريت صغيرين أمام الضخامة أمامهما مثل شخصيات على رقعة شطرنج داخل رقعة أخرى، مما يؤكد على العزلة الهادئة وسط الهيجان الحضري. تضيء إضاءة تشياروسكورو الدرامية من الأسفل وجوههم بينما تلقي بظلال عميقة على أشكالهم كما لو كانوا موجودين في جيب خاص من الزمن منفصل عن الطاقة النابضة خلفهم. يتراكب التركيز الناعم وتركيبات ضربات الفرشاة على مناظر المدينة النيون مما يخلق عمقًا انطباعيًا يتناقض مع التحديد الأكثر وضوحًا على الجلد وأنماط نسج القماش والأسطح المعدنية. تحقق لوحة الألوان الدافئة الغنية التي توازن درجات الظلال الباردة مع الأضواء الكهربائية النابضة بالحياة جوًا متقلبًا مثيرًا يمزج الدقة الرقمية مع دفء الرسم الزيتي التقليدي - نسيج سميك يشبه الإمباستو في طبقات الخلفية يشير إلى الحركة من خلال طبقات شفافة من الطبقات بينما تُظهر الأشكال الأمامية فرشاة أنظف تحدد التوتر العضلي وانعكاسات المواد وخيوط الشعر الفردية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145137654 image ai-image-prompts high-tech aesthetics. a cinematic wide shot framing two diminutive figures seated at an ancient stone chessboard in deep shadow along a weathered quayside: a striking cybernetically-enhanced mercenary woman, her athletic form clad in tight tactical gear of dark matte polymer and brushed steel plating that catches subtle glints from above, one arm replaced by a sleek chrome prosthetic joint with visible hydraulic cabling and glowing amber accents. her gaze is fixed intently on the board as she leans forward to move a piece, long hair falling across her shoulders in waves of deep burgundy against pale skin. across from her sits a grizzled goblin elder, hunched over his own set of weathered wooden pieces with sharp yellow eyes and wrinkled greenish-brown leather-like skin. between them rests an ornate chessboard carved from dark wood with ivory pieces showing subtle wear at the corners where fingers have played thousands of moves. behind this intimate scene stretches a vast sprawling cyberpunk cityscape that dominates two-thirds of the frame — towering skyscrapers draped in cascading neon signage of electric blues, hot pinks and warm ambers create an almost overwhelming visual rhythm against the cool dark sky above. the mercenary and goblin are rendered small against the immensity before them like figures on a chessboard within another board, emphasizing quiet solitude amidst urban frenzy. dramatic chiaroscuro lighting from below illuminates their faces while casting deep shadows across their forms as if they exist in a private pocket of time separated from the pulsing energy behind them. soft focus and painterly brushstroke textures overlay the neon cityscape creating an impressionistic depth that contrasts with sharper definition on skin, fabric weave patterns, and metallic surfaces. rich warm color palette balancing cool shadow tones against vibrant electric highlights achieves an evocative moody atmosphere blending digital precision with traditional oil painting warmth — thick impasto-like texture in background layers suggesting movement through layered translucent washes while foreground figures show cleaner brushwork defining muscle tension, material reflections and individual strands of hair. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145137654",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ed8fc06-5348-4259-9715-9e257f425414/original=true/1ed8fc06-5348-4259-9715-9e257f425414.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145137651",
+      "title": "Civitai prompt 145137651",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "painterly 16-bit pixel art illustration, fine small pixel clusters, detailed pixel art aesthetic, rich color dithering with hue-shifted shadows, soft atmospheric lighting, atmospheric depth, extremely wide cinematic establishing shot,\na vast ruined frozen cathedral seen from far back, towering broken stone pillars rising out of frame on both sides forming a frame around the scene, a huge shattered stained glass window glowing gold and amber at the top of a grand ice-covered staircase, drifting snow, icicles and frost clinging to the masonry, thin cold mist hanging in the air,\na single knight seen from behind and slightly to the side, standing upright and tall near the foot of the stairs, small in the frame, about one third of the image height, looking up toward the window, shoulders back, one gauntleted hand resting on the hilt of a long greatsword planted point-down in the step,\nhe wears weathered deep sapphire blue plate armour, desaturated cold blue steel with indigo shadows and pale cyan highlights, aged gold filigree catching warm light, a great helm with a narrow eye slit and a tall plume, a long dark blue cape dusted with snow and frost, snowflakes settled on his shoulders, a thin warm gold rim light along the edges of his armour and cape facing the window, the side away from the light in cold blue shadow,\na long shaft of golden light from the window cutting through the falling snow and the mist, deep indigo and teal shadows, pale blue highlights, warm gold light as the only warm accent, solemn and majestic, extremely detailed stonework, fully rendered environment,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145137651",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc/original=true/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc.jpeg",
+      "model_version_ids": [
+        2635223,
+        2649446,
+        2814411
+      ],
+      "width": 768,
+      "height": 1344,
+      "seed": 1468438427,
+      "negative_prompt": "shiny plastic, glossy, smooth surfaces, anime, cartoon, vector art, cel shading, flat colors, blurry, bokeh, depth of field, out of focus, motion blur, vignette, oversaturated, neon colors, bad anatomy, deformed, distorted, extra fingers, watermark, text, signature, 3D render, digital plastic look, bird head, beak, round eye, hunched, slouching, bowed head, front-facing portrait, close-up",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226704+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "38428c3e37f6605fd7761b12fb944a7c350d3a77fb47a01c693fa456ff4588d7",
+      "prompt_ar": "رسم توضيحي فني بكسل 16 بت، ومجموعات بكسل صغيرة دقيقة، وجمالية فن البكسل المفصلة، وثبات الألوان الغنية مع ظلال متغيرة اللون، وإضاءة جوية ناعمة، وعمق جوي، ولقطة سينمائية واسعة للغاية،\nكاتدرائية متجمدة مدمرة شاسعة يمكن رؤيتها من الخلف، أعمدة حجرية مكسورة شاهقة ترتفع من الإطار على كلا الجانبين لتشكل إطارًا حول المشهد، نافذة زجاجية ملونة ضخمة متوهجة تتوهج باللون الذهبي والعنبر في الجزء العلوي من درج كبير مغطى بالجليد، ثلج منجرف، رقاقات ثلجية والصقيع ملتصق بالبناء، ضباب بارد رقيق معلق في الهواء،\nفارس واحد يُرى من الخلف وإلى الجانب قليلاً، يقف منتصبًا وطويلًا بالقرب من أسفل الدرج، صغيرًا في الإطار، حوالي ثلث ارتفاع الصورة، ينظر إلى الأعلى نحو النافذة، وكتفيه إلى الخلف، ويده مقززة ترتكز على مقبض سيف طويل مزروع في أسفل الدرج،\nيرتدي درعًا من الصفيحة الزرقاء الياقوتية العميقة، وفولاذًا أزرق باردًا غير مشبع مع ظلال نيلي وسماوية باهتة، ومخرمًا ذهبيًا قديمًا يلتقط الضوء الدافئ، وخوذة كبيرة ذات شق ضيق للعين وعمود طويل، وعباءة طويلة زرقاء داكنة مغطاة بالثلج والصقيع، وتستقر رقاقات الثلج على كتفيه، وضوء رفيع من الذهب الدافئ على طول حواف درعه وعباءته المواجهة للنافذة، والجانب البعيد عن الضوء في ظل أزرق بارد،\nعمود طويل من الضوء الذهبي من النافذة يقطع الثلج المتساقط والضباب، والظلال النيلية العميقة والأزرق المخضر، وإبرازات زرقاء شاحبة، وضوء ذهبي دافئ باعتباره اللهجة الدافئة الوحيدة، والأعمال الحجرية المهيبة والمفصلة للغاية، والبيئة المقدمة بالكامل،",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145137651 image ai-image-prompts painterly 16-bit pixel art illustration, fine small pixel clusters, detailed pixel art aesthetic, rich color dithering with hue-shifted shadows, soft atmospheric lighting, atmospheric depth, extremely wide cinematic establishing shot, a vast ruined frozen cathedral seen from far back, towering broken stone pillars rising out of frame on both sides forming a frame around the scene, a huge shattered stained glass window glowing gold and amber at the top of a grand ice-covered staircase, drifting snow, icicles and frost clinging to the masonry, thin cold mist hanging in the air, a single knight seen from behind and slightly to the side, standing upright and tall near the foot of the stairs, small in the frame, about one third of the image height, looking up toward the window, shoulders back, one gauntleted hand resting on the hilt of a long greatsword planted point-down in the step, he wears weathered deep sapphire blue plate armour, desaturated cold blue steel with indigo shadows and pale cyan highlights, aged gold filigree catching warm light, a great helm with a narrow eye slit and a tall plume, a long dark blue cape dusted with snow and frost, snowflakes settled on his shoulders, a thin warm gold rim light along the edges of his armour and cape facing the window, the side away from the light in cold blue shadow, a long shaft of golden light from the window cutting through the falling snow and the mist, deep indigo and teal shadows, pale blue highlights, warm gold light as the only warm accent, solemn and majestic, extremely detailed stonework, fully rendered environment, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145137651",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc/original=true/e5c939f8-eec2-46ee-b051-42ecbcfbd1dc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145137470",
+      "title": "Civitai prompt 145137470",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style.\ntext\nbearded male musician performing live on stage, seated acoustic guitar performance, playing a honey-colored wooden acoustic guitar, wearing a colorful tropical short-sleeve button-up shirt with purple blue yellow and white patterns, dark hair slicked back, thick dark beard and mustache, eyes gently closed, expressive relaxed facial expression, head tilted slightly to the side, fingers strumming guitar strings, other hand positioned on the guitar fretboard, black microphone on stand in front of him, guitar pickup and sound hole details, deep royal blue stage backdrop, tiny glowing star-like stage lights, soft theatrical spotlight, vintage live television concert footage, intimate musical performance, mid-shot composition, musician positioned slightly left of center, guitar filling the lower half of the frame, subtle analog video grain, slightly soft focus, nostalgic 1990s concert aesthetic, natural stage lighting, candid performance moment, realistic proportions, authentic live music atmosphere, warm wood tones contrasting with cool blue background, 4:3 aspect ratio",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145137470",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91461940-796b-42bd-ae72-93d193d94f32/original=true/91461940-796b-42bd-ae72-93d193d94f32.jpeg",
+      "model_version_ids": [
+        3377061,
+        3382274
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1697571068,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226722+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d2af5b0d0966bc8bdbe62d228f6f43d40be44feefb3177aeb10f4dc8fc858393",
+      "prompt_ar": "أسلوب الفن برادهاميل.\nنص\nموسيقي ملتح يؤدي مباشرة على خشبة المسرح، أداء جيتار صوتي جالس، يعزف على جيتار صوتي خشبي بلون العسل، يرتدي قميصًا استوائيًا ملونًا قصير الأكمام مع أنماط أرجوانية زرقاء صفراء وبيضاء، شعر داكن أملس إلى الخلف، لحية وشارب داكنان كثيفان، عيون مغلقة بلطف، تعبيرات وجه مريحة معبرة، رأس مائل قليلاً إلى الجانب، أصابع تعزف على أوتار الجيتار، يد أخرى موضوعة على لوحة فريتس الجيتار، ميكروفون أسود على حامل أمامه، التقاط الجيتار وتفاصيل ثقب الصوت، عميق خلفية مسرح زرقاء ملكية، أضواء مسرح صغيرة متوهجة تشبه النجوم، أضواء مسرحية ناعمة، لقطات حفل تلفزيوني مباشر عتيق، أداء موسيقي حميم، تكوين منتصف اللقطة، وضع الموسيقي على يسار المركز قليلاً، غيتار يملأ النصف السفلي من الإطار، حبيبات فيديو تناظرية دقيقة، تركيز ناعم قليلاً، جمالية الحفلات الموسيقية التي تبعث على الحنين إلى التسعينيات، إضاءة المسرح الطبيعية، لحظة أداء صريحة، أبعاد واقعية، جو موسيقى حية أصيل، نغمات خشبية دافئة تتناقض مع خلفية زرقاء باردة، نسبة العرض إلى الارتفاع 4:3",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145137470 image ai-image-prompts bradhamel art style. text bearded male musician performing live on stage, seated acoustic guitar performance, playing a honey-colored wooden acoustic guitar, wearing a colorful tropical short-sleeve button-up shirt with purple blue yellow and white patterns, dark hair slicked back, thick dark beard and mustache, eyes gently closed, expressive relaxed facial expression, head tilted slightly to the side, fingers strumming guitar strings, other hand positioned on the guitar fretboard, black microphone on stand in front of him, guitar pickup and sound hole details, deep royal blue stage backdrop, tiny glowing star-like stage lights, soft theatrical spotlight, vintage live television concert footage, intimate musical performance, mid-shot composition, musician positioned slightly left of center, guitar filling the lower half of the frame, subtle analog video grain, slightly soft focus, nostalgic 1990s concert aesthetic, natural stage lighting, candid performance moment, realistic proportions, authentic live music atmosphere, warm wood tones contrasting with cool blue background, 4:3 aspect ratio civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145137470",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91461940-796b-42bd-ae72-93d193d94f32/original=true/91461940-796b-42bd-ae72-93d193d94f32.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119715",
+      "title": "Civitai prompt 145119715",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Top Gun\": a confident 30-year-old man with aviator sunglasses pushed up on his forehead, wearing a green flight suit fully zipped with long sleeves, stands beside a sleek fighter jet holding a pilot helmet, a pair of dog tags resting on the aircraft wing as the witness, blazing golden hour sunlight with deep metallic shadows, suit-green-and-sky-blue grade, quiet heroic ambition mood, elegant typography in uppercase only centered at the bottom reading 'TOP GUN' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119715",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39104c10-f1db-473b-bcec-e30b79c5afb0/original=true/39104c10-f1db-473b-bcec-e30b79c5afb0.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3748034888,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226743+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4b147967577aff3ad415cf279a2ccf01c87a5d7f006a3834f6dca44ffbb6439a",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد مميز من فيلم \"Top Gun\": رجل واثق من نفسه يبلغ من العمر 30 عامًا يرتدي نظارة شمسية طيار على جبهته، ويرتدي بدلة طيران خضراء بأكمام طويلة، ويقف بجانب طائرة مقاتلة أنيقة يحمل خوذة طيار، وزوج من علامات الكلاب تستقر على جناح الطائرة كشاهد، وشمس الساعة الذهبية المتوهجة مع ظلال معدنية عميقة، بدلة من اللون الأخضر والأزرق السماوي، مزاج طموح بطولي هادئ، طباعة أنيقة بالأحرف الكبيرة تتمركز فقط في الجزء السفلي من القراءة \"أعلى\" GUN' بخط كبير جميل، ملابس كاملة تمامًا، بدون أكتاف عارية، بدون انقسام، بدون عري، بدون أطفال، بدون قاصرين، بدون رصيد ائتماني، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، واقعية السرد الأمريكي، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص روكويل <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، فرشاة مرئية وحبيبات قلم رصاص، إضاءة حافة درامية، صورة ظلية أيقونية مركزية، لوحة ألوان برونزية دافئة وزرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية . عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119715 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"top gun\": a confident 30-year-old man with aviator sunglasses pushed up on his forehead, wearing a green flight suit fully zipped with long sleeves, stands beside a sleek fighter jet holding a pilot helmet, a pair of dog tags resting on the aircraft wing as the witness, blazing golden hour sunlight with deep metallic shadows, suit-green-and-sky-blue grade, quiet heroic ambition mood, elegant typography in uppercase only centered at the bottom reading 'top gun' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119715",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39104c10-f1db-473b-bcec-e30b79c5afb0/original=true/39104c10-f1db-473b-bcec-e30b79c5afb0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119712",
+      "title": "Civitai prompt 145119712",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Jaws\": a rugged 40-year-old man with sun-weathered skin and stubble, wearing a faded navy work shirt buttoned to the collar and a captain's cap, grips the wheel of a battered fishing boat while staring in horror at the dark water, where a massive grey dorsal fin slices toward the boat, a crushed yellow oil barrel floating in the wake as the witness, harsh midday ocean sunlight with deep water shadows, shirt-navy-and-fin-grey grade, quiet primal dread mood, elegant typography in uppercase only centered at the bottom reading 'JAWS' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119712",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2822ed20-a1ed-41f2-bd0f-abb9a39813f7/original=true/2822ed20-a1ed-41f2-bd0f-abb9a39813f7.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 161120378,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226785+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a7b06ef8eb582e62bc50c6c1357b97d76a067bf5f70695a23dc1bf43382b4b54",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"الفك\": رجل قوي البنية يبلغ من العمر 40 عامًا، ذو بشرة متأثرة بالشمس ولحية خفيفة، ويرتدي قميص عمل بحريًا باهتًا بأزرار حتى الياقة وقبعة قبطان، يمسك عجلة قارب صيد متهالك بينما يحدق في رعب في المياه المظلمة، حيث تنزلق زعنفة ظهرية رمادية ضخمة باتجاه القارب، وبرميل زيت أصفر مسحوق يطفو في أعقابه كما شاهد، ضوء شمس المحيط القاسي في منتصف النهار مع ظلال المياه العميقة، قميص كحلي وزعنفة رمادية، مزاج هادئ بدائي، طباعة أنيقة بالأحرف الكبيرة فقط متمركزة في الأسفل مكتوب عليها \"JAWS\" بخط كبير كبير جميل، ملابس كاملة تمامًا، لا أكتاف عارية، لا انقسام، لا عري، لا أطفال، لا قاصرون، لا حظر ائتماني، لا زخارف زخرفية، لا نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119712 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"jaws\": a rugged 40-year-old man with sun-weathered skin and stubble, wearing a faded navy work shirt buttoned to the collar and a captain's cap, grips the wheel of a battered fishing boat while staring in horror at the dark water, where a massive grey dorsal fin slices toward the boat, a crushed yellow oil barrel floating in the wake as the witness, harsh midday ocean sunlight with deep water shadows, shirt-navy-and-fin-grey grade, quiet primal dread mood, elegant typography in uppercase only centered at the bottom reading 'jaws' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119712",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2822ed20-a1ed-41f2-bd0f-abb9a39813f7/original=true/2822ed20-a1ed-41f2-bd0f-abb9a39813f7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119710",
+      "title": "Civitai prompt 145119710",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Titanic\": a 25-year-old woman with fiery red hair pinned up loosely, wearing a flowing white evening gown with a high lace neckline and long sleeves, the gown fully covering her shoulders and chest, stands at the very bow of a massive ocean liner with arms spread wide, while a 25-year-old man in a worn brown jacket buttoned over a shirt and a flat cap stands behind her steadying her waist, a single golden hairpin slipping from her hair as the witness, cold Atlantic twilight with warm golden hour glow on skin, gown-white-and-sea-navy grade, quiet transcendent freedom mood, elegant typography in uppercase only centered at the bottom reading 'TITANIC' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119710",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157/original=true/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1467611066,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226809+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e4b9ba22db6891ed5df745bbbad6605a971510a76183781adfbde4339fff7be9",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"تيتانيك\": امرأة تبلغ من العمر 25 عامًا ذات شعر أحمر ناري مثبت بشكل غير محكم، ترتدي ثوب سهرة أبيض متدفق مع خط عنق دانتيل عالٍ وأكمام طويلة، ويغطي الثوب كتفيها وصدرها بالكامل، تقف عند مقدمة سفينة ضخمة عابرة للمحيطات وذراعيها منتشرتين على نطاق واسع، بينما يقف رجل يبلغ من العمر 25 عامًا يرتدي سترة بنية بالية مع أزرار فوق قميص وقبعة مسطحة خلفها مثبتًا خصرها، ودبوس شعر ذهبي ينزلق من شعرها بينما شاهد، شفق أطلنطي بارد مع توهج الساعة الذهبية الدافئة على الجلد، ثوب باللونين الأبيض والبحري، مزاج هادئ متعالٍ للحرية، طباعة أنيقة بالأحرف الكبيرة في المنتصف فقط في الأسفل، قراءة \"TITANIC\" بخط كبير كبير جميل، ملابس كاملة تمامًا، بدون أكتاف عارية، بدون انقسام، بدون عري، بدون أطفال، بدون قاصرين، بدون حظر ائتمان، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:46Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119710 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"titanic\": a 25-year-old woman with fiery red hair pinned up loosely, wearing a flowing white evening gown with a high lace neckline and long sleeves, the gown fully covering her shoulders and chest, stands at the very bow of a massive ocean liner with arms spread wide, while a 25-year-old man in a worn brown jacket buttoned over a shirt and a flat cap stands behind her steadying her waist, a single golden hairpin slipping from her hair as the witness, cold atlantic twilight with warm golden hour glow on skin, gown-white-and-sea-navy grade, quiet transcendent freedom mood, elegant typography in uppercase only centered at the bottom reading 'titanic' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119710",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157/original=true/b1dbdfa3-a4c3-41eb-bb34-53f54d2ba157.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119717",
+      "title": "Civitai prompt 145119717",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Raiders of the Lost Ark\": a rugged 35-year-old man with a three-day stubble and a battered brown fedora, wearing a worn leather jacket zipped over a khaki long-sleeve shirt and a coiled bullwhip at his hip, snatches a golden idol from a stone pedestal inside a torch-lit temple, while a massive rolling boulder looms in the background, a single grain of sand trickling off the pedestal as the witness, flickering torch-orange with deep stone shadows, jacket-brown-and-idol-gold grade, quiet desperate adventure mood, elegant typography in uppercase only centered at the bottom reading 'RAIDERS OF THE LOST ARK' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119717",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c308b31d-0eed-47e8-a5a7-2fce0d33c48e/original=true/c308b31d-0eed-47e8-a5a7-2fce0d33c48e.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 354812623,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226829+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1456a43939ff821e6c000a4c1304f000f10ca09ddee4a09eb39bf87c60146320",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"غزاة السفينة المفقودة\": رجل قوي البنية يبلغ من العمر 35 عامًا، وله لحية خفيفة لمدة ثلاثة أيام ويرتدي فيدورا بنية متهالكة، ويرتدي سترة جلدية مهترئة فوق قميص كاكي طويل الأكمام وسوطًا ملفوفًا على وركه، ينتزع تمثالًا ذهبيًا من قاعدة حجرية داخل معبد مضاء بالشعلة، بينما تلوح في الأفق صخرة ضخمة متدحرجة في الخلفية، وحبة رمل واحدة تتقطر. خارج القاعدة كالشاهد، شعلة برتقالية وامضة مع ظلال حجرية عميقة، درجة السترة بنية وذهبية، مزاج مغامرة يائس هادئ، طباعة أنيقة بالأحرف الكبيرة تتمركز فقط في الجزء السفلي من القراءة \"RAIDERS OF THE LOST ARK\" بخط كبير جميل، ملابس كاملة تمامًا، لا أكتاف عارية، لا انقسام، لا عري، لا أطفال، لا قاصرون، لا كتلة ائتمان، لا زخارف زخرفية، لا نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 145119717 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"raiders of the lost ark\": a rugged 35-year-old man with a three-day stubble and a battered brown fedora, wearing a worn leather jacket zipped over a khaki long-sleeve shirt and a coiled bullwhip at his hip, snatches a golden idol from a stone pedestal inside a torch-lit temple, while a massive rolling boulder looms in the background, a single grain of sand trickling off the pedestal as the witness, flickering torch-orange with deep stone shadows, jacket-brown-and-idol-gold grade, quiet desperate adventure mood, elegant typography in uppercase only centered at the bottom reading 'raiders of the lost ark' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119717",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c308b31d-0eed-47e8-a5a7-2fce0d33c48e/original=true/c308b31d-0eed-47e8-a5a7-2fce0d33c48e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119724",
+      "title": "Civitai prompt 145119724",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"The Thing\": a rugged 40-year-old man with a thick beard and intense eyes, wearing a heavy green parka fully zipped with a fur-lined hood and long sleeves, holds a flamethrower in a freezing Antarctic outpost, a single drop of frozen blood on the snow as the witness, cold blue arctic light with warm orange flame glow, parka-green-and-ice-white grade, quiet paranoid isolation mood, elegant typography in uppercase only centered at the bottom reading 'THE THING' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119724",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbe69b30-8a28-4494-a5dd-46bb26edbfa0/original=true/fbe69b30-8a28-4494-a5dd-46bb26edbfa0.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1366344787,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226847+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "619bec2626ea6702439f3dbf6f21cbc3aae15e76bbb33cbb9a466d1e0c2dbd1b",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"الشيء\": رجل قوي يبلغ من العمر 40 عامًا ذو لحية كثيفة وعينين كثيفتين، يرتدي سترة خضراء ثقيلة بسحاب كامل مع غطاء مبطن بالفرو وأكمام طويلة، يحمل قاذف اللهب في موقع متجمد في القطب الجنوبي، قطرة واحدة من الدم المتجمد على الثلج كشاهد، ضوء قطبي أزرق بارد مع توهج لهب برتقالي دافئ، سترة من اللون الأخضر والأبيض الجليدي، مزاج هادئ منعزل بجنون العظمة، طباعة أنيقة في حرف كبير في المنتصف فقط في الأسفل يقرأ \"THE THING\" بخط كبير كبير، جميل، يرتدي ملابس كاملة، بدون أكتاف عارية، بدون فتحة صدر، بدون عري، بدون أطفال، بدون قاصرين، بدون رصيد ائتماني، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، بلدة صغيرة رسم توضيحي أمريكي، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، فرشاة مرئية وحبيبات قلم رصاص، إضاءة حافة درامية، صورة ظلية أيقونية مركزية، لوحة ألوان برونزية دافئة وزرقاء باردة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية . عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119724 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"the thing\": a rugged 40-year-old man with a thick beard and intense eyes, wearing a heavy green parka fully zipped with a fur-lined hood and long sleeves, holds a flamethrower in a freezing antarctic outpost, a single drop of frozen blood on the snow as the witness, cold blue arctic light with warm orange flame glow, parka-green-and-ice-white grade, quiet paranoid isolation mood, elegant typography in uppercase only centered at the bottom reading 'the thing' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119724",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbe69b30-8a28-4494-a5dd-46bb26edbfa0/original=true/fbe69b30-8a28-4494-a5dd-46bb26edbfa0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145137355",
+      "title": "Civitai prompt 145137355",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Enchanting nocturnal fantasy landscape of a hidden forest valley surrounding a calm winding lake. Dense towering trees rise along both sides, their slender trunks disappearing into deep teal and indigo shadows. The foreground and riverbanks overflow with thousands of luminous wildflowers in vivid scarlet, coral, orange, magenta, violet, lavender, cobalt blue and tiny touches of white. Bright flowers emerge dramatically from the dark vegetation like scattered jewels. Moss covered rocks and hanging plants frame the water. In the distance, steep misty mountains form a narrow valley with a delicate waterfall descending through blue haze. An enormous pale golden full moon rises directly behind the mountains, partially obscured by the peaks and mist. Its warm reflection creates a subtle shimmering path across the dark blue green water. A tiny warmly illuminated wooden cottage rests beside the lake in the middle distance, almost hidden among the trees. Refined fantasy oil painting, highly detailed fine brushwork, delicate botanical rendering, subtle visible pigment texture, layered translucent color, soft atmospheric blending, rich jewel tones against deep shadow, luminous flowers, painterly reflections, romantic naturalism, magical realism, cinematic depth, mysterious, lush, serene, award winning, a breathtaking masterpiece,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145137355",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60d73552-196a-442b-9517-9aba86921825/original=true/60d73552-196a-442b-9517-9aba86921825.jpeg",
+      "model_version_ids": [
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1104978640,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226864+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cee82530623bc71cf6b34a1aa2686496a3c3268d8e1de19742b3a46559055794",
+      "prompt_ar": "مناظر طبيعية خيالية ليلية ساحرة لوادي غابة مخفي يحيط ببحيرة متعرجة هادئة. ترتفع الأشجار الشاهقة الكثيفة على كلا الجانبين، وتختفي جذوعها النحيلة في ظلال زرقاء داكنة وظلال نيلية. تفيض المقدمة وضفاف النهر بآلاف الزهور البرية المضيئة باللون القرمزي والمرجاني والبرتقالي والأرجواني والبنفسجي والخزامى والأزرق الكوبالت ولمسات صغيرة من اللون الأبيض. تظهر الزهور الزاهية بشكل كبير من الغطاء النباتي الداكن مثل الجواهر المتناثرة. تحيط الصخور المغطاة بالطحالب والنباتات المعلقة بالمياه. وعلى مسافة بعيدة، تشكل الجبال الضبابية شديدة الانحدار واديًا ضيقًا به شلال رقيق ينحدر عبر الضباب الأزرق. يرتفع البدر الذهبي الشاحب الضخم مباشرة خلف الجبال، وتحجبه القمم والضباب جزئيًا. ويخلق انعكاسه الدافئ مسارًا متلألئًا خفيًا عبر المياه الخضراء الزرقاء الداكنة. يقع كوخ خشبي صغير مضاء بشكل دافئ بجانب البحيرة على مسافة متوسطة، ويكاد يكون مخفيًا بين الأشجار. لوحة زيتية خيالية مصقولة، فرشاة دقيقة مفصلة للغاية، تجسيد نباتي دقيق، نسيج صبغي مرئي دقيق، لون شفاف متعدد الطبقات، مزيج جوي ناعم، نغمات جوهرة غنية ضد الظل العميق، زهور مضيئة، انعكاسات رسومية، طبيعية رومانسية، واقعية سحرية، عمق سينمائي، غامض، خصب، هادئ، حائز على جوائز، تحفة خلابة،",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145137355 photography ai-image-prompts enchanting nocturnal fantasy landscape of a hidden forest valley surrounding a calm winding lake. dense towering trees rise along both sides, their slender trunks disappearing into deep teal and indigo shadows. the foreground and riverbanks overflow with thousands of luminous wildflowers in vivid scarlet, coral, orange, magenta, violet, lavender, cobalt blue and tiny touches of white. bright flowers emerge dramatically from the dark vegetation like scattered jewels. moss covered rocks and hanging plants frame the water. in the distance, steep misty mountains form a narrow valley with a delicate waterfall descending through blue haze. an enormous pale golden full moon rises directly behind the mountains, partially obscured by the peaks and mist. its warm reflection creates a subtle shimmering path across the dark blue green water. a tiny warmly illuminated wooden cottage rests beside the lake in the middle distance, almost hidden among the trees. refined fantasy oil painting, highly detailed fine brushwork, delicate botanical rendering, subtle visible pigment texture, layered translucent color, soft atmospheric blending, rich jewel tones against deep shadow, luminous flowers, painterly reflections, romantic naturalism, magical realism, cinematic depth, mysterious, lush, serene, award winning, a breathtaking masterpiece, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145137355",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60d73552-196a-442b-9517-9aba86921825/original=true/60d73552-196a-442b-9517-9aba86921825.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119783",
+      "title": "Civitai prompt 145119783",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Singin' in the Rain\": a lanky 30-year-old man with a boyish grin and a rolled-up umbrella, wearing a tan trench coat buttoned with long sleeves and a fedora, dances joyfully around a lamppost in a flooded city street, splashing water with each step, while a stern policeman in a buttoned uniform watches from a doorway with arms crossed, a single lost shoe floating in a puddle as the witness, warm golden lamplight against cool blue rain, coat-tan-and-rain-silver grade, quiet pure cinematic joy mood, elegant typography in uppercase only centered at the bottom reading 'SINGIN IN THE RAIN' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119783",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d0081d5-977d-4358-81e0-bc9ffe5e5b55/original=true/4d0081d5-977d-4358-81e0-bc9ffe5e5b55.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 449332294,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226884+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "008a89c88b66496fa6a16ab11d31c24508a64dd55c088cbb1a35cef530171934",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"Singin' in the Rain\": رجل نحيف يبلغ من العمر 30 عامًا بابتسامة صبيانية ومظلة مطوية، ويرتدي معطفًا داكنًا بأزرار بأكمام طويلة وفيدورا، ويرقص بسعادة حول عمود إنارة في أحد شوارع المدينة التي غمرتها المياه، ويرش الماء مع كل خطوة، بينما يراقب شرطي صارم يرتدي زيًا بأزرار من المدخل وذراعيه متقاطعتين، وحذاء واحد مفقود يطفو في بركة كشاهد، ذهبي دافئ ضوء المصباح ضد المطر الأزرق البارد، درجة المعطف الفضي والمطري، مزاج سينمائي نقي وهادئ، طباعة أنيقة بأحرف كبيرة متمركزة فقط في الجزء السفلي من القراءة \"SINGIN IN THE RAIN\" بخط كبير كبير جميل، ملابس كاملة تمامًا، بدون أكتاف عارية، بدون انقسام، بدون عري، بدون أطفال، بدون قاصرين، بدون حظر ائتمان، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119783 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"singin' in the rain\": a lanky 30-year-old man with a boyish grin and a rolled-up umbrella, wearing a tan trench coat buttoned with long sleeves and a fedora, dances joyfully around a lamppost in a flooded city street, splashing water with each step, while a stern policeman in a buttoned uniform watches from a doorway with arms crossed, a single lost shoe floating in a puddle as the witness, warm golden lamplight against cool blue rain, coat-tan-and-rain-silver grade, quiet pure cinematic joy mood, elegant typography in uppercase only centered at the bottom reading 'singin in the rain' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119783",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d0081d5-977d-4358-81e0-bc9ffe5e5b55/original=true/4d0081d5-977d-4358-81e0-bc9ffe5e5b55.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119789",
+      "title": "Civitai prompt 145119789",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"2001: A Space Odyssey\": a lone astronaut in a bulky white spacesuit fully sealed floats silently through a vast, rotating space station corridor, reaching toward a glowing red circular eye of a computer panel, while a black monolith reflects starlight in the distance beyond the window, a single floating pen drifting weightlessly as the witness, cold sterile white with deep space black and red computer glow, suit-white-and-space-black grade, quiet cosmic isolation mood, elegant typography in uppercase only centered at the bottom reading '2001 A SPACE ODYSSEY' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119789",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05ac9c2a-f846-40ec-8ee9-184e0471245f/original=true/05ac9c2a-f846-40ec-8ee9-184e0471245f.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3644083866,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226902+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5ffb3d265f7267d78f97c449e6bb4f75762ca6a1f851c8e2d0badea5d2f1741a",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من \"2001: رحلة فضائية\": رائد فضاء وحيد يرتدي بدلة فضاء بيضاء ضخمة ومغلقة بالكامل، يطفو بصمت عبر ممر محطة فضائية دوار واسع، ويصل نحو عين دائرية حمراء متوهجة للوحة الكمبيوتر، في حين تعكس قطعة متراصة سوداء ضوء النجوم في المسافة خلف النافذة، وقلم واحد عائم ينجرف بلا وزن مثل الشاهد، وأبيض بارد معقم مع توهج كمبيوتر أسود وأحمر فضائي عميق، بدلة باللونين الأبيض والأسود، عزلة كونية هادئة مزاج، طباعة أنيقة بأحرف كبيرة متمركزة فقط في الجزء السفلي، قراءة \"2001 A SPACE ODYSSEY\" بخط جميل كبير، ملابس كاملة تمامًا، بدون أكتاف عارية، بدون انقسام، بدون عُري، بدون أطفال، بدون قاصرين، بدون كتلة ائتمان، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119789 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"2001: a space odyssey\": a lone astronaut in a bulky white spacesuit fully sealed floats silently through a vast, rotating space station corridor, reaching toward a glowing red circular eye of a computer panel, while a black monolith reflects starlight in the distance beyond the window, a single floating pen drifting weightlessly as the witness, cold sterile white with deep space black and red computer glow, suit-white-and-space-black grade, quiet cosmic isolation mood, elegant typography in uppercase only centered at the bottom reading '2001 a space odyssey' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119789",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05ac9c2a-f846-40ec-8ee9-184e0471245f/original=true/05ac9c2a-f846-40ec-8ee9-184e0471245f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119791",
+      "title": "Civitai prompt 145119791",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Taxi Driver\": a gaunt 30-year-old man with a wild mohawk and haunted eyes, wearing a faded army field jacket zipped over a plaid long-sleeve shirt, stares at his own reflection in a dirty bathroom mirror pointing his finger like a gun, while steam rises around him and a revolver lies on the sink, a single crumpled taxi fare receipt on the tile floor as the witness, sickly yellow fluorescent with deep green shadows, jacket-olive-and-mirror-silver grade, quiet urban isolation mood, elegant typography in uppercase only centered at the bottom reading 'TAXI DRIVER' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119791",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f77ec5b-162e-4c38-b9cf-321ad01f46f2/original=true/6f77ec5b-162e-4c38-b9cf-321ad01f46f2.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3776789600,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226921+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b04c84dab709181f5e23d9465535175e2a4d7437799466b485e9c1c2a760564b",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"سائق التاكسي\": رجل هزيل يبلغ من العمر 30 عامًا ذو موهوك جامح وعينين مسكونتين، يرتدي سترة عسكرية باهتة مع قميص منقوش طويل الأكمام، يحدق في انعكاس صورته في مرآة الحمام القذرة ويشير بإصبعه مثل البندقية، بينما يتصاعد البخار من حوله والمسدس مستلقي على الحوض، وإيصال أجرة سيارة أجرة واحد مجعد على الأرضية البلاطية كما هو الشاهد، فلورسنت أصفر مريض مع ظلال خضراء عميقة، درجة سترة زيتونية ومرآة فضية، مزاج هادئ منعزل حضري، طباعة أنيقة بالأحرف الكبيرة فقط متمركزة في الأسفل مكتوب عليها \"TAXI DRIVER\" بخط كبير كبير، يرتدي ملابس كاملة تمامًا، لا أكتاف عارية، لا انقسام، لا عري، لا أطفال، لا قاصرون، لا حظر ائتماني، لا زخارف زخرفية، لا نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119791 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"taxi driver\": a gaunt 30-year-old man with a wild mohawk and haunted eyes, wearing a faded army field jacket zipped over a plaid long-sleeve shirt, stares at his own reflection in a dirty bathroom mirror pointing his finger like a gun, while steam rises around him and a revolver lies on the sink, a single crumpled taxi fare receipt on the tile floor as the witness, sickly yellow fluorescent with deep green shadows, jacket-olive-and-mirror-silver grade, quiet urban isolation mood, elegant typography in uppercase only centered at the bottom reading 'taxi driver' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119791",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f77ec5b-162e-4c38-b9cf-321ad01f46f2/original=true/6f77ec5b-162e-4c38-b9cf-321ad01f46f2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119809",
+      "title": "Civitai prompt 145119809",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Interstellar\": a rugged 40-year-old man in a bulky orange spacesuit fully sealed stands on the surface of a desolate water-covered planet, staring up at a massive black hole warping the sky above, while a colossal tidal wave rises silently on the horizon behind him, a single grain of corn from Earth tucked in his suit pocket as the witness, cold deep-space black with warm orange suit glow, suit-orange-and-void-black grade, quiet cosmic desperation mood, elegant typography in uppercase only centered at the bottom reading 'INTERSTELLAR' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119809",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7386d372-6392-4087-87e8-c74fc70f3a02/original=true/7386d372-6392-4087-87e8-c74fc70f3a02.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2173076884,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226939+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f6e26e48cfd34453b69a420fcfc593d14f08919e4e75ea38f4d8a6e4a66abcc5",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم Interstellar: رجل قوي يبلغ من العمر 40 عامًا يرتدي بدلة فضائية برتقالية ضخمة ومغلقة بالكامل يقف على سطح كوكب مقفر مغطى بالمياه، يحدق في ثقب أسود ضخم يزيّن السماء فوقه، بينما ترتفع موجة مد هائلة بصمت في الأفق خلفه، وحبة ذرة واحدة من الأرض مدسوسة في جيب بدلته كشاهد، أسود بارد من الفضاء السحيق مع توهج بدلة برتقالية دافئة، بدلة برتقالية وسوداء فارغة. درجة، مزاج يائس كوني هادئ، طباعة أنيقة بالأحرف الكبيرة متمركزة فقط في الأسفل، قراءة \"بين النجوم\" بخط كبير كبير جميل، ملابس كاملة تمامًا، بدون أكتاف عارية، بدون انقسام، بدون عُري، بدون أطفال، بدون قاصرين، بدون كتلة ائتمان، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119809 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"interstellar\": a rugged 40-year-old man in a bulky orange spacesuit fully sealed stands on the surface of a desolate water-covered planet, staring up at a massive black hole warping the sky above, while a colossal tidal wave rises silently on the horizon behind him, a single grain of corn from earth tucked in his suit pocket as the witness, cold deep-space black with warm orange suit glow, suit-orange-and-void-black grade, quiet cosmic desperation mood, elegant typography in uppercase only centered at the bottom reading 'interstellar' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119809",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7386d372-6392-4087-87e8-c74fc70f3a02/original=true/7386d372-6392-4087-87e8-c74fc70f3a02.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145100350",
+      "title": "Civitai prompt 145100350",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Graphic novel illustration. Delicate and fine ink lines. Precise line work. Vivid colors. High contrast. Deep shadows. Dramatic cinematic shot composition. Anamorphic lens effect.\nCore Subject: A close-up portrait of a woman bathed in intense crimson light with wet strands of hair across her face.\nFraming & Camera Angle: Tight front-facing portrait, cropped from the chin to the top of the head. The camera is at eye level looking straight forward with no tilt. Extremely shallow depth of field, with sharp focus on her eyes and lips while the surrounding background falls into complete darkness.\nComposition & Layout:\nThe face fills almost the entire frame.\nEyes are positioned in the upper half, looking directly into the camera lens with a sultrily heavy-lidded gaze.\nFull, glossy lips centered in the lower-middle third, slightly parted.\nDark, damp strands of hair fall diagonally across the forehead, nose, and cheeks, cutting through the red illumination.\nBackground is completely dark, smooth, and featureless.\nCharacter & Appearance Details:\nFace & Skin: Smooth facial features completely saturated in rich red light.\nEyes & Brows: Dark, almond-shaped eyes with long dark lashes; thick, sharply defined dark eyebrows arched slightly.\nLips & Mouth: Plump, full lips with clear high-shine gloss catching strong highlights on the lower lip.\nHair: Wet, stringy black hair falling in loose, thin strands over the face and draping past the shoulders.\nClothing & Accessories: No visible clothing or jewelry within the tight crop.\nLighting & Atmosphere: Single intense red light source casting strong monochrome red illumination over the entire face. Soft, deep shadows contour the cheekbones, jawline, and nose, creating high-contrast mood lighting.\nColor Palette: Monochromatic red tint mixed with deep shadow blacks, featuring bright crimson highlights on the forehead, cheekbones, nose bridge, and lip gloss.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145100350",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ce3bb9c-d068-41b0-b1e4-0182e717d594/original=true/5ce3bb9c-d068-41b0-b1e4-0182e717d594.jpeg",
+      "model_version_ids": [
+        3072332,
+        3192665
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1339869400,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226962+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8e250eac7c1a48b09520309e5a006348b1c464106bdc07da51889ddc8c3f6ba9",
+      "prompt_ar": "الرسوم التوضيحية رواية مصورة. خطوط حبر دقيقة ودقيقة. عمل خط دقيق. ألوان زاهية. التباين العالي. ظلال عميقة. تركيبة لقطة سينمائية درامية. تأثير عدسة بصرية مشوهة.\nالموضوع الأساسي: صورة مقربة لامرأة تستحم في ضوء قرمزي مكثف مع خصلات شعر مبللة على وجهها.\nالإطار وزاوية الكاميرا: صورة أمامية ضيقة، مقصوصة من الذقن إلى أعلى الرأس. الكاميرا على مستوى العين وتنظر للأمام بشكل مستقيم دون إمالة. عمق مجال ضحل للغاية، مع تركيز حاد على عينيها وشفتيها بينما تقع الخلفية المحيطة في ظلام دامس.\nالتكوين والتخطيط:\nيملأ الوجه الإطار بأكمله تقريبًا.\nيتم وضع العيون في النصف العلوي، وتنظر مباشرة إلى عدسة الكاميرا بنظرة ثقيلة الجفن.\nشفاه ممتلئة ولامعة تتمركز في الثلث السفلي الأوسط، ومتباعدة قليلاً.\nتتساقط خصلات الشعر الداكنة والرطبة قطريًا على الجبهة والأنف والخدين، وتقطع الضوء الأحمر.\nالخلفية داكنة تمامًا، وسلسة، وخالية من الملامح.\nتفاصيل الشخصية والمظهر:\nالوجه والبشرة: ملامح وجه ناعمة مشبعة بالكامل بالضوء الأحمر الغني.\nالعيون والحواجب: عيون داكنة على شكل لوز مع رموش داكنة طويلة. حواجب داكنة سميكة ومحددة بشكل حاد مقوسة قليلاً.\nالشفاه والفم: شفاه ممتلئة وممتلئة مع ملمع شفاف شديد اللمعان يجذب الضوء القوي على الشفة السفلية.\nالشعر: شعر أسود رطب وخيطي يتساقط في خصلات رفيعة وفضفاضة على الوجه وينسدل على الكتفين.\nالملابس والإكسسوارات: لا توجد ملابس أو مجوهرات مرئية ضمن المحصول الضيق.\nالإضاءة والجو: مصدر ضوء أحمر مكثف واحد يلقي إضاءة حمراء قوية أحادية اللون على الوجه بالكامل. ظلال ناعمة وعميقة تحدد عظام الخد وخط الفك والأنف، مما يخلق إضاءة مزاجية عالية التباين.\nلوحة الألوان: لون أحمر أحادي اللون ممزوج بظلال سوداء عميقة، ويتميز بإبرازات قرمزية مشرقة على الجبهة وعظام الخد وجسر الأنف وملمع الشفاه.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145100350 image ai-image-prompts graphic novel illustration. delicate and fine ink lines. precise line work. vivid colors. high contrast. deep shadows. dramatic cinematic shot composition. anamorphic lens effect. core subject: a close-up portrait of a woman bathed in intense crimson light with wet strands of hair across her face. framing & camera angle: tight front-facing portrait, cropped from the chin to the top of the head. the camera is at eye level looking straight forward with no tilt. extremely shallow depth of field, with sharp focus on her eyes and lips while the surrounding background falls into complete darkness. composition & layout: the face fills almost the entire frame. eyes are positioned in the upper half, looking directly into the camera lens with a sultrily heavy-lidded gaze. full, glossy lips centered in the lower-middle third, slightly parted. dark, damp strands of hair fall diagonally across the forehead, nose, and cheeks, cutting through the red illumination. background is completely dark, smooth, and featureless. character & appearance details: face & skin: smooth facial features completely saturated in rich red light. eyes & brows: dark, almond-shaped eyes with long dark lashes; thick, sharply defined dark eyebrows arched slightly. lips & mouth: plump, full lips with clear high-shine gloss catching strong highlights on the lower lip. hair: wet, stringy black hair falling in loose, thin strands over the face and draping past the shoulders. clothing & accessories: no visible clothing or jewelry within the tight crop. lighting & atmosphere: single intense red light source casting strong monochrome red illumination over the entire face. soft, deep shadows contour the cheekbones, jawline, and nose, creating high-contrast mood lighting. color palette: monochromatic red tint mixed with deep shadow blacks, featuring bright crimson highlights on the forehead, cheekbones, nose bridge, and lip gloss. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145100350",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ce3bb9c-d068-41b0-b1e4-0182e717d594/original=true/5ce3bb9c-d068-41b0-b1e4-0182e717d594.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145066518",
+      "title": "Civitai prompt 145066518",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality, BSSINCASE, long hair, looking at viewer, smile, open mouth, blue eyes, simple background, multiple girls, 2girls, bare shoulders, blue hair, upper body, pink hair, parted lips, teeth, sleeveless, tongue, blunt bangs, tongue out, pink eyes, grin, blue background, pink background, tank top, bright pupils, white pupils, two-tone background, blue theme, limited palette, halftone, pink theme, heads together, flat color, cheek-to-cheek, symmetry, blending, blue camisole, contrast\n(volumetric light, masterpiece, shiny skin, bokeh,  cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145066518",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06e794ef-60f0-4003-b035-9180b84b63ba/original=true/06e794ef-60f0-4003-b035-9180b84b63ba.jpeg",
+      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
+      "model_version_ids": [
+        1714002,
+        1843558
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 620763449,
+      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226973+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2af80ad231bfffa99268e18c3314d26cd7d90806feb3a301abd98134fbe70fd8",
+      "prompt_ar": "تحفة، جودة مثالية، أفضل جودة، عبثية، الأحدث، مفصلة للغاية، ملفتة للنظر تمامًا، أسلوب الأنمي، النهار، ضوء الشمس، جزيئات الضوء،\nتحفة، أفضل جودة، جودة مذهلة، BSSINCASE، شعر طويل، النظر إلى المشاهد، ابتسامة، فم مفتوح، عيون زرقاء، خلفية بسيطة، فتيات متعددات، فتاتان، أكتاف عارية، شعر أزرق، الجزء العلوي من الجسم، شعر وردي، شفاه مفترقة، أسنان، بلا أكمام، لسان، غرة حادة، لسان خارج، عيون وردية، ابتسامة، خلفية زرقاء، خلفية وردية، أعلى دبابة، تلاميذ مشرقون، تلاميذ أبيض، خلفية ثنائية اللون، موضوع أزرق، لوحة سمات محدودة، نصفية، وردي، رؤوس معًا، لون مسطح، خد إلى خد، تناظر، مزج، قميص قصير أزرق، تباين\n(الضوء الحجمي، التحفة، الجلد اللامع، البوكيه، الإضاءة السينمائية، الدرامية،)، \n <لورا:Anime_artist_illustious_r1:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145066518 image ai-image-prompts masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles, masterpiece, best quality, amazing quality, bssincase, long hair, looking at viewer, smile, open mouth, blue eyes, simple background, multiple girls, 2girls, bare shoulders, blue hair, upper body, pink hair, parted lips, teeth, sleeveless, tongue, blunt bangs, tongue out, pink eyes, grin, blue background, pink background, tank top, bright pupils, white pupils, two-tone background, blue theme, limited palette, halftone, pink theme, heads together, flat color, cheek-to-cheek, symmetry, blending, blue camisole, contrast (volumetric light, masterpiece, shiny skin, bokeh, cinematic, dramatic lighting,), <lora:anime_artist_illustrious_r1:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145066518",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06e794ef-60f0-4003-b035-9180b84b63ba/original=true/06e794ef-60f0-4003-b035-9180b84b63ba.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145066514",
+      "title": "Civitai prompt 145066514",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality, BSSINCASE,  1girl, solo, looking at viewer, short hair, simple background, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, own hands together, black background, black nails, ear piercing, body writing,\n(volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145066514",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b65817-b444-4c69-9535-224362e1d9a2/original=true/27b65817-b444-4c69-9535-224362e1d9a2.jpeg",
+      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
+      "model_version_ids": [
+        1714002,
+        1843558
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 4224658493,
+      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226984+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3c78abb58ad62be2afe31c3f039b5c6146d44a1cb9467ff1bd3c3b1813986186",
+      "prompt_ar": "تحفة، جودة مثالية، أفضل جودة، عبثية، الأحدث، مفصلة للغاية، ملفتة للنظر تمامًا، أسلوب الأنمي، النهار، ضوء الشمس، جزيئات الضوء،\nتحفة، أفضل جودة، جودة مذهلة، BSSINCASE، فتاة واحدة، منفردة، تنظر إلى المشاهد، شعر قصير، خلفية بسيطة، شعر أسود، أكمام طويلة، عيون حمراء، شعر بين العينين، مجوهرات، أكتاف عارية، سترة، الجزء العلوي من الجسم، أقراط، شعر متوسط، خارج الكتف، طلاء أظافر، هالة، وشم، متوهجة، ثقب، حلقة، أيديهم معًا، خلفية سوداء، أظافر سوداء، ثقب الأذن، كتابة الجسم،\n(الضوء الحجمي، التحفة، الجلد اللامع، البوكيه، أشعة الشمس، الشمس، السينمائية، الإضاءة الدرامية،)، \n <لورا:Anime_artist_illustious_r1:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145066514 image ai-image-prompts masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles, masterpiece, best quality, amazing quality, bssincase, 1girl, solo, looking at viewer, short hair, simple background, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, own hands together, black background, black nails, ear piercing, body writing, (volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), <lora:anime_artist_illustrious_r1:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145066514",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27b65817-b444-4c69-9535-224362e1d9a2/original=true/27b65817-b444-4c69-9535-224362e1d9a2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145066511",
+      "title": "Civitai prompt 145066511",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles,\nmasterpiece, best quality, amazing quality,  1girl, solo, looking at viewer, short hair, cathedral background,, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, beckoning, inviting, , black background, black nails, ear piercing, body writing, smirk, crazy eyes,, altar, cathedral, demon horns, demon wings, reaching, foreshortening, candles, stained glass, wide shot, \n(volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), \n <lora:Anime_artist_illustrious_r1:1>  <lora:Runic_Backlit_Illu_Edition:1> rbl-illu, magic circle, glowing",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145066511",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c7219ae-1019-4bde-a347-f9d70bdc37f8/original=true/7c7219ae-1019-4bde-a347-f9d70bdc37f8.jpeg",
+      "model": "0 BEST ANIME plantMilkModelSuite_walnut",
+      "model_version_ids": [
+        1335966,
+        1714002,
+        1843558
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1751280196,
+      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, blowjob, fellatio,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.226995+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1d0b8fec8945c8406df0a2e270680f078278cb4c1de9b0e8585c0ad5227579f5",
+      "prompt_ar": "تحفة، جودة مثالية، أفضل جودة، عبثية، الأحدث، مفصلة للغاية، ملفتة للنظر تمامًا، أسلوب الأنمي، النهار، ضوء الشمس، جزيئات الضوء،\nتحفة، أفضل جودة، جودة مذهلة، فتاة واحدة، منفردة، تنظر إلى المشاهد، شعر قصير، خلفية كاتدرائية، شعر أسود، أكمام طويلة، عيون حمراء، شعر بين العينين، مجوهرات، أكتاف عارية، سترة، الجزء العلوي من الجسم، أقراط، شعر متوسط، خارج الكتف، طلاء أظافر، هالة، وشم، متوهج، ثقب، حلقة، يومئ، دعوة،، خلفية سوداء، أظافر سوداء، ثقب الأذن، كتابة الجسم، ابتسامة، عيون مجنونة،، مذبح، الكاتدرائية، قرون الشيطان، أجنحة الشيطان، الوصول، التقصير، الشموع، الزجاج الملون، لقطة واسعة، \n(الضوء الحجمي، التحفة، الجلد اللامع، البوكيه، أشعة الشمس، الشمس، السينمائية، الإضاءة الدرامية،)، \n <lora:Anime_artist_illustious_r1:1> <lora:Runic_Backlit_Illu_Edition:1> rbl-illu، دائرة سحرية، متوهجة",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145066511 image ai-image-prompts masterpiece, perfect quality, best quality, absurdness, newest, highly detailed, absolutely eye-catching, anime style, daytime, sunlight, light particles, masterpiece, best quality, amazing quality, 1girl, solo, looking at viewer, short hair, cathedral background,, black hair, long sleeves, red eyes, hair between eyes, jewelry, bare shoulders, jacket, upper body, earrings, medium hair, off shoulder, nail polish, halo, tattoo, glowing, piercing, ring, beckoning, inviting, , black background, black nails, ear piercing, body writing, smirk, crazy eyes,, altar, cathedral, demon horns, demon wings, reaching, foreshortening, candles, stained glass, wide shot, (volumetric light, masterpiece, shiny skin, bokeh, sunrays, sun, cinematic, dramatic lighting,), <lora:anime_artist_illustrious_r1:1> <lora:runic_backlit_illu_edition:1> rbl-illu, magic circle, glowing civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145066511",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c7219ae-1019-4bde-a347-f9d70bdc37f8/original=true/7c7219ae-1019-4bde-a347-f9d70bdc37f8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119808",
+      "title": "Civitai prompt 145119808",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Gladiator\": a broad-shouldered 35-year-old man with a scarred face and short cropped hair, wearing battered leather armor over a long-sleeve linen tunic and a dented helmet held under his arm, stands alone in the center of a vast sand-covered arena, pointing a gladius toward the emperor's balcony, while thousands of tiny figures cheer in the colosseum tiers above, a single broken chariot wheel half-buried in the sand as the witness, harsh Roman noon sun with deep arena shadows, armor-brown-and-sand-gold grade, quiet defiant honor mood, elegant typography in uppercase only centered at the bottom reading 'GLADIATOR' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119808",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/393aadce-ec9e-4fe3-bd1a-339baf654832/original=true/393aadce-ec9e-4fe3-bd1a-339baf654832.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1169831805,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.227014+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dbcdf2b09200505bd678dc4d17a6a9c6d9ac3b4ed804394ec703caafb9b81845",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من فيلم \"Gladiator\": رجل عريض المنكبين يبلغ من العمر 35 عامًا، ذو وجه ملتهب وشعر قصير، يرتدي درعًا جلديًا ممزقًا فوق سترة طويلة الأكمام من الكتان وخوذة منبعجة تحت ذراعه، يقف بمفرده في وسط ساحة واسعة مغطاة بالرمال، ويشير إلى شرفة الإمبراطور، بينما يهتف الآلاف من الشخصيات الصغيرة في طبقات الكولوسيوم أعلاه، وعجلة عربة مكسورة نصف مدفونة. في الرمال كشاهد، شمس ظهيرة رومانية قاسية مع ظلال عميقة في الساحة، درجة الدرع البني والذهبي الرملي، مزاج شرف متحدي هادئ، طباعة أنيقة بالأحرف الكبيرة في المنتصف فقط في الأسفل قراءة \"GLADIATOR\" بخط كبير كبير جميل، ملابس كاملة تمامًا، لا أكتاف عارية، لا انقسام، لا عري، لا أطفال، لا قاصرون، لا كتلة ائتمان، لا زخارف زخرفية، لا نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119808 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"gladiator\": a broad-shouldered 35-year-old man with a scarred face and short cropped hair, wearing battered leather armor over a long-sleeve linen tunic and a dented helmet held under his arm, stands alone in the center of a vast sand-covered arena, pointing a gladius toward the emperor's balcony, while thousands of tiny figures cheer in the colosseum tiers above, a single broken chariot wheel half-buried in the sand as the witness, harsh roman noon sun with deep arena shadows, armor-brown-and-sand-gold grade, quiet defiant honor mood, elegant typography in uppercase only centered at the bottom reading 'gladiator' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119808",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/393aadce-ec9e-4fe3-bd1a-339baf654832/original=true/393aadce-ec9e-4fe3-bd1a-339baf654832.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119804",
+      "title": "Civitai prompt 145119804",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"The Green Mile\": a colossal gentle man with a shaved head and deep sad eyes, wearing a plain white prison jumpsuit buttoned to the neck with long sleeves, sits on a narrow cot in a stone cell, tiny glowing golden sparks floating from his enormous cupped palms, while a thin elderly guard in a khaki uniform buttoned watches from the bars in stunned silence, a single mouse peeking from under the cot as the witness, cold stone gray with warm supernatural gold glow, jumpsuit-white-and-cell-stone grade, quiet miraculous sorrow mood, elegant typography in uppercase only centered at the bottom reading 'THE GREEN MILE' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119804",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00b32322-ee5a-4b84-a374-085735d9be9a/original=true/00b32322-ee5a-4b84-a374-085735d9be9a.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 434931403,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.227033+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1247b7b9002624e0f8b3c6b47f83a876194c5d4d8861a47e9b9d6f324f43cd96",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من \"الميل الأخضر\": رجل مهذب ضخم برأس حليق وعينين حزينتين عميقتين، يرتدي بذلة سجن بيضاء بسيطة بأزرار حتى الرقبة وأكمام طويلة، يجلس على سرير ضيق في زنزانة حجرية، وتطفو شرارات ذهبية متوهجة صغيرة من كفيه الهائلتين، بينما حارس مسن نحيل يرتدي زي كاكي مزررًا يراقب من القضبان في صمت مذهول، وفأر واحد يطل من تحت السرير كشاهد، رمادي حجري بارد مع توهج ذهبي دافئ خارق للطبيعة. بذلة بيضاء وحجر خلوي، مزاج هادئ ومعجزة حزينة، طباعة أنيقة بالأحرف الكبيرة متمركزة فقط في الأسفل مكتوب عليها \"الميل الأخضر\" بخط كبير كبير جميل، ملابس كاملة تمامًا، لا أكتاف عارية، لا انقسام، لا عري، لا أطفال، لا قاصرون، لا حظر ائتماني، لا زخارف زخرفية، لا نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، الواقعية السردية الأمريكية، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم رصاص أكريليك وملون على لوحة توضيحية، ضربات فرشاة مرئية وحبيبات قلم رصاص، دراماتيكية إضاءة الحافة، صورة ظلية أيقونية مركزية، لوحة برونزية دافئة ولوحة زرقاء رائعة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119804 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"the green mile\": a colossal gentle man with a shaved head and deep sad eyes, wearing a plain white prison jumpsuit buttoned to the neck with long sleeves, sits on a narrow cot in a stone cell, tiny glowing golden sparks floating from his enormous cupped palms, while a thin elderly guard in a khaki uniform buttoned watches from the bars in stunned silence, a single mouse peeking from under the cot as the witness, cold stone gray with warm supernatural gold glow, jumpsuit-white-and-cell-stone grade, quiet miraculous sorrow mood, elegant typography in uppercase only centered at the bottom reading 'the green mile' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119804",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00b32322-ee5a-4b84-a374-085735d9be9a/original=true/00b32322-ee5a-4b84-a374-085735d9be9a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145119797",
+      "title": "Civitai prompt 145119797",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still A masterful hybrid of Norman Rockwell's highly detailed narrative realism and rich fabric textures with Drew Struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. All characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. Expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. Warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. Iconic scene from \"Lawrence of Arabia\": a striking 30-year-old man with piercing blue eyes, wearing a flowing white Bedouin robe fully covering his body and a golden headscarf, stands atop a desert dune, a single brass compass resting on the sand as the witness, blazing African sunrise with deep amber shadows, robe-white-and-sand-gold grade, quiet epic destiny mood, elegant typography in uppercase only centered at the bottom reading 'LAWRENCE OF ARABIA' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text  <lora:training_7185876-20261007052120753-2643:0.5> Norman Rockwell style, American narrative realism, small-town America illustration, Rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145119797",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a/original=true/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a.jpeg",
+      "model": "FKR2MP0610-int8_convrot",
+      "model_version_ids": [
+        3240968,
+        3387367,
+        3391425
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2944510699,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-09T10:42:45.227050+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8b9556820218b48eb920a1d15526b531a983cc0fc9b2d68643b5f65e3e1ea376",
+      "prompt_ar": "لا يزال الفيلم السينمائي مزيجًا بارعًا من الواقعية السردية المفصلة للغاية لنورمان روكويل وأنسجة النسيج الغنية مع أسلوب الرسم التوضيحي للملصق السينمائي الشهير لدرو ستروزان، وتقنيات البخاخة المتقنة، والتركيبات البطولية الديناميكية، وإضاءة الحواف المتوهجة، وضربات الفرشاة الشاملة. جميع الشخصيات هم بالغون تمامًا، ويرتدون ملابس كاملة بأزياء محددة بدقة مع خطوط عنق عالية متواضعة وأكمام طويلة. وجوه شخصيات معبرة ومترابطة مع عواطف رواية القصص الدقيقة، جنبًا إلى جنب مع الإضاءة السينمائية الدرامية ولوحات الألوان الدافئة الغنية والمقياس الملحمي. تجتمع الإضاءة الدافئة التي تبعث على الحنين مع ضوء الحافة المتوهج الدرامي، والجمالية الجمالية لملصق الفيلم الكلاسيكي. مشهد أيقوني من \"لورانس العرب\": رجل مذهل يبلغ من العمر 30 عامًا ذو عيون زرقاء خارقة، يرتدي رداءً بدويًا أبيضًا متدفقًا يغطي جسده بالكامل وحجابًا ذهبيًا للرأس، يقف فوق الكثبان الرملية، وبوصلة نحاسية واحدة ترتكز على الرمال كشاهد، شروق الشمس الأفريقي المتوهج بظلال عنبرية عميقة، رداء أبيض وذهبي رملي، مزاج مصير ملحمي هادئ، طباعة أنيقة بالأحرف الكبيرة في المنتصف فقط في الأسفل قراءة \"لورنس العرب\" بخط كبير جميل، يرتدي ملابس كاملة تمامًا، بدون أكتاف عارية، بدون فتحة صدر، بدون عري، بدون أطفال، بدون قاصرين، بدون رصيد ائتماني، بدون زخارف زخرفية، بدون نص إضافي <lora:training_7185876-20261007052120753-2643:0.5> أسلوب نورمان روكويل، واقعية السرد الأمريكي، رسم توضيحي لبلدة صغيرة في أمريكا، رواية القصص الروكويلية <lora:training_7185876-20260818033629675:0.5> قلم أكريليك وملون على لوحة توضيحية، فرشاة مرئية وحبيبات قلم رصاص، إضاءة حافة درامية، صورة ظلية أيقونية مركزية، لوحة ألوان برونزية دافئة وزرقاء باردة، تكوين مونتاج المقالة القصيرة، ملصق مسرحي من الثمانينيات، صورة جريئة واقعية. عمق المجال الضحل، المقالة القصيرة، مفصلة للغاية، ميزانية عالية، بوكيه، سينما سكوب، متقلب المزاج، ملحمي، رائع، حبيبات الفيلم، محبب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-09T10:42:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145119797 image ai-image-prompts cinematic film still a masterful hybrid of norman rockwell's highly detailed narrative realism and rich fabric textures with drew struzan's iconic cinematic poster illustration style, masterful airbrush techniques, dynamic heroic compositions, glowing rim lighting, and sweeping brushstrokes. all characters are strictly adults, fully clothed in meticulously rendered period-accurate costumes with modest high necklines and long sleeves. expressive and relatable character faces with subtle storytelling emotions, combined with dramatic cinematic lighting, rich warm color palettes, and epic scale. warm nostalgic lighting meets dramatic glowing rim light, iconic classic movie poster aesthetic. iconic scene from \"lawrence of arabia\": a striking 30-year-old man with piercing blue eyes, wearing a flowing white bedouin robe fully covering his body and a golden headscarf, stands atop a desert dune, a single brass compass resting on the sand as the witness, blazing african sunrise with deep amber shadows, robe-white-and-sand-gold grade, quiet epic destiny mood, elegant typography in uppercase only centered at the bottom reading 'lawrence of arabia' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no children, no minors, no credit block, no decorative ornaments, no additional text <lora:training_7185876-20261007052120753-2643:0.5> norman rockwell style, american narrative realism, small-town america illustration, rockwellian storytelling <lora:training_7185876-20260818033629675:0.5> acrylic and colored pencil on illustration board, visible brushwork and pencil grain, dramatic rim lighting, central iconic silhouette, warm bronze and cool blue palette, vignette montage composition, 1980s theatrical poster, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145119797",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a/original=true/caa0bb8c-cb51-4ef3-9fbc-5ca0026d698a.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-08T20:42:54.242417+00:00",
-  "prompt_count": 1180,
+  "generated_at": "2026-10-09T10:42:49.853806+00:00",
+  "prompt_count": 1204,
   "translation": {
     "language": "ar",
-    "translated_count": 18,
-    "skipped_count": 1156,
+    "translated_count": 24,
+    "skipped_count": 1174,
     "failed_count": 6,
-    "updated_at": "2026-10-08T20:42:53Z"
+    "updated_at": "2026-10-09T10:42:49Z"
   }
 }
