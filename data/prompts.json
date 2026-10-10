@@ -55797,15 +55797,745 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1bcdf447-06e8-4e58-b9dd-1a06c84500ad/original=true/1bcdf447-06e8-4e58-b9dd-1a06c84500ad.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-145267378",
+      "title": "Civitai prompt 145267378",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, Exactly one clearly adult woman, age 28, shelters beneath a striped awning outside a shuttered shopping-center cafÃ© during a light drizzle. Her round face features a slightly wide nose, hazel eyes, a spray of golden freckles, deep dimples, and silver braces visible in a warm, unexpectedly sunny smile. Dark auburn curls are gathered loosely at the nape, with teal-dyed ends, a windswept fringe, and damp tendrils around her temples. She wears a fitted olive parka over a black skater dress, ribbed leggings, burgundy combat boots, a patterned scarf, tiny star earrings, and a canvas messenger bag without markings. She balances on the edge of the curb, holding a closed umbrella like a walking stick while one boot nudges a trail of rainwater. Metal shutters, blank menu frames, empty cafÃ© chairs, wet brick, and blurred parking-lot lights create a textured background with no other people. Use eye-level three-quarter framing, a thirty-five-millimeter perspective, soft awning light, realistic skin moisture, parka creases, soaked brick, and natural bokeh from distant lamps. <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145267378",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e4764f3-0d42-4f8e-ab2e-12498f887598/original=true/8e4764f3-0d42-4f8e-ab2e-12498f887598.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 124881148,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531358+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "779f3202df3d628613477c4c70b57ed63548841d816924b4656934633102dcfd",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، من الواضح أن امرأة بالغة تبلغ من العمر 28 عامًا، تحتمي تحت مظلة مخططة خارج مقهى مغلق في مركز التسوق أثناء هطول رذاذ خفيف. يتميز وجهها المستدير بأنف عريض قليلاً، وعينين عسليتين، ورذاذ من النمش الذهبي، وغمازات عميقة، وأقواس فضية مرئية في ابتسامة دافئة ومشمسة بشكل غير متوقع. يتم تجميع تجعيدات الشعر باللون البني الداكن بشكل فضفاض عند مؤخرة العنق، مع نهايات مصبوغة باللون الأزرق المخضر، وهامش تذروه الرياح، ومحاليق رطبة حول صدغيها. إنها ترتدي سترة زيتونية مناسبة فوق فستان أسود متزلج، وطماق مضلعة، وأحذية قتالية بورجوندي، ووشاح منقوش، وأقراط على شكل نجمة صغيرة، وحقيبة مراسلة من القماش بدون علامات. تتوازن على حافة الرصيف، ممسكة بمظلة مغلقة مثل عصا المشي بينما يقوم حذاء واحد بدفع مسار مياه الأمطار. إن المصاريع المعدنية، وإطارات القائمة الفارغة، وكراسي المقهى الفارغة، والطوب الرطب، وأضواء مواقف السيارات غير الواضحة تخلق خلفية مزخرفة لا يوجد بها أشخاص آخرون. استخدم إطارًا على مستوى العين بثلاثة أرباع، ومنظورًا بقياس 35 ملم، وضوء مظلة ناعم، ورطوبة واقعية للبشرة، وتجاعيد سترة، وطوب منقوع، وبوكيه طبيعي من مصابيح بعيدة. <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <lora:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145267378 image ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, exactly one clearly adult woman, age 28, shelters beneath a striped awning outside a shuttered shopping-center cafã© during a light drizzle. her round face features a slightly wide nose, hazel eyes, a spray of golden freckles, deep dimples, and silver braces visible in a warm, unexpectedly sunny smile. dark auburn curls are gathered loosely at the nape, with teal-dyed ends, a windswept fringe, and damp tendrils around her temples. she wears a fitted olive parka over a black skater dress, ribbed leggings, burgundy combat boots, a patterned scarf, tiny star earrings, and a canvas messenger bag without markings. she balances on the edge of the curb, holding a closed umbrella like a walking stick while one boot nudges a trail of rainwater. metal shutters, blank menu frames, empty cafã© chairs, wet brick, and blurred parking-lot lights create a textured background with no other people. use eye-level three-quarter framing, a thirty-five-millimeter perspective, soft awning light, realistic skin moisture, parka creases, soaked brick, and natural bokeh from distant lamps. <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145267378",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e4764f3-0d42-4f8e-ab2e-12498f887598/original=true/8e4764f3-0d42-4f8e-ab2e-12498f887598.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145267377",
+      "title": "Civitai prompt 145267377",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@Ani3rel , (masterpiece, best quality:1.2), very aesthetic, absurdres, 8k resolution, perfect hands, ultra-detailed, highres,\nbest quality, anime illustration, cinematic lighting,\nAn ultra-detailed cinematic anime illustration in a grand gothic cathedral, captured from a dramatic low angle (worm's-eye view) to emphasize scale and reverence. The vertical composition is split, with the bottom one-third showing a full-body figure in the foreground, and the upper two-thirds dominated by towering architecture and a massive stained-glass window.\nForeground (Bottom 1/3):\nThe character Mortis (Wakaba Mutsumi's gothic stage persona from BanG Dream!) stands in the lower third of the frame, viewed from a low perspective. She is slightly bowing her head, looking down in a quiet, solemn moment as she cradles a lush, dense bouquet of deep red roses with both hands.\nShe has long, straight, ashy light-green hair with blunt bangs, a hairclip, and yellow eyes with colored eyelashes.\nShe wears an ornate \"Mortis\" costume: a red beret with gold trim, earrings, a ruffled lace jabot, a brooch with a green gem, a dark flowing cape, a layered black and red dress with buttons, white puffy sleeves, red and black shorts, black thigh-high stockings, and red Mary Jane shoes. Backlit by the grand space, her silhouette has a moody, shadow-toned elegance.\nBackground & Glass Artwork (Top 2/3):\nThe vast upper portion of the cathedral is filled with majestic, shadowed stone arches and a colossal vertical arched stained-glass window (vitrail). Sunlight pours through the multi-colored, lead-lined glass, casting vibrant, colorful god rays and volumetric light beams down into the dark interior, where red rose petals are gently falling and drifting.\nThe stained-glass mosaic depicts \"Wakaba Mutsumi\" in her casual outfit, rendered entirely as a luminous, intricate vitrail artwork. The glass-paneled figure shows her with light green hair, a white barrette, wearing a black frilled choker, a green neck ribbon, and a blue plaid dress with a wide frilled collar, plaid puffy long sleeves, white socks, and brown Mary Jane shoes. The glass artwork is huge, towering over Mortis below like a sacred patron on a church wall.\nAtmosphere:\nGothic, melancholic, and sacred. Strong contrast between the dimly lit foreground and the radiant, jewel-like sunlight from the window, with drifting red petals and illuminated dust motes capturing a sense of memory and fantasy. Low-camera tilt, wide-angle cinematic capturing of the cavernous sacred architecture.<lora:Anima_detailer_by_Volnovik_v1_0:0.7> <lora:AddMicroDetails_Anima_v1:0.7> <lora:Anima_in_real_update_v2_epoch_20:1.0> <lora:basic hands:0.7> <lora:lighting_slider-step00000300:0.55> <lora:Anima_colorfix_v1_by_Volnovik:0.9> <lora:anima-base-1-masterpiece-v51:1.0> <lora:Mutsumi-Alpha:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145267377",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07ac4727-118c-44ea-842c-376a84e0469a/original=true/07ac4727-118c-44ea-842c-376a84e0469a.jpeg",
+      "model": "animaDeltaMix29B_deltamixV60Flat",
+      "model_version_ids": [
+        2961717,
+        2974168,
+        3082260,
+        3134960,
+        3142679,
+        3202009,
+        3287274,
+        3360289,
+        3392341
+      ],
+      "width": 4864,
+      "height": 3328,
+      "seed": 606618760198712,
+      "negative_prompt": "worst quality, low quality, blurry, deformed hands, extra fingers, text, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531425+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2b2572c3510c1a2bd900ef1fa126747813c1f2a65f028b6a7e63ea6af260ccdf",
+      "prompt_ar": "@Ani3rel، (تحفة، أفضل جودة: 1.2)، جمالية للغاية، سخيفة، دقة 8K، أيدي مثالية، مفصلة للغاية، عالية الجودة،\nأفضل جودة، الرسوم التوضيحية الأنمي، الإضاءة السينمائية،\nرسم توضيحي سينمائي مفصل للغاية في كاتدرائية قوطية كبيرة، تم التقاطه من زاوية منخفضة مثيرة (منظر عين الدودة) للتأكيد على الحجم والتقديس. ينقسم التكوين الرأسي، حيث يُظهر الثلث السفلي شكل الجسم بالكامل في المقدمة، ويهيمن على الثلثين العلويين الهندسة المعمارية الشاهقة ونافذة ضخمة من الزجاج الملون.\nالمقدمة (أسفل 1/3):\nتقف شخصية Mortis (شخصية Wakaba Mutsumi على المسرح القوطي من BanG Dream!) في الثلث السفلي من الإطار، ويتم عرضها من منظور منخفض. إنها تحني رأسها قليلاً، وتنظر إلى الأسفل في لحظة هادئة ومهيبة وهي تحمل باقة كثيفة من الورود الحمراء العميقة بكلتا يديها.\nلديها شعر طويل ومستقيم وأخضر فاتح رمادي مع غرة حادة ومشبك شعر وعينين صفراء ورموش ملونة.\nإنها ترتدي زي \"مورتيس\" المزخرف: قبعة حمراء مع زخرفة ذهبية، وأقراط، وجابوت من الدانتيل مكشكش، وبروش بجوهرة خضراء، وعباءة داكنة متدفقة، وفستان أسود وأحمر متعدد الطبقات مع أزرار، وأكمام بيضاء منتفخة، وشورت أحمر وأسود، وجوارب سوداء تصل إلى الفخذ، وحذاء ماري جين أحمر. تتميز صورتها الظلية ذات الإضاءة الخلفية بالمساحة الكبيرة بأناقة مزاجية وظلال.\nالخلفية والأعمال الفنية الزجاجية (أعلى 2/3):\nيمتلئ الجزء العلوي الشاسع من الكاتدرائية بأقواس حجرية مهيبة مظللة ونافذة زجاجية ملونة ضخمة مقوسة رأسية (vitrail). يتدفق ضوء الشمس من خلال الزجاج متعدد الألوان المبطن بالرصاص، ويلقي أشعة إلهية ملونة نابضة بالحياة وأشعة ضوئية حجمية إلى الداخل المظلم، حيث تتساقط بتلات الورد الحمراء وتنجرف بلطف.\nتصور الفسيفساء الزجاجية الملونة \"واكابا موتسومي\" في ملابسها غير الرسمية، وقد تم تقديمها بالكامل كعمل فني زجاجي مضيء ومعقد. يظهرها الشكل ذو الألواح الزجاجية بشعر أخضر فاتح، ومشبك أبيض، وترتدي قلادة سوداء مكشكشة، وشريط رقبة أخضر، وفستان أزرق منقوش مع ياقة واسعة مكشكشة، وأكمام طويلة منتفخة منقوشة، وجوارب بيضاء، وحذاء ماري جين بني. العمل الفني الزجاجي ضخم، شاهق فوق مورتيس بالأسفل مثل الراعي المقدس على جدار الكنيسة.\nالغلاف الجوي:\nالقوطية، الحزينة، والمقدسة. تباين قوي بين المقدمة ذات الإضاءة الخافتة وضوء الشمس المشع الشبيه بالجوهرة من النافذة، مع بتلات حمراء منجرفة وذرات غبار مضيئة تلتقط إحساسًا بالذاكرة والخيال. إمالة الكاميرا المنخفضة، والتقاط سينمائي بزاوية واسعة للهندسة المعمارية المقدسة الكهفية.<lora:Anima_detailer_by_Volnovik_v1_0:0.7> <lora:AddMicroDetails_Anima_v1:0.7> <lora:Anima_in_real_update_v2_epoch_20:1.0> <lora:basic Hands:0.7> <lora:lighting_slider-step00000300:0.55> <lora:Anima_colorfix_v1_by_Volnovik:0.9> <lora:anima-base-1-masterpiece-v51:1.0> <lora:Mutsumi-Alpha:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145267377 architecture ai-image-prompts @ani3rel , (masterpiece, best quality:1.2), very aesthetic, absurdres, 8k resolution, perfect hands, ultra-detailed, highres, best quality, anime illustration, cinematic lighting, an ultra-detailed cinematic anime illustration in a grand gothic cathedral, captured from a dramatic low angle (worm's-eye view) to emphasize scale and reverence. the vertical composition is split, with the bottom one-third showing a full-body figure in the foreground, and the upper two-thirds dominated by towering architecture and a massive stained-glass window. foreground (bottom 1/3): the character mortis (wakaba mutsumi's gothic stage persona from bang dream!) stands in the lower third of the frame, viewed from a low perspective. she is slightly bowing her head, looking down in a quiet, solemn moment as she cradles a lush, dense bouquet of deep red roses with both hands. she has long, straight, ashy light-green hair with blunt bangs, a hairclip, and yellow eyes with colored eyelashes. she wears an ornate \"mortis\" costume: a red beret with gold trim, earrings, a ruffled lace jabot, a brooch with a green gem, a dark flowing cape, a layered black and red dress with buttons, white puffy sleeves, red and black shorts, black thigh-high stockings, and red mary jane shoes. backlit by the grand space, her silhouette has a moody, shadow-toned elegance. background & glass artwork (top 2/3): the vast upper portion of the cathedral is filled with majestic, shadowed stone arches and a colossal vertical arched stained-glass window (vitrail). sunlight pours through the multi-colored, lead-lined glass, casting vibrant, colorful god rays and volumetric light beams down into the dark interior, where red rose petals are gently falling and drifting. the stained-glass mosaic depicts \"wakaba mutsumi\" in her casual outfit, rendered entirely as a luminous, intricate vitrail artwork. the glass-paneled figure shows her with light green hair, a white barrette, wearing a black frilled choker, a green neck ribbon, and a blue plaid dress with a wide frilled collar, plaid puffy long sleeves, white socks, and brown mary jane shoes. the glass artwork is huge, towering over mortis below like a sacred patron on a church wall. atmosphere: gothic, melancholic, and sacred. strong contrast between the dimly lit foreground and the radiant, jewel-like sunlight from the window, with drifting red petals and illuminated dust motes capturing a sense of memory and fantasy. low-camera tilt, wide-angle cinematic capturing of the cavernous sacred architecture.<lora:anima_detailer_by_volnovik_v1_0:0.7> <lora:addmicrodetails_anima_v1:0.7> <lora:anima_in_real_update_v2_epoch_20:1.0> <lora:basic hands:0.7> <lora:lighting_slider-step00000300:0.55> <lora:anima_colorfix_v1_by_volnovik:0.9> <lora:anima-base-1-masterpiece-v51:1.0> <lora:mutsumi-alpha:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145267377",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07ac4727-118c-44ea-842c-376a84e0469a/original=true/07ac4727-118c-44ea-842c-376a84e0469a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145267336",
+      "title": "Civitai prompt 145267336",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, Exactly one clearly adult woman, age 32, is the sole subject of a photorealistic lifestyle portrait at a coastal boardwalk with hazy blue water behind her. She has brown eyes, a narrow nose, scattered freckles across the bridge, and a thoughtful half-smile. Her hair is dark blonde half-up style with a velvet ribbon, with believable flyaways and individual strands rather than a painted or plastic finish. Her expression is calm and approachable, with natural posture and realistic proportions. She wears a forest-green knit sweater, black pleated midi skirt, sheer tights, and low ankle boots. Bracing one hand on the railing as her hair lifts in the sea breeze, giving the image a small sense of story without looking staged. Include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. Keep the styling attractive and polished but grounded in an ordinary adult day. Compose a vertical three-quarter portrait with the environment clearly readable behind her. Use bright marine haze with sunlit edges and realistic atmospheric distance. Preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. Add a half-finished sparkling water and realistic condensation on its surface. No readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145267336",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30533006-efdd-437a-86fa-4e90bd639b1b/original=true/30533006-efdd-437a-86fa-4e90bd639b1b.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1883619759,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531456+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9b4ce272b18661675e35c25a477a266dcbef2fd7899974f018e0f1ff5975c34d",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، امرأة بالغة بوضوح، تبلغ من العمر 32 عامًا، هي الموضوع الوحيد لصورة نمط الحياة الواقعية على ممشى ساحلي مع مياه زرقاء ضبابية خلفها. لديها عيون بنية، وأنف ضيق، ونمش متناثر عبر الجسر، ونصف ابتسامة مدروسة. شعرها أشقر غامق نصف مرفوع مع شريط مخملي، مع تطاير معقول وخيوط فردية بدلاً من تشطيب مطلي أو بلاستيكي. تعبيرها هادئ وودود، مع وقفة طبيعية ونسب واقعية. إنها ترتدي سترة متماسكة باللون الأخضر الغابي، وتنورة متوسطة الطول ذات ثنيات سوداء، وجوارب شفافة، وأحذية منخفضة الكاحل. تضع إحدى يديها على الدرابزين بينما يرتفع شعرها في نسيم البحر، مما يمنح الصورة إحساسًا بسيطًا بالقصة دون أن تبدو مسرحية. تشمل نسج القماش، والتجعيد اللطيف عند المرفقين والخصر، والإكسسوارات العملية، والأيدي النظيفة، وعلامات الاستخدام الحقيقي الدقيقة على الملابس والمناطق المحيطة بها. حافظ على التصميم جذابًا ومصقولًا ولكن مرتكزًا على يوم بالغ عادي. قم بتكوين صورة رأسية بطول ثلاثة أرباع مع إمكانية قراءة البيئة خلفها بوضوح. استخدم ضبابًا بحريًا ساطعًا مع حواف مضاءة بنور الشمس ومسافة جوية واقعية. يحافظ على المسام، والشعر الناعم، والعيوب الصغيرة، والأصابع الدقيقة، والتشريح المتماسك، والانعكاسات الواقعية. أضف ماء فوار نصف منتهي وتكثيف واقعي على سطحه. لا يوجد نص قابل للقراءة، أو شعارات علامات تجارية، أو علامة مائية، أو أشخاص إضافيين، أو عناصر خيالية، أو أبعاد جسم مبالغ فيها، أو تجانس كبير لمرشح الجمال. <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <lora:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 145267336 photography ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, exactly one clearly adult woman, age 32, is the sole subject of a photorealistic lifestyle portrait at a coastal boardwalk with hazy blue water behind her. she has brown eyes, a narrow nose, scattered freckles across the bridge, and a thoughtful half-smile. her hair is dark blonde half-up style with a velvet ribbon, with believable flyaways and individual strands rather than a painted or plastic finish. her expression is calm and approachable, with natural posture and realistic proportions. she wears a forest-green knit sweater, black pleated midi skirt, sheer tights, and low ankle boots. bracing one hand on the railing as her hair lifts in the sea breeze, giving the image a small sense of story without looking staged. include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. keep the styling attractive and polished but grounded in an ordinary adult day. compose a vertical three-quarter portrait with the environment clearly readable behind her. use bright marine haze with sunlit edges and realistic atmospheric distance. preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. add a half-finished sparkling water and realistic condensation on its surface. no readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145267336",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30533006-efdd-437a-86fa-4e90bd639b1b/original=true/30533006-efdd-437a-86fa-4e90bd639b1b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144539834",
+      "title": "Civitai prompt 144539834",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Auditore (Female — Renaissance Assassin)\nA graceful female assassin — the Rule 63 gender-swap of Ezio Auditore from Assassin's Creed, framed from head to mid-thighs, the bottom edge of the frame falling cleanly below the belt with the tops of the thighs fully visible, nothing drawn below mid-thigh. Athletic feminine build with narrow waist and toned arms, correctly sized head, clear face with confident charming features and a slight smirk; dark brown hair tied back under the hood with loose strands framing the face. OUTFIT — a white hooded assassin robe with red trim and a high collar, the hood pulled up over the head; a wide red sash belt with a silver eagle buckle at the waist; white fitted pants covering the hips and upper thighs; leather bracers on both forearms with a hidden blade housing on the left. WEAPON — exactly one small hidden blade extended from the left wrist bracer, the short steel blade pointing forward, no second weapon. POSE — a poised rooftop stance, right hand resting on the sash belt, left forearm raised with the blade extended. Background: Renaissance Florence rooftops at sunset — terracotta tile roofs, a distant cathedral dome, laundry lines strung between towers, the golden sun low over the city. Warm golden sunset mixed with cool shadow in the alleys, soft rim light on the white hood and red sash. Highly detailed realistic digital illustration, semi-realistic painterly style, lifelike skin texture, fabric and steel sheen, cinematic lighting, authentic historical action-adventure game key art aesthetic, fully painted background with no white space, background fills every pixel edge to edge with no gray or white bands.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144539834",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2d62b4c-4137-45ff-9f72-586ce5c975a5/original=true/f2d62b4c-4137-45ff-9f72-586ce5c975a5.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531502+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dcd8b2527a6188dcec2af82fe266c1dd9efe1134461f35e39d72f3ff83eda612",
+      "prompt_ar": "Auditore (أنثى – قاتل النهضة)\nقاتلة رشيقة - القاعدة 63 من مبادلة الجنس لـ Ezio Auditore من Assassin's Creed، مؤطرة من الرأس إلى منتصف الفخذين، والحافة السفلية للإطار تسقط بشكل نظيف أسفل الحزام مع ظهور قمم الفخذين بالكامل، ولا يوجد شيء مرسوم أسفل منتصف الفخذ. بناء أنثوي رياضي بخصر ضيق وأذرع متناسقة، ورأس بحجم صحيح، ووجه واضح بملامح ساحرة واثقة وابتسامة طفيفة؛ تم ربط الشعر البني الداكن مرة أخرى أسفل الغطاء بخيوط فضفاضة تؤطر الوجه. الزي - رداء القاتل ذو القلنسوة الأبيض مع زخرفة حمراء وياقة عالية، وغطاء الرأس مشدود فوق الرأس؛ وحزام وشاح أحمر عريض بإبزيم نسر فضي عند الخصر؛ السراويل البيضاء المجهزة تغطي الوركين والفخذين العلويين؛ دعامات جلدية على كلا الساعدين مع غطاء شفرة مخفي على اليسار. السلاح - بالضبط شفرة صغيرة مخفية ممتدة من دعامة المعصم اليسرى، الشفرة الفولاذية القصيرة تشير إلى الأمام، ولا يوجد سلاح ثانٍ. POSE - وقفة متوازنة على السطح، واليد اليمنى تستقر على حزام الوشاح، والساعد الأيسر مرفوع مع تمديد الشفرة. الخلفية: أسطح المنازل في فلورنسا في عصر النهضة عند غروب الشمس - أسطح من بلاط الطين، وقبة كاتدرائية بعيدة، وخطوط غسيل معلقة بين الأبراج، والشمس الذهبية منخفضة فوق المدينة. غروب الشمس الذهبي الدافئ الممزوج بظل بارد في الأزقة، وضوء حافة ناعم على غطاء محرك السيارة الأبيض والوشاح الأحمر. رسم توضيحي رقمي واقعي مفصل للغاية، وأسلوب رسم شبه واقعي، وملمس جلد نابض بالحياة، ولمعان من القماش والفولاذ، وإضاءة سينمائية، وجمالية فنية أساسية للعبة المغامرات التاريخية الأصيلة، وخلفية مرسومة بالكامل بدون مساحة بيضاء، وتملأ الخلفية كل بكسل من الحافة إلى الحافة بدون أشرطة رمادية أو بيضاء.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:36Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 144539834 fashion ai-image-prompts auditore (female — renaissance assassin) a graceful female assassin — the rule 63 gender-swap of ezio auditore from assassin's creed, framed from head to mid-thighs, the bottom edge of the frame falling cleanly below the belt with the tops of the thighs fully visible, nothing drawn below mid-thigh. athletic feminine build with narrow waist and toned arms, correctly sized head, clear face with confident charming features and a slight smirk; dark brown hair tied back under the hood with loose strands framing the face. outfit — a white hooded assassin robe with red trim and a high collar, the hood pulled up over the head; a wide red sash belt with a silver eagle buckle at the waist; white fitted pants covering the hips and upper thighs; leather bracers on both forearms with a hidden blade housing on the left. weapon — exactly one small hidden blade extended from the left wrist bracer, the short steel blade pointing forward, no second weapon. pose — a poised rooftop stance, right hand resting on the sash belt, left forearm raised with the blade extended. background: renaissance florence rooftops at sunset — terracotta tile roofs, a distant cathedral dome, laundry lines strung between towers, the golden sun low over the city. warm golden sunset mixed with cool shadow in the alleys, soft rim light on the white hood and red sash. highly detailed realistic digital illustration, semi-realistic painterly style, lifelike skin texture, fabric and steel sheen, cinematic lighting, authentic historical action-adventure game key art aesthetic, fully painted background with no white space, background fills every pixel edge to edge with no gray or white bands. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144539834",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2d62b4c-4137-45ff-9f72-586ce5c975a5/original=true/f2d62b4c-4137-45ff-9f72-586ce5c975a5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145267252",
+      "title": "Civitai prompt 145267252",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, Exactly one clearly adult woman, age 26, is the sole subject of a photorealistic lifestyle portrait at a sunlit apartment balcony filled with potted herbs. She has brown eyes, a narrow nose, scattered freckles across the bridge, and a thoughtful half-smile. Her hair is chestnut-brown shag with feathered bangs, with believable flyaways and individual strands rather than a painted or plastic finish. Her expression is calm and approachable, with natural posture and realistic proportions. She wears a terracotta linen jumpsuit, woven belt, simple hoops, and tan sandals. Resting one elbow on the railing while turning her shoulders toward the camera, giving the image a small sense of story without looking staged. Include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. Keep the styling attractive and polished but grounded in an ordinary adult day. Compose a vertical three-quarter portrait with the environment clearly readable behind her. Use clear late-afternoon sun with gentle bounce light and believable shadow edges. Preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. No readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145267252",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e0a5da2-1bd3-416e-930d-330966ef859d/original=true/3e0a5da2-1bd3-416e-930d-330966ef859d.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 825997790,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531527+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9f626e5e1c76163b4deda3250967440c6f4291fd194e7a33ecaba9d998ca91a6",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، امرأة بالغة بوضوح، تبلغ من العمر 26 عامًا، هي الموضوع الوحيد لصورة نمط الحياة الواقعية في شرفة شقة مضاءة بنور الشمس ومليئة بوعاء الأعشاب. لديها عيون بنية، وأنف ضيق، ونمش متناثر عبر الجسر، ونصف ابتسامة مدروسة. شعرها بني كستنائي أشعث مع غرة من الريش، مع تطاير معقول وخيوط فردية بدلاً من تشطيب مطلي أو بلاستيكي. تعبيرها هادئ وودود، مع وقفة طبيعية ونسب واقعية. ترتدي بذلة من الكتان، وحزامًا منسوجًا، وأطواقًا بسيطة، وصندلًا أسمرًا. تضع مرفقها على الدرابزين بينما تدير كتفيها نحو الكاميرا، مما يمنح الصورة إحساسًا بسيطًا بالقصة دون أن تبدو مسرحية. تشمل نسج القماش، والتجعيد اللطيف عند المرفقين والخصر، والإكسسوارات العملية، والأيدي النظيفة، وعلامات الاستخدام الحقيقي الدقيقة على الملابس والمناطق المحيطة بها. حافظ على التصميم جذابًا ومصقولًا ولكن مرتكزًا على يوم بالغ عادي. قم بتكوين صورة رأسية بطول ثلاثة أرباع مع إمكانية قراءة البيئة خلفها بوضوح. استخدم شمسًا صافية في وقت متأخر بعد الظهر مع ضوء مرتد لطيف وحواف ظل معقولة. يحافظ على المسام، والشعر الناعم، والعيوب الصغيرة، والأصابع الدقيقة، والتشريح المتماسك، والانعكاسات الواقعية. لا يوجد نص قابل للقراءة، أو شعارات علامات تجارية، أو علامة مائية، أو أشخاص إضافيين، أو عناصر خيالية، أو أبعاد جسم مبالغ فيها، أو تجانس كبير لمرشح الجمال. <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <lora:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145267252 image ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, exactly one clearly adult woman, age 26, is the sole subject of a photorealistic lifestyle portrait at a sunlit apartment balcony filled with potted herbs. she has brown eyes, a narrow nose, scattered freckles across the bridge, and a thoughtful half-smile. her hair is chestnut-brown shag with feathered bangs, with believable flyaways and individual strands rather than a painted or plastic finish. her expression is calm and approachable, with natural posture and realistic proportions. she wears a terracotta linen jumpsuit, woven belt, simple hoops, and tan sandals. resting one elbow on the railing while turning her shoulders toward the camera, giving the image a small sense of story without looking staged. include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. keep the styling attractive and polished but grounded in an ordinary adult day. compose a vertical three-quarter portrait with the environment clearly readable behind her. use clear late-afternoon sun with gentle bounce light and believable shadow edges. preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. no readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145267252",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e0a5da2-1bd3-416e-930d-330966ef859d/original=true/3e0a5da2-1bd3-416e-930d-330966ef859d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145267022",
+      "title": "Civitai prompt 145267022",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Horror. The fantastic city consists of only megastructures and colossal dwellings designed by alien technology. All the buildings on the streets are megastructures with a huge number of floors. The windows shine with warm light, they are cozy. The street is clean and tidy. The exterior of the buildings is neat and well maintained. The buildings are huge, colossal, absolutely fantastic. The streets are deserted and empty. It's a dangerous and deadly night outside outdoors. Creepy black creatures on thin limbs creep along the walls of buildings, their eyes glow with a dim green glow. They're hiding in the shadows. The creatures have a consistent anatomy. The semantic contrast between the calm comfort of dwewllings and the terrible dangerous night street.\nDeep dark night. Crescent moon. Photorealistic artfully composition, chiaroscuro lighting.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145267022",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d87690a0-e91b-46e4-81b6-a208c1ba1dd4/original=true/d87690a0-e91b-46e4-81b6-a208c1ba1dd4.jpeg",
+      "model": "Krea2\\msKREA2TurboV1_v1",
+      "model_version_ids": [],
+      "width": 1632,
+      "height": 2456,
+      "seed": 1000544581474745,
+      "negative_prompt": "(passersby, walker, peoples), small houses, low-rise buildings, worst quality, low quality, (anime), blurry, lowres, bad quality, jpeg artifacts, cropped, watermark, distorted perspective, underexposed, overexposed, low-detail, grainy, noisy, deformed terrain, tiling, repeating patterns, flat composition, dull colors, CGI, 3D render,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531545+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "82e1b2027328af0d876f455eef95b2299b7f1321c60ab29ed3dec8c577377f94",
+      "prompt_ar": "رعب. تتكون المدينة الرائعة من هياكل ضخمة ومساكن ضخمة صممتها التكنولوجيا الفضائية. جميع المباني في الشوارع عبارة عن هياكل ضخمة تضم عددًا كبيرًا من الطوابق. تتألق النوافذ بالضوء الدافئ وهي مريحة. الشارع نظيف ومرتب . المظهر الخارجي للمباني أنيق ويتم صيانته جيدًا. المباني ضخمة وهائلة ورائعة للغاية. الشوارع مهجورة وخالية. إنها ليلة خطيرة ومميتة بالخارج. تزحف مخلوقات سوداء مخيفة ذات أطراف رفيعة على طول جدران المباني، وتتوهج عيونها بتوهج أخضر خافت. إنهم يختبئون في الظل. المخلوقات لديها تشريح ثابت. التناقض الدلالي بين راحة المساكن الهادئة والشارع الليلي الخطير الرهيب.\nليلة مظلمة عميقة. هلال. تكوين واقعي ببراعة وإضاءة تشياروسكورو.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145267022 architecture ai-image-prompts horror. the fantastic city consists of only megastructures and colossal dwellings designed by alien technology. all the buildings on the streets are megastructures with a huge number of floors. the windows shine with warm light, they are cozy. the street is clean and tidy. the exterior of the buildings is neat and well maintained. the buildings are huge, colossal, absolutely fantastic. the streets are deserted and empty. it's a dangerous and deadly night outside outdoors. creepy black creatures on thin limbs creep along the walls of buildings, their eyes glow with a dim green glow. they're hiding in the shadows. the creatures have a consistent anatomy. the semantic contrast between the calm comfort of dwewllings and the terrible dangerous night street. deep dark night. crescent moon. photorealistic artfully composition, chiaroscuro lighting. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145267022",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d87690a0-e91b-46e4-81b6-a208c1ba1dd4/original=true/d87690a0-e91b-46e4-81b6-a208c1ba1dd4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143293042",
+      "title": "Civitai prompt 143293042",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Semi-realistic cinematic digital painting in vertical two-by-three composition, tight close-up portrait framing from the bare shoulders up to the top of the head, a breathtakingly beautiful feminine figure with pale porcelain skin and soft delicate features, long wavy chestnut-brown hair with a few damp strands clinging to her cheek, gaze lifted upward and to the right with a dreamy distant expression, detailed aquamarine eyes with long dark eyelashes large in the upper third of the frame, a streak of light blue-green pigment smeared artistically across the bridge of her nose and left cheek, fine iridescent glitter scattered across her cheekbones and bare collarbones catching the light, soft pink lips slightly parted, soft warm golden lighting from the left carving gentle shadows across her face, a faint cool rim light from the right separating her hair from the background, shallow depth of field with a natural forest background melting into creamy green and gold bokeh, intimate moody atmosphere, subtle painterly finish layered over realistic skin texture with visible pores and natural moisture, the frame contains only this single figure, the background stays empty of any other figures or objects, no text, no watermark, no anime style.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143293042",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2430680a-8115-41ec-8241-05182d6b7a12/original=true/2430680a-8115-41ec-8241-05182d6b7a12.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531566+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "31c1bed02531da4727f471dcdf33ccc78638c07eb3bdee0dd90ae53938445d80",
+      "prompt_ar": "لوحة رقمية سينمائية شبه واقعية بتكوين عمودي اثنين في ثلاثة، إطار صورة مقرب ومحكم من الأكتاف العارية حتى أعلى الرأس، شخصية أنثوية جميلة بشكل مذهل مع بشرة خزفية شاحبة وملامح ناعمة وحساسة، شعر بني كستنائي طويل مموج مع بضعة خيوط رطبة تتشبث بخدها، نظرة مرفوعة لأعلى وإلى اليمين مع تعبير بعيد حالم، عيون زبرجد مفصلة مع رموش داكنة طويلة كبيرة في الثلث العلوي من الإطار، خط من الضوء صبغة زرقاء وخضراء ملطخة بشكل فني على جسر أنفها وخدها الأيسر، بريق قزحي ناعم منتشر على عظام وجنتيها وعظام الترقوة العارية يلتقط الضوء، شفاه وردية ناعمة متباعدة قليلاً، إضاءة ذهبية دافئة ناعمة من اليسار تنحت ظلال لطيفة على وجهها، ضوء حافة بارد خافت من اليمين يفصل شعرها عن الخلفية، عمق حقل ضحل مع خلفية غابة طبيعية تذوب في بوكيه أخضر كريمي وذهبي، جو مزاجي حميم، لمسة نهائية رسامة دقيقة على نسيج الجلد الواقعي. مع المسام المرئية والرطوبة الطبيعية، يحتوي الإطار على هذا الشكل الفردي فقط، وتبقى الخلفية فارغة من أي أشكال أو كائنات أخرى، بدون نص، ولا علامة مائية، ولا نمط أنيمي.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143293042 photography ai-image-prompts semi-realistic cinematic digital painting in vertical two-by-three composition, tight close-up portrait framing from the bare shoulders up to the top of the head, a breathtakingly beautiful feminine figure with pale porcelain skin and soft delicate features, long wavy chestnut-brown hair with a few damp strands clinging to her cheek, gaze lifted upward and to the right with a dreamy distant expression, detailed aquamarine eyes with long dark eyelashes large in the upper third of the frame, a streak of light blue-green pigment smeared artistically across the bridge of her nose and left cheek, fine iridescent glitter scattered across her cheekbones and bare collarbones catching the light, soft pink lips slightly parted, soft warm golden lighting from the left carving gentle shadows across her face, a faint cool rim light from the right separating her hair from the background, shallow depth of field with a natural forest background melting into creamy green and gold bokeh, intimate moody atmosphere, subtle painterly finish layered over realistic skin texture with visible pores and natural moisture, the frame contains only this single figure, the background stays empty of any other figures or objects, no text, no watermark, no anime style. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143293042",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2430680a-8115-41ec-8241-05182d6b7a12/original=true/2430680a-8115-41ec-8241-05182d6b7a12.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266914",
+      "title": "Civitai prompt 145266914",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, photorealistic extreme close-up selfie of a clearly adult woman age 25+, alternative scene-inspired style, shot from slightly above with a wide-angle smartphone lens, her face filling most of the frame, leaning toward the camera with intense direct eye contact, one hand raised across her cheek and lips with relaxed fingers, playful sultry expression, soft glossy lips slightly pursed\nmessy shoulder-length platinum-blonde hair with dark natural roots, intentionally tousled and slightly frizzy texture, vivid hot-pink streaks scattered through the hair, loose flyaway strands illuminated by the flash, imperfect lived-in alternative hairstyle\nwarm brown eyes, heavy black mascara, long realistic lashes, subtle black eyeliner, faint freckles across the cheeks and nose, realistic adult facial structure, natural skin texture, visible pores, subtle blemishes and tiny imperfections, slight shine on forehead and nose caused by direct flash, no plastic or airbrushed skin\nsmall nostril piercing and silver septum ring, layered thin silver chain necklaces and choker-style jewelry, black-and-red striped fingerless arm warmer covering the wrist and forearm, colorful alternative bracelets, dark floral low-cut fitted top with hot-pink trim, neckline visible at the bottom edge of the frame, sexy but naturally styled\nvery close candid social-media selfie composition, camera positioned slightly above eye level and pointed downward, shoulders and upper chest partially visible, intimate cramped framing, slightly exaggerated perspective from the phone lens, spontaneous late-night bedroom-photo feeling\nstrong harsh direct phone flash in an otherwise dark room, bright frontal illumination, deep shadow falloff behind the subject, subtle flash hotspot on the forehead, nose and cheeks, crisp catchlights in the eyes, slightly overexposed highlights, dark indistinct background, realistic point-and-shoot / early social-media photography aesthetic\nraw candid realism, imperfect framing, subtle digital noise, fine hair detail, believable hand anatomy, realistic fingers and nails, natural adult proportions, no glamour-studio lighting, no plastic skin, no excessive smoothing, no text, no watermark <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266914",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b625882a-c123-433a-aab6-5c133ea1751f/original=true/b625882a-c123-433a-aab6-5c133ea1751f.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1328766570,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531596+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7eaced6e56969451ff9ee8ae077a8edd056dd1a22ba5a7c58f62def9342653fe",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، صورة شخصية واقعية للغاية عن قرب لامرأة بالغة تبلغ من العمر 25 عامًا فما فوق، أسلوب بديل مستوحى من المشهد، تم التقاطه من الأعلى قليلاً باستخدام عدسة هاتف ذكي ذات زاوية واسعة، يملأ وجهها معظم الإطار، ويميل نحو الكاميرا مع اتصال مباشر مكثف بالعين، ويد واحدة مرفوعة على خدها وشفتيها بأصابع مسترخية، تعبير مرح ومثير، شفاه ناعمة لامعة مزمومة قليلاً\nشعر أشقر بلاتيني بطول الكتفين ذو جذور طبيعية داكنة، ملمس أشعث ومجعد قليلاً، خطوط زاهية وردية ساخنة منتشرة عبر الشعر، خيوط متطايرة فضفاضة يضيءها الوميض، تسريحة شعر بديلة غير مثالية.\nعيون بنية دافئة، ماسكارا سوداء ثقيلة، رموش واقعية طويلة، محدد عيون أسود رقيق، نمش خافت على الخدين والأنف، بنية وجه واقعية للبالغين، ملمس طبيعي للبشرة، مسام مرئية، عيوب دقيقة وعيوب صغيرة، لمعان طفيف على الجبهة والأنف ناجم عن الوميض المباشر، بدون جلد بلاستيكي أو ممشط.\nثقب صغير للأنف وحلقة حاجز فضية، وقلادات من سلسلة فضية رفيعة ذات طبقات ومجوهرات على شكل قلادة، وأداة تدفئة للذراع بدون أصابع مخططة باللونين الأسود والأحمر تغطي المعصم والساعد، وأساور بديلة ملونة، وجزء علوي مزود بزهور داكنة منخفضة القطع مع زخرفة باللون الوردي الساخن، وخط العنق مرئي في الحافة السفلية للإطار، مثير ولكن مصمم بشكل طبيعي\nتكوين سيلفي صريح للغاية لوسائل التواصل الاجتماعي، وضع الكاميرا أعلى قليلاً من مستوى العين وموجهة نحو الأسفل، الكتفين والجزء العلوي من الصدر مرئيان جزئيًا، إطار حميمي ضيق، منظور مبالغ فيه قليلاً من عدسة الهاتف، شعور تلقائي بصور غرفة النوم في وقت متأخر من الليل\nفلاش هاتف مباشر قوي وقاس في غرفة مظلمة، وإضاءة أمامية ساطعة، وظلال عميقة متساقطة خلف الهدف، ونقطة فلاش دقيقة على الجبهة والأنف والخدين، وأضواء كاشفة واضحة في العينين، وإبرازات شديدة التعريض قليلاً، وخلفية داكنة غير واضحة، والتقاط صور واقعية / جمالية التصوير الفوتوغرافي لوسائل التواصل الاجتماعي المبكرة\nواقعية صريحة خام، إطار غير مثالي، ضوضاء رقمية خفية، تفاصيل شعر دقيقة، تشريح يد قابل للتصديق، أصابع وأظافر واقعية، أبعاد طبيعية للبالغين، بدون إضاءة استوديو ساحرة، بدون جلد بلاستيكي، بدون تنعيم مفرط، بدون نص، بدون علامة مائية <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <لورا:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266914 image ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, photorealistic extreme close-up selfie of a clearly adult woman age 25+, alternative scene-inspired style, shot from slightly above with a wide-angle smartphone lens, her face filling most of the frame, leaning toward the camera with intense direct eye contact, one hand raised across her cheek and lips with relaxed fingers, playful sultry expression, soft glossy lips slightly pursed messy shoulder-length platinum-blonde hair with dark natural roots, intentionally tousled and slightly frizzy texture, vivid hot-pink streaks scattered through the hair, loose flyaway strands illuminated by the flash, imperfect lived-in alternative hairstyle warm brown eyes, heavy black mascara, long realistic lashes, subtle black eyeliner, faint freckles across the cheeks and nose, realistic adult facial structure, natural skin texture, visible pores, subtle blemishes and tiny imperfections, slight shine on forehead and nose caused by direct flash, no plastic or airbrushed skin small nostril piercing and silver septum ring, layered thin silver chain necklaces and choker-style jewelry, black-and-red striped fingerless arm warmer covering the wrist and forearm, colorful alternative bracelets, dark floral low-cut fitted top with hot-pink trim, neckline visible at the bottom edge of the frame, sexy but naturally styled very close candid social-media selfie composition, camera positioned slightly above eye level and pointed downward, shoulders and upper chest partially visible, intimate cramped framing, slightly exaggerated perspective from the phone lens, spontaneous late-night bedroom-photo feeling strong harsh direct phone flash in an otherwise dark room, bright frontal illumination, deep shadow falloff behind the subject, subtle flash hotspot on the forehead, nose and cheeks, crisp catchlights in the eyes, slightly overexposed highlights, dark indistinct background, realistic point-and-shoot / early social-media photography aesthetic raw candid realism, imperfect framing, subtle digital noise, fine hair detail, believable hand anatomy, realistic fingers and nails, natural adult proportions, no glamour-studio lighting, no plastic skin, no excessive smoothing, no text, no watermark <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266914",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b625882a-c123-433a-aab6-5c133ea1751f/original=true/b625882a-c123-433a-aab6-5c133ea1751f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266786",
+      "title": "Civitai prompt 145266786",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, Exactly one clearly adult woman, age 27, takes a mirror selfie in a narrow bedroom doorway moments before leaving for a show. Her narrow face has a button nose, large chocolate-brown eyes, a dusting of freckles, one deep dimple, and braces visible beneath an excited open smile. Jagged black hair fans past her shoulders, interrupted by electric cobalt panels and a sculpted side fringe that nearly touches her eyelashes. She wears a fitted red leopard-pattern cardigan over a plain charcoal camisole, black drainpipe jeans, buckled ankle boots, a studded wrist cuff, layered chains, and a compact crossbody bag. Holding a small silver phone beside her cheek, she angles one hip toward the mirror and lifts her free hand as if fixing the fringe. The slightly smudged mirror reflects an unmade bed, a textless poster wall, a striped scarf on the doorknob, and warm bulbs around a chipped vanity. Use authentic reflected framing, mild wide-angle distortion, direct phone flash mixed with tungsten light, realistic skin, fingerprints on glass, worn metal, and textured knit fabric. <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266786",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd19e44c-e5a0-4292-b585-1eeb09be8360/original=true/fd19e44c-e5a0-4292-b585-1eeb09be8360.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1346559808,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531617+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "247189eab3bf3ba06b5b64a78039e1f9fd72c4d1776c3902b643828ec734bece",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، امرأة بالغة بشكل واضح، تبلغ من العمر 27 عامًا، تلتقط صورة شخصية في المرآة في مدخل غرفة النوم الضيقة قبل لحظات من المغادرة لحضور العرض. وجهها الضيق له أنف زري، وعينان كبيرتان بلون الشوكولاتة، وغبار من النمش، وغمازة عميقة، وتقويم أسنان مرئي تحت ابتسامة مفتوحة متحمسة. يتطاير الشعر الأسود الخشن فوق كتفيها، وتتخلله ألواح الكوبالت الكهربائية وحافة جانبية منحوتة تكاد تلامس رموشها. إنها ترتدي سترة صوفية حمراء بنمط الفهد فوق قميص قصير فحمي عادي، وجينز أسود، وحذاء كاحل بإبزيم، وأساور معصم مرصعة، وسلاسل ذات طبقات، وحقيبة كروس صغيرة الحجم. تحمل هاتفًا فضيًا صغيرًا بجانب خدها، وتميل بإحدى وركيها نحو المرآة وترفع يدها الحرة كما لو كانت تصلح الهدبة. تعكس المرآة الملطخة قليلاً سريرًا غير مرتب، وجدارًا بلا نصوص، ووشاحًا مخططًا على مقبض الباب، ومصابيح دافئة حول منضدة زينة متكسرة. استخدم إطارًا منعكسًا أصليًا، وتشويهًا خفيفًا بزاوية عريضة، وفلاش هاتف مباشر ممزوجًا بضوء التنغستن، وجلدًا واقعيًا، وبصمات أصابع على الزجاج، ومعدنًا مهترئًا، وقماشًا محبوكًا. <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <lora:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:37Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266786 image ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, exactly one clearly adult woman, age 27, takes a mirror selfie in a narrow bedroom doorway moments before leaving for a show. her narrow face has a button nose, large chocolate-brown eyes, a dusting of freckles, one deep dimple, and braces visible beneath an excited open smile. jagged black hair fans past her shoulders, interrupted by electric cobalt panels and a sculpted side fringe that nearly touches her eyelashes. she wears a fitted red leopard-pattern cardigan over a plain charcoal camisole, black drainpipe jeans, buckled ankle boots, a studded wrist cuff, layered chains, and a compact crossbody bag. holding a small silver phone beside her cheek, she angles one hip toward the mirror and lifts her free hand as if fixing the fringe. the slightly smudged mirror reflects an unmade bed, a textless poster wall, a striped scarf on the doorknob, and warm bulbs around a chipped vanity. use authentic reflected framing, mild wide-angle distortion, direct phone flash mixed with tungsten light, realistic skin, fingerprints on glass, worn metal, and textured knit fabric. <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266786",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd19e44c-e5a0-4292-b585-1eeb09be8360/original=true/fd19e44c-e5a0-4292-b585-1eeb09be8360.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266782",
+      "title": "Civitai prompt 145266782",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a destroyed, broken_android, android, ancient android lying on the mossy forest floor, holds a single pepperoni pizza slice, Its rusted chest panel and torso are cracked wide open, revealing exposed mechanical gears, wires, and a dense cluster of wild mushrooms growing out from its hollow interior. Weathered metallic body, nature reclaiming technology, overgrown vegetation, damp soil, soft diffused forest light, cinematic, highly detailed, photorealistic, 8k resolution. dreamlike atmosphere, fantasy art style, octane render, intricate details, vivid colors.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266782",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afe6b5f9-a28e-4adc-a7f5-60c5d7b1d73e/original=true/afe6b5f9-a28e-4adc-a7f5-60c5d7b1d73e.jpeg",
+      "model_version_ids": [
+        674561,
+        889818,
+        2085311
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1080550385,
+      "negative_prompt": "low resolution, blurry, watermark, cartoonish proportions, extra limbs",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531630+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a15e9586dfc80e07405450b3360fee8e1a54882bccf6dc83b9c1bf11b4c0f848",
+      "prompt_ar": "إنسان آلي مدمر مكسور، أندرويد، أندرويد قديم مستلقي على أرضية الغابة المطحونة، يحمل شريحة بيتزا بيبروني واحدة، لوحة صدره وجذعه الصدئة متشققة على مصراعيها، وتكشف عن التروس الميكانيكية المكشوفة، والأسلاك، ومجموعة كثيفة من الفطر البري الذي ينمو من داخله المجوف. جسم معدني متأثر بالعوامل الجوية، تكنولوجيا استصلاح الطبيعة، نباتات متضخمة، تربة رطبة، ضوء غابة ناعم منتشر، سينمائي، مفصل للغاية، واقعي، دقة 8K. جو يشبه الحلم، أسلوب فني خيالي، عرض الأوكتان، تفاصيل معقدة، ألوان زاهية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266782 architecture ai-image-prompts a destroyed, broken_android, android, ancient android lying on the mossy forest floor, holds a single pepperoni pizza slice, its rusted chest panel and torso are cracked wide open, revealing exposed mechanical gears, wires, and a dense cluster of wild mushrooms growing out from its hollow interior. weathered metallic body, nature reclaiming technology, overgrown vegetation, damp soil, soft diffused forest light, cinematic, highly detailed, photorealistic, 8k resolution. dreamlike atmosphere, fantasy art style, octane render, intricate details, vivid colors. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266782",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afe6b5f9-a28e-4adc-a7f5-60c5d7b1d73e/original=true/afe6b5f9-a28e-4adc-a7f5-60c5d7b1d73e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145194395",
+      "title": "Civitai prompt 145194395",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A horse girl character with dark brown hair, pointed horse ears, and striking purple eyes, wearing a white crop top with text, a dark pleated skirt, fishnet stockings, a garter belt, red wristbands, and black fingerless gloves. She is energetically playing a blue electric guitar, leaning forward in a dynamic posture while biting down on a thin piece of straw between her teeth, with her left hand gripping the guitar neck and her right hand positioned to strum. The scene is framed as a medium shot set against an abstract, glowing background filled with intense yellow lightning and crackling energy arcs, with a faint silhouette of another character visible in the upper left. The artwork is a semi-realistic digital anime illustration, blending soft color gradients, smooth skin shading, and detailed fabric folds with intricate metallic and wood textures on the guitar, alongside subtle chromatic aberration and glitch effects on the edges. Intense, bright yellow lightning creates high-contrast lighting with strong rim light, enveloping the scene in a dramatic and energetic atmosphere with warm skin tones contrasting against the vivid neon accents. @kaoming",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145194395",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83006b83-a06c-4503-bf60-c27154edeafe/original=true/83006b83-a06c-4503-bf60-c27154edeafe.jpeg",
+      "model_version_ids": [
+        2983680
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 663708235,
+      "negative_prompt": "lowres, worst quality, jpeg artifacts, signature, watermark, old, oldest, unfinished, blurry, bad quality, blurry, ugly, poorly drawn, child, kid, child body, child face, old lady, old face, dslr, camera, watermark,text,brand name, animal face, teen, loli, lolita, nude, adolescent",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531650+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "01f11e456ed0b2859d6f451e1d685a7a6f4d10e46d46c22eb6646bb06f6bd169",
+      "prompt_ar": "شخصية فتاة حصان ذات شعر بني غامق، وآذان حصان مدببة، وعيون أرجوانية مذهلة، ترتدي قميصًا قصيرًا أبيض مع نص، وتنورة مطوية داكنة، وجوارب شبكية، وحزام رباط، وأساور معصم حمراء، وقفازات سوداء بدون أصابع. إنها تعزف بقوة على الغيتار الكهربائي الأزرق، وتميل إلى الأمام في وضع ديناميكي بينما تعض على قطعة رقيقة من القش بين أسنانها، مع إمساك يدها اليسرى برقبة الجيتار ويدها اليمنى في وضع العزف على أوتار الآلة الموسيقية. تم تأطير المشهد كلقطة متوسطة على خلفية مجردة متوهجة مليئة بالبرق الأصفر الشديد وأقواس الطاقة المتشققة، مع صورة ظلية باهتة لشخصية أخرى مرئية في الجزء العلوي الأيسر. العمل الفني عبارة عن رسم توضيحي رقمي شبه واقعي للرسوم المتحركة، يمزج بين التدرجات اللونية الناعمة وتظليل البشرة الناعم وطيات القماش التفصيلية مع القوام المعدني والخشبي المعقد على الجيتار، جنبًا إلى جنب مع الانحراف اللوني الدقيق وتأثيرات الخلل على الحواف. يخلق البرق الأصفر الساطع والمكثف إضاءة عالية التباين مع ضوء حافة قوي، يغلف المشهد بجو مثير وحيوي مع ألوان بشرة دافئة تتناقض مع لمسات النيون الزاهية. @كاومينغ",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 145194395 image ai-image-prompts a horse girl character with dark brown hair, pointed horse ears, and striking purple eyes, wearing a white crop top with text, a dark pleated skirt, fishnet stockings, a garter belt, red wristbands, and black fingerless gloves. she is energetically playing a blue electric guitar, leaning forward in a dynamic posture while biting down on a thin piece of straw between her teeth, with her left hand gripping the guitar neck and her right hand positioned to strum. the scene is framed as a medium shot set against an abstract, glowing background filled with intense yellow lightning and crackling energy arcs, with a faint silhouette of another character visible in the upper left. the artwork is a semi-realistic digital anime illustration, blending soft color gradients, smooth skin shading, and detailed fabric folds with intricate metallic and wood textures on the guitar, alongside subtle chromatic aberration and glitch effects on the edges. intense, bright yellow lightning creates high-contrast lighting with strong rim light, enveloping the scene in a dramatic and energetic atmosphere with warm skin tones contrasting against the vivid neon accents. @kaoming civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145194395",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83006b83-a06c-4503-bf60-c27154edeafe/original=true/83006b83-a06c-4503-bf60-c27154edeafe.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266710",
+      "title": "Civitai prompt 145266710",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "If people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, Exactly one clearly adult woman, age 32, is the sole subject of a photorealistic lifestyle portrait at a windswept lakeside dock under pale afternoon light. She has green eyes, a slightly upturned nose, tiny beauty marks, and subtle dimples. Her hair is ash-brown collarbone cut with curtain bangs, with believable flyaways and individual strands rather than a painted or plastic finish. Her expression is calm and approachable, with natural posture and realistic proportions. She wears a vintage varsity jacket, fitted black tee, relaxed cargo pants, and retro trainers. Sitting on the dock edge with one knee raised and her shoes beside her, giving the image a small sense of story without looking staged. Include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. Keep the styling attractive and polished but grounded in an ordinary adult day. Compose a vertical three-quarter portrait with the environment clearly readable behind her. Use pale reflected sky light, subtle wind movement, and crisp but natural detail. Preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. Add a weathered bench and a restrained patch of sun flare at the edge of frame. No readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_Strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266710",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abebfb72-c242-4b3d-83c0-3b5620b468d7/original=true/abebfb72-c242-4b3d-83c0-3b5620b468d7.jpeg",
+      "model": "Krea2 Â· sickrealism-3-BF16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 890508917,
+      "negative_prompt": "AI-generated look, body deformity, bad hands, anatomically incorrect movement or pose, bad anatomy, missing limbs, plastic skin, waxy skin, overly smooth skin, shiny plastic, doll-like skin, uncanny valley effect, cropped, blank, unclear, low resolution, clipping/intersections.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531673+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "58b7685b5ba45c6b9608dd8b0cb19aa1e4cd3ce57afc75cbc9f8a8932857ec95",
+      "prompt_ar": "إذا تم تصوير الأشخاص، فهم بالغون يبلغون من العمر 18 عامًا أو أكثر؛ لا يوجد نص ولا علامة مائية. تكوين نظيف تشريح دقيق، امرأة بالغة بوضوح، تبلغ من العمر 32 عامًا، هي الموضوع الوحيد لصورة نمط الحياة الواقعية في رصيف على ضفاف البحيرة تعصف به الرياح تحت ضوء الظهيرة الباهت. لديها عيون خضراء، وأنف مقلوب قليلاً، وعلامات جمال صغيرة، وغمازات دقيقة. شعرها ذو لون بني رماد الترقوة مقصوص مع غرة ستائرية، مع تطاير معقول وخيوط فردية بدلاً من تشطيب مطلي أو بلاستيكي. تعبيرها هادئ وودود، مع وقفة طبيعية ونسب واقعية. إنها ترتدي سترة جامعية عتيقة، وتي شيرت أسود مناسب، وسروال كارجو مريح، وأحذية رياضية قديمة. الجلوس على حافة الرصيف وركبة واحدة مرفوعة وحذاءها بجانبها، مما يمنح الصورة إحساسًا صغيرًا بالقصة دون أن تبدو مسرحية. تشمل نسج القماش، والتجعيد اللطيف عند المرفقين والخصر، والإكسسوارات العملية، والأيدي النظيفة، وعلامات الاستخدام الحقيقي الدقيقة على الملابس والمناطق المحيطة بها. حافظ على التصميم جذابًا ومصقولًا ولكن مرتكزًا على يوم بالغ عادي. قم بتكوين صورة رأسية بطول ثلاثة أرباع مع إمكانية قراءة البيئة خلفها بوضوح. استخدم ضوء السماء المنعكس الشاحب، وحركة الرياح الدقيقة، والتفاصيل الواضحة والطبيعية. يحافظ على المسام، والشعر الناعم، والعيوب الصغيرة، والأصابع الدقيقة، والتشريح المتماسك، والانعكاسات الواقعية. أضف مقعدًا متأثرًا بالعوامل الجوية ورقعة مقيدة من توهج الشمس على حافة الإطار. لا يوجد نص قابل للقراءة، أو شعارات علامات تجارية، أو علامة مائية، أو أشخاص إضافيين، أو عناصر خيالية، أو أبعاد جسم مبالغ فيها، أو تجانس كبير لمرشح الجمال. <lora:2_Strongx3_wl7:1>، <lora:realism_engine_krea2_v3.1:0.4>، <lora:babegenerator.ink-realism_helper:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266710 image ai-image-prompts if people are depicted, they are adults age 18 or older; no text, no watermark; clean composition; accurate anatomy, exactly one clearly adult woman, age 32, is the sole subject of a photorealistic lifestyle portrait at a windswept lakeside dock under pale afternoon light. she has green eyes, a slightly upturned nose, tiny beauty marks, and subtle dimples. her hair is ash-brown collarbone cut with curtain bangs, with believable flyaways and individual strands rather than a painted or plastic finish. her expression is calm and approachable, with natural posture and realistic proportions. she wears a vintage varsity jacket, fitted black tee, relaxed cargo pants, and retro trainers. sitting on the dock edge with one knee raised and her shoes beside her, giving the image a small sense of story without looking staged. include fabric weave, gentle creasing at the elbows and waist, practical accessories, clean hands, and subtle signs of real use on the clothing and surroundings. keep the styling attractive and polished but grounded in an ordinary adult day. compose a vertical three-quarter portrait with the environment clearly readable behind her. use pale reflected sky light, subtle wind movement, and crisp but natural detail. preserve pores, fine hairs, tiny imperfections, accurate fingers, coherent anatomy, and realistic reflections. add a weathered bench and a restrained patch of sun flare at the edge of frame. no readable text, brand logos, watermark, extra people, fantasy elements, exaggerated body proportions, or heavy beauty-filter smoothing. <lora:2_strongx3_wl7:1>, <lora:realism_engine_krea2_v3.1:0.4>, <lora:babegenerator.ink-realism_helper:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266710",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abebfb72-c242-4b3d-83c0-3b5620b468d7/original=true/abebfb72-c242-4b3d-83c0-3b5620b468d7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266688",
+      "title": "Civitai prompt 145266688",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, rendered,indoor,upper body, black and white, monochrome, close-up,drawing of a creepy smiling blue eyes staring man with blood all on his face, looking at viewer,solo, looking at viewer, evil smile, teeth, tongue out, hands together, red background, head tilt, portrait, teeth, grin, blood, traditional media, portrait, evil smile, evil grin,<lora:Doomguy:0.9> rsh1, red skin,muscular female,bodysuit, fingerless gloves, belt",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266688",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0373688b-03ae-4e44-aa07-1fa5bea3801e/original=true/0373688b-03ae-4e44-aa07-1fa5bea3801e.jpeg",
+      "model_version_ids": [
+        1510649,
+        1576905,
+        1761560,
+        1933744
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1243791855,
+      "negative_prompt": "worst_quality, bad_quality,bad anatomy,low quality,Frame split, multiple perspectives,multiple view,logo, text, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531685+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6a30d92d81ba2f16c1de2696be032b0361eaf5a9edac3fe8f418ba55701c07e9",
+      "prompt_ar": "تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، دقة عالية، مفصلة للغاية، سخافات، الأحدث، معروض، داخلي، الجزء العلوي من الجسم، أبيض وأسود، أحادي اللون، لقطة قريبة، رسم عيون زرقاء مبتسمة مخيفة يحدق رجل بالدماء على وجهه، ينظر إلى المشاهد، منفردًا، ينظر إلى المشاهد، ابتسامة شريرة، أسنان، لسان خارج، اليدين معًا، خلفية حمراء، إمالة الرأس، صورة، أسنان، ابتسامة، دم، وسائل الإعلام التقليدية، صورة، ابتسامة شريرة، ابتسامة شريرة،<lora:Doomguy:0.9> rsh1، بشرة حمراء، أنثى مفتولة العضلات، بدلة للجسم، قفازات بدون أصابع، حزام",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266688 image ai-image-prompts masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, rendered,indoor,upper body, black and white, monochrome, close-up,drawing of a creepy smiling blue eyes staring man with blood all on his face, looking at viewer,solo, looking at viewer, evil smile, teeth, tongue out, hands together, red background, head tilt, portrait, teeth, grin, blood, traditional media, portrait, evil smile, evil grin,<lora:doomguy:0.9> rsh1, red skin,muscular female,bodysuit, fingerless gloves, belt civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266688",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0373688b-03ae-4e44-aa07-1fa5bea3801e/original=true/0373688b-03ae-4e44-aa07-1fa5bea3801e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266683",
+      "title": "Civitai prompt 145266683",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, rendered,indoor,upper body, black and white, monochrome, close-up,drawing of a creepy smiling red eyes staring man with blood all on his face, looking at viewer,solo, looking at viewer, evil smile, teeth, tongue out, hands together, green background, head tilt, portrait, teeth, grin, blood, traditional media, portrait, evil smile, evil grin,<lora:Doomguy:0.9> rsh1, red skin,muscular female,bodysuit, fingerless gloves, belt",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266683",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ea15050-1e2f-4fd2-bf48-ef674af0114b/original=true/6ea15050-1e2f-4fd2-bf48-ef674af0114b.jpeg",
+      "model_version_ids": [
+        1510649,
+        1576905,
+        1761560,
+        1933744
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1243791855,
+      "negative_prompt": "worst_quality, bad_quality,bad anatomy,low quality,Frame split, multiple perspectives,multiple view,logo, text, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531696+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7d1652223ee6939c8c4f3b3a342702208f218b6b983edfc5f82e64b2bc035796",
+      "prompt_ar": "تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، دقة عالية، مفصلة للغاية، سخافات، الأحدث، معروض، داخلي، الجزء العلوي من الجسم، أبيض وأسود، أحادي اللون، لقطة قريبة، رسم عيون حمراء مبتسمة مخيفة تحدق رجلاً بالدماء على وجهه، تنظر إلى المشاهد، منفردًا، تنظر إلى المشاهد، ابتسامة شريرة، أسنان، لسان خارج، أيدي معًا، خلفية خضراء، إمالة الرأس، صورة، أسنان، ابتسامة، دم، وسائل الإعلام التقليدية، صورة، ابتسامة شريرة، ابتسامة شريرة،<lora:Doomguy:0.9> rsh1، بشرة حمراء، أنثى مفتولة العضلات، بدلة للجسم، قفازات بدون أصابع، حزام",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266683 image ai-image-prompts masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, rendered,indoor,upper body, black and white, monochrome, close-up,drawing of a creepy smiling red eyes staring man with blood all on his face, looking at viewer,solo, looking at viewer, evil smile, teeth, tongue out, hands together, green background, head tilt, portrait, teeth, grin, blood, traditional media, portrait, evil smile, evil grin,<lora:doomguy:0.9> rsh1, red skin,muscular female,bodysuit, fingerless gloves, belt civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266683",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ea15050-1e2f-4fd2-bf48-ef674af0114b/original=true/6ea15050-1e2f-4fd2-bf48-ef674af0114b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266665",
+      "title": "Civitai prompt 145266665",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Resistance is futile\n<lora:F42_DCWinner_SDX-3123280:1>witty, humorous, aesthetic, biomechanical borg owl on neon red motorbike, (exaggerated maniac grin at viewer:1.4), invasive conduits, Avian head , dark metallic textures , green circuitry glow , Sunset in alien wasteland,, harbour, rain, tech goggles and biomechanical armor <lora:Borg_World_Morph_PONY:1>\ncybernetic armor fused with organic body, luminous  glowing circuitry nodes, biomechanical, robotic limbs intertwined with flesh, (alien avian bird head:1.2), maniac grin at viewer, dark metallic textures, industrial sheen, invasive conduits and black connecting tubes, highly detailed Borg assimilation aesthetic, multicolor sci-fi theme, dramatic lighting, 8k resolution, cinematic composition, epic masterpiece, whimsical, playful​​​",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266665",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4d57d15-25a7-4bfc-b608-a501573a2bfd/original=true/b4d57d15-25a7-4bfc-b608-a501573a2bfd.jpeg",
+      "model_version_ids": [
+        643013,
+        1227475,
+        3123280
+      ],
+      "seed": 1574628538,
+      "negative_prompt": "Blurry Background, smooth human skin, colorful bright background, cheerful lighting, organic anatomy, clean metal, polished plastic, anime, cartoon, low quality, blurry, 3d render style, oversaturated,, blurry, low quality, amateur composition, watermark, signature, cropped, deformed, fused limbs, anatomical errors, abstract, CGI artifacts, boring lighting​​​",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531720+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "378186d062ce6324ffd8049791daf43cf59747383aca70191777b0d328049400",
+      "prompt_ar": "المقاومة لا جدوى منها\n<lora:F42_DCWinner_SDX-3123280:1>بومة برجية بارعة، مرحة، جمالية، ميكانيكية حيوية على دراجة نارية حمراء نيون، (ابتسامة مهووسة مبالغ فيها للمشاهد: 1.4)، قنوات غازية، رأس طائر، نسيج معدني داكن، توهج دوائر خضراء، غروب الشمس في أرض قاحلة غريبة،، ميناء، مطر، نظارات تقنية ودروع ميكانيكية حيوية <لورا:Borg_World_Morph_PONY:1>\nدرع سيبراني مدمج مع جسم عضوي، عقد دوائر متوهجة مضيئة، ميكانيكية حيوية، أطراف آلية متشابكة مع اللحم، (رأس طائر الطيور الغريبة: 1.2)، ابتسامة مهووسة للمشاهد، قوام معدني داكن، لمعان صناعي، قنوات غازية وأنابيب توصيل سوداء، جمالية استيعاب بورغ المفصلة للغاية، موضوع خيال علمي متعدد الألوان، إضاءة درامية، دقة 8K، تكوين سينمائي، تحفة ملحمية، غريب الأطوار، مرحة",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266665 image ai-image-prompts resistance is futile <lora:f42_dcwinner_sdx-3123280:1>witty, humorous, aesthetic, biomechanical borg owl on neon red motorbike, (exaggerated maniac grin at viewer:1.4), invasive conduits, avian head , dark metallic textures , green circuitry glow , sunset in alien wasteland,, harbour, rain, tech goggles and biomechanical armor <lora:borg_world_morph_pony:1> cybernetic armor fused with organic body, luminous glowing circuitry nodes, biomechanical, robotic limbs intertwined with flesh, (alien avian bird head:1.2), maniac grin at viewer, dark metallic textures, industrial sheen, invasive conduits and black connecting tubes, highly detailed borg assimilation aesthetic, multicolor sci-fi theme, dramatic lighting, 8k resolution, cinematic composition, epic masterpiece, whimsical, playful​​​ civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266665",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4d57d15-25a7-4bfc-b608-a501573a2bfd/original=true/b4d57d15-25a7-4bfc-b608-a501573a2bfd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145266609",
+      "title": "Civitai prompt 145266609",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic film still of an imposing avian humanoid with a white feathered bird head and dark beak, sitting relaxed inside a dark metal bathtub, light soapy foam on the water. The subject is heavily integrated with matte-charcoal cybernetic armor featuring intricate, glowing emerald-green circuitry and pulsing nodes. One arm is a large, complex biomechanical limb with thick black conduits. A small, bright yellow rubber duck floats on the dark water in the tub, and a cheeseburger overflowing with cheeese sits on a cheesed up metal caddy tray resting across the tub's rim. In the background, a metallic sign displays the words \"I LIKE CHEESE BORGERS\" in vibrant neon green lettering. The setting is a dark, geometric industrial chamber with glowing green circular portals. The lighting is high-contrast, blending warm amber ambient light with the intense, saturated glow from the neon sign and the emerald circuitry. Shot at eye level with a medium framing and a shallow depth of field that keeps the avian figure, the duck, and the cheeseburger in sharp focus. borg_5",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145266609",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/648e07ae-2bd3-49b9-a17a-712f5a759dc9/original=true/648e07ae-2bd3-49b9-a17a-712f5a759dc9.jpeg",
+      "model": "CivitCompetitionXXL",
+      "model_version_ids": [
+        345685,
+        643013
+      ],
+      "width": 424,
+      "height": 688,
+      "seed": 1639539945,
+      "negative_prompt": "(human:1.5), boring, bad quality, blurry,white background, simple background, (text:1.4),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-10T19:17:35.531739+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9431da214efdef5c01d857e040305a79b688ba30649ffa54ebb506f58ae8cad3",
+      "prompt_ar": "فيلم سينمائي لا يزال يظهر إنسانًا طائرًا مهيبًا برأس طائر ذو ريش أبيض ومنقار داكن، يجلس مسترخيًا داخل حوض استحمام معدني داكن، ورغوة صابون خفيفة على الماء. تم دمج الموضوع بشكل كبير مع الدرع السيبراني غير اللامع الذي يتميز بدوائر معقدة ومتوهجة باللون الأخضر الزمردي وعقد نابضة. إحدى الذراعين عبارة عن طرف ميكانيكي حيوي كبير ومعقد بقنوات سوداء سميكة. تطفو بطة مطاطية صفراء زاهية صغيرة على الماء الداكن في الحوض، ويوضع برجر الجبن الممتلئ بالجبن على صينية معدنية مغطاة بالجبن على حافة الحوض. في الخلفية، تعرض لافتة معدنية عبارة \"I LIKE CHEESE BORGERS\" بأحرف خضراء نيون نابضة بالحياة. المكان عبارة عن غرفة صناعية هندسية داكنة ذات بوابات دائرية خضراء متوهجة. الإضاءة عالية التباين، وتمزج الضوء المحيط باللون الكهرماني الدافئ مع التوهج المكثف المشبع من لافتة النيون والدوائر الزمردية. تم التصوير على مستوى العين بإطار متوسط ​​وعمق مجال ضحل مما يحافظ على تركيز حاد على شكل الطيور والبط وشطيرة الجبن. بورغ_5",
+      "translation_status": "translated",
+      "translated_at": "2026-10-10T19:17:38Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145266609 image ai-image-prompts a cinematic film still of an imposing avian humanoid with a white feathered bird head and dark beak, sitting relaxed inside a dark metal bathtub, light soapy foam on the water. the subject is heavily integrated with matte-charcoal cybernetic armor featuring intricate, glowing emerald-green circuitry and pulsing nodes. one arm is a large, complex biomechanical limb with thick black conduits. a small, bright yellow rubber duck floats on the dark water in the tub, and a cheeseburger overflowing with cheeese sits on a cheesed up metal caddy tray resting across the tub's rim. in the background, a metallic sign displays the words \"i like cheese borgers\" in vibrant neon green lettering. the setting is a dark, geometric industrial chamber with glowing green circular portals. the lighting is high-contrast, blending warm amber ambient light with the intense, saturated glow from the neon sign and the emerald circuitry. shot at eye level with a medium framing and a shallow depth of field that keeps the avian figure, the duck, and the cheeseburger in sharp focus. borg_5 civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145266609",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/648e07ae-2bd3-49b9-a17a-712f5a759dc9/original=true/648e07ae-2bd3-49b9-a17a-712f5a759dc9.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-10T09:58:48.508976+00:00",
-  "prompt_count": 1244,
+  "generated_at": "2026-10-10T19:17:39.158952+00:00",
+  "prompt_count": 1260,
   "translation": {
     "language": "ar",
-    "translated_count": 23,
-    "skipped_count": 1215,
+    "translated_count": 16,
+    "skipped_count": 1238,
     "failed_count": 6,
-    "updated_at": "2026-10-10T09:58:48Z"
+    "updated_at": "2026-10-10T19:17:38Z"
   }
 }
