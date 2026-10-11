@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -56527,15 +56527,644 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/648e07ae-2bd3-49b9-a17a-712f5a759dc9/original=true/648e07ae-2bd3-49b9-a17a-712f5a759dc9.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-145332837",
+      "title": "Civitai prompt 145332837",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "Framing: High angle, three-quarter. The view looks down from above the near river bank, the little bridge crossing from the lower left corner towards the centre and the cobbled street climbing on to the cathedral at the upper right, its twin spires reaching the top edge.\n\nA busy seek-and-find picture-book illustration, a crowded full-page puzzle picture in clean even black ink outlines and flat, unshaded bright colour, drawn rather than photographed, packed edge to edge with hundreds of small cartoon people in one simple rounded style, each busy with something different, the grown-ups about seven heads tall. Evenly lit and crisp down to the smallest figure. Ostrów Tumski, Wrocław's old cathedral island, at lamp-lighting time. The small green iron Tumski bridge crosses the river Odra, its railings hung with hundreds of coloured padlocks, and a cobbled street of tall iron gas lamps runs up to the red-brick cathedral with its two green copper spires. A busker plays an accordion by the bridge. Halfway along the bridge the city's lamplighter, a man in a long black cape with his grey hair blowing loose in the wind, holds his long brass pole up to a lamp and looks around, puzzled. The crowd is ordinary present-day Wrocław people of all ages and builds, a few small children in bright coats holding grown-ups' hands, everyone fully dressed in autumn coats, jumpers, scarves and woolly hats in red, blue, orange, mustard yellow, brown and grey. Evening crowds stroll arm in arm over the bridge and up the street; a couple clips a padlock to the railing, a man feeds the swans from the river wall, a photographer stands at a tripod. On the bridge and up the street, between the strolling groups, lie four small open patches of clear empty cobbles, each about the size of a café table.\n\nA deep blue evening sky, every lit lamp warm yellow, still bright and easy to read. Every named figure clearly separate from every other figure with space between them.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332837",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46378ce7-7d46-4650-8970-6287673b3387/original=true/46378ce7-7d46-4650-8970-6287673b3387.jpeg",
+      "model": "RedCraft 赤佬 3.0 (Krea2)",
+      "model_version_ids": [
+        3139241
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 1315785846095219,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.772913+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "17380b78dee6cff8fad492ed03a47cb9d92d15aef92ceb9c7f87b6e441a73f28",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 145332837 image ai-image-prompts framing: high angle, three-quarter. the view looks down from above the near river bank, the little bridge crossing from the lower left corner towards the centre and the cobbled street climbing on to the cathedral at the upper right, its twin spires reaching the top edge. a busy seek-and-find picture-book illustration, a crowded full-page puzzle picture in clean even black ink outlines and flat, unshaded bright colour, drawn rather than photographed, packed edge to edge with hundreds of small cartoon people in one simple rounded style, each busy with something different, the grown-ups about seven heads tall. evenly lit and crisp down to the smallest figure. ostrów tumski, wrocław's old cathedral island, at lamp-lighting time. the small green iron tumski bridge crosses the river odra, its railings hung with hundreds of coloured padlocks, and a cobbled street of tall iron gas lamps runs up to the red-brick cathedral with its two green copper spires. a busker plays an accordion by the bridge. halfway along the bridge the city's lamplighter, a man in a long black cape with his grey hair blowing loose in the wind, holds his long brass pole up to a lamp and looks around, puzzled. the crowd is ordinary present-day wrocław people of all ages and builds, a few small children in bright coats holding grown-ups' hands, everyone fully dressed in autumn coats, jumpers, scarves and woolly hats in red, blue, orange, mustard yellow, brown and grey. evening crowds stroll arm in arm over the bridge and up the street; a couple clips a padlock to the railing, a man feeds the swans from the river wall, a photographer stands at a tripod. on the bridge and up the street, between the strolling groups, lie four small open patches of clear empty cobbles, each about the size of a café table. a deep blue evening sky, every lit lamp warm yellow, still bright and easy to read. every named figure clearly separate from every other figure with space between them. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332837",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46378ce7-7d46-4650-8970-6287673b3387/original=true/46378ce7-7d46-4650-8970-6287673b3387.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332719",
+      "title": "Civitai prompt 145332719",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "m1y4j1m4s4kur4, m1y4j1m4s4kur4, (full body), panorama, full-body shot, (top-down view:1.5), 1girl, long hair, blue hair, one side up, hair ribbon, purple eyes, collared shirt, white shirt, bowtie, blazer, black blazer, skirt, black skirt, pleated skirt, detailed, high resolution, long legs; resolute expression; navy blue knee-high socks; open blazer, king-size bed, highly detailed, masterpiece, 8k resolution, best quality, 1girl, solo, An overhead wide-angle shot from the foot of the bed, limbs widely extended, low-angle perspective looking up slightly from the foot end, realistic, Love hotel room bedroom, long legs; resolute expression;  pink hotel room, interior design, luxurious bedroom, king-size bed, pink walls, neon lights, glowing ambiance, stylish furniture,  soles; knees up high, bent knees,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332719",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1433c5a0-a167-4b6f-b09e-9757ef2b55c4/original=true/1433c5a0-a167-4b6f-b09e-9757ef2b55c4.jpeg",
+      "model_version_ids": [
+        2945208,
+        3187359
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1190528492,
+      "negative_prompt": "bad anatomy, bad legs, bad fingers, missing fingers, extra legs, missing limb, worst quality , low quality , normal quality",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.772950+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "61091f914a1f94477c9b6fc659feae48b513985fdaed13f07ecfe283949afe9c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145332719 architecture ai-image-prompts m1y4j1m4s4kur4, m1y4j1m4s4kur4, (full body), panorama, full-body shot, (top-down view:1.5), 1girl, long hair, blue hair, one side up, hair ribbon, purple eyes, collared shirt, white shirt, bowtie, blazer, black blazer, skirt, black skirt, pleated skirt, detailed, high resolution, long legs; resolute expression; navy blue knee-high socks; open blazer, king-size bed, highly detailed, masterpiece, 8k resolution, best quality, 1girl, solo, an overhead wide-angle shot from the foot of the bed, limbs widely extended, low-angle perspective looking up slightly from the foot end, realistic, love hotel room bedroom, long legs; resolute expression; pink hotel room, interior design, luxurious bedroom, king-size bed, pink walls, neon lights, glowing ambiance, stylish furniture, soles; knees up high, bent knees, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332719",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1433c5a0-a167-4b6f-b09e-9757ef2b55c4/original=true/1433c5a0-a167-4b6f-b09e-9757ef2b55c4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332567",
+      "title": "Civitai prompt 145332567",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a  RAW Ultra High-Resolution photo of a beautiful 25 year old woman, brunette hair, skin texture is realistic. eyes clear steel-blue,  \n, An adult woman wearing a Supergirl cosplay outfit during a superhero-themed charity event. She stands among runners and participants in a public park. Athletic shoes, race number, and practical modifications make the costume appear realistic and event-appropriate. Bright morning sunlight, candid event photography, photorealistic quality, natural expressions., clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332567",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe770afd-6850-4fab-a2d2-4a860d263a02/original=true/fe770afd-6850-4fab-a2d2-4a860d263a02.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3140151,
+        3321741,
+        3322712
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.772963+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ca393f3c32783940ea84b490c3921ea638e934f8abfbab2a12c1659c9bf84895",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145332567 fashion ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a raw ultra high-resolution photo of a beautiful 25 year old woman, brunette hair, skin texture is realistic. eyes clear steel-blue, , an adult woman wearing a supergirl cosplay outfit during a superhero-themed charity event. she stands among runners and participants in a public park. athletic shoes, race number, and practical modifications make the costume appear realistic and event-appropriate. bright morning sunlight, candid event photography, photorealistic quality, natural expressions., clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332567",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe770afd-6850-4fab-a2d2-4a860d263a02/original=true/fe770afd-6850-4fab-a2d2-4a860d263a02.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332551",
+      "title": "Civitai prompt 145332551",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up portrait photograph of a young tr!n!ty woman with short brown hair featuring a subtle gradient fading to blonde at the ends, styled in a loose side tail that catches the wind while loose strands frame her face. Her bright blue eyes gaze gently toward the camera as she offers a soft smile revealing teeth, one hand cradling a bouquet of roses and greenery close to her cheek. The background shows blurred cherry blossom branches with pink petals against lush green foliage under a warm sunset sky. Golden hour sunlight from behind creates rim lighting along her hair edges while casting warm tones across her face and the bouquet petals. Natural skin texture shows subtle pores and soft highlights, while fabric details on her clothing remain visible in the shallow depth of field. The composition captures a serene moment with wind-swept hair strands and realistic light falloff around her features.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332551",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5b3e668-dfa8-4434-83d5-5d4ec85c7614/original=true/d5b3e668-dfa8-4434-83d5-5d4ec85c7614.jpeg",
+      "model_version_ids": [
+        3072332,
+        3359022,
+        3397389
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 1879338037,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.772975+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5e0eaa9b5bc1d4f08c2d1505138e1e78b0789e2472b43d97cab31db08f19cc17",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145332551 image ai-image-prompts a close-up portrait photograph of a young tr!n!ty woman with short brown hair featuring a subtle gradient fading to blonde at the ends, styled in a loose side tail that catches the wind while loose strands frame her face. her bright blue eyes gaze gently toward the camera as she offers a soft smile revealing teeth, one hand cradling a bouquet of roses and greenery close to her cheek. the background shows blurred cherry blossom branches with pink petals against lush green foliage under a warm sunset sky. golden hour sunlight from behind creates rim lighting along her hair edges while casting warm tones across her face and the bouquet petals. natural skin texture shows subtle pores and soft highlights, while fabric details on her clothing remain visible in the shallow depth of field. the composition captures a serene moment with wind-swept hair strands and realistic light falloff around her features. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332551",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5b3e668-dfa8-4434-83d5-5d4ec85c7614/original=true/d5b3e668-dfa8-4434-83d5-5d4ec85c7614.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145330722",
+      "title": "Civitai prompt 145330722",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "High-angle outside view of a castle looking into an old library through an arched window with a multi-pane pattern. Behind the window is an 18-year-old girl sitting in a reading nook with her legs to the side. She has a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair. She is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. In the girl's lap lies sprawled out a crimson scarf with golden-colored stripes, which she clutches with both hands. The girl looks pensively out the window. Behind the girl is a tall book shelf with old books. Shot during the morning of a sunny day with natural lighting pouring through the window, leaving the side of the woman bathed with sunlight. Shot on a Kodak Portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145330722",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/732d7759-9cc5-4bfc-881a-933c5184b173/original=true/732d7759-9cc5-4bfc-881a-933c5184b173.jpeg",
+      "model_version_ids": [],
+      "width": 1088,
+      "height": 1920,
+      "seed": 1788963867,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.772989+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5f04bb29262fb91e038312631e250ed896c72ea284a6d1f1d1326852efad52dd",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145330722 image ai-image-prompts high-angle outside view of a castle looking into an old library through an arched window with a multi-pane pattern. behind the window is an 18-year-old girl sitting in a reading nook with her legs to the side. she has a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair. she is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. in the girl's lap lies sprawled out a crimson scarf with golden-colored stripes, which she clutches with both hands. the girl looks pensively out the window. behind the girl is a tall book shelf with old books. shot during the morning of a sunny day with natural lighting pouring through the window, leaving the side of the woman bathed with sunlight. shot on a kodak portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145330722",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/732d7759-9cc5-4bfc-881a-933c5184b173/original=true/732d7759-9cc5-4bfc-881a-933c5184b173.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145330717",
+      "title": "Civitai prompt 145330717",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "High-angle outside view of a castle looking into an old library through an arched window with a multi-pane pattern. Behind the window is an 18-year-old girl sitting in a reading nook. She has a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair with side-swept bangs. She is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. In the girl's lap lies sprawled out a crimson scarf with golden-colored stripes, which she clutches with both hands. The girl looks pensively out the window. Behind the girl is a tall book shelf with old books. Shot during the morning of a sunny day with natural lighting pouring through the window, leaving the side of the woman bathed with sunlight. Shot on a Kodak Portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145330717",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1682fc1e-1c15-43aa-b112-a81e1db08537/original=true/1682fc1e-1c15-43aa-b112-a81e1db08537.jpeg",
+      "model_version_ids": [],
+      "width": 1088,
+      "height": 1920,
+      "seed": 1788963867,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773000+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "12357b54f26fdaf05626e89b7c65ae049edb98944646cc43afc7ea8b4991faa6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145330717 image ai-image-prompts high-angle outside view of a castle looking into an old library through an arched window with a multi-pane pattern. behind the window is an 18-year-old girl sitting in a reading nook. she has a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair with side-swept bangs. she is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. in the girl's lap lies sprawled out a crimson scarf with golden-colored stripes, which she clutches with both hands. the girl looks pensively out the window. behind the girl is a tall book shelf with old books. shot during the morning of a sunny day with natural lighting pouring through the window, leaving the side of the woman bathed with sunlight. shot on a kodak portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145330717",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1682fc1e-1c15-43aa-b112-a81e1db08537/original=true/1682fc1e-1c15-43aa-b112-a81e1db08537.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145330714",
+      "title": "Civitai prompt 145330714",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "Low-angle full body shot of an 18-year-old girl with a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair with side-swept bangs. She is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. The girl's right arm is crossed in front of her abdomen, while her other hand is holding up a slender 10-inch wooden wand with a black hilt that tapers to a point. The girl looks at the camera with a smug expression. Behind the girl to the left is a tall book shelf with old books, and to the right of the girl is an arched window with a multi-pane pattern. Shot in an antique bookstore during the morning of a sunny day with natural lighting pouring through the window, leaving the back of the woman bathed with sunlight. Shot on a Kodak Portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145330714",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ff78f48-9276-4424-9b15-5b548a66f5de/original=true/0ff78f48-9276-4424-9b15-5b548a66f5de.jpeg",
+      "model_version_ids": [],
+      "width": 1088,
+      "height": 1920,
+      "seed": 1788963867,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773012+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "577324c9b67b0e7ff9fb936e08fdba04b2399186c7d8a90cd4ea7120e26258b6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 145330714 image ai-image-prompts low-angle full body shot of an 18-year-old girl with a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair with side-swept bangs. she is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. the girl's right arm is crossed in front of her abdomen, while her other hand is holding up a slender 10-inch wooden wand with a black hilt that tapers to a point. the girl looks at the camera with a smug expression. behind the girl to the left is a tall book shelf with old books, and to the right of the girl is an arched window with a multi-pane pattern. shot in an antique bookstore during the morning of a sunny day with natural lighting pouring through the window, leaving the back of the woman bathed with sunlight. shot on a kodak portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145330714",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ff78f48-9276-4424-9b15-5b548a66f5de/original=true/0ff78f48-9276-4424-9b15-5b548a66f5de.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145330713",
+      "title": "Civitai prompt 145330713",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "Low-angle full body shot of an 18-year-old girl with a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair. She is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. The girl looks away from the camera while blushing with a scowl, where one corner of her mouth is pulled sharply to the side, her eyes are rolled slightly upward. The girl's arms are crossed, with one hand holding a 10-inch wooden wand with a black handle that tapers to a point. Behind the girl to the left is a tall book shelf with old books, and to the right of the girl is an arched window with a multi-pane pattern. Shot in an antique bookstore during the morning of a sunny day with natural lighting pouring through the window, leaving the back of the woman bathed with sunlight. Shot on a Kodak Portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145330713",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a55f9053-1646-4a0b-9467-31154249a10f/original=true/a55f9053-1646-4a0b-9467-31154249a10f.jpeg",
+      "model_version_ids": [],
+      "width": 1088,
+      "height": 1920,
+      "seed": 1788963867,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773025+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "95af78bfacee0f5ee242b77973d36260beaa895d3196ff9f9eeaa9fab0c615d3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 145330713 image ai-image-prompts low-angle full body shot of an 18-year-old girl with a slender build, a narrow face with high cheekbones, a sharp nose, emerald-green eyes with black eyeliner, pale skin, black manicured fingernails, and long blonde straight hair. she is wearing thin black hoop earrings, a white dress shirt, a green tie with white stripes, a dark grey wool sweater vest, a grey pleated mini skirt, black thigh-highs, and a silk sleeved black robe with emerald green full lining. the girl looks away from the camera while blushing with a scowl, where one corner of her mouth is pulled sharply to the side, her eyes are rolled slightly upward. the girl's arms are crossed, with one hand holding a 10-inch wooden wand with a black handle that tapers to a point. behind the girl to the left is a tall book shelf with old books, and to the right of the girl is an arched window with a multi-pane pattern. shot in an antique bookstore during the morning of a sunny day with natural lighting pouring through the window, leaving the back of the woman bathed with sunlight. shot on a kodak portra 400 with an 50mm portrait lens, shallow depth of field, vignette, soft focus, blurred background, subsurface scattering detailed skin pores, ultra-detailed textures, realistic style, warm and greenish-brown color grading, and cinematic atmosphere. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145330713",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a55f9053-1646-4a0b-9467-31154249a10f/original=true/a55f9053-1646-4a0b-9467-31154249a10f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332534",
+      "title": "Civitai prompt 145332534",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a  a beautiful black hair woman woman, blue eyes, hourglass figure, full sleeve tattoos,  \n, An adult woman dressed in a Sailor Moon cosplay costume at a spring festival beneath blooming cherry blossom trees. The costume is instantly recognisable yet clearly handmade and worn by a real person. Festival food stalls, crowds, and decorative lanterns fill the background. Bright natural daylight, authentic cultural event atmosphere, ultra realistic photography., clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332534",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99526637-3219-4e6e-8cf8-8412dd3560b8/original=true/99526637-3219-4e6e-8cf8-8412dd3560b8.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3140151,
+        3322712
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773034+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3e28d3947f70fe4508543ef0bfb6fcdf1b7e84ec778091151cecd310a7c96de1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145332534 food ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a a beautiful black hair woman woman, blue eyes, hourglass figure, full sleeve tattoos, , an adult woman dressed in a sailor moon cosplay costume at a spring festival beneath blooming cherry blossom trees. the costume is instantly recognisable yet clearly handmade and worn by a real person. festival food stalls, crowds, and decorative lanterns fill the background. bright natural daylight, authentic cultural event atmosphere, ultra realistic photography., clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332534",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99526637-3219-4e6e-8cf8-8412dd3560b8/original=true/99526637-3219-4e6e-8cf8-8412dd3560b8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332388",
+      "title": "Civitai prompt 145332388",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mhh, dynamic angle, abstract,, A tight framing of a mystical oracle with cascading, dark brown curls and a band of ornate, gold-embroidered white silk wrapping around her eyes, completely blindfolding her. She wears a luxurious, loose-fitting silk kimono layered in shades of ivory and pale gold, with heavy golden tassels hanging from her shoulders. Her hands are raised delicately near her chin, levitating a fan of tarot cards that emit a soft, ethereal golden glow. The background is a muted, soft-focus beige adorned with subtle, floating geometric star charts. The lighting is warm and angelic, projecting an atmosphere of divine wisdom and tranquil mystery.) Advertising style, high detail, fantasy realism,. Masterpiece, intricate line work, fantasy illustration. The art style is painterly with strong ink outlines, high contrast, and a gritty, atmospheric mood, with dynamic composition.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332388",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f83e84f4-dc59-4636-8056-2eb75ed967dd/original=true/f83e84f4-dc59-4636-8056-2eb75ed967dd.jpeg",
+      "model_version_ids": [
+        959419,
+        1056404,
+        1240288,
+        1472168
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1930328887,
+      "negative_prompt": "bad anatomy, bad hands, extra, fewer, missing, watermark, signature, lowres, ai-generated, blunt bangs, (((head out of frame))), cropped,Lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, conjoined, missing fingers, extra fingers, censored,,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,(worst quality:1.2),low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,lowres graffiti,(low quality lowres simple background:1.1),(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2), bad composition, inaccurate eyes, extra digit, fewer digits,),lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, comic, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored,bad quality,worst quality,worst detail,sketch,censor,ai generated,male,man",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773044+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d9a8bb44c39e1d57cfd75a4bc28df3585552a440815696ddff997319bc3d8ca8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145332388 advertising ai-image-prompts mhh, dynamic angle, abstract,, a tight framing of a mystical oracle with cascading, dark brown curls and a band of ornate, gold-embroidered white silk wrapping around her eyes, completely blindfolding her. she wears a luxurious, loose-fitting silk kimono layered in shades of ivory and pale gold, with heavy golden tassels hanging from her shoulders. her hands are raised delicately near her chin, levitating a fan of tarot cards that emit a soft, ethereal golden glow. the background is a muted, soft-focus beige adorned with subtle, floating geometric star charts. the lighting is warm and angelic, projecting an atmosphere of divine wisdom and tranquil mystery.) advertising style, high detail, fantasy realism,. masterpiece, intricate line work, fantasy illustration. the art style is painterly with strong ink outlines, high contrast, and a gritty, atmospheric mood, with dynamic composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332388",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f83e84f4-dc59-4636-8056-2eb75ed967dd/original=true/f83e84f4-dc59-4636-8056-2eb75ed967dd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145332233",
+      "title": "Civitai prompt 145332233",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Surrealist pop-art toy universe, extravagant cinematic 3D illustration, 2:3 tall stacking composition, hyper-saturated primary-color rendering. A gigantic playroom folds into impossible architecture, with checkerboard floorboards, towering toy cabinets, upside-down windows, and a ceiling transformed into a second miniature city. Center of the action: a bright yellow-and-red LEGO locomotive races along an infinite Möbius railway, its plastic tracks twisting from the foreground through a vertical loop, across the ceiling, and back beneath the engine in a single continuous ribbon. The locomotive tilts sideways at the loop’s highest point, with its blue wheels gripping the curved rails and a cloud of translucent brick-shaped steam frozen behind the smokestack. Three mismatched carriages follow the twisting route: one carries a miniature castle, another holds a spinning carousel, and the third contains a tiny replica of the entire room. A brick-built conductor leans from the cab, one hand clutching the window frame and the other holding a small golden ticket. Giant toy dinosaurs stand between the rails, wooden alphabet blocks form floating staircases, and a wind-up robot balances on a suspended shelf. A huge teddy bear sits upside down on the ceiling, while a miniature moon hangs from a red thread above the railway. Confetti and transparent plastic stars hover between the nested room layers, reinforcing the impossible depth. An exaggerated low-angle miniature perspective follows the train through the Möbius curve, keeping the locomotive as the single primary focal object while the repeating rooms dissolve into layered optical distortion. Lighting: saturated yellow studio key, electric-cyan bounce from the floor, and a magenta rim across the locomotive and rails, with sharply defined contact shadows following the warped surfaces. Octane Render, glossy PBR plastic, ray-traced reflections, and precise brick-stud geometry.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145332233",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30b6f0bb-8d08-48ca-bbca-59abcdffa091/original=true/30b6f0bb-8d08-48ca-bbca-59abcdffa091.jpeg",
+      "model_version_ids": [
+        164821,
+        3072332,
+        3077110,
+        3132463
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 170091556,
+      "negative_prompt": "More than five fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773070+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7e48d678ea354aed202662abbe5a9b00d58c2a76f9f2bb73772a3f62a5ee986c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145332233 architecture ai-image-prompts surrealist pop-art toy universe, extravagant cinematic 3d illustration, 2:3 tall stacking composition, hyper-saturated primary-color rendering. a gigantic playroom folds into impossible architecture, with checkerboard floorboards, towering toy cabinets, upside-down windows, and a ceiling transformed into a second miniature city. center of the action: a bright yellow-and-red lego locomotive races along an infinite möbius railway, its plastic tracks twisting from the foreground through a vertical loop, across the ceiling, and back beneath the engine in a single continuous ribbon. the locomotive tilts sideways at the loop’s highest point, with its blue wheels gripping the curved rails and a cloud of translucent brick-shaped steam frozen behind the smokestack. three mismatched carriages follow the twisting route: one carries a miniature castle, another holds a spinning carousel, and the third contains a tiny replica of the entire room. a brick-built conductor leans from the cab, one hand clutching the window frame and the other holding a small golden ticket. giant toy dinosaurs stand between the rails, wooden alphabet blocks form floating staircases, and a wind-up robot balances on a suspended shelf. a huge teddy bear sits upside down on the ceiling, while a miniature moon hangs from a red thread above the railway. confetti and transparent plastic stars hover between the nested room layers, reinforcing the impossible depth. an exaggerated low-angle miniature perspective follows the train through the möbius curve, keeping the locomotive as the single primary focal object while the repeating rooms dissolve into layered optical distortion. lighting: saturated yellow studio key, electric-cyan bounce from the floor, and a magenta rim across the locomotive and rails, with sharply defined contact shadows following the warped surfaces. octane render, glossy pbr plastic, ray-traced reflections, and precise brick-stud geometry. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145332233",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30b6f0bb-8d08-48ca-bbca-59abcdffa091/original=true/30b6f0bb-8d08-48ca-bbca-59abcdffa091.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145327562",
+      "title": "Civitai prompt 145327562",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "highres, newest, masterpiece, best quality, traditional media,  detailed textures, soft lighting, diffused lighting, (realistic:1.3), concept art,\nmasterful painterly digital art with visible textured brushwork, a Ken Sugimori style flat anime concept art, anime coloring, lucky star,\nan original adult blonde female character with shiny silver eyes, fair skin, sharp elegant facial features, and black hoop earrings, wearing her dark green and gray Hogwarts Slytherin school uniform.\nBold black ink outlines, clean vector-style linework, minimalistic flat shading, close-up half-body composition, romantic-comedy with a dark twist, masterpiece.\nShe stands with her feet wide, challenging the viewer. Her hand is outstreched holding a pokeball and directed at viewer.\nThree pokemon are around her. At her feet behind her is furret, a long fluffy pokemon that looks like a rounded ferret. At her feet in front of her is seviper, a dark snake with two large red fangs and blade tail. Above her floating duskull, a dark shroud-looking cloud with a crooked skull mask.\nShe smirks confidently and smugly, confident in her powers.\n(pokemon:1.2), harry potter \\(series\\), pokemon \\(creature\\), (generation 2 pokemon:1.2), \n1girl, cute, draco malfoy, genderswap, small breasts, smug, hogwarts school uniform, slytherin, pleated skirt, dark pantyhose, see-through pantyhose, single hair intake, blonde hair, long hair, fang, holding poke ball, (duskull, furret, seviper:1.2),\nyard, outdoors,\n <lora:kroma-v0.2-base-lora-rank-384-fro-0985:1>, \n<lora:training_1356263-20260704185321882:0.6>,\n <lora:training_2363356-20260728063952975:0.85> , GrimmsPaint,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145327562",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3a4f65c-dd07-4972-a98f-d4ec3104e244/original=true/f3a4f65c-dd07-4972-a98f-d4ec3104e244.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboFp8",
+      "model_version_ids": [
+        3072332,
+        3101597,
+        3177668,
+        3213004
+      ],
+      "width": 1088,
+      "height": 1472,
+      "seed": 793168381,
+      "negative_prompt": "shiny skin, score_1, score_2, score_3, score_4, ai-generated,  worst quality, low quality, artist name, bad anatomy, bad hands, jpeg, artifacts (signature, watermark, logo, artist name, patreon_username, web_address, username:1.1), extra digits,  censored, patreon username,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773083+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "57f691eb618b3f07b5fece3c9e9809004077e5e889147f416842faae5514a26b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145327562 image ai-image-prompts highres, newest, masterpiece, best quality, traditional media, detailed textures, soft lighting, diffused lighting, (realistic:1.3), concept art, masterful painterly digital art with visible textured brushwork, a ken sugimori style flat anime concept art, anime coloring, lucky star, an original adult blonde female character with shiny silver eyes, fair skin, sharp elegant facial features, and black hoop earrings, wearing her dark green and gray hogwarts slytherin school uniform. bold black ink outlines, clean vector-style linework, minimalistic flat shading, close-up half-body composition, romantic-comedy with a dark twist, masterpiece. she stands with her feet wide, challenging the viewer. her hand is outstreched holding a pokeball and directed at viewer. three pokemon are around her. at her feet behind her is furret, a long fluffy pokemon that looks like a rounded ferret. at her feet in front of her is seviper, a dark snake with two large red fangs and blade tail. above her floating duskull, a dark shroud-looking cloud with a crooked skull mask. she smirks confidently and smugly, confident in her powers. (pokemon:1.2), harry potter \\(series\\), pokemon \\(creature\\), (generation 2 pokemon:1.2), 1girl, cute, draco malfoy, genderswap, small breasts, smug, hogwarts school uniform, slytherin, pleated skirt, dark pantyhose, see-through pantyhose, single hair intake, blonde hair, long hair, fang, holding poke ball, (duskull, furret, seviper:1.2), yard, outdoors, <lora:kroma-v0.2-base-lora-rank-384-fro-0985:1>, <lora:training_1356263-20260704185321882:0.6>, <lora:training_2363356-20260728063952975:0.85> , grimmspaint, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145327562",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3a4f65c-dd07-4972-a98f-d4ec3104e244/original=true/f3a4f65c-dd07-4972-a98f-d4ec3104e244.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145255856",
+      "title": "Civitai prompt 145255856",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, sensitive, ultra detailed, best anatomy, HDR, 8K, high detail RAW color art, high contrast, toon,high resolution, ultra-detailed, newest, perfect details, source_cartoon, toon (style), (cartoon:1.0), very aesthetic, high resolution, ultra-detailed, newest, scenery, depth of field,  1girl, solo, Dilijla, woman, black eyes, black hair, very thick long hair, absurdly very thick long hair, very long hair, wide hair, smooth hair, voluminous hair, curly hairs, floofy hair, wavy hair, ornament hair, hair intakes, soft waves, thick hair, huge thick hair, beautiful hair, puffy hair, wavy sidelocks, big hair, curtained hair, asymmetrical curtained hair, parted bangs, ((big mass of curly hair)), full lips, pink dress, very long dress, red belt, circle belt buckle, bangle, upper body, closeup, smiling, closed mouth, happy, enjoying, adorable, beautiful, satisfaction expression, seductive, bashful, standing, bloated belly, stuffed belly, fat belly, big belly, very tall, dynamic view, nightclub, dark room, looking at viewer,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145255856",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a64a517-8419-4a35-a5dd-b7cebfb62a16/original=true/5a64a517-8419-4a35-a5dd-b7cebfb62a16.jpeg",
+      "model_version_ids": [
+        1885113,
+        2514310
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1516639959,
+      "negative_prompt": "worst quality, low quality, bad anatomy, watermark, IllusN3g, (low quality:1.3), (worst quality:1.3), lowres, sketch, bad anatomy, monochrome, greyscale, grayscale, lineart, limited palette,\ncensored, mosaic censoring, bar censor,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773094+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f08209288ffc08a66a9307f0d7a2f552d02bc7aaaf65cc39ed982d415a313936",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145255856 image ai-image-prompts masterpiece, best quality, absurdres, newest, very aesthetic, amazing quality, highres, sensitive, ultra detailed, best anatomy, hdr, 8k, high detail raw color art, high contrast, toon,high resolution, ultra-detailed, newest, perfect details, source_cartoon, toon (style), (cartoon:1.0), very aesthetic, high resolution, ultra-detailed, newest, scenery, depth of field, 1girl, solo, dilijla, woman, black eyes, black hair, very thick long hair, absurdly very thick long hair, very long hair, wide hair, smooth hair, voluminous hair, curly hairs, floofy hair, wavy hair, ornament hair, hair intakes, soft waves, thick hair, huge thick hair, beautiful hair, puffy hair, wavy sidelocks, big hair, curtained hair, asymmetrical curtained hair, parted bangs, ((big mass of curly hair)), full lips, pink dress, very long dress, red belt, circle belt buckle, bangle, upper body, closeup, smiling, closed mouth, happy, enjoying, adorable, beautiful, satisfaction expression, seductive, bashful, standing, bloated belly, stuffed belly, fat belly, big belly, very tall, dynamic view, nightclub, dark room, looking at viewer, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145255856",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a64a517-8419-4a35-a5dd-b7cebfb62a16/original=true/5a64a517-8419-4a35-a5dd-b7cebfb62a16.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145231788",
+      "title": "Civitai prompt 145231788",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "WORLD / SCENE IDENTITY\n\nMasterpiece, best quality, very aesthetic. A quiet old rural village at dusk, with weathered plaster houses, red clay roof tiles, dark garden trees, simple rooftop antennas, and a broad evening sky transitioning from warm sunset color into cool blue-green twilight.\n\nThe atmosphere feels calm, intimate, slightly mysterious, and deeply nostalgic.\n\nMAIN ANCHOR\n\nOne single black adult cat sits alone on the sloping red-tiled roof of an old house.\n\nUse natural feline anatomy:\n\ncompact seated body,\nupright ears,\nlong relaxed tail resting along the roof,\nsoft dense black fur,\nand small reflective yellow-green eyes.\n\nThe cat looks upward toward the crescent moon.\n\nKeep the cat mostly in dark silhouette, clearly separated against the brighter sky.\n\nROOF / ARCHITECTURE\n\nUse an old countryside house with:\n\naged pale plaster walls,\nweathered terracotta roof tiles,\nslightly irregular roof construction,\nsmall patches of climbing vegetation,\nand restrained signs of age.\n\nThe roof should descend diagonally across the image and create the main physical platform beneath the cat.\n\nVISUAL ROUTE\n\nBuild one clear visual route:\n\ndark vegetation\n-> sloping terracotta roof\n-> black cat silhouette\n-> small rooftop antenna\n-> glowing sunset clouds\n-> crescent moon.\n\nCAMERA\n\nUse a vertical environmental composition from a slightly lower viewpoint, looking gently upward toward the cat on the roof.\n\nKeep substantial open sky around the cat and moon.\n\nDo not frame the cat too closely.\n\nFOREGROUND / FRAMING\n\nUse dark leafy branches and parts of nearby trees along the upper and side edges.\n\nKeep them quiet and mostly silhouetted so they naturally frame the scene.\n\nBACKGROUND\n\nUse:\n\nanother modest village house,\ndark tree crowns,\none simple rooftop antenna,\nand very little distant architectural clutter.\n\nKeep the lower village subdued so the roof silhouette and sky remain dominant.\n\nSKY / LIGHT EVENT\n\nUse a dramatic but soft dusk sky.\n\nNear the horizon:\nwarm coral,\nsoft salmon,\npeach,\nand restrained orange.\n\nHigher in the sky:\nmuted teal,\nblue-green,\nand cool gray-blue.\n\nUse broad irregular cloud bands catching the remaining sunset light.\n\nOne small warm ivory crescent moon hangs high above the roof.\n\nLIGHT\n\nThe remaining sunset softly illuminates:\n\nterracotta roof edges,\nselected plaster surfaces,\ntree leaves,\nand the outer edge of the cat’s fur.\n\nThe cat remains predominantly dark.\n\nKeep shadows open enough to preserve its body silhouette and tail.\n\nCOLOR\n\nBASE:\ndeep teal,\ncharcoal,\ndark green,\nweathered terracotta,\nmuted plaster gray.\n\nCOUNTER:\ncoral,\nsoft peach,\nwarm salmon,\npale cream.\n\nACCENT:\nthe crescent moon and small yellow-green cat eyes.\n\nDEPTH\n\nCreate depth through:\n\ndark foreground foliage,\nroof overlap,\ncat placement,\nsecondary rooftops,\ntree layering,\nand atmospheric sky recession.\n\nGLOBAL VISUAL LANGUAGE\n\nPreserve one clear visual thesis:\n\na solitary black cat sits quietly on an old red-tiled village roof at dusk, watching a small crescent moon above warm coral clouds.\n\nThe roof provides the visual route.\n\nThe cat provides emotional presence.\n\nThe sunset provides color contrast.\n\nThe moon provides the distant reward.\n\nKeep the scene simple, painterly, quiet, and immediately readable at thumbnail scale.\n\nPAINTERLY STYLE\n\nA flat hand-drawn graphic illustration, 2000s.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145231788",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc79ea04-df81-428b-91b6-ea2ce45d538b/original=true/fc79ea04-df81-428b-91b6-ea2ce45d538b.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 50000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-11T10:08:28.773135+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "546e9878e5dcbfb63613fc840b5f1fa439cfc2cafc4fdba8a14f1a0bc0120955",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145231788 architecture ai-image-prompts world / scene identity masterpiece, best quality, very aesthetic. a quiet old rural village at dusk, with weathered plaster houses, red clay roof tiles, dark garden trees, simple rooftop antennas, and a broad evening sky transitioning from warm sunset color into cool blue-green twilight. the atmosphere feels calm, intimate, slightly mysterious, and deeply nostalgic. main anchor one single black adult cat sits alone on the sloping red-tiled roof of an old house. use natural feline anatomy: compact seated body, upright ears, long relaxed tail resting along the roof, soft dense black fur, and small reflective yellow-green eyes. the cat looks upward toward the crescent moon. keep the cat mostly in dark silhouette, clearly separated against the brighter sky. roof / architecture use an old countryside house with: aged pale plaster walls, weathered terracotta roof tiles, slightly irregular roof construction, small patches of climbing vegetation, and restrained signs of age. the roof should descend diagonally across the image and create the main physical platform beneath the cat. visual route build one clear visual route: dark vegetation -> sloping terracotta roof -> black cat silhouette -> small rooftop antenna -> glowing sunset clouds -> crescent moon. camera use a vertical environmental composition from a slightly lower viewpoint, looking gently upward toward the cat on the roof. keep substantial open sky around the cat and moon. do not frame the cat too closely. foreground / framing use dark leafy branches and parts of nearby trees along the upper and side edges. keep them quiet and mostly silhouetted so they naturally frame the scene. background use: another modest village house, dark tree crowns, one simple rooftop antenna, and very little distant architectural clutter. keep the lower village subdued so the roof silhouette and sky remain dominant. sky / light event use a dramatic but soft dusk sky. near the horizon: warm coral, soft salmon, peach, and restrained orange. higher in the sky: muted teal, blue-green, and cool gray-blue. use broad irregular cloud bands catching the remaining sunset light. one small warm ivory crescent moon hangs high above the roof. light the remaining sunset softly illuminates: terracotta roof edges, selected plaster surfaces, tree leaves, and the outer edge of the cat’s fur. the cat remains predominantly dark. keep shadows open enough to preserve its body silhouette and tail. color base: deep teal, charcoal, dark green, weathered terracotta, muted plaster gray. counter: coral, soft peach, warm salmon, pale cream. accent: the crescent moon and small yellow-green cat eyes. depth create depth through: dark foreground foliage, roof overlap, cat placement, secondary rooftops, tree layering, and atmospheric sky recession. global visual language preserve one clear visual thesis: a solitary black cat sits quietly on an old red-tiled village roof at dusk, watching a small crescent moon above warm coral clouds. the roof provides the visual route. the cat provides emotional presence. the sunset provides color contrast. the moon provides the distant reward. keep the scene simple, painterly, quiet, and immediately readable at thumbnail scale. painterly style a flat hand-drawn graphic illustration, 2000s. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145231788",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc79ea04-df81-428b-91b6-ea2ce45d538b/original=true/fc79ea04-df81-428b-91b6-ea2ce45d538b.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-10T19:17:39.158952+00:00",
-  "prompt_count": 1260,
+  "generated_at": "2026-10-11T10:08:30.528443+00:00",
+  "prompt_count": 1274,
   "translation": {
     "language": "ar",
-    "translated_count": 16,
-    "skipped_count": 1238,
-    "failed_count": 6,
-    "updated_at": "2026-10-10T19:17:38Z"
+    "translated_count": 0,
+    "skipped_count": 1254,
+    "failed_count": 20,
+    "updated_at": "2026-10-11T10:08:30Z"
   }
 }
