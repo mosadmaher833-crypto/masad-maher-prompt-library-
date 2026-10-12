@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -58416,15 +58416,555 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99c2ccc9-e664-40ab-8688-df432bda56be/original=true/99c2ccc9-e664-40ab-8688-df432bda56be.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-145429896",
+      "title": "Civitai prompt 145429896",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "WORLD / SCENE IDENTITY\n\nMasterpiece, best quality, very aesthetic. A quiet rural farmhouse in late autumn, surrounded by dry grass, bare shrubs, sparse golden trees, and a field filled with large harvested pumpkins.\n\nThe atmosphere feels rustic, seasonal, slightly whimsical, and gently eerie without becoming horror.\n\nMAIN ANCHOR\n\nOne small ghost-like figure stands among the pumpkins in the foreground-middle ground.\n\nUse a simple white sheet-like form with:\n\nsoft natural folds,\ntwo small dark oval eye openings,\nrounded upper silhouette,\nand fabric falling almost to the ground.\n\nKeep the figure small and charming rather than frightening.\n\nPUMPKIN FIELD\n\nSurround the figure with many large orange pumpkins scattered irregularly through the dry field.\n\nUse:\n\nwarm orange,\nmuted ochre,\ndeep pumpkin brown,\ndark stems,\nand natural differences in size and shape.\n\nAvoid evenly spaced or identical pumpkins.\n\nVISUAL ROUTE\n\nBuild one clear visual route:\n\nforeground pumpkins\n-> white ghost figure\n-> dry autumn field\n-> old farmhouse\n-> golden trees\n-> pale overcast sky.\n\nThe bright white figure should create the strongest local contrast against the warm field.\n\nFARMHOUSE\n\nUse one old rural two-story farmhouse in the background.\n\nUse:\n\nweathered pale wooden siding,\nsteep simple roof,\nbrick chimney,\ncovered front porch,\ndark windows,\nold steps,\nand slightly neglected garden edges.\n\nKeep the house practical and aged rather than overtly haunted.\n\nCAMERA\n\nUse a vertical environmental composition from natural standing height.\n\nKeep the ghost slightly off-center and the farmhouse clearly visible behind it.\n\nPreserve enough pumpkin field in the foreground to establish depth.\n\nFOREGROUND\n\nUse:\n\nlarge pumpkins,\ndry grasses,\ncorn stalk remnants,\nfallen leaves,\ndark weeds,\nand patches of exposed soil.\n\nKeep the nearest pumpkins most resolved.\n\nMIDDLE GROUND\n\nThe ghost and main pumpkin cluster occupy the strongest focal plane.\n\nUse broad dry grasses around them with enough negative space for the white silhouette to remain clear.\n\nBACKGROUND\n\nUse:\n\nthe farmhouse,\nbare tree branches,\nremaining orange foliage,\ndark shrubs,\nand a pale muted autumn sky.\n\nKeep the background quieter than the foreground.\n\nLIGHT\n\nUse broad soft late-autumn daylight.\n\nWarm light softly reaches:\n\npumpkins,\ndry grasses,\nfarmhouse siding,\nremaining orange leaves,\nand selected folds of the white fabric.\n\nShadows remain open in muted brown, olive, and blue-gray.\n\nCOLOR\n\nBASE:\ndry grass beige,\nweathered wood gray,\nmuted olive,\nsoft autumn brown.\n\nCOUNTER:\npumpkin orange,\nwarm ochre,\nrust,\nsoft cream.\n\nACCENT:\nthe white ghost figure and small dark eye openings.\n\nDEPTH\n\nCreate depth through:\n\nforeground pumpkin overlap,\nghost placement,\nfield recession,\nhouse scale,\ntree layering,\nand atmospheric softening toward the background.\n\nGLOBAL VISUAL LANGUAGE\n\nPreserve one clear visual thesis:\n\na small white ghost-like figure stands quietly among a field of orange pumpkins in front of an old rural farmhouse during late autumn.\n\nThe pumpkins provide seasonal identity.\n\nThe ghost provides the playful anomaly.\n\nThe farmhouse provides rural context.\n\nKeep the scene painterly, rustic, autumnal, slightly uncanny, and immediately readable at thumbnail scale.\n\nPAINTERLY STYLE\n\nA flat hand-drawn graphic illustration, 2000s.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145429896",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/969cb465-6d2c-4676-a399-e697c791be39/original=true/969cb465-6d2c-4676-a399-e697c791be39.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 50000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029028+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1029baebb565bfe2191e72b34405ef9ce1bbcfe85d854515396fcc56dfcd7764",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145429896 image ai-image-prompts world / scene identity masterpiece, best quality, very aesthetic. a quiet rural farmhouse in late autumn, surrounded by dry grass, bare shrubs, sparse golden trees, and a field filled with large harvested pumpkins. the atmosphere feels rustic, seasonal, slightly whimsical, and gently eerie without becoming horror. main anchor one small ghost-like figure stands among the pumpkins in the foreground-middle ground. use a simple white sheet-like form with: soft natural folds, two small dark oval eye openings, rounded upper silhouette, and fabric falling almost to the ground. keep the figure small and charming rather than frightening. pumpkin field surround the figure with many large orange pumpkins scattered irregularly through the dry field. use: warm orange, muted ochre, deep pumpkin brown, dark stems, and natural differences in size and shape. avoid evenly spaced or identical pumpkins. visual route build one clear visual route: foreground pumpkins -> white ghost figure -> dry autumn field -> old farmhouse -> golden trees -> pale overcast sky. the bright white figure should create the strongest local contrast against the warm field. farmhouse use one old rural two-story farmhouse in the background. use: weathered pale wooden siding, steep simple roof, brick chimney, covered front porch, dark windows, old steps, and slightly neglected garden edges. keep the house practical and aged rather than overtly haunted. camera use a vertical environmental composition from natural standing height. keep the ghost slightly off-center and the farmhouse clearly visible behind it. preserve enough pumpkin field in the foreground to establish depth. foreground use: large pumpkins, dry grasses, corn stalk remnants, fallen leaves, dark weeds, and patches of exposed soil. keep the nearest pumpkins most resolved. middle ground the ghost and main pumpkin cluster occupy the strongest focal plane. use broad dry grasses around them with enough negative space for the white silhouette to remain clear. background use: the farmhouse, bare tree branches, remaining orange foliage, dark shrubs, and a pale muted autumn sky. keep the background quieter than the foreground. light use broad soft late-autumn daylight. warm light softly reaches: pumpkins, dry grasses, farmhouse siding, remaining orange leaves, and selected folds of the white fabric. shadows remain open in muted brown, olive, and blue-gray. color base: dry grass beige, weathered wood gray, muted olive, soft autumn brown. counter: pumpkin orange, warm ochre, rust, soft cream. accent: the white ghost figure and small dark eye openings. depth create depth through: foreground pumpkin overlap, ghost placement, field recession, house scale, tree layering, and atmospheric softening toward the background. global visual language preserve one clear visual thesis: a small white ghost-like figure stands quietly among a field of orange pumpkins in front of an old rural farmhouse during late autumn. the pumpkins provide seasonal identity. the ghost provides the playful anomaly. the farmhouse provides rural context. keep the scene painterly, rustic, autumnal, slightly uncanny, and immediately readable at thumbnail scale. painterly style a flat hand-drawn graphic illustration, 2000s. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145429896",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/969cb465-6d2c-4676-a399-e697c791be39/original=true/969cb465-6d2c-4676-a399-e697c791be39.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145427512",
+      "title": "Civitai prompt 145427512",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "beautiful adult South Asian Indian woman, gorgeous Indian facial features, warm medium-brown skin, long wavy black hair with vivid orange and purple highlights, half-up hairstyle with loose cascading curls, small Halloween pumpkin hair clips, miniature bat-shaped hairpins, black lace headband with tiny bat wings, dangling jack-o'-lantern earrings, black choker necklace with a small pumpkin pendant, Halloween-themed cropped baby tee, short-length tight-fitting T-shirt with cute Halloween graphics of pumpkins, bats and ghosts, intricate Halloween face paint featuring tiny orange pumpkins, black bats and delicate spiderweb patterns around her eyes and cheeks, facing the camera, one arm raised and placed behind her head, confident fashion model pose, radiant dazzling smile, bright cheerful expression, direct eye contact, natural relaxed posture, festive Halloween event venue, elaborate Halloween decorations, glowing jack-o'-lanterns, hanging bats, cobwebs, orange and purple ambient lighting, colorful festive atmosphere, realistic skin texture, detailed facial features, professional fashion photography, medium shot from the waist up, eye-level camera angle, sharp focus, cinematic lighting, highly detailed hair strands, detailed accessories, masterpiece, best quality, photorealistic.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145427512",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf45b138-8f86-43e9-a626-6c7d1aebf606/original=true/cf45b138-8f86-43e9-a626-6c7d1aebf606.jpeg",
+      "model": "qwen-image-2.1-UC-Q6_K",
+      "model_version_ids": [],
+      "width": 992,
+      "height": 1472,
+      "seed": 513525660325219,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029071+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f4a8aa249157ef6b2fb5a1b513c688cd33ccbafaf56b30522485e046b1a645a9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145427512 fashion ai-image-prompts beautiful adult south asian indian woman, gorgeous indian facial features, warm medium-brown skin, long wavy black hair with vivid orange and purple highlights, half-up hairstyle with loose cascading curls, small halloween pumpkin hair clips, miniature bat-shaped hairpins, black lace headband with tiny bat wings, dangling jack-o'-lantern earrings, black choker necklace with a small pumpkin pendant, halloween-themed cropped baby tee, short-length tight-fitting t-shirt with cute halloween graphics of pumpkins, bats and ghosts, intricate halloween face paint featuring tiny orange pumpkins, black bats and delicate spiderweb patterns around her eyes and cheeks, facing the camera, one arm raised and placed behind her head, confident fashion model pose, radiant dazzling smile, bright cheerful expression, direct eye contact, natural relaxed posture, festive halloween event venue, elaborate halloween decorations, glowing jack-o'-lanterns, hanging bats, cobwebs, orange and purple ambient lighting, colorful festive atmosphere, realistic skin texture, detailed facial features, professional fashion photography, medium shot from the waist up, eye-level camera angle, sharp focus, cinematic lighting, highly detailed hair strands, detailed accessories, masterpiece, best quality, photorealistic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145427512",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf45b138-8f86-43e9-a626-6c7d1aebf606/original=true/cf45b138-8f86-43e9-a626-6c7d1aebf606.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437866",
+      "title": "Civitai prompt 145437866",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Horror-themed Gothic style, Long exposure photo, HDR photo, cinematic film still, breathtaking, \ncorkworld, \ncasket relief made of cork, \ncrepuscular light and shadow play, ethereal fantasy concept art, Masterwork Painting, Magnum Opus, GelatoStyle\naward-winning, professional, highly detailed, magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy\nshallow depth of field, vignette, high budget, bokeh, cinemascope, moody, gorgeous, film grain, grainy, High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, intricate details, fine details\nBlurred motion, streaks of light, surreal, dreamy, ghosting effect\nDark, mysterious, haunting, dramatic, ornate, Eerie, unsettling, spooky, suspenseful, grim",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437866",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8ca17f8-9610-4484-8b97-45bc1c14a681/original=true/d8ca17f8-9610-4484-8b97-45bc1c14a681.jpeg",
+      "model_version_ids": [
+        653657,
+        686204
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 242791226,
+      "negative_prompt": "lazydn, child, childlike, red lipstick, red nailpolish, tattoos, multiple navels, photo, sketch, anime, cartoon, render, 2D, 3D, logo, text, watermark, lowres, blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029092+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5a203d5190088f51185fe8e15c09eaf998bf5c9c1f69e6a0597c8368488ff284",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145437866 image ai-image-prompts horror-themed gothic style, long exposure photo, hdr photo, cinematic film still, breathtaking, corkworld, casket relief made of cork, crepuscular light and shadow play, ethereal fantasy concept art, masterwork painting, magnum opus, gelatostyle award-winning, professional, highly detailed, magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy shallow depth of field, vignette, high budget, bokeh, cinemascope, moody, gorgeous, film grain, grainy, high dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, intricate details, fine details blurred motion, streaks of light, surreal, dreamy, ghosting effect dark, mysterious, haunting, dramatic, ornate, eerie, unsettling, spooky, suspenseful, grim civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437866",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8ca17f8-9610-4484-8b97-45bc1c14a681/original=true/d8ca17f8-9610-4484-8b97-45bc1c14a681.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437582",
+      "title": "Civitai prompt 145437582",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A lone warrior stands rooted in a quiet, desolate landscape—perhaps a misty field at dawn or the edge of a dark, wet shoreline. He is clad in heavy, subtly weathered armor, drawing back a recurve bowstring, his posture conveying immense, contained tension and weary resolve. Surrounding him, erupting from the ground like tormented spirit smoke, are chaotic streams of dark, viscous energy—these tendrils are rendered with the fluid grace of traditional Japanese ink wash (Sumi-e). Embedded within these swirling forms are multiple demonic visages; their expressions are fiercely stylized—sharp angles, exaggerated brow ridges, and wide, knowing grins characteristic of oni or vengeful spirits. The lighting is weak morning light filtering through a heavy layer of mist, casting soft, melancholic shadows that pool around the warrior’s boots. The composition frames the warrior centrally, but the explosive energy behind him forces the eye outward into the negative space—the quiet emptiness of the landscape speaks louder than any battle cry. Focus on the contrast: the grounded, tangible weight of the warrior versus the ephemeral, stylized agony of the spectral faces. Skin textures must be hyper-realistic yet possess a subtle, painted quality (like aged wood or rice paper).",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437582",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39c497d8-2ada-463c-8924-cba88e3f19e9/original=true/39c497d8-2ada-463c-8924-cba88e3f19e9.jpeg",
+      "model": "KREA2\\bf95Krea2DarkRealism_v4",
+      "model_version_ids": [],
+      "width": 1555,
+      "height": 1555,
+      "seed": 215592810405684,
+      "negative_prompt": "merged body, merged limbs, plastik skin, unrealistic skin textures",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029130+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "949ad98e4ed6ad7e530a7e268970e49f165b5c93fc7883e8999912ce94d62d66",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145437582 photography ai-image-prompts a lone warrior stands rooted in a quiet, desolate landscape—perhaps a misty field at dawn or the edge of a dark, wet shoreline. he is clad in heavy, subtly weathered armor, drawing back a recurve bowstring, his posture conveying immense, contained tension and weary resolve. surrounding him, erupting from the ground like tormented spirit smoke, are chaotic streams of dark, viscous energy—these tendrils are rendered with the fluid grace of traditional japanese ink wash (sumi-e). embedded within these swirling forms are multiple demonic visages; their expressions are fiercely stylized—sharp angles, exaggerated brow ridges, and wide, knowing grins characteristic of oni or vengeful spirits. the lighting is weak morning light filtering through a heavy layer of mist, casting soft, melancholic shadows that pool around the warrior’s boots. the composition frames the warrior centrally, but the explosive energy behind him forces the eye outward into the negative space—the quiet emptiness of the landscape speaks louder than any battle cry. focus on the contrast: the grounded, tangible weight of the warrior versus the ephemeral, stylized agony of the spectral faces. skin textures must be hyper-realistic yet possess a subtle, painted quality (like aged wood or rice paper). civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437582",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39c497d8-2ada-463c-8924-cba88e3f19e9/original=true/39c497d8-2ada-463c-8924-cba88e3f19e9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437810",
+      "title": "Civitai prompt 145437810",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "m0n1c4. Adult filipino woman with flawless rich golden brown skin. Long dark hair with deep crimson and burnt-orange undertones. Full feminine figure with large breasts. Narrow waist. Wide hips and thick thighs. Rich layered robes in deep crimson burnt orange and black silk with gold lotus and flame motifs. Strategically sheer panels that cling to her curves while remaining elegant. Ornate gold jewelry. Soft glowing ember aura. Floating weightlessly above an ancient stone peak. Six feet of distance between the bottoms of her feet and the stone peak filled with empty air. Body slightly arched. One hand extended downward as soft embers rise around her. Vast twilight sky with a deep red horizon. Distant mountains below. Full-body shot. 50mm lens. Shallow depth of field. Sharp focus on her figure. Deep crimson and warm gold lighting with soft volumetric glow. Gentle rim light outlining her form. Calm and divine expression. Cinematic fine-art photography. Highly detailed. Vertical composition. Elegant and ethereal., ta86_wistfall,, Detailed Emotions and Expressions,        ,",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437810",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bf893f5-0552-4d97-983f-2542816b0862/original=true/7bf893f5-0552-4d97-983f-2542816b0862.jpeg",
+      "model": "krea2FinalcutMassive_comfyQuantV3_int8",
+      "model_version_ids": [
+        3066310,
+        3121642,
+        3126819,
+        3132956,
+        3141844,
+        3193133,
+        3317005,
+        3359022,
+        3369950,
+        3380710,
+        3396214
+      ],
+      "width": 2304,
+      "height": 3456,
+      "seed": 846709578068232,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029151+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ebfe9a62953edfb6e94891979a98a9a98a09323e62f74db9e1426dbd282912d2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145437810 photography ai-image-prompts m0n1c4. adult filipino woman with flawless rich golden brown skin. long dark hair with deep crimson and burnt-orange undertones. full feminine figure with large breasts. narrow waist. wide hips and thick thighs. rich layered robes in deep crimson burnt orange and black silk with gold lotus and flame motifs. strategically sheer panels that cling to her curves while remaining elegant. ornate gold jewelry. soft glowing ember aura. floating weightlessly above an ancient stone peak. six feet of distance between the bottoms of her feet and the stone peak filled with empty air. body slightly arched. one hand extended downward as soft embers rise around her. vast twilight sky with a deep red horizon. distant mountains below. full-body shot. 50mm lens. shallow depth of field. sharp focus on her figure. deep crimson and warm gold lighting with soft volumetric glow. gentle rim light outlining her form. calm and divine expression. cinematic fine-art photography. highly detailed. vertical composition. elegant and ethereal., ta86_wistfall,, detailed emotions and expressions, , civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437810",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bf893f5-0552-4d97-983f-2542816b0862/original=true/7bf893f5-0552-4d97-983f-2542816b0862.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145377398",
+      "title": "Civitai prompt 145377398",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The female golem is posing victoriously and provocatively while spreading her legs in a sexy feminine pose.\nA full-body painterly digital illustration of a graceful abstract golem positioned in a dynamic off-center rule-of-thirds composition with wide negative space on one side. The entity's entire structure—including the head and neck area—is built seamlessly from the same sharp kinetic-cyan crystal facets, raw angular mineral blocks, and frosted cyan glass, completely omitting any distinct head shape or facial features. A sleek visor-facet and an asymmetrical crown emerge directly from the upper head blocks. Intense neon-lavender chakra energy glows from deep subterranean fissures within the kinetic-cyan core. The entity interacts naturally with a floating, intricate brass relic orb held or hovered nearby. The background opens into a quiet olive-green painterly landscape, overgrown stone monoliths, weathered copper ruins, and warm amber atmospheric light leaks. Out-of-focus olive foliage drifts in the extreme foreground.\nA full-body painterly integration of the kinetic-cyan crystalline golem within an asymmetrical environment. Swirling neon-lavender chakra mist billows from the inner body fractures, cascading across the scene into a thick lavender haze that wraps around the figure. The kinetic-cyan mineral facets dissolve at their boundaries into closely floating geometric shards, keeping the core figure cohesive. The environment features subtle pareidolia silhouettes of ruined olive-green arches, damp slate cliffs, and ancient overgrown structures. Soft violet reflections catch the edges of out-of-focus foreground particles, creating quiet depth while preserving the off-center composition for wallpaper use.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145377398",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0c3466b-a785-445f-a3e8-ae2253eefc8f/original=true/c0c3466b-a785-445f-a3e8-ae2253eefc8f.jpeg",
+      "model": "Abiray__Krea-2-Turbo-Q5_K_M",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 1408,
+      "seed": 100000000000269,
+      "negative_prompt": "anime style, realistic human anatomy, human skin, human flesh, human face, eyes, nose, mouth, lips, chin, distinct anatomical human head, human neck, human skull shape, clothes, fabric, centered framing, symmetrical composition, perfectly centered subject, bad composition, body cut off by frame edge, solid organic torso, natural human pelvis, muscular limbs, seamless feet, black outlines, lineart, ink contours, comic book lines, vector edge lines, pitch black shadows, blinding pure white highlights, primary yellow, harsh red.\nanime style, realistic anatomy, human skin, human flesh, clear face, detailed eyes, clothes, high contrast black and white, blinding glare, overexposed highlights, unreal engine render, smooth 3d shading, raytraced reflections, video game cgi, cheap plastic textures, smooth ceramic gloss, uniform digital textures, photorealistic camera bokeh, heavy artificial lens blur, extreme depth of field blur, centered symmetrical alignment, flat studio gradient walls.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029192+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "27723c2f6df2157729a2df4771ae7950715e70181fa9b68efd7b1dee4f9096f9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145377398 photography ai-image-prompts the female golem is posing victoriously and provocatively while spreading her legs in a sexy feminine pose. a full-body painterly digital illustration of a graceful abstract golem positioned in a dynamic off-center rule-of-thirds composition with wide negative space on one side. the entity's entire structure—including the head and neck area—is built seamlessly from the same sharp kinetic-cyan crystal facets, raw angular mineral blocks, and frosted cyan glass, completely omitting any distinct head shape or facial features. a sleek visor-facet and an asymmetrical crown emerge directly from the upper head blocks. intense neon-lavender chakra energy glows from deep subterranean fissures within the kinetic-cyan core. the entity interacts naturally with a floating, intricate brass relic orb held or hovered nearby. the background opens into a quiet olive-green painterly landscape, overgrown stone monoliths, weathered copper ruins, and warm amber atmospheric light leaks. out-of-focus olive foliage drifts in the extreme foreground. a full-body painterly integration of the kinetic-cyan crystalline golem within an asymmetrical environment. swirling neon-lavender chakra mist billows from the inner body fractures, cascading across the scene into a thick lavender haze that wraps around the figure. the kinetic-cyan mineral facets dissolve at their boundaries into closely floating geometric shards, keeping the core figure cohesive. the environment features subtle pareidolia silhouettes of ruined olive-green arches, damp slate cliffs, and ancient overgrown structures. soft violet reflections catch the edges of out-of-focus foreground particles, creating quiet depth while preserving the off-center composition for wallpaper use. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145377398",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0c3466b-a785-445f-a3e8-ae2253eefc8f/original=true/c0c3466b-a785-445f-a3e8-ae2253eefc8f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437795",
+      "title": "Civitai prompt 145437795",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "corkworld, architectural photography, monumental organic pavilion, sculpted natural cork blocks, fluid parametric curves, undulating facades, intricate perforated cork sunscreens, filtering sunlight, carved cork steps, cantilevered balconies, warm ambient light glowing from within, soft diffused daylight, earthy tan ochre tones, extreme close-up detail, granular porous cork texture, pressed wood fibers, matte non-reflective surfaces, minimalist aesthetic, award-winning architectural monograph style, shot on 35mm lens, photorealistic, 8k resolution, hyper-detailed, wide angle",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437795",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3d30928-92b8-4c98-916c-d5bcd77c939c/original=true/f3d30928-92b8-4c98-916c-d5bcd77c939c.jpeg",
+      "model_version_ids": [
+        128078,
+        653657
+      ],
+      "seed": 1385725910,
+      "negative_prompt": "plastic, metallic, glossy, reflective surfaces, glass, ceramic, wet surfaces, shiny, oversaturated, neon colors, digital 3D render look, blur, low resolution, deformed, bad anatomy, signature, watermark, text, grainy, noisy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029205+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4471fb772c5f7b92df0bed7b69221ff2fadd84e0dd7dffd1725157245e1ce038",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145437795 image ai-image-prompts corkworld, architectural photography, monumental organic pavilion, sculpted natural cork blocks, fluid parametric curves, undulating facades, intricate perforated cork sunscreens, filtering sunlight, carved cork steps, cantilevered balconies, warm ambient light glowing from within, soft diffused daylight, earthy tan ochre tones, extreme close-up detail, granular porous cork texture, pressed wood fibers, matte non-reflective surfaces, minimalist aesthetic, award-winning architectural monograph style, shot on 35mm lens, photorealistic, 8k resolution, hyper-detailed, wide angle civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437795",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3d30928-92b8-4c98-916c-d5bcd77c939c/original=true/f3d30928-92b8-4c98-916c-d5bcd77c939c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437804",
+      "title": "Civitai prompt 145437804",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, year 2025, score_9, score_8_up, newest, highres, ultra detailed, 8k, uhd, intricate details, beautiful detailed eyes, detailed body panels, detailed seams, professional photography, breathtaking, award-winning, sharp focus, painterly illustration, anime key visual, 2.5D digital art, cinematic anime illustration, good lighting, high contrast, cinematic lighting, fantasy fashion style, mature female, luxury perfume advertisement aesthetic, cinematic composition, subsurface scattering, vivid colors, perfect anatomy, atmospheric depth, (@sakimichan:0.9), (@Nixeu),\n<lora:tsukiya_stef_anima:0.8> tsukiya,\n<lora:kiyora_stef_anima:0.1> kiyora, (bokeh, luminescent background:0.5),\n<lora:Tyber_Bismarck_AL_Anima:1> B1smb4s3, blue eyes, blonde hair, long hair, sidelocks, hair between eyes, large breasts, \n<lora:yozura_stef_anima:0.75> yozura, glowing hair, glowing weapon, 1girl, solo, full body, standing, glowing weapon, glowing eyes, looking at viewer, black armor, cape, full armor, gauntlets, greatsword, holding sword, knight, outdoors, day, storm, fog, battlefield",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437804",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f99de0d0-d289-4f35-a438-6669e40db2be/original=true/f99de0d0-d289-4f35-a438-6669e40db2be.jpeg",
+      "model": "loxsHazeProjectAnima_v10Light",
+      "model_version_ids": [
+        3047668,
+        3215593,
+        3395386
+      ],
+      "width": 1312,
+      "height": 1920,
+      "seed": 1333438763,
+      "negative_prompt": "(blurry), (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), score_1, score_2, score_3, artist name, bad hands, multiple views, jpeg artifacts, signature, watermark, text, logo, bad proportions, extra limbs, extra digit, extra legs, extra legs and arms, disfigured, missing arms, too many fingers, fused fingers, missing fingers, unclear eyes, sketch, error, ugly, distorted, censored, abstract, signature, skinny, anorexic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029223+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7d795607d36cc8f786f0ded6cec7a7d88e5e727af72a5524f03ce7186c7d19fd",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145437804 fashion ai-image-prompts masterpiece, best quality, newest, year 2025, score_9, score_8_up, newest, highres, ultra detailed, 8k, uhd, intricate details, beautiful detailed eyes, detailed body panels, detailed seams, professional photography, breathtaking, award-winning, sharp focus, painterly illustration, anime key visual, 2.5d digital art, cinematic anime illustration, good lighting, high contrast, cinematic lighting, fantasy fashion style, mature female, luxury perfume advertisement aesthetic, cinematic composition, subsurface scattering, vivid colors, perfect anatomy, atmospheric depth, (@sakimichan:0.9), (@nixeu), <lora:tsukiya_stef_anima:0.8> tsukiya, <lora:kiyora_stef_anima:0.1> kiyora, (bokeh, luminescent background:0.5), <lora:tyber_bismarck_al_anima:1> b1smb4s3, blue eyes, blonde hair, long hair, sidelocks, hair between eyes, large breasts, <lora:yozura_stef_anima:0.75> yozura, glowing hair, glowing weapon, 1girl, solo, full body, standing, glowing weapon, glowing eyes, looking at viewer, black armor, cape, full armor, gauntlets, greatsword, holding sword, knight, outdoors, day, storm, fog, battlefield civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437804",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f99de0d0-d289-4f35-a438-6669e40db2be/original=true/f99de0d0-d289-4f35-a438-6669e40db2be.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437800",
+      "title": "Civitai prompt 145437800",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, year 2025, score_9, score_8_up, newest, highres, ultra detailed, 8k, uhd, intricate details, beautiful detailed eyes, detailed body panels, detailed seams, professional photography, breathtaking, award-winning, sharp focus, painterly illustration, anime key visual, 2.5D digital art, cinematic anime illustration, good lighting, high contrast, cinematic lighting, fantasy fashion style, mature female, luxury perfume advertisement aesthetic, cinematic composition, subsurface scattering, vivid colors, perfect anatomy, atmospheric depth, (@sakimichan:0.9), (@Nixeu),\n<lora:tsukiya_stef_anima:0.8> tsukiya,\n<lora:kiyora_stef_anima:0.1> kiyora, (bokeh, luminescent background:0.5),\n<lora:Tyber_Bismarck_AL_Anima:1> B1smb4s3, blue eyes, blonde hair, long hair, sidelocks, hair between eyes, large breasts, \n<lora:yozura_stef_anima:0.75> yozura, 1girl, solo, wide shot, cowboy shot, standing, floating hair, hand in own hair, smile, looking at viewer, red scarf, hair ornament, black coat, wide sleeves, long sleeves, brown footwear, outdoors, day, blue sky, clouds, sun, sunlight, east asian architecture, cherry tree, flowers, wind lift, snow, snowy",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437800",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdafdc50-27ad-4c99-acaf-631c393dc392/original=true/cdafdc50-27ad-4c99-acaf-631c393dc392.jpeg",
+      "model": "loxsHazeProjectAnima_v10Light",
+      "model_version_ids": [
+        3047668,
+        3215593,
+        3395386
+      ],
+      "width": 1312,
+      "height": 1920,
+      "seed": 1333438759,
+      "negative_prompt": "(blurry), (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), score_1, score_2, score_3, artist name, bad hands, multiple views, jpeg artifacts, signature, watermark, text, logo, bad proportions, extra limbs, extra digit, extra legs, extra legs and arms, disfigured, missing arms, too many fingers, fused fingers, missing fingers, unclear eyes, sketch, error, ugly, distorted, censored, abstract, signature, skinny, anorexic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029239+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "af78365fee73d317ea64ee183906e224d8747cf5cf7a44d798f070527cdee7a7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145437800 architecture ai-image-prompts masterpiece, best quality, newest, year 2025, score_9, score_8_up, newest, highres, ultra detailed, 8k, uhd, intricate details, beautiful detailed eyes, detailed body panels, detailed seams, professional photography, breathtaking, award-winning, sharp focus, painterly illustration, anime key visual, 2.5d digital art, cinematic anime illustration, good lighting, high contrast, cinematic lighting, fantasy fashion style, mature female, luxury perfume advertisement aesthetic, cinematic composition, subsurface scattering, vivid colors, perfect anatomy, atmospheric depth, (@sakimichan:0.9), (@nixeu), <lora:tsukiya_stef_anima:0.8> tsukiya, <lora:kiyora_stef_anima:0.1> kiyora, (bokeh, luminescent background:0.5), <lora:tyber_bismarck_al_anima:1> b1smb4s3, blue eyes, blonde hair, long hair, sidelocks, hair between eyes, large breasts, <lora:yozura_stef_anima:0.75> yozura, 1girl, solo, wide shot, cowboy shot, standing, floating hair, hand in own hair, smile, looking at viewer, red scarf, hair ornament, black coat, wide sleeves, long sleeves, brown footwear, outdoors, day, blue sky, clouds, sun, sunlight, east asian architecture, cherry tree, flowers, wind lift, snow, snowy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437800",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdafdc50-27ad-4c99-acaf-631c393dc392/original=true/cdafdc50-27ad-4c99-acaf-631c393dc392.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437682",
+      "title": "Civitai prompt 145437682",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Cinematic photorealistic portrait of a beautiful adult woman, 28-year-old, upper body, short medium shot, looking at viewer, light smile, closed mouth, ((one main small butterfly flying close to her face in the foreground))\nFraming: gorgeous, mid contrast, upper body, chest, adult face, smile, extremely delicate and beautiful, beautiful detailed eyes and face, light smile, extremely detailed eyes, long eyelashes, beautiful detailed nose, light on face, the whole scene is bright and clean, \nFeatures: mixed Serbian, Italian, Scottish, French, German, British and Russian facial features\nHair: medium hair, short shaggy glamorous hairstyle, short bangs, blonde hair, floating hair\nOutfit: SFW elegant office attire or dress, no cleavage\nSetting: detailed office interior, in office\nBackground: two butterflies, a cozy HD garden scene viewed from an office, with a windowsill, doorstep, wooden fence, flower pots with flowers, and one secondary butterfly near a flower. Office elements softly blurred in the far background.\nLighting: the whole scene is bright and clean, soft light, mid contrast, natural lighting, atmospheric lighting, cinematic lighting\nCamera: 85mm lens, f/11 aperture, deep depth of field, sharp focus, ultra detailed\nStyle: hyperdetailed realism, photorealistic, digital photography, RAW photo, intricate details, key visual\nQuality: masterpiece, best quality, 8k, 8k uhd, highres, ultra-detailed, extremely detailed CG unity\nMood: ■ ♥ seductive, tempting, beautiful, pretty, nice, cute, lovely, charming, alluring, attractive, captivating, desirable, enchanting, enticing, fascinating, gorgeous, irresistible, magnetic, romantic, pleasing, radiant, sensuous, sensual, stunning, sultry, amorous, delightful, enchanting, provocative, coquettish, ♥♥ playful, serene, blissful, exquisite, delicate,",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437682",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/762949c2-3c40-447a-9657-e912e8efb2d4/original=true/762949c2-3c40-447a-9657-e912e8efb2d4.jpeg",
+      "model_version_ids": [
+        3339307
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1419177361,
+      "negative_prompt": "blush lines, lines on cheeks, \nblurry, ugly, lowres, wet skin, bad anatomy, bad hands, watermark, \nanime, drawing, comic, rendering, 3d, asian, korean, Japanese, bad asian, \ntext, website, ugly, asian, wide mouth, unhappy, bored, serious, cleft chin, dimples, wide node, fat,big forehead, boy, man, manly, boyish,\n■ score_4, score_5, score_6, western artist, \n■ bad quality, messy drawing, amateur drawing, beginner drawing, lowres, \n■ bad anatomy, bad hands, ugly, deformed, deformed hands, deformed feet, ugly eyes, ugly tits, thick lips, red lips, 1side up, long torso, \n■ source_furry, source_pony, comic, source filmmaker,3D, \n■ source_cartoon, cartoon image, cartoons, \n■ (worst quality, normal quality, low quality:1.7), low res, monochrome, grayscale, bad proportions, watermark, signature, text, \n♣♣♣ freckles, curvy, plump, fat, muscular female, car, \n█ (signature:1.5), watermark, text, artist name, username, logo, mag cover, magazine, \n♠♠♠ censored, mosaic censoring, text censoring, bar censoring, tanlines, \n█ white background, white space, blank space, unpainted border, unpainted spaces, unpainted white, white paper, simple background,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029299+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1cca94f117f693f4eb4e2cf8dffd3953734a47dd216dfbf963c6dfb264caace6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145437682 architecture ai-image-prompts cinematic photorealistic portrait of a beautiful adult woman, 28-year-old, upper body, short medium shot, looking at viewer, light smile, closed mouth, ((one main small butterfly flying close to her face in the foreground)) framing: gorgeous, mid contrast, upper body, chest, adult face, smile, extremely delicate and beautiful, beautiful detailed eyes and face, light smile, extremely detailed eyes, long eyelashes, beautiful detailed nose, light on face, the whole scene is bright and clean, features: mixed serbian, italian, scottish, french, german, british and russian facial features hair: medium hair, short shaggy glamorous hairstyle, short bangs, blonde hair, floating hair outfit: sfw elegant office attire or dress, no cleavage setting: detailed office interior, in office background: two butterflies, a cozy hd garden scene viewed from an office, with a windowsill, doorstep, wooden fence, flower pots with flowers, and one secondary butterfly near a flower. office elements softly blurred in the far background. lighting: the whole scene is bright and clean, soft light, mid contrast, natural lighting, atmospheric lighting, cinematic lighting camera: 85mm lens, f/11 aperture, deep depth of field, sharp focus, ultra detailed style: hyperdetailed realism, photorealistic, digital photography, raw photo, intricate details, key visual quality: masterpiece, best quality, 8k, 8k uhd, highres, ultra-detailed, extremely detailed cg unity mood: ■ ♥ seductive, tempting, beautiful, pretty, nice, cute, lovely, charming, alluring, attractive, captivating, desirable, enchanting, enticing, fascinating, gorgeous, irresistible, magnetic, romantic, pleasing, radiant, sensuous, sensual, stunning, sultry, amorous, delightful, enchanting, provocative, coquettish, ♥♥ playful, serene, blissful, exquisite, delicate, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437682",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/762949c2-3c40-447a-9657-e912e8efb2d4/original=true/762949c2-3c40-447a-9657-e912e8efb2d4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437561",
+      "title": "Civitai prompt 145437561",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "corkworld, masterpiece, best quality, amazing quality, ultra detailed, high resolution, very aesthetic, sharp focus, clean lineart, full body, centered composition, white background, simple background, studio lighting, soft shadow, wholesome anthropomorphic cat girl, fully clothed in a nature-inspired outfit, cork-textured grey cat ears and tail, warm tan cork material, porous cork surface, irregular cork grain patterns, tiny natural air pockets, cork bark accessories, rounded cork armor plates, layered cork leaves, delicate cork flower decorations, natural earthy colors, realistic cork texture, soft rounded edges, sustainable woodland aesthetic, charming expression, detailed material surface",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437561",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcf66b16-e155-427a-b85c-2a4cae56f9ba/original=true/dcf66b16-e155-427a-b85c-2a4cae56f9ba.jpeg",
+      "model_version_ids": [
+        653657,
+        2943166
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1047298821,
+      "negative_prompt": "monochrome, greyscale, grayscale, black-and-white, black_and_white, sepia, desaturated, low_saturation, limited_palette, colorless, manga, lineart_only, sketch,\nwide_shot, very_wide_shot, distance_view, far_away, small_character, tiny_character,\nwestern_cartoon, american_cartoon, western_animation, western_comic_style, comic_book_style,\nphotorealistic, realistic, semi_realistic, hyperrealistic, 3d, 3d_render, cgi, blender, painterly, oil_painting,\nbad_anatomy, bad_hands, missing_fingers, extra_fingers, extra_digits, fewer_digits, bad_eyes, weird_face, deformed, mutated, disfigured, ugly, long_body, large_head, unrealistic_proportions, unnatural_pose,\nlowres, blurry, low_quality, worst_quality, bad_quality, jpeg_artifacts, text, error, signature, watermark, username, cropped, border, framed, split_view, multiple_views, censored, mosaic_censor, conjoined, bad_ai-generated,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029316+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6c19a0a7880ff437a8e096d81e0204f7db20df8e7f05a50214fdc800b22075e7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145437561 fashion ai-image-prompts corkworld, masterpiece, best quality, amazing quality, ultra detailed, high resolution, very aesthetic, sharp focus, clean lineart, full body, centered composition, white background, simple background, studio lighting, soft shadow, wholesome anthropomorphic cat girl, fully clothed in a nature-inspired outfit, cork-textured grey cat ears and tail, warm tan cork material, porous cork surface, irregular cork grain patterns, tiny natural air pockets, cork bark accessories, rounded cork armor plates, layered cork leaves, delicate cork flower decorations, natural earthy colors, realistic cork texture, soft rounded edges, sustainable woodland aesthetic, charming expression, detailed material surface civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437561",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcf66b16-e155-427a-b85c-2a4cae56f9ba/original=true/dcf66b16-e155-427a-b85c-2a4cae56f9ba.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145437545",
+      "title": "Civitai prompt 145437545",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "corkworld, masterpiece, best quality, amazing quality, ultra detailed, high resolution, very aesthetic, sharp focus, clean lineart, full body portrait, centered composition, white background, simple background, studio lighting, soft shadow, cheerful young woman, fully clothed fashionable outfit made entirely of natural cork, tan cork jacket, cork skirt, cork boots, cork handbag, cork buttons, rounded garment edges, intricate irregular cork grain, clearly visible porous surface, tiny holes and air pockets, warm beige and light brown tones, layered cork sheets, natural organic material, realistic cork texture, subtle variations in cork color, elegant sustainable fashion, detailed craftsmanship",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145437545",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6350c865-3905-48e3-9828-cf1ffc6bb309/original=true/6350c865-3905-48e3-9828-cf1ffc6bb309.jpeg",
+      "model_version_ids": [
+        653657,
+        2943166
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2137890464,
+      "negative_prompt": "monochrome, greyscale, grayscale, black-and-white, black_and_white, sepia, desaturated, low_saturation, limited_palette, colorless, manga, lineart_only, sketch,\nwide_shot, very_wide_shot, distance_view, far_away, small_character, tiny_character,\nwestern_cartoon, american_cartoon, western_animation, western_comic_style, comic_book_style,\nphotorealistic, realistic, semi_realistic, hyperrealistic, 3d, 3d_render, cgi, blender, painterly, oil_painting,\nbad_anatomy, bad_hands, missing_fingers, extra_fingers, extra_digits, fewer_digits, bad_eyes, weird_face, deformed, mutated, disfigured, ugly, long_body, large_head, unrealistic_proportions, unnatural_pose,\nlowres, blurry, low_quality, worst_quality, bad_quality, jpeg_artifacts, text, error, signature, watermark, username, cropped, border, framed, split_view, multiple_views, censored, mosaic_censor, conjoined, bad_ai-generated,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-12T11:02:28.029330+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f8130e57f418f434b3f4214f97b0ea3c7e967e2affad3bbfd5b95006b148cc6a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145437545 fashion ai-image-prompts corkworld, masterpiece, best quality, amazing quality, ultra detailed, high resolution, very aesthetic, sharp focus, clean lineart, full body portrait, centered composition, white background, simple background, studio lighting, soft shadow, cheerful young woman, fully clothed fashionable outfit made entirely of natural cork, tan cork jacket, cork skirt, cork boots, cork handbag, cork buttons, rounded garment edges, intricate irregular cork grain, clearly visible porous surface, tiny holes and air pockets, warm beige and light brown tones, layered cork sheets, natural organic material, realistic cork texture, subtle variations in cork color, elegant sustainable fashion, detailed craftsmanship civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145437545",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6350c865-3905-48e3-9828-cf1ffc6bb309/original=true/6350c865-3905-48e3-9828-cf1ffc6bb309.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-11T19:35:28.605304+00:00",
-  "prompt_count": 1302,
+  "generated_at": "2026-10-12T11:02:31.619482+00:00",
+  "prompt_count": 1314,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 1254,
-    "failed_count": 48,
-    "updated_at": "2026-10-11T19:35:28Z"
+    "failed_count": 60,
+    "updated_at": "2026-10-12T11:02:31Z"
   }
 }
