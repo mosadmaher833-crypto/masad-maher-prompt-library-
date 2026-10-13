@@ -1,192 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-10-13T10:46:05.323571+00:00",
+  "generated_at": "2026-10-13T20:41:44.922753+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-145533524",
-      "title": "Civitai prompt 145533524",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, large expressive eyes, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,light blue socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533524",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2563bf3-65a6-4832-8895-adffc8bd4885/original=true/d2563bf3-65a6-4832-8895-adffc8bd4885.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2983680,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 2081025119,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.317487+00:00"
-    },
-    {
-      "id": "civitai-145533523",
-      "title": "Civitai prompt 145533523",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, large expressive eyes, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,very light blue socks, knee length socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533523",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4036c1b3-dece-4743-92e4-ce4a3ee90d69/original=true/4036c1b3-dece-4743-92e4-ce4a3ee90d69.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2983680,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 1912862290,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.317633+00:00"
-    },
-    {
-      "id": "civitai-145533519",
-      "title": "Civitai prompt 145533519",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, large expressive eyes, deep emerald irises,detailed irises,matte eyes, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,light blue socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533519",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19f98aa3-4182-4145-9180-e6319df3d1d0/original=true/19f98aa3-4182-4145-9180-e6319df3d1d0.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2983680,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 676713028,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,glazed eyes, glassy eyes, reflective eyes, shiny eyes, glossy eyes,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.317773+00:00"
-    },
-    {
-      "id": "civitai-145533518",
-      "title": "Civitai prompt 145533518",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, large expressive eyes, deep emerald irises,detailed irises,matte eyes,flat shading eyes,intricate eyes, defined pupils, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,light blue socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533518",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cd6e54b-dc86-437c-9868-0f07b0a72e84/original=true/2cd6e54b-dc86-437c-9868-0f07b0a72e84.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2983680,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 488227500,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,glazed eyes, glassy eyes, reflective eyes, shiny eyes, glossy eyes,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.317907+00:00"
-    },
-    {
-      "id": "civitai-145533515",
-      "title": "Civitai prompt 145533515",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, deep emerald irises,detailed irises,matte eyes,flat shading eyes,intricate eyes, defined pupils, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,light blue socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533515",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d2910fc-57f9-4149-b60f-91a0462cb59a/original=true/9d2910fc-57f9-4149-b60f-91a0462cb59a.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2983680,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 826276962,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,glazed eyes, glassy eyes, reflective eyes, shiny eyes, glossy eyes,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.318036+00:00"
-    },
-    {
-      "id": "civitai-145533514",
-      "title": "Civitai prompt 145533514",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece,best quality,amazing quality, \nmasterpiece, safe,\nview from above, view from front, full body shot,\n1girl, Jessica, green eyes, dark pupils, defined pupils, brown hair, twin braids, parted bangs,low pigtails, shoulder-length hair, voluminous hair,  apron dress, blue blouse, long sleeves, white collar, white apron,light blue socks, brown flat shoes, curvy female, medium breasts, thick thighs, retro anime, standing in a dark metal hallway, dark spaceship interior, facing viewer, looking at viewer, smiling, confident pose, hands on hips,",
-      "quality_score": 8.1,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533514",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1d5ca5fe-339d-4418-ae9b-21c4ea151876/original=true/1d5ca5fe-339d-4418-ae9b-21c4ea151876.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3201770,
-        3402627
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 958133470,
-      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,glazed eyes, glassy eyes, reflective eyes, shiny eyes, glossy eyes,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.318150+00:00"
-    },
-    {
-      "id": "civitai-145533475",
-      "title": "Civitai prompt 145533475",
+      "id": "civitai-145575134",
+      "title": "Civitai prompt 145575134",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -195,57 +15,30 @@
         "imported",
         "api"
       ],
-      "prompt": "Jade-green sheen — A smooth, luminous green that catches the light like polished stone.\nObsidian-black depths — Deep, non-reflective black that contrasts with the green, like volcanic glass.\nHigh-gloss polish — A surface so reflective it looks wet or mirror-like.\nGemstone texture — Subtle hints of mineral grain or smooth, stone-like solidity.\nDark background — A moody, low-light setting that lets the material pop.\nDramatic lighting — Sharp highlights and deep shadows emphasizing the glossy curves.\n\nMake a glossy jade fox.",
-      "quality_score": 8.1,
+      "prompt": "Volumetric Lighting, hyper realism, high detail, octane render, 8k, masterpiece, photo, ExpressiveH, An intrepid explorer stands in the center of an ancient, crumbling temple, his face illuminated by the eerie glow of a massive, ancient mechanism that has just begun to awaken. He is a man in his early 40s, with a rugged beard and a look of awe and fear on his face. His clothing is practical yet worn, with a satchel slung over his shoulder and a flashlight in his hand. The temple is vast, with towering stone pillars covered in intricate carvings, and the air is thick with dust and the scent of decay. The mechanism is a complex array of gears, levers, and glowing runes, pulsating with a faint blue light. As it activates, the ground begins to tremble, and cracks form in the walls, revealing hidden chambers filled with strange artifacts. The atmosphere is tense and mysterious, with a sense of ancient power and danger. Every detail, from the texture of the stone carvings to the reflections on the glowing runes, is rendered in hyper-realistic detail. Cinematic lighting, dramatic shadows, vibrant yet moody colors, and a sense of raw discovery and tension that draws the viewer into the moment, light depth, dramatic atmospheric lighting, Volumetric Lighting, epic cinematic shot of dynamic hyper realism, high detail, octane render, 8k, masterpiece, photo, ExpressiveH, An intrepid explorer stands in the center of an ancient, crumbling temple, his face illuminated by the eerie glow of a massive, ancient mechanism that has just begun to awaken. He is a man in his early 40s, with a rugged beard and a look of awe and fear on his face. His clothing is practical yet worn, with a satchel slung over his shoulder and a flashlight in his hand. The temple is vast, with towering stone pillars covered in intricate carvings, and the air is thick with dust and the scent of decay. The mechanism is a complex array of gears, levers, and glowing runes, pulsating with a faint blue light. As it activates, the ground begins to tremble, and cracks form in the walls, revealing hidden chambers filled with strange artifacts. The atmosphere is tense and mysterious, with a sense of ancient power and danger. Every detail, from the texture of the stone carvings to the reflections on the glowing runes, is rendered in hyper-realistic detail. Cinematic lighting, dramatic shadows, vibrant yet moody colors, and a sense of raw discovery and tension that draws the viewer into the moment in motion. main subject of high budget action movie. raw photo, motion blur. best quality, high resolution, cinematic still hyper realism, high detail, octane render, 8k, masterpiece, photo, ExpressiveH, An intrepid explorer stands in the center of an ancient, crumbling temple, his face illuminated by the eerie glow of a massive, ancient mechanism that has just begun to awaken. He is a man in his early 40s, with a rugged beard and a look of awe and fear on his face. His clothing is practical yet worn, with a satchel slung over his shoulder and a flashlight in his hand. The temple is vast, with towering stone pillars covered in intricate carvings, and the air is thick with dust and the scent of decay. The mechanism is a complex array of gears, levers, and glowing runes, pulsating with a faint blue light. As it activates, the ground begins to tremble, and cracks form in the walls, revealing hidden chambers filled with strange artifacts. The atmosphere is tense and mysterious, with a sense of ancient power and danger. Every detail, from the texture of the stone carvings to the reflections on the glowing runes, is rendered in hyper-realistic detail. Cinematic lighting, dramatic shadows, vibrant yet moody colors, and a sense of raw discovery and tension that draws the viewer into the moment . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy, cinematic film still hyper realism, high detail, octane render, 8k, masterpiece, photo, ExpressiveH, An intrepid explorer stands in the center of an ancient, crumbling temple, his face illuminated by the eerie glow of a massive, ancient mechanism that has just begun to awaken. He is a man in his early 40s, with a rugged beard and a look of awe and fear on his face. His clothing is practical yet worn, with a satchel slung over his shoulder and a flashlight in his hand. The temple is vast, with towering stone pillars covered in intricate carvings, and the air is thick with dust and the scent of decay. The mechanism is a complex array of gears, levers, and glowing runes, pulsating with a faint blue light. As it activates, the ground begins to tremble, and cracks form in the walls, revealing hidden chambers filled with strange artifacts. The atmosphere is tense and mysterious, with a sense of ancient power and danger. Every detail, from the texture of the stone carvings to the reflections on the glowing runes, is rendered in hyper-realistic detail. Cinematic lighting, dramatic shadows, vibrant yet moody colors, and a sense of raw discovery and tension that draws the viewer into the moment . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 9.5,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533475",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de802cf0-4f7b-42e8-acbc-293ba3bf8bd4/original=true/de802cf0-4f7b-42e8-acbc-293ba3bf8bd4.jpeg",
-      "model": null,
+      "source_url": "https://civitai.com/images/145575134",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54062517-1403-4bcc-9531-b5c9e2ccd416/original=true/54062517-1403-4bcc-9531-b5c9e2ccd416.jpeg",
+      "model": "wildcardxXL_v4Rundiffusion",
       "model_version_ids": [
-        128078,
-        639248
+        258687,
+        308455,
+        382152,
+        678485
       ],
-      "width": null,
-      "height": null,
-      "seed": 1974850230,
-      "negative_prompt": null,
+      "width": 1792,
+      "height": 2304,
+      "seed": 6061414145179827000,
+      "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, static, still, motionless, sluggish. drawing, painting, illustration, rendered. low budget. low quality, low resolution, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, (worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2)",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.318483+00:00"
+      "discovered_at": "2026-10-13T20:41:44.921496+00:00"
     },
     {
-      "id": "civitai-138821559",
-      "title": "Civitai prompt 138821559",
-      "category": "architecture",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Ultra-photorealistic cinematic university classroom photography, true 8K micro-detail, Sony A1 look, 85mm lens at f/2, landscape format, extremely sharp facial detail on both main subjects, realistic youthful skin with visible pores and subtle natural imperfections, crisp eye detail, individual hair strands, realistic fabric textures, physically believable spring daylight, subtle natural film grain, crisp micro-contrast, sophisticated cinematic color grading, grounded contemporary Swiss university realism.\nInside a large historic lecture amphitheater at the University of Geneva during a bright spring morning, Sofia Keller and Ingrid Solberg sit side by side among rows of students attending an important wildlife biology lecture. The scene captures the quiet first spark of Ingrid's growing interest in Sofia.\nSofia Keller, 23, retains exactly her established appearance and facial identity. She is a strikingly beautiful young Swiss woman who looks unmistakably 23, with a fresh early-twenties face, expressive green-grey eyes, long chestnut-brown hair, soft youthful cheekbones, a delicate jawline and gentle natural facial contours.\nClearly visible natural fine freckles are scattered across the bridge of her nose and upper cheeks, an important consistent feature of her appearance. Her complexion is fair with a subtle healthy outdoor glow, realistic youthful skin, natural facial asymmetry and minimal makeup.\nSofia has a naturally very slim, delicate, lightly built, small round chest, with narrow shoulders, narrow ribcage, narrow waist and hips, and thin graceful limbs.\nShe wears her established short flowing floral spring dress with a deep natural neckline and delicate pastel patterns, with her lightweight cream cardigan worn open. Her brown leather university satchel rests beside her seat.\nSofia sits naturally at the wooden lecture desk, leaning slightly forward with genuine concentration. One hand writes notes in an open notebook while the other rests beside a wildlife biology textbook. Her green-grey eyes are directed toward the lecturer, completely unaware that Ingrid is quietly watching her. A few strands of chestnut-brown hair fall naturally over one shoulder.\nBeside her sits Ingrid Solberg, a 20-year-old Norwegian environmental science exchange student from Bergen studying Arctic ecology.\nIngrid looks unmistakably 20 old, with the fresh facial softness and spontaneous energy of a young university student.\nShe has a naturally very slim, delicate and non-athletic physique with a narrow frame, small round chest, narrow shoulders, narrow ribcage, narrow waist and hips, and thin graceful arms. Her complexion is naturally pale with cool Nordic undertones and faint freckles.\nHer face has softly rounded youthful cheeks, gentle facial contours, softly defined cheekbones, a delicate jawline, bright expressive ice-blue eyes, realistic natural asymmetry, visible skin texture and minimal makeup.\nHer short light-blonde hair is styled in her distinctive asymmetrical sidecut, with one side closely cropped and the longer section falling loosely toward the opposite side.\nIngrid is not wearing her denim jacket, which is completely outside the visible composition. She wears her established pale-blue fitted ribbed sleeveless crop top with a rounded scoop neckline and a clearly visible vertical row of small buttons down the upper front that are unbutonned..\nAn open Arctic ecology notebook and pen lie in front of her. Her body remains naturally oriented toward the lecture, but she has turned her head slightly toward Sofia.\nIngrid watches Sofia from the side with subtle but unmistakable curiosity and spontaneous attraction. Her ice-blue eyes linger warmly on Sofia while a small playful smile appears at one corner of her mouth. Her expression is fascinated and quietly amused.\nSofia remains completely unaware and continues taking notes.\nThe camera captures both women from approximately desk level in a cinematic medium-wide two-person composition, visible from approximately the waist upward. Sofia sits on the left, writing and looking toward the lecturer. Ingrid sits immediately beside her on the right, her body facing forward but her head and eyes subtly turned toward Sofia.\nTheir contrasting appearances are immediately recognizable: Sofia's long chestnut-brown hair, green-grey eyes and clearly visible freckles beside Ingrid's pale Nordic complexion, ice-blue eyes and asymmetric light-blonde sidecut.\nBoth women remain visibly very slim, narrow and delicate.\nBehind them, the historic lecture amphitheater rises in softly blurred tiers filled with young adult students, wooden desks, notebooks, laptops and backpacks. A wildlife biology professor and projected scientific presentation remain softly blurred at the distant front of the room.\nNatural spring daylight enters through tall historic windows, creating realistic highlights across Sofia's chestnut hair and Ingrid's blonde sidecut. Shallow depth of field keeps both women extremely sharp while the surrounding students and architecture dissolve into soft cinematic background detail.\nThe image feels like a spontaneous observational moment during a real university lecture rather than a posed photograph. The emotional storytelling comes from the contrast between Sofia's complete concentration and Ingrid's discreet, fascinated sideways gaze.\nUltra-photorealistic live-action realism, true 8K micro-detail, realistic youthful faces and skin texture, clearly visible freckles across Sofia's nose and upper cheeks, crisp green-grey and ice-blue eyes, individual hair detail, very slim delicate non-athletic physiques, Ingrid wearing her correct pale-blue ribbed sleeveless button-front crop top with no jacket visible, realistic seated anatomy, subtle emotional storytelling and grounded Swiss university realism.",
-      "quality_score": 10.0,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/138821559",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa776dee-8303-44e4-b78b-62d79a3aac36/original=true/fa776dee-8303-44e4-b78b-62d79a3aac36.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2880272
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": -1,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.319292+00:00"
-    },
-    {
-      "id": "civitai-145533320",
-      "title": "Civitai prompt 145533320",
+      "id": "civitai-145574483",
+      "title": "Civitai prompt 145574483",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -254,25 +47,34 @@
         "imported",
         "api"
       ],
-      "prompt": "Norman Rockwell style classic American illustration, highly detailed narrative realism, all characters fully clothed in meticulously rendered period-accurate costumes with rich fabric textures, expressive and relatable character faces with subtle storytelling emotions, warm nostalgic lighting, masterful composition capturing a poignant or quietly humorous frozen moment, rich earthy color palette, iconic Saturday Evening Post aesthetic, soft directional lighting, iconic scene from \"Casablanca\": a tall, world-weary 40-year-old man with a sharp jawline and slicked-back dark hair, wearing a pristine white dinner jacket fully buttoned with a black bow tie, stands at a dimly lit piano bar holding a glass of bourbon, gazing bittersweetly at an elegant woman in a deep red silk gown with a high neckline and long sleeves, the red silk gown fully covering her shoulders and chest, and a wide-brimmed hat, who looks back over her shoulder with tearful eyes, a crumpled transit letter resting on the polished mahogany bar as the witness, warm amber nightclub lighting with deep noir shadows, jacket-white-and-gown-red grade, quiet wartime heartbreak mood, classic American illustration style throughout, elegant typography in uppercase only centered at the bottom reading 'CASABLANCA' in uppercase beautiful font, strictly fully clothed, no bare shoulders, no cleavage, no nudity, no credit block, no decorative ornaments, no additional text",
+      "prompt": "High Quality, Masterpiece, ta86_wistfall, abstract visuals, surrealist element, high-contrast colors, abstract figure, blocky-style, CGI image resembling the aesthetic of the video game Minecraft. abstract visuals, surrealist element, high-contrast colors, abstract figure,   (A Hyper detailed random minecraft world of darkness),  In the back a Minecraft Creeper character, it's a slasher, sitting pose with legs bent, open mouth showing a black void, (red glowing eyes), no hair, various green shades (dark, light, medium) on its body, full dynamic camera angle, wide space, no clothing. The scariest Creeper of all time.   Happy realistic style, weirdo, half Photorealistic,  no text, no frame, no watermark <lora:ErenARIK_v1:1> <lora:Krea_2_zidiusArt_Melancholy_v2:0.5> <lora:Minecraft__Krea_2__krea2_3361373_epoch_10:0.5> <lora:KreaShiiro:0.5> <lora:KREA2_ta86_wistfall:1> <lora:HTA_Ivory_Citadel_krea2:1> <lora:refusal_reduction_v2_full_rank:1>",
       "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533320",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb11de19-31f1-43e0-a118-b60315ba428b/original=true/cb11de19-31f1-43e0-a118-b60315ba428b.jpeg",
-      "model": "FasciumQWEN21-int8_convrot",
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1516953738,
+      "source_url": "https://civitai.com/images/145574483",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f32f8629-748d-47ea-867e-5f1c3fa42745/original=true/f32f8629-748d-47ea-867e-5f1c3fa42745.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboFp8",
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3255664,
+        3359022,
+        3363718,
+        3369950,
+        3378645,
+        3403401
+      ],
+      "width": 1440,
+      "height": 896,
+      "seed": 1022088561793623,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.319791+00:00"
+      "discovered_at": "2026-10-13T20:41:44.921810+00:00"
     },
     {
-      "id": "civitai-145533296",
-      "title": "Civitai prompt 145533296",
+      "id": "civitai-145574477",
+      "title": "Civitai prompt 145574477",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -281,26 +83,35 @@
         "imported",
         "api"
       ],
-      "prompt": "black and white street photography vulgar, inept, aroused, lecherous photographer, monochrome 35mm film aesthetic, rich silver gelatin tonality, visible film grain, a 62-year-old man with a grey beard and a knit cap smoking a pipe at a misty tram stop at dawn, smoke catching the first light, deep blacks and luminous greys, without haste mood, environmental storytelling",
-      "quality_score": 8.4,
+      "prompt": "High Quality, Masterpiece, ta86_wistfall, abstract visuals, surrealist element, high-contrast colors, abstract figure, blocky-style, CGI image resembling the aesthetic of the video game Minecraft. abstract visuals, surrealist element, high-contrast colors, abstract figure,   (A Hyper detailed random minecraft world of darkness),  In the back a Minecraft Creeper character, it's a slasher, sitting pose with legs bent, open mouth showing a black void, (red glowing eyes), no hair, various green shades (dark, light, medium) on its body, full dynamic camera angle, wide space, no clothing. The scariest Creeper of all time.   Happy realistic style, weirdo, half Photorealistic,  no text, no frame, no watermark <lora:ErenARIK_v1:1> <lora:Krea_2_zidiusArt_Melancholy_v2:0.5> <lora:Minecraft__Krea_2__krea2_3361373_epoch_10:0.5> <lora:KreaShiiro:0.5> <lora:KREA2_ta86_wistfall:1> <lora:HTA_Ivory_Citadel_krea2:0.5> <lora:refusal_reduction_v2_full_rank:1>",
+      "quality_score": 8.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533296",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0ad152-b3a0-4cb2-8d08-74730ece7916/original=true/6e0ad152-b3a0-4cb2-8d08-74730ece7916.jpeg",
-      "model": "FasciumQWEN21-int8_convrot",
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1536,
-      "seed": 1184273785,
+      "source_url": "https://civitai.com/images/145574477",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7b225a71-a056-49d1-b721-c3c13f3d52f4/original=true/7b225a71-a056-49d1-b721-c3c13f3d52f4.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboFp8",
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3255664,
+        3359022,
+        3363718,
+        3369950,
+        3378645,
+        3403401
+      ],
+      "width": 1440,
+      "height": 896,
+      "seed": 428741092084280,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.320177+00:00"
+      "discovered_at": "2026-10-13T20:41:44.922033+00:00"
     },
     {
-      "id": "civitai-145533182",
-      "title": "Civitai prompt 145533182",
-      "category": "fashion",
+      "id": "civitai-145575051",
+      "title": "Civitai prompt 145575051",
+      "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -308,25 +119,84 @@
         "imported",
         "api"
       ],
-      "prompt": "A high-quality close-up upper body anime photo of the anime girl Shiratori Mikoto beautifully transformed into an elegant, sentient dark polished jade morph entity, where the entire subject and world are composed of an elaborate construction of vibrant, beautiful dark polished jade pieces, welded metal seams, and mystical mechanical jade machinery. Standing or posing gracefully like a masterfully crafted cathedral jade monument in a dynamic dancing waltz pose, her entire form features a deep, contrasting dark iron or lead-soldered base outline that covers the main subject, utilizing deep space contrast to make her jade features pop. Her body is heavily entwined with intricate, glowing solder lines and branching geometric energy networks spreading across the subject that radiate a magical, bio-luminescent light with a warm orange-gold golden glow illuminating the translucent jade from within.\nCrucially, the entity is assembled with exquisite precision to preserve her incredibly beautiful face, showcasing detailed facial features, perfect symmetry, and a gorgeous, captivating anime countenance where her translucent jade skin is mixed with contrasting silver or crystal-glazed metallic pathways and glowing filaments. Her voluminous blowout hair, ponytail, and side big bow are sculpted from solid, dark polished jade shards and intertwined soldered metal wires with sharp, pointed luminous crystal jade thorns and elongated energy tendrils to match her body, complemented by a serene smile.\nShe wears a stunning masterpiece school uniform outfit with a long skirt uniquely crafted from a dense collection of glossy, vibrant dark polished jade tiles tightly bound and welded together by glowing metallic solder lines, forming a textured jade armor that makes the entire outfit look incredibly rigid, stiff, and completely non-flexible. An intricate network of thin glowing filaments, visible glowing metal tendrils, and branching energetic networks pulse throughout her jade attire, completing this welded jade art masterpiece,",
-      "quality_score": 8.7,
+      "prompt": "1girl, Gigi_ByMrJohn, gigi_cartoon, ,dark skin, deep brown skin, dark orange hair, short bob, glasses hair, thick eyebrows, full lips, half-lidded eyes, uses a mixing console made of polished green obsidian\n — The dominant material has the characteristic green color \nJade-green sheen — A smooth, luminous green that catches the light like polished stone.\nObsidian-black depths — Deep, non-reflective black that contrasts with the green, like volcanic glass.\nHigh-gloss polish — A surface so reflective it looks wet or mirror-like.\nGemstone texture — Subtle hints of mineral grain or smooth, stone-like solidity.\nDark background — A moody, low-light setting that lets the material pop.\nDramatic lighting — Sharp highlights and deep shadows emphasizing the glossy curves.\n— A dense, intricate arrangement that suggests a working informatic system, she  using DJ table made of PCB (printed circuit board), to play on rave disco, under sign that says:\"DJ  BUzZ this SH...\",\ner colors is small disco ball at the celling,,\n, close up, bokeh, details++\n, surrealistic vibe, dramatic lighting, air,volumetric fog, and crystalline textures\n CreepyCuteMagical, pcb_style",
+      "quality_score": 9.3,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/145533182",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00a5835e-11c4-469a-91c8-d937ef87d859/original=true/00a5835e-11c4-469a-91c8-d937ef87d859.jpeg",
+      "source_url": "https://civitai.com/images/145575051",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f23ddbe-d5a2-4ebd-97a3-554286f047a2/original=true/4f23ddbe-d5a2-4ebd-97a3-554286f047a2.jpeg",
       "model": null,
       "model_version_ids": [
-        639248,
-        1879707,
-        2555897
+        354657,
+        639248
       ],
       "width": 832,
       "height": 1216,
-      "seed": 1017404005,
-      "negative_prompt": "waist cape, skirt cape, elf ear, easynegative, badhandv4, (low quality, worst quality:1.4), poorly drawn hands, bad anatomy, monochrome, { long body }, bad anatomy , liquid body, malformed, mutated, anatomical nonsense ,bad proportions, uncoordinated body, unnatural body, disfigured, ugly, gross proportions ,mutation, disfigured, deformed, { mutation}, {poorlydrawn} , bad hand, mutated hand, bad fingers, mutated fingers, badhandv4 ,liquid tongue, long neck, fused ears, bad ears, poorly drawn ears, extra ears, liquid ears, heavy ears, missing ears, fused animal ears, bad animal ears, poorly drawn animal ears, extra animal ears, liquid animal ears, heavy animal ears, missing animal ears, bad hairs, poorly drawn hairs, fused hairs, bad face, fused face, poorly drawn face, cloned face, big face, long face, bad eyes, fused eyes poorly drawn eyes, extra eyes, bad mouth, fused mouth, poorly drawn mouth, bad tongue, big mouth, bad perspective, bad objects placement",
+      "seed": 1616469814,
+      "negative_prompt": "text, watermark, bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, sketch, flat color, ugly, fat, muscular, abs, blurry eyes, wrinkled skin, horns, expressionless, old milf, , low contrast, realism,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-13T10:46:05.320992+00:00"
+      "discovered_at": "2026-10-13T20:41:44.922315+00:00"
+    },
+    {
+      "id": "civitai-145552875",
+      "title": "Civitai prompt 145552875",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A woman, 26yo, leaning against the railing of a modern concrete balcony during bright afternoon daylight, arms folded loosely and one ankle crossed over the other, looking into the distance with understated confidence, wearing a cream tailored blazer, muted green trousers and low leather shoes, short silver-blonde hair, fair skin with natural fine texture, strong sunlight softened by pale walls, clear geometric shadow patterns, environmental portrait photography. \n <lora:hdmwot_style__3_krea2_3340063_epoch_8:0.8>, full-body composition, entire figure visible from head to feet, subject clearly framed within the available space, natural body proportions, realistic perspective, grounded contact points, believable subject-to-environment integration, atmospheric depth",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145552875",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13afd4fa-07c4-4d28-8890-142d70e0c238/original=true/13afd4fa-07c4-4d28-8890-142d70e0c238.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3262694,
+        3343332
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1304792003,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-13T20:41:44.922468+00:00"
+    },
+    {
+      "id": "civitai-145552873",
+      "title": "Civitai prompt 145552873",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A woman, 24yo, photographed in a close three-quarter portrait against a field of tall dry grass at sunset, face turned toward the low light, expression introspective and peaceful, wearing a soft charcoal wool coat over a muted rose blouse, shoulder-length brown hair, fair skin with natural freckles and dry fine texture, warm grazing sunlight along one side of her face, deep cool shadows, shallow depth of field, fine-art photographic realism. \n <lora:hdmwot_style__3_krea2_3340063_epoch_8:0.8>, full-body composition, entire figure visible from head to feet, subject clearly framed within the available space, natural body proportions, realistic perspective, grounded contact points, believable subject-to-environment integration, atmospheric depth",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145552873",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f4d3d26-60ec-4561-90a4-09d6c41bc285/original=true/1f4d3d26-60ec-4561-90a4-09d6c41bc285.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3262694,
+        3343332
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1856190336,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-13T20:41:44.922577+00:00"
     }
   ]
 }
