@@ -1,8 +1,8 @@
 {
   "version": "1.1",
   "status": "ready_for_review",
-  "generated_at": "2026-10-15T08:25:53.122371+00:00",
-  "added_this_run": 0,
+  "generated_at": "2026-10-15T19:08:05.641549+00:00",
+  "added_this_run": 1,
   "errors": [
     "reddit-promptengineering: HTTP Error 429: Too Many Requests"
   ],
@@ -23,6 +23,23 @@
       "quality_score": 9.0,
       "review_status": "pending_review",
       "discovered_at": "2026-10-10T19:17:35.250538+00:00"
+    },
+    {
+      "id": "visual-98281269ec34d9e4",
+      "title": "Something Is Off in this Coastal Town: 22 Degrees",
+      "source_id": "reddit-midjourney",
+      "source": "Reddit r/midjourney",
+      "source_url": "https://www.reddit.com/r/midjourney/comments/1x6ng8q/something_is_off_in_this_coastal_town_22_degrees/",
+      "image_url": "https://preview.redd.it/14qzjziq7nvh1.png?width=140&amp;height=78&amp;auto=webp&amp;s=3cf54d953364a529ecc4d6db4d0ccc3dc6a606d0",
+      "prompt_text": "Above a quaint coastal village, a rare parhelion graces the sky, casting brilliant twin sun-like flares across the morning haze. The town below is composed of tightly clustered cobblestone houses, their rooftops worn but charming, winding streets weaving between them as they cling to the rocky shoreline. Light glints off the textured stone walls, catching on windows and chimneys in subtle, shimmering highlights, while the sky’s atmospheric colors diffuse gently across the scene. The parhelion’s glow adds an ethereal warmth to the air, reflecting softly off the waves and creating a serene, almost magical ambiance. The overall composition evokes a sense of quiet nostalgia, as if captured through the lens of a carefully aged, vintage camera that preserves both the detail and the mood of the coastal morning. The combination of sky phenomena, textured architecture, and delicate light produces a picturesque and otherworldly panorama. &#32; submitted by &#32; /u/Fancy-Bedroom-440 [link] &#32; [comments]",
+      "prompt": "Above a quaint coastal village, a rare parhelion graces the sky, casting brilliant twin sun-like flares across the morning haze. The town below is composed of tightly clustered cobblestone houses, their rooftops worn but charming, winding streets weaving between them as they cling to the rocky shoreline. Light glints off the textured stone walls, catching on windows and chimneys in subtle, shimmering highlights, while the sky’s atmospheric colors diffuse gently across the scene. The parhelion’s glow adds an ethereal warmth to the air, reflecting softly off the waves and creating a serene, almost magical ambiance. The overall composition evokes a sense of quiet nostalgia, as if captured through the lens of a carefully aged, vintage camera that preserves both the detail and the mood of the coastal morning. The combination of sky phenomena, textured architecture, and delicate light produces a picturesque and otherworldly panorama. &#32; submitted by &#32; /u/Fancy-Bedroom-440 [link] &#32; [comments]",
+      "creator": "Fancy-Bedroom-440https://www.reddit.com/user/Fancy-Bedroom-440",
+      "creator_url": "",
+      "model": "midjourney",
+      "license": "community content — review reuse permission before publication",
+      "quality_score": 8.0,
+      "review_status": "pending_review",
+      "discovered_at": "2026-10-15T19:08:05.560702+00:00"
     }
   ],
   "policy": "review_required; never auto-publish social/community candidates"

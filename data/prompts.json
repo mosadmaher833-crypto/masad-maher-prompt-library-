@@ -5713,7 +5713,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-32c856af4821",
@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -63524,15 +63524,798 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2/original=true/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-145767943",
+      "title": "Civitai prompt 145767943",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dvr-rst, witty, humorous, aesthetic, breathtaking, rust texture, (highly detailed:1.2), (dark museum gallery, the toilet on a tall rusted iron plinth under a single spotlight, red velvet rope on rusted stanchions:1.2), gritty pitted corroded metal, brown color scheme, sienna umber burnt orange, warm amber lighting, dark tones, deep blacks and browns, dramatic contrast, metallic substrate, bare steel under the rust, solo, rusty ((rustic metal dragon dancing, on straight iron rustic poll, he holds a mic in his hand:1.3)), cast-iron dvr-rst toilet, fully armored, ((written text \"BUZZZ!!!))(his helmet, mask, chest box, armor and cape made of corroded rusted iron, flaking orange rust, bare steel showing through:1.2), highly detailed, high quality",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767943",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15e33a71-03db-426e-ac60-40f66af64f8e/original=true/15e33a71-03db-426e-ac60-40f66af64f8e.jpeg",
+      "model_version_ids": [
+        135867,
+        606944,
+        1759168,
+        3123280
+      ],
+      "seed": 50894734,
+      "negative_prompt": "Low resolution, blurry, imperfect",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777169+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "44330f794eac95a329f911f0b6238fa99a50f9985865adaf1f33be140bc07340",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767943 image ai-image-prompts dvr-rst, witty, humorous, aesthetic, breathtaking, rust texture, (highly detailed:1.2), (dark museum gallery, the toilet on a tall rusted iron plinth under a single spotlight, red velvet rope on rusted stanchions:1.2), gritty pitted corroded metal, brown color scheme, sienna umber burnt orange, warm amber lighting, dark tones, deep blacks and browns, dramatic contrast, metallic substrate, bare steel under the rust, solo, rusty ((rustic metal dragon dancing, on straight iron rustic poll, he holds a mic in his hand:1.3)), cast-iron dvr-rst toilet, fully armored, ((written text \"buzzz!!!))(his helmet, mask, chest box, armor and cape made of corroded rusted iron, flaking orange rust, bare steel showing through:1.2), highly detailed, high quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767943",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15e33a71-03db-426e-ac60-40f66af64f8e/original=true/15e33a71-03db-426e-ac60-40f66af64f8e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767874",
+      "title": "Civitai prompt 145767874",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style, A hyper-realistic RAW candid photograph of a melancholic 20-year-old alternative grunge girl standing in the pouring rain, extreme detail, sharp focus, 8k resolution. She has messy shoulder-length hair that is deep black at the roots and dyed in shades of ocean blue and platinum blonde at the ends, visibly wet and clumped from the rain. Her makeup is heavily smudged, with black mascara and eyeliner running down her cheeks from the water, contrasting with her sad blue eyes and realistic freckled skin texture with subtle pores. She has a silver septum ring and a vertical labret lip piercing. She is wearing a damp, dark grey t-shirt underneath an oversized brown and black plaid flannel shirt, accented by a black leather choker and multiple layered thin black cord necklaces with teardrop pendants. Medium shot, looking forward with a sad, emotional expression. The scene is set on a dark, wet city street at night during a heavy downpour, with raindrops visibly cutting through the air. In the background, out-of-focus streetlights and blurry car headlights create a soft, cinematic bokeh on the wet, reflective asphalt. Photorealistic, 50mm lens, f/1.4 aperture, moody atmospheric lighting, dramatic rim lighting tracing her hair and shoulders, intricate fabric and wet skin textures, masterpiece. cinematic composition",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767874",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/527b70f0-c44f-4a66-8202-3c6303ec5411/original=true/527b70f0-c44f-4a66-8202-3c6303ec5411.jpeg",
+      "model_version_ids": [
+        3072332,
+        3245460,
+        3392207
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1619456258,
+      "negative_prompt": "blurry, low quality, worst quality, lowres, bad anatomy, deformed, disfigured, mutated, extra limbs, missing limbs, floating limbs, disconnected limbs, poorly drawn face, bad face, ugly face, asymmetric face, poorly drawn hands, bad hands, missing fingers, extra fingers, fused fingers, too many fingers, watermark, text, signature, logo, 3d render, cartoon, anime, illustration, digital painting, CGI, video game screenshot, The Sims, fake, plastic skin, smooth skin, airbrushed, lowres, text, watermark, bad anatomy, deformed hands, extra fingers, blurry, compression artifacts, drawing, vector art",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777211+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "50c4bbc4b08928fa67709b1a31d21ddf95119caa130310f2c19264dc7af41d34",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767874 image ai-image-prompts bradhamel art style, a hyper-realistic raw candid photograph of a melancholic 20-year-old alternative grunge girl standing in the pouring rain, extreme detail, sharp focus, 8k resolution. she has messy shoulder-length hair that is deep black at the roots and dyed in shades of ocean blue and platinum blonde at the ends, visibly wet and clumped from the rain. her makeup is heavily smudged, with black mascara and eyeliner running down her cheeks from the water, contrasting with her sad blue eyes and realistic freckled skin texture with subtle pores. she has a silver septum ring and a vertical labret lip piercing. she is wearing a damp, dark grey t-shirt underneath an oversized brown and black plaid flannel shirt, accented by a black leather choker and multiple layered thin black cord necklaces with teardrop pendants. medium shot, looking forward with a sad, emotional expression. the scene is set on a dark, wet city street at night during a heavy downpour, with raindrops visibly cutting through the air. in the background, out-of-focus streetlights and blurry car headlights create a soft, cinematic bokeh on the wet, reflective asphalt. photorealistic, 50mm lens, f/1.4 aperture, moody atmospheric lighting, dramatic rim lighting tracing her hair and shoulders, intricate fabric and wet skin textures, masterpiece. cinematic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767874",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/527b70f0-c44f-4a66-8202-3c6303ec5411/original=true/527b70f0-c44f-4a66-8202-3c6303ec5411.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767873",
+      "title": "Civitai prompt 145767873",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Bradhamel art style, A hyper-realistic RAW candid photograph of a soaking wet  melancholic 20-year-old alternative grunge girl standing in the pouring rain, extreme detail, sharp focus, 8k resolution. She has messy wet shoulder-length hair that is deep black at the roots and dyed in shades of ocean blue and platinum blonde at the ends, visibly wet and clumped from the rain. Her makeup is heavily smudged, with black mascara and eyeliner running down her cheeks from the water, contrasting with her sad blue eyes and realistic freckled skin texture with subtle pores. She has a silver septum ring. She is wearing a damp, dark grey t-shirt underneath an oversized brown and black plaid flannel shirt, accented by a black leather choker and multiple layered thin black cord necklaces with teardrop pendants. Medium shot, looking forward with a sad, emotional expression. The scene is set on a dark, wet city street at night during a heavy downpour, with raindrops visibly cutting through the air. In the background, out-of-focus streetlights and blurry car headlights create a soft, cinematic bokeh on the wet, reflective asphalt. Photorealistic, 50mm lens, f/1.4 aperture, moody atmospheric lighting, dramatic rim lighting tracing her hair and shoulders, intricate fabric and wet skin textures, masterpiece. cinematic composition",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767873",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f82c501-1524-4713-8206-3dc6ed76c4e0/original=true/3f82c501-1524-4713-8206-3dc6ed76c4e0.jpeg",
+      "model_version_ids": [
+        3072332,
+        3245460,
+        3392207
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 371076803,
+      "negative_prompt": "blurry, low quality, worst quality, lowres, bad anatomy, deformed, disfigured, mutated, extra limbs, missing limbs, floating limbs, disconnected limbs, poorly drawn face, bad face, ugly face, asymmetric face, poorly drawn hands, bad hands, missing fingers, extra fingers, fused fingers, too many fingers, watermark, text, signature, logo, 3d render, cartoon, anime, illustration, digital painting, CGI, video game screenshot, The Sims, fake, plastic skin, smooth skin, airbrushed, lowres, text, watermark, bad anatomy, deformed hands, extra fingers, blurry, compression artifacts, drawing, vector art",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777233+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6a547f4b96e0d6b2cd8e2a5ac6f3028bd6eabcbc3d48b32d53983073dee2ce13",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767873 image ai-image-prompts bradhamel art style, a hyper-realistic raw candid photograph of a soaking wet melancholic 20-year-old alternative grunge girl standing in the pouring rain, extreme detail, sharp focus, 8k resolution. she has messy wet shoulder-length hair that is deep black at the roots and dyed in shades of ocean blue and platinum blonde at the ends, visibly wet and clumped from the rain. her makeup is heavily smudged, with black mascara and eyeliner running down her cheeks from the water, contrasting with her sad blue eyes and realistic freckled skin texture with subtle pores. she has a silver septum ring. she is wearing a damp, dark grey t-shirt underneath an oversized brown and black plaid flannel shirt, accented by a black leather choker and multiple layered thin black cord necklaces with teardrop pendants. medium shot, looking forward with a sad, emotional expression. the scene is set on a dark, wet city street at night during a heavy downpour, with raindrops visibly cutting through the air. in the background, out-of-focus streetlights and blurry car headlights create a soft, cinematic bokeh on the wet, reflective asphalt. photorealistic, 50mm lens, f/1.4 aperture, moody atmospheric lighting, dramatic rim lighting tracing her hair and shoulders, intricate fabric and wet skin textures, masterpiece. cinematic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767873",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f82c501-1524-4713-8206-3dc6ed76c4e0/original=true/3f82c501-1524-4713-8206-3dc6ed76c4e0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767912",
+      "title": "Civitai prompt 145767912",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hilarious rusty slapstick chase in an abandoned scrapyard: a rusty robot thief runs away carrying a stolen washing machine, riding a battered vacuum cleaner like a scooter. A furious ancient robot policeman chases him, blowing a tiny corroded whistle, eyes bulging in rage. Rusty bolts and metal scraps fly everywhere. Both robots, the washing machine, vacuum cleaner, fences and junkyard buildings are heavily corroded iron and steel, with rough pitted rust, burnt-orange oxidation, dark brown grime and patches of exposed metal. Warm amber light cuts through deep black shadows, dramatic cinematic contrast, exaggerated cartoon expressions, dynamic action, wide shot, richly detailed rusty environment. Everything looks decades old and weather-beaten, no clean shiny objects.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767912",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2896b9a9-0d13-45a7-bedb-7e572044d4cf/original=true/2896b9a9-0d13-45a7-bedb-7e572044d4cf.jpeg",
+      "model_version_ids": [
+        128078,
+        135867,
+        606944,
+        2858836
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 305562999,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777247+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0f796e34a6345d809ee8dd5501e284dde09977f25877fa8b9a195d9800def1ed",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767912 architecture ai-image-prompts a hilarious rusty slapstick chase in an abandoned scrapyard: a rusty robot thief runs away carrying a stolen washing machine, riding a battered vacuum cleaner like a scooter. a furious ancient robot policeman chases him, blowing a tiny corroded whistle, eyes bulging in rage. rusty bolts and metal scraps fly everywhere. both robots, the washing machine, vacuum cleaner, fences and junkyard buildings are heavily corroded iron and steel, with rough pitted rust, burnt-orange oxidation, dark brown grime and patches of exposed metal. warm amber light cuts through deep black shadows, dramatic cinematic contrast, exaggerated cartoon expressions, dynamic action, wide shot, richly detailed rusty environment. everything looks decades old and weather-beaten, no clean shiny objects. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767912",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2896b9a9-0d13-45a7-bedb-7e572044d4cf/original=true/2896b9a9-0d13-45a7-bedb-7e572044d4cf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767850",
+      "title": "Civitai prompt 145767850",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "Digital surrealism portrait, close-up of a girl with fiery red hair and deep scarlet eyes. Detailed round red-tinted glasses, gaze piercing through the lenses. Features include freckles, a mole above the upper lip, and rosy cheeks. A joyful smile revealing teeth. Hairstyle: a sleek bob with tiny braided accents. Steampunk fashion with gears and metallic textures. Star-shaped earrings. The background is a bright, abstract orange dreamscape with fluid, surreal shapes. High contrast, sharp focus on facial details, vibrant color palette, cinematic composition, hyper-detailed digital art.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767850",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a46af45c-bff9-4cca-a6e2-e29746c63fe8/original=true/a46af45c-bff9-4cca-a6e2-e29746c63fe8.jpeg",
+      "model": "waiIllustriousSDXL_v170",
+      "model_version_ids": [
+        2883731
+      ],
+      "width": 1472,
+      "height": 2560,
+      "seed": 4251420299,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777258+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "15ae58b82f33454daddb40b2b0e7afeaaa69cb8d251b44b9fb1ad492e6f42560",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145767850 fashion ai-image-prompts digital surrealism portrait, close-up of a girl with fiery red hair and deep scarlet eyes. detailed round red-tinted glasses, gaze piercing through the lenses. features include freckles, a mole above the upper lip, and rosy cheeks. a joyful smile revealing teeth. hairstyle: a sleek bob with tiny braided accents. steampunk fashion with gears and metallic textures. star-shaped earrings. the background is a bright, abstract orange dreamscape with fluid, surreal shapes. high contrast, sharp focus on facial details, vibrant color palette, cinematic composition, hyper-detailed digital art. civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767850",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a46af45c-bff9-4cca-a6e2-e29746c63fe8/original=true/a46af45c-bff9-4cca-a6e2-e29746c63fe8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767848",
+      "title": "Civitai prompt 145767848",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Surrealist oil painting, portrait of a beautiful girl with vibrant red hair and striking crimson eyes. She is wearing highly detailed, round, scarlet-red spectacles, looking intensely through the lenses. Her face features prominent freckles, a small beauty mark above her lip, and soft rosy blush. She is smiling brightly, showing her teeth. Her hairstyle is a sharp bob with small intricate braids. She is dressed in elaborate steampunk attire with brass and leather details. She wears star-shaped earrings. Background is a vivid, abstract explosion of bright orange colors and swirling strokes. Heavy impasto texture, dramatic lighting, masterpiece, fine art.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767848",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75bb55ee-0d0a-4bcc-b1a5-92d228ef5e7a/original=true/75bb55ee-0d0a-4bcc-b1a5-92d228ef5e7a.jpeg",
+      "model": "krea2_turbo_fp8",
+      "model_version_ids": [
+        3060999
+      ],
+      "width": 1472,
+      "height": 2560,
+      "seed": 3587842225,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777269+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "082d054fea01f655678650dbaa71329b116df03546ea391660f604da03459ca6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767848 image ai-image-prompts surrealist oil painting, portrait of a beautiful girl with vibrant red hair and striking crimson eyes. she is wearing highly detailed, round, scarlet-red spectacles, looking intensely through the lenses. her face features prominent freckles, a small beauty mark above her lip, and soft rosy blush. she is smiling brightly, showing her teeth. her hairstyle is a sharp bob with small intricate braids. she is dressed in elaborate steampunk attire with brass and leather details. she wears star-shaped earrings. background is a vivid, abstract explosion of bright orange colors and swirling strokes. heavy impasto texture, dramatic lighting, masterpiece, fine art. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767848",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75bb55ee-0d0a-4bcc-b1a5-92d228ef5e7a/original=true/75bb55ee-0d0a-4bcc-b1a5-92d228ef5e7a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767710",
+      "title": "Civitai prompt 145767710",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "3/4 body photo from behind, full body shot of a tall thin gorgeous Asian woman in her early 20s, photorealistic, ultra-detailed, raw photo, 8k, source_real, ultra high resolution, Ultra Realistic, Masterpiece, Best Quality, Ultra-detailed, an ultra high definition full body photo of a thin 20 year old Asian female Ultra High Definition detailed image photorealistic 8k, masterpiece, photo of a tall thin gorgeous young 20 year old Asian woman, 3/4 body photo of a tall thin gorgeous Asian woman in her early 20s from the knees up shot with a small, slender physique and a fit and slim body, brunette with voluminous glossy waves, seated at a sunlit oak kitchen table—wearing an *oversized, modest* light blue cable-knit sweater (fully draped, one shoulder covered), high-waisted navy leggings. She holds a white porcelain coffee cup, steam curling gently; taupe eyeshadow, shimmering lips, warm Kodak Portra 400 tones. Background: cozy upscale kitchen—subway tiles, copper cookware, golden-hour light, soft-focus glow, shallow depth of field. Celebrating confidence, style, and timeless elegance",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767710",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f50829ba-3b2d-41f1-b505-e94a47b1220d/original=true/f50829ba-3b2d-41f1-b505-e94a47b1220d.jpeg",
+      "model_version_ids": [
+        3085969,
+        3139976,
+        3396810
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 953694262,
+      "negative_prompt": "plastic looking cgi skin, extra appendages, fake looking, extra fingers, extra limbs, poorly drawn, cartoon, anime, 3D, render, watermark, bad anatomy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777294+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "825df68e5d08ecf68429fdeef2fbab65b27c1aa344f4f7ee232d77bf935c87c0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767710 image ai-image-prompts 3/4 body photo from behind, full body shot of a tall thin gorgeous asian woman in her early 20s, photorealistic, ultra-detailed, raw photo, 8k, source_real, ultra high resolution, ultra realistic, masterpiece, best quality, ultra-detailed, an ultra high definition full body photo of a thin 20 year old asian female ultra high definition detailed image photorealistic 8k, masterpiece, photo of a tall thin gorgeous young 20 year old asian woman, 3/4 body photo of a tall thin gorgeous asian woman in her early 20s from the knees up shot with a small, slender physique and a fit and slim body, brunette with voluminous glossy waves, seated at a sunlit oak kitchen table—wearing an *oversized, modest* light blue cable-knit sweater (fully draped, one shoulder covered), high-waisted navy leggings. she holds a white porcelain coffee cup, steam curling gently; taupe eyeshadow, shimmering lips, warm kodak portra 400 tones. background: cozy upscale kitchen—subway tiles, copper cookware, golden-hour light, soft-focus glow, shallow depth of field. celebrating confidence, style, and timeless elegance civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767710",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f50829ba-3b2d-41f1-b505-e94a47b1220d/original=true/f50829ba-3b2d-41f1-b505-e94a47b1220d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767449",
+      "title": "Civitai prompt 145767449",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "intricate texture, high detail, ambient occlusion, perfect anatomy, anime style, dynamic lighting, dynamic shadows, beautiful eyes, black eyeshadow, eyeliner, face focus, closeup, smile, smirk, grin, ( mouth shot:1.5), ( mawshot:1.5), open mouth, saliva, tongue, throat, tongue out, licking finger, one finger on tongue, looking at viewer, black sweater, from side, <lora:Anime_in_real:1>, Ani2rel, <lora:PixelSketcher:0.4>, pixelsketcher, furry, <lora:96YOTTEA-WAI:0.5>, <lora:AlexFox:0.7>, AlexFox, 1girl, solo, furry fox, ginger hands, fox tail, medium hair, medium breasts, slightly disheveled hair, black lips, black makeup, black eyeshadow, fox ears, blue eyes, detailed eyes, fox nose, (ginger fur:1.3), black nails, black hair, black smudged makeup, black matte lipstick, black lips, strands of hair on the sides, open forehead",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767449",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52409db4-b13e-4cd5-9760-462e92395b4c/original=true/52409db4-b13e-4cd5-9760-462e92395b4c.jpeg",
+      "model": "waiIllustriousSDXL_v170",
+      "model_version_ids": [
+        480796,
+        1082928,
+        2240633,
+        2883731,
+        3407451
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 3905978696,
+      "negative_prompt": "lowres, worst quality, bad quality, bad anatomy, jpeg artifacts, (((signature, watermark, text, english text))), (((bad anatomy, bad hands, missing fingers, missed fingers, extra digit, fewer digits))), ((patreon logo, patreon username)), deformed, distorted, blurry, low resolution, noisy, bad anatomy, ugly, extra limbs, artificial skin, harsh shadows, bright artificial light, cropped, out of frame, messy hair, low quality, washed out colors, overexposed, underexposed, black background",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777306+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5fd2de048ea6d6efeed190047655f492cf765686e79697650f09321e0c46476c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145767449 food ai-image-prompts intricate texture, high detail, ambient occlusion, perfect anatomy, anime style, dynamic lighting, dynamic shadows, beautiful eyes, black eyeshadow, eyeliner, face focus, closeup, smile, smirk, grin, ( mouth shot:1.5), ( mawshot:1.5), open mouth, saliva, tongue, throat, tongue out, licking finger, one finger on tongue, looking at viewer, black sweater, from side, <lora:anime_in_real:1>, ani2rel, <lora:pixelsketcher:0.4>, pixelsketcher, furry, <lora:96yottea-wai:0.5>, <lora:alexfox:0.7>, alexfox, 1girl, solo, furry fox, ginger hands, fox tail, medium hair, medium breasts, slightly disheveled hair, black lips, black makeup, black eyeshadow, fox ears, blue eyes, detailed eyes, fox nose, (ginger fur:1.3), black nails, black hair, black smudged makeup, black matte lipstick, black lips, strands of hair on the sides, open forehead civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767449",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52409db4-b13e-4cd5-9760-462e92395b4c/original=true/52409db4-b13e-4cd5-9760-462e92395b4c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767447",
+      "title": "Civitai prompt 145767447",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "intricate texture, high detail, ambient occlusion, perfect anatomy, anime style, dynamic lighting, dynamic shadows, beautiful eyes, black eyeshadow, eyeliner, face focus, closeup, smile, smirk, grin, ( mouth shot:1.5), ( mawshot:1.5), open mouth, saliva, tongue, throat, tongue out, licking finger, one finger on tongue, looking at viewer, black sweater, <lora:Anime_in_real:1>, Ani2rel, <lora:PixelSketcher:0.4>, pixelsketcher, furry, <lora:96YOTTEA-WAI:0.5>, <lora:AlexFox:0.7>, AlexFox, 1girl, solo, furry fox, ginger hands, fox tail, medium hair, medium breasts, slightly disheveled hair, black lips, black makeup, black eyeshadow, fox ears, blue eyes, detailed eyes, fox nose, (ginger fur:1.3), black nails, black hair, black smudged makeup, black matte lipstick, black lips, strands of hair on the sides, open forehead",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767447",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f29f02a-2dcd-48cc-89d6-a003b6e0dbfb/original=true/8f29f02a-2dcd-48cc-89d6-a003b6e0dbfb.jpeg",
+      "model": "waiIllustriousSDXL_v170",
+      "model_version_ids": [
+        480796,
+        1082928,
+        2240633,
+        2883731,
+        3407451
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 461740605,
+      "negative_prompt": "lowres, worst quality, bad quality, bad anatomy, jpeg artifacts, (((signature, watermark, text, english text))), (((bad anatomy, bad hands, missing fingers, missed fingers, extra digit, fewer digits))), ((patreon logo, patreon username)), deformed, distorted, blurry, low resolution, noisy, bad anatomy, ugly, extra limbs, artificial skin, harsh shadows, bright artificial light, cropped, out of frame, messy hair, low quality, washed out colors, overexposed, underexposed, black background",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777317+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fb079badbd56788ac0050cba8bf01084c826287630d2efcf79a5f5cf42c3d6e7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145767447 food ai-image-prompts intricate texture, high detail, ambient occlusion, perfect anatomy, anime style, dynamic lighting, dynamic shadows, beautiful eyes, black eyeshadow, eyeliner, face focus, closeup, smile, smirk, grin, ( mouth shot:1.5), ( mawshot:1.5), open mouth, saliva, tongue, throat, tongue out, licking finger, one finger on tongue, looking at viewer, black sweater, <lora:anime_in_real:1>, ani2rel, <lora:pixelsketcher:0.4>, pixelsketcher, furry, <lora:96yottea-wai:0.5>, <lora:alexfox:0.7>, alexfox, 1girl, solo, furry fox, ginger hands, fox tail, medium hair, medium breasts, slightly disheveled hair, black lips, black makeup, black eyeshadow, fox ears, blue eyes, detailed eyes, fox nose, (ginger fur:1.3), black nails, black hair, black smudged makeup, black matte lipstick, black lips, strands of hair on the sides, open forehead civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767447",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f29f02a-2dcd-48cc-89d6-a003b6e0dbfb/original=true/8f29f02a-2dcd-48cc-89d6-a003b6e0dbfb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767197",
+      "title": "Civitai prompt 145767197",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dvr-rst, Extreme close-up of a mechanical steampunk hand gripping a wrench, fingers composed of interlocking brass gears, copper tubing veins, tiny screws and rivets, oil stains on the metal, realistic metallic reflections, macro photography, shallow depth of field, sharp focus on the gears, dramatic side lighting, intricate craftsmanship.",
+      "quality_score": 9.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767197",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af5b8216-9fc5-4d5b-8e15-837e52077f20/original=true/af5b8216-9fc5-4d5b-8e15-837e52077f20.jpeg",
+      "model_version_ids": [
+        135867,
+        606944,
+        916744
+      ],
+      "seed": 278377339,
+      "negative_prompt": "human skin, flesh, blood, organic matter, soft focus, blurry, cartoonish, plastic, rubber, modern robot, sleek aluminum, chrome, bright white light, overexposed, underexposed, low quality, artifacts.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777325+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a1d2cda0f4763a30e2233f6e96464daeccf785f68226d1a366bc45d26daef86b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767197 image ai-image-prompts dvr-rst, extreme close-up of a mechanical steampunk hand gripping a wrench, fingers composed of interlocking brass gears, copper tubing veins, tiny screws and rivets, oil stains on the metal, realistic metallic reflections, macro photography, shallow depth of field, sharp focus on the gears, dramatic side lighting, intricate craftsmanship. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767197",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af5b8216-9fc5-4d5b-8e15-837e52077f20/original=true/af5b8216-9fc5-4d5b-8e15-837e52077f20.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767689",
+      "title": "Civitai prompt 145767689",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic lighting, a polished smooth steel medieval sword stuck vertically into a weathered anvil, clean reflective steel blade and hilt, detailed metallic reflections, warm forge lighting background, glowing embers, rustic blacksmith workshop, stone walls, deep shadows, amber glow, highly detailed, photorealistic, 8k resolution, raw photo, masterpiece",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767689",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97aab7c8-37bf-4106-b481-207c1d9a6570/original=true/97aab7c8-37bf-4106-b481-207c1d9a6570.jpeg",
+      "model_version_ids": [
+        606944,
+        3017793
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 100091534,
+      "negative_prompt": "smooth, pristine, clean metal, blurry, low resolution, flat lighting, bright background, blue tones, oversaturated, soft focus",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777333+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4ef4be35c43db08c23e29dd8fd5e261e51ae4ba38fc689fdd0c4302648cf7b9c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767689 image ai-image-prompts cinematic lighting, a polished smooth steel medieval sword stuck vertically into a weathered anvil, clean reflective steel blade and hilt, detailed metallic reflections, warm forge lighting background, glowing embers, rustic blacksmith workshop, stone walls, deep shadows, amber glow, highly detailed, photorealistic, 8k resolution, raw photo, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767689",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97aab7c8-37bf-4106-b481-207c1d9a6570/original=true/97aab7c8-37bf-4106-b481-207c1d9a6570.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145753062",
+      "title": "Civitai prompt 145753062",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "1girl, solo,skinny, adult woman, short white hair, long side bangs, heterochromia, white eye, red eye, glowing eyes, black feathered wings, broken mechanical halo, black military coat, high collar, silver buckles, asymmetrical armored gloves, thigh holster, black choker, silver ear cuffs, feather ornaments, dark metallic accessories, holding black sword, black feathers drifting around her, red digital particles, fallen angel, gothic military fashion, calm intimidating expression, looking at viewer, three-quarter view, charcoal black and crimson color palette, red rim lighting, dark background, dynamic view, dynamic angle, dynamic pose, pelvic curtain, , realistic skin, detailed skin texture, photorealistic, realistic, realism, real, cinematic,, masterpiece, best quality, very aesthetic, photorealistic, realistic, high detail, highres, cinematic lighting, dramatic lighting, depth of field, impressionism, blurred background, ultra-HD, 8k,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145753062",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7abc7e54-7dea-4dad-af54-4b40b17c449f/original=true/7abc7e54-7dea-4dad-af54-4b40b17c449f.jpeg",
+      "model": "PureCartoonXL",
+      "model_version_ids": [
+        3342887
+      ],
+      "width": 1536,
+      "height": 2304,
+      "seed": 919685462,
+      "negative_prompt": ", lazyhand,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777346+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "003d24650ee3e517a228660ac12bbaab3558d91e1a5dc559ac13738530a4bad0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145753062 fashion ai-image-prompts 1girl, solo,skinny, adult woman, short white hair, long side bangs, heterochromia, white eye, red eye, glowing eyes, black feathered wings, broken mechanical halo, black military coat, high collar, silver buckles, asymmetrical armored gloves, thigh holster, black choker, silver ear cuffs, feather ornaments, dark metallic accessories, holding black sword, black feathers drifting around her, red digital particles, fallen angel, gothic military fashion, calm intimidating expression, looking at viewer, three-quarter view, charcoal black and crimson color palette, red rim lighting, dark background, dynamic view, dynamic angle, dynamic pose, pelvic curtain, , realistic skin, detailed skin texture, photorealistic, realistic, realism, real, cinematic,, masterpiece, best quality, very aesthetic, photorealistic, realistic, high detail, highres, cinematic lighting, dramatic lighting, depth of field, impressionism, blurred background, ultra-hd, 8k, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145753062",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7abc7e54-7dea-4dad-af54-4b40b17c449f/original=true/7abc7e54-7dea-4dad-af54-4b40b17c449f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145753058",
+      "title": "Civitai prompt 145753058",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "1girl, solo,skinny, adult woman, white hair, black hair, long side bangs, heterochromia, white eye, red eye, black feathered wings, broken mechanical halo, black military coat, high collar, silver buckles, asymmetrical armored gloves, thigh holster, black choker, silver ear cuffs, feather ornaments, dark metallic accessories, holding black sword, black feathers drifting around her, red digital particles, fallen angel, gothic military fashion, calm intimidating expression, looking at viewer, three-quarter view, charcoal black and crimson color palette, red rim lighting, dark background, dynamic view, dynamic angle, dynamic pose,, , realistic skin, detailed skin texture, photorealistic, realistic, realism, real, cinematic,, masterpiece, best quality, very aesthetic, photorealistic, realistic, high detail, highres, cinematic lighting, dramatic lighting, depth of field, impressionism, blurred background, ultra-HD, 8k,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145753058",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2615f3b-7017-4d77-903d-ca4b75e0ce59/original=true/d2615f3b-7017-4d77-903d-ca4b75e0ce59.jpeg",
+      "model": "PureCartoonXL",
+      "model_version_ids": [
+        3342887
+      ],
+      "width": 1536,
+      "height": 2304,
+      "seed": 1466281760,
+      "negative_prompt": ", lazyhand,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777358+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "df0c427c7310e7a9c8afae9bee84a192446a13e5f3bb70424715902d71698a8c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145753058 fashion ai-image-prompts 1girl, solo,skinny, adult woman, white hair, black hair, long side bangs, heterochromia, white eye, red eye, black feathered wings, broken mechanical halo, black military coat, high collar, silver buckles, asymmetrical armored gloves, thigh holster, black choker, silver ear cuffs, feather ornaments, dark metallic accessories, holding black sword, black feathers drifting around her, red digital particles, fallen angel, gothic military fashion, calm intimidating expression, looking at viewer, three-quarter view, charcoal black and crimson color palette, red rim lighting, dark background, dynamic view, dynamic angle, dynamic pose,, , realistic skin, detailed skin texture, photorealistic, realistic, realism, real, cinematic,, masterpiece, best quality, very aesthetic, photorealistic, realistic, high detail, highres, cinematic lighting, dramatic lighting, depth of field, impressionism, blurred background, ultra-hd, 8k, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145753058",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2615f3b-7017-4d77-903d-ca4b75e0ce59/original=true/d2615f3b-7017-4d77-903d-ca4b75e0ce59.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767615",
+      "title": "Civitai prompt 145767615",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dvr-rst, giant text: \"I LOVE BUZZ\", an ornate altar, radiating bright golden light, fantasy temple interior, detailed columns, dramatic composition, brilliant yellow highlights, ultra-detailed, sharp focus, photorealistic, cinematic, 4k, \nRust texture, gritty, pitted surface, corroded, Brown color scheme, sienna, umber, and burnt orange, Warm lighting, Golden, amber, strong highlights, deep shadows, Deep blacks, browns in the shadows, Metallic substrate, Hints of the original metal (steel, iron) visible beneath the corrosion, A stark difference between the brightly lit areas and the dark, shadowed regions, text,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767615",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5565f2cb-2119-42dc-ba48-e2e994954264/original=true/5565f2cb-2119-42dc-ba48-e2e994954264.jpeg",
+      "model_version_ids": [
+        249521,
+        606944,
+        3017793
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1227753173,
+      "negative_prompt": "smooth, pristine, clean metal, blurry, low resolution, flat lighting, bright background, blue tones, oversaturated, soft focus",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777368+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f85fc6cd9e390a5cfb5dfe99ad0d75bd9a4d133a011bbb19b1b60280e0f0a867",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767615 architecture ai-image-prompts dvr-rst, giant text: \"i love buzz\", an ornate altar, radiating bright golden light, fantasy temple interior, detailed columns, dramatic composition, brilliant yellow highlights, ultra-detailed, sharp focus, photorealistic, cinematic, 4k, rust texture, gritty, pitted surface, corroded, brown color scheme, sienna, umber, and burnt orange, warm lighting, golden, amber, strong highlights, deep shadows, deep blacks, browns in the shadows, metallic substrate, hints of the original metal (steel, iron) visible beneath the corrosion, a stark difference between the brightly lit areas and the dark, shadowed regions, text, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767615",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5565f2cb-2119-42dc-ba48-e2e994954264/original=true/5565f2cb-2119-42dc-ba48-e2e994954264.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767607",
+      "title": "Civitai prompt 145767607",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a golden sword, sword made of gold, gleaming gold, over a table of metal of corroded metal, \nRust texture, gritty, pitted surface, corroded, Brown color scheme, sienna, umber, and burnt orange, Warm lighting, Golden, amber, strong highlights, deep shadows, Deep blacks, browns in the shadows, Metallic substrate, Hints of the original metal (steel, iron) visible beneath the corrosion, A stark difference between the brightly lit areas and the dark, shadowed regions,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767607",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c3c9831-f4e8-4aca-878f-e56af765990e/original=true/2c3c9831-f4e8-4aca-878f-e56af765990e.jpeg",
+      "model_version_ids": [
+        606944,
+        3017793
+      ],
+      "width": 1536,
+      "height": 640,
+      "seed": 126075904,
+      "negative_prompt": "smooth, pristine, clean metal, blurry, low resolution, flat lighting, bright background, blue tones, oversaturated, soft focus",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777377+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0222fa733e89d477296a3f19d0fa343bfae37e831db5aa8a3145fbed2df33209",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767607 image ai-image-prompts a golden sword, sword made of gold, gleaming gold, over a table of metal of corroded metal, rust texture, gritty, pitted surface, corroded, brown color scheme, sienna, umber, and burnt orange, warm lighting, golden, amber, strong highlights, deep shadows, deep blacks, browns in the shadows, metallic substrate, hints of the original metal (steel, iron) visible beneath the corrosion, a stark difference between the brightly lit areas and the dark, shadowed regions, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767607",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c3c9831-f4e8-4aca-878f-e56af765990e/original=true/2c3c9831-f4e8-4aca-878f-e56af765990e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145767467",
+      "title": "Civitai prompt 145767467",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, very aesthetic, seamless,\ndetailed, reflective,\nhigh detail, 8k,\nhighly detailed,\n(artis:kukka:1.1), (artis:pigeon666:0.67), (artis:remsrar:0.65), (artis:yoneyama mai:0.74), (artis:konya karasue:0.55), (artis:ub1mo:0.34), (artis:dino_(dinoartforame):0.9), (artis:quasarcake:0.8), wlop, (artis:ebifurya:0.52), (artis:mossacannibalis:0.56), (artis:tianliang duohe fangdongye:0.8), (artis:z-ton:0.5), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, light particles, (depth of field:1.5), (medium\\), tesun \\(g noh\\).,\nsilhouette, rim lighting, backlighting,\n1girl, solo,\n    cinematic,\n  minimalism, negative space, depth of field,\n  cozy,\n        1girl, solo,\n    glitter, sparkle, shimmer, iridescent makeup,\n    hime cut, blunt bangs, straight hair, long hair, detailed hair,\n    indoors, rainy day, rain, overcast, grey,\n     (antlers, deer girl, spots, brown hair, brunette, colored skin, gradient skin, two-tone skin:1.2),\n    close-up, upper body, head rest, hand on own cheek, closed eyes, sleepy,\n    soft smile, headphones, headphones around neck,\n    eyelashes, black eyeliner, lipstick, black lips, messy hair, black eyeshadow, black makeup,\n    perfect hands, long fingernails, sharp fingernails, black nails,\n    desk, desk lamp,\n    off-center, asymmetry,\n    soft focus, dust,\n  petals,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145767467",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/711f4d00-4a1b-4758-8a55-e3fe0af7e10b/original=true/711f4d00-4a1b-4758-8a55-e3fe0af7e10b.jpeg",
+      "model": "aMixIllustrious_aMix",
+      "model_version_ids": [
+        1791442,
+        1915059,
+        1981337,
+        2159305,
+        2832193
+      ],
+      "seed": 1426449614,
+      "negative_prompt": "empty background, white background, plain background, giantess, black face, mask, two girls, 2girls, two women, :P, young, teen, loli, text, english text, japanese text, male, masculine, 1boy, african, black face, three feet, extra feet, \nlowres, worst quality, low quality, normal quality, church, chapel, cathedral, pink, alien egg, slime_\\(creature\\),\nbad anatomy, bad hands, bad proportions, extra fingers, fused fingers, extra digits, too many fingers, deformed, disfigured, \ntext, watermark, signature, artist name, username, logo, stamp,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777392+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "54fe8f3012c69e6eb92c7b41a5b01cf692f8ad53539b02ef37ce66a6034c73ec",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145767467 image ai-image-prompts masterpiece, best quality, absurdres, very aesthetic, seamless, detailed, reflective, high detail, 8k, highly detailed, (artis:kukka:1.1), (artis:pigeon666:0.67), (artis:remsrar:0.65), (artis:yoneyama mai:0.74), (artis:konya karasue:0.55), (artis:ub1mo:0.34), (artis:dino_(dinoartforame):0.9), (artis:quasarcake:0.8), wlop, (artis:ebifurya:0.52), (artis:mossacannibalis:0.56), (artis:tianliang duohe fangdongye:0.8), (artis:z-ton:0.5), (photorealistic:1.2), (illustration:1.3), high resolution, sharp focus, soft lighting, light particles, (depth of field:1.5), (medium\\), tesun \\(g noh\\)., silhouette, rim lighting, backlighting, 1girl, solo, cinematic, minimalism, negative space, depth of field, cozy, 1girl, solo, glitter, sparkle, shimmer, iridescent makeup, hime cut, blunt bangs, straight hair, long hair, detailed hair, indoors, rainy day, rain, overcast, grey, (antlers, deer girl, spots, brown hair, brunette, colored skin, gradient skin, two-tone skin:1.2), close-up, upper body, head rest, hand on own cheek, closed eyes, sleepy, soft smile, headphones, headphones around neck, eyelashes, black eyeliner, lipstick, black lips, messy hair, black eyeshadow, black makeup, perfect hands, long fingernails, sharp fingernails, black nails, desk, desk lamp, off-center, asymmetry, soft focus, dust, petals, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145767467",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/711f4d00-4a1b-4758-8a55-e3fe0af7e10b/original=true/711f4d00-4a1b-4758-8a55-e3fe0af7e10b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145716350",
+      "title": "Civitai prompt 145716350",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "WORLD / SCENE IDENTITY\n\nMasterpiece, best quality, very aesthetic. A small northern European village during a snowy winter evening, with old wooden cottages, steep snow-covered roofs, tall evergreen trees, warm illuminated windows, and a narrow footpath winding between the houses.\n\nAn extraordinary coral-orange sunset glows behind the village beneath a vast deep-blue twilight sky.\n\nThe atmosphere feels peaceful, nostalgic, magical, intimate, and deeply wintry.\n\nMAIN VISUAL ANCHOR\n\nOne traditional wooden cottage with a steep snow-covered roof stands prominently in the middle ground, slightly right of center.\n\nThe house has dark weathered timber walls, a broad triangular roof, small rectangular windows glowing with warm amber light, and a brick chimney releasing a thick column of smoke.\n\nBehind the house, an immense opening of luminous coral, orange, and peach light illuminates the evening sky.\n\nThe dark roof silhouette against the glowing horizon provides the strongest architectural contrast.\n\nSECONDARY ANCHOR / HUMAN PRESENCE\n\nTwo people walk away from the viewer along the snowy village path.\n\nOne adult and one child, both wearing dark winter coats, stand close together near the lower-middle portion of the composition.\n\nTheir silhouettes remain small compared with the surrounding houses and trees.\n\nThey walk naturally toward the illuminated village, leaving a subtle sequence of footprints in the snow.\n\nCOMPOSITION / VISUAL ROUTE\n\nUse a vertical environmental composition from natural standing height.\n\nBuild one clear visual route:\n\nforeground deep-blue snow\n-> narrow path and footprints\n-> two walking figures\n-> warm cottage windows\n-> central snow-covered roof\n-> rising chimney smoke\n-> enormous coral-orange sunset clouds\n-> deep cobalt-blue evening sky.\n\nThe path begins near the lower center and curves gently between the snowbanks toward the illuminated houses.\n\nTall snow-covered evergreen trees frame both sides of the scene.\n\nKeep the horizon relatively low, allowing the dramatic sky to dominate the upper composition.\n\nCAMERA / FRAMING\n\nPosition the camera several meters behind the two figures at natural standing height.\n\nLook gently uphill through the village toward the glowing horizon.\n\nPreserve the complete central cottage, surrounding snow-covered trees, both figures, and substantial open sky.\n\nFOREGROUND / SNOW\n\nUse deep accumulated winter snow with irregular soft surfaces, rounded snowbanks, shallow footprints, and subtle wind-shaped variations.\n\nThe nearest snow remains predominantly saturated cobalt blue and deep blue-violet.\n\nSelected upper surfaces catch faint lavender and coral reflected light from the sky.\n\nKeep the snow organized into broad readable forms with restrained surface detail.\n\nMIDDLE GROUND / VILLAGE\n\nUse several modest traditional wooden cottages arranged naturally along the winding path.\n\nThe houses have:\n\nweathered dark timber walls,\nsteep pitched roofs,\nthick snow accumulation,\nsmall glowing windows,\nsimple wooden doors,\nand practical rural proportions.\n\nWarm amber light shines through selected windows.\n\nThe illumination reaches nearby snowbanks and wooden walls, forming small localized pools of pale gold and soft orange.\n\nKeep the houses irregularly spaced and partially framed by tall evergreen trees.\n\nCHIMNEY SMOKE\n\nA thick column of smoke rises from the central cottage chimney.\n\nThe smoke initially ascends vertically before bending gently toward the upper right.\n\nIt forms a broad irregular plume, with softly curling edges and translucent overlapping layers.\n\nThe lower smoke remains darker blue-gray against the bright sunset.\n\nIts outer edges catch coral and warm orange light where they overlap the illuminated sky.\n\nKeep the smoke physically connected to the chimney.\n\nBACKGROUND / FOREST\n\nDark spruce and pine trees surround the village.\n\nTheir snow-covered branches form deep blue silhouettes against the brighter atmosphere.\n\nMore distant cottages and tree groups gradually soften into lavender-blue evening haze.\n\nPreserve clear separation between the dark trees, illuminated houses, and open sky.\n\nSKY / LIGHT EVENT\n\nUse one extraordinary winter sunset event.\n\nThe upper sky remains deep cobalt blue, gradually transitioning into muted indigo and blue-violet.\n\nNear the horizon, enormous irregular cloud formations glow with:\n\nvivid coral,\nwarm salmon pink,\nbright orange,\nsoft peach,\nand pale golden cream.\n\nThe strongest warm illumination remains concentrated behind the central cottage.\n\nThe upper edges of the glowing clouds blend gradually into cooler violet and blue-gray shadow masses.\n\nThe last sunlight catches:\n\nthe chimney smoke,\nselected roof edges,\nupper snowbanks,\ntree branches,\nand distant atmospheric haze.\n\nThe warm glow reflects subtly from the snow surfaces facing the horizon.\n\nShaded snow retains rich cobalt-blue and blue-violet colors.\n\nLIGHT / REFLECTION LOGIC\n\nUse three distinct illumination relationships.\n\nCOLD TWILIGHT AMBIENT:\n\nDeep blue skylight illuminates the snow, wooden houses, evergreen branches, and shaded surfaces.\n\nWARM SUNSET BACKLIGHT:\n\nCoral-orange light behind the village outlines selected roof edges, tree silhouettes, and the drifting smoke.\n\nLOCAL WINDOW LIGHT:\n\nSmall amber windows cast restrained warm illumination onto immediately adjacent walls and snow.\n\nThe snow reflects these local lights as soft broken golden patches that fade naturally with distance from the windows.\n\nMaintain physically coherent light direction, broad feathered transitions, luminous readable middle values, and open chromatic shadows.\n\nCOLOR HIERARCHY\n\nBASE:\ndeep cobalt blue, midnight navy, blue-violet, dark spruce green, cool slate.\n\nCOUNTER:\ncoral orange, warm peach, salmon pink, luminous amber.\n\nACCENT:\nsmall golden-yellow windows and pale warm reflections on nearby snow.\n\nPreserve strong separation between the cool snow, dark forest silhouettes, and intensely warm sunset clouds.\n\nDEPTH / DETAIL HIERARCHY\n\nCreate depth through:\n\nforeground snowbank overlap,\npath convergence,\nhuman scale,\nhouse repetition,\nevergreen layering,\nchimney smoke,\nand atmospheric softening toward the horizon.\n\nKeep the central cottage, nearest snowbanks, and walking figures clearly readable.\n\nSecondary buildings simplify naturally.\n\nDistant trees and rooftops become subdued silhouettes within the blue-violet atmosphere.\n\nGLOBAL VISUAL LANGUAGE\n\nPreserve one clear visual thesis:\n\ntwo people walk through a quiet snow-covered village beneath a vast cobalt-blue evening sky, while an extraordinary coral-orange sunset glows behind the wooden cottages and warm windows illuminate the winter darkness.\n\nThe path provides the visual route.\n\nThe two figures provide emotional presence and scale.\n\nThe central cottage provides the architectural anchor.\n\nThe chimney smoke provides atmospheric movement.\n\nThe contrast between blue winter snow and the fiery sunset provides the main visual event.\n\nRender in refined atmospheric illustrative naturalism with clean digital painterly handling.\n\nUse coherent painted color masses, controlled soft layering, subtle broken color, selective edge definition, broad luminous midtones, open chromatic shadows, and natural optical depth.\n\nMaintain believable wooden architecture, simplified painterly snow surfaces, organic cloud formations, and physically coherent warm-cool interaction.\n\nPreserve expressive saturated local colors and clear atmospheric separation rather than photographic literalism.\n\nTexture should emerge from color modulation, controlled edges, and restrained brush rhythm rather than simulated canvas or thick physical paint.\n\nKeep the image painterly, luminous, magical, color-rich, emotionally warm, and immediately readable at thumbnail scale.\n\nPAINTERLY STYLE\n\nA flat hand-drawn graphic illustration, 2000s.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145716350",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b70ef838-733e-402a-b11e-b45d9d0e2adb/original=true/b70ef838-733e-402a-b11e-b45d9d0e2adb.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 50000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T19:08:05.777459+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a2a5e75acea0c633453778528b59817bcf2e17bf5f892c4758bc112c89a57083",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145716350 architecture ai-image-prompts world / scene identity masterpiece, best quality, very aesthetic. a small northern european village during a snowy winter evening, with old wooden cottages, steep snow-covered roofs, tall evergreen trees, warm illuminated windows, and a narrow footpath winding between the houses. an extraordinary coral-orange sunset glows behind the village beneath a vast deep-blue twilight sky. the atmosphere feels peaceful, nostalgic, magical, intimate, and deeply wintry. main visual anchor one traditional wooden cottage with a steep snow-covered roof stands prominently in the middle ground, slightly right of center. the house has dark weathered timber walls, a broad triangular roof, small rectangular windows glowing with warm amber light, and a brick chimney releasing a thick column of smoke. behind the house, an immense opening of luminous coral, orange, and peach light illuminates the evening sky. the dark roof silhouette against the glowing horizon provides the strongest architectural contrast. secondary anchor / human presence two people walk away from the viewer along the snowy village path. one adult and one child, both wearing dark winter coats, stand close together near the lower-middle portion of the composition. their silhouettes remain small compared with the surrounding houses and trees. they walk naturally toward the illuminated village, leaving a subtle sequence of footprints in the snow. composition / visual route use a vertical environmental composition from natural standing height. build one clear visual route: foreground deep-blue snow -> narrow path and footprints -> two walking figures -> warm cottage windows -> central snow-covered roof -> rising chimney smoke -> enormous coral-orange sunset clouds -> deep cobalt-blue evening sky. the path begins near the lower center and curves gently between the snowbanks toward the illuminated houses. tall snow-covered evergreen trees frame both sides of the scene. keep the horizon relatively low, allowing the dramatic sky to dominate the upper composition. camera / framing position the camera several meters behind the two figures at natural standing height. look gently uphill through the village toward the glowing horizon. preserve the complete central cottage, surrounding snow-covered trees, both figures, and substantial open sky. foreground / snow use deep accumulated winter snow with irregular soft surfaces, rounded snowbanks, shallow footprints, and subtle wind-shaped variations. the nearest snow remains predominantly saturated cobalt blue and deep blue-violet. selected upper surfaces catch faint lavender and coral reflected light from the sky. keep the snow organized into broad readable forms with restrained surface detail. middle ground / village use several modest traditional wooden cottages arranged naturally along the winding path. the houses have: weathered dark timber walls, steep pitched roofs, thick snow accumulation, small glowing windows, simple wooden doors, and practical rural proportions. warm amber light shines through selected windows. the illumination reaches nearby snowbanks and wooden walls, forming small localized pools of pale gold and soft orange. keep the houses irregularly spaced and partially framed by tall evergreen trees. chimney smoke a thick column of smoke rises from the central cottage chimney. the smoke initially ascends vertically before bending gently toward the upper right. it forms a broad irregular plume, with softly curling edges and translucent overlapping layers. the lower smoke remains darker blue-gray against the bright sunset. its outer edges catch coral and warm orange light where they overlap the illuminated sky. keep the smoke physically connected to the chimney. background / forest dark spruce and pine trees surround the village. their snow-covered branches form deep blue silhouettes against the brighter atmosphere. more distant cottages and tree groups gradually soften into lavender-blue evening haze. preserve clear separation between the dark trees, illuminated houses, and open sky. sky / light event use one extraordinary winter sunset event. the upper sky remains deep cobalt blue, gradually transitioning into muted indigo and blue-violet. near the horizon, enormous irregular cloud formations glow with: vivid coral, warm salmon pink, bright orange, soft peach, and pale golden cream. the strongest warm illumination remains concentrated behind the central cottage. the upper edges of the glowing clouds blend gradually into cooler violet and blue-gray shadow masses. the last sunlight catches: the chimney smoke, selected roof edges, upper snowbanks, tree branches, and distant atmospheric haze. the warm glow reflects subtly from the snow surfaces facing the horizon. shaded snow retains rich cobalt-blue and blue-violet colors. light / reflection logic use three distinct illumination relationships. cold twilight ambient: deep blue skylight illuminates the snow, wooden houses, evergreen branches, and shaded surfaces. warm sunset backlight: coral-orange light behind the village outlines selected roof edges, tree silhouettes, and the drifting smoke. local window light: small amber windows cast restrained warm illumination onto immediately adjacent walls and snow. the snow reflects these local lights as soft broken golden patches that fade naturally with distance from the windows. maintain physically coherent light direction, broad feathered transitions, luminous readable middle values, and open chromatic shadows. color hierarchy base: deep cobalt blue, midnight navy, blue-violet, dark spruce green, cool slate. counter: coral orange, warm peach, salmon pink, luminous amber. accent: small golden-yellow windows and pale warm reflections on nearby snow. preserve strong separation between the cool snow, dark forest silhouettes, and intensely warm sunset clouds. depth / detail hierarchy create depth through: foreground snowbank overlap, path convergence, human scale, house repetition, evergreen layering, chimney smoke, and atmospheric softening toward the horizon. keep the central cottage, nearest snowbanks, and walking figures clearly readable. secondary buildings simplify naturally. distant trees and rooftops become subdued silhouettes within the blue-violet atmosphere. global visual language preserve one clear visual thesis: two people walk through a quiet snow-covered village beneath a vast cobalt-blue evening sky, while an extraordinary coral-orange sunset glows behind the wooden cottages and warm windows illuminate the winter darkness. the path provides the visual route. the two figures provide emotional presence and scale. the central cottage provides the architectural anchor. the chimney smoke provides atmospheric movement. the contrast between blue winter snow and the fiery sunset provides the main visual event. render in refined atmospheric illustrative naturalism with clean digital painterly handling. use coherent painted color masses, controlled soft layering, subtle broken color, selective edge definition, broad luminous midtones, open chromatic shadows, and natural optical depth. maintain believable wooden architecture, simplified painterly snow surfaces, organic cloud formations, and physically coherent warm-cool interaction. preserve expressive saturated local colors and clear atmospheric separation rather than photographic literalism. texture should emerge from color modulation, controlled edges, and restrained brush rhythm rather than simulated canvas or thick physical paint. keep the image painterly, luminous, magical, color-rich, emotionally warm, and immediately readable at thumbnail scale. painterly style a flat hand-drawn graphic illustration, 2000s. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145716350",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b70ef838-733e-402a-b11e-b45d9d0e2adb/original=true/b70ef838-733e-402a-b11e-b45d9d0e2adb.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-15T08:25:55.539351+00:00",
-  "prompt_count": 1410,
+  "generated_at": "2026-10-15T19:08:10.023927+00:00",
+  "prompt_count": 1427,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 1385,
-    "failed_count": 25,
-    "updated_at": "2026-10-15T08:25:55Z"
+    "failed_count": 42,
+    "updated_at": "2026-10-15T19:08:09Z"
   }
 }
