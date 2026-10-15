@@ -5713,7 +5713,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-32c856af4821",
@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -62635,15 +62635,904 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5121a3ef-edca-4378-9b87-d373b042fe95/original=true/5121a3ef-edca-4378-9b87-d373b042fe95.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-145725478",
+      "title": "Civitai prompt 145725478",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@Niji, niji, masterpiece, european woman, dark theme \nlight rays, light particles, floating, motion lines, night, night sky, star \\(sky\\), starry sky, icy, blue, dark aura, depth of field, lens flare, diffraction spikes,full body shot, eye-level shot\npicture of a beautiful young european woman with straight light red hair and bangs,\nHer right hand is raised near her mouth with fingers touching her cheek, a shiny metal cuff on her wrist. She looks toward the camera with a calm expression. She has a very cute face with large eyes. she has blue eyes and a pale skin and freckles.\n1 woman, straight hair, black and gold enigmatic earrings, pale lips, lip gloss, seamless skin, parted lips,  blue eyes, with a look of gentle expression\nShe wears a school uniform consisting of a tailored wool blazers, in maroon, featuring school crest, a pleated tartan skirt worn around knee length, and a traditional white button-down shirts paired with striped school ties, looking at viewer\nShe is confronting a supernatural creature, alert heroic stance, focused expression, holding a russian Nozh Podsaydashny diagonally, school uniform completely intact, one single plaid pleated school skirt securely worn at the waist, natural fabric movement caused by motion, action ofensive posture,1980s supernatural adventure atmosphere\nDramatic lighting combines cool blue ambient tones from the environment.\nMasterpiece digital painting, \nWuxia aesthetic, \nhighly textured painterly brushstrokes,\ndigital glow effects, dynamic foreshortening, dramatic cinematic chiaroscuro, epic dark fantasy illustration. Smooth_Quality, eye-level shot, light background",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725478",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e9ce77d-5357-4853-b719-aecd42e40448/original=true/7e9ce77d-5357-4853-b719-aecd42e40448.jpeg",
+      "model_version_ids": [
+        2945208,
+        3102421
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 709101257,
+      "negative_prompt": "worst quality, old, early, low quality, lowres, signature, username, logo, bad hands, mutated hands, score_1, score_2, score_3, artist name, bad anatomy, bad eyes, blurry eyes, deformed, missing limbs, big lips, bright, bad fingers, extra fingers, backpack, bag, SNFW, nude,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259127+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "401a0672215af31ee88b31b846fb034d6139e34144d427b784f0d86038143bd6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725478 image ai-image-prompts @niji, niji, masterpiece, european woman, dark theme light rays, light particles, floating, motion lines, night, night sky, star \\(sky\\), starry sky, icy, blue, dark aura, depth of field, lens flare, diffraction spikes,full body shot, eye-level shot picture of a beautiful young european woman with straight light red hair and bangs, her right hand is raised near her mouth with fingers touching her cheek, a shiny metal cuff on her wrist. she looks toward the camera with a calm expression. she has a very cute face with large eyes. she has blue eyes and a pale skin and freckles. 1 woman, straight hair, black and gold enigmatic earrings, pale lips, lip gloss, seamless skin, parted lips, blue eyes, with a look of gentle expression she wears a school uniform consisting of a tailored wool blazers, in maroon, featuring school crest, a pleated tartan skirt worn around knee length, and a traditional white button-down shirts paired with striped school ties, looking at viewer she is confronting a supernatural creature, alert heroic stance, focused expression, holding a russian nozh podsaydashny diagonally, school uniform completely intact, one single plaid pleated school skirt securely worn at the waist, natural fabric movement caused by motion, action ofensive posture,1980s supernatural adventure atmosphere dramatic lighting combines cool blue ambient tones from the environment. masterpiece digital painting, wuxia aesthetic, highly textured painterly brushstrokes, digital glow effects, dynamic foreshortening, dramatic cinematic chiaroscuro, epic dark fantasy illustration. smooth_quality, eye-level shot, light background civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725478",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e9ce77d-5357-4853-b719-aecd42e40448/original=true/7e9ce77d-5357-4853-b719-aecd42e40448.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725398",
+      "title": "Civitai prompt 145725398",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot,\n1girl, Traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer,missing one hand,missing left hand, missing hand, holding an activated red lightsaber, she is pointing the lightsaber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725398",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd23375e-0d90-40f8-88d2-bbde13aaefa0/original=true/dd23375e-0d90-40f8-88d2-bbde13aaefa0.jpeg",
+      "model_version_ids": [
+        2992828,
+        3316016
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1397889020,
+      "negative_prompt": "worst quality, low quality, early, score_1, score_2, score_3, cartoon,  painting, crayon, graphite, abstract, glitch,  ugly,  long body, artist name, blurry, jpeg artifacts, lowres, censor, left hand,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259163+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c830f84be503c89f8554293adc9f5b1678348a4a6df88a7d9ba90104335be7c2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725398 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot, 1girl, traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer,missing one hand,missing left hand, missing hand, holding an activated red lightsaber, she is pointing the lightsaber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725398",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd23375e-0d90-40f8-88d2-bbde13aaefa0/original=true/dd23375e-0d90-40f8-88d2-bbde13aaefa0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725397",
+      "title": "Civitai prompt 145725397",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot,\n1girl, Traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer,missing one hand,missing left hand, missing hand, holding an activated red light saber, she is pointing the light saber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725397",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e9f836f-ca87-417a-9bdc-da2822928fee/original=true/0e9f836f-ca87-417a-9bdc-da2822928fee.jpeg",
+      "model_version_ids": [
+        2992828,
+        3316016
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2115420475,
+      "negative_prompt": "worst quality, low quality, early, score_1, score_2, score_3, cartoon,  painting, crayon, graphite, abstract, glitch,  ugly,  long body, artist name, blurry, jpeg artifacts, lowres, censor, left hand,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259211+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "36dc8fb880bfe0f9bdadd6628f7942bfc64efec57784337450b041b747d2b66b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725397 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot, 1girl, traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer,missing one hand,missing left hand, missing hand, holding an activated red light saber, she is pointing the light saber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725397",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e9f836f-ca87-417a-9bdc-da2822928fee/original=true/0e9f836f-ca87-417a-9bdc-da2822928fee.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725392",
+      "title": "Civitai prompt 145725392",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot,\n1girl, Traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer, holding an activated red lightsaber, she is pointing the lightsaber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725392",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72721f81-b3e2-4a49-93a0-226d55938fc5/original=true/72721f81-b3e2-4a49-93a0-226d55938fc5.jpeg",
+      "model_version_ids": [
+        3189494,
+        3316016
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1608098300,
+      "negative_prompt": "worst quality, low quality, early, score_1, score_2, score_3, cartoon,  painting, crayon, graphite, abstract, glitch,  ugly,  long body, artist name, blurry, jpeg artifacts, lowres, censor,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259225+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "aedaf9c3d96bb4e4f29a605c97be6ac6afb8891b79474ccb695fe3bf281ceb64",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725392 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, newest, highres, absurdres,view from front, full body shot, 1girl, traya,elderly female,old woman, wrinkled skin, pale gray skin,eyes covered by a hood, blind, hidden eyes,long white hair, grey hair, twin braids,hair tied with dark bands with red stripes, dark grey hood, black cowl, voluminous dark robes, sith robes, black fabric belt, deep hood pulled down low,hood covering the forehead and eyes, standing in a dark dungeon, standing in a terrifying dungeon with red lighting, facing viewer, holding an activated red lightsaber, she is pointing the lightsaber directly at the viewer, she displays an aggressive fighting pose, she is ready to fight, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725392",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72721f81-b3e2-4a49-93a0-226d55938fc5/original=true/72721f81-b3e2-4a49-93a0-226d55938fc5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725388",
+      "title": "Civitai prompt 145725388",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece cinematic anime illustration, 1girl, a young East Asian woman with a gentle, melancholic expression, sitting gracefully on her knees (seiza pose) on a wet, reflective wooden outdoor terrace at dusk. She wears an elaborate traditional hanfu (or kimono) made of shimmering satin, colored in gradients of soft peach, rose, and deep blue, with intricate floral and cherry blossom patterns, tied with a dark, richly decorated obi (belt) with dangling jade tassels and ornaments. Her long dark hair is styled in an elegant, traditional bun (updo) with ornate hairpins and gold ornaments, with delicate loose strands framing her face. She is looking slightly downward and to the side, lost in thought. A massive gnarled cherry blossom tree (sakura) with dense pink and white blossoms arches over her on the right, with fallen petals scattered on the wet, reflective wooden deck. In the background, under a dramatic twilight sky filled with deep blue, turquoise, and fading orange-peach clouds, sits a traditional ancient Japanese/Chinese pagoda and temple complex with tiered curved roofs. The scene is illuminated by dramatic, high-contrast backlighting: a bright, luminous blue and turquoise twilight glow from behind, contrasting with warm orange and pink ambient highlights from setting sunlight catching the sakura blossoms and the edge of her satin garment. The wet ground and wooden floor dramatically reflect the vibrant blue and warm pink illumination. Fine cherry blossom petals and ambient dust particles drift through the air. Beautiful edge definition, rich hand-drawn textures, cinematic lighting, slight chromatic aberration, highly aesthetic composition, 8k, awe-inspiring, visually jaw-dropping.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725388",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a874337-15ee-449a-9457-3e880ff5f17f/original=true/1a874337-15ee-449a-9457-3e880ff5f17f.jpeg",
+      "model_version_ids": [
+        3021200
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 247791503,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259248+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2f2b635fb7653689381e64d585e4458c9a8fda73c9e090c94bf684dcdca9913b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725388 image ai-image-prompts masterpiece cinematic anime illustration, 1girl, a young east asian woman with a gentle, melancholic expression, sitting gracefully on her knees (seiza pose) on a wet, reflective wooden outdoor terrace at dusk. she wears an elaborate traditional hanfu (or kimono) made of shimmering satin, colored in gradients of soft peach, rose, and deep blue, with intricate floral and cherry blossom patterns, tied with a dark, richly decorated obi (belt) with dangling jade tassels and ornaments. her long dark hair is styled in an elegant, traditional bun (updo) with ornate hairpins and gold ornaments, with delicate loose strands framing her face. she is looking slightly downward and to the side, lost in thought. a massive gnarled cherry blossom tree (sakura) with dense pink and white blossoms arches over her on the right, with fallen petals scattered on the wet, reflective wooden deck. in the background, under a dramatic twilight sky filled with deep blue, turquoise, and fading orange-peach clouds, sits a traditional ancient japanese/chinese pagoda and temple complex with tiered curved roofs. the scene is illuminated by dramatic, high-contrast backlighting: a bright, luminous blue and turquoise twilight glow from behind, contrasting with warm orange and pink ambient highlights from setting sunlight catching the sakura blossoms and the edge of her satin garment. the wet ground and wooden floor dramatically reflect the vibrant blue and warm pink illumination. fine cherry blossom petals and ambient dust particles drift through the air. beautiful edge definition, rich hand-drawn textures, cinematic lighting, slight chromatic aberration, highly aesthetic composition, 8k, awe-inspiring, visually jaw-dropping. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725388",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a874337-15ee-449a-9457-3e880ff5f17f/original=true/1a874337-15ee-449a-9457-3e880ff5f17f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725380",
+      "title": "Civitai prompt 145725380",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic documentary photograph taken from inside a commercial airplane during a morning flight, a passenger sitting beside the window quietly observing the world far below, vast layers of soft white clouds stretching toward the horizon, patches of sunlight breaking through the clouds and illuminating mountains, rivers, forests and small cities on the ground, the passenger's reflection subtly visible on the airplane window, a flight attendant walking through the aisle in the background, overhead compartments and realistic airplane cabin details, sunlight creating natural highlights across the seats, tiny aircraft wing visible outside the window, condensation and subtle scratches on the glass, authentic travel atmosphere, natural human posture and expression, realistic skin and fabric textures, accurate perspective, soft atmospheric haze, restrained colors, cinematic composition, professional travel photography, highly detailed, peaceful sense of altitude and motion, capturing the quiet wonder of seeing Earth from above",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725380",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/176842c9-75f3-4786-9850-5c6f1acebf0d/original=true/176842c9-75f3-4786-9850-5c6f1acebf0d.jpeg",
+      "model_version_ids": [
+        3365572
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 590195334,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259263+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7979bb0987c75c3074dc20506d817f6724eb84df9686ec27a784876ade1a3b10",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145725380 photography ai-image-prompts cinematic documentary photograph taken from inside a commercial airplane during a morning flight, a passenger sitting beside the window quietly observing the world far below, vast layers of soft white clouds stretching toward the horizon, patches of sunlight breaking through the clouds and illuminating mountains, rivers, forests and small cities on the ground, the passenger's reflection subtly visible on the airplane window, a flight attendant walking through the aisle in the background, overhead compartments and realistic airplane cabin details, sunlight creating natural highlights across the seats, tiny aircraft wing visible outside the window, condensation and subtle scratches on the glass, authentic travel atmosphere, natural human posture and expression, realistic skin and fabric textures, accurate perspective, soft atmospheric haze, restrained colors, cinematic composition, professional travel photography, highly detailed, peaceful sense of altitude and motion, capturing the quiet wonder of seeing earth from above civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725380",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/176842c9-75f3-4786-9850-5c6f1acebf0d/original=true/176842c9-75f3-4786-9850-5c6f1acebf0d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725365",
+      "title": "Civitai prompt 145725365",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A masterpiece cinematic anime illustration, rich in atmosphere and hand-drawn detail. In the lower-center foreground, a fluffy orange-ginger cat is sitting on its haunches, viewed from behind as it gazes out over a peaceful, reflective pond. The cat's soft, warm fur has gentle hand-drawn textures and highlights. It sits on a patchy, snow-covered bank where dry, golden-brown reeds, tall grasses, and dark earth break through the cold, uneven snow. In the mid-ground, a calm, natural pond mirrors the scene on the opposite shore with beautifully stylized ripples, reflections, and soft water vegetation floating on the dark surface. On the far bank stands a quaint, aged country cottage with textured plaster walls and dark, weathered wooden gables, its pitched roof and brick chimney covered in a blanket of snow. A rustic, crooked wooden fence runs along the property. The house is nestled among dense, colorful winter-dormant bushes in shades of rich rust-red, faded amber-yellow, and dusky purple, all layered with snow. Towering, slender birch trees with distinct white and dark patterns on their trunks, along with dark evergreen firs, rise into the sky, backed by a soft, distant forest silhouette. The sky is filled with voluminous, textured clouds in shades of soft grey, blue, and pale peach-white, with natural, diffused light breaking through to illuminate the landscape and glint off the water. Artistic, high-quality anime aesthetic with visible fine linework, textured brushwork, and natural atmospheric depth. Subtle chromatic aberration, rich color grading with cool blues and warm natural tones, and cinematic background blur. Film grain, 8k resolution, jaw-dropping visual impact.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725365",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3391b6d6-284b-43e3-82fb-ea9e1191a7f4/original=true/3391b6d6-284b-43e3-82fb-ea9e1191a7f4.jpeg",
+      "model_version_ids": [
+        3021200
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1392925141,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259283+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2d841226ce83cf1aba74fcbb1517414f0a3778312e70837e0b6f1c9eb59916e7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145725365 photography ai-image-prompts a masterpiece cinematic anime illustration, rich in atmosphere and hand-drawn detail. in the lower-center foreground, a fluffy orange-ginger cat is sitting on its haunches, viewed from behind as it gazes out over a peaceful, reflective pond. the cat's soft, warm fur has gentle hand-drawn textures and highlights. it sits on a patchy, snow-covered bank where dry, golden-brown reeds, tall grasses, and dark earth break through the cold, uneven snow. in the mid-ground, a calm, natural pond mirrors the scene on the opposite shore with beautifully stylized ripples, reflections, and soft water vegetation floating on the dark surface. on the far bank stands a quaint, aged country cottage with textured plaster walls and dark, weathered wooden gables, its pitched roof and brick chimney covered in a blanket of snow. a rustic, crooked wooden fence runs along the property. the house is nestled among dense, colorful winter-dormant bushes in shades of rich rust-red, faded amber-yellow, and dusky purple, all layered with snow. towering, slender birch trees with distinct white and dark patterns on their trunks, along with dark evergreen firs, rise into the sky, backed by a soft, distant forest silhouette. the sky is filled with voluminous, textured clouds in shades of soft grey, blue, and pale peach-white, with natural, diffused light breaking through to illuminate the landscape and glint off the water. artistic, high-quality anime aesthetic with visible fine linework, textured brushwork, and natural atmospheric depth. subtle chromatic aberration, rich color grading with cool blues and warm natural tones, and cinematic background blur. film grain, 8k resolution, jaw-dropping visual impact. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725365",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3391b6d6-284b-43e3-82fb-ea9e1191a7f4/original=true/3391b6d6-284b-43e3-82fb-ea9e1191a7f4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145724399",
+      "title": "Civitai prompt 145724399",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, Best Quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, BREAK, <lora:Coat_illustrious_3402679_epoch_10:1>, BREAK, Op3n, Hood Down, White fur collar, ruby puffy coat, BREAK, <lora:Zoey_l4d2:0.8>, Z03y, BREAK, 1girl, close-up portrait, upper body, headphones with mic, looking at viewer, long flowing hair, RGB lighting in background, modern gaming room, high-end PC setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, leaning over desk",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145724399",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ef23667-095f-4fca-afe1-4453b0f3cc36/original=true/2ef23667-095f-4fca-afe1-4453b0f3cc36.jpeg",
+      "model": "novaAnimeXL_ilV140",
+      "model_version_ids": [
+        2456367,
+        3003671,
+        3406459
+      ],
+      "width": 1920,
+      "height": 1920,
+      "seed": 797321005416,
+      "negative_prompt": "patreon logo, signature, dickgirl, shemale, she-male, futanari, futa, censored, copyright, Monochrome, sketch, floating hand, (Huge Breasts, Giant Breasts), border, social media, Instagram, censor, 4koma, username, bad anatomy, honeycomb background, realistic, 3D, heart eyes, photorealistic, grainy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259294+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ba137704ce5bdef22f428314f5a61843033a9454e196aaf9f4f2f6387fd16f20",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145724399 image ai-image-prompts (masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, best quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, break, <lora:coat_illustrious_3402679_epoch_10:1>, break, op3n, hood down, white fur collar, ruby puffy coat, break, <lora:zoey_l4d2:0.8>, z03y, break, 1girl, close-up portrait, upper body, headphones with mic, looking at viewer, long flowing hair, rgb lighting in background, modern gaming room, high-end pc setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, leaning over desk civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145724399",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ef23667-095f-4fca-afe1-4453b0f3cc36/original=true/2ef23667-095f-4fca-afe1-4453b0f3cc36.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145724278",
+      "title": "Civitai prompt 145724278",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, Best Quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, BREAK, <lora:Down_Coat_-_Puffy_2_illustrious_3404736_epoch_10:1>, BREAK, Op3n, Hood Up, Cream fur collar, cherry puffy coat, BREAK, <lora:Ravess_Loose:0.8>, R4v3ss, Yellow Eyes, BREAK, 1girl, close-up portrait, upper body, headphones with mic, looking at viewer, long flowing hair, RGB lighting in background, modern gaming room, high-end PC setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, leaning over desk",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145724278",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddc694c9-cdd5-47ae-840f-fabfcb009025/original=true/ddc694c9-cdd5-47ae-840f-fabfcb009025.jpeg",
+      "model": "reedIllustrationIL_v80IL",
+      "model_version_ids": [
+        3024151,
+        3291797,
+        3406464
+      ],
+      "width": 1920,
+      "height": 1920,
+      "seed": 37854762,
+      "negative_prompt": "patreon logo, signature, dickgirl, shemale, she-male, futanari, futa, censored, copyright, Monochrome, sketch, floating hand, (Huge Breasts, Giant Breasts), border, social media, Instagram, censor, 4koma, username, bad anatomy, honeycomb background, realistic, 3D, heart eyes, photorealistic, grainy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259305+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b9d21212642e9c03686e5784cdf377baaaeb6a12f3d78331dd958be7cddfcb97",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145724278 image ai-image-prompts (masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, best quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, break, <lora:down_coat_-_puffy_2_illustrious_3404736_epoch_10:1>, break, op3n, hood up, cream fur collar, cherry puffy coat, break, <lora:ravess_loose:0.8>, r4v3ss, yellow eyes, break, 1girl, close-up portrait, upper body, headphones with mic, looking at viewer, long flowing hair, rgb lighting in background, modern gaming room, high-end pc setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, leaning over desk civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145724278",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddc694c9-cdd5-47ae-840f-fabfcb009025/original=true/ddc694c9-cdd5-47ae-840f-fabfcb009025.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145724272",
+      "title": "Civitai prompt 145724272",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "(masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, Best Quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, BREAK, <lora:Down_Coat_-_Puffy_2_illustrious_3404736_epoch_10:1>, BREAK, Cl0s3d, Hood Down, White fur collar, lemon puffy coat, Zipped Up, Closed Coat, BREAK, <lora:Petra_Ral:0.7>, PETR4R4L_KZ, short hair, brown hair, parted bangs, brown eyes, BREAK, 1girl, solo, close-up portrait, upper body, sitting in gaming chair, headphones with mic, looking at viewer, long flowing hair, RGB lighting in background, modern gaming room, high-end PC setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, sexy pose, Seductive Smile, selfie, laying on bed",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145724272",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e13f878-1f4a-4e3e-a98f-9d0ec53fb3f4/original=true/5e13f878-1f4a-4e3e-a98f-9d0ec53fb3f4.jpeg",
+      "model": "waiIllustriousSDXL_v140",
+      "model_version_ids": [
+        1761560,
+        1843133,
+        3406464
+      ],
+      "width": 1920,
+      "height": 1920,
+      "seed": 8272289245,
+      "negative_prompt": "patreon logo, signature, dickgirl, shemale, she-male, futanari, futa, censored, copyright, Monochrome, sketch, floating hand, (Huge Breasts, Giant Breasts), border, social media, Instagram, censor, 4koma, username, bad anatomy, honeycomb background, realistic, 3D, heart eyes, photorealistic, grainy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259317+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "520547427d1cf85804fceaf6a498b26910e252d4f41a206c4b85c629004bc054",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145724272 image ai-image-prompts (masterpiece), vibrant colors, volumetric lighting, dramatic lighting, 8k, amazing quality, very aesthetic, absurdres, high saturation, best quality, 4k, (high resolution), perfect image, beautiful angle, rim lighting, single girl, open eyes, break, <lora:down_coat_-_puffy_2_illustrious_3404736_epoch_10:1>, break, cl0s3d, hood down, white fur collar, lemon puffy coat, zipped up, closed coat, break, <lora:petra_ral:0.7>, petr4r4l_kz, short hair, brown hair, parted bangs, brown eyes, break, 1girl, solo, close-up portrait, upper body, sitting in gaming chair, headphones with mic, looking at viewer, long flowing hair, rgb lighting in background, modern gaming room, high-end pc setup, soft shadows, realistic lighting, high detail, masterpiece, sexy smile, sexy expression, sexual expression, flirty smirk, sexual eyes, suggestive eyes, sexy pose, seductive smile, selfie, laying on bed civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145724272",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e13f878-1f4a-4e3e-a98f-9d0ec53fb3f4/original=true/5e13f878-1f4a-4e3e-a98f-9d0ec53fb3f4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145724044",
+      "title": "Civitai prompt 145724044",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zidiusArt, @NJSW33T,\nAn illustration depicting the rampaging state of Evangelion Unit-01, the iconic bio-weapon from the Neon Genesis Evangelion series.\n• Description of the berserk state: The rider is wide open with a sharp grin as if his restraints have been released, and intense white flashes of light burst from his eyes. The exposed red biological tissue around the neck gives it more of a giant monster or living creature appearance than that of a machine.\n• Rugged style: Using splattered, ink-splattered textures and rough brushstrokes, it maximized the destructive energy and madness of the rampage, as well as the scars of brutal combat.\n• Color contrast: The original purple of the Unit-01 and the fluorescent light green of the gloves are contrasted by red, blood-like marks, creating an even more bizarre and overwhelming atmosphere.\nOn the left side of the illustration, the following text and logo are neatly arranged as design elements.\n• YOU ARE (NOT) ALONE.: This is the subtitle of Evangelion: New Theatrical Edition (Prologue) and the core message of the work.\n• EVA UNIT-01 BERSERK / Rampage: Specifies the name of the vehicle and its current state of being out of control.\n• NERV logo: The fig leaf mark of the special agency 'NERV,' which operates Evangelion, is placed at the bottom, giving it a more official poster feel.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145724044",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a07aa06-4213-4672-a9c2-db10306a4dd3/original=true/1a07aa06-4213-4672-a9c2-db10306a4dd3.jpeg",
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3210573
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1778484552,
+      "negative_prompt": "censored, worst quality, low quality, displeasing, ugly, grainy, bad anatomy, jpeg artifacts, poorly drawn, signature, bad hands, mutated hands, missing fingers, fused fingers, too many fingers,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259347+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9c81bb9fef9510c9b0c2a8b5fee9e03dc53fbf7949be89263406ed7c25402650",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145724044 image ai-image-prompts zidiusart, @njsw33t, an illustration depicting the rampaging state of evangelion unit-01, the iconic bio-weapon from the neon genesis evangelion series. • description of the berserk state: the rider is wide open with a sharp grin as if his restraints have been released, and intense white flashes of light burst from his eyes. the exposed red biological tissue around the neck gives it more of a giant monster or living creature appearance than that of a machine. • rugged style: using splattered, ink-splattered textures and rough brushstrokes, it maximized the destructive energy and madness of the rampage, as well as the scars of brutal combat. • color contrast: the original purple of the unit-01 and the fluorescent light green of the gloves are contrasted by red, blood-like marks, creating an even more bizarre and overwhelming atmosphere. on the left side of the illustration, the following text and logo are neatly arranged as design elements. • you are (not) alone.: this is the subtitle of evangelion: new theatrical edition (prologue) and the core message of the work. • eva unit-01 berserk / rampage: specifies the name of the vehicle and its current state of being out of control. • nerv logo: the fig leaf mark of the special agency 'nerv,' which operates evangelion, is placed at the bottom, giving it a more official poster feel. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145724044",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a07aa06-4213-4672-a9c2-db10306a4dd3/original=true/1a07aa06-4213-4672-a9c2-db10306a4dd3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145724037",
+      "title": "Civitai prompt 145724037",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zidiusArt, @NIJISIS,\nAn illustration expressed in a simple and emotional minimalist style.\n• Composition and figures: A profile view of a woman with black short hair is centered on the screen. With a slight upward tilt of the head and a gaze that seems to look into the distance, it creates a calm yet dreamy atmosphere.\n• Main accessories: She wears pink headphones with connected wires in her ears, giving the impression of being lost in thought while listening to music.\n• Color scheme: The soft light pink (apricot) of the background, the dark black of the hair and clothing, and the pastel pink of the headphones create sharp contrast and a visually clean look.\n• Expression technique: Characterized by a flat design style that omits complex shading or detailed depiction, using only clean lines and planes to convey form. This is a mood often seen in Lo-Fi music covers or emotional wallpapers.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145724037",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b6f9d5a-dfcb-41b3-b40d-13da687ae864/original=true/9b6f9d5a-dfcb-41b3-b40d-13da687ae864.jpeg",
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3302337,
+        3309567
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1066540578,
+      "negative_prompt": "censored, worst quality, low quality, displeasing, ugly, grainy, bad anatomy, jpeg artifacts, poorly drawn, signature, bad hands, mutated hands, missing fingers, fused fingers, too many fingers,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259369+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "382688d61deab36f08804296af9710ba87f22769c23cfede439496577ec4fc85",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145724037 image ai-image-prompts zidiusart, @nijisis, an illustration expressed in a simple and emotional minimalist style. • composition and figures: a profile view of a woman with black short hair is centered on the screen. with a slight upward tilt of the head and a gaze that seems to look into the distance, it creates a calm yet dreamy atmosphere. • main accessories: she wears pink headphones with connected wires in her ears, giving the impression of being lost in thought while listening to music. • color scheme: the soft light pink (apricot) of the background, the dark black of the hair and clothing, and the pastel pink of the headphones create sharp contrast and a visually clean look. • expression technique: characterized by a flat design style that omits complex shading or detailed depiction, using only clean lines and planes to convey form. this is a mood often seen in lo-fi music covers or emotional wallpapers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145724037",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b6f9d5a-dfcb-41b3-b40d-13da687ae864/original=true/9b6f9d5a-dfcb-41b3-b40d-13da687ae864.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725231",
+      "title": "Civitai prompt 145725231",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic depiction of a total solar eclipse viewed from a low angle across a frozen lake surface, where the sun’s corona glows intensely in vibrant red and orange hues against a dark sky filled with dramatic, swirling clouds illuminated by the eclipse. The eclipsed sun appears as a perfect black disk surrounded by a luminous red ring, casting radiant beams outward that pierce through the cloud formations. Below, the icy lake reflects this fiery celestial event, its fractured ice floes glowing with crimson light from beneath, revealing molten lava-like fissures at their edges where the intense heat seems to emanate. The horizon is defined by a dark silhouette of distant trees or landmass under the blood-red glow. The lighting is surreal and high-contrast: the eclipse creates an unnatural, otherworldly illumination that casts sharp shadows on the ice while bathing everything in a deep red ambient light. The overall mood is apocalyptic and awe-inspiring, with textures rendered in extreme photorealistic detail — visible ice cracks, cloud formations with defined edges, glowing lava flows within the ice, and realistic reflections on water surfaces. No people or clothing are present; the scene consists solely of natural elements under an extraordinary astronomical phenomenon.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725231",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92a46e14-410c-4fe0-a0b3-b1afdfcafa08/original=true/92a46e14-410c-4fe0-a0b3-b1afdfcafa08.jpeg",
+      "model": "krea2Turbo_v10",
+      "model_version_ids": [
+        3064297,
+        3075498,
+        3075606,
+        3109006,
+        3267820
+      ],
+      "width": 1088,
+      "height": 1920,
+      "seed": 998668381903660,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259396+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3455547ba3c50f0873d84bfe6e95538d30cb3d58d656cd9edcb79c83fa0cfc6c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725231 image ai-image-prompts a photorealistic depiction of a total solar eclipse viewed from a low angle across a frozen lake surface, where the sun’s corona glows intensely in vibrant red and orange hues against a dark sky filled with dramatic, swirling clouds illuminated by the eclipse. the eclipsed sun appears as a perfect black disk surrounded by a luminous red ring, casting radiant beams outward that pierce through the cloud formations. below, the icy lake reflects this fiery celestial event, its fractured ice floes glowing with crimson light from beneath, revealing molten lava-like fissures at their edges where the intense heat seems to emanate. the horizon is defined by a dark silhouette of distant trees or landmass under the blood-red glow. the lighting is surreal and high-contrast: the eclipse creates an unnatural, otherworldly illumination that casts sharp shadows on the ice while bathing everything in a deep red ambient light. the overall mood is apocalyptic and awe-inspiring, with textures rendered in extreme photorealistic detail — visible ice cracks, cloud formations with defined edges, glowing lava flows within the ice, and realistic reflections on water surfaces. no people or clothing are present; the scene consists solely of natural elements under an extraordinary astronomical phenomenon. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725231",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92a46e14-410c-4fe0-a0b3-b1afdfcafa08/original=true/92a46e14-410c-4fe0-a0b3-b1afdfcafa08.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725226",
+      "title": "Civitai prompt 145725226",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a scary monster, furry creature, midnight, horror,  fog, mist,  enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, Boris Vallejo style, Albert Bierstadt style, astonishing, epic, unearthly, breathtaking, dramatic, watercolor wash, concept art by Brian Froud and Carne Griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725226",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97161e84-d5c9-43c8-9051-cb14d89de375/original=true/97161e84-d5c9-43c8-9051-cb14d89de375.jpeg",
+      "model_version_ids": [
+        3354102,
+        3368264,
+        3384781
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1821879663,
+      "negative_prompt": "nsfw, porn, nudity, bare female breasts, elven ears, tiling, frayed, jagged, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, body out of frame, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, closed eyes, text, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259405+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a31d70c59e0eb0c6d4be3435dfdc9351563a4bc9aed83c2febf0136b6c03593e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 145725226 advertising ai-image-prompts a scary monster, furry creature, midnight, horror, fog, mist, enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, boris vallejo style, albert bierstadt style, astonishing, epic, unearthly, breathtaking, dramatic, watercolor wash, concept art by brian froud and carne griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725226",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97161e84-d5c9-43c8-9051-cb14d89de375/original=true/97161e84-d5c9-43c8-9051-cb14d89de375.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725223",
+      "title": "Civitai prompt 145725223",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "sandstorm, dune, desert, enchanting landscape in the evening,  enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, Boris Vallejo style, Albert Bierstadt style, astonishing, epic, unearthly, breathtaking,  dramatic, watercolor wash, concept art by Brian Froud and Carne Griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725223",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0f98ab4-5f82-4cee-8fb2-62105a49e60b/original=true/e0f98ab4-5f82-4cee-8fb2-62105a49e60b.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:133005@1759168",
+      "model_version_ids": [
+        135867,
+        152309,
+        164821,
+        574045,
+        1759168
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 2005578677,
+      "negative_prompt": "nsfw, porn, nudity, bare female breasts, elven ears, tiling, frayed, jagged, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, body out of frame, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, closed eyes, text, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259416+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b49fffae36b4ab9ad967863b9ce1b2ccdff0860f70de1bb1bd5fe8fa1d78e7bf",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145725223 advertising ai-image-prompts sandstorm, dune, desert, enchanting landscape in the evening, enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, boris vallejo style, albert bierstadt style, astonishing, epic, unearthly, breathtaking, dramatic, watercolor wash, concept art by brian froud and carne griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed, civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725223",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0f98ab4-5f82-4cee-8fb2-62105a49e60b/original=true/e0f98ab4-5f82-4cee-8fb2-62105a49e60b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725220",
+      "title": "Civitai prompt 145725220",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "sandstorm, desert, dust, enchanting landscape in the evening,  enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, Boris Vallejo style, Albert Bierstadt style, astonishing, epic, unearthly, breathtaking,  dramatic, watercolor wash, concept art by Brian Froud and Carne Griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725220",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85fb6c70-d186-489e-a6d6-a1a025321a3c/original=true/85fb6c70-d186-489e-a6d6-a1a025321a3c.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:312530@2840768",
+      "model_version_ids": [
+        135867,
+        152309,
+        164821,
+        574045,
+        2840768
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 1508666633,
+      "negative_prompt": "nsfw, porn, nudity, bare female breasts, elven ears, tiling, frayed, jagged, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, body out of frame, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, closed eyes, text, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259424+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bc6ee81c21bcd8e14f0af019996c1bd1a7785613be475c5855a74889629ca9d2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145725220 advertising ai-image-prompts sandstorm, desert, dust, enchanting landscape in the evening, enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, boris vallejo style, albert bierstadt style, astonishing, epic, unearthly, breathtaking, dramatic, watercolor wash, concept art by brian froud and carne griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed, civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725220",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85fb6c70-d186-489e-a6d6-a1a025321a3c/original=true/85fb6c70-d186-489e-a6d6-a1a025321a3c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725218",
+      "title": "Civitai prompt 145725218",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "sand storm, desert storm, hurricane, desert, dust, enchanting landscape in the evening,  enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, Boris Vallejo style, Albert Bierstadt style, astonishing, epic, unearthly, breathtaking,  dramatic, watercolor wash, concept art by Brian Froud and Carne Griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725218",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/395507d9-acbb-4841-8d92-27c1e9379e1e/original=true/395507d9-acbb-4841-8d92-27c1e9379e1e.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:312530@2840768",
+      "model_version_ids": [
+        135867,
+        152309,
+        164821,
+        574045,
+        2840768
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 465292087,
+      "negative_prompt": "nsfw, porn, nudity, bare female breasts, elven ears, tiling, frayed, jagged, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, body out of frame, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, closed eyes, text, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259433+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "14e19cf8c2c403fd9d938ee0e2a8623d5f17955324ec1ca745b8cd0392d928ef",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 145725218 advertising ai-image-prompts sand storm, desert storm, hurricane, desert, dust, enchanting landscape in the evening, enchanting, dreamlike oil painting, concept art, perfect composition, realistic oil painting, boris vallejo style, albert bierstadt style, astonishing, epic, unearthly, breathtaking, dramatic, watercolor wash, concept art by brian froud and carne griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed, civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725218",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/395507d9-acbb-4841-8d92-27c1e9379e1e/original=true/395507d9-acbb-4841-8d92-27c1e9379e1e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725187",
+      "title": "Civitai prompt 145725187",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, best quality, amazing quality, detailed anatomy, detailed eyes, detailed face, 2D animation, cartoon, Disney style, scrawny coyote, 1man, solo, M@d D0g, furry, semi-anthro, male, man, two-toned fur, whiskers, shorts,, tail, coyote tail,  ((macro)), ((giantess)) full body ), ( landscape dwarfing, macro, tiny village), squatting on landscape, barefoot, micro landscape, micro mountain, tiny trees, detail toes, 5 toes, brown claws, detail feet, perfect feet, tramples, clumy, tiny landscape background, sunny day, feet focus, feet view, feet closer, toes focus, tiny city background, sunny day masterpiece",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725187",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db02434d-cb4a-4075-8db2-647f2972c28a/original=true/db02434d-cb4a-4075-8db2-647f2972c28a.jpeg",
+      "model_version_ids": [
+        1961593,
+        2514310,
+        2810635
+      ],
+      "width": 1344,
+      "height": 768,
+      "seed": 1198131661,
+      "negative_prompt": "2boys, muscule, muscular, anime, extra digit, fewer digits, ((watermark, artist name, signature, logo, letterboxed, speech bubble)), sketch, spoken, female, woman, (deformed, distorted, disfigured), not in perspective, words, tv channel logo, artist mark, patreon logo, patreon artist, low quality, worst, quality, worst detail, blurry, out of focus, bad eyes, bad aesthetic, tie, legs, open mouth, hat on the head, woman, female, young",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259443+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "457d83d53e72feb1085fcac189a764b5da000f7d81651863da0e66414f3c344d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145725187 photography ai-image-prompts masterpiece, best quality, amazing quality, detailed anatomy, detailed eyes, detailed face, 2d animation, cartoon, disney style, scrawny coyote, 1man, solo, m@d d0g, furry, semi-anthro, male, man, two-toned fur, whiskers, shorts,, tail, coyote tail, ((macro)), ((giantess)) full body ), ( landscape dwarfing, macro, tiny village), squatting on landscape, barefoot, micro landscape, micro mountain, tiny trees, detail toes, 5 toes, brown claws, detail feet, perfect feet, tramples, clumy, tiny landscape background, sunny day, feet focus, feet view, feet closer, toes focus, tiny city background, sunny day masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725187",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db02434d-cb4a-4075-8db2-647f2972c28a/original=true/db02434d-cb4a-4075-8db2-647f2972c28a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-145725184",
+      "title": "Civitai prompt 145725184",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, best quality, amazing quality, detailed anatomy, detailed eyes, detailed face, 2D animation, cartoon, Disney style, scrawny coyote, 1man, solo, M@d D0g, furry, semi-anthro, male, man, two-toned fur, tail, coyote tail,  ((macro)), ((giantess)) full body ), ( landscape dwarfing, macro, tiny village), standing on landscape, barefoot, micro landscape, micro mountain, tiny trees, detail toes, 5 toes, brown claws, detail feet, perfect feet, tramples, clumy, tiny landscape background, sunny day, feet focus, feet view, feet closer, toes focus, tiny city background, sunny day masterpiece",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/145725184",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2/original=true/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2.jpeg",
+      "model_version_ids": [
+        382152,
+        465674,
+        2514310,
+        2810635
+      ],
+      "width": 1344,
+      "height": 768,
+      "seed": 750021841,
+      "negative_prompt": "2boys, muscule, muscular, anime, extra digit, fewer digits, ((watermark, artist name, signature, logo, letterboxed, speech bubble)), sketch, spoken, female, woman, (deformed, distorted, disfigured), not in perspective, words, tv channel logo, artist mark, patreon logo, patreon artist, low quality, worst, quality, worst detail, blurry, out of focus, bad eyes, bad aesthetic, tie, legs, open mouth, hat on the head, woman, female, young",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-15T08:25:53.259453+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6b57429fd42027bbf2b0453988f4c8e9cb38fce9c99364f83ca66a49132f7641",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 145725184 photography ai-image-prompts masterpiece, best quality, amazing quality, detailed anatomy, detailed eyes, detailed face, 2d animation, cartoon, disney style, scrawny coyote, 1man, solo, m@d d0g, furry, semi-anthro, male, man, two-toned fur, tail, coyote tail, ((macro)), ((giantess)) full body ), ( landscape dwarfing, macro, tiny village), standing on landscape, barefoot, micro landscape, micro mountain, tiny trees, detail toes, 5 toes, brown claws, detail feet, perfect feet, tramples, clumy, tiny landscape background, sunny day, feet focus, feet view, feet closer, toes focus, tiny city background, sunny day masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/145725184",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2/original=true/c4dbf31a-28a3-462f-9037-8bf8ae37a9c2.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-14T19:25:00.787115+00:00",
-  "prompt_count": 1391,
+  "generated_at": "2026-10-15T08:25:55.539351+00:00",
+  "prompt_count": 1410,
   "translation": {
     "language": "ar",
-    "translated_count": 17,
-    "skipped_count": 1368,
-    "failed_count": 6,
-    "updated_at": "2026-10-14T19:25:00Z"
+    "translated_count": 0,
+    "skipped_count": 1385,
+    "failed_count": 25,
+    "updated_at": "2026-10-15T08:25:55Z"
   }
 }
