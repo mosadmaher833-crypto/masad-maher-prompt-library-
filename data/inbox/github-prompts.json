@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-19T20:36:57.523612+00:00",
+  "generated_at": "2026-10-20T08:40:48.060375+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1552,15 +1552,32 @@
       "status": "pending_review",
       "attribution_required": true,
       "import_method": "declared_github_source_connector"
+    },
+    {
+      "id": "gh-6b5c79395a3e",
+      "title": "AGENTS.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "## Critical Rules (MUST follow)\n\n1. **Media ID is always UUID** — format `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`. Never use `CAMS...` / base64 strings.\n2. **Scene prompts = ACTION only** — never describe character appearance. Reference images handle visual consistency via `imageInputs`.\n3. **All reference images must exist before scene images** — verify every entity has `media_id` before generating scene images.\n4. **No throwaway scripts** — NEVER write Python, shell, or any script file to loop over API requests. Use `POST /api/requests/batch` to submit all requests at once, then poll `GET /api/requests/batch-status`. The server throttles automatically.\n5. **Locations use landscape, characters use portrait** — reference image orientation depends on entity type.\n6. **UUID extraction** — if a response gives `CAMS...` instead of UUID, extract UUID from the `fifeUrl` in the response URL: `/image/{UUID}?...`.\n7. **Cascade on regen** — regenerating an image auto-clears downstream video + upscale.\n8. **REGENERATE vs GENERATE** — `GENERATE_*` skips if already COMPLETED. `REGENERATE_*` always runs (clears + regenerates).\n9. **Image Material required** — every project needs a `material` field (e.g. `realistic`, `3d_pixar`, `anime`). List available: `GET /api/materials`.\n10. **Server handles throttling (per provider)** — each media provider declares its own limits (Flow: max 5 concurrent + 10s cooldown; assistant: max 2 concurrent, no cooldown). Submit ALL requests via `/batch`; do NOT manually stagger or loop. Check effective limits: `GET /api/providers/status`.\n11. **Video prompts use sub-clip timing** — structure 8s video as time segments: `0-3s: [action]. 3-6s: [action]. 6-8s: [action].`\n12. **Character dialogue in sub-clips** — embed speech in quotes: `Luna says \"Goodnight.\"` Max 10-15 words per character per 2-3s segment.\n13. **Scenes are mutable** — use `PATCH /api/scenes/{sid}` to update `prompt`, `video_prompt`, `narrator_text`, `character_names` after creation. Don't delete and recreate — patch instead.\n14. **Fact-check before scripting** — ALWAYS research events via web search before writing project stories, scene prompts, or narrator text. Facts (events, dates, names, operations, outcomes) MUST match real sources. Editorial opinion and analysis are allowed but must be framed as such. Never invent events, operation names, or statistics.\n15. **Real-people bypass** — when characters are based on real famous people (politicians, celebrities, military leaders), NEVER use their real name as entity `name` or anywhere in `description`, `image_prompt`, `prompt`, or `video_prompt`. AI image generators reject known public figures. Instead: (a) use a **role-based alias** as entity name (e.g. \"Tổng Tư Lệnh\" not \"Trump\", \"Thủ Tướng Sắt\" not \"Netanyahu\"), (b) describe **physical appearance only** — distinctive hair, face shape, build, clothing style — without naming who it is, (c) `narrator_text` may use real titles/roles for storytelling but real names never flow into image/video generation. Keep a `real_reference` mapping in the project plan file (`.omc/research/`) for internal tracking.\n16. **Review before upscale** — ALWAYS run `/fk-review-video` (light mode) after video generation, before upscaling. Scenes scoring < 7.5 get `video_prompt` updated from review errors, then regen video. Max 2 review-regen cycles.\n\n## Pipeline Order",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "crisng95/flowkit",
+      "source_url": "https://github.com/crisng95/flowkit/blob/b09e783481d20bfeaf46f2fbcde08bf2b54c0a2a/AGENTS.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"image prompt\"",
-    "Gemini prompts",
-    "ChatGPT prompts"
+    "\"video prompt\"",
+    "Claude prompts",
+    "AI advertising prompts"
   ],
   "last_sources": []
 }
