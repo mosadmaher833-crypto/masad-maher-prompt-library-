@@ -1,12 +1,12 @@
 {
   "source": "Civitai",
   "source_id": "civitai",
-  "generated_at": "2026-10-20T08:40:49.801780+00:00",
+  "generated_at": "2026-10-20T19:17:32.105681+00:00",
   "endpoint": "https://civitai.com/api/v1/images",
   "candidates": [
     {
-      "id": "civitai-146217860",
-      "title": "Civitai prompt 146217860",
+      "id": "civitai-146286813",
+      "title": "Civitai prompt 146286813",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -15,57 +15,28 @@
         "imported",
         "api"
       ],
-      "prompt": "<lora:Danganronpa_Anime_Style_Mix_Krea2_epoch_20:1>, danganronpa_3_(anime),danganronpa_3_(anime)_(style),danganronpa_(series),anime_screenshot, This is an anime screencap from Danganronpa 3. This is an anime screencap from Danganronpa 2.5.  <lora:Chiaki_Nanami_Krea2_krea2_3318919_epoch_20_10000:1>, nanami_chiaki , danganronpa_(series), A halloween themed scene. Chiaki has light brown colored hair that ends at neck length. Chiaki's hair slightly curls outwards, though the locks on either side of her face curl inwards. Chiaki has a white Galaga hairclip pinned to a lock of her hair. She has blossom pink eyes.  A one-point-perspective cinematic shot of a petite teenage girl with blossom pink eyes, shoulder-length pinkish brown hair that slightly curls outwards, the locks framing her face curling inwards, short straight bangs split toward the right, and a small pink-and-white arcade spaceship hair clip pinned to a lock of her hair. For Halloween she wears a retro arcade witch costume: a black witch hat with a wide drooping brim decorated with tiny square glowing pixel-style star and heart shapes, a short black cape clasped at her throat, a dark charcoal dress with a hem embroidered in a stepped pixel-art heart pattern, black thigh-high socks, pink Mary Jane shoes, one hand holding a straw broom and the other a small orange plastic jack-o-lantern candy pail. She stands in a long concrete corridor of a secret Foundation research site decorated for Halloween, black paper bats taped along the walls, orange and purple string lights sagging from the ceiling, a carved jack-o-lantern sitting on a metal shelf, hazard-striped floor tiles running to the far end where a heavy door stands open, the doorway filled with pure featureless white light, and within that light a colossal black shapeless entity, its silhouette filling the upper half of the doorframe, two solid crimson glowing eyes set into the haze, each eye as wide as her face. A top-down view of her small figure on the hazard-striped tiles, the white doorway a bright rectangle at the frame's edge. The corridor stands quiet and ordinary, only the impossible white doorway at its end breaking the mundane Halloween decor. Emergency amber strip lighting along the floor edge with deep shadows above. Composed on a 28mm lens at f/4 with the corridor's one-point perspective centered, practical lights only, her figure crisply focused against the blown-out doorway. , scp_foundation , scp_tale",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146217860",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5006190a-49c7-49ed-a0d6-8358c539248a/original=true/5006190a-49c7-49ed-a0d6-8358c539248a.jpeg",
-      "model": "Krea-2-Turbo-Q8_0",
-      "model_version_ids": [
-        3244117,
-        3328962
-      ],
-      "width": 896,
-      "height": 1152,
-      "seed": 1626427230,
-      "negative_prompt": "low quality, worst quality, low detail, bad drawing, bad quality, oldest, (score_3, score_2, score_1:0.25), jpeg artifacts, watermark, signature, artist name, low detail, missing head, missing limb, text, bad anatomy, bad proportions, bad hands, missing fingers, blurry , smudged",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.791202+00:00"
-    },
-    {
-      "id": "civitai-146243850",
-      "title": "Civitai prompt 146243850",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "(masterpiece:1.4), (best quality:1.4), (ultra detailed:1.4), (sharp focus:1.3), (realistic shading:1.3), Princess Zelda, adult woman, solo, (giantess:1.5), upper body shot, from above shot, looking at viewer, confident smirk, long blonde hair, bangs, blue eyes, wearing her usual outfit, blue tunic top, black pants, jewelry, high heel boots, body and legs in view, towering over skyscrapers, tiny city below, dramatic scale, legs emphasized, stylish dominant pose, cinematic lighting, detailed cityscape, pinup style, illustration art style",
+      "prompt": "style : semi realistic, league of legends art, simple geometric shapes, \nsubject : 1girl, solo, 1girl, solo, cute, blue eyes, short hair, curly hair, red hair, ginger hair, slender, small breasts,narrow waist, standing, contrapposto, looking down, blush, slight smile, She wears a school uniform, maroon blazer open, gold buttons, school crest, white shirt slightly open, loosened striped tie, dark plaid skirt, knee-high white socks\njapanese rpg vampire aesthetic, dark elegant atmosphere, soft dramatic lighting,cowboy shot,  masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, a light regal green color background.\nSafe,",
       "quality_score": 8.7,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243850",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/490e78d7-2386-47f6-8416-9d8a49071d01/original=true/490e78d7-2386-47f6-8416-9d8a49071d01.jpeg",
+      "source_url": "https://civitai.com/images/146286813",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50fe7b03-8425-48b4-804a-ecef8b7ae5b4/original=true/50fe7b03-8425-48b4-804a-ecef8b7ae5b4.jpeg",
       "model": null,
       "model_version_ids": [
-        3353036
+        3072332,
+        3139440
       ],
       "width": 832,
-      "height": 1216,
-      "seed": 1418198489,
-      "negative_prompt": "(worst quality, low quality, normal quality:1.4),\nblurry, pixelated, bad anatomy, extra fingers,\ndeformed hands, cropped head, poorly drawn face,\nmodern photo realism, CGI, 3d render,\nwatermark, signature, text box, logo",
+      "height": 1248,
+      "seed": 570129109,
+      "negative_prompt": "nude, unsafe,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.791352+00:00"
+      "discovered_at": "2026-10-20T19:17:32.098697+00:00"
     },
     {
-      "id": "civitai-146242595",
-      "title": "Civitai prompt 146242595",
+      "id": "civitai-146286812",
+      "title": "Civitai prompt 146286812",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -74,166 +45,28 @@
         "imported",
         "api"
       ],
-      "prompt": "Late afternoon golden hour sunlight spilling through a vintage lace curtain, casting intricate overlapping floral and geometric shadow patterns across a weathered wooden window sill, a half-empty ceramic mug and a single dried lavender sprig resting on the surface, their soft elongated shadows blending into the larger lace design, photorealistic, shallow depth of field, warm soft rim lighting, subtle dust motes floating in the sunbeam, muted neutral color palette, exhibition grade fine art photography.",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146242595",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71c0a82c-1ab3-4a7a-9a17-bc51481d738a/original=true/71c0a82c-1ab3-4a7a-9a17-bc51481d738a.jpeg",
-      "model": "ming_image_0_1_design_diffusers",
-      "model_version_ids": [],
-      "width": 1024,
-      "height": 1024,
-      "seed": 20261017,
-      "negative_prompt": "<Prompt generated by ERNIE 5.1><Title: \"Silent Window Sill Shadow\">\nNegative template: <Prompt generated by ERNIE 5.1><Title: \"Silent Window Sill Shadow\">",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.791745+00:00"
-    },
-    {
-      "id": "civitai-146243241",
-      "title": "Civitai prompt 146243241",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "mskmdesi Indian woman, (single subject in frame:1.2),wide-angle photography, ,(photorealistic subject:1.2), clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, symmetrical oval face shape tapering gently to chin, soft closed-lip smile with calm direct gaze, light to medium warm olive skin with subtle natural cheek flush, upturned light hazel greenish-brown almond eyes with long curled lashes, well-defined dark brown arched eyebrows, straight medium bridge nose with rounded tip, high-set moderately prominent cheekbones with natural blush on apples, medium-full warm terracotta-rose lips with defined cupid's bow, soft defined jawline tapering to a slightly pointed chin, (masterpiece, best quality:1.2), close-up portrait shot, direct front view, kneeling on one knee with the back foot resting on its side, wearing ((wearing a rich emerald green chiffon saree with soft texture and plain pallu)),set in Diwali decorated staircase with marigold garlands, oil lamps and rangoli patterns, warm festive home background, high detail, golden hour sunlight, warm amber glow, long soft shadows, cinematic haze photorealistic texture, sharp focus",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243241",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ae232620-dca5-44f9-aa29-74377afaf15b/original=true/ae232620-dca5-44f9-aa29-74377afaf15b.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [],
-      "width": 4608,
-      "height": 3072,
-      "seed": 856318774195683,
-      "negative_prompt": "head cut off, (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.792905+00:00"
-    },
-    {
-      "id": "civitai-146243236",
-      "title": "Civitai prompt 146243236",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "mskmdesi Indian woman, (single subject in frame:1.2),wide-angle photography, ,(photorealistic subject:1.2), clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, dignified oval facial structure with balanced proportions, broad smooth forehead with natural hairline, bold dark arched eyebrows with clear natural definition, large expressive almond-shaped eyes with defined upper eyelashes, straight narrow nasal bridge with a refined rounded tip, smooth defined cheekbone structure with naturally rounded cheek contours, full naturally shaped lips with clearly defined cupid's bow, smoothly tapered symmetrical chin with defined jawline, (masterpiece, best quality:1.2), close-up portrait shot, direct front view, standing with shoulders slumped in a tired, weary posture, wearing ((wearing a deep bottle green cotton saree with tiny motifs and thin border)),set in Indian home courtyard decorated for Diwali, hanging fairy lights, oil lamps and flower garlands, cozy festive night, photorealistic, neon-lit city street glow at night, vibrant cyan and magenta reflections photorealistic texture, sharp focus",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243236",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13b87776-039e-4d37-8852-c280f5b95e2b/original=true/13b87776-039e-4d37-8852-c280f5b95e2b.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [],
-      "width": 4608,
-      "height": 3072,
-      "seed": 856318774195683,
-      "negative_prompt": "head cut off, (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.793062+00:00"
-    },
-    {
-      "id": "civitai-146243118",
-      "title": "Civitai prompt 146243118",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "mskmdesi Indian woman, (single subject in frame:1.2),wide-angle photography, ,(photorealistic subject:1.2), clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), three-quarter medium shot, back view, sitting while looking thoughtfully out an imaginary window, wearing ((wearing a soft sage green shimmer crop top and delicate powder blue mid-rise jeans, caught in heavy downpour, glistening wet skin, dripping wet hair, rain droplets splashing off body)),set in beachside resort with infinity pool reflecting a colorful sunset, luxury vacation background, cinematic composition, 8k, blue hour twilight lighting, deep blue sky, cool cyan tones, serene mood photorealistic texture, sharp focus",
-      "quality_score": 8.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243118",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/917423e3-72bd-4106-af2e-d2cae1c1cb52/original=true/917423e3-72bd-4106-af2e-d2cae1c1cb52.jpeg",
-      "model": "juggernautXL_ragnarokBy",
-      "model_version_ids": [],
-      "width": 4608,
-      "height": 3072,
-      "seed": 856318774195683,
-      "negative_prompt": "head cut off, (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.793350+00:00"
-    },
-    {
-      "id": "civitai-146243762",
-      "title": "Civitai prompt 146243762",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Photographic close-up portrait, vertical composition featuring the head of a small ginger tabby kitten peeking over the rim of a woven wicker basket. The kitten has large, wide dark eyes with dilated pupils, perked triangular ears with pink interiors, and long white whiskers extending outward. Only the top half of its face is visible above the basket's edge. Visual effects include a very shallow depth of field that renders the background into a smooth, creamy golden-brown bokeh, isolating the sharp focus on the kitten's eyes and the textured weave of the basket in the foreground. Warm ambient lighting creates soft highlights on the fur and basket fibers, enhancing the cozy and intimate atmosphere. The image has a soft, slightly dreamy quality with gentle contrast. Limited color palette dominated by warm ambers, tans, creams, and soft browns establishing adorable and heartwarming visual hierarchy focused on expression and texture. Authentic macro photography technique maintaining crisp detail on the fur and wicker pattern while allowing surrounding elements to dissolve into atmospheric blur, capturing cute animal moment within domestic framework emphasizing innocence and curiosity optimized for social media content reproduction.",
-      "quality_score": 9.5,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243762",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe93cd28-8cb0-482d-b25e-77c2d81fb6ef/original=true/fe93cd28-8cb0-482d-b25e-77c2d81fb6ef.jpeg",
-      "model": "solordzZITZIBKrea2_v10MOSSBASE_int8",
-      "model_version_ids": [
-        3414490
-      ],
-      "width": 1024,
-      "height": 1408,
-      "seed": 360933888929560,
-      "negative_prompt": "worst quality, low quality, bad anatomy, bad proportions, malformed hands, extra fingers, missing fingers, fused fingers, extra limbs, distorted face, waxy skin, plastic skin, excessive skin smoothing, oversharpening, compression artifacts, watermark, signature",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.793488+00:00"
-    },
-    {
-      "id": "civitai-146243756",
-      "title": "Civitai prompt 146243756",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, newest, absurdres, ultra detailed, high resolution, premium cinematic whimsical fantasy illustration, RainbowUnicornStyle, rainbow unicorn theme, Darth Vader, iconic black helmet, recognizable Sith lord silhouette, full body visible, centered composition, Dark Vador riding a unicorn, the unicorn is clearly riding a skateboard, the skateboard fully visible under the unicorn, absurd comedy scene, the saddle is a real toilet seat with a visible porcelain toilet bowl and a visible toilet tank with flush handle behind Darth Vader, Darth Vader is seated on the toilet saddle while riding the unicorn, Darth Vader eating a huge slice of pepperoni pizza with one hand, large cheesy pizza slice, melted cheese, serious deadpan expression, one rainbow unicorn horn growing from the middle of Darth Vader’s forehead area / helmet forehead, clearly visible rainbow-striped horn, the unicorn is magical and colorful, vibrant rainbow mane, sparkling glitter, rainbow tones, magical atmosphere, several yellow plastic rubber ducks on the ground, each rubber duck has a tiny unicorn horn in the middle of its forehead, ducks clearly visible near the skateboard, sparkling magical particles, rainbow glow, whimsical fantasy environment, bright saturated colors, humorous surreal scene, sharp focus",
+      "prompt": "style : semi realistic, league of legends art, simple geometric shapes, \nsubject : 1girl, solo, 1girl, solo, cute, blue eyes, short hair, curly hair, red hair, ginger hair, slender, small breasts,narrow waist, standing, contrapposto, looking down, blush, slight smile,\nShe wears a school uniform, maroon blazer open, gold buttons, school crest, white shirt slightly open, loosened striped tie, dark plaid skirt, knee-high white socks\njapanese rpg vampire aesthetic, dark elegant atmosphere, soft dramatic lighting,, cowboy shot, pleated skirt, earrings, lips, masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, perfect hands, a light regal green color background.\nSafe,",
       "quality_score": 8.7,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243756",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e239610-bce5-4975-a2bd-4c7ebd77f174/original=true/6e239610-bce5-4975-a2bd-4c7ebd77f174.jpeg",
+      "source_url": "https://civitai.com/images/146286812",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24886638-0746-45de-b88f-6f39f883c024/original=true/24886638-0746-45de-b88f-6f39f883c024.jpeg",
       "model": null,
       "model_version_ids": [
-        640970,
-        2858836,
-        3017793
+        3072332,
+        3139440
       ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1129359980,
-      "negative_prompt": "worst quality, low quality, lowres, blurry, bad anatomy, deformed, distorted, duplicate character, extra limbs, extra arms, extra legs, missing limbs, cropped body, out of frame, poorly drawn hands, unrecognizable Darth Vader, generic armored villain, missing unicorn, missing skateboard, skateboard not visible, unicorn not riding skateboard, missing toilet saddle, ordinary horse saddle, chair instead of toilet, toilet tank missing, flush handle missing, pizza missing, small pizza slice, rubber ducks missing, ducks not visible, unicorn horns missing on ducks, rainbow horn missing on Darth Vader, horn hidden, dull colors, weak rainbow effect, no sparkles, cluttered composition, unreadable scene, watermark, signature, logo, text",
+      "width": 832,
+      "height": 1248,
+      "seed": 13267898,
+      "negative_prompt": "nude, unsafe,",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.793765+00:00"
+      "discovered_at": "2026-10-20T19:17:32.098887+00:00"
     },
     {
-      "id": "civitai-146243740",
-      "title": "Civitai prompt 146243740",
+      "id": "civitai-146286806",
+      "title": "Civitai prompt 146286806",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -242,114 +75,28 @@
         "imported",
         "api"
       ],
-      "prompt": "Masterpiece, polished modern anime illustration, 2025 premium gacha key visual style, 9:16 vertical composition, single character, strictly non-sexual. Female anime version of Chucky as an adult woman around 32, stitched scars, red hair, denim overalls and striped shirt, knife raised, laughing as lightning strikes behind her in a stormy apartment window, voodoo amulet glowing. Crisp linework, refined cel shading, cinematic rim light, no text, no logo, no watermark.",
-      "quality_score": 8.3,
+      "prompt": "This smartphone mirror-selfie captures a young woman alone in her dim bedroom at night. She appears nineteen years old, with a tall, long-limbed frame only partially visible in the tight vertical framing. Her soot-dark hair falls dead straight past her shoulders, parted precisely at the centre,. She looks directly into the phone lens with wide-set dark eyes and a slight smile. Her skin is porcelain-pale with a cold, faintly translucent undertone, warm in the low lamp glow. Her free arm has faded fabric festival wristband and string bracelets circle her wrist. She wears a thrifted black band t-shirt printed with a faded, peeling logo over a charcoal grey long-sleeved base layer, sleeves pushed to the elbows and a grey cardigan. Behind her, the bedroom reads as a twenty-something's that froze a decade ago: string lights taped along the ceiling corner glowing warm, band posters and a taped-up polaroid grid on the wall and heavy blackout curtains pulled tight across the window with only a seam of deep night-blue showing. The scene is lit by the phone screen's cool glow from below and the warm amber string lights from above, leaving the corners of the frame dark and soft, with a faint haze in the air. The photo exhibits the characteristic softness of a front-camera selfie: slight grain and digital noise in the shadows, mild wide-angle stretching at the frame edges, and small smudges of motion blur on the raised cup., <lora:krea2_realism_v6_lokr_5090df:1> Steps: 8, CFG scale: 1, Sampler: Euler, Seed: 83720461, RNG: CPU, Model: GonzalomaKrea2_v40, width: 1280, height: 1920, Version: neo-2.30, Module 1: qwen3vl_4b_fp8_scaled, Module 2: qwen_image_vae, Model hash: b5e886b9ac, Schedule type: Simple",
+      "quality_score": 8.1,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243740",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5243b7e1-93b5-4bcd-ba2a-0533a18b6034/original=true/5243b7e1-93b5-4bcd-ba2a-0533a18b6034.jpeg",
-      "model": "See-Krea2-Genesisv2-int8_convrot",
+      "source_url": "https://civitai.com/images/146286806",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28c9e74f-8334-4280-b753-3e18401f0cda/original=true/28c9e74f-8334-4280-b753-3e18401f0cda.jpeg",
+      "model": null,
       "model_version_ids": [
-        3320733
+        3245099,
+        3371723
       ],
-      "width": 768,
-      "height": 1368,
-      "seed": 63842349261351,
+      "width": 1024,
+      "height": 1024,
+      "seed": 146061577,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.794006+00:00"
+      "discovered_at": "2026-10-20T19:17:32.099301+00:00"
     },
     {
-      "id": "civitai-146243734",
-      "title": "Civitai prompt 146243734",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece, best quality, amazing quality, highres, absurdres, indigo themed, silver hair, long_hair, hime_cut, long side-strands, F4te_illu,\n1girl, solo, dark moody background, pixiv, sai, blue hour, semi-monochrome, silver etched,\nnatural skin tone, fair complexion, slender, medium build, medium breasts, collarbone, \ncrimson eyes, detailed iris, detailed eyes, intense expression, smirk,\nturned profile, head tilt, looking at viewer, standing,\nwhite serafuku, serafuku,pleated skirt,sailor collar,neckerchief,\nsoft glow, rim light, dappled light, chromatic aberration, cherry blossoms, petals, wind, \nbokeh, depth of field, portrait, cowboy_shot, upper_body, 85mm focal length, rule of thirds, negative space, moonlight,, dramatic shadows,",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243734",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac649583-6965-4c01-81ca-3dc9cf449bac/original=true/ac649583-6965-4c01-81ca-3dc9cf449bac.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2477764,
-        3055799,
-        3342440
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 1167968212,
-      "negative_prompt": "bad quality, worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, multiple views, signature, watermark, censored, ugly, messy, nsfw,",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.794257+00:00"
-    },
-    {
-      "id": "civitai-146243650",
-      "title": "Civitai prompt 146243650",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "R3TR0_AN1M3_M0SS, retro anime illustration with grainy film texture and warm, slightly faded colors.\nSubject: A young woman with long brown hair and purple eyes, laughing with her head tilted back and her arms open wide. She wears a sleeveless white dress with a sweetheart neckline, and glowing light trails flow from her hair.\nEnvironment: A night sky full of stars and drifting white petals, with a glowing blue and purple nebula above her head and a field of petals at the bottom.\nShot: Full body, front view, centered, with the sky filling the upper frame.",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243650",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32fd21bf-c613-4793-939c-29b490563b21/original=true/32fd21bf-c613-4793-939c-29b490563b21.jpeg",
-      "model": "moss_image_sft_bf16",
-      "model_version_ids": [],
-      "width": 768,
-      "height": 1376,
-      "seed": 421586506633830,
-      "negative_prompt": "lowres, blurry, bad anatomy, watermark, text, jpeg artifacts",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.795357+00:00"
-    },
-    {
-      "id": "civitai-146243723",
-      "title": "Civitai prompt 146243723",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Ultra-detailed cinematic dark fantasy, psychological horror, cyberpunk atmosphere, photorealistic 3D render, 8K quality.\nScene and composition: On the rooftop of a towering skyscraper at midnight, a young female superhero in a white, black, and vivid pink spider-themed bodysuit stands face-to-face with a terrifying humanoid creature. The two characters confront each other at close range, separated by only a few meters. Full-body composition, both characters entirely visible, dramatic low-angle camera, imposing silhouettes against a vast neon city skyline. Rain-soaked rooftop reflecting pink, violet, and cyan lights.\nThe heroine: Athletic young woman with short, tousled platinum-blonde hair, wearing a sleek white-and-black spider-inspired bodysuit with vibrant pink web patterns and a raised white hood. Detailed fabric texture, subtle reflective surfaces, pink spider emblem on her back and chest. Her body language conveys alertness and restrained defiance. She faces the creature directly, shoulders tense, hands slightly raised in a defensive stance.\nThe humanoid creature: Extremely tall, unnaturally thin humanoid, dressed entirely in matte black. Elongated arms reaching almost to its knees, disproportionately long fingers, narrow shoulders, impossibly slender legs, and a slightly hunched posture. Its anatomy is unsettling but physically coherent. Its face is completely concealed behind a smooth, pure-white theatrical mask. The mask features an enormous, unnaturally wide black smile stretching almost from cheek to cheek, with rows of small, perfectly visible teeth. Deep, empty black eye sockets. No visible skin, no hair, no exposed flesh. Its head is tilted slightly to one side, as though silently studying its opponent.\nAtmosphere: Ominous silence before violence. Cold mist curls around their feet. Heavy storm clouds obscure the moon. Distant skyscrapers glow with neon pink, electric blue, and violet lights. Fine rain falls through the scene, catching the light. The creature's long shadow stretches unnaturally across the wet rooftop.\nLighting and rendering: Volumetric lighting, cinematic rim lighting, realistic reflections on wet surfaces, high-contrast chiaroscuro, subtle atmospheric fog, realistic materials, intricate costume details, deep shadows, dramatic depth of field, ray tracing, highly detailed textures, professional horror movie cinematography.\nMood: Unsettling, suspenseful, sinister, surreal, a silent confrontation between a courageous heroine and an entity that seems to enjoy frightening her.",
-      "quality_score": 9.9,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243723",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2de9036c-95c0-4c09-bbda-5d1171213999/original=true/2de9036c-95c0-4c09-bbda-5d1171213999.jpeg",
-      "model": null,
-      "model_version_ids": [
-        2514955
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 1581265649,
-      "negative_prompt": "extra limbs, extra arms, extra legs, duplicated body parts, malformed hands, fused fingers, excessive fingers, missing fingers, distorted anatomy, twisted joints, floating objects, multiple heads, visible human face on the creature, colored mask, narrow smile, cartoon proportions, low resolution, blurry details, oversaturated highlights, text, watermark, logo, cropped feet, cropped hands.",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.796115+00:00"
-    },
-    {
-      "id": "civitai-146243706",
-      "title": "Civitai prompt 146243706",
+      "id": "civitai-146280598",
+      "title": "Civitai prompt 146280598",
       "category": "architecture",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -358,29 +105,58 @@
         "imported",
         "api"
       ],
-      "prompt": "midjourney\na painting of a black sphinx cat against a solid pink background. the cat wears cyberpunk styled gear. its head is centered and framed by large, pointed ears with dark interiors. its big yellow eyes have slit pupils, and a dark monocle with a round lens covers its right eye. the monocle is attached with metallic elements and wires extending over its brow. the cat wears a bright pink jacket with a thick collar, accessorized with a black belt around its neck featuring gold metallic fittings, tubes, and a small gauge. the artwork shows visible oil paint brushstrokes and texture throughout.",
+      "prompt": "masterpiece, best quality, highres, absurdres, newest, score_9, score_8, dutch angle,\na warm, atmospheric anime illustration of a young woman standing on a hillside street at sunset., She is looking back over her shoulder toward the viewer with a calm, slightly distant expression. The setting is a sloping road lined with anchient chinese buildings, potted plants, and glowing lanterns. In the background, a vibrant orange-and-pink sunset fills the sky, with the sun low over a body of water and a distant countryside. Mountains frame the horizon., The lighting is rich and warm, casting a strong red-orange glow across the scene and highlighting the edges of her hair and clothes. The art style is detailed digital anime with a cinematic, nostalgic mood that captures the quiet beauty of evening., perfect body, detailed eyes, maomao \\(kusuriya no hitorigoto\\), blue eyes, face,",
       "quality_score": 8.1,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243706",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd0503eb-aa40-4c94-9ad6-32dc7906649e/original=true/fd0503eb-aa40-4c94-9ad6-32dc7906649e.jpeg",
+      "source_url": "https://civitai.com/images/146280598",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8217c7bc-7e93-4dbf-a834-e4c62ff26900/original=true/8217c7bc-7e93-4dbf-a834-e4c62ff26900.jpeg",
+      "model": "abyssal-lotus_v1_b",
+      "model_version_ids": [
+        3276827
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 917671186742608,
+      "negative_prompt": "worst quality, low quality, lowres, score_1, score_2, score_3, blurry, jpeg artifacts, sepia, bad anatomy, watermark, artist name, censor, blurry, motion lines, red pupils, slapping, spanked,",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.100026+00:00"
+    },
+    {
+      "id": "civitai-146286712",
+      "title": "Civitai prompt 146286712",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highres, score_9, safe\n2boys, 1dwarf, 1thief, dynamic action, impact, fight scene, crushing, crushing with hammer, motion blur, debris, dust, intense expression\nSubject: A dwarven blacksmith with broad shoulders, a stocky muscular build, thick limbs, and a long black beard. He wears a short-sleeved grey tunic, dark breeches, a heavy leather blacksmith's apron, and leather gloves, with an eye patch over one eye. His expression is grimly determined. He is in the middle of a powerful downward strike, crushing a rogue thief beneath the head of a large runic blacksmith's hammer. The thief is crouching, recoiling from the impact, wearing tattered, dark clothing typical of a street thief, with disheveled hair. One hand of the blacksmith grips the hammer tightly, the other arm flung back for balance, creating a pose of immense kinetic energy.\nSetting: The scene takes place in a surreal, brutalist environment featuring a raging science-fiction furnace. The background consists of abstract, cracked surfaces reminiscent of weathered stone or cosmic debris, contrasting the primitive smithing elements with advanced, alien technology. The environment is dark and minimalist, focusing attention on the central conflict.\nStyle: High-fantasy digital illustration blending traditional smithing aesthetics with a cosmic, dreamlike sci-fi atmosphere. The appearance is non-photorealistic, featuring fine sketch-inspired strokes visible in the environment's texture. The color palette leans towards warm terracotta, aging patina, and cool metallic tones, giving the image an antique yet vibrant feel. The artistic style emphasizes weight and impact, with heavy linework and dramatic shading.\nLighting: High-contrast dramatic lighting creates an ethereal glow that outlines the figures. The intense heat of the sci-fi furnace casts sharp, warm light from one side, highlighting the sweat on the blacksmith's skin and the glint of the runic hammer, while the other side remains in deep shadow. This interplay of light and shadow emphasizes the volume of the characters and the chaotic energy of the fight.\nComposition: The framing is a dynamic full-body shot, angled slightly upward to emphasize the height of the blacksmith's power despite his short stature. The blacksmith is positioned centrally but slightly off-center, dominating the frame. The thief is compressed beneath the hammer, creating a focal point of tension. The composition captures the exact moment of impact, with dust and debris scattered around their feet, enhancing the sense of motion and force.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286712",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4720596a-3d22-4a2d-8d60-ccc912267898/original=true/4720596a-3d22-4a2d-8d60-ccc912267898.jpeg",
       "model": null,
       "model_version_ids": [
         3072332,
-        3252404
+        3157680
       ],
       "width": 832,
       "height": 1248,
-      "seed": 814568481,
-      "negative_prompt": null,
+      "seed": 1213952539,
+      "negative_prompt": "worst quality, low quality, jpeg artifacts, 1girl, no arms, missing legs, bad anatomy, extra limbs, blurry, text, watermark, photorealistic, photo, 3d render",
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.796561+00:00"
+      "discovered_at": "2026-10-20T19:17:32.100741+00:00"
     },
     {
-      "id": "civitai-146243671",
-      "title": "Civitai prompt 146243671",
-      "category": "fashion",
+      "id": "civitai-146286680",
+      "title": "Civitai prompt 146286680",
+      "category": "architecture",
       "subcategory": "ai-image-prompts",
       "tags": [
         "civitai",
@@ -388,294 +164,233 @@
         "imported",
         "api"
       ],
-      "prompt": "(masterpiece:1.4), (best quality:1.4), (ultra detailed:1.4), (sharp focus:1.3), (realistic shading:1.3), Princess Zelda, adult woman, solo, (giantess:1.5), from Above shot, selfie pose, looking at viewer, confident smirk, long blonde hair, bangs, blue eyes, wearing her usual outfit, blue top, denim black pants, jewelry, high heel boots, full body view, towering over skyscrapers, tiny city below, dramatic scale, legs emphasized, stylish dominant pose, cinematic lighting, detailed cityscape, pinup style, illustration art style",
-      "quality_score": 9.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243671",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e688a5c-35c3-4699-875d-66a2ad59379d/original=true/6e688a5c-35c3-4699-875d-66a2ad59379d.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3353036
-      ],
-      "width": 832,
-      "height": 1216,
-      "seed": 1418198489,
-      "negative_prompt": "(worst quality, low quality, normal quality:1.4),\nblurry, pixelated, bad anatomy, extra fingers,\ndeformed hands, cropped head, poorly drawn face,\nmodern photo realism, CGI, 3d render,\nwatermark, signature, text box, logo",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.796673+00:00"
-    },
-    {
-      "id": "civitai-146243470",
-      "title": "Civitai prompt 146243470",
-      "category": "fashion",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "masterpiece digital illustration, best quality, amazing quality, very awa, newest, soft lighting, volumetric lighting, soft shading, glowing particles, cinematic scenes, bright colors. a wildly surreal and hilarious fantasy scene inside an gros, trippy rainbow sparkle effects, rainbow halo.\n(beautiful adult woman:1.5), sleeping, princess:1.5, princess-style ball gown, colorful outfit, long iridescent rainbow-colored hair, seductive, luxurious bed, BREAK. (darth vader:1.5), RainbowUnicornStyle, BREAK. angelic halo cat army, ultra detailed, beautiful, sharp focus, 8K, SFW",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243470",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b821faa9-e962-4215-bf6a-ff6f9eaa6b33/original=true/b821faa9-e962-4215-bf6a-ff6f9eaa6b33.jpeg",
-      "model": null,
-      "model_version_ids": [
-        302085,
-        640970,
-        2555897
-      ],
-      "width": 1216,
-      "height": 832,
-      "seed": 92410999,
-      "negative_prompt": "(low quality:1.2), (worst quality:1.2), boring, flat, messy, NSFW, low resolution, undefined, nude, low contrast, missing limbs, extra limbs, noisy, blurry, ugly, jpeg artifacts, text, smoking",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.797504+00:00"
-    },
-    {
-      "id": "civitai-146243458",
-      "title": "Civitai prompt 146243458",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "art nouveau style, Colored Pencil Art, line art amulet depicting a Surreal person, blurry image in background, hint of Crimson\nUderzo, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nfruitful Waterfall\nsevere weather\nrenaissance style . realistic, perspective, light and shadow, religious or mythological themes, highly detailed\nLuxurious Elegance . extravagant, ornate, designer, opulent, picturesque, lavish, elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243458",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/346a1454-42e9-4c00-ae51-c5a0522e89b3/original=true/346a1454-42e9-4c00-ae51-c5a0522e89b3.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1153175336,
-      "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.797753+00:00"
-    },
-    {
-      "id": "civitai-146243455",
-      "title": "Civitai prompt 146243455",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "breathtaking, Colored Pencil Art, line art amulet depicting a Majestic person, blurry image in background, hint of Teal\nGaston Lachaise, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nbrown Cavern\nfrightful weather\nart deco style . geometric shapes, bold colors, luxurious, elegant, decorative, symmetrical, ornate, detailed\nLuxurious Elegance . extravagant, ornate, designer, opulent, picturesque, lavish, award-winning, professional, highly detailed",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243455",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53cb658f-e1b8-48d1-8f32-2b79057f1bdd/original=true/53cb658f-e1b8-48d1-8f32-2b79057f1bdd.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1344804460,
-      "negative_prompt": "ugly, deformed, noisy, blurry, distorted, grainy",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.797885+00:00"
-    },
-    {
-      "id": "civitai-146243447",
-      "title": "Civitai prompt 146243447",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Japanese Style Ink Drawing of Colored Pencil Art, line art amulet depicting nobody, blurry image in background, hint of Orange\nJohn Blanche, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nugly Atoll\nunusual weather\nrenaissance style . realistic, perspective, light and shadow, religious or mythological themes, highly detailed\nLuxurious Elegance . extravagant, ornate, designer, opulent, picturesque, lavish, ink drawing, inkwash, Japanese Style Ink Drawing",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243447",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a099d549-8ad7-414b-a1bf-191db9fbf788/original=true/a099d549-8ad7-414b-a1bf-191db9fbf788.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 901762556,
-      "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.798250+00:00"
-    },
-    {
-      "id": "civitai-146243433",
-      "title": "Civitai prompt 146243433",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Whimsical and Playful, Colored Pencil Art, line art amulet depicting nobody, blurry image in background, hint of Chartreuse\nCecilia Beaux, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\ngrass Promontory\ngrey weather\nMacro Photography, macro photograph . close-up, macro 100mm, macro photography\nLuxurious Elegance . extravagant, ornate, designer, opulent, picturesque, lavish, imaginative, fantastical, bight colors, stylized, happy, Whimsical and Playful",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243433",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59fc83f7-f3cb-4cdb-bfb9-9d1e72ca69d0/original=true/59fc83f7-f3cb-4cdb-bfb9-9d1e72ca69d0.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 3652888682,
-      "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, drab, boring, moody",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.798775+00:00"
-    },
-    {
-      "id": "civitai-146243432",
-      "title": "Civitai prompt 146243432",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Tribal style, Colored Pencil Art, line art amulet depicting a Phantasmagorical person, blurry image in background, hint of Magenta\nEsaias van de Velde, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\ndistorted Meadow\ncalm weather\ncinematic photo . 35mm photograph, film, bokeh, professional, 4k, highly detailed\nLuxurious Elegance . extravagant, ornate, designer, opulent, picturesque, lavish, Indigenous, ethnic, traditional patterns, bold, natural colors, highly detailed",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243432",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abb392c9-b865-45b7-91c4-aa7bf6e870be/original=true/abb392c9-b865-45b7-91c4-aa7bf6e870be.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 820384110,
-      "negative_prompt": "modern, futuristic, minimalist, pastel",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.798913+00:00"
-    },
-    {
-      "id": "civitai-146243239",
-      "title": "Civitai prompt 146243239",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "A 23-year-old Chinese girl cosplaying Asuka Langley Soryu from Evangelion, long copper-orange hair, recognizable red A10 clips, blue eyes, wearing round silver glasses and a loose burgundy knit sweater. An intimate close-up amateur digital photo taken in a small cafe on a rainy afternoon in 2003. She sits by the fogged-up window, one hand holding a mug while the other reaches up to push her glasses back into place after they slide slightly down her nose. She looks directly at the camera with a half-annoyed, half-amused expression, as if caught in the middle of complaining. Raindrops on the glass, blurred street outside, napkins and a small dessert plate on the table. Early-2000s consumer digital camera, direct flash, slightly uneven exposure, close handheld framing, authentic private-life photography, single female subject.",
-      "quality_score": 8.7,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243239",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4e71569c-e2ac-4f04-a719-dfcc0f91ef3f/original=true/4e71569c-e2ac-4f04-a719-dfcc0f91ef3f.jpeg",
-      "model": null,
-      "model_version_ids": [
-        3416393
-      ],
-      "width": 864,
-      "height": 1536,
-      "seed": 214940826,
-      "negative_prompt": "anime illustration, 2D, cartoon, CGI, 3D render, doll-like skin, waxy face, excessive beauty filters, overprocessed skin, exaggerated anatomy, deformed hands, extra fingers, fused fingers, incorrect eye alignment, unrealistic reflections, plastic fabric, oversaturated colors, artificial studio background, generic costume, inaccurate character design, watermark, text artifacts",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.799094+00:00"
-    },
-    {
-      "id": "civitai-146177335",
-      "title": "Civitai prompt 146177335",
-      "category": "photography",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "High aerial drone-perspective wide cinematic shot over cascading mountain rice terraces flooded with water at sunrise, of a young beautiful woman, slender and athletic with pale dewy skin and a long black braid, walking barefoot along the narrow mud ridge between two mirror-like flooded paddies, balancing a woven bamboo basket on her hip, her bare feet leaving prints in the wet earth, a line of white ducks waddling behind her. She wears a loose pale celadon-green silk blouse with wide sleeves fluttering, black cotton trousers rolled up to her knees, a conical woven straw hat hanging on her back. She glances up toward the sky with a calm, curious face. Around her, the curving terraces step down the mountainside like a giant contour map, each flooded paddy reflecting the pink and gold sky, young green rice shoots in neat rows, wisps of low cloud drifting through the valley, a tiny wooden hut with a curl of smoke. Lighting is soft pastel sunrise light skimming across the water, turning the reflective paddies into glowing mirrors of rose and gold, mist softly diffusing everything, pronounced chromatic aberration fringing the bright reflective water edges and her small silhouette with red-cyan offsets, gentle prismatic glow. Cinematic contemplative landscape film still, top-down graphic composition of curving lines, deep focus, soft pastel rose, gold and jade-green color grade, fine grain, harmonious serenity.",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146177335",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce218da4-7879-438c-b026-05187f1fd4a2/original=true/ce218da4-7879-438c-b026-05187f1fd4a2.jpeg",
-      "model": "krea2_turbo_fp8_scaled",
-      "model_version_ids": [
-        3072332,
-        3113770,
-        3197004
-      ],
-      "width": 1088,
-      "height": 1600,
-      "seed": 1637227916,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.799528+00:00"
-    },
-    {
-      "id": "civitai-146177334",
-      "title": "Civitai prompt 146177334",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Eye-level medium-wide cinematic shot of a young beautiful woman, slender and athletic with pale luminous skin and a tousled updo of dark hair coming undone, standing barefoot knee-deep in the shallow basin of a grand baroque marble city fountain at noon, kicking a glittering arc of water toward the camera with one bare foot, arms flung out, head thrown back laughing, a startled flock of pigeons exploding into flight around her. She wears a structured strapless black duchess-satin cocktail dress with a sculpted bodice, the skirt hitched up and wet at the hem, long black satin gloves pulled down to her wrists, a triple strand of pearls. Her expression is reckless, liberated joy. Around her, cascades of water pour from carved marble tritons and sea horses, the travertine stone gleaming wet, ochre and terracotta palazzi enclose the sunny piazza, café umbrellas, a few tourists staring, a scooter parked at the edge. Lighting is brilliant hard midday sun from above, every water droplet a blazing point of light, sharp shadows under the marble statues, intense chromatic aberration splitting the water spray and sparkles into rainbow fringes, a sunburst flare blooming through the arc of water. Cinematic Italian romantic-comedy film still, fast shutter freezing the water arc and pigeon wings, 35mm lens, deep focus, saturated travertine gold, black and azure color grade, warm grain, la dolce vita energy.",
+      "prompt": "Cinematic interior, architectural photography, a massive ornate Fresnel lens from a lighthouse repurposed as a centerpiece in a decaying neoclassical rotunda, wide-angle shot, low angle, concentric glass rings creating a tunnel effect, polished brass and weathered iron housing, concentric circles of refractive glass, a spiral staircase with a wrought-iron railing curving around the left side, peeling plaster walls, vaulted dome ceiling with water stains and crumbling masonry, two large arched windows flanking the lens, one window catching a blinding golden hour sunburst creating a sharp lens flare and volumetric dust motes, hard shadows stretching across distressed wide-plank wooden floors, warm amber and cool teal color grade, Kodak Portra 400 aesthetic, shot on 24mm f/2.8 lens, deep depth of field, natural light source mixed with soft ambient bounce, tactile textures of rusted metal and flaky paint, salt-air atmosphere, serene yet melancholic mood, steampunk influence, reminiscent of Piranesi's imaginary prisons and the cinematic lighting of Roger Deakins.",
       "quality_score": 8.9,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146177334",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47ec5eb4-0a74-4bc2-b648-e42d0a3acbb1/original=true/47ec5eb4-0a74-4bc2-b648-e42d0a3acbb1.jpeg",
+      "source_url": "https://civitai.com/images/146286680",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f20be426-772b-4af3-96eb-56963171dea4/original=true/f20be426-772b-4af3-96eb-56963171dea4.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": null,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.101083+00:00"
+    },
+    {
+      "id": "civitai-146157552",
+      "title": "Civitai prompt 146157552",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "slim arabian girl with light blue hair. modern red Juggernaut outfit.\nSolo. Full body.\nA mix of retro anime style and modern anime style: \n-Modern anime elements: clean linework, high detail in faces and clothing, cel animation, overall face design and body proportions. In style of \"Frieren: Beyond Journey's End\". In style of \"Mushoku Tensei\". In style of \"Arknights: Endfield\". In style of \"Zenless Zone Zero\").\n-Retro anime elements: high detail in objects, detailed background, high contrast expressive shading. In style of Mamoru Oshii \"Ghost in the Shell\". In style of Satoshi Kon \"Paprika\").  \nNo text.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146157552",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18942540-a40d-4c11-8ad1-90b0d0ca959b/original=true/18942540-a40d-4c11-8ad1-90b0d0ca959b.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3409867
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1439922966,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.101429+00:00"
+    },
+    {
+      "id": "civitai-146286643",
+      "title": "Civitai prompt 146286643",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "**Prompt — Heian-kyo Cyberfantasy City**\nmasterpiece, best quality, highly detailed environment concept art, Japanese Heian period capital city fused with cyberpunk and high fantasy, ancient Kyoto-inspired imperial capital, Heian-kyo grid street layout, monumental Suzaku Avenue, traditional Japanese palace architecture, shinden-zukuri palace compounds, elevated wooden corridors, black lacquered pillars, vermilion beams, white plaster walls, layered tiled roofs, elaborate roof eaves, five-story pagodas, grand torii gates, traditional wooden townhouses, lattice windows, hanging paper lanterns, noren curtains, ancient Japanese urban architecture integrated with futuristic machinery,\nonmyoji cyberpunk technology, glowing ofuda talismans, floating paper charms, holographic kanji, luminous magic circles, rotating yin-yang diagrams, celestial astrolabes, digital shikigami, mechanical kitsune spirits, robotic tengu, spectral foxfire, holographic folding screens, fiber-optic ritual lines embedded in wooden structures, mechanical roof ornaments, levitating architectural components, futuristic illumination integrated into traditional construction,\ndense layered cityscape, interconnected rooftops, elevated wooden walkways, bridges between palace buildings, pagodas rising above the surrounding rooftops, luminous signs written in Japanese characters, traditional lantern light mixed with cyan and violet electronic glow, atmospheric mist, cinematic volumetric lighting, intricate architectural silhouettes, deep urban perspective, rich foreground midground and background, coherent urban layout, consistent building scale, Japanese fantasy cyberpunk aesthetic, detailed hand-painted environment, dramatic but readable composition​​​",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286643",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb31bf8b-bece-4255-a8df-5c5ac8072e01/original=true/fb31bf8b-bece-4255-a8df-5c5ac8072e01.jpeg",
+      "model": "krea2turboPrismoria_v10",
+      "model_version_ids": [
+        3364166
+      ],
+      "width": 768,
+      "height": 512,
+      "seed": 557152046,
+      "negative_prompt": "EasyNegative, (normal quality, low quality, worst quality:1.4), jpeg artifacts, (username, watermark, signature, time signature, timestamp, artist name, artist signature, artist logo, twitter username, patreon username, copyright name, copyright notice, copyright abbreviation, copyright signature, copyright, web address, address, date, datetime, dated), (loli, child, infant, baby:1.3), (bad anatomy, extra digits, extra_fingers, wrong finger, inaccurate limb, bad hand, bad fingers), (African American, African:1.6), (tits, nipple, nipples:1.6), (pubic hair:1.6), multiple views, multiple frame​​​",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.102011+00:00"
+    },
+    {
+      "id": "civitai-146286364",
+      "title": "Civitai prompt 146286364",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic portrait of a woman with the exact facial features, skin texture, and warm brown eyes of the reference image, sitting comfortably in a plush, dark leather wingback armchair.\nShe is positioned in the center of a grand, cozy home library, surrounded by towering shelves of leather-bound books and antique brass instruments.\nHer posture is relaxed and intimate, sinking into the cushions with her legs crossed comfortably at the ankles, exuding a sense of calm and contentment.\nThe lighting is soft and warm, reminiscent of late afternoon sunlight filtering through tall windows, casting a gentle glow on her face and creating soft, natural shadows.\nThe atmosphere is nostalgic and serene, filled with the quiet dust of a well-loved space.\nThe texture of the armchair is rich and worn, contrasting with the crisp, detailed fabric of her clothing.\nShot on 35mm film with a shallow depth of field, blurring the background library into a soft, bokeh-rich backdrop.\nThe color palette is warm, featuring sepia tones, deep browns, and soft creams, enhancing the vintage, steampunk-inspired aesthetic of her outfit.\nHigh-resolution detail on the face, capturing every micro-expression and skin pore, ensuring the identity remains consistent with the source image.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286364",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98aefa53-06e7-4804-aecf-0191eb74636a/original=true/98aefa53-06e7-4804-aecf-0191eb74636a.jpeg",
+      "model": null,
+      "model_version_ids": [
+        3072332,
+        3174676
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1229537830,
+      "negative_prompt": null,
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.102275+00:00"
+    },
+    {
+      "id": "civitai-146286473",
+      "title": "Civitai prompt 146286473",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "wide-angle cinematic shot, New Year's Eve party, surrounded by guests in glittering eveningwear.\nhigh-angle candid shot captured in the moment unposed of a average-build flirty East Asian woman  is standing in a candid posture viewed from a back three-quarters angle wearing a teal backless dress revealing buttocks and high-heeled sandals. her sheepish expression is captured in the moment unflattering mid-speaking . natural skin and hair textures.\n, amateur digital snapshot,   high ISO noise,  visible pores,   detailed skin texture, hard flash, natural lighting,  specular highlights,\n <lora:krea2_backless_dress_raunchy_krea2_3303070_epoch_2:1>, <lora:z0jglf:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286473",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c54bd814-ab96-40b0-a69c-fcd1938d9b3f/original=true/c54bd814-ab96-40b0-a69c-fcd1938d9b3f.jpeg",
       "model": "krea2_turbo_fp8_scaled",
       "model_version_ids": [
         3072332,
-        3113770,
-        3197004
+        3418647
       ],
-      "width": 1088,
-      "height": 1600,
-      "seed": 2166045504,
+      "width": 768,
+      "height": 1024,
+      "seed": 2468108757,
+      "negative_prompt": "bending over, low-angle, warped, mutated face, mutated body, extra limbs, uncanny faces, fake facial expressions",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.102889+00:00"
+    },
+    {
+      "id": "civitai-146286480",
+      "title": "Civitai prompt 146286480",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The image is a vertical, aged pulp-horror cover-style illustration with a worn, stained border and dark earthy color palette. Across the upper half, the main title appears in oversized distressed hand-lettering: \"JUNK\" on the top line and \"MONSTER\" beneath it. The letters are jagged, rough-edged, and brush-painted in faded warm yellow, with torn, claw-like strokes that resemble scratch marks. In the upper-right corner, overlapping the dark forest background and sitting below the title area, there is a small circular price badge reading \"10¢\" in dark ink on a weathered yellow circle, with a black outline and scratched, printed texture. The central subject is a gigantic moss-covered snail rendered in a painterly, gothic fantasy style. Its body fills most of the middle of the image, with a pale beige-gray, fleshy, wrinkled texture and lichen-like green, brown, and ochre patches spread over its skin. The snail’s head faces downward and slightly left toward a tiny cottage, with two tall, tapered eyestalks rising upward. Its visible eye area is large, glossy, and dark, set within folds of pale tissue, giving it a gentle but eerie expression. Behind and above the head, a massive spiral shell curves diagonally from the lower-left toward the upper-right, partially hidden by tangled branches and moss; the shell has ribbed bands in muted browns, greens, and gray-gold tones. Several soft brown feathers lie around the snail’s shoulders and foreground, adding delicate texture against the rough organic surfaces. The background is a dense, shadowy forest with twisted branches, bare twigs, moss-covered stones, and heavy black-green foliage. The lighting is dim and moody, with subdued forest-dapple effects and deep shadows throughout. In the lower center foreground, a tiny acorn-cap cottage sits on a mossy stump or platform, positioned directly in front of the giant snail from the snail’s point of view. The cottage has a rounded mushroom-like roof, warm brown and ochre wood textures, a small rectangular window with divided panes, and a single glowing warm yellow porch light under the roof. The only bright color in the image is the warm yellow glow emanating from this lantern, which casts a soft halo onto the wooden post, small door area, moss, and nearby objects, creating a cozy contrast against the surrounding darkness. In front of the cottage, on a dark tabletop or stump surface, several found objects are arranged as goblincore junk: a curled downy brown feather on the left, a small spiral snail shell near the center, a rusted teaspoon lying diagonally toward the lower-left, scattered bits of moss and lichen-like growth, and rough organic debris. Additional feathers and a small snail shell appear near the lower-right edge. The entire artwork is framed by a distressed yellow-brown border with scratches, stains, faded edges, creased corners, and darkened corners, making it read as a worn, slightly faded gouache print rather than a clean modern poster. The composition uses a tall portrait layout with the title dominating the top, the colossal snail looming through the center, and the tiny glowing house anchoring the bottom, creating a scale contrast between a cosy miniature dwelling and a towering gentle monster.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286480",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/71787231-fc31-4cd9-af58-6d3bf66cd894/original=true/71787231-fc31-4cd9-af58-6d3bf66cd894.jpeg",
+      "model": null,
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 2016,
+      "seed": 599958862,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.799785+00:00"
+      "discovered_at": "2026-10-20T19:17:32.103835+00:00"
     },
     {
-      "id": "civitai-146243375",
-      "title": "Civitai prompt 146243375",
+      "id": "civitai-146286433",
+      "title": "Civitai prompt 146286433",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality, ultra detailed, sharp focus, intricate details,highres,aesthetic, absurdres,depth of field,\n<lora:mai_hagc:0.85>, mai_hagc,short_hair,black_hair,male_focus,faceless,hair_over_eyes,no_eyes,white_shirt,black pants,anime coloringr,BREAK,\na black venetian gondola floating on a narrow canal at night, realistic gondola, ferro at the prow,black gondola hull, they are sitting inside the gondola, rope and oar,\ndark still canal water, reflections of windows on the water, tall weathered venetian buildings on both sides, arched windows, closed shutters, brick and peeling plaster walls, a small stone bridge in the distance,\nlate night, deep blue night sky, warm yellow window light, a few lit lanterns, dim moonlight, soft rim light, gentle breeze, rippling water,\na tall boy standing in the gondola,\nupper body, wind in their hair and clothes, night air wrapping around the gondola,\nphotorealistic, matte skin, natural fabric, quiet atmosphere",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286433",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/817b842e-5878-42b1-b674-bfc18d22c232/original=true/817b842e-5878-42b1-b674-bfc18d22c232.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        2531839,
+        3417976
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 1135491527,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)hands on own chest, hands on own breasts, grabbing own breasts, touching own breasts, covering breasts, cupping breasts, self fondle(glasses on male)(man wearing glasses)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.104334+00:00"
+    },
+    {
+      "id": "civitai-146286358",
+      "title": "Civitai prompt 146286358",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality, ,highres,aesthetic, absurdres,depth of field, , fantasy, \ntamiyaakito_style,<lora:tamiyaakito:0.3><lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.5>\n<lora:mai_irta:0.85>, mai_irta,mai_naoir,short_hair,green_hair,red_eyes,large_breasts,blue_bowtie,white_shirt,grey_jacket,black_skirt,black_kneehighs,uwabaki,,(age up:1.2)BREAK \nmature female, sleeping, close eyes, open mouth, drooling, Lying on bed,\nlate autumn night, second floor bedroom of an inn, open wooden door, beautiful translucent white curtains billowing gently in the wind with falling autumn leaves, pale blue moonlight brightly illuminating the room, large soft white clean bed, beautiful woman sleeping peacefully hugging a stuffed animal, <lora:mai_pgradw:0.5>,mai_pgradw,solo,blush_stickers,stuffed_toy,stuffed_animal,frog,red_scarf,x_x,button_eyes,,BREAK\nhappy expression, serene face, polished wooden floor, thick sternly bound grimoire placed beside the bed, soft fabric textures, gentle light and shadow, atmospheric, cinematic lighting, highly detailed interior, , deep shadows in the room,  cinematic lighting with extreme contrast, moonlight shining directly on the girl creating dramatic rim lighting, solid black background",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146286358",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/362c7703-c48c-446c-be74-5b3125df3aa9/original=true/362c7703-c48c-446c-be74-5b3125df3aa9.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2199103,
+        2531839,
+        2603240,
+        3417769
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 13632626,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "status": "pending_review",
+      "discovered_at": "2026-10-20T19:17:32.105251+00:00"
+    },
+    {
+      "id": "civitai-146286355",
+      "title": "Civitai prompt 146286355",
       "category": "image",
       "subcategory": "ai-image-prompts",
       "tags": [
@@ -684,139 +399,23 @@
         "imported",
         "api"
       ],
-      "prompt": "Silhouette style line art amulet depicting a Pristine person, blurry image in background, hint of Ruby\nGeorge Pemba, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nexquisite Plain\nfavourable weather\ncinematic photo . 35mm photograph, film, bokeh, professional, 4k, highly detailed",
-      "quality_score": 8.3,
+      "prompt": "masterpiece,best quality, absurdres, anime style, cinematic lighting, natural shadow, very aesthetic, highest detail, detailed background, intricate scenery, depth of field, insane details, intricate, subsurface scattering, 1girl, kaela kovalskia, red eyes, red hair ribbon, red headband, jacket, snowboard, snowboarding, jumping, floating, outdoors, snow, ski resort, cinematic composition",
+      "quality_score": 9.0,
       "source": "Civitai",
       "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243375",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5aeb1187-7aa3-4262-b5e5-c4e6860b9366/original=true/5aeb1187-7aa3-4262-b5e5-c4e6860b9366.jpeg",
-      "model": "chroma_v41LowStepRl",
+      "source_url": "https://civitai.com/images/146286355",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4102ff39-a724-43d2-b685-59828d26db94/original=true/4102ff39-a724-43d2-b685-59828d26db94.jpeg",
+      "model": "KREA2RED 剧创Story2",
       "model_version_ids": [
-        1979672
+        3393223
       ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 2651315061,
+      "width": 1888,
+      "height": 3328,
+      "seed": null,
       "negative_prompt": null,
       "license": "See original Civitai item and creator/model license",
       "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.800245+00:00"
-    },
-    {
-      "id": "civitai-146243340",
-      "title": "Civitai prompt 146243340",
-      "category": "advertising",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Digital illustration, vertical composition featuring the Mortal Kombat character Scorpion in a dynamic, aggressive pose rendered in a gritty, high-contrast comic book art style. He wears his signature yellow and black ninja gi with a hood and face mask, his eyes glowing white beneath the cowl. Visual effects include intense fiery embers and sparks floating around him against a dark, textured background, creating a hellish atmosphere. Heavy chains are wrapped around his arms and torso, with one chain looping dramatically above his head. He holds a kunai knife in his right hand, pointing forward. At the bottom, large, stylized 3D text reads \"GET OVER HERE!\" in a metallic gold font with sharp edges and distressed texture, matching the fiery color palette. The lighting is dramatic, with strong highlights on the yellow fabric and metal chains contrasting with deep shadows. Limited color palette dominated by burnt orange, gold, black, and dark red establishing violent and iconic visual hierarchy focused on action and branding. High-fidelity digital painting technique maintaining sharp details on the fabric folds and weapon while allowing background elements to dissolve into atmospheric fire and smoke, capturing fighting game archetype within graphic novel framework emphasizing power and aggression optimized for poster art reproduction.",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243340",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69b378d4-2af4-48c5-ba87-1558cb731ac8/original=true/69b378d4-2af4-48c5-ba87-1558cb731ac8.jpeg",
-      "model": "solordzZITZIBKrea2_v10MOSSBASE_int8",
-      "model_version_ids": [
-        3414490
-      ],
-      "width": 1024,
-      "height": 1408,
-      "seed": 975527363880041,
-      "negative_prompt": "worst quality, low quality, bad anatomy, bad proportions, malformed hands, extra fingers, missing fingers, fused fingers, extra limbs, distorted face, waxy skin, plastic skin, excessive skin smoothing, oversharpening, compression artifacts, watermark, signature",
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.800560+00:00"
-    },
-    {
-      "id": "civitai-146243328",
-      "title": "Civitai prompt 146243328",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Silhouette style line art amulet depicting a Glorious person, blurry image in background, hint of Aquamarine\nNorman Parkinson, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\npicturesque Prairie\nunwholesome weather\nplay-doh style . sculpture, clay art, centered composition, Claymation",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243328",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f09900e0-3939-49b7-b586-2cd5038bf526/original=true/f09900e0-3939-49b7-b586-2cd5038bf526.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 3131675995,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.800847+00:00"
-    },
-    {
-      "id": "civitai-146243323",
-      "title": "Civitai prompt 146243323",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Silhouette style line art trinket depicting a Fierce person, blurry image in background, hint of Orange\nWojciech Siudmak, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nprairie Beach\nextraordinary weather\nlow-poly style . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243323",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7786a316-9e45-4701-9e41-4d525c11318a/original=true/7786a316-9e45-4701-9e41-4d525c11318a.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 2378409315,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.801129+00:00"
-    },
-    {
-      "id": "civitai-146243320",
-      "title": "Civitai prompt 146243320",
-      "category": "image",
-      "subcategory": "ai-image-prompts",
-      "tags": [
-        "civitai",
-        "ai-image",
-        "imported",
-        "api"
-      ],
-      "prompt": "Silhouette style line art amulet depicting a Vibrant person, blurry image in background, hint of Cyan\nTom Bonson, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, perfect face, perfect hands, award-winning, professional, breathtaking, linquivera\nfruitful Valley\nfavourable weather\norigami style . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
-      "quality_score": 8.3,
-      "source": "Civitai",
-      "source_id": "civitai",
-      "source_url": "https://civitai.com/images/146243320",
-      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a84ab4dc-0922-40af-85a8-f723eff2460e/original=true/a84ab4dc-0922-40af-85a8-f723eff2460e.jpeg",
-      "model": "chroma_v41LowStepRl",
-      "model_version_ids": [
-        1979672
-      ],
-      "width": 1024,
-      "height": 1024,
-      "seed": 1200547220,
-      "negative_prompt": null,
-      "license": "See original Civitai item and creator/model license",
-      "status": "pending_review",
-      "discovered_at": "2026-10-20T08:40:49.801424+00:00"
+      "discovered_at": "2026-10-20T19:17:32.105316+00:00"
     }
   ]
 }
