@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -77592,15 +77592,891 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33599fc7-543b-4635-a237-dad343b7defc/original=true/33599fc7-543b-4635-a237-dad343b7defc.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-146393283",
+      "title": "Civitai prompt 146393283",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Photorealistic full-body shot, a Chinese model, Huihui, walking toward the camera down a narrow traditional Korean alley, her hair is worn in a single braid over her left shoulder and she has blunt bangs. wearing a light pink t-shirt with text that reads: 'I cream for K-Pop...and YOU!!!' \nPaired with a dusty rose-colored long flowing chima skirt, and a small white drawstring pouch bag, traditional hanok houses with curved tiled roofs and stone walls lining both sides of the street, distant modern buildings on a hillside, bright natural daylight, sunny clear sky, sharp focus, highly detailed fabric texture, realistic street atmosphere, 35mm lens, f/2.8",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393283",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d025d4-72a8-472b-b59d-b6c397bed3df/original=true/94d025d4-72a8-472b-b59d-b6c397bed3df.jpeg",
+      "model_version_ids": [
+        3097834,
+        3317204,
+        3420841
+      ],
+      "width": 1184,
+      "height": 896,
+      "seed": 1710216599,
+      "negative_prompt": "bad anatomy, deformed, mutated, extra limbs, poorly drawn hands, disfigured, malformed fingers, fused fingers, extra fingers, missing limbs, painting, illustration, drawing, cartoon, anime, 3D render, CGI, digital art, airbrushed, smooth skin plastic look, vector art, graphic, blurry, low quality, jpeg artifacts, over-sharpened, watermark, signature, text, cropped",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369141+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3f434de542afbb992cc3e14c69bb92fa380dae3476680829a1134eb884704bde",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146393283 architecture ai-image-prompts photorealistic full-body shot, a chinese model, huihui, walking toward the camera down a narrow traditional korean alley, her hair is worn in a single braid over her left shoulder and she has blunt bangs. wearing a light pink t-shirt with text that reads: 'i cream for k-pop...and you!!!' paired with a dusty rose-colored long flowing chima skirt, and a small white drawstring pouch bag, traditional hanok houses with curved tiled roofs and stone walls lining both sides of the street, distant modern buildings on a hillside, bright natural daylight, sunny clear sky, sharp focus, highly detailed fabric texture, realistic street atmosphere, 35mm lens, f/2.8 civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393283",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94d025d4-72a8-472b-b59d-b6c397bed3df/original=true/94d025d4-72a8-472b-b59d-b6c397bed3df.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393220",
+      "title": "Civitai prompt 146393220",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ta86_inkriot, graphic cel shading, bold black outlines,\nA striking photorealistic urban art editorial featuring a fashionable skater girl gliding past an extraordinary contemporary graffiti mural on a broad concrete wall. The composition blends realistic street photography with the expressive visual language of modern graffiti culture. The girl wears an oversized cream-colored T-shirt, wide-leg olive cargo trousers, retro skate shoes, a dark baseball cap, and a small canvas shoulder bag. Her clothing moves naturally as she rides, with convincing folds, stitching, worn fabric edges, and realistic contact between her shoes and skateboard. Her posture is athletic and relaxed, with balanced shoulders, naturally bent knees, and a subtle turn of the head toward the artwork.\nThe wall displays a breathtaking, large-scale graffiti composition centered on the word \"BUZZ,\" rendered in unmistakable classic bubble-letter style. Each letter is inflated, rounded, thick, and playfully connected, with deep dimensional shadows and carefully constructed black outlines. Use a sophisticated palette of coral red, burnt orange, cream, and deep teal, accented by glossy white highlights and small bursts of electric blue. Behind the lettering, layered abstract shapes, geometric marks, subtle paint splashes, and contemporary artistic flourishes create depth while preserving the traditional graffiti character. Visible spray-can texture, uneven paint edges, concrete imperfections, and carefully placed drips make the artwork convincingly handmade. Keep the lettering readable and correctly spelled.\nThe urban background features minimalist architecture, an old loading-bay entrance, worn pavement, and soft sunlight filtering between buildings. Frame the girl in the right third of the image and the mural across the left and central background, creating strong visual balance and an editorial sense of scale. Use natural daylight, a 35mm lens, realistic skin texture, precise skateboard construction, nuanced shadows, subtle atmospheric depth, premium fashion-editorial styling, sophisticated color grading, and exceptionally detailed photorealism.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393220",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1771985-ebeb-4e67-aabd-44e982d49873/original=true/e1771985-ebeb-4e67-aabd-44e982d49873.jpeg",
+      "model_version_ids": [
+        164821,
+        3072332,
+        3190465
+      ],
+      "width": 2048,
+      "height": 1152,
+      "seed": 272985028,
+      "negative_prompt": "lowres, worst quality, bad quality, bad anatomy, jpeg artifacts, signature, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369193+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "25c13dd05fd8f186a9545b0567b9097b1aec29e27bea7f34bbdf929f718a23c9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146393220 architecture ai-image-prompts ta86_inkriot, graphic cel shading, bold black outlines, a striking photorealistic urban art editorial featuring a fashionable skater girl gliding past an extraordinary contemporary graffiti mural on a broad concrete wall. the composition blends realistic street photography with the expressive visual language of modern graffiti culture. the girl wears an oversized cream-colored t-shirt, wide-leg olive cargo trousers, retro skate shoes, a dark baseball cap, and a small canvas shoulder bag. her clothing moves naturally as she rides, with convincing folds, stitching, worn fabric edges, and realistic contact between her shoes and skateboard. her posture is athletic and relaxed, with balanced shoulders, naturally bent knees, and a subtle turn of the head toward the artwork. the wall displays a breathtaking, large-scale graffiti composition centered on the word \"buzz,\" rendered in unmistakable classic bubble-letter style. each letter is inflated, rounded, thick, and playfully connected, with deep dimensional shadows and carefully constructed black outlines. use a sophisticated palette of coral red, burnt orange, cream, and deep teal, accented by glossy white highlights and small bursts of electric blue. behind the lettering, layered abstract shapes, geometric marks, subtle paint splashes, and contemporary artistic flourishes create depth while preserving the traditional graffiti character. visible spray-can texture, uneven paint edges, concrete imperfections, and carefully placed drips make the artwork convincingly handmade. keep the lettering readable and correctly spelled. the urban background features minimalist architecture, an old loading-bay entrance, worn pavement, and soft sunlight filtering between buildings. frame the girl in the right third of the image and the mural across the left and central background, creating strong visual balance and an editorial sense of scale. use natural daylight, a 35mm lens, realistic skin texture, precise skateboard construction, nuanced shadows, subtle atmospheric depth, premium fashion-editorial styling, sophisticated color grading, and exceptionally detailed photorealism. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393220",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1771985-ebeb-4e67-aabd-44e982d49873/original=true/e1771985-ebeb-4e67-aabd-44e982d49873.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393198",
+      "title": "Civitai prompt 146393198",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2D digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. Atmospheric variation for Morrigan: landscape 16:9 cinematic anime scene at the same location (quiet misty grove in the Korcari Wilds), retain costume, silhouette and core identifiers (black side braids, purple rugged mage attire, raven feather); make one raven feather drifting above a gloved palm and a tiny indigo shape-shifting mist the narrative center, show ample environment without visual clutter, character placed slightly off-center, one clean directional light, no lettering.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393198",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5efc4b0e-15ae-4823-a38f-3a885660c4b3/original=true/5efc4b0e-15ae-4823-a38f-3a885660c4b3.jpeg",
+      "model": "See-Krea2-Genesisv2-int8_convrot",
+      "model_version_ids": [
+        3320733
+      ],
+      "width": 1664,
+      "height": 944,
+      "seed": 173485482355200,
+      "negative_prompt": "photorealistic, 3D render, CGI, western comic style, hard oversharpening, noisy microtextures, busy background, overcrowded particles, excessive bloom, low resolution, poor anatomy, extra arms, extra legs, extra fingers, fused fingers, duplicated weapons, deformed hands, distorted face, misaligned eyes, text, typography, subtitle, watermark, logo, contact sheet, split panels, child, teen, underage appearance, nudity, explicit sexual content, gore, red hair, long silver wizard beard, royal plate armor",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369215+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b93548666efeb9535e8d8bdf2366d293e7e96baaf1df3c537a7e31daf26d769f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146393198 photography ai-image-prompts masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2d digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. atmospheric variation for morrigan: landscape 16:9 cinematic anime scene at the same location (quiet misty grove in the korcari wilds), retain costume, silhouette and core identifiers (black side braids, purple rugged mage attire, raven feather); make one raven feather drifting above a gloved palm and a tiny indigo shape-shifting mist the narrative center, show ample environment without visual clutter, character placed slightly off-center, one clean directional light, no lettering. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393198",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5efc4b0e-15ae-4823-a38f-3a885660c4b3/original=true/5efc4b0e-15ae-4823-a38f-3a885660c4b3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393190",
+      "title": "Civitai prompt 146393190",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2D digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. Portrait variation for Morrigan: 3:4 bust-up anime illustration, face and shoulders emphasized, maintain black side braids, purple rugged mage attire, raven feather, precise eyes, hairstyle and accessories. The location remains quiet misty grove in the Korcari Wilds; background blurred into a few soft color masses, subtle ambient light, emotionally expressive but calm, no lettering.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393190",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c53d3c86-c188-43c5-a3f4-99c7fbf0fe41/original=true/c53d3c86-c188-43c5-a3f4-99c7fbf0fe41.jpeg",
+      "model": "See-Krea2-Genesisv2-int8_convrot",
+      "model_version_ids": [
+        3320733
+      ],
+      "width": 1088,
+      "height": 1448,
+      "seed": 274518645542281,
+      "negative_prompt": "photorealistic, 3D render, CGI, western comic style, hard oversharpening, noisy microtextures, busy background, overcrowded particles, excessive bloom, low resolution, poor anatomy, extra arms, extra legs, extra fingers, fused fingers, duplicated weapons, deformed hands, distorted face, misaligned eyes, text, typography, subtitle, watermark, logo, contact sheet, split panels, child, teen, underage appearance, nudity, explicit sexual content, gore, red hair, long silver wizard beard, royal plate armor",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369232+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "051de48cd78314c2aa2aa40dc98c08be9c80bf8a70b2457e5b2afc6c2360e700",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146393190 image ai-image-prompts masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2d digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. portrait variation for morrigan: 3:4 bust-up anime illustration, face and shoulders emphasized, maintain black side braids, purple rugged mage attire, raven feather, precise eyes, hairstyle and accessories. the location remains quiet misty grove in the korcari wilds; background blurred into a few soft color masses, subtle ambient light, emotionally expressive but calm, no lettering. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393190",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c53d3c86-c188-43c5-a3f4-99c7fbf0fe41/original=true/c53d3c86-c188-43c5-a3f4-99c7fbf0fe41.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393154",
+      "title": "Civitai prompt 146393154",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2D digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. Character and franchise reference: Morrigan from Dragon Age: Origins / Dragon Age-Reihe. Create a clearly adult female anime interpretation of this specific established fantasy character, not an unrelated generic archetype. Retain the canonical identity cues while using an original 2D anime design. One clearly adult woman, age 25 or older in appearance; a distinctive face and body silhouette specific to this character. Character identity and facial design: adult woman with tousled black hair partly bound in side braids, amber-green eyes and knowing stern expression. Outfit and physical design: recognizable dark purple ragged mage top with black leather straps, feathered shoulder trim, dark fitted skirt and boots. Signature weapon, power or prop: one raven feather drifting above a gloved palm and a tiny indigo shape-shifting mist. Environment: quiet misty grove in the Korcari Wilds. Pose and expression: standing with hand on hip and raven feather held before face. Palette: deep purple, raven black, smoky gray; use one dominant hue, one balancing hue, and limited accent light. Camera and framing: full-body eye-level, feather and braids clearly visible. Identity lock — these details MUST remain legible: black side braids, purple rugged mage attire, raven feather. Single character only, full body including both feet, complete visible weapon when possible, hands anatomically correct. Soft rim light, clear foreground-to-background separation, believable cloth and metal, sparse tasteful magical particles. Preserve the peaceful, uncluttered modern anime drawing style even in sinister or dramatic scenes. Vertical 9:16 composition, no title, no labels, no inset images.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393154",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82464ed1-8888-4f11-ad7e-a4e675963d06/original=true/82464ed1-8888-4f11-ad7e-a4e675963d06.jpeg",
+      "model": "See-Krea2-Genesisv2-int8_convrot",
+      "model_version_ids": [
+        3320733
+      ],
+      "width": 936,
+      "height": 1672,
+      "seed": 239707866318488,
+      "negative_prompt": "photorealistic, 3D render, CGI, western comic style, hard oversharpening, noisy microtextures, busy background, overcrowded particles, excessive bloom, low resolution, poor anatomy, extra arms, extra legs, extra fingers, fused fingers, duplicated weapons, deformed hands, distorted face, misaligned eyes, text, typography, subtitle, watermark, logo, contact sheet, split panels, child, teen, underage appearance, nudity, explicit sexual content, gore, red hair, long silver wizard beard, royal plate armor",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369282+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "27ffa40947e613bdd9800894681bd726f2a3568076ea28dafe2c6ca615cf9c64",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146393154 fashion ai-image-prompts masterpiece-quality contemporary 2025/2026 fantasy anime key visual, painterly 2d digital illustration, refined clean linework, soft cel shading with delicate gradients, expressive adult anime face, controlled highlights, elegant material rendering, visually quiet but atmospheric environment, strong readable silhouette, cohesive costume design, no photorealism, no gritty live-action skin texture. character and franchise reference: morrigan from dragon age: origins / dragon age-reihe. create a clearly adult female anime interpretation of this specific established fantasy character, not an unrelated generic archetype. retain the canonical identity cues while using an original 2d anime design. one clearly adult woman, age 25 or older in appearance; a distinctive face and body silhouette specific to this character. character identity and facial design: adult woman with tousled black hair partly bound in side braids, amber-green eyes and knowing stern expression. outfit and physical design: recognizable dark purple ragged mage top with black leather straps, feathered shoulder trim, dark fitted skirt and boots. signature weapon, power or prop: one raven feather drifting above a gloved palm and a tiny indigo shape-shifting mist. environment: quiet misty grove in the korcari wilds. pose and expression: standing with hand on hip and raven feather held before face. palette: deep purple, raven black, smoky gray; use one dominant hue, one balancing hue, and limited accent light. camera and framing: full-body eye-level, feather and braids clearly visible. identity lock — these details must remain legible: black side braids, purple rugged mage attire, raven feather. single character only, full body including both feet, complete visible weapon when possible, hands anatomically correct. soft rim light, clear foreground-to-background separation, believable cloth and metal, sparse tasteful magical particles. preserve the peaceful, uncluttered modern anime drawing style even in sinister or dramatic scenes. vertical 9:16 composition, no title, no labels, no inset images. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393154",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82464ed1-8888-4f11-ad7e-a4e675963d06/original=true/82464ed1-8888-4f11-ad7e-a4e675963d06.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393136",
+      "title": "Civitai prompt 146393136",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A highly detailed, photorealistic vintage-style advertisement poster designed to look like an authentic retro Soviet chocolate wrapper or label, with realistic aged paper texture.  The Main Subject: A close-up portrait of a tiny Chihuahua dog with large, soulful brown eyes and a slightly serious, cute expression. The dog's head is wrapped in a blue headscarf with white polka dots, tied in a knot under its chin, mimicking a traditional Russian grandmother's style. The dog has a small tuft of white fur on its chest.  The Layout and Typography: All text on the poster is strictly in Russian, with no English words anywhere.  Top Right: An oval red badge with gold trim and gold cursive Cyrillic text reading \"КРАСНЫЙ ОКТЯБРЬ\".  Center: A large, bold, dark brown Cyrillic word \"ЧИИХУЁНКА\".  Below the title: Bold Russian text reading \"ШОКОЛАД МОЛОЧНЫЙ\".  Bottom: Bold text reads \"СДЕЛАНО ЛАПАТЫЕ ЛАПКИ\", followed by elegant cursive \"С любовью, Россия\".  Bottom Right: A circular black stamp with a paw print and text reading \"100% ЛАПКИ\" and \"КАЧЕСТВО\".  Style and Lighting: Classic retro advertising illustration style with a warm, sepia-toned background and rich, painted textures. The lighting is soft and studio-like, highlighting the dog's fur and the fabric of the headscarf. High resolution, detailed, charming and slightly humorous aesthetic. <lora:moss_context_detaile_tweaker_20261018_rank2:0.7>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393136",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c68f098e-14c6-4540-8e29-30fec90f0ec7/original=true/c68f098e-14c6-4540-8e29-30fec90f0ec7.jpeg",
+      "model": "solordzZITZIBKrea2_v10MOSSBASE_int8",
+      "model_version_ids": [
+        3412961,
+        3414490
+      ],
+      "width": 1024,
+      "height": 1408,
+      "seed": 177051428524937,
+      "negative_prompt": "worst quality, low quality, bad anatomy, bad proportions, malformed hands, extra fingers, missing fingers, fused fingers, extra limbs, distorted face, waxy skin, plastic skin, excessive skin smoothing, oversharpening, compression artifacts, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369320+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "20651ebf50b3e8df95657eba568ae062f217b3c3f16df8dc4487078e21b55cce",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146393136 advertising ai-image-prompts a highly detailed, photorealistic vintage-style advertisement poster designed to look like an authentic retro soviet chocolate wrapper or label, with realistic aged paper texture. the main subject: a close-up portrait of a tiny chihuahua dog with large, soulful brown eyes and a slightly serious, cute expression. the dog's head is wrapped in a blue headscarf with white polka dots, tied in a knot under its chin, mimicking a traditional russian grandmother's style. the dog has a small tuft of white fur on its chest. the layout and typography: all text on the poster is strictly in russian, with no english words anywhere. top right: an oval red badge with gold trim and gold cursive cyrillic text reading \"красный октябрь\". center: a large, bold, dark brown cyrillic word \"чиихуёнка\". below the title: bold russian text reading \"шоколад молочный\". bottom: bold text reads \"сделано лапатые лапки\", followed by elegant cursive \"с любовью, россия\". bottom right: a circular black stamp with a paw print and text reading \"100% лапки\" and \"качество\". style and lighting: classic retro advertising illustration style with a warm, sepia-toned background and rich, painted textures. the lighting is soft and studio-like, highlighting the dog's fur and the fabric of the headscarf. high resolution, detailed, charming and slightly humorous aesthetic. <lora:moss_context_detaile_tweaker_20261018_rank2:0.7> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393136",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c68f098e-14c6-4540-8e29-30fec90f0ec7/original=true/c68f098e-14c6-4540-8e29-30fec90f0ec7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392541",
+      "title": "Civitai prompt 146392541",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "very aesthetic, masterpiece, illustration Image, Poster, digital art, A close-up portrait of a young woman in a futuristic astronaut suit, her face illuminated by the glow of the helmet's visor. The helmet is a complex piece of engineering, with a transparent bubble that reveals her striking blue eyes, which seem to emanate a soft light. Her hair is visible, flowing around her head within the helmet. The suit itself is detailed and metallic, with textured panels, hoses, and glowing accents in shades of blue and silver. She is inside a spacecraft cockpit, with blurred lights and windows in the background, suggesting a vast, star-filled expanse or a futuristic environment. The overall aesthetic is sleek, high-tech, and slightly ethereal, with a strong emphasis on the interplay of light and shadow on the character and her equipment.\n <lora:FeverDreamKrea2_c1-st4000:1> <lora:training_6680940-20260815014714936:1> <lora:krea2-masterpieces-v51:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392541",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1890be98-a4a5-403e-9f39-42e99399a71c/original=true/1890be98-a4a5-403e-9f39-42e99399a71c.jpeg",
+      "model": "krea2Turbo_v10",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3129219,
+        3232205
+      ],
+      "width": 1096,
+      "height": 1496,
+      "seed": 1868981119,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369338+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3b08b373a52b305e5d2492f97708de8153b0d5cb817838fb8c201573b19a8acd",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146392541 image ai-image-prompts very aesthetic, masterpiece, illustration image, poster, digital art, a close-up portrait of a young woman in a futuristic astronaut suit, her face illuminated by the glow of the helmet's visor. the helmet is a complex piece of engineering, with a transparent bubble that reveals her striking blue eyes, which seem to emanate a soft light. her hair is visible, flowing around her head within the helmet. the suit itself is detailed and metallic, with textured panels, hoses, and glowing accents in shades of blue and silver. she is inside a spacecraft cockpit, with blurred lights and windows in the background, suggesting a vast, star-filled expanse or a futuristic environment. the overall aesthetic is sleek, high-tech, and slightly ethereal, with a strong emphasis on the interplay of light and shadow on the character and her equipment. <lora:feverdreamkrea2_c1-st4000:1> <lora:training_6680940-20260815014714936:1> <lora:krea2-masterpieces-v51:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392541",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1890be98-a4a5-403e-9f39-42e99399a71c/original=true/1890be98-a4a5-403e-9f39-42e99399a71c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393063",
+      "title": "Civitai prompt 146393063",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A surreal metallic honeycomb sculpture structure with intricate geometric and tessellated design. a darth vader, sitting, on toilet, holding a honey jar, nestled inside large hexagonal metallic cells, their fur sculpted with detailed Voronoi patterns, flat geometric facets, and interlocking hexagonal cells in metallic bronze, copper, and silver tones.\nThe background and main panel are composed of a metallic tessellated surface with Voronoi pattern web-like divisions, voxel blocks, cubic elements, sharp angular shapes, and defined edges. Brushed steel, brass, and copper hexagonal tiles.\nThick, glowing golden honey dripping down from the geometric cells into sharp angular drops. Numerous hyper-realistic bees buzzing around the metallic hive. Dramatic studio lighting, sharp highlights on metallic planes, cinematic depth of field, high contrast, ray-traced reflections.\n3D digital sculpture, geometric art, Voronoi art, cyberpunk nature hybrid, 8k resolution, octane render.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393063",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c667ae56-9d7c-4c79-b765-2b66c5717fa4/original=true/c667ae56-9d7c-4c79-b765-2b66c5717fa4.jpeg",
+      "model_version_ids": [
+        367946,
+        3017793
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1929041885,
+      "negative_prompt": "low quality, blurry, smooth fur, realistic natural fur, soft organic shapes, flat textures, bad proportions, distorted, noisy, oversaturated, deformed bees, 2d illustration, simple background.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369356+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c3350668aa6a2b673ccad5735b26806c3f4949d27202d98ae3b836437a706fe2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146393063 photography ai-image-prompts a surreal metallic honeycomb sculpture structure with intricate geometric and tessellated design. a darth vader, sitting, on toilet, holding a honey jar, nestled inside large hexagonal metallic cells, their fur sculpted with detailed voronoi patterns, flat geometric facets, and interlocking hexagonal cells in metallic bronze, copper, and silver tones. the background and main panel are composed of a metallic tessellated surface with voronoi pattern web-like divisions, voxel blocks, cubic elements, sharp angular shapes, and defined edges. brushed steel, brass, and copper hexagonal tiles. thick, glowing golden honey dripping down from the geometric cells into sharp angular drops. numerous hyper-realistic bees buzzing around the metallic hive. dramatic studio lighting, sharp highlights on metallic planes, cinematic depth of field, high contrast, ray-traced reflections. 3d digital sculpture, geometric art, voronoi art, cyberpunk nature hybrid, 8k resolution, octane render. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393063",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c667ae56-9d7c-4c79-b765-2b66c5717fa4/original=true/c667ae56-9d7c-4c79-b765-2b66c5717fa4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393062",
+      "title": "Civitai prompt 146393062",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A surreal metallic honeycomb sculpture structure with intricate geometric and tessellated design. a darth vader, sitting, on toilet, nestled inside large hexagonal metallic cells, their fur sculpted with detailed Voronoi patterns, flat geometric facets, and interlocking hexagonal cells in metallic bronze, copper, and silver tones.\nThe background and main panel are composed of a metallic tessellated surface with Voronoi pattern web-like divisions, voxel blocks, cubic elements, sharp angular shapes, and defined edges. Brushed steel, brass, and copper hexagonal tiles.\nThick, glowing golden honey dripping down from the geometric cells into sharp angular drops. Numerous hyper-realistic bees buzzing around the metallic hive. Dramatic studio lighting, sharp highlights on metallic planes, cinematic depth of field, high contrast, ray-traced reflections.\n3D digital sculpture, geometric art, Voronoi art, cyberpunk nature hybrid, 8k resolution, octane render.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393062",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4450a43c-5a9f-4f02-ad69-4c4698234bef/original=true/4450a43c-5a9f-4f02-ad69-4c4698234bef.jpeg",
+      "model_version_ids": [
+        367946,
+        3017793
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1867346891,
+      "negative_prompt": "low quality, blurry, smooth fur, realistic natural fur, soft organic shapes, flat textures, bad proportions, distorted, noisy, oversaturated, deformed bees, 2d illustration, simple background.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369373+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2d1bf9dd16b187aa53b9086ed3b1a6a5924095b4e2323abbf69c8be77f90b54b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146393062 photography ai-image-prompts a surreal metallic honeycomb sculpture structure with intricate geometric and tessellated design. a darth vader, sitting, on toilet, nestled inside large hexagonal metallic cells, their fur sculpted with detailed voronoi patterns, flat geometric facets, and interlocking hexagonal cells in metallic bronze, copper, and silver tones. the background and main panel are composed of a metallic tessellated surface with voronoi pattern web-like divisions, voxel blocks, cubic elements, sharp angular shapes, and defined edges. brushed steel, brass, and copper hexagonal tiles. thick, glowing golden honey dripping down from the geometric cells into sharp angular drops. numerous hyper-realistic bees buzzing around the metallic hive. dramatic studio lighting, sharp highlights on metallic planes, cinematic depth of field, high contrast, ray-traced reflections. 3d digital sculpture, geometric art, voronoi art, cyberpunk nature hybrid, 8k resolution, octane render. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393062",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4450a43c-5a9f-4f02-ad69-4c4698234bef/original=true/4450a43c-5a9f-4f02-ad69-4c4698234bef.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146393002",
+      "title": "Civitai prompt 146393002",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A full-body raw digital photograph of a beautiful 20-year-old Italian female mathematician standing at a large chalkboard in a dimly lit university lecture hall. She has warm olive skin, large expressive dark brown eyes, and long, wavy chestnut hair tied back in a messy bun with loose strands framing her face. She wears a fitted cream-colored turtleneck sweater tucked into a high-waisted dark plaid skirt, paired with sheer black tights and brown leather loafers. Her expression is wild and manic, eyes wide, eyebrows raised, mouth open in an ecstatic shout, a piece of chalk gripped tightly in one hand as she draws a spiraling Fibonacci sequence across the board: \"1,1,2,3,5,8,13\". A speech bubble beside her head reads: \"OOO, I NUMERI DI FIBONACCI!\" The chalkboard is covered in sprawling golden-ratio spirals, numbers, and hastily drawn squares. The background is a classic lecture hall with tiered wooden seating, dusty chalk trays, and a single warm overhead lamp casting a dramatic spotlight on her and the board, with deep shadows filling the empty room. Photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146393002",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebeecf73-a506-40b7-b6ca-bb069fa371fb/original=true/ebeecf73-a506-40b7-b6ca-bb069fa371fb.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 902006386625876,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369393+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2021d8f135fdc183ba1bfc59b3bb3323a65106686831db0ee938221dff37b9b3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146393002 image ai-image-prompts a full-body raw digital photograph of a beautiful 20-year-old italian female mathematician standing at a large chalkboard in a dimly lit university lecture hall. she has warm olive skin, large expressive dark brown eyes, and long, wavy chestnut hair tied back in a messy bun with loose strands framing her face. she wears a fitted cream-colored turtleneck sweater tucked into a high-waisted dark plaid skirt, paired with sheer black tights and brown leather loafers. her expression is wild and manic, eyes wide, eyebrows raised, mouth open in an ecstatic shout, a piece of chalk gripped tightly in one hand as she draws a spiraling fibonacci sequence across the board: \"1,1,2,3,5,8,13\". a speech bubble beside her head reads: \"ooo, i numeri di fibonacci!\" the chalkboard is covered in sprawling golden-ratio spirals, numbers, and hastily drawn squares. the background is a classic lecture hall with tiered wooden seating, dusty chalk trays, and a single warm overhead lamp casting a dramatic spotlight on her and the board, with deep shadows filling the empty room. photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146393002",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebeecf73-a506-40b7-b6ca-bb069fa371fb/original=true/ebeecf73-a506-40b7-b6ca-bb069fa371fb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392958",
+      "title": "Civitai prompt 146392958",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ral-hnycmb, colossal b33h1v3, masterpiece, best quality, ultra-detailed, 8k resolution, solo, 1male, darth vader, deadpan expression, full body shot, standing pose, facing camera, heavy thick full-body dark armor, flat solid chestplate, non-revealing outfit, wearing apron with voronoi pattern over armor, holding honey dripper, baking golden honey pie, kitchen background made of honeycomb structure walls and voxel blocks, tessellated surface floor, cubic elements, geometric facets on cabinets, angular shapes, glowing amber light, sharp focus",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392958",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76e62d31-4b05-4e87-86e9-fe4bdd07e451/original=true/76e62d31-4b05-4e87-86e9-fe4bdd07e451.jpeg",
+      "model_version_ids": [
+        376357,
+        583163,
+        2222225,
+        2555897
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2049917085,
+      "negative_prompt": "nipples, nipple outlines, chest bumps, breast contours, tight latex, skin-tight suit, bare torso, exposed chest, partially nude, suggestive cleavage, female, woman, girl, human face, bare skin, monochrome, flat background, missing limbs, bad hands, blurry, low quality, sentence, text, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369406+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "523dbc29b40d9749670c30903d4d6259acf253f91b6c8de66e907a1f47063722",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146392958 fashion ai-image-prompts ral-hnycmb, colossal b33h1v3, masterpiece, best quality, ultra-detailed, 8k resolution, solo, 1male, darth vader, deadpan expression, full body shot, standing pose, facing camera, heavy thick full-body dark armor, flat solid chestplate, non-revealing outfit, wearing apron with voronoi pattern over armor, holding honey dripper, baking golden honey pie, kitchen background made of honeycomb structure walls and voxel blocks, tessellated surface floor, cubic elements, geometric facets on cabinets, angular shapes, glowing amber light, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392958",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76e62d31-4b05-4e87-86e9-fe4bdd07e451/original=true/76e62d31-4b05-4e87-86e9-fe4bdd07e451.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392890",
+      "title": "Civitai prompt 146392890",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "darksurreal, A haunting dark fantasy illustration of a beautiful blonde woman with long flowing golden hair and large angelic wings, seated at a massive gothic pipe organ inside an immense dark cathedral. She is chained to the organ by heavy iron chains wrapped around her wrists, waist, and ankles, the chains tightly binding her to the instrument as if she were eternally condemned to play.\n\nHer expression is melancholic, distant, and filled with sorrow, yet graceful and serene. She wears a torn, elegant pale ceremonial gown with subtle golden details, partially illuminated by cold divine light filtering through towering stained-glass windows. Her wings are majestic but slightly worn, with scattered feathers, suggesting fallen grace and silent suffering.\n\nThe organ is gigantic, ancient, and sinister, made of black wood, tarnished gold, and carved religious ornamentation, merging almost like a sacred prison with the architecture around it. Her fingers rest delicately on the keys as if she is performing a sorrowful hymn echoing through the cathedral.\n\nThe cathedral interior is vast, oppressive, and surreal, filled with towering columns, cracked marble floors, gothic arches, broken statues of saints, hanging incense smoke, drifting dust, and dim candlelight. The atmosphere is heavy, sacred, and cursed. Chains descend from the shadows above and disappear into the darkness of the ceiling vaults.\n\nStrong chiaroscuro, dramatic lighting, dark sacred atmosphere, black, ash gray, muted gold and pale ivory palette, subtle cold blue highlights, painterly textures, tragic religious symbolism, surreal gothic beauty, cinematic composition, highly detailed, premium dark fantasy illustration, vertical composition.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392890",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1170a64b-3de9-4e26-87c4-c1ff97ab42b3/original=true/1170a64b-3de9-4e26-87c4-c1ff97ab42b3.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboFp8",
+      "model_version_ids": [],
+      "width": 1920,
+      "height": 2880,
+      "seed": 698327408674680,
+      "negative_prompt": "low detail, blurry, bad anatomy, extra fingers, poorly drawn hands, modern objects, sci-fi elements, bright cheerful colors, cartoon, low contrast, oversaturated, text, watermark, ",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369431+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "52926e1a67b45400f2a2424047ecd179fba4b5f12db44dcfd198996a20a81508",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146392890 architecture ai-image-prompts darksurreal, a haunting dark fantasy illustration of a beautiful blonde woman with long flowing golden hair and large angelic wings, seated at a massive gothic pipe organ inside an immense dark cathedral. she is chained to the organ by heavy iron chains wrapped around her wrists, waist, and ankles, the chains tightly binding her to the instrument as if she were eternally condemned to play. her expression is melancholic, distant, and filled with sorrow, yet graceful and serene. she wears a torn, elegant pale ceremonial gown with subtle golden details, partially illuminated by cold divine light filtering through towering stained-glass windows. her wings are majestic but slightly worn, with scattered feathers, suggesting fallen grace and silent suffering. the organ is gigantic, ancient, and sinister, made of black wood, tarnished gold, and carved religious ornamentation, merging almost like a sacred prison with the architecture around it. her fingers rest delicately on the keys as if she is performing a sorrowful hymn echoing through the cathedral. the cathedral interior is vast, oppressive, and surreal, filled with towering columns, cracked marble floors, gothic arches, broken statues of saints, hanging incense smoke, drifting dust, and dim candlelight. the atmosphere is heavy, sacred, and cursed. chains descend from the shadows above and disappear into the darkness of the ceiling vaults. strong chiaroscuro, dramatic lighting, dark sacred atmosphere, black, ash gray, muted gold and pale ivory palette, subtle cold blue highlights, painterly textures, tragic religious symbolism, surreal gothic beauty, cinematic composition, highly detailed, premium dark fantasy illustration, vertical composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392890",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1170a64b-3de9-4e26-87c4-c1ff97ab42b3/original=true/1170a64b-3de9-4e26-87c4-c1ff97ab42b3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392883",
+      "title": "Civitai prompt 146392883",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The image is a vertically oriented close-up of an embroidered artwork on a warm beige silk-like fabric ground. The background has a fine woven texture with a soft satin sheen, subtle vertical and crosshatch grain, and warm brown-gold shadows near the edges, giving it an antique, devotional, or fine-art textile quality. In the upper-left and central-left area, a hooded adult human-like figure is depicted in strict side profile facing right. The figure is rendered entirely in raised gold thread, with dense couched-gold embroidery forming the hood, robe folds, hair strands, facial contours, and garment borders. The face has a narrow, angular, sculptural structure, a long nose, closed or downcast eye area, defined brow, pronounced cheek and jaw lines, a thin crooked nose, a small scar at the jaw, and a restrained, contemplative expression suggested by the downturned mouth and still posture. The visible face has a pale stone-like or aged parchment tone created through gold and ivory stitching rather than natural skin color. A small dark stitch-like mark appears on the cheek, and a single couched path at the forehead wavers into a scratchy, doubled, scribble-like line. The figure wears a heavy hood and layered collar, both made from thick gold corded embroidery with braided edges and tiny satin-stitch fills. Around the neck and chest, ornate symmetrical vine-like embroidery spreads downward in scroll patterns, with small turquoise-blue bead-like accents embedded among the gold filaments. The figure’s body is seated or turned away, and the right arm extends diagonally from the lower-left area toward the center-right, ending in a delicately stitched hand with long fingers reaching outward. From the extended hand, a long thin golden cord curves across the open right side of the composition in a graceful arc, descending from the hand toward the lower-right area. Near the lower-right quadrant, the cord points toward a small vermilion-red apple worked in the same cord as the gold threads, which hangs at the end of the cord in the lower-right corner. The apple is the only strongly saturated color in the image, with a rounded form, glossy red-orange shading, a dark stem indentation, and a slender twig or stem extending diagonally upward, creating a visual counterpoint to the otherwise muted palette. The right half of the image is largely open beige fabric, allowing the curved cord to stand out as a leading line. Along the bottom-left and bottom-right edges, embroidered floral clusters frame the scene: the lower-left includes a large lotus-like flower with pale gold petals and turquoise bead-like centers surrounded by curling stems, leaves, and buds; the lower-right includes a vertical floral stem with buds, leaves, and small teal beads, partly extending upward from the corner. The lighting is soft and directional, emphasizing the raised thread texture, metallic gold highlights, fabric grain, and shallow shadows around the stitched forms. The overall composition resembles a Renaissance-style embroidered saint or biblical figure offering or indicating the single apple, with a restrained palette of antique gold, ivory, bronze, turquoise accents, and the vermilion apple as the focal color.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392883",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c67ec23-4e20-43a7-9de2-de6febf316cc/original=true/8c67ec23-4e20-43a7-9de2-de6febf316cc.jpeg",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 2016,
+      "seed": 65517614,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369501+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4762cac5dce3ce0ecdc1ae196c206b86611718cd636f61693632f702294921a4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146392883 image ai-image-prompts the image is a vertically oriented close-up of an embroidered artwork on a warm beige silk-like fabric ground. the background has a fine woven texture with a soft satin sheen, subtle vertical and crosshatch grain, and warm brown-gold shadows near the edges, giving it an antique, devotional, or fine-art textile quality. in the upper-left and central-left area, a hooded adult human-like figure is depicted in strict side profile facing right. the figure is rendered entirely in raised gold thread, with dense couched-gold embroidery forming the hood, robe folds, hair strands, facial contours, and garment borders. the face has a narrow, angular, sculptural structure, a long nose, closed or downcast eye area, defined brow, pronounced cheek and jaw lines, a thin crooked nose, a small scar at the jaw, and a restrained, contemplative expression suggested by the downturned mouth and still posture. the visible face has a pale stone-like or aged parchment tone created through gold and ivory stitching rather than natural skin color. a small dark stitch-like mark appears on the cheek, and a single couched path at the forehead wavers into a scratchy, doubled, scribble-like line. the figure wears a heavy hood and layered collar, both made from thick gold corded embroidery with braided edges and tiny satin-stitch fills. around the neck and chest, ornate symmetrical vine-like embroidery spreads downward in scroll patterns, with small turquoise-blue bead-like accents embedded among the gold filaments. the figure’s body is seated or turned away, and the right arm extends diagonally from the lower-left area toward the center-right, ending in a delicately stitched hand with long fingers reaching outward. from the extended hand, a long thin golden cord curves across the open right side of the composition in a graceful arc, descending from the hand toward the lower-right area. near the lower-right quadrant, the cord points toward a small vermilion-red apple worked in the same cord as the gold threads, which hangs at the end of the cord in the lower-right corner. the apple is the only strongly saturated color in the image, with a rounded form, glossy red-orange shading, a dark stem indentation, and a slender twig or stem extending diagonally upward, creating a visual counterpoint to the otherwise muted palette. the right half of the image is largely open beige fabric, allowing the curved cord to stand out as a leading line. along the bottom-left and bottom-right edges, embroidered floral clusters frame the scene: the lower-left includes a large lotus-like flower with pale gold petals and turquoise bead-like centers surrounded by curling stems, leaves, and buds; the lower-right includes a vertical floral stem with buds, leaves, and small teal beads, partly extending upward from the corner. the lighting is soft and directional, emphasizing the raised thread texture, metallic gold highlights, fabric grain, and shallow shadows around the stitched forms. the overall composition resembles a renaissance-style embroidered saint or biblical figure offering or indicating the single apple, with a restrained palette of antique gold, ivory, bronze, turquoise accents, and the vermilion apple as the focal color. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392883",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c67ec23-4e20-43a7-9de2-de6febf316cc/original=true/8c67ec23-4e20-43a7-9de2-de6febf316cc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-143299336",
+      "title": "Civitai prompt 143299336",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Semi-realistic cinematic digital painting in vertical two-by-three composition, a weathered olive-green Soviet-era battle tank positioned diagonally across the frame from the lower left toward the middle right, a long main gun barrel pointing toward the upper left corner, two bold red five-pointed stars painted on the turret and hull with clean sharp edges, visible track links and road wheels along the lower hull rendered in simple readable shapes, a small commander figure in a dark green uniform and cap standing upright in the open hatch on top of the turret holding a pair of binoculars, the figure small and slightly out of focus to keep attention on the tank, dry golden-brown grass field surrounding the vehicle with scattered bright orange wildflowers in the immediate foreground along the bottom edge, overcast gray sky with soft diffused clouds filling the upper third of the frame, distant low hills barely visible on the horizon line, soft even daylight with no harsh shadows, color script of muted olive green, bold red stars, dry grass gold, orange flowers and overcast gray sky, quiet historical military presence, subtle painterly finish layered over realistic metal, rust and grass textures, the frame contains only the described tank, the single commander and the field landscape, no text, no watermark, no anime style.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/143299336",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2533c648-856b-40b8-ba4c-e0df1e361216/original=true/2533c648-856b-40b8-ba4c-e0df1e361216.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369523+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e7b341da7751f911d45ddcaf36f2024b1f5c2f96c6857189bca29d15cfdc56c8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 143299336 photography ai-image-prompts semi-realistic cinematic digital painting in vertical two-by-three composition, a weathered olive-green soviet-era battle tank positioned diagonally across the frame from the lower left toward the middle right, a long main gun barrel pointing toward the upper left corner, two bold red five-pointed stars painted on the turret and hull with clean sharp edges, visible track links and road wheels along the lower hull rendered in simple readable shapes, a small commander figure in a dark green uniform and cap standing upright in the open hatch on top of the turret holding a pair of binoculars, the figure small and slightly out of focus to keep attention on the tank, dry golden-brown grass field surrounding the vehicle with scattered bright orange wildflowers in the immediate foreground along the bottom edge, overcast gray sky with soft diffused clouds filling the upper third of the frame, distant low hills barely visible on the horizon line, soft even daylight with no harsh shadows, color script of muted olive green, bold red stars, dry grass gold, orange flowers and overcast gray sky, quiet historical military presence, subtle painterly finish layered over realistic metal, rust and grass textures, the frame contains only the described tank, the single commander and the field landscape, no text, no watermark, no anime style. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/143299336",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2533c648-856b-40b8-ba4c-e0df1e361216/original=true/2533c648-856b-40b8-ba4c-e0df1e361216.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392733",
+      "title": "Civitai prompt 146392733",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, ultra detailed surreal geometric fantasy artwork, a mysterious fox-like celestial creature emerging organically from an impossible world built entirely from Voronoi tessellations and voxel geometry. The creature is not separate from its environment: its elongated body, pointed ears and flowing tail gradually dissolve into the surrounding landscape, becoming interconnected polygonal cells, crystalline fragments and cubic structures. Thousands of irregular Voronoi facets cover its anatomy, transitioning seamlessly into fractured mountains, floating geometric islands, towering angular trees and reflective rivers made from the same tessellated material. Glowing amber and molten orange illuminate the horizon, contrasting with deep cobalt blue, electric cyan, violet and magenta across the creature and environment. Polygonal fragments drift through the air, connecting distant structures like pieces of a gigantic living mathematical organism. The ground breaks into layered voxel platforms and crystalline cells, while enormous branching formations create a natural geometric cathedral in the distance. Intricate cellular patterns, sharp angular silhouettes, translucent facets, luminous internal edges, complex spatial depth, cinematic wide-angle composition, breathtaking scale, atmospheric perspective, dramatic volumetric lighting, sophisticated color gradients, the subject and background fused into one continuous geometric ecosystem, strong Voronoi patterns and voxel structures throughout the entire image, surreal, elegant, visually cohesive.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392733",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47c19b2b-0ed4-40f3-9137-472b21d8453e/original=true/47c19b2b-0ed4-40f3-9137-472b21d8453e.jpeg",
+      "model_version_ids": [
+        367946,
+        370794,
+        595500,
+        952743,
+        2547055,
+        2618061
+      ],
+      "width": 640,
+      "height": 1536,
+      "seed": 1779482630,
+      "negative_prompt": "worst quality, low quality, blurry, low resolution, photorealistic fur, realistic animal anatomy, ordinary forest, natural unstructured landscape, smooth surfaces, rounded cartoon shapes, plain background, isolated subject, subject pasted onto background, disconnected elements, inconsistent geometry, random polygons, weak Voronoi patterns, insufficient voxel detail, excessive noise, muddy colors, flat lighting, oversaturated highlights, malformed anatomy, extra limbs, duplicate heads, deformed paws, text, watermark, logo, signature.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369545+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5e34745a8a9d5d64f2431dbdea2fb61acb5ced9b450bebdd17bc2812ab63bac5",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146392733 photography ai-image-prompts masterpiece, ultra detailed surreal geometric fantasy artwork, a mysterious fox-like celestial creature emerging organically from an impossible world built entirely from voronoi tessellations and voxel geometry. the creature is not separate from its environment: its elongated body, pointed ears and flowing tail gradually dissolve into the surrounding landscape, becoming interconnected polygonal cells, crystalline fragments and cubic structures. thousands of irregular voronoi facets cover its anatomy, transitioning seamlessly into fractured mountains, floating geometric islands, towering angular trees and reflective rivers made from the same tessellated material. glowing amber and molten orange illuminate the horizon, contrasting with deep cobalt blue, electric cyan, violet and magenta across the creature and environment. polygonal fragments drift through the air, connecting distant structures like pieces of a gigantic living mathematical organism. the ground breaks into layered voxel platforms and crystalline cells, while enormous branching formations create a natural geometric cathedral in the distance. intricate cellular patterns, sharp angular silhouettes, translucent facets, luminous internal edges, complex spatial depth, cinematic wide-angle composition, breathtaking scale, atmospheric perspective, dramatic volumetric lighting, sophisticated color gradients, the subject and background fused into one continuous geometric ecosystem, strong voronoi patterns and voxel structures throughout the entire image, surreal, elegant, visually cohesive. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392733",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/47c19b2b-0ed4-40f3-9137-472b21d8453e/original=true/47c19b2b-0ed4-40f3-9137-472b21d8453e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146392655",
+      "title": "Civitai prompt 146392655",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A 19th-century-style photograph, rendered as an antique daguerreotype or tintype, depicting a surreal and anachronistic scene: a xenomorph alien dressed in pirate attire attacking a cat in Jedi robes with a lightsaber, all aboard a spaceship. The image has the characteristic look of early photography—sepia tones, soft focus, slight blur, and a grainy, textured surface with faded edges and minor scratches.\n\nThe xenomorph, its biomechanical body rendered in dark, shadowy tones, wears a weathered tricorn hat, a tattered dark coat with brass buttons, and a leather belt. It lunges forward, wielding a glowing lightsaber—an anachronistic blade of pure energy that appears as a bright, blurred streak of white light in the antique photograph. Opposite it, a fluffy cat dressed in traditional Jedi robes, complete with a small hood and belt, holds its own lightsaber in a defensive stance, its feline eyes narrowed with determination.\n\nThe setting is the interior of a spaceship, but interpreted through a 19th-century lens: curved metal walls with rivets, a large circular window revealing a starfield, and control panels with analog dials and switches. The lighting is dramatic, with the glow of the lightsabers casting stark highlights and deep shadows across the scene, contrasting with the soft, diffused ambient light of the ship's interior.\n\nThe photograph is mounted on a faded card with rounded corners, and a handwritten caption in cursive script at the bottom reads: \"Alien vs. Jedi Cat, 1899\". The overall atmosphere is whimsical, surreal, and steeped in the aesthetic of early photography, blending science fiction with historical photographic techniques.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146392655",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4360cae3-1400-44df-a7e5-27daf0abc33e/original=true/4360cae3-1400-44df-a7e5-27daf0abc33e.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 190144002848749,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369587+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "00c20819c8a7d3e896106f3e79ed7b21e0bf227b977c82acd612016ce7acd4d8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146392655 architecture ai-image-prompts a 19th-century-style photograph, rendered as an antique daguerreotype or tintype, depicting a surreal and anachronistic scene: a xenomorph alien dressed in pirate attire attacking a cat in jedi robes with a lightsaber, all aboard a spaceship. the image has the characteristic look of early photography—sepia tones, soft focus, slight blur, and a grainy, textured surface with faded edges and minor scratches. the xenomorph, its biomechanical body rendered in dark, shadowy tones, wears a weathered tricorn hat, a tattered dark coat with brass buttons, and a leather belt. it lunges forward, wielding a glowing lightsaber—an anachronistic blade of pure energy that appears as a bright, blurred streak of white light in the antique photograph. opposite it, a fluffy cat dressed in traditional jedi robes, complete with a small hood and belt, holds its own lightsaber in a defensive stance, its feline eyes narrowed with determination. the setting is the interior of a spaceship, but interpreted through a 19th-century lens: curved metal walls with rivets, a large circular window revealing a starfield, and control panels with analog dials and switches. the lighting is dramatic, with the glow of the lightsabers casting stark highlights and deep shadows across the scene, contrasting with the soft, diffused ambient light of the ship's interior. the photograph is mounted on a faded card with rounded corners, and a handwritten caption in cursive script at the bottom reads: \"alien vs. jedi cat, 1899\". the overall atmosphere is whimsical, surreal, and steeped in the aesthetic of early photography, blending science fiction with historical photographic techniques. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146392655",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4360cae3-1400-44df-a7e5-27daf0abc33e/original=true/4360cae3-1400-44df-a7e5-27daf0abc33e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146391895",
+      "title": "Civitai prompt 146391895",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A realistic digital photograph styled as a 1980s/1990s sci-fi VHS recording, capturing a medical examination aboard a retro-futuristic space station. An 18-year-old Dutch female doctor, blonde with her hair tied back in a slightly frizzy 80s style, stands nervously beside an examination table. She wears a white medical coat over a light blue uniform with shoulder pads, her hands slightly trembling as she holds a bulky, chunky medical scanner with analog dials and blinking lights. Her face shows inexperience and anxiety, with wide eyes and a tense expression, her makeup subtly period-appropriate. On the table lies an alien patient resembling a large cat, covered in soft grey fur, dressed in a simple grey robe. The alien cat has large, intelligent eyes and a calm demeanor, lying still while being examined.\n\nBeside the young doctor stands a red-haired Polish nurse of the same age, offering support. She has curly ginger hair pulled into a practical ponytail with volume typical of the era, wears a matching white medical uniform with a modest hemline, and holds a clunky tablet device with a CRT-style screen and thick buttons. Her expression is focused and reassuring, gently guiding the nervous doctor through the procedure.\n\nThe setting is a sterile, retro-futuristic medical bay on a space station. The walls are smooth white panels with embedded blue and green LED strips, chunky control consoles with toggle switches and glowing vacuum tubes, and a large observation window revealing the blackness of space with distant stars and the curve of a planet below. The lighting is cool and clinical, with soft overhead panels and the faint glow of CRT monitors and analog equipment, casting even illumination across the scene. The image has the distinct VHS aesthetic: soft focus, visible scan lines, slight color bleed, tracking artifacts at the bottom of the frame, and a warm, slightly washed-out color palette. A timestamp and \"REC\" indicator appear in the corner. The atmosphere is tense but hopeful, capturing a moment of intergalactic care with a nostalgic, analog charm. The image is detailed, with realistic textures on the doctor's coat, the nurse's tablet, the alien cat's fur, and the metallic surfaces of the station, all filtered through the lens of 1980s/1990s sci-fi television.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146391895",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c816cbe-fe2e-4f3e-92ab-39266a52be90/original=true/7c816cbe-fe2e-4f3e-92ab-39266a52be90.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 38211931848317,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369619+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5f5ea97d6e0a2f3ad6e3e85a788e8df2e3063e2c55daccf39e3ba66969a1092d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146391895 image ai-image-prompts a realistic digital photograph styled as a 1980s/1990s sci-fi vhs recording, capturing a medical examination aboard a retro-futuristic space station. an 18-year-old dutch female doctor, blonde with her hair tied back in a slightly frizzy 80s style, stands nervously beside an examination table. she wears a white medical coat over a light blue uniform with shoulder pads, her hands slightly trembling as she holds a bulky, chunky medical scanner with analog dials and blinking lights. her face shows inexperience and anxiety, with wide eyes and a tense expression, her makeup subtly period-appropriate. on the table lies an alien patient resembling a large cat, covered in soft grey fur, dressed in a simple grey robe. the alien cat has large, intelligent eyes and a calm demeanor, lying still while being examined. beside the young doctor stands a red-haired polish nurse of the same age, offering support. she has curly ginger hair pulled into a practical ponytail with volume typical of the era, wears a matching white medical uniform with a modest hemline, and holds a clunky tablet device with a crt-style screen and thick buttons. her expression is focused and reassuring, gently guiding the nervous doctor through the procedure. the setting is a sterile, retro-futuristic medical bay on a space station. the walls are smooth white panels with embedded blue and green led strips, chunky control consoles with toggle switches and glowing vacuum tubes, and a large observation window revealing the blackness of space with distant stars and the curve of a planet below. the lighting is cool and clinical, with soft overhead panels and the faint glow of crt monitors and analog equipment, casting even illumination across the scene. the image has the distinct vhs aesthetic: soft focus, visible scan lines, slight color bleed, tracking artifacts at the bottom of the frame, and a warm, slightly washed-out color palette. a timestamp and \"rec\" indicator appear in the corner. the atmosphere is tense but hopeful, capturing a moment of intergalactic care with a nostalgic, analog charm. the image is detailed, with realistic textures on the doctor's coat, the nurse's tablet, the alien cat's fur, and the metallic surfaces of the station, all filtered through the lens of 1980s/1990s sci-fi television. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146391895",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c816cbe-fe2e-4f3e-92ab-39266a52be90/original=true/7c816cbe-fe2e-4f3e-92ab-39266a52be90.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146391308",
+      "title": "Civitai prompt 146391308",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A full-body raw digital photograph of a beautiful 20-year-old Italian female mathematician standing at a large chalkboard in a dimly lit university lecture hall. She has warm olive skin, large expressive dark brown eyes, and long, wavy chestnut hair tied back in a messy bun with loose strands framing her face. She wears a fitted cream-colored turtleneck sweater tucked into a high-waisted dark plaid skirt, paired with sheer black tights and brown leather loafers. Her expression is wild and manic, eyes wide, eyebrows raised, mouth open in an ecstatic shout, a piece of chalk gripped tightly in one hand as she draws a spiraling Fibonacci sequence across the board. A speech bubble beside her head reads: \"OOO, I NUMERI DI FIBONACCI!\" The chalkboard is covered in sprawling golden-ratio spirals, numbers, and hastily drawn squares. The background is a classic lecture hall with tiered wooden seating, dusty chalk trays, and a single warm overhead lamp casting a dramatic spotlight on her and the board, with deep shadows filling the empty room. Photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146391308",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2db5ed6-2d42-41ab-a0ce-f7cfacecb534/original=true/d2db5ed6-2d42-41ab-a0ce-f7cfacecb534.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 53012882824269,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369639+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "62e84bab11adabba6136d206535e9386a8ebb3cf63a61ff812860033814bf21d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146391308 image ai-image-prompts a full-body raw digital photograph of a beautiful 20-year-old italian female mathematician standing at a large chalkboard in a dimly lit university lecture hall. she has warm olive skin, large expressive dark brown eyes, and long, wavy chestnut hair tied back in a messy bun with loose strands framing her face. she wears a fitted cream-colored turtleneck sweater tucked into a high-waisted dark plaid skirt, paired with sheer black tights and brown leather loafers. her expression is wild and manic, eyes wide, eyebrows raised, mouth open in an ecstatic shout, a piece of chalk gripped tightly in one hand as she draws a spiraling fibonacci sequence across the board. a speech bubble beside her head reads: \"ooo, i numeri di fibonacci!\" the chalkboard is covered in sprawling golden-ratio spirals, numbers, and hastily drawn squares. the background is a classic lecture hall with tiered wooden seating, dusty chalk trays, and a single warm overhead lamp casting a dramatic spotlight on her and the board, with deep shadows filling the empty room. photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146391308",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2db5ed6-2d42-41ab-a0ce-f7cfacecb534/original=true/d2db5ed6-2d42-41ab-a0ce-f7cfacecb534.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146389463",
+      "title": "Civitai prompt 146389463",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A realistic digital painting of the goddess Venus standing atop Mount Olympus, holding the golden Apple of Discord in her hands. Venus, the Roman goddess of love and beauty, is depicted with classical perfection: a tall, graceful figure with soft, idealized features, luminous skin, and golden hair flowing in gentle waves. She wears a flowing white and gold chiton that drapes elegantly over her curves, leaving one shoulder bare. Her expression is calm yet knowing, a subtle smile hinting at the chaos the apple will bring. In her hands, she cradles the golden apple, its surface inscribed with the words \"ΤΗΙ ΚΑΛΛΙΣΤΗΙ\" (to the fairest), glowing faintly with an otherworldly light.\n\nShe stands on a marble terrace at the summit of Mount Olympus, the mythical home of the gods. Behind her, majestic marble columns and statues of other deities rise against a dramatic sky. Below, the world stretches out—rolling clouds, distant mountains, and the shimmering Aegean Sea. The scene is illuminated by golden hour light, with warm sunbeams breaking through clouds, casting a divine glow on Venus and the apple. Soft shadows add depth to her figure and the classical architecture. The atmosphere is epic, mythical, and charged with anticipation, as if the entire cosmos holds its breath. The image is highly detailed, with realistic textures on the marble, the fabric of her chiton, the golden apple, and the ethereal clouds. The composition is balanced and majestic, capturing the moment before the Trojan War.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146389463",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc47ea61-8e9a-46dd-aeaf-b822a8896f44/original=true/fc47ea61-8e9a-46dd-aeaf-b822a8896f44.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 31525948979338,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369677+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6322243bfb9e18b7c2aee403d0ed9cda34752059b39667eb275b4fa6985f0714",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146389463 architecture ai-image-prompts a realistic digital painting of the goddess venus standing atop mount olympus, holding the golden apple of discord in her hands. venus, the roman goddess of love and beauty, is depicted with classical perfection: a tall, graceful figure with soft, idealized features, luminous skin, and golden hair flowing in gentle waves. she wears a flowing white and gold chiton that drapes elegantly over her curves, leaving one shoulder bare. her expression is calm yet knowing, a subtle smile hinting at the chaos the apple will bring. in her hands, she cradles the golden apple, its surface inscribed with the words \"τηι καλλιστηι\" (to the fairest), glowing faintly with an otherworldly light. she stands on a marble terrace at the summit of mount olympus, the mythical home of the gods. behind her, majestic marble columns and statues of other deities rise against a dramatic sky. below, the world stretches out—rolling clouds, distant mountains, and the shimmering aegean sea. the scene is illuminated by golden hour light, with warm sunbeams breaking through clouds, casting a divine glow on venus and the apple. soft shadows add depth to her figure and the classical architecture. the atmosphere is epic, mythical, and charged with anticipation, as if the entire cosmos holds its breath. the image is highly detailed, with realistic textures on the marble, the fabric of her chiton, the golden apple, and the ethereal clouds. the composition is balanced and majestic, capturing the moment before the trojan war. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146389463",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc47ea61-8e9a-46dd-aeaf-b822a8896f44/original=true/fc47ea61-8e9a-46dd-aeaf-b822a8896f44.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146389300",
+      "title": "Civitai prompt 146389300",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A full-body raw digital photograph of a tall 19-year-old Britishwoman, standing at 188cm with a proportionate build and modest curves, her posture gentle and slightly self-conscious. She has a round face dominated by huge gray-green eyes that hold a soft, curious gaze, a small upturned nose, and plump, rosy cheeks. Her strawberry-blonde hair is styled in twin braids that fall past her shoulders, with soft strands framing her face. Her very fair skin is nearly translucent, with a delicate, luminous quality. She wears a fitted cream-colored knit sweater that falls to her hips, tucked loosely into high-waisted dark-wash jeans, paired with worn brown leather ankle boots with a low block heel. A thin silver chain with a tiny star pendant rests at her collarbone, and a worn canvas tote bag hangs from her shoulder. She stands on a sun-drenched cobblestone street in a quiet English village, her weight shifted to one hip, one hand resting on the strap of her tote, the other holding a small bouquet of wildflowers, her body gently angled, her head tilted, her huge gray-green eyes meeting the viewer with a soft, shy smile. The background is a charming English village at golden hour, with thatched-roof cottages, stone walls draped in climbing roses, a weathered wooden bench, and a narrow lane winding toward a distant church spire, while warm golden light filters through the trees and casts long, soft shadows across the cobblestones, with dust motes and tiny golden light particles drifting in the warm, still air. Warm golden-hour sunlight bathes the scene, casting a luminous amber glow across her figure, illuminating the strawberry-blonde tones of her braids, the creamy texture of her sweater, and the translucent glow of her fair skin, while cool ambient shadow adds depth. The atmosphere is serene, nostalgic, and quietly charming. Photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146389300",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f5e8a52-7c5c-4273-864e-30a808bc388a/original=true/7f5e8a52-7c5c-4273-864e-30a808bc388a.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1055112464804841,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T19:18:24.369706+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "87b5ad79a8199d31ca33001a8bcfbd2112898aa41b9a0f65286b1d8ab5d6e337",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146389300 image ai-image-prompts a full-body raw digital photograph of a tall 19-year-old britishwoman, standing at 188cm with a proportionate build and modest curves, her posture gentle and slightly self-conscious. she has a round face dominated by huge gray-green eyes that hold a soft, curious gaze, a small upturned nose, and plump, rosy cheeks. her strawberry-blonde hair is styled in twin braids that fall past her shoulders, with soft strands framing her face. her very fair skin is nearly translucent, with a delicate, luminous quality. she wears a fitted cream-colored knit sweater that falls to her hips, tucked loosely into high-waisted dark-wash jeans, paired with worn brown leather ankle boots with a low block heel. a thin silver chain with a tiny star pendant rests at her collarbone, and a worn canvas tote bag hangs from her shoulder. she stands on a sun-drenched cobblestone street in a quiet english village, her weight shifted to one hip, one hand resting on the strap of her tote, the other holding a small bouquet of wildflowers, her body gently angled, her head tilted, her huge gray-green eyes meeting the viewer with a soft, shy smile. the background is a charming english village at golden hour, with thatched-roof cottages, stone walls draped in climbing roses, a weathered wooden bench, and a narrow lane winding toward a distant church spire, while warm golden light filters through the trees and casts long, soft shadows across the cobblestones, with dust motes and tiny golden light particles drifting in the warm, still air. warm golden-hour sunlight bathes the scene, casting a luminous amber glow across her figure, illuminating the strawberry-blonde tones of her braids, the creamy texture of her sweater, and the translucent glow of her fair skin, while cool ambient shadow adds depth. the atmosphere is serene, nostalgic, and quietly charming. photorealistic, real photograph, natural skin texture, realistic lighting, human-like features, real-world details, sharp focus. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146389300",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f5e8a52-7c5c-4273-864e-30a808bc388a/original=true/7f5e8a52-7c5c-4273-864e-30a808bc388a.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-21T08:42:56.610020+00:00",
-  "prompt_count": 1710,
+  "generated_at": "2026-10-21T19:18:27.080657+00:00",
+  "prompt_count": 1730,
   "translation": {
     "language": "ar",
-    "translated_count": 28,
-    "skipped_count": 1676,
-    "failed_count": 6,
-    "updated_at": "2026-10-21T08:42:56Z"
+    "translated_count": 0,
+    "skipped_count": 1704,
+    "failed_count": 26,
+    "updated_at": "2026-10-21T19:18:26Z"
   }
 }
