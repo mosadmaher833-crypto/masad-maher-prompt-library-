@@ -76266,15 +76266,1341 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4102ff39-a724-43d2-b685-59828d26db94/original=true/4102ff39-a724-43d2-b685-59828d26db94.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-146345995",
+      "title": "Civitai prompt 146345995",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "Subject: A young Western woman with a cool, pale complexion. Her hair is slicked back and parted in the center. Her face is partially obscured, revealing only her nose, mouth, and jawline, while her eyes are entirely hidden behind a \"glitch art\" light strip. She exudes a cold, detached, and ethereal, futuristic, cybernetic aura.\nAttire: She wears a high-necked, draped, white pleated gown with a smooth, matte texture. One shoulder and arm are adorned with tiny, shimmering diamond-like sequins. The gown features diagonal cut-outs, and the right side of her body is overlaid with a vertical, glitch-effect light strip, characterized by red and blue pixelated chromatic aberration along its edges.\nMood: Serene, detached, and ethereally indifferent. Her lips are gently closed, and her expression is tranquil, carrying a mysterious, cool, and futuristic atmosphere.\nPose: Positioned in profile to the camera, her upper body held upright and still. There are no extraneous movements; the sense of fluidity in the image is created through the glitch light effects and the folds of the fabric.\nElements: Slicked-back dark hair, vertical RGB glitch-art light strips, pixelated light artifacts, a white draped pleated gown, fabric embellished with fine, sparkling sequins, a solid matte-black background, and translucent, digital, flowing light fragments.\nEnvironment: A minimalist, enclosed, solid-black space devoid of any additional objects. The dark backdrop serves to accentuate the white gown and the vibrant, glitch-effect lighting, evoking a sense of solitary, cybernetic space.\nStyle: High-fashion portrait photography blended with digital \"glitch art\" effects—a futuristic, \"quiet luxury\" fashion editorial with a cool-toned, surreal, digital aesthetic.\nColor Palette: Pure white (#FFFFFF), charcoal black (#000000), electric blue (#0088FF), magenta (#FF2266), and silver-gray (#C8D3DD). The composition is anchored by a dominant black-and-white base, punctuated by the contrasting red and blue pixelated chromatic aberrations. Lighting: Cool-toned, focused soft lighting. The key light illuminates the subject and the white gown from the front-side, gently accentuating the folds of the fabric and the glint of the rhinestones. The \"glitch\" light strips feature their own self-illuminating highlights. The background is pitch-black with no fill light, creating a sharp contrast between light and shadow.\nComposition: 2:3 vertical format. The subject is centered, with a vertical \"glitch\" light strip on the right acting as a dividing line that draws the eye and enhances the visual depth of the frame.\nShot Type: Medium close-up; the frame extends from the top of the head to the waist/abdomen, capturing the subject’s features, the tailoring of the gown, and the placement of the glitch effects.\nTonal Palette: Dominated by low-saturation, cool-toned grays. Highlights are concentrated on the folds of the gown and the glitch effects, while the shadows are deep black. The glitch strips feature high-saturation red and blue chromatic aberration, creating a striking contrast in both temperature and luminosity.\nArtistic Reference: Inspired by the futuristic fashion photography of Nick Knight, incorporating \"glitch\" cyber-digital art aesthetics within the context of high-end, luxury couture portraiture.\nPositioned in the middle-upper section (at the 3/4 mark) is the large-font title \"GTM - WOWSER\" with the credit \"by GTM\" in smaller text in the bottom-right corner. faded80s \n(hairy legs, freckles, water, splashes, wet, moles, logo, watermark:-1.6)\n <lora:Faded80s:1.5> <lora:Purple_Dreams_Kr2:0.8> <lora:KREA2_TA86_3xperiment0_light:0.3>",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345995",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6df12b4-4037-4eb1-8efb-3e9bce1c5021/original=true/c6df12b4-4037-4eb1-8efb-3e9bce1c5021.jpeg",
+      "model": "GTM_Krea2_Wowser_v1.1_int8_convrot",
+      "model_version_ids": [
+        3127135,
+        3141844,
+        3174769,
+        3344982
+      ],
+      "width": 1872,
+      "height": 2520,
+      "seed": 550119017775968,
+      "negative_prompt": "(hairy legs, freckles, water, splashes, wet, moles, logo, watermark:-1.6)",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042738+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0551c273cd44529f3c3cb800b4f061918affa514d6809da39c271181cab385a6",
+      "prompt_ar": "الموضوع: شابة غربية ذات بشرة باردة شاحبة. شعرها مملس للخلف ومفرق من المنتصف. وجهها محجوب جزئيًا، ولا يكشف سوى أنفها وفمها وخط فكها، بينما عيناها مخفيتان بالكامل خلف شريط ضوئي من نوع \"glitch art\". إنها تنضح بهالة إلكترونية باردة ومنفصلة وأثيرية ومستقبلية.\nالملابس: ترتدي ثوبًا أبيض اللون ذو ياقة عالية ومطوي وملمس ناعم غير لامع. تم تزيين كتف وذراع واحدة بترتر صغير متلألئ يشبه الماس. يتميز الفستان بفتحات قطرية، والجانب الأيمن من جسدها مغطى بشريط ضوئي عمودي ذو تأثير خلل، يتميز بانحراف لوني منقط باللونين الأحمر والأزرق على طول حوافه.\nالمزاج: هادئ ومنفصل وغير مبالٍ أثيريًا. شفتاها مغلقتان بلطف، وتعبيرها هادئ، ويحمل جوًا غامضًا وباردًا ومستقبليًا.\nالوضعية: تم وضعها في وضع جانبي أمام الكاميرا، والجزء العلوي من جسدها منتصب وثابت. لا توجد حركات دخيلة. يتم إنشاء الإحساس بالسيولة في الصورة من خلال تأثيرات الضوء الخلل وطيات القماش.\nالعناصر: شعر داكن أملس للخلف، وشرائط ضوئية عمودية من نوع RGB، ومصنوعات ضوئية منقطة، وثوب أبيض مطوي، وقماش مزين بالترتر الناعم المتلألئ، وخلفية صلبة سوداء غير لامعة، وشظايا ضوء شفافة رقمية متدفقة.\nالبيئة: مساحة بسيطة ومغلقة ذات لون أسود خالص وخالية من أي أشياء إضافية. تعمل الخلفية الداكنة على إبراز الفستان الأبيض والإضاءة النابضة بالحياة ذات تأثير الخلل، مما يثير إحساسًا بالفضاء السيبراني الانفرادي.\nالنمط: تصوير فوتوغرافي عالي الجودة ممزوج بتأثيرات \"فن الخلل\" الرقمية - افتتاحية أزياء مستقبلية \"فاخرة هادئة\" مع جمالية رقمية سريالية ورائعة.\nلوحة الألوان: أبيض نقي (#FFFFFF)، أسود فحمي (#000000)، أزرق كهربائي (#0088FF)، أرجواني (#FF2266)، ورمادي فضي (#C8D3DD). ترتكز التركيبة على قاعدة مهيمنة باللونين الأبيض والأسود، تتخللها انحرافات لونية متباينة باللونين الأحمر والأزرق. الإضاءة: إضاءة هادئة ومركزة وناعمة. يضيء الضوء الرئيسي الجسم والفستان الأبيض من الجانب الأمامي، مما يبرز بلطف ثنيات القماش وبريق أحجار الراين. تتميز شرائط الإضاءة \"الخلل\" بإضاءاتها المضيئة ذاتيًا. الخلفية سوداء قاتمة بدون إضاءة كاملة، مما يخلق تباينًا حادًا بين الضوء والظل.\nالتكوين: 2:3 تنسيق عمودي. يتم توسيط الموضوع، مع شريط ضوئي عمودي \"خلل\" على اليمين يعمل كخط فاصل يجذب العين ويعزز العمق البصري للإطار.\nنوع اللقطة: لقطة متوسطة قريبة؛ يمتد الإطار من أعلى الرأس إلى الخصر/البطن، ويلتقط ملامح الموضوع، وخياطة الثوب، ووضع تأثيرات الخلل.\nلوحة الألوان: يهيمن عليها درجات رمادية منخفضة التشبع وذات ألوان باردة. تتركز الإبرازات على ثنيات الفستان وتأثيرات الخلل، بينما تكون الظلال سوداء داكنة. تتميز شرائط الخلل بانحراف لوني عالي التشبع باللونين الأحمر والأزرق، مما يخلق تباينًا مذهلاً في كل من درجة الحرارة والإضاءة.\nالمرجع الفني: مستوحى من التصوير الفوتوغرافي للأزياء المستقبلية لنيك نايت، والذي يدمج جماليات الفن الرقمي السيبراني \"الخلل\" في سياق صور الأزياء الراقية والفاخرة.\nيوجد في القسم العلوي الأوسط (عند علامة 3/4) العنوان ذو الخط الكبير \"GTM - WOWSER\" مع الائتمان \"بواسطة GTM\" بنص أصغر في الزاوية اليمنى السفلية. تلاشى80s \n(أرجل مشعرة، نمش، ماء، رذاذ، مبلل، شامات، شعار، علامة مائية:-1.6)\n <lora:Faded80s:1.5> <lora:Purple_Dreams_Kr2:0.8> <lora:KREA2_TA86_3xperiment0_light:0.3>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 146345995 fashion ai-image-prompts subject: a young western woman with a cool, pale complexion. her hair is slicked back and parted in the center. her face is partially obscured, revealing only her nose, mouth, and jawline, while her eyes are entirely hidden behind a \"glitch art\" light strip. she exudes a cold, detached, and ethereal, futuristic, cybernetic aura. attire: she wears a high-necked, draped, white pleated gown with a smooth, matte texture. one shoulder and arm are adorned with tiny, shimmering diamond-like sequins. the gown features diagonal cut-outs, and the right side of her body is overlaid with a vertical, glitch-effect light strip, characterized by red and blue pixelated chromatic aberration along its edges. mood: serene, detached, and ethereally indifferent. her lips are gently closed, and her expression is tranquil, carrying a mysterious, cool, and futuristic atmosphere. pose: positioned in profile to the camera, her upper body held upright and still. there are no extraneous movements; the sense of fluidity in the image is created through the glitch light effects and the folds of the fabric. elements: slicked-back dark hair, vertical rgb glitch-art light strips, pixelated light artifacts, a white draped pleated gown, fabric embellished with fine, sparkling sequins, a solid matte-black background, and translucent, digital, flowing light fragments. environment: a minimalist, enclosed, solid-black space devoid of any additional objects. the dark backdrop serves to accentuate the white gown and the vibrant, glitch-effect lighting, evoking a sense of solitary, cybernetic space. style: high-fashion portrait photography blended with digital \"glitch art\" effects—a futuristic, \"quiet luxury\" fashion editorial with a cool-toned, surreal, digital aesthetic. color palette: pure white (#ffffff), charcoal black (#000000), electric blue (#0088ff), magenta (#ff2266), and silver-gray (#c8d3dd). the composition is anchored by a dominant black-and-white base, punctuated by the contrasting red and blue pixelated chromatic aberrations. lighting: cool-toned, focused soft lighting. the key light illuminates the subject and the white gown from the front-side, gently accentuating the folds of the fabric and the glint of the rhinestones. the \"glitch\" light strips feature their own self-illuminating highlights. the background is pitch-black with no fill light, creating a sharp contrast between light and shadow. composition: 2:3 vertical format. the subject is centered, with a vertical \"glitch\" light strip on the right acting as a dividing line that draws the eye and enhances the visual depth of the frame. shot type: medium close-up; the frame extends from the top of the head to the waist/abdomen, capturing the subject’s features, the tailoring of the gown, and the placement of the glitch effects. tonal palette: dominated by low-saturation, cool-toned grays. highlights are concentrated on the folds of the gown and the glitch effects, while the shadows are deep black. the glitch strips feature high-saturation red and blue chromatic aberration, creating a striking contrast in both temperature and luminosity. artistic reference: inspired by the futuristic fashion photography of nick knight, incorporating \"glitch\" cyber-digital art aesthetics within the context of high-end, luxury couture portraiture. positioned in the middle-upper section (at the 3/4 mark) is the large-font title \"gtm - wowser\" with the credit \"by gtm\" in smaller text in the bottom-right corner. faded80s (hairy legs, freckles, water, splashes, wet, moles, logo, watermark:-1.6) <lora:faded80s:1.5> <lora:purple_dreams_kr2:0.8> <lora:krea2_ta86_3xperiment0_light:0.3> civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345995",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6df12b4-4037-4eb1-8efb-3e9bce1c5021/original=true/c6df12b4-4037-4eb1-8efb-3e9bce1c5021.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146346009",
+      "title": "Civitai prompt 146346009",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n  \"photographic_mode\": \"Cinematic Film Still\",\n  \"mode_description\": \"Cinematic 35mm anamorphic still, 2.39:1 aspect ratio aesthetic, cinematic lighting ratio, anamorphic streak flare, shallow depth of field with oval bokeh, cinematic color grading, film director narrative vision.\",\n  \"photographic_specification\": {\n    \"photographic_mode\": \"Cinematic Film Still\",\n    \"artistic_intent\": \"Capture a powerful cinematic narrative frame of an ancient warrior queen in a natural woodland setting, evoking high-end historical epic film production value.\",\n    \"subject\": \"A striking female warrior with sharp classical features, intense determined gaze, light natural makeup with subtle outdoor dust, wearing ornate golden Greek-Roman armor and a crested Corinthian helmet.\",\n    \"atmosphere\": \"Epic, dramatic, tense, immersive historical storytelling mood.\",\n    \"location\": \"Lush ancient forest with dense foliage, natural outdoor daylight, atmospheric depth.\",\n    \"composition\": \"Medium close-up portrait, off-center framing following the rule of thirds, dramatic eye-level perspective with shallow depth of field.\",\n    \"camera\": \"ARRI Alexa Mini LF paired with anamorphic prime lenses\",\n    \"lens\": \"Panavision C-Series 50mm anamorphic prime f/2.0\",\n    \"exposure\": \"Shutter 1/100s, aperture f/2.2, ISO 400\",\n    \"lighting\": \"Natural overcast daylight key light, softened by canopy diffusion, accented with a warm golden reflector fill and subtle edge rim light.\",\n    \"background\": \"Deep forest background with soft organic blur and characteristic oval anamorphic bokeh.\",\n    \"textures_materials\": \"Scratched and polished antique gold metal armor with intricate engravings, weathered leather straps, wet textured dark hair, natural skin pores.\",\n    \"skin_and_microdetail\": \"Ultra-realistic skin texture, fine vellus hair, authentic sweat sheen and dust particles on cheekbones, zero artificial plastic smoothing.\",\n    \"color_palette\": \"Rich golden metallic hues contrasting with deep forest greens and earthy brown shadows.\",\n    \"color_grading\": \"Teal and orange cinematic grade, lifted shadow detail with warm golden midtones and natural highlight roll-off.\",\n    \"depth_of_field\": \"Shallow depth of field, razor-sharp focus on the nearest eye and intricate helmet details, buttery smooth background fall-off.\",\n    \"focus\": \"Critical plane of focus sharply locked on the iris of the left eye.\",\n    \"dynamic_range\": \"High dynamic range capturing detailed highlights on the golden armor and rich, textured shadow depth in the foliage.\",\n    \"post_processing\": \"Subtle 35mm film grain, organic local contrast, gentle halation around bright metal highlights.\",\n    \"exhibition_quality\": \"Master fine-art museum gallery exhibition standard rendering\",\n    \"photographer_references\": \"Greig Fraser, Roger Deakins, Annie Leibovitz\"\n  },\n  \"improvements\": [\n    \"Enhance optical anamorphic characteristics and oval bokeh in the background\",\n    \"Refine micro-contrast on the metallic textures of the golden armor\",\n    \"Deepen the cinematic color grading to enrich the contrast between golden tones and deep greens\"\n  ],\n  \"negative_prompt\": \"plastic skin, artificial oversaturation, cartoonish, 3D render, CGI, over-sharpening, blown-out highlights, crushed blacks, deformed anatomy, extra limbs, fake bokeh, wax skin, blurry, amateur lighting, harsh digital noise\"\n}",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146346009",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cab6116-bfb3-4bd9-8709-ffee9cac443b/original=true/3cab6116-bfb3-4bd9-8709-ffee9cac443b.jpeg",
+      "model_version_ids": [
+        3291238
+      ],
+      "width": 1344,
+      "height": 1808,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042801+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4037497ec24d976cd0ea7d9b16e7d4db22ea72b2ec34b685575d0fc4f01c2af2",
+      "prompt_ar": "{\n  \"photographic_mode\": \"صورة ثابتة لفيلم سينمائي\"،\n  \"mode_description\": \"صورة ثابتة سينمائية مشوهة مقاس 35 مم، نسبة عرض إلى ارتفاع تبلغ 2.39:1 جمالية، نسبة إضاءة سينمائية، توهج خطي مشوه، عمق مجال ضحل مع بوكيه بيضاوي، تدرج ألوان سينمائي، رؤية سردية لمخرج الفيلم.\",\n  \"مواصفات_التصوير الفوتوغرافي\": {\n    \"photographic_mode\": \"صورة ثابتة لفيلم سينمائي\"،\n    \"artistic_intent\": \"التقط إطارًا سرديًا سينمائيًا قويًا لملكة محاربة قديمة في بيئة غابات طبيعية، مما يستحضر قيمة إنتاج الأفلام الملحمية التاريخية الراقية.\",\n    \"الموضوع\": \"محاربة ملفتة للنظر ذات ملامح كلاسيكية حادة، ونظرة حازمة حادة، ومكياج طبيعي خفيف مع غبار خارجي خفيف، وترتدي درعًا يونانيًا رومانيًا ذهبيًا مزخرفًا وخوذة كورنثية متوجة.\",\n    \"الغلاف الجوي\": \"مزاج قصصي تاريخي ملحمي ودرامي ومتوتر وغامر.\",\n    \"location\": \"غابة قديمة مورقة بأوراق الشجر الكثيفة وضوء النهار الطبيعي في الهواء الطلق وعمق جوي.\",\n    \"composition\": \"صورة مقربة متوسطة الحجم، إطار خارج المركز يتبع قاعدة الأثلاث، منظور درامي على مستوى العين مع عمق مجال ضحل.\",\n    \"camera\": \"ARRI Alexa Mini LF مقترن بعدسات أولية بصرية مشوهة\"،\n    \"lens\": \"Panavision C-Series 50mm Anamorphic Prime f/2.0\"،\n    \"exposure\": \"مصراع الكاميرا 1/100 ثانية، فتحة العدسة f/2.2، ISO 400\"،\n    \"الإضاءة\": \"ضوء النهار الطبيعي الملبد بالغيوم، مخفف من خلال انتشار المظلة، ومزين بعاكس ذهبي دافئ وإضاءة حافة رقيقة.\",\n    \"background\": \"خلفية غابة عميقة مع ضبابية عضوية ناعمة وبوكيه بيضاوي مشوه مميز.\",\n    \"textures_materials\": \"درع معدني ذهبي عتيق مخدوش ومصقول بنقوش معقدة، وأشرطة جلدية متأثرة بالعوامل الجوية، وشعر داكن مبلل، ومسام جلدية طبيعية.\",\n    \"skin_and_microdetail\": \"ملمس جلد واقعي للغاية، وشعر زغبي ناعم، ولمعان أصلي للعرق وجزيئات غبار على عظام الخد، ولا يوجد أي تنعيم بلاستيكي صناعي.\",\n    \"color_palette\": \"ألوان معدنية ذهبية غنية تتباين مع اللون الأخضر الغامق للغابات والظلال البنية الترابية.\",\n    \"color_grading\": \"درجة سينمائية باللون الأزرق المخضر والبرتقالي، وتفاصيل الظل المرتفعة مع الدرجات اللونية النصفية الذهبية الدافئة والتظليل الطبيعي.\",\n    \"Deep_of_field\": \"عمق مجال ضحل، وتركيز حاد للغاية على أقرب عين وتفاصيل معقدة للخوذة، وخلفية ناعمة زبدانية.\",\n    \"التركيز\": \"مستوى التركيز الحرج مثبت بشكل حاد على قزحية العين اليسرى.\",\n    \"dynamic_range\": \"نطاق ديناميكي عالي يلتقط الضوء التفصيلي على الدرع الذهبي وعمق الظل الغني والمزخرف في أوراق الشجر.\",\n    \"post_processing\": \"طبقة رقيقة بحجم 35 مم، تباين محلي عضوي، هالة لطيفة حول الأجزاء المعدنية اللامعة.\",\n    \"exhibition_quality\": \"العرض القياسي لمعرض معرض متحف الفنون الجميلة الرئيسية\",\n    \"photographer_references\": \"جريج فريزر، روجر ديكينز، آني ليبوفيتز\"\n  },\n  \"التحسينات\": [\n    \"تعزيز الخصائص البصرية المشوهة والبوكيه البيضاوي في الخلفية\"،\n    \"تحسين التباين الدقيق على القوام المعدني للدرع الذهبي\"،\n    \"تعميق تدرج الألوان السينمائي لإثراء التباين بين درجات اللون الذهبي والأخضر العميق\"\n  ]،\n  \"negative_prompt\": \"جلد بلاستيكي، تشبع اصطناعي زائد، كارتوني، عرض ثلاثي الأبعاد، CGI، زيادة في الوضوح، إضاءات واضحة، أسود مسحوق، تشريح مشوه، أطراف إضافية، بوكيه مزيف، جلد شمعي، ضبابية، إضاءة هواة، ضوضاء رقمية قاسية\"\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146346009 advertising ai-image-prompts { \"photographic_mode\": \"cinematic film still\", \"mode_description\": \"cinematic 35mm anamorphic still, 2.39:1 aspect ratio aesthetic, cinematic lighting ratio, anamorphic streak flare, shallow depth of field with oval bokeh, cinematic color grading, film director narrative vision.\", \"photographic_specification\": { \"photographic_mode\": \"cinematic film still\", \"artistic_intent\": \"capture a powerful cinematic narrative frame of an ancient warrior queen in a natural woodland setting, evoking high-end historical epic film production value.\", \"subject\": \"a striking female warrior with sharp classical features, intense determined gaze, light natural makeup with subtle outdoor dust, wearing ornate golden greek-roman armor and a crested corinthian helmet.\", \"atmosphere\": \"epic, dramatic, tense, immersive historical storytelling mood.\", \"location\": \"lush ancient forest with dense foliage, natural outdoor daylight, atmospheric depth.\", \"composition\": \"medium close-up portrait, off-center framing following the rule of thirds, dramatic eye-level perspective with shallow depth of field.\", \"camera\": \"arri alexa mini lf paired with anamorphic prime lenses\", \"lens\": \"panavision c-series 50mm anamorphic prime f/2.0\", \"exposure\": \"shutter 1/100s, aperture f/2.2, iso 400\", \"lighting\": \"natural overcast daylight key light, softened by canopy diffusion, accented with a warm golden reflector fill and subtle edge rim light.\", \"background\": \"deep forest background with soft organic blur and characteristic oval anamorphic bokeh.\", \"textures_materials\": \"scratched and polished antique gold metal armor with intricate engravings, weathered leather straps, wet textured dark hair, natural skin pores.\", \"skin_and_microdetail\": \"ultra-realistic skin texture, fine vellus hair, authentic sweat sheen and dust particles on cheekbones, zero artificial plastic smoothing.\", \"color_palette\": \"rich golden metallic hues contrasting with deep forest greens and earthy brown shadows.\", \"color_grading\": \"teal and orange cinematic grade, lifted shadow detail with warm golden midtones and natural highlight roll-off.\", \"depth_of_field\": \"shallow depth of field, razor-sharp focus on the nearest eye and intricate helmet details, buttery smooth background fall-off.\", \"focus\": \"critical plane of focus sharply locked on the iris of the left eye.\", \"dynamic_range\": \"high dynamic range capturing detailed highlights on the golden armor and rich, textured shadow depth in the foliage.\", \"post_processing\": \"subtle 35mm film grain, organic local contrast, gentle halation around bright metal highlights.\", \"exhibition_quality\": \"master fine-art museum gallery exhibition standard rendering\", \"photographer_references\": \"greig fraser, roger deakins, annie leibovitz\" }, \"improvements\": [ \"enhance optical anamorphic characteristics and oval bokeh in the background\", \"refine micro-contrast on the metallic textures of the golden armor\", \"deepen the cinematic color grading to enrich the contrast between golden tones and deep greens\" ], \"negative_prompt\": \"plastic skin, artificial oversaturation, cartoonish, 3d render, cgi, over-sharpening, blown-out highlights, crushed blacks, deformed anatomy, extra limbs, fake bokeh, wax skin, blurry, amateur lighting, harsh digital noise\" } civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146346009",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3cab6116-bfb3-4bd9-8709-ffee9cac443b/original=true/3cab6116-bfb3-4bd9-8709-ffee9cac443b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345916",
+      "title": "Civitai prompt 146345916",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised adult woman with warm brown skin in a lightweight translucent cotton saree, leaning against a railing, in a cozy café with brass lamps and plants, diffused overcast daylight, ultra-wide 20mm lens, editorial fashion photography, tasteful modest fashion editorial, elegant full-body framing, natural skin texture, realistic fabric translucency, detailed environmental depth, dynamic composition, sharp focus on subject, shallow atmospheric depth, 8k detail, professional color grading",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345916",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/49edcea2-54dd-4efe-8bc1-6edbd2456eb0/original=true/49edcea2-54dd-4efe-8bc1-6edbd2456eb0.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042827+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cc09052492ddb1fcd6c19081939af98213dd9e4e58f46aaeb7dc9f5b7d4e71e3",
+      "prompt_ar": "امرأة هندية، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدان وأقدام محددة بوضوح، تفاصيل تشريحية حادة، تشريح بشري واقعي، امرأة بالغة متوازنة ذات بشرة بنية دافئة ترتدي ساري قطني شفاف خفيف الوزن، تتكئ على درابزين، في مقهى مريح مع مصابيح نحاسية ونباتات، ضوء نهار ملبد منتشر، عدسة واسعة للغاية مقاس 20 مم، تصوير فوتوغرافي للأزياء التحريرية، أزياء محتشمة حسنة الذوق تحريري، تأطير أنيق لكامل الجسم، ملمس طبيعي للبشرة، شفافية نسيج واقعية، عمق بيئي مفصل، تكوين ديناميكي، تركيز حاد على الموضوع، عمق جوي ضحل، تفاصيل 8K، تدرج ألوان احترافي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146345916 fashion ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised adult woman with warm brown skin in a lightweight translucent cotton saree, leaning against a railing, in a cozy café with brass lamps and plants, diffused overcast daylight, ultra-wide 20mm lens, editorial fashion photography, tasteful modest fashion editorial, elegant full-body framing, natural skin texture, realistic fabric translucency, detailed environmental depth, dynamic composition, sharp focus on subject, shallow atmospheric depth, 8k detail, professional color grading civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345916",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/49edcea2-54dd-4efe-8bc1-6edbd2456eb0/original=true/49edcea2-54dd-4efe-8bc1-6edbd2456eb0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345863",
+      "title": "Civitai prompt 146345863",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised adult woman with warm brown skin in a delicate sheer silk salwar kameez, walking briskly, in a bright kitchen with copper utensils, diffused overcast daylight, ultra-wide 20mm lens, high-end fashion editorial, tasteful modest fashion editorial, elegant full-body framing, natural skin texture, realistic fabric translucency, detailed environmental depth, dynamic composition, sharp focus on subject, shallow atmospheric depth, 8k detail, professional color grading",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345863",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40369d63-db15-4f04-a392-578129cd61d6/original=true/40369d63-db15-4f04-a392-578129cd61d6.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042842+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "07607fb77892ae3dfa4fc21cd9637a4d33632fd2affb5be3dad9696990244f02",
+      "prompt_ar": "امرأة هندية مسكيمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدان وأقدام محددة بوضوح، تفاصيل تشريحية حادة، تشريح بشري واقعي، امرأة بالغة متوازنة ذات بشرة بنية دافئة ترتدي سراويل وقمصان حريرية شفافة رقيقة، تمشي بخفة، في مطبخ مشرق بأواني نحاسية، ضوء نهار ملبد منتشر، عدسة واسعة للغاية مقاس 20 مم، افتتاحية أنيقة راقية، حسنة الذوق افتتاحية للأزياء المحتشمة، إطار أنيق لكامل الجسم، ملمس جلد طبيعي، شفافية نسيج واقعية، عمق بيئي مفصل، تكوين ديناميكي، تركيز حاد على الموضوع، عمق جوي ضحل، تفاصيل 8K، تدرج ألوان احترافي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146345863 fashion ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised adult woman with warm brown skin in a delicate sheer silk salwar kameez, walking briskly, in a bright kitchen with copper utensils, diffused overcast daylight, ultra-wide 20mm lens, high-end fashion editorial, tasteful modest fashion editorial, elegant full-body framing, natural skin texture, realistic fabric translucency, detailed environmental depth, dynamic composition, sharp focus on subject, shallow atmospheric depth, 8k detail, professional color grading civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345863",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40369d63-db15-4f04-a392-578129cd61d6/original=true/40369d63-db15-4f04-a392-578129cd61d6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345824",
+      "title": "Civitai prompt 146345824",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, Photorealistic image of an adult Indian woman wearing a contemporary half-saree with a silk skirt, fitted blouse, and draped dupatta, standing beside a window and adjusting her sleeve in a rooftop terrace overlooking a modern city skyline; wide-angle 28mm environmental photography, full-body head-to-toe framing; cool early-morning light with delicate atmospheric depth; anatomically natural posture, hands and feet clearly formed, believable fabric folds. High-resolution realistic photography, wide field of view, coherent scene composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345824",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77e80281-d69e-4301-be74-ac4f11a53665/original=true/77e80281-d69e-4301-be74-ac4f11a53665.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042855+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e254be163a5a1ae3985cdca83d9cafc3ac0bc9c4e95c9a5e5a4bfd24101308b6",
+      "prompt_ar": "امرأة هندية مسكيمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدين وأقدام محددة بوضوح، وتفاصيل تشريحية حادة، وتشريح بشري واقعي، صورة واقعية لامرأة هندية بالغة ترتدي نصف ساري معاصر مع تنورة حريرية، وبلوزة ضيقة، ووشاحًا ملفوفًا، وتقف بجانب النافذة وتعدل أكمامها في شرفة على السطح تطل على أفق المدينة الحديثة؛ تصوير بيئي بزاوية واسعة مقاس 28 مم، وتأطير لكامل الجسم من الرأس إلى أخمص القدمين؛ ضوء بارد في الصباح الباكر مع عمق جوي دقيق؛ وضعية طبيعية تشريحيًا، شكلت اليدين والقدمين بشكل واضح، وطيات قماش قابلة للتصديق. تصوير واقعي عالي الدقة، مجال رؤية واسع، تكوين مشهد متماسك.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345824 image ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, photorealistic image of an adult indian woman wearing a contemporary half-saree with a silk skirt, fitted blouse, and draped dupatta, standing beside a window and adjusting her sleeve in a rooftop terrace overlooking a modern city skyline; wide-angle 28mm environmental photography, full-body head-to-toe framing; cool early-morning light with delicate atmospheric depth; anatomically natural posture, hands and feet clearly formed, believable fabric folds. high-resolution realistic photography, wide field of view, coherent scene composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345824",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77e80281-d69e-4301-be74-ac4f11a53665/original=true/77e80281-d69e-4301-be74-ac4f11a53665.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345800",
+      "title": "Civitai prompt 146345800",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, Photorealistic image of an adult Indian woman wearing a flowing floral maxi dress with sandals, walking across a bridge with a calm expression in a boutique hotel lobby with warm lighting and indoor plants; wide-angle 28mm environmental photography, full-body head-to-toe framing; diffused overcast daylight, subtle contrast and realistic details; subtle environmental depth, realistic materials, accurate perspective and candid body language. High-resolution realistic photography, wide field of view, coherent scene composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345800",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9de2fb9-59d6-4254-b0aa-97685e6a7e29/original=true/b9de2fb9-59d6-4254-b0aa-97685e6a7e29.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042868+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2aec80119a6627f3a0b6b024ef44b969c696584d163379feab641344a34494cd",
+      "prompt_ar": "امرأة هندية مسكيمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدين وأقدام محددة بوضوح، تفاصيل تشريحية حادة، تشريح بشري واقعي، صورة واقعية لامرأة هندية بالغة ترتدي فستانًا طويلًا متدفقًا مزينًا بالزهور مع صندل، وتمشي عبر جسر مع تعبير هادئ في ردهة فندق بوتيك مع إضاءة دافئة ونباتات داخلية؛ تصوير بيئي بزاوية واسعة مقاس 28 مم، وتأطير لكامل الجسم من الرأس إلى أخمص القدمين؛ ضوء النهار الملبد بالغيوم، والتباين الدقيق والتفاصيل الواقعية؛ عمق بيئي دقيق، ومواد واقعية، ومنظور دقيق، ولغة جسد صريحة. تصوير واقعي عالي الدقة، مجال رؤية واسع، تكوين مشهد متماسك.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345800 image ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, photorealistic image of an adult indian woman wearing a flowing floral maxi dress with sandals, walking across a bridge with a calm expression in a boutique hotel lobby with warm lighting and indoor plants; wide-angle 28mm environmental photography, full-body head-to-toe framing; diffused overcast daylight, subtle contrast and realistic details; subtle environmental depth, realistic materials, accurate perspective and candid body language. high-resolution realistic photography, wide field of view, coherent scene composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345800",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b9de2fb9-59d6-4254-b0aa-97685e6a7e29/original=true/b9de2fb9-59d6-4254-b0aa-97685e6a7e29.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345798",
+      "title": "Civitai prompt 146345798",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, Photorealistic image of an adult Indian woman wearing a crimson silk saree with a gold zari border and matching blouse, gathering her belongings from a chair in a countryside path bordered by fields and distant trees; wide establishing shot with the woman and architecture both in clear view; golden-hour backlight with natural fabric texture and controlled highlights; anatomically natural posture, hands and feet clearly formed, believable fabric folds. High-resolution realistic photography, wide field of view, coherent scene composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345798",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d444525-0f6d-4946-a757-1f53d4654723/original=true/8d444525-0f6d-4946-a757-1f53d4654723.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042880+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6ebe8e8fbe0a6634214e38e11d985d05e8bfeea847766a4cb44f642f4852dbff",
+      "prompt_ar": "امرأة هندية مكمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدان وأقدام محددة بوضوح، تفاصيل تشريحية حادة، تشريح بشري واقعي، صورة واقعية لامرأة هندية بالغة ترتدي ساري حريري قرمزي مع حدود زاري ذهبية وبلوزة مطابقة، تجمع متعلقاتها من كرسي في طريق ريفي تحده الحقول والأشجار البعيدة؛ لقطة تأسيسية واسعة تظهر فيها المرأة والهندسة المعمارية بشكل واضح؛ إضاءة خلفية على شكل ساعة ذهبية مع نسيج من القماش الطبيعي وإضاءات يمكن التحكم فيها؛ وضعية طبيعية تشريحيًا، وتشكل اليدين والقدمين بشكل واضح، ويمكن تصديق طيات القماش. تصوير واقعي عالي الدقة، مجال رؤية واسع، تكوين مشهد متماسك.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345798 architecture ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, photorealistic image of an adult indian woman wearing a crimson silk saree with a gold zari border and matching blouse, gathering her belongings from a chair in a countryside path bordered by fields and distant trees; wide establishing shot with the woman and architecture both in clear view; golden-hour backlight with natural fabric texture and controlled highlights; anatomically natural posture, hands and feet clearly formed, believable fabric folds. high-resolution realistic photography, wide field of view, coherent scene composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345798",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d444525-0f6d-4946-a757-1f53d4654723/original=true/8d444525-0f6d-4946-a757-1f53d4654723.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345763",
+      "title": "Civitai prompt 146345763",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, Photorealistic image of an adult Indian woman wearing a contemporary half-saree with a silk skirt, fitted blouse, and draped dupatta, holding an umbrella while walking in light rain in a quiet lakeside promenade with reflections on the water; wide-angle cinematic photograph from several meters away, natural proportions and a spacious composition; bright open-shade daylight, clear details and realistic skin tones; physically plausible draping, natural movement, realistic hair strands and fine surface texture. High-resolution realistic photography, wide field of view, coherent scene composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345763",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00234601-483a-43a1-9599-a69b4af41f31/original=true/00234601-483a-43a1-9599-a69b4af41f31.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042893+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2b28db1dca8c999a7844c3695ac71ec7a2b1072b7eb04e602f4fb73f44c79542",
+      "prompt_ar": "امرأة هندية مكمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدان وأقدام محددة بوضوح، وتفاصيل تشريحية حادة، وتشريح بشري واقعي، صورة واقعية لامرأة هندية بالغة ترتدي نصف ساري معاصر مع تنورة حريرية، وبلوزة ضيقة، ووشاحًا ملفوفًا، وتحمل مظلة أثناء المشي تحت المطر الخفيف في منتزه هادئ على ضفاف البحيرة مع انعكاسات على الماء؛ صورة سينمائية ذات زاوية واسعة من مسافة عدة أمتار، وأبعاد طبيعية وتركيبة واسعة؛ ضوء نهاري ساطع ومفتوح، وتفاصيل واضحة وألوان بشرة واقعية؛ ستائر معقولة جسديًا، وحركة طبيعية، وخصلات شعر واقعية، وملمس سطحي ناعم. تصوير واقعي عالي الدقة، مجال رؤية واسع، تكوين مشهد متماسك.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:52Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345763 image ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, photorealistic image of an adult indian woman wearing a contemporary half-saree with a silk skirt, fitted blouse, and draped dupatta, holding an umbrella while walking in light rain in a quiet lakeside promenade with reflections on the water; wide-angle cinematic photograph from several meters away, natural proportions and a spacious composition; bright open-shade daylight, clear details and realistic skin tones; physically plausible draping, natural movement, realistic hair strands and fine surface texture. high-resolution realistic photography, wide field of view, coherent scene composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345763",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00234601-483a-43a1-9599-a69b4af41f31/original=true/00234601-483a-43a1-9599-a69b4af41f31.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345738",
+      "title": "Civitai prompt 146345738",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, Photorealistic image of an adult Indian woman wearing a modern jumpsuit with a slim belt and comfortable shoes, carrying a woven basket through the scene in a historic city street with stone facades and old shopfronts; photorealistic full-body environmental portrait, camera at eye level and background clearly visible; sunlight filtered through leaves, realistic dappled shadows; anatomically natural posture, hands and feet clearly formed, believable fabric folds. High-resolution realistic photography, wide field of view, coherent scene composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345738",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fa90b26-f8d4-4e00-86ea-89cf2eaaaa16/original=true/2fa90b26-f8d4-4e00-86ea-89cf2eaaaa16.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 4608,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042905+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d97d899ec6401128ee4958c4366313069d584fc6491d30eb31989027c4585d37",
+      "prompt_ar": "امرأة هندية مسكيمديسي، (موضوع واحد في الإطار: 1.2)، (موضوع واقعي: 1.2) يدان وأقدام محددة بوضوح، تفاصيل تشريحية حادة، تشريح بشري واقعي، صورة واقعية لامرأة هندية بالغة ترتدي بذلة عصرية مع حزام رفيع وحذاء مريح، تحمل سلة منسوجة عبر المشهد في أحد شوارع المدينة التاريخية بواجهات حجرية وواجهات متاجر قديمة؛ صورة بيئية واقعية لكامل الجسم، وكاميرا على مستوى العين وخلفية مرئية بوضوح؛ ضوء الشمس المتسرب من خلال أوراق الشجر، والظلال المرقطة الواقعية؛ وضعية طبيعية تشريحيًا، وتشكل اليدين والقدمين بشكل واضح، ويمكن تصديق طيات القماش. تصوير واقعي عالي الدقة، مجال رؤية واسع، تكوين مشهد متماسك.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345738 image ai-image-prompts mskmdesi indian woman , (single subject in frame:1.2), , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, photorealistic image of an adult indian woman wearing a modern jumpsuit with a slim belt and comfortable shoes, carrying a woven basket through the scene in a historic city street with stone facades and old shopfronts; photorealistic full-body environmental portrait, camera at eye level and background clearly visible; sunlight filtered through leaves, realistic dappled shadows; anatomically natural posture, hands and feet clearly formed, believable fabric folds. high-resolution realistic photography, wide field of view, coherent scene composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345738",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fa90b26-f8d4-4e00-86ea-89cf2eaaaa16/original=true/2fa90b26-f8d4-4e00-86ea-89cf2eaaaa16.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345905",
+      "title": "Civitai prompt 146345905",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, masterpiece, best quality, ultra detailed, 8k raw photo, stunning beautiful warrior woman with long platinum blonde hair tied in a messy ponytail with loose strands blowing in the wind, piercing blue-green eyes with intense focused expression, fair skin with subtle cold flush from the snow, wearing dark rugged leather armor jacket with fur trim, brown leather bracers and belt, dark leather pants and tall brown leather boots, holding a large two-handed silver longsword with both hands in a powerful combat stance, kneeling in deep snow with one knee down, dramatic snowy medieval battlefield setting with ruined stone castle in the background, heavy snowfall with visible snowflakes, dramatic cinematic lighting with strong rim light from the stormy sky and god rays breaking through the clouds, highly detailed wet leather texture, realistic snow on clothing and hair, intricate sword engravings, cinematic depth of field, sharp focus on face and upper body, epic dark fantasy warrior atmosphere, high-end cinematic fantasy photography style",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345905",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37cb1c98-53f8-4048-910f-d15f0408be05/original=true/37cb1c98-53f8-4048-910f-d15f0408be05.jpeg",
+      "model_version_ids": [
+        3409867
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1670184282,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, blurry, deformed, ugly, mutilated, disfigured, bad proportions, extra limbs, cloned face, gross proportions, malformed limbs, fused fingers, too many fingers, long neck, mutated hands, poorly drawn hands, poorly drawn face, out of frame, mutation, child, underage, modern clothing, bright sunny day, summer, beach, cartoon, anime, extra weapons, small sword",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042923+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7e764c8e9c9bc7fb1cfe9674c9fc230a824f0c9e66d76ab60fda73dbe7acdd63",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، تحفة فنية، أفضل جودة، مفصلة للغاية، صورة خام بدقة 8K، امرأة محاربة جميلة ومذهلة ذات شعر أشقر بلاتيني طويل مربوط على شكل ذيل حصان فوضوي مع خيوط فضفاضة تهب في مهب الريح، عيون زرقاء وخضراء خارقة مع تعبير مركّز مكثف، بشرة فاتحة مع تدفق بارد خفيف من الثلج، ترتدي سترة جلدية داكنة متينة مع زخرفة من الفرو، ودعامات وحزام من الجلد البني، وسراويل جلدية داكنة وأحذية جلدية بنية طويلة، تحمل مقاسًا كبيرًا سيف طويل فضي بكلتا اليدين في وضع قتالي قوي، راكع في الثلج العميق مع ركبة واحدة للأسفل، ساحة معركة ثلجية مثيرة في العصور الوسطى مع قلعة حجرية مدمرة في الخلفية، تساقط ثلوج كثيفة مع ندفات ثلجية مرئية، إضاءة سينمائية درامية مع ضوء حافة قوي من السماء العاصفة وأشعة الله التي تخترق السحاب، نسيج جلد مبلل مفصل للغاية، ثلج واقعي على الملابس والشعر، نقوش سيف معقدة، عمق سينمائي للمجال، تركيز حاد على الوجه والجزء العلوي من الجسم، جو محارب خيالي داكن ملحمي، أسلوب التصوير الخيالي السينمائي الراقي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345905 image ai-image-prompts score_9, score_8_up, score_7_up, masterpiece, best quality, ultra detailed, 8k raw photo, stunning beautiful warrior woman with long platinum blonde hair tied in a messy ponytail with loose strands blowing in the wind, piercing blue-green eyes with intense focused expression, fair skin with subtle cold flush from the snow, wearing dark rugged leather armor jacket with fur trim, brown leather bracers and belt, dark leather pants and tall brown leather boots, holding a large two-handed silver longsword with both hands in a powerful combat stance, kneeling in deep snow with one knee down, dramatic snowy medieval battlefield setting with ruined stone castle in the background, heavy snowfall with visible snowflakes, dramatic cinematic lighting with strong rim light from the stormy sky and god rays breaking through the clouds, highly detailed wet leather texture, realistic snow on clothing and hair, intricate sword engravings, cinematic depth of field, sharp focus on face and upper body, epic dark fantasy warrior atmosphere, high-end cinematic fantasy photography style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345905",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37cb1c98-53f8-4048-910f-d15f0408be05/original=true/37cb1c98-53f8-4048-910f-d15f0408be05.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345252",
+      "title": "Civitai prompt 146345252",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The overall style is bold with thick black outlines and vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold with vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold and thick black outlines with vibrant colors. Exaggerated characteristics. br0ckh0f3r, Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. The overall style is bold with thick black outlines and vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold with vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold and thick black outlines with vibrant colors. Exaggerated characteristics. br0ckh0f3r, Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:Brock-Hofer-Style_1:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345252",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b00820b0-defe-42de-92bf-f92e620a8ce8/original=true/b00820b0-defe-42de-92bf-f92e620a8ce8.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3377236,
+        3409205
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 1063225976405754,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042951+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5dbad7ed7b295772b62f7d5f4069bcc71019953be79d423f5fdadf7bb87cc46f",
+      "prompt_ar": "النمط العام جريء مع خطوط سوداء سميكة وألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام جريء بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام هو خطوط سوداء جريئة وسميكة بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، الرسم الرقمي، الرسم التوضيحي لفن المفهوم، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. النمط العام جريء مع خطوط سوداء سميكة وألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام جريء بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام هو خطوط سوداء جريئة وسميكة بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، الرسم الرقمي، الرسم التوضيحي لفن المفهوم، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<lora:Brock-Hofer-Style_1:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345252 image ai-image-prompts the overall style is bold with thick black outlines and vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold with vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold and thick black outlines with vibrant colors. exaggerated characteristics. br0ckh0f3r, digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. the overall style is bold with thick black outlines and vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold with vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold and thick black outlines with vibrant colors. exaggerated characteristics. br0ckh0f3r, digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:brock-hofer-style_1:1.0> <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345252",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b00820b0-defe-42de-92bf-f92e620a8ce8/original=true/b00820b0-defe-42de-92bf-f92e620a8ce8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146344869",
+      "title": "Civitai prompt 146344869",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "retro_cyberpunk, retro, retro artstyle, Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. retro_cyberpunk, retro, retro artstyle, Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:Retro_Neon_Cyberpunk_krea2_3352777_epoch_10:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146344869",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1e91025-8b02-4d9f-93b9-c0b2f57dd4b0/original=true/b1e91025-8b02-4d9f-93b9-c0b2f57dd4b0.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3358202,
+        3377236
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 486564711051713,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042974+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0acd5c93ca16f65b5da78b3b43165e3d84e75d592abf44b7390564c020272043",
+      "prompt_ar": "retro_cyberpunk، الرجعية، نمط الفن القديم، الرسم التوضيحي الرقمي، الرسم التوضيحي لفن المفهوم، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. retro_cyberpunk، الرجعية، نمط الفن القديم، الرسم التوضيحي الرقمي، الرسم التوضيحي لفن المفهوم، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<lora:Retro_Neon_Cyberpunk_krea2_3352777_epoch_10:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146344869 image ai-image-prompts retro_cyberpunk, retro, retro artstyle, digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. retro_cyberpunk, retro, retro artstyle, digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:retro_neon_cyberpunk_krea2_3352777_epoch_10:1.0> <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146344869",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1e91025-8b02-4d9f-93b9-c0b2f57dd4b0/original=true/b1e91025-8b02-4d9f-93b9-c0b2f57dd4b0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146343867",
+      "title": "Civitai prompt 146343867",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:retro-80s:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146343867",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/962976d0-bf9f-4225-9fee-2609b0de1482/original=true/962976d0-bf9f-4225-9fee-2609b0de1482.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3377236,
+        3387832
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 471061609748880,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.042995+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "703cc3f32d2c9d2993975f2139d7f2fc6830034446df0682c661b16ed2fa254a",
+      "prompt_ar": "التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<لورا:retro-80s:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146343867 image ai-image-prompts digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:retro-80s:1.0> <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146343867",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/962976d0-bf9f-4225-9fee-2609b0de1482/original=true/962976d0-bf9f-4225-9fee-2609b0de1482.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146342945",
+      "title": "Civitai prompt 146342945",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:Dark_Fantasy_Paint_Art_V2:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146342945",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eb376da-ba03-40d4-986c-094f1be43918/original=true/0eb376da-ba03-40d4-986c-094f1be43918.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3377236,
+        3403466
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 940510306399435,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043013+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4f38d4292d9dc770aadd1f18de347626039eaada99eae55b35a75e2c6a5b2b68",
+      "prompt_ar": "التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<lora:Dark_Fantasy_Paint_Art_V2:1.0> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146342945 image ai-image-prompts digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:dark_fantasy_paint_art_v2:1.0> <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146342945",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eb376da-ba03-40d4-986c-094f1be43918/original=true/0eb376da-ba03-40d4-986c-094f1be43918.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146341600",
+      "title": "Civitai prompt 146341600",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:BRASS BY STX_V1:1.05> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146341600",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e34351-056b-4d4d-83f4-736fd8549a54/original=true/67e34351-056b-4d4d-83f4-736fd8549a54.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3377236,
+        3392960
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 629148369598932,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043031+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "884d90f6e062410d318e0202fbe150b433dc5c41dda462b27a901f4533b1eeaa",
+      "prompt_ar": "التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<lora:BRASS BY STX_V1:1.05> <lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146341600 image ai-image-prompts digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:brass by stx_v1:1.05> <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146341600",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67e34351-056b-4d4d-83f4-736fd8549a54/original=true/67e34351-056b-4d4d-83f4-736fd8549a54.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345255",
+      "title": "Civitai prompt 146345255",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. Digital illustration, Concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures.  masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. The weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. The material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. Small circular ports and stylized technical markings are integrated along the barrel and grip. The lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. At the bottom of the frame, the alphanumeric characters \"7 7 9 1 H A D\" are rendered in a clean, futuristic typeface. Shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver,\n<lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345255",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a10073fc-8908-4064-b879-eb83fa672f20/original=true/a10073fc-8908-4064-b879-eb83fa672f20.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3289505,
+        3377236
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 329402491377696,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043048+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3a5a51214d474384e277454058451948a40743e6752a9a9ab07b47a2f41cc05b",
+      "prompt_ar": "التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية. التوضيح الرقمي، مفهوم الفن التوضيحي، الفن الخيالي باللونين الأسود والذهبي. زخرفة ذهبية، خيال داكن، فن خيالي من تأليف يوان لوسيل، رسم توضيحي، رسم، أحادي اللون باللونين الأسود والذهبي، مواد مفصلة للغاية.  تحفة فنية، أسلوب MK الوحشي، سلاح ناري صناعي مستقبلي متطور يمزج بين جماليات المسدس الثقيل والمسدس الميكانيكي المتقدم، يتمركز في إعداد الاستوديو على خلفية رمادية داكنة بسيطة. يتميز السلاح بتصميم زاوي معقد وعدواني مصنوع من لوحات هندسية متشابكة ومكونات ميكانيكية معقدة. تتكون لوحة المواد من تشطيبات سوداء غير لامعة عميقة تتناقض مع لمسات معدنية ذهبية مصقولة على الألواح الأمامية والخلفية، مما يخلق جمالية فاخرة عالية التباين. تم دمج المنافذ الدائرية الصغيرة والعلامات الفنية المنمقة على طول البرميل والمقبض. تتميز الإضاءة بجودة الاستوديو الاحترافية، وتتميز بإضاءة حافة درامية لتسليط الضوء على الحواف المعدنية العاكسة مع إلقاء ظلال ناعمة لتحديد الهندسة المعقدة للسلاح. في الجزء السفلي من الإطار، يتم عرض الأحرف الأبجدية الرقمية \"7 7 9 1 H A D\" بخط واضح ومستقبلي. تم التصوير باستخدام عدسة ماكرو للحصول على تفاصيل واضحة، وأسلوب تصوير فوتوغرافي عالي التباين، مع التركيز على الأنسجة الدقيقة على الأسطح المعدنية والتشطيبات الناعمة غير اللامعة، وتركيز فائق الوضوح على المكونات الميكانيكية، والإضاءة السينمائية، وعرض نسيج واقعي للغاية.\n<lora:Krea2_AetherFrame:0.8> <lora:Black_and_Gold_krea2:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345255 image ai-image-prompts digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. digital illustration, concept art illustration, black and gold fantasy art. gold ornament, dark fantasy, fantasy art by yoann lossel, illustration, painting, monochrome black and gold, highly detailed textures. masterpiece,,mk brutal style, a high-end industrial futuristic firearm blending the aesthetics of a heavy handgun and an advanced mechanical revolver, centered in a studio setting against a minimalist dark grey background. the weapon features a complex, aggressive angular design constructed from interlocking geometric plates and intricate mechanical components. the material palette consists of deep matte black finishes contrasted with polished gold metallic accents on the front and rear panels, creating a high-contrast luxury aesthetic. small circular ports and stylized technical markings are integrated along the barrel and grip. the lighting is professional studio-quality, featuring dramatic rim lighting to highlight reflective metallic edges while casting soft shadows to define the weapon's complex geometry. at the bottom of the frame, the alphanumeric characters \"7 7 9 1 h a d\" are rendered in a clean, futuristic typeface. shot with a macro lens for sharp detail, high-contrast photography style, emphasizing micro-textures on the metallic surfaces and smooth matte finishes, ultra-sharp focus on mechanical components, cinematic lighting, hyper-realistic texture rendering.,no_humans, weapon, gun, weapon_focus, science_fiction, handgun, shadow, grey_background, black_background, english_text, simple_background, revolver, <lora:krea2_aetherframe:0.8> <lora:black_and_gold_krea2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345255",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a10073fc-8908-4064-b879-eb83fa672f20/original=true/a10073fc-8908-4064-b879-eb83fa672f20.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345084",
+      "title": "Civitai prompt 146345084",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "painting in the style of luis royo, dcanchfutre. painting in the style of luis royo, dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:royo_v2:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345084",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d3c0640-5549-4af4-8ebd-8f446f132fab/original=true/5d3c0640-5549-4af4-8ebd-8f446f132fab.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3120184,
+        3154408,
+        3240267
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 591935589212072,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043084+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6a94689a3fadfc67aeb1b20cdb2be857908771bb3f46d4816f26b9e52598655e",
+      "prompt_ar": "الرسم بأسلوب لويس رويو، dcanchfutre. الرسم بأسلوب لويس رويو، dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:royo_v2:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146345084 photography ai-image-prompts painting in the style of luis royo, dcanchfutre. painting in the style of luis royo, dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:royo_v2:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345084",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d3c0640-5549-4af4-8ebd-8f446f132fab/original=true/5d3c0640-5549-4af4-8ebd-8f446f132fab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146343970",
+      "title": "Civitai prompt 146343970",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "SegrellesStyle, dcanchfutre. SegrellesStyle, dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:SegrellesStyle:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146343970",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/004cd544-7e52-4019-a451-b04ba049f9e0/original=true/004cd544-7e52-4019-a451-b04ba049f9e0.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3398652
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 552964710168252,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043116+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ec4aca579a2f565a07b7ced35a49ab1094c3f7733b02535e9a4dee6530deb5e5",
+      "prompt_ar": "SegrellesStyle, dcanchfutre. SegrellesStyle, dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:SegrellesStyle:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:53Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146343970 photography ai-image-prompts segrellesstyle, dcanchfutre. segrellesstyle, dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:segrellesstyle:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146343970",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/004cd544-7e52-4019-a451-b04ba049f9e0/original=true/004cd544-7e52-4019-a451-b04ba049f9e0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146342917",
+      "title": "Civitai prompt 146342917",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dcanchfutre. dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:DLStormStyle:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146342917",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5277ba4b-770d-40aa-a792-335f7f5c33ec/original=true/5277ba4b-770d-40aa-a792-335f7f5c33ec.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3407468
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 254715220675158,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043146+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "18bf8d9df183e5b782dd9d001d124625d2617e10701081116fe3f380ccd85b36",
+      "prompt_ar": "com.dcanchfutre. com.dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:DLStormStyle:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146342917 photography ai-image-prompts dcanchfutre. dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:dlstormstyle:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146342917",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5277ba4b-770d-40aa-a792-335f7f5c33ec/original=true/5277ba4b-770d-40aa-a792-335f7f5c33ec.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146341578",
+      "title": "Civitai prompt 146341578",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The overall style is bold with thick black outlines and vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold with vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold and thick black outlines with vibrant colors. Exaggerated characteristics. br0ckh0f3r, dcanchfutre. The overall style is bold with thick black outlines and vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold with vibrant colors. Exaggerated characteristics. br0ckh0f3r, The overall style is bold and thick black outlines with vibrant colors. Exaggerated characteristics. br0ckh0f3r, dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:Brock-Hofer-Style_1:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146341578",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bc27118-e5ab-4ead-9004-d1fdc2bc1dee/original=true/0bc27118-e5ab-4ead-9004-d1fdc2bc1dee.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3409205
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 102197866228946,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043198+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7eb3144985842d7067c46b89447dfab71af31f4977acbba434adcccb687b517d",
+      "prompt_ar": "النمط العام جريء مع خطوط سوداء سميكة وألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام جريء بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام هو خطوط سوداء جريئة وسميكة بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، dcanchfutre. النمط العام جريء مع خطوط سوداء سميكة وألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام جريء بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، النمط العام هو خطوط سوداء جريئة وسميكة بألوان نابضة بالحياة. خصائص مبالغ فيها. br0ckh0f3r، dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:Brock-Hofer-Style_1:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146341578 photography ai-image-prompts the overall style is bold with thick black outlines and vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold with vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold and thick black outlines with vibrant colors. exaggerated characteristics. br0ckh0f3r, dcanchfutre. the overall style is bold with thick black outlines and vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold with vibrant colors. exaggerated characteristics. br0ckh0f3r, the overall style is bold and thick black outlines with vibrant colors. exaggerated characteristics. br0ckh0f3r, dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:brock-hofer-style_1:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146341578",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bc27118-e5ab-4ead-9004-d1fdc2bc1dee/original=true/0bc27118-e5ab-4ead-9004-d1fdc2bc1dee.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345220",
+      "title": "Civitai prompt 146345220",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "retro_cyberpunk, retro, retro artstyle, dcanchfutre. retro_cyberpunk, retro, retro artstyle, dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:Retro_Neon_Cyberpunk_krea2_3352777_epoch_10:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345220",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6d7f87c3-df8a-44cb-b4dc-4db661a635f0/original=true/6d7f87c3-df8a-44cb-b4dc-4db661a635f0.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3358202
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 687229319602646,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043229+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ec2eebce53b99f013377704bb3871e4d52a74f4316134725b1416c78eb302205",
+      "prompt_ar": "retro_cyberpunk، الرجعية، أسلوب الفن الرجعية، dcanchfutre. retro_cyberpunk، الرجعية، أسلوب الفن الرجعية، dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:Retro_Neon_Cyberpunk_krea2_3352777_epoch_10:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146345220 photography ai-image-prompts retro_cyberpunk, retro, retro artstyle, dcanchfutre. retro_cyberpunk, retro, retro artstyle, dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:retro_neon_cyberpunk_krea2_3352777_epoch_10:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345220",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6d7f87c3-df8a-44cb-b4dc-4db661a635f0/original=true/6d7f87c3-df8a-44cb-b4dc-4db661a635f0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146344400",
+      "title": "Civitai prompt 146344400",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dcanchfutre. dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:retro-80s:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146344400",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3768d36e-8a96-4fcd-a868-9a086955c294/original=true/3768d36e-8a96-4fcd-a868-9a086955c294.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3387832
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 1104813459959697,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043256+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "eb4e1f2f50a3d015ee4867fc2ba45e9cad00b314d910548c5e23d1fba8464424",
+      "prompt_ar": "com.dcanchfutre. com.dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:retro-80s:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146344400 photography ai-image-prompts dcanchfutre. dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:retro-80s:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146344400",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3768d36e-8a96-4fcd-a868-9a086955c294/original=true/3768d36e-8a96-4fcd-a868-9a086955c294.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146343420",
+      "title": "Civitai prompt 146343420",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dcanchfutre. dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:Dark_Fantasy_Paint_Art_V2:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146343420",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dfe75a7-bb37-4b37-87a0-3d970f1981bb/original=true/0dfe75a7-bb37-4b37-87a0-3d970f1981bb.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3403466
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 461788110601692,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043283+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e55a3d85959da3f21d0a8f802268af527611c11e965417f93fc87f5bdcec38e8",
+      "prompt_ar": "com.dcanchfutre. com.dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:Dark_Fantasy_Paint_Art_V2:1.0> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146343420 photography ai-image-prompts dcanchfutre. dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:dark_fantasy_paint_art_v2:1.0> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146343420",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0dfe75a7-bb37-4b37-87a0-3d970f1981bb/original=true/0dfe75a7-bb37-4b37-87a0-3d970f1981bb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146342559",
+      "title": "Civitai prompt 146342559",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dcanchfutre. dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:BRASS BY STX_V1:1.05> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146342559",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a394cb52-2a6c-44c7-8fd4-c38b3d7ca74b/original=true/a394cb52-2a6c-44c7-8fd4-c38b3d7ca74b.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267,
+        3392960
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 111989378698249,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043310+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "461c21c73502fffd91bcd75c08f660f229cfa13766fbdc935c8b69a48f94137f",
+      "prompt_ar": "com.dcanchfutre. com.dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:BRASS BY STX_V1:1.05> <lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146342559 photography ai-image-prompts dcanchfutre. dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:brass by stx_v1:1.05> <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146342559",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a394cb52-2a6c-44c7-8fd4-c38b3d7ca74b/original=true/a394cb52-2a6c-44c7-8fd4-c38b3d7ca74b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146341374",
+      "title": "Civitai prompt 146341374",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "dcanchfutre. dcanchfutre.  masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. Dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. In the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. The environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. Atmospheric dust motes and hazy air particles float in the wind. Captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others,\n<lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146341374",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54cd87cb-0960-4f4a-86f2-d13bd98d3e0b/original=true/54cd87cb-0960-4f4a-86f2-d13bd98d3e0b.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3154408,
+        3240267
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 777219673625563,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043337+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "97bfcf81a134ecbf14ad597030d5aa22bc5ac96da40ca297d9267b2b66ae7d77",
+      "prompt_ar": "com.dcanchfutre. com.dcanchfutre.  تحفة فنية، أسلوب MK وحشي، منظر طبيعي سينمائي وواسع بشكل مخيف لأرض قاحلة من عالم آخر تحت سماء غروب الشمس المكتئبة، مؤطرة في تركيبة على شكل صندوق بريد. يهيمن على الجانب الأيمن هيكل حلقي ضخم متهالك مبني من قطع معدنية ثقيلة متآكلة وحجر متآكل، وسطحه مليء بالشقوق العميقة والأنسجة المؤكسدة. في الجزء السفلي الأيسر من المقدمة، تقف عدة شخصيات صغيرة - بما في ذلك صور ظلية لصبيين وفتاة وروبوت ميكانيكي ذو طلاء معدني متآكل - وسط أرض جافة متشققة، ويؤكد حجمها الصغير على الأبعاد الضخمة للآثار المحيطة. البيئة عبارة عن أرض قاحلة تتميز بالكثبان الرملية المتموجة والتربة الرمادية تحت سماء كثيفة ملبدة بالغيوم حيث تتدلى شمس كبيرة منخفضة، وتلقي وهجًا ذهبيًا مثيرًا عبر المركز بينما تغرق المقدمة في ظلال عميقة وعالية التباين. تطفو ذرات الغبار الجوي وجزيئات الهواء الضبابية في مهب الريح. تم التقاطها باستخدام عدسة واسعة الزاوية بفتحة f/11 لضمان الحصول على تفاصيل دقيقة بدءًا من القوام الأمامي للأرض المتشققة والمعادن المحفورة وحتى الأفق البعيد المتعرج، وتتميز الصورة بأنسجة دقيقة مكثفة على كل سطح، بدءًا من الرمال الرملية وحتى الأسطح المتآكلة للحلقة الضخمة. غروب الشمس, 2 أولاد, 1 فتاة, 2 آخرين,\n<lora:DC Ancient Futurism Style 1 [Krea2][GPT4oTagged][Trigger=dcanchfutre.][32Rank] v1:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146341374 photography ai-image-prompts dcanchfutre. dcanchfutre. masterpiece,,mk brutal style, a cinematic and hauntingly vast landscape of an otherworldly wasteland under a brooding sunset sky, framed in a letterboxed composition. dominating the right side is a colossal, crumbling ring structure constructed from weathered, heavy-metal segments and eroded stone, its surface pitted with deep cracks and oxidized textures. in the lower left foreground, several small figures—including silhouettes of two boys, one girl, and a mechanical robot with scuffed metallic plating—stand amidst cracked, parched earth, their tiny scale emphasizing the monumental proportions of the surrounding ruins. the environment is an arid wasteland featuring rolling dunes of ochre and ash-gray soil under a heavy, clouded sky where a large sun hangs low, casting a dramatic golden glow across the center while plunging the foreground into deep, high-contrast shadows. atmospheric dust motes and hazy air particles float in the wind. captured with a wide-angle lens at f/11 to ensure sharp detail from the foreground textures of cracked earth and pitted metal to the distant jagged horizon, the image features intense micro-textures on every surface, from the gritty sand to the corroded surfaces of the massive ring.,scenery, cloud, sky, letterboxed, cloudy_sky, outdoors, science_fiction, standing, ruins, landscape, 1boy, multiple_others, silhouette, robot, sunset, 2boys, 1girl, 2others, <lora:dc ancient futurism style 1 [krea2][gpt4otagged][trigger=dcanchfutre.][32rank] v1:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146341374",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54cd87cb-0960-4f4a-86f2-d13bd98d3e0b/original=true/54cd87cb-0960-4f4a-86f2-d13bd98d3e0b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146345263",
+      "title": "Civitai prompt 146345263",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "painting in the style of luis royo, masterpiece, very aesthetic, ektachrome fade film painting in the style of luis royo, masterpiece, very aesthetic, ektachrome fade film  masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. The architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. In the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. The atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. The lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. The color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. Captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. High-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak,\n<lora:royo_v2:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146345263",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a194d685-2b0b-4412-a702-11cbae1ae759/original=true/a194d685-2b0b-4412-a702-11cbae1ae759.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3077110,
+        3120184,
+        3154408,
+        3168308,
+        3284125,
+        3416242
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 700748883621146,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043363+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dbea802c7d4c156d186390938eb9a2f775eafc5697099e3be36543aee010f35f",
+      "prompt_ar": "لوحة بأسلوب لويس رويو، تحفة فنية، جمالية للغاية، لوحة فيلم تتلاشى ektachrome بأسلوب لويس رويو، تحفة فنية، جمالية للغاية، تحفة فيلم ektachrome Fade،، أسلوب mk الوحشي، شخصية وحيدة يُنظر إليها من الخلف، ترتدي ملابس شتوية ثقيلة وعباءة زرقاء ضخمة مزينة بالفراء مصنوعة من قماش سميك ومحكم، تسير على طول طريق مغطى بالثلوج نحو قلعة مترامية الأطراف مزخرفة. الهندسة المعمارية معقدة للغاية، وتتميز بقباب متعددة وأبراج شاهقة وأقواس حجرية ترتفع بشكل مهيب من التضاريس المتجمدة. في المقدمة، يوجد جسر حجري ريفي مغطى بالصقيع ورقائق ثلجية معلقة يمتد على مساحة ثلجية، بينما على اليسار توجد غابة من أشجار الصنوبر والفروع العارية والهيكلية مثقلة بالثلوج. يمتلئ الجو برقائق الثلج المنجرفة وضباب خفيف من الضباب يتدحرج عبر الوادي. تخلق الإضاءة تباينًا دراماتيكيًا: فالمناظر الطبيعية الخارجية مغمورة في الشفق البارد والأزرق الداكن والأبيض، بينما يتوهج الجزء الداخلي من القلعة بضوء برتقالي ناري مشع ينسكب من بواباتها المقوسة. تجمع لوحة الألوان درجات اللون الأزرق الجليدي مع اللمسات الذهبية الدافئة من غروب الشمس. تم التقاط المشهد في لقطة واسعة النطاق باستخدام عدسة مقاس 35 مم بفتحة f/2.8 للتأكيد على العمق، ويتميز المشهد بإضاءة سينمائية مع أضواء حافة حادة على الحواف المعمارية وبوكيه ناعم على القمم البعيدة. تظهر الأنسجة عالية الدقة في الحجر المسامي للجسر، والألياف الكثيفة لزخرفة الفراء، والبنية البلورية لبلورات الجليد التي تتشبث بكل سطح.,منظر طبيعي، ثلج، في الهواء الطلق، شجرة، سماء، جسر، سحابة، رأس، سماء غائمة، شتاء، قلعة، شجرة عارية، زخرفة من الفرو، فتاة واحدة، واقفة، منفردة، منظر طبيعي، من الخلف، بناء، صبي واحد، عباءة، خيال، قوس، طبيعة، شعر أسود، صخرة، برج، معطف، تصويري، واسع النطاق، غابة، هندسة معمارية، مواجهة بعيدًا، لقطة واسعة، نهر، رأس مزين بالفراء، شجرة صنوبر، عباءة زرقاء،\n<lora:royo_v2:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo أنيمي الإمكانات الكاملة:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:55Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146345263 architecture ai-image-prompts painting in the style of luis royo, masterpiece, very aesthetic, ektachrome fade film painting in the style of luis royo, masterpiece, very aesthetic, ektachrome fade film masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. the architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. in the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. the atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. the lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. the color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. high-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak, <lora:royo_v2:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:tsm3bmd98wny1gs3x2xqc72c30:0.8> <lora:mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146345263",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a194d685-2b0b-4412-a702-11cbae1ae759/original=true/a194d685-2b0b-4412-a702-11cbae1ae759.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146344854",
+      "title": "Civitai prompt 146344854",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "SegrellesStyle, masterpiece, very aesthetic, ektachrome fade film SegrellesStyle, masterpiece, very aesthetic, ektachrome fade film  masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. The architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. In the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. The atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. The lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. The color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. Captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. High-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak,\n<lora:SegrellesStyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146344854",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3964b81c-87f6-4f8e-9684-4bd6ca1d79f7/original=true/3964b81c-87f6-4f8e-9684-4bd6ca1d79f7.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3077110,
+        3154408,
+        3168308,
+        3284125,
+        3398652,
+        3416242
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 497261490540130,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043388+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1906d32df5f0f691d530c835cedc9910048d112de4b41f99eebc2b1eed9ffd3b",
+      "prompt_ar": "SegrellesStyle، تحفة فنية، جمالية للغاية، فيلم ektachrome Fade SegrellesStyle، تحفة فنية، جمالية للغاية، تحفة فيلم ektachrome Fade،، أسلوب وحشي mk، شخصية وحيدة يُنظر إليها من الخلف، ترتدي ملابس شتوية ثقيلة وعباءة زرقاء ضخمة مزينة بالفراء مصنوعة من قماش سميك ومحكم، تسير على طول طريق مغطى بالثلوج نحو قلعة مزخرفة مترامية الأطراف. الهندسة المعمارية معقدة للغاية، وتتميز بقباب متعددة وأبراج شاهقة وأقواس حجرية ترتفع بشكل مهيب من التضاريس المتجمدة. في المقدمة، يوجد جسر حجري ريفي مغطى بالصقيع ورقائق ثلجية معلقة يمتد على مساحة ثلجية، بينما على اليسار توجد غابة من أشجار الصنوبر والفروع العارية والهيكلية مثقلة بالثلوج. يمتلئ الجو برقائق الثلج المنجرفة وضباب خفيف من الضباب يتدحرج عبر الوادي. تخلق الإضاءة تباينًا دراماتيكيًا: فالمناظر الطبيعية الخارجية مغمورة في الشفق البارد والأزرق الداكن والأبيض، بينما يتوهج الجزء الداخلي من القلعة بضوء برتقالي ناري مشع ينسكب من بواباتها المقوسة. تجمع لوحة الألوان درجات اللون الأزرق الجليدي مع اللمسات الذهبية الدافئة من غروب الشمس. تم التقاط المشهد في لقطة واسعة النطاق باستخدام عدسة مقاس 35 مم بفتحة f/2.8 للتأكيد على العمق، ويتميز المشهد بإضاءة سينمائية مع أضواء حافة حادة على الحواف المعمارية وبوكيه ناعم على القمم البعيدة. تظهر الأنسجة عالية الدقة في الحجر المسامي للجسر، والألياف الكثيفة لزخرفة الفراء، والبنية البلورية لبلورات الجليد التي تتشبث بكل سطح.,منظر طبيعي، ثلج، في الهواء الطلق، شجرة، سماء، جسر، سحابة، رأس، سماء غائمة، شتاء، قلعة، شجرة عارية، زخرفة من الفرو، فتاة واحدة، واقفة، منفردة، منظر طبيعي، من الخلف، بناء، صبي واحد، عباءة، خيال، قوس، طبيعة، شعر أسود، صخرة، برج، معطف، تصويري، واسع النطاق، غابة، هندسة معمارية، مواجهة بعيدًا، لقطة واسعة، نهر، رأس مزين بالفراء، شجرة صنوبر، عباءة زرقاء،\n<lora:SegrellesStyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo animé full الإمكانيات:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:55Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146344854 architecture ai-image-prompts segrellesstyle, masterpiece, very aesthetic, ektachrome fade film segrellesstyle, masterpiece, very aesthetic, ektachrome fade film masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. the architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. in the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. the atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. the lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. the color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. high-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak, <lora:segrellesstyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:tsm3bmd98wny1gs3x2xqc72c30:0.8> <lora:mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146344854",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3964b81c-87f6-4f8e-9684-4bd6ca1d79f7/original=true/3964b81c-87f6-4f8e-9684-4bd6ca1d79f7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146343772",
+      "title": "Civitai prompt 146343772",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, very aesthetic, ektachrome fade film masterpiece, very aesthetic, ektachrome fade film  masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. The architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. In the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. The atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. The lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. The color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. Captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. High-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak,\n<lora:DLStormStyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146343772",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33599fc7-543b-4635-a237-dad343b7defc/original=true/33599fc7-543b-4635-a237-dad343b7defc.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3077110,
+        3154408,
+        3168308,
+        3284125,
+        3407468,
+        3416242
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 772192968575159,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-21T08:42:51.043416+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "163df3a40770fb059b79e7e9c674219da58d296fd319c400593055d9ff186285",
+      "prompt_ar": "تحفة فنية، جمالية للغاية، تحفة فيلم ektachrome Fade، تحفة فيلم ektachrome Fade، جمالية للغاية، تحفة فيلم ektachrome Fade، أسلوب وحشي، شخصية وحيدة يُنظر إليها من الخلف، ترتدي ملابس شتوية ثقيلة وعباءة زرقاء ضخمة مزينة بالفراء مصنوعة من قماش سميك ومحكم، تسير على طول طريق مغطى بالثلوج نحو قلعة مزخرفة مترامية الأطراف. الهندسة المعمارية معقدة للغاية، وتتميز بقباب متعددة وأبراج شاهقة وأقواس حجرية ترتفع بشكل مهيب من التضاريس المتجمدة. في المقدمة، يوجد جسر حجري ريفي مغطى بالصقيع ورقائق ثلجية معلقة يمتد على مساحة ثلجية، بينما على اليسار توجد غابة من أشجار الصنوبر والفروع العارية والهيكلية مثقلة بالثلوج. يمتلئ الجو برقائق الثلج المنجرفة وضباب خفيف من الضباب يتدحرج عبر الوادي. تخلق الإضاءة تباينًا دراماتيكيًا: فالمناظر الطبيعية الخارجية مغمورة في الشفق البارد والأزرق الداكن والأبيض، بينما يتوهج الجزء الداخلي من القلعة بضوء برتقالي ناري مشع ينسكب من بواباتها المقوسة. تجمع لوحة الألوان درجات اللون الأزرق الجليدي مع اللمسات الذهبية الدافئة من غروب الشمس. تم التقاط المشهد في لقطة واسعة النطاق باستخدام عدسة مقاس 35 مم بفتحة f/2.8 للتأكيد على العمق، ويتميز المشهد بإضاءة سينمائية مع أضواء حافة حادة على الحواف المعمارية وبوكيه ناعم على القمم البعيدة. تظهر الأنسجة عالية الدقة في الحجر المسامي للجسر، والألياف الكثيفة لزخرفة الفراء، والبنية البلورية لبلورات الجليد التي تتشبث بكل سطح.,منظر طبيعي، ثلج، في الهواء الطلق، شجرة، سماء، جسر، سحابة، رأس، سماء غائمة، شتاء، قلعة، شجرة عارية، زخرفة من الفرو، فتاة واحدة، واقفة، منفردة، منظر طبيعي، من الخلف، بناء، صبي واحد، عباءة، خيال، قوس، طبيعة، شعر أسود، صخرة، برج، معطف، تصويري، واسع النطاق، غابة، هندسة معمارية، مواجهة بعيدًا، لقطة واسعة، نهر، رأس مزين بالفراء، شجرة صنوبر، عباءة زرقاء،\n<lora:DLStormStyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo animé full الإمكانيات:0.8> <lora:refusal_reduction_v2_full_rank:0.8>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-21T08:42:56Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146343772 architecture ai-image-prompts masterpiece, very aesthetic, ektachrome fade film masterpiece, very aesthetic, ektachrome fade film masterpiece,,mk brutal style, a lone figure viewed from behind, wearing heavy winter garments and a voluminous fur-trimmed blue cloak made of thick, textured fabric, walking along a snow-covered path toward a sprawling, ornate castle. the architecture is grandly intricate, featuring multiple domes, towering spires, and stone arches that rise majestically from the frozen terrain. in the foreground, a rustic stone bridge covered in frost and hanging icicles spans a snowy expanse, while to the left, thickets of pine trees and bare, skeletal branches are heavily laden with snow. the atmosphere is filled with drifting snowflakes and a light haze of fog rolling through the valley. the lighting creates a dramatic contrast: the exterior landscape is bathed in the cold, deep blues and whites of twilight, while the interior of the castle glows with a radiant, fiery orange light spilling from its arched gateways. the color palette juxtaposes icy cerulean tones against warm golden highlights from the setting sun. captured in a grand-scale wide shot using a 35mm lens at f/2.8 to emphasize depth, the scene features cinematic lighting with sharp rim lights on the architectural edges and soft bokeh on distant peaks. high-fidelity textures are visible in the porous stone of the bridge, the dense fibers of the fur trim, and the crystalline structure of the ice crystals clinging to every surface.,scenery, snow, outdoors, tree, sky, bridge, cloud, cape, cloudy_sky, winter, castle, bare_tree, fur_trim, 1girl, standing, solo, landscape, from_behind, building, 1boy, cloak, fantasy, arch, nature, black_hair, rock, tower, coat, painterly, grand_scale, forest, architecture, facing_away, wide_shot, river, fur-trimmed_cape, pine_tree, blue_cloak, <lora:dlstormstyle:1.0> <lora:krea2-masterpieces-v51:0.8> <lora:tsm3bmd98wny1gs3x2xqc72c30:0.8> <lora:mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146343772",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33599fc7-543b-4635-a237-dad343b7defc/original=true/33599fc7-543b-4635-a237-dad343b7defc.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-20T19:17:45.270642+00:00",
-  "prompt_count": 1682,
+  "generated_at": "2026-10-21T08:42:56.610020+00:00",
+  "prompt_count": 1710,
   "translation": {
     "language": "ar",
-    "translated_count": 14,
-    "skipped_count": 1662,
+    "translated_count": 28,
+    "skipped_count": 1676,
     "failed_count": 6,
-    "updated_at": "2026-10-20T19:17:44Z"
+    "updated_at": "2026-10-21T08:42:56Z"
   }
 }
