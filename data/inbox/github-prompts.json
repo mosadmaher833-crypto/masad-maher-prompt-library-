@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-21T19:18:13.568790+00:00",
+  "generated_at": "2026-10-22T08:44:21.549561+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1569,15 +1569,32 @@
       "source_url": "https://github.com/crisng95/flowkit/blob/b09e783481d20bfeaf46f2fbcde08bf2b54c0a2a/AGENTS.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-4ebb6ad5ade9",
+      "title": "YouMind-OpenLab/awesome-nano-banana-pro-prompts README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "A candid couple photo of the Woman's Look and Man's Look in the Setting, engaged in the Activity. Render it as the Camera Type, with soft focus, smeared facial detail, color noise, dim uneven indoor light and low-resolution compression. Use awkward webcam framing from a desk-level angle, with a slight tilt and casually cropped shoulders or arms. Include the Era Props naturally in the booth. The couple should look genuinely close and relaxed, with real skin, messy everyday hair and no heavy retouching. Use Face Reference for the matching faces when applicable. Make it feel like an unedited early-2000s personal photo from an old Facebook album or MSN chat, not a modern image with a retro filter. No date stamp, text, watermark, modern electronics or current fashion. Output in the Format.\n\nUse these details:\nWoman's Look: \"{argument name=\"woman's look\" default=\"Young woman in her early 20s with straight black hair, a casual graphic T-shirt and a loose zip hoodie\"}\"\nMan's Look: \"{argument name=\"man's look\" default=\"Young man in his early 20s with a thin mustache, tousled hair and a worn casual sweatshirt\"}\"\nSetting: \"{argument name=\"setting\" default=\"A cramped internet cafe booth with a laminate desk, worn carpet, beige walls and bulky CRT monitors\"}\"\nActivity: \"{argument name=\"activity\" default=\"Leaning close together and looking into the webcam during an online chat\"}\"\nCamera Type: \"{argument name=\"camera type\" default=\"Low-resolution built-in webcam capture from a chunky desktop computer\"}\"\nEra Props: [{argument name=\"era props\" default=\"Wired earphones, A burned CD in a paper sleeve, A chunky desktop keyboard\"}]\nFace Reference: \"{argument name=\"face reference\" default=\"Use attached photos for the matching person's face when provided; if none are attached, invent both faces\"}\"\nFormat: \"{argument name=\"format\" default=\"4:3 landscape\"}\"",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "source_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README.md",
+      "license": "NOASSERTION",
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"advertising prompt\"",
-    "prompt engineering",
-    "prompt templates"
+    "\"education prompt\"",
+    "AI image prompts",
+    "AI video prompts"
   ],
   "last_sources": []
 }
