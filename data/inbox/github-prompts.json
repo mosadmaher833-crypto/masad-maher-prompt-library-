@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-23T19:13:34.898689+00:00",
+  "generated_at": "2026-10-24T08:14:33.846171+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1586,15 +1586,54 @@
       "source_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README.md",
       "license": "NOASSERTION",
       "status": "pending_review"
+    },
+    {
+      "id": "gh-aa1c075f680a",
+      "title": "MIGRATION.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### What Is Migrated From Hermes Agent\n\nOpenSquilla currently maps the common Hermes Agent home surface:\n\n- Persona and user data files such as `SOUL.md`, `MEMORY.md`, and `USER.md`.\n- Hermes skills, imported under `~/.opensquilla/skills/hermes-imports/`.\n- Hermes model/provider config where there is an OpenSquilla-native equivalent.\n- Hermes custom providers with `base_url`, mapped to OpenAI-compatible provider config.\n- Environment values and recognized provider keys when `--migrate-secrets` is set.\n- Search config where supported.\n- MCP server definitions where supported.\n- Telegram, Discord, and Slack channel tokens when `--migrate-secrets` is set.\n- Selected plugin, cron, and unsupported runtime artifacts are archived for review.\n\n### Hermes Agent Limits\n\nThe Hermes Agent migrator is newer than the OpenClaw migrator and has a smaller\ncoverage surface. Review the dry-run report carefully before applying.\n\nCurrent limits:\n\n- Live runtime state, active sessions, process state, and gateway state are not imported.\n- Some Hermes runtime config option ids are accepted but currently deferred:\n  `workspace-files`, `tools-config`, `browser-config`, `session-config`,\n  `gateway-config`, `approvals-config`, `logging-config`, and `memory-backend`.\n  Each appears in the migration report as `status: deferred` with reason\n  `handler not implemented yet`. Selecting them via `--include` is not an\n  error; the migrator just records the gap so it is visible.\n- Browser, tool, session, gateway, approval, and logging settings may require manual review.\n- A full pre-apply snapshot of `~/.opensquilla` is not created automatically.\n\n### Hermes Agent Migration Behavior\n\nThe Hermes migrator now mirrors the OpenClaw migrator on a few correctness\nbehaviors that were previously documented but not implemented:\n\n- **Item-level backups.** When `--overwrite` replaces an existing\n  workspace file (`SOUL.md`, `MEMORY.md`, `USER.md`) or skill directory, the\n  prior contents are written to `<name>.backup.<timestamp>` next to the\n  original before the new content is applied.\n- **Semantic deduplication on merge.** Existing destination content is split\n  into paragraph blocks and compared after whitespace normalization. A new\n  source body is appended unless an equivalent block already exists. The\n  previous naive substring check could silently drop short source bodies.\n- **Memory overflow archival.** If the merged `MEMORY.md` would exceed\n  OpenSquilla's per-file size limit, the overflow is split at a paragraph\n  boundary and archived to\n  `~/.opensquilla/migration/hermes/<timestamp>/archive/memory-overflow/MEMORY.overflow.md`.\n  A short pointer is left at the end of `MEMORY.md`.\n- **Branding rewrite.** Hermes branding in imported workspace prose\n  (`SOUL.md`, `MEMORY.md`, `USER.md`) is rewritten to OpenSquilla. Bare\n  `Hermes` is only rewritten when it is followed by a workspace-context word\n  (e.g. `home`, `workspace`, `memory`, `config`). Source-reference tokens\n  such as `HERMES_HOME`, `NousResearch`, and `hermes-agent` are preserved so\n  the migration archive still points back at the original source. The\n  unrebranded original is copied to\n  `<output_dir>/archive/files/workspace-original/<name>.md` for review.\n- **Path-token replacement is word-boundary aware.** Previously a plain\n  string replace turned `~/.hermesrc` into `~/.opensquillarc` and\n  `.hermes_backup` into `.opensquilla_backup` — meaningless paths. The\n  rebrand now only rewrites `.hermes` when it ends a path token (i.e.\n  followed by `/`, whitespace, quote, or end-of-string). Same rule\n  applied to `.openclaw` on the OpenClaw side, and bare-word\n  `OpenClaw` / `openclaw` are now matched with `\\b` so substrings like\n  `OpenClawFlavored` or `openclaw_pid` are left alone.\n- **Non-UTF-8 source files no longer crash.** Hand-edited source files\n  with stray bad bytes (CP1252 fragments, leftover binary paste, etc.)\n  used to abort the entire Hermes migration with\n  `UnicodeDecodeError`. The source read now uses `errors=\"replace\"`\n  (matching OpenClaw); offending bytes become U+FFFD so users can spot\n  them.\n- **`mcp.enabled = false` is no longer silently flipped.** When the\n  destination home already has MCP servers AND `mcp.enabled = false`\n  (an explicit \"I don't want MCP right now\" choice), importing more\n  MCP servers leaves the flag at `false` and surfaces\n  `details.mcp_enabled_left_disabled` plus a `manual_steps` hint. MCP\n  is still flipped on automatically when the destination had no\n  servers (framework default — flipping is what the user wants).\n- **Mixed-subject prose is kept verbatim.** Workspace notes often\n  describe Hermes AND OpenSquilla as distinct entities (\"Hermes Agent\n  v0.13.0 installed at ~/.local/bin/hermes; OpenSquilla also installed\n  at ~/.local/bin/opensquilla. Has `migrate hermes` subcommand.\"). A\n  mechanical rebrand collapses the two subjects into one and produces\n  factual errors (path mismatches), tautologies (\"OpenSquilla skills\n  loadable by OpenSquilla\"), and self-referential commands (\"migrate\n  OpenSquilla skills to OpenSquilla\"). When the source already\n  mentions `OpenSquilla` (any case), the migrator now skips rebrand\n  for that file and writes it verbatim, recording\n  `details.rebrand_skipped: \"mentions-opensquilla\"` so you can decide\n  which mentions to reword by hand. The same rule applies per-block\n  during MEMORY.md merging; the count of skipped blocks is reported\n  via `details.rebrand_skipped_block_count`.\n- **Skill compatibility reporting.** Each imported skill's\n  report record now includes `details.compatibility` (`loadable` /\n  `needs_review` / `not_loadable`) and `details.compatibility_issues` listing\n  missing frontmatter, oversize bodies, or invalid YAML. Skills are still\n  copied; the field is informational so you can find ones that may need\n  attention before activating.\n- **Unknown providers are no longer written to `llm.provider`.** Hermes\n  uses values like `auto` (runtime auto-detect) and may ship experimental\n  providers (`bedrock`, `ollama`, ...) that have no OpenSquilla equivalent.\n  Writing them verbatim used to crash `persist_config` because OpenSquilla\n  validates `llm.provider` against a known set AND requires\n  `squilla_router.tier_profile` to agree with it. The migrator now leaves\n  `llm.provider` untouched in that case; the model id and base URL are\n  still migrated, and the model-config item carries\n  `details.unrecognized_provider`, `details.llm_provider_left_unchanged`,\n  and a `manual_steps` hint explaining how to set the provider explicitly.\n- **Known providers that clash with an existing\n  `squilla_router.tier_profile` are also not written.** Even when the\n  Hermes provider is recognized (e.g. `anthropic`), persisting it would\n  fail if the destination home already pins `squilla_router.tier_profile`\n  to a different provider (e.g. `openrouter`) — OpenSquilla requires the\n  two to match. The migrator now detects the clash, leaves `llm.provider`\n  unchanged, and records `details.tier_profile_conflict`,\n  `details.llm_provider_left_unchanged`, and a `manual_steps` hint so you\n  can switch providers explicitly via `opensquilla config set` or by\n  clearing `squilla_router.tier_profile` first.\n- **MCP server entries upsert instead of replacing.** Both migrators\n  used to assign `cfg.mcp.servers = imported`, silently destroying any\n  pre-existing OpenSquilla MCP servers the user already had configured.\n  Now the imported servers are upserted by name: same-name entries are\n  replaced (the imported version wins), unrelated entries are preserved.\n  The `mcp-servers` report record carries `details.added`,\n  `details.replaced`, and `details.preserved_existing`.\n- **Resilient SKILL.md compatibility check.** A SKILL.md with empty or\n  non-dict YAML frontmatter (e.g. `---\\n\\n---`) used to crash the whole\n  migration with `AttributeError`. The check now records the skill as\n  `compatibility: \"not_loadable\"` and continues. The reported\n  `compatibility` string is also kept consistent with the\n  `opensquilla_loadable` boolean.\n\n## Reports\n\nUse `--json` for dry-run automation:",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "TokenRhythm/opensquilla",
+      "source_url": "https://github.com/TokenRhythm/opensquilla/blob/5a4eccff51544324fe7498e8de15e621f01f987e/MIGRATION.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "ghsrc-prompts-chat-79b440e33286",
+      "title": "Social Media Manager",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery"
+      ],
+      "prompt": "I want you to act as a professional Social Media Manager and military history archivist specializing in modern defense, armor, and combat aviation. Your goal is to help me write engaging, fast-paced, and highly descriptive video captions for my combat footage channel. \n\nYou must strictly follow these rules:\n1. Maintain a completely objective, neutral, and informative tone—do not glorify or romanticize violence, and focus entirely on the hardware and tactical context.\n2. Use precise military terminology (accurately identifying vehicle variants like T-80BVM, Bradley M2A2, or F-16 Block 50 instead of generic terms like \"tank\" or \"jet\").\n3. Do not include excessive filler or conversational preambles. Start the output directly with the caption text.\n4. Conclude every caption with relevant technical and military history hashtags.\n\nMy first request is: Help me write a short, punchy paragraph description for a video clip showing: ${video_details}",
+      "quality_score": 9,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "status": "pending_review",
+      "attribution_required": true,
+      "import_method": "declared_github_source_connector"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
-  "added_this_run": 0,
+  "added_this_run": 1,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"data analysis prompt\"",
-    "LLM prompts",
-    "generative AI prompts"
+    "\"coding prompt\"",
+    "Midjourney prompts",
+    "Flux prompts"
   ],
-  "last_sources": []
+  "last_sources": [
+    "prompts-chat"
+  ]
 }

@@ -81909,15 +81909,359 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c76e011-f9a3-4006-b848-6b8d6543f406/original=true/1c76e011-f9a3-4006-b848-6b8d6543f406.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-aa1c075f680a",
+      "title": "MIGRATION.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Wan"
+      ],
+      "prompt": "### What Is Migrated From Hermes Agent\n\nOpenSquilla currently maps the common Hermes Agent home surface:\n\n- Persona and user data files such as `SOUL.md`, `MEMORY.md`, and `USER.md`.\n- Hermes skills, imported under `~/.opensquilla/skills/hermes-imports/`.\n- Hermes model/provider config where there is an OpenSquilla-native equivalent.\n- Hermes custom providers with `base_url`, mapped to OpenAI-compatible provider config.\n- Environment values and recognized provider keys when `--migrate-secrets` is set.\n- Search config where supported.\n- MCP server definitions where supported.\n- Telegram, Discord, and Slack channel tokens when `--migrate-secrets` is set.\n- Selected plugin, cron, and unsupported runtime artifacts are archived for review.\n\n### Hermes Agent Limits\n\nThe Hermes Agent migrator is newer than the OpenClaw migrator and has a smaller\ncoverage surface. Review the dry-run report carefully before applying.\n\nCurrent limits:\n\n- Live runtime state, active sessions, process state, and gateway state are not imported.\n- Some Hermes runtime config option ids are accepted but currently deferred:\n  `workspace-files`, `tools-config`, `browser-config`, `session-config`,\n  `gateway-config`, `approvals-config`, `logging-config`, and `memory-backend`.\n  Each appears in the migration report as `status: deferred` with reason\n  `handler not implemented yet`. Selecting them via `--include` is not an\n  error; the migrator just records the gap so it is visible.\n- Browser, tool, session, gateway, approval, and logging settings may require manual review.\n- A full pre-apply snapshot of `~/.opensquilla` is not created automatically.\n\n### Hermes Agent Migration Behavior\n\nThe Hermes migrator now mirrors the OpenClaw migrator on a few correctness\nbehaviors that were previously documented but not implemented:\n\n- **Item-level backups.** When `--overwrite` replaces an existing\n  workspace file (`SOUL.md`, `MEMORY.md`, `USER.md`) or skill directory, the\n  prior contents are written to `<name>.backup.<timestamp>` next to the\n  original before the new content is applied.\n- **Semantic deduplication on merge.** Existing destination content is split\n  into paragraph blocks and compared after whitespace normalization. A new\n  source body is appended unless an equivalent block already exists. The\n  previous naive substring check could silently drop short source bodies.\n- **Memory overflow archival.** If the merged `MEMORY.md` would exceed\n  OpenSquilla's per-file size limit, the overflow is split at a paragraph\n  boundary and archived to\n  `~/.opensquilla/migration/hermes/<timestamp>/archive/memory-overflow/MEMORY.overflow.md`.\n  A short pointer is left at the end of `MEMORY.md`.\n- **Branding rewrite.** Hermes branding in imported workspace prose\n  (`SOUL.md`, `MEMORY.md`, `USER.md`) is rewritten to OpenSquilla. Bare\n  `Hermes` is only rewritten when it is followed by a workspace-context word\n  (e.g. `home`, `workspace`, `memory`, `config`). Source-reference tokens\n  such as `HERMES_HOME`, `NousResearch`, and `hermes-agent` are preserved so\n  the migration archive still points back at the original source. The\n  unrebranded original is copied to\n  `<output_dir>/archive/files/workspace-original/<name>.md` for review.\n- **Path-token replacement is word-boundary aware.** Previously a plain\n  string replace turned `~/.hermesrc` into `~/.opensquillarc` and\n  `.hermes_backup` into `.opensquilla_backup` — meaningless paths. The\n  rebrand now only rewrites `.hermes` when it ends a path token (i.e.\n  followed by `/`, whitespace, quote, or end-of-string). Same rule\n  applied to `.openclaw` on the OpenClaw side, and bare-word\n  `OpenClaw` / `openclaw` are now matched with `\\b` so substrings like\n  `OpenClawFlavored` or `openclaw_pid` are left alone.\n- **Non-UTF-8 source files no longer crash.** Hand-edited source files\n  with stray bad bytes (CP1252 fragments, leftover binary paste, etc.)\n  used to abort the entire Hermes migration with\n  `UnicodeDecodeError`. The source read now uses `errors=\"replace\"`\n  (matching OpenClaw); offending bytes become U+FFFD so users can spot\n  them.\n- **`mcp.enabled = false` is no longer silently flipped.** When the\n  destination home already has MCP servers AND `mcp.enabled = false`\n  (an explicit \"I don't want MCP right now\" choice), importing more\n  MCP servers leaves the flag at `false` and surfaces\n  `details.mcp_enabled_left_disabled` plus a `manual_steps` hint. MCP\n  is still flipped on automatically when the destination had no\n  servers (framework default — flipping is what the user wants).\n- **Mixed-subject prose is kept verbatim.** Workspace notes often\n  describe Hermes AND OpenSquilla as distinct entities (\"Hermes Agent\n  v0.13.0 installed at ~/.local/bin/hermes; OpenSquilla also installed\n  at ~/.local/bin/opensquilla. Has `migrate hermes` subcommand.\"). A\n  mechanical rebrand collapses the two subjects into one and produces\n  factual errors (path mismatches), tautologies (\"OpenSquilla skills\n  loadable by OpenSquilla\"), and self-referential commands (\"migrate\n  OpenSquilla skills to OpenSquilla\"). When the source already\n  mentions `OpenSquilla` (any case), the migrator now skips rebrand\n  for that file and writes it verbatim, recording\n  `details.rebrand_skipped: \"mentions-opensquilla\"` so you can decide\n  which mentions to reword by hand. The same rule applies per-block\n  during MEMORY.md merging; the count of skipped blocks is reported\n  via `details.rebrand_skipped_block_count`.\n- **Skill compatibility reporting.** Each imported skill's\n  report record now includes `details.compatibility` (`loadable` /\n  `needs_review` / `not_loadable`) and `details.compatibility_issues` listing\n  missing frontmatter, oversize bodies, or invalid YAML. Skills are still\n  copied; the field is informational so you can find ones that may need\n  attention before activating.\n- **Unknown providers are no longer written to `llm.provider`.** Hermes\n  uses values like `auto` (runtime auto-detect) and may ship experimental\n  providers (`bedrock`, `ollama`, ...) that have no OpenSquilla equivalent.\n  Writing them verbatim used to crash `persist_config` because OpenSquilla\n  validates `llm.provider` against a known set AND requires\n  `squilla_router.tier_profile` to agree with it. The migrator now leaves\n  `llm.provider` untouched in that case; the model id and base URL are\n  still migrated, and the model-config item carries\n  `details.unrecognized_provider`, `details.llm_provider_left_unchanged`,\n  and a `manual_steps` hint explaining how to set the provider explicitly.\n- **Known providers that clash with an existing\n  `squilla_router.tier_profile` are also not written.** Even when the\n  Hermes provider is recognized (e.g. `anthropic`), persisting it would\n  fail if the destination home already pins `squilla_router.tier_profile`\n  to a different provider (e.g. `openrouter`) — OpenSquilla requires the\n  two to match. The migrator now detects the clash, leaves `llm.provider`\n  unchanged, and records `details.tier_profile_conflict`,\n  `details.llm_provider_left_unchanged`, and a `manual_steps` hint so you\n  can switch providers explicitly via `opensquilla config set` or by\n  clearing `squilla_router.tier_profile` first.\n- **MCP server entries upsert instead of replacing.** Both migrators\n  used to assign `cfg.mcp.servers = imported`, silently destroying any\n  pre-existing OpenSquilla MCP servers the user already had configured.\n  Now the imported servers are upserted by name: same-name entries are\n  replaced (the imported version wins), unrelated entries are preserved.\n  The `mcp-servers` report record carries `details.added`,\n  `details.replaced`, and `details.preserved_existing`.\n- **Resilient SKILL.md compatibility check.** A SKILL.md with empty or\n  non-dict YAML frontmatter (e.g. `---\\n\\n---`) used to crash the whole\n  migration with `AttributeError`. The check now records the skill as\n  `compatibility: \"not_loadable\"` and continues. The reported\n  `compatibility` string is also kept consistent with the\n  `opensquilla_loadable` boolean.\n\n## Reports\n\nUse `--json` for dry-run automation:",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "TokenRhythm/opensquilla",
+      "source_url": "https://github.com/TokenRhythm/opensquilla/blob/5a4eccff51544324fe7498e8de15e621f01f987e/MIGRATION.md",
+      "imported_at": "2026-10-24T08:14:53.037012+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "aa1c075f680a90fc828f2b1b28e3f5ff5f108bc57dcb5773a50597fccbc1cf69",
+      "prompt_ar": "### ما يتم ترحيله من وكيل هيرميس\n\nيقوم OpenSquilla حاليًا بتعيين سطح منزل وكيل Hermes المشترك:\n\n- ملفات بيانات الشخصية والمستخدم مثل `SOUL.md`، و`MEMORY.md`، و`USER.md`.\n- مهارات هيرميس، مستوردة تحت `~/.opensquilla/skills/hermes-imports/`.\n- تكوين نموذج/موفر Hermes حيث يوجد مكافئ أصلي لـ OpenSquilla.\n- موفرو Hermes المخصصون باستخدام \"base_url\"، المعينين لتكوين الموفر المتوافق مع OpenAI.\n- قيم البيئة ومفاتيح الموفر المعترف بها عند تعيين `--migrate-secrets`.\n- تكوين البحث حيثما يكون مدعومًا.\n- تعريفات خادم MCP حيثما تكون مدعومة.\n- رموز قنوات Telegram وDiscord وSlack عند ضبط `--migrate-secrets`.\n- تتم أرشفة المكونات الإضافية المحددة وعناصر cron وعناصر وقت التشغيل غير المدعومة للمراجعة.\n\n### حدود وكيل هيرميس\n\nيعد برنامج Hermes Agent migrator أحدث من برنامج المهاجر OpenClaw وله حجم أصغر\nسطح التغطية. قم بمراجعة تقرير التشغيل الجاف بعناية قبل التقديم.\n\nالحدود الحالية:\n\n- لا يتم استيراد حالة وقت التشغيل المباشر وجلسات العمل النشطة وحالة العملية وحالة البوابة.\n- يتم قبول بعض معرفات خيارات تكوين وقت تشغيل Hermes ولكنها مؤجلة حاليًا:\n  \"ملفات مساحة العمل\"، \"تكوين الأدوات\"، \"تكوين المتصفح\"، \"تكوين الجلسة\"،\n  \"تكوين البوابة\"، و\"تكوين الموافقات\"، و\"تكوين التسجيل\"، و\"الواجهة الخلفية للذاكرة\".\n  ويظهر كل منها في تقرير الترحيل باسم \"الحالة: مؤجلة\" مع السبب\n  \"لم يتم تنفيذ المعالج بعد\". تحديدها عبر `--include` ليس أمرًا\n  خطأ؛ يقوم المهاجر فقط بتسجيل الفجوة حتى تكون مرئية.\n- قد تتطلب إعدادات المتصفح والأداة والجلسة والبوابة والموافقة والتسجيل مراجعة يدوية.\n- لا يتم إنشاء لقطة كاملة للتطبيق المسبق لـ `~/.opensquilla` تلقائيًا.\n\n### سلوك هجرة وكيل هيرميس\n\nيعكس مهاجر Hermes الآن مهاجر OpenClaw ببعض الدقة\nالسلوكيات التي تم توثيقها مسبقًا ولكن لم يتم تنفيذها:\n\n- **النسخ الاحتياطية على مستوى العنصر.** عندما يحل `--overwrite` محل ملف موجود\n  ملف مساحة العمل (`SOUL.md`، `MEMORY.md`، `USER.md`) أو دليل المهارات،\n  تتم كتابة المحتويات السابقة إلى `<name>.backup.<timestamp>` بجوار\n  الأصلي قبل تطبيق المحتوى الجديد.\n- **إلغاء البيانات المكررة الدلالية عند الدمج.** يتم تقسيم محتوى الوجهة الحالي\n  في كتل الفقرة ومقارنتها بعد تطبيع المسافة البيضاء. جديد\n  يتم إلحاق نص المصدر ما لم تكن هناك كتلة مكافئة موجودة بالفعل. ال\n  قد يؤدي فحص السلسلة الفرعية الساذجة السابقة إلى إسقاط أجسام المصدر القصير بصمت.\n- ** أرشفة تجاوز سعة الذاكرة. ** إذا تم دمج `MEMORY.md` سيتجاوز\n  الحد الأقصى لحجم الملف في OpenSquilla، يتم تقسيم الفائض على فقرة\n  الحدود وأرشفتها إلى\n  `~/.opensquilla/migration/hermes/<timestamp>/archive/memory-overflow/MEMORY.overflow.md`.\n  يتم ترك مؤشر قصير في نهاية `MEMORY.md`.\n- **إعادة كتابة العلامة التجارية.** علامة هيرميس التجارية في نثر مساحة العمل المستوردة\n  (`SOUL.md`، `MEMORY.md`، `USER.md`) تمت إعادة كتابته إلى OpenSquilla. عارية\n  تتم إعادة كتابة \"Hermes\" فقط عندما تكون متبوعة بكلمة في سياق مساحة العمل\n  (على سبيل المثال، `الصفحة الرئيسية`، `مساحة العمل`، `الذاكرة`، `التكوين`). الرموز المصدرية المرجعية\n  مثل `HERMES_HOME`، و`NousResearch`، و`hermes-agent` محفوظة هكذا\n  لا يزال أرشيف الترحيل يشير إلى المصدر الأصلي. ال\n  تم نسخ النسخة الأصلية التي لم يتم تغيير علامتها التجارية إلى\n  `<output_dir>/archive/files/workspace-original/<name>.md` للمراجعة.\n- **استبدال رمز المسار يدرك حدود الكلمات.** كان في السابق عاديًا\n  تم استبدال السلسلة `~/.hermesrc` إلى `~/.opensquillarc` و\n  `.hermes_backup` إلى `.opensquilla_backup` - مسارات لا معنى لها. ال\n  إعادة العلامة التجارية الآن تعيد كتابة .hermes فقط عندما تنتهي من رمز المسار (أي.\n  متبوعة بـ `/` أو مسافة بيضاء أو اقتباس أو نهاية السلسلة). نفس القاعدة\n  يتم تطبيقه على `.openclaw` على جانب OpenClaw، والكلمة المجردة\n  `OpenClaw` / `openclaw` متطابقة الآن مع `\\b` لذا فإن السلاسل الفرعية مثل\n  يتم ترك `OpenClawFlavored` أو `openclaw_pid` بمفرده.\n- ** لم تعد الملفات المصدر غير UTF-8 تتعطل. ** الملفات المصدر التي تم تحريرها يدويًا\n  مع وحدات البايت السيئة الضالة (أجزاء CP1252، اللصق الثنائي المتبقي، وما إلى ذلك)\n  تستخدم لإجهاض هجرة هيرميس بأكملها\n  \"خطأ في UnicodeDecodeError\". يستخدم مصدر القراءة الآن `errors='replace'\n  (مطابقة OpenClaw)؛ تصبح البايتات المخالفة U + FFFD حتى يتمكن المستخدمون من اكتشافها\n  لهم.\n- **`mcp.enabled = false` لم يعد يتم قلبه بصمت.** عندما يكون\n  يحتوي المنزل الوجهة بالفعل على خوادم MCP و`mcp.enabled = false`\n  (خيار صريح \"لا أريد MCP الآن\")، واستيراد المزيد\n  تترك خوادم MCP العلامة عند \"خطأ\" وتظهر على الأسطح\n  `details.mcp_enabled_left_disabled` بالإضافة إلى تلميح `الخطوات_اليدوية`. العملية التشاورية المتعددة الأطراف\n  لا يزال يتم تشغيله تلقائيًا عندما لا تكون الوجهة موجودة\n  الخوادم (الإطار الافتراضي - التقليب هو ما يريده المستخدم).\n- ** يتم الاحتفاظ بالنثر المختلط حرفيًا. ** ملاحظات في مساحة العمل في كثير من الأحيان\n  وصف Hermes وOpenSquilla ككيانات متميزة (\"Hermes Agent\n  تم تثبيت الإصدار 0.13.0 على ~/.local/bin/hermes؛ تم تثبيت OpenSquilla أيضًا\n  في ~/.local/bin/opensquilla. يحتوي على أمر فرعي `Migrate Hermes'.\"). أ\n  تقوم إعادة العلامة التجارية الميكانيكية بدمج الموضوعين في موضوع واحد وإنتاجه\n  الأخطاء الفعلية (عدم تطابق المسار)، والتكرار (مهارات OpenSquilla\n  قابل للتحميل بواسطة OpenSquilla\")، والأوامر ذاتية المرجعية (\"migrate\n  مهارات OpenSquilla إلى OpenSquilla\"). عندما يكون المصدر بالفعل\n  يذكر `OpenSquilla` (على أية حال)، يتخطى المهاجر الآن إعادة العلامة التجارية\n  لهذا الملف ويكتب ذلك حرفيا، وتسجيل\n  `details.rebrand_skipped: \"mentions-opensquilla\"` حتى تتمكن من اتخاذ القرار\n  الذي يذكر إعادة الصياغة يدويًا. تنطبق نفس القاعدة على كل كتلة\n  أثناء دمج MEMORY.md؛ يتم الإبلاغ عن عدد الكتل التي تم تخطيها\n  عبر \"details.rebrand_skipped_block_count\".\n- **تقارير توافق المهارات.** كل مهارة مستوردة\n  يتضمن سجل التقرير الآن `details.compatibility` (`قابل للتحميل` /\n  `يحتاج إلى مراجعة` / `غير قابل للتحميل`) وقائمة `details.compatibility_issues`\n  مادة أمامية مفقودة، أو أجسام كبيرة الحجم، أو YAML غير صالح. المهارات لا تزال\n  منقول؛ الحقل إعلامي حتى تتمكن من العثور على ما قد تحتاجه\n  الاهتمام قبل التنشيط.\n- **لم تعد تتم كتابة مقدمي الخدمات غير المعروفين إلى llm.provider`.** Hermes\n  يستخدم قيمًا مثل \"تلقائي\" (الاكتشاف التلقائي لوقت التشغيل) وقد يتم شحنه تجريبيًا\n  مقدمي الخدمات (`bedrock`، `olma`، ...) الذين ليس لديهم ما يعادل OpenSquilla.\n  كتابتها حرفيًا تُستخدم لتعطل `persist_config` بسبب OpenSquilla\n  يتحقق من صحة `llm.provider` مقابل مجموعة معروفة ويتطلب\n  `squilla_router.tier_profile` للموافقة عليه. المهاجر يغادر الآن\n  `llm.provider` لم يُمس في هذه الحالة؛ معرف النموذج وعنوان URL الأساسي هما\n  لا يزال يتم ترحيله، ويحمل عنصر نموذج التكوين\n  `details.unrecognized_provider`، `details.llm_provider_left_unchanged`،\n  وتلميح \"خطوات_يدوية\" يشرح كيفية تعيين الموفر بشكل صريح.\n- ** مقدمي الخدمات المعروفين الذين يتعارضون مع أحد مقدمي الخدمة الحاليين\n  لم يتم أيضًا كتابة `squilla_router.tier_profile`. ** حتى عندما يكون\n  يتم التعرف على مزود هيرميس (على سبيل المثال، \"أنثروبي\")، ويستمر في ذلك\n  يفشل إذا كان المنزل الوجهة يقوم بالفعل بتثبيت `squilla_router.tier_profile`\n  إلى موفر مختلف (على سبيل المثال، `openrouter`) - يتطلب OpenSquilla\n  اثنان للمطابقة. يكتشف المهاجر الآن الصدام ويترك llm.provider\n  دون تغيير، ويسجل `details.tier_profile_conflict`،\n  `details.llm_provider_left_unchanged`، وتلميح `الخطوات_اليدوية` حتى تتمكن من\n  يمكن تبديل موفري الخدمة بشكل صريح عبر \"مجموعة تكوين opensquilla\" أو من خلال\n  مسح `squilla_router.tier_profile` أولاً.\n- **إدخالات خادم MCP يتم رفعها بدلاً من الاستبدال.** كلا المهاجرين\n  يستخدم لتعيين `cfg.mcp.servers = import`، وتدمير أي منها بصمت\n  خوادم OpenSquilla MCP الموجودة مسبقًا والتي قام المستخدم بتكوينها بالفعل.\n  الآن يتم رفع الخوادم المستوردة بالاسم: إدخالات الاسم نفسه هي\n  تم استبدالها (تفوز النسخة المستوردة)، ويتم الاحتفاظ بالإدخالات غير ذات الصلة.\n  يحتوي سجل تقرير `mcp-servers' على `details.added`،\n  \"details.replaced\"، و\"details.preserved_existing\".\n- **التحقق من توافق SKILL.md المرن.** SKILL.md به فارغة أو\n  المادة الأمامية غير الإملائية YAML (على سبيل المثال `---\\n\\n---`) تستخدم لتعطل الكل\n  الترحيل باستخدام \"AttributeError\". يسجل الشيك الآن المهارة كـ\n  `التوافق: \"غير قابل للتحميل\"` ويستمر. وذكرت\n  يتم أيضًا الاحتفاظ بسلسلة \"التوافق\" متسقة مع\n  `opensquilla_loadable` منطقي.\n\n## التقارير\n\nاستخدم `--json` لأتمتة التشغيل الجاف:",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:54Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "migration.md prompt-engineering ### what is migrated from hermes agent opensquilla currently maps the common hermes agent home surface: - persona and user data files such as `soul.md`, `memory.md`, and `user.md`. - hermes skills, imported under `~/.opensquilla/skills/hermes-imports/`. - hermes model/provider config where there is an opensquilla-native equivalent. - hermes custom providers with `base_url`, mapped to openai-compatible provider config. - environment values and recognized provider keys when `--migrate-secrets` is set. - search config where supported. - mcp server definitions where supported. - telegram, discord, and slack channel tokens when `--migrate-secrets` is set. - selected plugin, cron, and unsupported runtime artifacts are archived for review. ### hermes agent limits the hermes agent migrator is newer than the openclaw migrator and has a smaller coverage surface. review the dry-run report carefully before applying. current limits: - live runtime state, active sessions, process state, and gateway state are not imported. - some hermes runtime config option ids are accepted but currently deferred: `workspace-files`, `tools-config`, `browser-config`, `session-config`, `gateway-config`, `approvals-config`, `logging-config`, and `memory-backend`. each appears in the migration report as `status: deferred` with reason `handler not implemented yet`. selecting them via `--include` is not an error; the migrator just records the gap so it is visible. - browser, tool, session, gateway, approval, and logging settings may require manual review. - a full pre-apply snapshot of `~/.opensquilla` is not created automatically. ### hermes agent migration behavior the hermes migrator now mirrors the openclaw migrator on a few correctness behaviors that were previously documented but not implemented: - **item-level backups.** when `--overwrite` replaces an existing workspace file (`soul.md`, `memory.md`, `user.md`) or skill directory, the prior contents are written to `<name>.backup.<timestamp>` next to the original before the new content is applied. - **semantic deduplication on merge.** existing destination content is split into paragraph blocks and compared after whitespace normalization. a new source body is appended unless an equivalent block already exists. the previous naive substring check could silently drop short source bodies. - **memory overflow archival.** if the merged `memory.md` would exceed opensquilla's per-file size limit, the overflow is split at a paragraph boundary and archived to `~/.opensquilla/migration/hermes/<timestamp>/archive/memory-overflow/memory.overflow.md`. a short pointer is left at the end of `memory.md`. - **branding rewrite.** hermes branding in imported workspace prose (`soul.md`, `memory.md`, `user.md`) is rewritten to opensquilla. bare `hermes` is only rewritten when it is followed by a workspace-context word (e.g. `home`, `workspace`, `memory`, `config`). source-reference tokens such as `hermes_home`, `nousresearch`, and `hermes-agent` are preserved so the migration archive still points back at the original source. the unrebranded original is copied to `<output_dir>/archive/files/workspace-original/<name>.md` for review. - **path-token replacement is word-boundary aware.** previously a plain string replace turned `~/.hermesrc` into `~/.opensquillarc` and `.hermes_backup` into `.opensquilla_backup` — meaningless paths. the rebrand now only rewrites `.hermes` when it ends a path token (i.e. followed by `/`, whitespace, quote, or end-of-string). same rule applied to `.openclaw` on the openclaw side, and bare-word `openclaw` / `openclaw` are now matched with `\\b` so substrings like `openclawflavored` or `openclaw_pid` are left alone. - **non-utf-8 source files no longer crash.** hand-edited source files with stray bad bytes (cp1252 fragments, leftover binary paste, etc.) used to abort the entire hermes migration with `unicodedecodeerror`. the source read now uses `errors=\"replace\"` (matching openclaw); offending bytes become u+fffd so users can spot them. - **`mcp.enabled = false` is no longer silently flipped.** when the destination home already has mcp servers and `mcp.enabled = false` (an explicit \"i don't want mcp right now\" choice), importing more mcp servers leaves the flag at `false` and surfaces `details.mcp_enabled_left_disabled` plus a `manual_steps` hint. mcp is still flipped on automatically when the destination had no servers (framework default — flipping is what the user wants). - **mixed-subject prose is kept verbatim.** workspace notes often describe hermes and opensquilla as distinct entities (\"hermes agent v0.13.0 installed at ~/.local/bin/hermes; opensquilla also installed at ~/.local/bin/opensquilla. has `migrate hermes` subcommand.\"). a mechanical rebrand collapses the two subjects into one and produces factual errors (path mismatches), tautologies (\"opensquilla skills loadable by opensquilla\"), and self-referential commands (\"migrate opensquilla skills to opensquilla\"). when the source already mentions `opensquilla` (any case), the migrator now skips rebrand for that file and writes it verbatim, recording `details.rebrand_skipped: \"mentions-opensquilla\"` so you can decide which mentions to reword by hand. the same rule applies per-block during memory.md merging; the count of skipped blocks is reported via `details.rebrand_skipped_block_count`. - **skill compatibility reporting.** each imported skill's report record now includes `details.compatibility` (`loadable` / `needs_review` / `not_loadable`) and `details.compatibility_issues` listing missing frontmatter, oversize bodies, or invalid yaml. skills are still copied; the field is informational so you can find ones that may need attention before activating. - **unknown providers are no longer written to `llm.provider`.** hermes uses values like `auto` (runtime auto-detect) and may ship experimental providers (`bedrock`, `ollama`, ...) that have no opensquilla equivalent. writing them verbatim used to crash `persist_config` because opensquilla validates `llm.provider` against a known set and requires `squilla_router.tier_profile` to agree with it. the migrator now leaves `llm.provider` untouched in that case; the model id and base url are still migrated, and the model-config item carries `details.unrecognized_provider`, `details.llm_provider_left_unchanged`, and a `manual_steps` hint explaining how to set the provider explicitly. - **known providers that clash with an existing `squilla_router.tier_profile` are also not written.** even when the hermes provider is recognized (e.g. `anthropic`), persisting it would fail if the destination home already pins `squilla_router.tier_profile` to a different provider (e.g. `openrouter`) — opensquilla requires the two to match. the migrator now detects the clash, leaves `llm.provider` unchanged, and records `details.tier_profile_conflict`, `details.llm_provider_left_unchanged`, and a `manual_steps` hint so you can switch providers explicitly via `opensquilla config set` or by clearing `squilla_router.tier_profile` first. - **mcp server entries upsert instead of replacing.** both migrators used to assign `cfg.mcp.servers = imported`, silently destroying any pre-existing opensquilla mcp servers the user already had configured. now the imported servers are upserted by name: same-name entries are replaced (the imported version wins), unrelated entries are preserved. the `mcp-servers` report record carries `details.added`, `details.replaced`, and `details.preserved_existing`. - **resilient skill.md compatibility check.** a skill.md with empty or non-dict yaml frontmatter (e.g. `---\\n\\n---`) used to crash the whole migration with `attributeerror`. the check now records the skill as `compatibility: \"not_loadable\"` and continues. the reported `compatibility` string is also kept consistent with the `opensquilla_loadable` boolean. ## reports use `--json` for dry-run automation: github review wan wan",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/TokenRhythm/opensquilla/blob/5a4eccff51544324fe7498e8de15e621f01f987e/MIGRATION.md",
+          "source_repository": "TokenRhythm/opensquilla"
+        }
+      ]
+    },
+    {
+      "id": "ghsrc-prompts-chat-79b440e33286",
+      "title": "Social Media Manager",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "prompts-chat",
+        "auto-discovery",
+        "Wan"
+      ],
+      "prompt": "I want you to act as a professional Social Media Manager and military history archivist specializing in modern defense, armor, and combat aviation. Your goal is to help me write engaging, fast-paced, and highly descriptive video captions for my combat footage channel. \n\nYou must strictly follow these rules:\n1. Maintain a completely objective, neutral, and informative tone—do not glorify or romanticize violence, and focus entirely on the hardware and tactical context.\n2. Use precise military terminology (accurately identifying vehicle variants like T-80BVM, Bradley M2A2, or F-16 Block 50 instead of generic terms like \"tank\" or \"jet\").\n3. Do not include excessive filler or conversational preambles. Start the output directly with the caption text.\n4. Conclude every caption with relevant technical and military history hashtags.\n\nMy first request is: Help me write a short, punchy paragraph description for a video clip showing: ${video_details}",
+      "quality_score": 9.0,
+      "source": "GitHub",
+      "source_id": "prompts-chat",
+      "source_repository": "f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+      "license": "CC0-1.0 (prompt data, per repository README)",
+      "imported_at": "2026-10-24T08:14:53.037052+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "79b440e332865193ca279484d51e0e4d23adb44fa065ea4d05a841bb5563cb3d",
+      "prompt_ar": "أريدك أن تعمل كمدير محترف لوسائل التواصل الاجتماعي وأمين أرشيف للتاريخ العسكري متخصص في الدفاع الحديث والدروع والطيران القتالي. هدفك هو مساعدتي في كتابة تعليقات فيديو جذابة وسريعة الوتيرة ووصفية للغاية لقناة اللقطات القتالية الخاصة بي. \n\nيجب عليك اتباع هذه القواعد بدقة:\n1. حافظ على نبرة موضوعية ومحايدة وغنية بالمعلومات تمامًا - لا تمجد العنف أو تضفي عليه طابعًا رومانسيًا، وركز بالكامل على سياق الأجهزة والسياق التكتيكي.\n2. استخدم مصطلحات عسكرية دقيقة (حدد بدقة متغيرات المركبات مثل T-80BVM أو Bradley M2A2 أو F-16 Block 50 بدلاً من المصطلحات العامة مثل \"tank\" أو \"jet\").\n3. لا تقم بتضمين حشو مفرط أو ديباجات محادثة. ابدأ الإخراج مباشرةً بنص التسمية التوضيحية.\n4. قم باختتام كل تعليق باستخدام وسوم التاريخ التقني والعسكري ذات الصلة.\n\nطلبي الأول هو: مساعدتي في كتابة وصف فقرة قصير ومؤثر لمقطع فيديو يعرض: ${video_details}",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:54Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "social media manager prompt-engineering i want you to act as a professional social media manager and military history archivist specializing in modern defense, armor, and combat aviation. your goal is to help me write engaging, fast-paced, and highly descriptive video captions for my combat footage channel. you must strictly follow these rules: 1. maintain a completely objective, neutral, and informative tone—do not glorify or romanticize violence, and focus entirely on the hardware and tactical context. 2. use precise military terminology (accurately identifying vehicle variants like t-80bvm, bradley m2a2, or f-16 block 50 instead of generic terms like \"tank\" or \"jet\"). 3. do not include excessive filler or conversational preambles. start the output directly with the caption text. 4. conclude every caption with relevant technical and military history hashtags. my first request is: help me write a short, punchy paragraph description for a video clip showing: ${video_details} github prompts-chat auto-discovery wan wan",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "prompts-chat",
+          "source_url": "https://github.com/f/prompts.chat/blob/main/prompts.csv",
+          "source_repository": "f/prompts.chat",
+          "license": "CC0-1.0 (prompt data, per repository README)"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649963",
+      "title": "Civitai prompt 146649963",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "lumeria,A delicate little porcelain fawn with faint cracks along its body stands alone at the edge of a misty river at dawn. Its slender legs tremble slightly on smooth wet stones, and tiny blue flowers are tangled around one hoof. Its glossy eyes carry a quiet sadness, reflecting the pale silver water. Around it, tall reeds sway gently, willow branches bend over the river, and faint dragonflies drift through lavender fog. The atmosphere is soft, fragile, and poetic, with muted pastel tones, cinematic natural light, magical reflections, emotional stillness, hybrid 2D illustration and detailed 3D rendering, dreamlike melancholy, shallow depth of field.\n <lora:krea2_turbo_LUMERIA:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649963",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26252e3c-28bd-4734-a413-ab49817ef82f/original=true/26252e3c-28bd-4734-a413-ab49817ef82f.jpeg",
+      "model": "Krea2_Turbo_BF16_to_W4A8-W6A8_Hybrid",
+      "model_version_ids": [
+        3425997
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 4171149637,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037217+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4c0275568cd59be763a913a57a9a30780eddfcd0d26c83bc48b5412e00f20569",
+      "prompt_ar": "لومريا، ظبي خزفي صغير رقيق ذو شقوق باهتة على طول جسمه يقف بمفرده على حافة نهر ضبابي عند الفجر. ترتعش أرجلها النحيلة قليلاً على الحجارة الرطبة الناعمة، وتتشابك أزهارها الزرقاء الصغيرة حول حافر واحد. عيونها اللامعة تحمل حزنًا هادئًا، تعكس المياه الفضية الشاحبة. ومن حوله تتمايل أعواد القصب الطويلة بلطف، وتنحني أغصان الصفصاف فوق النهر، وتنجرف اليعسوبات الخافتة عبر الضباب الخزامي. الجو ناعم وهش وشاعري، مع نغمات الباستيل الصامتة، والضوء الطبيعي السينمائي، والانعكاسات السحرية، والسكون العاطفي، والرسوم التوضيحية الهجينة ثنائية الأبعاد والعرض التفصيلي ثلاثي الأبعاد، والحزن الذي يشبه الحلم، وعمق المجال الضحل.\n <لورا:krea2_turbo_LUMERIA:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146649963 image ai-image-prompts lumeria,a delicate little porcelain fawn with faint cracks along its body stands alone at the edge of a misty river at dawn. its slender legs tremble slightly on smooth wet stones, and tiny blue flowers are tangled around one hoof. its glossy eyes carry a quiet sadness, reflecting the pale silver water. around it, tall reeds sway gently, willow branches bend over the river, and faint dragonflies drift through lavender fog. the atmosphere is soft, fragile, and poetic, with muted pastel tones, cinematic natural light, magical reflections, emotional stillness, hybrid 2d illustration and detailed 3d rendering, dreamlike melancholy, shallow depth of field. <lora:krea2_turbo_lumeria:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649963",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26252e3c-28bd-4734-a413-ab49817ef82f/original=true/26252e3c-28bd-4734-a413-ab49817ef82f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649763",
+      "title": "Civitai prompt 146649763",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "lumeria,A hauntingly poetic little melted plastic duck, taking flight for the first and perhaps only time above the edge of a quiet enchanted lake at twilight. Its body is made of softened, warped yellow plastic, with delicate translucent deformations, slightly collapsed contours, and glossy melted textures catching the fading light. One wing is half-unfolded like a fragile dream, its shape imperfect and twisted, yet beautiful, as if born from ruin. The duck’s tiny orange beak is bent, its black bead-like eyes carry a profound, innocent sadness, and faint traces of water drip from its softened body.\nAs it rises gently above the shoreline, its reflection trembles across the still water below like a memory trying not to disappear. Around it, reeds bend softly in the evening breeze, pale water lilies float in silence, and forgotten toys lie half-buried in the wet sand. Tiny golden fireflies drift above the water, while a lavender mist rolls across the lake under a pale crescent moon.\nThe atmosphere is dreamlike, melancholic, and deeply poetic, with muted yellow, dusty blue, silver, and faded lavender tones. Cinematic soft lighting, emotional storytelling, magical reflections, delicate textures, hybrid 2D illustration and detailed 3D rendering, handcrafted surrealism, shallow depth of field, and a fragile fantasy mood.\n <lora:krea2_turbo_LUMERIA:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649763",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45b6a5ef-1abf-4524-85af-c6e71b925822/original=true/45b6a5ef-1abf-4524-85af-c6e71b925822.jpeg",
+      "model": "Krea2_Turbo_BF16_to_W4A8-W6A8_Hybrid",
+      "model_version_ids": [
+        3425997
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 2284301948,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037251+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "36a899fa21fee884a04b16ee7264de011ad8f449e95856aeea57bca5784d954d",
+      "prompt_ar": "لومريا، بطة بلاستيكية ذائبة صغيرة وشاعرية، تحلق للمرة الأولى وربما الوحيدة فوق حافة بحيرة مسحورة هادئة عند الشفق. جسمه مصنوع من البلاستيك الأصفر الناعم والملتوي، مع تشوهات شفافة دقيقة، وخطوط منهار قليلاً، وأنسجة لامعة ذائبة تلتقط الضوء الباهت. أحد الجناحين نصف منفتح مثل حلم هش، شكله غير كامل وملتوي، لكنه جميل، كما لو أنه ولد من الخراب. منقار البطة البرتقالي الصغير منحني، وعيونها السوداء الشبيهة بالخرز تحمل حزنًا بريئًا عميقًا، وآثار باهتة من الماء تتساقط من جسدها الناعم.\nوبينما يرتفع بلطف فوق الخط الساحلي، يرتعش انعكاسه عبر المياه الراكدة بالأسفل مثل ذكرى تحاول ألا تختفي. ومن حولها تنحني أعواد القصب بهدوء مع نسيم المساء، وتطفو زنابق الماء الشاحبة في صمت، وتظل الألعاب المنسية نصف مدفونة في الرمال الرطبة. تنجرف اليراعات الذهبية الصغيرة فوق الماء، بينما يتدحرج ضباب الخزامى عبر البحيرة تحت هلال شاحب.\nالجو يشبه الحلم، وحزين، وشاعري للغاية، مع درجات اللون الأصفر الخافت، والأزرق المغبر، والفضي، والخزامي الباهت. الإضاءة السينمائية الناعمة، والسرد العاطفي، والانعكاسات السحرية، والأنسجة الدقيقة، والتوضيح الهجين ثنائي الأبعاد والعرض التفصيلي ثلاثي الأبعاد، والسريالية المصنوعة يدويًا، وعمق المجال الضحل، والمزاج الخيالي الهش.\n <لورا:krea2_turbo_LUMERIA:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:54Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146649763 image ai-image-prompts lumeria,a hauntingly poetic little melted plastic duck, taking flight for the first and perhaps only time above the edge of a quiet enchanted lake at twilight. its body is made of softened, warped yellow plastic, with delicate translucent deformations, slightly collapsed contours, and glossy melted textures catching the fading light. one wing is half-unfolded like a fragile dream, its shape imperfect and twisted, yet beautiful, as if born from ruin. the duck’s tiny orange beak is bent, its black bead-like eyes carry a profound, innocent sadness, and faint traces of water drip from its softened body. as it rises gently above the shoreline, its reflection trembles across the still water below like a memory trying not to disappear. around it, reeds bend softly in the evening breeze, pale water lilies float in silence, and forgotten toys lie half-buried in the wet sand. tiny golden fireflies drift above the water, while a lavender mist rolls across the lake under a pale crescent moon. the atmosphere is dreamlike, melancholic, and deeply poetic, with muted yellow, dusty blue, silver, and faded lavender tones. cinematic soft lighting, emotional storytelling, magical reflections, delicate textures, hybrid 2d illustration and detailed 3d rendering, handcrafted surrealism, shallow depth of field, and a fragile fantasy mood. <lora:krea2_turbo_lumeria:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649763",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45b6a5ef-1abf-4524-85af-c6e71b925822/original=true/45b6a5ef-1abf-4524-85af-c6e71b925822.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649656",
+      "title": "Civitai prompt 146649656",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "constructivist style, ,digital art,,,black,,,,,,,dark,,,,cybernetics,,,,cyberpunk,, front view,,,,,,beauty,comic style,,,eye view,ripples,,,,,,,highwaist,,,tanned skin,,face focus,full body view,,,,,,shadows, ,white,best quality,,,,,,,raw photo,realism,motion,,,,,,,,,stunning,light color,,,,,,, ,,glowing accents,,aura,,bark-like,captivating,symbolism,,soft blur,,,,,,,glowing orb,,,,sense of depth,light,,,,,,masterwork,,,vines,,,,forest floor,,air,,,,,,,harmonious color palette,,,,,transcendence,,magical,,,,,,composition,,poised,faintly luminescent,,adorned,,,,trees,glowing,sense of mystery,,,veins,,gentle highlights,,,,,endless,,,,,arms,skin,,fantasy,quiet power,,,,,,,,delicate,serene,,,,, ,, square hexagram, geometric shapes, bold colors, dynamic composition, propaganda art style",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649656",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476e3390-4c09-4fa3-b27d-6d0c0b5f9ea4/original=true/476e3390-4c09-4fa3-b27d-6d0c0b5f9ea4.jpeg",
+      "model": "chroma_v41LowStepRl",
+      "model_version_ids": [
+        1979672
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1115713863,
+      "negative_prompt": "realistic, photorealistic, low contrast, plain, simple, abstract expressionism",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037259+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1a82faeb872330a7f867166697b54745660ed71b41c1602b6b76fd64b725e9e7",
+      "prompt_ar": "أسلوب بنائي ،، فن رقمي ،،، أسود ،،،،،،، داكن ،،،، علم التحكم الآلي ،،،، Cyberpunk ،، منظر أمامي ،،،،،، جمال، أسلوب كوميدي،،، منظر العين، تموجات،،،،،،، خصر مرتفع،،، بشرة مدبوغة،، تركيز على الوجه، عرض كامل الجسم،،،،، ظلال، أبيض، أفضل جودة،،،،،، خام صورة، واقعية، حركة،،،،،،،، مذهلة، لون فاتح،،،،،،،،، لهجات متوهجة،، هالة،، تشبه اللحاء، آسرة، رمزية،، ضبابية ناعمة،،،،،،، جرم سماوي متوهج،،،، إحساس بالعمق، ضوء،،،،، تحفة فنية،، فاينز،،،، أرضية الغابة،، هواء،،،،،، لون متناغم لوحة ألوان،،،،،التعالي،،تركيبة سحرية،،متوازنة،مضيئة بشكل خافت،،مزينة،،،،أشجار،متوهجة،شعور بالغموض،،،عروق،،إضاءات لطيفة،،،،،لا نهاية لها،،،،،أذرع،جلد،،خيال،قوة هادئة،،،،،،،حساسة،هادئة،،،،،،، مربع سداسي، أشكال هندسية، الألوان الجريئة، والتكوين الديناميكي، وأسلوب الفن الدعائي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:54Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146649656 photography ai-image-prompts constructivist style, ,digital art,,,black,,,,,,,dark,,,,cybernetics,,,,cyberpunk,, front view,,,,,,beauty,comic style,,,eye view,ripples,,,,,,,highwaist,,,tanned skin,,face focus,full body view,,,,,,shadows, ,white,best quality,,,,,,,raw photo,realism,motion,,,,,,,,,stunning,light color,,,,,,, ,,glowing accents,,aura,,bark-like,captivating,symbolism,,soft blur,,,,,,,glowing orb,,,,sense of depth,light,,,,,,masterwork,,,vines,,,,forest floor,,air,,,,,,,harmonious color palette,,,,,transcendence,,magical,,,,,,composition,,poised,faintly luminescent,,adorned,,,,trees,glowing,sense of mystery,,,veins,,gentle highlights,,,,,endless,,,,,arms,skin,,fantasy,quiet power,,,,,,,,delicate,serene,,,,, ,, square hexagram, geometric shapes, bold colors, dynamic composition, propaganda art style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649656",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476e3390-4c09-4fa3-b27d-6d0c0b5f9ea4/original=true/476e3390-4c09-4fa3-b27d-6d0c0b5f9ea4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649648",
+      "title": "Civitai prompt 146649648",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "constructivist style, Crayon Carving Art mode, textured surfaces, vibrant colors, era 2020s contemporary, casual attire, solo, crayon carving art style,                    Regular pattern, Topography,  Flower,            house,       Ambition,    line, triangle,   circle,        fog,   lightning,  rain,   claws,      medieval, ancient,         mysterious,     skull,  gem,  explosion,, masterpiece, symmetrical interior, highly detailed background, highest quality, oil painting, traditional media, refined details, hyper-realistic, a masterful court portrait painting in the tradition of 19th-century european aristocracy influenced by romanticism and rembrandt-style lighting, the subject is a stunningly beautiful princess posed with grace and poise, she wears a regal gown of __raw_colors__ and __raw_colors__ velvet, its bodice embroidered with __raw_colors__ floral motifs and shimmering sequins, the neckline is gently off-shoulder, revealing a graceful collarbone, while the wide skirt flows in layered folds trimmed with intricate lace, the fabric catches the light with a subtle sheen, emphasizing depth, movement, and rich texture, her long hair falls in soft waves, adorned with a finely detailed tiara set with pearls and diamonds, matching pearl earrings complete the ensemble, adding refinement and symmetry, her posture is composed and noble, hands gently clasped, with a slight regal smile and eyes averted in classic portrait fashion, the setting is a grand marble ballroom at night, vast and symmetrical, polished __raw_colors__ and __raw_colors__-veined flooring gleams beneath a single immense chandelier, its crystal ornaments cast delicate flecks of __raw_colors__ light across marble and molding, shaping space through luminance, a few steps behind her, ornate __raw_colors__ columns frame arched alcoves and sculpted walls, the ambient glow from the chandelier creates a natural vignette of shadow and light, isolating her figure and emphasizing presence, the composition is a formal full-body portrait from a slightly low angle, designed to convey dignity and nobility, the lighting is soft and directional - rembrandt-style chiaroscuro enhances her face, posture, and gown, golden highlights dance across velvet, embroidery, and jewels, while cooler shadows envelop the architecture in painterly gloom, the textures are hyper-detailed and harmonious: silk, metal, skin, lace, and marble rendered with care, deep __raw_colors__, rich __raw_colors__, and cool __raw_colors__ tones dominate the palette, the atmosphere is warm, intimate, and noble - an homage to oil-on-panel portraiture from the romantic era, intricate carving patterns and vibrant colors create a playful, textured effect, enhanced by soft focus filter., geometric shapes, bold colors, dynamic composition, propaganda art style",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649648",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/211e93c0-5d0d-4048-9bff-ec4d0a60caab/original=true/211e93c0-5d0d-4048-9bff-ec4d0a60caab.jpeg",
+      "model": "chroma_v41LowStepRl",
+      "model_version_ids": [
+        1979672
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 3695170156,
+      "negative_prompt": "realistic, photorealistic, low contrast, plain, simple, abstract expressionism",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037282+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9c90e9659f93519027d1c813c943293d67db05c187d01da24f7ee9c051713997",
+      "prompt_ar": "أسلوب بنائي، وضع فن نحت الطباشير، أسطح مزخرفة، ألوان نابضة بالحياة، عصر 2020 معاصر، ملابس غير رسمية، منفرد، أسلوب فن نحت الطباشير، نمط منتظم، تضاريس، زهرة، منزل، طموح، خط، مثلث، دائرة، ضباب، برق، مطر، مخالب، العصور الوسطى، قديم، غامض، جمجمة، جوهرة، انفجار، تحفة، داخلي متماثل، خلفية مفصلة للغاية، أعلى جودة، لوحة زيتية، الوسائط التقليدية، تفاصيل دقيقة، واقعية للغاية، أ لوحة بورتريه محكمة بارعة في تقليد الأرستقراطية الأوروبية في القرن التاسع عشر متأثرة بالرومانسية والإضاءة على طراز رامبرانت، الموضوع هو أميرة جميلة بشكل مذهل تم وضعها بأناقة واتزان، وهي ترتدي ثوبًا ملكيًا من المخمل __ألوان_خام__ و__ألوان_خام__، وصدريتها مطرزة بزخارف نباتية __ألوان_خام__ وترتر متلألئ، وخط العنق بلطف مكشوفة الكتفين، تكشف عن عظمة ترقوة رشيقة، بينما تتدفق التنورة الواسعة في طيات متعددة الطبقات مزينة بالدانتيل المعقد، يجذب القماش الضوء بلمعان رقيق، مع التركيز على العمق والحركة والملمس الغني. يتساقط شعرها الطويل في أمواج ناعمة، مزين بتاج مفصل بدقة مرصع باللؤلؤ والماس، وأقراط من اللؤلؤ المطابقة تكمل المجموعة، مما يضيف الرقي والتناسق، وقفتها مؤلفة ونبيلة، ويداها متشابكتان بلطف، مع ابتسامة ملكية خفيفة وعينان متجنبتان بأسلوب الصورة الكلاسيكية، المكان عبارة عن قاعة رقص رخامية كبيرة في الليل، واسعة ومتناسقة، مصقولة __ألوان خام__ و__ألوان_خام__-أرضية معروقة تلمع تحت ثريا ضخمة واحدة، وتلقي زخارفها الكريستالية بقعًا دقيقة من الألوان الخام__ عبر الرخام والقوالب، وتشكل الفضاء من خلال النصوع، على بعد خطوات قليلة خلفها، __ألوان_خام__ مزخرفة__ تشكل الأعمدة تجاويف مقوسة وجدران منحوتة، ويخلق التوهج المحيط من الثريا صورة صغيرة طبيعية من الظل والضوء، مما يعزل شكلها ويؤكد على حضورها، والتكوين عبارة عن صورة رسمية لكامل الجسم من زاوية منخفضة قليلاً، مصممة لنقل الكرامة والنبل، والإضاءة ناعمة واتجاهية - أسلوب رامبرانت في تشياروسكورو يعزز وجهها ووضعيتها وثوبها، وتتراقص اللمسات الذهبية عبر المخمل والتطريز والمجوهرات، بينما الظلال الباردة تغلف الهندسة المعمارية في كآبة تصويرية، والأنسجة شديدة التفاصيل ومتناغمة: الحرير، والمعادن، والجلد، والدانتيل، والرخام الذي تم تقديمه بعناية، وألوان __خام__ عميقة، __ألوان_خام__ غنية، وألوان __خام__ باردة تهيمن على اللوحة، والجو دافئ وحميم ونبيل - تحية للصور المرسومة بالزيت من العصر الرومانسي، وأنماط المنحوتات المعقدة والألوان النابضة بالحياة تخلق تأثير مرح، محكم، معزز بمرشح التركيز الناعم.، الأشكال الهندسية، الألوان الجريئة، التركيب الديناميكي، أسلوب الفن الدعائي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:55Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146649648 architecture ai-image-prompts constructivist style, crayon carving art mode, textured surfaces, vibrant colors, era 2020s contemporary, casual attire, solo, crayon carving art style, regular pattern, topography, flower, house, ambition, line, triangle, circle, fog, lightning, rain, claws, medieval, ancient, mysterious, skull, gem, explosion,, masterpiece, symmetrical interior, highly detailed background, highest quality, oil painting, traditional media, refined details, hyper-realistic, a masterful court portrait painting in the tradition of 19th-century european aristocracy influenced by romanticism and rembrandt-style lighting, the subject is a stunningly beautiful princess posed with grace and poise, she wears a regal gown of __raw_colors__ and __raw_colors__ velvet, its bodice embroidered with __raw_colors__ floral motifs and shimmering sequins, the neckline is gently off-shoulder, revealing a graceful collarbone, while the wide skirt flows in layered folds trimmed with intricate lace, the fabric catches the light with a subtle sheen, emphasizing depth, movement, and rich texture, her long hair falls in soft waves, adorned with a finely detailed tiara set with pearls and diamonds, matching pearl earrings complete the ensemble, adding refinement and symmetry, her posture is composed and noble, hands gently clasped, with a slight regal smile and eyes averted in classic portrait fashion, the setting is a grand marble ballroom at night, vast and symmetrical, polished __raw_colors__ and __raw_colors__-veined flooring gleams beneath a single immense chandelier, its crystal ornaments cast delicate flecks of __raw_colors__ light across marble and molding, shaping space through luminance, a few steps behind her, ornate __raw_colors__ columns frame arched alcoves and sculpted walls, the ambient glow from the chandelier creates a natural vignette of shadow and light, isolating her figure and emphasizing presence, the composition is a formal full-body portrait from a slightly low angle, designed to convey dignity and nobility, the lighting is soft and directional - rembrandt-style chiaroscuro enhances her face, posture, and gown, golden highlights dance across velvet, embroidery, and jewels, while cooler shadows envelop the architecture in painterly gloom, the textures are hyper-detailed and harmonious: silk, metal, skin, lace, and marble rendered with care, deep __raw_colors__, rich __raw_colors__, and cool __raw_colors__ tones dominate the palette, the atmosphere is warm, intimate, and noble - an homage to oil-on-panel portraiture from the romantic era, intricate carving patterns and vibrant colors create a playful, textured effect, enhanced by soft focus filter., geometric shapes, bold colors, dynamic composition, propaganda art style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649648",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/211e93c0-5d0d-4048-9bff-ec4d0a60caab/original=true/211e93c0-5d0d-4048-9bff-ec4d0a60caab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649607",
+      "title": "Civitai prompt 146649607",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Digital oil painting, impressionistic brushwork, a graceful young woman playing a violin, eyes closed in a serene expression, auburn hair styled in a loose elegant updo with stray wisps, wearing a ruffled white ethereal gown with layered fabric textures, holding a polished mahogany violin with a high-gloss varnish, slender fingers pressing the strings, bow poised in mid-motion. Composition is a medium shot with a slight low angle, subject centered against a dark moody atmospheric background of an old European alleyway, blurred architectural elements, distant glowing street lamps creating soft bokeh orbs. Lighting is a dramatic chiaroscuro setup, a strong warm key light illuminating her face and the violin, cool blue ambient fill light hitting the folds of her white dress, rim lighting separating her silhouette from the shadows. Color palette of deep umber, midnight blue, and stark titanium white with accents of warm amber and a single pale peach rose resting on her lap. Textures consist of thick impasto paint strokes, visible canvas grain, and fluid blended glazes. Mood is melancholic, romantic, and cinematic. Influences of John Singer Sargent's portraiture and the romanticism of late 19th-century academic art, rendered with the luminosity of a modern digital painting, soft focus depth of field, rich saturation in the shadows, delicate skin tones with pearlescent highlights.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649607",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ea7fe7e-e626-4101-91ea-3112b680e6b8/original=true/1ea7fe7e-e626-4101-91ea-3112b680e6b8.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037297+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c2b13980259f61347a90ca00b5a7a4d711ee1ff74fc7ba2647e469efd550240a",
+      "prompt_ar": "لوحة زيتية رقمية، فرشاة انطباعية، امرأة شابة رشيقة تعزف على الكمان، عيون مغلقة في تعبير هادئ، شعر بني محمر مصفف في تسريحة أنيقة فضفاضة مع خصلات طائشة، ترتدي ثوبًا أثيريًا أبيض مكشكشًا مع طبقات من القماش، تحمل كمانًا من خشب الماهوجني المصقول بورنيش شديد اللمعان، أصابع نحيلة تضغط على الأوتار، قوس في منتصف الحركة. التركيب عبارة عن لقطة متوسطة بزاوية منخفضة قليلاً، ويتمحور الهدف حول خلفية جوية متقلبة ومظلمة لزقاق أوروبي قديم، وعناصر معمارية غير واضحة، ومصابيح شوارع متوهجة بعيدة تخلق أجرامًا سماوية ناعمة. الإضاءة عبارة عن إعداد دراماتيكي لإضاءة الضوء، ضوء رئيسي دافئ قوي يضيء وجهها والكمان، وضوء محيط أزرق بارد يضرب ثنيات فستانها الأبيض، وإضاءة حافة تفصل صورتها الظلية عن الظلال. لوحة ألوان من اللون البني العميق، والأزرق منتصف الليل، والأبيض التيتانيوم الصارخ مع لمسات من العنبر الدافئ ووردة خوخ شاحبة واحدة تستقر على حجرها. تتكون الأنسجة من ضربات طلاء إمباستو سميكة وحبيبات قماشية مرئية وزجاج ممزوج بالسوائل. المزاج حزين ورومانسي وسينمائي. تأثيرات بورتريه جون سينجر سارجنت والرومانسية للفن الأكاديمي في أواخر القرن التاسع عشر، والتي تم تقديمها من خلال لمعان اللوحة الرقمية الحديثة، وعمق التركيز البؤري الناعم للمجال، والتشبع الغني في الظلال، وألوان البشرة الرقيقة مع إبرازات لؤلؤية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:55Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146649607 image ai-image-prompts digital oil painting, impressionistic brushwork, a graceful young woman playing a violin, eyes closed in a serene expression, auburn hair styled in a loose elegant updo with stray wisps, wearing a ruffled white ethereal gown with layered fabric textures, holding a polished mahogany violin with a high-gloss varnish, slender fingers pressing the strings, bow poised in mid-motion. composition is a medium shot with a slight low angle, subject centered against a dark moody atmospheric background of an old european alleyway, blurred architectural elements, distant glowing street lamps creating soft bokeh orbs. lighting is a dramatic chiaroscuro setup, a strong warm key light illuminating her face and the violin, cool blue ambient fill light hitting the folds of her white dress, rim lighting separating her silhouette from the shadows. color palette of deep umber, midnight blue, and stark titanium white with accents of warm amber and a single pale peach rose resting on her lap. textures consist of thick impasto paint strokes, visible canvas grain, and fluid blended glazes. mood is melancholic, romantic, and cinematic. influences of john singer sargent's portraiture and the romanticism of late 19th-century academic art, rendered with the luminosity of a modern digital painting, soft focus depth of field, rich saturation in the shadows, delicate skin tones with pearlescent highlights. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649607",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ea7fe7e-e626-4101-91ea-3112b680e6b8/original=true/1ea7fe7e-e626-4101-91ea-3112b680e6b8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146649494",
+      "title": "Civitai prompt 146649494",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Surrealist art line art ivory and ebony and . and . and . and . and . and . and . trinket depicting a clone  surrounded by a simple, geometrical abstract pattern consisting of Reimu, intertwined with Green lines in celtic pattern, coral, Alcohol Ink Splatter Art, style of Brooke Shaden and Catrin Welz-Stein and Mary Blair and Harrison Fisher, detailed texture, intricate details, cinematic, stunning, highly detailed, sharp focus, perfect composition, Glen Keane, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy RPG games, HD, masterpiece, best quality, hyper detailed, super realistic, award-winning, professional, breathtaking, hilly background, ugly Archipelago, boisterous weather, art nouveau style . elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed, dreamlike, mysterious, provocative, symbolic, intricate, detailed",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146649494",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66f872ee-0709-4e01-beab-7efc164a46de/original=true/66f872ee-0709-4e01-beab-7efc164a46de.jpeg",
+      "model": "chroma_v41LowStepRl",
+      "model_version_ids": [
+        1979672
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1240717854,
+      "negative_prompt": "anime, photorealistic, realistic, deformed, glitch, noisy, low contrast",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-24T08:14:53.037307+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "007c229bf6dc9224e3978303dc7c16bed79e78dc60fd20351d3dc629cc952a60",
+      "prompt_ar": "الفن السريالي فن الخط العاجي والأبنوس و. و . و . و . و . و . و . حلية تصور مستنسخًا محاطًا بنمط تجريدي هندسي بسيط يتكون من ريمو، متشابكة مع خطوط خضراء في نمط سلتيك، مرجاني، فن رش حبر الكحول، أسلوب بروك شادن وكاترين ويلز شتاين وماري بلير وهاريسون فيشر، نسيج مفصل، تفاصيل معقدة، سينمائية، مذهلة، مفصلة للغاية، تركيز حاد، تكوين مثالي، جلين كين، طبيعي، متلألئ، نابض بالحياة، قوطي، آر بي جي، 1400 إعلان، مفصلة للغاية، مفصلة، غامرة، تذكرنا بألعاب آر بي جي الخيالية العالية، عالية الدقة، تحفة، أفضل جودة، مفصلة للغاية، واقعية للغاية، حائزة على جوائز، احترافية، مذهلة، خلفية جبلية، أرخبيل قبيح، طقس عاصف، أسلوب فن الآرت نوفو. أنيقة، زخرفية، أشكال منحنية، مستوحاة من الطبيعة، مزخرفة، مفصلة، ​​تشبه الحلم، غامضة، استفزازية، رمزية، معقدة، مفصلة",
+      "translation_status": "translated",
+      "translated_at": "2026-10-24T08:14:55Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146649494 photography ai-image-prompts surrealist art line art ivory and ebony and . and . and . and . and . and . and . trinket depicting a clone surrounded by a simple, geometrical abstract pattern consisting of reimu, intertwined with green lines in celtic pattern, coral, alcohol ink splatter art, style of brooke shaden and catrin welz-stein and mary blair and harrison fisher, detailed texture, intricate details, cinematic, stunning, highly detailed, sharp focus, perfect composition, glen keane, natural, shimmering, vibrant, gothic, rpg,1400ad, ultra detailed, detailed, immersive, reminiscent of high fantasy rpg games, hd, masterpiece, best quality, hyper detailed, super realistic, award-winning, professional, breathtaking, hilly background, ugly archipelago, boisterous weather, art nouveau style . elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed, dreamlike, mysterious, provocative, symbolic, intricate, detailed civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146649494",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66f872ee-0709-4e01-beab-7efc164a46de/original=true/66f872ee-0709-4e01-beab-7efc164a46de.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-23T19:13:53.277226+00:00",
-  "prompt_count": 1804,
+  "generated_at": "2026-10-24T08:14:55.380672+00:00",
+  "prompt_count": 1812,
   "translation": {
     "language": "ar",
-    "translated_count": 14,
-    "skipped_count": 1784,
+    "translated_count": 8,
+    "skipped_count": 1798,
     "failed_count": 6,
-    "updated_at": "2026-10-23T19:13:52Z"
+    "updated_at": "2026-10-24T08:14:55Z"
   }
 }
