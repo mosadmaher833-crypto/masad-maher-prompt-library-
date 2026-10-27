@@ -91431,15 +91431,486 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1231d10-56ab-4d2b-be1a-a972a9a811b2/original=true/e1231d10-56ab-4d2b-be1a-a972a9a811b2.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-147030944",
+      "title": "Civitai prompt 147030944",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photograph of a woman with long, pink-to-purple gradient hair, standing in front of a graffiti-covered wall. She is facing away, looking at a circular neon light panel above her head, which displays a glowing pink cherry blossom tree. The woman has a neon blue and pink tribal tattoo on her right shoulder, and she is blowing a pink bubble gum bubble. She is wearing a black jacket with blue neon and her gloves are glowing with neon blue light. The wall behind her is covered in colorful graffiti, including the words \"LOVE\" and \"PEACE\" in pink and green. The camera is positioned slightly above and to the side, capturing the scene from a low angle. The lighting is dim, with the neon lights providing a vibrant contrast. The overall mood is urban and edgy, with a focus on neon light and graffiti art.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030944",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24ef58d3-3a4a-4b0b-b1c8-ef74145f86c0/original=true/24ef58d3-3a4a-4b0b-b1c8-ef74145f86c0.jpeg",
+      "model": "moss/mossImageINT8INT6_mossImageSFTINT8",
+      "model_version_ids": [],
+      "width": 640,
+      "height": 1200,
+      "seed": 249,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact, extra fingers, bad hands, fused limbs, blurry, lowres, cropped",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296003+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "75bfd0c4333004099c7bf8d02aff2a7844010f1fc6e84963a90b9e29e07c05ff",
+      "prompt_ar": "صورة لامرأة ذات شعر طويل متدرج من اللون الوردي إلى الأرجواني، تقف أمام جدار مغطى بالكتابات. إنها تواجه بعيدًا، وتنظر إلى لوحة دائرية من ضوء النيون فوق رأسها، والتي تعرض شجرة أزهار الكرز الوردية المتوهجة. المرأة لديها وشم قبلي باللونين الأزرق والوردي على كتفها الأيمن، وهي تنفخ فقاعة علكة وردية اللون. إنها ترتدي سترة سوداء مع نيون أزرق وقفازاتها متوهجة بضوء أزرق نيون. الجدار خلفها مغطى بكتابات ملونة، بما في ذلك كلمتي \"الحب\" و\"السلام\" باللونين الوردي والأخضر. تم وضع الكاميرا أعلى قليلاً وعلى الجانب، حيث تلتقط المشهد من زاوية منخفضة. الإضاءة خافتة، وأضواء النيون توفر تباينًا نابضًا بالحياة. المزاج العام حضري ومثير، مع التركيز على ضوء النيون وفن الكتابة على الجدران.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147030944 image ai-image-prompts a photograph of a woman with long, pink-to-purple gradient hair, standing in front of a graffiti-covered wall. she is facing away, looking at a circular neon light panel above her head, which displays a glowing pink cherry blossom tree. the woman has a neon blue and pink tribal tattoo on her right shoulder, and she is blowing a pink bubble gum bubble. she is wearing a black jacket with blue neon and her gloves are glowing with neon blue light. the wall behind her is covered in colorful graffiti, including the words \"love\" and \"peace\" in pink and green. the camera is positioned slightly above and to the side, capturing the scene from a low angle. the lighting is dim, with the neon lights providing a vibrant contrast. the overall mood is urban and edgy, with a focus on neon light and graffiti art. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030944",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24ef58d3-3a4a-4b0b-b1c8-ef74145f86c0/original=true/24ef58d3-3a4a-4b0b-b1c8-ef74145f86c0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147029023",
+      "title": "Civitai prompt 147029023",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "FLUX",
+        "ChatGPT"
+      ],
+      "prompt": "A large, spiky object floats above several rocks on a flat surface, centered in the frame with a low camera angle. Render this in the following style: detailed digital painting, warm sepia and amber palette, soft directional sunlight, subtle atmospheric haze, metallic texture, wide-angle perspective, shallow depth of field, noir cinematic aesthetic Do not introduce any subject, object, or background from the style reference. Preserve the original composition, pose, and framing. No text, letters, words, signatures, or watermarks anywhere in the image., ChatGPT-4o style, ChatGPT_4o style <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147029023",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b028476c-b3a6-4ffa-ad39-6658aee569a0/original=true/b028476c-b3a6-4ffa-ad39-6658aee569a0.jpeg",
+      "model": "Flux\\flux-2-klein-9b-kv_int8_convrot.safetensors",
+      "model_version_ids": [
+        2618077,
+        3229656
+      ],
+      "width": 1152,
+      "height": 1728,
+      "seed": 912562351702372,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296043+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2120f951435e821efe2a7dfc58a0550603ba7022dc4acf3f9abf2f7948f1fd75",
+      "prompt_ar": "جسم كبير شائك يطفو فوق عدة صخور على سطح مستو، ويتمركز في الإطار بزاوية كاميرا منخفضة. قم بعرض هذا بالنمط التالي: رسم رقمي مفصل، لوحة ألوان داكنة وكهرمانية دافئة، ضوء شمس اتجاهي ناعم، ضباب جوي خفيف، نسيج معدني، منظور واسع الزاوية، عمق مجال ضحل، جمالية سينمائية سوداء. لا تقدم أي موضوع أو كائن أو خلفية من مرجع النمط. حافظ على التكوين الأصلي والوضعية والتأطير. لا يوجد نص أو أحرف أو كلمات أو توقيعات أو علامات مائية في أي مكان في الصورة. نمط ChatGPT-4o، نمط ChatGPT_4o <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "FLUX",
+        "ChatGPT"
+      ],
+      "search_text": "civitai prompt 147029023 photography ai-image-prompts a large, spiky object floats above several rocks on a flat surface, centered in the frame with a low camera angle. render this in the following style: detailed digital painting, warm sepia and amber palette, soft directional sunlight, subtle atmospheric haze, metallic texture, wide-angle perspective, shallow depth of field, noir cinematic aesthetic do not introduce any subject, object, or background from the style reference. preserve the original composition, pose, and framing. no text, letters, words, signatures, or watermarks anywhere in the image., chatgpt-4o style, chatgpt_4o style <lora:yfg-chatgpt-4o-style-f2-klein_2_5kv2:1> civitai ai-image imported api flux chatgpt flux chatgpt",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147029023",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b028476c-b3a6-4ffa-ad39-6658aee569a0/original=true/b028476c-b3a6-4ffa-ad39-6658aee569a0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147029021",
+      "title": "Civitai prompt 147029021",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "FLUX",
+        "ChatGPT"
+      ],
+      "prompt": "A lone figure stands upright on a horizontal industrial pipe between towering structures in an urban setting, viewed from eye level. Render this in the following style: smooth 3d rendering, deep steel and pale sky hue, directional specular lighting, soft gradient shadow, polished metallic finish, subtle cloud texture, wide-angle perspective, high depth clarity, crisp aerodynamic edge, cool blue palette, muted atmospheric contrast, seamless digital treatment, cinematic exposure control, clean geometric linework Do not introduce any subject, object, or background from the style reference. Preserve the original composition, pose, and framing. No text, letters, words, signatures, or watermarks anywhere in the image., ChatGPT-4o style, ChatGPT_4o style <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147029021",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8674f23-4a37-4bde-8531-0de1f66d4351/original=true/b8674f23-4a37-4bde-8531-0de1f66d4351.jpeg",
+      "model": "Flux\\flux-2-klein-9b-kv_int8_convrot.safetensors",
+      "model_version_ids": [
+        2618077,
+        3229656
+      ],
+      "width": 1152,
+      "height": 1728,
+      "seed": 229591795040254,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296064+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6cedb90ef6da2d4a97359f62d69d6693d055583ad74744981576a61e45b9fbef",
+      "prompt_ar": "يقف شخص وحيد منتصبًا على أنبوب صناعي أفقي بين المباني الشاهقة في منطقة حضرية، كما يُنظر إليه من مستوى العين. قم بعرض هذا بالنمط التالي: عرض سلس ثلاثي الأبعاد، فولاذ عميق ولون السماء الشاحب، إضاءة براق اتجاهية، ظل متدرج ناعم، تشطيب معدني مصقول، نسيج سحابي دقيق، منظور واسع الزاوية، وضوح عالي العمق، حافة ديناميكية هوائية واضحة، لوحة زرقاء باردة، تباين جوي صامت، معالجة رقمية سلسة، تحكم سينمائي في التعريض الضوئي، خطوط هندسية نظيفة. لا تقدم أي موضوع أو كائن أو خلفية من مرجع النمط. حافظ على التكوين الأصلي والوضعية والتأطير. لا يوجد نص أو أحرف أو كلمات أو توقيعات أو علامات مائية في أي مكان في الصورة. نمط ChatGPT-4o، نمط ChatGPT_4o <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "FLUX",
+        "ChatGPT"
+      ],
+      "search_text": "civitai prompt 147029021 photography ai-image-prompts a lone figure stands upright on a horizontal industrial pipe between towering structures in an urban setting, viewed from eye level. render this in the following style: smooth 3d rendering, deep steel and pale sky hue, directional specular lighting, soft gradient shadow, polished metallic finish, subtle cloud texture, wide-angle perspective, high depth clarity, crisp aerodynamic edge, cool blue palette, muted atmospheric contrast, seamless digital treatment, cinematic exposure control, clean geometric linework do not introduce any subject, object, or background from the style reference. preserve the original composition, pose, and framing. no text, letters, words, signatures, or watermarks anywhere in the image., chatgpt-4o style, chatgpt_4o style <lora:yfg-chatgpt-4o-style-f2-klein_2_5kv2:1> civitai ai-image imported api flux chatgpt flux chatgpt",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147029021",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8674f23-4a37-4bde-8531-0de1f66d4351/original=true/b8674f23-4a37-4bde-8531-0de1f66d4351.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147029020",
+      "title": "Civitai prompt 147029020",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "FLUX",
+        "ChatGPT"
+      ],
+      "prompt": "Multiple men work on vintage race cars lined diagonally across a workshop from lower right to upper left, viewed at eye level. Render this in the following style: dusty sepia palette, muted olive hue, low saturation, warm contrast, soft lighting, deep shadow, bright highlight, painterly rendering, rough grain texture, uneven finish, organic gradient, vintage film medium, 1920s era aesthetic, cinematic illustration treatment, telephoto focus depth, motion distortion effect, high exposure film. Do not introduce any subject, object, or background from the style reference. Preserve the original composition, pose, and framing. No text, letters, words, signatures, or watermarks anywhere in the image., ChatGPT-4o style, ChatGPT_4o style <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147029020",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b039d030-fa2f-4bd4-b18e-f4d558cb85d5/original=true/b039d030-fa2f-4bd4-b18e-f4d558cb85d5.jpeg",
+      "model": "Flux\\flux-2-klein-9b-kv_int8_convrot.safetensors",
+      "model_version_ids": [
+        2618077,
+        3229656
+      ],
+      "width": 1152,
+      "height": 1728,
+      "seed": 1028069289187581,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296082+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8636346352fe77ff48563d94d1d79ef6065d6695a094c9b2904aa78f719bc67",
+      "prompt_ar": "يعمل العديد من الرجال في تصنيع سيارات سباق قديمة مصفوفة قطريًا عبر ورشة عمل من أسفل اليمين إلى أعلى اليسار، ويمكن رؤيتها على مستوى العين. اعرض هذا بالنمط التالي: لوحة ألوان داكنة مغبرة، لون زيتوني صامت، تشبع منخفض، تباين دافئ، إضاءة ناعمة، ظل عميق، تمييز ساطع، عرض رسومي، نسيج محبب خشن، لمسة نهائية غير متساوية، تدرج عضوي، وسط فيلم عتيق، جمالية عصر العشرينيات، معالجة الرسوم التوضيحية السينمائية، عمق التركيز البؤري للتقريب، تأثير تشويه الحركة، فيلم التعرض العالي. لا تقدم أي موضوع أو كائن أو خلفية من مرجع النمط. حافظ على التكوين الأصلي والوضعية والتأطير. لا يوجد نص أو أحرف أو كلمات أو توقيعات أو علامات مائية في أي مكان في الصورة. نمط ChatGPT-4o، نمط ChatGPT_4o <lora:YFG-ChatGPT-4o-Style-F2-Klein_2_5kv2:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "FLUX",
+        "ChatGPT"
+      ],
+      "search_text": "civitai prompt 147029020 photography ai-image-prompts multiple men work on vintage race cars lined diagonally across a workshop from lower right to upper left, viewed at eye level. render this in the following style: dusty sepia palette, muted olive hue, low saturation, warm contrast, soft lighting, deep shadow, bright highlight, painterly rendering, rough grain texture, uneven finish, organic gradient, vintage film medium, 1920s era aesthetic, cinematic illustration treatment, telephoto focus depth, motion distortion effect, high exposure film. do not introduce any subject, object, or background from the style reference. preserve the original composition, pose, and framing. no text, letters, words, signatures, or watermarks anywhere in the image., chatgpt-4o style, chatgpt_4o style <lora:yfg-chatgpt-4o-style-f2-klein_2_5kv2:1> civitai ai-image imported api flux chatgpt flux chatgpt",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147029020",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b039d030-fa2f-4bd4-b18e-f4d558cb85d5/original=true/b039d030-fa2f-4bd4-b18e-f4d558cb85d5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147028994",
+      "title": "Civitai prompt 147028994",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Mixed-media poster of a futuristic city skyline at night, dominated by a deep dark purple background and a secondary palette of electric cyan and warm amber, arranged in a perfectly symmetrical composition with layered typography. The cityscape features a wireframe structure where buildings are constructed from glowing neon grid lines that define skyscrapers, bridges, and towers, creating a sense of digital architecture rather than solid mass. In the foreground, large semi-transparent text elements float in the air, forming a layered type design that overlaps the lower spires of the city, while smaller geometric labels and data readouts are scattered across the midground, adding depth to the wireframe aesthetic. The sky above is a solid, rich indigo void, unbroken by clouds, which makes the glowing grid lines of the buildings stand out with high contrast against the dark purple backdrop. The lighting is artificial and emanates solely from the neon wireframe edges, casting sharp, clean shadows that reinforce the geometric precision of the scene. The overall texture is smooth and digital, resembling a high-resolution 3D render or a crisp vector illustration, with a cool color temperature that emphasizes the nocturnal, cyberpunk atmosphere. The perspective is frontal and balanced, ensuring the symmetrical arrangement remains the focal point, with the wireframe structures receding slightly into the distance to create atmospheric depth without losing their sharp, glowing outlines. The image conveys a mood of technological order and urban isolation, where the grid-like city feels both expansive and contained within the frame's boundaries.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147028994",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0cc5703-f137-453d-986e-c63a52235c27/original=true/f0cc5703-f137-453d-986e-c63a52235c27.jpeg",
+      "model": "MOSS\\moss_image_base_bf16.safetensors",
+      "model_version_ids": [
+        3409868
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 709188741304431,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296109+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d0935f7ccd2e72c420b86e36cb4592361d9014ca7eadd1ae3c23f51cdd339d54",
+      "prompt_ar": "ملصق متعدد الوسائط لأفق مدينة مستقبلية في الليل، تهيمن عليه خلفية أرجوانية داكنة عميقة ولوحة ثانوية من اللون السماوي الكهربائي والعنبر الدافئ، مرتبة في تركيبة متناسقة تمامًا مع طباعة متعددة الطبقات. يتميز منظر المدينة بهيكل سلكي حيث يتم إنشاء المباني من خطوط شبكة النيون المتوهجة التي تحدد ناطحات السحاب والجسور والأبراج، مما يخلق إحساسًا بالهندسة المعمارية الرقمية بدلاً من الكتلة الصلبة. في المقدمة، تطفو عناصر نصية كبيرة شبه شفافة في الهواء، لتشكل تصميمًا متعدد الطبقات يتداخل مع الأبراج السفلية للمدينة، بينما تنتشر العلامات الهندسية الأصغر وقراءات البيانات عبر منتصف الأرض، مما يضيف عمقًا إلى جمالية الإطار السلكي. السماء في الأعلى عبارة عن فراغ نيلي متين وغني، لا تتخلله السحب، مما يجعل الخطوط الشبكية المتوهجة للمباني تبرز بتباين عالٍ على الخلفية الأرجوانية الداكنة. الإضاءة مصطنعة وتنبعث فقط من حواف الإطار السلكي النيون، مما يلقي ظلالاً حادة ونظيفة تعزز الدقة الهندسية للمشهد. الملمس العام سلس ورقمي، ويشبه العرض ثلاثي الأبعاد عالي الدقة أو الرسم التوضيحي المتجه الواضح، مع درجة حرارة لون باردة تؤكد على الجو الليلي السايبربانك. المنظور أمامي ومتوازن، مما يضمن بقاء الترتيب المتماثل هو النقطة المحورية، مع تراجع هياكل الإطار السلكي قليلاً في المسافة لخلق عمق جوي دون فقدان حدودها الحادة المتوهجة. تنقل الصورة حالة من النظام التكنولوجي والعزلة الحضرية، حيث تبدو المدينة الشبيهة بالشبكة متوسعة ومضمنة داخل حدود الإطار.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147028994 architecture ai-image-prompts mixed-media poster of a futuristic city skyline at night, dominated by a deep dark purple background and a secondary palette of electric cyan and warm amber, arranged in a perfectly symmetrical composition with layered typography. the cityscape features a wireframe structure where buildings are constructed from glowing neon grid lines that define skyscrapers, bridges, and towers, creating a sense of digital architecture rather than solid mass. in the foreground, large semi-transparent text elements float in the air, forming a layered type design that overlaps the lower spires of the city, while smaller geometric labels and data readouts are scattered across the midground, adding depth to the wireframe aesthetic. the sky above is a solid, rich indigo void, unbroken by clouds, which makes the glowing grid lines of the buildings stand out with high contrast against the dark purple backdrop. the lighting is artificial and emanates solely from the neon wireframe edges, casting sharp, clean shadows that reinforce the geometric precision of the scene. the overall texture is smooth and digital, resembling a high-resolution 3d render or a crisp vector illustration, with a cool color temperature that emphasizes the nocturnal, cyberpunk atmosphere. the perspective is frontal and balanced, ensuring the symmetrical arrangement remains the focal point, with the wireframe structures receding slightly into the distance to create atmospheric depth without losing their sharp, glowing outlines. the image conveys a mood of technological order and urban isolation, where the grid-like city feels both expansive and contained within the frame's boundaries. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147028994",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0cc5703-f137-453d-986e-c63a52235c27/original=true/f0cc5703-f137-453d-986e-c63a52235c27.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147030510",
+      "title": "Civitai prompt 147030510",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A climactic cinematic cartoon scene of an eccentric inventor assembling an artificial sunrise inside a vast underground workshop, a miniature sun suspended within a cage of brass gears, glass prisms splitting brilliant beams of light across the room, floating blueprints transforming into birds, robotic assistants shielding their eyes, the inventor's face illuminated by a mixture of exhaustion, fear and triumph, enormous mechanical arms surrounding the central invention, dramatic low-angle composition, powerful volumetric lighting, warm gold against deep indigo, intricate textures, expressive character animation, spectacular original science fantasy design, emotional cinematic finale.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030510",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0feb95bf-6264-4dff-be88-0507c145617b/original=true/0feb95bf-6264-4dff-be88-0507c145617b.jpeg",
+      "model_version_ids": [
+        3363961
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1413418727,
+      "negative_prompt": "blurry, low quality, bad anatomy, deformed face, extra fingers, extra limbs, messy composition, text, watermark.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296126+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "52b47079bfcbe164e5eacb9ab113e59ab465f90a81d1b264c4d75827c129dcb8",
+      "prompt_ar": "مشهد كرتوني سينمائي مناخي لمخترع غريب الأطوار يجمع شروق الشمس الاصطناعي داخل ورشة عمل واسعة تحت الأرض، وشمس مصغرة معلقة داخل قفص من التروس النحاسية، ومناشير زجاجية تقسم أشعة الضوء الرائعة عبر الغرفة، ومخططات عائمة تتحول إلى طيور، ومساعدون آليون يحمون أعينهم، ووجه المخترع مضاء بمزيج من الإرهاق والخوف والانتصار، وأذرع ميكانيكية هائلة تحيط بالاختراع المركزي، وتركيبة درامية منخفضة الزاوية، وإضاءة حجمية قوية، وذهب دافئ مقابل النيلي العميق، والأنسجة المعقدة، والرسوم المتحركة للشخصية التعبيرية، والتصميم الخيالي العلمي الأصلي المذهل، والنهاية السينمائية العاطفية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147030510 image ai-image-prompts a climactic cinematic cartoon scene of an eccentric inventor assembling an artificial sunrise inside a vast underground workshop, a miniature sun suspended within a cage of brass gears, glass prisms splitting brilliant beams of light across the room, floating blueprints transforming into birds, robotic assistants shielding their eyes, the inventor's face illuminated by a mixture of exhaustion, fear and triumph, enormous mechanical arms surrounding the central invention, dramatic low-angle composition, powerful volumetric lighting, warm gold against deep indigo, intricate textures, expressive character animation, spectacular original science fantasy design, emotional cinematic finale. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030510",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0feb95bf-6264-4dff-be88-0507c145617b/original=true/0feb95bf-6264-4dff-be88-0507c145617b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147030508",
+      "title": "Civitai prompt 147030508",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "An experimental cinematic animated scene in an abandoned amusement park at the edge of the universe, a masked astronaut wandering among silent rides suspended above a bottomless void, a gigantic Ferris wheel carrying miniature planets instead of cabins, glowing carousel horses frozen mid-gallop, strange colorful fog drifting through cracked pavement, the astronaut holding a flickering ticket, posture revealing uncertainty and loneliness, dramatic magenta and cyan illumination balanced with deep shadows, distorted perspective, elaborate surreal production design, eerie beauty, cinematic wide shot, original visual storytelling.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030508",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48b20420-a428-4938-a140-91c1bcc1006a/original=true/48b20420-a428-4938-a140-91c1bcc1006a.jpeg",
+      "model_version_ids": [
+        3363961
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 534808830,
+      "negative_prompt": "blurry, low quality, bad anatomy, malformed hands, extra limbs, clutter, text, watermark.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296140+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "404cd6123c3cf62097edf80dc60e119bfbd563815e41b1fbc2f13727669541ec",
+      "prompt_ar": "مشهد رسوم متحركة سينمائي تجريبي في متنزه مهجور على حافة الكون، رائد فضاء مقنع يتجول بين جولات صامتة معلقة فوق فراغ لا نهاية له، عجلة فيريس عملاقة تحمل كواكب مصغرة بدلاً من الكبائن، خيول دائرية متوهجة متجمدة في منتصف العدو، ضباب ملون غريب ينجرف عبر الرصيف المتصدع، رائد الفضاء يحمل تذكرة وامضة، وضعية تكشف عدم اليقين والوحدة، إضاءة أرجوانية وسماوية درامية متوازنة مع الظلال العميقة، منظور مشوه، تصميم إنتاج سريالي متقن، جمال غريب، لقطة سينمائية واسعة، رواية بصرية أصلية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:16Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 147030508 advertising ai-image-prompts an experimental cinematic animated scene in an abandoned amusement park at the edge of the universe, a masked astronaut wandering among silent rides suspended above a bottomless void, a gigantic ferris wheel carrying miniature planets instead of cabins, glowing carousel horses frozen mid-gallop, strange colorful fog drifting through cracked pavement, the astronaut holding a flickering ticket, posture revealing uncertainty and loneliness, dramatic magenta and cyan illumination balanced with deep shadows, distorted perspective, elaborate surreal production design, eerie beauty, cinematic wide shot, original visual storytelling. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030508",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48b20420-a428-4938-a140-91c1bcc1006a/original=true/48b20420-a428-4938-a140-91c1bcc1006a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147030507",
+      "title": "Civitai prompt 147030507",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A poetic cinematic animated film still of a gigantic origami whale gliding silently between futuristic skyscrapers at sunset, its folded paper fins catching the golden wind, delicate handwritten patterns transforming into constellations across its body, a small child standing on a rooftop watching in astonishment, hundreds of paper fish following the whale through peach-colored clouds, windows reflecting pink and lavender light, expressive silhouette, breathtaking sense of scale, elegant negative space, soft atmospheric perspective, imaginative material design, emotional wonder, original cinematic composition.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030507",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bcc326b7-16c7-48f6-b6ee-c9aa1467f1cc/original=true/bcc326b7-16c7-48f6-b6ee-c9aa1467f1cc.jpeg",
+      "model_version_ids": [
+        3363961
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1715512890,
+      "negative_prompt": "blurry, low quality, deformed whale, broken folds, bad anatomy, extra limbs, text, watermark.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296154+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "29e84c0f3ca9c4ce81d7e8644714423a8396d9655ba28e7d300dde47aec850f6",
+      "prompt_ar": "فيلم رسوم متحركة سينمائي شعري ثابت لحوت أوريغامي عملاق ينزلق بصمت بين ناطحات السحاب المستقبلية عند غروب الشمس، زعانفه الورقية المطوية تصطاد الريح الذهبية، أنماط دقيقة مكتوبة بخط اليد تتحول إلى كوكبات عبر جسمه، طفل صغير يقف على سطح أحد المنازل يراقب في دهشة، مئات من الأسماك الورقية تتبع الحوت عبر السحب ذات اللون الخوخي، النوافذ تعكس الضوء الوردي والخزامي، صورة ظلية معبرة، إحساس مذهل بالحجم، مساحة سلبية أنيقة، ناعمة منظور جوي، تصميم مادي خيالي، عجب عاطفي، تكوين سينمائي أصلي.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:17Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147030507 image ai-image-prompts a poetic cinematic animated film still of a gigantic origami whale gliding silently between futuristic skyscrapers at sunset, its folded paper fins catching the golden wind, delicate handwritten patterns transforming into constellations across its body, a small child standing on a rooftop watching in astonishment, hundreds of paper fish following the whale through peach-colored clouds, windows reflecting pink and lavender light, expressive silhouette, breathtaking sense of scale, elegant negative space, soft atmospheric perspective, imaginative material design, emotional wonder, original cinematic composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030507",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bcc326b7-16c7-48f6-b6ee-c9aa1467f1cc/original=true/bcc326b7-16c7-48f6-b6ee-c9aa1467f1cc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147030503",
+      "title": "Civitai prompt 147030503",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A spectacular cinematic animated scene of an eccentric train conductor steering a vintage locomotive through the inner workings of a gigantic floating clock, golden gears the size of mountains rotating around the train, transparent tunnels revealing alternate moments in history, fragments of yesterday drifting beside the windows, the conductor gripping the controls with determined expression, long scarf flowing in the wind, sparks and luminous clock dust, dynamic diagonal composition, warm brass surfaces contrasted with deep blue shadows, epic perspective, intricate mechanical worldbuilding, expressive character acting, adventurous feature animation aesthetic.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030503",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b1a9cb7-20a2-4af8-b9d9-85f44b81745a/original=true/5b1a9cb7-20a2-4af8-b9d9-85f44b81745a.jpeg",
+      "model_version_ids": [
+        3363961
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1067337299,
+      "negative_prompt": "blurry, low quality, broken train geometry, bad anatomy, malformed hands, extra limbs, text, watermark.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296168+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c0a866019b459551b73703d3a4dd4f737ab4d094899c41e7813dc0742257d41b",
+      "prompt_ar": "مشهد رسوم متحركة سينمائي مذهل لقائد قطار غريب الأطوار يقود قاطرة عتيقة عبر الأعمال الداخلية لساعة عائمة عملاقة، وتروس ذهبية بحجم جبال تدور حول القطار، وأنفاق شفافة تكشف لحظات بديلة في التاريخ، وأجزاء من الأمس تنجرف بجانب النوافذ، وقائد القطار يمسك أدوات التحكم بتعبير حازم، ووشاح طويل يتدفق في مهب الريح، وشرارة وغبار الساعة المضيئة، وتكوين قطري ديناميكي، وأسطح نحاسية دافئة تتناقض مع الظلال الزرقاء العميقة، ومنظور ملحمي، بناء العالم الميكانيكي المعقد، وتمثيل الشخصيات التعبيرية، وميزة الرسوم المتحركة المغامرة الجمالية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:17Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147030503 architecture ai-image-prompts a spectacular cinematic animated scene of an eccentric train conductor steering a vintage locomotive through the inner workings of a gigantic floating clock, golden gears the size of mountains rotating around the train, transparent tunnels revealing alternate moments in history, fragments of yesterday drifting beside the windows, the conductor gripping the controls with determined expression, long scarf flowing in the wind, sparks and luminous clock dust, dynamic diagonal composition, warm brass surfaces contrasted with deep blue shadows, epic perspective, intricate mechanical worldbuilding, expressive character acting, adventurous feature animation aesthetic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030503",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b1a9cb7-20a2-4af8-b9d9-85f44b81745a/original=true/5b1a9cb7-20a2-4af8-b9d9-85f44b81745a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147030500",
+      "title": "Civitai prompt 147030500",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An experimental cinematic animated portrait of an elderly woman whose translucent glass-like skin contains an entire miniature universe, spiral galaxies moving beneath her cheeks, tiny planets orbiting behind her eyes, delicate cracks emitting soft celestial light, weathered face full of wisdom and tenderness, one hand gently touching her glowing temple, dark minimalist background, dramatic chiaroscuro lighting, highly expressive eyes, detailed stylized facial features, refined color contrast between midnight blue and warm gold, intimate close-up, surreal yet emotionally believable character design, painterly cinematic finish.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147030500",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ea4b3fa-d88f-426a-935d-47d5b72752fa/original=true/5ea4b3fa-d88f-426a-935d-47d5b72752fa.jpeg",
+      "model_version_ids": [
+        3363961
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 432563639,
+      "negative_prompt": "blurry, low quality, asymmetrical eyes, distorted face, extra features, bad anatomy, text, watermark.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T20:06:15.296202+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bd0d083b00f63da6d57bfa8304150ee777b5e2b790f8a1b52f4c588b79b18871",
+      "prompt_ar": "صورة متحركة سينمائية تجريبية لامرأة مسنة تحتوي بشرتها الشفافة الشبيهة بالزجاج على كون مصغر كامل، ومجرات حلزونية تتحرك تحت خديها، وكواكب صغيرة تدور خلف عينيها، وشقوق دقيقة ينبعث منها ضوء سماوي ناعم، ووجه متجعد مليء بالحكمة والحنان، ويد واحدة تلمس معبدها المتوهج بلطف، وخلفية داكنة بسيطة، وإضاءة تشياروسكورو درامية، وعيون معبرة للغاية، وملامح وجه مفصلة، وتباين ألوان مصقول بين أزرق منتصف الليل والذهبي الدافئ، لقطة مقربة حميمة، تصميم شخصية سريالي وقابل للتصديق عاطفيًا، ولمسات سينمائية تصويرية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T20:06:17Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147030500 image ai-image-prompts an experimental cinematic animated portrait of an elderly woman whose translucent glass-like skin contains an entire miniature universe, spiral galaxies moving beneath her cheeks, tiny planets orbiting behind her eyes, delicate cracks emitting soft celestial light, weathered face full of wisdom and tenderness, one hand gently touching her glowing temple, dark minimalist background, dramatic chiaroscuro lighting, highly expressive eyes, detailed stylized facial features, refined color contrast between midnight blue and warm gold, intimate close-up, surreal yet emotionally believable character design, painterly cinematic finish. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147030500",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ea4b3fa-d88f-426a-935d-47d5b72752fa/original=true/5ea4b3fa-d88f-426a-935d-47d5b72752fa.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-27T09:10:06.029186+00:00",
-  "prompt_count": 2012,
+  "generated_at": "2026-10-27T20:06:18.484497+00:00",
+  "prompt_count": 2022,
   "translation": {
     "language": "ar",
-    "translated_count": 30,
-    "skipped_count": 1975,
+    "translated_count": 10,
+    "skipped_count": 2005,
     "failed_count": 7,
-    "updated_at": "2026-10-27T09:10:05Z"
+    "updated_at": "2026-10-27T20:06:17Z"
   }
 }
