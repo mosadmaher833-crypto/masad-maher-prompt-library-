@@ -90067,15 +90067,1379 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36c1f9d6-85e4-458d-aa2d-fc5432622eb9/original=true/36c1f9d6-85e4-458d-aa2d-fc5432622eb9.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-c90ed646cb99",
+      "title": "MCP.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Each JSON example above illustrates the structure and fields defined by the MCP specification for stateless HTTP usage, covering the full request/response cycle (or one-way notification) for that command. These messages can be sent over an HTTP-based JSON-RPC connection to manage the model's context and actions without using server-sent events or streaming protocols. All field names and nesting conform to the MCP spec, ensuring interoperability between MCP clients and servers.\n\n\n## Introduction\n\nThis specification aims to describe a simple protocol for LLMs to discover and use remote APIs, while minimizing the context window used. While Anthropic's Model Context Protocol (MCP) is primarily used for the purpose, its design is non-optimal. MCP began as a simple STDIO‑based local solution but evolved into a complex, stateful HTTP/SSE system that burdens developers with session management and infrastructure headaches. Maintaining persistent connections conflicts with stateless microservice patterns, leading to scalability and load‑balancing challenges. This specification adopts a minimal, stateless design to avoid these pitfalls.\n\n## Overview\n\nWebtools expose a lightweight, HTTP‑based contract that allows consumers to\n\n* **Discover** capabilities through self‑describing metadata\n* **Validate** inputs and outputs via JSON Schema definitions\n  * one schema for the request object (`requestSchema`)\n  * one schema for the response object (`responseSchema`)\n* **Execute** actions with optional per‑request configuration\n* **Consume** predictable, strongly‑typed responses\n* **Lock-in** specific API versions to improve security\n\n## Use Case Scenario\n\nWebtools are defined by URLs. The typical workflow follows these steps:\n\n1. **Discovery**: A user finds a webtool URL from a tool provider, marketplace, or other source\n2. **Metadata Retrieval**: The user's system issues a GET request to the URL to retrieve the webtool's metadata\n3. **Configuration**: The user fills in configuration data according to the `configSchema` defined in the metadata\n4. **Integration**: The system is now able to use the webtool with LLMs, passing the configuration and handling requests/responses\n\n### Security Considerations\n\nAfter reviewing the schemas and metadata, users may choose to lock-in a specific version by storing the validated metadata on their side and no longer fetching it from the remote server. This prevents potential security risks where malicious instructions could be injected into the LLM context through schema changes in newer versions of the webtool metadata.\n\n## HTTP Methods\n\n### GET {webtoolUrl}/ — Webtool Metadata (latest)\n\nReturns metadata about the **latest** version of the webtool.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "trilogy-group/aws-pricing-mcp",
+      "source_url": "https://github.com/trilogy-group/aws-pricing-mcp/blob/a9c19b8e0dc1a3a4dcd8146e1cc7a1691ce6ee33/MCP.md",
+      "imported_at": "2026-10-27T09:10:01.214694+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c90ed646cb99124bf2a3d8bebfcfb2cd1b7e73ba454d345782ce25ec58a86950",
+      "prompt_ar": "يوضح كل مثال JSON أعلاه البنية والحقول المحددة بواسطة مواصفات MCP لاستخدام HTTP عديم الحالة، مما يغطي دورة الطلب/الاستجابة الكاملة (أو الإشعار أحادي الاتجاه) لهذا الأمر. يمكن إرسال هذه الرسائل عبر اتصال JSON-RPC المستند إلى HTTP لإدارة سياق النموذج وإجراءاته دون استخدام الأحداث المرسلة من الخادم أو بروتوكولات البث. تتوافق جميع أسماء الحقول والتداخل مع مواصفات MCP، مما يضمن إمكانية التشغيل البيني بين عملاء وخوادم MCP.\n\n\n## مقدمة\n\nتهدف هذه المواصفات إلى وصف بروتوكول بسيط لـ LLM لاكتشاف واستخدام واجهات برمجة التطبيقات البعيدة، مع تقليل نافذة السياق المستخدمة. في حين أن بروتوكول السياق النموذجي (MCP) الخاص بـ Anthropic يُستخدم في المقام الأول لهذا الغرض، إلا أن تصميمه ليس مثاليًا. بدأ MCP كحل محلي بسيط يعتمد على STDIO ولكنه تطور إلى نظام HTTP/SSE معقد وفعال يثقل كاهل المطورين بإدارة الجلسة ومشاكل البنية التحتية. يتعارض الحفاظ على الاتصالات المستمرة مع أنماط الخدمات الصغيرة عديمة الحالة، مما يؤدي إلى تحديات قابلية التوسع وموازنة التحميل. تعتمد هذه المواصفات تصميمًا بسيطًا عديم الحالة لتجنب هذه المخاطر.\n\n## نظرة عامة\n\nتعرض Webtools عقدًا خفيف الوزن يستند إلى HTTP يسمح للمستهلكين بذلك\n\n* **اكتشف** الإمكانات من خلال البيانات الوصفية الذاتية\n* **التحقق من صحة** المدخلات والمخرجات عبر تعريفات مخطط JSON\n  * مخطط واحد لكائن الطلب (`requestSchema`)\n  * مخطط واحد لكائن الاستجابة (`مخطط الاستجابة`)\n* **تنفيذ** الإجراءات من خلال تكوين اختياري لكل طلب\n* **استهلك** ردودًا متوقعة ومكتوبة بقوة\n* **قفل** إصدارات API محددة لتحسين الأمان\n\n## استخدام سيناريو الحالة\n\nيتم تعريف أدوات الويب بواسطة عناوين URL. يتبع سير العمل النموذجي الخطوات التالية:\n\n1. **الاكتشاف**: يعثر المستخدم على عنوان URL لأداة الويب من موفر الأداة، أو السوق، أو مصدر آخر\n2. **استرداد البيانات التعريفية**: يصدر نظام المستخدم طلب GET إلى عنوان URL لاسترداد البيانات التعريفية لأداة الويب\n3. **التكوين**: يقوم المستخدم بملء بيانات التكوين وفقًا لـ `configSchema` المحدد في البيانات الوصفية\n4. **التكامل**: أصبح النظام الآن قادرًا على استخدام أداة الويب مع LLMs، وتمرير التكوين ومعالجة الطلبات/الاستجابات\n\n### الاعتبارات الأمنية\n\nبعد مراجعة المخططات والبيانات التعريفية، يمكن للمستخدمين اختيار قفل إصدار معين عن طريق تخزين بيانات التعريف التي تم التحقق من صحتها على جانبهم وعدم جلبها من الخادم البعيد بعد الآن. وهذا يمنع المخاطر الأمنية المحتملة حيث يمكن إدخال تعليمات ضارة في سياق LLM من خلال تغييرات المخطط في الإصدارات الأحدث من البيانات التعريفية لأداة الويب.\n\n## طرق HTTP\n\n### الحصول على {webtoolUrl}/ - بيانات تعريف Webtool (الأحدث)\n\nإرجاع البيانات التعريفية حول **أحدث** إصدار من أداة الويب.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:02Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "mcp.md prompt-engineering each json example above illustrates the structure and fields defined by the mcp specification for stateless http usage, covering the full request/response cycle (or one-way notification) for that command. these messages can be sent over an http-based json-rpc connection to manage the model's context and actions without using server-sent events or streaming protocols. all field names and nesting conform to the mcp spec, ensuring interoperability between mcp clients and servers. ## introduction this specification aims to describe a simple protocol for llms to discover and use remote apis, while minimizing the context window used. while anthropic's model context protocol (mcp) is primarily used for the purpose, its design is non-optimal. mcp began as a simple stdio‑based local solution but evolved into a complex, stateful http/sse system that burdens developers with session management and infrastructure headaches. maintaining persistent connections conflicts with stateless microservice patterns, leading to scalability and load‑balancing challenges. this specification adopts a minimal, stateless design to avoid these pitfalls. ## overview webtools expose a lightweight, http‑based contract that allows consumers to * **discover** capabilities through self‑describing metadata * **validate** inputs and outputs via json schema definitions * one schema for the request object (`requestschema`) * one schema for the response object (`responseschema`) * **execute** actions with optional per‑request configuration * **consume** predictable, strongly‑typed responses * **lock-in** specific api versions to improve security ## use case scenario webtools are defined by urls. the typical workflow follows these steps: 1. **discovery**: a user finds a webtool url from a tool provider, marketplace, or other source 2. **metadata retrieval**: the user's system issues a get request to the url to retrieve the webtool's metadata 3. **configuration**: the user fills in configuration data according to the `configschema` defined in the metadata 4. **integration**: the system is now able to use the webtool with llms, passing the configuration and handling requests/responses ### security considerations after reviewing the schemas and metadata, users may choose to lock-in a specific version by storing the validated metadata on their side and no longer fetching it from the remote server. this prevents potential security risks where malicious instructions could be injected into the llm context through schema changes in newer versions of the webtool metadata. ## http methods ### get {webtoolurl}/ — webtool metadata (latest) returns metadata about the **latest** version of the webtool. github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/trilogy-group/aws-pricing-mcp/blob/a9c19b8e0dc1a3a4dcd8146e1cc7a1691ce6ee33/MCP.md",
+          "source_repository": "trilogy-group/aws-pricing-mcp"
+        }
+      ]
+    },
+    {
+      "id": "gh-c57a21228dbb",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "$schema, name, version, description, categories, author\ntokens.colors.light / dark (17 semantic color roles each)\ntokens.typography.fontFamily, fontSize, lineHeight\ntokens.spacing.unit, scale\ntokens.radius (sm, default, lg, full)\ntokens.shadows (sm, default, lg)\nfonts.google[], fonts.urls[]\naccessibility.contrastTarget, focusRing, reducedMotion\ncomponents.button.primary/secondary/ghost, card, input\nagentInstructions.summary, colorFormat, defaultMode, spacingGrid, fontInstallation, targetFramework, steps[]\npreview.thumbnail, screenshots.light/dark",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "luongnv89/sleek-ui",
+      "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+      "imported_at": "2026-10-27T09:10:01.214726+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c57a21228dbb6155832ae05a39273640ee05611a99e7aa46db8896a4627110b6",
+      "prompt_ar": "مخطط $، الاسم، الإصدار، الوصف، الفئات، المؤلف\ntokens.colors.light / dark (17 دورًا لونيًا دلاليًا لكل منهما)\ntokens.typography.fontFamily، حجم الخط، ارتفاع الخط\ntokens.spacing.unit،scale\ntokens.radius (sm، الافتراضي، lg، كامل)\ntokens.shadows (sm، default، lg)\nالخطوط.جوجل[]، الخطوط.urls[]\nAccessibility.contrastTarget وfocusRing وreducedMotion\nparts.button.primary/ Secondary/ghost، البطاقة، الإدخال\nAgentInstructions.summary، colorFormat، defaultMode، spacingGrid، FontInstallation، targetFramework، الخطوات[]\nPreview.thumbnail، Screenshots.light/dark",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:02Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "prd.md prompt-engineering $schema, name, version, description, categories, author tokens.colors.light / dark (17 semantic color roles each) tokens.typography.fontfamily, fontsize, lineheight tokens.spacing.unit, scale tokens.radius (sm, default, lg, full) tokens.shadows (sm, default, lg) fonts.google[], fonts.urls[] accessibility.contrasttarget, focusring, reducedmotion components.button.primary/secondary/ghost, card, input agentinstructions.summary, colorformat, defaultmode, spacinggrid, fontinstallation, targetframework, steps[] preview.thumbnail, screenshots.light/dark github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+          "source_repository": "luongnv89/sleek-ui"
+        }
+      ]
+    },
+    {
+      "id": "gh-5c0d93109933",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### 6.3 Design JSON Format — `design.v1.json`\n\nSee full schema in §3.2 F01. Key decisions:\n\n- **Colors:** HSL values as strings without `hsl()` wrapper (shadcn convention: `\"240 33% 14%\"`)\n- **Agent Instructions:** Embedded numbered steps in `agentInstructions.steps[]`\n- **Framework hints:** `components` field contains Tailwind class strings; non-Tailwind agents map semantically\n- **Self-contained:** Every design file contains everything needed — no cross-file references\n\n### 6.4 Demo App\n\n- **Tech:** Plain HTML, vanilla CSS, minimal vanilla JS\n- **Structure:** Sidebar nav, 4 stats cards, 1 data table, 1 settings form\n- **Location:** `demo-app/index.html` — NOT part of Vite build\n- **Purpose:** The \"before\" state for agent loop testing and demo video\n- **Initial style:** Browser default fonts, gray/white palette, no design system\n\n### 6.5 Infrastructure\n\n| Component | Technology | Notes |\n|-----------|-----------|-------|\n| Hosting | GitHub Pages | Serves `/dist` and `/public` |\n| CI/CD | GitHub Actions | Triggers on push to `main` |\n| Branch strategy | `main` (source) → `gh-pages` (deployment) |  |\n| Domain | `luongnv.com/sleek-ui` | Custom domain optional in Phase 2 |\n| CORS | GitHub Pages default (`*`) | Verify pre-launch; fallback to Cloudflare Pages |\n\n### 6.6 JSON Schema Validation\n\n- Schema file: `public/schema/design.v1.json` (JSON Schema Draft 7)\n- Pre-commit hook validates all JSON files in `public/designs/` against schema\n- CI step also validates on every push\n\n### 6.7 File Structure",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "luongnv89/sleek-ui",
+      "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+      "imported_at": "2026-10-27T09:10:01.214760+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5c0d9310993321bfaf73337b4f9325c1e9ac271f8b56978e651b2c39b119e31e",
+      "prompt_ar": "### 6.3 التصميم بتنسيق JSON — `design.v1.json`\n\nانظر المخطط الكامل في §3.2 F01. القرارات الرئيسية:\n\n- **الألوان:** قيم HSL كسلاسل بدون غلاف `hsl()` (اتفاقية shadcn: `\"240 33% 14%\"`)\n- **تعليمات الوكيل:** خطوات مرقمة مضمنة في `agentInstructions.steps[]`\n- **تلميحات إطار العمل:** يحتوي حقل `المكونات` على سلاسل فئة Tailwind؛ يتم تعيين الوكلاء غير التابعين لـ Tailwind بشكل دلالي\n- **مكتفي بذاته:** يحتوي كل ملف تصميم على كل ما هو مطلوب — ولا توجد مراجع للملفات المتقاطعة\n\n### التطبيق التجريبي 6.4\n\n- **التقنية:** HTML عادي، وVilla CSS، والحد الأدنى من Vanilla JS\n- **الهيكل:** شريط التنقل الجانبي، 4 بطاقات إحصائيات، 1 جدول بيانات، 1 نموذج إعدادات\n- **الموقع:** `demo-app/index.html` — ليس جزءًا من Vite build\n- **الغرض:** الحالة \"قبل\" لاختبار حلقة الوكيل والفيديو التجريبي\n- **النمط الأولي:** الخطوط الافتراضية للمتصفح، لوحة رمادية/بيضاء، لا يوجد نظام تصميم\n\n### 6.5 البنية التحتية\n\n| مكون | تكنولوجيا | ملاحظات |\n|-----------|----------|-------|\n| استضافة | صفحات جيثب | يخدم `/dist` و`/public` |\n| سي/سي دي | إجراءات جيثب | المشغلات عند الضغط على `الرئيسي` |\n| استراتيجية الفرع | `الرئيسي` (المصدر) → `صفحات gh` (النشر) |  |\n| المجال | `luongnv.com/sleek-ui` | المجال المخصص اختياري في المرحلة الثانية |\n| كورس | صفحات جيثب الافتراضية (`*`) | التحقق من الإطلاق المسبق؛ الرجوع إلى صفحات Cloudflare |\n\n### 6.6 التحقق من صحة مخطط JSON\n\n- ملف المخطط: `public/schema/design.v1.json` (JSON Schema Draft 7)\n- يقوم خطاف الالتزام المسبق بالتحقق من صحة جميع ملفات JSON في `public/designs/` مقابل المخطط\n- يتم أيضًا التحقق من صحة خطوة CI عند كل دفعة\n\n### 6.7 هيكل الملف",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "prd.md prompt-engineering ### 6.3 design json format — `design.v1.json` see full schema in §3.2 f01. key decisions: - **colors:** hsl values as strings without `hsl()` wrapper (shadcn convention: `\"240 33% 14%\"`) - **agent instructions:** embedded numbered steps in `agentinstructions.steps[]` - **framework hints:** `components` field contains tailwind class strings; non-tailwind agents map semantically - **self-contained:** every design file contains everything needed — no cross-file references ### 6.4 demo app - **tech:** plain html, vanilla css, minimal vanilla js - **structure:** sidebar nav, 4 stats cards, 1 data table, 1 settings form - **location:** `demo-app/index.html` — not part of vite build - **purpose:** the \"before\" state for agent loop testing and demo video - **initial style:** browser default fonts, gray/white palette, no design system ### 6.5 infrastructure | component | technology | notes | |-----------|-----------|-------| | hosting | github pages | serves `/dist` and `/public` | | ci/cd | github actions | triggers on push to `main` | | branch strategy | `main` (source) → `gh-pages` (deployment) | | | domain | `luongnv.com/sleek-ui` | custom domain optional in phase 2 | | cors | github pages default (`*`) | verify pre-launch; fallback to cloudflare pages | ### 6.6 json schema validation - schema file: `public/schema/design.v1.json` (json schema draft 7) - pre-commit hook validates all json files in `public/designs/` against schema - ci step also validates on every push ### 6.7 file structure github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+          "source_repository": "luongnv89/sleek-ui"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146981119",
+      "title": "Civitai prompt 146981119",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "kre4-t4ctics. A full-length depiction employing graphite lineart with hatching technique, of an female dragoon wearing orange-red armor over her neck, shoulders, arms and chest. in addition she wears a similar-colored helmet with beak-like visor decorated with dragon wings that flow backward elegantly. She wears a serious expression, with blue eyes. from behind the helmet is a long low dark orange ponytail. she is posed standing upright, facing to the left. she wears a tight-fitting black bodysuit underneath the armor. on her legs are tall, dark brown leather boots that reach above her knees, with cross-stitching along the sides. Attached to the waist are several straps and pouches, and flowing from the lower back are long strips of striped black and white fabric that drape down over the legs. The arms feature segmented armor or padding on the shoulders and forearms. In the figure's right hand (viewer's left), it grips a tall polearm or glaive topped with a curved, silver-colored blade. The overall composition is centered against a plain, light tan background.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146981119",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1d3ef15-f2b3-422d-bdde-7dc228cf5d97/original=true/b1d3ef15-f2b3-422d-bdde-7dc228cf5d97.jpeg",
+      "model_version_ids": [
+        3362930,
+        3368858
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1179412061,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215123+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "565e2b282449345dca553dd9142e9f15ef88f7d2b543d68c26dd237d00a3fe18",
+      "prompt_ar": "kre4-t4ctics. تصوير كامل الطول يستخدم الجرافيت الخطي مع تقنية الفقس، لأنثى فرسان ترتدي درعًا برتقاليًا أحمرًا فوق رقبتها وكتفيها وذراعيها وصدرها. بالإضافة إلى أنها ترتدي خوذة ذات لون مماثل مع حاجب يشبه المنقار مزين بأجنحة تنين تتدفق للخلف بأناقة. إنها ترتدي تعبيرًا جديًا بعيون زرقاء. من خلف الخوذة يوجد ذيل حصان طويل ومنخفض برتقالي غامق. لقد تم وضعها واقفة منتصبة وموجهة إلى اليسار. ترتدي بدلة سوداء ضيقة تحت الدرع. على ساقيها حذاء طويل من الجلد بني داكن يصل إلى ما فوق الركبتين، مع خياطة متقاطعة على الجانبين. يتم ربط العديد من الأشرطة والحقائب بالخصر، وتتدفق من أسفل الظهر شرائط طويلة من القماش المخطط باللونين الأبيض والأسود والتي تتدلى لأسفل فوق الساقين. تتميز الأذرع بدرع مجزأ أو حشوة على الكتفين والساعدين. في اليد اليمنى للشخصية (يسار المشاهد)، تمسك بعمود طويل أو زجاجي يعلوه شفرة منحنية فضية اللون. يتمحور التكوين العام على خلفية بسيطة ذات لون أسمر فاتح.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:02Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146981119 image ai-image-prompts kre4-t4ctics. a full-length depiction employing graphite lineart with hatching technique, of an female dragoon wearing orange-red armor over her neck, shoulders, arms and chest. in addition she wears a similar-colored helmet with beak-like visor decorated with dragon wings that flow backward elegantly. she wears a serious expression, with blue eyes. from behind the helmet is a long low dark orange ponytail. she is posed standing upright, facing to the left. she wears a tight-fitting black bodysuit underneath the armor. on her legs are tall, dark brown leather boots that reach above her knees, with cross-stitching along the sides. attached to the waist are several straps and pouches, and flowing from the lower back are long strips of striped black and white fabric that drape down over the legs. the arms feature segmented armor or padding on the shoulders and forearms. in the figure's right hand (viewer's left), it grips a tall polearm or glaive topped with a curved, silver-colored blade. the overall composition is centered against a plain, light tan background. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146981119",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1d3ef15-f2b3-422d-bdde-7dc228cf5d97/original=true/b1d3ef15-f2b3-422d-bdde-7dc228cf5d97.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146979715",
+      "title": "Civitai prompt 146979715",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up analog film photograph, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. \nUltra-realistic fashion beauty crop of a female model wearing the reference red baseball cap and matching red hoodie. Framing: Tight portrait crop from nose to forehead, cap and eyes filling the frame. Focus: The embroidered logo perfectly centered above the model’s eyes, stitching detail and thread depth clearly visible. Pose: Model gripping the hoodie collar softly with both hands, creating subtle fabric folds. Lighting: Soft frontal studio light with faint shadow sculpting on cheekbones and under the cap. Background: Minimal warm studio backdrop, ivory-to-beige gradient. Mood: Bold, confident, fashion-house campaign energy. Finish: Ultra-sharp fabric detail, cinematic realism, shallow depth of field, no text, no branding overlays. red theme.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146979715",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c41bfb4-38ee-405b-91bf-abc3aeeb8f43/original=true/9c41bfb4-38ee-405b-91bf-abc3aeeb8f43.jpeg",
+      "model_version_ids": [
+        3141844,
+        3343424,
+        3400188,
+        3406740
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 806902650,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215150+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b7a49e40b895359185af41916f035ebb49e4452b8aa4682e90fa1470c2f880c8",
+      "prompt_ar": "صورة فوتوغرافية لفيلم تناظري عن قرب، تم التقاطها بمقاس 35 مم باستخدام عدسة عتيقة سريعة رخيصة الثمن، معالجة بالدفع - حبيبات ثقيلة، تباين حمضي. \nمحصول جمال عصري فائق الواقعية لعارضة أزياء ترتدي قبعة بيسبول حمراء مرجعية وغطاء رأس أحمر مطابق. التأطير: قص صورة ضيقة من الأنف إلى الجبهة، والقبعة والعينين تملأ الإطار. التركيز: يتم وضع الشعار المطرز بشكل مثالي فوق عيني العارضة، كما تظهر تفاصيل الخياطة وعمق الخيط بوضوح. الوضعية: تمسك العارضة بياقة القلنسوة بكلتا يديها بلطف، مما يخلق طيات قماشية دقيقة. الإضاءة: ضوء استوديو أمامي ناعم مع ظل خافت ينحت على عظام الخد وتحت الغطاء. الخلفية: خلفية استوديو دافئة بسيطة، متدرجة من العاجي إلى البيج. المزاج: طاقة الحملات الإعلانية الجريئة والواثقة التي تتمتع بها دار الأزياء. اللمسة النهائية: تفاصيل قماش فائقة الوضوح، وواقعية سينمائية، وعمق مجال ضحل، ولا يوجد نص، ولا تراكبات للعلامة التجارية. موضوع أحمر.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146979715 fashion ai-image-prompts a close-up analog film photograph, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. ultra-realistic fashion beauty crop of a female model wearing the reference red baseball cap and matching red hoodie. framing: tight portrait crop from nose to forehead, cap and eyes filling the frame. focus: the embroidered logo perfectly centered above the model’s eyes, stitching detail and thread depth clearly visible. pose: model gripping the hoodie collar softly with both hands, creating subtle fabric folds. lighting: soft frontal studio light with faint shadow sculpting on cheekbones and under the cap. background: minimal warm studio backdrop, ivory-to-beige gradient. mood: bold, confident, fashion-house campaign energy. finish: ultra-sharp fabric detail, cinematic realism, shallow depth of field, no text, no branding overlays. red theme. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146979715",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c41bfb4-38ee-405b-91bf-abc3aeeb8f43/original=true/9c41bfb4-38ee-405b-91bf-abc3aeeb8f43.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146979713",
+      "title": "Civitai prompt 146979713",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up analog film photograph, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. \nA dramatic ultra-realistic portrait of a woman shown in extreme close-up, only half of her face visible. Her skin is painted with bold tribal markings in deep red, navy blue, and muted earth tones, layered with rough textures and symbolic patterns. One striking light-blue eye is sharply in focus, conveying strength, resilience, and quiet intensity. She wears weathered fabric and woven textiles around her head, with frayed edges and smallwooden beads, suggesting ancient or nomadic culture. Cinematic lighting with soft shadows, shallow depth of field, dark neutral background, hyper-detailed skin texture, painterly realism, 8K quality, editorial poster style, moody and powerful atmosphere.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146979713",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d9ee628-47bc-41a0-a4f1-1f56d6ccc8cc/original=true/0d9ee628-47bc-41a0-a4f1-1f56d6ccc8cc.jpeg",
+      "model_version_ids": [
+        3141844,
+        3343424,
+        3400188,
+        3406740
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1763693293,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215172+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "943fb6773c53c143e86b6014857ef26a889b96326fffd4d751b401ca61e75a4e",
+      "prompt_ar": "صورة فوتوغرافية لفيلم تناظري عن قرب، تم التقاطها بمقاس 35 مم باستخدام عدسة عتيقة سريعة رخيصة الثمن، معالجة بالدفع - حبيبات ثقيلة، تباين حمضي. \nصورة درامية وواقعية للغاية لامرأة تظهر في لقطة قريبة للغاية، ولا يظهر سوى نصف وجهها. تم رسم بشرتها بعلامات قبلية جريئة باللون الأحمر الداكن والأزرق الداكن والألوان الأرضية الصامتة، مع طبقات من الأنسجة الخشنة والأنماط الرمزية. يتم التركيز بشكل حاد على عين زرقاء فاتحة ملفتة للنظر، مما ينقل القوة والمرونة والكثافة الهادئة. ترتدي قماشًا ومنسوجات منسوجة حول رأسها، مع حواف مهترئة وخرزات خشبية صغيرة، مما يوحي بالثقافة القديمة أو البدوية. إضاءة سينمائية بظلال ناعمة، وعمق مجال ضحل، وخلفية محايدة داكنة، وملمس جلدي شديد التفاصيل، وواقعية تصويرية، وجودة 8K، وأسلوب الملصق التحريري، وأجواء متقلبة وقوية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:02Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146979713 fashion ai-image-prompts a close-up analog film photograph, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. a dramatic ultra-realistic portrait of a woman shown in extreme close-up, only half of her face visible. her skin is painted with bold tribal markings in deep red, navy blue, and muted earth tones, layered with rough textures and symbolic patterns. one striking light-blue eye is sharply in focus, conveying strength, resilience, and quiet intensity. she wears weathered fabric and woven textiles around her head, with frayed edges and smallwooden beads, suggesting ancient or nomadic culture. cinematic lighting with soft shadows, shallow depth of field, dark neutral background, hyper-detailed skin texture, painterly realism, 8k quality, editorial poster style, moody and powerful atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146979713",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d9ee628-47bc-41a0-a4f1-1f56d6ccc8cc/original=true/0d9ee628-47bc-41a0-a4f1-1f56d6ccc8cc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146979712",
+      "title": "Civitai prompt 146979712",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up analog film selfie, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. \nA charming photorealistic lifestyle portrait of a beautiful young japani woman posing playfully outside a modern minimalist café on a bright sunny day. She is slightly leaning forward while making a cute peace sign near her face, wearing a gentle smile with closed eyes. She has long dark brown hair styled in soft twin braids, glowing porcelain skin, rosy cheeks, soft natural makeup, defined brows, long lashes, and coral pink lips. She wears an oversized white polo shirt tucked into a beige pleated mini skirt, a white baseball cap with a small red embroidered logo, and a delicate bracelet. A luxury dark brown leather shoulder bag with gold hardware hangs from her shoulder. The background features a clean white building with black-framed doors and windows, potted pink and white flowers, and a modern café entrance. Bright natural daylight creates soft shadows and a fresh, airy atmosphere. Korean fashion aesthetic, casual summer outfit, cute college style, ultra-realistic DSLR photography, cinematic composition, shallow depth of field, creamy bokeh, 50mm lens, f/1.8, HDR, 8K, highly detailed skin texture, premium color grading, Vogue-style editorial, minimalist architecture, vibrant yet soft colors, magazine-quality photography.\naesthetic photography, noise enhancer",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146979712",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/613890d1-9af1-4cdc-a001-584a3e4650bc/original=true/613890d1-9af1-4cdc-a001-584a3e4650bc.jpeg",
+      "model_version_ids": [
+        3141844,
+        3343424,
+        3400188,
+        3406740
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 219826686,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215201+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6ad626bb8d111cb669f4d41515c6611b9095b42e0050b1021056d79f79efcfdc",
+      "prompt_ar": "صورة شخصية لفيلم تناظري عن قرب، تم التقاطها بمقاس 35 مم باستخدام عدسة عتيقة سريعة رخيصة الثمن، معالجة بالدفع - حبيبات ثقيلة، تباين حمضي. \nصورة ساحرة لأسلوب حياة واقعي لامرأة يابانية شابة جميلة تتظاهر بشكل مرح خارج مقهى حديث بسيط في يوم مشمس مشرق. إنها تميل قليلاً إلى الأمام بينما تضع علامة سلام لطيفة بالقرب من وجهها، وترتدي ابتسامة لطيفة مع عيون مغلقة. لديها شعر بني غامق طويل مصفف في ضفائر مزدوجة ناعمة، وبشرة خزفية متوهجة، وخدود وردية، ومكياج طبيعي ناعم، وحواجب محددة، ورموش طويلة، وشفاه وردية مرجانية. ترتدي قميص بولو أبيض كبير الحجم مدسوسًا في تنورة قصيرة ذات ثنيات باللون البيج، وقبعة بيسبول بيضاء مع شعار صغير مطرز باللون الأحمر، وسوار رقيق. تتدلى من كتفها حقيبة كتف جلدية فاخرة باللون البني الداكن مع أجزاء معدنية ذهبية. تتميز الخلفية بمبنى أبيض نظيف بأبواب ونوافذ ذات إطار أسود، وزهور وردية وبيضاء في أوعية، ومدخل مقهى حديث. يخلق ضوء النهار الطبيعي الساطع ظلالاً ناعمة وأجواء منعشة ومتجددة الهواء. جمالية الموضة الكورية، ملابس صيفية غير رسمية، نمط جامعي لطيف، تصوير فوتوغرافي DSLR واقعي للغاية، تكوين سينمائي، عمق مجال ضحل، بوكيه كريمي، عدسة 50 مم، f/1.8، HDR، 8K، نسيج جلد مفصل للغاية، تدرج ألوان ممتاز، افتتاحية بأسلوب Vogue، هندسة بسيطة، ألوان نابضة بالحياة ولكن ناعمة، تصوير بجودة المجلات.\nالتصوير الفوتوغرافي الجمالي، ومحسن الضوضاء",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146979712 architecture ai-image-prompts a close-up analog film selfie, shot on 35mm with a cheap fast vintage lens, push-processed hard — heavy grain, acid contrast. a charming photorealistic lifestyle portrait of a beautiful young japani woman posing playfully outside a modern minimalist café on a bright sunny day. she is slightly leaning forward while making a cute peace sign near her face, wearing a gentle smile with closed eyes. she has long dark brown hair styled in soft twin braids, glowing porcelain skin, rosy cheeks, soft natural makeup, defined brows, long lashes, and coral pink lips. she wears an oversized white polo shirt tucked into a beige pleated mini skirt, a white baseball cap with a small red embroidered logo, and a delicate bracelet. a luxury dark brown leather shoulder bag with gold hardware hangs from her shoulder. the background features a clean white building with black-framed doors and windows, potted pink and white flowers, and a modern café entrance. bright natural daylight creates soft shadows and a fresh, airy atmosphere. korean fashion aesthetic, casual summer outfit, cute college style, ultra-realistic dslr photography, cinematic composition, shallow depth of field, creamy bokeh, 50mm lens, f/1.8, hdr, 8k, highly detailed skin texture, premium color grading, vogue-style editorial, minimalist architecture, vibrant yet soft colors, magazine-quality photography. aesthetic photography, noise enhancer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146979712",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/613890d1-9af1-4cdc-a001-584a3e4650bc/original=true/613890d1-9af1-4cdc-a001-584a3e4650bc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980868",
+      "title": "Civitai prompt 146980868",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A candid lifestyle photograph of a young Caucasian woman with dark brown hair featuring bleached blonde front streaks and framing face bangs. She has pale freckled skin, captivating blue eyes, subtle nose ring, and a septum piercing. She is posing with one hand near her soft pink lips, showcasing her grey-blue manicured nails and multiple silver rings. She wears a grey ribbed camisole top, layered white pearl necklaces, and a thin silver chain with a cross pendant. A small black stylized tattoo is visible on her upper left arm. The scene is set indoors with a lush green artificial leaf wall backdrop, illuminated by soft purple and violet ambient lighting. Shot with a 35mm lens at f/2.0 for a shallow depth of field with a grainy lo-fi film texture.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980868",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8270f22a-bc2e-4605-867a-b8025044cbef/original=true/8270f22a-bc2e-4605-867a-b8025044cbef.jpeg",
+      "model_version_ids": [
+        3075606,
+        3105167,
+        3112728,
+        3139356,
+        3173893,
+        3192618,
+        3216551
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1008698148,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215214+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "364145f2f634e78191e25974a3ec6c6a6034d5fd3ebb20e38333b457378f09aa",
+      "prompt_ar": "صورة صريحة لأسلوب حياة امرأة قوقازية شابة ذات شعر بني غامق تتميز بخطوط أمامية شقراء مبيضة وغرة وجه مؤطرة. لديها بشرة شاحبة منمشة، وعيون زرقاء آسرة، وحلقة أنف رقيقة، وثقب في الحاجز. إنها تقف بيد واحدة بالقرب من شفتيها الوردية الناعمة، وتعرض أظافرها المشذبة باللون الرمادي والأزرق وخواتمها الفضية المتعددة. ترتدي قميصًا قصيرًا مضلعًا باللون الرمادي، وقلادات من اللؤلؤ الأبيض، وسلسلة فضية رفيعة مع قلادة متقاطعة. يظهر وشم أسود صغير منمق على ذراعها الأيسر العلوي. تم وضع المشهد في الداخل مع خلفية جدارية من أوراق الشجر الاصطناعية الخضراء، مضاءة بإضاءة محيطة باللون الأرجواني الناعم والبنفسجي. تم التصوير باستخدام عدسة مقاس 35 مم بفتحة f/2.0 للحصول على عمق مجال ضحل مع نسيج فيلم lo-fi محبب.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:02Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980868 image ai-image-prompts a candid lifestyle photograph of a young caucasian woman with dark brown hair featuring bleached blonde front streaks and framing face bangs. she has pale freckled skin, captivating blue eyes, subtle nose ring, and a septum piercing. she is posing with one hand near her soft pink lips, showcasing her grey-blue manicured nails and multiple silver rings. she wears a grey ribbed camisole top, layered white pearl necklaces, and a thin silver chain with a cross pendant. a small black stylized tattoo is visible on her upper left arm. the scene is set indoors with a lush green artificial leaf wall backdrop, illuminated by soft purple and violet ambient lighting. shot with a 35mm lens at f/2.0 for a shallow depth of field with a grainy lo-fi film texture. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980868",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8270f22a-bc2e-4605-867a-b8025044cbef/original=true/8270f22a-bc2e-4605-867a-b8025044cbef.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980745",
+      "title": "Civitai prompt 146980745",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Jessicav2, \n\nShe is 26 years old, has brown hair fashioned in a messy bun, with stunning grey eyes, and very little makeup. She has realistic anatomy. Her body is soft with a few extra pounds. She is laughing and looking directly at the viewer. She has subtle wrinkles in the corners of her eyes and lips.\n\nShe wears a fitted black leather jacket layered with a black polka dot scarf wrapped loosely around her neck, creating a refined yet modern winter look. Captured as a half-body portrait, her shoulders are slightly angled while one hand lightly touches the edge of her jacket, adding a natural sense of movement. Soft, diffused daylight filters through an overcast urban street, creating gentle highlights and smooth shadows across her features. A shallow depth of field keeps her face in razor-sharp focus while the blurred city background melts into creamy bokeh. Shot from a high angle, the portrait feels cinematic, stylish, intimate, and quietly powerful with cool, muted tones.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980745",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80247161-dc08-4cb9-9510-4631ed2cb7bd/original=true/80247161-dc08-4cb9-9510-4631ed2cb7bd.jpeg",
+      "model_version_ids": [],
+      "width": 1280,
+      "height": 1664,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215240+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c25fa200695cc44318e5f52c485b04bb7deedd9f8ac80256d45f01292c61ac69",
+      "prompt_ar": "جيسيكاف2, \n\nتبلغ من العمر 26 عامًا، ولها شعر بني على شكل كعكة فوضوية، وعيون رمادية مذهلة، ومكياج قليل جدًا. لديها تشريح واقعي. جسدها ناعم مع بضعة أرطال إضافية. إنها تضحك وتنظر مباشرة إلى المشاهد. لديها تجاعيد دقيقة في زوايا عينيها وشفتيها.\n\nترتدي سترة جلدية سوداء مناسبة مع وشاح أسود منقط ملفوف بشكل فضفاض حول رقبتها، مما يخلق مظهرًا شتويًا أنيقًا وحديثًا. تم التقاطها كصورة نصف الجسم، حيث تم وضع كتفيها بزاوية طفيفة بينما تلمس إحدى يديها بخفة حافة سترتها، مما يضيف إحساسًا طبيعيًا بالحركة. يرشح ضوء النهار الناعم والمنتشر عبر شارع حضري ملبد بالغيوم، مما يخلق إضاءات لطيفة وظلال ناعمة عبر ملامحها. يحافظ عمق المجال الضحل على وجهها في تركيز حاد للغاية بينما تذوب خلفية المدينة غير الواضحة في البوكيه الكريمي. تم التقاط الصورة من زاوية عالية، وتبدو الصورة سينمائية وأنيقة وحميمية وقوية بهدوء مع نغمات هادئة وهادئة.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146980745 fashion ai-image-prompts jessicav2, she is 26 years old, has brown hair fashioned in a messy bun, with stunning grey eyes, and very little makeup. she has realistic anatomy. her body is soft with a few extra pounds. she is laughing and looking directly at the viewer. she has subtle wrinkles in the corners of her eyes and lips. she wears a fitted black leather jacket layered with a black polka dot scarf wrapped loosely around her neck, creating a refined yet modern winter look. captured as a half-body portrait, her shoulders are slightly angled while one hand lightly touches the edge of her jacket, adding a natural sense of movement. soft, diffused daylight filters through an overcast urban street, creating gentle highlights and smooth shadows across her features. a shallow depth of field keeps her face in razor-sharp focus while the blurred city background melts into creamy bokeh. shot from a high angle, the portrait feels cinematic, stylish, intimate, and quietly powerful with cool, muted tones. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980745",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80247161-dc08-4cb9-9510-4631ed2cb7bd/original=true/80247161-dc08-4cb9-9510-4631ed2cb7bd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146910130",
+      "title": "Civitai prompt 146910130",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close three-quarter shot of a twenty-five-year-old woman sitting sideways in a deep open window frame of a whitewashed tower room, her bare feet planted on the sill and knees drawn up to her chest, whispering softly to a long silk scarf that has come alive and coils gently around her wrist and ankle like a curious serpent; she has warm honey skin, a soft round face, freckles across her nose, and a tumble of auburn curls blown by the sea breeze, her lips close to the scarf as if giving it a command; she wears a thin white cotton camisole with delicate lace edging and loose rolled-up drawstring trousers of undyed linen; wherever the living scarf touches the stone sill, the stone briefly drains to dull grey while the scarf blooms brighter in saturated cobalt and saffron; outside the window, a vibrant tropical harbor city spreads down the hill in a riot of colorful painted houses, flower-draped balconies and banners, with turquoise sea beyond; soft clean morning window light from outside, gentle bounce light off the whitewashed walls; photorealistic facial details blended with painterly watercolor softness, subtle charcoal and ink outlines in the window frame and city rooftops, atmospheric depth, dreamy bokeh of the bright city below, playful intimate sensuality, fragile beauty, poetic nostalgia, quiet solitude; natural framing by the window arch, airy luminous washes.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146910130",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caad55b3-ad1e-4aad-8551-4dea59909689/original=true/caad55b3-ad1e-4aad-8551-4dea59909689.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3116962,
+        3141844,
+        3187297,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 305469412,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215259+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "549bc3464fd97f95aa814e066ed947e7060ef2e76fdd02d16ce63e4c97935227",
+      "prompt_ar": "لقطة قريبة من ثلاثة أرباع لامرأة تبلغ من العمر خمسة وعشرين عامًا تجلس جانبيًا في إطار نافذة عميق مفتوح لغرفة برج مطلية باللون الأبيض، وقدميها العاريتين مثبتتين على العتبة وركبتيها مرسومتين إلى صدرها، وتهمس بهدوء إلى وشاح حريري طويل أصبح مفعمًا بالحياة ويلتف بلطف حول معصمها وكاحلها مثل ثعبان فضولي؛ لديها بشرة عسلي دافئة، ووجه مستدير ناعم، ونمش على أنفها، وخصلة من تجعيد الشعر البني المحمر الذي يتطايرها نسيم البحر، وشفتاها قريبتان من الوشاح كما لو كانت تعطيه أمرًا؛ ترتدي قميصًا قصيرًا من القطن الأبيض الرقيق مع حواف من الدانتيل الرقيق وسروالًا فضفاضًا برباط ملفوف من الكتان غير المصبوغ؛ أينما يلامس الوشاح الحي العتبة الحجرية، يتحول الحجر لفترة وجيزة إلى اللون الرمادي الباهت بينما يزهر الوشاح أكثر إشراقًا في الكوبالت والزعفران المشبعين؛ خارج النافذة، تنتشر مدينة الميناء الاستوائية النابضة بالحياة أسفل التل في أعمال شغب من المنازل المطلية بالألوان، والشرفات واللافتات المغطاة بالزهور، مع البحر الفيروزي خلفها؛ ضوء نافذة صباحي ناعم ونظيف من الخارج، وضوء ارتداد لطيف من الجدران المطلية باللون الأبيض؛ تفاصيل الوجه الواقعية الممزوجة بنعومة الألوان المائية، والخطوط الدقيقة بالفحم والحبر في إطار النوافذ وأسطح المدينة، وعمق الغلاف الجوي، والبوكيه الحالم للمدينة المشرقة بالأسفل، والشهوانية الحميمة المرحة، والجمال الهش، والحنين الشعري، والعزلة الهادئة؛ تأطير طبيعي لقوس النافذة، وغسلات مضيئة ومتجددة الهواء.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146910130 image ai-image-prompts a close three-quarter shot of a twenty-five-year-old woman sitting sideways in a deep open window frame of a whitewashed tower room, her bare feet planted on the sill and knees drawn up to her chest, whispering softly to a long silk scarf that has come alive and coils gently around her wrist and ankle like a curious serpent; she has warm honey skin, a soft round face, freckles across her nose, and a tumble of auburn curls blown by the sea breeze, her lips close to the scarf as if giving it a command; she wears a thin white cotton camisole with delicate lace edging and loose rolled-up drawstring trousers of undyed linen; wherever the living scarf touches the stone sill, the stone briefly drains to dull grey while the scarf blooms brighter in saturated cobalt and saffron; outside the window, a vibrant tropical harbor city spreads down the hill in a riot of colorful painted houses, flower-draped balconies and banners, with turquoise sea beyond; soft clean morning window light from outside, gentle bounce light off the whitewashed walls; photorealistic facial details blended with painterly watercolor softness, subtle charcoal and ink outlines in the window frame and city rooftops, atmospheric depth, dreamy bokeh of the bright city below, playful intimate sensuality, fragile beauty, poetic nostalgia, quiet solitude; natural framing by the window arch, airy luminous washes. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146910130",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caad55b3-ad1e-4aad-8551-4dea59909689/original=true/caad55b3-ad1e-4aad-8551-4dea59909689.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980842",
+      "title": "Civitai prompt 146980842",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Photorealistic image of Eider, sitting at a bus stop in a cloudy winter morning. She is facing the road, sitting in a plastic seat inside the canopy of the bus stop, with her back to the canopy. The seats are dry and he is sitting with her back against the seat. The photograph is taken with a slight angle from her side. . She has her phone on her hand, but is looking a bit past the camera, with a soft smile. She is immersed in her inner thoughts. She is wearing a light rain jacket and jeans, although we just about see her legs as it is a mid body portrait, just capturing her hips. There are medium density european building, mostly residential, behind the bus stop, typical of southern european cities and towns.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980842",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fe15bfc-d73b-4fef-a29c-b1a4da66fda5/original=true/5fe15bfc-d73b-4fef-a29c-b1a4da66fda5.jpeg",
+      "model_version_ids": [
+        3409868,
+        3427371
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 569585884,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215272+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "66b4690ac2f9251da8d1a1fcdd9d0b3df255a64cd66896d23cfd785f52412334",
+      "prompt_ar": "صورة واقعية لعيدر وهو يجلس في محطة للحافلات في صباح شتوي غائم. إنها تواجه الطريق، وتجلس على مقعد بلاستيكي داخل مظلة محطة الحافلات، وظهرها إلى المظلة. المقاعد جافة وهو يجلس وظهرها على المقعد. تم التقاط الصورة بزاوية طفيفة من جانبها. . تحمل هاتفها في يدها، لكنها تنظر قليلاً إلى ما وراء الكاميرا، بابتسامة ناعمة. إنها منغمسة في أفكارها الداخلية. إنها ترتدي سترة مطر خفيفة وجينزًا، على الرغم من أننا نرى ساقيها تقريبًا لأنها صورة منتصف الجسم، فقط تلتقط وركيها. توجد مباني أوروبية متوسطة الكثافة، معظمها سكنية، خلف محطة الحافلات، على غرار مدن وبلدات جنوب أوروبا.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980842 architecture ai-image-prompts photorealistic image of eider, sitting at a bus stop in a cloudy winter morning. she is facing the road, sitting in a plastic seat inside the canopy of the bus stop, with her back to the canopy. the seats are dry and he is sitting with her back against the seat. the photograph is taken with a slight angle from her side. . she has her phone on her hand, but is looking a bit past the camera, with a soft smile. she is immersed in her inner thoughts. she is wearing a light rain jacket and jeans, although we just about see her legs as it is a mid body portrait, just capturing her hips. there are medium density european building, mostly residential, behind the bus stop, typical of southern european cities and towns. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980842",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fe15bfc-d73b-4fef-a29c-b1a4da66fda5/original=true/5fe15bfc-d73b-4fef-a29c-b1a4da66fda5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980746",
+      "title": "Civitai prompt 146980746",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "starry_morph, Cyberspace, portrait, 1 angel girl, on a skyscraper rooftop, blush, delicate frame, wearing a high collar halter neck dress made of deep midnight-blue celestial fabric embedded with tiny glowing stars, delicate constellation lines across the dress, gold accents, puff shoulder long sleeves, beautiful face, expressionless, closed eyes, mechanical wings with luminous star patterns, iridescent gold halo, ultra detailed, best textures, best lighting, photorealistic, starry dawn sky background, masterpiece, best quality, highly detailed, sharp focus, minimalist",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980746",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10829195-38dc-4550-8127-878d2bd64886/original=true/10829195-38dc-4550-8127-878d2bd64886.jpeg",
+      "model_version_ids": [
+        916744,
+        1215123
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1732902373,
+      "negative_prompt": "deformed face, mature, brown skin, asian, nipples, nude, Chin cleft, wavy hair,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215282+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bbe511fc35821b78848dbb9eb55b97b6c4f75935afc951ec1b9c033974439ad0",
+      "prompt_ar": "starry_morph، الفضاء الإلكتروني، صورة شخصية، فتاة ملاك واحدة، على سطح ناطحة سحاب، أحمر الخدود، إطار رقيق، ترتدي فستانًا بياقة عالية على شكل رسن مصنوع من قماش سماوي عميق أزرق منتصف الليل مدمج مع نجوم متوهجة صغيرة، خطوط كوكبة دقيقة عبر الفستان، لمسات ذهبية، أكتاف منتفخة وأكمام طويلة، وجه جميل، بدون تعبير، عيون مغلقة، أجنحة ميكانيكية بأنماط نجوم مضيئة، هالة ذهبية قزحية، تفاصيل فائقة، أفضل الأنسجة، أفضل إضاءة، واقعية، فجر مرصع بالنجوم خلفية السماء، تحفة فنية، أفضل جودة، مفصلة للغاية، تركيز حاد، الحد الأدنى",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980746 image ai-image-prompts starry_morph, cyberspace, portrait, 1 angel girl, on a skyscraper rooftop, blush, delicate frame, wearing a high collar halter neck dress made of deep midnight-blue celestial fabric embedded with tiny glowing stars, delicate constellation lines across the dress, gold accents, puff shoulder long sleeves, beautiful face, expressionless, closed eyes, mechanical wings with luminous star patterns, iridescent gold halo, ultra detailed, best textures, best lighting, photorealistic, starry dawn sky background, masterpiece, best quality, highly detailed, sharp focus, minimalist civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980746",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10829195-38dc-4550-8127-878d2bd64886/original=true/10829195-38dc-4550-8127-878d2bd64886.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980744",
+      "title": "Civitai prompt 146980744",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "starry_morph, profile portrait, upper body, a Xenomorph wearing a sleek translucent sci-fi bodysuit with a deep cosmic texture, tiny glowing stars embedded across the armor, shifting iridescent hues, golden constellation lines tracing the suit, glowing pulse lines, reflective black exoskeleton, blurry futuristic hallway background, magenta and cyan neon grid lines, art deco architecture, mysterious synthwave atmosphere, masterpiece, best quality, highly detailed, sharp focus",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980744",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abb444f8-8729-420b-8f1f-02541ad6ec42/original=true/abb444f8-8729-420b-8f1f-02541ad6ec42.jpeg",
+      "model_version_ids": [
+        916744,
+        1084215,
+        1215123
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2032698287,
+      "negative_prompt": "(nipples:1.2), bad teeth, woman, dark background, backlighting, dark body, backlighting, nsfw, nude, dark,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215291+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "75afa66cd8bd8586a3a1c7b529d4bcb17995f58f8afe4acd238488a56bb70295",
+      "prompt_ar": "starry_morph، صورة شخصية، الجزء العلوي من الجسم، Xenomorph يرتدي بدلة خيال علمي أنيقة وشفافة مع نسيج كوني عميق، نجوم متوهجة صغيرة مدمجة عبر الدرع، ألوان قزحية متغيرة، خطوط كوكبة ذهبية ترسم البدلة، خطوط نبض متوهجة، هيكل خارجي أسود عاكس، خلفية مدخل مستقبلية ضبابية، خطوط شبكة نيون أرجوانية وسماوية، هندسة آرت ديكو، جو موجة سينثويف غامض، تحفة، أفضل جودة، مفصلة للغاية، حادة التركيز",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980744 architecture ai-image-prompts starry_morph, profile portrait, upper body, a xenomorph wearing a sleek translucent sci-fi bodysuit with a deep cosmic texture, tiny glowing stars embedded across the armor, shifting iridescent hues, golden constellation lines tracing the suit, glowing pulse lines, reflective black exoskeleton, blurry futuristic hallway background, magenta and cyan neon grid lines, art deco architecture, mysterious synthwave atmosphere, masterpiece, best quality, highly detailed, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980744",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abb444f8-8729-420b-8f1f-02541ad6ec42/original=true/abb444f8-8729-420b-8f1f-02541ad6ec42.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980686",
+      "title": "Civitai prompt 146980686",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "starry_morph\nmasterpiece, best quality, anime space battle, cinematic wide shot,\none beholder floating in open space on the left, fully visible, medium-sized,\nclearly separated from the battle station, visible empty space between them,\nnot touching, not overlapping, not embedded,\nthe beholder is much smaller than the enormous spherical battle station on the right,\ndeath-star-like moon-sized fortress with concave superlaser dish,\nthe beholder fires multiple colored eye rays across space toward the station,\nthe rays hit the station surface causing explosions,\nmany starfighters attack the beholder and are destroyed by its eye rays,\nexploding ships, debris, lasers, nebulae, dramatic lighting, dynamic composition",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980686",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fef816d-37f7-4775-bfb3-3b8b7cd1b62b/original=true/5fef816d-37f7-4775-bfb3-3b8b7cd1b62b.jpeg",
+      "model_version_ids": [
+        1215123,
+        1331737,
+        2883731
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 2028710492,
+      "negative_prompt": "beholder inside station, beholder fused with station, beholder overlapping station,\nbeholder attached to station, cropped beholder, multiple beholders,\nlow quality, blurry, text, watermark, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215302+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6fc388e3b880079b249a8c553451987460af39ed14c1f3ae51cc82706ce7901d",
+      "prompt_ar": "starry_morph\nتحفة، أفضل جودة، أنمي معركة الفضاء، لقطة سينمائية واسعة،\nناظر واحد يطفو في مساحة مفتوحة على اليسار، مرئي بالكامل، متوسط الحجم،\nمنفصلة بوضوح عن محطة المعركة، ومساحة فارغة مرئية بينهما،\nغير ملامسة، غير متداخلة، غير مدمجة،\nالناظر أصغر بكثير من محطة المعركة الكروية الهائلة الموجودة على اليمين،\nقلعة بحجم القمر تشبه نجمة الموت مع طبق مقعر من الليزر الفائق،\nيطلق الناظر أشعة عين ملونة متعددة عبر الفضاء باتجاه المحطة،\nوضربت الأشعة سطح المحطة مسببة انفجارات،\nيقوم العديد من مقاتلي النجوم بمهاجمة الناظر وتدمرهم أشعة عينهم،\nالسفن المتفجرة، والحطام، وأشعة الليزر، والسدم، والإضاءة الدرامية، والتركيب الديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146980686 food ai-image-prompts starry_morph masterpiece, best quality, anime space battle, cinematic wide shot, one beholder floating in open space on the left, fully visible, medium-sized, clearly separated from the battle station, visible empty space between them, not touching, not overlapping, not embedded, the beholder is much smaller than the enormous spherical battle station on the right, death-star-like moon-sized fortress with concave superlaser dish, the beholder fires multiple colored eye rays across space toward the station, the rays hit the station surface causing explosions, many starfighters attack the beholder and are destroyed by its eye rays, exploding ships, debris, lasers, nebulae, dramatic lighting, dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980686",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fef816d-37f7-4775-bfb3-3b8b7cd1b62b/original=true/5fef816d-37f7-4775-bfb3-3b8b7cd1b62b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980689",
+      "title": "Civitai prompt 146980689",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "starry_morph\nmasterpiece, best quality, amazing quality, absurdres, anime illustration, cinematic space battle, wide shot,\none beholder floating in open space on the left side of the image,\nfully visible, full body visible,\nclearly separated from the station, starry_morph.\nvisible empty space between the beholder and the station,\nnot touching the station, not overlapping the station, not embedded in the station,\nthe beholder is much smaller than the station,\none giant spherical battle station on the right side of the image,\ndeath-star-like fortress, moon-sized, dark metallic panels, concave superlaser dish,\nfully visible, enormous scale,\nthe beholder fires multiple colored eye rays across open space toward the station,\nthe beams hit the station surface causing explosions,\nmany starfighters attack the beholder,\nthe beholder destroys the attacking starfighters with its eye rays,\nexploding ships, debris, laser fire, dramatic lighting, nebulae, dynamic composition",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980689",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c46cf902-7324-47b5-844c-69a6591f3233/original=true/c46cf902-7324-47b5-844c-69a6591f3233.jpeg",
+      "model_version_ids": [
+        1215123,
+        1331737,
+        2883731
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1663669435,
+      "negative_prompt": "beholder inside station, beholder fused with station, beholder embedded in station,\nbeholder overlapping station, beholder touching station, beholder emerging from station,\nmonster attached to station, station smaller than beholder,\nmultiple beholders, cropped beholder, low quality, blurry, text, watermark, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215315+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3763f7455f2cd6f0f62b40aa9297f505bd73b693dccff4ed23905e420a31752a",
+      "prompt_ar": "starry_morph\nتحفة، أفضل جودة، جودة مذهلة، سخافات، توضيحات أنيمي، معركة الفضاء السينمائية، لقطة واسعة،\nناظر واحد يطفو في مساحة مفتوحة على الجانب الأيسر من الصورة،\nمرئي بالكامل، كامل الجسم مرئي،\nمنفصل بشكل واضح عن المحطة، starry_morph.\nمساحة فارغة مرئية بين الناظر والمحطة،\nعدم لمس المحطة، عدم تداخل المحطة، عدم تضمينها في المحطة،\nالناظر أصغر بكثير من المحطة،\nمحطة قتال كروية عملاقة على الجانب الأيمن من الصورة،\nحصن يشبه نجمة الموت، وألواح معدنية داكنة بحجم القمر، وطبق ليزر مقعر،\nمرئية بالكامل، وعلى نطاق هائل،\nيطلق الناظر أشعة عين ملونة متعددة عبر المساحة المفتوحة باتجاه المحطة،\nواصطدمت العوارض بسطح المحطة مسببة انفجارات،\nالعديد من مقاتلي النجوم يهاجمون الناظر،\nالناظر يدمر مقاتلي النجوم المهاجمين بأشعة عينه،\nالسفن المتفجرة، الحطام، نيران الليزر، الإضاءة الدرامية، السدم، التركيب الديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146980689 food ai-image-prompts starry_morph masterpiece, best quality, amazing quality, absurdres, anime illustration, cinematic space battle, wide shot, one beholder floating in open space on the left side of the image, fully visible, full body visible, clearly separated from the station, starry_morph. visible empty space between the beholder and the station, not touching the station, not overlapping the station, not embedded in the station, the beholder is much smaller than the station, one giant spherical battle station on the right side of the image, death-star-like fortress, moon-sized, dark metallic panels, concave superlaser dish, fully visible, enormous scale, the beholder fires multiple colored eye rays across open space toward the station, the beams hit the station surface causing explosions, many starfighters attack the beholder, the beholder destroys the attacking starfighters with its eye rays, exploding ships, debris, laser fire, dramatic lighting, nebulae, dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980689",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c46cf902-7324-47b5-844c-69a6591f3233/original=true/c46cf902-7324-47b5-844c-69a6591f3233.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980685",
+      "title": "Civitai prompt 146980685",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "starry_morph\nmasterpiece, best quality, amazing quality, very aesthetic, absurdres,\nepic space battle, science fiction, dark fantasy, anime illustration,\ndynamic composition, wide shot,\n(one gigantic beholder:1.4), monstrous floating spherical creature,\nenormous central eye, sharp fangs, huge open mouth,\nten long flexible eyestalks, one glowing eye at the end of each stalk,\n(multiple destructive energy beams firing from the eyestalks:1.4),\nred lasers, green disintegration rays, purple energy blasts,\n(spaceships exploding after being struck by eye beams:1.4),\ndozens of small attacking starfighters, burning spacecraft wreckage,\nshattered hulls, flaming debris,\n(enormous spherical armored space battle station:1.3),\nconcave superlaser dish, dark metallic surface panels, immense scale,\nbeholder attacking the battle station,\ngiant explosions across the station surface,\ndramatic perspective, starry outer space, blue and violet nebulae,\ncinematic lighting, glowing particles, volumetric light,\nhigh contrast, detailed mechanical structures, intense action,\npanoramic composition",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980685",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b180f2a4-f66d-434d-87f4-63f6295049c5/original=true/b180f2a4-f66d-434d-87f4-63f6295049c5.jpeg",
+      "model_version_ids": [
+        1215123,
+        1331737,
+        2883731
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 86575767,
+      "negative_prompt": "worst quality, low quality, bad quality, lowres, blurry,\nflat lighting, simple background, multiple beholders,\nduplicate monster, extra central eyes, missing eyestalks,\ndisconnected eyestalks, malformed eyes, human characters,\nhumanoid body, peaceful scene, undamaged spacecraft,\nduplicate battle stations, distorted perspective,\ncluttered composition, text, watermark, signature, logo,\njpeg artifacts",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215329+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0cbd2cdabd4dba5f958d9ea6a233fc200ac4fcd39c19ed5182fe41ba9505c5ff",
+      "prompt_ar": "starry_morph\nتحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، سخيفة،\nمعركة الفضاء الملحمية، الخيال العلمي، الخيال المظلم، الرسوم المتحركة التوضيحية،\nتكوين ديناميكي، لقطة واسعة،\n(الناظر العملاق:1.4)، مخلوق كروي عائم وحشي،\nعين مركزية ضخمة، أنياب حادة، فم مفتوح ضخم،\nعشرة أعين طويلة مرنة، وعين واحدة متوهجة في نهاية كل ساق،\n(أشعة طاقة مدمرة متعددة تنطلق من ساق العين: 1.4)،\nأشعة الليزر الحمراء، وأشعة التفكك الخضراء، وانفجارات الطاقة الأرجوانية،\n(انفجار السفن الفضائية بعد اصطدامها بأشعة العين:1.4)،\nالعشرات من مقاتلي النجوم الصغار المهاجمين، وحرق حطام المركبات الفضائية،\nهياكل محطمة، وحطام مشتعل،\n(محطة قتال فضائية مدرعة كروية ضخمة: 1.3)،\nطبق ليزر فائق مقعر، ألواح سطحية معدنية داكنة، حجم هائل،\nالناظر يهاجم محطة المعركة،\nانفجارات عملاقة عبر سطح المحطة،\nمنظور درامي، الفضاء الخارجي المرصع بالنجوم، السدم الزرقاء والبنفسجية،\nالإضاءة السينمائية، الجسيمات المتوهجة، الضوء الحجمي،\nتباين عالي، هياكل ميكانيكية مفصلة، عمل مكثف،\nتكوين بانورامي",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146980685 food ai-image-prompts starry_morph masterpiece, best quality, amazing quality, very aesthetic, absurdres, epic space battle, science fiction, dark fantasy, anime illustration, dynamic composition, wide shot, (one gigantic beholder:1.4), monstrous floating spherical creature, enormous central eye, sharp fangs, huge open mouth, ten long flexible eyestalks, one glowing eye at the end of each stalk, (multiple destructive energy beams firing from the eyestalks:1.4), red lasers, green disintegration rays, purple energy blasts, (spaceships exploding after being struck by eye beams:1.4), dozens of small attacking starfighters, burning spacecraft wreckage, shattered hulls, flaming debris, (enormous spherical armored space battle station:1.3), concave superlaser dish, dark metallic surface panels, immense scale, beholder attacking the battle station, giant explosions across the station surface, dramatic perspective, starry outer space, blue and violet nebulae, cinematic lighting, glowing particles, volumetric light, high contrast, detailed mechanical structures, intense action, panoramic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980685",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b180f2a4-f66d-434d-87f4-63f6295049c5/original=true/b180f2a4-f66d-434d-87f4-63f6295049c5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980681",
+      "title": "Civitai prompt 146980681",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "In the style of Botticelli's Venus and Mars, use starry_morph to show Jupiter and Saturn interacting with each other, as personified gods. Use a starry texture — dark surfaces embedded with bright, glowing star points constellation lines — thin luminous connections between star points glowing stars — brilliant, bright star shapes that emit light cosmic darkness — deep, dark base material like the night sky celestial glow — soft ethereal luminescence emanating from starry areas scattered sparkles — tiny luminous particles across surfaces night sky palette — deep blues and blacks contrasted with bright whites and golds.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980681",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0483f0e-3d85-4bb1-86d4-7ff36cb3a4bc/original=true/d0483f0e-3d85-4bb1-86d4-7ff36cb3a4bc.jpeg",
+      "model_version_ids": [
+        640285,
+        889818,
+        1215123
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 659283685,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215344+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d1c320452320c7e9983ef2497f7284cebf204557f3f508b1c0a3968716e8555c",
+      "prompt_ar": "بأسلوب بوتيتشيلي فينوس والمريخ، استخدم starry_morph لإظهار تفاعل كوكب المشتري وزحل مع بعضهما البعض، كآلهة مجسدة. استخدم نسيجًا مرصعًا بالنجوم - أسطح داكنة مدمجة مع خطوط كوكبة لامعة ومتوهجة - وصلات مضيئة رفيعة بين النقاط النجمية المتوهجة - أشكال نجوم لامعة ومشرقة تنبعث منها ظلام كوني فاتح - مادة أساسية عميقة ومظلمة مثل الوهج السماوي لسماء الليل - تألق أثيري ناعم ينبعث من المناطق المرصعة بالنجوم بريق متناثر - جزيئات مضيئة صغيرة عبر لوحة سماء الليل على الأسطح - الأزرق الداكن والأسود يتناقض مع الأبيض والذهبي الساطع.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980681 image ai-image-prompts in the style of botticelli's venus and mars, use starry_morph to show jupiter and saturn interacting with each other, as personified gods. use a starry texture — dark surfaces embedded with bright, glowing star points constellation lines — thin luminous connections between star points glowing stars — brilliant, bright star shapes that emit light cosmic darkness — deep, dark base material like the night sky celestial glow — soft ethereal luminescence emanating from starry areas scattered sparkles — tiny luminous particles across surfaces night sky palette — deep blues and blacks contrasted with bright whites and golds. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980681",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0483f0e-3d85-4bb1-86d4-7ff36cb3a4bc/original=true/d0483f0e-3d85-4bb1-86d4-7ff36cb3a4bc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980601",
+      "title": "Civitai prompt 146980601",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "midjourney\na studio shot of an intricate, retro futuristic off white espresso machine set against a solid mustard yellow background. the machine features a steampunk aesthetic with weathered, off white metal casing, polished brass fittings, glass chambers, and analog gauges. its top section contains two prominent circular dials resembling a clock face and a pressure gauge, along with glass bulbs and intricate piping. the center section holds a portafilter dispensing brown coffee into a small clear glass mug. surrounding the portafilter are various clear glass cylinders, tubes, and chrome spouts. the rounded base features three smaller inset control dials and metallic knobs. the entire appliance rests on a reflective surface under soft, even lighting.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980601",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bdeff50-1a71-4d66-b62b-1514ee44873e/original=true/0bdeff50-1a71-4d66-b62b-1514ee44873e.jpeg",
+      "model_version_ids": [
+        3072332,
+        3252404
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 980259613,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215356+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b2373fb24bfab03a2dd3478e9ed0451140efb0cb13b578bf5d70ac5d2ec9fa6f",
+      "prompt_ar": "منتصف الرحلة\nلقطة استوديو لآلة إسبرسو معقدة ومستقبلية باللون الأبيض الفاتح على خلفية صلبة بلون أصفر الخردل. تتميز الماكينة بجماليات Steampunk مع غلاف معدني أبيض اللون وتركيبات نحاسية مصقولة وغرف زجاجية وأجهزة قياس تناظرية. يحتوي القسم العلوي منه على قرصين دائريين بارزين يشبهان وجه الساعة ومقياس الضغط، بالإضافة إلى المصابيح الزجاجية والأنابيب المعقدة. يحتوي القسم الأوسط على فلتر القهوة الذي يوزع القهوة البنية في كوب زجاجي صغير شفاف. يحيط بفلتر القهوة العديد من الأسطوانات والأنابيب وأنابيب الكروم المصنوعة من الزجاج الشفاف. تتميز القاعدة المستديرة بثلاثة أقراص تحكم داخلية أصغر ومقابض معدنية. يقع الجهاز بأكمله على سطح عاكس تحت إضاءة ناعمة ومتساوية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:03Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 146980601 image ai-image-prompts midjourney a studio shot of an intricate, retro futuristic off white espresso machine set against a solid mustard yellow background. the machine features a steampunk aesthetic with weathered, off white metal casing, polished brass fittings, glass chambers, and analog gauges. its top section contains two prominent circular dials resembling a clock face and a pressure gauge, along with glass bulbs and intricate piping. the center section holds a portafilter dispensing brown coffee into a small clear glass mug. surrounding the portafilter are various clear glass cylinders, tubes, and chrome spouts. the rounded base features three smaller inset control dials and metallic knobs. the entire appliance rests on a reflective surface under soft, even lighting. civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980601",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bdeff50-1a71-4d66-b62b-1514ee44873e/original=true/0bdeff50-1a71-4d66-b62b-1514ee44873e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146968016",
+      "title": "Civitai prompt 146968016",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "ta86_inkriot, graphic cel shading, bold black outlines, distressed ink texture, hard graphic shadows, controlled cross-hatching, scratched hand-drawn surface lines,\nA darkly humorous Halloween illustration inspired by the ancient Irish legend of Stingy Jack, reimagined with a lone goblin condemned to wander after being rejected by Hell.\nIn the foreground, a Warhammer-style goblin trudges along a muddy haunted path at night. He is small, wiry, slightly hunched, long-limbed, with sickly green skin, a narrow angular face, a long hooked nose, very long pointed ears, sharp cheekbones, jagged teeth, yellowish glowing eyes, and a sly, unpleasant grin.\nHe wears patched ragged clothes, a torn hooded coat, crude gloves, worn boots, and a weathered travel belt with small pouches.\nIn one hand, the goblin carries a hollowed-out TURNIP lantern by its leafy tops, gripping the leaves directly rather than using a lantern handle. The turnip is clearly a real turnip, irregular and knobbly, with pale ivory flesh and purple skin near the top, carved with a grotesque crooked face. Inside it burns a single infernal ember, glowing orange-red through jagged eyes and a twisted mouth.\nThe goblin seems perversely pleased with the situation, walking forward with a swaggering, mocking attitude, while glancing back over his shoulder with malicious satisfaction.\nBehind him, the enormous black iron gates of Hell are closing. Through the narrowing gap between the gates, the Devil can be seen in the background, watching the goblin leave with a sly mocking grin, amused to be rid of him.\nBeyond the gates glows a fiery infernal light, illuminating black stone walls, twisted ironwork, smoke, and flames.\nAround the goblin stretches a bleak haunted landscape: a muddy path through a desolate marsh, twisted leafless trees, stagnant pools, broken fences, wet stones, dead reeds, low drifting fog, and a cold moon hidden behind storm clouds.\nInstead of cute ghosts, eerie pale blue will-o'-the-wisps float above the marsh, adding a supernatural atmosphere.\nThe turnip lantern is the main light source in the foreground, casting a warm infernal glow on the goblin’s grinning face and ragged clothing, contrasted with the cold blue moonlight and spectral marsh lights.\nStrong visual storytelling, dramatic silhouettes, expressive but grounded anatomy, dark fantasy atmosphere, subtle black humor, cinematic low-angle three-quarter composition.\nThe scene tells the story of an unwanted wanderer, rejected even by Hell, condemned to roam the night with nothing but a burning turnip lantern.\nNo pumpkins, no modern Halloween decorations, no cute mascots, no cartoon devil, no text..",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146968016",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/443ffddb-0c18-4d63-a5d2-4ae291f41f81/original=true/443ffddb-0c18-4d63-a5d2-4ae291f41f81.jpeg",
+      "model_version_ids": [
+        164821,
+        3072332,
+        3190465,
+        3394995
+      ],
+      "width": 1408,
+      "height": 2048,
+      "seed": 1847924908,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215403+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "664ef49614195659d7b9337252a7c5747214f4714e22810ae510ecec8e1c8f4f",
+      "prompt_ar": "ta86_inkriot، تظليل سيل رسومي، حدود سوداء جريئة، نسيج حبر متعثر، ظلال رسومية صلبة، تظليل متقاطع متحكم فيه، خطوط سطحية مخدوشة مرسومة باليد،\nصورة توضيحية لعيد الهالوين تتسم بروح الدعابة القاتمة مستوحاة من الأسطورة الأيرلندية القديمة لـ Stingy Jack، والتي أعيد تصورها مع عفريت وحيد محكوم عليه بالتجول بعد أن رفضه الجحيم.\nفي المقدمة، يسير عفريت على طراز Warhammer على طول طريق موحل مسكون ليلاً. إنه صغير الحجم، نحيل، منحني قليلاً، طويل الأطراف، ذو بشرة خضراء مريضة، ووجه زاوي ضيق، وأنف طويل معقوف، وأذنان طويلتان مدببتان، وعظام خد حادة، وأسنان خشنة، وعيون متوهجة صفراء، وابتسامة ماكرة كريهة.\nيرتدي ملابس ممزقة مرقعة، ومعطفًا ممزقًا بغطاء رأس، وقفازات بدائية، وأحذية بالية، وحزام سفر به أكياس صغيرة.\nفي إحدى يديه، يحمل العفريت فانوس تورنيب مجوف من أسطحه المورقة، ويمسك الأوراق مباشرة بدلاً من استخدام مقبض الفانوس. من الواضح أن اللفت هو لفت حقيقي، غير منتظم ومعقد، ذو لحم عاجي شاحب وجلد أرجواني بالقرب من الأعلى، منحوت بوجه ملتوي بشع. بداخلها تحترق جمرة جهنمية واحدة، تتوهج باللون البرتقالي والأحمر من خلال عيون خشنة وفم ملتوي.\nيبدو العفريت مسرورًا بشكل شاذ بالموقف، وهو يتقدم للأمام بموقف متبجح وساخر، بينما ينظر إلى الخلف من فوق كتفه بارتياح خبيث.\nخلفه، تغلق أبواب الجحيم الحديدية السوداء الهائلة. من خلال الفجوة الضيقة بين البوابات، يمكن رؤية الشيطان في الخلفية، وهو يشاهد العفريت وهو يغادر بابتسامة ماكرة ساخرة، مستمتعًا بالتخلص منه.\nخلف البوابات يتوهج ضوء جهنمي ناري، يضيء الجدران الحجرية السوداء والمصنوعات الحديدية الملتوية والدخان واللهب.\nيمتد حول العفريت منظر طبيعي قاتم مسكون: طريق موحل عبر مستنقع مقفر، وأشجار ملتوية بلا أوراق، وبرك راكدة، وأسوار مكسورة، وأحجار مبللة، وقصب ميت، وضباب منخفض منجرف، وقمر بارد مختبئ خلف سحب العاصفة.\nبدلاً من الأشباح اللطيفة، تطفو خصلات الشعر الزرقاء الشاحبة فوق المستنقع، مما يضيف جوًا خارقًا للطبيعة.\nيعتبر فانوس اللفت هو مصدر الضوء الرئيسي في المقدمة، ويلقي توهجًا جهنميًا دافئًا على وجه العفريت المبتسم وملابسه الممزقة، ويتناقض مع ضوء القمر الأزرق البارد وأضواء المستنقعات الطيفية.\nرواية بصرية قوية، صور ظلية درامية، تشريح معبر ولكن راسخ، جو خيالي مظلم، فكاهة سوداء خفية، تركيبة سينمائية منخفضة الزاوية من ثلاثة أرباع.\nيحكي المشهد قصة متجول غير مرغوب فيه، رفضه الجحيم حتى، وحُكم عليه بالتجول في الليل دون أي شيء سوى فانوس اللفت المحترق.\nلا يوجد قرع، ولا زخارف عيد الهالوين الحديثة، ولا تمائم لطيفة، ولا رسوم متحركة للشيطان، ولا نص..",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 146968016 photography ai-image-prompts ta86_inkriot, graphic cel shading, bold black outlines, distressed ink texture, hard graphic shadows, controlled cross-hatching, scratched hand-drawn surface lines, a darkly humorous halloween illustration inspired by the ancient irish legend of stingy jack, reimagined with a lone goblin condemned to wander after being rejected by hell. in the foreground, a warhammer-style goblin trudges along a muddy haunted path at night. he is small, wiry, slightly hunched, long-limbed, with sickly green skin, a narrow angular face, a long hooked nose, very long pointed ears, sharp cheekbones, jagged teeth, yellowish glowing eyes, and a sly, unpleasant grin. he wears patched ragged clothes, a torn hooded coat, crude gloves, worn boots, and a weathered travel belt with small pouches. in one hand, the goblin carries a hollowed-out turnip lantern by its leafy tops, gripping the leaves directly rather than using a lantern handle. the turnip is clearly a real turnip, irregular and knobbly, with pale ivory flesh and purple skin near the top, carved with a grotesque crooked face. inside it burns a single infernal ember, glowing orange-red through jagged eyes and a twisted mouth. the goblin seems perversely pleased with the situation, walking forward with a swaggering, mocking attitude, while glancing back over his shoulder with malicious satisfaction. behind him, the enormous black iron gates of hell are closing. through the narrowing gap between the gates, the devil can be seen in the background, watching the goblin leave with a sly mocking grin, amused to be rid of him. beyond the gates glows a fiery infernal light, illuminating black stone walls, twisted ironwork, smoke, and flames. around the goblin stretches a bleak haunted landscape: a muddy path through a desolate marsh, twisted leafless trees, stagnant pools, broken fences, wet stones, dead reeds, low drifting fog, and a cold moon hidden behind storm clouds. instead of cute ghosts, eerie pale blue will-o'-the-wisps float above the marsh, adding a supernatural atmosphere. the turnip lantern is the main light source in the foreground, casting a warm infernal glow on the goblin’s grinning face and ragged clothing, contrasted with the cold blue moonlight and spectral marsh lights. strong visual storytelling, dramatic silhouettes, expressive but grounded anatomy, dark fantasy atmosphere, subtle black humor, cinematic low-angle three-quarter composition. the scene tells the story of an unwanted wanderer, rejected even by hell, condemned to roam the night with nothing but a burning turnip lantern. no pumpkins, no modern halloween decorations, no cute mascots, no cartoon devil, no text.. civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146968016",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/443ffddb-0c18-4d63-a5d2-4ae291f41f81/original=true/443ffddb-0c18-4d63-a5d2-4ae291f41f81.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927290",
+      "title": "Civitai prompt 146927290",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "High-fashion editorial photograph of an adult model in a sculptural gown made of liquid chrome that seems to flow and ripple like mercury, standing in a vast empty salt flat under a pale sky. The metal reflects the horizon and the sun in warped, mirror-perfect detail, her hair slicked back and her makeup minimal, her posture calm and statuesque. Sharp midday light, soft shadows, shot on medium format, 85mm lens, razor-sharp detail, futuristic and surreal.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927290",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee00aaf3-7474-4e74-b39d-88ae1bd90819/original=true/ee00aaf3-7474-4e74-b39d-88ae1bd90819.jpeg",
+      "model_version_ids": [
+        3130436,
+        3199069,
+        3388392
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 434005565,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215413+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "462cf0b3b672882e5523c377f4f135a300e23befe150f39e8b9733710b306841",
+      "prompt_ar": "صورة افتتاحية للأزياء الراقية لعارضة أزياء بالغة ترتدي ثوبًا منحوتًا مصنوعًا من الكروم السائل الذي يبدو وكأنه يتدفق ويتموج مثل الزئبق، ويقف في شقة ملحية فارغة واسعة تحت سماء شاحبة. يعكس المعدن الأفق والشمس بتفاصيل مشوهة ومثالية كالمرآة، وشعرها أملس إلى الخلف ومكياجها بسيط، ووضعيتها هادئة وممتازة. ضوء حاد في منتصف النهار، وظلال ناعمة، تم التقاطها بتنسيق متوسط، وعدسة مقاس 85 مم، وتفاصيل حادة للغاية، ومستقبلية وسريالية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146927290 fashion ai-image-prompts high-fashion editorial photograph of an adult model in a sculptural gown made of liquid chrome that seems to flow and ripple like mercury, standing in a vast empty salt flat under a pale sky. the metal reflects the horizon and the sun in warped, mirror-perfect detail, her hair slicked back and her makeup minimal, her posture calm and statuesque. sharp midday light, soft shadows, shot on medium format, 85mm lens, razor-sharp detail, futuristic and surreal. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927290",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee00aaf3-7474-4e74-b39d-88ae1bd90819/original=true/ee00aaf3-7474-4e74-b39d-88ae1bd90819.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927289",
+      "title": "Civitai prompt 146927289",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Dramatic wide photograph of a lone storm chaser in silhouette standing beside a dusty pickup truck on an empty prairie road, looking toward a massive rotating supercell storm that fills most of the sky, its underside glowing sickly green and copper, with a thin tornado funnel just touching the horizon. Golden low sun lighting the grass in the foreground, long shadows, flat endless plains, a lightning strike in the distance. Ultra-wide lens, rich cloud detail, tension and wonder.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927289",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/355fa446-f956-48bb-9e0f-820e036ea795/original=true/355fa446-f956-48bb-9e0f-820e036ea795.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3116962,
+        3172395,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1280867368,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215423+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "467fa5b5f579640fc16f53f75cbad87c883f9bcc66fe153a7f3deeac74f49827",
+      "prompt_ar": "صورة دراماتيكية واسعة لمطارد العواصف وحيدًا في صورة ظلية يقف بجوار شاحنة صغيرة مغبرة على طريق مرج فارغ، وينظر نحو عاصفة دوارة ضخمة تملأ معظم السماء، ويتوهج جانبها السفلي باللون الأخضر والنحاسي، مع قمع إعصار رقيق يلامس الأفق. شمس ذهبية منخفضة تضيء العشب في المقدمة، وظلال طويلة، وسهول مسطحة لا نهاية لها، وضربة صاعقة في المسافة. عدسة واسعة للغاية وتفاصيل سحابية غنية وتوتر وعجب.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927289 image ai-image-prompts dramatic wide photograph of a lone storm chaser in silhouette standing beside a dusty pickup truck on an empty prairie road, looking toward a massive rotating supercell storm that fills most of the sky, its underside glowing sickly green and copper, with a thin tornado funnel just touching the horizon. golden low sun lighting the grass in the foreground, long shadows, flat endless plains, a lightning strike in the distance. ultra-wide lens, rich cloud detail, tension and wonder. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927289",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/355fa446-f956-48bb-9e0f-820e036ea795/original=true/355fa446-f956-48bb-9e0f-820e036ea795.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927288",
+      "title": "Civitai prompt 146927288",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Black and white film noir photograph of a raccoon in a tiny trench coat and fedora, sitting at a kitchen table under a single swinging lamp, leaning forward as it interrogates a chrome toaster. A slit of venetian blind light cuts across the scene, cigarette-style smoke made of steam from a coffee cup, a half-eaten donut in an evidence bag, a cracked wall clock reading midnight. Deep shadows, high contrast, film grain, 1940s detective movie cinematography, deadpan and absurd.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927288",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79aea0f3-9709-4bb9-8111-373908e764ac/original=true/79aea0f3-9709-4bb9-8111-373908e764ac.jpeg",
+      "model_version_ids": [
+        3143434,
+        3375347,
+        3388392
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 599522844,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215432+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1ebc07d850c15df45d1eb9ff95ba9c4bb94151175cc2daa815f7df8aa6d86709",
+      "prompt_ar": "صورة فيلم نوير بالأبيض والأسود لراكون يرتدي معطفًا صغيرًا وفيدورا، ويجلس على طاولة المطبخ تحت مصباح واحد متأرجح، ويميل إلى الأمام وهو يستجوب محمصة خبز مصنوعة من الكروم. يمر عبر المشهد شق من الضوء الأعمى، ودخان يشبه السيجارة يتكون من البخار المنبعث من فنجان قهوة، وكعكة دونات نصف مأكولة في حقيبة أدلة، وساعة حائط متصدعة تقرأ منتصف الليل. الظلال العميقة، والتباين العالي، وحبوب الأفلام، والتصوير السينمائي للأفلام البوليسية في الأربعينيات، جامد وسخيف.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927288 image ai-image-prompts black and white film noir photograph of a raccoon in a tiny trench coat and fedora, sitting at a kitchen table under a single swinging lamp, leaning forward as it interrogates a chrome toaster. a slit of venetian blind light cuts across the scene, cigarette-style smoke made of steam from a coffee cup, a half-eaten donut in an evidence bag, a cracked wall clock reading midnight. deep shadows, high contrast, film grain, 1940s detective movie cinematography, deadpan and absurd. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927288",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79aea0f3-9709-4bb9-8111-373908e764ac/original=true/79aea0f3-9709-4bb9-8111-373908e764ac.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927284",
+      "title": "Civitai prompt 146927284",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Ultra-wide cinematic photograph of a tea master in a simple linen robe kneeling on the open flatbed of a moving freight train at dawn, preparing tea on a woven straw mat with an iron kettle, small ceramic bowls and a bamboo whisk, completely calm. The landscape rushes past in long horizontal streaks of golden wheat fields and pale hills, while the steam from his kettle curls back in the wind and a thin line of smoke trails from the engine ahead. Low sun glinting off the rusted steel couplings, his sleeves fluttering gently, a single drop of tea suspended mid-pour, anamorphic lens, soft film grain, serene, graceful and a little absurd.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927284",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec7ca235-87b3-45ea-b22b-50d5d4bf79f0/original=true/ec7ca235-87b3-45ea-b22b-50d5d4bf79f0.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3116962,
+        3172395,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 741422457,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215443+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2252981a9dca54410de8de15339d66be35ced15b931b76395eab2bf6ddd1dddd",
+      "prompt_ar": "صورة سينمائية واسعة للغاية لسيد الشاي يرتدي رداء بسيط من الكتان راكعًا على الأرضية المسطحة المفتوحة لقطار شحن متحرك عند الفجر، ويعد الشاي على حصيرة من القش المنسوج مع غلاية حديدية وأوعية سيراميك صغيرة ومخفقة من الخيزران، هادئًا تمامًا. يندفع المشهد الطبيعي في خطوط أفقية طويلة من حقول القمح الذهبية والتلال الشاحبة، بينما يتجعد البخار المنبعث من غلايته مع الريح ويخرج خط رفيع من الدخان من المحرك الذي أمامه. تتلألأ الشمس المنخفضة من الوصلات الفولاذية الصدئة، وأكمامه ترفرف بلطف، وقطرة واحدة من الشاي معلقة في منتصف الصب، وعدسة بصرية مشوهة، وحبيبات رقيقة من الفيلم، وهادئة، ورشيقة، وسخيفة بعض الشيء.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 146927284 photography ai-image-prompts ultra-wide cinematic photograph of a tea master in a simple linen robe kneeling on the open flatbed of a moving freight train at dawn, preparing tea on a woven straw mat with an iron kettle, small ceramic bowls and a bamboo whisk, completely calm. the landscape rushes past in long horizontal streaks of golden wheat fields and pale hills, while the steam from his kettle curls back in the wind and a thin line of smoke trails from the engine ahead. low sun glinting off the rusted steel couplings, his sleeves fluttering gently, a single drop of tea suspended mid-pour, anamorphic lens, soft film grain, serene, graceful and a little absurd. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927284",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec7ca235-87b3-45ea-b22b-50d5d4bf79f0/original=true/ec7ca235-87b3-45ea-b22b-50d5d4bf79f0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927283",
+      "title": "Civitai prompt 146927283",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Cinematic photograph of a vast lost property office in an old railway station, its shelves stretching up to the vaulted ceiling and packed with thousands of umbrellas, hats, suitcases, a tuba, a stuffed bear, a violin case and a stuffed crocodile, each with a numbered paper tag. A thin clerk in sleeve garters rides a rolling ladder along the top shelf with a clipboard, while at the brass counter a puzzled traveler holds a claim ticket and looks at a shelf holding a small, grumbling storm cloud in a glass box. Dust floating in shafts of light from tall arched windows, green banker's lamps glowing, polished wood worn smooth by decades of hands, warm amber tones, 28mm lens, charming, fussy and slightly mysterious.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927283",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f377072-f33c-4380-ae18-18a87fdc9763/original=true/9f377072-f33c-4380-ae18-18a87fdc9763.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3116962,
+        3172395,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1475727650,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215455+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "016ef4781282cf16de2d5b982bfd18bc5882175d1192c1c1efc918b88f8bbd95",
+      "prompt_ar": "صورة سينمائية لمكتب ضخم مفقود في محطة سكة حديد قديمة، تمتد أرففه حتى السقف المقبب ومليئة بآلاف المظلات والقبعات وحقائب السفر والتوبا والدب المحشو وحقيبة الكمان والتمساح المحشو، كل منها يحمل بطاقة ورقية مرقمة. يركب كاتب رفيع يرتدي أربطة الأكمام سلمًا متدحرجًا على طول الرف العلوي مع حافظة، بينما عند المنضدة النحاسية، يحمل مسافر في حيرة تذكرة مطالبة وينظر إلى رف يحمل سحابة عاصفة صغيرة متذمرة في صندوق زجاجي. الغبار يطفو في أعمدة الضوء من النوافذ المقوسة الطويلة، ومصابيح المصرفيين الخضراء المتوهجة، والخشب المصقول الذي اهتزت به عقود من الأيدي، ونغمات العنبر الدافئة، وعدسة 28 مم، ساحرة، وغامضة بعض الشيء.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927283 image ai-image-prompts cinematic photograph of a vast lost property office in an old railway station, its shelves stretching up to the vaulted ceiling and packed with thousands of umbrellas, hats, suitcases, a tuba, a stuffed bear, a violin case and a stuffed crocodile, each with a numbered paper tag. a thin clerk in sleeve garters rides a rolling ladder along the top shelf with a clipboard, while at the brass counter a puzzled traveler holds a claim ticket and looks at a shelf holding a small, grumbling storm cloud in a glass box. dust floating in shafts of light from tall arched windows, green banker's lamps glowing, polished wood worn smooth by decades of hands, warm amber tones, 28mm lens, charming, fussy and slightly mysterious. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927283",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f377072-f33c-4380-ae18-18a87fdc9763/original=true/9f377072-f33c-4380-ae18-18a87fdc9763.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927282",
+      "title": "Civitai prompt 146927282",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Warm Technicolor-style photograph of a cozy 1960s tailor's shop in a small town, where a tailor with pins held in his mouth kneels to hem the trouser of a white spacesuit worn by an adult astronaut standing on a small fitting platform, the helmet resting on a hat stand beside him. Bolts of colorful fabric, chalk marks on the table, a measuring tape around the tailor's neck, a vintage radio playing, and through the shop window a rocket on a distant launch pad in the haze. Warm tungsten lamp light, fine textures on the wool and the suit seams, slightly faded colors with soft grain, 35mm lens, charming, nostalgic and humorous.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927282",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91b021eb-627e-45a5-922b-12fe5ff2a1f6/original=true/91b021eb-627e-45a5-922b-12fe5ff2a1f6.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3116962,
+        3172395,
+        3210573,
+        3226267,
+        3283026
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 782602411,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215466+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e8ca58d918d873153f4e5c52b8b1b3059f442fecd72f8b5e6a2f2419883fb535",
+      "prompt_ar": "صورة دافئة على طراز تكنيكولور لمحل خياطة مريح يرجع تاريخه إلى ستينيات القرن العشرين في بلدة صغيرة، حيث يركع خياط يحمل دبابيس في فمه ليطوق بنطال بدلة فضاء بيضاء يرتديها رائد فضاء بالغ يقف على منصة صغيرة مناسبة، وتستقر الخوذة على قبعة بجانبه. مسامير من القماش الملون، وعلامات طباشير على الطاولة، وشريط قياس حول رقبة الخياط، وراديو عتيق يعزف، ومن خلال نافذة المتجر صاروخ على منصة إطلاق بعيدة وسط الضباب. ضوء مصباح تنجستين دافئ، ملمس ناعم على الصوف ودرزات البدلة، ألوان باهتة قليلاً مع حبيبات ناعمة، عدسة 35 مم، ساحرة، حنين وروح الدعابة.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927282 image ai-image-prompts warm technicolor-style photograph of a cozy 1960s tailor's shop in a small town, where a tailor with pins held in his mouth kneels to hem the trouser of a white spacesuit worn by an adult astronaut standing on a small fitting platform, the helmet resting on a hat stand beside him. bolts of colorful fabric, chalk marks on the table, a measuring tape around the tailor's neck, a vintage radio playing, and through the shop window a rocket on a distant launch pad in the haze. warm tungsten lamp light, fine textures on the wool and the suit seams, slightly faded colors with soft grain, 35mm lens, charming, nostalgic and humorous. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927282",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91b021eb-627e-45a5-922b-12fe5ff2a1f6/original=true/91b021eb-627e-45a5-922b-12fe5ff2a1f6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927280",
+      "title": "Civitai prompt 146927280",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Documentary portrait inside a stone storehouse high in the Andes, where thousands of knotted cords of dyed alpaca wool in red, ochre, indigo and white hang from wooden rafters like a colored curtain. An elderly keeper with a deeply weathered face, braided grey hair and a woven poncho reads one cord by touch, her fingers resting on the knots, a small oil lamp on a ledge beside her. A single shaft of light from a tiny window cuts through floating dust and lights the fibers, the texture of the wool and stitches visible down to the smallest fuzz. Warm earth tones with deep shadow, 50mm lens, shallow depth of field, tactile, intimate and respectful.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927280",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ed6fcf8-39f7-4da7-88ff-132f1b44de12/original=true/6ed6fcf8-39f7-4da7-88ff-132f1b44de12.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3116962,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 50238776,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215477+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "48bf00a8106c8d482e8b825677801ce356181ccecf1a26bf4afb442c90cfda52",
+      "prompt_ar": "صورة وثائقية داخل مخزن حجري في أعالي جبال الأنديز، حيث تتدلى آلاف الحبال المعقودة من صوف الألبكة المصبوغ باللون الأحمر والمغري والنيلي والأبيض من عوارض خشبية مثل ستارة ملونة. حارسة عجوز ذات وجه متضرر بشدة وشعر رمادي مضفر ومعطف منسوج تقرأ سلكًا واحدًا عن طريق اللمس، وأصابعها تستريح على العقد، ومصباح زيت صغير على حافة بجانبها. يقطع عمود واحد من الضوء من نافذة صغيرة الغبار العائم ويضيء الألياف، وملمس الصوف والغرز مرئيًا حتى أصغر الزغب. نغمات ترابية دافئة مع ظل عميق، عدسة 50 مم، عمق مجال ضحل، ملموس، حميم ومحترم.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927280 image ai-image-prompts documentary portrait inside a stone storehouse high in the andes, where thousands of knotted cords of dyed alpaca wool in red, ochre, indigo and white hang from wooden rafters like a colored curtain. an elderly keeper with a deeply weathered face, braided grey hair and a woven poncho reads one cord by touch, her fingers resting on the knots, a small oil lamp on a ledge beside her. a single shaft of light from a tiny window cuts through floating dust and lights the fibers, the texture of the wool and stitches visible down to the smallest fuzz. warm earth tones with deep shadow, 50mm lens, shallow depth of field, tactile, intimate and respectful. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927280",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ed6fcf8-39f7-4da7-88ff-132f1b44de12/original=true/6ed6fcf8-39f7-4da7-88ff-132f1b44de12.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927279",
+      "title": "Civitai prompt 146927279",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Eerie vertical photograph of an abandoned carnival mirror maze at dusk, where a woman in her late twenties wearing a yellow raincoat stands at a junction of infinite reflections. Every mirror shows her mirrored correctly, except one in the lower left where her reflection stands facing her with its head tilted, a faint smile and one hand slightly raised, while the real woman's arms hang at her sides. Flaking silver backing, cracked glass, old fairground bulbs flickering warm amber, pink dust floating in the air, faded stripes on the walls. Slightly desaturated colors with a single yellow accent, wide lens, sharp focus, creepy, quiet and hypnotic.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927279",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c02e429b-3e91-4c64-95b8-c9c3408af8ad/original=true/c02e429b-3e91-4c64-95b8-c9c3408af8ad.jpeg",
+      "model_version_ids": [
+        3116962,
+        3119964,
+        3130436,
+        3190465
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1943803182,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215488+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f2a6626c9038e6ead98ac0af7470c5b5118e84d4ce034c4679b8580b96ff9d01",
+      "prompt_ar": "صورة عمودية غريبة لمتاهة مرآة كرنفال مهجورة عند الغسق، حيث تقف امرأة في أواخر العشرينيات من عمرها ترتدي معطف واق من المطر أصفر عند تقاطع انعكاسات لا نهاية لها. تظهرها كل مرآة معكوسة بشكل صحيح، باستثناء واحدة في أسفل اليسار حيث يقف انعكاسها في مواجهتها ورأسها مائل، وابتسامة باهتة ويد واحدة مرفوعة قليلاً، بينما تتدلى ذراعا المرأة الحقيقية على جانبيها. خلفية فضية متقشرة، وزجاج متشقق، ومصابيح أرض المعارض القديمة تومض باللون الكهرماني الدافئ، وغبار وردي يطفو في الهواء، وخطوط باهتة على الجدران. ألوان غير مشبعة قليلاً مع لمسة صفراء واحدة، عدسة واسعة، تركيز حاد، مخيف، هادئ ومنوم.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927279 image ai-image-prompts eerie vertical photograph of an abandoned carnival mirror maze at dusk, where a woman in her late twenties wearing a yellow raincoat stands at a junction of infinite reflections. every mirror shows her mirrored correctly, except one in the lower left where her reflection stands facing her with its head tilted, a faint smile and one hand slightly raised, while the real woman's arms hang at her sides. flaking silver backing, cracked glass, old fairground bulbs flickering warm amber, pink dust floating in the air, faded stripes on the walls. slightly desaturated colors with a single yellow accent, wide lens, sharp focus, creepy, quiet and hypnotic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927279",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c02e429b-3e91-4c64-95b8-c9c3408af8ad/original=true/c02e429b-3e91-4c64-95b8-c9c3408af8ad.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980499",
+      "title": "Civitai prompt 146980499",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An adult woman standing casually in contraposto with one hand on her hip, holding a heavy mallet in her other hand. She has vivid auburn hair with lighter highlights, gathered into a slightly messy ponytail with a back band. She wears a yellow thick jacket with white reflective stripes, zipper slightly down so that the thick collar is folded down, thick worker pants matching the jacket, a tool belt filled with tools and small bags, a white hardhat, and dirty heavy boots. \nBehind her is a glowing stylized outline picture of the norse good Thor holding his hammer, in the style of old norse decorations. The glowing image behind her appears to imbue the woman with the power of the old god. \n Vertical composition, wide cinematic perspective, low viewpoint just above the ground. \nSoft atmospheric light grazes the horizon in hazy highlights, fading into dark shadows. Cool blue-green tones in the sky. Painterly concept art, quiet solitude. The texture is pronounced, with visible brushstrokes and traces of paint that imitate the painting process using layered tones. Loose, energetic brushstrokes create a sense of movement and action. A sense of depth is achieved through varying densities of brushstrokes. The painting style resembles abstract realism and impressionism. Soft shadows and highlights reflect every detail and give the scene volume.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980499",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2df3b941-bb6a-4c90-9485-619bcd03527f/original=true/2df3b941-bb6a-4c90-9485-619bcd03527f.jpeg",
+      "model_version_ids": [
+        3072332,
+        3116962,
+        3128819,
+        3168308
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 609617302,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215506+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "53ecc774a43a4367dcc723a4d983b2e2a6ac80be63e4dce6e5bdd1571d0d9484",
+      "prompt_ar": "امرأة بالغة تقف عرضيًا في الكونترابوستو، وتضع إحدى يديها على وركها، وتحمل مطرقة ثقيلة في يدها الأخرى. لديها شعر بني محمر حيوي مع خصلات خفيفة، متجمع في شكل ذيل حصان فوضوي قليلاً مع شريط خلفي. ترتدي سترة صفراء سميكة مع خطوط بيضاء عاكسة، وسحاب لأسفل قليلاً بحيث يتم طي الياقة السميكة لأسفل، وسروال عمالي سميك يتناسب مع السترة، وحزام أدوات مملوء بالأدوات والحقائب الصغيرة، وقبعة بيضاء صلبة، وأحذية ثقيلة متسخة. \nخلفها صورة مخططة متوهجة منمقة لثور الإسكندنافي الطيب وهو يحمل مطرقته، على طراز الزخارف الإسكندنافية القديمة. يبدو أن الصورة المتوهجة خلفها تضفي على المرأة قوة الإله القديم. \n تكوين عمودي، منظور سينمائي واسع، وجهة نظر منخفضة فوق الأرض مباشرة. \nيلامس الضوء الجوي الناعم الأفق في مناطق بارزة ضبابية، ويتلاشى في الظلال الداكنة. نغمات زرقاء وخضراء باردة في السماء. مفهوم الفن التصويري، العزلة الهادئة. الملمس واضح، مع ضربات فرشاة مرئية وآثار طلاء تحاكي عملية الطلاء باستخدام درجات الألوان المتعددة. تخلق ضربات الفرشاة المفعمة بالحيوية إحساسًا بالحركة والحركة. يتم تحقيق الإحساس بالعمق من خلال كثافات متفاوتة من ضربات الفرشاة. يشبه أسلوب الرسم الواقعية التجريدية والانطباعية. تعكس الظلال الناعمة والإبرازات كل التفاصيل وتضفي حجمًا على المشهد.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:05Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980499 image ai-image-prompts an adult woman standing casually in contraposto with one hand on her hip, holding a heavy mallet in her other hand. she has vivid auburn hair with lighter highlights, gathered into a slightly messy ponytail with a back band. she wears a yellow thick jacket with white reflective stripes, zipper slightly down so that the thick collar is folded down, thick worker pants matching the jacket, a tool belt filled with tools and small bags, a white hardhat, and dirty heavy boots. behind her is a glowing stylized outline picture of the norse good thor holding his hammer, in the style of old norse decorations. the glowing image behind her appears to imbue the woman with the power of the old god. vertical composition, wide cinematic perspective, low viewpoint just above the ground. soft atmospheric light grazes the horizon in hazy highlights, fading into dark shadows. cool blue-green tones in the sky. painterly concept art, quiet solitude. the texture is pronounced, with visible brushstrokes and traces of paint that imitate the painting process using layered tones. loose, energetic brushstrokes create a sense of movement and action. a sense of depth is achieved through varying densities of brushstrokes. the painting style resembles abstract realism and impressionism. soft shadows and highlights reflect every detail and give the scene volume. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980499",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2df3b941-bb6a-4c90-9485-619bcd03527f/original=true/2df3b941-bb6a-4c90-9485-619bcd03527f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146927801",
+      "title": "Civitai prompt 146927801",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Full body shot. Photography of a vlcnml1.\nPOSE:\nHe is standing with left hand holding a TNGCricket phaser a little over two inches in size. The thumb is pressing metal fire button of the phaser. The phaser is pointed to the left. A bright orange continuous energy beam is shooting out of the TNGCricket phaser. He is looking straight at the camera. \nEXPRESSION:\nHe has a serious expression.\nOUTFIT:\nBACKGROUND:\nA long curving starship elegant corridor without people in Star Trek TNG style, beige and light grey metallic walls, warm vertical strip lighting, circular ambient ceiling lights, red accent lines, polished floor, no writing and text, cinematic lighting, retro-futuristic 1990s sci-fi television production design, photorealistic, 8k --ar 16:9",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146927801",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d74c72f7-1e70-424e-b622-0cdcc0a1fa68/original=true/d74c72f7-1e70-424e-b622-0cdcc0a1fa68.jpeg",
+      "model": "dustVisionKrea2NSFW_v10Krea2.safetensors",
+      "model_version_ids": [
+        3351772
+      ],
+      "width": 1914,
+      "height": 1080,
+      "seed": 50,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215518+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f2232333c1414b31f16ac4d41e13a3c48c3cefd4acaaea55bf04cb54f560ff8",
+      "prompt_ar": "لقطة لكامل الجسم. تصوير برنامج vlcnml1.\nتشكل:\nإنه يقف بيده اليسرى ممسكًا بجهاز TNGCricket فيزر يزيد حجمه قليلاً عن بوصتين. يضغط الإبهام على زر النار المعدني لجهاز الطور. يتم توجيه جهاز الطور إلى اليسار. ينطلق شعاع طاقة مستمر برتقالي ساطع من جهاز طور TNGCricket. وهو ينظر مباشرة إلى الكاميرا. \nالتعبير:\nلديه تعبير جدي.\nالزي:\nالخلفية:\nممر أنيق طويل منحني للمركبة الفضائية بدون أشخاص على طراز Star Trek TNG، وجدران معدنية باللونين البيج والرمادي الفاتح، وإضاءة شريطية عمودية دافئة، وأضواء سقف محيطة دائرية، وخطوط حمراء، وأرضية مصقولة، بدون كتابة ونص، إضاءة سينمائية، تصميم إنتاج تلفزيوني للخيال العلمي مستقبلي في التسعينيات، واقعي، 8 كيلو - 16:9",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:05Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146927801 advertising ai-image-prompts full body shot. photography of a vlcnml1. pose: he is standing with left hand holding a tngcricket phaser a little over two inches in size. the thumb is pressing metal fire button of the phaser. the phaser is pointed to the left. a bright orange continuous energy beam is shooting out of the tngcricket phaser. he is looking straight at the camera. expression: he has a serious expression. outfit: background: a long curving starship elegant corridor without people in star trek tng style, beige and light grey metallic walls, warm vertical strip lighting, circular ambient ceiling lights, red accent lines, polished floor, no writing and text, cinematic lighting, retro-futuristic 1990s sci-fi television production design, photorealistic, 8k --ar 16:9 civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146927801",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d74c72f7-1e70-424e-b622-0cdcc0a1fa68/original=true/d74c72f7-1e70-424e-b622-0cdcc0a1fa68.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146980406",
+      "title": "Civitai prompt 146980406",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Photorealistic image of Eider, sitting at a bus stop in a cloudy winter morning. She is facing the road, sitting in a plastic seat inside the canopy of the bus stop, whilst the camera is a little bit to the side. She has her phone on her hand, but is looking to the horizon, with a wondering face. She is immersed in her inner thoughts. She is wearing a light rain jacket and jeans, although we just about see her legs as it is a mid body portrait, just capturing her hips. There are medium density european building, mostly residential, behind the bus stop, typical of european cities and towns.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146980406",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1231d10-56ab-4d2b-be1a-a972a9a811b2/original=true/e1231d10-56ab-4d2b-be1a-a972a9a811b2.jpeg",
+      "model_version_ids": [
+        2635223,
+        3428915
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1604164058,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-27T09:10:01.215529+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "130941c4ee6100fcf95373b6deb40ef85ed4fe926a1263719a75f5eda43ff76c",
+      "prompt_ar": "صورة واقعية لعيدر وهو يجلس في محطة للحافلات في صباح شتوي غائم. إنها تواجه الطريق، وتجلس على مقعد بلاستيكي داخل مظلة محطة الحافلات، بينما تكون الكاميرا على الجانب قليلاً. تحمل هاتفها في يدها، لكنها تنظر إلى الأفق بوجه متعجب. إنها منغمسة في أفكارها الداخلية. إنها ترتدي سترة مطر خفيفة وجينزًا، على الرغم من أننا نرى ساقيها تقريبًا لأنها صورة منتصف الجسم، فقط تلتقط وركيها. توجد مباني أوروبية متوسطة الكثافة، معظمها سكنية، خلف محطة الحافلات، على غرار المدن والبلدات الأوروبية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-27T09:10:04Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 146980406 architecture ai-image-prompts photorealistic image of eider, sitting at a bus stop in a cloudy winter morning. she is facing the road, sitting in a plastic seat inside the canopy of the bus stop, whilst the camera is a little bit to the side. she has her phone on her hand, but is looking to the horizon, with a wondering face. she is immersed in her inner thoughts. she is wearing a light rain jacket and jeans, although we just about see her legs as it is a mid body portrait, just capturing her hips. there are medium density european building, mostly residential, behind the bus stop, typical of european cities and towns. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146980406",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1231d10-56ab-4d2b-be1a-a972a9a811b2/original=true/e1231d10-56ab-4d2b-be1a-a972a9a811b2.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-26T20:30:01.451526+00:00",
-  "prompt_count": 1982,
+  "generated_at": "2026-10-27T09:10:06.029186+00:00",
+  "prompt_count": 2012,
   "translation": {
     "language": "ar",
-    "translated_count": 45,
-    "skipped_count": 1930,
+    "translated_count": 30,
+    "skipped_count": 1975,
     "failed_count": 7,
-    "updated_at": "2026-10-26T20:30:01Z"
+    "updated_at": "2026-10-27T09:10:05Z"
   }
 }

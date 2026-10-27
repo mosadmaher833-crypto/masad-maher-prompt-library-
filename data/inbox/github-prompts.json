@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-26T20:29:35.530485+00:00",
+  "generated_at": "2026-10-27T09:09:43.046431+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1674,15 +1674,66 @@
       "source_url": "https://github.com/friuns2/BlackFriday-GPTs-Prompts/blob/35c81ed4ae122b0faa08f11e3d273c50b79eb013/gpts/pickz-1.md",
       "license": null,
       "status": "pending_review"
+    },
+    {
+      "id": "gh-c90ed646cb99",
+      "title": "MCP.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Each JSON example above illustrates the structure and fields defined by the MCP specification for stateless HTTP usage, covering the full request/response cycle (or one-way notification) for that command. These messages can be sent over an HTTP-based JSON-RPC connection to manage the model's context and actions without using server-sent events or streaming protocols. All field names and nesting conform to the MCP spec, ensuring interoperability between MCP clients and servers.\n\n\n## Introduction\n\nThis specification aims to describe a simple protocol for LLMs to discover and use remote APIs, while minimizing the context window used. While Anthropic's Model Context Protocol (MCP) is primarily used for the purpose, its design is non-optimal. MCP began as a simple STDIO‑based local solution but evolved into a complex, stateful HTTP/SSE system that burdens developers with session management and infrastructure headaches. Maintaining persistent connections conflicts with stateless microservice patterns, leading to scalability and load‑balancing challenges. This specification adopts a minimal, stateless design to avoid these pitfalls.\n\n## Overview\n\nWebtools expose a lightweight, HTTP‑based contract that allows consumers to\n\n* **Discover** capabilities through self‑describing metadata\n* **Validate** inputs and outputs via JSON Schema definitions\n  * one schema for the request object (`requestSchema`)\n  * one schema for the response object (`responseSchema`)\n* **Execute** actions with optional per‑request configuration\n* **Consume** predictable, strongly‑typed responses\n* **Lock-in** specific API versions to improve security\n\n## Use Case Scenario\n\nWebtools are defined by URLs. The typical workflow follows these steps:\n\n1. **Discovery**: A user finds a webtool URL from a tool provider, marketplace, or other source\n2. **Metadata Retrieval**: The user's system issues a GET request to the URL to retrieve the webtool's metadata\n3. **Configuration**: The user fills in configuration data according to the `configSchema` defined in the metadata\n4. **Integration**: The system is now able to use the webtool with LLMs, passing the configuration and handling requests/responses\n\n### Security Considerations\n\nAfter reviewing the schemas and metadata, users may choose to lock-in a specific version by storing the validated metadata on their side and no longer fetching it from the remote server. This prevents potential security risks where malicious instructions could be injected into the LLM context through schema changes in newer versions of the webtool metadata.\n\n## HTTP Methods\n\n### GET {webtoolUrl}/ — Webtool Metadata (latest)\n\nReturns metadata about the **latest** version of the webtool.",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "trilogy-group/aws-pricing-mcp",
+      "source_url": "https://github.com/trilogy-group/aws-pricing-mcp/blob/a9c19b8e0dc1a3a4dcd8146e1cc7a1691ce6ee33/MCP.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-c57a21228dbb",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "$schema, name, version, description, categories, author\ntokens.colors.light / dark (17 semantic color roles each)\ntokens.typography.fontFamily, fontSize, lineHeight\ntokens.spacing.unit, scale\ntokens.radius (sm, default, lg, full)\ntokens.shadows (sm, default, lg)\nfonts.google[], fonts.urls[]\naccessibility.contrastTarget, focusRing, reducedMotion\ncomponents.button.primary/secondary/ghost, card, input\nagentInstructions.summary, colorFormat, defaultMode, spacingGrid, fontInstallation, targetFramework, steps[]\npreview.thumbnail, screenshots.light/dark",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "luongnv89/sleek-ui",
+      "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-5c0d93109933",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "### 6.3 Design JSON Format — `design.v1.json`\n\nSee full schema in §3.2 F01. Key decisions:\n\n- **Colors:** HSL values as strings without `hsl()` wrapper (shadcn convention: `\"240 33% 14%\"`)\n- **Agent Instructions:** Embedded numbered steps in `agentInstructions.steps[]`\n- **Framework hints:** `components` field contains Tailwind class strings; non-Tailwind agents map semantically\n- **Self-contained:** Every design file contains everything needed — no cross-file references\n\n### 6.4 Demo App\n\n- **Tech:** Plain HTML, vanilla CSS, minimal vanilla JS\n- **Structure:** Sidebar nav, 4 stats cards, 1 data table, 1 settings form\n- **Location:** `demo-app/index.html` — NOT part of Vite build\n- **Purpose:** The \"before\" state for agent loop testing and demo video\n- **Initial style:** Browser default fonts, gray/white palette, no design system\n\n### 6.5 Infrastructure\n\n| Component | Technology | Notes |\n|-----------|-----------|-------|\n| Hosting | GitHub Pages | Serves `/dist` and `/public` |\n| CI/CD | GitHub Actions | Triggers on push to `main` |\n| Branch strategy | `main` (source) → `gh-pages` (deployment) |  |\n| Domain | `luongnv.com/sleek-ui` | Custom domain optional in Phase 2 |\n| CORS | GitHub Pages default (`*`) | Verify pre-launch; fallback to Cloudflare Pages |\n\n### 6.6 JSON Schema Validation\n\n- Schema file: `public/schema/design.v1.json` (JSON Schema Draft 7)\n- Pre-commit hook validates all JSON files in `public/designs/` against schema\n- CI step also validates on every push\n\n### 6.7 File Structure",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "luongnv89/sleek-ui",
+      "source_url": "https://github.com/luongnv89/sleek-ui/blob/b03c050b2e9abf946219a6da92856a5e8069a509/prd.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"photography prompt\"",
-    "Claude prompts",
-    "AI advertising prompts"
+    "\"prompt template\"",
+    "prompt engineering",
+    "prompt templates"
   ],
   "last_sources": []
 }
