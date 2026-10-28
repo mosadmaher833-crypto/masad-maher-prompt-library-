@@ -91902,15 +91902,1178 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ea4b3fa-d88f-426a-935d-47d5b72752fa/original=true/5ea4b3fa-d88f-426a-935d-47d5b72752fa.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-57bae3d8322e",
+      "title": "ai-boost/awesome-image-video-prompts README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Create one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.\n\nOVERALL FORMAT\n\nStrict 3:4 vertical composition.\n\nDivide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio.\n\nThe top half occupies exactly 50% of the canvas.\n\nThe bottom half occupies exactly 50% of the canvas.\n\nThe two sections should feel visually connected as one refined art publication cover.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\n\nPreserve the original photograph as faithfully as possible.\n\nKeep the main composition, subjects, identity, facial features, body proportions, poses, expressions, clothing, objects, and spatial relationships unchanged.\n\nPreserve the realistic photographic texture, natural lighting, shadows, atmosphere, and original color mood.\n\nApply only subtle, sophisticated editorial color grading, creating the feeling of a premium magazine photograph, contemporary art book, or high-end independent publication.\n\nThe image should remain photorealistic and authentic, never overly retouched or artificially stylized.\n\nIf necessary to fit the 3:4 composition naturally, extend the sky, ground, walls, or surrounding environmental background.\n\nBackground extension must feel seamless and photographic.\n\nNever stretch, distort, reshape, replace, or alter the main subject.\n\nBOTTOM HALF — MINIMAL HAND-DRAWN PAPER ILLUSTRATION\n\nExtract the most recognizable visual elements from the original photograph and reinterpret them as a minimalist hand-drawn paper-cover illustration.\n\nPreserve:\n\nThe most recognizable subject\n\nEssential silhouette and proportions\n\nKey pose or gesture\n\nImportant objects\n\nThe core narrative relationship between people and objects\n\nHighly simplify the image. Remove unnecessary details and retain only the visual information needed for immediate recognition.\n\nUse:\n\nDelicate, slightly imperfect hand-drawn lines\n\nA small number of bold, clearly defined acrylic-style flat color shapes\n\nRough paper texture\n\nVisible handmade brush marks\n\nSlightly irregular, organic edges\n\nSubtle imperfections that make it feel genuinely handmade\n\nThe main illustrated subject should be small, centered, and carefully composed, occupying approximately 10–20% of the bottom half.\n\nLeave a large amount of negative space around the illustration.\n\nThe background should primarily resemble:\n\nRough white paper\n\nWarm off-white paper\n\nPale natural paper\n\nMinimal editorial book-cover stock\n\nUse only a few lines or small color shapes to suggest the surrounding environment.\n\nCOLOR PALETTE\n\nExtract the dominant colors directly from the original photograph.\n\nCompress the palette into no more than 4 main colors.\n\nKeep the colors restrained, sophisticated, and harmonious.\n\nUse bold but controlled flat color blocks.\n\nAvoid excessive color variation.\n\nPreserve subtle paper grain and handmade brush texture.\n\nThe illustration should visually feel like a simplified color interpretation of the photograph.\n\nTYPOGRAPHY\n\nA small amount of simple typography may be included when appropriate.\n\nPossible elements:\n\nA short title\n\nKeyword\n\nObject name\n\nLocation\n\nYear\n\nNumber\n\nShort phrase\n\nText should be minimal, understated, and editorial.\n\nTypography should naturally interact with the large areas of negative space and the small illustration, evoking:\n\nArt book covers\n\nIndependent publishing\n\nContemporary editorial design\n\nThoughtful children's picture books\n\nDo not force text into the composition if it does not naturally fit the photograph.\n\nVISUAL LANGUAGE\n\nThe final poster should feel:\n\nQuiet · Poetic · Refined · Minimal · Innocent · Relaxed · Artistic · Thoughtful · High-recognition · Premium",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "ai-boost/awesome-image-video-prompts",
+      "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
+      "license": "GPL-3.0",
+      "imported_at": "2026-10-28T09:50:18.241320+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "57bae3d8322e72f836a04f2b3c5309caf7852d13805af66c5930dc33d22f5760",
+      "prompt_ar": "قم بإنشاء ملصق تحريري مستقل ومتطور لكل صورة تم تحميلها. لا تجمع بين عدة صور في صورة مجمعة. يجب معالجة كل صورة وإخراجها كملصق منفصل.\n\nالتنسيق العام\n\nتكوين عمودي صارم 3:4.\n\nقم بتقسيم اللوحة أفقيًا إلى قسمين متساويين تمامًا، مع نسبة ارتفاع دقيقة تبلغ 1:1.\n\nالنصف العلوي يشغل بالضبط 50% من اللوحة.\n\nالنصف السفلي يحتل بالضبط 50% من اللوحة.\n\nيجب أن يشعر القسمان بأنهما مترابطان بصريًا كغلاف منشور فني مكرر.\n\nالنصف العلوي – الصورة الأصلية\n\nاحتفظ بالصورة الأصلية بأمانة قدر الإمكان.\n\nحافظ على التكوين الرئيسي والموضوعات والهوية وملامح الوجه ونسب الجسم والأوضاع والتعبيرات والملابس والأشياء والعلاقات المكانية دون تغيير.\n\nالحفاظ على نسيج التصوير الفوتوغرافي الواقعي والإضاءة الطبيعية والظلال والجو ومزاج الألوان الأصلي.\n\nقم بتطبيق تدرج الألوان التحريري الدقيق والمتطور فقط، مما يخلق شعورًا بالصورة الفوتوغرافية لمجلة متميزة، أو كتاب فني معاصر، أو منشور مستقل متطور.\n\nيجب أن تظل الصورة واقعية وأصلية، ولا يتم تنقيحها بشكل مفرط أو تصميمها بشكل مصطنع.\n\nإذا لزم الأمر لملاءمة التركيبة 3:4 بشكل طبيعي، قم بتوسيع السماء أو الأرض أو الجدران أو الخلفية البيئية المحيطة.\n\nيجب أن يبدو امتداد الخلفية سلسًا وفوتوغرافيًا.\n\nلا تقم مطلقًا بتمديد الموضوع الرئيسي أو تشويهه أو إعادة تشكيله أو استبداله أو تغييره.\n\nالنصف السفلي – الحد الأدنى من الرسوم التوضيحية الورقية المرسومة يدويًا\n\nاستخرج العناصر المرئية الأكثر شهرة من الصورة الأصلية وأعد تفسيرها كرسم توضيحي بسيط على الغلاف الورقي مرسوم يدويًا.\n\nالحفاظ على:\n\nالموضوع الأكثر شهرة\n\nالصورة الظلية والنسب الأساسية\n\nالوضعية أو الإيماءة الرئيسية\n\nكائنات مهمة\n\nالعلاقة السردية الأساسية بين الأشخاص والأشياء\n\nتبسيط الصورة للغاية. قم بإزالة التفاصيل غير الضرورية واحتفظ فقط بالمعلومات المرئية اللازمة للتعرف الفوري عليها.\n\nالاستخدام:\n\nخطوط دقيقة مرسومة باليد وغير كاملة إلى حد ما\n\nعدد صغير من الأشكال الملونة المسطحة الجريئة والمحددة بوضوح على طراز الأكريليك\n\nنسيج الورق الخام\n\nعلامات فرشاة يدوية مرئية\n\nحواف عضوية غير منتظمة قليلاً\n\nعيوب دقيقة تجعلها تبدو وكأنها مصنوعة يدويًا حقًا\n\nيجب أن يكون الموضوع الرئيسي المصور صغيرًا ومركزًا ومكونًا بعناية، ويشغل حوالي 10-20% من النصف السفلي.\n\nاترك قدرًا كبيرًا من المساحة السلبية حول الرسم التوضيحي.\n\nيجب أن تشبه الخلفية في المقام الأول:\n\nورقة بيضاء خشنة\n\nورق أبيض دافئ\n\nورق طبيعي شاحب\n\nالحد الأدنى من مخزون غلاف الكتاب التحريري\n\nاستخدم فقط بضعة أسطر أو أشكال ألوان صغيرة للإشارة إلى البيئة المحيطة.\n\nلوحة الألوان\n\nاستخرج الألوان السائدة مباشرة من الصورة الأصلية.\n\nقم بضغط اللوحة إلى ما لا يزيد عن 4 ألوان رئيسية.\n\nحافظ على الألوان مقيدة ومتطورة ومتناغمة.\n\nاستخدم كتل ألوان مسطحة جريئة ولكن يمكن التحكم فيها.\n\nتجنب الاختلاف المفرط في اللون.\n\nيحافظ على حبيبات الورق الدقيقة وملمس الفرشاة المصنوع يدويًا.\n\nيجب أن يبدو الرسم التوضيحي بصريًا وكأنه تفسير لوني مبسط للصورة.\n\nالطباعة\n\nيمكن تضمين كمية صغيرة من الطباعة البسيطة عند الاقتضاء.\n\nالعناصر المحتملة:\n\nعنوان قصير\n\nالكلمة الرئيسية\n\nاسم الكائن\n\nالموقع\n\nسنة\n\nرقم\n\nعبارة قصيرة\n\nيجب أن يكون النص بسيطًا وبسيطًا وتحريريًا.\n\nيجب أن تتفاعل الطباعة بشكل طبيعي مع المساحات الكبيرة من المساحة السلبية والرسوم التوضيحية الصغيرة، مما يستحضر:\n\nأغلفة الكتب الفنية\n\nالنشر المستقل\n\nالتصميم التحريري المعاصر\n\nكتب مصورة للأطفال مدروس\n\nلا تقم بإدخال النص بالقوة في التكوين إذا لم يكن مناسبًا للصورة بشكل طبيعي.\n\nاللغة المرئية\n\nيجب أن يشعر الملصق النهائي بما يلي:\n\nهادئ · شاعري · مصقول · الحد الأدنى · بريء · مريح · فني · مدروس · تقدير عالٍ · متميز",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "ai-boost/awesome-image-video-prompts readme prompt prompt-engineering create one independent high-end editorial poster for each uploaded photo. do not combine multiple photos into a collage. each photo must be processed and output as a separate poster. overall format strict 3:4 vertical composition. divide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio. the top half occupies exactly 50% of the canvas. the bottom half occupies exactly 50% of the canvas. the two sections should feel visually connected as one refined art publication cover. top half — original photograph preserve the original photograph as faithfully as possible. keep the main composition, subjects, identity, facial features, body proportions, poses, expressions, clothing, objects, and spatial relationships unchanged. preserve the realistic photographic texture, natural lighting, shadows, atmosphere, and original color mood. apply only subtle, sophisticated editorial color grading, creating the feeling of a premium magazine photograph, contemporary art book, or high-end independent publication. the image should remain photorealistic and authentic, never overly retouched or artificially stylized. if necessary to fit the 3:4 composition naturally, extend the sky, ground, walls, or surrounding environmental background. background extension must feel seamless and photographic. never stretch, distort, reshape, replace, or alter the main subject. bottom half — minimal hand-drawn paper illustration extract the most recognizable visual elements from the original photograph and reinterpret them as a minimalist hand-drawn paper-cover illustration. preserve: the most recognizable subject essential silhouette and proportions key pose or gesture important objects the core narrative relationship between people and objects highly simplify the image. remove unnecessary details and retain only the visual information needed for immediate recognition. use: delicate, slightly imperfect hand-drawn lines a small number of bold, clearly defined acrylic-style flat color shapes rough paper texture visible handmade brush marks slightly irregular, organic edges subtle imperfections that make it feel genuinely handmade the main illustrated subject should be small, centered, and carefully composed, occupying approximately 10–20% of the bottom half. leave a large amount of negative space around the illustration. the background should primarily resemble: rough white paper warm off-white paper pale natural paper minimal editorial book-cover stock use only a few lines or small color shapes to suggest the surrounding environment. color palette extract the dominant colors directly from the original photograph. compress the palette into no more than 4 main colors. keep the colors restrained, sophisticated, and harmonious. use bold but controlled flat color blocks. avoid excessive color variation. preserve subtle paper grain and handmade brush texture. the illustration should visually feel like a simplified color interpretation of the photograph. typography a small amount of simple typography may be included when appropriate. possible elements: a short title keyword object name location year number short phrase text should be minimal, understated, and editorial. typography should naturally interact with the large areas of negative space and the small illustration, evoking: art book covers independent publishing contemporary editorial design thoughtful children's picture books do not force text into the composition if it does not naturally fit the photograph. visual language the final poster should feel: quiet · poetic · refined · minimal · innocent · relaxed · artistic · thoughtful · high-recognition · premium github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
+          "source_repository": "ai-boost/awesome-image-video-prompts",
+          "license": "GPL-3.0"
+        }
+      ]
+    },
+    {
+      "id": "gh-df07c42627ef",
+      "title": "ai-boost/awesome-image-video-prompts README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Turn this structure photo into a single high-end halftone architectural travel-collage poster. Output one poster per uploaded photo — never merge multiple structures or photos into one frame.\n\nFORMAT\n\n3:4 vertical canvas. Split into two roughly equal zones — real architectural photo on top, printed reconstruction below — divided by one clean, sharp horizontal line.\n\nDo not stretch, warp, tilt, or unnaturally reposition the structure to force the proportions.\n\nTOP HALF — THE REAL SHOT\n\nPreserve the original structure faithfully: same architecture, proportions, perspective, distinctive details, surrounding elements, natural light and shadow, and original color mood.\n\nKeep recognizable features such as:\n\n* façade\n* windows and arches\n* towers or domes\n* doors and structural details\n* roofline\n* surrounding landscape or street elements\n\nAdd only a subtle high-end color grade and the faintest film grain. Do not redesign or reinterpret the architecture.\n\nBOTTOM HALF — THE PRINTED RECONSTRUCTION\n\nRebuild the same structure as an experimental printed architectural collage using:\n\ntorn photographic fragments + fixed-width ASCII character fields + photocopy halftone dots + architectural linework.\n\nThe structure must remain immediately recognizable.\n\n* Torn-edge photographic fragments preserve the most important architectural details.\n* Brick, stone, glass, metal, shadows, windows, and surrounding textures gradually dissolve outward into ASCII characters, black halftone dots, fragmented print grain, and fine architectural drafting lines.\n* Use thin technical construction lines to subtly trace the structure’s geometry.\n* Let selected areas break apart into paper fibers and halftone fragments, creating the feeling that the building is emerging from an archival print.\n* Keep the main silhouette strong and readable.\n* Texture: rough white paper-fiber edges, subtle photocopy imperfections, slight print misregistration, faded ink, old-paper stains, a few restrained crop marks, and one small red calibration bar.\n* Color: warm gray old-paper background + black ink + the structure’s original muted colors + a single restrained red accent.\n* Never fully desaturate the structure.\n\nThe structure should occupy roughly 60–88% of the frame width, scaled according to what reads best for the architecture.\n\nLeave 22–38% of the paper visibly untouched and empty, creating generous negative space so the poster feels like an archival architectural specimen rather than a packed digital screen.\n\nTYPOGRAPHY\n\nAdd one clean, readable fixed-width architectural title based on the structure:\n\n[STRUCTURE NAME]\n\nBelow it include:\n\n[CITY, COUNTRY]\nREC. STUDY 01\n\nAdd one short observational caption related to the architecture, such as:\n\n“A monumental study in geometry, time, and place.”\n\nTypography should feel like an old architectural archive mixed with an underground experimental design journal.\n\nA few loose ASCII glyphs may trace the outer silhouette or architectural edges as texture only — never use ASCII to invent windows, doors, structural details, or technical specifications.\n\nMOOD\n\nEarly digital systems × analog photocopy × architectural archive × underground zine × modern travel editorial.\n\nThe structure should feel like it is surfacing from an old printed document — half photograph, half architectural drawing, half experimental print.\n\nSophisticated, minimal, tactile, intellectual, slightly mysterious, and highly collectible.\n\nAVOID\n\nSolid black terminal backgrounds, dense walls of code, cyberpunk neon, excessive ASCII, distorted architecture, impossible geometry, invented architectural details, fake technical specifications, random symbols with no meaning, garbled text, excessive colors, brand logos, QR codes, watermarks, author credits, or tourist-poster clichés.\n\nPriority: Preserve the structure’s identity and architectural accuracy first. The experimental halftone/ASCII treatment should enhance the architecture, not hide it.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "ai-boost/awesome-image-video-prompts",
+      "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
+      "license": "GPL-3.0",
+      "imported_at": "2026-10-28T09:50:18.241405+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "df07c42627efd23ea8e4fd8b94e92b7019e4aa12cd0632d38c47dc3e36e9d893",
+      "prompt_ar": "قم بتحويل صورة الهيكل هذه إلى ملصق مجمّع واحد للسفر المعماري ذو الألوان النصفية. قم بإخراج ملصق واحد لكل صورة تم تحميلها - لا تقم مطلقًا بدمج هياكل أو صور متعددة في إطار واحد.\n\nالتنسيق\n\n3:4 قماش عمودي. مقسم إلى منطقتين متساويتين تقريبًا - صورة معمارية حقيقية في الأعلى، وإعادة بناء مطبوعة أدناه - مقسمة بخط أفقي واضح وواضح.\n\nلا تقم بتمديد الهيكل أو تشويهه أو إمالته أو تغيير موضعه بشكل غير طبيعي لفرض النسب.\n\nالنصف العلوي – اللقطة الحقيقية\n\nالحفاظ على الهيكل الأصلي بأمانة: نفس البنية والنسب والمنظور والتفاصيل المميزة والعناصر المحيطة والضوء الطبيعي والظل ومزاج اللون الأصلي.\n\nاحتفظ بالميزات المعروفة مثل:\n\n* الواجهة\n* النوافذ والأقواس\n* الأبراج أو القباب\n* الأبواب والتفاصيل الهيكلية\n* خط السقف\n* المناظر الطبيعية المحيطة أو عناصر الشارع\n\nأضف فقط درجة ألوان رفيعة المستوى وأضعف حبيبات الفيلم. لا تقم بإعادة تصميم أو إعادة تفسير الهندسة المعمارية.\n\nالنصف السفلي – إعادة البناء المطبوعة\n\nأعد بناء نفس هيكل المجموعة المعمارية المطبوعة التجريبية باستخدام:\n\nأجزاء فوتوغرافية ممزقة + حقول أحرف ASCII ذات عرض ثابت + نسخ نقاط الألوان النصفية + خطوط معمارية.\n\nيجب أن يظل الهيكل معروفًا على الفور.\n\n* تحافظ الأجزاء الفوتوغرافية ذات الحواف الممزقة على أهم التفاصيل المعمارية.\n* يذوب الطوب والحجر والزجاج والمعادن والظلال والنوافذ والأنسجة المحيطة تدريجيًا إلى الخارج إلى أحرف ASCII ونقاط الألوان النصفية السوداء وحبيبات الطباعة المجزأة وخطوط الصياغة المعمارية الدقيقة.\n* استخدم خطوط بناء تقنية رفيعة لتتبع هندسة الهيكل بمهارة.\n* دع المناطق المحددة تنقسم إلى ألياف ورقية وأجزاء نصفية، مما يخلق شعورًا بأن المبنى يخرج من طباعة أرشيفية.\n* حافظ على الصورة الظلية الرئيسية قوية وسهلة القراءة.\n* الملمس: حواف من ألياف الورق البيضاء الخشنة، وعيوب طفيفة في النسخ، وخطأ بسيط في تسجيل الطباعة، وحبر باهت، وبقع ورق قديمة، وبعض علامات الاقتصاص المقيدة، وشريط معايرة أحمر صغير.\n* اللون: خلفية ورقية قديمة رمادية دافئة + حبر أسود + الألوان الأصلية الصامتة للهيكل + لمسة حمراء واحدة مقيدة.\n* لا تقم أبدًا بإلغاء تشبع الهيكل بالكامل.\n\nيجب أن يشغل الهيكل حوالي 60-88% من عرض الإطار، ويتم قياسه وفقًا لما هو أفضل للبنية.\n\nاترك ما بين 22 إلى 38% من الورق دون أن تمسه وفارغًا بشكل واضح، مما يخلق مساحة سلبية واسعة بحيث يبدو الملصق وكأنه عينة معمارية أرشيفية وليس شاشة رقمية معبأة.\n\nالطباعة\n\nأضف عنوانًا معماريًا نظيفًا وثابت العرض وقابل للقراءة استنادًا إلى البنية:\n\n[اسم الهيكل]\n\nأدناه تشمل:\n\n[المدينة، البلد]\nREC. دراسة 01\n\nأضف تعليقًا توضيحيًا قصيرًا يتعلق بالهندسة المعمارية، مثل:\n\n\"دراسة ضخمة في الهندسة والزمان والمكان.\"\n\nيجب أن تبدو الطباعة وكأنها أرشيف معماري قديم ممزوج بمجلة تصميم تجريبية تحت الأرض.\n\nقد ترسم بعض حروف ASCII السائبة الصورة الظلية الخارجية أو الحواف المعمارية كنسيج فقط - لا تستخدم ASCII مطلقًا لاختراع النوافذ أو الأبواب أو التفاصيل الهيكلية أو المواصفات الفنية.\n\nالمزاج\n\nالأنظمة الرقمية المبكرة × النسخ التناظري × الأرشيف المعماري × المجلة تحت الأرض × افتتاحية السفر الحديثة.\n\nيجب أن يبدو الهيكل وكأنه يطفو على السطح من وثيقة مطبوعة قديمة - نصفها صورة فوتوغرافية، ونصفها رسم معماري، ونصفها مطبوعة تجريبية.\n\nمتطورة، وبسيطة، وملموسة، وفكرية، وغامضة بعض الشيء، وقابلة للتحصيل للغاية.\n\nتجنب\n\nخلفيات نهائية سوداء صلبة، جدران كثيفة من التعليمات البرمجية، نيون Cyberpunk، ASCII مفرط، هندسة مشوهة، هندسة مستحيلة، تفاصيل معمارية مخترعة، مواصفات فنية مزيفة، رموز عشوائية لا معنى لها، نص مشوه، ألوان مفرطة، شعارات تجارية، رموز QR، علامات مائية، اعتمادات المؤلف، أو كليشيهات الملصقات السياحية.\n\nالأولوية: الحفاظ على هوية الهيكل والدقة المعمارية أولا. يجب أن تعمل المعالجة التجريبية للألوان النصفية/ASCII على تحسين البنية، وليس إخفائها.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "ai-boost/awesome-image-video-prompts readme prompt prompt-engineering turn this structure photo into a single high-end halftone architectural travel-collage poster. output one poster per uploaded photo — never merge multiple structures or photos into one frame. format 3:4 vertical canvas. split into two roughly equal zones — real architectural photo on top, printed reconstruction below — divided by one clean, sharp horizontal line. do not stretch, warp, tilt, or unnaturally reposition the structure to force the proportions. top half — the real shot preserve the original structure faithfully: same architecture, proportions, perspective, distinctive details, surrounding elements, natural light and shadow, and original color mood. keep recognizable features such as: * façade * windows and arches * towers or domes * doors and structural details * roofline * surrounding landscape or street elements add only a subtle high-end color grade and the faintest film grain. do not redesign or reinterpret the architecture. bottom half — the printed reconstruction rebuild the same structure as an experimental printed architectural collage using: torn photographic fragments + fixed-width ascii character fields + photocopy halftone dots + architectural linework. the structure must remain immediately recognizable. * torn-edge photographic fragments preserve the most important architectural details. * brick, stone, glass, metal, shadows, windows, and surrounding textures gradually dissolve outward into ascii characters, black halftone dots, fragmented print grain, and fine architectural drafting lines. * use thin technical construction lines to subtly trace the structure’s geometry. * let selected areas break apart into paper fibers and halftone fragments, creating the feeling that the building is emerging from an archival print. * keep the main silhouette strong and readable. * texture: rough white paper-fiber edges, subtle photocopy imperfections, slight print misregistration, faded ink, old-paper stains, a few restrained crop marks, and one small red calibration bar. * color: warm gray old-paper background + black ink + the structure’s original muted colors + a single restrained red accent. * never fully desaturate the structure. the structure should occupy roughly 60–88% of the frame width, scaled according to what reads best for the architecture. leave 22–38% of the paper visibly untouched and empty, creating generous negative space so the poster feels like an archival architectural specimen rather than a packed digital screen. typography add one clean, readable fixed-width architectural title based on the structure: [structure name] below it include: [city, country] rec. study 01 add one short observational caption related to the architecture, such as: “a monumental study in geometry, time, and place.” typography should feel like an old architectural archive mixed with an underground experimental design journal. a few loose ascii glyphs may trace the outer silhouette or architectural edges as texture only — never use ascii to invent windows, doors, structural details, or technical specifications. mood early digital systems × analog photocopy × architectural archive × underground zine × modern travel editorial. the structure should feel like it is surfacing from an old printed document — half photograph, half architectural drawing, half experimental print. sophisticated, minimal, tactile, intellectual, slightly mysterious, and highly collectible. avoid solid black terminal backgrounds, dense walls of code, cyberpunk neon, excessive ascii, distorted architecture, impossible geometry, invented architectural details, fake technical specifications, random symbols with no meaning, garbled text, excessive colors, brand logos, qr codes, watermarks, author credits, or tourist-poster clichés. priority: preserve the structure’s identity and architectural accuracy first. the experimental halftone/ascii treatment should enhance the architecture, not hide it. github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
+          "source_repository": "ai-boost/awesome-image-video-prompts",
+          "license": "GPL-3.0"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093823",
+      "title": "Civitai prompt 147093823",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A highly detailed, hyper-realistic 3D render of a luxurious horizontal New Year 2027 greeting card. Deep black background with brilliant gold elements. In the center, huge 3D numbers \"2027\" with thick gold borders, the inside of the numbers is entirely encrusted with sparkling diamond dust and crystals. Above the numbers, elegant gold calligraphy text \"Happy New Year\" with a small intricate gold crown above the word \"New\". Below the numbers, a curved gold silk ribbon banner with the text \"New Beginnings * New Hope * New Dreams\".\nLeft side: Black glossy balloons, transparent balloons filled with gold confetti, a large gold foil star balloon. Several gift boxes: one matte black box with a large gold satin bow, others wrapped in textured gold paper with black ribbons. A large gold textured ornament at the bottom left.\nRight side: A classic dark champagne bottle with black and gold foil, two tall flute glasses filled with sparkling wine with visible bubbles. Black and gold glossy balloons, a gold foil star balloon.\nTop and Background: Exploding golden fireworks, stardust, floating gold stars of various sizes, bokeh effect with blurred golden lights.\nBottom: Thin white minimalist candles, scattered gold confetti, curled gold serpentine ribbons. The entire scene is set on a glossy reflective black surface, showing subtle reflections of the items. High contrast, glowing golden highlights, cinematic lighting, ultra-detailed textures, glamorous luxury style, Unreal Engine 5 render, 8k resolution, --ar 16:9",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093823",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d8b914b-3211-4334-85d2-d2723298ba46/original=true/3d8b914b-3211-4334-85d2-d2723298ba46.jpeg",
+      "model_version_ids": [
+        3072332,
+        3116962
+      ],
+      "width": 2048,
+      "height": 1152,
+      "seed": 585007880,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241755+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2344766adcdd2fcd01dbf41bbad6114e297878cc73ccb063ba5a462c4d11c2ea",
+      "prompt_ar": "عرض ثلاثي الأبعاد مفصل للغاية وواقعي للغاية لبطاقة تهنئة أفقية فاخرة للعام الجديد 2027. خلفية سوداء عميقة مع عناصر ذهبية رائعة. في المنتصف، أرقام ضخمة ثلاثية الأبعاد \"2027\" ذات حدود ذهبية سميكة، الجزء الداخلي من الأرقام مرصع بالكامل بغبار وبلورات الماس المتلألئة. وفوق الأرقام، يوجد نص بالخط الذهبي الأنيق \"كل عام وأنتم بخير\" مع تاج ذهبي صغير معقد فوق كلمة \"جديد\". يوجد أسفل الأرقام لافتة شريطية من الحرير الذهبي المنحنية مع النص \"بدايات جديدة * أمل جديد * أحلام جديدة\".\nالجانب الأيسر: بالونات سوداء لامعة، بالونات شفافة مملوءة بقصاصات ذهبية، بالون نجمة كبيرة من رقائق الذهب. العديد من صناديق الهدايا: صندوق أسود غير لامع مع قوس كبير من الساتان الذهبي، وصناديق أخرى ملفوفة بورق ذهبي مزخرف بشرائط سوداء. زخرفة ذهبية كبيرة مزخرفة في أسفل اليسار.\nالجانب الأيمن: زجاجة شمبانيا كلاسيكية داكنة مع رقائق سوداء وذهبية، وكؤوس فلوت طويلة مملوءة بالنبيذ الفوار مع فقاعات مرئية. بالونات سوداء وذهبية لامعة، بالون على شكل نجمة من رقائق الذهب.\nالأعلى والخلفية: ألعاب نارية ذهبية متفجرة، غبار النجوم، نجوم ذهبية عائمة بأحجام مختلفة، تأثير بوكيه مع أضواء ذهبية غير واضحة.\nالجزء السفلي: شموع بيضاء رفيعة وبسيطة، وقصاصات ذهبية متناثرة، وأشرطة ذهبية ملتوية. تم وضع المشهد بأكمله على سطح أسود عاكس لامع، مما يُظهر انعكاسات دقيقة للعناصر. تباين عالٍ، وإضاءات ذهبية متوهجة، وإضاءة سينمائية، ومواد مفصلة للغاية، وأسلوب فاخر ساحر، وعرض Unreal Engine 5، ودقة 8K، --ar 16:9",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 147093823 advertising ai-image-prompts a highly detailed, hyper-realistic 3d render of a luxurious horizontal new year 2027 greeting card. deep black background with brilliant gold elements. in the center, huge 3d numbers \"2027\" with thick gold borders, the inside of the numbers is entirely encrusted with sparkling diamond dust and crystals. above the numbers, elegant gold calligraphy text \"happy new year\" with a small intricate gold crown above the word \"new\". below the numbers, a curved gold silk ribbon banner with the text \"new beginnings * new hope * new dreams\". left side: black glossy balloons, transparent balloons filled with gold confetti, a large gold foil star balloon. several gift boxes: one matte black box with a large gold satin bow, others wrapped in textured gold paper with black ribbons. a large gold textured ornament at the bottom left. right side: a classic dark champagne bottle with black and gold foil, two tall flute glasses filled with sparkling wine with visible bubbles. black and gold glossy balloons, a gold foil star balloon. top and background: exploding golden fireworks, stardust, floating gold stars of various sizes, bokeh effect with blurred golden lights. bottom: thin white minimalist candles, scattered gold confetti, curled gold serpentine ribbons. the entire scene is set on a glossy reflective black surface, showing subtle reflections of the items. high contrast, glowing golden highlights, cinematic lighting, ultra-detailed textures, glamorous luxury style, unreal engine 5 render, 8k resolution, --ar 16:9 civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093823",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d8b914b-3211-4334-85d2-d2723298ba46/original=true/3d8b914b-3211-4334-85d2-d2723298ba46.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090686",
+      "title": "Civitai prompt 147090686",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nMacro Angle â€“ Ultra close, magnifying tiny details, The Gentle Lean: Lean the lower back against a wall, feet 6 inches out., a retro diner booth.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090686",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc8d3518-9e79-42de-9bdb-31ec89392f94/original=true/cc8d3518-9e79-42de-9bdb-31ec89392f94.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 454111362457122,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241777+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "40483d9e431cf2227b042e6199eebd772aea80ae50dd3dc964572a819dcc56ff",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية ماكرو - قريبة جدًا، تفاصيل صغيرة مكبرة، The Gentle Lean: استند إلى أسفل الظهر على الحائط، وقدم 6 بوصات للخارج، كشك عشاء قديم.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090686 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. macro angle â€“ ultra close, magnifying tiny details, the gentle lean: lean the lower back against a wall, feet 6 inches out., a retro diner booth. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090686",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc8d3518-9e79-42de-9bdb-31ec89392f94/original=true/cc8d3518-9e79-42de-9bdb-31ec89392f94.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090677",
+      "title": "Civitai prompt 147090677",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nTilted Up-Close (Hero Shot) â€“ Low angle close-up, makes subject bold or iconic., The Thinker: Elbow on knee, chin resting lightly on the hand., a rooftop overlooking the city.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090677",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbc14927-21c9-4d3a-9332-f97514f44168/original=true/dbc14927-21c9-4d3a-9332-f97514f44168.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 478857252109067,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241792+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "86a29bda4580f923c772fed21f92ef2975d9a8c96fe05932a8e0d72d084f5f10",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nلقطة قريبة مائلة (لقطة بطل) - لقطة مقربة منخفضة الزاوية، تجعل الهدف جريئًا أو أيقونيًا. المفكر: مرفق على الركبة، والذقن يستقر بخفة على اليد.، سطح يطل على المدينة.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090677 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. tilted up-close (hero shot) â€“ low angle close-up, makes subject bold or iconic., the thinker: elbow on knee, chin resting lightly on the hand., a rooftop overlooking the city. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090677",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbc14927-21c9-4d3a-9332-f97514f44168/original=true/dbc14927-21c9-4d3a-9332-f97514f44168.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090675",
+      "title": "Civitai prompt 147090675",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nHigh Wide Establishing Angle â€“ Sets the scene/environment with subject small., The Ear Tone: Tucking hair behind the ear., a university campus quad.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090675",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d028b17d-3280-4fcb-b845-c11ac933296e/original=true/d028b17d-3280-4fcb-b845-c11ac933296e.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 1115837129577235,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241805+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "befc9bbe168200819ca6cf876891aef2630c5cee208f431a25e8839f79527dd5",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية تأسيس عالية وواسعة - تضبط المشهد/البيئة بموضوع صغير. نغمة الأذن: دس الشعر خلف الأذن.، حرم جامعي رباعي.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090675 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. high wide establishing angle â€“ sets the scene/environment with subject small., the ear tone: tucking hair behind the ear., a university campus quad. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090675",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d028b17d-3280-4fcb-b845-c11ac933296e/original=true/d028b17d-3280-4fcb-b845-c11ac933296e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090674",
+      "title": "Civitai prompt 147090674",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nMacro Angle â€“ Ultra close, magnifying tiny details, The Classic \"S\" Curve: Pop one hip out and drop the opposite shoulder.,  neon-lit Tokyo street at night.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090674",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc7c1374-b17d-4e13-beec-41ec2932925d/original=true/fc7c1374-b17d-4e13-beec-41ec2932925d.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 749241585019294,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241817+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6a3e98d8cb26c54c5efa745424d82619107cd17856ced84826525eda5c924ba1",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية ماكرو - قريبة جدًا، تفاصيل صغيرة مكبرة، المنحنى الكلاسيكي على شكل \"S\": ارفع وركًا للخارج وأسقط الكتف المقابل. شارع طوكيو مضاء بالنيون في الليل.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090674 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. macro angle â€“ ultra close, magnifying tiny details, the classic \"s\" curve: pop one hip out and drop the opposite shoulder., neon-lit tokyo street at night. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090674",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc7c1374-b17d-4e13-beec-41ec2932925d/original=true/fc7c1374-b17d-4e13-beec-41ec2932925d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090673",
+      "title": "Civitai prompt 147090673",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nHidden Angle â€“ Through objects for peeking effect., The \"Drowned\" Look: Lying flat, hair spread out like a halo., a flower market.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090673",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/564d9ab9-f3d2-4c7c-adf2-06d3708b196b/original=true/564d9ab9-f3d2-4c7c-adf2-06d3708b196b.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 998566169560135,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241830+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "101a128faef5d9efcd63fc8c941ba8b8407fdf9ff4690697bfeda2dc394a03fe",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nالزاوية المخفية - من خلال الأشياء لإلقاء نظرة خاطفة. النظرة \"الغارقة\": الاستلقاء بشكل مسطح والشعر منتشر مثل الهالة. سوق الزهور.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090673 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. hidden angle â€“ through objects for peeking effect., the \"drowned\" look: lying flat, hair spread out like a halo., a flower market. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090673",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/564d9ab9-f3d2-4c7c-adf2-06d3708b196b/original=true/564d9ab9-f3d2-4c7c-adf2-06d3708b196b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090668",
+      "title": "Civitai prompt 147090668",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nMacro Angle â€“ Ultra close, magnifying tiny details, The Arch: Lean back slightly from the waist for profile shots., a retro diner booth.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090668",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8bef82a-3d55-41c4-a8c8-779b7b3b2cce/original=true/c8bef82a-3d55-41c4-a8c8-779b7b3b2cce.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 194559760760670,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241843+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f16be3a8d257df7c9f8e3e16cc642855f3ca40f42986c42927309d0a22b94de4",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية ماكرو - قريبة جدًا، تفاصيل صغيرة مكبرة، القوس: انحنِ قليلًا من الخصر لالتقاط لقطات جانبية، كشك عشاء قديم.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090668 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. macro angle â€“ ultra close, magnifying tiny details, the arch: lean back slightly from the waist for profile shots., a retro diner booth. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090668",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8bef82a-3d55-41c4-a8c8-779b7b3b2cce/original=true/c8bef82a-3d55-41c4-a8c8-779b7b3b2cce.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090667",
+      "title": "Civitai prompt 147090667",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nTracking Low Angle â€“ Moves at ground level with subject motion., The Chin Rest: Chin resting on the back of a hand., a downtown rooftop bar.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090667",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7214dc7-2ffe-4d3d-9982-0efd6b84dbd9/original=true/c7214dc7-2ffe-4d3d-9982-0efd6b84dbd9.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 926356036534598,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241855+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d17784f54285abe65e9038fdd455c127d1321400b276f88570052b80034bd2cc",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nتتبع الزاوية المنخفضة - يتحرك على مستوى الأرض مع حركة الهدف. مسند الذقن: يستريح الذقن على الجزء الخلفي من اليد.، بار على السطح في وسط المدينة.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090667 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. tracking low angle â€“ moves at ground level with subject motion., the chin rest: chin resting on the back of a hand., a downtown rooftop bar. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090667",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7214dc7-2ffe-4d3d-9982-0efd6b84dbd9/original=true/c7214dc7-2ffe-4d3d-9982-0efd6b84dbd9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090666",
+      "title": "Civitai prompt 147090666",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nHidden Angle â€“ Through objects for peeking effect., The Tiptoe: Standing on tiptoes to add height and tension., a underground music venue.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090666",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef2f2dc6-d185-47c1-aef2-5ae4cdd3da50/original=true/ef2f2dc6-d185-47c1-aef2-5ae4cdd3da50.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 444627873598191,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241866+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9a3776c161a6a9d3ed4f3bb5279548a415780dd3c3a1c1682c790be84cacdb23",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nالزاوية المخفية - من خلال الأشياء لإلقاء نظرة خاطفة.، رؤوس أصابع القدم: الوقوف على أطراف أصابع القدم لإضافة الارتفاع والتوتر.، مكان للموسيقى تحت الأرض.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090666 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. hidden angle â€“ through objects for peeking effect., the tiptoe: standing on tiptoes to add height and tension., a underground music venue. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090666",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef2f2dc6-d185-47c1-aef2-5ae4cdd3da50/original=true/ef2f2dc6-d185-47c1-aef2-5ae4cdd3da50.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090665",
+      "title": "Civitai prompt 147090665",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nMacro Angle â€“ Ultra close, magnifying tiny details, The Blindfold: Using a silk ribbon or hand to lightly cover the eyes., a graffiti-covered alleyway.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090665",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bea987f3-2786-4967-ba4d-ef4ae7a0cd41/original=true/bea987f3-2786-4967-ba4d-ef4ae7a0cd41.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 26627180612424,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241878+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3e73f9a56c563ce40381f71312533e29b9de2b002b96cf93325b9dcc3ec992c4",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية ماكرو – قريبة للغاية، وتكبير التفاصيل الصغيرة، الغمامة: استخدام شريط حريري أو يد لتغطية العينين بخفة.، زقاق مغطى بالكتابات على الجدران.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090665 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. macro angle â€“ ultra close, magnifying tiny details, the blindfold: using a silk ribbon or hand to lightly cover the eyes., a graffiti-covered alleyway. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090665",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bea987f3-2786-4967-ba4d-ef4ae7a0cd41/original=true/bea987f3-2786-4967-ba4d-ef4ae7a0cd41.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090662",
+      "title": "Civitai prompt 147090662",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nHidden Angle â€“ Through objects for peeking effect., The Extreme Arch: Hand on floor behind you, chest to sky., a flower market.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090662",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b71578d-a69c-4215-9aac-77cb05d7fe12/original=true/1b71578d-a69c-4215-9aac-77cb05d7fe12.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 160929947995076,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241889+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "198b30282aa9234e867f7cbd79abcaa21414b5e1c8eb891dd6896f6e7b5679bd",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nالزاوية المخفية - من خلال الأشياء لإلقاء نظرة خاطفة. القوس الأقصى: اليد على الأرض خلفك، والصدر إلى السماء، سوق الزهور.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090662 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. hidden angle â€“ through objects for peeking effect., the extreme arch: hand on floor behind you, chest to sky., a flower market. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090662",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b71578d-a69c-4215-9aac-77cb05d7fe12/original=true/1b71578d-a69c-4215-9aac-77cb05d7fe12.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090659",
+      "title": "Civitai prompt 147090659",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nTilted Up-Close (Hero Shot) â€“ Low angle close-up, makes subject bold or iconic., The Lip Bite: A classic, subtle expression of focus or playfulness., a modern art museum hallway.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090659",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9e58c6a-2601-4f66-a29f-9a10d215067b/original=true/a9e58c6a-2601-4f66-a29f-9a10d215067b.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 1059757343698596,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241902+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b1f6a9e8fcf12c3f4afd2e1860b4a3cc50a40d6d1994141c676615eae65de275",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nTilted Up-Close (Hero Shot) - لقطة مقربة منخفضة الزاوية، تجعل الهدف جريئًا أو أيقونيًا. The Lip Bite: تعبير كلاسيكي ودقيق عن التركيز أو المرح.، مدخل متحف فني حديث.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090659 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. tilted up-close (hero shot) â€“ low angle close-up, makes subject bold or iconic., the lip bite: a classic, subtle expression of focus or playfulness., a modern art museum hallway. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090659",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9e58c6a-2601-4f66-a29f-9a10d215067b/original=true/a9e58c6a-2601-4f66-a29f-9a10d215067b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147090657",
+      "title": "Civitai prompt 147090657",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic photo A full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.\nMacro Angle â€“ Ultra close, magnifying tiny details, Shoulder Forward: Square hips away but turn the lead shoulder to the lens., a retro diner booth.\nDo the prompt for: \nTexture/material specificity\nNamed lighting\nCamera language\nColor via mood words\nSpecific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed\njk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147090657",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6738bfeb-c0e8-402e-804b-a7f6d8423933/original=true/6738bfeb-c0e8-402e-804b-a7f6d8423933.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboInt8",
+      "model_version_ids": [
+        3091481,
+        3129390,
+        3434200
+      ],
+      "width": 1432,
+      "height": 1840,
+      "seed": 1093624918859827,
+      "negative_prompt": "unknown",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241913+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "69d59e848372d2c83348be725cef66f502fa21259fe081031d9b9acdd6fa37a5",
+      "prompt_ar": "صورة سينمائية لقطة لكامل الجسم لامرأة شابة سمراء تنظر إلى المشاهد، ترتدي سترة رمادية ذات حواف داكنة، وقميصًا بياقة بيضاء، وقوسًا منقوشًا باللونين الأحمر والبحري، وتنورة ذات ثنيات متطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.\nزاوية ماكرو - قريبة للغاية، تفاصيل صغيرة مكبرة، الكتف للأمام: الوركين المربعين بعيدًا ولكن قم بإدارة الكتف الرئيسي نحو العدسة.\nقم بالمطالبة بـ: \nخصوصية الملمس / المادة\nالإضاءة المسماة\nلغة الكاميرا\nاللون عبر الكلمات المزاجية\nمرساة جمالية محددة: الواقعية ووضوح الهدف وخلفية غير واضحة. . صورة فوتوغرافية مقاس 35 مم، فيلم، بوكيه، احترافي، 4K، مفصلة للغاية\njk_uni01، سترة رمادية مع أنابيب داكنة، وقميص أبيض بياقة، وقوس منقوش باللونين الأحمر والبحري، وتنورة مطوية مطابقة، وجوارب داكنة تصل إلى الركبة، وأحذية لوفر بنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147090657 image ai-image-prompts cinematic photo a full-body shot of a young brunette woman looking at the viewer, wearing a gray blazer with dark piping, a white-collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. macro angle â€“ ultra close, magnifying tiny details, shoulder forward: square hips away but turn the lead shoulder to the lens., a retro diner booth. do the prompt for: texture/material specificity named lighting camera language color via mood words specific aesthetic anchor: realism, clear subject sharpness, blurred background. . 35mm photograph, film, bokeh, professional, 4k, highly detailed jk_uni01,, gray blazer with dark piping, a white collared shirt, a red-and-navy plaid bow, and a matching pleated skirt, dark knee-high socks, and brown loafers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147090657",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6738bfeb-c0e8-402e-804b-a7f6d8423933/original=true/6738bfeb-c0e8-402e-804b-a7f6d8423933.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093809",
+      "title": "Civitai prompt 147093809",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, newest, absurdres, ultra detailed, high resolution, premium whimsical cinematic psychedelic dark fantasy illustration, PsychadelicChaos, psychadelic, the Grim Reaper, recognizable hooded silhouette, solo main subject, full body visible, entire flowing robe transformed into intricate luminous psychedelic spirals, dark violet fabric dissolving into electric magenta cyan turquoise orange and lime green energy ribbons, spectacular swirling organic patterns embedded throughout the hood and cloak, subtle artistic distortion of the silhouette, the Grim Reaper standing calmly on a glossy black floor and holding one absurdly small vacuum cleaner, carefully pointing the vacuum nozzle toward an enormous spiraling psychedelic tornado directly in front of it, immense vortex of luminous rainbow ribbons twisting toward the tiny vacuum nozzle, completely serious professional cleaning posture, enormous scythe resting beside the Reaper, one bright yellow plastic rubber duck cleaning assistant holding a tiny dustpan, surreal gothic hallway melting into impossible flowing geometry, radiant kaleidoscopic arches, brilliant energy particles, dramatic intense lighting, extraordinary contrast between the dark hooded figure and the colorful psychedelic tornado, absurd supernatural cosmic housekeeping comedy, readable visual staging, centered cinematic composition, sharp focus",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093809",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3e7de7-f2ea-47a1-b56f-10d46f15c402/original=true/ce3e7de7-f2ea-47a1-b56f-10d46f15c402.jpeg",
+      "model_version_ids": [
+        135867,
+        672020,
+        2858836,
+        3017793
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1074806878,
+      "negative_prompt": "plain, simple, minimalism, worst quality, low quality, blurry, ordinary black fabric robe, dull colors, weak psychedelic transformation, missing glowing spirals, missing colorful vortex, simple fog, generic cosmic background, vacuum cleaner missing, vacuum nozzle hidden, tornado obscuring the Reaper, rubber duck missing, scythe missing, duplicate character, extra limbs, excessive visual chaos, unreadable silhouette, watermark, signature, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241927+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "97bb50dee8866e503a3231df19d078e2c7023d8b106166dcbe67477bc0b6d757",
+      "prompt_ar": "تحفة فنية، أفضل جودة، جودة مذهلة، جمالية للغاية، الأحدث، سخافات، مفصلة للغاية، دقة عالية، رسم توضيحي خيالي غامق سينمائي غريب الأطوار، فوضى مخدرة، مخدر، حاصد الأرواح، صورة ظلية مقنعة يمكن التعرف عليها، موضوع رئيسي منفرد، كامل الجسم مرئي، رداء متدفق بالكامل يتحول إلى حلزونات مخدرة مضيئة ومعقدة، قماش بنفسجي داكن يذوب في أرجواني سماوي كهربائي شرائط الطاقة باللون البرتقالي الفيروزي والأخضر الليموني، وأنماط عضوية دوامية مذهلة مدمجة في جميع أنحاء غطاء الرأس والعباءة، وتشويه فني دقيق للصورة الظلية، وقابض الأرواح يقف بهدوء على أرضية سوداء لامعة ويحمل مكنسة كهربائية صغيرة بشكل سخيف، ويوجه فوهة المكنسة بعناية نحو إعصار متصاعد ضخم أمامه مباشرة، ودوامة هائلة من شرائط قوس قزح المضيئة تلتف نحو فوهة المكنسة الكهربائية الصغيرة، ووضعية تنظيف احترافية جادة تمامًا، ومنجل ضخم يستريح بجانب حاصد الأرواح، مساعد تنظيف بطة مطاطية بلاستيكية صفراء زاهية يحمل مجرفة صغيرة، مدخل سريالي قوطي يذوب في هندسة متدفقة مستحيلة، أقواس متغيرة الألوان مشعة، جزيئات طاقة رائعة، إضاءة مكثفة مثيرة، تباين غير عادي بين الشكل المغطى الداكن والإعصار المخدر الملون، كوميديا تدبير منزلي كونية خارقة للطبيعة سخيفة، عرض مسرحي قابل للقراءة، تكوين سينمائي مركزي، تركيز حاد",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093809 image ai-image-prompts masterpiece, best quality, amazing quality, very aesthetic, newest, absurdres, ultra detailed, high resolution, premium whimsical cinematic psychedelic dark fantasy illustration, psychadelicchaos, psychadelic, the grim reaper, recognizable hooded silhouette, solo main subject, full body visible, entire flowing robe transformed into intricate luminous psychedelic spirals, dark violet fabric dissolving into electric magenta cyan turquoise orange and lime green energy ribbons, spectacular swirling organic patterns embedded throughout the hood and cloak, subtle artistic distortion of the silhouette, the grim reaper standing calmly on a glossy black floor and holding one absurdly small vacuum cleaner, carefully pointing the vacuum nozzle toward an enormous spiraling psychedelic tornado directly in front of it, immense vortex of luminous rainbow ribbons twisting toward the tiny vacuum nozzle, completely serious professional cleaning posture, enormous scythe resting beside the reaper, one bright yellow plastic rubber duck cleaning assistant holding a tiny dustpan, surreal gothic hallway melting into impossible flowing geometry, radiant kaleidoscopic arches, brilliant energy particles, dramatic intense lighting, extraordinary contrast between the dark hooded figure and the colorful psychedelic tornado, absurd supernatural cosmic housekeeping comedy, readable visual staging, centered cinematic composition, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093809",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce3e7de7-f2ea-47a1-b56f-10d46f15c402/original=true/ce3e7de7-f2ea-47a1-b56f-10d46f15c402.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093742",
+      "title": "Civitai prompt 147093742",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(cinematic semi-realistic aesthetic, soft natural lighting), (sharp focus, cozy atmosphere). A heartwarming, deeply wholesome scene in a sunlit, cozy workshop filled with soft tools and warm wooden shelves. A gorgeous, sweet catgirl with soft, fluffy feline ears and a gently swaying tail is sitting on a wooden stool, looking down with a tender, surprised smile. \nShe has an elegant oval face, a small refined nose, thick natural lips parted in a soft, delighted expression, and defined eyebrows, with delicate light freckles dusting her glowing cheeks. Her brown hair is styled in a single, loose braid resting over her shoulder. She wears an oversized, soft pastel knit sweater that tastefully hints at her fit, curvy figure with a dramatically narrow waist and round hips. \nRight in front of her, a tiny, adorable robot with a rounded, vintage design is standing on small wheeled feet or short legs, carefully holding up a single, perfect red rose with both mechanical hands. The robot has large, expressive glowing eyes (soft blue or amber LED), a slightly scratched but well-loved metallic body, and small antennae that twitch with innocent enthusiasm. \nThe scene is bathed in warm, volumetric afternoon sunlight streaming through a nearby window, creating beautiful, soft light rays and illuminating floating dust motes. The lighting masterfully highlights the ultra-detailed, fluffy texture of the catgirl's ears, the soft weave of the sweater, the smooth, slightly weathered metal of the robot, and the velvety, vibrant red petals of the rose. The mood is deeply cozy, innocent, and irresistibly cute, capturing a pure moment of unexpected tenderness between organic and mechanical life.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093742",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f0ea0bf-a2c8-4fbe-9ac8-07849123f21b/original=true/0f0ea0bf-a2c8-4fbe-9ac8-07849123f21b.jpeg",
+      "model": "Pawhibited - Anima 2.9b _v1.0",
+      "model_version_ids": [
+        3429588
+      ],
+      "width": 808,
+      "height": 1216,
+      "seed": 380188946760904,
+      "negative_prompt": "low quality, worst quality, deformed, bad anatomy, missing fingers, extra limbs, flat lighting, daytime, bright sun",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241945+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a9bc17effae7e4204591267f04aaae14ebb3a1137c83a582358df4d54cdf941a",
+      "prompt_ar": "(جمالية سينمائية شبه واقعية، إضاءة طبيعية ناعمة)، (تركيز حاد، جو مريح). مشهد حميمي ومفيد للغاية في ورشة عمل مريحة مضاءة بنور الشمس ومليئة بالأدوات الناعمة والأرفف الخشبية الدافئة. قطة رائعة وجميلة ذات آذان قطط ناعمة ورقيقة وذيل متمايل بلطف تجلس على كرسي خشبي، وتنظر إلى الأسفل بابتسامة لطيفة ومفاجئة. \nتتمتع بوجه بيضاوي أنيق، وأنف صغير مصقول، وشفاه طبيعية سميكة متباعدة بتعبير ناعم ومبهج، وحواجب محددة، مع نمش خفيف رقيق ينثر على خديها المتوهجين. تم تصفيف شعرها البني في جديلة واحدة فضفاضة توضع على كتفها. إنها ترتدي سترة كبيرة الحجم ومتماسكة بألوان الباستيل الناعمة والتي تلمح بذوق إلى قوامها الملائم والمتعرج مع خصر ضيق بشكل كبير وأرداف مستديرة. \nأمامها مباشرة، يقف روبوت صغير ورائع بتصميم دائري عتيق على أقدام ذات عجلات صغيرة أو أرجل قصيرة، ويحمل بعناية وردة حمراء مثالية بكلتا يديها الميكانيكية. يتمتع الروبوت بعيون متوهجة كبيرة ومعبرة (LED زرقاء ناعمة أو كهرمانية)، وجسم معدني مخدوش قليلاً ولكنه محبوب جدًا، وقرون استشعار صغيرة ترتعش بحماس بريء. \nيغمر المشهد ضوء الشمس الدافئ والحجمي بعد الظهر الذي يتدفق عبر نافذة قريبة، مما يخلق أشعة ضوئية جميلة وناعمة ويضيء ذرات الغبار العائمة. تسلط الإضاءة الضوء ببراعة على الملمس الرقيق والمفصل للغاية لأذني القطة، والنسيج الناعم للسترة، والمعدن الناعم الذي تعرض للعوامل الجوية قليلاً للروبوت، وبتلات الورد الحمراء المخملية النابضة بالحياة. المزاج مريح للغاية وبريء ولطيف بشكل لا يقاوم، ويلتقط لحظة نقية من الحنان غير المتوقع بين الحياة العضوية والميكانيكية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093742 image ai-image-prompts (cinematic semi-realistic aesthetic, soft natural lighting), (sharp focus, cozy atmosphere). a heartwarming, deeply wholesome scene in a sunlit, cozy workshop filled with soft tools and warm wooden shelves. a gorgeous, sweet catgirl with soft, fluffy feline ears and a gently swaying tail is sitting on a wooden stool, looking down with a tender, surprised smile. she has an elegant oval face, a small refined nose, thick natural lips parted in a soft, delighted expression, and defined eyebrows, with delicate light freckles dusting her glowing cheeks. her brown hair is styled in a single, loose braid resting over her shoulder. she wears an oversized, soft pastel knit sweater that tastefully hints at her fit, curvy figure with a dramatically narrow waist and round hips. right in front of her, a tiny, adorable robot with a rounded, vintage design is standing on small wheeled feet or short legs, carefully holding up a single, perfect red rose with both mechanical hands. the robot has large, expressive glowing eyes (soft blue or amber led), a slightly scratched but well-loved metallic body, and small antennae that twitch with innocent enthusiasm. the scene is bathed in warm, volumetric afternoon sunlight streaming through a nearby window, creating beautiful, soft light rays and illuminating floating dust motes. the lighting masterfully highlights the ultra-detailed, fluffy texture of the catgirl's ears, the soft weave of the sweater, the smooth, slightly weathered metal of the robot, and the velvety, vibrant red petals of the rose. the mood is deeply cozy, innocent, and irresistibly cute, capturing a pure moment of unexpected tenderness between organic and mechanical life. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093742",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f0ea0bf-a2c8-4fbe-9ac8-07849123f21b/original=true/0f0ea0bf-a2c8-4fbe-9ac8-07849123f21b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093681",
+      "title": "Civitai prompt 147093681",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cliffside; a person is positioned on a sheer rock face, with a valley visible below and to the side.\n\nThe sheer cliff consists of brown and gray stone, with patches of grass here and there. The person clings to the vertical rock face—fingers hooked into the stone—wearing a steampunk-style glove. One foot rests on a small ledge, and the person’s back is pressed against the rock.\n\nThe pose is dynamic, captured from a dramatic, perspective-driven angle. The person’s back is turned toward the viewer; one hand is raised to shield their eyes from the sun, acting as a visor, as they gaze into the distance.\n\nThe person is positioned with their back and side against the cliff, looking out toward the valley.\n\n(Perspective/Composition: 1. Cliff face; 2. Person leaning against the rock, one arm extended; 3. Hand acting as a visor; 4. Valley.)\n\nThe person wears a steampunk-inspired outfit, including tall leather boots, a poncho-style cape, and a hiking backpack. A hood covers their head. The color palette of the clothing is dominated by shades of gray, beige, and brown.\n\nThe valley and surrounding landscape resemble an alien world, featuring surreal, futuristic plants and trees. A lake is visible on the valley floor, while the sky—filled with whimsical, unusual clouds—contains both the sun and a distant planet, all veiled in a soft haze.\n\n\n\nmasterpiece, best quality, very aesthetic\n(modern stylized digital character illustration art style override:1.1), modern stylized digital character illustration, semi-realistic painterly art style\nmature adult character design, refined adult facial proportions, defined bone structure, elegant cheekbones and jawline, composed serious expression, calm confident gaze\nexpressive detailed eyes with amber gold reflections, natural nose, subtle faint freckles across nose and cheeks\nsun-kissed glowing tanned skin, smooth skin with subtle subsurface scattering, realistic skin texture\ndetailed flowing wavy hair with individual strands catching warm backlight\nwarm golden hour cinematic lighting, dramatic warm sunset rim light, soft orange and teal color palette, gentle lens flare, warm ambient glow\ndetailed jewelry and accessories, soft background with silhouette elements, stylized but realistic fabric and skin textures\nprofessional character key visual, modern webtoon illustration quality, clean polished rendering, high detail digital art\nclassical oil painting influence, rich vibrant colors, heavy texture, visible brush strokes, museum quality, canvas texture, chiaroscuro lighting, renaissance style\nrestrained sophisticated mood, detailed and realistic, consistent aesthetic across entire image, all elements drawn in this style",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093681",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b52ad3f6-2b4a-4426-956c-91bc95081c05/original=true/b52ad3f6-2b4a-4426-956c-91bc95081c05.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 896,
+      "height": 1120,
+      "seed": 808688962462286,
+      "negative_prompt": "text, woman's cock, woman's penis, girl's cock, girl's penis",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241981+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fa6ec57c78c45839bdf6a9dabc9c7d050221eef48023280989c6345362e7cc93",
+      "prompt_ar": "منحدر. يتم وضع الشخص على وجه صخري شديد الانحدار، مع وجود وادي مرئي من الأسفل وعلى الجانب.\n\nيتكون الجرف الهائل من الحجر البني والرمادي، مع وجود بقع من العشب هنا وهناك. يتمسك الشخص بالوجه الصخري العمودي - أصابعه مثبتة في الحجر - مرتديًا قفازًا على طراز Steampunk. ترتكز إحدى قدميه على حافة صغيرة، ويتم ضغط ظهر الشخص على الصخرة.\n\nالوضع ديناميكي، ويتم التقاطه من زاوية درامية تعتمد على المنظور. يتم توجيه ظهر الشخص نحو المشاهد؛ يتم رفع يد واحدة لحماية أعينهم من الشمس، وتكون بمثابة حاجب عندما يحدقون في المسافة.\n\nيتم وضع الشخص وظهره وجانبه على الجرف، وينظر نحو الوادي.\n\n(المنظور/التكوين: 1. وجه منحدر؛ 2. شخص متكئ على الصخرة وذراعه ممدودة؛ 3. يد تعمل كحاجب؛ 4. الوادي.)\n\nيرتدي الشخص زيًا مستوحى من أسلوب Steampunk، بما في ذلك أحذية جلدية طويلة، وغطاء رأس على طراز المعطف، وحقيبة ظهر للمشي لمسافات طويلة. غطاء محرك السيارة يغطي رؤوسهم. تهيمن على لوحة ألوان الملابس ظلال اللون الرمادي والبيج والبني.\n\nيشبه الوادي والمناظر الطبيعية المحيطة به عالمًا غريبًا، ويتميز بنباتات وأشجار سريالية ومستقبلية. يمكن رؤية بحيرة في قاع الوادي، بينما تحتوي السماء - المليئة بسحب غريبة وغير عادية - على الشمس وكوكب بعيد، وكلها مغطاة بضباب ناعم.\n\n\n\nتحفة، أفضل نوعية، جمالية جدا\n(تجاوز نمط فن الرسم التوضيحي الرقمي للشخصيات الحديثة: 1.1)، رسم توضيحي للشخصيات الرقمية الحديثة، أسلوب فني رسم شبه واقعي\nتصميم شخصية البالغين الناضجة، أبعاد وجه البالغين المصقولة، بنية العظام المحددة، عظام الخد والفك الأنيقة، التعبير الجاد، النظرة الهادئة الواثقة\nعيون مفصلة ومعبرة مع انعكاسات ذهبية كهرمانية، وأنف طبيعي، ونمش خافت خفيف على الأنف والخدين\nبشرة مسمرة متوهجة مشمسة، بشرة ناعمة مع تناثر دقيق تحت السطح، ملمس بشرة واقعي\nشعر مموج متدفق مفصل مع خيوط فردية تلتقط الإضاءة الخلفية الدافئة\nإضاءة سينمائية للساعة الذهبية الدافئة، ضوء حافة غروب الشمس الدافئ الدرامي، لوحة ألوان برتقالية وزرقاء ناعمة، توهج عدسة لطيف، توهج محيطي دافئ\nمجوهرات وإكسسوارات مفصلة، وخلفية ناعمة مع عناصر صورة ظلية، ونسيج وجلد منمق ولكن واقعي\nمفتاح بصري احترافي للشخصية، جودة توضيحية حديثة للويبتون، عرض مصقول نظيف، فن رقمي عالي التفاصيل\nتأثير الرسم الزيتي الكلاسيكي، الألوان الغنية النابضة بالحياة، الملمس الثقيل، ضربات الفرشاة المرئية، جودة المتحف، نسيج القماش، إضاءة تشياروسكورو، أسلوب عصر النهضة\nمزاج متطور ومقيد، وجمالية مفصلة وواقعية ومتسقة عبر الصورة بأكملها، وجميع العناصر المرسومة بهذا الأسلوب",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147093681 fashion ai-image-prompts a cliffside; a person is positioned on a sheer rock face, with a valley visible below and to the side. the sheer cliff consists of brown and gray stone, with patches of grass here and there. the person clings to the vertical rock face—fingers hooked into the stone—wearing a steampunk-style glove. one foot rests on a small ledge, and the person’s back is pressed against the rock. the pose is dynamic, captured from a dramatic, perspective-driven angle. the person’s back is turned toward the viewer; one hand is raised to shield their eyes from the sun, acting as a visor, as they gaze into the distance. the person is positioned with their back and side against the cliff, looking out toward the valley. (perspective/composition: 1. cliff face; 2. person leaning against the rock, one arm extended; 3. hand acting as a visor; 4. valley.) the person wears a steampunk-inspired outfit, including tall leather boots, a poncho-style cape, and a hiking backpack. a hood covers their head. the color palette of the clothing is dominated by shades of gray, beige, and brown. the valley and surrounding landscape resemble an alien world, featuring surreal, futuristic plants and trees. a lake is visible on the valley floor, while the sky—filled with whimsical, unusual clouds—contains both the sun and a distant planet, all veiled in a soft haze. masterpiece, best quality, very aesthetic (modern stylized digital character illustration art style override:1.1), modern stylized digital character illustration, semi-realistic painterly art style mature adult character design, refined adult facial proportions, defined bone structure, elegant cheekbones and jawline, composed serious expression, calm confident gaze expressive detailed eyes with amber gold reflections, natural nose, subtle faint freckles across nose and cheeks sun-kissed glowing tanned skin, smooth skin with subtle subsurface scattering, realistic skin texture detailed flowing wavy hair with individual strands catching warm backlight warm golden hour cinematic lighting, dramatic warm sunset rim light, soft orange and teal color palette, gentle lens flare, warm ambient glow detailed jewelry and accessories, soft background with silhouette elements, stylized but realistic fabric and skin textures professional character key visual, modern webtoon illustration quality, clean polished rendering, high detail digital art classical oil painting influence, rich vibrant colors, heavy texture, visible brush strokes, museum quality, canvas texture, chiaroscuro lighting, renaissance style restrained sophisticated mood, detailed and realistic, consistent aesthetic across entire image, all elements drawn in this style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093681",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b52ad3f6-2b4a-4426-956c-91bc95081c05/original=true/b52ad3f6-2b4a-4426-956c-91bc95081c05.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093724",
+      "title": "Civitai prompt 147093724",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(cinematic semi-realistic aesthetic, bright volumetric sunlight), (sharp focus, joyful atmosphere). A delightful, wholesome scene in a vibrant, sunlit wildflower meadow. A playful, sweet catgirl with perky, fluffy feline ears and a happily swishing tail is reaching out gently to catch a glowing butterfly. \nShe is wearing a light, flowing white sundress with delicate lace trim that flutters in the gentle breeze, tastefully outlining her fit, curvy figure with a narrow waist and round hips. Her brown hair is styled in a single, long braid that swings dynamically with her movement. \nShe has an elegant oval face, a small refined nose, thick natural lips parted in a bright, joyful laugh, and defined eyebrows, with delicate light freckles glowing warmly on her sun-kissed cheeks. The scene is bathed in golden hour sunlight, creating a magical, dreamy bokeh of colorful flowers and floating pollen, emphasizing the ultra-detailed, soft textures of the dress, her glowing skin, and the pure, innocent charm of the moment.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093724",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c274071d-f0f8-47b3-850d-0b52d5d6a89d/original=true/c274071d-f0f8-47b3-850d-0b52d5d6a89d.jpeg",
+      "model": "Pawhibited - Anima 2.9b _v1.0",
+      "model_version_ids": [
+        3429588
+      ],
+      "width": 808,
+      "height": 1216,
+      "seed": 776142002649002,
+      "negative_prompt": "low quality, worst quality, deformed, bad anatomy, missing fingers, extra limbs, flat lighting, daytime, bright sun",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.241993+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b94be89390d93984b468b5411e641e2dbf2cc0ca2bd38314c9cb648e49984baf",
+      "prompt_ar": "(جمالية سينمائية شبه واقعية، ضوء الشمس الحجمي الساطع)، (تركيز حاد، جو بهيج). مشهد مبهج ومفيد في مرج الزهور البرية النابض بالحياة والمضاء بنور الشمس. فتاة قطة مرحة وجميلة ذات آذان قطط مرحة ورقيقة وذيل متأرجح بسعادة تمد يدها بلطف للقبض على فراشة متوهجة. \nإنها ترتدي فستان الشمس الأبيض الخفيف المتدفق مع زخرفة من الدانتيل الرقيق الذي يرفرف مع النسيم اللطيف، ويحدد بذوق شكلها الملائم والمتعرج مع خصر ضيق ووركين مستديرين. تم تصفيف شعرها البني في جديلة واحدة طويلة تتأرجح بشكل ديناميكي مع حركتها. \nتتمتع بوجه بيضاوي أنيق، وأنف صغير أنيق، وشفاه طبيعية سميكة تفرقها ضحكة مشرقة ومبهجة، وحواجب محددة، مع نمش خفيف رقيق يتوهج بحرارة على خدودها المشمسة. يغمر المشهد ضوء الشمس في الساعة الذهبية، مما يخلق بوكيه سحري حالم من الزهور الملونة وحبوب اللقاح العائمة، مع التركيز على الأنسجة الناعمة فائقة التفاصيل للفستان، وبشرتها المتوهجة، وسحر اللحظة البريء النقي.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093724 image ai-image-prompts (cinematic semi-realistic aesthetic, bright volumetric sunlight), (sharp focus, joyful atmosphere). a delightful, wholesome scene in a vibrant, sunlit wildflower meadow. a playful, sweet catgirl with perky, fluffy feline ears and a happily swishing tail is reaching out gently to catch a glowing butterfly. she is wearing a light, flowing white sundress with delicate lace trim that flutters in the gentle breeze, tastefully outlining her fit, curvy figure with a narrow waist and round hips. her brown hair is styled in a single, long braid that swings dynamically with her movement. she has an elegant oval face, a small refined nose, thick natural lips parted in a bright, joyful laugh, and defined eyebrows, with delicate light freckles glowing warmly on her sun-kissed cheeks. the scene is bathed in golden hour sunlight, creating a magical, dreamy bokeh of colorful flowers and floating pollen, emphasizing the ultra-detailed, soft textures of the dress, her glowing skin, and the pure, innocent charm of the moment. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093724",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c274071d-f0f8-47b3-850d-0b52d5d6a89d/original=true/c274071d-f0f8-47b3-850d-0b52d5d6a89d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093714",
+      "title": "Civitai prompt 147093714",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(cinematic semi-realistic aesthetic, soft natural lighting), (sharp focus, cozy atmosphere). A heartwarming, wholesome morning scene in a sunlit kitchen. A gorgeous, sweet catgirl with soft, fluffy feline ears and a gently swaying, plush tail is holding a warm ceramic mug of cocoa. \nShe is wearing an oversized, soft pastel knit sweater that slips slightly off one shoulder, tastefully hinting at her fit, curvy figure with a narrow waist. Her brown hair is styled in a single, loose, messy braid resting over her shoulder. She has an elegant oval face, a small refined nose, thick natural lips curved into a warm, gentle smile, and defined eyebrows, with delicate light freckles dusting her glowing cheeks. \nThe morning sunlight streams through the window, creating volumetric light rays and illuminating floating dust motes. The lighting highlights the ultra-detailed, soft texture of the knit sweater, the fluffy texture of her ears, and her dewy, radiant skin. The mood is deeply cozy, innocent, and irresistibly cute.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093714",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06742eca-fc36-49fa-a24c-51754a4eedfa/original=true/06742eca-fc36-49fa-a24c-51754a4eedfa.jpeg",
+      "model": "Pawhibited - Anima 2.9b _v1.0",
+      "model_version_ids": [
+        3429588
+      ],
+      "width": 808,
+      "height": 1216,
+      "seed": 3715173176305,
+      "negative_prompt": "low quality, worst quality, deformed, bad anatomy, missing fingers, extra limbs, flat lighting, daytime, bright sun",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242005+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1c77b3705fa732e9fee29c3e07603d71e10b8f421941eca9e587beca792fc21c",
+      "prompt_ar": "(جمالية سينمائية شبه واقعية، إضاءة طبيعية ناعمة)، (تركيز حاد، جو مريح). مشهد صباحي حميمي ومفيد في مطبخ مضاء بنور الشمس. فتاة قطة رائعة وجميلة ذات آذان قطط ناعمة ورقيقة وذيل فخم يتمايل بلطف وتحمل كوبًا سيراميكيًا دافئًا من الكاكاو. \nإنها ترتدي سترة كبيرة الحجم ومتماسكة بألوان الباستيل الناعمة تنزلق قليلاً عن كتف واحد، مما يشير بذوق إلى شكلها الملائم والمتعرج مع خصر ضيق. تم تصفيف شعرها البني في جديلة واحدة فضفاضة وفوضوية تستريح على كتفها. تتمتع بوجه بيضاوي أنيق، وأنف صغير مصقول، وشفاه طبيعية سميكة منحنية إلى ابتسامة دافئة ولطيفة، وحواجب محددة، مع نمش خفيف رقيق ينثر على خديها المتوهجين. \nيتدفق ضوء الشمس الصباحي عبر النافذة، مما يخلق أشعة ضوئية حجمية ويضيء ذرات الغبار العائمة. تسلط الإضاءة الضوء على الملمس الناعم للغاية للسترة المحبوكة، والملمس الرقيق لأذنيها، وبشرتها الندية والمشرقة. المزاج مريح للغاية وبريء ولطيف بشكل لا يقاوم.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093714 image ai-image-prompts (cinematic semi-realistic aesthetic, soft natural lighting), (sharp focus, cozy atmosphere). a heartwarming, wholesome morning scene in a sunlit kitchen. a gorgeous, sweet catgirl with soft, fluffy feline ears and a gently swaying, plush tail is holding a warm ceramic mug of cocoa. she is wearing an oversized, soft pastel knit sweater that slips slightly off one shoulder, tastefully hinting at her fit, curvy figure with a narrow waist. her brown hair is styled in a single, loose, messy braid resting over her shoulder. she has an elegant oval face, a small refined nose, thick natural lips curved into a warm, gentle smile, and defined eyebrows, with delicate light freckles dusting her glowing cheeks. the morning sunlight streams through the window, creating volumetric light rays and illuminating floating dust motes. the lighting highlights the ultra-detailed, soft texture of the knit sweater, the fluffy texture of her ears, and her dewy, radiant skin. the mood is deeply cozy, innocent, and irresistibly cute. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093714",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06742eca-fc36-49fa-a24c-51754a4eedfa/original=true/06742eca-fc36-49fa-a24c-51754a4eedfa.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093715",
+      "title": "Civitai prompt 147093715",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(cinematic semi-realistic aesthetic, warm ambient lighting), (sharp focus, intimate cozy atmosphere). A charming, peaceful scene in a rustic, dimly lit library on a rainy afternoon. A beautiful catgirl with expressive, fluffy feline ears and a long, soft tail is curled up comfortably in a large, plush velvet armchair. \nShe is wrapped in a thick, chunky knit blanket, wearing a simple, elegant dark turtleneck that accentuates her graceful posture and narrow waist. Her brown hair is in a single, neat braid draped over the armrest. She has a captivating oval face, a small straight nose, full natural lips, and realistic brown eyes focused on an open book, with delicate freckles across her nose. \nA warm, amber glow from a nearby vintage desk lamp casts soft, gentle shadows, highlighting the fluffy texture of her ears, the soft weave of the blanket, and her serene, sweet expression. Raindrops streak the window in the blurred background, enhancing the wholesome, tranquil, and deeply cute vibe.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093715",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f370f59b-1b59-4bc7-90cf-426989b9fee1/original=true/f370f59b-1b59-4bc7-90cf-426989b9fee1.jpeg",
+      "model": "Pawhibited - Anima 2.9b _v1.0",
+      "model_version_ids": [
+        3429588
+      ],
+      "width": 808,
+      "height": 1216,
+      "seed": 288938376031185,
+      "negative_prompt": "low quality, worst quality, deformed, bad anatomy, missing fingers, extra limbs, flat lighting, daytime, bright sun",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242017+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "309e7feec2c32bc51c2ad3519bc2cd0143aef64545a3bebdb7db365433393230",
+      "prompt_ar": "(جمالية سينمائية شبه واقعية، إضاءة محيطة دافئة)، (تركيز حاد، جو حميمي مريح). مشهد ساحر وهادئ في مكتبة ريفية ذات إضاءة خافتة في فترة ما بعد الظهر الممطرة. قطة جميلة ذات آذان قطط معبرة ورقيقة وذيل طويل وناعم تلتف بشكل مريح على كرسي بذراعين مخملي كبير. \nإنها ملفوفة في بطانية سميكة ومكتنزة، وترتدي ياقة مدورة بسيطة وأنيقة داكنة تبرز وضعيتها الرشيقة وخصرها الضيق. شعرها البني ملفوف في ضفيرة واحدة أنيقة ملفوفة فوق مسند الذراع. تتمتع بوجه بيضاوي آسر، وأنف صغير مستقيم، وشفاه طبيعية ممتلئة، وعيون بنية واقعية تركز على كتاب مفتوح، مع نمش دقيق على أنفها. \nتوهج كهرماني دافئ من مصباح مكتبي عتيق قريب يلقي ظلالاً ناعمة ولطيفة، ويسلط الضوء على الملمس الرقيق لأذنيها، والنسيج الناعم للبطانية، وتعبيرها الهادئ والجميل. تتناثر قطرات المطر على النافذة في الخلفية غير الواضحة، مما يعزز الأجواء الصحية والهادئة واللطيفة للغاية.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093715 image ai-image-prompts (cinematic semi-realistic aesthetic, warm ambient lighting), (sharp focus, intimate cozy atmosphere). a charming, peaceful scene in a rustic, dimly lit library on a rainy afternoon. a beautiful catgirl with expressive, fluffy feline ears and a long, soft tail is curled up comfortably in a large, plush velvet armchair. she is wrapped in a thick, chunky knit blanket, wearing a simple, elegant dark turtleneck that accentuates her graceful posture and narrow waist. her brown hair is in a single, neat braid draped over the armrest. she has a captivating oval face, a small straight nose, full natural lips, and realistic brown eyes focused on an open book, with delicate freckles across her nose. a warm, amber glow from a nearby vintage desk lamp casts soft, gentle shadows, highlighting the fluffy texture of her ears, the soft weave of the blanket, and her serene, sweet expression. raindrops streak the window in the blurred background, enhancing the wholesome, tranquil, and deeply cute vibe. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093715",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f370f59b-1b59-4bc7-90cf-426989b9fee1/original=true/f370f59b-1b59-4bc7-90cf-426989b9fee1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093704",
+      "title": "Civitai prompt 147093704",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Cinematic medieval-fantasy anime illustration, low-angle medium composition. An adult female knight walks toward the camera through an enormous field of ancient swords driven upright into the ground. She has a calm, battle-worn expression, one hand resting on the pommel of her sheathed sword while wind moves her cloak and hair.\nShe wears practical dark steel plate armor over a black padded tunic, a deep burgundy cloak, brown leather belts, gauntlets, and weathered armored boots. Her ash-blonde hair is cut to shoulder length with loose windswept layers and a narrow braid along one side.\nHundreds of swords of different shapes and ages rise from the surrounding landscape, some taller than a person, with chipped blades, engraved runes, rusted guards, torn ribbons, and moss growing around their bases. Pale wildflowers and tall grass weave between the weapons.\nMorning mist drifts low across the field while distant mountain ridges emerge beneath a soft golden sunrise. Bright frontal daylight keeps the knight clearly illuminated against the cooler misty background.\nDark steel, black, burgundy, brown leather, pale gold, muted green, and natural stone tones. Clean anime rendering, crisp silhouette, strong depth, atmospheric scale, restrained fantasy detail, solemn legendary mood. Limbus Style",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093704",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d26e59b-9ebc-4322-9742-32e1115be861/original=true/2d26e59b-9ebc-4322-9742-32e1115be861.jpeg",
+      "model_version_ids": [
+        3400188,
+        3405205,
+        3421925
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1328357541,
+      "negative_prompt": "low resolution, worst quality, low quality, bad quality, worst detail, bad detail, lowres, old, early, normal quality, bad anatomy, signature, watermark, censored, shiny skin",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242030+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ad219bffe38bd47bb05d06c3742b3d8ca63667ae1d608926a8bc2222d596ca38",
+      "prompt_ar": "رسم توضيحي سينمائي للرسوم المتحركة من خيال العصور الوسطى، تكوين متوسط ​​بزاوية منخفضة. تسير فارسة بالغة نحو الكاميرا عبر حقل هائل من السيوف القديمة المنصوبة في الأرض. تتمتع بتعبير هادئ ومرتدٍ في المعركة، وتستقر إحدى يديها على حلق سيفها المغمد بينما تحرك الرياح عباءتها وشعرها.\nإنها ترتدي درعًا عمليًا من ألواح الصلب الداكن فوق سترة مبطنة سوداء، وعباءة بورجوندي عميقة، وأحزمة جلدية بنية، وقفازات، وأحذية مدرعة مقاومة للعوامل الجوية. تم قص شعرها الأشقر الرمادي حتى الكتفين بطبقات فضفاضة تذروها الرياح وجديلة ضيقة على جانب واحد.\nترتفع مئات السيوف من مختلف الأشكال والأعمار من المناظر الطبيعية المحيطة، بعضها أطول من الشخص، بشفرات متكسرة، ورونية منقوشة، ودروع صدئة، وأشرطة ممزقة، وطحالب تنمو حول قواعدها. الزهور البرية الشاحبة والعشب الطويل ينسج بين الأسلحة.\nينجرف ضباب الصباح على مستوى منخفض عبر الحقل بينما تظهر التلال الجبلية البعيدة تحت شروق الشمس الذهبي الناعم. ضوء النهار الأمامي الساطع يبقي الفارس مضاءً بشكل واضح على الخلفية الضبابية الباردة.\nالفولاذ الداكن، والأسود، والبورجوندي، والجلد البني، والذهبي الفاتح، والأخضر الخافت، وألوان الحجر الطبيعي. عرض أنيمي نظيف، صورة ظلية واضحة، عمق قوي، مقياس جوي، تفاصيل خيالية مقيدة، مزاج أسطوري مهيب. أسلوب ليمبوس",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147093704 photography ai-image-prompts cinematic medieval-fantasy anime illustration, low-angle medium composition. an adult female knight walks toward the camera through an enormous field of ancient swords driven upright into the ground. she has a calm, battle-worn expression, one hand resting on the pommel of her sheathed sword while wind moves her cloak and hair. she wears practical dark steel plate armor over a black padded tunic, a deep burgundy cloak, brown leather belts, gauntlets, and weathered armored boots. her ash-blonde hair is cut to shoulder length with loose windswept layers and a narrow braid along one side. hundreds of swords of different shapes and ages rise from the surrounding landscape, some taller than a person, with chipped blades, engraved runes, rusted guards, torn ribbons, and moss growing around their bases. pale wildflowers and tall grass weave between the weapons. morning mist drifts low across the field while distant mountain ridges emerge beneath a soft golden sunrise. bright frontal daylight keeps the knight clearly illuminated against the cooler misty background. dark steel, black, burgundy, brown leather, pale gold, muted green, and natural stone tones. clean anime rendering, crisp silhouette, strong depth, atmospheric scale, restrained fantasy detail, solemn legendary mood. limbus style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093704",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d26e59b-9ebc-4322-9742-32e1115be861/original=true/2d26e59b-9ebc-4322-9742-32e1115be861.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093436",
+      "title": "Civitai prompt 147093436",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, realistic, low right profile view, three-quarter-body shot, most of the body visible, very subtle dutch angle, sci-fi, futuristic military barracks bedroom, two neatly arranged bunks, footlockers, utilitarian wall panels, uniform storage, compact wash station, institutional flooring, 1girl, solo, kiLinna, yellow headband, blue eyes, black hair, short hair, medium breasts, thin, trim, fit, small waist, narrow hips, she has heavy-lidded eyes, softly parted lips, relaxed cheeks, and a subtle knowing smile, she is getting undressed after work, she is unbuttoning her blazer, button-up blouse and knee-length skirt, cinematic directional daylight, open shadows, natural highlights, blue hour, cool blue ambient light, deep blue sky",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093436",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04751ea-a0a5-4fbd-8379-704edc67965f/original=true/d04751ea-a0a5-4fbd-8379-704edc67965f.jpeg",
+      "model": "Anima\\cyberrealisticAnima_v60AestheticV11.safetensors",
+      "model_version_ids": [
+        3136380,
+        3142679,
+        3219989,
+        3337256
+      ],
+      "width": 4608,
+      "height": 3072,
+      "seed": 0,
+      "negative_prompt": "lowres, worst quality, low quality, score_1, score_2, score_3, \nbad anatomy, bad proportions, deformed anatomy, malformed limbs, extra limbs, extra arms, extra legs, extra hands, duplicate limbs, fused limbs, missing limbs, bad hands, extra fingers, missing fingers, fused fingers, duplicate body parts, multiple views, multiple angles, blurry, watermark, censored, saggy breasts, bad teeth, camera flash, fake breasts, animated, cartoon",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242040+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0e704fb7ddda95c95a57743612f1e2629e2f1b3d03e9943bd6a32211fad7edf3",
+      "prompt_ar": "تحفة فنية، أفضل جودة، Score_9، واقعي، عرض جانبي منخفض من الجانب الأيمن، لقطة لثلاثة أرباع الجسم، معظم الجسم مرئي، زاوية هولندية دقيقة جدًا، خيال علمي، غرفة نوم للثكنات العسكرية المستقبلية، سريرين مرتبين بدقة، خزائن للأقدام، ألواح حائط نفعية، تخزين موحد، محطة غسيل مدمجة، أرضيات مؤسسية، فتاة واحدة، منفردة، كيلينا، عصابة رأس صفراء، عيون زرقاء، شعر أسود، شعر قصير، ثديين متوسطين، نحيف، مزخرف، ملائم، خصر صغير، ضيق الوركين، لديها عيون كثيفة، شفاه متباعدة بهدوء، خدود مسترخية، وابتسامة عارفة خفية، تخلع ملابسها بعد العمل، وهي تفك أزرار سترتها وبلوزتها ذات الأزرار وتنورة بطول الركبة، ضوء نهار سينمائي اتجاهي، ظلال مفتوحة، إبرازات طبيعية، ساعة زرقاء، ضوء محيط أزرق بارد، سماء زرقاء عميقة",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093436 image ai-image-prompts masterpiece, best quality, score_9, realistic, low right profile view, three-quarter-body shot, most of the body visible, very subtle dutch angle, sci-fi, futuristic military barracks bedroom, two neatly arranged bunks, footlockers, utilitarian wall panels, uniform storage, compact wash station, institutional flooring, 1girl, solo, kilinna, yellow headband, blue eyes, black hair, short hair, medium breasts, thin, trim, fit, small waist, narrow hips, she has heavy-lidded eyes, softly parted lips, relaxed cheeks, and a subtle knowing smile, she is getting undressed after work, she is unbuttoning her blazer, button-up blouse and knee-length skirt, cinematic directional daylight, open shadows, natural highlights, blue hour, cool blue ambient light, deep blue sky civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093436",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04751ea-a0a5-4fbd-8379-704edc67965f/original=true/d04751ea-a0a5-4fbd-8379-704edc67965f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093399",
+      "title": "Civitai prompt 147093399",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, realistic, eye-level front view, full-body shot, entire body visible from head to feet, level composition, straight horizon, sci-fi, alien diplomatic guest quarters, organically curved sleeping platform, translucent wall partitions, unfamiliar decorative sculptures, flowing architectural surfaces, adaptive furniture, 1girl, solo, KINene, pink hair, green eyes, medium breasts, she has heavy-lidded eyes, softly parted lips, relaxed cheeks, and a subtle knowing smile, she is getting undressed after work, she is unbuttoning her business jacket, button-up blouse and pencil skirt, cinematic directional daylight, open shadows, natural highlights, evening, darkening sky, low ambient light",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093399",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3adf3b11-a037-409d-947c-16734982cc70/original=true/3adf3b11-a037-409d-947c-16734982cc70.jpeg",
+      "model": "Anima\\cyberrealisticAnima_v60AestheticV11.safetensors",
+      "model_version_ids": [
+        3136380,
+        3142679,
+        3219989,
+        3338380
+      ],
+      "width": 4608,
+      "height": 3072,
+      "seed": 0,
+      "negative_prompt": "lowres, worst quality, low quality, score_1, score_2, score_3, \nbad anatomy, bad proportions, deformed anatomy, malformed limbs, extra limbs, extra arms, extra legs, extra hands, duplicate limbs, fused limbs, missing limbs, bad hands, extra fingers, missing fingers, fused fingers, duplicate body parts, multiple views, multiple angles, blurry, watermark, censored, saggy breasts, bad teeth, camera flash, fake breasts, animated, cartoon",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242049+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "53055d197fef0d6a1b89936e6e408d9e609994e596f8b41d78e6e60b3d74b5c8",
+      "prompt_ar": "تحفة فنية، أفضل جودة، Score_9، واقعي، منظر أمامي على مستوى العين، لقطة لكامل الجسم، الجسم بالكامل مرئي من الرأس إلى القدمين، تكوين المستوى، أفق مستقيم، خيال علمي، أماكن للضيوف الدبلوماسيين الفضائيين، منصة نوم منحنية عضويًا، أقسام حائط شفافة، منحوتات زخرفية غير مألوفة، أسطح معمارية متدفقة، أثاث متكيف، فتاة واحدة، منفردة، كينين، شعر وردي، عيون خضراء، ثديين متوسطين، لديها عيون ذات جفني ثقيل، شفاه متباعدة بهدوء، مسترخية خدودها، وابتسامة عارفة خفية، تخلع ملابسها بعد العمل، وتفك أزرار سترتها الرسمية، وبلوزتها ذات الأزرار وتنورة ضيقة، وضوء النهار السينمائي الموجه، والظلال المفتوحة، والإضاءة الطبيعية، والمساء، والسماء المظلمة، والإضاءة المحيطة المنخفضة",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093399 image ai-image-prompts masterpiece, best quality, score_9, realistic, eye-level front view, full-body shot, entire body visible from head to feet, level composition, straight horizon, sci-fi, alien diplomatic guest quarters, organically curved sleeping platform, translucent wall partitions, unfamiliar decorative sculptures, flowing architectural surfaces, adaptive furniture, 1girl, solo, kinene, pink hair, green eyes, medium breasts, she has heavy-lidded eyes, softly parted lips, relaxed cheeks, and a subtle knowing smile, she is getting undressed after work, she is unbuttoning her business jacket, button-up blouse and pencil skirt, cinematic directional daylight, open shadows, natural highlights, evening, darkening sky, low ambient light civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093399",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3adf3b11-a037-409d-947c-16734982cc70/original=true/3adf3b11-a037-409d-947c-16734982cc70.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147093474",
+      "title": "Civitai prompt 147093474",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic portrait of a young woman with pale skin, dark hair partially obscured by a heavy black hooded cloak, her face framed by a crown of long, thin metallic spikes tipped with glowing amber lights. Her eyes are hidden beneath the shadowy veil of the hood and the dense texture of the fabric covering her forehead, leaving only her full lips painted in deep red visible as she gazes forward with a neutral expression. One hand, clad in a black glossy glove, rests near her chest against the textured surface of the cloak. The lighting is dramatic and moody, casting strong highlights on the crown’s metallic elements and the fabric’s rough weave while plunging the background into darkness; faint blue smoke or mist swirls behind her left shoulder. The overall atmosphere is dark, mysterious, and theatrical, with high contrast and a cinematic quality that emphasizes texture — from the coarse fabric of the cloak to the smooth sheen of the glove and the subtle skin tones visible around her lips and neck.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147093474",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0aee2a9a-1a49-4ce5-b1c1-665cc6f7ab79/original=true/0aee2a9a-1a49-4ce5-b1c1-665cc6f7ab79.jpeg",
+      "model": "krea2Turbo_v10",
+      "model_version_ids": [
+        3064297,
+        3109006,
+        3267820,
+        3371723
+      ],
+      "width": 1088,
+      "height": 1920,
+      "seed": 97348760443321,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-28T09:50:18.242067+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a70c7e2c77a7b233837602f878f10b3a70d4c48289e3af6643c797741fbf950b",
+      "prompt_ar": "صورة واقعية لامرأة شابة ذات بشرة شاحبة وشعر داكن محجوب جزئيًا بعباءة ثقيلة ذات غطاء أسود، ووجهها مؤطر بتاج من المسامير المعدنية الطويلة الرفيعة التي تعلوها أضواء كهرمانية متوهجة. عيناها مخفيتان تحت الحجاب الغامض للغطاء والنسيج الكثيف للقماش الذي يغطي جبهتها، ولم يتبق سوى شفتيها الكاملتين المطلية باللون الأحمر الداكن وهي تنظر إلى الأمام بتعبير محايد. يد واحدة، ترتدي قفازًا أسود لامعًا، تقع بالقرب من صدرها على سطح العباءة المزخرف. الإضاءة دراماتيكية ومتقلبة، وتسلط الضوء بقوة على عناصر التاج المعدنية والنسيج الخشن للقماش بينما تغمر الخلفية في الظلام؛ دخان أزرق خافت أو ضباب يحوم خلف كتفها الأيسر. الجو العام مظلم وغامض ومسرحي، مع تباين عالٍ وجودة سينمائية تؤكد على الملمس - من نسيج العباءة الخشن إلى اللمعان الناعم للقفاز وألوان البشرة الرقيقة المرئية حول شفتيها ورقبتها.",
+      "translation_status": "translated",
+      "translated_at": "2026-10-28T09:50:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147093474 image ai-image-prompts a photorealistic portrait of a young woman with pale skin, dark hair partially obscured by a heavy black hooded cloak, her face framed by a crown of long, thin metallic spikes tipped with glowing amber lights. her eyes are hidden beneath the shadowy veil of the hood and the dense texture of the fabric covering her forehead, leaving only her full lips painted in deep red visible as she gazes forward with a neutral expression. one hand, clad in a black glossy glove, rests near her chest against the textured surface of the cloak. the lighting is dramatic and moody, casting strong highlights on the crown’s metallic elements and the fabric’s rough weave while plunging the background into darkness; faint blue smoke or mist swirls behind her left shoulder. the overall atmosphere is dark, mysterious, and theatrical, with high contrast and a cinematic quality that emphasizes texture — from the coarse fabric of the cloak to the smooth sheen of the glove and the subtle skin tones visible around her lips and neck. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147093474",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0aee2a9a-1a49-4ce5-b1c1-665cc6f7ab79/original=true/0aee2a9a-1a49-4ce5-b1c1-665cc6f7ab79.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-27T20:06:18.484497+00:00",
-  "prompt_count": 2022,
+  "generated_at": "2026-10-28T09:50:22.351811+00:00",
+  "prompt_count": 2047,
   "translation": {
     "language": "ar",
-    "translated_count": 10,
-    "skipped_count": 2005,
+    "translated_count": 25,
+    "skipped_count": 2015,
     "failed_count": 7,
-    "updated_at": "2026-10-27T20:06:17Z"
+    "updated_at": "2026-10-28T09:50:21Z"
   }
 }
