@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-28T20:16:51.224262+00:00",
+  "generated_at": "2026-10-29T10:09:26.099074+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1765,9 +1765,9 @@
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"system prompt\"",
-    "AI image prompts",
-    "AI video prompts"
+    "\"You are\" prompt",
+    "LLM prompts",
+    "generative AI prompts"
   ],
   "last_sources": []
 }
