@@ -100645,15 +100645,215 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a5d394c-a512-4e00-8dd2-e949ee933bcb/original=true/7a5d394c-a512-4e00-8dd2-e949ee933bcb.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-147393348",
+      "title": "Civitai prompt 147393348",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic, quality boost, ultra detailed, sharp focus, high clarity, crisp textures, balanced lighting, clean composition, rich color depth, high dynamic range, photorealistic rendering, refined details, professional finish, natural contrast, clean edges, noise free, artifact free, high fidelity, polished aesthetic, premium visual quality, masterful execution, \nThe visual style is a delicate traditional watercolor and ink illustration characterized by fine, economical linework and translucent wet-on-wet washes. Forms are stylized with whimsical, elongated elegance and a melancholic fairy-tale charm, softening edges into ethereal fading contours. The palette is a muted symphony of ochre, sepia, dusty rose, pale sage, and warm ivory, layered with subtle granulation. Lighting is soft, diffused, and ambient, glowing from the paper itself to create gentle tonal transitions and a sense of quiet intimacy. The finish is distinctly matte, showcasing the visible tooth of cold-press paper and the organic pooling of pigment. The visual signature relies on the tension between precise, scratchy ink cross-hatching and the uncontrollable, blooming spread of transparent color. The conceptual mechanism operates by distilling narrative into fragile, atmospheric vignettes, using the unpredictability of the water medium to evoke nostalgia and gentle wonder.\nThe attire logic centers on simple, timeless garments suited for pastoral or historical fairy-tale settings, rendered with a focus on texture and drape. Attire includes loose linen smocks, heavy woolen coats, patched breeches, and soft leather boots. Materials are defined by their surface: the scratchy weave of raw linen, the dense felted surface of wool, and the worn, creased grain of leather. Construction features visible mending, wooden buttons, and simple lacing, while wear manifests as softened edges, slight discoloration at the cuffs, and a general sense of lived-in softness. The overall wardrobe impression is one of modest, practical comfort, where garments feel like protective layers against a chilly, misty world.\nA medium shot framed with the rule of thirds captures a solitary female figure standing at the edge of a misty, birch-lined forest path. She is rendered with a pronounced hourglass silhouette and a natural S-curve spinal posture, her form softly defined by layered translucent washes that gently suggest medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her flowing attire. Her skin is depicted as a pristine, unblemished complexion, glowing with a warm ivory luminosity and a healthy sheen that catches the diffused ambient light, with subtle subsurface scattering where the light grazes her cheek. The composition uses a shallow depth of field, blurring the background trees into soft, granulated washes of sage and sepia. She wears a heavy, slate-blue woolen cloak over a pale linen dress, the fabric showing careful folds and softened wear. She stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward the damp earth, within the tranquil, mist-laden woodland. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579>",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147393348",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88c8f70d-1c7f-410a-bdb1-b13954b4df1b/original=true/88c8f70d-1c7f-410a-bdb1-b13954b4df1b.jpeg",
+      "model": "krea_2_turbo_q8p",
+      "model_version_ids": [
+        3068874,
+        3211112,
+        3296632,
+        3396757,
+        3413867
+      ],
+      "width": 1536,
+      "height": 1024,
+      "seed": 1025201302,
+      "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-31T19:18:28.320247+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "82eb2f71d4bf396780b111b9b81f4358083edfe3a99ef75d5cbad7cd8836e445",
+      "prompt_ar": "سينمائي، تعزيز الجودة، تفصيل فائق، تركيز حاد، وضوح عالي، أنسجة واضحة، إضاءة متوازنة، تكوين نظيف، عمق ألوان غني، نطاق ديناميكي عالي، عرض واقعي، تفاصيل دقيقة، تشطيب احترافي، تباين طبيعي، حواف نظيفة، خالي من الضوضاء، خالي من الشوائب، دقة عالية، جمالية مصقولة، جودة بصرية متميزة، تنفيذ بارع، \nالنمط المرئي عبارة عن رسم توضيحي تقليدي دقيق بالألوان المائية والحبر يتميز بخطوط دقيقة واقتصادية وغسلات شفافة مبللة على رطبة. تم تصميم الأشكال بأناقة غريبة وطويلة وسحر حكاية خرافية حزينة، مما أدى إلى تنعيم الحواف إلى خطوط باهتة أثيرية. اللوحة عبارة عن سيمفونية صامتة من المغرة، والبني الداكن، والورد المغبر، والمريمية الشاحبة، والعاج الدافئ، مع طبقات من الحبيبات الدقيقة. الإضاءة ناعمة ومنتشرة ومحيطة، وتتوهج من الورقة نفسها لتخلق انتقالات لونية لطيفة وإحساسًا بالحميمية الهادئة. اللمسة النهائية غير لامعة بشكل واضح، حيث تعرض الأسنان المرئية لورق الضغط البارد والتجمع العضوي للصبغة. يعتمد التوقيع المرئي على التوتر بين التظليل الدقيق والحبر المخدش وانتشار اللون الشفاف الذي لا يمكن السيطرة عليه. تعمل الآلية المفاهيمية عن طريق استخلاص السرد في صور قصيرة هشة ذات طابع جوي، وذلك باستخدام عدم القدرة على التنبؤ بالوسط المائي لإثارة الحنين والعجب اللطيف.\nيتمحور منطق الملابس حول الملابس البسيطة والخالدة المناسبة للقصص الخيالية الرعوية أو التاريخية، والتي يتم تقديمها مع التركيز على الملمس والثنيات. تشتمل الملابس على عباءات من الكتان الفضفاضة ومعاطف صوفية ثقيلة وسراويل مرقعة وأحذية جلدية ناعمة. يتم تحديد المواد من خلال سطحها: نسج الكتان الخام، وسطح الصوف الكثيف، وحبوب الجلد المتجعدة البالية. يتميز البناء بإصلاح واضح، وأزرار خشبية، ورباط بسيط، بينما يظهر التآكل كحواف ناعمة، وتغير طفيف في اللون عند أطراف الأكمام، وإحساس عام بالنعومة الحية. الانطباع العام لخزانة الملابس هو انطباع بسيط ومريح عملي، حيث تبدو الملابس وكأنها طبقات واقية ضد عالم بارد وضبابي.\nلقطة متوسطة مؤطرة بقاعدة الأثلاث تصور شخصية أنثى منعزلة تقف على حافة طريق غابة ضبابي تصطف على جانبيه أشجار البتولا. لقد تم تقديمها بشكل صورة ظلية واضحة على شكل ساعة رملية ووضعية العمود الفقري الطبيعية ذات منحنى على شكل حرف S، وتم تحديد شكلها بهدوء من خلال طبقات شفافة من الغسلات التي تشير بلطف إلى ثديين متوسطي الحجم على شكل دمعة ومرتفعين وعضلات أرداف ثابتة ومحددة جيدًا أسفل ملابسها المتدفقة. تم تصوير بشرتها على أنها بشرة نقية لا تشوبها شائبة، تتوهج مع لمعان عاجي دافئ ولمعان صحي يلتقط الضوء المحيط المنتشر، مع تناثر دقيق تحت السطح حيث يلامس الضوء خدها. يستخدم التكوين عمقًا ضحلًا للمجال، مما يؤدي إلى تشويش أشجار الخلفية في طبقات ناعمة ومحببة من المريمية والبني الداكن. ترتدي عباءة صوفية ثقيلة ذات لون أزرق أردوازي فوق فستان من الكتان الشاحب، ويظهر القماش طيات دقيقة وتآكلًا ناعمًا. تقف بوضعية هادئة ومنتصبة، وتعبير متأمل ولطيف على وجهها، ونظرتها موجهة نحو الأسفل نحو الأرض الرطبة، داخل الغابة الهادئة المليئة بالضباب. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_pose_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-31T19:18:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147393348 photography ai-image-prompts cinematic, quality boost, ultra detailed, sharp focus, high clarity, crisp textures, balanced lighting, clean composition, rich color depth, high dynamic range, photorealistic rendering, refined details, professional finish, natural contrast, clean edges, noise free, artifact free, high fidelity, polished aesthetic, premium visual quality, masterful execution, the visual style is a delicate traditional watercolor and ink illustration characterized by fine, economical linework and translucent wet-on-wet washes. forms are stylized with whimsical, elongated elegance and a melancholic fairy-tale charm, softening edges into ethereal fading contours. the palette is a muted symphony of ochre, sepia, dusty rose, pale sage, and warm ivory, layered with subtle granulation. lighting is soft, diffused, and ambient, glowing from the paper itself to create gentle tonal transitions and a sense of quiet intimacy. the finish is distinctly matte, showcasing the visible tooth of cold-press paper and the organic pooling of pigment. the visual signature relies on the tension between precise, scratchy ink cross-hatching and the uncontrollable, blooming spread of transparent color. the conceptual mechanism operates by distilling narrative into fragile, atmospheric vignettes, using the unpredictability of the water medium to evoke nostalgia and gentle wonder. the attire logic centers on simple, timeless garments suited for pastoral or historical fairy-tale settings, rendered with a focus on texture and drape. attire includes loose linen smocks, heavy woolen coats, patched breeches, and soft leather boots. materials are defined by their surface: the scratchy weave of raw linen, the dense felted surface of wool, and the worn, creased grain of leather. construction features visible mending, wooden buttons, and simple lacing, while wear manifests as softened edges, slight discoloration at the cuffs, and a general sense of lived-in softness. the overall wardrobe impression is one of modest, practical comfort, where garments feel like protective layers against a chilly, misty world. a medium shot framed with the rule of thirds captures a solitary female figure standing at the edge of a misty, birch-lined forest path. she is rendered with a pronounced hourglass silhouette and a natural s-curve spinal posture, her form softly defined by layered translucent washes that gently suggest medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her flowing attire. her skin is depicted as a pristine, unblemished complexion, glowing with a warm ivory luminosity and a healthy sheen that catches the diffused ambient light, with subtle subsurface scattering where the light grazes her cheek. the composition uses a shallow depth of field, blurring the background trees into soft, granulated washes of sage and sepia. she wears a heavy, slate-blue woolen cloak over a pale linen dress, the fabric showing careful folds and softened wear. she stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward the damp earth, within the tranquil, mist-laden woodland. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147393348",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88c8f70d-1c7f-410a-bdb1-b13954b4df1b/original=true/88c8f70d-1c7f-410a-bdb1-b13954b4df1b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147393347",
+      "title": "Civitai prompt 147393347",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic, \nThe visual style is a delicate traditional watercolor and ink illustration characterized by fine, economical linework and translucent wet-on-wet washes. Forms are stylized with whimsical, elongated elegance and a melancholic fairy-tale charm, softening edges into ethereal fading contours. The palette is a muted symphony of ochre, sepia, dusty rose, pale sage, and warm ivory, layered with subtle granulation. Lighting is soft, diffused, and ambient, glowing from the paper itself to create gentle tonal transitions and a sense of quiet intimacy. The finish is distinctly matte, showcasing the visible tooth of cold-press paper and the organic pooling of pigment. The visual signature relies on the tension between precise, scratchy ink cross-hatching and the uncontrollable, blooming spread of transparent color. The conceptual mechanism operates by distilling narrative into fragile, atmospheric vignettes, using the unpredictability of the water medium to evoke nostalgia and gentle wonder.\nThe attire logic centers on simple, timeless garments suited for pastoral or historical fairy-tale settings, rendered with a focus on texture and drape. Attire includes loose linen smocks, heavy woolen coats, patched breeches, and soft leather boots. Materials are defined by their surface: the scratchy weave of raw linen, the dense felted surface of wool, and the worn, creased grain of leather. Construction features visible mending, wooden buttons, and simple lacing, while wear manifests as softened edges, slight discoloration at the cuffs, and a general sense of lived-in softness. The overall wardrobe impression is one of modest, practical comfort, where garments feel like protective layers against a chilly, misty world.\nA medium shot framed with the rule of thirds captures a solitary female figure standing at the edge of a misty, birch-lined forest path. She is rendered with a pronounced hourglass silhouette and a natural S-curve spinal posture, her form softly defined by layered translucent washes that gently suggest medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her flowing attire. Her skin is depicted as a pristine, unblemished complexion, glowing with a warm ivory luminosity and a healthy sheen that catches the diffused ambient light, with subtle subsurface scattering where the light grazes her cheek. The composition uses a shallow depth of field, blurring the background trees into soft, granulated washes of sage and sepia. She wears a heavy, slate-blue woolen cloak over a pale linen dress, the fabric showing careful folds and softened wear. She stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward the damp earth, within the tranquil, mist-laden woodland. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:v67_quality_boost_improve_k2_lora_f16:0.6000000238418579> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.5> <lora:the_look_improve_k2_lora_f16:1> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579>",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147393347",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39d20886-624a-4f9d-9e44-efd61250b9e7/original=true/39d20886-624a-4f9d-9e44-efd61250b9e7.jpeg",
+      "model": "krea_2_turbo_q8p",
+      "model_version_ids": [
+        3068874,
+        3140016,
+        3211112,
+        3296632,
+        3360903,
+        3396757,
+        3413867
+      ],
+      "width": 1536,
+      "height": 1024,
+      "seed": 864879608,
+      "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-31T19:18:28.320300+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "22b344a34e568f64652824875edfc698a2dc4e2f73fd434619e75625ddf84731",
+      "prompt_ar": "سينمائي, \nالنمط المرئي عبارة عن رسم توضيحي تقليدي دقيق بالألوان المائية والحبر يتميز بخطوط دقيقة واقتصادية وغسلات شفافة مبللة على رطبة. تم تصميم الأشكال بأناقة غريبة وطويلة وسحر حكاية خرافية حزينة، مما أدى إلى تنعيم الحواف إلى خطوط باهتة أثيرية. اللوحة عبارة عن سيمفونية صامتة من المغرة، والبني الداكن، والورد المغبر، والمريمية الشاحبة، والعاج الدافئ، مع طبقات من الحبيبات الدقيقة. الإضاءة ناعمة ومنتشرة ومحيطة، وتتوهج من الورقة نفسها لتخلق انتقالات لونية لطيفة وإحساسًا بالحميمية الهادئة. اللمسة النهائية غير لامعة بشكل واضح، حيث تعرض الأسنان المرئية لورق الضغط البارد والتجمع العضوي للصبغة. يعتمد التوقيع المرئي على التوتر بين التظليل الدقيق والحبر المخدش وانتشار اللون الشفاف الذي لا يمكن السيطرة عليه. تعمل الآلية المفاهيمية عن طريق استخلاص السرد في صور قصيرة هشة ذات طابع جوي، وذلك باستخدام عدم القدرة على التنبؤ بالوسط المائي لإثارة الحنين والعجب اللطيف.\nيتمحور منطق الملابس حول الملابس البسيطة والخالدة المناسبة للقصص الخيالية الرعوية أو التاريخية، والتي يتم تقديمها مع التركيز على الملمس والثنيات. تشتمل الملابس على عباءات من الكتان الفضفاضة ومعاطف صوفية ثقيلة وسراويل مرقعة وأحذية جلدية ناعمة. يتم تحديد المواد من خلال سطحها: نسج الكتان الخام، وسطح الصوف الكثيف، وحبوب الجلد المتجعدة البالية. يتميز البناء بإصلاح واضح، وأزرار خشبية، ورباط بسيط، بينما يظهر التآكل كحواف ناعمة، وتغير طفيف في اللون عند أطراف الأكمام، وإحساس عام بالنعومة الحية. الانطباع العام لخزانة الملابس هو انطباع بسيط ومريح عملي، حيث تبدو الملابس وكأنها طبقات واقية ضد عالم بارد وضبابي.\nلقطة متوسطة مؤطرة بقاعدة الأثلاث تصور شخصية أنثى منعزلة تقف على حافة طريق غابة ضبابي تصطف على جانبيه أشجار البتولا. لقد تم تقديمها بشكل صورة ظلية واضحة على شكل ساعة رملية ووضعية العمود الفقري الطبيعية ذات منحنى على شكل حرف S، وتم تحديد شكلها بهدوء من خلال طبقات شفافة من الغسلات التي تشير بلطف إلى ثديين متوسطي الحجم على شكل دمعة ومرتفعين وعضلات أرداف ثابتة ومحددة جيدًا أسفل ملابسها المتدفقة. تم تصوير بشرتها على أنها بشرة نقية لا تشوبها شائبة، تتوهج مع لمعان عاجي دافئ ولمعان صحي يلتقط الضوء المحيط المنتشر، مع تناثر دقيق تحت السطح حيث يلامس الضوء خدها. يستخدم التكوين عمقًا ضحلًا للمجال، مما يؤدي إلى تشويش أشجار الخلفية في طبقات ناعمة ومحببة من المريمية والبني الداكن. ترتدي عباءة صوفية ثقيلة ذات لون أزرق أردوازي فوق فستان من الكتان الشاحب، ويظهر القماش طيات دقيقة وتآكلًا ناعمًا. تقف بوضعية هادئة ومنتصبة، وتعبير متأمل ولطيف على وجهها، ونظرتها موجهة نحو الأسفل نحو الأرض الرطبة، داخل الغابة الهادئة المليئة بالضباب. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:v67_quality_boost_improve_k2_lora_f16:0.6000000238418579> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_pose_char_improve_k2_lora_f16:0.5> <lora:the_look_improve_k2_lora_f16:1> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <لورا:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-31T19:18:30Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147393347 photography ai-image-prompts cinematic, the visual style is a delicate traditional watercolor and ink illustration characterized by fine, economical linework and translucent wet-on-wet washes. forms are stylized with whimsical, elongated elegance and a melancholic fairy-tale charm, softening edges into ethereal fading contours. the palette is a muted symphony of ochre, sepia, dusty rose, pale sage, and warm ivory, layered with subtle granulation. lighting is soft, diffused, and ambient, glowing from the paper itself to create gentle tonal transitions and a sense of quiet intimacy. the finish is distinctly matte, showcasing the visible tooth of cold-press paper and the organic pooling of pigment. the visual signature relies on the tension between precise, scratchy ink cross-hatching and the uncontrollable, blooming spread of transparent color. the conceptual mechanism operates by distilling narrative into fragile, atmospheric vignettes, using the unpredictability of the water medium to evoke nostalgia and gentle wonder. the attire logic centers on simple, timeless garments suited for pastoral or historical fairy-tale settings, rendered with a focus on texture and drape. attire includes loose linen smocks, heavy woolen coats, patched breeches, and soft leather boots. materials are defined by their surface: the scratchy weave of raw linen, the dense felted surface of wool, and the worn, creased grain of leather. construction features visible mending, wooden buttons, and simple lacing, while wear manifests as softened edges, slight discoloration at the cuffs, and a general sense of lived-in softness. the overall wardrobe impression is one of modest, practical comfort, where garments feel like protective layers against a chilly, misty world. a medium shot framed with the rule of thirds captures a solitary female figure standing at the edge of a misty, birch-lined forest path. she is rendered with a pronounced hourglass silhouette and a natural s-curve spinal posture, her form softly defined by layered translucent washes that gently suggest medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her flowing attire. her skin is depicted as a pristine, unblemished complexion, glowing with a warm ivory luminosity and a healthy sheen that catches the diffused ambient light, with subtle subsurface scattering where the light grazes her cheek. the composition uses a shallow depth of field, blurring the background trees into soft, granulated washes of sage and sepia. she wears a heavy, slate-blue woolen cloak over a pale linen dress, the fabric showing careful folds and softened wear. she stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward the damp earth, within the tranquil, mist-laden woodland. <lora:fantasy_tower_dbx_dark_semi_real_k2_lora_f16:1> <lora:v67_quality_boost_improve_k2_lora_f16:0.6000000238418579> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.5> <lora:the_look_improve_k2_lora_f16:1> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147393347",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39d20886-624a-4f9d-9e44-efd61250b9e7/original=true/39d20886-624a-4f9d-9e44-efd61250b9e7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147393345",
+      "title": "Civitai prompt 147393345",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic, z1os, ultra detailed, quality boost, ultra detailed, sharp focus, high clarity, crisp textures, balanced lighting, clean composition, rich color depth, high dynamic range, photorealistic rendering, refined details, professional finish, natural contrast, clean edges, noise free, artifact free, high fidelity, polished aesthetic, premium visual quality, masterful execution, \nThe visual style is a delicate mixed-media illustration characterized by loose, sketchy colored pencil lines and soft, translucent gouache washes on textured paper. Forms are stylized with a naive, slightly elongated elegance, creating a quiet, philosophical presence. The palette is a muted symphony of pale blue, soft ochre, dusty grey, and warm cream. Lighting is flat, soft, and ambient, emerging gently from the paper rather than a single source, resulting in a matte, tactile finish with visible pencil grain and layered collage fragments. The visual signature is the stark juxtaposition of vast, empty space with small, meticulously observed figures. The conceptual mechanism operates by distilling profound existential themes—such as mortality, love, and loneliness—into disarmingly simple, gentle visual poetry that invites quiet contemplation.\nThe clothing logic reflects a modest, timeless wardrobe that emphasizes texture and gentle wear over fashion. Attire includes loose woolen coats, simple cotton dresses, slightly oversized striped shirts, and soft knitted scarves. Materials are rendered with sketchy pencil strokes and flat color washes, defining the dense nap of felted wool, the crisp fold of cotton, and the soft drape of knitwear. Construction details feature simple wooden buttons, visible mending, and slightly uneven hems, while wear manifests as softened edges and faded color at the elbows. The overall wardrobe impression is one of quiet, philosophical comfort, where garments feel like familiar, protective layers that ground the ethereal figures in a tangible, everyday reality.\nA medium shot framed with the rule of thirds captures a solitary female figure standing beside a large, sparsely furnished window. She is rendered with a pronounced hourglass silhouette and a natural S-curve spinal posture, her form defined by delicate pencil contours and flat gouache fills that subtly indicate medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her simple attire. Her skin is depicted as a pristine, unblemished complexion with a healthy sheen, glowing with a soft cream luminosity that emerges gently from the paper's surface. The composition uses a shallow depth of field, blurring the background landscape into simple, muted washes of pale blue and ochre. She wears a loose, oversized grey woolen coat over a simple dress, the fabric showing sketchy, softened wear at the cuffs. She stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward a small bird resting on the windowsill, within the hushed, sunlit room. <lora:hta_citadel_fantasy_paint_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579> <lora:sw_poetic_4_k2_lora_f16:0.6000000238418579> <lora:alexey_kazantsev_sensual_photo_k2_lora_f16:0.6000000238418579>",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147393345",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc0a4416-57ab-4884-ab15-21e644fae50c/original=true/fc0a4416-57ab-4884-ab15-21e644fae50c.jpeg",
+      "model": "krea_2_turbo_q8p",
+      "model_version_ids": [
+        3068874,
+        3211112,
+        3296632,
+        3316586,
+        3345202,
+        3413867
+      ],
+      "width": 1536,
+      "height": 1024,
+      "seed": 2612373698,
+      "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-31T19:18:28.320360+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e50abd14e109f741c9f7c6f1eb7ffc7fcd6d7b4ac685221fe35a4de1a253c98f",
+      "prompt_ar": "سينمائي، z1os، مفصل للغاية، تعزيز الجودة، مفصل للغاية، تركيز حاد، وضوح عالي، أنسجة واضحة، إضاءة متوازنة، تكوين نظيف، عمق ألوان غني، نطاق ديناميكي عالي، عرض واقعي، تفاصيل محسنة، تشطيب احترافي، تباين طبيعي، حواف نظيفة، خالي من الضوضاء، خالي من القطع الأثرية، دقة عالية، جمالية مصقولة، جودة بصرية متميزة، تنفيذ بارع، \nالنمط المرئي عبارة عن رسم توضيحي دقيق متعدد الوسائط يتميز بخطوط قلم رصاص ملونة فضفاضة وألوان غواش ناعمة وشفافة على ورق محكم. تم تصميم الأشكال بأناقة ساذجة وطويلة قليلاً، مما يخلق حضوراً فلسفيًا هادئًا. اللوحة عبارة عن سيمفونية صامتة من اللون الأزرق الفاتح، والمغرة الناعمة، والرمادي المغبر، والكريمي الدافئ. الإضاءة مسطحة وناعمة ومحيطة، وتنبثق بلطف من الورق بدلاً من مصدر واحد، مما يؤدي إلى لمسة نهائية غير لامعة وملموسة مع حبيبات قلم رصاص مرئية وشظايا مجمعة ذات طبقات. التوقيع البصري هو التجاور الصارخ بين المساحة الفارغة الشاسعة والأشكال الصغيرة التي تمت مراقبتها بدقة. تعمل الآلية المفاهيمية من خلال استخلاص موضوعات وجودية عميقة - مثل الموت، والحب، والوحدة - إلى شعر بصري لطيف وبسيط يدعو إلى التأمل الهادئ.\nيعكس منطق الملابس خزانة ملابس متواضعة وخالدة تركز على الملمس والارتداء اللطيف على الموضة. تشمل الملابس معاطف صوفية فضفاضة، وفساتين قطنية بسيطة، وقمصان مخططة كبيرة الحجم قليلاً، وأوشحة محبوكة ناعمة. يتم تقديم المواد باستخدام ضربات قلم رصاص وغسلات ألوان مسطحة، مما يحدد القيلولة الكثيفة من الصوف الملبد، وطيات القطن الهشة، والثنيات الناعمة للملابس المحبوكة. تتميز تفاصيل البناء بأزرار خشبية بسيطة، وإصلاح مرئي، وحواشٍ غير متساوية قليلاً، بينما يظهر التآكل كحواف ناعمة ولون باهت عند المرفقين. الانطباع العام لخزانة الملابس هو انطباع هادئ ومريح فلسفي، حيث تبدو الملابس وكأنها طبقات مألوفة وقائية ترسيخ الشخصيات الأثيرية في واقع يومي ملموس.\nلقطة متوسطة مؤطرة بقاعدة الأثلاث تصور شخصية أنثى منعزلة تقف بجانب نافذة كبيرة ذات أثاث متناثر. لقد تم تقديمها بشكل واضح على شكل الساعة الرملية ووضعية العمود الفقري الطبيعية ذات المنحنى على شكل حرف S، ويتم تحديد شكلها من خلال خطوط قلم رصاص دقيقة وحشوات الغواش المسطحة التي تشير بمهارة إلى ثديين متوسطي الحجم على شكل دمعة ومرتفعين وعضلات أرداف ثابتة ومحددة جيدًا تحت ملابسها البسيطة. تم تصوير بشرتها على أنها بشرة نقية لا تشوبها شائبة مع لمعان صحي، متوهجة بتألق كريمي ناعم يخرج بلطف من سطح الورقة. يستخدم التكوين عمقًا ضحلًا للمجال، مما يؤدي إلى تشويش منظر الخلفية إلى طبقات بسيطة وصامتة من اللون الأزرق الفاتح والمغرة. ترتدي معطفًا صوفيًا رماديًا فضفاضًا وكبير الحجم فوق فستان بسيط، ويظهر القماش تآكلًا ناعمًا عند الأصفاد. تقف في وضع هادئ ومنتصب، وتعبير متأمل ولطيف على وجهها، ونظرتها موجهة نحو الأسفل نحو طائر صغير يستريح على حافة النافذة، داخل الغرفة الهادئة المضاءة بنور الشمس. <lora:hta_citadel_fantasy_paint_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_pose_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579> <لورا:sw_poetic_4_k2_lora_f16:0.6000000238418579> <lora:alexey_kazantsev_sensual_photo_k2_lora_f16:0.6000000238418579>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-31T19:18:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147393345 fashion ai-image-prompts cinematic, z1os, ultra detailed, quality boost, ultra detailed, sharp focus, high clarity, crisp textures, balanced lighting, clean composition, rich color depth, high dynamic range, photorealistic rendering, refined details, professional finish, natural contrast, clean edges, noise free, artifact free, high fidelity, polished aesthetic, premium visual quality, masterful execution, the visual style is a delicate mixed-media illustration characterized by loose, sketchy colored pencil lines and soft, translucent gouache washes on textured paper. forms are stylized with a naive, slightly elongated elegance, creating a quiet, philosophical presence. the palette is a muted symphony of pale blue, soft ochre, dusty grey, and warm cream. lighting is flat, soft, and ambient, emerging gently from the paper rather than a single source, resulting in a matte, tactile finish with visible pencil grain and layered collage fragments. the visual signature is the stark juxtaposition of vast, empty space with small, meticulously observed figures. the conceptual mechanism operates by distilling profound existential themes—such as mortality, love, and loneliness—into disarmingly simple, gentle visual poetry that invites quiet contemplation. the clothing logic reflects a modest, timeless wardrobe that emphasizes texture and gentle wear over fashion. attire includes loose woolen coats, simple cotton dresses, slightly oversized striped shirts, and soft knitted scarves. materials are rendered with sketchy pencil strokes and flat color washes, defining the dense nap of felted wool, the crisp fold of cotton, and the soft drape of knitwear. construction details feature simple wooden buttons, visible mending, and slightly uneven hems, while wear manifests as softened edges and faded color at the elbows. the overall wardrobe impression is one of quiet, philosophical comfort, where garments feel like familiar, protective layers that ground the ethereal figures in a tangible, everyday reality. a medium shot framed with the rule of thirds captures a solitary female figure standing beside a large, sparsely furnished window. she is rendered with a pronounced hourglass silhouette and a natural s-curve spinal posture, her form defined by delicate pencil contours and flat gouache fills that subtly indicate medium-sized, teardrop-shaped, high-set breasts and firm, well-defined glutes beneath her simple attire. her skin is depicted as a pristine, unblemished complexion with a healthy sheen, glowing with a soft cream luminosity that emerges gently from the paper's surface. the composition uses a shallow depth of field, blurring the background landscape into simple, muted washes of pale blue and ochre. she wears a loose, oversized grey woolen coat over a simple dress, the fabric showing sketchy, softened wear at the cuffs. she stands with a quiet, upright posture, a pensive, gentle expression on her face, her gaze directed downward toward a small bird resting on the windowsill, within the hushed, sunlit room. <lora:hta_citadel_fantasy_paint_k2_lora_f16:1> <lora:textfusion_refusal_reduction_improve_k2_lora_f16:1> <lora:more_dynamic_poses_posing_char_improve_k2_lora_f16:0.800000011920929> <lora:detail_slider_k2_lora_f16:0.6000000238418579> <lora:background_detail_enhancer_addon_improve_k2_lora_f16:0.6000000238418579> <lora:sw_poetic_4_k2_lora_f16:0.6000000238418579> <lora:alexey_kazantsev_sensual_photo_k2_lora_f16:0.6000000238418579> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147393345",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc0a4416-57ab-4884-ab15-21e644fae50c/original=true/fc0a4416-57ab-4884-ab15-21e644fae50c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147445005",
+      "title": "Civitai prompt 147445005",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Candid indoor lifestyle selfie portrait captured on a smartphone camera, modern K-pop fashion editorial aesthetic with vibrant tones, crisp focus, smooth skin texture, and sharp details. High-end youth culture style with precise attention to close-up selfie composition, realistic facial expressions, and accurate anatomical proportions.\n**SUBJECT:**\n- Two young East Asian women with distinct, trendy facial features, flawless glowing complexions, and expressive, charismatic personalities.\n- Left subject: Symmetrical oval face with soft contours, sharp cat-eye eyeliner, warm brown almond-shaped eyes, pink blush, and glossy lips. Dark brown hair styled in a chic messy updo with loose front strands.\n- Right subject: Soft round face with smooth skin, large expressive eyes adorned with cute white heart-shaped cheek accents, pink lips. Short black bob haircut partially covered by headwear.\n- Anatomically accurate hands with manicured nails raised near their faces in playful peace-sign (V-sign) gestures.\n**POSE & ANATOMICAL PROPORTIONS:**\n- Dynamic close-up selfie angle taken from a slightly high perspective, capturing both women leaning closely together.\n- Left subject's hand and arm extend forward toward the camera, holding the framing with a two-finger peace sign.\n- Right subject poses right behind and beside her, smiling softly while flashing a peace sign near her face.\n- Balanced upper body and shoulder proportions highlighting modern streetwear fashion aesthetics.\n**CLOTHING & ACCESSORIES:**\n- Left subject: Brown textured halter-neck strap top with a wide fabric choker necklace featuring metallic or beaded letter accents (\"umaru\" or similar graphic styling), paired with a dark top layer.\n- Right subject: Chunky knitted pink beanie hat with cat ear shapes and a prominent white brand patch (\"CHARLES JEFFREY LOVERBOY\"), paired with a glossy silver metallic crop top and fine silver necklace.\n**SETTING & LIGHTING:**\n- Indoor modern room setting with a minimal neutral greyish-white wall in the background.\n- Clean, bright ambient lighting combined with indoor light sources, creating soft highlights on their skin, accentuating the fabric textures, and producing clean catchlights in their eyes.\n <lora:ultra_real_moss_v2:0.5> <lora:moss_realism_v3:0.5>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147445005",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4bae2d7-2965-4a97-8779-ebe5ff6041ff/original=true/c4bae2d7-2965-4a97-8779-ebe5ff6041ff.jpeg",
+      "model": "fineviewMOSS_moss3DEEPSICK_fp8",
+      "model_version_ids": [
+        3416438,
+        3417962,
+        3436921
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 145921355,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-10-31T19:18:28.320387+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1288f9c60b82825e0c4dc6ea00fbef323e37a8efbab42d8811cc4fc65cb3bd77",
+      "prompt_ar": "صورة شخصية صريحة لأسلوب الحياة الداخلي تم التقاطها بكاميرا الهاتف الذكي، وجمالية تحريرية عصرية لأزياء البوب ​​الكورية بألوان نابضة بالحياة، وتركيز واضح، وملمس ناعم للبشرة، وتفاصيل حادة. أسلوب ثقافة شبابية راقية مع الاهتمام الدقيق بتركيبة الصور الشخصية القريبة وتعبيرات الوجه الواقعية والنسب التشريحية الدقيقة.\n**الموضوع:**\n- امرأتان شابتان من شرق آسيا تتمتعان بملامح وجه مميزة وعصرية، وبشرة متوهجة خالية من العيوب، وشخصيات جذابة ومعبرة.\n- الموضوع الأيسر: وجه بيضاوي متناسق ذو ملامح ناعمة، وكحل حاد على شكل عين القطة، وعيون بنية دافئة على شكل لوز، وأحمر خدود وردي، وشفاه لامعة. شعر بني داكن مصفف في تسريحة مرفوعة أنيقة وفوضوية مع خيوط أمامية فضفاضة.\n- الموضوع الصحيح: وجه مستدير ناعم ذو بشرة ناعمة، عيون كبيرة معبرة مزينة بلمسات خد بيضاء لطيفة على شكل قلب، شفاه وردية. قصة شعر قصيرة سوداء اللون مغطاة جزئيًا بأغطية الرأس.\n- أيدي دقيقة تشريحيًا مع أظافر مشذبة مرفوعة بالقرب من وجوههم في إيماءات مرحة بعلامة السلام (علامة V).\n**الوضعية والنسب التشريحية:**\n- زاوية سيلفي ديناميكية قريبة مأخوذة من منظور مرتفع قليلاً، تصور كلتا المرأتين تتكئان معًا بشكل وثيق.\n- تمتد يد وذراع الشخص الأيسر للأمام نحو الكاميرا، ممسكة بالإطار بعلامة السلام بإصبعين.\n- يقف الشخص الموجود على اليمين خلفها وبجانبها مباشرةً، ويبتسم بهدوء بينما يومض بعلامة السلام بالقرب من وجهها.\n- نسب متوازنة للجزء العلوي من الجسم والكتف تسلط الضوء على جماليات أزياء الشارع الحديثة.\n**الملابس والإكسسوارات:**\n- الموضوع على اليسار: الجزء العلوي مصنوع من نسيج بني مع حزام على شكل رسن مع قلادة واسعة من القماش تتميز بلمسات معدنية أو حروف مطرزة (\"umaru\" أو تصميم رسومي مشابه)، مقترنة بطبقة علوية داكنة.\n- الموضوع الصحيح: قبعة صغيرة وردية محبوكة مكتنزة بأشكال أذن قطة ورقعة بيضاء بارزة تحمل العلامة التجارية (\"CHARLES JEFFREY LOVERBOY\")، مقترنة بجزء علوي قصير معدني فضي لامع وقلادة فضية فاخرة.\n**الإعداد والإضاءة:**\n- أجواء داخلية حديثة للغرفة مع جدار أبيض رمادي محايد في الخلفية.\n- الإضاءة المحيطة النظيفة والمشرقة جنبًا إلى جنب مع مصادر الإضاءة الداخلية، مما يخلق أضواء ناعمة على بشرتهم، ويبرز نسيج القماش، وينتج أضواء نظيفة في أعينهم.\n <لورا:ultra_real_moss_v2:0.5> <لورا:moss_realism_v3:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-10-31T19:18:30Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147445005 fashion ai-image-prompts candid indoor lifestyle selfie portrait captured on a smartphone camera, modern k-pop fashion editorial aesthetic with vibrant tones, crisp focus, smooth skin texture, and sharp details. high-end youth culture style with precise attention to close-up selfie composition, realistic facial expressions, and accurate anatomical proportions. **subject:** - two young east asian women with distinct, trendy facial features, flawless glowing complexions, and expressive, charismatic personalities. - left subject: symmetrical oval face with soft contours, sharp cat-eye eyeliner, warm brown almond-shaped eyes, pink blush, and glossy lips. dark brown hair styled in a chic messy updo with loose front strands. - right subject: soft round face with smooth skin, large expressive eyes adorned with cute white heart-shaped cheek accents, pink lips. short black bob haircut partially covered by headwear. - anatomically accurate hands with manicured nails raised near their faces in playful peace-sign (v-sign) gestures. **pose & anatomical proportions:** - dynamic close-up selfie angle taken from a slightly high perspective, capturing both women leaning closely together. - left subject's hand and arm extend forward toward the camera, holding the framing with a two-finger peace sign. - right subject poses right behind and beside her, smiling softly while flashing a peace sign near her face. - balanced upper body and shoulder proportions highlighting modern streetwear fashion aesthetics. **clothing & accessories:** - left subject: brown textured halter-neck strap top with a wide fabric choker necklace featuring metallic or beaded letter accents (\"umaru\" or similar graphic styling), paired with a dark top layer. - right subject: chunky knitted pink beanie hat with cat ear shapes and a prominent white brand patch (\"charles jeffrey loverboy\"), paired with a glossy silver metallic crop top and fine silver necklace. **setting & lighting:** - indoor modern room setting with a minimal neutral greyish-white wall in the background. - clean, bright ambient lighting combined with indoor light sources, creating soft highlights on their skin, accentuating the fabric textures, and producing clean catchlights in their eyes. <lora:ultra_real_moss_v2:0.5> <lora:moss_realism_v3:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147445005",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4bae2d7-2965-4a97-8779-ebe5ff6041ff/original=true/c4bae2d7-2965-4a97-8779-ebe5ff6041ff.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-31T09:47:15.722804+00:00",
-  "prompt_count": 2217,
+  "generated_at": "2026-10-31T19:18:31.218238+00:00",
+  "prompt_count": 2221,
   "translation": {
     "language": "ar",
-    "translated_count": 39,
-    "skipped_count": 2171,
+    "translated_count": 4,
+    "skipped_count": 2210,
     "failed_count": 7,
-    "updated_at": "2026-10-31T09:47:15Z"
+    "updated_at": "2026-10-31T19:18:30Z"
   }
 }
