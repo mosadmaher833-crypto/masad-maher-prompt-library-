@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-10-31T19:18:09.779058+00:00",
+  "generated_at": "2026-11-01T10:37:24.647043+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1759,15 +1759,49 @@
       "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
       "license": "GPL-3.0",
       "status": "pending_review"
+    },
+    {
+      "id": "gh-8f80f9524b5b",
+      "title": "CLAUDE.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "## Community Templates (remote manifest)\n\n`providers-manifest.json` (website repo, served from ao.aiolaola.com) carries `communityTemplates` —\ncurated-only import (URL must be listed; optional `sha256` verified). Endpoints in `web/server.js`:\n`GET /api/community/templates`, `POST /api/community/import` (engine-validated, saved to 我的工作流).\nContribution flow documented in CONTRIBUTING.md. Listing/de-listing needs only a website push, no release.\nNOTE: manifest `relayPresets` that duplicate built-ins are NOT redundant — old versions rely on them\n(contract test enforces; do not remove).\n\n## Release Pipeline (all automatic)\n\nPush `v*` tag → npm (Trusted Publishing/OIDC) + Docker (waits for npm version to appear — race guard).\nPush `desktop-v*` tag → 3-platform desktop builds. macOS signing auto-activates when CSC_LINK etc.\nsecrets are set (`desktop/electron-builder.config.cjs` branches on cert presence; afterSign skips ad-hoc\nre-sign for real certs). CI-only steps must be rehearsed locally before committing (see memory:\ndangling .bin symlinks broke a mac build once).\n\n## Skills (methodology playbooks)\n\nA step can carry `skill: \"<name>\"` (or `skills: [..]`) — the methodology body is injected into that\nstep's system prompt at run time (`src/skills/loader.ts`, applied in `core/executor.ts`). Missing\nskills are skipped (warn), never fatal.\n\nSkills are resolved from **several dirs, merged by name** (same-name: earlier dir wins) —\n`AO_SKILLS_DIR` > `./skills` > `superpowers-zh` (the dependency, 20 skills) > this package's own\n`ao-skills/`. It must stay a merge, not first-dir-wins: under the old single-dir rule, adding one\nbundled dir made all 20 superpowers skills vanish. `AO_SKILLS_DIR` is still an *override* — it just\nno longer empties the rest.\n\n`ao-skills/shortfilm-prompt` is ours: the 5-part cinematic video-prompt methodology, adapted from\nthe sister repo `ai-shortfilm-prompts` (MIT, same author). The upstream `SKILL.md` is an\n**interactive** Claude Code skill (it asks via AskUserQuestion, `Read`s template files); AO steps\nhave no tools, so injecting it verbatim makes the model ask questions instead of writing a prompt.\nKeep the AO copy single-turn — `test/skills.ts` pins that.\n\n## Prompt Lab\n\n`src/cli/prompt.ts` — optimize (system/user meta-prompt that yields a *better prompt*, not the\nanswer), test (run a prompt on a sample), `scoreOutputs` (LLM judge ranks candidates). Stored as\n`~/.ao/prompts/*.prompt.json` (override with `AO_PROMPTS_DIR`), shared between the `ao prompt` CLI\nand the Studio \"Prompts\" tab (`/api/prompt/*` in `web/server.js`).\n\n## Credentials: `~/.ao/.env` (user-level)\n\n`.env` is read from two places, shell env always wins: **shell > `./.env` (project) > `~/.ao/.env` (user)**.\n`~/.ao` already holds teams / prompts / roles, so credentials live there too — configure once and every directory works\n(`ao doctor` says so when it finds Studio-only keys). `loadEnvFile` never overwrites an existing value, so the order is\njust the order of the two calls in `src/cli.ts`.\n\n## Teams / Loadouts\n\nA \"team\" is a saved, named set of roles decoupled from any task — `src/cli/team.ts`.\n`ao run --team` = `composeWorkflow({ pinnedRoles })` with the catalog locked to the team's\nroles. Teams persist as `~/.ao/teams/*.team.yaml` (override dir with `AO_TEAMS_DIR`) and are\n**shared between the CLI and the web Studio** (`GET/POST/DELETE /api/teams` in `web/server.js`).\nBring-your-own roles: `AO_AGENTS_DIR=/path` overrides the built-in catalog everywhere.\n\n## My Roles (user-built, additive)\n\n`~/.ao/roles/<id>.md` (override dir with `AO_USER_ROLES_DIR`) holds user-created roles — referenced\nas `my/<id>` in workflows. Unlike `AO_AGENTS_DIR` (which *replaces* the catalog), these are\n**merged on top** of the built-in library: `loadAgent` falls back to the user dir for `my/*`\n(`src/agents/loader.ts`), so run/compose/validate/`ao roles` all resolve them. Studio: \"角色组队 →\n我的\" tab has create/delete UI (`POST/DELETE /api/roles/my` in `web/server.js`); the Prompt\nGenerator's system mode has \"存为我的角色\" to turn a generated system prompt into a role. Role\nfavorites (☆常用, localStorage) mirror the workflow-card star.\n\n## Studio runs outlive the page\n\n`/api/run` no longer ties the engine process to one HTTP response. Each run has an in-memory event buffer\n(`web/run-stream.js`, `RunStreamHub`): the browser is just a subscriber, so closing/refreshing the page only\nunsubscribes. `GET /api/live-runs` lists this engine process's runs; `POST /api/live-runs/stream {runId}` replays\nevery buffered event and then follows live output (RunManager re-attaches active runs on load — the UI is rebuilt\nfrom the same events); `POST /api/run-cancel {runId}` is the only way to stop a workflow (SIGTERM → the engine's\nnormal interrupted archive, resumable; job record → `cancelled`). Raw stdout/stderr are dropped first when a buffer\nexceeds its cap — structural events never are. Buffers are kept 10 min after a run ends. A server restart loses\nthe buffers (the archives in `ao-output/` remain). `/api/run-role` (single expert) still stops on disconnect.\nJob records (`src/core/job-store.ts`, `.local/jobs/`) are bookkeeping only: a storage failure must never block a run.\n\n## Resume — Iterative Optimization\n\nAfter `ao run` completes, all step outputs are saved to `ao-output/<name>-<timestamp>/`. Users can iterate on any step without re-running the entire workflow.\n\nReuse is computed from the DAG, not from \"it finished last time\" (`resumeSkipDetail` in `src/output/reporter.ts`):\n- a completed step is reused only when **everything it depends on is also reused** — edit the workflow (insert a step, repoint a\n  `depends_on`) and the affected downstream steps re-run instead of silently handing back a product that never saw the new upstream;\n  the run header names them (`…旧产物已作废，会一起重跑: …`);\n- steps that were **skipped by `condition`** last time don't count as \"will re-run\" — otherwise the常年-false narration steps would\n  force a re-concat on every resume;\n- ids that no longer exist in the current workflow (renamed / deleted steps) are excluded from the reuse count and named separately,\n  so \"跳过已完成步骤: N 个\" is a number you can trust when N is what stands between you and re-paying for video steps.\n\n### When to suggest `--resume`\n\nAfter a workflow finishes, **always tell the user they can iterate**:\n\n> Workflow complete. Outputs saved to `ao-output/<dir>/`.\n>\n> To improve a specific step, use:\n>",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "jnMetaCode/agency-orchestrator",
+      "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+      "license": null,
+      "status": "pending_review"
+    },
+    {
+      "id": "gh-738a99e225eb",
+      "title": "CLAUDE.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "`--feedback` implies `--resume last` when `--resume` is omitted. It requires `--from`. Downstream steps re-run automatically with the revised output.\n\n### Reading previous outputs\n\nBefore suggesting changes, read the actual outputs:\n\n1. Check `ao-output/` for the latest run directory\n2. Read `metadata.json` to see step IDs and states\n3. Read individual step files in `steps/` to understand what was produced\n4. Then suggest which step to re-run and why\n\n## Workflow YAML Format\n\n`schemas/workflow.schema.json` is the editor-facing JSON Schema (published at ao.aiolaola.com/schemas/ via `scripts/publish-schema.mjs`,\nrun by website predev/prebuild; also shipped in the npm package). **When you add a YAML field, add it there too** — it uses\n`additionalProperties: false` on purpose (typos like `depend_on` must be flagged), so a forgotten field red-lines valid workflows.\n`test/workflow-schema.ts` pins: all built-in templates pass, parser-rejected shapes are rejected, provider suggestions match the\nregistries (re-sync with `npm run build && node scripts/sync-schema-providers.mjs` after adding a provider).",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "jnMetaCode/agency-orchestrator",
+      "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"image prompt\"",
-    "Gemini prompts",
-    "ChatGPT prompts"
+    "\"video prompt\"",
+    "Claude prompts",
+    "AI advertising prompts"
   ],
   "last_sources": []
 }

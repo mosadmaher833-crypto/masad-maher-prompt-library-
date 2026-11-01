@@ -1,8 +1,8 @@
 {
   "version": "1.1",
   "status": "ready_for_review",
-  "generated_at": "2026-10-31T19:18:28.087263+00:00",
-  "added_this_run": 0,
+  "generated_at": "2026-11-01T10:37:38.455715+00:00",
+  "added_this_run": 1,
   "errors": [
     "reddit-promptengineering: HTTP Error 429: Too Many Requests"
   ],
@@ -40,6 +40,23 @@
       "quality_score": 8.0,
       "review_status": "pending_review",
       "discovered_at": "2026-10-15T19:08:05.560702+00:00"
+    },
+    {
+      "id": "visual-566cd4801a81468d",
+      "title": "A young man, Reimagined character in Midjourney style",
+      "source_id": "reddit-midjourney",
+      "source": "Reddit r/midjourney",
+      "source_url": "https://www.reddit.com/r/midjourney/comments/1xkqo6t/a_young_man_reimagined_character_in_midjourney/",
+      "image_url": "https://preview.redd.it/ssge6d2ikwyh1.png?width=140&amp;height=140&amp;auto=webp&amp;s=c16c825619edd027b6b3eb0b0c85e4cf6e62d9cf",
+      "prompt_text": "front view of young man, A retro high-fidelity flat anime illustration, slightly low angle, looking upwards at his face, wearing a dark checkered jacket over a white collared shirt, cel shading, clean lines, detailed hand-painted texture, vintage anime color grading, High-contrast, aesthetic lighting, soft vignette, nostalgic atmosphere, --chaos 60 --ar 1:1 --profile qp927ru --stylize 600, Used the before image as an image prompt. &#32; submitted by &#32; /u/Euratza2052 [link] &#32; [comments]",
+      "prompt": "front view of young man, A retro high-fidelity flat anime illustration, slightly low angle, looking upwards at his face, wearing a dark checkered jacket over a white collared shirt, cel shading, clean lines, detailed hand-painted texture, vintage anime color grading, High-contrast, aesthetic lighting, soft vignette, nostalgic atmosphere, --chaos 60 --ar 1:1 --profile qp927ru --stylize 600, Used the before image as an image prompt. &#32; submitted by &#32; /u/Euratza2052 [link] &#32; [comments]",
+      "creator": "Euratza2052https://www.reddit.com/user/Euratza2052",
+      "creator_url": "",
+      "model": "midjourney",
+      "license": "community content — review reuse permission before publication",
+      "quality_score": 8.8,
+      "review_status": "pending_review",
+      "discovered_at": "2026-11-01T10:37:38.348178+00:00"
     }
   ],
   "policy": "review_required; never auto-publish social/community candidates"

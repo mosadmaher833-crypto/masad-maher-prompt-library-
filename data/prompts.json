@@ -100845,15 +100845,1301 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4bae2d7-2965-4a97-8779-ebe5ff6041ff/original=true/c4bae2d7-2965-4a97-8779-ebe5ff6041ff.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-8f80f9524b5b",
+      "title": "CLAUDE.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Claude"
+      ],
+      "prompt": "## Community Templates (remote manifest)\n\n`providers-manifest.json` (website repo, served from ao.aiolaola.com) carries `communityTemplates` —\ncurated-only import (URL must be listed; optional `sha256` verified). Endpoints in `web/server.js`:\n`GET /api/community/templates`, `POST /api/community/import` (engine-validated, saved to 我的工作流).\nContribution flow documented in CONTRIBUTING.md. Listing/de-listing needs only a website push, no release.\nNOTE: manifest `relayPresets` that duplicate built-ins are NOT redundant — old versions rely on them\n(contract test enforces; do not remove).\n\n## Release Pipeline (all automatic)\n\nPush `v*` tag → npm (Trusted Publishing/OIDC) + Docker (waits for npm version to appear — race guard).\nPush `desktop-v*` tag → 3-platform desktop builds. macOS signing auto-activates when CSC_LINK etc.\nsecrets are set (`desktop/electron-builder.config.cjs` branches on cert presence; afterSign skips ad-hoc\nre-sign for real certs). CI-only steps must be rehearsed locally before committing (see memory:\ndangling .bin symlinks broke a mac build once).\n\n## Skills (methodology playbooks)\n\nA step can carry `skill: \"<name>\"` (or `skills: [..]`) — the methodology body is injected into that\nstep's system prompt at run time (`src/skills/loader.ts`, applied in `core/executor.ts`). Missing\nskills are skipped (warn), never fatal.\n\nSkills are resolved from **several dirs, merged by name** (same-name: earlier dir wins) —\n`AO_SKILLS_DIR` > `./skills` > `superpowers-zh` (the dependency, 20 skills) > this package's own\n`ao-skills/`. It must stay a merge, not first-dir-wins: under the old single-dir rule, adding one\nbundled dir made all 20 superpowers skills vanish. `AO_SKILLS_DIR` is still an *override* — it just\nno longer empties the rest.\n\n`ao-skills/shortfilm-prompt` is ours: the 5-part cinematic video-prompt methodology, adapted from\nthe sister repo `ai-shortfilm-prompts` (MIT, same author). The upstream `SKILL.md` is an\n**interactive** Claude Code skill (it asks via AskUserQuestion, `Read`s template files); AO steps\nhave no tools, so injecting it verbatim makes the model ask questions instead of writing a prompt.\nKeep the AO copy single-turn — `test/skills.ts` pins that.\n\n## Prompt Lab\n\n`src/cli/prompt.ts` — optimize (system/user meta-prompt that yields a *better prompt*, not the\nanswer), test (run a prompt on a sample), `scoreOutputs` (LLM judge ranks candidates). Stored as\n`~/.ao/prompts/*.prompt.json` (override with `AO_PROMPTS_DIR`), shared between the `ao prompt` CLI\nand the Studio \"Prompts\" tab (`/api/prompt/*` in `web/server.js`).\n\n## Credentials: `~/.ao/.env` (user-level)\n\n`.env` is read from two places, shell env always wins: **shell > `./.env` (project) > `~/.ao/.env` (user)**.\n`~/.ao` already holds teams / prompts / roles, so credentials live there too — configure once and every directory works\n(`ao doctor` says so when it finds Studio-only keys). `loadEnvFile` never overwrites an existing value, so the order is\njust the order of the two calls in `src/cli.ts`.\n\n## Teams / Loadouts\n\nA \"team\" is a saved, named set of roles decoupled from any task — `src/cli/team.ts`.\n`ao run --team` = `composeWorkflow({ pinnedRoles })` with the catalog locked to the team's\nroles. Teams persist as `~/.ao/teams/*.team.yaml` (override dir with `AO_TEAMS_DIR`) and are\n**shared between the CLI and the web Studio** (`GET/POST/DELETE /api/teams` in `web/server.js`).\nBring-your-own roles: `AO_AGENTS_DIR=/path` overrides the built-in catalog everywhere.\n\n## My Roles (user-built, additive)\n\n`~/.ao/roles/<id>.md` (override dir with `AO_USER_ROLES_DIR`) holds user-created roles — referenced\nas `my/<id>` in workflows. Unlike `AO_AGENTS_DIR` (which *replaces* the catalog), these are\n**merged on top** of the built-in library: `loadAgent` falls back to the user dir for `my/*`\n(`src/agents/loader.ts`), so run/compose/validate/`ao roles` all resolve them. Studio: \"角色组队 →\n我的\" tab has create/delete UI (`POST/DELETE /api/roles/my` in `web/server.js`); the Prompt\nGenerator's system mode has \"存为我的角色\" to turn a generated system prompt into a role. Role\nfavorites (☆常用, localStorage) mirror the workflow-card star.\n\n## Studio runs outlive the page\n\n`/api/run` no longer ties the engine process to one HTTP response. Each run has an in-memory event buffer\n(`web/run-stream.js`, `RunStreamHub`): the browser is just a subscriber, so closing/refreshing the page only\nunsubscribes. `GET /api/live-runs` lists this engine process's runs; `POST /api/live-runs/stream {runId}` replays\nevery buffered event and then follows live output (RunManager re-attaches active runs on load — the UI is rebuilt\nfrom the same events); `POST /api/run-cancel {runId}` is the only way to stop a workflow (SIGTERM → the engine's\nnormal interrupted archive, resumable; job record → `cancelled`). Raw stdout/stderr are dropped first when a buffer\nexceeds its cap — structural events never are. Buffers are kept 10 min after a run ends. A server restart loses\nthe buffers (the archives in `ao-output/` remain). `/api/run-role` (single expert) still stops on disconnect.\nJob records (`src/core/job-store.ts`, `.local/jobs/`) are bookkeeping only: a storage failure must never block a run.\n\n## Resume — Iterative Optimization\n\nAfter `ao run` completes, all step outputs are saved to `ao-output/<name>-<timestamp>/`. Users can iterate on any step without re-running the entire workflow.\n\nReuse is computed from the DAG, not from \"it finished last time\" (`resumeSkipDetail` in `src/output/reporter.ts`):\n- a completed step is reused only when **everything it depends on is also reused** — edit the workflow (insert a step, repoint a\n  `depends_on`) and the affected downstream steps re-run instead of silently handing back a product that never saw the new upstream;\n  the run header names them (`…旧产物已作废，会一起重跑: …`);\n- steps that were **skipped by `condition`** last time don't count as \"will re-run\" — otherwise the常年-false narration steps would\n  force a re-concat on every resume;\n- ids that no longer exist in the current workflow (renamed / deleted steps) are excluded from the reuse count and named separately,\n  so \"跳过已完成步骤: N 个\" is a number you can trust when N is what stands between you and re-paying for video steps.\n\n### When to suggest `--resume`\n\nAfter a workflow finishes, **always tell the user they can iterate**:\n\n> Workflow complete. Outputs saved to `ao-output/<dir>/`.\n>\n> To improve a specific step, use:\n>",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "jnMetaCode/agency-orchestrator",
+      "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+      "imported_at": "2026-11-01T10:37:38.710096+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f80f9524b5b873f8a2dccadb8b341d39510862f17978ffb828a923a83c6465e",
+      "prompt_ar": "## قوالب المجتمع (البيان البعيد)\n\nيحمل \"providers-manifest.json\" (موقع الويب الريبو، المقدم من ao.aiolaola.com) \"قوالب المجتمع\" -\nاستيراد منظم فقط (يجب إدراج عنوان URL؛ وتم التحقق من `sha256` الاختياري). نقاط النهاية في \"web/server.js\":\n`GET /api/community/templates`، `POST /api/community/import` (تم التحقق من صحة المحرك، وحفظه في 我的工作流).\nتم توثيق تدفق المساهمة في CONTRIBUTING.md. لا يتطلب الإدراج/الحذف سوى دفعة لموقع الويب، بدون إصدار.\nملاحظة: بيان \"relayPresets\" الذي يشير إلى أن العناصر المضمنة المكررة ليست زائدة عن الحاجة - فالإصدارات القديمة تعتمد عليها\n(اختبار العقد يفرض؛ لا تزيل).\n\n## إصدار خط الأنابيب (كله تلقائي)\n\nاضغط على علامة `v*` → npm (نشر موثوق/OIDC) + Docker (ينتظر ظهور إصدار npm - حارس السباق).\nاضغط على علامة `desktop-v*` ← تصميمات سطح المكتب ذات 3 منصات. يتم تنشيط توقيع macOS تلقائيًا عند CSC_LINK وما إلى ذلك.\nتم تعيين الأسرار (فروع `desktop/electron-builder.config.cjs` عند وجود الشهادة؛ ويتخطى afterSign العناصر المخصصة\nإعادة التوقيع للحصول على شهادات حقيقية). يجب التدرب على خطوات CI فقط محليًا قبل الالتزام (انظر الذاكرة:\nعطلت الارتباطات الرمزية .bin المتدلية إنشاء نظام التشغيل Mac مرة واحدة).\n\n## المهارات (كتب المنهجية)\n\nيمكن أن تحمل الخطوة `مهارة: \"<name>\"` (أو `مهارات: [..]`) - يتم إدخال نص المنهجية في ذلك\nموجه نظام الخطوة في وقت التشغيل (`src/skills/loader.ts`، المطبق في `core/executor.ts`). مفقود\nيتم تخطي المهارات (التحذير)، وليست قاتلة أبدًا.\n\nيتم حل المهارات من **عدة دير، مدمجة بالاسم** (نفس الاسم: فوز دير سابق) —\n`AO_SKILLS_DIR` > `./skills` > `superpowers-zh` (التبعية، 20 مهارة) > هذه الحزمة خاصة\n``ao-المهارات/``. يجب أن يظل مدمجًا، وليس أول فوز: بموجب قاعدة دير واحد القديمة، إضافة واحد\nالدليل المجمع جعل جميع مهارات القوى العظمى العشرين تختفي. لا يزال `AO_SKILLS_DIR` عبارة عن *تجاوز* — إنه مجرد\nلم يعد يفرغ الباقي.\n\n\"AO-skills/shortfilm-prompt\" هو برنامجنا: منهجية مطالبة الفيديو السينمائية المكونة من 5 أجزاء، المقتبسة من\nالأخت ريبو \"ai-shortfilm-prompts\" (معهد ماساتشوستس للتكنولوجيا، نفس المؤلف). المنبع `SKILL.md` هو ملف\n**تفاعلية** مهارة كلود كود (يتم طرحها عبر AskUserQuestion، ملفات قالب القراءة)؛ خطوات آو\nلا تحتوي على أدوات، لذا فإن إدخالها حرفيًا يجعل النموذج يطرح الأسئلة بدلاً من كتابة مطالبة.\nاحتفظ بنسخة AO بدورة واحدة - دبابيس `test/skills.ts`.\n\n## مختبر سريع\n\n`src/cli/prompt.ts` - التحسين (موجه تعريف النظام/المستخدم الذي ينتج عنه *مطالبة أفضل*، وليس\nإجابة)، اختبار (تشغيل موجه على عينة)، `scoreOutputs` (قاضي LLM يصنف المرشحين). مخزنة ك\n`~/.ao/prompts/*.prompt.json` (التجاوز باستخدام `AO_PROMPTS_DIR`)، مشترك بين واجهة سطر الأوامر `ao موجه`\nوعلامة التبويب \"المطالبات\" في الاستوديو (`/api/prompt/*` في `web/server.js`).\n\n## بيانات الاعتماد: `~/.ao/.env` (على مستوى المستخدم)\n\nتتم قراءة `.env` من مكانين، يفوز shell env دائمًا: **shell > `./.env` (مشروع) > `~/.ao/.env` (مستخدم)**.\nيحتوي `~/.ao` بالفعل على فرق/مطالبات/أدوار، لذا فإن بيانات الاعتماد موجودة هناك أيضًا - قم بتكوينها مرة واحدة ويعمل كل دليل\n(يقول \"ao doctor\" ذلك عندما يعثر على مفاتيح الاستوديو فقط). لا يقوم `loadEnvFile` أبدًا بالكتابة فوق قيمة موجودة، لذا فإن الترتيب يكون كذلك\nفقط ترتيب المكالمتين في `src/cli.ts`.\n\n## الفرق / عمليات التحميل\n\n\"الفريق\" عبارة عن مجموعة من الأدوار المحفوظة والمسماة المنفصلة عن أي مهمة - `src/cli/team.ts`.\n`ao run --team` = `composeWorkflow({ pinnedRoles })` مع قفل الكتالوج على الفريق\nالأدوار. تستمر الفرق كـ `~/.ao/teams/*.team.yaml` (تجاوز dir بـ `AO_TEAMS_DIR`) ويتم\n**مشترك بين واجهة سطر الأوامر واستوديو الويب** (`GET/POST/DELETE /api/teams` في `web/server.js`).\nإحضار الأدوار الخاصة بك: `AO_AGENTS_DIR=/path` يتجاوز الكتالوج المدمج في كل مكان.\n\n## أدواري (مبنية بواسطة المستخدم، إضافية)\n\n`~/.ao/roles/<id>.md` (تجاوز dir باستخدام `AO_USER_ROLES_DIR`) يحمل الأدوار التي أنشأها المستخدم - المشار إليها\nكـ `my/<id>` في سير العمل. على عكس `AO_AGENTS_DIR` (الذي *يستبدل* الكتالوج)، فهذه هي\n**تم الدمج في الجزء العلوي** من المكتبة المضمنة: يعود `loadAgent` إلى دليل المستخدم لـ `my/*`\n(`src/agents/loader.ts`)، لذا فإن تشغيل/إنشاء/التحقق من صحة/`أدوار ao` يحلها جميعًا. الاستوديو: \"角色组队 →\n\"تحتوي علامة التبويب \"على إنشاء/حذف واجهة المستخدم (`POST/DELETE /api/roles/my` في `web/server.js`)؛ الموجه\nيحتوي وضع نظام المولد على \"存为我的角色\" لتحويل موجه النظام الذي تم إنشاؤه إلى دور. الدور\nالمفضلة (☆常用، localStorage) تعكس نجمة بطاقة سير العمل.\n\n## يستمر تشغيل الاستوديو بعد انتهاء الصفحة\n\nلم يعد `/api/run` يربط عملية المحرك باستجابة HTTP واحدة. يحتوي كل تشغيل على مخزن مؤقت للحدث في الذاكرة\n(`web/run-stream.js`، `RunStreamHub`): المتصفح مجرد مشترك، لذا يتم إغلاق/تحديث الصفحة فقط\nإلغاء الاشتراك. يسرد `GET /api/live-runs` عمليات تشغيل عملية المحرك هذه؛ `POST /api/live-runs/stream {runId}` الإعادة\nكل حدث تم تخزينه مؤقتًا ثم يتبع الإخراج المباشر (يعيد RunManager ربط عمليات التشغيل النشطة عند التحميل - يتم إعادة بناء واجهة المستخدم\nمن نفس الأحداث)؛ `POST /api/run-cancel {runId}` هي الطريقة الوحيدة لإيقاف سير العمل (SIGTERM → المحرك\nأرشيف عادي متقطع، قابل للاستئناف؛ سجل الوظيفة → ``تم الإلغاء`). يتم إسقاط stdout/stderr الخام أولاً عند وجود مخزن مؤقت\nيتجاوز الحد الأقصى – والأحداث الهيكلية لا تفعل ذلك أبدًا. يتم الاحتفاظ بالمخازن المؤقتة لمدة 10 دقائق بعد انتهاء التشغيل. إعادة تشغيل الخادم تفقد\nالمخازن المؤقتة (تظل الأرشيفات الموجودة في `ao-output/`). لا يزال `/api/run-role` (خبير واحد) يتوقف عند قطع الاتصال.\nسجلات الوظائف (`src/core/job-store.ts`، `.local/jobs/`) هي سجلات مسك الدفاتر فقط: يجب ألا يؤدي فشل التخزين إلى منع التشغيل مطلقًا.\n\n## السيرة الذاتية — التحسين التكراري\n\nبعد اكتمال `ao run`، يتم حفظ جميع مخرجات الخطوات في `ao-output/<name>-<timestamp>/`. يمكن للمستخدمين التكرار في أي خطوة دون إعادة تشغيل سير العمل بأكمله.\n\nيتم حساب إعادة الاستخدام من DAG، وليس من \"انتهى آخر مرة\" (`resumeSkipDetail` في `src/output/reporter.ts`):\n- تتم إعادة استخدام الخطوة المكتملة فقط عندما ** يتم أيضًا إعادة استخدام كل ما تعتمد عليه ** — قم بتحرير سير العمل (أدخل خطوة، أعد الإشارة إلى\n  `depends_on`) وإعادة تشغيل الخطوات النهائية المتأثرة بدلاً من تسليم منتج لم يشهد المنبع الجديد مطلقًا بصمت؛\n  يقوم رأس التشغيل بتسميتهم (`... 旧产物已作废،会一起重跑: ...`)؛\n- الخطوات التي تم تخطيها بواسطة `الشرط`** في المرة الأخيرة لا يتم احتسابها على أنها \"سيتم إعادة التشغيل\" - وإلا فإن خطوات السرد الخاطئة\n  فرض إعادة التنسيق في كل سيرة ذاتية؛\n- يتم استبعاد المعرفات التي لم تعد موجودة في سير العمل الحالي (الخطوات المعاد تسميتها/المحذوفة) من عدد إعادة الاستخدام وتسميتها بشكل منفصل،\n  لذا فإن \"跳过已完成步骤: N 个\" هو رقم يمكنك الوثوق به عندما يكون N هو ما يحول بينك وبين إعادة الدفع مقابل خطوات الفيديو.\n\n### متى تقترح \"--استئناف\".\n\nبعد انتهاء سير العمل، **أخبر المستخدم دائمًا أنه يمكنه التكرار**:\n\n> اكتمل سير العمل. تم حفظ المخرجات في `ao-output/<dir>/`.\n>\n> لتحسين خطوة معينة، استخدم:\n>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Claude"
+      ],
+      "search_text": "claude.md prompt-engineering ## community templates (remote manifest) `providers-manifest.json` (website repo, served from ao.aiolaola.com) carries `communitytemplates` — curated-only import (url must be listed; optional `sha256` verified). endpoints in `web/server.js`: `get /api/community/templates`, `post /api/community/import` (engine-validated, saved to 我的工作流). contribution flow documented in contributing.md. listing/de-listing needs only a website push, no release. note: manifest `relaypresets` that duplicate built-ins are not redundant — old versions rely on them (contract test enforces; do not remove). ## release pipeline (all automatic) push `v*` tag → npm (trusted publishing/oidc) + docker (waits for npm version to appear — race guard). push `desktop-v*` tag → 3-platform desktop builds. macos signing auto-activates when csc_link etc. secrets are set (`desktop/electron-builder.config.cjs` branches on cert presence; aftersign skips ad-hoc re-sign for real certs). ci-only steps must be rehearsed locally before committing (see memory: dangling .bin symlinks broke a mac build once). ## skills (methodology playbooks) a step can carry `skill: \"<name>\"` (or `skills: [..]`) — the methodology body is injected into that step's system prompt at run time (`src/skills/loader.ts`, applied in `core/executor.ts`). missing skills are skipped (warn), never fatal. skills are resolved from **several dirs, merged by name** (same-name: earlier dir wins) — `ao_skills_dir` > `./skills` > `superpowers-zh` (the dependency, 20 skills) > this package's own `ao-skills/`. it must stay a merge, not first-dir-wins: under the old single-dir rule, adding one bundled dir made all 20 superpowers skills vanish. `ao_skills_dir` is still an *override* — it just no longer empties the rest. `ao-skills/shortfilm-prompt` is ours: the 5-part cinematic video-prompt methodology, adapted from the sister repo `ai-shortfilm-prompts` (mit, same author). the upstream `skill.md` is an **interactive** claude code skill (it asks via askuserquestion, `read`s template files); ao steps have no tools, so injecting it verbatim makes the model ask questions instead of writing a prompt. keep the ao copy single-turn — `test/skills.ts` pins that. ## prompt lab `src/cli/prompt.ts` — optimize (system/user meta-prompt that yields a *better prompt*, not the answer), test (run a prompt on a sample), `scoreoutputs` (llm judge ranks candidates). stored as `~/.ao/prompts/*.prompt.json` (override with `ao_prompts_dir`), shared between the `ao prompt` cli and the studio \"prompts\" tab (`/api/prompt/*` in `web/server.js`). ## credentials: `~/.ao/.env` (user-level) `.env` is read from two places, shell env always wins: **shell > `./.env` (project) > `~/.ao/.env` (user)**. `~/.ao` already holds teams / prompts / roles, so credentials live there too — configure once and every directory works (`ao doctor` says so when it finds studio-only keys). `loadenvfile` never overwrites an existing value, so the order is just the order of the two calls in `src/cli.ts`. ## teams / loadouts a \"team\" is a saved, named set of roles decoupled from any task — `src/cli/team.ts`. `ao run --team` = `composeworkflow({ pinnedroles })` with the catalog locked to the team's roles. teams persist as `~/.ao/teams/*.team.yaml` (override dir with `ao_teams_dir`) and are **shared between the cli and the web studio** (`get/post/delete /api/teams` in `web/server.js`). bring-your-own roles: `ao_agents_dir=/path` overrides the built-in catalog everywhere. ## my roles (user-built, additive) `~/.ao/roles/<id>.md` (override dir with `ao_user_roles_dir`) holds user-created roles — referenced as `my/<id>` in workflows. unlike `ao_agents_dir` (which *replaces* the catalog), these are **merged on top** of the built-in library: `loadagent` falls back to the user dir for `my/*` (`src/agents/loader.ts`), so run/compose/validate/`ao roles` all resolve them. studio: \"角色组队 → 我的\" tab has create/delete ui (`post/delete /api/roles/my` in `web/server.js`); the prompt generator's system mode has \"存为我的角色\" to turn a generated system prompt into a role. role favorites (☆常用, localstorage) mirror the workflow-card star. ## studio runs outlive the page `/api/run` no longer ties the engine process to one http response. each run has an in-memory event buffer (`web/run-stream.js`, `runstreamhub`): the browser is just a subscriber, so closing/refreshing the page only unsubscribes. `get /api/live-runs` lists this engine process's runs; `post /api/live-runs/stream {runid}` replays every buffered event and then follows live output (runmanager re-attaches active runs on load — the ui is rebuilt from the same events); `post /api/run-cancel {runid}` is the only way to stop a workflow (sigterm → the engine's normal interrupted archive, resumable; job record → `cancelled`). raw stdout/stderr are dropped first when a buffer exceeds its cap — structural events never are. buffers are kept 10 min after a run ends. a server restart loses the buffers (the archives in `ao-output/` remain). `/api/run-role` (single expert) still stops on disconnect. job records (`src/core/job-store.ts`, `.local/jobs/`) are bookkeeping only: a storage failure must never block a run. ## resume — iterative optimization after `ao run` completes, all step outputs are saved to `ao-output/<name>-<timestamp>/`. users can iterate on any step without re-running the entire workflow. reuse is computed from the dag, not from \"it finished last time\" (`resumeskipdetail` in `src/output/reporter.ts`): - a completed step is reused only when **everything it depends on is also reused** — edit the workflow (insert a step, repoint a `depends_on`) and the affected downstream steps re-run instead of silently handing back a product that never saw the new upstream; the run header names them (`…旧产物已作废，会一起重跑: …`); - steps that were **skipped by `condition`** last time don't count as \"will re-run\" — otherwise the常年-false narration steps would force a re-concat on every resume; - ids that no longer exist in the current workflow (renamed / deleted steps) are excluded from the reuse count and named separately, so \"跳过已完成步骤: n 个\" is a number you can trust when n is what stands between you and re-paying for video steps. ### when to suggest `--resume` after a workflow finishes, **always tell the user they can iterate**: > workflow complete. outputs saved to `ao-output/<dir>/`. > > to improve a specific step, use: > github review claude claude",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+          "source_repository": "jnMetaCode/agency-orchestrator"
+        }
+      ]
+    },
+    {
+      "id": "gh-738a99e225eb",
+      "title": "CLAUDE.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review",
+        "Claude"
+      ],
+      "prompt": "`--feedback` implies `--resume last` when `--resume` is omitted. It requires `--from`. Downstream steps re-run automatically with the revised output.\n\n### Reading previous outputs\n\nBefore suggesting changes, read the actual outputs:\n\n1. Check `ao-output/` for the latest run directory\n2. Read `metadata.json` to see step IDs and states\n3. Read individual step files in `steps/` to understand what was produced\n4. Then suggest which step to re-run and why\n\n## Workflow YAML Format\n\n`schemas/workflow.schema.json` is the editor-facing JSON Schema (published at ao.aiolaola.com/schemas/ via `scripts/publish-schema.mjs`,\nrun by website predev/prebuild; also shipped in the npm package). **When you add a YAML field, add it there too** — it uses\n`additionalProperties: false` on purpose (typos like `depend_on` must be flagged), so a forgotten field red-lines valid workflows.\n`test/workflow-schema.ts` pins: all built-in templates pass, parser-rejected shapes are rejected, provider suggestions match the\nregistries (re-sync with `npm run build && node scripts/sync-schema-providers.mjs` after adding a provider).",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "jnMetaCode/agency-orchestrator",
+      "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+      "imported_at": "2026-11-01T10:37:38.710159+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "738a99e225eb19281ed601453f9ca14adc6e98789cace2f4aef12ecf2012609e",
+      "prompt_ar": "`--feedback` تعني ضمنًا `--resume last` عندما يتم حذف `--resume`. يتطلب \"--من\". تتم إعادة تشغيل الخطوات النهائية تلقائيًا باستخدام الإخراج الذي تمت مراجعته.\n\n### قراءة المخرجات السابقة\n\nقبل اقتراح التغييرات، اقرأ المخرجات الفعلية:\n\n1. تحقق من \"ao-output/\" للحصول على أحدث دليل تشغيل\n2. اقرأ \"metadata.json\" لرؤية معرفات الخطوات وحالاتها\n3. اقرأ ملفات الخطوات الفردية في \"الخطوات/\" لفهم ما تم إنتاجه\n4. ثم اقترح الخطوة التي يجب إعادة تشغيلها ولماذا\n\n## تنسيق سير العمل YAML\n\n`schemas/workflow.schema.json` هو مخطط JSON الذي يواجه المحرر (تم نشره على ao.aiolaola.com/schemas/ عبر `scripts/publish-schema.mjs`،\nيتم تشغيله بواسطة موقع الويب predev/prebuild؛ يتم شحنها أيضًا في حزمة npm). **عند إضافة حقل YAML، قم بإضافته هناك أيضًا** — فهو يستخدم\n`خصائص إضافية: خطأ` عن قصد (يجب وضع علامة على الأخطاء المطبعية مثل `depend_on`)، لذلك يؤدي نسيان الحقل إلى ظهور خطوط حمراء صالحة لسير العمل.\nدبابيس `test/workflow-schema.ts`: تنجح جميع القوالب المضمنة، ويتم رفض الأشكال التي يرفضها المحلل اللغوي، وتتطابق اقتراحات الموفر مع\nالسجلات (أعد المزامنة مع `npm run build &&node scripts/sync-schema-providers.mjs` بعد إضافة موفر).",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [
+        "Claude"
+      ],
+      "search_text": "claude.md prompt-engineering `--feedback` implies `--resume last` when `--resume` is omitted. it requires `--from`. downstream steps re-run automatically with the revised output. ### reading previous outputs before suggesting changes, read the actual outputs: 1. check `ao-output/` for the latest run directory 2. read `metadata.json` to see step ids and states 3. read individual step files in `steps/` to understand what was produced 4. then suggest which step to re-run and why ## workflow yaml format `schemas/workflow.schema.json` is the editor-facing json schema (published at ao.aiolaola.com/schemas/ via `scripts/publish-schema.mjs`, run by website predev/prebuild; also shipped in the npm package). **when you add a yaml field, add it there too** — it uses `additionalproperties: false` on purpose (typos like `depend_on` must be flagged), so a forgotten field red-lines valid workflows. `test/workflow-schema.ts` pins: all built-in templates pass, parser-rejected shapes are rejected, provider suggestions match the registries (re-sync with `npm run build && node scripts/sync-schema-providers.mjs` after adding a provider). github review claude claude",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/jnMetaCode/agency-orchestrator/blob/5d82e71dc94e67ca664b9914bdaa830e1b78a6d4/CLAUDE.md",
+          "source_repository": "jnMetaCode/agency-orchestrator"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550547",
+      "title": "Civitai prompt 147550547",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Surreal cosmic fantasy photo-manipulation, vertical composition. A gigantic human iris fills the whole sky like a galaxy: a deep black pupil in the upper center, radial fibers in glowing burnt orange, amber and teal-blue, nebula clouds and countless tiny stars and glowing dust particles drifting through the iris. Below it, a misty glowing horizon and a dark moorland of dry brown grass tufts and moss in the foreground, shot with shallow depth of field and a soft fog gradient, warm cinematic glow. Imani stands small in the middle distance, seen from behind and slightly from the side, walking toward the giant eye: Imani, a fictional adult African woman, 25, very dark deep-brown skin with warm reddish undertone, B-cup breasts, heart-shaped face, high sharp cheekbones, narrow pointed chin, large almond-shaped slightly upturned amber-brown eyes, strong straight brows, broad nose with soft bridge, full lips with defined cupid's bow, very long sleek straight black hair, tiny beauty mark under left eye, small gold hoops, calm cool expression, no smile. She wears a long dark hooded cloak with her hair blowing in the wind and a thin walking stick in one hand, fully clothed, mostly a dark silhouette lit from the glow of the eye. Mood: mystical, dreamlike, awe-inspiring, epic scale contrast between the tiny woman and the huge eye, rich contrast, film grain, high detail. Exactly 1 person, NO extra limbs, NO extra fingers, NO smiling, NO grinning, NO laughing, NO teeth showing, NO text, NO watermark, NO logo\nAspect ratio 4:5",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550547",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/804073b8-d945-4c45-98b0-5c89311438d8/original=true/804073b8-d945-4c45-98b0-5c89311438d8.jpeg",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1728,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710619+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7c19b653f4e10ab072c243ed1604afe6e4c40740f2c8280c81d95376351c67ef",
+      "prompt_ar": "الخيال الكوني السريالي، التلاعب بالصور، والتركيب العمودي. تملأ قزحية بشرية عملاقة السماء بأكملها مثل المجرة: حدقة سوداء عميقة في المركز العلوي، وألياف شعاعية باللون البرتقالي المحترق والعنبر والأزرق المخضر، وسحب سديمية وعدد لا يحصى من النجوم الصغيرة وجزيئات الغبار المتوهجة التي تنجرف عبر القزحية. أسفله، يوجد أفق متوهج ضبابي ومستنقع داكن من خصلات العشب البني الجاف والطحالب في المقدمة، تم تصويره بعمق مجال ضحل وتدرج ضبابي ناعم وتوهج سينمائي دافئ. تقف إيماني صغيرة في المسافة المتوسطة، تُرى من الخلف وقليلًا من الجانب، وتسير نحو العين العملاقة: إيماني، امرأة أفريقية خيالية بالغة، 25 عامًا، بشرة بنية داكنة للغاية مع مسحة حمراء دافئة، صدر على شكل حرف B، وجه على شكل قلب، عظام خد حادة عالية، ذقن مدببة ضيقة، عيون كبيرة على شكل لوز، عيون بنية عنبرية مقلوب قليلاً، حواجب قوية مستقيمة، أنف عريض مع جسر ناعم، شفاه كاملة مع قوس كيوبيد محدد، أسود أملس طويل جدًا شعر، علامة جمال صغيرة تحت العين اليسرى، حلقات ذهبية صغيرة، تعبير هادئ ورائع، بدون ابتسامة. ترتدي عباءة طويلة داكنة مقنعين وشعرها يتطاير في مهب الريح وتحمل عصا مشي رفيعة في يد واحدة، وهي بكامل ملابسها، وفي الغالب صورة ظلية داكنة مضاءة من وهج العين. المزاج: تناقض غامض، يشبه الحلم، مذهل، ملحمي بين المرأة الصغيرة والعين الضخمة، تباين غني، حبيبات الفيلم، تفاصيل عالية. شخص واحد بالضبط، لا أطراف إضافية، لا أصابع إضافية، لا يبتسم، لا يبتسم، لا يضحك، لا تظهر أسنان، لا نص، لا علامة مائية، لا شعار\nنسبة العرض إلى الارتفاع 4:5",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147550547 food ai-image-prompts surreal cosmic fantasy photo-manipulation, vertical composition. a gigantic human iris fills the whole sky like a galaxy: a deep black pupil in the upper center, radial fibers in glowing burnt orange, amber and teal-blue, nebula clouds and countless tiny stars and glowing dust particles drifting through the iris. below it, a misty glowing horizon and a dark moorland of dry brown grass tufts and moss in the foreground, shot with shallow depth of field and a soft fog gradient, warm cinematic glow. imani stands small in the middle distance, seen from behind and slightly from the side, walking toward the giant eye: imani, a fictional adult african woman, 25, very dark deep-brown skin with warm reddish undertone, b-cup breasts, heart-shaped face, high sharp cheekbones, narrow pointed chin, large almond-shaped slightly upturned amber-brown eyes, strong straight brows, broad nose with soft bridge, full lips with defined cupid's bow, very long sleek straight black hair, tiny beauty mark under left eye, small gold hoops, calm cool expression, no smile. she wears a long dark hooded cloak with her hair blowing in the wind and a thin walking stick in one hand, fully clothed, mostly a dark silhouette lit from the glow of the eye. mood: mystical, dreamlike, awe-inspiring, epic scale contrast between the tiny woman and the huge eye, rich contrast, film grain, high detail. exactly 1 person, no extra limbs, no extra fingers, no smiling, no grinning, no laughing, no teeth showing, no text, no watermark, no logo aspect ratio 4:5 civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550547",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/804073b8-d945-4c45-98b0-5c89311438d8/original=true/804073b8-d945-4c45-98b0-5c89311438d8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147358641",
+      "title": "Civitai prompt 147358641",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Through-foreground medium shot past a blurred iron candle stand of a beautiful 25-year-old adult woman with long gray hair falling straight and glossy over one shoulder, barefoot and sexy, kneeling on a worn stone floor in a ruined gothic chapel, her head bowed and one hand lifting a dripping beeswax taper toward a cracked stone niche. She wears a black brocade corset dress with a boned sweetheart bodice laced tightly at the back, antique silver eyelets and a heavy taffeta skirt pooling around her knees, the raised floral damask catching small glints of flame, her bare heels resting on cold flagstones. Behind her broken pointed arches, ivy-covered tracery and a roofless nave fade into deep violet dusk. Warm flickering candlelight is the only source, sculpting her collarbones and bodice against deep shadow, a mood of devotion, loss and quiet solitude. Photorealistic photography with subtle charcoal and ink textures pooling in the stone recesses like dark washes, fine grain over natural skin pores and brocade threads, atmospheric depth in drifting incense smoke, shallow depth of field with dreamy background bokeh of distant candle flames.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147358641",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c0ca785-2201-49ba-a911-3137a10f6e13/original=true/5c0ca785-2201-49ba-a911-3137a10f6e13.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 4262475685,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710646+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "98a39a38449139797720ca64582a3c126a4b8d13e62db15ec93dad168417e892",
+      "prompt_ar": "لقطة متوسطة من المقدمة عبر حامل شموع حديدية غير واضحة لامرأة بالغة جميلة تبلغ من العمر 25 عامًا ذات شعر رمادي طويل يتساقط بشكل مستقيم ولامع على كتف واحدة، حافية القدمين ومثيرة، راكعة على أرضية حجرية بالية في كنيسة قوطية مدمرة، رأسها منحني وإحدى يديها ترفع شمع العسل المتساقط نحو مكان حجري متصدع. إنها ترتدي فستانًا مشدًا أسود مزينًا بصدرية على شكل قلب مربوطة بإحكام من الخلف، وثقوب فضية عتيقة وتنورة ثقيلة من قماش التفتا تتجمع حول ركبتيها، ويلتقط الدمشقي الزهري المرتفع ومضات صغيرة من اللهب، ويستقر كعبها العاري على أحجار البلاط الباردة. خلف أقواسها المدببة المكسورة، تتلاشى الزخارف المغطاة باللبلاب والصحن بلا سقف في الغسق البنفسجي العميق. ضوء الشموع الوامض الدافئ هو المصدر الوحيد، الذي ينحت عظام الترقوة وصدريتها في مواجهة الظل العميق، ومزاج التفاني والخسارة والعزلة الهادئة. تصوير فوتوغرافي واقعي مع أنسجة الفحم والحبر الدقيقة التي تتجمع في التجاويف الحجرية مثل الغسلات الداكنة والحبوب الدقيقة فوق مسام الجلد الطبيعية وخيوط الديباج، وعمق الغلاف الجوي في دخان البخور المنجرف، وعمق المجال الضحل مع خلفية بوكيه حالمة من لهب الشموع البعيدة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147358641 image ai-image-prompts through-foreground medium shot past a blurred iron candle stand of a beautiful 25-year-old adult woman with long gray hair falling straight and glossy over one shoulder, barefoot and sexy, kneeling on a worn stone floor in a ruined gothic chapel, her head bowed and one hand lifting a dripping beeswax taper toward a cracked stone niche. she wears a black brocade corset dress with a boned sweetheart bodice laced tightly at the back, antique silver eyelets and a heavy taffeta skirt pooling around her knees, the raised floral damask catching small glints of flame, her bare heels resting on cold flagstones. behind her broken pointed arches, ivy-covered tracery and a roofless nave fade into deep violet dusk. warm flickering candlelight is the only source, sculpting her collarbones and bodice against deep shadow, a mood of devotion, loss and quiet solitude. photorealistic photography with subtle charcoal and ink textures pooling in the stone recesses like dark washes, fine grain over natural skin pores and brocade threads, atmospheric depth in drifting incense smoke, shallow depth of field with dreamy background bokeh of distant candle flames. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147358641",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5c0ca785-2201-49ba-a911-3137a10f6e13/original=true/5c0ca785-2201-49ba-a911-3137a10f6e13.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147358638",
+      "title": "Civitai prompt 147358638",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Slightly low three-quarter shot of a beautiful 25-year-old grown woman with auburn hair wrapped in a loose faded headscarf, barefoot and sexy, walking mid-stride down a stepped stone terrace of a Tuscan vineyard at harvest, a heavy wicker basket of dark grapes balanced on one hip, her gaze sliding sideways with a heavy, private sadness. She wears a rust and cream striped linen tiered dress with a square neckline, three broad flounces stained at the hem with grape juice, the coarse slubby weave swinging against her bare calves, her feet stained purple on warm stone. Behind her rows of gold-turning vines, a lone cypress avenue and a distant ochre farmhouse dissolve in warm blue haze. Soft low morning sun rakes across the hillside with long pale shadows, a mood of the last harvest, poetic nostalgia and quiet solitude. Photorealistic photography with subtle charcoal and ink textures sketched into the vine stakes and far hills, fine grain over mature natural skin pores and linen slubs, atmospheric depth in the valley mist, shallow depth of field with dreamy background bokeh of sunlit vine leaves.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147358638",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06a2cf11-4fbe-4db3-abef-ab6e57984a98/original=true/06a2cf11-4fbe-4db3-abef-ab6e57984a98.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 1543323596,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710667+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "11d7e33b2f1fddc9483fbd8c018ccb7e1fade8fe5ac2d6d09bf88123189d90de",
+      "prompt_ar": "لقطة منخفضة قليلاً بطول ثلاثة أرباع لامرأة جميلة تبلغ من العمر 25 عامًا، ذات شعر بني محمر ملفوف في غطاء رأس فضفاض، حافية القدمين ومثيرة، تمشي في منتصف الطريق أسفل شرفة حجرية متدرجة في كرم توسكان عند الحصاد، سلة ثقيلة من الخيزران من العنب الداكن متوازنة على ورك واحد، ونظرتها تنزلق جانبًا بحزن خاص ثقيل. ترتدي فستانًا من الكتان المخطط بلون الصدأ والكريمي مع خط عنق مربع، وثلاثة كشكشات عريضة ملطخة عند الحاشية بعصير العنب، والنسيج الخشن يتأرجح على ساقيها العاريتين، وقدماها ملطختان باللون الأرجواني على الحجر الدافئ. خلف صفوفها من الكروم الذهبية، يذوب طريق السرو الوحيد ومزرعة مغرة بعيدة في ضباب أزرق دافئ. تشرق شمس الصباح المنخفضة الناعمة عبر التلال بظلال طويلة شاحبة، ومزاج الحصاد الأخير، والحنين الشعري والعزلة الهادئة. تصوير فوتوغرافي واقعي باستخدام أنسجة الفحم والحبر الدقيقة المرسومة في أوتاد الكرمة والتلال البعيدة، والحبوب الدقيقة فوق مسام الجلد الطبيعية الناضجة وألواح الكتان، وعمق الغلاف الجوي في ضباب الوادي، وعمق الحقل الضحل مع خلفية بوكيه حالمة لأوراق العنب المضاءة بنور الشمس.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147358638 image ai-image-prompts slightly low three-quarter shot of a beautiful 25-year-old grown woman with auburn hair wrapped in a loose faded headscarf, barefoot and sexy, walking mid-stride down a stepped stone terrace of a tuscan vineyard at harvest, a heavy wicker basket of dark grapes balanced on one hip, her gaze sliding sideways with a heavy, private sadness. she wears a rust and cream striped linen tiered dress with a square neckline, three broad flounces stained at the hem with grape juice, the coarse slubby weave swinging against her bare calves, her feet stained purple on warm stone. behind her rows of gold-turning vines, a lone cypress avenue and a distant ochre farmhouse dissolve in warm blue haze. soft low morning sun rakes across the hillside with long pale shadows, a mood of the last harvest, poetic nostalgia and quiet solitude. photorealistic photography with subtle charcoal and ink textures sketched into the vine stakes and far hills, fine grain over mature natural skin pores and linen slubs, atmospheric depth in the valley mist, shallow depth of field with dreamy background bokeh of sunlit vine leaves. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147358638",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06a2cf11-4fbe-4db3-abef-ab6e57984a98/original=true/06a2cf11-4fbe-4db3-abef-ab6e57984a98.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550576",
+      "title": "Civitai prompt 147550576",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece digital concept art of an elite cybernetic enchantress, extreme close-up portrait focusing on her face and intricate tech headgear. Her striking facial features are smooth and perfectly detailed, with mesmerizing, glowing golden-green eyes. She is embedded into an overwhelming, monumental crown of dark metallic armor, exposed wires, high-tech cybernetic nodes, and ornate mechanical filigree. The armor plates around her jaw and neckline feature subtle glowing circuit lines and silver reflections. Deep dark-gray background with misty atmospheric haze. Shot on a Sony FX3 camera, Zeiss Supreme Prime 85mm f/1.4 lens, rich dramatic monochrome-dominant color grading, powerful volumetric rim lighting defining the edges of her complex helmet, trending on artstation, masterpiece dynamic character design blended with hyper-realistic textures",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550576",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59434001-fe73-4196-bfe6-d915c5c89018/original=true/59434001-fe73-4196-bfe6-d915c5c89018.jpeg",
+      "model": "lustifyNSFWCheckpoint_v10Krea2_fp8",
+      "model_version_ids": [
+        3112728
+      ],
+      "width": 3456,
+      "height": 1472,
+      "seed": 2486280622,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710684+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7c6c9e065a9b4b2d81e152ff9a97dc502ae0bc4250cce45e63e9b4921d45507e",
+      "prompt_ar": "تحفة فنية رقمية لساحرة إلكترونية من النخبة، وصورة مقربة جدًا تركز على وجهها وغطاء رأس تقني معقد. ملامح وجهها المذهلة ناعمة ومفصلة بشكل مثالي، مع عيون ذهبية خضراء متوهجة وساحرة. إنها مدمجة في تاج ضخم هائل من الدروع المعدنية الداكنة، والأسلاك المكشوفة، والعقد الإلكترونية عالية التقنية، والصغر الميكانيكي المزخرف. تتميز لوحات الدرع حول فكها وخط رقبتها بخطوط دائرية متوهجة دقيقة وانعكاسات فضية. خلفية رمادية داكنة عميقة مع ضباب جوي ضبابي. تم التصوير بكاميرا Sony FX3، وعدسة Zeiss Supreme Prime 85mm f/1.4، وتدرج ألوان دراماتيكي غني وأحادي اللون، وإضاءة حافة حجمية قوية تحدد حواف خوذتها المعقدة، وهي رائجة على محطة الفن، وتصميم شخصية ديناميكي رائع ممزوج بأنسجة واقعية للغاية",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550576 image ai-image-prompts masterpiece digital concept art of an elite cybernetic enchantress, extreme close-up portrait focusing on her face and intricate tech headgear. her striking facial features are smooth and perfectly detailed, with mesmerizing, glowing golden-green eyes. she is embedded into an overwhelming, monumental crown of dark metallic armor, exposed wires, high-tech cybernetic nodes, and ornate mechanical filigree. the armor plates around her jaw and neckline feature subtle glowing circuit lines and silver reflections. deep dark-gray background with misty atmospheric haze. shot on a sony fx3 camera, zeiss supreme prime 85mm f/1.4 lens, rich dramatic monochrome-dominant color grading, powerful volumetric rim lighting defining the edges of her complex helmet, trending on artstation, masterpiece dynamic character design blended with hyper-realistic textures civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550576",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59434001-fe73-4196-bfe6-d915c5c89018/original=true/59434001-fe73-4196-bfe6-d915c5c89018.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550574",
+      "title": "Civitai prompt 147550574",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A professional close-up studio portrait of a beautiful cybernetic female gynoid looking directly at the camera, symmetric composition. Her flawless, hyper-realistic face features natural skin texture with subtle pores, fine eyelashes, and captivating pale hazel-green eyes with intricate iris details and wet reflections. A massive, complex mechanical headpiece made of polished chrome, brushed titanium, and small inner brass clockwork gears wraps around her skull, forehead, and cheeks, blending into her skin with seamless cybernetic seams. Delicate hydraulic tubes, tiny screws, and micro-engraved metallic plates frame her face and neck. The background is a clean, minimalist studio gray backdrop with soft gradient shading. Captured on a Phase One XF 100MP camera, 120mm macro lens, f/4.0, razor-sharp focus on the eyes and metal engravings, dramatic cinematic lighting, pristine material rendering",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550574",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4a97418-4023-42fb-8c77-757227df706b/original=true/d4a97418-4023-42fb-8c77-757227df706b.jpeg",
+      "model": "lustifyNSFWCheckpoint_v10Krea2_fp8",
+      "model_version_ids": [
+        3112728
+      ],
+      "width": 3456,
+      "height": 1472,
+      "seed": 1786816105,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710702+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a72ad0574349622fb0a959eac5108c1daa59de1acaa7b07088739079d9593bc5",
+      "prompt_ar": "صورة استوديو احترافية عن قرب لأنثى جينويد إلكترونية جميلة تنظر مباشرةً إلى الكاميرا، بتركيبة متماثلة. يتميز وجهها الواقعي الخالي من العيوب بملمس جلد طبيعي مع مسام دقيقة ورموش دقيقة وعيون خضراء شاحبة آسرة مع تفاصيل قزحية معقدة وانعكاسات مبللة. غطاء رأس ميكانيكي ضخم ومعقد مصنوع من الكروم المصقول والتيتانيوم المصقول وتروس داخلية صغيرة من النحاس تلتف حول جمجمتها وجبهتها وخدودها، وتمتزج مع بشرتها مع طبقات إلكترونية سلسة. أنابيب هيدروليكية دقيقة، ومسامير صغيرة، وألواح معدنية منقوشة بدقة تحيط بوجهها ورقبتها. الخلفية عبارة عن خلفية استوديو رمادية نظيفة وبسيطة مع تظليل متدرج ناعم. تم التقاطها بكاميرا Phase One XF بدقة 100 ميجابكسل، وعدسة ماكرو مقاس 120 مم، وفتحة f/4.0، وتركيز حاد للغاية على العيون والنقوش المعدنية، وإضاءة سينمائية مثيرة، وعرض المواد الأصلية",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550574 image ai-image-prompts a professional close-up studio portrait of a beautiful cybernetic female gynoid looking directly at the camera, symmetric composition. her flawless, hyper-realistic face features natural skin texture with subtle pores, fine eyelashes, and captivating pale hazel-green eyes with intricate iris details and wet reflections. a massive, complex mechanical headpiece made of polished chrome, brushed titanium, and small inner brass clockwork gears wraps around her skull, forehead, and cheeks, blending into her skin with seamless cybernetic seams. delicate hydraulic tubes, tiny screws, and micro-engraved metallic plates frame her face and neck. the background is a clean, minimalist studio gray backdrop with soft gradient shading. captured on a phase one xf 100mp camera, 120mm macro lens, f/4.0, razor-sharp focus on the eyes and metal engravings, dramatic cinematic lighting, pristine material rendering civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550574",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4a97418-4023-42fb-8c77-757227df706b/original=true/d4a97418-4023-42fb-8c77-757227df706b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550561",
+      "title": "Civitai prompt 147550561",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "**Style:** Photorealistic dark fantasy or horror-comedy digital art. Highly detailed, cinematic, and atmospheric with a playful yet sinister Halloween aesthetic.  **The Subject:** A black cat with extremely fluffy, textured fur. Its most prominent feature is its face: it has huge, glowing, intense yellow-orange eyes with slit pupils and a massive, unnatural, wide grin filled with rows of sharp, jagged, glowing teeth, resembling a jack-o'-lantern.   **The Action / Pose:** The cat is sitting upright on its hind legs on a wet, cobblestone street, staring directly at the viewer with its terrifying smile.   **The Setting:** A foggy, autumnal street scene at dusk or night. Scattered around the cat on the wet ground are several carved, glowing jack-o'-lanterns (pumpkins) of various sizes. Fallen yellow leaves are stuck to the wet pavement. In the blurred background, there are tall city buildings and a hazy, overcast sky.   **Lighting:** The lighting is warm and dramatic, emanating primarily from the glowing jack-o'-lanterns and the cat's own glowing teeth and eyes. This creates strong, warm highlights on the cat's black fur and the wet street, contrasting with the cool, dark, foggy background. High resolution, sharp focus on the cat's face, 8k. clarity,  <lora:Mrpopo's_Hi_res_moss_clarity:1> <lora:moss_anima_pure_text_slider_rank16:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550561",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c9b6ce7-29af-4f0b-bdad-8762a579097f/original=true/7c9b6ce7-29af-4f0b-bdad-8762a579097f.jpeg",
+      "model": "mossImage_sft_pruned_int8",
+      "model_version_ids": [
+        3409867,
+        3414043,
+        3430181
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 652523483393400,
+      "negative_prompt": "worst quality, low quality, bad anatomy, bad proportions, malformed hands, extra fingers, missing fingers, fused fingers, extra limbs, distorted face, waxy skin, plastic skin, excessive skin smoothing, oversharpening, compression artifacts, watermark, signature, blurred",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710724+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ef2d77c41b6eb8fbd8c833d2ed0e6177cf50eb157dee1067e77737f57a3561b9",
+      "prompt_ar": "**النمط:** خيال مظلم واقعي أو فن رقمي كوميدي مرعب. مفصلة للغاية وسينمائية وذات طابع جوي مع جمالية الهالوين المرحة والشريرية.  **الموضوع:** قطة سوداء ذات فراء رقيق للغاية. أبرز ما يميزه هو وجهه: فهو يتمتع بعيون ضخمة ومتوهجة ذات لون أصفر برتقالي كثيف مع حدقتين مشقوقتين وابتسامة عريضة غير طبيعية ضخمة مليئة بصفوف من الأسنان الحادة المتعرجة المتوهجة التي تشبه جاك فانوس.   **الحركة/الوضعية:** تجلس القطة منتصبة على رجليها الخلفيتين في شارع مبلل مرصوف بالحصى، وتحدق مباشرة في المشاهد بابتسامتها المرعبة.   **الإعداد:** مشهد شارع خريفي ضبابي عند الغسق أو الليل. تنتشر حول القطة على الأرض الرطبة عدة فوانيس منحوتة ومتوهجة (اليقطين) بأحجام مختلفة. تلتصق الأوراق الصفراء المتساقطة بالرصيف الرطب. في الخلفية غير الواضحة، توجد مباني المدينة الشاهقة وسماء ضبابية ملبدة بالغيوم.   **الإضاءة:** الإضاءة دافئة ومثيرة، تنبع بشكل أساسي من الفوانيس المتوهجة وأسنان القطة وعيونها المتوهجة. يؤدي ذلك إلى إنشاء إبرازات قوية ودافئة على فراء القطة الأسود والشارع المبتل، مما يتناقض مع الخلفية الباردة المظلمة والضبابية. دقة عالية، تركيز حاد على وجه القطة، 8K. الوضوح، <lora:Mrpopo's_Hi_res_moss_clarity:1> <lora:moss_anima_pure_text_slider_rank16:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:41Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550561 architecture ai-image-prompts **style:** photorealistic dark fantasy or horror-comedy digital art. highly detailed, cinematic, and atmospheric with a playful yet sinister halloween aesthetic. **the subject:** a black cat with extremely fluffy, textured fur. its most prominent feature is its face: it has huge, glowing, intense yellow-orange eyes with slit pupils and a massive, unnatural, wide grin filled with rows of sharp, jagged, glowing teeth, resembling a jack-o'-lantern. **the action / pose:** the cat is sitting upright on its hind legs on a wet, cobblestone street, staring directly at the viewer with its terrifying smile. **the setting:** a foggy, autumnal street scene at dusk or night. scattered around the cat on the wet ground are several carved, glowing jack-o'-lanterns (pumpkins) of various sizes. fallen yellow leaves are stuck to the wet pavement. in the blurred background, there are tall city buildings and a hazy, overcast sky. **lighting:** the lighting is warm and dramatic, emanating primarily from the glowing jack-o'-lanterns and the cat's own glowing teeth and eyes. this creates strong, warm highlights on the cat's black fur and the wet street, contrasting with the cool, dark, foggy background. high resolution, sharp focus on the cat's face, 8k. clarity, <lora:mrpopo's_hi_res_moss_clarity:1> <lora:moss_anima_pure_text_slider_rank16:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550561",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c9b6ce7-29af-4f0b-bdad-8762a579097f/original=true/7c9b6ce7-29af-4f0b-bdad-8762a579097f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550548",
+      "title": "Civitai prompt 147550548",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "GrimmsPaint, SplashPastoDaal, DRKM4GE, Masterpiece, museum-quality fine art, hyper-detailed painting, A hard working older teen elf woman in a medieval alchemy shop, her slender frame bent slightly over a cluttered wooden workbench. She has long, pointed ears, emerald green eyes, and her silver tied back in a long ponytail to keep it out of her work. Her clothing consists of a well worn leather apron, linen sleeves rolled up, and ink stained gloves, showing years of dedicated craft.\nThe shop is filled with shelves of ancient tomes, glass vials, copper alembics, and bubbling cauldrons emitting soft, colorful glows. Dusty sunlight filters through a small leaded window, illuminating floating motes and casting warm highlights across the room.\nShe carefully pours a glowing blue liquid into a crystal vial, her expression focused and determined. Nearby, handwritten notes, arcane diagrams, and half finished potions are scattered across the table. A small enchanted lantern hovers beside her, providing extra light.\nThe atmosphere is warm, rustic, and magical — oak beams, stone walls, and hanging bundles of herbs create a sense of authenticity. The scene should feel alive with subtle motion: steam rising, candles flickering, and faint magical sparks drifting from her work.\nLight and shadow, Focus on the girl, Masterpiece, intricate lines, intriguing atmosphere, sharp magnificent details, delicate features, elaborate details, ultra detailed, romantic, painted by John Singer Sargent, Masterpiece, Rembrandt lighting, brush stroke, lovely,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550548",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c13cc8e1-b01a-49ad-bcd6-75817890d73d/original=true/c13cc8e1-b01a-49ad-bcd6-75817890d73d.jpeg",
+      "model_version_ids": [
+        3410486,
+        3410543,
+        3434061
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1087814045,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710763+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0f319f108fd37b2b0b5f58cd268a0b9fbc824346f276dc2dde8f4bb7f8be1ea9",
+      "prompt_ar": "GrimmsPaint، SplashPastoDaal، DRKM4GE، تحفة فنية، فنون جميلة بجودة المتاحف، لوحة شديدة التفاصيل، امرأة قزم مراهقة أكبر سنًا تعمل بجد في متجر كيمياء من العصور الوسطى، وإطارها النحيف منحني قليلاً فوق طاولة عمل خشبية مزدحمة. لديها آذان طويلة مدببة، وعيون خضراء زمردية، وظهرها الفضي مربوط على شكل ذيل حصان طويل لإبعادها عن عملها. تتكون ملابسها من مئزر جلدي مهترئ، وأكمام من الكتان ملفوفة، وقفازات ملطخة بالحبر، مما يدل على سنوات من الحرفة المتفانية.\nيمتلئ المتجر بأرفف من المجلدات القديمة، وقوارير زجاجية، وعناصر نحاسية، ومراجل فقاعية تنبعث منها توهجات ناعمة وملونة. يرشح ضوء الشمس المغبر من خلال نافذة صغيرة تحتوي على الرصاص، ليضيء ذرات عائمة ويلقي الضوء على أضواء دافئة في جميع أنحاء الغرفة.\nتصب بعناية سائلًا أزرقًا متوهجًا في قارورة كريستالية، وتعابيرها مركزة ومحددة. في مكان قريب، تتناثر الملاحظات المكتوبة بخط اليد والرسوم البيانية الغامضة والجرعات نصف الجاهزة عبر الطاولة. يحوم بجانبها فانوس مسحور صغير، مما يوفر ضوءًا إضافيًا.\nالجو دافئ وريفي وساحر - عوارض البلوط والجدران الحجرية وحزم الأعشاب المعلقة تخلق إحساسًا بالأصالة. يجب أن يبدو المشهد حيًا من خلال حركة خفية: البخار يتصاعد، والشموع تومض، والشرارات السحرية الخافتة التي تنجرف من عملها.\nالضوء والظل، التركيز على الفتاة، تحفة، خطوط معقدة، جو مثير للفضول، تفاصيل حادة رائعة، ملامح دقيقة، تفاصيل متقنة، مفصلة للغاية، رومانسية، رسمها جون سينجر سارجنت، تحفة فنية، إضاءة رامبرانت، ضربة فرشاة، جميل،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550548 image ai-image-prompts grimmspaint, splashpastodaal, drkm4ge, masterpiece, museum-quality fine art, hyper-detailed painting, a hard working older teen elf woman in a medieval alchemy shop, her slender frame bent slightly over a cluttered wooden workbench. she has long, pointed ears, emerald green eyes, and her silver tied back in a long ponytail to keep it out of her work. her clothing consists of a well worn leather apron, linen sleeves rolled up, and ink stained gloves, showing years of dedicated craft. the shop is filled with shelves of ancient tomes, glass vials, copper alembics, and bubbling cauldrons emitting soft, colorful glows. dusty sunlight filters through a small leaded window, illuminating floating motes and casting warm highlights across the room. she carefully pours a glowing blue liquid into a crystal vial, her expression focused and determined. nearby, handwritten notes, arcane diagrams, and half finished potions are scattered across the table. a small enchanted lantern hovers beside her, providing extra light. the atmosphere is warm, rustic, and magical — oak beams, stone walls, and hanging bundles of herbs create a sense of authenticity. the scene should feel alive with subtle motion: steam rising, candles flickering, and faint magical sparks drifting from her work. light and shadow, focus on the girl, masterpiece, intricate lines, intriguing atmosphere, sharp magnificent details, delicate features, elaborate details, ultra detailed, romantic, painted by john singer sargent, masterpiece, rembrandt lighting, brush stroke, lovely, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550548",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c13cc8e1-b01a-49ad-bcd6-75817890d73d/original=true/c13cc8e1-b01a-49ad-bcd6-75817890d73d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147540156",
+      "title": "Civitai prompt 147540156",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Horny sexy woman with cool athletic body and big curves in sexy form-fitting battle armor, cracked and shattered metal plates hanging off her body, barely covering her breasts and hips, exposed skin, oil and dirt smeared on her cool body, engaging in close-quarters combat, grinding against the enemy, facing energy shield generators being protected on a ruined megacity streets filled with collapsed skyscrapers, intense war battle with explosions, dust, broken metal, torn clothing, dramatic lighting, highly detailed, cinematic, photorealistic sci-fi scene.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147540156",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fbb96ce-1a32-4249-a616-55d0411070c9/original=true/7fbb96ce-1a32-4249-a616-55d0411070c9.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 840,
+      "height": 1256,
+      "seed": 507340831,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710777+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "15519cff643cef2c388c7d572971c7d7fa96317588ca01631fac25cdbb90c70c",
+      "prompt_ar": "امرأة قرنية مثيرة ذات جسم رياضي رائع ومنحنيات كبيرة في درع معركة مثير، صفائح معدنية متشققة ومحطمة تتدلى من جسدها، بالكاد تغطي ثدييها ووركيها، جلد مكشوف، زيت وأوساخ ملطخة على جسدها البارد، تشارك في قتال قريب، تطحن ضد العدو، تواجه مولدات درع الطاقة المحمية في شوارع مدينة ضخمة مدمرة مليئة بناطحات السحاب المنهارة، معركة حرب مكثفة مع الانفجارات والغبار والمعادن المكسورة والملابس الممزقة والإضاءة الدرامية، مفصلة للغاية، سينمائية، مشهد خيال علمي واقعي.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147540156 image ai-image-prompts horny sexy woman with cool athletic body and big curves in sexy form-fitting battle armor, cracked and shattered metal plates hanging off her body, barely covering her breasts and hips, exposed skin, oil and dirt smeared on her cool body, engaging in close-quarters combat, grinding against the enemy, facing energy shield generators being protected on a ruined megacity streets filled with collapsed skyscrapers, intense war battle with explosions, dust, broken metal, torn clothing, dramatic lighting, highly detailed, cinematic, photorealistic sci-fi scene. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147540156",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7fbb96ce-1a32-4249-a616-55d0411070c9/original=true/7fbb96ce-1a32-4249-a616-55d0411070c9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147540154",
+      "title": "Civitai prompt 147540154",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Horny sexy woman with cool athletic body and big curves in form-fitting metallic sci-fi combat suit with segmented plating, black and silver armor panels heavily damaged and broken, exposed midriff, torn fabric and metal revealing deep cleavage, thighs, and curves, utility belt hanging loose, mechanical joints, flanking the enemy, thighs exposed through broken plating, facing hostile alien warriors with energy weapons on a floating islands in a gas giant atmosphere, intense war battle with explosions, dust, broken metal, torn clothing, dramatic lighting, highly detailed, cinematic, photorealistic sci-fi scene.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147540154",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffbfda52-9b07-4117-a751-3cb7c390d310/original=true/ffbfda52-9b07-4117-a751-3cb7c390d310.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 840,
+      "height": 1256,
+      "seed": 1690207418,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710790+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c4b45caaee1991b7b3da24c77dde1b908e7afe3966360deaec5daec4b68fceb6",
+      "prompt_ar": "امرأة قرنية مثيرة ذات جسم رياضي رائع ومنحنيات كبيرة في بدلة قتالية معدنية من الخيال العلمي مع طلاء مجزأ، وألواح درع سوداء وفضية متضررة ومكسورة بشدة، ووسط مكشوف، وقماش ممزق ومعدن يكشف عن انقسام عميق، وفخذين، ومنحنيات، وحزام المرافق معلق مفكوك، ومفاصل ميكانيكية، تحيط بالعدو، وفخذان مكشوفان من خلال طلاء مكسور، ومواجهة محاربين فضائيين معاديين بأسلحة طاقة على جزر عائمة في جو عملاق من الغاز، معركة حرب مكثفة مع انفجارات وغبار ومكسور معدن، ملابس ممزقة، إضاءة درامية، مشهد خيال علمي مفصل للغاية، سينمائي، واقعي.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147540154 image ai-image-prompts horny sexy woman with cool athletic body and big curves in form-fitting metallic sci-fi combat suit with segmented plating, black and silver armor panels heavily damaged and broken, exposed midriff, torn fabric and metal revealing deep cleavage, thighs, and curves, utility belt hanging loose, mechanical joints, flanking the enemy, thighs exposed through broken plating, facing hostile alien warriors with energy weapons on a floating islands in a gas giant atmosphere, intense war battle with explosions, dust, broken metal, torn clothing, dramatic lighting, highly detailed, cinematic, photorealistic sci-fi scene. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147540154",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffbfda52-9b07-4117-a751-3cb7c390d310/original=true/ffbfda52-9b07-4117-a751-3cb7c390d310.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147489810",
+      "title": "Civitai prompt 147489810",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic portrait, wearing a golden queen's gown and a jeweled crown, on a throne in a grand hall, dramatic lighting, fully clothed, a 26 year old adult woman, fully dressed, natural skin with visible pores and fine texture, 50mm lens, realistic, detailed, rlymarin <lora:RLY-thot_shot-KREA2-marin-v1-trigger-rlymarin:1.0>",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147489810",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d93412b7-3c79-4356-b493-0a9dd354efc5/original=true/d93412b7-3c79-4356-b493-0a9dd354efc5.jpeg",
+      "model": "finepornV5INT8BF16_v5BF16",
+      "model_version_ids": [
+        3193984,
+        3378268
+      ],
+      "width": 1664,
+      "height": 2432,
+      "seed": 1562433135,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710800+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3ab8c70894466d11c217851be7218f1a3aecda55dd1922052ca557c84943f342",
+      "prompt_ar": "صورة سينمائية، ترتدي ثوب ملكة ذهبي وتاج مرصع بالجواهر، على عرش في قاعة كبيرة، إضاءة درامية، بكامل ملابسها، امرأة بالغة تبلغ من العمر 26 عامًا، بكامل ملابسها، بشرة طبيعية ذات مسام مرئية وملمس ناعم، عدسة 50 مم، واقعية، مفصلة، ​​رليمارين <lora:RLY-thot_shot-KREA2-marin-v1-trigger-rlymarin:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147489810 image ai-image-prompts cinematic portrait, wearing a golden queen's gown and a jeweled crown, on a throne in a grand hall, dramatic lighting, fully clothed, a 26 year old adult woman, fully dressed, natural skin with visible pores and fine texture, 50mm lens, realistic, detailed, rlymarin <lora:rly-thot_shot-krea2-marin-v1-trigger-rlymarin:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147489810",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d93412b7-3c79-4356-b493-0a9dd354efc5/original=true/d93412b7-3c79-4356-b493-0a9dd354efc5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147489716",
+      "title": "Civitai prompt 147489716",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "elegant portrait, wearing a satin cocktail dress, standing in a candle-lit lounge, fully clothed, a 26 year old adult woman, fully dressed, natural skin with visible pores and fine texture, 50mm lens, realistic, detailed, rlymarin <lora:RLY-thot_shot-KREA2-marin-v1-trigger-rlymarin:1.0>",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147489716",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3da1d004-31f4-4c6e-b649-20659e6e7284/original=true/3da1d004-31f4-4c6e-b649-20659e6e7284.jpeg",
+      "model": "finepornV5INT8BF16_v5BF16",
+      "model_version_ids": [
+        3193984,
+        3378268
+      ],
+      "width": 1664,
+      "height": 2432,
+      "seed": 1143572437,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710809+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "02e5cfece272ca2644a761f744f09b06e1b2b66f75ead36926032fabd409d4ac",
+      "prompt_ar": "صورة أنيقة، ترتدي فستان كوكتيل من الساتان، تقف في صالة مضاءة بالشموع، بكامل ملابسها، امرأة بالغة تبلغ من العمر 26 عامًا، ترتدي ملابس كاملة، بشرة طبيعية مع مسام مرئية وملمس ناعم، عدسة 50 مم، واقعية، مفصلة، ​​rlymarin <lora:RLY-thot_shot-KREA2-marin-v1-trigger-rlymarin:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147489716 image ai-image-prompts elegant portrait, wearing a satin cocktail dress, standing in a candle-lit lounge, fully clothed, a 26 year old adult woman, fully dressed, natural skin with visible pores and fine texture, 50mm lens, realistic, detailed, rlymarin <lora:rly-thot_shot-krea2-marin-v1-trigger-rlymarin:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147489716",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3da1d004-31f4-4c6e-b649-20659e6e7284/original=true/3da1d004-31f4-4c6e-b649-20659e6e7284.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550500",
+      "title": "Civitai prompt 147550500",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Inkwash illustration on a white canvas, semi-realistic with moody chiaroscuro tones. Low-angle shot captures the figure as a lone silhouette against a rain-slicked Manhattan view, Park Avenue looking north toward Grand Central Station.\nA solitary figure, a girl in a yellow raincoat and red rubber boots stands near a lamp post of cast iron painted black, in the downpour, transparent umbrella straight above her head to maximally shield her from relentless rain. She has fair skin, orange curly hair and green eyes. Her stillness and smallness, standing still in the downpour, conveys resolve or melancholy beneath the storm’s weight. A street sign on the light pole, dark and diffuclt to read, has \"39th\" on it, and a crosswalk sign is also attached to the light pole.\nThe city dissolves into blurred neon glows, with the nearest pink neon sign within a green rectangle facing out from the storefront window reads \"FLORIST\" and wet pavement reflecting moonlight—deep blues, grays, punctuated by flickering amber and crimson streaks. Rain slashes diagonally across the frame, emphasizing isolation. The air feels heavy with cold dread, yet the figure waits patiently, unyielding, as if there is nowhere else to be for her. The edges of the image and objects in it wash out in splatters of ink to reveal the white canvas beneath.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550500",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3875bf0-957a-4564-a387-efe6253b86ec/original=true/d3875bf0-957a-4564-a387-efe6253b86ec.jpeg",
+      "model": "Krea\\krea2Turbo_v10.safetensors",
+      "model_version_ids": [
+        3072332,
+        3168617,
+        3415243
+      ],
+      "width": 1440,
+      "height": 1632,
+      "seed": 5879424077262302,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710871+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "23b3088989ea3d7ec3a643579c13e92a165a84cc4871fd225bcff276ddb99aba",
+      "prompt_ar": "رسم توضيحي بالحبر على قماش أبيض، شبه واقعي مع درجات إضاءة متقلبة. تلتقط اللقطة ذات الزاوية المنخفضة الشكل كصورة ظلية وحيدة مقابل منظر مانهاتن الممطر، وبارك أفينيو يتجه شمالًا نحو محطة غراند سنترال.\nشخصية منعزلة، فتاة ترتدي معطف واق من المطر أصفر وحذاء مطاطي أحمر تقف بالقرب من عمود مصباح من الحديد الزهر المطلي باللون الأسود، تحت المطر الغزير، مظلة شفافة فوق رأسها مباشرة لحمايتها إلى أقصى حد من المطر المتواصل. لديها بشرة فاتحة وشعر برتقالي مجعد وعيون خضراء. إن سكونها وصغر حجمها، ووقوفها ساكنة تحت المطر الغزير، ينقل عزمًا أو حزنًا تحت وطأة العاصفة. لافتة شارع على عمود الإنارة، داكنة ويصعب قراءتها، مكتوب عليها \"الرقم 39\"، كما توجد علامة ممر للمشاة ملحقة أيضًا بعمود الإنارة.\nتذوب المدينة في وهج نيون غير واضح، مع أقرب علامة نيون وردية داخل مستطيل أخضر مواجه للخارج من نافذة واجهة المتجر مكتوب عليها \"FLORIST\" والرصيف الرطب يعكس ضوء القمر - الأزرق الداكن والرمادي، تتخللها خطوط كهرمانية وقرمزية وامضة. يتساقط المطر قطريًا عبر الإطار، مما يؤكد العزلة. يبدو الهواء ثقيلًا بالخوف البارد، ومع ذلك فإن الشخصية تنتظر بصبر، بلا هوادة، كما لو أنه لا يوجد مكان آخر لها. تغسل حواف الصورة والأشياء الموجودة فيها برذاذ الحبر لتكشف عن القماش الأبيض الموجود أسفلها.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550500 image ai-image-prompts inkwash illustration on a white canvas, semi-realistic with moody chiaroscuro tones. low-angle shot captures the figure as a lone silhouette against a rain-slicked manhattan view, park avenue looking north toward grand central station. a solitary figure, a girl in a yellow raincoat and red rubber boots stands near a lamp post of cast iron painted black, in the downpour, transparent umbrella straight above her head to maximally shield her from relentless rain. she has fair skin, orange curly hair and green eyes. her stillness and smallness, standing still in the downpour, conveys resolve or melancholy beneath the storm’s weight. a street sign on the light pole, dark and diffuclt to read, has \"39th\" on it, and a crosswalk sign is also attached to the light pole. the city dissolves into blurred neon glows, with the nearest pink neon sign within a green rectangle facing out from the storefront window reads \"florist\" and wet pavement reflecting moonlight—deep blues, grays, punctuated by flickering amber and crimson streaks. rain slashes diagonally across the frame, emphasizing isolation. the air feels heavy with cold dread, yet the figure waits patiently, unyielding, as if there is nowhere else to be for her. the edges of the image and objects in it wash out in splatters of ink to reveal the white canvas beneath. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550500",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3875bf0-957a-4564-a387-efe6253b86ec/original=true/d3875bf0-957a-4564-a387-efe6253b86ec.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550404",
+      "title": "Civitai prompt 147550404",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, medium hair, side part, wavy hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550404",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba02a824-35d7-4a9c-8fac-b9c8e875a3c4/original=true/ba02a824-35d7-4a9c-8fac-b9c8e875a3c4.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 402974481,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710889+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "971d58555e608a4cd4c565b9fc4856d227611e4ec53dfae65592b3719770e8cf",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر متوسط، جزء جانبي، شعر متموج، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، شفاه متباعدة، أنياب، دم حول الفم، النظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550404 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, medium hair, side part, wavy hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550404",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba02a824-35d7-4a9c-8fac-b9c8e875a3c4/original=true/ba02a824-35d7-4a9c-8fac-b9c8e875a3c4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550402",
+      "title": "Civitai prompt 147550402",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, medium hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550402",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd5e11d9-be26-4a91-9092-0992ca1f7ecc/original=true/bd5e11d9-be26-4a91-9092-0992ca1f7ecc.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 223297461,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710904+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "97e150f2c4bca5c7cfa35d07ed325607bbcad69867f3d0e2441308aa514abee7",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر متوسط، جزء جانبي، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر خدود، شفاه منفصلة، أنياب، دم حول الفم، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:42Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550402 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, medium hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550402",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd5e11d9-be26-4a91-9092-0992ca1f7ecc/original=true/bd5e11d9-be26-4a91-9092-0992ca1f7ecc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550401",
+      "title": "Civitai prompt 147550401",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, short hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550401",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3c3915d-ede8-4a84-a9a7-5e8ae199fb62/original=true/d3c3915d-ede8-4a84-a9a7-5e8ae199fb62.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2023841990,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710927+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fb2ac2bd341a5ce40408a0544490c8f24719f9a009f4920a6605c862fb82b464",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر قصير، جزء جانبي، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر خدود، شفاه منفصلة، أنياب، دم حول الفم، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550401 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, short hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550401",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3c3915d-ede8-4a84-a9a7-5e8ae199fb62/original=true/d3c3915d-ede8-4a84-a9a7-5e8ae199fb62.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550400",
+      "title": "Civitai prompt 147550400",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550400",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d74f01ac-fed3-4c48-8019-938ae1957ae6/original=true/d74f01ac-fed3-4c48-8019-938ae1957ae6.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 889537410,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710937+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "01973d59db68a876b39d23c78933ea1da43a836b6276b8eac4b9658fc7262f20",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر، جزء جانبي، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر خدود، شفاه منفصلة، أنياب، دم حول الفم، النظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550400 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550400",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d74f01ac-fed3-4c48-8019-938ae1957ae6/original=true/d74f01ac-fed3-4c48-8019-938ae1957ae6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550398",
+      "title": "Civitai prompt 147550398",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, shoulder length hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550398",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d811dadb-511a-4a97-8e45-5b0948fb4730/original=true/d811dadb-511a-4a97-8e45-5b0948fb4730.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1367456405,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710947+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "049574ce79aff399be641f1948620f04c65253df23c6e470f2fd3d0b2b064f5a",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر بطول الكتف، جزء جانبي، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر خدود، شفاه منفصلة، أنياب، دم حول الفم، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550398 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, shoulder length hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550398",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d811dadb-511a-4a97-8e45-5b0948fb4730/original=true/d811dadb-511a-4a97-8e45-5b0948fb4730.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550397",
+      "title": "Civitai prompt 147550397",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, chin length hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550397",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1ffd40f-9f63-4069-b9d0-d1bfcbcedaf2/original=true/c1ffd40f-9f63-4069-b9d0-d1bfcbcedaf2.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1373240516,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710956+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "66bce25fd567890d51d7e1abd16515b5d0df51ca04edd1bb533eeab2abf35cdd",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر بطول الذقن، جزء جانبي، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، شفاه متباعدة، أنياب، دم حول الفم، النظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550397 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, chin length hair, side part, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, parted lips, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550397",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1ffd40f-9f63-4069-b9d0-d1bfcbcedaf2/original=true/c1ffd40f-9f63-4069-b9d0-d1bfcbcedaf2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550395",
+      "title": "Civitai prompt 147550395",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, chin length hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, fangs, blood around mouth, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550395",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15c1d916-466e-4fb9-8b45-3ce47ef1a046/original=true/15c1d916-466e-4fb9-8b45-3ce47ef1a046.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 163411582,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710966+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6ff5b2d9e81d5db51160ec973f830802383e07f6529b87a66f2cde3824927fbe",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر بطول الذقن، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، يئن، الأنياب، الدم حول الفم، النظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550395 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, chin length hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, fangs, blood around mouth, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550395",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15c1d916-466e-4fb9-8b45-3ce47ef1a046/original=true/15c1d916-466e-4fb9-8b45-3ce47ef1a046.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550393",
+      "title": "Civitai prompt 147550393",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, chin length hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550393",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6edb389-373d-417e-b3b5-6857a01ea8b9/original=true/d6edb389-373d-417e-b3b5-6857a01ea8b9.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 892358879,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710975+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "df9c339cee3e8340f7267ca4cf114a5094a1a93ddf18103627f5cf3b14b01ded",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر بطول الذقن، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، يئن، ينظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550393 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, chin length hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550393",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d6edb389-373d-417e-b3b5-6857a01ea8b9/original=true/d6edb389-373d-417e-b3b5-6857a01ea8b9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550389",
+      "title": "Civitai prompt 147550389",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, medium hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550389",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d527577-1854-4b33-96f1-01a26efcfdab/original=true/2d527577-1854-4b33-96f1-01a26efcfdab.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 635988679,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710984+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "caba9df08286538778475f616b6ca7a77cd737c146a4ecf3d36183f081096165",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر متوسط، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، يئن، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550389 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, medium hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550389",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d527577-1854-4b33-96f1-01a26efcfdab/original=true/2d527577-1854-4b33-96f1-01a26efcfdab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550384",
+      "title": "Civitai prompt 147550384",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550384",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb11230e-3a01-4f2e-b1bb-89468c8ee84a/original=true/cb11230e-3a01-4f2e-b1bb-89468c8ee84a.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 561037938,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.710993+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7122cbd05739ccf803215db7ac3d06f5672efb29d6ab7cc88e15f62c43e9cd5a",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر قصير، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، يئن، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:43Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550384 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, moaning, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550384",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb11230e-3a01-4f2e-b1bb-89468c8ee84a/original=true/cb11230e-3a01-4f2e-b1bb-89468c8ee84a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550382",
+      "title": "Civitai prompt 147550382",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550382",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0471f815-ad21-4c1d-b3d2-03326b3ac0ab/original=true/0471f815-ad21-4c1d-b3d2-03326b3ac0ab.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 551987724,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.711002+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "45d9cf0ea23424c6fcf8e88e708434a2f78defde67bc301455cde770a3938bfd",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر قصير، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون حمراء، مغر، قائظ، أحمر الخدود، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550382 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, red eyeshadow, seductive, sultry, blush, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550382",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0471f815-ad21-4c1d-b3d2-03326b3ac0ab/original=true/0471f815-ad21-4c1d-b3d2-03326b3ac0ab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550380",
+      "title": "Civitai prompt 147550380",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550380",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bfd15fec-ec1e-4348-bd8f-4cc0379c8339/original=true/bfd15fec-ec1e-4348-bd8f-4cc0379c8339.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 842009419,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.711012+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8aa98fa14319ee13fdc5a17d77160d9605072f9ee0ba5f2585b79f5557345a11",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر قصير، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون سوداء، مغر، قائظ، أحمر الخدود، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550380 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, short hair, white eyebrows, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550380",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bfd15fec-ec1e-4348-bd8f-4cc0379c8339/original=true/bfd15fec-ec1e-4348-bd8f-4cc0379c8339.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550378",
+      "title": "Civitai prompt 147550378",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, medium hair, white eyebrows, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550378",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa985749-acfc-4ea1-af70-b33b2c993fca/original=true/aa985749-acfc-4ea1-af70-b33b2c993fca.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 388689827,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.711021+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3aec7fdf91757fb66475fb58c1b6217c526dd8892418f48f935fe908a64c48f2",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر متوسط، حواجب بيضاء، عيون حمراء، شفاه حمراء، ظلال عيون سوداء، مغر، قائظ، أحمر الخدود، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550378 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, medium hair, white eyebrows, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550378",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa985749-acfc-4ea1-af70-b33b2c993fca/original=true/aa985749-acfc-4ea1-af70-b33b2c993fca.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147550375",
+      "title": "Civitai prompt 147550375",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8_up, score_7_up, BREAK, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, Extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive,\n1girl, mature female, vampire, white hair, short hair, white eyebrows, long hair, wavy hair, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147550375",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c18394c-ef93-46ac-9329-f6272f4452ce/original=true/3c18394c-ef93-46ac-9329-f6272f4452ce.jpeg",
+      "model_version_ids": [
+        3043931,
+        3050069,
+        3069049,
+        3108589
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1228210056,
+      "negative_prompt": "artist name:1.2, blurry image, watermark:1.2, messy, low quality, lowres, worst quality, bad quality:1.2, signature, username, logo, watermark, jpeg artifacts, bad hands, cropped, extra digits, fewer digits, error, bad anatomy, ugly, disfigured, extra fingers, fused fingers, mutated body, worst anatomy, bad hands, bad fingers, bad toes, fused fingers, fused toes, wrong toes, bad quality, bad anatomy, extra fingers, worst quality, worst detail, poorly drawn hands, sketch, censored,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-01T10:37:38.711030+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b81d9900c765fd01616fb44839d5bde0251f2ec7aa80a6f87875675452cbdbc4",
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، استراحة، {8k، تحفة، يستأجر، تفاصيل معقدة، ألوان زاهية، سينمائية، جودة فائقة}، تحفة، أفضل جودة، جودة مذهلة، مفصلة، الأحدث، s1_dram، تحفة، أفضل جودة، سخافات، تفاصيل عالية، الوسائط التقليدية، عمق المجال، خلفية ضبابية، جزيئات الضوء، وجه جميل، جذاب،\n1فتاة، أنثى ناضجة، مصاصة دماء، شعر أبيض، شعر قصير، حواجب بيضاء، شعر طويل، شعر مموج، عيون حمراء، شفاه حمراء، ظلال عيون سوداء، مغر، قائظ، أحمر الخدود، تنظر إلى المشاهد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-01T10:37:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147550375 image ai-image-prompts score_9, score_8_up, score_7_up, break, {8k, masterpiece, hires, intricate details, vivid colors, cinematic, extreme quality}, masterpiece, best quality, amazing quality, detailed, newest, s1_dram, masterpiece, best quality, absurdres, high detail, traditional media, depth of field, blurry background, light particles, beautiful face, attractive, 1girl, mature female, vampire, white hair, short hair, white eyebrows, long hair, wavy hair, red eyes, red lips, black eyeshadow, seductive, sultry, blush, looking at viewer civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147550375",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c18394c-ef93-46ac-9329-f6272f4452ce/original=true/3c18394c-ef93-46ac-9329-f6272f4452ce.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-31T19:18:31.218238+00:00",
-  "prompt_count": 2221,
+  "generated_at": "2026-11-01T10:37:45.386789+00:00",
+  "prompt_count": 2249,
   "translation": {
     "language": "ar",
-    "translated_count": 4,
-    "skipped_count": 2210,
+    "translated_count": 28,
+    "skipped_count": 2214,
     "failed_count": 7,
-    "updated_at": "2026-10-31T19:18:30Z"
+    "updated_at": "2026-11-01T10:37:44Z"
   }
 }
