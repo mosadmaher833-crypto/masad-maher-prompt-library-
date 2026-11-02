@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -104642,15 +104642,926 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3db9220a-33df-4658-8883-93460e3218be/original=true/3db9220a-33df-4658-8883-93460e3218be.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-147674364",
+      "title": "Civitai prompt 147674364",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A long-exposure photograph taken with a 24mm wide-angle lens held low and close, a young adult Chinese swordswoman a few strides from the camera, her dark silhouette off-center in the left two-thirds against a black void, frozen at the instant her blade parries a descending cut. Her torso turns three-quarters away while her face swings back toward the lens, gaze locked on it. Her right arm reaches toward the camera, strongly foreshortened, fist and hilt overlapping her right shoulder and chest, her straight double-edged jian rising diagonally from the fist toward the upper right of the frame. A second straight jian, its hilt and wielder beyond the top-right frame edge, slashes down and to the left across the foreground, the two blades crossing in an X in the upper-right quadrant at equal distance from the lens, both swelling under wide-angle perspective into broad soft wedges of motion blur. At the crossing, a single hard cyan-white flare is the brightest point in the frame, and the descending blade’s lower end fades into soft blur beside her sleeve. A heavy-weave sleeve hangs toward the ground, its hem lifting in the same current. The air feels cold and dense, held at the instant steel meets steel. One hard-edged cold white-blue light behind her left shoulder rims her jaw, cheek and a sliver of one eye. A current of fine mist rises from the floor at lower left, sweeps over her sleeve, winds in tightening spirals around wrist and blade, and bursts into counter-rotating whorls at the crossing, hair-fine at the edges. Monochromatic cool blue-black harmony, one dominant black mass, one saturated cyan-white accent. Sharp focus on the eye, crushed blacks.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147674364",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e3c180b-872c-4807-ac7f-c4aebb200c03/original=true/9e3c180b-872c-4807-ac7f-c4aebb200c03.jpeg",
+      "model": "comfyui/moss_image_t2i",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 4292983855,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882292+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a25876122a48c48fff09a10bea7f23662ee07d83893a332738ce812213035a86",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147674364 image ai-image-prompts a long-exposure photograph taken with a 24mm wide-angle lens held low and close, a young adult chinese swordswoman a few strides from the camera, her dark silhouette off-center in the left two-thirds against a black void, frozen at the instant her blade parries a descending cut. her torso turns three-quarters away while her face swings back toward the lens, gaze locked on it. her right arm reaches toward the camera, strongly foreshortened, fist and hilt overlapping her right shoulder and chest, her straight double-edged jian rising diagonally from the fist toward the upper right of the frame. a second straight jian, its hilt and wielder beyond the top-right frame edge, slashes down and to the left across the foreground, the two blades crossing in an x in the upper-right quadrant at equal distance from the lens, both swelling under wide-angle perspective into broad soft wedges of motion blur. at the crossing, a single hard cyan-white flare is the brightest point in the frame, and the descending blade’s lower end fades into soft blur beside her sleeve. a heavy-weave sleeve hangs toward the ground, its hem lifting in the same current. the air feels cold and dense, held at the instant steel meets steel. one hard-edged cold white-blue light behind her left shoulder rims her jaw, cheek and a sliver of one eye. a current of fine mist rises from the floor at lower left, sweeps over her sleeve, winds in tightening spirals around wrist and blade, and bursts into counter-rotating whorls at the crossing, hair-fine at the edges. monochromatic cool blue-black harmony, one dominant black mass, one saturated cyan-white accent. sharp focus on the eye, crushed blacks. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147674364",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e3c180b-872c-4807-ac7f-c4aebb200c03/original=true/9e3c180b-872c-4807-ac7f-c4aebb200c03.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147657290",
+      "title": "Civitai prompt 147657290",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Photorealistic retro fashion editorial featuring a cute K0rean_Girl with long dark hair styled in neat twin braids, glamorous expressive makeup, smooth even-toned skin, defined eyebrows, elongated fox-eye eyeliner, long dramatic lashes, and glossy pink lips. She wears a bright yellow cropped blazer, a black pleated mini skirt, and crisp white thigh-high socks. Her pose is playful and dynamic, leaning one hip against a pastel pink school locker, her torso twisted at a flattering angle to create a confident silhouette. She winks at the camera with a mischievous smile, radiating youthful, cheeky energy.\nThe setting is a nostalgic retro school hallway with rows of pastel lockers decorated with small stickers, a classic black-and-white checkerboard floor, and deep shadows adding atmosphere. The composition feels candid yet carefully styled, like a spontaneous fashion snapshot taken after class. Harsh on-camera direct flash creates bright specular highlights across her face, cheekbones, and collarbone, crisp shadows behind her, and the distinctive glossy skin reflections of vintage film photography. Vivid yellow and pink accents contrast with the darker hallway, while subtle film grain and nostalgic color grading evoke late-1990s and early-2000s fashion magazines. (Direct on-camera flash:1.4), (playful wink:1.3), (pastel pink lockers:1.3), (bright yellow cropped blazer:1.3), (glossy pink lips:1.2), (expressive fox-eye makeup:1.2), (dynamic twisted pose:1.2), (realistic skin texture:1.2), retro editorial photography, Y2K fashion aesthetic, analog film grain, high contrast, authentic flash photography, crisp facial focus, detailed fabric textures, natural body proportions, vibrant nostalgic color palette, high-end fashion campaign, ultra-detailed.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147657290",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2acf246-af9e-4a32-91e2-77f372837392/original=true/d2acf246-af9e-4a32-91e2-77f372837392.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3413516,
+        3420002,
+        3426259,
+        3427337
+      ],
+      "width": 864,
+      "height": 1536,
+      "seed": 210590194237771,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882368+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "47f8a20b8b12696f08b27a15fb7f9b894227fef0f95e7832b9d70ff9190e48ed",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147657290 fashion ai-image-prompts photorealistic retro fashion editorial featuring a cute k0rean_girl with long dark hair styled in neat twin braids, glamorous expressive makeup, smooth even-toned skin, defined eyebrows, elongated fox-eye eyeliner, long dramatic lashes, and glossy pink lips. she wears a bright yellow cropped blazer, a black pleated mini skirt, and crisp white thigh-high socks. her pose is playful and dynamic, leaning one hip against a pastel pink school locker, her torso twisted at a flattering angle to create a confident silhouette. she winks at the camera with a mischievous smile, radiating youthful, cheeky energy. the setting is a nostalgic retro school hallway with rows of pastel lockers decorated with small stickers, a classic black-and-white checkerboard floor, and deep shadows adding atmosphere. the composition feels candid yet carefully styled, like a spontaneous fashion snapshot taken after class. harsh on-camera direct flash creates bright specular highlights across her face, cheekbones, and collarbone, crisp shadows behind her, and the distinctive glossy skin reflections of vintage film photography. vivid yellow and pink accents contrast with the darker hallway, while subtle film grain and nostalgic color grading evoke late-1990s and early-2000s fashion magazines. (direct on-camera flash:1.4), (playful wink:1.3), (pastel pink lockers:1.3), (bright yellow cropped blazer:1.3), (glossy pink lips:1.2), (expressive fox-eye makeup:1.2), (dynamic twisted pose:1.2), (realistic skin texture:1.2), retro editorial photography, y2k fashion aesthetic, analog film grain, high contrast, authentic flash photography, crisp facial focus, detailed fabric textures, natural body proportions, vibrant nostalgic color palette, high-end fashion campaign, ultra-detailed. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147657290",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2acf246-af9e-4a32-91e2-77f372837392/original=true/d2acf246-af9e-4a32-91e2-77f372837392.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147657288",
+      "title": "Civitai prompt 147657288",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A whimsical soft digital painting, Masterpiece, high quality, Oil Painting, A radiant, Classic Disney animated film scene about a proud skinny tween girl Vampire, who is smiling in exuberant delight showing off her vampire fangs. She has translucent white skin, red hair, blue eyes, petite body, and wasp waist. She is wearing a tight black dress, featuring a tightly corseted bodice, and a bustle. Her dress is simple yet regal, radiating understated beauty.  She stand in a gothic house. brush strokes, warm light, magic, extremely coherent, cute, beautiful, cinematic, stunning, creative, positive, cheerful, unique, cool, inspiring, pure, rational, very inspirational, friendly, thought, glowing, magical, perfect, intricate, wonderful, lovely, novuschroma, del1cate_balance style, in the style of Rembrandt. FS, vantablack",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147657288",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97449826-fab1-4c0f-9cd2-063768394325/original=true/97449826-fab1-4c0f-9cd2-063768394325.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3413516,
+        3420002,
+        3426259,
+        3427337
+      ],
+      "width": 864,
+      "height": 1536,
+      "seed": 956831682527767,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882404+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4e890f8437ab39ce6478a56b5ec4602b197a23fd030b3cb6d7609beeaaef7aff",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147657288 image ai-image-prompts a whimsical soft digital painting, masterpiece, high quality, oil painting, a radiant, classic disney animated film scene about a proud skinny tween girl vampire, who is smiling in exuberant delight showing off her vampire fangs. she has translucent white skin, red hair, blue eyes, petite body, and wasp waist. she is wearing a tight black dress, featuring a tightly corseted bodice, and a bustle. her dress is simple yet regal, radiating understated beauty. she stand in a gothic house. brush strokes, warm light, magic, extremely coherent, cute, beautiful, cinematic, stunning, creative, positive, cheerful, unique, cool, inspiring, pure, rational, very inspirational, friendly, thought, glowing, magical, perfect, intricate, wonderful, lovely, novuschroma, del1cate_balance style, in the style of rembrandt. fs, vantablack civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147657288",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97449826-fab1-4c0f-9cd2-063768394325/original=true/97449826-fab1-4c0f-9cd2-063768394325.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147674211",
+      "title": "Civitai prompt 147674211",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "r17329_illu,(masterpiece, best quality, absurdres:1.4), 1girl, azure eyes, azure foggy weather, azure vibrant, black desert, black hair, black moonlight, dark pixel art, dark sketch, denim armor, fantasy, green castle, green temple, magenta classroom, magenta stormy weather, metal jacket, noon, orange temple, pink meadow, purple meadow, purple neon, red meadow, red shot, satin kimono, short hair, silver candlelight, silver temple, white rim lighting, white street, white temple\n <lora:StS-Illustrious-Detail-Slider-v1.0:0.75> <lora:r17329_illuu:1.0>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147674211",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/49f699b6-88db-4ffc-b6bc-d8b4d9b6ce15/original=true/49f699b6-88db-4ffc-b6bc-d8b4d9b6ce15.jpeg",
+      "model": "waiIllustriousSDXL_v160",
+      "model_version_ids": [
+        1122976,
+        1352742,
+        2514310
+      ],
+      "width": 2304,
+      "height": 3072,
+      "seed": 128970984467941,
+      "negative_prompt": "bad quality, worst quality, worst detail, sketch, bad hands, bad anatomy, deformed, artist name, watermark, signature, patreon, twitter username",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882427+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "731f83a50eb883ee94cb02e7a060d275c55c4f6bb7d2945cb6956ccb6c8dbd64",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 147674211 image ai-image-prompts r17329_illu,(masterpiece, best quality, absurdres:1.4), 1girl, azure eyes, azure foggy weather, azure vibrant, black desert, black hair, black moonlight, dark pixel art, dark sketch, denim armor, fantasy, green castle, green temple, magenta classroom, magenta stormy weather, metal jacket, noon, orange temple, pink meadow, purple meadow, purple neon, red meadow, red shot, satin kimono, short hair, silver candlelight, silver temple, white rim lighting, white street, white temple <lora:sts-illustrious-detail-slider-v1.0:0.75> <lora:r17329_illuu:1.0> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147674211",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/49f699b6-88db-4ffc-b6bc-d8b4d9b6ce15/original=true/49f699b6-88db-4ffc-b6bc-d8b4d9b6ce15.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147674004",
+      "title": "Civitai prompt 147674004",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A long-exposure photograph taken with a 24mm wide-angle lens held low and close, a young adult Chinese swordswoman a few strides from the camera, her dark silhouette off-center in the left two-thirds against a black void, frozen mid-thrust. Her torso turns three-quarters away while her face swings back toward the lens, gaze locked on it. Her right arm reaches toward the camera, strongly foreshortened, fist and hilt overlapping her right shoulder and chest, and the straight double-edged jian runs from the hilt up across the right of the frame, its tip a hand’s breadth from the front element, swelling into a huge soft wedge of motion blur in the upper-right foreground. A heavy-weave sleeve hangs toward the ground, its hem lifting in the same current. The air feels cold and dense, held at the instant before the strike lands. One hard-edged cold white-blue light behind her left shoulder flares gently, rimming her jaw, cheek and a sliver of one eye, and catching a continuous current of fine mist that rises from the floor at lower right, sweeps up across her sleeve, winds in tightening spirals around wrist and blade, and streams off the steel toward the lens, thick and bright near the light, thinning to hair-fine filaments at its edges, with a few detached whorls turning slowly behind her. Monochromatic cool blue-black harmony, one dominant black mass, one saturated cyan-white accent. Sharp focus on the eye, crushed blacks.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147674004",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e8be7b-fedb-40ff-b943-04a6395fc285/original=true/98e8be7b-fedb-40ff-b943-04a6395fc285.jpeg",
+      "model": "comfyui/moss_image_t2i",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1351953552,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882493+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9cce4e4b695f9351b860163339b5cb22761b02922151ab797e4e872762c11c1c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147674004 image ai-image-prompts a long-exposure photograph taken with a 24mm wide-angle lens held low and close, a young adult chinese swordswoman a few strides from the camera, her dark silhouette off-center in the left two-thirds against a black void, frozen mid-thrust. her torso turns three-quarters away while her face swings back toward the lens, gaze locked on it. her right arm reaches toward the camera, strongly foreshortened, fist and hilt overlapping her right shoulder and chest, and the straight double-edged jian runs from the hilt up across the right of the frame, its tip a hand’s breadth from the front element, swelling into a huge soft wedge of motion blur in the upper-right foreground. a heavy-weave sleeve hangs toward the ground, its hem lifting in the same current. the air feels cold and dense, held at the instant before the strike lands. one hard-edged cold white-blue light behind her left shoulder flares gently, rimming her jaw, cheek and a sliver of one eye, and catching a continuous current of fine mist that rises from the floor at lower right, sweeps up across her sleeve, winds in tightening spirals around wrist and blade, and streams off the steel toward the lens, thick and bright near the light, thinning to hair-fine filaments at its edges, with a few detached whorls turning slowly behind her. monochromatic cool blue-black harmony, one dominant black mass, one saturated cyan-white accent. sharp focus on the eye, crushed blacks. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147674004",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e8be7b-fedb-40ff-b943-04a6395fc285/original=true/98e8be7b-fedb-40ff-b943-04a6395fc285.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673964",
+      "title": "Civitai prompt 147673964",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "joyful woman named c4rm3n with expressive green-brown eyes, fair skin, dark brunette hair flowing dynamically in a windblown cascade around her face and shoulders, smiling brightly with teeth visible, looking directly at the camera with an energetic and carefree expression, wearing a vibrant red knit sweater with ribbed cuffs and hemline, paired with a thick, oversized cream-colored wool scarf wrapped snugly around her neck and draping down over her chest with long, frayed fringe ends, also wearing high-waisted white pants that appear to be made of smooth, slightly reflective material, in mid-stride outdoors in a snowy winter landscape with bare, snow-dusted tree branches visible in the blurred background, snow flakes falling gently and visibly around her, sunlight illuminating her from the front-left, casting soft highlights on her skin and creating subtle shadows under her chin and along her jawline, composition is a medium close-up shot capturing her from the upper thighs upward, angled slightly downward from a low perspective, shallow depth of field blurring the background into a soft bokeh while keeping her face and upper body sharply in focus, artistic style is photorealistic with hyper-detailed textures, emphasizing realistic fabric weave, natural skin pores, and dynamic motion blur on her hair strands, overall mood is festive, exhilarating, and warm despite the cold environment. highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_Carmen_AI_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_lh_Detail_Slider:1.5> <lora:krea2_natural_expressions_V2:1.0>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673964",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3244bc2c-b709-41a9-b97b-e6a53c944ea6/original=true/3244bc2c-b709-41a9-b97b-e6a53c944ea6.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [
+        3072332,
+        3121642,
+        3350181,
+        3445732
+      ],
+      "width": 1728,
+      "height": 2592,
+      "seed": 524,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882537+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "030be114c18e641950afafd41322858e7884d4e68c9643ced818c595135ea7eb",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147673964 photography ai-image-prompts joyful woman named c4rm3n with expressive green-brown eyes, fair skin, dark brunette hair flowing dynamically in a windblown cascade around her face and shoulders, smiling brightly with teeth visible, looking directly at the camera with an energetic and carefree expression, wearing a vibrant red knit sweater with ribbed cuffs and hemline, paired with a thick, oversized cream-colored wool scarf wrapped snugly around her neck and draping down over her chest with long, frayed fringe ends, also wearing high-waisted white pants that appear to be made of smooth, slightly reflective material, in mid-stride outdoors in a snowy winter landscape with bare, snow-dusted tree branches visible in the blurred background, snow flakes falling gently and visibly around her, sunlight illuminating her from the front-left, casting soft highlights on her skin and creating subtle shadows under her chin and along her jawline, composition is a medium close-up shot capturing her from the upper thighs upward, angled slightly downward from a low perspective, shallow depth of field blurring the background into a soft bokeh while keeping her face and upper body sharply in focus, artistic style is photorealistic with hyper-detailed textures, emphasizing realistic fabric weave, natural skin pores, and dynamic motion blur on her hair strands, overall mood is festive, exhilarating, and warm despite the cold environment. highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_carmen_ai_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_lh_detail_slider:1.5> <lora:krea2_natural_expressions_v2:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673964",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3244bc2c-b709-41a9-b97b-e6a53c944ea6/original=true/3244bc2c-b709-41a9-b97b-e6a53c944ea6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-146020366",
+      "title": "Civitai prompt 146020366",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "Full body shot. A lone astronaut in a weathered, battle-scarred spacesuit stands confidently near a crackling campfire on an alien desert world at night. The terrain is jagged and harsh with metallic rock formations, broken satellite dishes half-buried in scorched alien dust, and strange crystalline structures jutting from the ground. The sky glows faintly with pastel blues and purples, filled with unfamiliar constellations and a distant nebula. The firelight reflects off parts of his suit, casting dramatic highlights. A weathered acoustic guitar leans against a boulder nearby. The mood is bold, grounded, and raw - evoking survivalist swagger on a forgotten world. Rendered in painterly digital brushstrokes with semi-realistic style, noisy analog textures, cinematic shadows, emotional grit, masterpiece, 8k, sci-fi western aesthetic.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/146020366",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13367d97-8995-495b-a200-f2309ef37bd5/original=true/13367d97-8995-495b-a200-f2309ef37bd5.jpeg",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882565+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "02144ff28f566e1e0587959390cbf3103b1194615cb414050df57220aa2ff7f1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 146020366 food ai-image-prompts full body shot. a lone astronaut in a weathered, battle-scarred spacesuit stands confidently near a crackling campfire on an alien desert world at night. the terrain is jagged and harsh with metallic rock formations, broken satellite dishes half-buried in scorched alien dust, and strange crystalline structures jutting from the ground. the sky glows faintly with pastel blues and purples, filled with unfamiliar constellations and a distant nebula. the firelight reflects off parts of his suit, casting dramatic highlights. a weathered acoustic guitar leans against a boulder nearby. the mood is bold, grounded, and raw - evoking survivalist swagger on a forgotten world. rendered in painterly digital brushstrokes with semi-realistic style, noisy analog textures, cinematic shadows, emotional grit, masterpiece, 8k, sci-fi western aesthetic. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/146020366",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13367d97-8995-495b-a200-f2309ef37bd5/original=true/13367d97-8995-495b-a200-f2309ef37bd5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673937",
+      "title": "Civitai prompt 147673937",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A poised woman named c4rm3n, with fair skin and dark brunette hair styled in a high, voluminous ponytail adorned with a large, glossy red satin bow at the crown, stands in a three-quarter profile facing slightly toward the camera with her head turned to look directly into the lens, her expression confident and alluring with expressive green-brown eyes that are sharply defined with dramatic eyeliner and smoky eyeshadow, lips painted a vibrant, saturated red, wearing a strapless black satin corset top with a smooth, reflective surface and a matching red satin belt cinched tightly at the waist, paired with a full, floor-length red tulle skirt made of multiple layers of sheer, lightweight fabric creating a voluminous, flowing silhouette that drapes dramatically around her legs, she has toned arms with visible muscle definition, her right arm resting naturally at her side with fingers loosely curled while her left arm is bent behind her back, revealing the curve of her shoulder and upper back, she wears long, dangling chandelier earrings featuring a central deep red gemstone surrounded by smaller clear crystals set in an ornate silver frame and silver rings on her fingers, the composition is framed as a medium-full shot capturing her from the mid-thighs up, the camera angle is slightly elevated and frontal, emphasizing her posture and the dramatic contrast between the bold red and sleek black elements of her outfit, depth of field is shallow with the subject sharply in focus while the background remains softly blurred, artistic style is photorealistic with meticulous attention to texture: the satin’s sheen, the tulle’s translucency, the skin’s natural pores and subtle imperfections, and the metallic luster of the jewelry, overall mood is glamorous, seductive, and theatrical; The setting is a grand, opulent ballroom or mansion foyer with classical architecture—high arched ceilings, marble columns, gilded moldings, and heavy drapery. Multiple large, ornate chandeliers hang from the ceiling, casting warm golden light across the scene. In the background, blurred figures in formal attire (men in tuxedos, women in evening gowns) move subtly, suggesting a gala or high-society event. A staircase with polished wooden steps and white balustrades descends behind her, leading to a lower level where more guests are faintly visible. The walls are adorned with framed artwork and decorative mirrors, reflecting the chandeliers’ glow. The floor is polished marble, reflecting the lights and creating depth.\nThe camera is positioned slightly below eye level, enhancing her commanding presence. Depth of field is shallow, rendering the foreground sharp while the background remains softly blurred to emphasize the subject. Spatial arrangement places her centrally, dominating the frame, with the staircase and chandeliers framing her from above and behind.\nLighting: High-key cinematic lighting with dramatic chiaroscuro contrast. Primary illumination comes from multiple overhead chandeliers, casting warm, diffused glows that highlight her skin texture, jewelry, and dress reflections. Shadows are soft but defined, especially under her chin, along her collarbone. No harsh shadows; all lighting is controlled for elegance and realism.\nMood / Atmosphere: Luxurious, seductive, confident, and elegant. The mood evokes exclusivity, glamour, and high-stakes social sophistication. It feels like a moment frozen during a prestigious gala, where she commands attention through poise and visual impact, consistent lighting, and cinematic quality, highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_Carmen_AI_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_natural_expressions_V2:1.0> <lora:krea2_lh_Detail_Slider:1.5>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673937",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c7cf8f9-594a-468b-9d80-92eec87e8b9d/original=true/6c7cf8f9-594a-468b-9d80-92eec87e8b9d.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [
+        3072332,
+        3121642,
+        3350181,
+        3445732
+      ],
+      "width": 1536,
+      "height": 2304,
+      "seed": 251,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882700+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "68267be2d7ac02fd826ec79efc7ea404588518f4bd39222e4b47f536212dde1f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673937 architecture ai-image-prompts a poised woman named c4rm3n, with fair skin and dark brunette hair styled in a high, voluminous ponytail adorned with a large, glossy red satin bow at the crown, stands in a three-quarter profile facing slightly toward the camera with her head turned to look directly into the lens, her expression confident and alluring with expressive green-brown eyes that are sharply defined with dramatic eyeliner and smoky eyeshadow, lips painted a vibrant, saturated red, wearing a strapless black satin corset top with a smooth, reflective surface and a matching red satin belt cinched tightly at the waist, paired with a full, floor-length red tulle skirt made of multiple layers of sheer, lightweight fabric creating a voluminous, flowing silhouette that drapes dramatically around her legs, she has toned arms with visible muscle definition, her right arm resting naturally at her side with fingers loosely curled while her left arm is bent behind her back, revealing the curve of her shoulder and upper back, she wears long, dangling chandelier earrings featuring a central deep red gemstone surrounded by smaller clear crystals set in an ornate silver frame and silver rings on her fingers, the composition is framed as a medium-full shot capturing her from the mid-thighs up, the camera angle is slightly elevated and frontal, emphasizing her posture and the dramatic contrast between the bold red and sleek black elements of her outfit, depth of field is shallow with the subject sharply in focus while the background remains softly blurred, artistic style is photorealistic with meticulous attention to texture: the satin’s sheen, the tulle’s translucency, the skin’s natural pores and subtle imperfections, and the metallic luster of the jewelry, overall mood is glamorous, seductive, and theatrical; the setting is a grand, opulent ballroom or mansion foyer with classical architecture—high arched ceilings, marble columns, gilded moldings, and heavy drapery. multiple large, ornate chandeliers hang from the ceiling, casting warm golden light across the scene. in the background, blurred figures in formal attire (men in tuxedos, women in evening gowns) move subtly, suggesting a gala or high-society event. a staircase with polished wooden steps and white balustrades descends behind her, leading to a lower level where more guests are faintly visible. the walls are adorned with framed artwork and decorative mirrors, reflecting the chandeliers’ glow. the floor is polished marble, reflecting the lights and creating depth. the camera is positioned slightly below eye level, enhancing her commanding presence. depth of field is shallow, rendering the foreground sharp while the background remains softly blurred to emphasize the subject. spatial arrangement places her centrally, dominating the frame, with the staircase and chandeliers framing her from above and behind. lighting: high-key cinematic lighting with dramatic chiaroscuro contrast. primary illumination comes from multiple overhead chandeliers, casting warm, diffused glows that highlight her skin texture, jewelry, and dress reflections. shadows are soft but defined, especially under her chin, along her collarbone. no harsh shadows; all lighting is controlled for elegance and realism. mood / atmosphere: luxurious, seductive, confident, and elegant. the mood evokes exclusivity, glamour, and high-stakes social sophistication. it feels like a moment frozen during a prestigious gala, where she commands attention through poise and visual impact, consistent lighting, and cinematic quality, highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_carmen_ai_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_natural_expressions_v2:1.0> <lora:krea2_lh_detail_slider:1.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673937",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c7cf8f9-594a-468b-9d80-92eec87e8b9d/original=true/6c7cf8f9-594a-468b-9d80-92eec87e8b9d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673943",
+      "title": "Civitai prompt 147673943",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "zy_cinematic\nA beautiful, pale-skinned woman with sleek, straight white hair and intense crimson eyes, wearing a tailored black suit and a black top hat, looking back over her shoulder towards the viewer with a confident, badass, and cool expression.\nShe stands in a dimly lit, atmospheric setting, her posture poised and commanding, radiating an aura of elegant mystery and unspoken power.\nDramatic, high-contrast cinematic lighting illuminates her face and the crisp details of her black suit, casting deep, defined shadows that emphasize her pale skin and the stark white of her hair.\nThe black suit is rendered with meticulous material detail, showing the matte texture of the fabric and the structured shoulders, while the top hat sits perfectly straight, adding to her authoritative presence.\nHer crimson eyes are sharp and piercing, the only warm element in a cool, desaturated color grade that emphasizes deep blacks and muted, moody tones.\nThe background is a soft, ethereal blur of dark, indistinct shapes, keeping the focus entirely on her confident gaze and the sleek lines of her attire.\nHigh-resolution, photorealistic rendering with sharp focus on her facial features and the texture of her hair, evoking a sense of sophisticated dread and stylish anticipation in a dark, cinematic atmosphere.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673943",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b025f538-a940-463a-8610-144ba4f48ab3/original=true/b025f538-a940-463a-8610-144ba4f48ab3.jpeg",
+      "model_version_ids": [
+        3072332,
+        3085969,
+        3398827
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 138684733,
+      "negative_prompt": "smiling, warm color grading, heavy makeup, messy hair, wrinkled suit, distorted hands, extra limbs, blurry, low quality, watermark, text, deformed anatomy, bright lighting, cheerful mood",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882741+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "560f06a43a43f7aa0cd414af219a8e56719a34e254d93f0266d2d94d3816332b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673943 image ai-image-prompts zy_cinematic a beautiful, pale-skinned woman with sleek, straight white hair and intense crimson eyes, wearing a tailored black suit and a black top hat, looking back over her shoulder towards the viewer with a confident, badass, and cool expression. she stands in a dimly lit, atmospheric setting, her posture poised and commanding, radiating an aura of elegant mystery and unspoken power. dramatic, high-contrast cinematic lighting illuminates her face and the crisp details of her black suit, casting deep, defined shadows that emphasize her pale skin and the stark white of her hair. the black suit is rendered with meticulous material detail, showing the matte texture of the fabric and the structured shoulders, while the top hat sits perfectly straight, adding to her authoritative presence. her crimson eyes are sharp and piercing, the only warm element in a cool, desaturated color grade that emphasizes deep blacks and muted, moody tones. the background is a soft, ethereal blur of dark, indistinct shapes, keeping the focus entirely on her confident gaze and the sleek lines of her attire. high-resolution, photorealistic rendering with sharp focus on her facial features and the texture of her hair, evoking a sense of sophisticated dread and stylish anticipation in a dark, cinematic atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673943",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b025f538-a940-463a-8610-144ba4f48ab3/original=true/b025f538-a940-463a-8610-144ba4f48ab3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673800",
+      "title": "Civitai prompt 147673800",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, absurdres, general, volumetric lighting, soft shading, (no humans:2), (detailed eyes:1.5), very long eyelashes,\nportrait, three-quarter view, close-up, solo, dragon girl, western dragon, Fleily, azure scales, beige countershading, multicolored eyes, feral, slim, long snout, smile, happy look, looking at viewer, big grin, (fangs:1.5), head tilt, playful face, holding business card, (detailed text on business card: \"Anima - Fleily\":2.0).\nbokeh, night, blurry background, deep of field,\n<lora:S1_Dramatic Lighting Anima_V2:0.5> <lora:Shadeslider:0.75> <lora:Fleily:0.9> <lora:Anima Furry Domain .11:0.25>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673800",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15f2f3a2-b8c1-495e-bfe5-af7dbdbea44d/original=true/15f2f3a2-b8c1-495e-bfe5-af7dbdbea44d.jpeg",
+      "model": "anima_baseV10",
+      "model_version_ids": [
+        2945208,
+        3126711,
+        3235511,
+        3429758,
+        3445916
+      ],
+      "width": 1216,
+      "height": 1216,
+      "seed": 1794772358,
+      "negative_prompt": "lowres, worst quality, bad hands, hurt, cripple, disabled, broken,\nwinged arms, wyvern, 3 fingers, fewer digits, missing fingers, 3 toes, missing toes, dorsal mane,\ndeformed, line art, 3d \\(artwork\\), blender, canine, muscular female, wrinkles, anatomical nonsense, puffy, thick, fat, curvy, lipstick, empty eyes, blurry, lens flare, red pupils, chromatic aberration, camera flash, symmetry, wet, sweat, missing, extra, conjoined, loli, feathers, feathered tail tip, pubic hair, body fur, scutes, arms behind back, huge breasts, curled tail, symmetry \\(reflectional\\), symmetrical pose, hallway, corridor, long tail, neutral pose, fewer digits, 3 toes, hair strands, butterfly, holding hands, young male, bent over, looking down, soft pawpads, orange skin",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882766+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5f0e61e2e40b2b0e888f5279110d188b85fffe8332f771ea82a4a576c8204ac4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673800 image ai-image-prompts masterpiece, best quality, absurdres, general, volumetric lighting, soft shading, (no humans:2), (detailed eyes:1.5), very long eyelashes, portrait, three-quarter view, close-up, solo, dragon girl, western dragon, fleily, azure scales, beige countershading, multicolored eyes, feral, slim, long snout, smile, happy look, looking at viewer, big grin, (fangs:1.5), head tilt, playful face, holding business card, (detailed text on business card: \"anima - fleily\":2.0). bokeh, night, blurry background, deep of field, <lora:s1_dramatic lighting anima_v2:0.5> <lora:shadeslider:0.75> <lora:fleily:0.9> <lora:anima furry domain .11:0.25> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673800",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15f2f3a2-b8c1-495e-bfe5-af7dbdbea44d/original=true/15f2f3a2-b8c1-495e-bfe5-af7dbdbea44d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673912",
+      "title": "Civitai prompt 147673912",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "joyful woman named c4rm3n, expressive green-brown eyes, fair skin, sitting in a relaxed yet posed manner on a large smooth concrete sphere outdoors, wearing a vibrant red felt fedora hat with a wide brim casting soft shadow across her forehead, long wavy brown hair cascading over her shoulders and down her back, dressed in an off-the-shoulder black-and-white horizontal striped ribbed knit sweater that hugs her torso and arms tightly, paired with slim-fitting medium-wash blue denim jeans rolled at the cuffs to reveal white inner lining and tan stitching details, feet adorned with glossy emerald green patent leather ankle boots featuring high stiletto heels and a vertical orange zipper running along the outer side of each boot, hands clasped gently together resting near her thigh with neatly manicured nails painted in a light neutral tone, smiling broadly with teeth visible, head tilted slightly to her right while looking directly into the camera with bright engaging eyes conveying warmth and happiness, positioned in front of a stone building facade composed of irregularly shaped stones in varying shades of beige, gray, and muted brown arranged in a non-uniform pattern with two dark-framed windows visible behind her, sunlight streaming from the upper left casting sharp defined shadows on the ground and highlighting the contours of her body, clothing textures, and the surface of the concrete sphere, creating strong contrast between illuminated areas and deep shadows, composition framed as a full-body portrait shot taken from a slightly low angle emphasizing her presence and posture, shallow depth of field blurring the background while keeping her figure sharply in focus, artistic style rendered in photorealistic detail with highly accurate rendering of fabric weave, shoe material sheen, skin texture, and environmental lighting conditions, overall mood exuding confidence, joy, and casual elegance under natural daylight, highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_Carmen_AI_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_natural_expressions_V2:1.0> <lora:krea2_lh_Detail_Slider:1.5>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673912",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee8befc9-cfa5-4c8a-bc54-c7e7781ab4ae/original=true/ee8befc9-cfa5-4c8a-bc54-c7e7781ab4ae.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [
+        3072332,
+        3121642,
+        3350181,
+        3445732
+      ],
+      "width": 1536,
+      "height": 2304,
+      "seed": 248,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882831+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "60c6b602c05316df0935134583680aa8210890757c0f3c2b6a5eca6787cd2ae3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673912 architecture ai-image-prompts joyful woman named c4rm3n, expressive green-brown eyes, fair skin, sitting in a relaxed yet posed manner on a large smooth concrete sphere outdoors, wearing a vibrant red felt fedora hat with a wide brim casting soft shadow across her forehead, long wavy brown hair cascading over her shoulders and down her back, dressed in an off-the-shoulder black-and-white horizontal striped ribbed knit sweater that hugs her torso and arms tightly, paired with slim-fitting medium-wash blue denim jeans rolled at the cuffs to reveal white inner lining and tan stitching details, feet adorned with glossy emerald green patent leather ankle boots featuring high stiletto heels and a vertical orange zipper running along the outer side of each boot, hands clasped gently together resting near her thigh with neatly manicured nails painted in a light neutral tone, smiling broadly with teeth visible, head tilted slightly to her right while looking directly into the camera with bright engaging eyes conveying warmth and happiness, positioned in front of a stone building facade composed of irregularly shaped stones in varying shades of beige, gray, and muted brown arranged in a non-uniform pattern with two dark-framed windows visible behind her, sunlight streaming from the upper left casting sharp defined shadows on the ground and highlighting the contours of her body, clothing textures, and the surface of the concrete sphere, creating strong contrast between illuminated areas and deep shadows, composition framed as a full-body portrait shot taken from a slightly low angle emphasizing her presence and posture, shallow depth of field blurring the background while keeping her figure sharply in focus, artistic style rendered in photorealistic detail with highly accurate rendering of fabric weave, shoe material sheen, skin texture, and environmental lighting conditions, overall mood exuding confidence, joy, and casual elegance under natural daylight, highres, photorealistic photograph, realistic skin texture, detailed and consistent clothing textures. <lora:krea2_carmen_ai_v6_krea2_3405245_epoch_9:1.0> <lora:krea2_natural_expressions_v2:1.0> <lora:krea2_lh_detail_slider:1.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673912",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee8befc9-cfa5-4c8a-bc54-c7e7781ab4ae/original=true/ee8befc9-cfa5-4c8a-bc54-c7e7781ab4ae.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673902",
+      "title": "Civitai prompt 147673902",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "absurdres, best quality, masterpiece, amazing quality, highres, very aesthetic, ultra detailed, anime coloring,\nizuna_(dress),  yellow eyes , eyeshadow, brown hair, long hair, short dress, fox ears,fox tail,  pink halo,  pink choker, halter dress,feather boa,bow, high heels, looks at viewer, jumps midair, midair shot, motion lines, happy expression, outdoors, fashon scene in the background,\n(pink theme:0.85), (orange theme:0.75),depth of field,cinematic lighting <lora:BOA_r1:0.8>, <lora:Robertlu1021_izuna_blue_archive_v1.0:0.8>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673902",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6378ddf-a54f-4a28-8e98-b7c09ca1f9cf/original=true/c6378ddf-a54f-4a28-8e98-b7c09ca1f9cf.jpeg",
+      "model": "waiIllustriousSDXL_v170",
+      "model_version_ids": [
+        2132494,
+        2830105,
+        2883731
+      ],
+      "width": 1456,
+      "height": 2128,
+      "seed": 3556494287,
+      "negative_prompt": "bad quality,worst quality,jpeg artifacts, low quality,worst detail,lowres, worst quality, bad quality, bad anatomy, sketch, blurry,too many fingers,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882854+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1b9e831d4ee0255a95ac827b7eb59b5c8b698963188381b6999da0e349a75ad1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 147673902 image ai-image-prompts absurdres, best quality, masterpiece, amazing quality, highres, very aesthetic, ultra detailed, anime coloring, izuna_(dress), yellow eyes , eyeshadow, brown hair, long hair, short dress, fox ears,fox tail, pink halo, pink choker, halter dress,feather boa,bow, high heels, looks at viewer, jumps midair, midair shot, motion lines, happy expression, outdoors, fashon scene in the background, (pink theme:0.85), (orange theme:0.75),depth of field,cinematic lighting <lora:boa_r1:0.8>, <lora:robertlu1021_izuna_blue_archive_v1.0:0.8> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673902",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6378ddf-a54f-4a28-8e98-b7c09ca1f9cf/original=true/c6378ddf-a54f-4a28-8e98-b7c09ca1f9cf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673820",
+      "title": "Civitai prompt 147673820",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ceilingfisheyecam, sinorealmale, overhead circular fisheye view of a coworking office with long desks and laptops, monochrome.\n\nCamera: a fixed fisheye security camera mounted flat on the ceiling in the middle of the room and pointing straight down at the floor, a full 180-degree circular image inside a black square frame. The view is a top-down floor plan of the whole room: the floor fills the middle of the circle, the tops of beds, sofas, tables and rugs are seen from directly above, and the walls with their doors and windows fall outward around the rim of the circle. The people are seen from directly overhead: the tops of their heads, their shoulders, backs and arms, their bodies foreshortened toward the floor; they are a moderate size near the middle of the circle, clearly readable but small relative to the room. There is no eye-level view, no horizon and no face looking straight at the camera unless described.\n\nSetting: long white desks, laptops, plants.\n\nLight: flat indoor ceiling light.\n\nThere are exactly two people in the frame and no one else. What is happening: Three people work.\n\nPerson 1 is a Japanese man aged 24, with a sharp V-shaped jaw, narrow upturned eyes, pale skin and short spiky black hair with bleached tips and a slim fit build,, with short black hair. He has a slim, natural adult build and smooth light warm East Asian skin tone. Position in the frame: left desk. Posture: sitting. Arms and legs: typing. Clothing: a shirt. The clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. Expression: focused. He has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own.\n\nPerson 2 is a Czech man aged 23, with a wide face with freckles, pale lashes and short copper-red hair and a toned swimmer's build,, with short dark hair. He has a slim, natural adult build and pale fair Eastern European skin with a slight pink undertone. Position in the frame: right desk. Posture: sitting. Arms and legs: on a call. Clothing: a sweater. The clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. Expression: talking. He has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own.\n\nThe only text in the image: a small white label below the circle reading \"CAM 02 OPEN DESK\" and a white timestamp \"2026-11-02 14:03:47\" beside it. Every character spelled exactly. Text: there is no text anywhere in the image except what is described above: no captions, no logos, no brand names, no readable writing on clothes, posters, books, packaging or signs, and no gibberish letters.\n\nImage quality: a real ceiling fisheye CCTV frame: a circular image with a black surround, cool muted colors, mild compression softness, fine sensor noise, slight barrel blur toward the rim. The furniture layout stays coherent and every person casts a soft shadow; nobody is aware of being filmed.\n\nAnatomy and body check: every person in the picture is one complete, coherent human body with exactly one head, one neck, one torso, two arms, two hands with five fingers each, two legs and two feet, all attached to their own body in natural adult proportions. No limb is duplicated, missing, merged, stretched, floating or attached to the wrong person. Where two bodies touch or overlap, the boundary between them is clear and it is always obvious which arm, hand, leg and foot belongs to whom. Hands hold objects with a natural grip and fingers wrap around what they hold; elbows and knees bend only in natural directions; feet rest flat under the body's weight. Bodies keep believable weight and balance: a seated person's hips are on the seat, a lying person's back is on the surface beneath them, a kneeling person's knees are on the floor. Faces are ordinary, natural, attractive adult faces of people aged 21 to 24, each clearly different from the others in bone structure, hair and features; men are clean-shaven with no beard or stubble.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673820",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0fb380d-9892-401b-963e-1dc2c5a99339/original=true/b0fb380d-9892-401b-963e-1dc2c5a99339.jpeg",
+      "model": "pornmasterMoss_v1",
+      "model_version_ids": [],
+      "width": 1408,
+      "height": 1408,
+      "seed": 52455673,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact, deformed hands, extra fingers, extra limbs, extra feet, extra legs, fused bodies, duplicate person, blurry, lowres, watermark, childlike body, old man, nude, penis, phone body, device frame, bezel, notch, misspelled text, garbled text, extra arms, extra hands, extra legs, extra feet, third arm, third leg, merged bodies, fused limbs, disembodied limb, floating hand, missing limb, twisted limbs, backwards knee, duplicated person, cloned person, twins, extra person, looking at camera, posing, cropped head, garbled letters, beard, stubble, studio lighting, professional photo, watermark, blurred face, censored, mosaic, detached head, twisted neck, vacant stare, cross-eyed, eye level view, side view, frontal view, wall-mounted angle, horizon, people facing the camera, close-up, woman, female, breasts, vulva",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.882940+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "eaa458e82e258b205eeb73aca232901dd82ee1a7484a3815c2d510702fa3eeb8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673820 advertising ai-image-prompts ceilingfisheyecam, sinorealmale, overhead circular fisheye view of a coworking office with long desks and laptops, monochrome. camera: a fixed fisheye security camera mounted flat on the ceiling in the middle of the room and pointing straight down at the floor, a full 180-degree circular image inside a black square frame. the view is a top-down floor plan of the whole room: the floor fills the middle of the circle, the tops of beds, sofas, tables and rugs are seen from directly above, and the walls with their doors and windows fall outward around the rim of the circle. the people are seen from directly overhead: the tops of their heads, their shoulders, backs and arms, their bodies foreshortened toward the floor; they are a moderate size near the middle of the circle, clearly readable but small relative to the room. there is no eye-level view, no horizon and no face looking straight at the camera unless described. setting: long white desks, laptops, plants. light: flat indoor ceiling light. there are exactly two people in the frame and no one else. what is happening: three people work. person 1 is a japanese man aged 24, with a sharp v-shaped jaw, narrow upturned eyes, pale skin and short spiky black hair with bleached tips and a slim fit build,, with short black hair. he has a slim, natural adult build and smooth light warm east asian skin tone. position in the frame: left desk. posture: sitting. arms and legs: typing. clothing: a shirt. the clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. expression: focused. he has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own. person 2 is a czech man aged 23, with a wide face with freckles, pale lashes and short copper-red hair and a toned swimmer's build,, with short dark hair. he has a slim, natural adult build and pale fair eastern european skin with a slight pink undertone. position in the frame: right desk. posture: sitting. arms and legs: on a call. clothing: a sweater. the clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. expression: talking. he has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own. the only text in the image: a small white label below the circle reading \"cam 02 open desk\" and a white timestamp \"2026-11-02 14:03:47\" beside it. every character spelled exactly. text: there is no text anywhere in the image except what is described above: no captions, no logos, no brand names, no readable writing on clothes, posters, books, packaging or signs, and no gibberish letters. image quality: a real ceiling fisheye cctv frame: a circular image with a black surround, cool muted colors, mild compression softness, fine sensor noise, slight barrel blur toward the rim. the furniture layout stays coherent and every person casts a soft shadow; nobody is aware of being filmed. anatomy and body check: every person in the picture is one complete, coherent human body with exactly one head, one neck, one torso, two arms, two hands with five fingers each, two legs and two feet, all attached to their own body in natural adult proportions. no limb is duplicated, missing, merged, stretched, floating or attached to the wrong person. where two bodies touch or overlap, the boundary between them is clear and it is always obvious which arm, hand, leg and foot belongs to whom. hands hold objects with a natural grip and fingers wrap around what they hold; elbows and knees bend only in natural directions; feet rest flat under the body's weight. bodies keep believable weight and balance: a seated person's hips are on the seat, a lying person's back is on the surface beneath them, a kneeling person's knees are on the floor. faces are ordinary, natural, attractive adult faces of people aged 21 to 24, each clearly different from the others in bone structure, hair and features; men are clean-shaven with no beard or stubble. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673820",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0fb380d-9892-401b-963e-1dc2c5a99339/original=true/b0fb380d-9892-401b-963e-1dc2c5a99339.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673810",
+      "title": "Civitai prompt 147673810",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ceilingfisheyecam, sinorealmale, overhead circular fisheye view of a Chinese dorm room, four roommates each doing their own thing, cool colors.\n\nCamera: a fixed fisheye security camera mounted flat on the ceiling in the middle of the room and pointing straight down at the floor, a full 180-degree circular image inside a black square frame. The view is a top-down floor plan of the whole room: the floor fills the middle of the circle, the tops of beds, sofas, tables and rugs are seen from directly above, and the walls with their doors and windows fall outward around the rim of the circle. The people are seen from directly overhead: the tops of their heads, their shoulders, backs and arms, their bodies foreshortened toward the floor; they are a moderate size near the middle of the circle, clearly readable but small relative to the room. There is no eye-level view, no horizon and no face looking straight at the camera unless described.\n\nSetting: a four-bed dorm with bunks above desks, laundry hanging, a small table.\n\nLight: flat indoor ceiling light.\n\nThere are exactly three people in the frame and no one else. What is happening: One studies, one eats noodles, one games, one sleeps.\n\nPerson 1 is a Chinese man aged 22, with a rugged face, a slightly crooked nose, tanned skin and a buzz cut with a sharp straight hairline and a toned swimmer's build,, with short black hair. He has a slim, natural adult build and smooth light warm East Asian skin tone. Position in the frame: at a desk. Posture: sitting. Arms and legs: writing. Clothing: a T-shirt. The clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. Expression: focused. He has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own.\n\nPerson 2 is a Chinese man aged 23, with a square face, wide-set eyes, a strong chin and short black hair gelled into stiff spikes and a muscular build,, with a buzz cut. He has a slim, natural adult build and smooth light warm East Asian skin tone. Position in the frame: at the table. Posture: sitting. Arms and legs: eating noodles. Clothing: a vest. The clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. Expression: relaxed. He has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own.\n\nPerson 3 is a Chinese man aged 21, with a long face, a high nose bridge, thin lips and a short side part cut close at the sides and a wiry runner's build,, with medium black hair. He has a slim, natural adult build and smooth light warm East Asian skin tone. Position in the frame: at another desk. Posture: sitting. Arms and legs: holding a controller. Clothing: a hoodie. The clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. Expression: intent. He has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own.\n\nThe only text in the image: a small white label below the circle reading \"CAM 04 DORM 312\" and a white timestamp \"2026-11-02 21:14:33\" beside it. Every character spelled exactly. Text: there is no text anywhere in the image except what is described above: no captions, no logos, no brand names, no readable writing on clothes, posters, books, packaging or signs, and no gibberish letters.\n\nImage quality: a real ceiling fisheye CCTV frame: a circular image with a black surround, cool muted colors, mild compression softness, fine sensor noise, slight barrel blur toward the rim. The furniture layout stays coherent and every person casts a soft shadow; nobody is aware of being filmed.\n\nAnatomy and body check: every person in the picture is one complete, coherent human body with exactly one head, one neck, one torso, two arms, two hands with five fingers each, two legs and two feet, all attached to their own body in natural adult proportions. No limb is duplicated, missing, merged, stretched, floating or attached to the wrong person. Where two bodies touch or overlap, the boundary between them is clear and it is always obvious which arm, hand, leg and foot belongs to whom. Hands hold objects with a natural grip and fingers wrap around what they hold; elbows and knees bend only in natural directions; feet rest flat under the body's weight. Bodies keep believable weight and balance: a seated person's hips are on the seat, a lying person's back is on the surface beneath them, a kneeling person's knees are on the floor. Faces are ordinary, natural, attractive adult faces of people aged 21 to 24, each clearly different from the others in bone structure, hair and features; men are clean-shaven with no beard or stubble.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673810",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fec9f66c-5c98-4031-86c1-1aa208719931/original=true/fec9f66c-5c98-4031-86c1-1aa208719931.jpeg",
+      "model": "pornmasterMoss_v1",
+      "model_version_ids": [],
+      "width": 1408,
+      "height": 1408,
+      "seed": 56043537,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact, deformed hands, extra fingers, extra limbs, extra feet, extra legs, fused bodies, duplicate person, blurry, lowres, watermark, childlike body, old man, nude, penis, phone body, device frame, bezel, notch, misspelled text, garbled text, extra arms, extra hands, extra legs, extra feet, third arm, third leg, merged bodies, fused limbs, disembodied limb, floating hand, missing limb, twisted limbs, backwards knee, duplicated person, cloned person, twins, extra person, looking at camera, posing, cropped head, garbled letters, beard, stubble, studio lighting, professional photo, watermark, blurred face, censored, mosaic, detached head, twisted neck, vacant stare, cross-eyed, eye level view, side view, frontal view, wall-mounted angle, horizon, people facing the camera, close-up, woman, female, breasts, vulva",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883039+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "42fcbbe2f1e01ee6e409596e0f0373130203be2f93bc95462f4a9175e4971d27",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673810 advertising ai-image-prompts ceilingfisheyecam, sinorealmale, overhead circular fisheye view of a chinese dorm room, four roommates each doing their own thing, cool colors. camera: a fixed fisheye security camera mounted flat on the ceiling in the middle of the room and pointing straight down at the floor, a full 180-degree circular image inside a black square frame. the view is a top-down floor plan of the whole room: the floor fills the middle of the circle, the tops of beds, sofas, tables and rugs are seen from directly above, and the walls with their doors and windows fall outward around the rim of the circle. the people are seen from directly overhead: the tops of their heads, their shoulders, backs and arms, their bodies foreshortened toward the floor; they are a moderate size near the middle of the circle, clearly readable but small relative to the room. there is no eye-level view, no horizon and no face looking straight at the camera unless described. setting: a four-bed dorm with bunks above desks, laundry hanging, a small table. light: flat indoor ceiling light. there are exactly three people in the frame and no one else. what is happening: one studies, one eats noodles, one games, one sleeps. person 1 is a chinese man aged 22, with a rugged face, a slightly crooked nose, tanned skin and a buzz cut with a sharp straight hairline and a toned swimmer's build,, with short black hair. he has a slim, natural adult build and smooth light warm east asian skin tone. position in the frame: at a desk. posture: sitting. arms and legs: writing. clothing: a t-shirt. the clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. expression: focused. he has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own. person 2 is a chinese man aged 23, with a square face, wide-set eyes, a strong chin and short black hair gelled into stiff spikes and a muscular build,, with a buzz cut. he has a slim, natural adult build and smooth light warm east asian skin tone. position in the frame: at the table. posture: sitting. arms and legs: eating noodles. clothing: a vest. the clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. expression: relaxed. he has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own. person 3 is a chinese man aged 21, with a long face, a high nose bridge, thin lips and a short side part cut close at the sides and a wiry runner's build,, with medium black hair. he has a slim, natural adult build and smooth light warm east asian skin tone. position in the frame: at another desk. posture: sitting. arms and legs: holding a controller. clothing: a hoodie. the clothes fit naturally, with real fabric folds, wrinkles at the elbows and knees, visible seams and plain fabric with no printed text or logos. expression: intent. he has exactly two arms, two hands with five fingers each, two legs and two feet, all clearly his own. the only text in the image: a small white label below the circle reading \"cam 04 dorm 312\" and a white timestamp \"2026-11-02 21:14:33\" beside it. every character spelled exactly. text: there is no text anywhere in the image except what is described above: no captions, no logos, no brand names, no readable writing on clothes, posters, books, packaging or signs, and no gibberish letters. image quality: a real ceiling fisheye cctv frame: a circular image with a black surround, cool muted colors, mild compression softness, fine sensor noise, slight barrel blur toward the rim. the furniture layout stays coherent and every person casts a soft shadow; nobody is aware of being filmed. anatomy and body check: every person in the picture is one complete, coherent human body with exactly one head, one neck, one torso, two arms, two hands with five fingers each, two legs and two feet, all attached to their own body in natural adult proportions. no limb is duplicated, missing, merged, stretched, floating or attached to the wrong person. where two bodies touch or overlap, the boundary between them is clear and it is always obvious which arm, hand, leg and foot belongs to whom. hands hold objects with a natural grip and fingers wrap around what they hold; elbows and knees bend only in natural directions; feet rest flat under the body's weight. bodies keep believable weight and balance: a seated person's hips are on the seat, a lying person's back is on the surface beneath them, a kneeling person's knees are on the floor. faces are ordinary, natural, attractive adult faces of people aged 21 to 24, each clearly different from the others in bone structure, hair and features; men are clean-shaven with no beard or stubble. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673810",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fec9f66c-5c98-4031-86c1-1aa208719931/original=true/fec9f66c-5c98-4031-86c1-1aa208719931.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673887",
+      "title": "Civitai prompt 147673887",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "kre4-t4ctics.  A full body illustration with prominent graphite linework and visible hatching technique. \ncentral in the foreground is a tall skinny  black mage, holding a staff whose tip is adorned with a curved object that coils in on itself. He wears a patched, pointed wizard’s hat and a long robe. A long nose protrudes from beneath the hood, while the rest of his face is obscured by the shadow of the hood. the hands are oversized\nhe stands on a disc or short platform of earth and rock, and on the rocks grow mosses and mushrooms. \nThe composition is centered and viewed from an eye-level perspective. Artistically, the piece utilizes clean, defined linework to outline the figure, while the rendering employs smooth shading to give depth, particularly in the folds of the outfit. The texture of the fabric appears heavy and flowing, contrasting with the smoothness of the skin and hair.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673887",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86c97163-8541-49c5-b219-60370edc8ea8/original=true/86c97163-8541-49c5-b219-60370edc8ea8.jpeg",
+      "model_version_ids": [
+        3362930,
+        3368858
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1692500022,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883091+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8aea358dff80e0e6b35686d30c0c7797d14e8d408d447e386353a864bd5ba6af",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 147673887 fashion ai-image-prompts kre4-t4ctics. a full body illustration with prominent graphite linework and visible hatching technique. central in the foreground is a tall skinny black mage, holding a staff whose tip is adorned with a curved object that coils in on itself. he wears a patched, pointed wizard’s hat and a long robe. a long nose protrudes from beneath the hood, while the rest of his face is obscured by the shadow of the hood. the hands are oversized he stands on a disc or short platform of earth and rock, and on the rocks grow mosses and mushrooms. the composition is centered and viewed from an eye-level perspective. artistically, the piece utilizes clean, defined linework to outline the figure, while the rendering employs smooth shading to give depth, particularly in the folds of the outfit. the texture of the fabric appears heavy and flowing, contrasting with the smoothness of the skin and hair. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673887",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86c97163-8541-49c5-b219-60370edc8ea8/original=true/86c97163-8541-49c5-b219-60370edc8ea8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673882",
+      "title": "Civitai prompt 147673882",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "baroque composition,  dynamic composition, dark background, light from above, swamp background, mist, dramatic lighting, heavy brushstrokes heavy impasto, visible brushstrokes, chiaroscuro,burnt umber shadows, dynamic tension, rim lighting, oil on canvas\nCreate a tarot card in the classic Rider-Waite style. Depict as a hand-drawn figure with bold yet imperfect, wavering, and variable black lines, and flat colors without shading. Add subtle tarot-style visual elements around the figure. Include a paper texture and a print effect. Show a knight dressed for a Sunday morning: wearing a visored helmet but a bathrobe underneath, a newspaper tucked under one arm, and pink slippers. Full-body shot, white background; the helmet is the only piece of armor worn.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673882",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af5ccd91-d0de-45f4-a376-c835809e0075/original=true/af5ccd91-d0de-45f4-a376-c835809e0075.jpeg",
+      "model_version_ids": [
+        3072332,
+        3342639
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1648793656,
+      "negative_prompt": "nsfw, Hair bun, pastel colors, nipples, areola, Watermark, Fused tail, bad eyes, bad anatomy, bad had, fused fingers, fused face, bad face, bad quality, bad body, fused legs, bad details, particles, bad clothes, bad hair, fused body,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883118+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c87d630140308d03fa7c5ca0f43493a2a3fd134d223be1c6c35c7de0e11777e9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673882 image ai-image-prompts baroque composition, dynamic composition, dark background, light from above, swamp background, mist, dramatic lighting, heavy brushstrokes heavy impasto, visible brushstrokes, chiaroscuro,burnt umber shadows, dynamic tension, rim lighting, oil on canvas create a tarot card in the classic rider-waite style. depict as a hand-drawn figure with bold yet imperfect, wavering, and variable black lines, and flat colors without shading. add subtle tarot-style visual elements around the figure. include a paper texture and a print effect. show a knight dressed for a sunday morning: wearing a visored helmet but a bathrobe underneath, a newspaper tucked under one arm, and pink slippers. full-body shot, white background; the helmet is the only piece of armor worn. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673882",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af5ccd91-d0de-45f4-a376-c835809e0075/original=true/af5ccd91-d0de-45f4-a376-c835809e0075.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673855",
+      "title": "Civitai prompt 147673855",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "baroque composition,  dynamic composition, dark background, light from above, swamp background, mist, dramatic lighting, heavy brushstrokes heavy impasto, visible brushstrokes, chiaroscuro,burnt umber shadows, dynamic tension, rim lighting, oil on canvas\n shot of a small, frightened mouse with wide, glossy dark eyes, trembling fine whiskers, a delicate pink nose, and large round ears. Facing forward symmetrically, its tense shoulders and small chest brace defensively as it clutches a sharp steel sewing needle upright like a sword in one paw and holds a dimpled metal thimble like a shield on the other.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673855",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c979fe61-cf0f-4b71-b5ce-9b1ece694fce/original=true/c979fe61-cf0f-4b71-b5ce-9b1ece694fce.jpeg",
+      "model_version_ids": [
+        3072332,
+        3342639
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 969141967,
+      "negative_prompt": "nsfw, Hair bun, pastel colors, nipples, areola, Watermark, Fused tail, bad eyes, bad anatomy, bad had, fused fingers, fused face, bad face, bad quality, bad body, fused legs, bad details, particles, bad clothes, bad hair, fused body,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883142+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9922fb0f3929b037ec9f015293490980b77b9d1d9c84150555072b0f82d5129f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673855 image ai-image-prompts baroque composition, dynamic composition, dark background, light from above, swamp background, mist, dramatic lighting, heavy brushstrokes heavy impasto, visible brushstrokes, chiaroscuro,burnt umber shadows, dynamic tension, rim lighting, oil on canvas shot of a small, frightened mouse with wide, glossy dark eyes, trembling fine whiskers, a delicate pink nose, and large round ears. facing forward symmetrically, its tense shoulders and small chest brace defensively as it clutches a sharp steel sewing needle upright like a sword in one paw and holds a dimpled metal thimble like a shield on the other. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673855",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c979fe61-cf0f-4b71-b5ce-9b1ece694fce/original=true/c979fe61-cf0f-4b71-b5ce-9b1ece694fce.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673830",
+      "title": "Civitai prompt 147673830",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, ultra-HD, cinematic lighting, photorealistic, impressionism (1.5), high detail, depth of field, (blurred background), (dramatic lighting), Semi-realism, slight dutch angle, half-body cowboy shot, lively, soft diffused light, warm light atmosphere, extreme detail, Masterpiece, Best Quality, beautiful, high res image, 8k, opened legs, Sitting on floor, smile, (high angle shot), overhead shot, \nBREAK \n1girl, solo, long hair, aqua eyes, white hair, antenna hair, hair ribbon, hair between eyes, long hair, large breasts, \nbeautiful petite girl, skinny, niploutline, subt13_n1p5, exited, smile, blushing, slender thighs, narrow hips, petite body, ((dynamic pose)), damp hair, dripping, wet, BREAK looking at viewer, outdoor, swimming pool, pool side, detailed background,\nNecktie, formal, business suit, jacket, pants, white shirt",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673830",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b34ae012-1894-43a7-83cc-f5f24b2d60c0/original=true/b34ae012-1894-43a7-83cc-f5f24b2d60c0.jpeg",
+      "model_version_ids": [
+        2328807,
+        2432866,
+        2442886,
+        2907147
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1145443384,
+      "negative_prompt": "Nsfw, Naked, nude, Extra fingers, ((bangs)), brown hair, dark skin, twin buns, distorted hands, distorted fingers, (see through nipples), low quality, lowres, bad anatomy, worst quality, simple background, censored, text, signature, lineless, watermark, signature, logo, easynegative,  low-quality, moir pattern, downsampling, aliasing, distorted, blurry, glossy, blur, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, symmetrical, duplicate, error, pattern, beginner, pixelated, fake, hyper, glitch, overexposed, high-contrast, bad-contrast, black and white, messy, Deformed, Deformed face, Deformed fingers, Deformed hands, Out of frame, Poorly drawn face, Poorly drawn feet, Poorly drawn hands, Draft, Grainy, Kitsch, Low-res, old, sketch, black and white, doujinshi, exaggerated anatomy, SimpleNegativeV3, zPDXLxxx,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883166+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "61733ed58d5723e4d232a1f8882e053a274dd7f249c88f500ce53c753c874c64",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673830 image ai-image-prompts masterpiece, ultra-hd, cinematic lighting, photorealistic, impressionism (1.5), high detail, depth of field, (blurred background), (dramatic lighting), semi-realism, slight dutch angle, half-body cowboy shot, lively, soft diffused light, warm light atmosphere, extreme detail, masterpiece, best quality, beautiful, high res image, 8k, opened legs, sitting on floor, smile, (high angle shot), overhead shot, break 1girl, solo, long hair, aqua eyes, white hair, antenna hair, hair ribbon, hair between eyes, long hair, large breasts, beautiful petite girl, skinny, niploutline, subt13_n1p5, exited, smile, blushing, slender thighs, narrow hips, petite body, ((dynamic pose)), damp hair, dripping, wet, break looking at viewer, outdoor, swimming pool, pool side, detailed background, necktie, formal, business suit, jacket, pants, white shirt civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673830",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b34ae012-1894-43a7-83cc-f5f24b2d60c0/original=true/b34ae012-1894-43a7-83cc-f5f24b2d60c0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673743",
+      "title": "Civitai prompt 147673743",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A high-angle, wide shot from above a neon-drenched metropolis at twilight — skyscrapers gleaming with holographic billboards, rain-slicked streets below. A lone woman, mid-air in horizontal freefall, her body parallel to the ground like a bullet through glass. Her hair flows behind her in chaotic motion, wind-tousled and electrically charged with retro anime flair. She wears a torn, sleeveless black leather jacket over a white tank top, with ripped jeans and combat boots — classic 90s urban rebel aesthetic. Her right hand extends toward the viewer — fingers splayed, palm open as if reaching for salvation or surrender. Around her, shattered glass fragments swirl like confetti — each shard glowing with iridescent light, reflecting the city’s neon glow. The camera hovers above, slow-motion, emphasizing the vertigo-inducing drop. Background: a distant skyline of chrome towers and flickering streetlights. Color palette: deep magenta, electric cyan, burnt orange, with heavy contrast shadows. Style: cel-shaded with sharp outlines",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673743",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42f259a0-0c3d-40a5-81c7-23154add9b72/original=true/42f259a0-0c3d-40a5-81c7-23154add9b72.jpeg",
+      "model": "BSSDesirexKrea2_amateurSoft",
+      "model_version_ids": [],
+      "width": 1776,
+      "height": 2664,
+      "seed": 1022567735308366,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883211+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fe856ad60b74a050bf30a50669940c9c2d16139dd6527245fd42ab0c2b3cd61b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673743 image ai-image-prompts a high-angle, wide shot from above a neon-drenched metropolis at twilight — skyscrapers gleaming with holographic billboards, rain-slicked streets below. a lone woman, mid-air in horizontal freefall, her body parallel to the ground like a bullet through glass. her hair flows behind her in chaotic motion, wind-tousled and electrically charged with retro anime flair. she wears a torn, sleeveless black leather jacket over a white tank top, with ripped jeans and combat boots — classic 90s urban rebel aesthetic. her right hand extends toward the viewer — fingers splayed, palm open as if reaching for salvation or surrender. around her, shattered glass fragments swirl like confetti — each shard glowing with iridescent light, reflecting the city’s neon glow. the camera hovers above, slow-motion, emphasizing the vertigo-inducing drop. background: a distant skyline of chrome towers and flickering streetlights. color palette: deep magenta, electric cyan, burnt orange, with heavy contrast shadows. style: cel-shaded with sharp outlines civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673743",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42f259a0-0c3d-40a5-81c7-23154add9b72/original=true/42f259a0-0c3d-40a5-81c7-23154add9b72.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147673405",
+      "title": "Civitai prompt 147673405",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime illustration, detailed face, detailed skin, sharp focus, dsc, 1girl, solo, very long wavy navy blue hair, blue gradient hair tips, whale fin ears, blue eyes, pale skin, long blue whale tail, medium breasts, adult, mature female, wearing elegant evening gown with long gloves, pearl necklace, upper body portrait, gentle smile, looking at viewer, city street at night, neon light, bokeh",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147673405",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0624a8b3-9dab-4e6c-b4c0-ee99c64ac309/original=true/0624a8b3-9dab-4e6c-b4c0-ee99c64ac309.jpeg",
+      "model": "Illustrious-XL-v2.0",
+      "model_version_ids": [],
+      "seed": 20261403,
+      "negative_prompt": "worst quality, low quality, lowres, bad anatomy, bad hands, extra fingers, fused fingers, extra limbs, missing limbs, extra legs, extra arms, three legs, three arms, extra tails, multiple tails, deformed hands, mutated hands, watermark, text, signature, logo, censored, bar censor, 3d, photorealistic, multiple views, 2girls, multiple girls, second person, two people, duplicate, clone, background person, crowd, 1boy, male, headless, cropped head, head out of frame, close-up, portrait crop, blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-02T11:24:12.883224+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a450fb3b48ecb3bff02274ba5ba868f7221881b2392e683f9c599de9b07b71c6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147673405 image ai-image-prompts masterpiece, best quality, very aesthetic, absurdres, anime illustration, detailed face, detailed skin, sharp focus, dsc, 1girl, solo, very long wavy navy blue hair, blue gradient hair tips, whale fin ears, blue eyes, pale skin, long blue whale tail, medium breasts, adult, mature female, wearing elegant evening gown with long gloves, pearl necklace, upper body portrait, gentle smile, looking at viewer, city street at night, neon light, bokeh civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147673405",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0624a8b3-9dab-4e6c-b4c0-ee99c64ac309/original=true/0624a8b3-9dab-4e6c-b4c0-ee99c64ac309.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-01T19:42:41.029944+00:00",
-  "prompt_count": 2303,
+  "generated_at": "2026-11-02T11:24:15.777831+00:00",
+  "prompt_count": 2323,
   "translation": {
     "language": "ar",
-    "translated_count": 54,
-    "skipped_count": 2242,
-    "failed_count": 7,
-    "updated_at": "2026-11-01T19:42:40Z"
+    "translated_count": 0,
+    "skipped_count": 2296,
+    "failed_count": 27,
+    "updated_at": "2026-11-02T11:24:15Z"
   }
 }
