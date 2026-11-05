@@ -111271,15 +111271,659 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82f7f38c-87b6-4339-91a8-66e26b8036a8/original=true/82f7f38c-87b6-4339-91a8-66e26b8036a8.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-148056241",
+      "title": "Civitai prompt 148056241",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@Aesthetic2rough\nmasterpiece, best quality, absurdres, newest, flat color, black outline, warm muted palette, soft glow, 1girl, solo, female adult, kawaii, black hair, ponytail, swept bangs, hair blowing in wind, brown eyes, round glasses, soft blush, round cheeks, slim body, medium breasts, oversized white dress shirt, open shirt, see-through clothes, upper body, three-quarter view, holding coffee mug, drinking, half-closed eyes, balcony railing, dawn skyline, backlight, warm rim light, depth of field",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148056241",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91790c07-811e-4254-9274-9a3bd54cf02e/original=true/91790c07-811e-4254-9274-9a3bd54cf02e.jpeg",
+      "model_version_ids": [
+        3072332,
+        3341474,
+        3427089
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 147993543,
+      "negative_prompt": "blurry, distorted anatomy, extra limbs, bad hands, mutated hands, signature, username, logo, worst quality, low quality, jpeg artifacts, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299128+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9f326631105203166ccd9c5b97a7f9bc34abbf685a2ccd6e8a98ca61b8dfd298",
+      "prompt_ar": "@Aesthetic2rough\nتحفة، أفضل جودة، عبث، الأحدث، لون مسطح، مخطط أسود، لوحة ألوان دافئة، توهج ناعم، فتاة واحدة، منفرد، أنثى بالغة، كاواي، شعر أسود، ذيل حصان، غرة مموجة، شعر يتطاير في مهب الريح، عيون بنية، نظارات مستديرة، أحمر خدود ناعم، خدود مستديرة، جسم نحيف، ثدي متوسط، قميص أبيض كبير الحجم، قميص مفتوح، ملابس شفافة، الجزء العلوي من الجسم، منظر ثلاثة أرباع، يحمل قدح قهوة، يشرب، عيون نصف مغلقة، شرفة درابزين، أفق الفجر، الإضاءة الخلفية، ضوء الحافة الدافئة، عمق المجال",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148056241 image ai-image-prompts @aesthetic2rough masterpiece, best quality, absurdres, newest, flat color, black outline, warm muted palette, soft glow, 1girl, solo, female adult, kawaii, black hair, ponytail, swept bangs, hair blowing in wind, brown eyes, round glasses, soft blush, round cheeks, slim body, medium breasts, oversized white dress shirt, open shirt, see-through clothes, upper body, three-quarter view, holding coffee mug, drinking, half-closed eyes, balcony railing, dawn skyline, backlight, warm rim light, depth of field civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148056241",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/91790c07-811e-4254-9274-9a3bd54cf02e/original=true/91790c07-811e-4254-9274-9a3bd54cf02e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147980266",
+      "title": "Civitai prompt 147980266",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical \n <lora:MALPHAS-ANIMA-V1 (1):1> @M4LPH4SX",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147980266",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c94b8c6-2ecc-4bc5-be80-9a85ff1e773b/original=true/3c94b8c6-2ecc-4bc5-be80-9a85ff1e773b.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3326029
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580259,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299161+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "29c606420ea19cb3935c38372d0fb89e09e26d08c68c3444dd75e39f2dae1013",
+      "prompt_ar": "تحفة فنية، نتيجة_8، أفضل جودة، نوعية جيدة، أنيمي، واو جدًا، تكوين سينمائي، تدرج الألوان، تباين عالٍ، وسائط_تقليدية، (خطي: 0.75)، نمط فني قديم، ألوان مائية_\\(متوسط\\)، لون_حبر_\\(متوسط\\)، من الأعلى، (لقطة واسعة)، عرض ثلاثة أرباع، (بدون بشر،) فن حديث، ضوء الشمس الدافئ، داخل برج الكوخ، صيدلية، جرعات، أعشاب، رف كتب، نافذة مستديرة، مكتب وكرسي مزخرفان، رث، فوضوي، (ملون: 0.5)، مبهج، غريب الأطوار في القصص القصيرة \n <لورا: MALPHAS-ANIMA-V1 (1):1> @M4LPH4SX",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:19Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147980266 architecture ai-image-prompts masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical <lora:malphas-anima-v1 (1):1> @m4lph4sx civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147980266",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c94b8c6-2ecc-4bc5-be80-9a85ff1e773b/original=true/3c94b8c6-2ecc-4bc5-be80-9a85ff1e773b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147980260",
+      "title": "Civitai prompt 147980260",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast,\nmessy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background \n <lora:MALPHAS-ANIMA-V1 (1):1> @M4LPH4SX",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147980260",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/326dcba9-2455-43e0-b384-6a82a1305356/original=true/326dcba9-2455-43e0-b384-6a82a1305356.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3326029
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580255,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299173+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6b596c6e94f2a3b755fa0c4ea56793fb53f60979a06bde623e109c6e34c05df6",
+      "prompt_ar": "(تحفة: 1.5)، (أفضل جودة: 1.4)، (سخافات: 1.4)، (جمالية جدًا: 1.3)، (جمالية شديدة: 1.2)، (عمق مجال ممتاز: 1.3)، (رسم زيتي / متوسط /: 1.2)، نسيج فرشاة قوي، خطي فوضوي، (الانطباعية: 1.2)، (نسيج واقعي جزئيًا: 1.1)، جمالية فرشاة ناعمة، لمسة نهائية ناعمة، جودة احترافية، (الظلال الدرامية: 1.2)، الأحدث، العالي، التباين العالي،\nشعر أسود فوضوي، ذيل حصان منخفض، أقفال طويلة، غرة مفصولة، عيون صفراء، حدقات مشقوقة، منتصف الصورة، آذان نمر، ذيل نمر واحد، جلد أبيض مخطط، أظافر سوداء حادة، تنظر إلى الجانب، رياضي، (صبي، ذكر: 1.5)، صدر مسطح، رياضي، (ابتسامة متكلفة: 0.65)، ملابس صينية، طباعة زهور، شرابة، تقليم فرو رقيق، وضع ديناميكي، تقصير، منظور متطرف، خلفية خيالية معقدة \n <لورا: MALPHAS-ANIMA-V1 (1):1> @M4LPH4SX",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147980260 image ai-image-prompts (masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast, messy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background <lora:malphas-anima-v1 (1):1> @m4lph4sx civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147980260",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/326dcba9-2455-43e0-b384-6a82a1305356/original=true/326dcba9-2455-43e0-b384-6a82a1305356.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148057261",
+      "title": "Civitai prompt 148057261",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, dark cinematic lighting, night cyber room setup,\nextreme macro side view close-up shot, a premium mechanical keyboard sitting on a dark wooden desk,\nthe key legends and letters printed on the main keycaps clearly read the text \"A WHOLE\" across adjacent keys,\none single matte charcoal black keycap is tilted and half-extracted using a wire keycap puller tool, revealing the brilliant red mechanical switch stem and bright copper spring underneath,\na powerful intense geyser of rainbow RGB neon backlighting erupting straight up from the open switch slot,\ncrisp plastic texture, sharp ambient occlusion, volumetric light rays, highly detailed mechanical hardware, tack sharp focus, 8k depth of field",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148057261",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96f6df3f-685e-4c8f-9e2e-11b5a3aef12b/original=true/96f6df3f-685e-4c8f-9e2e-11b5a3aef12b.jpeg",
+      "model_version_ids": [
+        488645,
+        656947
+      ],
+      "width": 1344,
+      "height": 768,
+      "seed": 1399957817,
+      "negative_prompt": "human, character, living creature, organic skin, face, eyes, hair, anime, nsfw, text error, gibberish letters, blurry background, low contrast, washed out colors, signature, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299184+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e1f00ad4fcfa057c082daf2373d8b904a28100f2012d2f2caf4a435b3b119959",
+      "prompt_ar": "تحفة، أفضل جودة، إضاءة سينمائية داكنة، إعداد غرفة سايبر ليلية،\nلقطة مقربة من الجانب الماكرو الشديد، ولوحة مفاتيح ميكانيكية متميزة تجلس على مكتب خشبي داكن،\nرموز المفاتيح والحروف المطبوعة على أغطية المفاتيح الرئيسية تقرأ بوضوح النص \"A WHOLE\" عبر المفاتيح المجاورة،\nيتم إمالة غطاء مفتاح واحد باللون الأسود الفحمي غير اللامع واستخراج نصفه باستخدام أداة سحب غطاء المفاتيح السلكية، مما يكشف عن جذع المفتاح الميكانيكي الأحمر اللامع وزنبرك النحاسي اللامع تحته،\nنبع ماء حار قوي ومكثف من الإضاءة الخلفية النيون بألوان قوس قزح RGB التي تندلع مباشرة من فتحة المفتاح المفتوحة،\nنسيج بلاستيكي نقي، انسداد محيطي حاد، أشعة ضوئية حجمية، أجهزة ميكانيكية مفصلة للغاية، تركيز حاد، عمق مجال 8K",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148057261 image ai-image-prompts masterpiece, best quality, dark cinematic lighting, night cyber room setup, extreme macro side view close-up shot, a premium mechanical keyboard sitting on a dark wooden desk, the key legends and letters printed on the main keycaps clearly read the text \"a whole\" across adjacent keys, one single matte charcoal black keycap is tilted and half-extracted using a wire keycap puller tool, revealing the brilliant red mechanical switch stem and bright copper spring underneath, a powerful intense geyser of rainbow rgb neon backlighting erupting straight up from the open switch slot, crisp plastic texture, sharp ambient occlusion, volumetric light rays, highly detailed mechanical hardware, tack sharp focus, 8k depth of field civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148057261",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96f6df3f-685e-4c8f-9e2e-11b5a3aef12b/original=true/96f6df3f-685e-4c8f-9e2e-11b5a3aef12b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148057231",
+      "title": "Civitai prompt 148057231",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, highres, absurdres, A vertical medium shot features a monster girl with long, straight black hair and pale skin, looking directly at the viewer with a slight, serene smile. Her face is partially framed by a large, elongated skull-like creature that rests against her right cheek and forehead. The creature has a smooth, rounded top, deep hollow eye sockets, and a small glowing white dot in its center; thick black liquid drips from its jawline down across the girl's hair and shoulder.\nThe girl possesses striking eyes with dark sclerae and bright white pupils that glow softly. Her long black hair falls straight down her back and shoulders, with several strands draped over her face. She wears a form-fitting, off-white turtleneck sweater characterized by an intricate web of thin, tangled black lines that resemble veins or cracked porcelain across the fabric.\nHer right hand is raised toward her chest, showcasing long, sharp black claws that taper into needle-like points. The skin on her hands and arms is textured with fine, thread-like black markings similar to those on her sweater. The composition uses a minimalist aesthetic against a solid, warm brown background. The lighting is soft and directional, highlighting the contrast between her pale complexion, the dark hair, and the stark white of her eyes and the creature's skull. The overall mood is a blend of elegant beauty and eerie horror, rendered in a clean, illustrative style with smooth gradients and sharp line work.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148057231",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ba8ff2e-fc93-4608-898f-7c84178d4e51/original=true/2ba8ff2e-fc93-4608-898f-7c84178d4e51.jpeg",
+      "model": "nautilusGrimoire_v10",
+      "model_version_ids": [
+        2955844,
+        2961717,
+        2974168,
+        3011920,
+        3105673,
+        3130764,
+        3256481,
+        3369061
+      ],
+      "width": 1600,
+      "height": 2560,
+      "seed": 43,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, score_4, blurry, deformed, extra limbs, bad, artist name, bad hands, missing fingers, extra fingers, bad-artist, blurry, ugly, mosaic censoring, censored, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299201+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fc28540d686448d28d0f233a87a23f3516d7f9efc3ba8951a50dcba275a35d25",
+      "prompt_ar": "تحفة فنية، أفضل جودة، Score_9، Score_8، Score_7، Highres، السخافات، لقطة متوسطة عمودية تظهر فتاة وحش ذات شعر أسود طويل مستقيم وبشرة شاحبة، وتنظر مباشرة إلى المشاهد بابتسامة خفيفة وهادئة. تم تأطير وجهها جزئيًا بواسطة مخلوق كبير ممدود يشبه الجمجمة يقع على خدها الأيمن وجبهتها. يمتلك المخلوق قمة مستديرة ناعمة، ومحجر عين مجوف عميق، ونقطة بيضاء صغيرة متوهجة في وسطه؛ يقطر سائل أسود كثيف من الفك إلى الأسفل عبر شعر الفتاة وكتفها.\nتمتلك الفتاة عيونًا ملفتة للنظر ذات صلبات داكنة وحدقتين بيضاء ناصعة تتوهج بهدوء. يتدلى شعرها الأسود الطويل مباشرة على ظهرها وكتفيها، وتنسدل عدة خصلات على وجهها. إنها ترتدي سترة بياقة عالية ذات لون أبيض فاتح مناسبة للشكل وتتميز بشبكة معقدة من الخطوط السوداء الرفيعة المتشابكة التي تشبه الأوردة أو الخزف المتشقق عبر القماش.\nتم رفع يدها اليمنى نحو صدرها، وتعرض مخالب سوداء طويلة وحادة تتناقص إلى نقاط تشبه الإبرة. الجلد الموجود على يديها وذراعيها مزخرف بعلامات سوداء دقيقة تشبه الخيوط تشبه تلك الموجودة على سترتها. يستخدم التكوين جمالية بسيطة على خلفية بنية صلبة ودافئة. الإضاءة ناعمة وموجهة، وتسلط الضوء على التناقض بين بشرتها الشاحبة والشعر الداكن واللون الأبيض الصارخ لعينيها وجمجمة المخلوق. المزاج العام عبارة عن مزيج من الجمال الأنيق والرعب الغريب، ويتم تقديمه بأسلوب توضيحي نظيف مع تدرجات سلسة وعمل خطي حاد.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:19Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148057231 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, highres, absurdres, a vertical medium shot features a monster girl with long, straight black hair and pale skin, looking directly at the viewer with a slight, serene smile. her face is partially framed by a large, elongated skull-like creature that rests against her right cheek and forehead. the creature has a smooth, rounded top, deep hollow eye sockets, and a small glowing white dot in its center; thick black liquid drips from its jawline down across the girl's hair and shoulder. the girl possesses striking eyes with dark sclerae and bright white pupils that glow softly. her long black hair falls straight down her back and shoulders, with several strands draped over her face. she wears a form-fitting, off-white turtleneck sweater characterized by an intricate web of thin, tangled black lines that resemble veins or cracked porcelain across the fabric. her right hand is raised toward her chest, showcasing long, sharp black claws that taper into needle-like points. the skin on her hands and arms is textured with fine, thread-like black markings similar to those on her sweater. the composition uses a minimalist aesthetic against a solid, warm brown background. the lighting is soft and directional, highlighting the contrast between her pale complexion, the dark hair, and the stark white of her eyes and the creature's skull. the overall mood is a blend of elegant beauty and eerie horror, rendered in a clean, illustrative style with smooth gradients and sharp line work. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148057231",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ba8ff2e-fc93-4608-898f-7c84178d4e51/original=true/2ba8ff2e-fc93-4608-898f-7c84178d4e51.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148015621",
+      "title": "Civitai prompt 148015621",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "toondaal. A beautiful young couple in a softly lit modern apartment, the elegant woman with flowing dark hair gently pulling her handsome husband's loosened tie towards her with a flirtatious smile, standing close in an intimate embrace. He looks down at her with amused affection, one hand on her waist. Shot from a low interesting angle emphasizing their connection, warm golden hour light streaming through large windows casting soft shadows. Photorealistic, highly detailed faces with natural skin textures, elegant casual clothing, romantic and playful atmosphere, cinematic composition, sharp focus, aesthetic harmony. <lora:Cartoon World Moss-bf16:1.3>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148015621",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b524185-95f9-4cfa-b099-ae5ff4d4831f/original=true/0b524185-95f9-4cfa-b099-ae5ff4d4831f.jpeg",
+      "model": "MOSS-Image-SFT-4step-v2",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20261104,
+      "negative_prompt": "<Prompt generated by grok 4.3 fast><Title: \"Gentle Tie Pull Moment\">\nNegative template: <Prompt generated by grok 4.3 fast><Title: \"Gentle Tie Pull Moment\">",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299210+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "82e17f2de511809eaf0d6cb84e95bc4a9c654c3b02f635e7b1b11d8d429764a6",
+      "prompt_ar": "com.toondaal. زوجان شابان جميلان في شقة حديثة مضاءة بهدوء، المرأة الأنيقة ذات الشعر الداكن المتدفق تسحب بلطف ربطة عنق زوجها الوسيم نحوها بابتسامة غزلية، وتقف بالقرب منها في عناق حميم. ينظر إليها بعاطفة مسلية ويده واحدة على خصرها. تم التقاط الصورة من زاوية منخفضة مثيرة للاهتمام لتسليط الضوء على ارتباطهما، حيث يتدفق ضوء الساعة الذهبية الدافئة عبر النوافذ الكبيرة التي تلقي بظلالها الناعمة. وجوه واقعية ومفصلة للغاية مع قوام الجلد الطبيعي، وملابس غير رسمية أنيقة، وأجواء رومانسية ومرحة، وتكوين سينمائي، وتركيز حاد، وتناغم جمالي. <لورا: عالم الكرتون موس-bf16:1.3>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148015621 image ai-image-prompts toondaal. a beautiful young couple in a softly lit modern apartment, the elegant woman with flowing dark hair gently pulling her handsome husband's loosened tie towards her with a flirtatious smile, standing close in an intimate embrace. he looks down at her with amused affection, one hand on her waist. shot from a low interesting angle emphasizing their connection, warm golden hour light streaming through large windows casting soft shadows. photorealistic, highly detailed faces with natural skin textures, elegant casual clothing, romantic and playful atmosphere, cinematic composition, sharp focus, aesthetic harmony. <lora:cartoon world moss-bf16:1.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148015621",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b524185-95f9-4cfa-b099-ae5ff4d4831f/original=true/0b524185-95f9-4cfa-b099-ae5ff4d4831f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148015606",
+      "title": "Civitai prompt 148015606",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "toondaal. A beautifully illustrated contemporary scene from behind a bookshelf, using stacked books as a natural foreground frame while revealing only part of a cozy bookstore aisle. The woman secretly slips a handwritten note into the man's jacket pocket while pretending to browse nearby shelves. He notices the gesture in the reflection of a polished book display and responds with a quiet, amused smile without turning around. Warm ambient lighting highlights rows of colorful books, textured wooden shelves, and floating dust particles. Rich painterly details blend with realistic proportions, expressive facial emotions, cinematic perspective, inviting atmosphere, sophisticated composition, visual storytelling focused on subtle affection, elegant color harmony, aesthetically pleasing illustration. <lora:Cartoon World Moss-bf16:1.3>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148015606",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b56b584-d19b-48c6-a427-146182ffcb57/original=true/0b56b584-d19b-48c6-a427-146182ffcb57.jpeg",
+      "model": "MOSS-Image-SFT-4step-v2",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20261104,
+      "negative_prompt": "<Prompt generated by ChatGPT><Title: \"The Hidden Smile\">\nNegative template: <Prompt generated by ChatGPT><Title: \"The Hidden Smile\">",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299220+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "71bb014a5a63405cf92dda6848aa90d87ba49796bfc593f3f63fff60e02afde9",
+      "prompt_ar": "com.toondaal. مشهد معاصر مصور بشكل جميل من خلف رف الكتب، باستخدام الكتب المكدسة كإطار أمامي طبيعي بينما يكشف فقط عن جزء من ممر مكتبة مريح. تقوم المرأة سرًا بإدخال ملاحظة مكتوبة بخط اليد في جيب سترة الرجل بينما تتظاهر بتصفح الرفوف القريبة. يلاحظ هذه الإيماءة في انعكاس عرض الكتاب المصقول ويستجيب بابتسامة هادئة ومسلية دون أن يلتفت. تسلط الإضاءة المحيطة الدافئة الضوء على صفوف من الكتب الملونة، والأرفف الخشبية المزخرفة، وجزيئات الغبار العائمة. تمتزج التفاصيل الرسومية الغنية مع الأبعاد الواقعية، ومشاعر الوجه المعبرة، والمنظور السينمائي، والجو الجذاب، والتكوين المتطور، والسرد البصري الذي يركز على المودة الدقيقة، وتناغم الألوان الأنيق، والرسوم التوضيحية الممتعة من الناحية الجمالية. <لورا: عالم الكرتون موس-bf16:1.3>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148015606 image ai-image-prompts toondaal. a beautifully illustrated contemporary scene from behind a bookshelf, using stacked books as a natural foreground frame while revealing only part of a cozy bookstore aisle. the woman secretly slips a handwritten note into the man's jacket pocket while pretending to browse nearby shelves. he notices the gesture in the reflection of a polished book display and responds with a quiet, amused smile without turning around. warm ambient lighting highlights rows of colorful books, textured wooden shelves, and floating dust particles. rich painterly details blend with realistic proportions, expressive facial emotions, cinematic perspective, inviting atmosphere, sophisticated composition, visual storytelling focused on subtle affection, elegant color harmony, aesthetically pleasing illustration. <lora:cartoon world moss-bf16:1.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148015606",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b56b584-d19b-48c6-a427-146182ffcb57/original=true/0b56b584-d19b-48c6-a427-146182ffcb57.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148015598",
+      "title": "Civitai prompt 148015598",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "toondaal. A photorealistic cinematic scene captured from a slightly low three-quarter angle inside a softly lit apartment hallway. A woman gently pulls her husband's tie toward her with a playful yet tender smile, stopping him just before he leaves for work. His expression mixes surprise, affection, and quiet admiration. Warm morning sunlight streams through a nearby window, creating soft rim lighting and subtle lens flare across polished wooden floors. Their faces remain close while the background falls into creamy bokeh. Natural body language, realistic fabric textures, delicate skin details, elegant color grading, intimate storytelling, authentic emotions, high dynamic range, shallow depth of field, aesthetically pleasing composition, refined editorial photography style. <lora:Cartoon World Moss-bf16:1.3>",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148015598",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6e1629a-ecfd-4f3c-8e06-f26aec9f893a/original=true/b6e1629a-ecfd-4f3c-8e06-f26aec9f893a.jpeg",
+      "model": "MOSS-Image-SFT-4step-v2",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20261104,
+      "negative_prompt": "<Prompt generated by ChatGPT><Title: \"The Tie Before Goodbye\">\nNegative template: <Prompt generated by ChatGPT><Title: \"The Tie Before Goodbye\">",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299229+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bf96a46321de78830d0d69ec2ee0d62d0395154aedb9594911dcf3e5b45a4d19",
+      "prompt_ar": "com.toondaal. مشهد سينمائي واقعي تم التقاطه من زاوية منخفضة قليلاً بمقدار ثلاثة أرباع داخل مدخل شقة مضاء بشكل خافت. امرأة تسحب ربطة عنق زوجها بلطف نحوها بابتسامة مرحة ولكن رقيقة، وتوقفه قبل أن يغادر للعمل. يمزج تعبيره بين المفاجأة والمودة والإعجاب الهادئ. تتدفق أشعة الشمس الدافئة في الصباح من خلال نافذة قريبة، مما يخلق إضاءة ناعمة وتوهج عدسة دقيق عبر الأرضيات الخشبية المصقولة. تظل وجوههم قريبة بينما تقع الخلفية في تأثير البوكيه الكريمي. لغة الجسد الطبيعية، قوام النسيج الواقعي، تفاصيل البشرة الدقيقة، تدرج الألوان الأنيق، رواية القصص الحميمة، المشاعر الأصيلة، النطاق الديناميكي العالي، عمق المجال الضحل، التركيبة الممتعة من الناحية الجمالية، أسلوب التصوير التحريري الراقي. <لورا: عالم الكرتون موس-bf16:1.3>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148015598 fashion ai-image-prompts toondaal. a photorealistic cinematic scene captured from a slightly low three-quarter angle inside a softly lit apartment hallway. a woman gently pulls her husband's tie toward her with a playful yet tender smile, stopping him just before he leaves for work. his expression mixes surprise, affection, and quiet admiration. warm morning sunlight streams through a nearby window, creating soft rim lighting and subtle lens flare across polished wooden floors. their faces remain close while the background falls into creamy bokeh. natural body language, realistic fabric textures, delicate skin details, elegant color grading, intimate storytelling, authentic emotions, high dynamic range, shallow depth of field, aesthetically pleasing composition, refined editorial photography style. <lora:cartoon world moss-bf16:1.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148015598",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6e1629a-ecfd-4f3c-8e06-f26aec9f893a/original=true/b6e1629a-ecfd-4f3c-8e06-f26aec9f893a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148015571",
+      "title": "Civitai prompt 148015571",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "toondaal. A close-up, low-angle shot captures a playful, flirtatious moment between a couple in a softly lit, modern apartment. A stylish woman with an amused smile is gently pulling her husband by his silk necktie, drawing him closer. The man, seen from a over-the-shoulder perspective, tilts his head down with a surprised yet captivated expression. Warm ambient light catches the crisp fabric of his tailored suit and the delicate details of her silver rings. The background is a soft, cinematic blur of warm city lights through a window, creating an intimate atmosphere. The focus is sharp on their hands and the tension of the tie. <lora:Cartoon World Moss-bf16:1.3>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148015571",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd2ed8bc-a251-4126-b1db-204d11a4a5d2/original=true/cd2ed8bc-a251-4126-b1db-204d11a4a5d2.jpeg",
+      "model": "MOSS-Image-SFT-4step-v2",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 20261104,
+      "negative_prompt": "<Prompt generated by Gemini 3.5 Flash><Title: \"The Subtle Pull\">\nNegative template: <Prompt generated by Gemini 3.5 Flash><Title: \"The Subtle Pull\">",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299239+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f7eea71d5028b0d942d94d38815fd449342714485a8b71443005380bdb3c1e03",
+      "prompt_ar": "com.toondaal. لقطة مقربة ومنخفضة الزاوية تلتقط لحظة مرحة وغزلية بين زوجين في شقة حديثة ذات إضاءة خافتة. امرأة أنيقة ذات ابتسامة مرحة تسحب زوجها بلطف من ربطة عنقه الحريرية، وتقربه منه. الرجل، الذي يُنظر إليه من منظور فوق الكتف، يميل رأسه إلى الأسفل بتعبير متفاجئ ولكنه آسر. يلتقط الضوء المحيط الدافئ القماش الناعم لبدلته المصممة والتفاصيل الدقيقة لخواتمها الفضية. الخلفية عبارة عن ضبابية سينمائية ناعمة لأضواء المدينة الدافئة من خلال النافذة، مما يخلق جوًا حميميًا. التركيز حاد على أيديهم وشد ربطة العنق. <لورا: عالم الكرتون موس-bf16:1.3>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148015571 image ai-image-prompts toondaal. a close-up, low-angle shot captures a playful, flirtatious moment between a couple in a softly lit, modern apartment. a stylish woman with an amused smile is gently pulling her husband by his silk necktie, drawing him closer. the man, seen from a over-the-shoulder perspective, tilts his head down with a surprised yet captivated expression. warm ambient light catches the crisp fabric of his tailored suit and the delicate details of her silver rings. the background is a soft, cinematic blur of warm city lights through a window, creating an intimate atmosphere. the focus is sharp on their hands and the tension of the tie. <lora:cartoon world moss-bf16:1.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148015571",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd2ed8bc-a251-4126-b1db-204d11a4a5d2/original=true/cd2ed8bc-a251-4126-b1db-204d11a4a5d2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148057029",
+      "title": "Civitai prompt 148057029",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Niji realistic painting art style, low angle, medium shot, gaze at viewer, Hannya mask woman, Japanese oni yokai, beautiful woman transforming into demon, long black hair, red and black kimono with gold, holding white Hannya mask in one hand revealing half-demon face with small horns, pale skin with red markings, melancholic rage, Hyper-detailed digital painting blending ukiyo-e patterns with contemporary realism, delicate brushwork, intricate fabric, soft cinematic light, shallow depth of field, subtle film grain, minimal aged parchment background, high-resolution, ultra-detailed, mood of tragic fury and heartbreak",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148057029",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4185488b-8ad2-4cf6-997a-f2d29468debf/original=true/4185488b-8ad2-4cf6-997a-f2d29468debf.jpeg",
+      "model_version_ids": [
+        3072332
+      ],
+      "width": 960,
+      "height": 1440,
+      "seed": 62072103,
+      "negative_prompt": "text, watermark, calligraphy",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299247+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "aa02bcd8dad06b90cb46fb2a73980447f525fe05d83d619d7d218ec8d19b8925",
+      "prompt_ar": "نيجي أسلوب فن الرسم الواقعي، زاوية منخفضة، لقطة متوسطة، النظر إلى المشاهد، امرأة قناع هانيا، أوني يوكاي الياباني، امرأة جميلة تتحول إلى شيطان، شعر أسود طويل، كيمونو أحمر وأسود مع ذهبي، تحمل قناع هانيا الأبيض في يد واحدة وتكشف عن وجه نصف شيطان مع قرون صغيرة، بشرة شاحبة مع علامات حمراء، غضب حزين، لوحة رقمية شديدة التفصيل تمزج أنماط أوكييو-إي مع الواقعية المعاصرة، فرشاة دقيقة، قماش معقد، ضوء سينمائي ناعم، عمق مجال ضحل، حبيبات فيلم دقيقة، خلفية رق قديمة، دقة عالية، مفصلة للغاية، مزاج من الغضب المأساوي والحسرة",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148057029 image ai-image-prompts niji realistic painting art style, low angle, medium shot, gaze at viewer, hannya mask woman, japanese oni yokai, beautiful woman transforming into demon, long black hair, red and black kimono with gold, holding white hannya mask in one hand revealing half-demon face with small horns, pale skin with red markings, melancholic rage, hyper-detailed digital painting blending ukiyo-e patterns with contemporary realism, delicate brushwork, intricate fabric, soft cinematic light, shallow depth of field, subtle film grain, minimal aged parchment background, high-resolution, ultra-detailed, mood of tragic fury and heartbreak civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148057029",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4185488b-8ad2-4cf6-997a-f2d29468debf/original=true/4185488b-8ad2-4cf6-997a-f2d29468debf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148056963",
+      "title": "Civitai prompt 148056963",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, \nbest quality, oil painting, oil pastel, traditional media, 8k, ultra-HD, high detail, depth of field, (realistic:1.2),19yo, (@CartoonPink:1.2), (@Cartoon Pink:1.1), @Amy Matthews, Flawless young skin with realistic pores. glossy wet look on the lips, (young adult:2), colorful,\nterra \\(dc\\),,1girl,long hair,blue eyes,blonde hair, long sleeves,navel,shorts, belt,glove,black crop top,goggles,eyewear on head,yellow shorts scifi_pinup_style, rocky canyon background, cowboy shot, magic rocks swirl around glowing hand,\n(epic_fantasy), (fantasy_art_style), \nBREAK: (western_comic_style:1.4), (skin_detail:1.4), fictional character,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148056963",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a5733d9-19ae-4cd9-b0d1-869018e6cb4c/original=true/8a5733d9-19ae-4cd9-b0d1-869018e6cb4c.jpeg",
+      "model_version_ids": [
+        3122029,
+        3235856
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1428566151,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name,  jpeg artifacts, chromatic aberration, wet, big head, 3d, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299255+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c1fc35e09c125f372d65295dcc620de59979d17bd5bac4cf3c0920b369e72eb8",
+      "prompt_ar": "تحفة, \nأفضل جودة، طلاء زيتي، باستيل زيتي، وسائط تقليدية، 8k، فائقة الدقة، تفاصيل عالية، عمق المجال، (واقعي: 1.2)، 19 عامًا، (@CartoonPink:1.2)، (@Cartoon Pink:1.1)، @Amy Matthews، بشرة شابة خالية من العيوب مع مسام واقعية. مظهر لامع ومبلل على الشفاه، (الشباب البالغ: 2)، ملون،\nتيرا \\(تي سي\\)،، فتاة واحدة، شعر طويل، عيون زرقاء، شعر أشقر، أكمام طويلة، سرة، شورت، حزام، قفاز، بلوزة قصيرة سوداء، نظارات واقية، نظارات على الرأس، شورت أصفر scifi_pinup_style، خلفية الوادي الصخري، لقطة رعاة البقر، صخور سحرية تدور حول يد متوهجة،\n(epic_fantasy)، (fantasy_art_style)، \nاستراحة: (النمط_الغربي_الهزلي:1.4)، (تفاصيل_الجلد:1.4)، شخصية خيالية،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148056963 image ai-image-prompts masterpiece, best quality, oil painting, oil pastel, traditional media, 8k, ultra-hd, high detail, depth of field, (realistic:1.2),19yo, (@cartoonpink:1.2), (@cartoon pink:1.1), @amy matthews, flawless young skin with realistic pores. glossy wet look on the lips, (young adult:2), colorful, terra \\(dc\\),,1girl,long hair,blue eyes,blonde hair, long sleeves,navel,shorts, belt,glove,black crop top,goggles,eyewear on head,yellow shorts scifi_pinup_style, rocky canyon background, cowboy shot, magic rocks swirl around glowing hand, (epic_fantasy), (fantasy_art_style), break: (western_comic_style:1.4), (skin_detail:1.4), fictional character, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148056963",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a5733d9-19ae-4cd9-b0d1-869018e6cb4c/original=true/8a5733d9-19ae-4cd9-b0d1-869018e6cb4c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148056957",
+      "title": "Civitai prompt 148056957",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hyper-realistic, raw amateur photograph of an adult young woman in her mid-20s with short, messy blonde bob hair and prominent red-framed rectangular glasses. She has a shy, embarrassed expression with a subtle natural blush on her cheeks, and her lips are slightly pouting in a sad, cute way. She is looking down and to the side, avoiding direct eye contact with the camera. She is standing with a slight, awkward hunch in her shoulders, with both of her hands hidden behind her back. She is wearing a tailored brown blazer over a crisp white collared shirt, a vibrant red-and-purple diagonally striped bow tie, and a red pleated mini skirt. The background is a cozy home bedroom featuring two wooden wardrobes, bookshelves filled with books, a small wooden table, and a warm glowing desk lamp. The lighting is soft, warm, and diffused, emanating partly from the desk lamp, casting gentle shadows on her face and clothing. Highly detailed skin texture, natural lighting, slightly unpolished and candid aesthetic.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148056957",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cb39fa9-42ff-4c24-97ed-9d522b0784c4/original=true/4cb39fa9-42ff-4c24-97ed-9d522b0784c4.jpeg",
+      "model": "BSSDesirexKrea2_x3INT8Convrot_int8",
+      "model_version_ids": [
+        3411639
+      ],
+      "width": 1152,
+      "height": 1536,
+      "seed": 357776861956767,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299267+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "392f8f48cc68d19d554f1a3d3bad6529c4fdcf9709024dcd835216ef590f9dfc",
+      "prompt_ar": "صورة هاوية شديدة الواقعية لامرأة شابة في منتصف العشرينات من عمرها ذات شعر أشقر قصير وفوضوي ونظارات مستطيلة بارزة ذات إطار أحمر. لديها تعبير خجول ومحرج مع أحمر خدود طبيعي خفيف على خديها، وشفتاها عابستان قليلاً بطريقة حزينة ولطيفة. إنها تنظر إلى الأسفل وإلى الجانب، وتتجنب الاتصال المباشر بالعين مع الكاميرا. تقف مع حدس طفيف ومحرج في كتفيها، وكلتا يديها مخفيتان خلف ظهرها. إنها ترتدي سترة بنية مصممة فوق قميص أبيض بياقة ناصعة، وربطة عنق مخططة قطريًا باللونين الأحمر والأرجواني، وتنورة قصيرة حمراء مطوية. الخلفية عبارة عن غرفة نوم منزلية مريحة تحتوي على خزانتين خشبيتين، وأرفف كتب مليئة بالكتب، وطاولة خشبية صغيرة، ومصباح مكتبي متوهج دافئ. الإضاءة ناعمة ودافئة ومنتشرة، تنبعث جزئيًا من مصباح المكتب، وتلقي بظلال لطيفة على وجهها وملابسها. ملمس جلدي مفصل للغاية، وإضاءة طبيعية، وجمالية غير مصقولة قليلاً وصريحة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:20Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148056957 image ai-image-prompts a hyper-realistic, raw amateur photograph of an adult young woman in her mid-20s with short, messy blonde bob hair and prominent red-framed rectangular glasses. she has a shy, embarrassed expression with a subtle natural blush on her cheeks, and her lips are slightly pouting in a sad, cute way. she is looking down and to the side, avoiding direct eye contact with the camera. she is standing with a slight, awkward hunch in her shoulders, with both of her hands hidden behind her back. she is wearing a tailored brown blazer over a crisp white collared shirt, a vibrant red-and-purple diagonally striped bow tie, and a red pleated mini skirt. the background is a cozy home bedroom featuring two wooden wardrobes, bookshelves filled with books, a small wooden table, and a warm glowing desk lamp. the lighting is soft, warm, and diffused, emanating partly from the desk lamp, casting gentle shadows on her face and clothing. highly detailed skin texture, natural lighting, slightly unpolished and candid aesthetic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148056957",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4cb39fa9-42ff-4c24-97ed-9d522b0784c4/original=true/4cb39fa9-42ff-4c24-97ed-9d522b0784c4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148056855",
+      "title": "Civitai prompt 148056855",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A gritty, high-contrast full-body portrait of a dark-ninja samurai standing in a three-quarter low-angle view, spiky hair, half-face mask revealing intense glowing eyes, layered leather and studded armor with numerous buckles and straps, tattooed arm bands and wrapped gloves, long tattered cloak and tassels whipping in the wind, heavy oversized broad sword chained to the waist with engraved metal details, hanging charms and teal tassels. Background features a swirling ink-brush circle, splattered paint textures, silhouetted pagoda and bamboo, scattered Japanese kanji motifs along the margins. Palette of muted teal, desaturated beige, deep black and metallic accents, dramatic rim and side lighting, film grain and paper texture, intricate linework, manga-ukiyo-e fusion, dynamic motion, cinematic poster composition, bold brushstroke highlights, balanced negative space, intense moody atmosphere, high detail, sharp focal point on the eyes and sword.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148056855",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe0fa9ae-439f-4001-a7e1-9fb859137ffc/original=true/fe0fa9ae-439f-4001-a7e1-9fb859137ffc.jpeg",
+      "model": "krea2TurboOfficialComfy_krea2TurboFp8.safetensors",
+      "model_version_ids": [
+        3072332,
+        3453149
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 886446441199467,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299278+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b259589486a43d8b68d179b7b6e210cffe5583836bb7f9ecb7b157dbbf2ec0df",
+      "prompt_ar": "صورة شجاعة عالية التباين لكامل الجسم لساموراي نينجا داكن يقف في منظر بزاوية منخفضة ثلاثة أرباع، وشعر شائك، وقناع نصف وجه يكشف عن عيون متوهجة شديدة، وطبقات من الجلد ودرع مرصع مع العديد من الأبازيم والأشرطة، وشرائط ذراع موشومة وقفازات ملفوفة، وعباءة طويلة ممزقة وشرابات تضرب في مهب الريح، وسيف عريض كبير الحجم مقيد بالسلاسل إلى الخصر مع تفاصيل معدنية منقوشة، وتعليقات معلقة وأزرق مخضر. شرابات. تتميز الخلفية بدائرة فرشاة حبر دوامية، وأنسجة طلاء متناثرة، وباغودا وخيزران مظللة، وزخارف كانجي يابانية متناثرة على طول الهوامش. لوحة من اللون الأزرق المخضر الصامت، والبيج غير المشبع، واللمسات السوداء والمعدنية العميقة، والحافة الدرامية والإضاءة الجانبية، وحبيبات الفيلم وملمس الورق، والخطوط المعقدة، وانصهار المانجا-أوكييو-إي، والحركة الديناميكية، وتكوين الملصق السينمائي، وإبرازات ضربات الفرشاة الجريئة، والمساحة السلبية المتوازنة، والجو المزاجي الشديد، والتفاصيل العالية، ونقطة محورية حادة على العينين والسيف.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:21Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148056855 image ai-image-prompts a gritty, high-contrast full-body portrait of a dark-ninja samurai standing in a three-quarter low-angle view, spiky hair, half-face mask revealing intense glowing eyes, layered leather and studded armor with numerous buckles and straps, tattooed arm bands and wrapped gloves, long tattered cloak and tassels whipping in the wind, heavy oversized broad sword chained to the waist with engraved metal details, hanging charms and teal tassels. background features a swirling ink-brush circle, splattered paint textures, silhouetted pagoda and bamboo, scattered japanese kanji motifs along the margins. palette of muted teal, desaturated beige, deep black and metallic accents, dramatic rim and side lighting, film grain and paper texture, intricate linework, manga-ukiyo-e fusion, dynamic motion, cinematic poster composition, bold brushstroke highlights, balanced negative space, intense moody atmosphere, high detail, sharp focal point on the eyes and sword. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148056855",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe0fa9ae-439f-4001-a7e1-9fb859137ffc/original=true/fe0fa9ae-439f-4001-a7e1-9fb859137ffc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148056897",
+      "title": "Civitai prompt 148056897",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "**Style:** Hyper-realistic classical oil painting or extremely detailed fine-art photography. Rich, moody, and historical, with visible canvas texture, fine craquelure (cracked paint), and a warm, muted color palette.  **The Subject:** A close-up of a person's delicate, pale hand and wrist, resting on a dark, polished wooden table. The skin is highly detailed, showing fine veins, subtle wrinkles, and natural texture. Long, elegant fingers end in long, pointed, natural nails. On the index finger is a large, ornate gold ring set with a deep red gemstone.   **The Action / Crucial Detail:** The hand is gently touching the edge of a large, heavily aged, torn piece of parchment. The parchment is covered in dense, faded cursive handwriting.   **The Outfit / Details:** The wrist is framed by an elaborate, wide cuff of intricate white lace, layered over a rich, deep crimson velvet sleeve with a ruffled texture.   **The Setting:** A dark wooden table with a rounded edge. In the bottom right corner, a small, glossy amber-colored object (possibly a gem or a glass bead) sits on the wood. The background is a dark, indistinct void.  **Lighting:** Dramatic, warm directional lighting from the top left, which highlights the texture of the lace, the veins in the hand, and the aged surface of the parchment, while casting deep shadows on the right side and the background. Realistic skin texture, visible pores, natural sheen. High resolution, sharp focus, 8k.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148056897",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16540a53-4335-4495-9a0b-11e7f8458ff9/original=true/16540a53-4335-4495-9a0b-11e7f8458ff9.jpeg",
+      "model": "SolordZ_art_anime_v1_INT8_ConvRot",
+      "model_version_ids": [
+        3453204
+      ],
+      "width": 1152,
+      "height": 1728,
+      "seed": 336291665861454,
+      "negative_prompt": "worst quality, low quality, bad anatomy, bad proportions, malformed limbs, extra limbs, missing limbs, disconnected limbs, malformed hands, extra fingers, missing fingers, fused fingers, twisted wrists, malformed feet, extra head, duplicated face, unintended duplicate person, distorted face, misaligned eyes, plastic skin, waxy skin, excessive skin smoothing, oversharpening, jpeg artifacts, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-05T21:30:18.299293+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e58d63e88a3df2f32a5c20abb5020d5d02fa2f3ebe61d1a6adcb9ffea9ce76b6",
+      "prompt_ar": "**النمط:** لوحة زيتية كلاسيكية واقعية للغاية أو تصوير فوتوغرافي للفنون الجميلة مفصل للغاية. غنية ومزاجية وتاريخية، مع نسيج قماشي مرئي، وطلاء متصدع، ولوحة ألوان دافئة وهادئة.  **الموضوع:** لقطة مقرّبة ليد ومعصم شخص رقيقين شاحبين، مستلقيًا على طاولة خشبية داكنة مصقولة. الجلد مفصل للغاية، ويظهر فيه الأوردة الدقيقة والتجاعيد الدقيقة والملمس الطبيعي. تنتهي الأصابع الطويلة الأنيقة بأظافر طويلة مدببة وطبيعية. يوجد على إصبع السبابة خاتم ذهبي كبير مزخرف مرصع بحجر كريم أحمر عميق.   **الإجراء/التفاصيل الحاسمة:** تلمس اليد برفق حافة قطعة كبيرة ممزقة من الرق. الرق مغطى بخط يد كثيف ومتصل.   **الزي/التفاصيل:** تم تأطير المعصم من خلال سوار عريض ومتقن من الدانتيل الأبيض المعقد، ومكسو بطبقات فوق كم مخملي قرمزي عميق مع نسيج مكشكش.   **الإعداد:** طاولة خشبية داكنة ذات حافة مستديرة. في الزاوية اليمنى السفلية، يوجد جسم صغير لامع بلون العنبر (من المحتمل أن يكون جوهرة أو خرزة زجاجية) موضوعًا على الخشب. الخلفية عبارة عن فراغ مظلم وغير واضح.  **الإضاءة:** إضاءة اتجاهية دافئة ودراماتيكية من أعلى اليسار، تُبرز نسيج الدانتيل وعروق اليد والسطح القديم للرق، مع إلقاء ظلال عميقة على الجانب الأيمن والخلفية. ملمس بشرة واقعي، مسام مرئية، لمعان طبيعي. دقة عالية، تركيز حاد، 8K.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-05T21:30:21Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148056897 fashion ai-image-prompts **style:** hyper-realistic classical oil painting or extremely detailed fine-art photography. rich, moody, and historical, with visible canvas texture, fine craquelure (cracked paint), and a warm, muted color palette. **the subject:** a close-up of a person's delicate, pale hand and wrist, resting on a dark, polished wooden table. the skin is highly detailed, showing fine veins, subtle wrinkles, and natural texture. long, elegant fingers end in long, pointed, natural nails. on the index finger is a large, ornate gold ring set with a deep red gemstone. **the action / crucial detail:** the hand is gently touching the edge of a large, heavily aged, torn piece of parchment. the parchment is covered in dense, faded cursive handwriting. **the outfit / details:** the wrist is framed by an elaborate, wide cuff of intricate white lace, layered over a rich, deep crimson velvet sleeve with a ruffled texture. **the setting:** a dark wooden table with a rounded edge. in the bottom right corner, a small, glossy amber-colored object (possibly a gem or a glass bead) sits on the wood. the background is a dark, indistinct void. **lighting:** dramatic, warm directional lighting from the top left, which highlights the texture of the lace, the veins in the hand, and the aged surface of the parchment, while casting deep shadows on the right side and the background. realistic skin texture, visible pores, natural sheen. high resolution, sharp focus, 8k. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148056897",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16540a53-4335-4495-9a0b-11e7f8458ff9/original=true/16540a53-4335-4495-9a0b-11e7f8458ff9.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-05T11:08:56.464023+00:00",
-  "prompt_count": 2446,
+  "generated_at": "2026-11-05T21:30:21.833931+00:00",
+  "prompt_count": 2460,
   "translation": {
     "language": "ar",
-    "translated_count": 10,
-    "skipped_count": 2429,
+    "translated_count": 14,
+    "skipped_count": 2439,
     "failed_count": 7,
-    "updated_at": "2026-11-05T11:08:55Z"
+    "updated_at": "2026-11-05T21:30:21Z"
   }
 }
