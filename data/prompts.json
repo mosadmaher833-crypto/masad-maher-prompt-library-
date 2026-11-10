@@ -119947,15 +119947,929 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/980cab30-2e09-43a9-9925-8f34aa48a68e/original=true/980cab30-2e09-43a9-9925-8f34aa48a68e.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-148535634",
+      "title": "Civitai prompt 148535634",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highly detailed, sharp focus, baldurs gate ring,\nBold copper ring, lightning engraving, fantasy jewelry\nneutral dark background, soft studio lighting, shallow depth of field, macro lens\ndetailed metal texture, intricate engravings, cinematic",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535634",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2c04b69-f6fe-40f8-baa3-debd996a040c/original=true/b2c04b69-f6fe-40f8-baa3-debd996a040c.jpeg",
+      "model_version_ids": [
+        286322,
+        424720,
+        1759168
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 424504660,
+      "negative_prompt": "lq, ld, wood ring, skull ring, stone ring, realistic, ring, low quality, blurry, distorted, extra limbs, watermark, text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208645+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "284983f9f14aad369e42d3eceff1bee0073662c2f706fda1ee9def14963620e3",
+      "prompt_ar": "تحفة، أفضل جودة، مفصلة للغاية، تركيز حاد، حلقة بوابة بلدور،\nخاتم من النحاس الجريء، نقش البرق، مجوهرات خيالية\nخلفية داكنة محايدة، وإضاءة استوديو ناعمة، وعمق مجال ضحل، وعدسة ماكرو\nنسيج معدني مفصل، نقوش معقدة، سينمائية",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535634 image ai-image-prompts masterpiece, best quality, highly detailed, sharp focus, baldurs gate ring, bold copper ring, lightning engraving, fantasy jewelry neutral dark background, soft studio lighting, shallow depth of field, macro lens detailed metal texture, intricate engravings, cinematic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535634",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2c04b69-f6fe-40f8-baa3-debd996a040c/original=true/b2c04b69-f6fe-40f8-baa3-debd996a040c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535608",
+      "title": "Civitai prompt 148535608",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "FLESK, preserving its established original anatomy and unmistakable silhouette: an extremely tall, slender insectoid horror with razor-sharp crimson carapace armor, black chitinous joints, elongated black neck, impossibly long clawed arms, digitigrade pointed legs, a long armored dragon tail and enormous skeletal dragon wings. Its eyeless, noseless, earless angular head retains one gigantic blade-shaped horn protruding from the exact center of its face, two curved bull horns on either side, and a grotesque tooth-filled mouth with sharp mandibles. Surreal cinematic composition, viewed through the circular opening of a colossal ruined astronomical mechanism: FLESK twists vertically through the enormous rotating rings, one claw reaching down toward the viewer, wings unfolding asymmetrically across the eclipsed crimson moon. Its tail winds between floating Gothic towers and broken mechanical structures. Tiny fragments of architecture orbit its silhouette, emphasizing its terrifying scale. Bold exaggerated character design, illustration, digital painting, intricate linework, dramatic perspective, rich crimson-black palette, elaborate armor details, graphic shadows.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535608",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4a3e2d-25c9-4c7a-bd34-600a51d19229/original=true/cc4a3e2d-25c9-4c7a-bd34-600a51d19229.jpeg",
+      "model_version_ids": [
+        3368939,
+        3456985
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1987891257,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208680+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "26ed6f94d11ece1b39c1ce8b3f9aa8f958302402b2ab4f15a74edcffa710d903",
+      "prompt_ar": "FLESK، يحافظ على تشريحه الأصلي الراسخ وصورته الظلية التي لا لبس فيها: رعب حشري طويل للغاية ونحيف مع درع قرمزي حاد للغاية، ومفاصل كيتينية سوداء، ورقبة سوداء ممدودة، وأذرع مخالب طويلة بشكل مستحيل، وأرجل مدببة رقمية، وذيل تنين طويل مدرع وأجنحة تنين هيكلية هائلة. يحتفظ رأسه الزاوي بلا عيون، وبلا أنف، وبلا أذن، بقرن ضخم على شكل نصل يبرز من منتصف وجهه بالضبط، وقرنين منحنيين على كلا الجانبين، وفم بشع مملوء بالأسنان مع فكوك حادة. تكوين سينمائي سريالي، يمكن رؤيته من خلال الفتحة الدائرية لآلية فلكية مدمرة هائلة: يلتف FLESK عموديًا عبر الحلقات الدوارة الهائلة، ويصل أحد المخالب إلى الأسفل نحو المشاهد، وتتكشف الأجنحة بشكل غير متماثل عبر القمر القرمزي المنخسف. تهب الرياح بين الأبراج القوطية العائمة والهياكل الميكانيكية المكسورة. تدور أجزاء صغيرة من الهندسة المعمارية حول صورتها الظلية، مما يؤكد حجمها المرعب. تصميم الشخصيات الجريء والمبالغ فيه، والتوضيح، والرسم الرقمي، والخطوط المعقدة، والمنظور الدرامي، ولوحة الألوان السوداء القرمزية الغنية، وتفاصيل الدروع المتقنة، والظلال الرسومية.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535608 architecture ai-image-prompts flesk, preserving its established original anatomy and unmistakable silhouette: an extremely tall, slender insectoid horror with razor-sharp crimson carapace armor, black chitinous joints, elongated black neck, impossibly long clawed arms, digitigrade pointed legs, a long armored dragon tail and enormous skeletal dragon wings. its eyeless, noseless, earless angular head retains one gigantic blade-shaped horn protruding from the exact center of its face, two curved bull horns on either side, and a grotesque tooth-filled mouth with sharp mandibles. surreal cinematic composition, viewed through the circular opening of a colossal ruined astronomical mechanism: flesk twists vertically through the enormous rotating rings, one claw reaching down toward the viewer, wings unfolding asymmetrically across the eclipsed crimson moon. its tail winds between floating gothic towers and broken mechanical structures. tiny fragments of architecture orbit its silhouette, emphasizing its terrifying scale. bold exaggerated character design, illustration, digital painting, intricate linework, dramatic perspective, rich crimson-black palette, elaborate armor details, graphic shadows. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535608",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc4a3e2d-25c9-4c7a-bd34-600a51d19229/original=true/cc4a3e2d-25c9-4c7a-bd34-600a51d19229.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535607",
+      "title": "Civitai prompt 148535607",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "FLESK, retaining its exact established design: a towering, extremely slender insectoid eldritch horror with angular crimson-red carapace armor, black chitinous joints, an elongated black neck, unnaturally long clawed arms, digitigrade pointed legs, enormous skeletal dragon wings and a long armored dragon tail. Its eyeless, noseless, earless angular head has one gigantic blade-shaped horn at the exact center of its face, two curved bull horns and a grotesque mouth filled with jagged teeth and mandibles. A spectacular diagonal composition from inside a gigantic ruined bell tower: FLESK clings upside down to the tower's exterior, its elongated limbs gripping fractured stone, while its wings spread across the storm clouds. Its dragon tail plunges through the tower's hollow center, curling around the enormous cracked bell. The creature turns its horned head toward the viewer, mouth opening in a silent roar. Far below, a vast Gothic city disappears into swirling crimson fog. Bold exaggerated character design, illustration, digital painting, intricate linework, dramatic perspective, intricate armor details, sharp graphic shadows.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535607",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af2f003c-290b-484f-985e-f0b34e41b486/original=true/af2f003c-290b-484f-985e-f0b34e41b486.jpeg",
+      "model_version_ids": [
+        3368939,
+        3456985
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1842935639,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208695+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "123f91af3e9bc0bd4c6ac77c410f1d0ca3beb6e17e9d8b863d5463e07f03dfee",
+      "prompt_ar": "FLESK، يحتفظ بتصميمه الثابت الدقيق: رعب إلدريتش حشري شاهق ونحيف للغاية مع درع درع زاوي باللون الأحمر القرمزي، ومفاصل كيتينية سوداء، ورقبة سوداء ممدودة، وأذرع طويلة بشكل غير طبيعي، وأذرع مخالب طويلة بشكل غير طبيعي، وأرجل مدببة رقمية، وأجنحة تنين هيكلية ضخمة وذيل تنين طويل مدرع. رأسه الزاوي بلا عيون، بلا أنف، بلا أذن له قرن ضخم على شكل نصل في منتصف وجهه بالضبط، وقرنين منحنيين وفم بشع مملوء بأسنان خشنة وفك سفلي. تكوين قطري مذهل من داخل برج الجرس العملاق المدمر: يتشبث FLESK رأسًا على عقب بالجزء الخارجي للبرج، وأطرافه الممدودة تمسك بالحجر المكسور، بينما تنتشر أجنحته عبر السحب العاصفة. يغوص ذيل التنين في وسط البرج المجوف، ويلتف حول الجرس الضخم المتصدع. يدير المخلوق رأسه المقرن نحو المشاهد، ويفتح فمه في هدير صامت. وفي الأسفل، تختفي مدينة قوطية شاسعة وسط ضباب قرمزي يحوم. تصميم الشخصيات الجريء والمبالغ فيه، والتوضيح، والرسم الرقمي، والخطوط المعقدة، والمنظور الدرامي، وتفاصيل الدروع المعقدة، والظلال الرسومية الحادة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535607 architecture ai-image-prompts flesk, retaining its exact established design: a towering, extremely slender insectoid eldritch horror with angular crimson-red carapace armor, black chitinous joints, an elongated black neck, unnaturally long clawed arms, digitigrade pointed legs, enormous skeletal dragon wings and a long armored dragon tail. its eyeless, noseless, earless angular head has one gigantic blade-shaped horn at the exact center of its face, two curved bull horns and a grotesque mouth filled with jagged teeth and mandibles. a spectacular diagonal composition from inside a gigantic ruined bell tower: flesk clings upside down to the tower's exterior, its elongated limbs gripping fractured stone, while its wings spread across the storm clouds. its dragon tail plunges through the tower's hollow center, curling around the enormous cracked bell. the creature turns its horned head toward the viewer, mouth opening in a silent roar. far below, a vast gothic city disappears into swirling crimson fog. bold exaggerated character design, illustration, digital painting, intricate linework, dramatic perspective, intricate armor details, sharp graphic shadows. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535607",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af2f003c-290b-484f-985e-f0b34e41b486/original=true/af2f003c-290b-484f-985e-f0b34e41b486.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535571",
+      "title": "Civitai prompt 148535571",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Pop art vector illustration of a golden retriever wearing stylish round sunglassesred frame, dark blue lens, a stylish scarf,eyes, mouth closed,smooth chest fur, close-up portrait, three quarters side profile, low angle shot. Intricate woodcut engraving style, vector line art, detailed flowing line art fur, high-contrast dramatic lighting. a bold color-blocked background, crimson, cobalt blue with cream accent, asymmetric geometric shapes, flat graphic background, dynamic futuristic layout",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535571",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c6a6cca-e4a3-4ecc-8359-60579f378818/original=true/7c6a6cca-e4a3-4ecc-8359-60579f378818.jpeg",
+      "model": "Realism By Stable Yogi Moss V1.5 Civ INT8-ConvRot C88",
+      "model_version_ids": [
+        3434061
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 113770742,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208703+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9470fd2c46d22743a8052650c64d4b15d20e3ad5603cc8572b7b176a9a5d4be8",
+      "prompt_ar": "فن البوب ​​​​التوضيح النواقل للمسترد الذهبي يرتدي نظارات شمسية مستديرة أنيقة، إطار أحمر، عدسة زرقاء داكنة، وشاح أنيق، عيون، فم مغلق، فرو صدر ناعم، صورة مقربة، ثلاثة أرباع الجانب الجانبي، لقطة زاوية منخفضة. أسلوب نقش خشبي معقد، وفن خط متجه، وفراء فني خطي متدفق مفصل، وإضاءة درامية عالية التباين. خلفية جريئة محجبة بالألوان، قرمزي، أزرق كوبالت مع لهجة كريمية، أشكال هندسية غير متماثلة، خلفية رسومية مسطحة، تخطيط مستقبلي ديناميكي",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535571 image ai-image-prompts pop art vector illustration of a golden retriever wearing stylish round sunglassesred frame, dark blue lens, a stylish scarf,eyes, mouth closed,smooth chest fur, close-up portrait, three quarters side profile, low angle shot. intricate woodcut engraving style, vector line art, detailed flowing line art fur, high-contrast dramatic lighting. a bold color-blocked background, crimson, cobalt blue with cream accent, asymmetric geometric shapes, flat graphic background, dynamic futuristic layout civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535571",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c6a6cca-e4a3-4ecc-8359-60579f378818/original=true/7c6a6cca-e4a3-4ecc-8359-60579f378818.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535547",
+      "title": "Civitai prompt 148535547",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, breathtaking cinematic botanical fantasy sculpture, fir needles, fir needle style, made out of fir needles, one majestic monumental stag, unmistakable deer silhouette, solo main subject, full body visible including all hooves and enormous antlers, entire muscular body and face physically sculpted from thousands of densely packed individual emerald and forest-green fir needles, short pointed conifer needles radiating naturally from thin exposed brown twigs, intricate woody stems forming the underlying anatomy, elegant neck and legs composed of tightly bundled evergreen branches, enormous symmetrical antlers transformed into spectacular branching miniature conifer trees, each antler branch covered with dense fresh green needles and numerous realistic hanging brown pine cones, elaborate natural botanical structure, stag standing proudly on a moss-covered forest clearing, one tiny bright yellow rubber duck forest ranger standing on a miniature wooden ladder carefully pruning a small branch from the enormous antlers, fallen needles scattered beneath the hooves, towering evergreen forest in the background, dramatic sunbeams filtering through the canopy, warm golden rim light separating the dark green silhouette from the woodland, majestic yet subtly absurd forest maintenance scene, centered symmetrical full-body composition, vertical 4:5 framing, extraordinary macro botanical detail, sharp focus",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535547",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1bc7cc7c-db2b-45b0-a2ff-92c88c9dcbc5/original=true/1bc7cc7c-db2b-45b0-a2ff-92c88c9dcbc5.jpeg",
+      "model_version_ids": [
+        135867,
+        686495,
+        2858836,
+        3017793
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 597191358,
+      "negative_prompt": "worst quality, low quality, blurry, ordinary deer fur, natural brown coat, realistic bare antlers, dry bone antlers, broad leaves, ivy-covered deer, moss sculpture, plain green skin, artificial plastic foliage, missing distinct fir needles, missing twig structure, missing brown pine cones, sparse antler branches, cropped antlers, poor symmetry, yellow rubber duck missing, ladder missing, multiple deer, excessive fog, subject blending into background, watermark, signature, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208716+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3c6175eb5c5c17daa703a6fad80ba31216d43d22bb66f7f8f84e1274d46d3b78",
+      "prompt_ar": "تحفة فنية، أفضل جودة، جودة مذهلة، جمالية للغاية، منحوتة خيالية نباتية سينمائية مذهلة، إبر التنوب، نمط إبرة التنوب، مصنوعة من إبر التنوب، أيل ضخم مهيب، صورة ظلية غزال لا لبس فيها، موضوع رئيسي منفرد، جسم كامل مرئي بما في ذلك جميع الحوافر والقرون الهائلة، جسم عضلي كامل ووجه منحوت جسديًا من آلاف إبر التنوب الفردية ذات اللون الأخضر الزمردي والغابات، إبر صنوبرية قصيرة مدببة تشع بشكل طبيعي من الأغصان البنية الرقيقة المكشوفة، والسيقان الخشبية المعقدة التي تشكل التشريح الأساسي، والرقبة والساقين الأنيقة المكونة من فروع دائمة الخضرة مجمعة بإحكام، وقرون هائلة متناظرة تتحول إلى أشجار صنوبرية مصغرة مذهلة، كل فرع من فروع قرن الوعل مغطى بإبر خضراء كثيفة طازجة والعديد من مخاريط الصنوبر البنية المعلقة الواقعية، وبنية نباتية طبيعية متقنة، ويقف الأيل بفخر على غابة مغطاة بالطحالب، ويقف حارس غابة البط المطاطي الأصفر الصغير الصغير على سلم خشبي مصغر يقوم بتشذيب فرع صغير بعناية من القرون الهائلة، والإبر المتساقطة متناثرة تحت الحوافر، والغابة الشاهقة دائمة الخضرة في الخلفية، وأشعة الشمس الدرامية التي تتسلل عبر المظلة، وضوء الحافة الذهبية الدافئة الذي يفصل الصورة الظلية الخضراء الداكنة عن الغابة، ومشهد صيانة الغابات المهيب ولكن السخيف بمهارة، وتركيبة متناظرة مركزية لكامل الجسم، إطار عمودي 4:5، تفاصيل نباتية كبيرة غير عادية، تركيز حاد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148535547 photography ai-image-prompts masterpiece, best quality, amazing quality, very aesthetic, breathtaking cinematic botanical fantasy sculpture, fir needles, fir needle style, made out of fir needles, one majestic monumental stag, unmistakable deer silhouette, solo main subject, full body visible including all hooves and enormous antlers, entire muscular body and face physically sculpted from thousands of densely packed individual emerald and forest-green fir needles, short pointed conifer needles radiating naturally from thin exposed brown twigs, intricate woody stems forming the underlying anatomy, elegant neck and legs composed of tightly bundled evergreen branches, enormous symmetrical antlers transformed into spectacular branching miniature conifer trees, each antler branch covered with dense fresh green needles and numerous realistic hanging brown pine cones, elaborate natural botanical structure, stag standing proudly on a moss-covered forest clearing, one tiny bright yellow rubber duck forest ranger standing on a miniature wooden ladder carefully pruning a small branch from the enormous antlers, fallen needles scattered beneath the hooves, towering evergreen forest in the background, dramatic sunbeams filtering through the canopy, warm golden rim light separating the dark green silhouette from the woodland, majestic yet subtly absurd forest maintenance scene, centered symmetrical full-body composition, vertical 4:5 framing, extraordinary macro botanical detail, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535547",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1bc7cc7c-db2b-45b0-a2ff-92c88c9dcbc5/original=true/1bc7cc7c-db2b-45b0-a2ff-92c88c9dcbc5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148534630",
+      "title": "Civitai prompt 148534630",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n \"summary\": {\n \"meta\": [\"best quality\", \"highres\", \"absurdres\", \"anime screencap\", \"1980s (style)\", \"retro artstyle\", \"cyberpunk\", \"umbrella\", \"rain\", \"neon lights\", \"limited palette\", \"close-up\", \"raincoat\", \"vertical composition\"],\n \"canvas\": \"single\",\n \"caption\": \"A striking image in a late-1980s and mid-1990s Japanese theatrical cyberpunk anime style reimagined as a modern fashion editorial, tall vertical frame: dense hand-inked cel animation detail, hard-edged cel shading with crisp highlight shapes, crushed inky blacks and deep shadows, glowing highlights that bloom softly, light that comes only from neon, sculpted rim lighting, rain-slicked surfaces that mirror the light, elongated elegant proportions, a strictly limited palette, and the poise of a high-fashion magazine cover. A close-up of a young woman standing in heavy rain at night under a clear umbrella whose rim and shaft glow with thin bands of neon light in pink and cyan, the glow lighting her face from above, raindrops streaming down the clear canopy and dripping from its glowing edge. She has an asymmetric haircut with one side shaved and the long side dyed electric blue, dark plum lipstick, a small silver ear cuff, and a glossy black vinyl raincoat buttoned to the throat. Behind her, a busy neon street dissolves into soft blurred circles of light. Light: pink and cyan neon glow from the umbrella above her, glossy highlights on the vinyl and her lips, glittering rain, and inky shadows. The mood is cool, dreamy and electric, carrying her own little sky through the rain.\",\n \"palette\": [\"night navy #0A1024\", \"neon pink #FF4AA8\", \"neon cyan #2AE0F0\", \"vinyl black #0C0C10\", \"hair electric blue #2A5AFF\", \"skin #E8D2C4\"]\n },\n \"items\": [\n {\n \"label\": \"character\",\n \"caption\": \"Young woman in heavy rain, asymmetric haircut with one side shaved and the long side dyed electric blue, dark plum lipstick, small silver ear cuff, glossy black vinyl raincoat buttoned to the throat.\",\n \"bbox\": [-560, -540, 912, 540]\n },\n {\n \"label\": \"object\",\n \"caption\": \"Clear umbrella above her with its rim and shaft glowing in thin bands of pink and cyan neon, raindrops streaming down the canopy.\",\n \"bbox\": [-912, -624, -200, 624]\n },\n {\n \"label\": \"object\",\n \"caption\": \"Busy neon street behind her dissolving into soft blurred circles of light in the rain.\",\n \"bbox\": [-912, -624, 912, 624]\n }\n ],\n \"bbox_coord_space\": \"abs_centralized\",\n \"bbox_format\": \"yxyx\"\n}",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148534630",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73f88108-4fde-4a11-b928-23bca6905657/original=true/73f88108-4fde-4a11-b928-23bca6905657.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 623057240606770,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208737+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "823b7b4cf0e50118f88a5d326e3a1c3206d1e95839796e8ce50dfb795b162883",
+      "prompt_ar": "{\n \"ملخص\": {\n \"meta\": [\"أفضل جودة\"، \"highres\"، \"absurdres\"، \"anime screencap\"، \"1980s (style)\"، \"retro artstyle\"، \"cyberpunk\"، \"umbrella\"، \"rain\"، \"أضواء النيون\"، \"لوحة محدودة\"، \"لقطة قريبة\"، \"معطف مطر\"، \"تكوين عمودي\"]،\n \"قماش\": \"مفرد\"،\n \"caption\": \"صورة مذهلة في أواخر الثمانينات ومنتصف التسعينات من القرن الماضي، تم إعادة تصور أسلوب الأنيمي المسرحي الياباني السايبربانك كأسلوب تحريري حديث للأزياء، إطار عمودي طويل: تفاصيل رسوم متحركة كثيفة مرسومة يدويًا، تظليل سيل ذو حواف صلبة مع أشكال تمييز واضحة، أسود داكن مسحوق وظلال عميقة، إضاءات متوهجة تزهر بهدوء، ضوء يأتي فقط من النيون، إضاءة حافة منحوتة، أسطح ملساء بالمطر تعكس الضوء، أبعاد أنيقة طويلة، ولوحة محدودة للغاية، وتوازن غلاف مجلة للأزياء الراقية. لقطة مقربة لامرأة شابة تقف تحت المطر الغزير ليلاً تحت مظلة صافية يتوهج حافتها وعمودها بشرائط رفيعة من ضوء النيون باللونين الوردي والسماوي، ويضيء التوهج وجهها من الأعلى، وقطرات المطر تتدفق أسفل المظلة الشفافة وتتساقط من حافتها المتوهجة. لديها قصة شعر غير متماثلة مع حلق جانب واحد وجانب طويل مصبوغ باللون الأزرق الكهربائي، وأحمر الشفاه البرقوقي الداكن، صغير صفعة أذن فضية، ومعطف واق من المطر من الفينيل الأسود اللامع مزرر على الحلق. وخلفها، يذوب شارع نيون مزدحم في دوائر ضوء ناعمة غير واضحة. الضوء: توهج نيون وردي وسماوي من المظلة فوقها، وإبرازات لامعة على الفينيل وشفتيها، ومطر متلألئ، وظلال حبرية، تحمل سماءها الصغيرة خلال المطر.\n \"لوحة\": [\"نايت كحلي #0A1024\"، \"وردي نيون #FF4AA8\"، \"نيون سماوي #2AE0F0\"، \"فينيل أسود #0C0C10\"، \"شعر أزرق كهربائي #2A5AFF\"، \"جلد #E8D2C4\"]\n },\n \"العناصر\": [\n {\n \"التسمية\": \"الشخصية\"،\n \"تسمية توضيحية\": \"امرأة شابة تحت أمطار غزيرة، وقصة شعر غير متماثلة، وحلق جانب واحد وجانب طويل مصبوغ باللون الأزرق الكهربائي، وأحمر الشفاه البرقوقي الداكن، وأذن فضية صغيرة، ومعطف واق من المطر من الفينيل الأسود اللامع ومزرر حتى الحلق.\",\n \"bbox\": [-560, -540, 912, 540]\n },\n {\n \"التسمية\": \"الكائن\"،\n \"caption\": \"مظلة شفافة فوقها بحافتها وعمودها المتوهج في شرائط رفيعة من النيون الوردي والسماوي، وقطرات المطر تتدفق أسفل المظلة.\",\n \"bbox\": [-912، -624، -200، 624]\n },\n {\n \"التسمية\": \"الكائن\"،\n \"caption\": \"شارع النيون المزدحم خلفها يتحول إلى دوائر ضوء غير واضحة تحت المطر.\",\n \"bbox\": [-912, -624, 912, 624]\n }\n ]،\n \"bbox_coord_space\": \"abs_centralized\",\n \"bbox_format\": \"yxyx\"\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148534630 fashion ai-image-prompts { \"summary\": { \"meta\": [\"best quality\", \"highres\", \"absurdres\", \"anime screencap\", \"1980s (style)\", \"retro artstyle\", \"cyberpunk\", \"umbrella\", \"rain\", \"neon lights\", \"limited palette\", \"close-up\", \"raincoat\", \"vertical composition\"], \"canvas\": \"single\", \"caption\": \"a striking image in a late-1980s and mid-1990s japanese theatrical cyberpunk anime style reimagined as a modern fashion editorial, tall vertical frame: dense hand-inked cel animation detail, hard-edged cel shading with crisp highlight shapes, crushed inky blacks and deep shadows, glowing highlights that bloom softly, light that comes only from neon, sculpted rim lighting, rain-slicked surfaces that mirror the light, elongated elegant proportions, a strictly limited palette, and the poise of a high-fashion magazine cover. a close-up of a young woman standing in heavy rain at night under a clear umbrella whose rim and shaft glow with thin bands of neon light in pink and cyan, the glow lighting her face from above, raindrops streaming down the clear canopy and dripping from its glowing edge. she has an asymmetric haircut with one side shaved and the long side dyed electric blue, dark plum lipstick, a small silver ear cuff, and a glossy black vinyl raincoat buttoned to the throat. behind her, a busy neon street dissolves into soft blurred circles of light. light: pink and cyan neon glow from the umbrella above her, glossy highlights on the vinyl and her lips, glittering rain, and inky shadows. the mood is cool, dreamy and electric, carrying her own little sky through the rain.\", \"palette\": [\"night navy #0a1024\", \"neon pink #ff4aa8\", \"neon cyan #2ae0f0\", \"vinyl black #0c0c10\", \"hair electric blue #2a5aff\", \"skin #e8d2c4\"] }, \"items\": [ { \"label\": \"character\", \"caption\": \"young woman in heavy rain, asymmetric haircut with one side shaved and the long side dyed electric blue, dark plum lipstick, small silver ear cuff, glossy black vinyl raincoat buttoned to the throat.\", \"bbox\": [-560, -540, 912, 540] }, { \"label\": \"object\", \"caption\": \"clear umbrella above her with its rim and shaft glowing in thin bands of pink and cyan neon, raindrops streaming down the canopy.\", \"bbox\": [-912, -624, -200, 624] }, { \"label\": \"object\", \"caption\": \"busy neon street behind her dissolving into soft blurred circles of light in the rain.\", \"bbox\": [-912, -624, 912, 624] } ], \"bbox_coord_space\": \"abs_centralized\", \"bbox_format\": \"yxyx\" } civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148534630",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73f88108-4fde-4a11-b928-23bca6905657/original=true/73f88108-4fde-4a11-b928-23bca6905657.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148533879",
+      "title": "Civitai prompt 148533879",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a close-up profile view of a young woman's face looking down and to the left, her head slightly tilted, with long dark flowing hair framing her features and strands falling across her forehead and cheek, her large expressive eye with long thick eyelashes partially closed in a downward gaze, a single glistening tear rolling slowly down her cheek from the corner of her eye, soft highlights catching the light on her tear, eyelid, and lips, delicate skin texture with subtle shading, her nose and full lips in sharp profile, dramatic ink wash and watercolor style with expressive black brush strokes, splatters, and fluid lines creating dynamic movement around her hair and face, high contrast monochrome palette with deep blacks and soft grays on a light textured background, emotional and melancholic atmosphere, cinematic lighting with strong highlights and deep shadows emphasizing her sorrowful expression and the falling tear., masterwork masterpiece, best quality, high quality, absurdres, highres, detailed, depth of field, , high detail, best quality, very aesthetic, aged up",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148533879",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b243978d-bbbd-4f56-b8f2-31aeaa3ef7ce/original=true/b243978d-bbbd-4f56-b8f2-31aeaa3ef7ce.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 893082866077159,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208748+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7d6ebf35441e951e539757f8023539f0ffdec5b9c8b2408d887a5fbcbf2970d1",
+      "prompt_ar": "صورة مقربة لوجه امرأة شابة تنظر إلى الأسفل وإلى اليسار، ورأسها مائل قليلاً، مع شعر طويل داكن منسدل يحيط بملامحها وخصلاتها المتساقطة على جبهتها وخدها، وعينها الكبيرة المعبرة ذات الرموش الكثيفة الطويلة مغلقة جزئيًا في نظرة إلى الأسفل، ودمعة واحدة لامعة تتدحرج ببطء على خدها من زاوية عينها، وإبرازات ناعمة تلتقط الضوء على دمعتها، وجفنها، وشفتيها، وملمس بشرتها الرقيق مع تظليل دقيق، وأنفها وشفتيها الكاملة حادة صورة شخصية، وغسل حبر درامي وأسلوب ألوان مائية مع ضربات فرشاة سوداء معبرة، وبقع، وخطوط سائلة تخلق حركة ديناميكية حول شعرها ووجهها، لوحة أحادية اللون عالية التباين مع أسود عميق ورمادي ناعم على خلفية مزخرفة خفيفة، وأجواء عاطفية وحزينة، وإضاءة سينمائية مع إبرازات قوية وظلال عميقة تؤكد تعبيرها الحزين والدموع المتساقطة. جمالية للغاية، تقدمت في العمر",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:47Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148533879 image ai-image-prompts a close-up profile view of a young woman's face looking down and to the left, her head slightly tilted, with long dark flowing hair framing her features and strands falling across her forehead and cheek, her large expressive eye with long thick eyelashes partially closed in a downward gaze, a single glistening tear rolling slowly down her cheek from the corner of her eye, soft highlights catching the light on her tear, eyelid, and lips, delicate skin texture with subtle shading, her nose and full lips in sharp profile, dramatic ink wash and watercolor style with expressive black brush strokes, splatters, and fluid lines creating dynamic movement around her hair and face, high contrast monochrome palette with deep blacks and soft grays on a light textured background, emotional and melancholic atmosphere, cinematic lighting with strong highlights and deep shadows emphasizing her sorrowful expression and the falling tear., masterwork masterpiece, best quality, high quality, absurdres, highres, detailed, depth of field, , high detail, best quality, very aesthetic, aged up civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148533879",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b243978d-bbbd-4f56-b8f2-31aeaa3ef7ce/original=true/b243978d-bbbd-4f56-b8f2-31aeaa3ef7ce.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148533792",
+      "title": "Civitai prompt 148533792",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "lazypos, 1girl, kaela kovalskia, hololive,\nuse the hairstyle and hair ribbon of the character from this image, not her outfit, to generate image with this prompt: Kaela Kovalskia stands quietly beneath a transparent umbrella at a secluded street corner shortly after sunset, watching the last moments of a rainy evening unfold around her. The narrow urban street is lined with modest buildings, small storefronts, old apartment facades, and scattered street furniture, creating the atmosphere of a peaceful neighborhood slowly settling down for the night. A small flower shop across the street is preparing to close, its warm interior lights illuminating buckets of freshly arranged flowers, leafy potted plants, and bouquets displayed near the entrance. The shopkeeper can be faintly seen gathering the remaining flowers and turning off a few lights. Rain continues to fall gently, leaving the entire street covered in a reflective sheen. The atmosphere feels intimate and lived-in, capturing an ordinary moment that seems to linger longer than expected.\nKaela wears a loose pale blue trench coat with a slightly oversized silhouette, its fabric gently shifting in the evening breeze. Beneath it, she wears a dark, understated outfit with a simple skirt, dark stockings, and black leather boots showing subtle signs of wear from walking through the rain. A deep burgundy scarf is loosely wrapped around her neck, providing a warm contrasting accent against the cool blue coat. Her long blonde hair is slightly damp, with a few strands sticking naturally to her cheeks and forehead. Her vivid crimson-red eyes gaze thoughtfully across the street toward the flower shop, her expression quiet and contemplative, as though she is remembering something or simply enjoying the peaceful scenery. She holds the transparent umbrella at a relaxed angle, with individual raindrops gathering across its curved surface and catching reflections from nearby streetlights.\nThe surrounding street should feel as important as Kaela herself. Across the road, the flower shop's golden illumination spills onto the wet sidewalk, creating elongated reflections that blend with the cool blue and muted violet tones of the rainy environment. A few bicycles are parked beside the storefront, while another bicycle passes through the scene in the middle distance, its rider partially obscured by the rain. Puddles collect along the pavement and reflect fragments of illuminated windows, traffic signals, shop signs, and passing headlights. Overhead electrical cables, street lamps, balconies, rain-darkened brick walls, and softly glowing apartment windows contribute to the layered urban environment. A few distant pedestrians carrying umbrellas appear as subtle silhouettes, reinforcing the feeling of a real neighborhood rather than an empty cinematic set.\nCapture the scene from a considerable distance using a wide cinematic street-level perspective, positioning Kaela slightly off-center and allowing her to occupy only a modest portion of the composition. The viewer should feel like a distant observer witnessing a quiet moment from across the street. Emphasize the relationship between the character, the flower shop, and the surrounding architecture rather than creating a conventional character portrait. Use layered environmental depth, with foreground reflections, midground storefronts, and softly fading buildings in the background. The transparent umbrella should remain recognizable without dominating the frame. Rain streaks, subtle atmospheric haze, and diffused lighting should soften the boundaries between foreground and background.\nCombine impressionist oil painting, cinematic anime background illustration, analog street photography, and expressive loose brushwork. Use visible painterly strokes to construct reflections, wet surfaces, illuminated windows, and distant architectural details, allowing some environmental elements to dissolve into soft patches of color. Preserve delicate anime-inspired character features while integrating Kaela naturally into the painterly surroundings. Incorporate subtle 35mm film grain, gentle photographic softness, slight lens bloom around streetlights, and imperfect analog textures. Use a restrained palette of pale blue, slate gray, muted indigo, dusty violet, burgundy, and warm amber. Stronger warm highlights should remain concentrated around the flower shop and its reflections, contrasting with the cool rainy street.\nThe overall mood should be peaceful, nostalgic, introspective, and slightly melancholic, evoking the feeling of an ordinary evening that becomes unexpectedly memorable. Emphasize the quiet beauty of rain-soaked streets, warm storefront illumination, and fleeting reflections after sunset. The final artwork should resemble a cinematic still from a contemplative anime film interpreted through impressionist oil painting and nostalgic analog street photography, balancing expressive painterly textures with believable urban atmosphere.\nmasterpiece, very aesthetic",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148533792",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d819f07a-50ec-43c2-a5ad-e61931226acd/original=true/d819f07a-50ec-43c2-a5ad-e61931226acd.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 762322280902483,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208782+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f5797032d70da35630eb36c884b22ac42a70de64c912ae007227e38b5b764eb7",
+      "prompt_ar": "كسولبوس, 1girl, كايلا كوفالسكيا, هولوليف,\nاستخدم تصفيفة الشعر وشريط الشعر للشخصية من هذه الصورة، وليس ملابسها، لإنشاء صورة بهذه المطالبة: تقف كايلا كوفالسكيا بهدوء تحت مظلة شفافة في زاوية شارع منعزل بعد وقت قصير من غروب الشمس، وتشاهد اللحظات الأخيرة من أمسية ممطرة تتكشف حولها. يصطف الشارع الحضري الضيق بمباني متواضعة وواجهات متاجر صغيرة وواجهات شقق قديمة وأثاث متناثر في الشوارع، مما يخلق جوًا من حي هادئ يستقر ببطء ليلاً. يستعد متجر زهور صغير على الجانب الآخر من الشارع للإغلاق، حيث تضيء أضواءه الداخلية الدافئة دلاء من الزهور الطازجة والنباتات المورقة والباقات المعروضة بالقرب من المدخل. ويمكن رؤية صاحب المتجر وهو يجمع الزهور المتبقية ويطفئ بعض الأضواء. يستمر المطر بالهطول بلطف، تاركًا الشارع بأكمله مغطى بلمعان عاكس. يبدو الجو حميميًا ومعيشيًا، ويلتقط لحظة عادية تبدو وكأنها باقية لفترة أطول من المتوقع.\nترتدي كايلا معطفًا فضفاضًا باللون الأزرق الفاتح مع صورة ظلية كبيرة الحجم قليلاً، ويتحول قماشها بلطف مع نسيم المساء. تحته، ترتدي زيًا داكنًا بسيطًا مع تنورة بسيطة وجوارب داكنة وأحذية جلدية سوداء تظهر عليها علامات التآكل الدقيقة من المشي تحت المطر. وشاح بورجوندي عميق ملفوف بشكل فضفاض حول رقبتها، مما يوفر لمسة دافئة متباينة مع المعطف الأزرق البارد. شعرها الأشقر الطويل رطب قليلاً، مع خصلات قليلة ملتصقة بشكل طبيعي على خديها وجبهتها. تحدق عيناها القرمزية الحمراء الزاهية بتأمل عبر الشارع باتجاه متجر الزهور، وتعبيرها هادئ ومتأمل، كما لو أنها تتذكر شيئًا ما أو تستمتع ببساطة بالمناظر الهادئة. تحمل المظلة الشفافة بزاوية مريحة، حيث تتجمع قطرات المطر الفردية عبر سطحها المنحني وتلتقط الانعكاسات من أضواء الشوارع القريبة.\nيجب أن يشعر الشارع المحيط بأهمية كايلا نفسها. على الجانب الآخر من الطريق، تمتد الإضاءة الذهبية لمحل بيع الزهور على الرصيف الرطب، مما يخلق انعكاسات طويلة تمتزج مع درجات اللون الأزرق البارد والبنفسجي الخافت للبيئة الممطرة. هناك عدد قليل من الدراجات متوقفة بجانب واجهة المتجر، بينما تمر دراجة أخرى عبر المشهد على مسافة متوسطة، وقد حجب المطر راكبها جزئيًا. تتجمع البرك على طول الرصيف وتعكس أجزاء من النوافذ المضيئة وإشارات المرور ولافتات المتاجر والمصابيح الأمامية المارة. تساهم الكابلات الكهربائية العلوية، ومصابيح الشوارع، والشرفات، والجدران المبنية من الطوب التي ظلمتها الأمطار، ونوافذ الشقق المتوهجة بهدوء في البيئة الحضرية متعددة الطبقات. يظهر عدد قليل من المارة البعيدين الذين يحملون مظلات كصور ظلية خفية، مما يعزز الشعور بالحي الحقيقي وليس مجموعة سينمائية فارغة.\nالتقط المشهد من مسافة كبيرة باستخدام منظور سينمائي واسع على مستوى الشارع، مع وضع Kaela بعيدًا عن المركز قليلًا والسماح لها بشغل جزء متواضع فقط من التركيبة. يجب أن يشعر المشاهد وكأنه مراقب بعيد يشهد لحظة هادئة من الجانب الآخر من الشارع. أكد على العلاقة بين الشخصية ومتجر الزهور والهندسة المعمارية المحيطة بدلاً من إنشاء صورة شخصية تقليدية. استخدم عمقًا بيئيًا متعدد الطبقات، مع انعكاسات المقدمة وواجهات المتاجر في منتصف الأرض والمباني الباهتة بهدوء في الخلفية. يجب أن تظل المظلة الشفافة قابلة للتمييز دون أن تهيمن على الإطار. يجب أن تعمل خطوط المطر والضباب الجوي الخفيف والإضاءة المنتشرة على تخفيف الحدود بين المقدمة والخلفية.\nاجمع بين الرسم الزيتي الانطباعي والرسوم التوضيحية لخلفية الرسوم المتحركة السينمائية والتصوير التناظري للشوارع والفرشاة التعبيرية الفضفاضة. استخدم ضربات رسم مرئية لإنشاء الانعكاسات والأسطح الرطبة والنوافذ المضيئة والتفاصيل المعمارية البعيدة، مما يسمح لبعض العناصر البيئية بالذوبان في بقع ناعمة من الألوان. حافظ على سمات الشخصية الدقيقة المستوحاة من الرسوم المتحركة مع دمج Kaela بشكل طبيعي في البيئة الرسومية المحيطة. تم دمج حبيبات الفيلم الدقيقة مقاس 35 مم، ونعومة التصوير الفوتوغرافي اللطيفة، وازدهار العدسات الخفيف حول مصابيح الشوارع، والأنسجة التناظرية غير الكاملة. استخدمي لوحة مقيدة من اللون الأزرق الفاتح، والرمادي الأردوازي، والنيلي الصامت، والبنفسجي المغبر، والبورجوندي، والعنبر الدافئ. يجب أن تظل الأضواء الدافئة أقوى مركزة حول محل بيع الزهور وانعكاساته، على النقيض من الشارع الممطر البارد.\nيجب أن يكون المزاج العام سلميًا وحنينًا واستبطانيًا وحزينًا بعض الشيء، مما يثير الشعور بأمسية عادية تصبح لا تُنسى بشكل غير متوقع. أكد على الجمال الهادئ للشوارع المغمورة بالمطر، والإضاءة الدافئة لواجهة المتجر، والانعكاسات العابرة بعد غروب الشمس. يجب أن يشبه العمل الفني النهائي صورة سينمائية من فيلم أنمي تأملي يتم تفسيره من خلال الرسم الزيتي الانطباعي والتصوير التناظري للشوارع الذي يبعث على الحنين إلى الماضي، مع تحقيق التوازن بين الأنسجة الرسومية التعبيرية والأجواء الحضرية المعقولة.\nتحفة جمالية للغاية",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148533792 architecture ai-image-prompts lazypos, 1girl, kaela kovalskia, hololive, use the hairstyle and hair ribbon of the character from this image, not her outfit, to generate image with this prompt: kaela kovalskia stands quietly beneath a transparent umbrella at a secluded street corner shortly after sunset, watching the last moments of a rainy evening unfold around her. the narrow urban street is lined with modest buildings, small storefronts, old apartment facades, and scattered street furniture, creating the atmosphere of a peaceful neighborhood slowly settling down for the night. a small flower shop across the street is preparing to close, its warm interior lights illuminating buckets of freshly arranged flowers, leafy potted plants, and bouquets displayed near the entrance. the shopkeeper can be faintly seen gathering the remaining flowers and turning off a few lights. rain continues to fall gently, leaving the entire street covered in a reflective sheen. the atmosphere feels intimate and lived-in, capturing an ordinary moment that seems to linger longer than expected. kaela wears a loose pale blue trench coat with a slightly oversized silhouette, its fabric gently shifting in the evening breeze. beneath it, she wears a dark, understated outfit with a simple skirt, dark stockings, and black leather boots showing subtle signs of wear from walking through the rain. a deep burgundy scarf is loosely wrapped around her neck, providing a warm contrasting accent against the cool blue coat. her long blonde hair is slightly damp, with a few strands sticking naturally to her cheeks and forehead. her vivid crimson-red eyes gaze thoughtfully across the street toward the flower shop, her expression quiet and contemplative, as though she is remembering something or simply enjoying the peaceful scenery. she holds the transparent umbrella at a relaxed angle, with individual raindrops gathering across its curved surface and catching reflections from nearby streetlights. the surrounding street should feel as important as kaela herself. across the road, the flower shop's golden illumination spills onto the wet sidewalk, creating elongated reflections that blend with the cool blue and muted violet tones of the rainy environment. a few bicycles are parked beside the storefront, while another bicycle passes through the scene in the middle distance, its rider partially obscured by the rain. puddles collect along the pavement and reflect fragments of illuminated windows, traffic signals, shop signs, and passing headlights. overhead electrical cables, street lamps, balconies, rain-darkened brick walls, and softly glowing apartment windows contribute to the layered urban environment. a few distant pedestrians carrying umbrellas appear as subtle silhouettes, reinforcing the feeling of a real neighborhood rather than an empty cinematic set. capture the scene from a considerable distance using a wide cinematic street-level perspective, positioning kaela slightly off-center and allowing her to occupy only a modest portion of the composition. the viewer should feel like a distant observer witnessing a quiet moment from across the street. emphasize the relationship between the character, the flower shop, and the surrounding architecture rather than creating a conventional character portrait. use layered environmental depth, with foreground reflections, midground storefronts, and softly fading buildings in the background. the transparent umbrella should remain recognizable without dominating the frame. rain streaks, subtle atmospheric haze, and diffused lighting should soften the boundaries between foreground and background. combine impressionist oil painting, cinematic anime background illustration, analog street photography, and expressive loose brushwork. use visible painterly strokes to construct reflections, wet surfaces, illuminated windows, and distant architectural details, allowing some environmental elements to dissolve into soft patches of color. preserve delicate anime-inspired character features while integrating kaela naturally into the painterly surroundings. incorporate subtle 35mm film grain, gentle photographic softness, slight lens bloom around streetlights, and imperfect analog textures. use a restrained palette of pale blue, slate gray, muted indigo, dusty violet, burgundy, and warm amber. stronger warm highlights should remain concentrated around the flower shop and its reflections, contrasting with the cool rainy street. the overall mood should be peaceful, nostalgic, introspective, and slightly melancholic, evoking the feeling of an ordinary evening that becomes unexpectedly memorable. emphasize the quiet beauty of rain-soaked streets, warm storefront illumination, and fleeting reflections after sunset. the final artwork should resemble a cinematic still from a contemplative anime film interpreted through impressionist oil painting and nostalgic analog street photography, balancing expressive painterly textures with believable urban atmosphere. masterpiece, very aesthetic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148533792",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d819f07a-50ec-43c2-a5ad-e61931226acd/original=true/d819f07a-50ec-43c2-a5ad-e61931226acd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148533588",
+      "title": "Civitai prompt 148533588",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "japanese anime illustration, painting featuring bold and powerful brushwork, Rich, deep colors.\nThe sight of a female vampire’s body transforming into countless bats.\nA black, Gothic-style dress.\nMoonlight, withered trees, An orange sky.\nSpot color,\nhigh contrast, cel shading, Dynamic shading,\nfine grain noise effect style aesthetic, sacred geometry art, surrealism, oil painting strokes, moody atmospheric perspective, cinematic digital painting, traditional media, expressive impasto texture, dark romanticism, high-contrast chiaroscuro lighting, charcoal and pastel, mushyfunk",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148533588",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21cf1fa8-d02b-47e3-848e-729e66d46de3/original=true/21cf1fa8-d02b-47e3-848e-729e66d46de3.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 419279856539220,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208793+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d32114169e5f363e697d89406a4efbcfd5c128072edcdf5dcc146d216489398d",
+      "prompt_ar": "رسم توضيحي للرسوم المتحركة اليابانية، لوحة تتميز بفرشاة جريئة وقوية، وألوان غنية وعميقة.\nمشهد جسد أنثى مصاصة الدماء يتحول إلى عدد لا يحصى من الخفافيش.\nفستان أسود على الطراز القوطي.\nضوء القمر، الأشجار الذابلة، السماء البرتقالية.\nلون البقعة،\nالتباين العالي، تظليل سيل، تظليل ديناميكي،\nجمالية تأثير تأثير الضوضاء الحبيبية، فن الهندسة المقدسة، السريالية، ضربات الرسم الزيتي، منظور جوي متقلب، رسم رقمي سينمائي، الوسائط التقليدية، نسيج إمباستو معبر، الرومانسية المظلمة، إضاءة تشياروسكورو عالية التباين، الفحم والباستيل، موشيفونك",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148533588 image ai-image-prompts japanese anime illustration, painting featuring bold and powerful brushwork, rich, deep colors. the sight of a female vampire’s body transforming into countless bats. a black, gothic-style dress. moonlight, withered trees, an orange sky. spot color, high contrast, cel shading, dynamic shading, fine grain noise effect style aesthetic, sacred geometry art, surrealism, oil painting strokes, moody atmospheric perspective, cinematic digital painting, traditional media, expressive impasto texture, dark romanticism, high-contrast chiaroscuro lighting, charcoal and pastel, mushyfunk civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148533588",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21cf1fa8-d02b-47e3-848e-729e66d46de3/original=true/21cf1fa8-d02b-47e3-848e-729e66d46de3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148533579",
+      "title": "Civitai prompt 148533579",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A painterly anime illustration in a soft cel-shaded semi-realistic register. Drawn in clean cel-shaded anime line art with flat colour areas and simple shading, drawn rather than photographed.\nariasolari seated at a small marble table in a quiet café on a rainy afternoon. She has fair skin, shoulder-length auburn hair, and green eyes. She wears a charcoal turtleneck, a knee-length black skirt, and sheer black thigh-high stockings with a subtle back seam. Her legs are crossed at the knee and angled toward the camera, the stockings catching soft light so the texture of the sheer fabric and the line of her calves are clearly visible. One black heel rests on the floor, the other is slightly lifted.\nThe café has dark wood paneling, brass fixtures, and large windows streaked with rain. Other tables are empty. A half-finished espresso and an open book sit on the marble in front of her. Cool overcast light from the windows mixes with warm pendant lamps, creating gentle highlights along the curves of her stockings and soft shadows under the table. She looks down at her book with a relaxed expression, one hand holding the page. The camera is positioned low across the table at roughly shin height, so her crossed legs occupy the foreground while the rainy window and café interior stay visible behind her. No text, no watermark. Natural skin and fabric detail, shallow depth of field",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148533579",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9870e654-bd74-44cf-b392-f210b9978f36/original=true/9870e654-bd74-44cf-b392-f210b9978f36.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 89638936040712,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208815+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d390636d4e6ba196fe0a8616734088e0216e465292bb0a0bdccfaa282f568885",
+      "prompt_ar": "رسم توضيحي للرسوم المتحركة في سجل شبه واقعي ناعم مظلل. تم رسمها باستخدام فن خط الرسوم المتحركة المظلل النظيف مع مناطق ألوان مسطحة وتظليل بسيط، وتم رسمها بدلاً من تصويرها.\nأرياسولاري يجلس إلى طاولة رخامية صغيرة في مقهى هادئ بعد ظهر يوم ممطر. لديها بشرة فاتحة وشعر بني محمر يصل إلى الكتفين وعيون خضراء. إنها ترتدي سترة ذات ياقة عالية، وتنورة سوداء بطول الركبة، وجوارب سوداء شفافة تصل إلى الفخذ مع درز خلفي رقيق. ساقاها متقاطعتان عند الركبة ومتجهتان نحو الكاميرا، والجوارب تلتقط ضوءًا ناعمًا بحيث يكون نسيج القماش الشفاف وخط ساقيها مرئيين بوضوح. كعب أسود واحد يقع على الأرض، والآخر مرفوع قليلاً.\nيحتوي المقهى على ألواح خشبية داكنة وتركيبات نحاسية ونوافذ كبيرة مغطاة بالمطر. الجداول الأخرى فارغة. أمامها فنجان قهوة نصف مكتمل وكتاب مفتوح موضوعان على الرخام. يمتزج الضوء الملبد بالغيوم من النوافذ مع المصابيح المعلقة الدافئة، مما يخلق أضواء لطيفة على طول منحنيات جواربها وظلال ناعمة أسفل الطاولة. تنظر إلى كتابها بتعبير مريح، وتمسك بيدها الصفحة. تم وضع الكاميرا في مكان منخفض عبر الطاولة على ارتفاع قصبة الساق تقريبًا، بحيث تحتل ساقيها المتقاطعتين المقدمة بينما تظل النافذة الممطرة والمقهى الداخلي مرئيين خلفها. لا يوجد نص ولا علامة مائية. تفاصيل من الجلد والنسيج الطبيعي، وعمق مجال ضحل",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148533579 architecture ai-image-prompts a painterly anime illustration in a soft cel-shaded semi-realistic register. drawn in clean cel-shaded anime line art with flat colour areas and simple shading, drawn rather than photographed. ariasolari seated at a small marble table in a quiet café on a rainy afternoon. she has fair skin, shoulder-length auburn hair, and green eyes. she wears a charcoal turtleneck, a knee-length black skirt, and sheer black thigh-high stockings with a subtle back seam. her legs are crossed at the knee and angled toward the camera, the stockings catching soft light so the texture of the sheer fabric and the line of her calves are clearly visible. one black heel rests on the floor, the other is slightly lifted. the café has dark wood paneling, brass fixtures, and large windows streaked with rain. other tables are empty. a half-finished espresso and an open book sit on the marble in front of her. cool overcast light from the windows mixes with warm pendant lamps, creating gentle highlights along the curves of her stockings and soft shadows under the table. she looks down at her book with a relaxed expression, one hand holding the page. the camera is positioned low across the table at roughly shin height, so her crossed legs occupy the foreground while the rainy window and café interior stay visible behind her. no text, no watermark. natural skin and fabric detail, shallow depth of field civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148533579",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9870e654-bd74-44cf-b392-f210b9978f36/original=true/9870e654-bd74-44cf-b392-f210b9978f36.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148533569",
+      "title": "Civitai prompt 148533569",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality,score_9, score_8_up, score_7_up, aged up, A deeply melancholic anime illustration of a young adult maid with disheveled, vibrant pink hair, seated against a rough, grime-stained alley wall. She possesses a visibly depressed expression, with glistening tears tracking down her cheeks, conveying profound sorrow. Her traditional maid uniform is worn and slightly rumpled, reflecting her current state of distress. In her hands, she clutches a heavily crushed, faded blue party hat. A tattered and ripped banner displaying the text \"One obsession MOSS SFT\" hangs loosely across the dilapidated building facade. The scene is bathed in low-key cinematic lighting, utilizing sharp shadows and subtle rim lighting to emphasize the character's isolation. The atmosphere is gritty and heavy, capturing the desolate mood of a forgotten urban corner. Highly detailed, intricate linework, dramatic composition, photorealistic anime rendering",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148533569",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e6ddebc-8803-4773-a770-84abcf52bcc9/original=true/0e6ddebc-8803-4773-a770-84abcf52bcc9.jpeg",
+      "model": "OneObsession_MOSS_SFT6_v1-INT8",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1920,
+      "seed": 1006864596617949,
+      "negative_prompt": "deformed hands, extra fingers, bad hands, mutated fingers，extra toes, lowres, (bad), text, error, fewer, extra, missing, worst quality, jpeg artifacts, low quality, watermark, unfinished, displeasing, oldest, early, signature, artistic error, username, bad feet, scan, [abstract], english text, shiny hair",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208827+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "01a4a7bf3a231aa367eff5e49290d423ec84ddd70c3414caf258561a24a5b635",
+      "prompt_ar": "تحفة فنية، أفضل جودة، Score_9، Score_8_up، Score_7_up، كبار السن، رسم توضيحي من الرسوم المتحركة حزين للغاية لخادمة شابة بالغة ذات شعر وردي أشعث ونابض بالحياة، تجلس أمام جدار زقاق خشن ملطخ بالأوساخ. إنها تمتلك تعبيرًا مكتئبًا بشكل واضح، حيث تتدفق الدموع المتلألئة على خديها، مما ينقل حزنًا عميقًا. زي الخادمة التقليدي الخاص بها مهترئ ومتجعد قليلاً، مما يعكس حالة الضيق التي تعاني منها حاليًا. وهي تمسك في يديها بقبعة الحفلة الزرقاء الباهتة والمحطمة بشدة. لافتة ممزقة وممزقة تعرض النص \"One obsession MOSS SFT\" معلقة بشكل غير محكم عبر واجهة المبنى المتهالكة. المشهد مغمور بإضاءة سينمائية منخفضة المستوى، باستخدام الظلال الحادة وإضاءة الحافة الدقيقة للتأكيد على عزلة الشخصية. الجو شجاع وثقيل، ويجسد المزاج المقفر لزاوية حضرية منسية. أعمال خطية معقدة ومفصلة للغاية وتركيبة درامية وعرض رسوم متحركة واقعي",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148533569 architecture ai-image-prompts masterpiece, best quality,score_9, score_8_up, score_7_up, aged up, a deeply melancholic anime illustration of a young adult maid with disheveled, vibrant pink hair, seated against a rough, grime-stained alley wall. she possesses a visibly depressed expression, with glistening tears tracking down her cheeks, conveying profound sorrow. her traditional maid uniform is worn and slightly rumpled, reflecting her current state of distress. in her hands, she clutches a heavily crushed, faded blue party hat. a tattered and ripped banner displaying the text \"one obsession moss sft\" hangs loosely across the dilapidated building facade. the scene is bathed in low-key cinematic lighting, utilizing sharp shadows and subtle rim lighting to emphasize the character's isolation. the atmosphere is gritty and heavy, capturing the desolate mood of a forgotten urban corner. highly detailed, intricate linework, dramatic composition, photorealistic anime rendering civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148533569",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e6ddebc-8803-4773-a770-84abcf52bcc9/original=true/0e6ddebc-8803-4773-a770-84abcf52bcc9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-147955719",
+      "title": "Civitai prompt 147955719",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_9, score_8, score_7, highres, absurdres, ds_veritcal, dualsplit, face split portrait, 2girls, two contrasting identities forming one perfectly aligned face.\nleft half: 1girl, a sinister young woman with messy jet-black hair, ghostly pale skin, and an intense glowing crimson-red eye with a predatory gaze. Her expression is dangerously calm, with a faint unsettling smile, dark shadows beneath her eye, and delicate fingers with black-painted nails touching her cheek. Glowing crimson markings resembling bloody tears run beneath her eye. Her side depicts a ruined city at midnight, illuminated by violent red neon lights, surrounded by drifting smoke, shattered glass, burning red embers, and ominous shadows. Strictly black and crimson-red color palette, madness, obsession, danger, and psychological horror.\nright half: 1girl, a beautiful stoic warrior with flowing silver-white hair, cool porcelain skin, and a brilliant icy-blue eye glowing with unwavering determination. Her expression is composed, fearless, and emotionally controlled, with a sharp focused gaze and a subtle confident smile. Delicate crystalline markings shimmer beneath her eye, and she wears elegant blue-and-silver armor with intricate frost patterns. Her side depicts a frozen kingdom beneath a brilliant blue moon, surrounded by enormous ice crystals, drifting snowflakes, shimmering blue flames, and ancient crystalline towers. Strictly sapphire-blue, cyan, and silver color palette, discipline, courage, tranquility, and absolute self-control.\nBoth halves share one continuous frontal face, perfectly aligned eyes, matching facial proportions, and a sharp vertical fracture separating crimson energy from icy-blue light. Extreme contrast between sinister madness and stoic determination, burning red and frozen blue, chaos and order.\nDark fantasy anime illustration, intense cinematic lighting, expressive glowing eyes, intricate facial details, dramatic red-versus-blue contrast.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/147955719",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a964274a-403d-47f3-b1f4-792931a5cd28/original=true/a964274a-403d-47f3-b1f4-792931a5cd28.jpeg",
+      "model": "nautilusGrimoire_v10",
+      "model_version_ids": [
+        3369061,
+        3449209
+      ],
+      "width": 3200,
+      "height": 5120,
+      "seed": 42,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, score_4, blurry, deformed, extra limbs, bad, artist name, bad hands, missing fingers, extra fingers, bad-artist, blurry, ugly, mosaic censoring, censored, watermark",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208843+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "296a0ec42d772e36ca8493d799055c3cfbabf9d37d3b92b0ca4fe86e6c312ecc",
+      "prompt_ar": "تحفة فنية، أفضل جودة، Score_9، Score_8، Score_7، Highres، absurdres، ds_veritcal، Dualsplit، صورة منقسمة للوجه، فتاتان، هويتان متناقضتان تشكلان وجهًا واحدًا متناسقًا تمامًا.\nالنصف الأيسر: فتاة واحدة، شابة شريرة ذات شعر أسود نفاث فوضوي، وبشرة شاحبة شبحية، وعين حمراء قرمزية متوهجة للغاية مع نظرة مفترسة. تعبيرها هادئ بشكل خطير، مع ابتسامة باهتة مزعجة، وظلال داكنة تحت عينها، وأصابع رقيقة بأظافر مطلية باللون الأسود تلامس خدها. علامات قرمزية متوهجة تشبه الدموع الدموية تجري تحت عينها. يصور جانبها مدينة مدمرة في منتصف الليل، مضاءة بأضواء النيون الحمراء العنيفة، ومحاطة بالدخان المنجرف، والزجاج المكسور، والجمر الأحمر المحترق، والظلال المشؤومة. لوحة ألوان سوداء وحمراء قرمزية بدقة، جنون وهوس وخطر ورعب نفسي.\nالنصف الأيمن: فتاة واحدة، محاربة رواقية جميلة ذات شعر أبيض فضي متدفق، وبشرة خزفية باردة، وعين زرقاء ثلجية رائعة متوهجة بإصرار لا يتزعزع. تعبيرها هادئ وشجاع ومتحكم عاطفيًا، مع نظرة حادة مركزة وابتسامة واثقة خفية. تتلألأ العلامات البلورية الرقيقة تحت عينها، وترتدي درعًا أنيقًا باللونين الأزرق والفضي مع أنماط صقيع معقدة. يصور جانبها مملكة متجمدة تحت قمر أزرق لامع، محاطة ببلورات ثلجية هائلة، وندفات ثلج منجرفة، ولهب أزرق متلألئ، وأبراج بلورية قديمة. لوحة ألوان صارمة هي الأزرق الياقوتي والسماوي والفضي، والانضباط والشجاعة والهدوء والتحكم المطلق في النفس.\nيشترك كلا النصفين في وجه أمامي متواصل واحد، وعينان متوازيتان تمامًا، ومطابقة لنسب الوجه، وكسر عمودي حاد يفصل الطاقة القرمزية عن الضوء الأزرق الجليدي. التناقض الشديد بين الجنون الشرير والتصميم الرواقي، والأحمر المحترق والأزرق المتجمد، والفوضى والنظام.\nرسم توضيحي للأنيمي الخيالي الداكن، وإضاءة سينمائية مكثفة، وعيون متوهجة معبرة، وتفاصيل الوجه المعقدة، والتباين الدرامي بين الأحمر والأزرق.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 147955719 image ai-image-prompts masterpiece, best quality, score_9, score_8, score_7, highres, absurdres, ds_veritcal, dualsplit, face split portrait, 2girls, two contrasting identities forming one perfectly aligned face. left half: 1girl, a sinister young woman with messy jet-black hair, ghostly pale skin, and an intense glowing crimson-red eye with a predatory gaze. her expression is dangerously calm, with a faint unsettling smile, dark shadows beneath her eye, and delicate fingers with black-painted nails touching her cheek. glowing crimson markings resembling bloody tears run beneath her eye. her side depicts a ruined city at midnight, illuminated by violent red neon lights, surrounded by drifting smoke, shattered glass, burning red embers, and ominous shadows. strictly black and crimson-red color palette, madness, obsession, danger, and psychological horror. right half: 1girl, a beautiful stoic warrior with flowing silver-white hair, cool porcelain skin, and a brilliant icy-blue eye glowing with unwavering determination. her expression is composed, fearless, and emotionally controlled, with a sharp focused gaze and a subtle confident smile. delicate crystalline markings shimmer beneath her eye, and she wears elegant blue-and-silver armor with intricate frost patterns. her side depicts a frozen kingdom beneath a brilliant blue moon, surrounded by enormous ice crystals, drifting snowflakes, shimmering blue flames, and ancient crystalline towers. strictly sapphire-blue, cyan, and silver color palette, discipline, courage, tranquility, and absolute self-control. both halves share one continuous frontal face, perfectly aligned eyes, matching facial proportions, and a sharp vertical fracture separating crimson energy from icy-blue light. extreme contrast between sinister madness and stoic determination, burning red and frozen blue, chaos and order. dark fantasy anime illustration, intense cinematic lighting, expressive glowing eyes, intricate facial details, dramatic red-versus-blue contrast. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/147955719",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a964274a-403d-47f3-b1f4-792931a5cd28/original=true/a964274a-403d-47f3-b1f4-792931a5cd28.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535475",
+      "title": "Civitai prompt 148535475",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, anime artwork, 2d style, cel-shading, bold lines, strong contrast, formidable (azur lane), 1girl, solo, very long silver hair, high twintails, glistening purple eyes, gentle shy smile, rosy blushing cheeks, full body, sitting gracefully on a plush vintage chair, elegant posture, wearing detailed luxurious white wedding dress, complex layers of ruffled lace, bridal veil, long flowing dress trailing, soft warm twilight, standing inside a grand historic cathedral, beautiful stained glass windows with glowing amber sunset light reflections, cinematic composition, illustration, high quality anime graphics",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535475",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9cc6753b-0f25-4438-8305-af3aefea7eed/original=true/9cc6753b-0f25-4438-8305-af3aefea7eed.jpeg",
+      "model_version_ids": [
+        1190596
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2024434450,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, black background, dark space, shadow on face, blurry face, out of focus face, melted face, faceless, wide shot, deformed eyes, expressionless, neutral expression, angry, sad, nsfw, lewd, suggestive, erotic, pure white background, overexposure, lens flare blinding, monochromatic background, low contrast, washed out colors, bare skin, nudity, stiff posture, robotic posture, maid uniform",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208851+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "73e478b35c1190482fae171bab8b5eaa3bfee4ea7fdb4e7cdbfc73238a72f6c0",
+      "prompt_ar": "تحفة فنية، عمل فني أنمي، نمط ثنائي الأبعاد، تظليل سيلاني، خطوط جريئة، تباين قوي، هائل (أزور لاين)، فتاة واحدة، منفردة، شعر فضي طويل جدًا، ذيل مزدوج عالٍ، عيون أرجوانية لامعة، ابتسامة خجولة لطيفة، خدود وردية محمرّة، جسم كامل، الجلوس برشاقة على كرسي عتيق فخم، وضعية أنيقة، ترتدي فستان زفاف أبيض فاخر مفصل، طبقات معقدة من الدانتيل المكشكش، طرحة زفاف، فستان طويل متدفق، شفق دافئ ناعم، واقفة بالداخل كاتدرائية تاريخية كبيرة، نوافذ زجاجية ملونة جميلة مع انعكاسات ضوء غروب الشمس باللون الكهرماني المتوهج، تكوين سينمائي، رسم توضيحي، رسومات أنمي عالية الجودة",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535475 image ai-image-prompts masterpiece, anime artwork, 2d style, cel-shading, bold lines, strong contrast, formidable (azur lane), 1girl, solo, very long silver hair, high twintails, glistening purple eyes, gentle shy smile, rosy blushing cheeks, full body, sitting gracefully on a plush vintage chair, elegant posture, wearing detailed luxurious white wedding dress, complex layers of ruffled lace, bridal veil, long flowing dress trailing, soft warm twilight, standing inside a grand historic cathedral, beautiful stained glass windows with glowing amber sunset light reflections, cinematic composition, illustration, high quality anime graphics civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535475",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9cc6753b-0f25-4438-8305-af3aefea7eed/original=true/9cc6753b-0f25-4438-8305-af3aefea7eed.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535423",
+      "title": "Civitai prompt 148535423",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "stylized illustration, brush strokes, 3l3ganc3, abstract visuals, surrealist element, The image is a close-up, portrait-style depiction of a woman with elaborate face paint, reminiscent of Dia de los Muertos or sugar skull makeup. She is wearing a dark, hooded garment with distressed edges and intricate stitching. The composition is tight, focusing on her face and the details of her makeup and attire.\nThe woman has striking teal-green eyes that stand out against the white and black face paint. Her eyebrows are dark and sharply defined, extending outwards. The face paint includes a black, ornate design above her forehead, resembling a stylized floral or tribal motif, accented with small red splatters. Black circles surround her eyes, with textured details suggesting a rough, cracked surface or a gritty substance. Her nose is painted black, and her cheeks are adorned with black lines that mimic stitches, with small red droplets or \"blood\" seeping from some of them. Her lips are painted a deep, glossy red, and they also feature similar red, dripping accents. The white base of the makeup on her face appears to have a subtle texture, with some areas showing a slightly rough or cracked finish, particularly around the stitched lines.\nHer hair is dark brown and appears to be long, with some strands falling forward and framing her face. The hooded garment is a prominent element, made of a dark, textured fabric, possibly burlap or a similar coarse material. The hood has frayed, light-colored stitching along its edge, giving it a rustic and somewhat unsettling appearance. The inside of the hood also features a lighter colored lining and decorative stitching that resembles flowers or leaves in a light green or gold hue.\nThe lighting is dramatic, with a warm, orange-gold light illuminating the right side of her face and casting shadows on the left. This contrast highlights the contours of her face and the texture of the makeup and fabric. In the background, soft, out-of-focus bokeh lights in shades of orange and blue create a dreamy and atmospheric effect. The overall color palette is a mix of dark tones from her hair and clothing, contrasted with the stark white and black of the face paint, the vibrant teal of her eyes, and the deep red of her lips and blood accents. The overall mood of the image is mysterious, alluring, and somewhat macabre.\n <lora:training_1684046-20260726200621318:0.5> <lora:RiftGate:0.5> <lora:training_191944-20260802121816428:0.5> <lora:training_12100319-20261002235453934-1nna:1>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535423",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c23ae74-38e8-4391-a441-65f3273f34df/original=true/4c23ae74-38e8-4391-a441-65f3273f34df.jpeg",
+      "model": "krea2Turbo_v10",
+      "model_version_ids": [
+        3072332,
+        3165590,
+        3168649,
+        3209626,
+        3378645
+      ],
+      "width": 1096,
+      "height": 1496,
+      "seed": 694500023,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208871+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a873f4e0c1f05f246d36811d4cb321cbe37304365b54097272e7b7aa94277c6c",
+      "prompt_ar": "رسم توضيحي منمق، ضربات فرشاة، 3l3ganc3، صور مجردة، عنصر سريالي، الصورة عبارة عن تصوير مقرّب على طراز بورتريه لامرأة ذات طلاء وجه متقن، يذكرنا بـ Dia de los Muertos أو مكياج جمجمة السكر. إنها ترتدي ثوبًا داكنًا مقنعًا بحواف متعثرة وخياطة معقدة. التركيبة ضيقة تركز على وجهها وتفاصيل مكياجها وملابسها.\nتتمتع المرأة بعيون خضراء مخضرة مذهلة تبرز أمام طلاء الوجه الأبيض والأسود. حواجبها داكنة ومحددة بشكل حاد وتمتد إلى الخارج. يشتمل طلاء الوجه على تصميم أسود مزخرف فوق جبهتها، يشبه زخارف نباتية أو قبلية منمقة، ومزينة ببقع حمراء صغيرة. تحيط الدوائر السوداء بعينيها، مع تفاصيل مزخرفة تشير إلى سطح خشن أو متشقق أو مادة رملية. أنفها مطلي باللون الأسود، وخدودها مزينة بخطوط سوداء تحاكي الغرز، تتسرب من بعضها قطرات حمراء صغيرة أو \"دماء\". تم طلاء شفتيها باللون الأحمر الداكن اللامع، وتتميز أيضًا بلمسات حمراء متشابهة. يبدو أن قاعدة المكياج البيضاء على وجهها ذات ملمس رقيق، حيث تظهر بعض المناطق لمسة نهائية خشنة أو متشققة قليلاً، خاصة حول الخطوط المخيطة.\nشعرها بني غامق ويبدو أنه طويل، مع تساقط بعض الخصلات للأمام وتحيط بوجهها. الثوب ذو القلنسوة هو عنصر بارز، مصنوع من قماش داكن اللون، وربما من الخيش أو مادة خشنة مماثلة. يتميز غطاء المحرك بخياطة مهترئة ذات ألوان فاتحة على طول حافته، مما يمنحه مظهرًا ريفيًا ومزعجًا إلى حد ما. يتميز الجزء الداخلي للغطاء أيضًا ببطانة ذات ألوان فاتحة وخياطة زخرفية تشبه الزهور أو أوراق الشجر باللون الأخضر الفاتح أو الذهبي.\nالإضاءة مثيرة، مع ضوء برتقالي ذهبي دافئ يضيء الجانب الأيمن من وجهها ويلقي الظلال على الجانب الأيسر. يسلط هذا التباين الضوء على ملامح وجهها وملمس الماكياج والقماش. في الخلفية، تخلق أضواء البوكيه الناعمة خارج نطاق التركيز بظلال اللون البرتقالي والأزرق تأثيرًا حالمًا وجويًا. لوحة الألوان الشاملة عبارة عن مزيج من الألوان الداكنة من شعرها وملابسها، تتناقض مع اللون الأبيض والأسود الصارخ لطلاء الوجه، واللون الأزرق المخضر النابض بالحياة لعينيها، والأحمر العميق لشفتيها ولهجات الدم. المزاج العام للصورة غامض ومغري ومروع إلى حد ما.\n <lora:training_1684046-20260726200621318:0.5> <lora:RiftGate:0.5> <lora:training_191944-20260802121816428:0.5> <لورا:training_12100319-20261002235453934-1nna:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535423 image ai-image-prompts stylized illustration, brush strokes, 3l3ganc3, abstract visuals, surrealist element, the image is a close-up, portrait-style depiction of a woman with elaborate face paint, reminiscent of dia de los muertos or sugar skull makeup. she is wearing a dark, hooded garment with distressed edges and intricate stitching. the composition is tight, focusing on her face and the details of her makeup and attire. the woman has striking teal-green eyes that stand out against the white and black face paint. her eyebrows are dark and sharply defined, extending outwards. the face paint includes a black, ornate design above her forehead, resembling a stylized floral or tribal motif, accented with small red splatters. black circles surround her eyes, with textured details suggesting a rough, cracked surface or a gritty substance. her nose is painted black, and her cheeks are adorned with black lines that mimic stitches, with small red droplets or \"blood\" seeping from some of them. her lips are painted a deep, glossy red, and they also feature similar red, dripping accents. the white base of the makeup on her face appears to have a subtle texture, with some areas showing a slightly rough or cracked finish, particularly around the stitched lines. her hair is dark brown and appears to be long, with some strands falling forward and framing her face. the hooded garment is a prominent element, made of a dark, textured fabric, possibly burlap or a similar coarse material. the hood has frayed, light-colored stitching along its edge, giving it a rustic and somewhat unsettling appearance. the inside of the hood also features a lighter colored lining and decorative stitching that resembles flowers or leaves in a light green or gold hue. the lighting is dramatic, with a warm, orange-gold light illuminating the right side of her face and casting shadows on the left. this contrast highlights the contours of her face and the texture of the makeup and fabric. in the background, soft, out-of-focus bokeh lights in shades of orange and blue create a dreamy and atmospheric effect. the overall color palette is a mix of dark tones from her hair and clothing, contrasted with the stark white and black of the face paint, the vibrant teal of her eyes, and the deep red of her lips and blood accents. the overall mood of the image is mysterious, alluring, and somewhat macabre. <lora:training_1684046-20260726200621318:0.5> <lora:riftgate:0.5> <lora:training_191944-20260802121816428:0.5> <lora:training_12100319-20261002235453934-1nna:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535423",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c23ae74-38e8-4391-a441-65f3273f34df/original=true/4c23ae74-38e8-4391-a441-65f3273f34df.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148322174",
+      "title": "Civitai prompt 148322174",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An over-the-shoulder shot from just behind a slender elven woman in her mid-twenties crouched barefoot on the head of a weathered stone gargoyle jutting from the spire of a towering elven cathedral at night, aiming a compact silver repeating crossbow straight down at orc raiders scaling the sheer carved wall on grappling ropes far below, the glittering elven city spread out beneath them; the curve of her bare shoulder, her long loose wind-tossed raven-black hair and the elegant tip of one pointed ear fill the near foreground, her face in partial profile showing fragile, cold-eyed focus; she wears a fitted bustier of black leather with fine silver buckles over a short skirt of sheer smoke-grey chiffon fluttering around her slim thighs, a thin silver chain belt with tiny quarrel cases, her slender bare legs folded in the crouch and her bare toes gripping the rain-slick stone; ornate pinnacles, flying buttresses, rows of gargoyles and stained-glass windows glowing from within surround her, the city's winding streets and bridges glittering with warm lights far below; a thin crescent moon and cool drizzle above, while the warm amber glow of the city rises from below, raindrops catching both lights and blooming softly, a vertiginous, dreamlike, solitary mood of quiet solitude above the world; photorealistic fantasy photography with vast atmospheric depth; shallow depth of field with her blurred shoulder and hair in the foreground and city lights dissolving into a sea of warm bokeh, grainy film texture in a black, smoke grey, city amber and moon silver palette.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148322174",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cdf4523-a98d-4a82-96cb-eab97b6a1bc4/original=true/2cdf4523-a98d-4a82-96cb-eab97b6a1bc4.jpeg",
+      "model": "realismByStableYogi_v25GGUF",
+      "model_version_ids": [
+        3068874,
+        3116962,
+        3203435,
+        3210156
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 3516922351,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208886+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "49c3ff49b7a388d28ef32ae8401e39dad2917bc982e4269c49d08905138d4c6e",
+      "prompt_ar": "لقطة من فوق الكتف من خلف امرأة قزم نحيلة في منتصف العشرينيات من عمرها، جاثمة حافية القدمين على رأس جرغول حجري متعرج يبرز من برج كاتدرائية الجان الشاهقة في الليل، موجهة قوس ونشاب فضي مدمج مكرر مباشرة إلى أسفل عند غزاة الأورك الذين يتسلقون الجدار المنحوت الشفاف على حبال تصارع أسفل بكثير، وتنتشر مدينة الجان المتلألئة تحتهم؛ منحنى كتفها العاري، وشعرها الأسود الغامق الطويل الذي تقذفه الرياح والطرف الأنيق لأذن واحدة مدببة يملأ المقدمة القريبة، ووجهها في صورة جانبية جزئية يُظهر تركيزًا هشًا بارد العينين؛ ترتدي صدرية ضيقة من الجلد الأسود مع أبازيم فضية ناعمة فوق تنورة قصيرة من الشيفون الشفاف باللون الرمادي الدخاني ترفرف حول فخذيها النحيفين، وحزام سلسلة فضي رفيع مع حقائب صغيرة للشجار، وساقيها العاريتين النحيلتين مطويتين في القرفصاء وأصابع قدميها العارية تمسك بالحجر المطري الأملس؛ القمم المزخرفة، والدعامات الطائرة، وصفوف الجرغول والنوافذ الزجاجية الملونة المتوهجة من الداخل تحيط بها، وشوارع المدينة المتعرجة والجسور تتلألأ بأضواء دافئة في الأسفل؛ هلال رفيع ورذاذ بارد من الأعلى، بينما يتصاعد وهج المدينة الكهرماني الدافئ من الأسفل، وتلتقط قطرات المطر الأضواء وتتفتح بهدوء، وهو مزاج انفرادي يشبه الحلم من العزلة الهادئة فوق العالم؛ التصوير الفوتوغرافي الخيالي الواقعي بعمق جوي واسع؛ عمق مجال ضحل مع كتفها وشعرها غير الواضحين في المقدمة وتذوب أضواء المدينة في بحر من البوكيه الدافئ، وملمس الفيلم المحبب باللون الأسود والرمادي الدخاني وعنبر المدينة ولوحة فضية القمر.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:48Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148322174 image ai-image-prompts an over-the-shoulder shot from just behind a slender elven woman in her mid-twenties crouched barefoot on the head of a weathered stone gargoyle jutting from the spire of a towering elven cathedral at night, aiming a compact silver repeating crossbow straight down at orc raiders scaling the sheer carved wall on grappling ropes far below, the glittering elven city spread out beneath them; the curve of her bare shoulder, her long loose wind-tossed raven-black hair and the elegant tip of one pointed ear fill the near foreground, her face in partial profile showing fragile, cold-eyed focus; she wears a fitted bustier of black leather with fine silver buckles over a short skirt of sheer smoke-grey chiffon fluttering around her slim thighs, a thin silver chain belt with tiny quarrel cases, her slender bare legs folded in the crouch and her bare toes gripping the rain-slick stone; ornate pinnacles, flying buttresses, rows of gargoyles and stained-glass windows glowing from within surround her, the city's winding streets and bridges glittering with warm lights far below; a thin crescent moon and cool drizzle above, while the warm amber glow of the city rises from below, raindrops catching both lights and blooming softly, a vertiginous, dreamlike, solitary mood of quiet solitude above the world; photorealistic fantasy photography with vast atmospheric depth; shallow depth of field with her blurred shoulder and hair in the foreground and city lights dissolving into a sea of warm bokeh, grainy film texture in a black, smoke grey, city amber and moon silver palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148322174",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2cdf4523-a98d-4a82-96cb-eab97b6a1bc4/original=true/2cdf4523-a98d-4a82-96cb-eab97b6a1bc4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148322172",
+      "title": "Civitai prompt 148322172",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A rear medium close-up of a slender elven woman in her mid-twenties standing barefoot in tall dew-soaked grass at the edge of a reed-fringed pond on a warm summer night, caught mid-turn as she looks back over her bare shoulder toward the viewer with a shy, fragile, half-parted smile, one hand lifted with a single glowing firefly resting on her fingertip; her long loose honey-brown curls tumble down her back, long pointed ears catching a faint green glow; she wears a fitted strapless bodice of deep moss-green crushed velvet laced with thin ribbon down the back, leaving her shoulders and upper back bare, over a long full skirt of layered smoky tulle that drifts around her bare ankles in the wet grass; hundreds of fireflies float through the meadow and over the black glassy water, their reflections doubled in the pond, with willows and a distant tree line silhouetted against a deep navy sky; soft cool moonlight outlines her shoulders and hair in silver while the warm yellow-green pinpoints of firefly light scatter soft glows across her skin and the velvet; an enchanted, tender, dreamlike mood of quiet solitude; photorealistic fantasy photography with layered atmospheric depth; very shallow depth of field with out-of-focus fireflies in the foreground swelling into large glowing bokeh orbs, gentle bloom and grainy film texture in a midnight navy, moss green and firefly gold palette.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148322172",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d19a456c-a987-4b66-84de-5c38c48da0bb/original=true/d19a456c-a987-4b66-84de-5c38c48da0bb.jpeg",
+      "model": "kreamania_variant6",
+      "model_version_ids": [
+        3068874,
+        3116962,
+        3181498,
+        3203435
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 2545978796,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208899+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "777fabf5a128128291c47d66e67c9d844f6fd5490cdc3bc1b6755bd3be1e647c",
+      "prompt_ar": "لقطة مقربة متوسطة لامرأة جنية نحيلة في منتصف العشرينيات من عمرها تقف حافية القدمين في عشب طويل مبلّل بالندى على حافة بركة مليئة بالقصب في ليلة صيفية دافئة، تم التقاطها في منتصف المنعطف وهي تنظر إلى الوراء فوق كتفها العاري باتجاه المشاهد بابتسامة خجولة وهشة نصف مجزأة، وإحدى يديها مرفوعة مع يراعة متوهجة واحدة ترتكز على طرف إصبعها؛ تتدلى تجعيدات شعرها الطويلة ذات اللون البني العسلي على ظهرها، وأذنيها الطويلتين المدببتين تلتقطان وهجًا أخضر باهتًا؛ ترتدي صدًا مناسبًا بدون حمالات من المخمل المطحون باللون الأخضر الطحلبي العميق ومربوطًا بشريط رفيع أسفل الظهر، تاركة كتفيها وأعلى ظهرها عاريين، فوق تنورة طويلة كاملة من طبقات التول الدخاني التي تنجرف حول كاحليها العاريتين في العشب الرطب؛ مئات من اليراعات تطفو عبر المرج وفوق المياه الزجاجية السوداء، وتضاعفت انعكاساتها في البركة، مع ظل شجرة الصفصاف وخط الشجرة البعيدة في مواجهة سماء بحرية عميقة؛ يحدد ضوء القمر الهادئ والناعم كتفيها وشعرها باللون الفضي بينما تنثر النقاط الصفراء والخضراء الدافئة لضوء اليراع توهجًا ناعمًا على بشرتها والمخمل؛ مزاج مسحور ورقيق يشبه الحلم من العزلة الهادئة؛ تصوير خيالي واقعي بعمق جوي متعدد الطبقات؛ عمق مجال ضحل للغاية مع يراعات خارج نطاق التركيز في المقدمة تتضخم إلى أجرام سماوية كبيرة متوهجة، وزهرة لطيفة وملمس فيلم محبب في لوحة بحرية منتصف الليل، ولوحة خضراء طحالب وذهبية اليراع.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148322172 image ai-image-prompts a rear medium close-up of a slender elven woman in her mid-twenties standing barefoot in tall dew-soaked grass at the edge of a reed-fringed pond on a warm summer night, caught mid-turn as she looks back over her bare shoulder toward the viewer with a shy, fragile, half-parted smile, one hand lifted with a single glowing firefly resting on her fingertip; her long loose honey-brown curls tumble down her back, long pointed ears catching a faint green glow; she wears a fitted strapless bodice of deep moss-green crushed velvet laced with thin ribbon down the back, leaving her shoulders and upper back bare, over a long full skirt of layered smoky tulle that drifts around her bare ankles in the wet grass; hundreds of fireflies float through the meadow and over the black glassy water, their reflections doubled in the pond, with willows and a distant tree line silhouetted against a deep navy sky; soft cool moonlight outlines her shoulders and hair in silver while the warm yellow-green pinpoints of firefly light scatter soft glows across her skin and the velvet; an enchanted, tender, dreamlike mood of quiet solitude; photorealistic fantasy photography with layered atmospheric depth; very shallow depth of field with out-of-focus fireflies in the foreground swelling into large glowing bokeh orbs, gentle bloom and grainy film texture in a midnight navy, moss green and firefly gold palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148322172",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d19a456c-a987-4b66-84de-5c38c48da0bb/original=true/d19a456c-a987-4b66-84de-5c38c48da0bb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535404",
+      "title": "Civitai prompt 148535404",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "score_9, score_8, score_7, (extreme clash of two distinct focal realities:1.4),\n[FOCUS 1 — centered girl]: (full-body shot of a centered magical girl faceless silhouette:1.4), authentic hyper-detailed graphite pencil \nsketch, cross-hatching, holding a solid heart ornament blasting intense light, wearing a torn dark emerald and burgundy silk ballgown dress with gold ribbons.\n[FOCUS 2 — framing ring]: (massive, clean perfect circular portal ring sharply enclosing the girl:1.4), (the material of the ring is completely transparent glass, revealing a hidden inner layer of glowing ethereal threads, pulsing light, and cascading waves of pure radiant natural light running through its core:1.3), hyper-rendered hardware, pulsing color.\n[Background]: chaotic glowing storm, cascading splatters, crashing waves of translucent, high-contrast studio backdrop lighting, masterpiece.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535404",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef06f25c-3079-4db8-9884-af4ad21202fc/original=true/ef06f25c-3079-4db8-9884-af4ad21202fc.jpeg",
+      "model_version_ids": [
+        128078,
+        686495
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1955756256,
+      "negative_prompt": "nude, breast, nipples, genitals, additional limbs",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208912+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "760d5e446fd8e47f438caadde4992f09350ec9e043cbec4aa2fa37d47ef7ecd0",
+      "prompt_ar": "Score_9، Score_8، Score_7، (الصراع الشديد بين حقيقتين بؤريتين متميزتين: 1.4)،\n[FOCUS 1 - فتاة في المنتصف]: (لقطة لكامل الجسم لفتاة سحرية في المنتصف صورة ظلية مجهولة الهوية: 1.4)، قلم جرافيت أصلي مفصل للغاية \nرسم تخطيطي، متقاطع، يحمل زخرفة على شكل قلب صلب يشع ضوءًا شديدًا، ويرتدي فستانًا من الحرير باللونين الزمردي الداكن والبورجوندي مع أشرطة ذهبية.\n[التركيز 2 - حلقة تأطير]: (حلقة بوابة دائرية مثالية ضخمة ونظيفة تحيط بالفتاة بحدة: 1.4)، (مادة الحلقة عبارة عن زجاج شفاف تمامًا، يكشف عن طبقة داخلية مخفية من الخيوط الأثيرية المتوهجة، والضوء النابض، والموجات المتتالية من الضوء الطبيعي النقي المشع الذي يمر عبر قلبها: 1.3)، وأجهزة شديدة العرض، ولون نابض.\n[الخلفية]: عاصفة متوهجة فوضوية، تناثرات متتالية، أمواج متلاطمة من إضاءة خلفية الاستوديو الشفافة عالية التباين، تحفة فنية.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535404 image ai-image-prompts score_9, score_8, score_7, (extreme clash of two distinct focal realities:1.4), [focus 1 — centered girl]: (full-body shot of a centered magical girl faceless silhouette:1.4), authentic hyper-detailed graphite pencil sketch, cross-hatching, holding a solid heart ornament blasting intense light, wearing a torn dark emerald and burgundy silk ballgown dress with gold ribbons. [focus 2 — framing ring]: (massive, clean perfect circular portal ring sharply enclosing the girl:1.4), (the material of the ring is completely transparent glass, revealing a hidden inner layer of glowing ethereal threads, pulsing light, and cascading waves of pure radiant natural light running through its core:1.3), hyper-rendered hardware, pulsing color. [background]: chaotic glowing storm, cascading splatters, crashing waves of translucent, high-contrast studio backdrop lighting, masterpiece. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535404",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef06f25c-3079-4db8-9884-af4ad21202fc/original=true/ef06f25c-3079-4db8-9884-af4ad21202fc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535324",
+      "title": "Civitai prompt 148535324",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A young woman with long, wavy brown hair stands on a sun-dappled sidewalk beside a concrete wall covered in dense green foliage, wearing a form-fitting, vibrant fuchsia pink long-sleeved mini dress that hugs her figure and ends just above the knees, paired with tall, tan suede cowboy boots; she holds a large, structured light blue tote bag in her left hand while her right arm is raised, fingers gently touching the collarbone area of her shoulder, head tilted slightly upward with eyes closed or gazing away from the camera, lips parted slightly, conveying a contemplative or seductive mood; the scene is captured from a low-angle perspective that emphasizes her posture and the contrast between her bright outfit and the muted tones of the surrounding environment, including weathered stone edging, overgrown shrubs, and a wooden fence partially visible behind her, under natural daylight that casts soft shadows across the pavement and foliage, creating a high-contrast, cinematic yet candid atmosphere with shallow depth of field that blurs the background while keeping her sharply focused, highlighting the texture of her skin, the sheen of the fabric, and the roughness of the plants and wall.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535324",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7023ae7-7bbe-4249-a038-d8fa151377e8/original=true/f7023ae7-7bbe-4249-a038-d8fa151377e8.jpeg",
+      "model": "MI/HyperMoss Lush Turbo (int8 ConvRot) [MI].safetensors",
+      "model_version_ids": [
+        3434440
+      ],
+      "width": 2400,
+      "height": 3200,
+      "seed": 3673892596349434,
+      "negative_prompt": "bad quality, low quality, worst quality, JPEG artifacts, blurry, pixelated, bad hands, bad legs, pixelated, old, milf, wrinkles, chubby, fat, ugly, elongated body, over-sketched body, render, 3d, painting, digital art, fan art, 2d art, wax, doll-like, ugly, extra fingers, extra limbs, extra hands, extra body, 6 toes, six toes, 6 fingers, six fingers, third hand, third leg, supernumerary fingers, watermark,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208924+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bd46ce1db338582fbae5ad83a8e8966e83204fe26f1fec4340c4e44a45d4fb9e",
+      "prompt_ar": "امرأة شابة ذات شعر بني طويل متموج تقف على رصيف تغمره الشمس بجانب جدار خرساني مغطى بأوراق الشجر الخضراء الكثيفة، ترتدي فستانًا قصيرًا مناسبًا للقوام، وردي فوشيا نابض بالحياة بأكمام طويلة يعانق شكلها وينتهي فوق الركبتين مباشرةً، مقترنًا بحذاء رعاة البقر طويل القامة من جلد الغزال؛ تحمل حقيبة كبيرة زرقاء فاتحة في يدها اليسرى بينما ذراعها اليمنى مرفوعة، وتلامس الأصابع بلطف منطقة الترقوة في كتفها، ورأسها مائل قليلاً إلى الأعلى مع عيون مغلقة أو تحدق بعيدًا عن الكاميرا، وشفتان متباعدتان قليلاً، مما ينقل مزاجًا تأمليًا أو مغريًا؛ تم التقاط المشهد من منظور منخفض الزاوية يؤكد على وقفتها والتناقض بين ملابسها المشرقة والألوان الصامتة للبيئة المحيطة بها، بما في ذلك الحواف الحجرية المتأثرة والشجيرات المتضخمة وسياج خشبي يمكن رؤيته جزئيًا خلفها، تحت ضوء النهار الطبيعي الذي يلقي ظلالاً ناعمة عبر الرصيف وأوراق الشجر، مما يخلق جوًا سينمائيًا صريحًا عالي التباين مع عمق مجال ضحل يطمس الخلفية مع الحفاظ على تركيزها بشكل حاد، مما يسلط الضوء على نسيجها. الجلد ولمعان القماش وخشونة النباتات والجدران.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:49Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148535324 fashion ai-image-prompts a young woman with long, wavy brown hair stands on a sun-dappled sidewalk beside a concrete wall covered in dense green foliage, wearing a form-fitting, vibrant fuchsia pink long-sleeved mini dress that hugs her figure and ends just above the knees, paired with tall, tan suede cowboy boots; she holds a large, structured light blue tote bag in her left hand while her right arm is raised, fingers gently touching the collarbone area of her shoulder, head tilted slightly upward with eyes closed or gazing away from the camera, lips parted slightly, conveying a contemplative or seductive mood; the scene is captured from a low-angle perspective that emphasizes her posture and the contrast between her bright outfit and the muted tones of the surrounding environment, including weathered stone edging, overgrown shrubs, and a wooden fence partially visible behind her, under natural daylight that casts soft shadows across the pavement and foliage, creating a high-contrast, cinematic yet candid atmosphere with shallow depth of field that blurs the background while keeping her sharply focused, highlighting the texture of her skin, the sheen of the fabric, and the roughness of the plants and wall. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535324",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7023ae7-7bbe-4249-a038-d8fa151377e8/original=true/f7023ae7-7bbe-4249-a038-d8fa151377e8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535375",
+      "title": "Civitai prompt 148535375",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Close-up photography taken from the bottom view. The subject is the face of an Asian woman donned in a radiant red and gold Venetian mask, adorned with meticulously detailed red ostrich feathers. Her eyes pierce through the mask, gazing directly into the camera lens. The image captures every feature in remarkable detail, achieving a stark contrast and rich saturation that encourage the vibrant hues to bloom on the canvas.",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535375",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab7ed838-64f4-4878-a363-a5f96ce073e7/original=true/ab7ed838-64f4-4878-a363-a5f96ce073e7.jpeg",
+      "model_version_ids": [
+        3291238
+      ],
+      "width": 1600,
+      "height": 1600,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208931+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b8ad8464619850e562f78f52c1008f48df308158290c7b2c2b1df5277ff66cf1",
+      "prompt_ar": "صورة مقربة مأخوذة من المنظر السفلي. الموضوع هو وجه امرأة آسيوية ترتدي قناعًا فينيسيًا باللونين الأحمر والذهبي المشع، مزينًا بريش النعام الأحمر المفصل بدقة. تخترق عيناها القناع وتحدق مباشرة في عدسة الكاميرا. تلتقط الصورة كل ميزة بتفاصيل رائعة، وتحقق تباينًا صارخًا وتشبعًا غنيًا يشجع الألوان النابضة بالحياة على القماش.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535375 image ai-image-prompts close-up photography taken from the bottom view. the subject is the face of an asian woman donned in a radiant red and gold venetian mask, adorned with meticulously detailed red ostrich feathers. her eyes pierce through the mask, gazing directly into the camera lens. the image captures every feature in remarkable detail, achieving a stark contrast and rich saturation that encourage the vibrant hues to bloom on the canvas. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535375",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab7ed838-64f4-4878-a363-a5f96ce073e7/original=true/ab7ed838-64f4-4878-a363-a5f96ce073e7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148535326",
+      "title": "Civitai prompt 148535326",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highly detailed, sharp focus\nbaldurs gate ring,\nsilver engagement ring, bouquet of flowers design, gems\npolished silver, engraved petals, tiny diamond gems\nmacro photography, 100mm lens, shallow depth of field\nsoft studio lighting, dramatic backlight, sparkle, reflections\nornate metalwork, dark background, intricate detail",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148535326",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3b24e05-6db1-4a41-ba3c-75f78db1b980/original=true/d3b24e05-6db1-4a41-ba3c-75f78db1b980.jpeg",
+      "model_version_ids": [
+        286322,
+        424720,
+        1759168
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1803973499,
+      "negative_prompt": "ring\nlow quality, blurry, distorted, extra limbs, watermark, text, deformed hands, bad metal, plastic, wood ring, skull ring, stone ring, realistic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-10T11:23:46.208937+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9b24e1bb0d985315e8f5b8a5007f559bbdde078c777fd9e0e573c3b6770cdedd",
+      "prompt_ar": "تحفة، أفضل جودة، مفصلة للغاية، تركيز حاد\nحلقة بوابة بلدور,\nخاتم خطوبة من الفضة، تصميم باقة من الزهور، الأحجار الكريمة\nفضة مصقولة، بتلات منقوشة، أحجار ألماس صغيرة\nتصوير الماكرو، عدسة 100 مم، عمق المجال الضحل\nإضاءة الاستوديو الناعمة، والإضاءة الخلفية الدرامية، والتألق، والانعكاسات\nأعمال معدنية مزخرفة، خلفية داكنة، تفاصيل معقدة",
+      "translation_status": "translated",
+      "translated_at": "2026-11-10T11:23:49Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148535326 image ai-image-prompts masterpiece, best quality, highly detailed, sharp focus baldurs gate ring, silver engagement ring, bouquet of flowers design, gems polished silver, engraved petals, tiny diamond gems macro photography, 100mm lens, shallow depth of field soft studio lighting, dramatic backlight, sparkle, reflections ornate metalwork, dark background, intricate detail civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148535326",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d3b24e05-6db1-4a41-ba3c-75f78db1b980/original=true/d3b24e05-6db1-4a41-ba3c-75f78db1b980.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-09T23:48:01.627442+00:00",
-  "prompt_count": 2635,
+  "generated_at": "2026-11-10T11:23:50.265923+00:00",
+  "prompt_count": 2655,
   "translation": {
     "language": "ar",
-    "translated_count": 16,
-    "skipped_count": 2612,
+    "translated_count": 20,
+    "skipped_count": 2628,
     "failed_count": 7,
-    "updated_at": "2026-11-09T23:48:00Z"
+    "updated_at": "2026-11-10T11:23:49Z"
   }
 }
