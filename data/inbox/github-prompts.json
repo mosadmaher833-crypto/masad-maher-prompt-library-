@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-10T21:18:21.805783+00:00",
+  "generated_at": "2026-11-11T11:10:05.846309+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1827,15 +1827,32 @@
       "source_url": "https://github.com/ai-boost/awesome-image-video-prompts/blob/main/README.md",
       "license": "GPL-3.0",
       "status": "pending_review"
+    },
+    {
+      "id": "gh-1955956043cc",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Scores:\n\n- gpt5mini = 89\n- sonnet = 94\n- opus = 99\n\nResult: **gpt5mini**\n\n### Highest Confidence\n\nSelect highest score.\n\nScores:\n\n- gpt5mini = 89\n- sonnet = 94\n- opus = 99\n\nResult: **opus**\n\n### Best Value\n\nScore: `confidence / cost.input`\n\nHighest ratio wins. Uses `cost.input` (deterministic — the user always\npays for input tokens and we know the input length) rather than a\nblended input+output figure (which would require guessing the output\nlength). Renamed from the legacy `balanced` policy (v0.0.x).\n\n### User Defined\n\nUsers may implement custom policies by subclassing `Policy`.\n\n---\n\n## Output Format\n\n### Standard Output",
+      "quality_score": 8,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "aniketkarne/ModelDirector",
+      "source_url": "https://github.com/aniketkarne/ModelDirector/blob/434dcde10ac5d703cfc896fe11159be6f8afd169/prd.md",
+      "license": null,
+      "status": "pending_review"
     }
   ],
   "error": "HTTP Error 429: Too Many Requests",
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"You are\" prompt",
-    "LLM prompts",
-    "generative AI prompts"
+    "\"Act as\" prompt",
+    "Midjourney prompts",
+    "Flux prompts"
   ],
   "last_sources": []
 }

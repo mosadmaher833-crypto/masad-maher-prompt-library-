@@ -122251,15 +122251,1262 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/001e1f23-fdbb-4895-8062-184ea3b16e60/original=true/001e1f23-fdbb-4895-8062-184ea3b16e60.jpeg"
         }
       ]
+    },
+    {
+      "id": "gh-1955956043cc",
+      "title": "prd.md",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Scores:\n\n- gpt5mini = 89\n- sonnet = 94\n- opus = 99\n\nResult: **gpt5mini**\n\n### Highest Confidence\n\nSelect highest score.\n\nScores:\n\n- gpt5mini = 89\n- sonnet = 94\n- opus = 99\n\nResult: **opus**\n\n### Best Value\n\nScore: `confidence / cost.input`\n\nHighest ratio wins. Uses `cost.input` (deterministic — the user always\npays for input tokens and we know the input length) rather than a\nblended input+output figure (which would require guessing the output\nlength). Renamed from the legacy `balanced` policy (v0.0.x).\n\n### User Defined\n\nUsers may implement custom policies by subclassing `Policy`.\n\n---\n\n## Output Format\n\n### Standard Output",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "aniketkarne/ModelDirector",
+      "source_url": "https://github.com/aniketkarne/ModelDirector/blob/434dcde10ac5d703cfc896fe11159be6f8afd169/prd.md",
+      "imported_at": "2026-11-11T11:10:21.479568+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1955956043cc7056f702307dc5bb0bb92eee26e5bf391f36544cbba1012b6591",
+      "prompt_ar": "النتائج:\n\n- gpt5mini = 89\n- السوناتة = 94\n- التأليف = 99\n\nالنتيجة: **gpt5mini**\n\n### أعلى مستويات الثقة\n\nحدد أعلى الدرجات.\n\nالنتائج:\n\n- gpt5mini = 89\n- السوناتة = 94\n- التأليف = 99\n\nالنتيجة: **عمل**\n\n### أفضل قيمة\n\nالنتيجة: \"الثقة / التكلفة. الإدخال\".\n\nأعلى نسبة تفوز. يستخدم \"cost.input\" (حتمي - المستخدم دائمًا\nيدفع مقابل رموز الإدخال ونحن نعرف طول الإدخال) بدلاً من أ\nرقم الإدخال + الإخراج المخلوط (والذي يتطلب تخمين الإخراج\nالطول). تمت إعادة تسميتها من السياسة \"المتوازنة\" القديمة (الإصدار 0.0.x).\n\n### محدد من قبل المستخدم\n\nيمكن للمستخدمين تنفيذ سياسات مخصصة عن طريق التصنيف الفرعي \"السياسة\".\n\n---\n\n## تنسيق الإخراج\n\n### الإخراج القياسي",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "prd.md prompt-engineering scores: - gpt5mini = 89 - sonnet = 94 - opus = 99 result: **gpt5mini** ### highest confidence select highest score. scores: - gpt5mini = 89 - sonnet = 94 - opus = 99 result: **opus** ### best value score: `confidence / cost.input` highest ratio wins. uses `cost.input` (deterministic — the user always pays for input tokens and we know the input length) rather than a blended input+output figure (which would require guessing the output length). renamed from the legacy `balanced` policy (v0.0.x). ### user defined users may implement custom policies by subclassing `policy`. --- ## output format ### standard output github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/aniketkarne/ModelDirector/blob/434dcde10ac5d703cfc896fe11159be6f8afd169/prd.md",
+          "source_repository": "aniketkarne/ModelDirector"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644376",
+      "title": "Civitai prompt 148644376",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"summary\":{\"caption\":\"@no83_nffa, A portrait-oriented anime fashion cover of one adult model resting at a stone balustrade above a sunset garden. A full seated three-quarter view shows her face, shoulders, entire skirt and the white-stockinged legs with both shoes in frame. Her warm sunlit skin and bright ivory hosiery contrast against a deep indigo and iris-purple garden. Tiered steps, a ribbon of water and giant iris blooms give the cover depth. No typography.\",\"canvas\":\"single\"},\"items\":[{\"label\":\"character\",\"caption\":\"One adult fashion model with warm olive skin, dark brown wavy hair pinned up at the nape, and hazel eyes. She is seated on a low carved stool, turning slightly toward the camera. A fitted indigo dress with an elegant portrait collar bares the shoulders, upper arms and collarbones, with an opaque embroidered skirt resting evenly across her lap. A broad patch of soft sunset light reveals the skin on her shoulder and forearm with gentle peach and olive gradients. Both shins wear ivory silk tights into matching closed indigo shoes. She rests her hands on a small folded shawl across her knees, with both feet supported by the pavement.\",\"bbox\":[-547,-317,614,313]},{\"label\":\"object\",\"caption\":\"Behind her, a balustrade opens onto a terraced iris garden with a narrow reflecting pool, stepped cypress silhouettes and giant lavender irises at the edges. Low evening light catches the top of the stone and the petals.\",\"bbox\":[-672,-480,401,480]},{\"label\":\"object\",\"caption\":\"A low carved stone stool supports the model. Matte indigo-gray pavement supports both shoes and gives the ivory tights a deep, quiet backdrop.\",\"bbox\":[-12,-480,672,480]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644376",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fc629d6-5e59-4232-8b72-9470b8f22d55/original=true/1fc629d6-5e59-4232-8b72-9470b8f22d55.jpeg",
+      "model": "moss\\mossImage_base_bf16",
+      "model_version_ids": [],
+      "width": 960,
+      "height": 1344,
+      "seed": 831111325,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480131+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d1e64e5fe6cee78c16b1079cd61a04424d6fad8c74414473bdc97d8f846a1ba9",
+      "prompt_ar": "{\"summary\":{\"caption\":@no83_nffa، غلاف أزياء أنمي ذو صورة شخصية لعارضة أزياء بالغة تستريح على درابزين حجري فوق حديقة عند غروب الشمس. يُظهر منظر كامل لثلاثة أرباع وجهها وكتفيها وتنورتها بالكامل وساقيها المكسوتين بالجورب الأبيض وكلا الحذاءين في الإطار. يتباين جلدها الدافئ المضاء بنور الشمس وجواربها العاجية اللامعة مع حديقة نيلي عميقة وأرجوانية قزحية. درجات متدرجة وشريط من الماء وعملاق أزهار القزحية تعطي عمقًا للغلاف.\"،\"canvas\":single\"}،\"items\":[{\"label\": \"character\"، \"caption\": \"عارضة أزياء بالغة ذات بشرة زيتونية دافئة، وشعر بني داكن مموج مثبت على مؤخرة العنق، وعينان عسليتان. تجلس على كرسي منخفض منحوت، وتتجه قليلاً نحو الكاميرا. فستان نيلي مناسب مع ياقة صورة أنيقة تكشف الكتفين والجزء العلوي من الذراعين وعظام الترقوة، مع لون غير شفاف\". تنورة مطرزة تستقر بالتساوي على حجرها. تكشف رقعة واسعة من ضوء غروب الشمس الناعم عن الجلد على كتفها وساعدها بتدرجات لطيفة من اللون الخوخي والزيتوني. وترتدي كلتا ساقيها جوارب طويلة من الحرير العاجي في حذاء نيلي مغلق pavement.\"، \"bbox\":[-547,-317,614,313]},{\"label\": \"object\"، \"caption\": \"خلفها، ينفتح درابزين على حديقة قزحية ذات مدرجات مع حوض سباحة عاكس ضيق، وصور ظلية من خشب السرو وقزحية خزامية عملاقة عند الحواف petals.\"، \"bbox\":[-672,-480,401,480]},{\"label\": \"object\"، \"caption\": \"كرسي حجري منخفض المنحوت يدعم النموذج. الرصيف باللون الرمادي النيلي غير اللامع يدعم كلا الحذاءين ويمنح الجوارب العاجية عمقًا وهدوءًا خلفية.\"، \"bbox\":[-12،-480،672،480]}]، \"bbox_coord_space\": \"abs_centralized\"، \"bbox_format\": \"yxyx\"}",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644376 fashion ai-image-prompts {\"summary\":{\"caption\":\"@no83_nffa, a portrait-oriented anime fashion cover of one adult model resting at a stone balustrade above a sunset garden. a full seated three-quarter view shows her face, shoulders, entire skirt and the white-stockinged legs with both shoes in frame. her warm sunlit skin and bright ivory hosiery contrast against a deep indigo and iris-purple garden. tiered steps, a ribbon of water and giant iris blooms give the cover depth. no typography.\",\"canvas\":\"single\"},\"items\":[{\"label\":\"character\",\"caption\":\"one adult fashion model with warm olive skin, dark brown wavy hair pinned up at the nape, and hazel eyes. she is seated on a low carved stool, turning slightly toward the camera. a fitted indigo dress with an elegant portrait collar bares the shoulders, upper arms and collarbones, with an opaque embroidered skirt resting evenly across her lap. a broad patch of soft sunset light reveals the skin on her shoulder and forearm with gentle peach and olive gradients. both shins wear ivory silk tights into matching closed indigo shoes. she rests her hands on a small folded shawl across her knees, with both feet supported by the pavement.\",\"bbox\":[-547,-317,614,313]},{\"label\":\"object\",\"caption\":\"behind her, a balustrade opens onto a terraced iris garden with a narrow reflecting pool, stepped cypress silhouettes and giant lavender irises at the edges. low evening light catches the top of the stone and the petals.\",\"bbox\":[-672,-480,401,480]},{\"label\":\"object\",\"caption\":\"a low carved stone stool supports the model. matte indigo-gray pavement supports both shoes and gives the ivory tights a deep, quiet backdrop.\",\"bbox\":[-12,-480,672,480]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644376",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fc629d6-5e59-4232-8b72-9470b8f22d55/original=true/1fc629d6-5e59-4232-8b72-9470b8f22d55.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644139",
+      "title": "Civitai prompt 148644139",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(medium close shot from the chest up:1.2), (the subject occupies about 55% of the frame:1.2), background still readable behind her, (85mm portrait lens, gentle compression:1.15), background softly compressed, (rule of thirds composition:1.3), (the subject is placed on the right third of the frame:1.35), (open negative space on the left:1.25), off-center subject, balanced asymmetric layout, masterpiece, best quality, highly detailed, cinematic composition, studio ghibli hand-painted animation, large flat colour blocks, warm innocent mood, lush natural detail, soft gouache texture, a summer afternoon vegetable garden with a light breeze, (an anthropomorphic ant wearing a tiny straw hat lying under a leaf to cool off:1.45), (big relaxed eyes:1.45), (a miniature iced drink with a straw, the straw bent so its tip points toward the ant and touches its mouth:1.55), extremely bright summer sunlight making the leaf glow yellow-green,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644139",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c07a16a-d82e-4ff1-81a6-804bba7af956/original=true/0c07a16a-d82e-4ff1-81a6-804bba7af956.jpeg",
+      "model": "Illustrious-XL-v2.0",
+      "model_version_ids": [],
+      "width": 1536,
+      "height": 2304,
+      "seed": 2002328,
+      "negative_prompt": "low quality, worst quality, blurry, out of focus, flat lighting, dull colors, extra limbs, extra fingers, deformed hands, bad anatomy, fused fingers, watermark, text, signature, logo, jpeg artifacts, two people, second person, crowd, collage, split screen, inset, cropped head, cut off head, cropped limbs, photographic, photorealistic, dslr, 3d render, cgi, plastic skin, wax skin, washed out, overexposed, neon oversaturation, (color blotches:1.5), muddy colors, stains, camouflage pattern, heavy pigment, watercolor puddles, blotchy patches, dirt smudges, dirty color patches, ink splatter on skin, ink smeared on face, muddy ink wash, extra person, third figure, duplicate character, bad anatomy, extra fingers, watermark, text, signature, lowres, jpeg artifacts, real animal instead of a girl, quadruped character, mascot costume, fursuit, blotchy pigment patches, dirty colour blocks, ink splatter, black ink wash, dark horror, harsh contrast, 3d render, photorealistic, close-up, extreme close-up, headshot, face fills the frame, oversized head, cropped head, cropped limbs, cropped at the shoulders, subject blocking the background, centered composition, dead center",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480159+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1d61dc933b8276bb2d7362087ae6efecb777708b1e5e7cb33ab8e5bdddf52765",
+      "prompt_ar": "(لقطة متوسطة قريبة من الصدر لأعلى: 1.2)، (يشغل الهدف حوالي 55% من الإطار: 1.2)، لا تزال الخلفية قابلة للقراءة خلفها، (عدسة شخصية مقاس 85 مم، ضغط لطيف: 1.15)، الخلفية مضغوطة بهدوء، (تكوين قاعدة الثلث: 1.3)، (يتم وضع الموضوع على الثلث الأيمن من الإطار: 1.35)، (مساحة سلبية مفتوحة على اليسار: 1.25)، هدف خارج المركز، تخطيط متوازن غير متماثل، تحفة فنية، أفضل جودة، مفصلة للغاية، تكوين سينمائي، رسوم متحركة مرسومة يدويًا في استوديو جيبلي، كتل ألوان مسطحة كبيرة، مزاج دافئ بريء، تفاصيل طبيعية مورقة، نسيج غواش ناعم، حديقة خضروات بعد ظهر الصيف مع نسيم خفيف، (نملة مجسمة ترتدي قبعة صغيرة من القش ترقد تحت ورقة لتبرد: 1.45)، (عيون كبيرة مسترخية: 1.45)، (مشروب مثلج مصغر مع قش، القشة منحنية بحيث يشير طرفها نحو النملة) ويمس فمه: 1.55)، ضوء الشمس شديد السطوع في الصيف مما يجعل الورقة تتوهج باللون الأصفر والأخضر،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148644139 image ai-image-prompts (medium close shot from the chest up:1.2), (the subject occupies about 55% of the frame:1.2), background still readable behind her, (85mm portrait lens, gentle compression:1.15), background softly compressed, (rule of thirds composition:1.3), (the subject is placed on the right third of the frame:1.35), (open negative space on the left:1.25), off-center subject, balanced asymmetric layout, masterpiece, best quality, highly detailed, cinematic composition, studio ghibli hand-painted animation, large flat colour blocks, warm innocent mood, lush natural detail, soft gouache texture, a summer afternoon vegetable garden with a light breeze, (an anthropomorphic ant wearing a tiny straw hat lying under a leaf to cool off:1.45), (big relaxed eyes:1.45), (a miniature iced drink with a straw, the straw bent so its tip points toward the ant and touches its mouth:1.55), extremely bright summer sunlight making the leaf glow yellow-green, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644139",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c07a16a-d82e-4ff1-81a6-804bba7af956/original=true/0c07a16a-d82e-4ff1-81a6-804bba7af956.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644225",
+      "title": "Civitai prompt 148644225",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A polished anime-inspired portrait of a young adult woman with pale skin, delicate features, warm amber-gold eyes, and a soft, knowing smile. She tilts her head slightly and gazes toward the viewer, framed by tousled, shoulder-length deep teal-black hair with luminous aqua highlights. She wears an elegant dark charcoal coat with broad lapels over a richly ornamented outfit, layered with black beaded chains, glowing golden accents, and intricate metallic jewelry at the neckline. A huge translucent burnt-orange leaf or petal arches behind and above her head like a dramatic canopy, veined with fine lines and scattered glowing golden dots. In the lower foreground, dark botanical stems, leaves, and vivid red-orange flowers rise along the left edge. The background dissolves into a dreamy, softly blurred twilight scene of blue-violet shadows, warm lantern-like bokeh, and a glowing orange horizon. Close, intimate chest-up framing, slightly low angle, shallow depth of field, painterly digital illustration, delicate luminous highlights, rich teal-and-amber color contrast, refined fantasy character design, serene and mysterious atmosphere.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644225",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbb2698c-204e-41b4-a1c0-698bdb2138da/original=true/dbb2698c-204e-41b4-a1c0-698bdb2138da.jpeg",
+      "model_version_ids": [
+        3072332,
+        3398827,
+        3413867
+      ],
+      "width": 1376,
+      "height": 768,
+      "seed": 775389207,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480203+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f60774f04959a943aee0cc9c0ac73ff5f3f90c538dde1f0fee9191cb74247963",
+      "prompt_ar": "صورة مصقولة مستوحاة من الرسوم المتحركة لامرأة شابة ذات بشرة شاحبة وملامح رقيقة وعيون ذهبية كهرمانية دافئة وابتسامة ناعمة وعارفة. تميل رأسها قليلاً وتنظر نحو المشاهد، محاطًا بشعر أشعث أسود عميق يصل إلى الكتفين مع لمسات مائية مضيئة. ترتدي معطفًا فحميًا داكنًا أنيقًا مع طية صدر السترة عريضة فوق زي غني بالزخارف، ومغطى بسلاسل سوداء من الخرز، ولمسات ذهبية متوهجة، ومجوهرات معدنية معقدة عند خط العنق. ورقة برتقالية محترقة ضخمة وشفافة أو أقواس بتلات خلف رأسها وفوقها مثل مظلة مثيرة، معروقة بخطوط دقيقة ونقاط ذهبية متوهجة متناثرة. في الجزء السفلي من المقدمة، ترتفع السيقان النباتية الداكنة والأوراق والأزهار ذات اللون الأحمر البرتقالي الزاهية على طول الحافة اليسرى. تذوب الخلفية في مشهد شفق حالم وغير واضح المعالم من الظلال الزرقاء البنفسجية، وبوكيه دافئ يشبه الفانوس، وأفق برتقالي متوهج. إطار قريب وحميم للصدر، وزاوية منخفضة قليلاً، وعمق مجال ضحل، وتوضيح رقمي تصويري، وإبرازات مضيئة دقيقة، وتباين ألوان غني باللونين الأزرق المخضر والعنبر، وتصميم شخصية خيالية مصقولة، وأجواء هادئة وغامضة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644225 fashion ai-image-prompts a polished anime-inspired portrait of a young adult woman with pale skin, delicate features, warm amber-gold eyes, and a soft, knowing smile. she tilts her head slightly and gazes toward the viewer, framed by tousled, shoulder-length deep teal-black hair with luminous aqua highlights. she wears an elegant dark charcoal coat with broad lapels over a richly ornamented outfit, layered with black beaded chains, glowing golden accents, and intricate metallic jewelry at the neckline. a huge translucent burnt-orange leaf or petal arches behind and above her head like a dramatic canopy, veined with fine lines and scattered glowing golden dots. in the lower foreground, dark botanical stems, leaves, and vivid red-orange flowers rise along the left edge. the background dissolves into a dreamy, softly blurred twilight scene of blue-violet shadows, warm lantern-like bokeh, and a glowing orange horizon. close, intimate chest-up framing, slightly low angle, shallow depth of field, painterly digital illustration, delicate luminous highlights, rich teal-and-amber color contrast, refined fantasy character design, serene and mysterious atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644225",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbb2698c-204e-41b4-a1c0-698bdb2138da/original=true/dbb2698c-204e-41b4-a1c0-698bdb2138da.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644161",
+      "title": "Civitai prompt 148644161",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hauntingly beautiful double-exposure ultra detailed fantasy painting of a woman's right-facing profile containing the River of Souls in Hell. Extreme close-up landscape composition, face in cool midnight-blue shadow, red wild hair merging into fearsome flames. Her one visible eye glows from within like molten lava, a small radiant iris in a beautifully drawn eye socket. The cheek and neck dissolve organically into a burning hellscape: layered cracked obsidian laced with fire and sulfur, a silver river of damned souls flowing through the hellscape. Her nose, lips and chin are shaped by pale cloud edges against soft ivory moonlit mist with sharp distinct shadows at the right. A few loose dark strands cross her cheek. Her gaze is lifted with profound longing. Fine expressive ink lines, elaborate etched branches, dark translucent oil glazes, luminous watercolor clouds and tiny red flecks. Restrained teal-black, mineral blue, pearl white and amber, dramatic asymmetrical chiaroscuro, richly textured yet clear emotional focal eye, no writing or borders.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644161",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad1d66eb-113f-4b02-b950-036d797570aa/original=true/ad1d66eb-113f-4b02-b950-036d797570aa.jpeg",
+      "model": "moss_image_sft_int8_convrot.safetensors",
+      "model_version_ids": [
+        3409867,
+        3411385,
+        3412961,
+        3422843
+      ],
+      "width": 1536,
+      "height": 2048,
+      "seed": 734590411064044,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480226+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5b45a285603db9359ec926cffba48860003585a778ddfbb8d826878b1828b8bd",
+      "prompt_ar": "لوحة خيالية جميلة للغاية ومزدوجة التعريض ومفصلة للغاية لملف تعريف المرأة الذي يواجه اليمين والذي يحتوي على نهر النفوس في الجحيم. تكوين منظر طبيعي عن قرب للغاية، وجه في ظل أزرق منتصف الليل بارد، وشعر بري أحمر يندمج في ألسنة اللهب المخيفة. تتوهج عينها المرئية من الداخل مثل الحمم المنصهرة، وقزحية صغيرة مشعة في مقبس عين مرسومة بشكل جميل. يذوب الخد والرقبة عضويًا في مشهد الجحيم المحترق: طبقات من حجر السج المتشقق المغطى بالنار والكبريت، ونهر فضي من النفوس اللعينة يتدفق عبر مشهد الجحيم. يتشكل أنفها وشفتاها وذقنها من خلال حواف سحابة شاحبة مقابل ضباب عاجي ناعم في ضوء القمر مع ظلال حادة مميزة على اليمين. بضعة خيوط داكنة فضفاضة تعبر خدها. نظرتها مرفوعة بشوق عميق. خطوط حبر دقيقة معبرة، وفروع محفورة متقنة، وزجاج زيتي داكن وشفاف، وسحب مائية مضيئة وبقع حمراء صغيرة. أسود مخضر مقيد، أزرق معدني، أبيض لؤلؤي وعنبر، إضاءة دراماتيكية غير متناظرة، عين بؤرية عاطفية غنية الملمس ولكنها واضحة، بدون كتابة أو حدود.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644161 photography ai-image-prompts a hauntingly beautiful double-exposure ultra detailed fantasy painting of a woman's right-facing profile containing the river of souls in hell. extreme close-up landscape composition, face in cool midnight-blue shadow, red wild hair merging into fearsome flames. her one visible eye glows from within like molten lava, a small radiant iris in a beautifully drawn eye socket. the cheek and neck dissolve organically into a burning hellscape: layered cracked obsidian laced with fire and sulfur, a silver river of damned souls flowing through the hellscape. her nose, lips and chin are shaped by pale cloud edges against soft ivory moonlit mist with sharp distinct shadows at the right. a few loose dark strands cross her cheek. her gaze is lifted with profound longing. fine expressive ink lines, elaborate etched branches, dark translucent oil glazes, luminous watercolor clouds and tiny red flecks. restrained teal-black, mineral blue, pearl white and amber, dramatic asymmetrical chiaroscuro, richly textured yet clear emotional focal eye, no writing or borders. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644161",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad1d66eb-113f-4b02-b950-036d797570aa/original=true/ad1d66eb-113f-4b02-b950-036d797570aa.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644182",
+      "title": "Civitai prompt 148644182",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, amazing quality, very aesthetic, ultra detailed, premium whimsical cinematic 3D illustration, DFC, Deep Fried & Crispy world morph, one colossal Tyrannosaurus rex, unmistakable Tyrannosaurus silhouette, solo main subject, full body visible including massive skull powerful legs tiny arms and long tail, entire dinosaur physically reconstructed from thick golden-orange crunchy deep-fried batter, dense irregular craggy breading covering every anatomical surface, large raised crispy flakes, puffy blistered golden crust, jagged crunchy ridges along the neck and spine, rough breadcrumb clusters, warm amber-brown toasted edges, subtle oily sheen catching the light, thick crunchy crust following the long tapering tail, a few small pieces of crispy batter visibly crumbling from the tail, Tyrannosaurus standing proudly on one comically undersized skateboard with four visible wheels, seriously reading a large open newspaper with its ridiculously short arms, completely calm deadpan expression, one tiny bright yellow rubber duck sweeping the fallen crispy crumbs into a miniature dustpan, several golden breadcrumbs scattered on the pavement, whimsical luxury fast-food plaza, dark charcoal architecture and warm amber lighting, dramatic side light emphasizing the entire deep-fried texture, absurd prehistoric crispy skateboarding comedy, centered vertical 4:5 composition, dramatic low angle, sharp focus",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644182",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c888cb8c-4b75-4057-821a-28e3e10588c1/original=true/c888cb8c-4b75-4057-821a-28e3e10588c1.jpeg",
+      "model_version_ids": [
+        135867,
+        641663,
+        733698,
+        2858836,
+        3017793
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1692662546,
+      "negative_prompt": "worst quality, low quality, blurry, ordinary dinosaur scales, natural reptile skin, smooth orange dinosaur, plain golden sculpture, dry cookie dough, smooth bread crust, weak fried coating, missing craggy batter, missing crunchy ridges, sparse crumbs, excessive grease, burnt coating, newspaper missing, skateboard missing, skateboard wheels hidden, yellow rubber duck missing, cropped tail, duplicate dinosaur, extra limbs, cluttered background, watermark, signature, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480248+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "70d828abd8646420824f7a4232b4c402cf89c6d0c49937f5f9007e71bce506ec",
+      "prompt_ar": "تحفة فنية، أفضل جودة، جودة مذهلة، جمالية للغاية، مفصلة للغاية، رسم سينمائي ثلاثي الأبعاد مميز، DFC، عالم مقلي ومقرمش، تيرانوصور ريكس ضخم، صورة ظلية تيرانوصور لا لبس فيها، موضوع رئيسي منفرد، جسم كامل مرئي بما في ذلك جمجمة ضخمة وأرجل قوية وأذرع صغيرة وذيل طويل، ديناصور كامل أعيد بناؤه فعليًا من خليط سميك برتقالي ذهبي مقرمش، خبز كثيف غير منتظم يغطي كل قطعة سطح تشريحي، رقائق مقرمشة كبيرة مرتفعة، قشرة ذهبية منتفخة، نتوءات خشنة مقرمشة على طول الرقبة والعمود الفقري، مجموعات من فتات الخبز الخشنة، حواف محمصة بلون العنبر البني الدافئ، لمعان زيتي رقيق يلتقط الضوء، قشرة سميكة مقرمشة تتبع الذيل المستدق الطويل، بضع قطع صغيرة من العجين المقرمش تتفتت بشكل واضح من الذيل، الديناصور يقف بفخر على لوح تزلج صغير الحجم بشكل هزلي مع أربع عجلات مرئية، بجدية قراءة صحيفة كبيرة مفتوحة بأذرعها القصيرة بشكل يبعث على السخرية، وتعبير جامد هادئ تمامًا، وبطة مطاطية صفراء لامعة صغيرة تجتاح الفتات المقرمش المتساقط في مجرود صغير، والعديد من فتات الخبز الذهبية المتناثرة على الرصيف، وساحة الوجبات السريعة الفاخرة الغريبة، والهندسة المعمارية الفحمية الداكنة والإضاءة الكهرمانية الدافئة، ضوء جانبي درامي يؤكد على الملمس المقلي بالكامل، كوميديا سخيفة متموجة من عصور ما قبل التاريخ، تكوين عمودي متمركز 4: 5، زاوية منخفضة مثيرة، تركيز حاد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148644182 architecture ai-image-prompts masterpiece, best quality, amazing quality, very aesthetic, ultra detailed, premium whimsical cinematic 3d illustration, dfc, deep fried & crispy world morph, one colossal tyrannosaurus rex, unmistakable tyrannosaurus silhouette, solo main subject, full body visible including massive skull powerful legs tiny arms and long tail, entire dinosaur physically reconstructed from thick golden-orange crunchy deep-fried batter, dense irregular craggy breading covering every anatomical surface, large raised crispy flakes, puffy blistered golden crust, jagged crunchy ridges along the neck and spine, rough breadcrumb clusters, warm amber-brown toasted edges, subtle oily sheen catching the light, thick crunchy crust following the long tapering tail, a few small pieces of crispy batter visibly crumbling from the tail, tyrannosaurus standing proudly on one comically undersized skateboard with four visible wheels, seriously reading a large open newspaper with its ridiculously short arms, completely calm deadpan expression, one tiny bright yellow rubber duck sweeping the fallen crispy crumbs into a miniature dustpan, several golden breadcrumbs scattered on the pavement, whimsical luxury fast-food plaza, dark charcoal architecture and warm amber lighting, dramatic side light emphasizing the entire deep-fried texture, absurd prehistoric crispy skateboarding comedy, centered vertical 4:5 composition, dramatic low angle, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644182",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c888cb8c-4b75-4057-821a-28e3e10588c1/original=true/c888cb8c-4b75-4057-821a-28e3e10588c1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148232537",
+      "title": "Civitai prompt 148232537",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "high contrast, depth of field, Fresh Atmosphere, Clean Composition, Masterpiece, high score, great score, absurdres, Best Quality, Delicate Shading, Smooth Details, in'ei, chiaroscuro, bright vivid colors, atmospheric haze,\nexterior, Clean Composition, Masterpiece, Best Quality, dynamic lighting, subsurface reflections, gradient coloring, masterclass color theory, exterior, sky, exterior, \n<lora:Adlerian_ver2_(Illustrious)_(AD):0.8> Adlerian, muscular, eagle, <lora:AnimeSky_(Background)_(Illustrious)_(AD):0.2> AnimeSky, background, sky, <lora:BSS_Visual Enhancer Slider:1>, <lora:Dramatic Lighting Slider:2>, <lora:AddMicroDetails_Illustrious:0.4> addmicrodetails, <lora:Modern_anime_render:0.35>, <lora:anime_screencap-IL-NOOB_v3:0.35> anime screencap, anime coloring,\n((\nno humans, male focus, soft glow, dynamic action, glossy armor, chest armor, male focus, no hair, eagle_headed, pauldrons, flowing black cape, noble, smile, solo, handsome noble features, hero, heroic, faux fur neckline, no wings, black gloved hands, white body, balanced anime color mix, blue green armor, detailed anime eyes, tilted head, shifting hips, bent leg, bent arm, \nmale physique, large arms, abs, large rounded protruding chest, impressive physique, peak physical conditioning, hyper muscular, perfect proportions,\n):1.5),\nlazypos, zPDXL,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148232537",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daa59cbd-d55b-4935-81a4-2534a69fec15/original=true/daa59cbd-d55b-4935-81a4-2534a69fec15.jpeg",
+      "model": "Gallant4",
+      "model_version_ids": [
+        372656,
+        1242203,
+        1470451,
+        1470501,
+        2087054,
+        2278212,
+        2442886,
+        2528906,
+        3206748,
+        3455457
+      ],
+      "width": 960,
+      "height": 1216,
+      "seed": 3798521164,
+      "negative_prompt": "lazyneg, zPDXL-neg,\nbird on shoulder, bird on back, bird in sky, flying bird, wings, loin cloth, glowing chest, pet bird, animals, bird, pants, pet, arena, stadium, camera flash, sun rays, light rays, light glare, light burst, light bloom, telephone pole, electrical pole, electric wire, telephone wire, sun rays, light rays, light glare, hair, eye on chest, symbol on chest, in the style of the video game Cult of the Lamb, manly bulge, eagle, wild animals, animals, wildlife, bad eyes, crow, raven, bird, spikes, too many nostrils on the beak, squared blocky beak, fire, too many fingers, fingerless gloves, wings, multiple nostrils, star, cross, veins, \nlowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480268+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e0645b57317b91cc2b9aeb30775f373901b56a1707d779cd81b62b5c2ee9e813",
+      "prompt_ar": "تباين عالي، عمق المجال، جو منعش، تكوين نظيف، تحفة فنية، درجة عالية، درجة رائعة، سخافات، أفضل جودة، تظليل دقيق، تفاصيل ناعمة، هنا، إضاءة وإضاءة، ألوان زاهية زاهية، ضباب جوي،\nالمظهر الخارجي، التركيب النظيف، التحفة الفنية، أفضل جودة، الإضاءة الديناميكية، الانعكاسات تحت السطح، التلوين المتدرج، نظرية الألوان الرائعة، المظهر الخارجي، السماء، المظهر الخارجي، \n<lora:Adlerian_ver2_(Illustrious)_(AD):0.8> Adlerian، عضلي، نسر، <lora:AnimeSky_(Background)_(Illustious)_(AD):0.2> AnimeSky، الخلفية، السماء، <lora:BSS_Visual Enhancer Slider:1>، <lora:Dramatic Lighting Slider:2>، <lora:AddMicroDetails_Illustious:0.4> addmicrodetails، <lora:Modern_anime_render:0.35>، <lora:anime_screencap-IL-NOOB_v3:0.35> لقطة شاشة أنيمي، تلوين الرسوم المتحركة،\n((\nلا يوجد بشر، تركيز ذكوري، توهج ناعم، عمل ديناميكي، درع لامع، درع صدر، تركيز ذكر، بدون شعر، رأس نسر، بولدرون، عباءة سوداء متدفقة، نبيل، ابتسامة، منفرد، سمات نبيلة وسيم، بطل، بطولي، خط عنق من الفرو الصناعي، بدون أجنحة، أيدي بقفازات سوداء، جسم أبيض، مزيج ألوان أنيمي متوازن، درع أخضر أزرق، عيون أنمي مفصلة، رأس مائل، ورك متحرك، ساق منحنية، ذراع منحني، \nاللياقة البدنية للذكور، والأذرع الكبيرة، وعضلات البطن، والصدر الكبير البارز المستدير، واللياقة البدنية المثيرة للإعجاب، واللياقة البدنية القصوى، والعضلات المفرطة، والنسب المثالية،\n):1.5)،\nكسولبوس,",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:23Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148232537 architecture ai-image-prompts high contrast, depth of field, fresh atmosphere, clean composition, masterpiece, high score, great score, absurdres, best quality, delicate shading, smooth details, in'ei, chiaroscuro, bright vivid colors, atmospheric haze, exterior, clean composition, masterpiece, best quality, dynamic lighting, subsurface reflections, gradient coloring, masterclass color theory, exterior, sky, exterior, <lora:adlerian_ver2_(illustrious)_(ad):0.8> adlerian, muscular, eagle, <lora:animesky_(background)_(illustrious)_(ad):0.2> animesky, background, sky, <lora:bss_visual enhancer slider:1>, <lora:dramatic lighting slider:2>, <lora:addmicrodetails_illustrious:0.4> addmicrodetails, <lora:modern_anime_render:0.35>, <lora:anime_screencap-il-noob_v3:0.35> anime screencap, anime coloring, (( no humans, male focus, soft glow, dynamic action, glossy armor, chest armor, male focus, no hair, eagle_headed, pauldrons, flowing black cape, noble, smile, solo, handsome noble features, hero, heroic, faux fur neckline, no wings, black gloved hands, white body, balanced anime color mix, blue green armor, detailed anime eyes, tilted head, shifting hips, bent leg, bent arm, male physique, large arms, abs, large rounded protruding chest, impressive physique, peak physical conditioning, hyper muscular, perfect proportions, ):1.5), lazypos, zpdxl, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148232537",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daa59cbd-d55b-4935-81a4-2534a69fec15/original=true/daa59cbd-d55b-4935-81a4-2534a69fec15.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644098",
+      "title": "Civitai prompt 148644098",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A high-resolution image of excellent quality, characterized by a wealth of detail and superb lighting. It is a hyper-realistic photograph captured with a 35mm lens at an aperture of f/1.8, featuring studio lighting in the style of a commercial portrait. In an extremely overgrown garden with tall grass rests a highly detailed, gleaming object in the form of a futuristic sports car, crafted from 5mm-thick silver metal. The car’s metallic surface shimmers like liquid silver from the future, interspersed with accents of multi-colored, fluid-looking metal (gold, copper, bronze, and iridescent blue). The wheels are made of black rubber, and the glass headlights cast a warm orange glow. The windows are fashioned from thin glass, the steering wheel is made of plastic, and even small details—such as the rearview mirror—are clearly visible. The front license plate bears the inscription \"Buzz me\" in black letters on a white background. This is 3D fractal art—a generative, algorithmic sculpture. 3D rendering, 3D fractal world: 1.1. The dark background creates the impression that the object is glowing from within with a bright orange light.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644098",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f85a5b9-ac29-4bf0-a49d-a8547c476e57/original=true/1f85a5b9-ac29-4bf0-a49d-a8547c476e57.jpeg",
+      "model_version_ids": [
+        2442439,
+        2826516,
+        3432055,
+        3437392
+      ],
+      "width": 2048,
+      "height": 1216,
+      "seed": 617966432,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480302+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "634add742988fd2b6d94d06ea0261ef44bb5ea7eec0e85bc04e607250df29d62",
+      "prompt_ar": "صورة عالية الدقة ذات جودة ممتازة، تتميز بوفرة في التفاصيل والإضاءة الرائعة. إنها صورة واقعية للغاية تم التقاطها باستخدام عدسة مقاس 35 مم بفتحة f/1.8، وتتميز بإضاءة الاستوديو بأسلوب الصورة التجارية. في حديقة متضخمة للغاية ذات عشب طويل، يوجد جسم لامع مفصل للغاية على شكل سيارة رياضية مستقبلية، مصنوع من معدن فضي بسمك 5 مم. ويلمع السطح المعدني للسيارة مثل الفضة السائلة القادمة من المستقبل، وتتخللها لمسات من المعدن متعدد الألوان الذي يبدو سائلًا (الذهبي والنحاس والبرونز والأزرق القزحي). العجلات مصنوعة من المطاط الأسود، والمصابيح الأمامية الزجاجية تلقي توهجًا برتقاليًا دافئًا. النوافذ مصنوعة من الزجاج الرقيق، وعجلة القيادة مصنوعة من البلاستيك، وحتى التفاصيل الصغيرة - مثل مرآة الرؤية الخلفية - مرئية بوضوح. تحمل لوحة الترخيص الأمامية نقش \"Buzz me\" بأحرف سوداء على خلفية بيضاء. هذا هو الفن الكسري ثلاثي الأبعاد، وهو منحوتة خوارزمية توليدية. عرض ثلاثي الأبعاد، عالم فركتلي ثلاثي الأبعاد: 1.1. تخلق الخلفية الداكنة انطباعًا بأن الجسم يتوهج من الداخل بضوء برتقالي ساطع.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644098 fashion ai-image-prompts a high-resolution image of excellent quality, characterized by a wealth of detail and superb lighting. it is a hyper-realistic photograph captured with a 35mm lens at an aperture of f/1.8, featuring studio lighting in the style of a commercial portrait. in an extremely overgrown garden with tall grass rests a highly detailed, gleaming object in the form of a futuristic sports car, crafted from 5mm-thick silver metal. the car’s metallic surface shimmers like liquid silver from the future, interspersed with accents of multi-colored, fluid-looking metal (gold, copper, bronze, and iridescent blue). the wheels are made of black rubber, and the glass headlights cast a warm orange glow. the windows are fashioned from thin glass, the steering wheel is made of plastic, and even small details—such as the rearview mirror—are clearly visible. the front license plate bears the inscription \"buzz me\" in black letters on a white background. this is 3d fractal art—a generative, algorithmic sculpture. 3d rendering, 3d fractal world: 1.1. the dark background creates the impression that the object is glowing from within with a bright orange light. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644098",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f85a5b9-ac29-4bf0-a49d-a8547c476e57/original=true/1f85a5b9-ac29-4bf0-a49d-a8547c476e57.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644154",
+      "title": "Civitai prompt 148644154",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n  \"shot\": {\n    \"type\": \"cinematic editorial film still, daylight\",\n    \"aspect_ratio\": \"3:4 vertical\",\n    \"camera\": \"looking down at a gentle angle from a standing height a few metres away, slightly elevated, the frame tilted along the slope of the grass\",\n    \"lens\": \"85mm spherical lens at T2, compressing the waves of grass into stacked layers\",\n    \"film_stock\": \"Kodak Portra 400 colour negative, 35mm\",\n    \"print\": \"soft low-contrast print, muted greens, warm skin, fine organic grain\"\n  },\n  \"subjects\": [\n    {\n      \"role\": \"main subject\",\n      \"position\": \"upper middle of the frame, lying on a long diagonal from the left edge toward the right, sunk into the grass\",\n      \"description\": \"a woman in her twenties, strikingly beautiful, with a soft oval face, fair warm olive skin, defined dark brows, a straight fine nose, full softly closed lips and a gentle defined jaw\",\n      \"face\": \"turned slightly toward the camera, eyes closed, expression calm and serene as if asleep\",\n      \"hair\": \"dark brown hair pulled back loosely, tousled by the wind, a few fine strands lifting and standing up above her head\",\n      \"pose\": \"lying on her back in the deep grass, arms flung out loosely to either side, one hand open with the fingers relaxed, the dress spreading across the grass to the left\",\n      \"wardrobe\": \"a long flowing vermilion red-orange dress in light crinkled cotton with full billowing puff sleeves and a gathered skirt, silver bangles and rings on her right wrist and fingers\",\n      \"light_on_subject\": \"soft even daylight across her face and chest, gentle shading under the jaw, the red fabric glowing warm with soft folds\"\n    }\n  ],\n  \"setting\": {\n    \"ground\": \"a hillside meadow of very long wild grass, combed by the wind into rolling waves, ridges and hollows like a green sea\",\n    \"grass_detail\": \"fine blades in deep green and olive, their tips catching the light as pale silver and straw-blond seed heads, streaming in the direction of the wind\",\n    \"foreground\": \"large waves of grass filling the whole lower half of the frame, close to the lens and thrown out of focus\",\n    \"background\": \"more rolling grass rising toward the top of the frame, softening into the distance\"\n  },\n  \"lighting\": {\n    \"design\": \"soft natural daylight, low contrast, painterly and gentle\",\n    \"sources\": [\n      {\n        \"type\": \"key\",\n        \"position\": \"bright overcast sky, slightly from the upper left\",\n        \"colour\": \"soft neutral white with a faint warmth\",\n        \"effect\": \"wraps her face and dress evenly, giving smooth skin and soft shadows\"\n      },\n      {\n        \"type\": \"sheen\",\n        \"position\": \"grazing across the grass tops from the left\",\n        \"colour\": \"pale silver\",\n        \"effect\": \"the tips and seed heads of every grass wave glow pale and silky against the darker green hollows\"\n      }\n    ],\n    \"ratio\": \"gentle, everything readable, deep green shadows in the hollows of the grass\"\n  },\n  \"focus\": {\n    \"plane\": \"on her face and the red dress\",\n    \"sharp\": \"her closed eyes, lips, hand and bracelets, the grass immediately around her body\",\n    \"soft\": \"the large foreground grass waves melting into a dreamy green and silver blur, the far meadow softening behind her\"\n  },\n  \"atmosphere\": \"breezy, quiet, the grass in visible motion around her while she lies perfectly still\",\n  \"colour_grade\": {\n    \"palette\": [\"vermilion red-orange\", \"deep meadow green\", \"olive\", \"pale silver\", \"warm skin\"],\n    \"notes\": \"muted, earthy greens against one saturated red, soft blacks, gentle highlights, film colour\"\n  },\n  \"mood\": \"dreamy, romantic and peaceful, like a still from a pastoral art-house film; a beautiful woman asleep in a sea of wind-blown grass\",\n  \"cinematic_effects\": [\n    \"soft overcast daylight with silky grass highlights\",\n    \"telephoto compression of the grass waves\",\n    \"shallow depth of field with a heavy out-of-focus foreground\",\n    \"motion blur in the wind-blown grass tips\",\n    \"gentle halation on the brightest grass seeds\",\n    \"fine 35mm film grain\",\n    \"soft vignette\",\n    \"vertical frame\"\n  ]\n}",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644154",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28bda441-28f6-4cba-97e1-6606e60e7abe/original=true/28bda441-28f6-4cba-97e1-6606e60e7abe.jpeg",
+      "model": "FineView-MMh3image-int8-pruned-ComfyMCP",
+      "model_version_ids": [],
+      "width": 2720,
+      "height": 1536,
+      "seed": 229552927114056,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480352+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "47af48fa7cd7429199c32ee94a08ee9ecb6ae7927f2a5b9cabbb5601bdba014d",
+      "prompt_ar": "{\n  \"طلقة\": {\n    \"type\": \"فيلم تحريري سينمائي ثابت، في وضح النهار\"،\n    \"نسبة العرض إلى الارتفاع\": \"عمودي 3:4\"،\n    \"الكاميرا\": \"النظر إلى الأسفل بزاوية لطيفة من ارتفاع واقف على بعد بضعة أمتار، مرتفع قليلاً، والإطار مائل على طول منحدر العشب\"،\n    \"lens\": \"عدسة كروية مقاس 85 مم عند T2، تضغط موجات العشب إلى طبقات مكدسة\"،\n    \"film_stock\": \"Kodak Portra 400 لون سلبي، 35 ملم\"،\n    \"print\": \"طباعة ناعمة منخفضة التباين، لون أخضر صامت، بشرة دافئة، حبيبات عضوية دقيقة\"\n  },\n  \"المواضيع\": [\n    {\n      \"الدور\": \"الموضوع الرئيسي\"،\n      \"position\": \"المنتصف العلوي للإطار، مستلقيًا على شكل قطري طويل من الحافة اليسرى نحو اليمين، غارقًا في العشب\"،\n      \"الوصف\": \"امرأة في العشرينيات من عمرها، جميلة بشكل لافت للنظر، ذات وجه بيضاوي ناعم، وبشرة زيتونية فاتحة اللون، وحواجب داكنة محددة، وأنف مستقيم ناعم، وشفاه مغلقة بالكامل وفك لطيف محدد\"،\n      \"الوجه\": \"استدار قليلاً نحو الكاميرا، وعيناه مغمضتان، والتعبير هادئ وهادئ كما لو كان نائماً\"،\n      \"شعر\": \"شعر بني غامق منسدل إلى الخلف، أشعث بفعل الريح، وبعض الخصلات الدقيقة ترتفع وتقف فوق رأسها\"،\n      \"وضعية\": \"مستلقية على ظهرها في العشب العميق، وذراعاها منتشرتان بشكل غير محكم على الجانبين، وإحدى يديها مفتوحة وأصابعها مسترخية، والفستان منتشر عبر العشب إلى اليسار\"،\n      \"خزانة الملابس\": \"فستان طويل منسدل باللون الأحمر والبرتقالي من القطن المجعد الفاتح بأكمام منتفخة كاملة وتنورة مجمعة وأساور وخواتم فضية على معصمها وأصابعها اليمنى\"،\n      \"light_on_subject\": \"ضوء النهار ناعم على وجهها وصدرها، وتظليل لطيف تحت الفك، والقماش الأحمر يتوهج دافئًا مع طيات ناعمة\"\n    }\n  ]،\n  \"الإعداد\": {\n    \"الأرض\": \"مرج على سفح التل من العشب البري الطويل جدًا، تمشطه الرياح إلى أمواج متموجة وتلال وتجويفات مثل البحر الأخضر\"،\n    \"grass_detail\": \"شفرات دقيقة باللون الأخضر الداكن والزيتوني، أطرافها تلتقط الضوء كرؤوس بذور فضية شاحبة وأشقر قش، تتدفق في اتجاه الريح\"،\n    \"المقدمة\": \"موجات كبيرة من العشب تملأ النصف السفلي من الإطار بالكامل، بالقرب من العدسة ويتم إخراجها خارج التركيز\"،\n    \"background\": \"المزيد من العشب المتدحرج يرتفع نحو أعلى الإطار، ويلين في المسافة\"\n  },\n  \"الإضاءة\": {\n    \"design\": \"ضوء نهار طبيعي ناعم، تباين منخفض، تصويري ولطيف\"،\n    \"المصادر\": [\n      {\n        \"نوع\": \"مفتاح\"،\n        \"position\": \"سماء ملبدة بالغيوم، قليلاً من أعلى اليسار\"،\n        \"اللون\": \"أبيض محايد ناعم مع دفء خافت\"،\n        \"effect\": \"يغلف وجهها ويرتدي ملابسها بالتساوي، مما يعطي بشرة ناعمة وظلال ناعمة\"\n      },\n      {\n        \"نوع\": \"لمعان\"،\n        \"position\": \"الرعي عبر قمم العشب من اليسار\"،\n        \"اللون\": \"فضي شاحب\"،\n        \"التأثير\": \"تتوهج الأطراف ورؤوس البذور لكل موجة عشبية شاحبة وحريرية على التجاويف الخضراء الداكنة\"\n      }\n    ]،\n    \"نسبة\": \"لطيف، كل شيء قابل للقراءة، ظلال خضراء عميقة في تجاويف العشب\"\n  },\n  \"التركيز\": {\n    \"الطائرة\": \"على وجهها والفستان الأحمر\"،\n    \"حادة\": \"عيناها المغلقتان، وشفتاها، ويدها وأساورها، والعشب المحيط بجسدها مباشرة\"،\n    \"ناعم\": \"موجات العشب الكبيرة في المقدمة تذوب في ضبابية حالمة باللونين الأخضر والفضي، والمرج البعيد ينعم خلفها\"\n  },\n  \"الغلاف الجوي\": \"منسم، هادئ، والعشب يتحرك بشكل مرئي حولها بينما هي مستلقية بثبات تام\"،\n  \"درجة_اللون\": {\n    \"لوحة الألوان\": [\"أحمر قرمزي برتقالي\"، \"أخضر مرج عميق\"، \"زيتوني\"، \"فضي شاحب\"، \"بشرة دافئة\"]،\n    \"ملاحظات\": \"لون أخضر ترابي صامت مقابل لون أحمر مشبع، ولون أسود ناعم، وإضاءات لطيفة، ولون فيلم\"\n  },\n  \"الحالة المزاجية\": \"حالمة، رومانسية وهادئة، مثل لقطة من فيلم فني رعوي؛ امرأة جميلة نائمة في بحر من العشب الذي ذرته الرياح\"،\n  \"مؤثرات_سينمائية\": [\n    \"ضوء النهار الملبد بالغيوم الناعم مع تسليط الضوء على العشب الحريري\"،\n    \"ضغط الصورة المقربة لموجات العشب\"،\n    \"عمق مجال ضحل مع مقدمة ثقيلة خارج نطاق التركيز\"،\n    \"ضبابية الحركة في أطراف العشب التي ذرتها الرياح\"،\n    \"هال لطيف على بذور العشب اللامعة\"،\n    \"حبوب فيلم دقيقة مقاس 35 مم\" ،\n    \"المقالة القصيرة الناعمة\" ،\n    \"الإطار العمودي\"\n  ]\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644154 fashion ai-image-prompts { \"shot\": { \"type\": \"cinematic editorial film still, daylight\", \"aspect_ratio\": \"3:4 vertical\", \"camera\": \"looking down at a gentle angle from a standing height a few metres away, slightly elevated, the frame tilted along the slope of the grass\", \"lens\": \"85mm spherical lens at t2, compressing the waves of grass into stacked layers\", \"film_stock\": \"kodak portra 400 colour negative, 35mm\", \"print\": \"soft low-contrast print, muted greens, warm skin, fine organic grain\" }, \"subjects\": [ { \"role\": \"main subject\", \"position\": \"upper middle of the frame, lying on a long diagonal from the left edge toward the right, sunk into the grass\", \"description\": \"a woman in her twenties, strikingly beautiful, with a soft oval face, fair warm olive skin, defined dark brows, a straight fine nose, full softly closed lips and a gentle defined jaw\", \"face\": \"turned slightly toward the camera, eyes closed, expression calm and serene as if asleep\", \"hair\": \"dark brown hair pulled back loosely, tousled by the wind, a few fine strands lifting and standing up above her head\", \"pose\": \"lying on her back in the deep grass, arms flung out loosely to either side, one hand open with the fingers relaxed, the dress spreading across the grass to the left\", \"wardrobe\": \"a long flowing vermilion red-orange dress in light crinkled cotton with full billowing puff sleeves and a gathered skirt, silver bangles and rings on her right wrist and fingers\", \"light_on_subject\": \"soft even daylight across her face and chest, gentle shading under the jaw, the red fabric glowing warm with soft folds\" } ], \"setting\": { \"ground\": \"a hillside meadow of very long wild grass, combed by the wind into rolling waves, ridges and hollows like a green sea\", \"grass_detail\": \"fine blades in deep green and olive, their tips catching the light as pale silver and straw-blond seed heads, streaming in the direction of the wind\", \"foreground\": \"large waves of grass filling the whole lower half of the frame, close to the lens and thrown out of focus\", \"background\": \"more rolling grass rising toward the top of the frame, softening into the distance\" }, \"lighting\": { \"design\": \"soft natural daylight, low contrast, painterly and gentle\", \"sources\": [ { \"type\": \"key\", \"position\": \"bright overcast sky, slightly from the upper left\", \"colour\": \"soft neutral white with a faint warmth\", \"effect\": \"wraps her face and dress evenly, giving smooth skin and soft shadows\" }, { \"type\": \"sheen\", \"position\": \"grazing across the grass tops from the left\", \"colour\": \"pale silver\", \"effect\": \"the tips and seed heads of every grass wave glow pale and silky against the darker green hollows\" } ], \"ratio\": \"gentle, everything readable, deep green shadows in the hollows of the grass\" }, \"focus\": { \"plane\": \"on her face and the red dress\", \"sharp\": \"her closed eyes, lips, hand and bracelets, the grass immediately around her body\", \"soft\": \"the large foreground grass waves melting into a dreamy green and silver blur, the far meadow softening behind her\" }, \"atmosphere\": \"breezy, quiet, the grass in visible motion around her while she lies perfectly still\", \"colour_grade\": { \"palette\": [\"vermilion red-orange\", \"deep meadow green\", \"olive\", \"pale silver\", \"warm skin\"], \"notes\": \"muted, earthy greens against one saturated red, soft blacks, gentle highlights, film colour\" }, \"mood\": \"dreamy, romantic and peaceful, like a still from a pastoral art-house film; a beautiful woman asleep in a sea of wind-blown grass\", \"cinematic_effects\": [ \"soft overcast daylight with silky grass highlights\", \"telephoto compression of the grass waves\", \"shallow depth of field with a heavy out-of-focus foreground\", \"motion blur in the wind-blown grass tips\", \"gentle halation on the brightest grass seeds\", \"fine 35mm film grain\", \"soft vignette\", \"vertical frame\" ] } civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644154",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28bda441-28f6-4cba-97e1-6606e60e7abe/original=true/28bda441-28f6-4cba-97e1-6606e60e7abe.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644116",
+      "title": "Civitai prompt 148644116",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "DFC, SFW, PG rating, ultra realistic, cinematic bright lighting, endplay_domorph, Darth Vader made of black modeling clay, sitting backwards on a bright yellow playdough toilet, holding a giant pizza slice with melted cheese, wearing his iconic helmet, tiny toy ducks arranged around his feet, miniature red skateboard under one foot, absurd funny scene, playful dark humor, colorful playdough bathroom, intricate clay details, realistic handcrafted modeling clay surface, studio photography, no humans, everything made of playdough, extremely detailed, high quality",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644116",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e705b47b-02a2-4ecc-9a17-b630e8bccace/original=true/e705b47b-02a2-4ecc-9a17-b630e8bccace.jpeg",
+      "model_version_ids": [
+        733698,
+        1759168
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 986516968,
+      "negative_prompt": "text, watermark, logo, low quality, worst quality, bad compostion, poor, low effort, extra limbs, nsfw, human",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480366+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0366069351a58c41a204697c598497ad0476a6d8d740e6ecdec0eae6801f1517",
+      "prompt_ar": "DFC، SFW، تصنيف PG، واقعي للغاية، إضاءة سينمائية ساطعة، endplay_domorph، دارث فيدر مصنوع من الطين الأسود، يجلس للخلف على مرحاض العجين الأصفر الزاهي، يحمل شريحة بيتزا عملاقة مع الجبن الذائب، يرتدي خوذته الشهيرة، لعبة البط الصغيرة مرتبة حول قدميه، لوح تزلج أحمر مصغر تحت قدم واحدة، مشهد مضحك سخيف، فكاهة داكنة مرحة، حمام من العجين الملون، تفاصيل الطين المعقدة، سطح الطين الواقعي المصنوع يدويًا، تصوير الاستوديو، لا البشر، كل شيء مصنوع من عجينة اللعب، مفصل للغاية، عالي الجودة",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148644116 image ai-image-prompts dfc, sfw, pg rating, ultra realistic, cinematic bright lighting, endplay_domorph, darth vader made of black modeling clay, sitting backwards on a bright yellow playdough toilet, holding a giant pizza slice with melted cheese, wearing his iconic helmet, tiny toy ducks arranged around his feet, miniature red skateboard under one foot, absurd funny scene, playful dark humor, colorful playdough bathroom, intricate clay details, realistic handcrafted modeling clay surface, studio photography, no humans, everything made of playdough, extremely detailed, high quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644116",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e705b47b-02a2-4ecc-9a17-b630e8bccace/original=true/e705b47b-02a2-4ecc-9a17-b630e8bccace.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644115",
+      "title": "Civitai prompt 148644115",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "DFC, SFW, PG rating, ultra realistic, cinematic bright lighting, endplay_domorph, Darth Vader made entirely of colorful playdough, sitting on a miniature playdough toilet, holding an enormous triangular slice of pepperoni pizza, one hand raised dramatically, tiny yellow rubber ducks floating around him, miniature skateboard leaning against the toilet, hilarious relaxed contemplative pose, colorful modeling clay environment, everything made of playdough, highly detailed clay textures, macro photography, vibrant colors, sharp focus, no humans, no realistic skin, masterpiece, high quality",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644115",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/435c95cd-050a-4e91-ba8f-e0fd8a9bb732/original=true/435c95cd-050a-4e91-ba8f-e0fd8a9bb732.jpeg",
+      "model_version_ids": [
+        733698,
+        1759168
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1574686278,
+      "negative_prompt": "text, watermark, logo, low quality, worst quality, bad compostion, poor, low effort, extra limbs, nsfw, human",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480379+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2b56deb38619de5907d261abd4a4ff2059d1d8797348f5bf6b8085fe61891f94",
+      "prompt_ar": "DFC، SFW، تصنيف PG، واقعي للغاية، إضاءة سينمائية ساطعة، endplay_domorph، دارث فيدر مصنوع بالكامل من عجينة اللعب الملونة، يجلس على مرحاض صغير من عجينة اللعب، يحمل شريحة مثلثة ضخمة من بيتزا البيبروني، يد واحدة مرفوعة بشكل كبير، بط مطاطي أصفر صغير يطفو حوله، لوح تزلج صغير يميل على المرحاض، وضعية تأملية مرحة ومرحة، بيئة طينية ملونة، كل شيء مصنوع من عجينة اللعب، نسيج طين مفصل للغاية، تصوير فوتوغرافي عن قرب، نابض بالحياة ألوان، تركيز حاد، لا بشر، لا جلد واقعي، تحفة، جودة عالية",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148644115 image ai-image-prompts dfc, sfw, pg rating, ultra realistic, cinematic bright lighting, endplay_domorph, darth vader made entirely of colorful playdough, sitting on a miniature playdough toilet, holding an enormous triangular slice of pepperoni pizza, one hand raised dramatically, tiny yellow rubber ducks floating around him, miniature skateboard leaning against the toilet, hilarious relaxed contemplative pose, colorful modeling clay environment, everything made of playdough, highly detailed clay textures, macro photography, vibrant colors, sharp focus, no humans, no realistic skin, masterpiece, high quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644115",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/435c95cd-050a-4e91-ba8f-e0fd8a9bb732/original=true/435c95cd-050a-4e91-ba8f-e0fd8a9bb732.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644015",
+      "title": "Civitai prompt 148644015",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "DFC, 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, deadpan expression, looking at viewer, wearing (suit of armor made of deep fried & crispy breading:1.4), deep-fried dress, (battered coating:1.3), thick puffy doughy layer, (craggy batter:1.3), bumpy uneven fried coating, irregular peaks, (crispy breading:1.3), breadcrumb crust, (crunchy ridges:1.2), crispy folds catching light, (golden-orange color:1.3), rich amber-orange hue, (greasy sheen:1.2), glistening oily highlights, fried texture, holding a fried drumstick, dipping sauce cup on table, fast food diner background, warm booth lighting, steam rising, rim light, depth of field, sharp focus, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644015",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6d5de7c-9917-4330-9529-747262da95e9/original=true/f6d5de7c-9917-4330-9529-747262da95e9.jpeg",
+      "model_version_ids": [
+        733698,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 882678631,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, low score, bad score, average score, smooth plastic, raw meat, pale uncooked dough, metallic, chrome, steel, dull, dry, matte finish, washed out colors",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480394+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0abbc116dba9f4ab65ed9ec76d8e61f7b857855fa967ac72c2b33cfd0590e20c",
+      "prompt_ar": "DFC، فتاة واحدة، منفردة، شعر أسود مستقيم بطول الكتفين، غرة حادة أنيقة، عيون بنية داكنة دافئة، علامة جمال صغيرة تحت العين اليمنى، تعبير جامد، تنظر إلى المشاهد، ترتدي (بدلة درع مصنوعة من الخبز المقلي والمقرمش: 1.4)، فستان مقلي، (طلاء مكسر: 1.3)، طبقة عجين سميكة منتفخة، (العجين الصخري: 1.3)، طبقة مقلية غير متساوية وعر، قمم غير منتظمة، (خبز مقرمش: 1.3)، قشرة فتات الخبز، (حواف مقرمشة: 1.2)، طيات مقرمشة تلتقط الضوء، (اللون البرتقالي الذهبي: 1.3)، لون برتقالي-عنبري غني، (لمعان دهني: 1.2)، نقاط زيتية لامعة، نسيج مقلي، عقد أفخاذ مقلية، كوب صلصة غمس على الطاولة، خلفية مطعم للوجبات السريعة، إضاءة مقصورة دافئة، ارتفاع البخار، ضوء الحافة، عمق المجال، تركيز حاد، تحفة، درجة عالية، درجة رائعة، سخافات",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148644015 food ai-image-prompts dfc, 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, deadpan expression, looking at viewer, wearing (suit of armor made of deep fried & crispy breading:1.4), deep-fried dress, (battered coating:1.3), thick puffy doughy layer, (craggy batter:1.3), bumpy uneven fried coating, irregular peaks, (crispy breading:1.3), breadcrumb crust, (crunchy ridges:1.2), crispy folds catching light, (golden-orange color:1.3), rich amber-orange hue, (greasy sheen:1.2), glistening oily highlights, fried texture, holding a fried drumstick, dipping sauce cup on table, fast food diner background, warm booth lighting, steam rising, rim light, depth of field, sharp focus, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644015",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6d5de7c-9917-4330-9529-747262da95e9/original=true/f6d5de7c-9917-4330-9529-747262da95e9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643997",
+      "title": "Civitai prompt 148643997",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "DFC, 1other, solo, (darth vader helmet and suit made of deep fried & crispy breading:1.4), deep-fried armor, (battered coating:1.4), thick puffy crunchy shell wrapping body, (craggy batter:1.3), bumpy uneven fried crust, irregular crispy peaks, (crispy breading:1.3), breadcrumbs clinging to surface, (crunchy ridges:1.3), deep fried striations, (golden-orange color:1.3), rich amber-gold hue, (greasy sheen:1.2), glistening oil highlights fresh from fryer, fried texture, sitting on a (toilet made of deep fried & crispy breading:1.3), reading a greasy newspaper, holding a (rubber duck made of deep fried batter:1.3), fast food kitchen background, deep fryer baskets, warm commercial heat lamp lighting, comedic scene, sharp focus, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643997",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bdef06-c4c4-4d60-a242-fbb476ec9644/original=true/78bdef06-c4c4-4d60-a242-fbb476ec9644.jpeg",
+      "model_version_ids": [
+        733698,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 371045637,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, low score, bad score, average score, smooth plastic, raw meat, pale uncooked dough, metallic, chrome, steel, dull, dry, matte finish, washed out colors",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480409+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7ebed9ef64a1528a467f9397f6a9b1f6b09a311133fabca8a21bed97d9a952eb",
+      "prompt_ar": "DFC، 1 آخر، منفرد، (خوذة دارث فيدر وبدلة مصنوعة من الخبز المقلي والمقرمش: 1.4)، درع مقلي، (طلاء مكسر: 1.4)، غلاف سميك منتفخ ومقرمش، (العجين الصخري: 1.3)، قشرة مقلية غير متساوية وعر، قمم مقرمشة غير منتظمة، (البقسماط المقرمش: 1.3)، فتات الخبز تتشبث بالسطح، (التلال المقرمشة: 1.3)، مقلي بعمق التصدعات، (اللون الذهبي البرتقالي: 1.3)، لون العنبر الذهبي الغني، (لمعان دهني: 1.2)، يسلط الضوء على الزيت اللامع الطازج من المقلاة، الملمس المقلي، الجلوس على (مرحاض مصنوع من الخبز المقلي والمقرمش: 1.3)، قراءة صحيفة دهنية، عقد (بطة مطاطية مصنوعة من الخليط المقلي العميق: 1.3)، خلفية مطبخ الوجبات السريعة، سلال المقلاة العميقة، إضاءة مصباح الحرارة التجارية الدافئة، مشهد كوميدي، حاد التركيز، تحفة، درجة عالية، درجة كبيرة، سخافات",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643997 food ai-image-prompts dfc, 1other, solo, (darth vader helmet and suit made of deep fried & crispy breading:1.4), deep-fried armor, (battered coating:1.4), thick puffy crunchy shell wrapping body, (craggy batter:1.3), bumpy uneven fried crust, irregular crispy peaks, (crispy breading:1.3), breadcrumbs clinging to surface, (crunchy ridges:1.3), deep fried striations, (golden-orange color:1.3), rich amber-gold hue, (greasy sheen:1.2), glistening oil highlights fresh from fryer, fried texture, sitting on a (toilet made of deep fried & crispy breading:1.3), reading a greasy newspaper, holding a (rubber duck made of deep fried batter:1.3), fast food kitchen background, deep fryer baskets, warm commercial heat lamp lighting, comedic scene, sharp focus, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643997",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78bdef06-c4c4-4d60-a242-fbb476ec9644/original=true/78bdef06-c4c4-4d60-a242-fbb476ec9644.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643919",
+      "title": "Civitai prompt 148643919",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn Monochromatic oil painting of a Plesiosaurs with a bird-like beak emerging from turbulent ocean waves. The composition uses dynamic movement, with the Plesiosaurs' powerful, angled body cutting through the water. The grayscale palette emphasizes contrast and texture, highlighting the rough, foamy waves against the sleek, smooth skin of the Plesiosaur. Light reflects off the water's surface, creating a sense of depth and realism. The Plesiosaurs' beak is sharp and defined, adding a sense of mystery and otherworldliness. The style blends realism with a hint of surrealism, reminiscent of 19th-century marine paintings but with a modern digital twist. The use of light and texture creates a dramatic, almost ethereal atmosphere..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643919",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f307dded-eafe-4b09-8dff-1af8c3d04632/original=true/f307dded-eafe-4b09-8dff-1af8c3d04632.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 558862793,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480423+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a84b9d391a4df9748bd59aecf646799afcb429d08d45d1fd0fb5c0fa082aa529",
+      "prompt_ar": "ZdkBn لوحة زيتية أحادية اللون للبليزوصورات بمنقار يشبه الطيور يخرج من أمواج المحيط المضطربة. يستخدم التكوين حركة ديناميكية، حيث يقطع جسم البليزوصورات القوي والمائل عبر الماء. تؤكد لوحة التدرج الرمادي على التباين والملمس، وتسلط الضوء على الموجات الخشنة والرغوية على بشرة البليزوصور الناعمة والناعمة. ينعكس الضوء عن سطح الماء، مما يخلق إحساسًا بالعمق والواقعية. منقار البليزوصورات حاد ومحدد، مما يضفي إحساسًا بالغموض والعالم الآخر. يمزج الأسلوب بين الواقعية ولمحة من السريالية، مما يذكرنا باللوحات البحرية في القرن التاسع عشر ولكن مع لمسة رقمية حديثة. استخدام الضوء والملمس يخلق جوًا دراميًا وأثيريًا تقريبًا..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148643919 image ai-image-prompts zdkbn monochromatic oil painting of a plesiosaurs with a bird-like beak emerging from turbulent ocean waves. the composition uses dynamic movement, with the plesiosaurs' powerful, angled body cutting through the water. the grayscale palette emphasizes contrast and texture, highlighting the rough, foamy waves against the sleek, smooth skin of the plesiosaur. light reflects off the water's surface, creating a sense of depth and realism. the plesiosaurs' beak is sharp and defined, adding a sense of mystery and otherworldliness. the style blends realism with a hint of surrealism, reminiscent of 19th-century marine paintings but with a modern digital twist. the use of light and texture creates a dramatic, almost ethereal atmosphere..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643919",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f307dded-eafe-4b09-8dff-1af8c3d04632/original=true/f307dded-eafe-4b09-8dff-1af8c3d04632.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643915",
+      "title": "Civitai prompt 148643915",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting depicts a prehistoric scene with two large, detailed lizards, one in the foreground, a Dimetrodon, and one in the background, a Varanosaurus, set against a rugged, canyon-like landscape. The composition uses a strong diagonal line created by the dinosaurs' bodies, leading the viewer's eye through the scene. The color palette is vibrant, with warm reds and oranges of the rocky terrain contrasting with the cooler greens and blues of the distant cliffs and sky. The use of light emphasizes the texture of the dinosaurs' scales and the rough surface of the rocks. The style blends realism with a slightly exaggerated, almost surreal quality, reminiscent of the Pre-Raphaelite movement's attention to detail and dramatic lighting. The textures are rich, with visible brushstrokes adding depth and realism to the scene..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643915",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b573745e-4d9e-415d-a274-603b9aeac10c/original=true/b573745e-4d9e-415d-a274-603b9aeac10c.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 1963168492,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480439+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "10bdeb2a80aec0ace2c05de3850a4421ae5a95fb50a926af7ae549bc4dc404bd",
+      "prompt_ar": "تصور اللوحة الزيتية ZdkBn مشهدًا من عصور ما قبل التاريخ مع سحليتين كبيرتين ومفصلتين، واحدة في المقدمة، ديميترودون، والأخرى في الخلفية، فارانوصور، في مواجهة مناظر طبيعية وعرة تشبه الوادي. يستخدم التكوين خطًا قطريًا قويًا أنشأته أجسام الديناصورات، ليقود عين المشاهد عبر المشهد. لوحة الألوان نابضة بالحياة، حيث يتناقض اللون الأحمر والبرتقالي الدافئ للتضاريس الصخرية مع اللون الأخضر والأزرق البارد للمنحدرات والسماء البعيدة. يؤكد استخدام الضوء على نسيج حراشف الديناصورات والسطح الخشن للصخور. يمزج الأسلوب بين الواقعية والجودة السريالية المبالغ فيها قليلًا، والتي تذكرنا باهتمام حركة ما قبل الرفائيلية بالتفاصيل والإضاءة الدرامية. الأنسجة غنية، مع ضربات فرشاة مرئية تضيف عمقًا وواقعية إلى المشهد..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643915 photography ai-image-prompts zdkbn oil painting depicts a prehistoric scene with two large, detailed lizards, one in the foreground, a dimetrodon, and one in the background, a varanosaurus, set against a rugged, canyon-like landscape. the composition uses a strong diagonal line created by the dinosaurs' bodies, leading the viewer's eye through the scene. the color palette is vibrant, with warm reds and oranges of the rocky terrain contrasting with the cooler greens and blues of the distant cliffs and sky. the use of light emphasizes the texture of the dinosaurs' scales and the rough surface of the rocks. the style blends realism with a slightly exaggerated, almost surreal quality, reminiscent of the pre-raphaelite movement's attention to detail and dramatic lighting. the textures are rich, with visible brushstrokes adding depth and realism to the scene..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643915",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b573745e-4d9e-415d-a274-603b9aeac10c/original=true/b573745e-4d9e-415d-a274-603b9aeac10c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643901",
+      "title": "Civitai prompt 148643901",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting depicts four Ichthyosaurs leaping out of the ocean, captured in a dynamic and lively composition. The artist uses a realistic style, with meticulous attention to the Ichthyosaurs' sleek, shiny bodies and their expressive, open mouths. The use of color is naturalistic, with deep blues and greens in the water, contrasted by the dark, almost black, shades of the Ichthyosaurs' backs and the lighter, more translucent hues of their bellies. Light reflects off the water's surface, creating a sense of movement and vitality. The brushstrokes are visible but controlled, adding texture to the water and the Ichthyosaurs' skin. The painting evokes a sense of freedom and joy, characteristic of Romanticism, with its emphasis on nature's beauty and the sublime experience of marine life..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643901",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b170271-c943-41bd-ab93-83d3ce326a7e/original=true/8b170271-c943-41bd-ab93-83d3ce326a7e.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 1581745617,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480455+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f1858839079206a84e954e1ef2aaed9ce880a73004d95b3f97c036504c6dbeda",
+      "prompt_ar": "تصور اللوحة الزيتية ZdkBn أربعة من الإكثيوصورات وهم يقفزون من المحيط، وقد تم التقاطها في تركيبة ديناميكية وحيوية. يستخدم الفنان أسلوبًا واقعيًا، مع الاهتمام الدقيق بأجسام الإكثيوصورات اللامعة والأفواه المعبرة والمفتوحة. يعد استخدام الألوان أمرًا طبيعيًا، مع وجود اللون الأزرق والأخضر العميق في الماء، والذي يتناقض مع الظلال الداكنة، السوداء تقريبًا، لظهور الإكثيوصورات والألوان الفاتحة والأكثر شفافية لبطونها. ينعكس الضوء عن سطح الماء، مما يخلق إحساسًا بالحركة والحيوية. تكون ضربات الفرشاة مرئية ولكن يتم التحكم فيها، مما يضيف ملمسًا إلى الماء وجلد الإكثيوصورات. تثير اللوحة الشعور بالحرية والبهجة، وهي سمة من سمات الرومانسية، مع تأكيدها على جمال الطبيعة وتجربة الحياة البحرية السامية..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643901 photography ai-image-prompts zdkbn oil painting depicts four ichthyosaurs leaping out of the ocean, captured in a dynamic and lively composition. the artist uses a realistic style, with meticulous attention to the ichthyosaurs' sleek, shiny bodies and their expressive, open mouths. the use of color is naturalistic, with deep blues and greens in the water, contrasted by the dark, almost black, shades of the ichthyosaurs' backs and the lighter, more translucent hues of their bellies. light reflects off the water's surface, creating a sense of movement and vitality. the brushstrokes are visible but controlled, adding texture to the water and the ichthyosaurs' skin. the painting evokes a sense of freedom and joy, characteristic of romanticism, with its emphasis on nature's beauty and the sublime experience of marine life..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643901",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b170271-c943-41bd-ab93-83d3ce326a7e/original=true/8b170271-c943-41bd-ab93-83d3ce326a7e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643898",
+      "title": "Civitai prompt 148643898",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting features a deeply expressive portrait of a musician playing an acoustic guitar. The composition uses dramatic chiaroscuro, with strong contrasts between light and dark to highlight the musician's face and guitar. The musician's white hat and striped garment create a vivid contrast against the darker background, drawing the viewer's eye to his expressive, weathered face. The use of color is restrained but effective, with the musician's clothing providing subtle variations in white, red, and blue. The brushstrokes are visible, adding texture and depth to the fabric and skin. The background is largely shadowed, emphasizing the musician's presence and creating a sense of intimacy. The painting's style suggests influences of Baroque or Romantic movements, with a focus on emotional expression and dramatic lighting. The musician's intense gaze and the presence of a second, shadowy figure add layers of narrative and symbolism..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643898",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/777f1a6d-2b1d-465e-8c68-8533a8358c7e/original=true/777f1a6d-2b1d-465e-8c68-8533a8358c7e.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 2906986307,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480472+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e5943fea1dd0fe9afe335e7e2595d763e32ae4851a1bd79588e4bd479cbbc588",
+      "prompt_ar": "تتميز اللوحة الزيتية ZdkBn بصورة معبرة بعمق لموسيقي يعزف على الجيتار الصوتي. يستخدم التكوين الإضاءة الدرامية، مع تناقضات قوية بين الضوء والظلام لتسليط الضوء على وجه الموسيقي والغيتار. تخلق قبعة الموسيقي البيضاء وملابسه المخططة تباينًا واضحًا مع الخلفية الداكنة، مما يجذب عين المشاهد إلى وجهه المعبّر والمتألم. كان استخدام الألوان مقيدًا ولكنه فعال، حيث توفر ملابس الموسيقي اختلافات دقيقة في اللون الأبيض والأحمر والأزرق. تكون ضربات الفرشاة مرئية، مما يضيف ملمسًا وعمقًا إلى القماش والجلد. الخلفية مظللة إلى حد كبير، مما يؤكد على حضور الموسيقي ويخلق إحساسًا بالحميمية. يوحي أسلوب اللوحة بتأثيرات الحركات الباروكية أو الرومانسية، مع التركيز على التعبير العاطفي والإضاءة الدرامية. نظرة العازف الشديدة ووجود شخصية ثانية غامضة تضيف طبقات من السرد والرمزية..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:25Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148643898 image ai-image-prompts zdkbn oil painting features a deeply expressive portrait of a musician playing an acoustic guitar. the composition uses dramatic chiaroscuro, with strong contrasts between light and dark to highlight the musician's face and guitar. the musician's white hat and striped garment create a vivid contrast against the darker background, drawing the viewer's eye to his expressive, weathered face. the use of color is restrained but effective, with the musician's clothing providing subtle variations in white, red, and blue. the brushstrokes are visible, adding texture and depth to the fabric and skin. the background is largely shadowed, emphasizing the musician's presence and creating a sense of intimacy. the painting's style suggests influences of baroque or romantic movements, with a focus on emotional expression and dramatic lighting. the musician's intense gaze and the presence of a second, shadowy figure add layers of narrative and symbolism..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643898",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/777f1a6d-2b1d-465e-8c68-8533a8358c7e/original=true/777f1a6d-2b1d-465e-8c68-8533a8358c7e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643892",
+      "title": "Civitai prompt 148643892",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting depicts a prehistoric landscape with a large dinosaur sauropod, the Barosaurus, walking across a sandy path. The composition uses a diagonal line created by the dinosaur's long neck and tail, guiding the viewer's eye from the foreground to the background. The use of color is vibrant, with lush green ferns and palm trees contrasting against the pale sandy path and the blue sky. Light is used to create depth, with shadows cast by the dinosaur and surrounding vegetation. The style is reminiscent of 19th-century scientific illustrations, with detailed and realistic textures in the dinosaur's skin and the natural environment. The overall effect is one of dynamic movement and a sense of ancient, untamed nature..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643892",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5277dfe4-c593-4027-a86c-964f21e627b5/original=true/5277dfe4-c593-4027-a86c-964f21e627b5.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 2300402423,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480488+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0a31887ef12d5f7ecbbaa58941eecf8f74f0671474cdfc7b8086621702f726cd",
+      "prompt_ar": "تصور اللوحة الزيتية ZdkBn منظرًا طبيعيًا من عصور ما قبل التاريخ مع ديناصور كبير صوروبود، الباروصور، يسير عبر مسار رملي. يستخدم التكوين خطًا قطريًا تم إنشاؤه بواسطة رقبة الديناصور الطويلة وذيله، لتوجيه عين المشاهد من المقدمة إلى الخلفية. يتميز استخدام الألوان بالحيوية، حيث تتناقض السرخس الخضراء وأشجار النخيل مع المسار الرملي الشاحب والسماء الزرقاء. يُستخدم الضوء لخلق العمق، مع الظلال التي يلقيها الديناصور والنباتات المحيطة. يذكرنا هذا الأسلوب بالرسوم التوضيحية العلمية في القرن التاسع عشر، مع أنسجة مفصلة وواقعية في جلد الديناصورات والبيئة الطبيعية. التأثير الإجمالي هو حركة ديناميكية وإحساس بالطبيعة القديمة الجامحة..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643892 photography ai-image-prompts zdkbn oil painting depicts a prehistoric landscape with a large dinosaur sauropod, the barosaurus, walking across a sandy path. the composition uses a diagonal line created by the dinosaur's long neck and tail, guiding the viewer's eye from the foreground to the background. the use of color is vibrant, with lush green ferns and palm trees contrasting against the pale sandy path and the blue sky. light is used to create depth, with shadows cast by the dinosaur and surrounding vegetation. the style is reminiscent of 19th-century scientific illustrations, with detailed and realistic textures in the dinosaur's skin and the natural environment. the overall effect is one of dynamic movement and a sense of ancient, untamed nature..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643892",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5277dfe4-c593-4027-a86c-964f21e627b5/original=true/5277dfe4-c593-4027-a86c-964f21e627b5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643885",
+      "title": "Civitai prompt 148643885",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn features a dynamic, monochromatic drawing with a strong emphasis on movement and action. The composition is balanced, with the central figure in the foreground, a cowboy in a wide-brimmed hat, pointing a gun towards the right, creating a focal point. The other figures on horseback are positioned diagonally, adding a sense of depth and motion. The use of black and white creates a stark contrast, enhancing the dramatic tension. The texture is rough, with visible cross-hatching and sketchy lines, evoking a sense of urgency and immediacy. The light source appears to come from the upper left, casting shadows that add depth to the figures and the surrounding foliage. The style resembles the work of the American Realist movement, with its emphasis on detailed, dynamic scenes. The overall effect is one of intense action and suspense, captured through expressive, energetic brushstrokes..<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643885",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e86446bb-55bb-44e4-a157-2cd26b09db29/original=true/e86446bb-55bb-44e4-a157-2cd26b09db29.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 90354671,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480504+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "03f409cb4efb83cc44ed2c63f7eac66725af94806d2553b06f82fcf7afe4d0e4",
+      "prompt_ar": "تتميز ZdkBn برسم ديناميكي أحادي اللون مع التركيز القوي على الحركة والحركة. التركيبة متوازنة، حيث يظهر الشكل المركزي في المقدمة، وهو راعي بقر يرتدي قبعة واسعة الحواف، ويوجه مسدسًا نحو اليمين، مما يخلق نقطة محورية. تم وضع الأشكال الأخرى على ظهور الخيل بشكل قطري، مما يضفي إحساسًا بالعمق والحركة. استخدام اللونين الأسود والأبيض يخلق تباينًا صارخًا، مما يعزز التوتر الدرامي. الملمس خشن، مع خطوط متقاطعة وخطوط واضحة، مما يثير إحساسًا بالإلحاح والفورية. يبدو أن مصدر الضوء يأتي من الجزء العلوي الأيسر، ويلقي ظلالاً تضيف عمقًا إلى الأشكال وأوراق الشجر المحيطة بها. يشبه الأسلوب عمل الحركة الواقعية الأمريكية، مع تركيزها على المشاهد الديناميكية التفصيلية. التأثير العام هو تأثير مكثف وتشويق، يتم التقاطه من خلال ضربات فرشاة معبرة وحيوية..<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148643885 image ai-image-prompts zdkbn features a dynamic, monochromatic drawing with a strong emphasis on movement and action. the composition is balanced, with the central figure in the foreground, a cowboy in a wide-brimmed hat, pointing a gun towards the right, creating a focal point. the other figures on horseback are positioned diagonally, adding a sense of depth and motion. the use of black and white creates a stark contrast, enhancing the dramatic tension. the texture is rough, with visible cross-hatching and sketchy lines, evoking a sense of urgency and immediacy. the light source appears to come from the upper left, casting shadows that add depth to the figures and the surrounding foliage. the style resembles the work of the american realist movement, with its emphasis on detailed, dynamic scenes. the overall effect is one of intense action and suspense, captured through expressive, energetic brushstrokes..<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643885",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e86446bb-55bb-44e4-a157-2cd26b09db29/original=true/e86446bb-55bb-44e4-a157-2cd26b09db29.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643882",
+      "title": "Civitai prompt 148643882",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting depicts a rhinoceros standing in a lush, dense forest. The composition uses a naturalistic style with detailed, realistic textures and a rich color palette. The rhino's dark, rough skin contrasts with the vibrant greens and blues of the forest. Light filters through the trees, creating dappled shadows on the rhino and the forest floor. The use of light and shadow adds depth and dimension. The forest background is dense with varied foliage, including tall trees and underbrush, creating a sense of wilderness. The brushstrokes are precise, particularly in the rhino's texture, while the foliage has a more impressionistic touch. The scene evokes a sense of solitude and natural beauty, characteristic of Romanticism. The artist employs a realistic yet slightly idealized approach to nature.<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643882",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b30dea7e-051a-46ba-b87d-0079a71e8c97/original=true/b30dea7e-051a-46ba-b87d-0079a71e8c97.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 64025084,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480520+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6a4b6529149b900869b9603191939ec8e483b897708773093587d29dab77f496",
+      "prompt_ar": "لوحة زيتية ZdkBn تصور وحيد القرن يقف في غابة كثيفة مورقة. يستخدم التكوين أسلوبًا طبيعيًا مع مواد مفصلة وواقعية ولوحة ألوان غنية. يتناقض جلد وحيد القرن الداكن والخشن مع الألوان الخضراء والزرقاء النابضة بالحياة في الغابة. يتسلل الضوء عبر الأشجار، مما يخلق ظلالاً مرقطة على وحيد القرن وأرضية الغابة. استخدام الضوء والظل يضيف العمق والبعد. خلفية الغابة كثيفة مع أوراق الشجر المتنوعة، بما في ذلك الأشجار الطويلة والشجيرات، مما يخلق إحساسًا بالبرية. ضربات الفرشاة دقيقة، خاصة في نسيج وحيد القرن، في حين أن أوراق الشجر لها لمسة أكثر انطباعية. يثير المشهد إحساسًا بالعزلة والجمال الطبيعي، وهو ما يميز الرومانسية. يستخدم الفنان نهجًا واقعيًا ولكنه مثالي بعض الشيء تجاه الطبيعة.<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643882 photography ai-image-prompts zdkbn oil painting depicts a rhinoceros standing in a lush, dense forest. the composition uses a naturalistic style with detailed, realistic textures and a rich color palette. the rhino's dark, rough skin contrasts with the vibrant greens and blues of the forest. light filters through the trees, creating dappled shadows on the rhino and the forest floor. the use of light and shadow adds depth and dimension. the forest background is dense with varied foliage, including tall trees and underbrush, creating a sense of wilderness. the brushstrokes are precise, particularly in the rhino's texture, while the foliage has a more impressionistic touch. the scene evokes a sense of solitude and natural beauty, characteristic of romanticism. the artist employs a realistic yet slightly idealized approach to nature.<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643882",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b30dea7e-051a-46ba-b87d-0079a71e8c97/original=true/b30dea7e-051a-46ba-b87d-0079a71e8c97.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643873",
+      "title": "Civitai prompt 148643873",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "ZdkBn oil painting features a prehistoric scene depicting Brachiosaurs feeding in a body of water.  The central long-necked Brachiosaur is partially submerged in a reflective body of water. The composition uses a split-level perspective, with the Brachiosaur in the foreground and another one in the background, creating depth. The color palette is earthy with greens, browns, and blues, emphasizing the natural environment. Light reflects off the water, adding a sense of realism and tranquility. The texture of the Brachiosaur's skin is detailed, with visible scales and muscles, while the rocky terrain and vegetation are rendered with a more impressionistic style. The use of light and shadow highlights the dinosaur's form and the water's surface. The painting belongs to the Romantic or Realist artistic movements, with a focus on nature and prehistoric life.<lora:ZdkBn_K2B-000006:1>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643873",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6a1cc54-cc21-4724-b0cf-0113bfca340c/original=true/a6a1cc54-cc21-4724-b0cf-0113bfca340c.jpeg",
+      "model": "krea2Turbo_v10_2951489",
+      "model_version_ids": [
+        3072332,
+        3463743
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 784070848,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480536+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8af3d214dcad2519d4d08baf208c8a0cef1339a114fd21482a79116e86b44d71",
+      "prompt_ar": "تتميز اللوحة الزيتية ZdkBn بمشهد ما قبل التاريخ الذي يصور البراكيوصورات وهي تتغذى في جسم مائي.  البراكيوصور المركزي طويل العنق مغمور جزئيًا في جسم مائي عاكس. يستخدم التكوين منظورًا منقسمًا، حيث يوجد البراكيوصور في المقدمة وآخر في الخلفية، مما يخلق العمق. لوحة الألوان ترابية مع الأخضر والبني والأزرق، مع التركيز على البيئة الطبيعية. ينعكس الضوء على الماء، مما يضفي إحساسًا بالواقعية والهدوء. تم تفصيل نسيج جلد البراكيوصور، بمقاييس وعضلات مرئية، في حين تم تقديم التضاريس الصخرية والنباتات بأسلوب أكثر انطباعية. يسلط استخدام الضوء والظل الضوء على شكل الديناصور وسطح الماء. تنتمي اللوحة إلى الحركات الفنية الرومانسية أو الواقعية، مع التركيز على الطبيعة وحياة ما قبل التاريخ.<lora:ZdkBn_K2B-000006:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:24Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148643873 photography ai-image-prompts zdkbn oil painting features a prehistoric scene depicting brachiosaurs feeding in a body of water. the central long-necked brachiosaur is partially submerged in a reflective body of water. the composition uses a split-level perspective, with the brachiosaur in the foreground and another one in the background, creating depth. the color palette is earthy with greens, browns, and blues, emphasizing the natural environment. light reflects off the water, adding a sense of realism and tranquility. the texture of the brachiosaur's skin is detailed, with visible scales and muscles, while the rocky terrain and vegetation are rendered with a more impressionistic style. the use of light and shadow highlights the dinosaur's form and the water's surface. the painting belongs to the romantic or realist artistic movements, with a focus on nature and prehistoric life.<lora:zdkbn_k2b-000006:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643873",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a6a1cc54-cc21-4724-b0cf-0113bfca340c/original=true/a6a1cc54-cc21-4724-b0cf-0113bfca340c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148644028",
+      "title": "Civitai prompt 148644028",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_7, (), (best quality), highly detailed, beautiful lighting, soft reflections, amazing composition, extremely detailed, , best quality, ultra-detailed, very aesthetic, absurdres, amazing quality, highly detailed, safe, , , unholy-aesthetic <-(Optional),masterpiece,best quality,amazing quality,very aesthetic,absurdres, unholy-aesthetic, unholy-detailing, , score_6_up, I score_5_up, score_4_up, Semi-real, SRS, , unholy-aesthetic <-(Optional), unholy-aesthetic, unholy-detailing, , score_6_up, score_5_up, score_4_up, Mangamast3r, masoq095, @masoq095, @Sleakj3, @Sleakj3\n1girl, standing, flustered, slender, petite, , black skinsuit, armor on legs, armor on chest, \ngirl: 1girl, Semi-real, SRS, ppka, POPOPOKA, red eyes, solid eyes, blue skin, black hair, long hair, confused, nervous, black bodysuit, scar across nose,  standing,  futuristic armor, white armor, armor plating, segmented armor, cheap articulated tall military helmet with neck guard, blue skin, light blue skin, dazed, large breasts,messy hair, raised hands, surrender, pov, grabbed by neck, \nmultiple angles, front side and rear view, pov,\nM4rk_G4vat1n0 @wintani, @geulani, @wintani, flat_color, habeli_flat_style,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148644028",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/037f05ae-d0d3-48d5-a403-57dc79a64923/original=true/037f05ae-d0d3-48d5-a403-57dc79a64923.jpeg",
+      "model_version_ids": [
+        3340766,
+        3350327,
+        3355912
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1376132215,
+      "negative_prompt": "nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, watermark, cross necklace, censored, censorship, mosaic censorship, watermark, cross necklace, bindi, futa, futanari, dolphin, penguin, 3d, skudd style, horse cock, nipples,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480554+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8968b00374a01238925b387dfbeab50db834edc25b96e20acef5e5e207845082",
+      "prompt_ar": "تحفة، أفضل جودة، Score_7، ()، (أفضل جودة)، مفصلة للغاية، إضاءة جميلة، انعكاسات ناعمة، تركيبة مذهلة، مفصلة للغاية، ، أفضل جودة، مفصلة للغاية، جمالية للغاية، سخافات، جودة مذهلة، مفصلة للغاية، آمنة،، ،، جمالية غير مقدسة <-(اختياري)، تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، سخافات، جمالية غير مقدسة، تفاصيل غير مقدسة، ، Score_6_up، I Score_5_up، Score_4_up، شبه حقيقي، SRS، ، جمالية غير مقدسة <-(اختياري)، جمالية غير مقدسة، تفاصيل غير مقدسة،، Score_6_up، Score_5_up، Score_4_up، Mangamast3r، masoq095، @masoq095، @Sleakj3، @Sleakj3\n1فتاة، واقفة، مرتبكة، نحيلة، صغيرة الحجم،، بدلة جلدية سوداء، درع على الساقين، درع على الصدر، \nفتاة: فتاة واحدة، شبه حقيقية، SRS، ppka، بوبوبوكا، عيون حمراء، عيون صلبة، بشرة زرقاء، شعر أسود، شعر طويل، مرتبكة، عصبية، بدلة سوداء، ندبة على الأنف، واقفة، درع مستقبلي، درع أبيض، طلاء درع، درع مجزأ، خوذة عسكرية طويلة مفصلية رخيصة مع واقي للرقبة، جلد أزرق، بشرة زرقاء فاتحة، في حالة ذهول، ثديين كبيرين، شعر فوضوي، أيدي مرفوعة، استسلام، وجهة نظر، إمساك من الرقبة، \nزوايا متعددة، الجانب الأمامي والخلفي، بوف،\nM4rk_G4vat1n0 @wintani، @geulani، @wintani، flat_color، habeli_flat_style،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:25Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148644028 image ai-image-prompts masterpiece, best quality, score_7, (), (best quality), highly detailed, beautiful lighting, soft reflections, amazing composition, extremely detailed, , best quality, ultra-detailed, very aesthetic, absurdres, amazing quality, highly detailed, safe, , , unholy-aesthetic <-(optional),masterpiece,best quality,amazing quality,very aesthetic,absurdres, unholy-aesthetic, unholy-detailing, , score_6_up, i score_5_up, score_4_up, semi-real, srs, , unholy-aesthetic <-(optional), unholy-aesthetic, unholy-detailing, , score_6_up, score_5_up, score_4_up, mangamast3r, masoq095, @masoq095, @sleakj3, @sleakj3 1girl, standing, flustered, slender, petite, , black skinsuit, armor on legs, armor on chest, girl: 1girl, semi-real, srs, ppka, popopoka, red eyes, solid eyes, blue skin, black hair, long hair, confused, nervous, black bodysuit, scar across nose, standing, futuristic armor, white armor, armor plating, segmented armor, cheap articulated tall military helmet with neck guard, blue skin, light blue skin, dazed, large breasts,messy hair, raised hands, surrender, pov, grabbed by neck, multiple angles, front side and rear view, pov, m4rk_g4vat1n0 @wintani, @geulani, @wintani, flat_color, habeli_flat_style, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148644028",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/037f05ae-d0d3-48d5-a403-57dc79a64923/original=true/037f05ae-d0d3-48d5-a403-57dc79a64923.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148643932",
+      "title": "Civitai prompt 148643932",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"prompt_title\":\"ULTRA DETAIL 3D FIGURINE — Christmas Goat Character\",\"artist_role\":{\"profession\":\"Senior 3D Character Artist\",\"experience\":\"30+ years in CGI and high-end figurine production\",\"target_software\":\"Blender 4.x/5.x\",\"render_engines\":[\"Cycles\"],\"primary_objective\":\"Create a hyper-realistic, high-fidelity 3D collectible figurine of a goat character holding a Christmas ornament.\"},\"project_definition\":{\"subject\":\"Anthropomorphic goat character with soft cream fur, golden horns, wearing a thick knit scarf, holding a large ornate Christmas ball\",\"character_type\":\"FANTASY CHARACTER\",\"art_direction\":\"PREMIUM COLLECTIBLE ART TOY\",\"detail_level\":\"EXTREME\",\"aspect_ratio\":\"9:16\",\"output_resolution\":\"2160x3840\"},\"material_and_texture_enhancement\":{\"core_principle\":\"PHOTOGRAPHIC MATERIAL RECONSTRUCTION\",\"texture_quality\":{\"resolution\":\"8K PBR\",\"surface_depth\":\"Physical micro-displacement and normal mapping\"},\"material_reconstruction\":{\"fur\":\"Hyper-realistic short cream fur with individual strand Grooming, varying thickness, natural flyaways\",\"fabric\":\"Chunky red-and-white knit scarf with visible yarn loops, loose tension threads, and realistic weave relief\",\"horn\":\"Polished golden horn material with subtle microscopic scratches, wax-like subsurface scattering\",\"ornament\":\"Metallic high-gloss red finish with embossed gold stars, clear-coat reflections, physical thickness\"},\"material_physics\":{\"workflow\":\"PBR metallic/roughness\",\"required_maps_and_properties\":[\"Albedo\",\"Roughness\",\"Normal\",\"Displacement\",\"AO\",\"SSS\"]}},\"01_global_geometry\":{\"silhouette\":\"Compact, balanced, stylized anthropomorphic posture\",\"surface_quality\":\"High-poly mesh with refined subdivision modeling\"},\"02_anatomical_sculpting\":{\"head\":\"Detailed goat muzzle, realistic nose texture, expressive large-iris eyes\",\"skin_and_facial_details\":\"Realistic pore density on nose, moist lip gloss for mouth area\"},\"03_hair_and_facial_hair\":\"Layered fur distribution, groomed short pile for body, slightly longer neck tuft\",\"04_clothing_and_fabric\":\"Thick wool knit scarf, physically simulated drape with compression folds around the neck\",\"06_armor_metal_and_hard_surfaces\":\"Ornament cap is brushed brass; main sphere is glossy red painted metal with high-reflectivity\",\"07_hands_gloves_and_footwear\":\"Textured dark goat hooves with natural keratin wear and scuffing\",\"12_materials_and_shaders\":{\"skin_shader\":\"Principled BSDF with SSS 0.05 radius\",\"fur_shader\":\"Principled Hair BSDF with anisotropic highlights\",\"ornament_shader\":\"Metallic paint shader with clear coat layer\"},\"15_scene_staging_and_ground\":{\"pedestal_policy\":\"NO pedestal, NO stand. Character sits directly on the floor with deep contact shadows\",\"ground_plane\":\"Matte, non-reflective studio floor\"},\"16_lighting_and_rendering\":{\"lighting_setup\":\"Three-point studio lighting with high-intensity rim light for silhouette separation\",\"render_settings\":{\"engine\":\"Cycles\",\"device\":\"GPU Compute\",\"samples\":2048,\"denoising\":true,\"color_management\":\"AgX\"},\"camera\":{\"lens\":\"85mm\",\"framing\":\"Vertical 9:16 portrait composition\",\"depth_of_field\":\"f/2.8 focus on eyes\"}},\"20_negative_prompt\":[\"pedestal\",\"display stand\",\"plinth\",\"figurine base\",\"podium\",\"mounting disc\",\"turntable\",\"plastic stand under feet\",\"circular base\",\"young adult\",\"young adult\",\"young adult\",\"young adult\",\"cartoon flat\",\"vector art\",\"drawing\",\"painting\",\"low resolution\",\"missing textures\",\"non-manifold geometry\"],\"blender_python_script\":\"import bpy\\nbpy.ops.mesh.primitive_plane_add(size=10, location=(0,0,0))\\nbpy.ops.object.camera_add(location=(0,-5,2))\\nbpy.context.scene.render.engine = 'CYCLES'\\nbpy.context.scene.cycles.device = 'GPU'\\nbpy.context.scene.render.resolution_x = 2160\\nbpy.context.scene.render.resolution_y = 3840\\nbpy.context.scene.cycles.samples = 2048\",\"positive_prompt\":\"Volumetric 3D character figurine, tangible physical collectible toy, sculpted vinyl and resin figure with palpable 3D depth, hyper-realistic natural fabric texture with visible woven threads and interlaced micro-fibers, natural cloth drape and double-stitched seams, authentic photographic material realism across entire model, ultra-detailed 8K PBR textures, tactile 3D micro-relief and surface depth, authentic physical specular and roughness response, natural leather grain, multi-layered subsurface scattering skin, brilliant glossy specular light highlights glinting across rounded curves and polished edges, focused studio key lighting intensely illuminating the 3D figurine, crisp subject isolation, clean seamless solid monochromatic background, solid color studio cyclorama backdrop, smooth minimalist backdrop, deep ambient occlusion contact shadows directly under feet, rich volumetric studio rim lighting, round plump tactile forms, raytraced subsurface scattering, hyper-realistic 3D goat figurine, anthropomorphic character holding Christmas ornament, premium collectible, 8K PBR textures, visible wool knit scarf weave, short realistic fur, polished golden horns, glossy metallic ornament, intense studio lighting, rim lighting, deep contact shadow on studio floor, 9:16 vertical orientation, high-end product photography, volumetric, tangible depth, glossy specular highlights, AgX color grade, masterpiece\",\"negative_prompt\":\"cluttered background, busy background, complex background, detailed scenery, landscape, textured backdrop, patterned wallpaper, gradient artifacts, environmental distractions, flat, 2D, flat vector, drawing, sketch, illustration, paper cutout, low depth, lack of volume, flat shading, matte lifeless shading without highlights, no specular reflections, dull flat lighting, 2D cartoon, anime 2D, cel shading, sticker, flat color, no shadows, orthographic, low poly, synthetic fake fabric, plastic-looking clothes, flat untextured cloth, missing fabric weave, missing textile relief, low-resolution textures, low-res textures, flat untextured surfaces, blurry textures, generic smooth plastic, missing PBR maps, missing material relief, stre",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148643932",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ed5f747-78f1-48f9-b4fa-3ff93bb1f9f3/original=true/2ed5f747-78f1-48f9-b4fa-3ff93bb1f9f3.jpeg",
+      "model_version_ids": [
+        3311436
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480648+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8820542df8822ce923b4ef1439ac2c2912bac8b2e4e7717edffc22d23a83b744",
+      "prompt_ar": "{\"prompt_title\": \"ULTRA DETAIL 3D FIGURINE — Christmas Goat Character\"، \"artist_role\":{\"profession\": \"فنان شخصيات ثلاثية الأبعاد كبير\"، \"خبرة\": \"30+ عامًا في CGI وإنتاج التماثيل الراقية\"، \"target_software\": \"Blender 4.x/5.x\"، \"render_engines\":[\"دورات\"]، \"primary_objective\": \"إنشاء ملف تمثال ثلاثي الأبعاد فائق الواقعية وعالي الدقة لشخصية ماعز تحمل زينة عيد الميلاد.\"},\"project_definition\":{\"subject\":شخصية ماعز مجسمة ذات فراء كريمي ناعم، وقرون ذهبية، ترتدي وشاحًا سميكًا متماسكًا، وتحمل كرة عيد الميلاد كبيرة مزخرفة\"،\"character_type\":\"FANTASY CHARACTER\"، \"art_direction\": \"فن ممتاز للتحصيل\" TOY\"، \"detail_level\": \"EXTREME\"، \"aspect_ratio\": \"9:16\"، \"output_resolution\": \"2160x3840\"}، \"material_and_texture_enhancement\": {\"core_principle\": \"إعادة بناء المواد الفوتوغرافية\"، \"texture_quality\": {\"resolution\": \"8K PBR\"، \"surface_عمق\": \"الإزاحة الدقيقة المادية والعادية\" mapping\"},\"material_reconstruction\":{\"fur\":فرو كريمي قصير واقعي للغاية مع خصلة فردية، تهذيب، سمك متفاوت، تطاير طبيعي\"، \"نسيج\": \"وشاح مكتنز باللونين الأحمر والأبيض مع حلقات غزل مرئية، وخيوط شد فضفاضة، ونقش واقعي للنسيج\"، \"القرن\": مادة قرنية ذهبية مصقولة مع خدوش مجهرية دقيقة، وتناثر تحت السطح يشبه الشمع، \"\"ornament\":لمسة نهائية معدنية حمراء شديدة اللمعان مع نجوم ذهبية منقوشة، انعكاسات شفافة، سمك فيزيائي\"},\"material_physics\":{\"workflow\":PBR metal/خشونة\"،required_maps_and_properties\":[\"Albedo\"،\"Roughness\"،\"Normal\"، \"Displacement\"، \"AO\"، \"SSS\"]}}،\"01_global_geometry\":{\"silhouette\":\"مدمج، متوازن، مجسم منمق\" posture\"، \"surface_quality\": \"شبكة عالية البوليستر مع تشكيل محسّن للتقسيمات الفرعية\"}،\"02_anatomical_culpting\":{\"head\": \"خطم عنزة مفصل، ملمس أنف واقعي، عيون قزحية كبيرة معبرة\"، \"skin_and_facial_details\": \"كثافة مسام واقعية على الأنف، ملمع شفاه رطب لمنطقة الفم\"}،\"03_hair_and_facial_hair\": \"توزيع الفراء بطبقات، كومة قصيرة مهيأة للجسم، رقبة أطول قليلاً\" tuft\"، \"04_clothing_and_fabric\": \"وشاح من الصوف السميك، ثنى محاكى بشكل فيزيائي مع طيات مضغوطة حول الرقبة\"، \"06_armor_metal_and_hard_surfaces\": \"القبعة المزخرفة مصنوعة من النحاس المصقول؛ المجال الرئيسي عبارة عن معدن مطلي باللون الأحمر اللامع مع انعكاس عالي\"، \"07_hands_gloves_and_footwear\": \"حوافر الماعز الداكنة مزخرفة بالكيراتين الطبيعي و scuffing\"، \"12_materials_and_shaders\":{\"skin_shader\": \"شعر BSDF الأساسي بنصف قطر SSS 0.05\"، \"fur_shader\": \"شعر BSDF مع إبرازات متباينة الخواص\"، \"ornament_shader\": تظليل طلاء معدني بطبقة طلاء شفافة\"}،\"15_scene_staging_and_ground\":{\"pedestal_policy\": \"لا توجد قاعدة، لا يوجد حامل يجلس مباشرة على الأرض مع ظلال ملامسة عميقة\"،ground_plane\":أرضية استوديو غير لامعة وغير عاكسة\"}،\"16_lighting_and_rendering\":{\"lighting_setup\":إضاءة استوديو ثلاثية النقاط مع ضوء حافة عالي الكثافة لفصل الصورة الظلية\"،\"render_settings\":{\"engine\":\"Cycles\"،\"device\": \"GPU\" Compute\"، \"samples\":2048،\"denoising\":true\"،color_management\":AgX\"}،camera\":{\"lens\": \"85mm\"، \"إطارات\": \"تكوين عمودي 9:16\"، \"عمق_of_field\": \"f/2.8 التركيز على العيون\"}}،\"20_negative_prompt\":[\"قاعدة\"، \"حامل العرض\"، \"القاعدة\"، \"قاعدة التمثال\"، \"المنصة\"، \"قرص التثبيت\"، \"القرص الدوار\"، \"حامل بلاستيكي تحت\" قدم\"، \"قاعدة دائرية\"، \"شاب بالغ\"، \"شاب بالغ\"، \"شاب بالغ\"، \"شاب بالغ\"، \"شاب بالغ\"، \"كارتون مسطح\"، \"فن المتجهات\"، \"رسم\"، \"لوحة\"، \"دقة منخفضة\"، \"أنسجة مفقودة\"، \"هندسة غير متعددة الجوانب\"]،\"blender_python_script\": \"import bpy\\nbpy.ops.mesh.primitive_plane_add(size=10, location=(0,0,0))\\nbpy.ops.object.camera_add(location=(0,-5,2))\\nbpy.context.scene.render.engine = 'CYCLES'\\nbpy.context.scene.cycles.device = 'GPU'\\nbpy.context.scene.render.resolution_x = 2160\\nbpy.context.scene.render.resolution_y = 3840\\nbpy.context.scene.cycles.samples = 2048\"،positive_prompt\":تمثال شخصية حجمي ثلاثي الأبعاد، لعبة مادية ملموسة قابلة للتحصيل، شكل منحوت من الفينيل والراتنج بعمق ثلاثي الأبعاد واضح، نسيج طبيعي فائق الواقعية مع خيوط منسوجة مرئية ومتشابكة ألياف دقيقة، ثنيات من القماش الطبيعي ودرزات مزدوجة الخياطة، واقعية مواد التصوير الفوتوغرافي الأصلية عبر النموذج بأكمله، قوام 8K PBR مفصل للغاية، تخفيف دقيق ثلاثي الأبعاد وعمق السطح، استجابة فيزيائية حقيقية للمرآة والخشونة، حبيبات جلدية طبيعية، جلد متناثر تحت السطح متعدد الطبقات، ضوء براق لامع لامع يبرز اللمعان عبر المنحنيات الدائرية والحواف المصقولة، إضاءة مفتاح الاستوديو المركزة تضيء بشكل مكثف ثلاثي الأبعاد تمثال صغير، عزل واضح للموضوع، خلفية أحادية اللون صلبة نظيفة، خلفية سيكلوراما استوديو بلون خالص، خلفية سلسة وبسيطة، ظلال تلامس محيطة عميقة مباشرة أسفل القدمين، إضاءة حافة الاستوديو الحجمية الغنية، أشكال لمسية مستديرة ممتلئة، تشتت تحت السطح، تمثال ماعز ثلاثي الأبعاد واقعي للغاية، شخصية مجسمة تحمل زينة عيد الميلاد، تحصيل ممتاز، قوام 8K PBR، نسج وشاح من الصوف المرئي، واقعي قصير فرو، قرون ذهبية مصقولة، زخرفة معدنية لامعة، إضاءة استوديو مكثفة، إضاءة حافة، ظل ملامس عميق على أرضية الاستوديو، 9:16 اتجاه عمودي، تصوير فوتوغرافي متطور للمنتجات، حجمي، عمق ملموس، إبرازات لامعة لامعة، درجة ألوان AgX، تحفة فنية\"، \"negative_prompt\": \"خلفية مزدحمة، خلفية مشغولة، خلفية معقدة، مشهد تفصيلي، منظر طبيعي، خلفية مزخرفة، ورق حائط منقوش، تحف متدرجة، انحرافات بيئية، مسطحة، ثنائية الأبعاد، ناقل مسطح، رسم، رسم تخطيطي، رسم توضيحي، قطع ورق، عمق منخفض، قلة الحجم، تظليل مسطح، تظليل غير لامع بدون إضاءة، بدون انعكاسات مرآوية، إضاءة مسطحة مملة، رسوم متحركة ثنائية الأبعاد، أنيمي ثنائي الأبعاد، تظليل سيل، ملصق، لون مسطح، بدون ظلال، إملائي، بولي منخفض، قماش صناعي مزيف، ملابس ذات مظهر بلاستيكي، قماش مسطح غير مزخرف، نسج نسيج مفقود، نقش نسيج مفقود، مواد منخفضة الدقة، مواد منخفضة الدقة، أسطح مسطحة غير مزخرفة، ضبابية القوام، البلاستيك الناعم العام، خرائط PBR المفقودة، نقش المواد المفقود، الإجهاد",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:25Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148643932 advertising ai-image-prompts {\"prompt_title\":\"ultra detail 3d figurine — christmas goat character\",\"artist_role\":{\"profession\":\"senior 3d character artist\",\"experience\":\"30+ years in cgi and high-end figurine production\",\"target_software\":\"blender 4.x/5.x\",\"render_engines\":[\"cycles\"],\"primary_objective\":\"create a hyper-realistic, high-fidelity 3d collectible figurine of a goat character holding a christmas ornament.\"},\"project_definition\":{\"subject\":\"anthropomorphic goat character with soft cream fur, golden horns, wearing a thick knit scarf, holding a large ornate christmas ball\",\"character_type\":\"fantasy character\",\"art_direction\":\"premium collectible art toy\",\"detail_level\":\"extreme\",\"aspect_ratio\":\"9:16\",\"output_resolution\":\"2160x3840\"},\"material_and_texture_enhancement\":{\"core_principle\":\"photographic material reconstruction\",\"texture_quality\":{\"resolution\":\"8k pbr\",\"surface_depth\":\"physical micro-displacement and normal mapping\"},\"material_reconstruction\":{\"fur\":\"hyper-realistic short cream fur with individual strand grooming, varying thickness, natural flyaways\",\"fabric\":\"chunky red-and-white knit scarf with visible yarn loops, loose tension threads, and realistic weave relief\",\"horn\":\"polished golden horn material with subtle microscopic scratches, wax-like subsurface scattering\",\"ornament\":\"metallic high-gloss red finish with embossed gold stars, clear-coat reflections, physical thickness\"},\"material_physics\":{\"workflow\":\"pbr metallic/roughness\",\"required_maps_and_properties\":[\"albedo\",\"roughness\",\"normal\",\"displacement\",\"ao\",\"sss\"]}},\"01_global_geometry\":{\"silhouette\":\"compact, balanced, stylized anthropomorphic posture\",\"surface_quality\":\"high-poly mesh with refined subdivision modeling\"},\"02_anatomical_sculpting\":{\"head\":\"detailed goat muzzle, realistic nose texture, expressive large-iris eyes\",\"skin_and_facial_details\":\"realistic pore density on nose, moist lip gloss for mouth area\"},\"03_hair_and_facial_hair\":\"layered fur distribution, groomed short pile for body, slightly longer neck tuft\",\"04_clothing_and_fabric\":\"thick wool knit scarf, physically simulated drape with compression folds around the neck\",\"06_armor_metal_and_hard_surfaces\":\"ornament cap is brushed brass; main sphere is glossy red painted metal with high-reflectivity\",\"07_hands_gloves_and_footwear\":\"textured dark goat hooves with natural keratin wear and scuffing\",\"12_materials_and_shaders\":{\"skin_shader\":\"principled bsdf with sss 0.05 radius\",\"fur_shader\":\"principled hair bsdf with anisotropic highlights\",\"ornament_shader\":\"metallic paint shader with clear coat layer\"},\"15_scene_staging_and_ground\":{\"pedestal_policy\":\"no pedestal, no stand. character sits directly on the floor with deep contact shadows\",\"ground_plane\":\"matte, non-reflective studio floor\"},\"16_lighting_and_rendering\":{\"lighting_setup\":\"three-point studio lighting with high-intensity rim light for silhouette separation\",\"render_settings\":{\"engine\":\"cycles\",\"device\":\"gpu compute\",\"samples\":2048,\"denoising\":true,\"color_management\":\"agx\"},\"camera\":{\"lens\":\"85mm\",\"framing\":\"vertical 9:16 portrait composition\",\"depth_of_field\":\"f/2.8 focus on eyes\"}},\"20_negative_prompt\":[\"pedestal\",\"display stand\",\"plinth\",\"figurine base\",\"podium\",\"mounting disc\",\"turntable\",\"plastic stand under feet\",\"circular base\",\"young adult\",\"young adult\",\"young adult\",\"young adult\",\"cartoon flat\",\"vector art\",\"drawing\",\"painting\",\"low resolution\",\"missing textures\",\"non-manifold geometry\"],\"blender_python_script\":\"import bpy\\nbpy.ops.mesh.primitive_plane_add(size=10, location=(0,0,0))\\nbpy.ops.object.camera_add(location=(0,-5,2))\\nbpy.context.scene.render.engine = 'cycles'\\nbpy.context.scene.cycles.device = 'gpu'\\nbpy.context.scene.render.resolution_x = 2160\\nbpy.context.scene.render.resolution_y = 3840\\nbpy.context.scene.cycles.samples = 2048\",\"positive_prompt\":\"volumetric 3d character figurine, tangible physical collectible toy, sculpted vinyl and resin figure with palpable 3d depth, hyper-realistic natural fabric texture with visible woven threads and interlaced micro-fibers, natural cloth drape and double-stitched seams, authentic photographic material realism across entire model, ultra-detailed 8k pbr textures, tactile 3d micro-relief and surface depth, authentic physical specular and roughness response, natural leather grain, multi-layered subsurface scattering skin, brilliant glossy specular light highlights glinting across rounded curves and polished edges, focused studio key lighting intensely illuminating the 3d figurine, crisp subject isolation, clean seamless solid monochromatic background, solid color studio cyclorama backdrop, smooth minimalist backdrop, deep ambient occlusion contact shadows directly under feet, rich volumetric studio rim lighting, round plump tactile forms, raytraced subsurface scattering, hyper-realistic 3d goat figurine, anthropomorphic character holding christmas ornament, premium collectible, 8k pbr textures, visible wool knit scarf weave, short realistic fur, polished golden horns, glossy metallic ornament, intense studio lighting, rim lighting, deep contact shadow on studio floor, 9:16 vertical orientation, high-end product photography, volumetric, tangible depth, glossy specular highlights, agx color grade, masterpiece\",\"negative_prompt\":\"cluttered background, busy background, complex background, detailed scenery, landscape, textured backdrop, patterned wallpaper, gradient artifacts, environmental distractions, flat, 2d, flat vector, drawing, sketch, illustration, paper cutout, low depth, lack of volume, flat shading, matte lifeless shading without highlights, no specular reflections, dull flat lighting, 2d cartoon, anime 2d, cel shading, sticker, flat color, no shadows, orthographic, low poly, synthetic fake fabric, plastic-looking clothes, flat untextured cloth, missing fabric weave, missing textile relief, low-resolution textures, low-res textures, flat untextured surfaces, blurry textures, generic smooth plastic, missing pbr maps, missing material relief, stre civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148643932",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ed5f747-78f1-48f9-b4fa-3ff93bb1f9f3/original=true/2ed5f747-78f1-48f9-b4fa-3ff93bb1f9f3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148639885",
+      "title": "Civitai prompt 148639885",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "retro art style, a grand epic fantasy digital painting, Dungeons and Dragons, the Lord of the Rings, \na standing portrait of an elf woman and human man standing side by side as a comparison.\nTo the left: Caption above \"Elves on average are 5ft tall\"\nAn elf woman with brown skin, short pointy ears and orange eyes. Her hair are blonde, braided int a tight single thick braid. She wears tight military-style white uniform jacket, capelet with high collar,  blue underside and epaulets. She wears tight blue pants and high laced boots. An emerald brooch holds the collar of capelet. She has frilled wrist cuffs as sole exception to fashion. A naval dirk dagger hangs from her belt. She looks to the right and up at the man, greatly annoyed how tall he is. She pouts with her hand on her hip, with ears blushing.\nTo the right: caption \"A human for scale\". \nA tall human man, his head is clipped out of frame. A toned adventurer wearing brown leather armor and green tunic. His arms are crossed at the chest. He wears dark pants, belt with many pouches. A sword hangs from his belt. \nsimple background with neutral lighting, gradient background.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148639885",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e287c240-f262-410f-bb36-7a38021100dc/original=true/e287c240-f262-410f-bb36-7a38021100dc.jpeg",
+      "model_version_ids": [
+        3101597,
+        3398827,
+        3400188
+      ],
+      "width": 1184,
+      "height": 896,
+      "seed": 1148399896,
+      "negative_prompt": "ai-generated, worst quality, low quality, artist name, bad anatomy, bad hands, jpeg artifacts, signature, watermark, logo, patreon_username, web_address, username, extra digits, censored, patreon username, blurry, out of focus, distorted, deformed, ugly, duplicate, poor details, bad proportions",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480669+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "276454d13fe82968ebe5b87ed6e05bcb9b7d6975b9418e6b16895549135159b6",
+      "prompt_ar": "أسلوب الفن القديم، واللوحة الرقمية الخيالية الملحمية الكبرى، والزنزانات والتنينات، وسيد الخواتم، \nصورة واقفة لامرأة قزم ورجل بشري يقفان جنبًا إلى جنب للمقارنة.\nإلى اليسار: تسمية توضيحية أعلاه \"يبلغ طول الجان في المتوسط 5 أقدام\"\nامرأة قزم ذات بشرة بنية وأذنان قصيرتان مدببتان وعيون برتقالية. شعرها أشقر، مضفر في جديلة ضيقة واحدة سميكة. ترتدي سترة بيضاء ضيقة على الطراز العسكري، وغطاء للرأس ذو ياقة عالية، وجانب سفلي أزرق وكتاف. ترتدي بنطالاً أزرقًا ضيقًا وأحذية عالية الأربطة. بروش من الزمرد يحمل ياقة العباءة. لقد قامت بزخرفة أصفاد معصمها كاستثناء وحيد للموضة. خنجر ديرك بحري يتدلى من حزامها. تنظر إلى الرجل إلى اليمين وإلى الأعلى، وهي منزعجة جدًا من طوله. تتجهم وهي تضع يدها على وركها، وأذنيها تحمران خجلاً.\nإلى اليمين: التسمية التوضيحية \"إنسان بحجمه\". \nرجل طويل القامة، رأسه مقطوع من الإطار. مغامر منغم يرتدي درعًا جلديًا بنيًا وسترة خضراء. ذراعيه متقاطعتان على الصدر. يرتدي بنطالاً داكنًا وحزامًا به العديد من الحقائب. سيف يتدلى من حزامه. \nخلفية بسيطة مع إضاءة محايدة، خلفية متدرجة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:25Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148639885 fashion ai-image-prompts retro art style, a grand epic fantasy digital painting, dungeons and dragons, the lord of the rings, a standing portrait of an elf woman and human man standing side by side as a comparison. to the left: caption above \"elves on average are 5ft tall\" an elf woman with brown skin, short pointy ears and orange eyes. her hair are blonde, braided int a tight single thick braid. she wears tight military-style white uniform jacket, capelet with high collar, blue underside and epaulets. she wears tight blue pants and high laced boots. an emerald brooch holds the collar of capelet. she has frilled wrist cuffs as sole exception to fashion. a naval dirk dagger hangs from her belt. she looks to the right and up at the man, greatly annoyed how tall he is. she pouts with her hand on her hip, with ears blushing. to the right: caption \"a human for scale\". a tall human man, his head is clipped out of frame. a toned adventurer wearing brown leather armor and green tunic. his arms are crossed at the chest. he wears dark pants, belt with many pouches. a sword hangs from his belt. simple background with neutral lighting, gradient background. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148639885",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e287c240-f262-410f-bb36-7a38021100dc/original=true/e287c240-f262-410f-bb36-7a38021100dc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148639878",
+      "title": "Civitai prompt 148639878",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "retro art style, a grand epic fantasy digital painting, Dungeons and Dragons, the Lord of the Rings, \na standing portrait of two elf women standing side by side as a comparison.\nTo the left: the caption above \"Royal Navy of Evermeet\"\n An elven woman serious features, she has light brown skin and narrow green eyes. She has shining ginger-red hair and simple woven golden circlet on her forehead. She's about 1.5m tall, and has slender thin physique. Her ears are pointy, but not long. She wears elegant swashbuckling outfit, with white silken blouse with puffy sleeves. Green vest with embroidered hems and high collar. Blue puffy pants with tall leather boots.  On her belt hangs broad sheathed cutlass, with her hand on the pommel.\nTo the right: Caption above \"Imperial Elven Space Fleet\"\nAn elf woman with brown skin, short pointy ears and orange eyes. Her hair are blonde, braided int a tight single thick braid. She wears tight military-style white uniform jacket, capelet with high collar,  blue underside and epaulets. She wears tight blue pants and high laced boots. An emerald brooch holds the collar of capelet. She has frilled wrist cuffs as sole exception to fashion. A naval dirk dagger hangs from her belt.\nsimple background with neutral lighting, gradient background.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148639878",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2045fb92-c845-48cb-8a1d-9127f45a9ef7/original=true/2045fb92-c845-48cb-8a1d-9127f45a9ef7.jpeg",
+      "model_version_ids": [
+        3101597,
+        3398827,
+        3400188
+      ],
+      "width": 1184,
+      "height": 896,
+      "seed": 109384254,
+      "negative_prompt": "ai-generated, worst quality, low quality, artist name, bad anatomy, bad hands, jpeg artifacts, signature, watermark, logo, patreon_username, web_address, username, extra digits, censored, patreon username, blurry, out of focus, distorted, deformed, ugly, duplicate, poor details, bad proportions",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480690+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "dade1d5fac6079fc5f47ec126bf7685c25cf5aaa96a856b7372686c52faa9dee",
+      "prompt_ar": "أسلوب الفن القديم، واللوحة الرقمية الخيالية الملحمية الكبرى، والزنزانات والتنينات، وسيد الخواتم، \nصورة واقفة لامرأتين قزمتين تقفان جنبًا إلى جنب للمقارنة.\nإلى اليسار: التسمية التوضيحية أعلاه \"البحرية الملكية لإيفرميت\"\n امرأة جنية جادة الملامح، فهي تمتلك بشرة بنية فاتحة وعيون خضراء ضيقة. لديها شعر أحمر زنجبيل لامع وحلقة ذهبية منسوجة بسيطة على جبهتها. يبلغ طولها حوالي 1.5 متر، ولها جسم نحيف ونحيل. أذنيها مدببتان، لكن ليسا طويلتين. ترتدي ملابس أنيقة متعجرفة، مع بلوزة حريرية بيضاء بأكمام منتفخة. سترة خضراء بأطراف مطرزة وياقة عالية. بنطال منتفخ باللون الأزرق مع حذاء جلدي طويل.  على حزامها يتدلى سيف عريض ومغمد، ويدها على الحلق.\nإلى اليمين: تسمية توضيحية أعلاه \"أسطول الفضاء الإمبراطوري Elven\"\nامرأة قزم ذات بشرة بنية وأذنان قصيرتان مدببتان وعيون برتقالية. شعرها أشقر، مضفر في جديلة ضيقة واحدة سميكة. ترتدي سترة بيضاء ضيقة على الطراز العسكري، وغطاء للرأس ذو ياقة عالية، وجانب سفلي أزرق وكتاف. ترتدي بنطالاً أزرقًا ضيقًا وأحذية عالية الأربطة. بروش من الزمرد يحمل ياقة العباءة. لقد قامت بزخرفة أصفاد معصمها كاستثناء وحيد للموضة. خنجر ديرك بحري يتدلى من حزامها.\nخلفية بسيطة مع إضاءة محايدة، خلفية متدرجة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:25Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 148639878 fashion ai-image-prompts retro art style, a grand epic fantasy digital painting, dungeons and dragons, the lord of the rings, a standing portrait of two elf women standing side by side as a comparison. to the left: the caption above \"royal navy of evermeet\" an elven woman serious features, she has light brown skin and narrow green eyes. she has shining ginger-red hair and simple woven golden circlet on her forehead. she's about 1.5m tall, and has slender thin physique. her ears are pointy, but not long. she wears elegant swashbuckling outfit, with white silken blouse with puffy sleeves. green vest with embroidered hems and high collar. blue puffy pants with tall leather boots. on her belt hangs broad sheathed cutlass, with her hand on the pommel. to the right: caption above \"imperial elven space fleet\" an elf woman with brown skin, short pointy ears and orange eyes. her hair are blonde, braided int a tight single thick braid. she wears tight military-style white uniform jacket, capelet with high collar, blue underside and epaulets. she wears tight blue pants and high laced boots. an emerald brooch holds the collar of capelet. she has frilled wrist cuffs as sole exception to fashion. a naval dirk dagger hangs from her belt. simple background with neutral lighting, gradient background. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148639878",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2045fb92-c845-48cb-8a1d-9127f45a9ef7/original=true/2045fb92-c845-48cb-8a1d-9127f45a9ef7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148639877",
+      "title": "Civitai prompt 148639877",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "retro art style, a grand epic fantasy digital painting, Dungeons and Dragons, the Lord of the Rings, \na standing portrait of two elf women standing side by side as a comparison.\nTo the left: the caption above \"Royal Navy of Evermeet\"\n An elven woman serious features, she has light brown skin and narrow green eyes. She has shining ginger-red hair and simple woven golden circlet on her forehead. She's about 1.5m tall, and has slender thin physique. Her ears are pointy, but not long. She wears elegant swashbuckling outfit, with white silken blouse with puffy sleeves. Green vest with embroidered hems and high collar. Blue puffy pants with tall leather boots.  On her belt hangs broad sheathed cutlass, with her hand on the pommel.\nTo the right: Caption above \"Imperial Elven Space Fleet\"\nAn elf woman with brown skin, short pointy ears and orange eyes. Her hair are blonde, braided int a tight single thick braid. She wears tight military-style white uniform jacket, capelet with high collar,  blue underside and epaulets. She wears tight blue pants and high laced boots. An emerald brooch holds the collar of capelet. She has frilled wrist cuffs as sole exception to fashion. \nsimple background with neutral lighting, gradient background.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148639877",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3324d415-7aa2-4142-9f83-07451dfdae15/original=true/3324d415-7aa2-4142-9f83-07451dfdae15.jpeg",
+      "model_version_ids": [
+        3101597,
+        3398827,
+        3400188
+      ],
+      "width": 1184,
+      "height": 896,
+      "seed": 1128223754,
+      "negative_prompt": "ai-generated, worst quality, low quality, artist name, bad anatomy, bad hands, jpeg artifacts, signature, watermark, logo, patreon_username, web_address, username, extra digits, censored, patreon username, blurry, out of focus, distorted, deformed, ugly, duplicate, poor details, bad proportions",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480710+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4dfaea4cfd4f4db6c960abdd1d77019a287090e2aad2e81b5aa0a1a1784c021a",
+      "prompt_ar": "أسلوب الفن القديم، واللوحة الرقمية الخيالية الملحمية الكبرى، والزنزانات والتنينات، وسيد الخواتم، \nصورة واقفة لامرأتين قزمتين تقفان جنبًا إلى جنب للمقارنة.\nإلى اليسار: التسمية التوضيحية أعلاه \"البحرية الملكية لإيفرميت\"\n امرأة جنية جادة الملامح، فهي تمتلك بشرة بنية فاتحة وعيون خضراء ضيقة. لديها شعر أحمر زنجبيل لامع وحلقة ذهبية منسوجة بسيطة على جبهتها. يبلغ طولها حوالي 1.5 متر، ولها جسم نحيف ونحيل. أذنيها مدببتان، لكن ليسا طويلتين. ترتدي ملابس أنيقة متعجرفة، مع بلوزة حريرية بيضاء بأكمام منتفخة. سترة خضراء بأطراف مطرزة وياقة عالية. بنطال منتفخ باللون الأزرق مع حذاء جلدي طويل.  على حزامها يتدلى سيف عريض ومغمد، ويدها على الحلق.\nإلى اليمين: تسمية توضيحية أعلاه \"أسطول الفضاء الإمبراطوري Elven\"\nامرأة قزم ذات بشرة بنية وأذنان قصيرتان مدببتان وعيون برتقالية. شعرها أشقر، مضفر في جديلة ضيقة واحدة سميكة. ترتدي سترة بيضاء ضيقة على الطراز العسكري، وغطاء للرأس ذو ياقة عالية، وجانب سفلي أزرق وكتاف. ترتدي بنطالاً أزرقًا ضيقًا وأحذية عالية الأربطة. بروش من الزمرد يحمل ياقة العباءة. لقد قامت بزخرفة أصفاد معصمها كاستثناء وحيد للموضة. \nخلفية بسيطة مع إضاءة محايدة، خلفية متدرجة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:26Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 148639877 fashion ai-image-prompts retro art style, a grand epic fantasy digital painting, dungeons and dragons, the lord of the rings, a standing portrait of two elf women standing side by side as a comparison. to the left: the caption above \"royal navy of evermeet\" an elven woman serious features, she has light brown skin and narrow green eyes. she has shining ginger-red hair and simple woven golden circlet on her forehead. she's about 1.5m tall, and has slender thin physique. her ears are pointy, but not long. she wears elegant swashbuckling outfit, with white silken blouse with puffy sleeves. green vest with embroidered hems and high collar. blue puffy pants with tall leather boots. on her belt hangs broad sheathed cutlass, with her hand on the pommel. to the right: caption above \"imperial elven space fleet\" an elf woman with brown skin, short pointy ears and orange eyes. her hair are blonde, braided int a tight single thick braid. she wears tight military-style white uniform jacket, capelet with high collar, blue underside and epaulets. she wears tight blue pants and high laced boots. an emerald brooch holds the collar of capelet. she has frilled wrist cuffs as sole exception to fashion. simple background with neutral lighting, gradient background. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148639877",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3324d415-7aa2-4142-9f83-07451dfdae15/original=true/3324d415-7aa2-4142-9f83-07451dfdae15.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148523144",
+      "title": "Civitai prompt 148523144",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@ZMSTYL3, @AN1M1X, anime screenshot, anime screencap, masterpiece, very aestheticIn a sunlit meadow of soft green and gold, a young woman with long silver hair sways in the wind, her golden cloak billowing around her as she dances. Her face is framed by delicate anime linework, the contours of her features highlighted by a warm, cel-shaded glow that gives her an otherworldly elegance. The sunlight filters through the leaves of a nearby oak, casting dappled shadows on her skin and on the wheat she holds in one hand, while a sprig of purple flowers adorns her waist, adding a splash of color to her golden attire. Her bare feet are wrapped in thin leather straps that peek from beneath her cloak, emphasizing the fluidity of her movement. The scene is captured from a low, slightly angled viewpoint that lifts the dancer into the air, giving her a sense of levitation as she twirls. The background is a blend of lush grass and scattered wildflowers, with a faint hint of a stone altar in the distance, suggesting an ancient ritual or celebration. The overall mood is one of joyful reverence, as if the woman is performing a sacred dance to honor the harvest. The anime style is evident in the clean lines and bold colors that give the illustration a polished, storybook feel. The cel-shading adds depth to her clothing and hair, making the gold threads appear rich and luminous. The entire composition feels harmonious, with every detail contributing to the narrative of a festive, mystical performance under the open sky.<lora:Consept\\Capitan01R_Krea2_TextFusion_Refusal_Reduction_v2_FullRank.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\ANIME MIX V1.safetensors:0.8>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148523144",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3753226-095e-48d5-965e-1615ebb1fe2e/original=true/b3753226-095e-48d5-965e-1615ebb1fe2e.jpeg",
+      "model": "CatPony-Ani-Krea2-v1.fp8_scaled",
+      "model_version_ids": [
+        3174829,
+        3328763,
+        3416242,
+        3452437
+      ],
+      "width": 1664,
+      "height": 2496,
+      "seed": 185271210494392,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-11T11:10:21.480735+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c14f14621f8474c03e8af11536dc46c5170ff534329c1a4c3272c49fa45339f3",
+      "prompt_ar": "@ZMSTYL3، @AN1M1X، لقطة شاشة للأنمي، لقطة شاشة للأنمي، تحفة فنية، جمالية للغاية في مرج مضاء بنور الشمس باللونين الأخضر والذهبي الناعم، تتمايل امرأة شابة ذات شعر فضي طويل في مهب الريح، وتتطاير عباءتها الذهبية حولها وهي ترقص. تم تأطير وجهها من خلال خطوط الرسوم المتحركة الدقيقة، وتم إبراز ملامح ملامحها من خلال توهج دافئ مظلل يمنحها أناقة من عالم آخر. يتسلل ضوء الشمس من خلال أوراق البلوط القريبة، ويلقي ظلالاً مرقطة على بشرتها وعلى القمح الذي تحمله بيد واحدة، بينما يزين غصن من الزهور الأرجوانية خصرها، مما يضيف لمسة من الألوان إلى ملابسها الذهبية. قدميها العاريتين ملفوفتان بأشرطة جلدية رفيعة تظهر من تحت عباءتها، مما يؤكد على سيولة حركتها. تم التقاط المشهد من وجهة نظر منخفضة ومائلة قليلاً ترفع الراقصة في الهواء، مما يمنحها إحساسًا بالارتفاع أثناء الدوران. الخلفية عبارة عن مزيج من العشب الكثيف والأزهار البرية المتناثرة، مع إشارة خافتة لمذبح حجري في المسافة، مما يشير إلى طقوس أو احتفال قديم. المزاج العام هو تقديس بهيج، كما لو أن المرأة تؤدي رقصة مقدسة لتكريم الحصاد. يتجلى أسلوب الأنمي في الخطوط الواضحة والألوان الجريئة التي تضفي على الرسم التوضيحي إحساسًا مصقولًا بالقصص القصيرة. يضيف التظليل السلي عمقًا إلى ملابسها وشعرها، مما يجعل الخيوط الذهبية تبدو غنية ومشرقة. تبدو التركيبة بأكملها متناغمة، حيث تساهم كل التفاصيل في سرد الأداء الاحتفالي والصوفي تحت العراء sky.<lora:Consept\\Capitan01R_Krea2_TextFusion_Refusal_Reduction_v2_FullRank.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\ANIME MIX V1.مكثفات الأمان:0.8>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-11T11:10:26Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148523144 image ai-image-prompts @zmstyl3, @an1m1x, anime screenshot, anime screencap, masterpiece, very aestheticin a sunlit meadow of soft green and gold, a young woman with long silver hair sways in the wind, her golden cloak billowing around her as she dances. her face is framed by delicate anime linework, the contours of her features highlighted by a warm, cel-shaded glow that gives her an otherworldly elegance. the sunlight filters through the leaves of a nearby oak, casting dappled shadows on her skin and on the wheat she holds in one hand, while a sprig of purple flowers adorns her waist, adding a splash of color to her golden attire. her bare feet are wrapped in thin leather straps that peek from beneath her cloak, emphasizing the fluidity of her movement. the scene is captured from a low, slightly angled viewpoint that lifts the dancer into the air, giving her a sense of levitation as she twirls. the background is a blend of lush grass and scattered wildflowers, with a faint hint of a stone altar in the distance, suggesting an ancient ritual or celebration. the overall mood is one of joyful reverence, as if the woman is performing a sacred dance to honor the harvest. the anime style is evident in the clean lines and bold colors that give the illustration a polished, storybook feel. the cel-shading adds depth to her clothing and hair, making the gold threads appear rich and luminous. the entire composition feels harmonious, with every detail contributing to the narrative of a festive, mystical performance under the open sky.<lora:consept\\capitan01r_krea2_textfusion_refusal_reduction_v2_fullrank.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\anime mix v1.safetensors:0.8> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148523144",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3753226-095e-48d5-965e-1615ebb1fe2e/original=true/b3753226-095e-48d5-965e-1615ebb1fe2e.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-10T21:18:39.949605+00:00",
-  "prompt_count": 2684,
+  "generated_at": "2026-11-11T11:10:26.955806+00:00",
+  "prompt_count": 2711,
   "translation": {
     "language": "ar",
-    "translated_count": 29,
-    "skipped_count": 2648,
+    "translated_count": 27,
+    "skipped_count": 2677,
     "failed_count": 7,
-    "updated_at": "2026-11-10T21:18:39Z"
+    "updated_at": "2026-11-11T11:10:26Z"
   }
 }
