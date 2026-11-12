@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-11-11T21:59:41.201064+00:00",
+  "generated_at": "2026-11-12T11:31:13.245790+00:00",
   "status": "review_required",
   "candidates": [
     {
@@ -1850,9 +1850,9 @@
   "added_this_run": 0,
   "last_strategy": "declared_repositories_with_fixed_source_files",
   "last_themes": [
-    "\"Act as\" prompt",
-    "Midjourney prompts",
-    "Flux prompts"
+    "\"image prompt\"",
+    "Gemini prompts",
+    "ChatGPT prompts"
   ],
   "last_sources": []
 }
