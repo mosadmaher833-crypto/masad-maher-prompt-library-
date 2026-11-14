@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -131103,15 +131103,517 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a0fd73c-ccad-4ca1-84be-fefbd44fb264/original=true/8a0fd73c-ccad-4ca1-84be-fefbd44fb264.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149010479",
+      "title": "Civitai prompt 149010479",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed:2.3, (high-finish anime cel illustration:2.97), (every area is one flat block of colour, and where two blocks meet the transition is a very narrow soft edge — never a gradient and never a smear:2.97), (all linework is hairline thin — a single hair's width — and it is tinted, never black: a warm grey on the skin, a pale rose on the lips, a cool grey blue on the hair:2.97), (a thin bright rim of light runs along every lit edge: the top of each lock, the crest of the shoulder, the fold of the cloth, one continuous line:2.96), (decorative patterns are drawn with one continuous thin line — the weave of the sash, the petals of the parasol, the lace of the sleeve:2.94), (the picture is in a high key: the lightest area is pure white, the darkest value in the skin is a pale warm grey, and true black appears only on the cloth that is actually black:2.95), (there is no speckle, no dapple, no grain and no coloured patch anywhere:2.97)(a young woman with a small pointed chin and a clean jawline:2.96), (AMBER GOLD eyes — the iris is a warm translucent amber with fine radial striations and a small dark pupil, never blue and never brown:2.98), (tsurime: the outer corner of each eye is lifted, the upper lid a sharp straight line and the lower lid a soft curve, so her gaze reads cool and a little sharp:2.97), (thick dark upper lashes in separate strokes, three or four short lower lashes:2.94), (her eyebrows are very thin, light ash brown, almost level with only the faintest lift at the outer end:2.95), (the nose is one short line and one small shadow, and the mouth is a single thin line with a barely visible lower lip:2.95), (porcelain pale skin with one soft rose flush high on each cheek:2.93), (long warm honey gold hair, a soft wheat gold with a clear warm yellow cast:2.98), (the side that catches the light is pale cream gold, the side away from it a soft golden brown — never silver and never white:2.96), (drawn up into a high ponytail tied at the crown, the tail falling past her shoulder blades:2.96), (a heavy straight fringe cut level at the eyebrows and split into a few clean locks:2.95), (two long face framing strands fall in front of her ears to below the chin:2.94), (one narrow braid runs along the side of the crown into the tie:2.92), (each lock is a flat band of colour with one bright line along its upper edge:2.94), (at the right side of her head, one large deep crimson chrysanthemum with a gold centre, a smaller white flower and a small blue violet beside it:2.97), (below the flowers three small gold beads on a pin, and a long crimson tassel hanging to her shoulder:2.96), (a black lace choker, wide, with a fine openwork pattern:2.95), (short black gloves that stop at the wrist:2.9), (a crimson kimono worn off both shoulders, its collar edged in green and white:2.95), (the silk is printed with chrysanthemums, peonies, white clouds and pale blue seigaiha waves, all in fine line:2.94), (a wide gold brocade obi tied in one big bow at her back, with a thin indigo braided cord across it:2.93), (the inner lining is black and shows at the hem:2.9), (HER FACE IS TURNED AWAY IN PROFILE, eyes on the moon:2.96), (her mouth is closed and quiet, all the hardness gone out of it:2.95), (she sits on the ridge of a tiled roof, one knee up, the sword laid across her lap and her hand resting on the scabbard:2.98), (she is small in the frame, the roof ridge running down to her, vast sky above:2.96), (a night sky over a sleeping town:2.97), (a huge full moon low in the frame with thin cloud crossing it, a scatter of stars:2.96), (tiled rooftops fall away below her in dark layers, a few lit windows:2.95), (cool blue moonlight from behind her, her outline silvered:2.96),",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010479",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/810e315f-a7e6-48df-9b86-78822465b8d1/original=true/810e315f-a7e6-48df-9b86-78822465b8d1.jpeg",
+      "model": "krea2_turbo_int8_convrot",
+      "model_version_ids": [],
+      "width": 640,
+      "height": 1536,
+      "seed": 80102323,
+      "negative_prompt": "blue eyes, brown eyes, green eyes, grey eyes, black pupils only, heterochromia, black hair, white hair, silver hair, pink hair, ash blonde hair, platinum blonde hair, grey hair, cool toned hair, colourless hair, pale washed out hair, twintails, short hair, loose unbound hair, bob cut, round eyes, droopy eyes, tareme, baby face, chubby cheeks, freckles, face paint, scar on face, eyepatch, glasses, no hair ornament, plain hair, western dress, school uniform, , day, sun, indoor, crowd, sheathed sword floating, extra limbs, extra fingers",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090709+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e8dd9b92639ec713482de552cf9f6213fe00133d396a88d34772a3065a5c3e97",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010479 image ai-image-prompts masterpiece, best quality, ultra detailed:2.3, (high-finish anime cel illustration:2.97), (every area is one flat block of colour, and where two blocks meet the transition is a very narrow soft edge — never a gradient and never a smear:2.97), (all linework is hairline thin — a single hair's width — and it is tinted, never black: a warm grey on the skin, a pale rose on the lips, a cool grey blue on the hair:2.97), (a thin bright rim of light runs along every lit edge: the top of each lock, the crest of the shoulder, the fold of the cloth, one continuous line:2.96), (decorative patterns are drawn with one continuous thin line — the weave of the sash, the petals of the parasol, the lace of the sleeve:2.94), (the picture is in a high key: the lightest area is pure white, the darkest value in the skin is a pale warm grey, and true black appears only on the cloth that is actually black:2.95), (there is no speckle, no dapple, no grain and no coloured patch anywhere:2.97)(a young woman with a small pointed chin and a clean jawline:2.96), (amber gold eyes — the iris is a warm translucent amber with fine radial striations and a small dark pupil, never blue and never brown:2.98), (tsurime: the outer corner of each eye is lifted, the upper lid a sharp straight line and the lower lid a soft curve, so her gaze reads cool and a little sharp:2.97), (thick dark upper lashes in separate strokes, three or four short lower lashes:2.94), (her eyebrows are very thin, light ash brown, almost level with only the faintest lift at the outer end:2.95), (the nose is one short line and one small shadow, and the mouth is a single thin line with a barely visible lower lip:2.95), (porcelain pale skin with one soft rose flush high on each cheek:2.93), (long warm honey gold hair, a soft wheat gold with a clear warm yellow cast:2.98), (the side that catches the light is pale cream gold, the side away from it a soft golden brown — never silver and never white:2.96), (drawn up into a high ponytail tied at the crown, the tail falling past her shoulder blades:2.96), (a heavy straight fringe cut level at the eyebrows and split into a few clean locks:2.95), (two long face framing strands fall in front of her ears to below the chin:2.94), (one narrow braid runs along the side of the crown into the tie:2.92), (each lock is a flat band of colour with one bright line along its upper edge:2.94), (at the right side of her head, one large deep crimson chrysanthemum with a gold centre, a smaller white flower and a small blue violet beside it:2.97), (below the flowers three small gold beads on a pin, and a long crimson tassel hanging to her shoulder:2.96), (a black lace choker, wide, with a fine openwork pattern:2.95), (short black gloves that stop at the wrist:2.9), (a crimson kimono worn off both shoulders, its collar edged in green and white:2.95), (the silk is printed with chrysanthemums, peonies, white clouds and pale blue seigaiha waves, all in fine line:2.94), (a wide gold brocade obi tied in one big bow at her back, with a thin indigo braided cord across it:2.93), (the inner lining is black and shows at the hem:2.9), (her face is turned away in profile, eyes on the moon:2.96), (her mouth is closed and quiet, all the hardness gone out of it:2.95), (she sits on the ridge of a tiled roof, one knee up, the sword laid across her lap and her hand resting on the scabbard:2.98), (she is small in the frame, the roof ridge running down to her, vast sky above:2.96), (a night sky over a sleeping town:2.97), (a huge full moon low in the frame with thin cloud crossing it, a scatter of stars:2.96), (tiled rooftops fall away below her in dark layers, a few lit windows:2.95), (cool blue moonlight from behind her, her outline silvered:2.96), civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010479",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/810e315f-a7e6-48df-9b86-78822465b8d1/original=true/810e315f-a7e6-48df-9b86-78822465b8d1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149010458",
+      "title": "Civitai prompt 149010458",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "humorous cartoon style, a stylish steampunk stage magician wearing a top hat, his body is transparent and see-through, revealing a complex mechanical skeleton made of brass gears, glowing wires, and clockwork mechanisms inside. He is pulling a transparent rabbit out of his hat. The rabbit is also see-through, showing a glowing carrot inside its belly. Dramatic cinematic stage lighting, warm golden and teal colors, highly detailed, masterpiece, XRayStyle, transparent, see-through.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010458",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f7160b1-e69b-449e-be1f-5d8126ec17d7/original=true/3f7160b1-e69b-449e-be1f-5d8126ec17d7.jpeg",
+      "model_version_ids": [
+        481917,
+        669901,
+        686204
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1484561167,
+      "negative_prompt": "worst quality, low quality, normal quality, photorealistic, real life, 3d render, opaque body, solid skin, opaque rabbit, empty stomach, horror, gross, ugly, deformed, bad anatomy, bad hands, missing fingers, extra digits, blurry, pixelated, watermark, text, signature.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090741+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "214898c7080fbd5dc15db09f48320a70bee5f25c95aadcde3172890cf8367786",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010458 image ai-image-prompts humorous cartoon style, a stylish steampunk stage magician wearing a top hat, his body is transparent and see-through, revealing a complex mechanical skeleton made of brass gears, glowing wires, and clockwork mechanisms inside. he is pulling a transparent rabbit out of his hat. the rabbit is also see-through, showing a glowing carrot inside its belly. dramatic cinematic stage lighting, warm golden and teal colors, highly detailed, masterpiece, xraystyle, transparent, see-through. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010458",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f7160b1-e69b-449e-be1f-5d8126ec17d7/original=true/3f7160b1-e69b-449e-be1f-5d8126ec17d7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149002238",
+      "title": "Civitai prompt 149002238",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An anime film still, beautifully cel-shaded characters against a richly painterly hand-drawn fantasy background, showing an adult female municipal maintenance worker with messy chestnut hair tied in a bun, freckles, wearing dark blue work overalls with rolled-up sleeves, a leather tool belt, protective gloves and heavy work boots, standing near the top of an extraordinarily tall wooden maintenance ladder rising above the rooftops of a magical city. Seen from a dramatic low three-quarter angle, she reaches upward with both hands, carefully unscrewing a broken, dimly glowing golden star from a mechanical socket suspended in the evening sky, holding a screwdriver in one hand. A replacement star waits inside an open toolbox attached to the ladder, alongside several discarded, cracked stars, spare bolts and a thermos of coffee. Her expression is focused and slightly tired, as though repairing the night sky were simply another tedious shift at work. Behind her stretches a breathtaking fantasy metropolis of crooked medieval rooftops, illuminated windows, stone bridges, canals and distant floating towers. Ordinary citizens enjoy dinner on balconies and walk through busy streets, completely ignoring the celestial maintenance happening overhead. The deep indigo twilight sky is filled with tiny glowing stars, with one nearby star flickering weakly. Warm golden starlight illuminates her face and hands against the cool blue cityscape. Strong vertical composition emphasizing the immense height, whimsical everyday magic, atmospheric perspective, cinematic lighting,",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149002238",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bf0a68d-0a5d-4041-b394-d1077391d262/original=true/8bf0a68d-0a5d-4041-b394-d1077391d262.jpeg",
+      "model_version_ids": [
+        3072332,
+        3413867,
+        3466295
+      ],
+      "width": 1376,
+      "height": 2048,
+      "seed": 1671691383,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090765+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "08ecf21a1c500dd75fb602f965aeb7f128b86eead69d33b8710b47f0dbfe9226",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149002238 image ai-image-prompts an anime film still, beautifully cel-shaded characters against a richly painterly hand-drawn fantasy background, showing an adult female municipal maintenance worker with messy chestnut hair tied in a bun, freckles, wearing dark blue work overalls with rolled-up sleeves, a leather tool belt, protective gloves and heavy work boots, standing near the top of an extraordinarily tall wooden maintenance ladder rising above the rooftops of a magical city. seen from a dramatic low three-quarter angle, she reaches upward with both hands, carefully unscrewing a broken, dimly glowing golden star from a mechanical socket suspended in the evening sky, holding a screwdriver in one hand. a replacement star waits inside an open toolbox attached to the ladder, alongside several discarded, cracked stars, spare bolts and a thermos of coffee. her expression is focused and slightly tired, as though repairing the night sky were simply another tedious shift at work. behind her stretches a breathtaking fantasy metropolis of crooked medieval rooftops, illuminated windows, stone bridges, canals and distant floating towers. ordinary citizens enjoy dinner on balconies and walk through busy streets, completely ignoring the celestial maintenance happening overhead. the deep indigo twilight sky is filled with tiny glowing stars, with one nearby star flickering weakly. warm golden starlight illuminates her face and hands against the cool blue cityscape. strong vertical composition emphasizing the immense height, whimsical everyday magic, atmospheric perspective, cinematic lighting, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149002238",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bf0a68d-0a5d-4041-b394-d1077391d262/original=true/8bf0a68d-0a5d-4041-b394-d1077391d262.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149002237",
+      "title": "Civitai prompt 149002237",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An anime film still, beautifully cel-shaded characters against a painterly hand-drawn fantasy interior, showing a charming magical laundry workshop specializing in cleaning and repairing people's shadows. At the center of the composition, an adult female laundress with dark curly hair in a messy bun, round glasses, a white rolled-sleeve blouse and a navy apron stands behind a large illuminated ironing table, carefully pressing a completely black, flat human-shaped shadow with a heavy antique brass iron. Wisps of enchanted steam rise from the shadow as she smooths its outstretched arm, concentrating on a particularly stubborn wrinkle. On the left, an elegant adult witch wearing a burgundy dress, a wide-brimmed hat and leather ankle boots sits on a wooden stool, patiently watching the process while drinking tea. The witch casts absolutely no shadow beneath her stool, since her own shadow is currently lying on the ironing table. Behind them, dozens of freshly washed shadows hang vertically from clotheslines, attached with wooden clothespins: human silhouettes, a shadow with rabbit ears, a gentleman's shadow wearing an enormous hat, a cat-shaped shadow and a badly stretched silhouette with absurdly long arms. A small shadow shaped like a cat has accidentally attached itself to the wrong human silhouette. Wicker laundry baskets, folded dark fabrics, bottles of magical detergent and an old steam-powered washing machine fill the cozy shop. Large arched windows overlook a whimsical fantasy town at dusk, with purple twilight outside and warm amber lamps illuminating the workshop. The laundress behaves with complete professional seriousness despite the impossible nature of her work. Wide three-quarter interior shot, clearly readable central action, gentle humor, rich purple and amber color palette, soft magical steam, sophisticated visual storytelling, intricate but believable environmental details",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149002237",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4d51bf7-5dec-4cec-96f3-dd690118a068/original=true/f4d51bf7-5dec-4cec-96f3-dd690118a068.jpeg",
+      "model_version_ids": [
+        3072332,
+        3413867,
+        3466295
+      ],
+      "width": 2048,
+      "height": 1376,
+      "seed": 649448296,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090788+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b3776878e30cbf7fda96335b1e897349b9bc632671a7682d04aa64720c7e3de4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149002237 advertising ai-image-prompts an anime film still, beautifully cel-shaded characters against a painterly hand-drawn fantasy interior, showing a charming magical laundry workshop specializing in cleaning and repairing people's shadows. at the center of the composition, an adult female laundress with dark curly hair in a messy bun, round glasses, a white rolled-sleeve blouse and a navy apron stands behind a large illuminated ironing table, carefully pressing a completely black, flat human-shaped shadow with a heavy antique brass iron. wisps of enchanted steam rise from the shadow as she smooths its outstretched arm, concentrating on a particularly stubborn wrinkle. on the left, an elegant adult witch wearing a burgundy dress, a wide-brimmed hat and leather ankle boots sits on a wooden stool, patiently watching the process while drinking tea. the witch casts absolutely no shadow beneath her stool, since her own shadow is currently lying on the ironing table. behind them, dozens of freshly washed shadows hang vertically from clotheslines, attached with wooden clothespins: human silhouettes, a shadow with rabbit ears, a gentleman's shadow wearing an enormous hat, a cat-shaped shadow and a badly stretched silhouette with absurdly long arms. a small shadow shaped like a cat has accidentally attached itself to the wrong human silhouette. wicker laundry baskets, folded dark fabrics, bottles of magical detergent and an old steam-powered washing machine fill the cozy shop. large arched windows overlook a whimsical fantasy town at dusk, with purple twilight outside and warm amber lamps illuminating the workshop. the laundress behaves with complete professional seriousness despite the impossible nature of her work. wide three-quarter interior shot, clearly readable central action, gentle humor, rich purple and amber color palette, soft magical steam, sophisticated visual storytelling, intricate but believable environmental details civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149002237",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4d51bf7-5dec-4cec-96f3-dd690118a068/original=true/f4d51bf7-5dec-4cec-96f3-dd690118a068.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149002236",
+      "title": "Civitai prompt 149002236",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An anime film still, beautifully cel-shaded characters against a warm painterly hand-drawn fantasy background, showing a busy little coffee shop in a medieval fantasy city during the morning rush. At the center, an adult female barista with auburn hair in a loose bun, expressive green eyes, freckles, wearing a cream blouse, a dark brown leather apron and a burgundy neck scarf, leans across the wooden counter with an affectionate but exhausted expression, offering a clean white handkerchief to her tiny dragon coworker. The little red dragon, no larger than a house cat, sits miserably on top of a large copper espresso machine, wearing a miniature green knitted scarf and a tiny apron. Its eyes are watery, its nose is red, and it has just sneezed instead of producing its usual heating flame, sending a pathetic puff of gray smoke from its nostrils. The copper boiler beneath it is barely steaming, the pressure gauge pointing toward empty. The dragon looks deeply embarrassed by its failure to heat the machine. Behind the barista, three customers wait impatiently: a heavily bearded dwarf with folded arms and an empty coffee mug, a sleepy elven woman resting her cheek against her hand, and a human merchant checking his pocket watch. Fresh pastries, croissants, ceramic coffee cups and jars of roasted beans cover the counter. A large arched window reveals a beautiful sunlit fantasy marketplace filled with ordinary morning activity, medieval houses, flower baskets and colorful awnings. The café feels welcoming, slightly chaotic and completely believable, with the dragon treated as a normal member of the staff. Eye-level medium-wide composition, expressive character interactions, warm honey-colored morning sunlight, cozy atmosphere, delicate steam, humorous visual storytelling, rich environmental detail, no text, no watermark.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149002236",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ac2524f-204d-4aae-9136-2f887f8e89af/original=true/6ac2524f-204d-4aae-9136-2f887f8e89af.jpeg",
+      "model_version_ids": [
+        3072332,
+        3413867,
+        3466295
+      ],
+      "width": 2048,
+      "height": 1376,
+      "seed": 1336491471,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090824+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ac677043f971410d5d71c04870d628fa01e3148bb12bff4913b3bcf2b3784852",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149002236 image ai-image-prompts an anime film still, beautifully cel-shaded characters against a warm painterly hand-drawn fantasy background, showing a busy little coffee shop in a medieval fantasy city during the morning rush. at the center, an adult female barista with auburn hair in a loose bun, expressive green eyes, freckles, wearing a cream blouse, a dark brown leather apron and a burgundy neck scarf, leans across the wooden counter with an affectionate but exhausted expression, offering a clean white handkerchief to her tiny dragon coworker. the little red dragon, no larger than a house cat, sits miserably on top of a large copper espresso machine, wearing a miniature green knitted scarf and a tiny apron. its eyes are watery, its nose is red, and it has just sneezed instead of producing its usual heating flame, sending a pathetic puff of gray smoke from its nostrils. the copper boiler beneath it is barely steaming, the pressure gauge pointing toward empty. the dragon looks deeply embarrassed by its failure to heat the machine. behind the barista, three customers wait impatiently: a heavily bearded dwarf with folded arms and an empty coffee mug, a sleepy elven woman resting her cheek against her hand, and a human merchant checking his pocket watch. fresh pastries, croissants, ceramic coffee cups and jars of roasted beans cover the counter. a large arched window reveals a beautiful sunlit fantasy marketplace filled with ordinary morning activity, medieval houses, flower baskets and colorful awnings. the café feels welcoming, slightly chaotic and completely believable, with the dragon treated as a normal member of the staff. eye-level medium-wide composition, expressive character interactions, warm honey-colored morning sunlight, cozy atmosphere, delicate steam, humorous visual storytelling, rich environmental detail, no text, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149002236",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ac2524f-204d-4aae-9136-2f887f8e89af/original=true/6ac2524f-204d-4aae-9136-2f887f8e89af.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149002234",
+      "title": "Civitai prompt 149002234",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An anime film still, beautifully cel-shaded characters against a richly painterly hand-drawn medieval fantasy background, showing a tiny cobbler's workshop specializing in repairing footwear for giants. Inside the small rustic workshop, an adult male human shoemaker with curly brown hair, round spectacles, a rolled-sleeve linen shirt, dark trousers and a heavily worn leather apron stands on a wooden scaffolding platform, carefully stitching the enormous leather sole of a gigantic brown boot. The boot is larger than a carriage and occupies most of the foreground, resting horizontally on massive wooden supports. The shoemaker holds a large curved needle and pulls a thick rope-like thread through the worn leather, completely absorbed in his work. Huge wooden spools of thread, oversized metal buckles, shoe polish tins, enormous brushes and leather scraps are scattered around the workshop, with ordinary human-sized tools hanging neatly on the wall. Through the wide open doorway behind him, an enormous adult giantess with long reddish hair in loose braids, freckles and a kind face sits patiently on the cobblestone street outside. She wears a cream linen blouse, a forest-green shawl and a long brown skirt, her bare foot resting beside the doorway while her other foot still wears the matching enormous boot. She watches the shoemaker with an amused, gentle smile, resting her chin on her folded arms. Tiny human pedestrians walk casually past her enormous legs, carrying groceries and chatting, completely accustomed to living alongside giants. Charming medieval shops, flower boxes, stone bridges and distant terraced buildings create a lively fantasy town. Dramatic vertical composition seen from inside the workshop looking outward, strong contrast of scale, warm afternoon sunlight, realistic leather textures, inviting atmosphere, meticulous craftsmanship, charming everyday interactions, cinematic visual storytelling",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149002234",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5200af6-9b48-41f9-a6e4-7d7a8168ea46/original=true/c5200af6-9b48-41f9-a6e4-7d7a8168ea46.jpeg",
+      "model_version_ids": [
+        3072332,
+        3413867,
+        3466295
+      ],
+      "width": 1376,
+      "height": 2048,
+      "seed": 1704892665,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090845+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "746e453bea23e2533b053257b10514f353d3bf93801c3eb4786df5f5f57fc1a6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149002234 architecture ai-image-prompts an anime film still, beautifully cel-shaded characters against a richly painterly hand-drawn medieval fantasy background, showing a tiny cobbler's workshop specializing in repairing footwear for giants. inside the small rustic workshop, an adult male human shoemaker with curly brown hair, round spectacles, a rolled-sleeve linen shirt, dark trousers and a heavily worn leather apron stands on a wooden scaffolding platform, carefully stitching the enormous leather sole of a gigantic brown boot. the boot is larger than a carriage and occupies most of the foreground, resting horizontally on massive wooden supports. the shoemaker holds a large curved needle and pulls a thick rope-like thread through the worn leather, completely absorbed in his work. huge wooden spools of thread, oversized metal buckles, shoe polish tins, enormous brushes and leather scraps are scattered around the workshop, with ordinary human-sized tools hanging neatly on the wall. through the wide open doorway behind him, an enormous adult giantess with long reddish hair in loose braids, freckles and a kind face sits patiently on the cobblestone street outside. she wears a cream linen blouse, a forest-green shawl and a long brown skirt, her bare foot resting beside the doorway while her other foot still wears the matching enormous boot. she watches the shoemaker with an amused, gentle smile, resting her chin on her folded arms. tiny human pedestrians walk casually past her enormous legs, carrying groceries and chatting, completely accustomed to living alongside giants. charming medieval shops, flower boxes, stone bridges and distant terraced buildings create a lively fantasy town. dramatic vertical composition seen from inside the workshop looking outward, strong contrast of scale, warm afternoon sunlight, realistic leather textures, inviting atmosphere, meticulous craftsmanship, charming everyday interactions, cinematic visual storytelling civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149002234",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5200af6-9b48-41f9-a6e4-7d7a8168ea46/original=true/c5200af6-9b48-41f9-a6e4-7d7a8168ea46.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149002233",
+      "title": "Civitai prompt 149002233",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An anime film still, beautifully cel-shaded characters against an elegant painterly hand-drawn fantasy background, showing an upscale hair salon catering to magical creatures in a sophisticated fantasy city. At the center of the image, a glamorous adult dragon woman with deep burgundy scales, long flowing crimson hair, enormous curved black horns decorated with delicate golden chains, amber eyes and elegant facial features sits in a luxurious velvet salon chair, wearing a deep purple hairstyling cape with subtle golden embroidery. Her enormous scaled tail curves gracefully around the base of the chair. She gazes critically at her reflection in a tall illuminated golden mirror, one clawed finger resting thoughtfully against her chin. Behind her, a much smaller adult human hairstylist with short messy black hair, rolled-up white blouse, fitted black trousers, leather utility apron and sturdy ankle boots stands on a wooden step ladder, carefully trimming a thick lock of crimson hair with silver scissors. The hairstylist smiles with professional confidence while concentrating on avoiding the dragon woman's enormous horns. In the background, a bored adult medusa with olive-green skin sits beneath a vintage hooded hair dryer, her numerous little snakes curling comfortably inside the dryer while she reads a fashion magazine and sips a drink. Nearby, an elegant silver-haired elf waits for her appointment, admiring her reflection in a handheld mirror. The salon is filled with polished brass styling stations, ornate mirrors, hairbrushes, curling irons, bottles of enchanted shampoo, velvet armchairs, decorative plants and soft lavender flowers. Tall arched windows reveal a beautiful fantasy city with floating gardens and distant towers. Warm golden light from the salon mirrors mingles with soft lavender daylight. Three-quarter interior composition, clear focus on the hairdresser's hands and her dragon client, strong height contrast, refined character designs, elegant fashion atmosphere, subtle comedy, luxurious but believable salon details, cinematic depth",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149002233",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07940f18-efab-464c-b5f2-1085c389bc08/original=true/07940f18-efab-464c-b5f2-1085c389bc08.jpeg",
+      "model_version_ids": [
+        3072332,
+        3413867,
+        3466295
+      ],
+      "width": 1376,
+      "height": 2048,
+      "seed": 1564398116,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090867+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5b37effa8942637de481101203007fce361798086e43aef4223f70634e24f1ae",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149002233 advertising ai-image-prompts an anime film still, beautifully cel-shaded characters against an elegant painterly hand-drawn fantasy background, showing an upscale hair salon catering to magical creatures in a sophisticated fantasy city. at the center of the image, a glamorous adult dragon woman with deep burgundy scales, long flowing crimson hair, enormous curved black horns decorated with delicate golden chains, amber eyes and elegant facial features sits in a luxurious velvet salon chair, wearing a deep purple hairstyling cape with subtle golden embroidery. her enormous scaled tail curves gracefully around the base of the chair. she gazes critically at her reflection in a tall illuminated golden mirror, one clawed finger resting thoughtfully against her chin. behind her, a much smaller adult human hairstylist with short messy black hair, rolled-up white blouse, fitted black trousers, leather utility apron and sturdy ankle boots stands on a wooden step ladder, carefully trimming a thick lock of crimson hair with silver scissors. the hairstylist smiles with professional confidence while concentrating on avoiding the dragon woman's enormous horns. in the background, a bored adult medusa with olive-green skin sits beneath a vintage hooded hair dryer, her numerous little snakes curling comfortably inside the dryer while she reads a fashion magazine and sips a drink. nearby, an elegant silver-haired elf waits for her appointment, admiring her reflection in a handheld mirror. the salon is filled with polished brass styling stations, ornate mirrors, hairbrushes, curling irons, bottles of enchanted shampoo, velvet armchairs, decorative plants and soft lavender flowers. tall arched windows reveal a beautiful fantasy city with floating gardens and distant towers. warm golden light from the salon mirrors mingles with soft lavender daylight. three-quarter interior composition, clear focus on the hairdresser's hands and her dragon client, strong height contrast, refined character designs, elegant fashion atmosphere, subtle comedy, luxurious but believable salon details, cinematic depth civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149002233",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07940f18-efab-464c-b5f2-1085c389bc08/original=true/07940f18-efab-464c-b5f2-1085c389bc08.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149010291",
+      "title": "Civitai prompt 149010291",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Illustration, anime, grim. 1990s dystopian anime style, dark sci-fi illustration. A lone scavenger in a tattered trench coat standing in a rain-soaked, ruined industrial alleyway, cinematic composition, strong contrast. Gritty ink linework, dramatic cel shading, deep blacks, film grain, VHS texture, halftone textures. Volumetric fog, eerie cyan glow from a broken CRT monitor, striking crimson accents from a distant flare. Neo-noir atmosphere, eerie stillness, melancholic mood, desaturated palette, hard shadows, industrial decay, cables and ruined architecture in the background, masterpiece.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010291",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bde9e01-46c1-45d7-8129-5a14e3285993/original=true/0bde9e01-46c1-45d7-8129-5a14e3285993.jpeg",
+      "model": "theFEASTBYSTXAndRkrra_v1",
+      "model_version_ids": [
+        3248386,
+        3377857
+      ],
+      "width": 2688,
+      "height": 1536,
+      "seed": 965238029633098,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090877+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "575feef1499bd7643482de9ebdfcd00fcbcff7fe1c58cee120b854d3acf61dd0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010291 architecture ai-image-prompts illustration, anime, grim. 1990s dystopian anime style, dark sci-fi illustration. a lone scavenger in a tattered trench coat standing in a rain-soaked, ruined industrial alleyway, cinematic composition, strong contrast. gritty ink linework, dramatic cel shading, deep blacks, film grain, vhs texture, halftone textures. volumetric fog, eerie cyan glow from a broken crt monitor, striking crimson accents from a distant flare. neo-noir atmosphere, eerie stillness, melancholic mood, desaturated palette, hard shadows, industrial decay, cables and ruined architecture in the background, masterpiece. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010291",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0bde9e01-46c1-45d7-8129-5a14e3285993/original=true/0bde9e01-46c1-45d7-8129-5a14e3285993.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149010283",
+      "title": "Civitai prompt 149010283",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "g@chastyle, vhs, dtl4ev_stx. A cinematic sci-fi noir illustration of the very last page of a detective story, introspective and quiet, the long night finally over. A weary detective in his forties sits leaning back in his chair at a cluttered desk, sleeves rolled, tie loosened, a faint tired smile of closure on his face as he raises a glass of amber whiskey in a silent toast to the dawn. His left hand is a chrome prosthetic, catching the light — the price he paid for this case. Behind him the holographic evidence board is powering down, its red strings and suspect photos dissolving into fading particles, all threads finally connected. On the desk lies a thick case file stamped in clean red letters: \"CASE CLOSED\". His trench coat and fedora hang on the hook by the door, retired. The office tells the ending without words: a ceiling fan turning slowly, cigarette smoke curling from a full ashtray, an open drawer where a snub revolver rests under a paperweight, a half-empty bottle, rain-streaked Venetian blinds casting striped shadows across the desk. Through the tall window, a neon-soaked megacity at dawn: mag-lev trains gliding between Art Deco towers, holographic ads flickering out one by one, the sky shifting from night black to bruised purple and gold. SECONDARY LOOSE END, subtle and small: one evidence photograph lies face-down at the desk corner, and on the dimming board a single red string still leads to an empty pin, hinting at one question never answered, while the detective himself has clearly made his peace. Rich layered textures, volumetric smoke, teal-and-amber neon palette with warm dawn gold, film grain, anamorphic lens flare, shallow depth of field, portrait 2:3 composition, quiet emotional closure.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010283",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26544b31-de68-4562-a29c-f2c03278c404/original=true/26544b31-de68-4562-a29c-f2c03278c404.jpeg",
+      "model": "theFEASTBYSTXAndRkrra_v1",
+      "model_version_ids": [
+        3217275,
+        3237022,
+        3282550,
+        3285656,
+        3377857,
+        3424577
+      ],
+      "width": 1792,
+      "height": 2240,
+      "seed": 954242667776856,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090910+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4cbb60937dcab6557e17cde9ba126016c5a79c3ae766a356f89a92b6025bdaed",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010283 advertising ai-image-prompts g@chastyle, vhs, dtl4ev_stx. a cinematic sci-fi noir illustration of the very last page of a detective story, introspective and quiet, the long night finally over. a weary detective in his forties sits leaning back in his chair at a cluttered desk, sleeves rolled, tie loosened, a faint tired smile of closure on his face as he raises a glass of amber whiskey in a silent toast to the dawn. his left hand is a chrome prosthetic, catching the light — the price he paid for this case. behind him the holographic evidence board is powering down, its red strings and suspect photos dissolving into fading particles, all threads finally connected. on the desk lies a thick case file stamped in clean red letters: \"case closed\". his trench coat and fedora hang on the hook by the door, retired. the office tells the ending without words: a ceiling fan turning slowly, cigarette smoke curling from a full ashtray, an open drawer where a snub revolver rests under a paperweight, a half-empty bottle, rain-streaked venetian blinds casting striped shadows across the desk. through the tall window, a neon-soaked megacity at dawn: mag-lev trains gliding between art deco towers, holographic ads flickering out one by one, the sky shifting from night black to bruised purple and gold. secondary loose end, subtle and small: one evidence photograph lies face-down at the desk corner, and on the dimming board a single red string still leads to an empty pin, hinting at one question never answered, while the detective himself has clearly made his peace. rich layered textures, volumetric smoke, teal-and-amber neon palette with warm dawn gold, film grain, anamorphic lens flare, shallow depth of field, portrait 2:3 composition, quiet emotional closure. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010283",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26544b31-de68-4562-a29c-f2c03278c404/original=true/26544b31-de68-4562-a29c-f2c03278c404.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149010282",
+      "title": "Civitai prompt 149010282",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "aquarelle, vhs, dtl4ev_stx. A painterly, cinematic storybook illustration of the very last page of a dark fairy tale, intimate and introspective, bathed in warm golden dawn light. An elderly witch with silver-streaked dark hair, kind tired eyes and a gentle contented smile stands by the door of her cozy cottage, hanging her iconic wide-brimmed pointed hat on a wooden hook for the last time. She wears a soft worn shawl over a simple dress, shoulders finally at ease, posture relaxed and at peace. The cottage tells the ending without words: the great black cauldron is cold and repurposed as a flowerpot overflowing with blooming moonflowers; her broom leans retired in the corner, used as a coat rack; shelves that once held potions now hold jars of seeds, tea and honey; a fat black cat sleeps curled on a sunlit chair; a kettle steams softly on the stove. On the wooden table lies an open storybook, its last page showing a single handwritten line in clear English: \"And she rested at last.\" Morning light pours through a round window, dust motes drifting in the beams, a half-packed satchel and a walking staff by the door suggesting a peaceful departure. SECONDARY LOOSE END, subtle and small: on a lower hook hangs a child-sized pointed hat, and tiny footprints in the flour dust lead out the slightly ajar door into the bright outside, hinting the story may continue through an apprentice, while the witch herself has clearly found her closure. Rich layered textures, soft chiaroscuro, warm amber and honey palette with cool dawn blue from the window, detailed fabric and wood grain, quiet emotional triumph, portrait 2:3 composition, shallow depth of field focused on the witch and the open book.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010282",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0330887-86d3-4408-913c-ef7eb4245d5e/original=true/a0330887-86d3-4408-913c-ef7eb4245d5e.jpeg",
+      "model": "theFEASTBYSTXAndRkrra_v1",
+      "model_version_ids": [
+        3119209,
+        3217275,
+        3237022,
+        3282550,
+        3377857,
+        3424577
+      ],
+      "width": 1792,
+      "height": 2240,
+      "seed": 781083137747933,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090931+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "02c704dd63436f32703422d88d39aa8ede6276a75d7ec543a07d8ab1f89eab22",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010282 image ai-image-prompts aquarelle, vhs, dtl4ev_stx. a painterly, cinematic storybook illustration of the very last page of a dark fairy tale, intimate and introspective, bathed in warm golden dawn light. an elderly witch with silver-streaked dark hair, kind tired eyes and a gentle contented smile stands by the door of her cozy cottage, hanging her iconic wide-brimmed pointed hat on a wooden hook for the last time. she wears a soft worn shawl over a simple dress, shoulders finally at ease, posture relaxed and at peace. the cottage tells the ending without words: the great black cauldron is cold and repurposed as a flowerpot overflowing with blooming moonflowers; her broom leans retired in the corner, used as a coat rack; shelves that once held potions now hold jars of seeds, tea and honey; a fat black cat sleeps curled on a sunlit chair; a kettle steams softly on the stove. on the wooden table lies an open storybook, its last page showing a single handwritten line in clear english: \"and she rested at last.\" morning light pours through a round window, dust motes drifting in the beams, a half-packed satchel and a walking staff by the door suggesting a peaceful departure. secondary loose end, subtle and small: on a lower hook hangs a child-sized pointed hat, and tiny footprints in the flour dust lead out the slightly ajar door into the bright outside, hinting the story may continue through an apprentice, while the witch herself has clearly found her closure. rich layered textures, soft chiaroscuro, warm amber and honey palette with cool dawn blue from the window, detailed fabric and wood grain, quiet emotional triumph, portrait 2:3 composition, shallow depth of field focused on the witch and the open book. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010282",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0330887-86d3-4408-913c-ef7eb4245d5e/original=true/a0330887-86d3-4408-913c-ef7eb4245d5e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149010305",
+      "title": "Civitai prompt 149010305",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A 20-year-old woman with long flowing chestnut hair stands in a relaxed, candid pose within a blooming garden, wearing a yellow sundress, full bust, the fabric catching the light softly. The dress has lace edging, a smocked waist top, and short flowing skirt.\nYouthful innocent expression. Bright smile.\nThe background consists of lush greenery and vibrant flowers, rendered with a shallow depth of field that creates a creamy, out-of-focus bokeh, while additional out-of-focus flowers in the immediate foreground frame the subject and add layers of depth.\nSoft, diffused natural lighting illuminates the scene, simulating the gentle glow of late afternoon sunlight, casting subtle shadows that define the texture of the skin and the folds of the dress.\nThe image possesses a high-fidelity photorealistic aesthetic, mimicking a candid 35mm film photograph shot on Kodak Portra 400, characterized by warm color tones, low contrast, and visible film grain that adds a tactile, analog quality to the surface.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149010305",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21f31f65-7267-4c22-8e59-fd007c27c40a/original=true/21f31f65-7267-4c22-8e59-fd007c27c40a.jpeg",
+      "model_version_ids": [
+        3072332,
+        3328996,
+        3371723
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1104536680,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-14T19:57:33.090961+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "63e9d347641635b8dd58834112f43402ce265174b816d3d518bde3d238bc00c1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149010305 image ai-image-prompts a 20-year-old woman with long flowing chestnut hair stands in a relaxed, candid pose within a blooming garden, wearing a yellow sundress, full bust, the fabric catching the light softly. the dress has lace edging, a smocked waist top, and short flowing skirt. youthful innocent expression. bright smile. the background consists of lush greenery and vibrant flowers, rendered with a shallow depth of field that creates a creamy, out-of-focus bokeh, while additional out-of-focus flowers in the immediate foreground frame the subject and add layers of depth. soft, diffused natural lighting illuminates the scene, simulating the gentle glow of late afternoon sunlight, casting subtle shadows that define the texture of the skin and the folds of the dress. the image possesses a high-fidelity photorealistic aesthetic, mimicking a candid 35mm film photograph shot on kodak portra 400, characterized by warm color tones, low contrast, and visible film grain that adds a tactile, analog quality to the surface. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149010305",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21f31f65-7267-4c22-8e59-fd007c27c40a/original=true/21f31f65-7267-4c22-8e59-fd007c27c40a.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-14T10:39:38.091437+00:00",
-  "prompt_count": 2872,
+  "generated_at": "2026-11-14T19:57:36.193018+00:00",
+  "prompt_count": 2883,
   "translation": {
     "language": "ar",
-    "translated_count": 56,
-    "skipped_count": 2809,
-    "failed_count": 7,
-    "updated_at": "2026-11-14T10:39:37Z"
+    "translated_count": 0,
+    "skipped_count": 2865,
+    "failed_count": 18,
+    "updated_at": "2026-11-14T19:57:35Z"
   }
 }
