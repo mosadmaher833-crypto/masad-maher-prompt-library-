@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -134290,15 +134290,1153 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/deeeb40d-981f-407c-83ec-e5199d77aa68/original=true/deeeb40d-981f-407c-83ec-e5199d77aa68.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149214068",
+      "title": "Civitai prompt 149214068",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A beautifully detailed anime illustration of a romantic royal couple embracing inside an extravagant golden palace ballroom.\nIn the foreground, a young woman with long, flowing pastel-pink hair, delicate bangs, and large turquoise-blue eyes is being gently held from behind by a handsome young man. She wears an elegant blue-and-white royal ball gown with puffed sleeves, delicate ruffles, a fitted bodice, and a small blue rose ornament near her shoulder. Her long pink hair flows gracefully around her shoulders, with a few loose strands framing her face. She has a gentle, slightly shy expression while gazing toward the viewer's left.\nStanding closely behind her is a tall, handsome young man with messy dark indigo-purple hair, long bangs partially covering his eyes, and striking pale blue eyes. He wears an elaborate royal military-inspired uniform consisting of a dark navy jacket with intricate gold embroidery, decorative gold buttons, a high collar, a luxurious dark fur-trimmed shoulder cape, and a flowing deep burgundy-red royal cloak. His expression is calm, protective, and composed.\nThe man wraps both arms around the woman in a tender embrace, his hands resting gently around her waist as she holds his arms. Their bodies are positioned closely together, creating an intimate and romantic atmosphere.\nEnvironment: An enormous luxurious royal palace interior with magnificent golden architecture, tall decorative columns, ornate arches, intricate gold moldings, and a grand upper balcony. Rich red velvet curtains with golden tassels hang elegantly along the balcony railing. The background features warm golden illumination and softly glowing palace lights.\nComposition and camera: Medium close-up shot, eye-level camera angle, both characters framed from approximately the waist up. The woman occupies the foreground, slightly left of center, while the taller man stands directly behind her, positioned slightly to the right. Their faces remain clearly visible. The embrace forms the central focal point, with the palace architecture providing an elegant symmetrical background.\nLighting and atmosphere: Warm golden backlighting, soft diffused sunlight streaming through the palace windows, luminous highlights on their hair and clothing, subtle sparkling particles, gentle bloom, dreamy romantic ambiance, delicate atmospheric glow, and soft shadows.\nExquisite anime illustration, elegant character designs, beautiful expressive eyes, delicate facial features, flowing detailed hair, intricate clothing details, refined linework, soft pastel color palette contrasted with rich royal reds and golds, polished anime shading, cinematic composition, highly detailed background, ethereal romantic fantasy atmosphere.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149214068",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/487e8430-06e4-4208-aea6-06abcd3b6590/original=true/487e8430-06e4-4208-aea6-06abcd3b6590.jpeg",
+      "model_version_ids": [
+        3410955
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1245604354,
+      "negative_prompt": "(worst quality, bad quality:1.2), 3d,lowres,low quality,bad quality,anatomical nonsense,interlocked fingers,extra fingers,watermark,transparent,logo,text,signature,jpeg artifacts,username,censored,extra digit,ugly,bad_hands,bad_feet,bad_anatomy,deformed anatomy,bad proportions,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797767+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "68a9136f3c7f67703a539fcbe20b90268988bcbda29e83862de660a3a0c22592",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149214068 architecture ai-image-prompts a beautifully detailed anime illustration of a romantic royal couple embracing inside an extravagant golden palace ballroom. in the foreground, a young woman with long, flowing pastel-pink hair, delicate bangs, and large turquoise-blue eyes is being gently held from behind by a handsome young man. she wears an elegant blue-and-white royal ball gown with puffed sleeves, delicate ruffles, a fitted bodice, and a small blue rose ornament near her shoulder. her long pink hair flows gracefully around her shoulders, with a few loose strands framing her face. she has a gentle, slightly shy expression while gazing toward the viewer's left. standing closely behind her is a tall, handsome young man with messy dark indigo-purple hair, long bangs partially covering his eyes, and striking pale blue eyes. he wears an elaborate royal military-inspired uniform consisting of a dark navy jacket with intricate gold embroidery, decorative gold buttons, a high collar, a luxurious dark fur-trimmed shoulder cape, and a flowing deep burgundy-red royal cloak. his expression is calm, protective, and composed. the man wraps both arms around the woman in a tender embrace, his hands resting gently around her waist as she holds his arms. their bodies are positioned closely together, creating an intimate and romantic atmosphere. environment: an enormous luxurious royal palace interior with magnificent golden architecture, tall decorative columns, ornate arches, intricate gold moldings, and a grand upper balcony. rich red velvet curtains with golden tassels hang elegantly along the balcony railing. the background features warm golden illumination and softly glowing palace lights. composition and camera: medium close-up shot, eye-level camera angle, both characters framed from approximately the waist up. the woman occupies the foreground, slightly left of center, while the taller man stands directly behind her, positioned slightly to the right. their faces remain clearly visible. the embrace forms the central focal point, with the palace architecture providing an elegant symmetrical background. lighting and atmosphere: warm golden backlighting, soft diffused sunlight streaming through the palace windows, luminous highlights on their hair and clothing, subtle sparkling particles, gentle bloom, dreamy romantic ambiance, delicate atmospheric glow, and soft shadows. exquisite anime illustration, elegant character designs, beautiful expressive eyes, delicate facial features, flowing detailed hair, intricate clothing details, refined linework, soft pastel color palette contrasted with rich royal reds and golds, polished anime shading, cinematic composition, highly detailed background, ethereal romantic fantasy atmosphere. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149214068",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/487e8430-06e4-4208-aea6-06abcd3b6590/original=true/487e8430-06e4-4208-aea6-06abcd3b6590.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149214021",
+      "title": "Civitai prompt 149214021",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "High quality frontal candid photo of sporty girl next door Sm_ann.  This is a high-resolution photograph of a young woman with a light to medium skin tone, captured in a close-up portrait against a plain white background. She has straight brown hair tied in a high ponytail, with a white headband resting on her forehead. Her green eyes are slightly open, and she is looking to the left with a subtle, relaxed expression. She has well-defined eyebrows, long eyelashes, and is wearing light pink lipstick. Her ears are adorned with small, silver hoop earrings, and she is also wearing a delicate silver necklace with a small, heart-shaped pendant. The woman's skin is smooth and she has a few freckles on her nose. She is wearing a black spaghetti top. The photograph is well-lit, emphasizing the natural texture of her skin and the subtle sheen of her hair. The overall style is minimalist and modern, focusing on the subject's natural beauty and simple accessories. The white background ensures that the viewer's attention is entirely on the woman's face and upper body.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149214021",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b19b09b-d502-426a-916c-355bc9d7924d/original=true/2b19b09b-d502-426a-916c-355bc9d7924d.jpeg",
+      "model_version_ids": [
+        3151891,
+        3171380,
+        3192618,
+        3215719,
+        3474888
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 863662697,
+      "negative_prompt": "worst quality, low quality, bad anatomy, deformed hands, extra fingers, malformed limbs, distorted face, plastic skin, overly smooth skin, waxy skin, oversharpening, excessive skin retouching, blurry, jpeg artifacts, watermark, text, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797802+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "05d5641387edceff1f61a295cec58c3bcc44fe246bb6ea49f5555e0b758b3aa2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149214021 image ai-image-prompts high quality frontal candid photo of sporty girl next door sm_ann. this is a high-resolution photograph of a young woman with a light to medium skin tone, captured in a close-up portrait against a plain white background. she has straight brown hair tied in a high ponytail, with a white headband resting on her forehead. her green eyes are slightly open, and she is looking to the left with a subtle, relaxed expression. she has well-defined eyebrows, long eyelashes, and is wearing light pink lipstick. her ears are adorned with small, silver hoop earrings, and she is also wearing a delicate silver necklace with a small, heart-shaped pendant. the woman's skin is smooth and she has a few freckles on her nose. she is wearing a black spaghetti top. the photograph is well-lit, emphasizing the natural texture of her skin and the subtle sheen of her hair. the overall style is minimalist and modern, focusing on the subject's natural beauty and simple accessories. the white background ensures that the viewer's attention is entirely on the woman's face and upper body. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149214021",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b19b09b-d502-426a-916c-355bc9d7924d/original=true/2b19b09b-d502-426a-916c-355bc9d7924d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213965",
+      "title": "Civitai prompt 149213965",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy.  A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of Beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \nclarity, , vibrant orange fitted top with a black mini skirt and knee-high boots, Community Gathering Area, Open clearing encircled by tall trees, a ceremonial tepee standing proudly in the center, colorful prayer flags fluttering in the breeze, a communal cooking fire surrounded by stone hearths, hand-carved wooden benches arranged in a semicircle for storytelling and council meetings, Sitting in lotus position, eyes closed \nCamera angle  Front on\n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213965",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8d19039-28e6-489c-b497-a5386161befe/original=true/c8d19039-28e6-489c-b497-a5386161befe.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3322712,
+        3399896,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797816+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a891b3ad4e41d0175bd5aa85bdc30d4a51963011adc691d5ba144dcdd22990f0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213965 image ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy. a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, clarity, , vibrant orange fitted top with a black mini skirt and knee-high boots, community gathering area, open clearing encircled by tall trees, a ceremonial tepee standing proudly in the center, colorful prayer flags fluttering in the breeze, a communal cooking fire surrounded by stone hearths, hand-carved wooden benches arranged in a semicircle for storytelling and council meetings, sitting in lotus position, eyes closed camera angle front on ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213965",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8d19039-28e6-489c-b497-a5386161befe/original=true/c8d19039-28e6-489c-b497-a5386161befe.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213945",
+      "title": "Civitai prompt 149213945",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Asuka Langley Soryu from Neon Genesis Evangelion, young woman with short spiky red hair, intense red eyes, white and orange high-tech plugsuit, Evangelion Unit-02 pilot, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, her personal mecha Evangelion Unit-02, a magenta-purple humanoid mecha with orange accents and a single horned head crest, at the command bridge of a starship, her hand raised over a large glowing holographic tactical table, directing the movements of her personal mecha Evangelion Unit-02, a magenta-purple humanoid mecha with orange accents and a single horned head crest shown in hologram, holographic star map, glowing consoles, blue and violet ambient light, huge window with a starfield and colorful nebula, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213945",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ae851639-aa83-4b4f-89ed-7cb3a32d7a94/original=true/ae851639-aa83-4b4f-89ed-7cb3a32d7a94.jpeg",
+      "model": "krea2/JANK2AnimeKrea2Turbo_v10",
+      "model_version_ids": [],
+      "seed": 90114986,
+      "negative_prompt": "lowres, blurry, watermark, jpeg artifacts, distorted, ugly, deformed, extra limbs, extra fingers, fused fingers, long neck, wrong anatomy, photo, photorealistic, 3d render, comic panels, speech bubbles, borders, fur, animal ears, animal tail, anthropomorphic, furry, beast, claws",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797828+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8c1c57b677a4b06a3163f39b423b97a4c1234e3f909faf09fedc34c5daae77f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213945 image ai-image-prompts asuka langley soryu from neon genesis evangelion, young woman with short spiky red hair, intense red eyes, white and orange high-tech plugsuit, evangelion unit-02 pilot, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, her personal mecha evangelion unit-02, a magenta-purple humanoid mecha with orange accents and a single horned head crest, at the command bridge of a starship, her hand raised over a large glowing holographic tactical table, directing the movements of her personal mecha evangelion unit-02, a magenta-purple humanoid mecha with orange accents and a single horned head crest shown in hologram, holographic star map, glowing consoles, blue and violet ambient light, huge window with a starfield and colorful nebula, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213945",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ae851639-aa83-4b4f-89ed-7cb3a32d7a94/original=true/ae851639-aa83-4b4f-89ed-7cb3a32d7a94.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213949",
+      "title": "Civitai prompt 149213949",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "silver-white short hair, calm blue eyes, white and orange high-tech mecha pilot plugsuit, Evangelion-style, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, standing before a colossal mecha towering above the launch bay, massive hangar doors opening, dawn light streaming in, steam and sparks, epic scale, her looking up at the giant robot, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213949",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/623ae83e-fa8c-46f5-a9a0-53c45b0d92be/original=true/623ae83e-fa8c-46f5-a9a0-53c45b0d92be.jpeg",
+      "model": "krea2/JANK2AnimeKrea2Turbo_v10",
+      "model_version_ids": [],
+      "seed": 1160512812,
+      "negative_prompt": "lowres, blurry, watermark, jpeg artifacts, distorted, ugly, deformed, extra limbs, extra fingers, fused fingers, long neck, wrong anatomy, photo, photorealistic, 3d render, comic panels, speech bubbles, borders, fur, animal ears, animal tail, anthropomorphic, furry, beast, claws",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797836+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a5f34412dc578e0ca15db669ea19407ff2c68a18455cc74a7b1e767d14077106",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213949 image ai-image-prompts silver-white short hair, calm blue eyes, white and orange high-tech mecha pilot plugsuit, evangelion-style, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, standing before a colossal mecha towering above the launch bay, massive hangar doors opening, dawn light streaming in, steam and sparks, epic scale, her looking up at the giant robot, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213949",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/623ae83e-fa8c-46f5-a9a0-53c45b0d92be/original=true/623ae83e-fa8c-46f5-a9a0-53c45b0d92be.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213942",
+      "title": "Civitai prompt 149213942",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Asuka Langley Soryu, red long spiky hair, white and orange plugsuit, Evangelion anime, EVA pilot, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, standing before a colossal mecha towering above the launch bay, massive hangar doors opening, dawn light streaming in, steam and sparks, epic scale, her looking up at the giant robot, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213942",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0505400f-2633-4191-a931-b78a833bb5ea/original=true/0505400f-2633-4191-a931-b78a833bb5ea.jpeg",
+      "model": "krea2/kreaAnimeUWUTurbo_turbo10Int8",
+      "model_version_ids": [],
+      "seed": 1039127504,
+      "negative_prompt": "lowres, blurry, watermark, jpeg artifacts, distorted, ugly, deformed, extra limbs, extra fingers, fused fingers, long neck, wrong anatomy, photo, photorealistic, 3d render, comic panels, speech bubbles, borders, fur, animal ears, animal tail, anthropomorphic, furry, beast, claws",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797844+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4f45a5ec5a71e41c5bd36314680483adddea379791eb2dc3c927ca7e65c4258f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213942 image ai-image-prompts asuka langley soryu, red long spiky hair, white and orange plugsuit, evangelion anime, eva pilot, 2d anime style, clean 2d digital illustration, soft cel shading, smooth clean lineart, single full scene, no comic panels, no borders, no speech bubbles, human character, clearly adult woman, no animal features, standing before a colossal mecha towering above the launch bay, massive hangar doors opening, dawn light streaming in, steam and sparks, epic scale, her looking up at the giant robot, ultra detailed, masterpiece, cinematic sci-fi lighting, detailed futuristic technology, vibrant colors, high-detail anime background, dynamic composition civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213942",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0505400f-2633-4191-a931-b78a833bb5ea/original=true/0505400f-2633-4191-a931-b78a833bb5ea.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213935",
+      "title": "Civitai prompt 149213935",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic close-up of a wild frog with a thick reddish-brown dense fur coat resembling fox fur, visible individual hair strands, wide webbed fur-covered toes, on a pine-needle forest floor, warm autumn light, shallow depth of field, wildlife creature macro, real dense fur, ultra detailed, photorealistic, real dense mammalian fur coat, visible individual hair strands, wildlife creature photography, single full scene, natural light",
+      "quality_score": 9.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213935",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1163e3fe-c58b-46c0-9615-4343359b855f/original=true/1163e3fe-c58b-46c0-9615-4343359b855f.jpeg",
+      "model": "krea2/krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "seed": 60062006,
+      "negative_prompt": "anthropomorphic, humanoid, standing upright, human, cartoon, anime, plush toy, cgi character, lowres, blurry, watermark, text, logo, jpeg artifacts, distorted, ugly, deformed, extra limbs, bad anatomy, 3d render, smooth slimy skin",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797851+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0be08c22d86a9013e4ffc8cbee4a8325d4acc70116e841bd9871c0fa6e255b27",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149213935 food ai-image-prompts a photorealistic close-up of a wild frog with a thick reddish-brown dense fur coat resembling fox fur, visible individual hair strands, wide webbed fur-covered toes, on a pine-needle forest floor, warm autumn light, shallow depth of field, wildlife creature macro, real dense fur, ultra detailed, photorealistic, real dense mammalian fur coat, visible individual hair strands, wildlife creature photography, single full scene, natural light civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213935",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1163e3fe-c58b-46c0-9615-4343359b855f/original=true/1163e3fe-c58b-46c0-9615-4343359b855f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213899",
+      "title": "Civitai prompt 149213899",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \n clarity, , Playful Cancan Duo in Velvet Lounge Two performers in striped bloomers, laced bodices, and lace-up ankle boots whirl through a choreographed routine on a red-carpeted stage. Feathered fans flash above their heads. The crowd claps in sync under rich ruby lighting. Wide angle shows dynamic symmetry in movement and costume.\nCamera angle  looking over her shoulder\n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213899",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85836f58-60b6-4feb-9424-199499de60f7/original=true/85836f58-60b6-4feb-9424-199499de60f7.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3322712,
+        3399896,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797860+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c74a5ce16824409e409a3c25989a3cda79f9f275ff22c3744530d017991e3c7f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213899 image ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, clarity, , playful cancan duo in velvet lounge two performers in striped bloomers, laced bodices, and lace-up ankle boots whirl through a choreographed routine on a red-carpeted stage. feathered fans flash above their heads. the crowd claps in sync under rich ruby lighting. wide angle shows dynamic symmetry in movement and costume. camera angle looking over her shoulder ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213899",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85836f58-60b6-4feb-9424-199499de60f7/original=true/85836f58-60b6-4feb-9424-199499de60f7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213857",
+      "title": "Civitai prompt 149213857",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \n clarity, , Midnight Gardener in Overgrown Estate In a linen wrap and gardening gloves, a woman prunes roses under moonlight in an eerie courtyard. Shadows stretch across statues and ivy-covered walls. Blue-tinted light evokes mystery and care. Wide symmetrical viewpoint. \nCamera angle Front on\n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213857",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2bbd4ef-1781-4f89-a151-89acaeb32cce/original=true/e2bbd4ef-1781-4f89-a151-89acaeb32cce.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3322712,
+        3399896,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797868+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8ee3ec32eb102c226c04a03e70e1d94d06f6b83db0b57df990854364f4fc468",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213857 image ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, clarity, , midnight gardener in overgrown estate in a linen wrap and gardening gloves, a woman prunes roses under moonlight in an eerie courtyard. shadows stretch across statues and ivy-covered walls. blue-tinted light evokes mystery and care. wide symmetrical viewpoint. camera angle front on ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213857",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2bbd4ef-1781-4f89-a151-89acaeb32cce/original=true/e2bbd4ef-1781-4f89-a151-89acaeb32cce.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213780",
+      "title": "Civitai prompt 149213780",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Raw, unedited full-body sci-fi military photograph with pronounced 35mm analog film grain and natural atmospheric optical diffusion—shot with a 35mm lens from a slightly low eye-level front-three-quarter angle—of a massive, heavily weathered bipedal combat mech standing motionless in a barren desert wasteland, featuring scuffed tan-and-brown camouflage steel armor plating, exposed hydraulic pistons, dark mechanical joints, and holding a colossal multi-barreled rotary gatling cannon with a hanging ammunition belt across its hips, with its central armored chest cockpit hatch swung wide open to reveal a realistic chunky ginger tabby cat sitting upright inside the pilot seat, wearing a weathered crimson-red cloth bandana tied around its neck and vintage round brass-rimmed leather aviator driving goggles pushed up onto its forehead, leaning one furry paw casually on the cockpit rim while holding a lit white cigarette between its digits with a thin wisp of grey smoke curling upward from the glowing ember, gazing forward with a calm, unimpressed expression, set against a vast flat arid desert plain beneath a moody overcast slate-grey sky with zero text, signatures, or watermarks, illuminated by diffused overcast daylight casting soft natural shadows across the chipped metallic armor, dusty desert ground, fluffy orange cat fur, and leather driving goggles with zero digital smoothing. <lora:obsidianNightmare:0.86> <lora:RealisticSnapshotKrea2:0.45> <lora:Krea_2_zidiusArt_Melancholy_v2:0.82>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213780",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/faf90c26-40e1-4409-9d69-d1c5278b1cf7/original=true/faf90c26-40e1-4409-9d69-d1c5278b1cf7.jpeg",
+      "model": "Krea2_Turbo_int8mixed",
+      "model_version_ids": [
+        3084537,
+        3092672,
+        3116962
+      ],
+      "width": 1080,
+      "height": 1920,
+      "seed": 2156850920,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797889+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "12247c68af1ad73660bbb0651e734a4cf7b7dd9ed5f8f2bba66420397d453b29",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149213780 photography ai-image-prompts raw, unedited full-body sci-fi military photograph with pronounced 35mm analog film grain and natural atmospheric optical diffusion—shot with a 35mm lens from a slightly low eye-level front-three-quarter angle—of a massive, heavily weathered bipedal combat mech standing motionless in a barren desert wasteland, featuring scuffed tan-and-brown camouflage steel armor plating, exposed hydraulic pistons, dark mechanical joints, and holding a colossal multi-barreled rotary gatling cannon with a hanging ammunition belt across its hips, with its central armored chest cockpit hatch swung wide open to reveal a realistic chunky ginger tabby cat sitting upright inside the pilot seat, wearing a weathered crimson-red cloth bandana tied around its neck and vintage round brass-rimmed leather aviator driving goggles pushed up onto its forehead, leaning one furry paw casually on the cockpit rim while holding a lit white cigarette between its digits with a thin wisp of grey smoke curling upward from the glowing ember, gazing forward with a calm, unimpressed expression, set against a vast flat arid desert plain beneath a moody overcast slate-grey sky with zero text, signatures, or watermarks, illuminated by diffused overcast daylight casting soft natural shadows across the chipped metallic armor, dusty desert ground, fluffy orange cat fur, and leather driving goggles with zero digital smoothing. <lora:obsidiannightmare:0.86> <lora:realisticsnapshotkrea2:0.45> <lora:krea_2_zidiusart_melancholy_v2:0.82> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213780",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/faf90c26-40e1-4409-9d69-d1c5278b1cf7/original=true/faf90c26-40e1-4409-9d69-d1c5278b1cf7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213852",
+      "title": "Civitai prompt 149213852",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic still frame captures a solitary traveler walking along a straight, artificial road that cuts through a vast, surreal lunar landscape of towering red-brown buttes and mesas. The figure, seen from a side profile in a simple traveler's silhouette, appears minuscule against the overwhelming scale of the environment, their steady pace emphasizing a profound sense of isolation. The ground is a complex fusion of grey lunar dust and weathered, monolithic rock formations that mimic the jagged grandeur of Monument Valley, every crater and grain of mineral sand rendered with sharp, tactile precision. Above, the sky is a void of deep black space, dense with a shimmering starfield and the distant, hazy glow of nebulae. High in the firmament, a massive Earth hangs in the dark, its blue oceans, white cloud swirls, and terrestrial continents clearly visible, grounding the alien scenery in a recognizable celestial reality. A low, raking light from a distant source carves long, dramatic shadows across the cracked asphalt of the road and the faces of the towering cliffs, casting the scene in a palette of bruised ochre and cold charcoal. The road stretches toward the horizon with a slight, graceful curve, its smooth surface contrasting with the raw, jagged textures of the surrounding stone. A single plume of fine dust kicks up behind the traveler's boot, the only movement in a world of frozen silence. The heavy blue of the shadows feels cold against the warm, sun-baked orange of the mesas, creating a tension between the heat of the earth and the chill of the void. The Earth hangs motionless, a silent witness to the lonely journey below. \nphotorealistic, cinematic still frame, moody cinematic lighting, fine film grain, crisp optics, otherworldly stillness, mythic scale, quiet wonder.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213852",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3ef70bf-8bb2-4ef1-ac79-83e63a9efe0b/original=true/f3ef70bf-8bb2-4ef1-ac79-83e63a9efe0b.jpeg",
+      "model": "(Krea2)_krea2TurboRawINT8_krea2TurboINT8",
+      "model_version_ids": [
+        3062491,
+        3466318
+      ],
+      "width": 2376,
+      "height": 3488,
+      "seed": 10731345354340,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797906+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "98ecb7edfa0cd7357d2f1d6c5706a91db772dcd8c87173fe88b2e05a78e99d26",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149213852 photography ai-image-prompts a cinematic still frame captures a solitary traveler walking along a straight, artificial road that cuts through a vast, surreal lunar landscape of towering red-brown buttes and mesas. the figure, seen from a side profile in a simple traveler's silhouette, appears minuscule against the overwhelming scale of the environment, their steady pace emphasizing a profound sense of isolation. the ground is a complex fusion of grey lunar dust and weathered, monolithic rock formations that mimic the jagged grandeur of monument valley, every crater and grain of mineral sand rendered with sharp, tactile precision. above, the sky is a void of deep black space, dense with a shimmering starfield and the distant, hazy glow of nebulae. high in the firmament, a massive earth hangs in the dark, its blue oceans, white cloud swirls, and terrestrial continents clearly visible, grounding the alien scenery in a recognizable celestial reality. a low, raking light from a distant source carves long, dramatic shadows across the cracked asphalt of the road and the faces of the towering cliffs, casting the scene in a palette of bruised ochre and cold charcoal. the road stretches toward the horizon with a slight, graceful curve, its smooth surface contrasting with the raw, jagged textures of the surrounding stone. a single plume of fine dust kicks up behind the traveler's boot, the only movement in a world of frozen silence. the heavy blue of the shadows feels cold against the warm, sun-baked orange of the mesas, creating a tension between the heat of the earth and the chill of the void. the earth hangs motionless, a silent witness to the lonely journey below. photorealistic, cinematic still frame, moody cinematic lighting, fine film grain, crisp optics, otherworldly stillness, mythic scale, quiet wonder. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213852",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3ef70bf-8bb2-4ef1-ac79-83e63a9efe0b/original=true/f3ef70bf-8bb2-4ef1-ac79-83e63a9efe0b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213786",
+      "title": "Civitai prompt 149213786",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a Beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \n, Pink sequin cocktail dress, deep V-back, pink satin stilettos, Breitling Navitimer watch, black ink tattoos, shimmering pink sequins, smooth satin finish, intricate clasp detail, polished metal watch accents., a magical fantasy realm, where mythical creatures roam, and enchanted forests hold secrets and wonders, Squatting, elbows resting on knees \nCamera angle  Front on\n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213786",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d0b5ba0-005a-4e4c-bc49-123caba1571e/original=true/4d0b5ba0-005a-4e4c-bc49-123caba1571e.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3140151,
+        3322712,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797915+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e7dd86b2d2f900b4e49a29c2f47ba1d9172dd644dadbfccffb9c1582c3225780",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149213786 photography ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, , pink sequin cocktail dress, deep v-back, pink satin stilettos, breitling navitimer watch, black ink tattoos, shimmering pink sequins, smooth satin finish, intricate clasp detail, polished metal watch accents., a magical fantasy realm, where mythical creatures roam, and enchanted forests hold secrets and wonders, squatting, elbows resting on knees camera angle front on ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213786",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d0b5ba0-005a-4e4c-bc49-123caba1571e/original=true/4d0b5ba0-005a-4e4c-bc49-123caba1571e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149139451",
+      "title": "Civitai prompt 149139451",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic dark fantasy photograph of a female dentist in a worn leather apron and headlamp, standing on a tall wooden ladder inside the gaping open mouth of a colossal sleeping troll. The mouth is propped open with a moss-covered beam; teeth like gravestones, stained yellow-brown, cracked, green moss growing between them. Directly before her, one giant rotten molar—black-brown, decayed—has an oversized iron drill spinning against it, chipping enamel and dust into the air. She holds a hooked pick in her other hand. Her headlamp’s narrow warm beam illuminates the tooth. Thick saliva strands hang between teeth; a tongue the size of a hill fills the lower frame. A small wooden bucket of tools dangles from the ladder. In upper right, a reptilian eye half-open, glowing amber vertical pupil watches. Dust motes float in the light. Cold blue-green ambient glow, single warm source. Shallow depth of field. Hyperrealistic textures: wet skin, enamel, damp cave atmosphere. Wide-angle shot emphasizing tiny human against monstrous scale. Film still quality. Tense, darkly humorous mood. cinevivid <lora:cinevivid:0.75>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149139451",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/436d3730-4688-49c2-9d11-b57d0be5bd26/original=true/436d3730-4688-49c2-9d11-b57d0be5bd26.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 755014569128412,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797931+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8a1aa567750135350071b3733f8d22c966fa6f8d0a0f86a5c32c5a7223383a3a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149139451 image ai-image-prompts a cinematic dark fantasy photograph of a female dentist in a worn leather apron and headlamp, standing on a tall wooden ladder inside the gaping open mouth of a colossal sleeping troll. the mouth is propped open with a moss-covered beam; teeth like gravestones, stained yellow-brown, cracked, green moss growing between them. directly before her, one giant rotten molar—black-brown, decayed—has an oversized iron drill spinning against it, chipping enamel and dust into the air. she holds a hooked pick in her other hand. her headlamp’s narrow warm beam illuminates the tooth. thick saliva strands hang between teeth; a tongue the size of a hill fills the lower frame. a small wooden bucket of tools dangles from the ladder. in upper right, a reptilian eye half-open, glowing amber vertical pupil watches. dust motes float in the light. cold blue-green ambient glow, single warm source. shallow depth of field. hyperrealistic textures: wet skin, enamel, damp cave atmosphere. wide-angle shot emphasizing tiny human against monstrous scale. film still quality. tense, darkly humorous mood. cinevivid <lora:cinevivid:0.75> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149139451",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/436d3730-4688-49c2-9d11-b57d0be5bd26/original=true/436d3730-4688-49c2-9d11-b57d0be5bd26.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213703",
+      "title": "Civitai prompt 149213703",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, score_7, fair skin, safe.\nThis is a digitally drawn illustration with obsessively fine line-work, A striking portrait of a beautiful woman with long black hair styled in high twin buns adorned with orange hair ornaments, featuring sharp bangs and captivating eyes. She is wearing an elaborate black robe with intricate gold embroidery, a high collar, and a sash tied with orange tassels, positioned dramatically against a background of intense, roaring orange and yellow flames. The entire image must be rendered in a highly detailed pixel/glitch art style, incorporating digital artifacts, chromatic aberration, scan lines, and vibrant digital noise, emphasizing the contrast between the luxurious costume and the fiery backdrop.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213703",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8469232-a6a8-4232-858c-0f9ca093b7b7/original=true/b8469232-a6a8-4232-858c-0f9ca093b7b7.jpeg",
+      "model_version_ids": [
+        2855073,
+        3263843,
+        3468835
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 692375639,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, NSFW, nude, naked.\nextra legs, extra hands, mutated legs, mutated hands, bad eyes, ugly face, low res, deformed hands, deformed legs, deformed feet, extra limbs, deformed teeth, extra toes, deformed feet,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797940+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f0aa029fbd9d523108ec6132d0d114a3eac55647ad67d547b2689b4c4dc0c42f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213703 image ai-image-prompts masterpiece, best quality, score_7, fair skin, safe. this is a digitally drawn illustration with obsessively fine line-work, a striking portrait of a beautiful woman with long black hair styled in high twin buns adorned with orange hair ornaments, featuring sharp bangs and captivating eyes. she is wearing an elaborate black robe with intricate gold embroidery, a high collar, and a sash tied with orange tassels, positioned dramatically against a background of intense, roaring orange and yellow flames. the entire image must be rendered in a highly detailed pixel/glitch art style, incorporating digital artifacts, chromatic aberration, scan lines, and vibrant digital noise, emphasizing the contrast between the luxurious costume and the fiery backdrop. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213703",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8469232-a6a8-4232-858c-0f9ca093b7b7/original=true/b8469232-a6a8-4232-858c-0f9ca093b7b7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149204551",
+      "title": "Civitai prompt 149204551",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "face.\na fresh and playful pop portrait of a young woman peeking over the raised collar of her track jacket, cool, shy and slightly teasing mood, close-up from a high angle with a strong dutch tilt, her chin tucked into the zip-up collar and her head tilted toward the camera, half-lidded warm hazel eyes with a soft rosy blush across the cheeks, very long straight black hair with blunt bangs and a few glossy strands falling over her shoulder, a small round silver earring, a glossy retro track jacket with bold coral-red, turquoise and cream vertical stripes, a metal zipper pull and a silver ornamental emblem on the chest, a sunny lemon-yellow background with soft pink and mint color blocks, bright sunlight from above with a crisp pastel shadow cast by the bangs across her eyes, a glowing white highlight on the top of her hair, asymmetrical composition with the face in the upper center and the striped sleeve sweeping diagonally across the lower right, restricted palette of coral red, turquoise, lemon yellow and cream,masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149204551",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5935fb74-8430-4792-87bf-899b790d2a20/original=true/5935fb74-8430-4792-87bf-899b790d2a20.jpeg",
+      "model_version_ids": [
+        3072332,
+        3473442
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 222589901,
+      "negative_prompt": "ugly, soft focus, out of focus, deformed, distorted, disfigured, bad anatomy, signature, watermark, low quality, lowres. NSFW, nude, bare,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797951+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e7c50471a0fa05e1d333d6da53efe8f702b7dbf704fd03b86958d4ed32a32d4a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149204551 image ai-image-prompts face. a fresh and playful pop portrait of a young woman peeking over the raised collar of her track jacket, cool, shy and slightly teasing mood, close-up from a high angle with a strong dutch tilt, her chin tucked into the zip-up collar and her head tilted toward the camera, half-lidded warm hazel eyes with a soft rosy blush across the cheeks, very long straight black hair with blunt bangs and a few glossy strands falling over her shoulder, a small round silver earring, a glossy retro track jacket with bold coral-red, turquoise and cream vertical stripes, a metal zipper pull and a silver ornamental emblem on the chest, a sunny lemon-yellow background with soft pink and mint color blocks, bright sunlight from above with a crisp pastel shadow cast by the bangs across her eyes, a glowing white highlight on the top of her hair, asymmetrical composition with the face in the upper center and the striped sleeve sweeping diagonally across the lower right, restricted palette of coral red, turquoise, lemon yellow and cream,masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149204551",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5935fb74-8430-4792-87bf-899b790d2a20/original=true/5935fb74-8430-4792-87bf-899b790d2a20.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213616",
+      "title": "Civitai prompt 149213616",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Pencil_morph_style, Darth Vader, an imposing Darth Vader sculpted entirely from black graphite pencils and compressed charcoal, his iconic helmet formed from countless sharpened pencil tips, layered wooden pencil bodies creating his armored silhouette, intricate graphite hatching across his chest plate, a crimson lightsaber constructed from a glowing sharpened red pencil, standing inside a gigantic abandoned Imperial throne chamber, scattered pencil shavings drifting through the air like dark ash, enormous hand-drawn architectural shadows covering the walls, dramatic low-angle composition, monochromatic graphite textures with subtle red accents, hyper-detailed three-dimensional pencil sculpture, cinematic lighting, surreal photorealism, 8K.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213616",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5003aeb7-8ee5-46bb-9910-f7ef38479c4d/original=true/5003aeb7-8ee5-46bb-9910-f7ef38479c4d.jpeg",
+      "model": "9527DetailRealistic_v80X215c.safetensors",
+      "model_version_ids": [
+        707161,
+        2200240
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 669162143597869,
+      "negative_prompt": "bad quality,worst quality,worst detail,sketch,censor,watermark, text, light ,dim lighting,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797960+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5157f3df5f1b3b326086d368a7dec6c48f9c6975ce2ccfb1fd2bc9783cbce5fb",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213616 image ai-image-prompts pencil_morph_style, darth vader, an imposing darth vader sculpted entirely from black graphite pencils and compressed charcoal, his iconic helmet formed from countless sharpened pencil tips, layered wooden pencil bodies creating his armored silhouette, intricate graphite hatching across his chest plate, a crimson lightsaber constructed from a glowing sharpened red pencil, standing inside a gigantic abandoned imperial throne chamber, scattered pencil shavings drifting through the air like dark ash, enormous hand-drawn architectural shadows covering the walls, dramatic low-angle composition, monochromatic graphite textures with subtle red accents, hyper-detailed three-dimensional pencil sculpture, cinematic lighting, surreal photorealism, 8k. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213616",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5003aeb7-8ee5-46bb-9910-f7ef38479c4d/original=true/5003aeb7-8ee5-46bb-9910-f7ef38479c4d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213613",
+      "title": "Civitai prompt 149213613",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic still frame captures a colossal, photorealistic Earth suspended in the deep void of space, fused with a gargantuan DNA double helix that spirals toward the viewer from the foreground into the infinite distance. The Earth, rendered with the clarity of a high-definition satellite photograph, features deep cerulean oceans, lush emerald continents, and swirling white cloud formations, while a golden sun on the upper-left horizon carves a burning rim of light around its translucent blue atmosphere. Encircling the planet, the DNA structure is composed of polished crystal and glass, its molecular lattice precisely defined and housing a flowing river of molten gold light within its core. Tangible green vines, broad leaves, and tiny white flowers entwine naturally around the transparent spirals, while the interior of the helix hosts a dense, miniature ecosystem: primates transitioning into humans, majestic trees, and elephants with calves walking through grasslands, alongside leopards, deer, and birds in mid-flight. In the submerged sections of the helix, a vibrant underwater world of drifting bubbles and soft caustic light reveals whales, jellyfish, and tropical fish weaving through intricate coral reefs. The background is a vast starfield of deep indigo and black, punctuated by billowing clouds of glowing magenta and teal interstellar gas and a distant spiral galaxy curling around a bright core. Every surface, from the wet skin of the whales to the rough bark of the trees, receives the warm amber glow of the sun, creating sharp highlights and deep shadows that emphasize the immense scale of the genetic architecture. The light refracts through the glass-like molecules, casting prismatic flares and soft bokeh across the frame. A single, tiny white flower on a foreground vine catches a sharp glint of light, standing in quiet contrast to the cosmic scale. cinematic still frame, photorealistic, moody cinematic lighting, fine film grain, crisp optics, otherworldly stillness, mythic scale, quiet wonder.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213613",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6190add6-75f2-4e2a-84de-4ccc984f2c18/original=true/6190add6-75f2-4e2a-84de-4ccc984f2c18.jpeg",
+      "model": "(Krea2)_krea2TurboRawINT8_krea2TurboINT8",
+      "model_version_ids": [
+        3062491,
+        3466318
+      ],
+      "width": 2376,
+      "height": 3488,
+      "seed": 80554760317128,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797977+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "618f1db32088892099d29c4f6e1b6c146122f2b477f95e7c31f834732b1d8796",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213613 architecture ai-image-prompts a cinematic still frame captures a colossal, photorealistic earth suspended in the deep void of space, fused with a gargantuan dna double helix that spirals toward the viewer from the foreground into the infinite distance. the earth, rendered with the clarity of a high-definition satellite photograph, features deep cerulean oceans, lush emerald continents, and swirling white cloud formations, while a golden sun on the upper-left horizon carves a burning rim of light around its translucent blue atmosphere. encircling the planet, the dna structure is composed of polished crystal and glass, its molecular lattice precisely defined and housing a flowing river of molten gold light within its core. tangible green vines, broad leaves, and tiny white flowers entwine naturally around the transparent spirals, while the interior of the helix hosts a dense, miniature ecosystem: primates transitioning into humans, majestic trees, and elephants with calves walking through grasslands, alongside leopards, deer, and birds in mid-flight. in the submerged sections of the helix, a vibrant underwater world of drifting bubbles and soft caustic light reveals whales, jellyfish, and tropical fish weaving through intricate coral reefs. the background is a vast starfield of deep indigo and black, punctuated by billowing clouds of glowing magenta and teal interstellar gas and a distant spiral galaxy curling around a bright core. every surface, from the wet skin of the whales to the rough bark of the trees, receives the warm amber glow of the sun, creating sharp highlights and deep shadows that emphasize the immense scale of the genetic architecture. the light refracts through the glass-like molecules, casting prismatic flares and soft bokeh across the frame. a single, tiny white flower on a foreground vine catches a sharp glint of light, standing in quiet contrast to the cosmic scale. cinematic still frame, photorealistic, moody cinematic lighting, fine film grain, crisp optics, otherworldly stillness, mythic scale, quiet wonder. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213613",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6190add6-75f2-4e2a-84de-4ccc984f2c18/original=true/6190add6-75f2-4e2a-84de-4ccc984f2c18.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213542",
+      "title": "Civitai prompt 149213542",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL",
+        "Wan"
+      ],
+      "prompt": "A magnificent hilarious cinematic sculpture of Obi-Wan Grumpobi, an unmistakable adult fusion of Obi-Wan Kenobi and Grampa Abraham Simpson, combining Grampa's wrinkled face, sparse hair, enormous glasses and grumpy expression with Obi-Wan's legendary beard, Jedi robes and lightsaber, HIS ENTIRE BODY AND CLOTHING ARE HANDCRAFTED FROM TIGHTLY BUNDLED REAL WOODEN PENCILS, his ancient face assembled from short yellow and beige lacquered wooden pencil barrels with clearly exposed wood grain, his long beard made from hundreds of downward-pointing sharpened white and gray wooden pencils with dark graphite cores, his Jedi robe formed from flowing layers of parallel brown and blue hexagonal pencil shafts, tiny black iron hinges and mechanical gears connecting the wooden bundles, MAIN VISUAL JOKE: the elderly Jedi proudly raises his legendary gigantic pencil-shaped lightsaber for battle but the sharpened graphite tip instantly snaps off, leaving him angrily holding an enormous blunt wooden pencil while his adult opponent politely offers him a tiny handheld pencil sharpener, huge piles of curled pale wooden shavings at his feet, dark graphite streaks on the stone floor, ancient Jedi woodworking temple, dramatic warm lighting emphasizing the natural timber, exceptional visible pencil construction, expressive elderly comedy, cinematic vertical 3:4 composition.  <lora:Pencil_morph_style:1> Pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213542",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e642ea50-c34c-4d60-a31f-489256624873/original=true/e642ea50-c34c-4d60-a31f-489256624873.jpeg",
+      "model": "animidnight",
+      "model_version_ids": [
+        135867,
+        567119,
+        707161
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2295916392,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.797990+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d23c597ea11e20d7a5d468c3c6c62ed8a625025aacb403e69a1420cd794c1f46",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL",
+        "Wan"
+      ],
+      "search_text": "civitai prompt 149213542 image ai-image-prompts a magnificent hilarious cinematic sculpture of obi-wan grumpobi, an unmistakable adult fusion of obi-wan kenobi and grampa abraham simpson, combining grampa's wrinkled face, sparse hair, enormous glasses and grumpy expression with obi-wan's legendary beard, jedi robes and lightsaber, his entire body and clothing are handcrafted from tightly bundled real wooden pencils, his ancient face assembled from short yellow and beige lacquered wooden pencil barrels with clearly exposed wood grain, his long beard made from hundreds of downward-pointing sharpened white and gray wooden pencils with dark graphite cores, his jedi robe formed from flowing layers of parallel brown and blue hexagonal pencil shafts, tiny black iron hinges and mechanical gears connecting the wooden bundles, main visual joke: the elderly jedi proudly raises his legendary gigantic pencil-shaped lightsaber for battle but the sharpened graphite tip instantly snaps off, leaving him angrily holding an enormous blunt wooden pencil while his adult opponent politely offers him a tiny handheld pencil sharpener, huge piles of curled pale wooden shavings at his feet, dark graphite streaks on the stone floor, ancient jedi woodworking temple, dramatic warm lighting emphasizing the natural timber, exceptional visible pencil construction, expressive elderly comedy, cinematic vertical 3:4 composition. <lora:pencil_morph_style:1> pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc civitai ai-image imported api sdxl wan sdxl wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213542",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e642ea50-c34c-4d60-a31f-489256624873/original=true/e642ea50-c34c-4d60-a31f-489256624873.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213539",
+      "title": "Civitai prompt 149213539",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "A sophisticated hilarious cinematic sculpture of Darth Smithers, an unmistakable adult fusion of Darth Vader and Waylon Smithers, combining Smithers's round glasses, neatly combed hair, formal posture and intensely devoted expression with Darth Vader's angular Sith helmet and imposing armor silhouette, HIS ENTIRE BODY, FACE AND COSTUME ARE BUILT FROM THOUSANDS OF REAL WOODEN PENCILS WITH BRIGHTLY PAINTED HEXAGONAL BARRELS, black lacquered pencil bundles forming the helmet, yellow wooden pencil shafts forming the face, long blue and red pencils creating the chest and arms, every edge revealing exposed pale beige sharpened wood and dark graphite lead points, dark metallic machinery restricted to thin hinges, small brackets and mechanical joints between the wooden pencil bundles, MAIN VISUAL JOKE: Darth Smithers proudly attempts to sign an enormous imperial contract using a gigantic pencil made from hundreds of smaller pencils, but the enormous graphite tip breaks under its own weight and crashes onto the desk, sending a huge avalanche of curly wooden shavings across the paperwork while a tiny robotic Mr. Burns demands an even sharper pencil, magnificent dark imperial stationery office with towering wooden pencil columns, graphite-smudged paperwork and mechanical filing cabinets, warm cinematic lighting, richly colored lacquer, extraordinary exposed wood grain, clear pencil-dominated structure, expressive bureaucratic comedy, cinematic vertical 3:4 composition.  <lora:Pencil_morph_style:1> Pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213539",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11ec0f95-6f43-448b-bb2b-5c757ea11554/original=true/11ec0f95-6f43-448b-bb2b-5c757ea11554.jpeg",
+      "model": "animidnight",
+      "model_version_ids": [
+        135867,
+        567119,
+        707161
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 758587511,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798003+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "62b9134e9aee84a2e6b38df8779b29d1b46d6cf56afa316563bdfbfcaa346d5c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149213539 image ai-image-prompts a sophisticated hilarious cinematic sculpture of darth smithers, an unmistakable adult fusion of darth vader and waylon smithers, combining smithers's round glasses, neatly combed hair, formal posture and intensely devoted expression with darth vader's angular sith helmet and imposing armor silhouette, his entire body, face and costume are built from thousands of real wooden pencils with brightly painted hexagonal barrels, black lacquered pencil bundles forming the helmet, yellow wooden pencil shafts forming the face, long blue and red pencils creating the chest and arms, every edge revealing exposed pale beige sharpened wood and dark graphite lead points, dark metallic machinery restricted to thin hinges, small brackets and mechanical joints between the wooden pencil bundles, main visual joke: darth smithers proudly attempts to sign an enormous imperial contract using a gigantic pencil made from hundreds of smaller pencils, but the enormous graphite tip breaks under its own weight and crashes onto the desk, sending a huge avalanche of curly wooden shavings across the paperwork while a tiny robotic mr. burns demands an even sharper pencil, magnificent dark imperial stationery office with towering wooden pencil columns, graphite-smudged paperwork and mechanical filing cabinets, warm cinematic lighting, richly colored lacquer, extraordinary exposed wood grain, clear pencil-dominated structure, expressive bureaucratic comedy, cinematic vertical 3:4 composition. <lora:pencil_morph_style:1> pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213539",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11ec0f95-6f43-448b-bb2b-5c757ea11554/original=true/11ec0f95-6f43-448b-bb2b-5c757ea11554.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213531",
+      "title": "Civitai prompt 149213531",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "A delightful hilarious handcrafted sculpture of Yodaflanders, an unmistakable adult fusion of Yoda and Ned Flanders, combining Yoda's enormous pointed ears and tiny ancient body with Ned Flanders's round glasses, thick mustache and cheerful neighborly smile, THE ENTIRE CHARACTER IS BUILT FROM HUNDREDS OF INDIVIDUAL REAL WOODEN PENCILS, thick bundles of green and yellow lacquered hexagonal pencil barrels forming his head and torso, his enormous pointed ears made from long fans of sharpened green pencils with exposed pale wooden cones and visible graphite cores, his iconic mustache constructed from tiny rows of short brown wooden pencils, his sweater built from parallel red and yellow pencil shafts, only small dark metal hinges and gears connecting the wooden body parts, MAIN VISUAL JOKE: Yodaflanders spreads both arms to offer an enthusiastic friendly hug, but hundreds of long sharpened pencils protrude from his wooden body like a gigantic hedgehog, causing an adult Jedi visitor to recoil in horror while the smiling master remains completely unaware of the danger, a miniature mechanical porcupine eagerly approaching for the hug instead, warm sunlit Jedi woodworking courtyard, wooden pencil shavings piled around his feet, dark graphite streaks on sandstone paving, exquisitely detailed pencil barrels, clearly visible pale shaved wood and graphite points, strong whimsical composition, cinematic vertical 3:4.  <lora:Pencil_morph_style:1> Pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213531",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f385c230-bf0b-43ef-9474-a8747420a55e/original=true/f385c230-bf0b-43ef-9474-a8747420a55e.jpeg",
+      "model": "animidnight",
+      "model_version_ids": [
+        135867,
+        567119,
+        707161
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2246760093,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798016+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2a855b5e87d0149078d8fa29f06242c5099073569403057a98cc74e2ed9dadcf",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149213531 image ai-image-prompts a delightful hilarious handcrafted sculpture of yodaflanders, an unmistakable adult fusion of yoda and ned flanders, combining yoda's enormous pointed ears and tiny ancient body with ned flanders's round glasses, thick mustache and cheerful neighborly smile, the entire character is built from hundreds of individual real wooden pencils, thick bundles of green and yellow lacquered hexagonal pencil barrels forming his head and torso, his enormous pointed ears made from long fans of sharpened green pencils with exposed pale wooden cones and visible graphite cores, his iconic mustache constructed from tiny rows of short brown wooden pencils, his sweater built from parallel red and yellow pencil shafts, only small dark metal hinges and gears connecting the wooden body parts, main visual joke: yodaflanders spreads both arms to offer an enthusiastic friendly hug, but hundreds of long sharpened pencils protrude from his wooden body like a gigantic hedgehog, causing an adult jedi visitor to recoil in horror while the smiling master remains completely unaware of the danger, a miniature mechanical porcupine eagerly approaching for the hug instead, warm sunlit jedi woodworking courtyard, wooden pencil shavings piled around his feet, dark graphite streaks on sandstone paving, exquisitely detailed pencil barrels, clearly visible pale shaved wood and graphite points, strong whimsical composition, cinematic vertical 3:4. <lora:pencil_morph_style:1> pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213531",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f385c230-bf0b-43ef-9474-a8747420a55e/original=true/f385c230-bf0b-43ef-9474-a8747420a55e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213526",
+      "title": "Civitai prompt 149213526",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "A hilarious masterpiece of physical comedy, a giant unmistakable fusion of Darth Vader and adult Homer Simpson, Homer's huge round belly, bald head, bulging eyes and unmistakable stubble combined with Darth Vader's iconic triangular helmet and imposing silhouette, THE ENTIRE CHARACTER IS A SOLID SCULPTURE MADE OF THOUSANDS OF REAL WOODEN SCHOOL PENCILS, NOT A ROBOT, NOT METAL ARMOR, his enormous round belly built from hundreds of parallel bright yellow hexagonal wooden pencil barrels arranged like wooden logs, his helmet assembled from long black-painted wooden pencils with dozens of clearly exposed pale beige sharpened wooden cones and dark graphite tips, his arms and legs formed from thick bundles of red, yellow and blue lacquered pencils, large visible wooden cross-sections and natural wood grain everywhere, only tiny dark iron brackets and narrow mechanical hinges holding the wooden pencil bundles together, MAIN VISUAL JOKE: Darth Homer tries to eat an enormous donut made from curled pencil shavings, but his own giant sharpened pencil nose accidentally punctures the donut, leaving it hanging from his face while he stares at it with tragic hunger, a gigantic old-fashioned wooden pencil sharpener standing beside him, spectacular mountains of pale curled wood shavings around his feet, graphite smudges across the workshop floor, warm golden studio lighting emphasizing the natural timber and colorful pencil lacquer, macro-level material realism, visible individual hexagonal pencils and exposed graphite cores, funny expressive character sculpture, cinematic vertical 3:4 composition, predominantly wood and pencils, minimal dark metal.  <lora:Pencil_morph_style:1> Pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213526",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/966d051a-6a59-402e-84ce-d7405b6c0785/original=true/966d051a-6a59-402e-84ce-d7405b6c0785.jpeg",
+      "model": "animidnight",
+      "model_version_ids": [
+        135867,
+        567119,
+        707161
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 3815840264,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798031+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "965ef602964d7394d9b63d7e564ad07358c421eb483ab4c20e960dc166d253eb",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149213526 fashion ai-image-prompts a hilarious masterpiece of physical comedy, a giant unmistakable fusion of darth vader and adult homer simpson, homer's huge round belly, bald head, bulging eyes and unmistakable stubble combined with darth vader's iconic triangular helmet and imposing silhouette, the entire character is a solid sculpture made of thousands of real wooden school pencils, not a robot, not metal armor, his enormous round belly built from hundreds of parallel bright yellow hexagonal wooden pencil barrels arranged like wooden logs, his helmet assembled from long black-painted wooden pencils with dozens of clearly exposed pale beige sharpened wooden cones and dark graphite tips, his arms and legs formed from thick bundles of red, yellow and blue lacquered pencils, large visible wooden cross-sections and natural wood grain everywhere, only tiny dark iron brackets and narrow mechanical hinges holding the wooden pencil bundles together, main visual joke: darth homer tries to eat an enormous donut made from curled pencil shavings, but his own giant sharpened pencil nose accidentally punctures the donut, leaving it hanging from his face while he stares at it with tragic hunger, a gigantic old-fashioned wooden pencil sharpener standing beside him, spectacular mountains of pale curled wood shavings around his feet, graphite smudges across the workshop floor, warm golden studio lighting emphasizing the natural timber and colorful pencil lacquer, macro-level material realism, visible individual hexagonal pencils and exposed graphite cores, funny expressive character sculpture, cinematic vertical 3:4 composition, predominantly wood and pencils, minimal dark metal. <lora:pencil_morph_style:1> pencil_morph_style <lora:spo_sdxl_10ep_4k-data_lora_webui:1> <lora:add-detail-xl:1> misc civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213526",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/966d051a-6a59-402e-84ce-d7405b6c0785/original=true/966d051a-6a59-402e-84ce-d7405b6c0785.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213281",
+      "title": "Civitai prompt 149213281",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"summary\":{\"caption\":\"masterpiece, best quality, highres,\\n@wetgloss, @blender, inkweave, @nyalia\\n(clean lines, sharp lineart:1.1), (high detail:1.2), @teshima nari, real skin texture, smooth skin texture, delicate linework, Hair is arranged in finely outlined locks with detailed strands, 2d anime style face, flat color\\n2girls, awa subaru, iseri nina, girls band cry,\\nawa subaru, purple eyes, long black hair, ahoge, hime cut, blunt bangs, green striped pajama shirt, off shoulder, bare shoulders, white hair ribbon, blush, one eye closed, sleepy expression, lying on side, on bed, cheek on pillow, arm tucked under pillow, hand hidden under blanket, hands out of frame, head resting low on pillow, slightly further from camera, sleek hair flat on pillow, small head, balanced head proportions,\\niseri nina, blue eyes, short brown hair, low twintails, sidelocks, light blue pajama shirt, polka dot print, open shirt, pale pink camisole, black shorts, bare legs, sitting, knees up, leaning toward awa subaru, looking at awa subaru, open mouth, smile, hands out of frame, arms hidden behind her body, slightly closer to camera, foreground, natural head size,\\nindoors, bedroom, window, curtains, bed, pillow, rumpled bedsheet, warm morning light, equal head size, consistent head scale between characters, matching proportions, eye-level shot, medium shot, flat perspective, minimal foreshortening, (intricate details:1.3),\\nWarm morning sun comes through the gap in the curtains and lays a band of light across the rumpled bedsheet. The camera sits level with the mattress, so both girls read at the same scale. Subaru lies on her side a little further back, her cheek low on the pillow, one eye shut and the other half-lidded with sleep; her long black hair lies flat against the fabric behind her rather than puffing outward, and the green striped shirt slides off one shoulder while her arm stays tucked beneath the pillow so no hand shows. Nina sits nearer the lens with her knees drawn up and her short brown twintails ending above her shoulders, leaning in with a small open-mouthed smile, both arms kept out of sight behind her back. Her head and Subaru's occupy a similar share of the frame. Soft curtain shadows fall across the wall behind them.\"},\"items\":[{\"label\":\"character\",\"caption\":\"awa subaru,半睁眼,刚睡醒\",\"bbox\":[31,-609,512,225]},{\"label\":\"text\",\"caption\":\"iseri nina\",\"text\":\"\",\"palette\":[\"#FFFFFF\"],\"bbox\":[-256,127,512,768]},{\"label\":\"object\",\"caption\":\"双腿,膝盖\",\"bbox\":[63,416,512,768]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}\n<lora:MOSS/dorop/dp_style_V2_c1-st7000:0.7> <lora:MOSS/style/Moss-画风-高光湿润渲染（nai5其九）V2:0.6> <lora:MOSS/style/Moss-画风-Blender3D渲染(nai5其八）V2:0.5> <lora:MOSS/style/Inkweave-MOSS-V1-ep09-s4500:0.5> <lora:MOSS/artists/Nyalia_moss_v1_lokr:0.5> <lora:MOSS/artists/fuzichoco_style_moss_uma_v1:0.3>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213281",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/978cab93-938f-4b1d-8ea9-64498b520b2f/original=true/978cab93-938f-4b1d-8ea9-64498b520b2f.jpeg",
+      "model": "MOSS\\moss_image_sft_bf16",
+      "model_version_ids": [],
+      "width": 2304,
+      "height": 1536,
+      "seed": 0,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798062+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "17ee327aada3205ed1603f5f0d80bb417f9c300de28bc888fb543d520cd52289",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213281 image ai-image-prompts {\"summary\":{\"caption\":\"masterpiece, best quality, highres,\\n@wetgloss, @blender, inkweave, @nyalia\\n(clean lines, sharp lineart:1.1), (high detail:1.2), @teshima nari, real skin texture, smooth skin texture, delicate linework, hair is arranged in finely outlined locks with detailed strands, 2d anime style face, flat color\\n2girls, awa subaru, iseri nina, girls band cry,\\nawa subaru, purple eyes, long black hair, ahoge, hime cut, blunt bangs, green striped pajama shirt, off shoulder, bare shoulders, white hair ribbon, blush, one eye closed, sleepy expression, lying on side, on bed, cheek on pillow, arm tucked under pillow, hand hidden under blanket, hands out of frame, head resting low on pillow, slightly further from camera, sleek hair flat on pillow, small head, balanced head proportions,\\niseri nina, blue eyes, short brown hair, low twintails, sidelocks, light blue pajama shirt, polka dot print, open shirt, pale pink camisole, black shorts, bare legs, sitting, knees up, leaning toward awa subaru, looking at awa subaru, open mouth, smile, hands out of frame, arms hidden behind her body, slightly closer to camera, foreground, natural head size,\\nindoors, bedroom, window, curtains, bed, pillow, rumpled bedsheet, warm morning light, equal head size, consistent head scale between characters, matching proportions, eye-level shot, medium shot, flat perspective, minimal foreshortening, (intricate details:1.3),\\nwarm morning sun comes through the gap in the curtains and lays a band of light across the rumpled bedsheet. the camera sits level with the mattress, so both girls read at the same scale. subaru lies on her side a little further back, her cheek low on the pillow, one eye shut and the other half-lidded with sleep; her long black hair lies flat against the fabric behind her rather than puffing outward, and the green striped shirt slides off one shoulder while her arm stays tucked beneath the pillow so no hand shows. nina sits nearer the lens with her knees drawn up and her short brown twintails ending above her shoulders, leaning in with a small open-mouthed smile, both arms kept out of sight behind her back. her head and subaru's occupy a similar share of the frame. soft curtain shadows fall across the wall behind them.\"},\"items\":[{\"label\":\"character\",\"caption\":\"awa subaru,半睁眼,刚睡醒\",\"bbox\":[31,-609,512,225]},{\"label\":\"text\",\"caption\":\"iseri nina\",\"text\":\"\",\"palette\":[\"#ffffff\"],\"bbox\":[-256,127,512,768]},{\"label\":\"object\",\"caption\":\"双腿,膝盖\",\"bbox\":[63,416,512,768]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"} <lora:moss/dorop/dp_style_v2_c1-st7000:0.7> <lora:moss/style/moss-画风-高光湿润渲染（nai5其九）v2:0.6> <lora:moss/style/moss-画风-blender3d渲染(nai5其八）v2:0.5> <lora:moss/style/inkweave-moss-v1-ep09-s4500:0.5> <lora:moss/artists/nyalia_moss_v1_lokr:0.5> <lora:moss/artists/fuzichoco_style_moss_uma_v1:0.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213281",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/978cab93-938f-4b1d-8ea9-64498b520b2f/original=true/978cab93-938f-4b1d-8ea9-64498b520b2f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213461",
+      "title": "Civitai prompt 149213461",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of a Beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \n, (black velvet gown:1.25), long sleeves, subtle side slit, silver trim, cinematic candlelight, a mystical mountain peak, with swirling mists, hidden caves, a sense of mystery, and an enchanting atmosphere, Standing with arms crossed at the waist \nCamera angle  Three‑quarter view \n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213461",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40cebd59-f5c5-48c5-9931-40f861509fca/original=true/40cebd59-f5c5-48c5-9931-40f861509fca.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3140151,
+        3322712,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798075+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f9d05139be54d890de3bd63c1f8aa65483e5c8f1c6de5194cad14612453e2184",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149213461 photography ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy, powdery finish. ((one woman)) a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of a beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, , (black velvet gown:1.25), long sleeves, subtle side slit, silver trim, cinematic candlelight, a mystical mountain peak, with swirling mists, hidden caves, a sense of mystery, and an enchanting atmosphere, standing with arms crossed at the waist camera angle three‑quarter view ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213461",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40cebd59-f5c5-48c5-9931-40f861509fca/original=true/40cebd59-f5c5-48c5-9931-40f861509fca.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213455",
+      "title": "Civitai prompt 149213455",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy.  A photograph, captured at unparalleled high resolution on the specialized Phase One IQ4 digital back paired with Rodenstock optics to achieve extreme clarity and incredibly detailed textures of Beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, \nclarity, , beautiful woman age 25, The image is a portrait of a woman sitting on a wooden bench in front of a window. She is wearing a black blazer over a white t-shirt and ripped blue jeans. Her long hair is styled in loose waves and she is looking directly at the camera with a slight smile on her face. The background shows a city street with cars and buildings. The overall mood of the image is casual and relaxed. \nCamera angle  looking over her shoulder\n((erotic)), ((sexy))\n, clear focus, (high resolution image),  chiaroscuro lighting, intense and dramatic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213455",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4402036-8f96-435a-b82c-e749f40ab8b6/original=true/f4402036-8f96-435a-b82c-e749f40ab8b6.jpeg",
+      "model": "serendipity_v30_bf16",
+      "model_version_ids": [
+        3322712,
+        3399896,
+        3474963
+      ],
+      "width": 4096,
+      "height": 3184,
+      "seed": 0,
+      "negative_prompt": "blurry",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798084+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ac92ff1b8fc17cab684c1550a0deea977a839fcb1677dc2e179baeb79cb31af1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213455 architecture ai-image-prompts (dry skin), (matte skin:1.3), (dry complexion), natural skin texture, soft diffuse lighting, non-glossy. a photograph, captured at unparalleled high resolution on the specialized phase one iq4 digital back paired with rodenstock optics to achieve extreme clarity and incredibly detailed textures of beautiful redhead woman auburn messy hair, long hair, blue-grey eyes, clarity, , beautiful woman age 25, the image is a portrait of a woman sitting on a wooden bench in front of a window. she is wearing a black blazer over a white t-shirt and ripped blue jeans. her long hair is styled in loose waves and she is looking directly at the camera with a slight smile on her face. the background shows a city street with cars and buildings. the overall mood of the image is casual and relaxed. camera angle looking over her shoulder ((erotic)), ((sexy)) , clear focus, (high resolution image), chiaroscuro lighting, intense and dramatic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213455",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4402036-8f96-435a-b82c-e749f40ab8b6/original=true/f4402036-8f96-435a-b82c-e749f40ab8b6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149213384",
+      "title": "Civitai prompt 149213384",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Kiki from Kiki's Delivery Service in a winged ballet pose, replicating The Dance by Edgar Degas, frothy tutu and flying scarpes, dynamic diagonal composition, theater stage lighting rim glow, hyper-realistic motion capture photography",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149213384",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f34605fc-5140-4b1a-b16a-2b39bf52b256/original=true/f34605fc-5140-4b1a-b16a-2b39bf52b256.jpeg",
+      "model": "Krea 2\\animosity_v20Krea2TurboBf16",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2615724277191676,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T11:40:40.798090+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b45ea0fb27371678cce456b7dfef62e0352853ee29920a2b9ffa854d27e1780b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149213384 image ai-image-prompts kiki from kiki's delivery service in a winged ballet pose, replicating the dance by edgar degas, frothy tutu and flying scarpes, dynamic diagonal composition, theater stage lighting rim glow, hyper-realistic motion capture photography civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149213384",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f34605fc-5140-4b1a-b16a-2b39bf52b256/original=true/f34605fc-5140-4b1a-b16a-2b39bf52b256.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-15T20:24:50.649857+00:00",
-  "prompt_count": 2940,
+  "generated_at": "2026-11-16T11:40:44.112153+00:00",
+  "prompt_count": 2965,
   "translation": {
     "language": "ar",
-    "translated_count": 68,
-    "skipped_count": 2865,
-    "failed_count": 7,
-    "updated_at": "2026-11-15T20:24:50Z"
+    "translated_count": 0,
+    "skipped_count": 2933,
+    "failed_count": 32,
+    "updated_at": "2026-11-16T11:40:43Z"
   }
 }
