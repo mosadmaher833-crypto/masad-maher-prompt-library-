@@ -5713,7 +5713,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-32c856af4821",
@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -135428,15 +135428,330 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f34605fc-5140-4b1a-b16a-2b39bf52b256/original=true/f34605fc-5140-4b1a-b16a-2b39bf52b256.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149011528",
+      "title": "Civitai prompt 149011528",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highly detailed, 8k, raw photo, photorealistic, touch-of-realismV2, touch-of-vintage-glow\n1girl, solo, 21-year-old Argentinian woman, fair skin, dark strict hair, wet hair, slicked back hair, detailed eyes, natural makeup\nThin laced frilly summer dress, tight dress, fabric parts slightly, deep chest shadow\nreaching forward, on elbows, looking at viewer\non elbows, close-up, camera hovering just inches above, touch-of-realism\nnatural lighting, soft shadows, skin texture, pores, realistic eyes, depth of field\nUltra-realistic selfie, sharp focus, detailed skin texture",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149011528",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a28193ab-d962-4a17-9833-985c6d102215/original=true/a28193ab-d962-4a17-9833-985c6d102215.jpeg",
+      "model_version_ids": [
+        1934796,
+        1958942,
+        2207703
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1316411272,
+      "negative_prompt": "cartoon, illustration, anime, painting, CGI, 3D render, low quality, watermark, logo, label, deformed, distorted, bad anatomy, bad hands, extra limbs, missing limbs, blurry, jpeg artifacts, text, signature, username, oversaturated, washed out",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971214+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d6c1e3ca0823a17b1e8fc062b021532fc45be978fb33a26cc88d3e38f9dc14a8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149011528 image ai-image-prompts masterpiece, best quality, highly detailed, 8k, raw photo, photorealistic, touch-of-realismv2, touch-of-vintage-glow 1girl, solo, 21-year-old argentinian woman, fair skin, dark strict hair, wet hair, slicked back hair, detailed eyes, natural makeup thin laced frilly summer dress, tight dress, fabric parts slightly, deep chest shadow reaching forward, on elbows, looking at viewer on elbows, close-up, camera hovering just inches above, touch-of-realism natural lighting, soft shadows, skin texture, pores, realistic eyes, depth of field ultra-realistic selfie, sharp focus, detailed skin texture civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149011528",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a28193ab-d962-4a17-9833-985c6d102215/original=true/a28193ab-d962-4a17-9833-985c6d102215.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268502",
+      "title": "Civitai prompt 149268502",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The image is a surreal tactile illustration rendered like a dense faux-fur carved relief on a shaggy faux-fur textile panel, with long pile heights forming the entire composition, featuring warm directional lighting that creates soft shadows and highlights along the fur. The palette is strictly tobacco brown, oatmeal, rust orange, cream, and black patches. Across the upper and side areas, the background is made of oatmeal and cream tufts with irregular upright strands resembling stylized clouds or grasses; small burnt-orange cloud-like tuft clusters appear near the upper-left and upper-right regions, rendered as compact patches of orange-brown fibers. Dominating the central and upper-middle portion is a large round planet or moon, cropped slightly by the top edge and surrounded by broad horizontal rings. The planet is tobacco brown with irregular black-patch craters and rough, uneven sheared pile heights, giving it the appearance of a carved organic surface. A cream-colored crescent highlights the illuminated edge on the right side, forming a curved rim of lighter sheared pile against the darker body. The rings extend behind and in front of the planet as a thin uniform height cream band of clipped fur crossing behind the disc, partially hidden by the planet where they overlap and continuing outward toward both sides of the image. The ring surface has visible tufted texture, with raised pile edges and shadowed valleys emphasizing its relief-like construction. In the lower central area, in front of the planet and ring, a small rust-orange round puffy creature sits on a low rust-orange clipped plateau that reads as a small hill. The creature is seen from behind, with a compact body, two short clipped arms raised vertically, and a small rectangular cream-colored form held above its head like a tiny blank flat-clipped cream rectangle sign, placard, or file. The sign is tilted slightly backward and upward, textured with pale beige pile, and has no writing or symbols. The creature has two black patch ear nubs on either side of its head and a flat sheared tail extending along the lower body. Soft side light rakes across the top of the creature's fur and the upper edge of the ring, giving fuzzy rim highlights and emphasizing the tactile pile texture. A single thin rust-orange clipped sliver of light runs low across the horizon plateau between the creature's hill and the far edge, acting as the one warm accent in the otherwise cool oatmeal-and-tobacco scene. The composition is vertical 2:3 and tightly framed edge to edge, with no separate background beyond the textile-like relief surface, no blend, no second medium. The visual style is whimsical, comic, tactile, and slightly uncanny, using a restricted palette of tobacco brown, oatmeal, rust orange, cream, and black patches with a soft hand-crafted relief quality.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268502",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e543eab-ee7c-4829-b1e6-9d20186958a7/original=true/5e543eab-ee7c-4829-b1e6-9d20186958a7.jpeg",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 2016,
+      "seed": 231084400,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971277+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d3782c2f378d5ad9fa70bfd92689f7e4f66ec3f131ed6dfed820fc3daf7d5241",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149268502 image ai-image-prompts the image is a surreal tactile illustration rendered like a dense faux-fur carved relief on a shaggy faux-fur textile panel, with long pile heights forming the entire composition, featuring warm directional lighting that creates soft shadows and highlights along the fur. the palette is strictly tobacco brown, oatmeal, rust orange, cream, and black patches. across the upper and side areas, the background is made of oatmeal and cream tufts with irregular upright strands resembling stylized clouds or grasses; small burnt-orange cloud-like tuft clusters appear near the upper-left and upper-right regions, rendered as compact patches of orange-brown fibers. dominating the central and upper-middle portion is a large round planet or moon, cropped slightly by the top edge and surrounded by broad horizontal rings. the planet is tobacco brown with irregular black-patch craters and rough, uneven sheared pile heights, giving it the appearance of a carved organic surface. a cream-colored crescent highlights the illuminated edge on the right side, forming a curved rim of lighter sheared pile against the darker body. the rings extend behind and in front of the planet as a thin uniform height cream band of clipped fur crossing behind the disc, partially hidden by the planet where they overlap and continuing outward toward both sides of the image. the ring surface has visible tufted texture, with raised pile edges and shadowed valleys emphasizing its relief-like construction. in the lower central area, in front of the planet and ring, a small rust-orange round puffy creature sits on a low rust-orange clipped plateau that reads as a small hill. the creature is seen from behind, with a compact body, two short clipped arms raised vertically, and a small rectangular cream-colored form held above its head like a tiny blank flat-clipped cream rectangle sign, placard, or file. the sign is tilted slightly backward and upward, textured with pale beige pile, and has no writing or symbols. the creature has two black patch ear nubs on either side of its head and a flat sheared tail extending along the lower body. soft side light rakes across the top of the creature's fur and the upper edge of the ring, giving fuzzy rim highlights and emphasizing the tactile pile texture. a single thin rust-orange clipped sliver of light runs low across the horizon plateau between the creature's hill and the far edge, acting as the one warm accent in the otherwise cool oatmeal-and-tobacco scene. the composition is vertical 2:3 and tightly framed edge to edge, with no separate background beyond the textile-like relief surface, no blend, no second medium. the visual style is whimsical, comic, tactile, and slightly uncanny, using a restricted palette of tobacco brown, oatmeal, rust orange, cream, and black patches with a soft hand-crafted relief quality. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268502",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e543eab-ee7c-4829-b1e6-9d20186958a7/original=true/5e543eab-ee7c-4829-b1e6-9d20186958a7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268426",
+      "title": "Civitai prompt 149268426",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A stunningly beautiful adult asari woman, Liara T'Soni from Mass Effect, with her recognizable blue skin, delicate facial features, expressive blue eyes and elegant asari head crests. She stands gracefully inside Commander Shepard's private captain's quarters aboard the Normandy SR-2, posing with a confident yet subtly seductive expression. She wears a gorgeous, sophisticated evening gown in deep midnight blue with delicate silver embroidery, a tasteful plunging neckline and elegant flowing fabric that accentuates her graceful silhouette. Her expression is warm, intelligent and slightly flirtatious as she looks toward the viewer, one hand gently resting against the edge of a futuristic desk. The captain's quarters feature luxurious dark metallic surfaces, subtle ambient lighting, holographic interfaces and a large panoramic window overlooking a breathtaking field of stars. A personal, intimate atmosphere with beautiful cinematic blue lighting and soft reflections across the room. Faithful Mass Effect aesthetic, recognizable asari design, elegant character styling, photorealistic materials blended with high-quality anime-inspired aesthetics, realistic anatomy, finely detailed face and eyes, cinematic composition, 8K quality, 16:9 landscape. No text, no collage.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268426",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8601e993-c790-411b-ab9a-06d8a5b63987/original=true/8601e993-c790-411b-ab9a-06d8a5b63987.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [],
+      "width": 2304,
+      "height": 4096,
+      "seed": 534092120093368,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971303+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "288907af56f97b5ac119b7053d2952b07a3aacf0a283e4c605fcd7dadc9eef4f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149268426 photography ai-image-prompts a stunningly beautiful adult asari woman, liara t'soni from mass effect, with her recognizable blue skin, delicate facial features, expressive blue eyes and elegant asari head crests. she stands gracefully inside commander shepard's private captain's quarters aboard the normandy sr-2, posing with a confident yet subtly seductive expression. she wears a gorgeous, sophisticated evening gown in deep midnight blue with delicate silver embroidery, a tasteful plunging neckline and elegant flowing fabric that accentuates her graceful silhouette. her expression is warm, intelligent and slightly flirtatious as she looks toward the viewer, one hand gently resting against the edge of a futuristic desk. the captain's quarters feature luxurious dark metallic surfaces, subtle ambient lighting, holographic interfaces and a large panoramic window overlooking a breathtaking field of stars. a personal, intimate atmosphere with beautiful cinematic blue lighting and soft reflections across the room. faithful mass effect aesthetic, recognizable asari design, elegant character styling, photorealistic materials blended with high-quality anime-inspired aesthetics, realistic anatomy, finely detailed face and eyes, cinematic composition, 8k quality, 16:9 landscape. no text, no collage. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268426",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8601e993-c790-411b-ab9a-06d8a5b63987/original=true/8601e993-c790-411b-ab9a-06d8a5b63987.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268434",
+      "title": "Civitai prompt 149268434",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Ultra-realistic vertical editorial portrait of an adult Middle Eastern woman seated in a modest old café,\nwearing a flowing black abaya and black hijab with bold gold jewelry including a layered necklace, cuff\nbracelets, and earrings. She sits at a worn wooden table, resting one side of her face on her hand, looking\ndirectly into the camera with a sharp, confident, slightly intense expression. Beside her sits an older Middle\nEastern man in a muted checked shirt, turned slightly away in profile, adding a candid everyday social\ncontrast.\nThe setting is a nostalgic, slightly worn local café with yellowed textured walls, faded paint, Arabic calligraphy\npainted directly on the wall, a small mirror, a simple door to the side, and warm reddish-brown lower wall\ntrim. On the table is a metal tray with small glasses of tea and water and a colorful traditional cup. Use direct\non-camera flash with a raw documentary film look, natural skin texture, rich black fabric folds, warm ambient\ntones, and a candid fashion-editorial mood, Authentic 35mm analog film photography, organic fine grain, subtle film halation, soft highlight roll-off, natural color shifts, gentle contrast, slightly faded tones, imperfect exposure, realistic skin texture, subtle lens softness, rich shadow detail, delicate film imperfections, unprocessed vintage photographic look.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268434",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/674c676e-19ca-4bd9-98ec-3f3084403169/original=true/674c676e-19ca-4bd9-98ec-3f3084403169.jpeg",
+      "model": "Krea2\\WKB-KREA2-BTB-INT8_convrot",
+      "model_version_ids": [],
+      "width": 1016,
+      "height": 1272,
+      "seed": 46313637388561,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971340+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b5b76075f73f0a97e043bf78a10f9c6a2878448a4c850867d4aac3b9dd8ee844",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149268434 food ai-image-prompts ultra-realistic vertical editorial portrait of an adult middle eastern woman seated in a modest old café, wearing a flowing black abaya and black hijab with bold gold jewelry including a layered necklace, cuff bracelets, and earrings. she sits at a worn wooden table, resting one side of her face on her hand, looking directly into the camera with a sharp, confident, slightly intense expression. beside her sits an older middle eastern man in a muted checked shirt, turned slightly away in profile, adding a candid everyday social contrast. the setting is a nostalgic, slightly worn local café with yellowed textured walls, faded paint, arabic calligraphy painted directly on the wall, a small mirror, a simple door to the side, and warm reddish-brown lower wall trim. on the table is a metal tray with small glasses of tea and water and a colorful traditional cup. use direct on-camera flash with a raw documentary film look, natural skin texture, rich black fabric folds, warm ambient tones, and a candid fashion-editorial mood, authentic 35mm analog film photography, organic fine grain, subtle film halation, soft highlight roll-off, natural color shifts, gentle contrast, slightly faded tones, imperfect exposure, realistic skin texture, subtle lens softness, rich shadow detail, delicate film imperfections, unprocessed vintage photographic look. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268434",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/674c676e-19ca-4bd9-98ec-3f3084403169/original=true/674c676e-19ca-4bd9-98ec-3f3084403169.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268404",
+      "title": "Civitai prompt 149268404",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An oil painting on canvas, knifepaintz. thick paint,  impasto.\nnippon, @kastusika hokusai, shunga, semi-realistic, flowing blush stroke turning into ukiyo-e, \nPOV from a boat moving through a Japanese canal,\napproaching a Wooden bridge just moments before passing underneath it,\nlooking upward toward the underside of the bridge,\nhistoric Japanese architecture lining both sides of the canal,\nweathered stone buildings, wooden shutters, aged facades,\nthe bridge dominating the upper part of the composition,\novercast sky,\nsoft gray clouds,\ndiffused natural light,\ngentle reflections on the canal water,\nslightly damp atmosphere,\nimmersive perspective,\ncinematic composition,\nhigh detail,\nrealistic travel photography,\nquiet and atmospheric mood",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268404",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0f3b09f-acb4-41c8-8b05-42dc5f66a8f8/original=true/b0f3b09f-acb4-41c8-8b05-42dc5f66a8f8.jpeg",
+      "model_version_ids": [
+        3072332,
+        3374947,
+        3475746
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1728645067,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971356+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fcd1852592071112587d6c4a9d9f67bcf748655f8247b045f7ac7d75bb0b38f5",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149268404 architecture ai-image-prompts an oil painting on canvas, knifepaintz. thick paint, impasto. nippon, @kastusika hokusai, shunga, semi-realistic, flowing blush stroke turning into ukiyo-e, pov from a boat moving through a japanese canal, approaching a wooden bridge just moments before passing underneath it, looking upward toward the underside of the bridge, historic japanese architecture lining both sides of the canal, weathered stone buildings, wooden shutters, aged facades, the bridge dominating the upper part of the composition, overcast sky, soft gray clouds, diffused natural light, gentle reflections on the canal water, slightly damp atmosphere, immersive perspective, cinematic composition, high detail, realistic travel photography, quiet and atmospheric mood civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268404",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b0f3b09f-acb4-41c8-8b05-42dc5f66a8f8/original=true/b0f3b09f-acb4-41c8-8b05-42dc5f66a8f8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268360",
+      "title": "Civitai prompt 149268360",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "In a style of high-contrast dark fantasy anime illustration, a mysterious figure is swallowed by an oppressive, absolute black void. Only the most delicate, razor-thin lines of golden light define the silhouette of a face in profile, evoking the haunting elegance of a gothic masquerade. A lavishly ornate Venetian mask of obsidian and gold filigree clings to the face, its surface detailed with baroque swirls and floral carvings that shimmer with a dim, metallic luster. Through the mask's aperture, a single, piercing amber eye glows with an intense, predatory intelligence, the pupil sharp and focused amidst a sea of shadow. Strands of pale, platinum-blonde hair drift like ethereal silk around the head, illuminated by a singular, dramatic rim light that carves the subject out of the darkness. Tiny, shimmering gold particles and embers float in the stagnant air, creating a sense of suspended time and psychological tension. The composition is a tight, intimate close-up, utilizing a chiaroscuro effect reminiscent of the paintings of Caravaggio blended with the sharp, modern aesthetic of Ufotable's cinematic art. The color palette is strictly limited to abyssal black and radiating golds, creating a mood of clandestine luxury and hidden danger. Every line is precise and fluid, capturing the tension of a secret kept in the dark, rendered with the crispness of a high-end digital cel-shaded masterpiece\nStyle: The artwork should have a dynamic composition, strong central focus, crisp linework, intricate background details, polished high-resolution, Semi-realistic, (thin black outline), detailed hair, realistic hair, painterly shadows, cinematic atmosphere, masterpiece, best quality, ultra detailed, elegant composition, intricate fabrics, masterwork, soft shading, cel shading, realistic textures, newest, cinematic, natural lighting, chromatic aberration, subtle details, cinematic concept art, detailed fantasy illustration, dramatic lighting, layered foreground and background, atmospheric depth, painterly realism, highly detailed, epic poster composition, pinup style, fantasy style artwork, photorealistic, fashion photography aesthetic, dynamic pose, Avoid: ((Nudity, NSFW)),",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268360",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8eacb04-067a-408d-87e2-1b5e1b4eba66/original=true/b8eacb04-067a-408d-87e2-1b5e1b4eba66.jpeg",
+      "model_version_ids": [
+        3072332,
+        3094828,
+        3109006,
+        3131300,
+        3166814,
+        3190465,
+        3198497,
+        3209626,
+        3245097,
+        3432055,
+        3453839
+      ],
+      "width": 1664,
+      "height": 2496,
+      "seed": 1362789952,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971403+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a25d355e3bb414f1cfb34870623e5a4487977368952141279e6ae9f054a8edcc",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149268360 fashion ai-image-prompts in a style of high-contrast dark fantasy anime illustration, a mysterious figure is swallowed by an oppressive, absolute black void. only the most delicate, razor-thin lines of golden light define the silhouette of a face in profile, evoking the haunting elegance of a gothic masquerade. a lavishly ornate venetian mask of obsidian and gold filigree clings to the face, its surface detailed with baroque swirls and floral carvings that shimmer with a dim, metallic luster. through the mask's aperture, a single, piercing amber eye glows with an intense, predatory intelligence, the pupil sharp and focused amidst a sea of shadow. strands of pale, platinum-blonde hair drift like ethereal silk around the head, illuminated by a singular, dramatic rim light that carves the subject out of the darkness. tiny, shimmering gold particles and embers float in the stagnant air, creating a sense of suspended time and psychological tension. the composition is a tight, intimate close-up, utilizing a chiaroscuro effect reminiscent of the paintings of caravaggio blended with the sharp, modern aesthetic of ufotable's cinematic art. the color palette is strictly limited to abyssal black and radiating golds, creating a mood of clandestine luxury and hidden danger. every line is precise and fluid, capturing the tension of a secret kept in the dark, rendered with the crispness of a high-end digital cel-shaded masterpiece style: the artwork should have a dynamic composition, strong central focus, crisp linework, intricate background details, polished high-resolution, semi-realistic, (thin black outline), detailed hair, realistic hair, painterly shadows, cinematic atmosphere, masterpiece, best quality, ultra detailed, elegant composition, intricate fabrics, masterwork, soft shading, cel shading, realistic textures, newest, cinematic, natural lighting, chromatic aberration, subtle details, cinematic concept art, detailed fantasy illustration, dramatic lighting, layered foreground and background, atmospheric depth, painterly realism, highly detailed, epic poster composition, pinup style, fantasy style artwork, photorealistic, fashion photography aesthetic, dynamic pose, avoid: ((nudity, nsfw)), civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268360",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8eacb04-067a-408d-87e2-1b5e1b4eba66/original=true/b8eacb04-067a-408d-87e2-1b5e1b4eba66.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149268128",
+      "title": "Civitai prompt 149268128",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "closeup basety style, abbe bi style, sassy style, midjourney style, middle shot, full body, mesmerizing portrait of a woman with golden armor standing, hyperrealistic, intricate abstract, intricate artwork, abstract style, delicate diamond patterns, armor from another world, insanely detailed features, dark elements, highly detailed, extremely high-resolution details, photographic, realism, fine texture, 4k, ultra-detailed, high quality, muted color, monochrome, sepia, 8k, RAW photo, highest quality, illustrated,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149268128",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5/original=true/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5.jpeg",
+      "model_version_ids": [
+        3475836
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1653163496,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-16T23:45:12.971419+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c62de48bd06448dcba112efc0cbb3f0d8424d328106375f693c79ce86c2bda55",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149268128 image ai-image-prompts closeup basety style, abbe bi style, sassy style, midjourney style, middle shot, full body, mesmerizing portrait of a woman with golden armor standing, hyperrealistic, intricate abstract, intricate artwork, abstract style, delicate diamond patterns, armor from another world, insanely detailed features, dark elements, highly detailed, extremely high-resolution details, photographic, realism, fine texture, 4k, ultra-detailed, high quality, muted color, monochrome, sepia, 8k, raw photo, highest quality, illustrated, civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149268128",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5/original=true/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-16T11:40:44.112153+00:00",
-  "prompt_count": 2965,
+  "generated_at": "2026-11-16T23:45:17.331007+00:00",
+  "prompt_count": 2972,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 2933,
-    "failed_count": 32,
-    "updated_at": "2026-11-16T11:40:43Z"
+    "failed_count": 39,
+    "updated_at": "2026-11-16T23:45:16Z"
   }
 }
