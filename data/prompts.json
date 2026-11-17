@@ -5713,7 +5713,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-32c856af4821",
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -135743,15 +135743,1629 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5/original=true/b8275085-78ca-4daa-a2f2-d03e2b8c1ce5.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149321668",
+      "title": "Civitai prompt 149321668",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra-detailed, chibi, 1girl, fox girl, small fox ears, fluffy tail, traditional kimono, sitting on giant lotus flower, night pond, glowing water lilies, floating paper lanterns, moonlight reflection, fireflies, falling lotus petals, silver and gold lighting, mystical atmosphere, serene, cute, highly detailed background, cinematic lighting\n<lora:BadAnatomy:-0.8> <lora:anima_context_detailer_base10:0.6> <lora:rendering_detailer_base10-000400:0.4> <lora:Smooth_Booster_Anima:0.4> <lora:Turbo-ANIMA-v4:1.0> <lora:geffstyle-v0.4_800_steps:0.7> <lora:incase23_lora:0.5> <lora:DarkfireStyle40_Anima_V1:0.6> <lora:anima_base_slider_step800:2.0> <lora:anima-preview-3-masterpieces-v5:1.0> <lora:Scenery_enchancer-Anima-P3:0.4> <lora:extpose_v0.0.0-step00002000:1.0>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321668",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0105b9ee-bccf-452c-bd81-d6dd86cf06e6/original=true/0105b9ee-bccf-452c-bd81-d6dd86cf06e6.jpeg",
+      "model": "DaSiWa-Anima-Luminous-Labyrinth-v1",
+      "model_version_ids": [
+        2905490,
+        2920606,
+        2945328,
+        2945421,
+        2947492,
+        2949827,
+        2997075,
+        3031464,
+        3140138,
+        3196910,
+        3334160,
+        3367283,
+        3414559
+      ],
+      "width": 1152,
+      "height": 1536,
+      "seed": 123196479406228,
+      "negative_prompt": "(clones:1.4), (identical faces:1.3), (same face:1.3), (multiple copies of main character:1.4), (duplicate:1.2), (worst quality, low quality:1.4), lowres, (bad anatomy:1.2), (bad hands:1.2), text, error, missing fingers, extra digit, fewer digits, cropped, normal quality, jpeg artifacts, signature, watermark, username, blurry, deformed limbs, fused fingers, flat colors, 3d render, B4d4n4t0my",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459228+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "660acb1b3e55b65a6756533b39aa107f6b8d3f571f0677de34a2c957572d8fc2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321668 image ai-image-prompts masterpiece, best quality, ultra-detailed, chibi, 1girl, fox girl, small fox ears, fluffy tail, traditional kimono, sitting on giant lotus flower, night pond, glowing water lilies, floating paper lanterns, moonlight reflection, fireflies, falling lotus petals, silver and gold lighting, mystical atmosphere, serene, cute, highly detailed background, cinematic lighting <lora:badanatomy:-0.8> <lora:anima_context_detailer_base10:0.6> <lora:rendering_detailer_base10-000400:0.4> <lora:smooth_booster_anima:0.4> <lora:turbo-anima-v4:1.0> <lora:geffstyle-v0.4_800_steps:0.7> <lora:incase23_lora:0.5> <lora:darkfirestyle40_anima_v1:0.6> <lora:anima_base_slider_step800:2.0> <lora:anima-preview-3-masterpieces-v5:1.0> <lora:scenery_enchancer-anima-p3:0.4> <lora:extpose_v0.0.0-step00002000:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321668",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0105b9ee-bccf-452c-bd81-d6dd86cf06e6/original=true/0105b9ee-bccf-452c-bd81-d6dd86cf06e6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321664",
+      "title": "Civitai prompt 149321664",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A grainy 35mm monochrome fine art photograph captures a beautiful woman in her mid-twenties with long black hair and delicate features, standing before a quiet urban shop window in a state of psychological surrealism. The camera is positioned at a diagonal angle, looking through the transparent glass to create a complex tapestry of overlapping reflections where the woman’s face, profile, and back merge as if existing in different moments of time. In the center of the frame, a smooth black mannequin head and torso emerge, its form partially fused with the woman’s face so that the boundary between human and artificiality dissolves into a translucent haze. Her steady, direct gaze pierces through the mannequin from behind, while her hand rests softly against the glass surface, overlapping with another ghostly reflection to create a sense of impossible depth. The foreground on the right is dominated by a large, creamy bokeh of her profile and hair, leaving only her sharp eyes in the deep midground to remain in crisp focus. Soft white spots of light from street lamps and interior shop fixtures dance across the glass, forming multiple transparent layers of silver-white highlights against a palette of deep blacks and soft greys. Fine film grain and a shallow depth of field render the scene with the tactile quality of an analog street photograph, where every reflection bleeds into the next with a delicate, multi-exposed fluidity. The woman’s hand, pressed against the pane, remains still as if holding a secret, while the city lights outside blur into a dreamlike, museum-quality exhibition piece. , monochrome fine art, cinematic monochrome, mysterious atmospheric photography, layered glass reflections, shallow depth of field, fine film grain, quiet atmosphere, surreal black and white",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321664",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aab4e59c-4a94-4cb8-aaea-a830977b4bc1/original=true/aab4e59c-4a94-4cb8-aaea-a830977b4bc1.jpeg",
+      "model": "(Krea2)_krea2TurboRawINT8_krea2TurboINT8",
+      "model_version_ids": [
+        3062491,
+        3466318
+      ],
+      "width": 2376,
+      "height": 3488,
+      "seed": 784233648058090,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459277+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "40b4f852ae61da706309b9b463ad01ef2748160247af36f8c37c264db444299e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321664 architecture ai-image-prompts a grainy 35mm monochrome fine art photograph captures a beautiful woman in her mid-twenties with long black hair and delicate features, standing before a quiet urban shop window in a state of psychological surrealism. the camera is positioned at a diagonal angle, looking through the transparent glass to create a complex tapestry of overlapping reflections where the woman’s face, profile, and back merge as if existing in different moments of time. in the center of the frame, a smooth black mannequin head and torso emerge, its form partially fused with the woman’s face so that the boundary between human and artificiality dissolves into a translucent haze. her steady, direct gaze pierces through the mannequin from behind, while her hand rests softly against the glass surface, overlapping with another ghostly reflection to create a sense of impossible depth. the foreground on the right is dominated by a large, creamy bokeh of her profile and hair, leaving only her sharp eyes in the deep midground to remain in crisp focus. soft white spots of light from street lamps and interior shop fixtures dance across the glass, forming multiple transparent layers of silver-white highlights against a palette of deep blacks and soft greys. fine film grain and a shallow depth of field render the scene with the tactile quality of an analog street photograph, where every reflection bleeds into the next with a delicate, multi-exposed fluidity. the woman’s hand, pressed against the pane, remains still as if holding a secret, while the city lights outside blur into a dreamlike, museum-quality exhibition piece. , monochrome fine art, cinematic monochrome, mysterious atmospheric photography, layered glass reflections, shallow depth of field, fine film grain, quiet atmosphere, surreal black and white civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321664",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aab4e59c-4a94-4cb8-aaea-a830977b4bc1/original=true/aab4e59c-4a94-4cb8-aaea-a830977b4bc1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321591",
+      "title": "Civitai prompt 149321591",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Carnage MCU, visceral red symbiotic organic mass, jagged teeth, almond-shaped white eyes, amorphous shifting musculature, aggressive crouching stance, claws digging into cracked pavement, integrated red symbiotic biological suit, urban ruins, shattered concrete, twisted metal rebar, floating debris, suspended dust particles, dramatic high-contrast chiaroscuro lighting, deep red ambient glow, harsh white rim light, low-angle heroic shot, wide-angle lens, slight Dutch tilt, dominant crimson palette, deep blacks, charcoal greys, stark white accents, glossy slime textures, fibrous muscle strands, rough porous concrete, matte drifting smoke, menacing and chaotic atmosphere, dynamic diagonal composition, centered subject, shallow depth of field, modern high-budget anime feature film aesthetic, thick painterly brushstrokes, tendrils whipping through air, shards of glass hovering in stasis, viscous red droplets, atmospheric haze, floating embers, pronounced digital painting texture, cinematic composition, high-contrast color grading, 35mm lens, f/2.8, Kodak Vision3 film stock, influence of Studio MAPPA and Ufotable, high-contrast lighting rig, micro-texture of symbiotic membrane, macro-detail of concrete fractures.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321591",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce09ff4b-f78f-453c-b0e4-dd1be629d0a3/original=true/ce09ff4b-f78f-453c-b0e4-dd1be629d0a3.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1435884112,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459292+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "287085fc90f116cefe4fcf4a0590fcb1644b03992ae1f6a4b1d56de634cdb6b5",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321591 image ai-image-prompts carnage mcu, visceral red symbiotic organic mass, jagged teeth, almond-shaped white eyes, amorphous shifting musculature, aggressive crouching stance, claws digging into cracked pavement, integrated red symbiotic biological suit, urban ruins, shattered concrete, twisted metal rebar, floating debris, suspended dust particles, dramatic high-contrast chiaroscuro lighting, deep red ambient glow, harsh white rim light, low-angle heroic shot, wide-angle lens, slight dutch tilt, dominant crimson palette, deep blacks, charcoal greys, stark white accents, glossy slime textures, fibrous muscle strands, rough porous concrete, matte drifting smoke, menacing and chaotic atmosphere, dynamic diagonal composition, centered subject, shallow depth of field, modern high-budget anime feature film aesthetic, thick painterly brushstrokes, tendrils whipping through air, shards of glass hovering in stasis, viscous red droplets, atmospheric haze, floating embers, pronounced digital painting texture, cinematic composition, high-contrast color grading, 35mm lens, f/2.8, kodak vision3 film stock, influence of studio mappa and ufotable, high-contrast lighting rig, micro-texture of symbiotic membrane, macro-detail of concrete fractures. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321591",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce09ff4b-f78f-453c-b0e4-dd1be629d0a3/original=true/ce09ff4b-f78f-453c-b0e4-dd1be629d0a3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321597",
+      "title": "Civitai prompt 149321597",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her relaxed index finger gently touching her lower lip with a sensual expression.  casual lounge-wear.\nThis  photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, spontaneous unposed composition,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven subject placement,, natural ambient lighting,, mixed daylight and artificial lighting,, direct smartphone flash,, slightly overexposed flash highlights,, uneven exposure compensation,, automatic white balance inconsistencies,, imperfect exposure,, limited dynamic range,, subtle digital noise,, slightly artificial HDR processing,, local contrast enhancement,, subtle JPEG compression,, inconsistent image clarity,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unedited camera-roll aesthetic,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, authentic candid photographic feel,",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321597",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58113dfe-b377-4c85-96f2-41371b33972d/original=true/58113dfe-b377-4c85-96f2-41371b33972d.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134870,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459306+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2812b427a10a7e0ce9c7d82d2257a31b186737aa199d003f1c67450b569be8f2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321597 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her relaxed index finger gently touching her lower lip with a sensual expression. casual lounge-wear. this photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, spontaneous unposed composition,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven subject placement,, natural ambient lighting,, mixed daylight and artificial lighting,, direct smartphone flash,, slightly overexposed flash highlights,, uneven exposure compensation,, automatic white balance inconsistencies,, imperfect exposure,, limited dynamic range,, subtle digital noise,, slightly artificial hdr processing,, local contrast enhancement,, subtle jpeg compression,, inconsistent image clarity,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unedited camera-roll aesthetic,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, authentic candid photographic feel, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321597",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58113dfe-b377-4c85-96f2-41371b33972d/original=true/58113dfe-b377-4c85-96f2-41371b33972d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321595",
+      "title": "Civitai prompt 149321595",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her thumb gently touching her lower lip with a sensual smile.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, slightly crooked perspective,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, spontaneous snapshot timing,, natural ambient lighting,, uneven indoor illumination,, harsh overhead room lighting,, uneven exposure compensation,, automatic white balance inconsistencies,, cool bluish window light,, limited dynamic range,, clipped highlights,, subtle digital noise,, smartphone computational photography artefacts,, slightly artificial HDR processing,, oversharpened fine details,, slight softness from handheld capture,, minimal depth of field,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, low-light sensor noise,, imperfect shadow rendering,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, no studio lighting,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, imperfect handheld capture,",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321595",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2d58dcd-f122-4394-ae53-7ecb74114b66/original=true/e2d58dcd-f122-4394-ae53-7ecb74114b66.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134868,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459318+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8a6dc46f86003d8524f03a0808882788f0df89787b837663e7787cb76d5f7a66",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321595 image ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her thumb gently touching her lower lip with a sensual smile. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, slightly crooked perspective,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, spontaneous snapshot timing,, natural ambient lighting,, uneven indoor illumination,, harsh overhead room lighting,, uneven exposure compensation,, automatic white balance inconsistencies,, cool bluish window light,, limited dynamic range,, clipped highlights,, subtle digital noise,, smartphone computational photography artefacts,, slightly artificial hdr processing,, oversharpened fine details,, slight softness from handheld capture,, minimal depth of field,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, low-light sensor noise,, imperfect shadow rendering,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, no studio lighting,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, imperfect handheld capture, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321595",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2d58dcd-f122-4394-ae53-7ecb74114b66/original=true/e2d58dcd-f122-4394-ae53-7ecb74114b66.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321592",
+      "title": "Civitai prompt 149321592",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her relaxed index finger gently touching her lower lip with a flirty expression.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, partially cropped objects,, unconventional framing,, slightly elevated camera angle,, inconsistent camera distance,, spontaneous snapshot timing,, natural ambient lighting,, mixed daylight and artificial lighting,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, slightly yellow indoor colour cast,, cool bluish window light,, mixed colour temperatures,, clipped highlights,, crushed shadow details,, mild image sharpening,, smartphone computational photography artefacts,, slightly artificial HDR processing,, local contrast enhancement,, oversharpened fine details,, subtle JPEG compression,, inconsistent image clarity,, slight softness from handheld capture,, occasional focus inconsistency,, subtle lens smudging,, reflections across the camera lens,, low-light sensor noise,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, no deliberate photographic styling,, no studio lighting,, informal domestic photography,, spontaneous personal camera-roll image,, realistic amateur photography,, authentic candid photographic feel,",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321592",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c644c05-a480-4b0b-9003-574c433e2a33/original=true/8c644c05-a480-4b0b-9003-574c433e2a33.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134869,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459330+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "578734a66e5a190bdb8d1ed35a19409bd4e0659ae30180ec0f61c278376a3bd1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321592 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her relaxed index finger gently touching her lower lip with a flirty expression. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, partially cropped objects,, unconventional framing,, slightly elevated camera angle,, inconsistent camera distance,, spontaneous snapshot timing,, natural ambient lighting,, mixed daylight and artificial lighting,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, slightly yellow indoor colour cast,, cool bluish window light,, mixed colour temperatures,, clipped highlights,, crushed shadow details,, mild image sharpening,, smartphone computational photography artefacts,, slightly artificial hdr processing,, local contrast enhancement,, oversharpened fine details,, subtle jpeg compression,, inconsistent image clarity,, slight softness from handheld capture,, occasional focus inconsistency,, subtle lens smudging,, reflections across the camera lens,, low-light sensor noise,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, no deliberate photographic styling,, no studio lighting,, informal domestic photography,, spontaneous personal camera-roll image,, realistic amateur photography,, authentic candid photographic feel, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321592",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c644c05-a480-4b0b-9003-574c433e2a33/original=true/8c644c05-a480-4b0b-9003-574c433e2a33.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321590",
+      "title": "Civitai prompt 149321590",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her relaxed index finger gently touching her lower lip with a knowing expression.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, spontaneous unposed composition,, ordinary everyday smartphone photography,, uneven framing,, slightly crooked perspective,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, exaggerated foreground perspective,, slightly elevated camera angle,, inconsistent camera distance,, uneven subject placement,, unplanned composition,, mixed daylight and artificial lighting,, direct smartphone flash,, dark underexposed corners,, mixed colour temperatures,, imperfect exposure,, crushed shadow details,, visible low-light image grain,, local contrast enhancement,, oversharpened fine details,, slight softness from handheld capture,, natural smartphone autofocus,, slightly imperfect focus,, occasional focus inconsistency,, subtle lens smudging,, faint lens flare,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, inconsistent saturation,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, no carefully arranged composition,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, imperfect handheld capture,, authentic candid photographic feel,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321590",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dbf8c16-05f9-4eae-98c9-f4a52bfa2ab7/original=true/2dbf8c16-05f9-4eae-98c9-f4a52bfa2ab7.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134867,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459341+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "926c929db9997cd7e228b8783158e61a33e35d59faa46a609b085300088cb182",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321590 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her relaxed index finger gently touching her lower lip with a knowing expression. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, spontaneous unposed composition,, ordinary everyday smartphone photography,, uneven framing,, slightly crooked perspective,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, exaggerated foreground perspective,, slightly elevated camera angle,, inconsistent camera distance,, uneven subject placement,, unplanned composition,, mixed daylight and artificial lighting,, direct smartphone flash,, dark underexposed corners,, mixed colour temperatures,, imperfect exposure,, crushed shadow details,, visible low-light image grain,, local contrast enhancement,, oversharpened fine details,, slight softness from handheld capture,, natural smartphone autofocus,, slightly imperfect focus,, occasional focus inconsistency,, subtle lens smudging,, faint lens flare,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, inconsistent saturation,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, no carefully arranged composition,, ordinary social-media snapshot aesthetic,, realistic amateur photography,, imperfect handheld capture,, authentic candid photographic feel, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321590",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dbf8c16-05f9-4eae-98c9-f4a52bfa2ab7/original=true/2dbf8c16-05f9-4eae-98c9-f4a52bfa2ab7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321587",
+      "title": "Civitai prompt 149321587",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her thumb gently touching her lower lip with a knowing expression.  casual lounge-wear.\nThis  photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, informal point-and-shoot framing,, uneven framing,, tilted horizon,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, uneven subject placement,, spontaneous snapshot timing,, natural ambient lighting,, mixed daylight and artificial lighting,, automatic white balance inconsistencies,, slightly yellow indoor colour cast,, mixed colour temperatures,, crushed shadow details,, subtle digital noise,, local contrast enhancement,, minor image compression artefacts,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, reflections across the camera lens,, inconsistent saturation,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, no studio lighting,, ordinary social-media snapshot aesthetic,, authentic candid photographic feel,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321587",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5eaed1-c119-455a-956b-c952c6cc99fb/original=true/db5eaed1-c119-455a-956b-c952c6cc99fb.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134865,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459351+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7f900349430019565894e43f87a6208b790ca5ca0d8bc2bf04d94012cd3e8ecf",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321587 image ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her thumb gently touching her lower lip with a knowing expression. casual lounge-wear. this photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, casual handheld phone snapshot,, informal point-and-shoot framing,, uneven framing,, tilted horizon,, accidental foreground obstruction,, partially cropped objects,, unconventional framing,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, uneven subject placement,, spontaneous snapshot timing,, natural ambient lighting,, mixed daylight and artificial lighting,, automatic white balance inconsistencies,, slightly yellow indoor colour cast,, mixed colour temperatures,, crushed shadow details,, subtle digital noise,, local contrast enhancement,, minor image compression artefacts,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, faint lens flare,, reflections across the camera lens,, inconsistent saturation,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, no studio lighting,, ordinary social-media snapshot aesthetic,, authentic candid photographic feel, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321587",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5eaed1-c119-455a-956b-c952c6cc99fb/original=true/db5eaed1-c119-455a-956b-c952c6cc99fb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321586",
+      "title": "Civitai prompt 149321586",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her relaxed index finger gently touching her lower lip with a inviting expression.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, slightly awkward camera angle,, imperfectly centred composition,, tilted horizon,, accidental foreground obstruction,, unconventional framing,, mild smartphone lens distortion,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven subject placement,, spontaneous snapshot timing,, unplanned composition,, natural ambient lighting,, mixed daylight and artificial lighting,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, automatic white balance inconsistencies,, subtle digital noise,, visible low-light image grain,, slightly artificial HDR processing,, minor image compression artefacts,, slight softness from handheld capture,, natural smartphone autofocus,, occasional focus inconsistency,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no studio lighting,, informal domestic photography,, spontaneous personal camera-roll image,, imperfect handheld capture,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321586",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fc851ce-ee2d-4c49-b107-f0179154abd3/original=true/2fc851ce-ee2d-4c49-b107-f0179154abd3.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134866,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459362+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6f92d63de8536096ccfd5c191db5fd43d0579ec1aaa38c7ce086b7d8fadff64f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321586 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her relaxed index finger gently touching her lower lip with a inviting expression. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, slightly awkward camera angle,, imperfectly centred composition,, tilted horizon,, accidental foreground obstruction,, unconventional framing,, mild smartphone lens distortion,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven subject placement,, spontaneous snapshot timing,, unplanned composition,, natural ambient lighting,, mixed daylight and artificial lighting,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, automatic white balance inconsistencies,, subtle digital noise,, visible low-light image grain,, slightly artificial hdr processing,, minor image compression artefacts,, slight softness from handheld capture,, natural smartphone autofocus,, occasional focus inconsistency,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no studio lighting,, informal domestic photography,, spontaneous personal camera-roll image,, imperfect handheld capture, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321586",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fc851ce-ee2d-4c49-b107-f0179154abd3/original=true/2fc851ce-ee2d-4c49-b107-f0179154abd3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321585",
+      "title": "Civitai prompt 149321585",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her thumb gently touching her lower lip with a sensual smile.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, informal point-and-shoot framing,, slightly awkward camera angle,, uneven framing,, tilted horizon,, slightly crooked perspective,, unconventional framing,, close-range wide-angle perspective,, exaggerated foreground perspective,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven indoor illumination,, mixed daylight and artificial lighting,, dark underexposed corners,, cool bluish window light,, limited dynamic range,, clipped highlights,, subtle digital noise,, mild image sharpening,, smartphone computational photography artefacts,, slightly artificial HDR processing,, local contrast enhancement,, oversharpened fine details,, subtle JPEG compression,, natural smartphone autofocus,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, spontaneous personal camera-roll image,, ordinary social-media snapshot aesthetic,, imperfect handheld capture,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321585",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f6ca395-d101-4c7d-b07b-ce996237e5a4/original=true/3f6ca395-d101-4c7d-b07b-ce996237e5a4.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134864,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459372+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7426c3ad4347a274202a55b3497bf8fe317fb73b58d16e29a12414d25212ca2f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321585 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her thumb gently touching her lower lip with a sensual smile. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, informal point-and-shoot framing,, slightly awkward camera angle,, uneven framing,, tilted horizon,, slightly crooked perspective,, unconventional framing,, close-range wide-angle perspective,, exaggerated foreground perspective,, casual downward-facing viewpoint,, inconsistent camera distance,, uneven indoor illumination,, mixed daylight and artificial lighting,, dark underexposed corners,, cool bluish window light,, limited dynamic range,, clipped highlights,, subtle digital noise,, mild image sharpening,, smartphone computational photography artefacts,, slightly artificial hdr processing,, local contrast enhancement,, oversharpened fine details,, subtle jpeg compression,, natural smartphone autofocus,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, spontaneous personal camera-roll image,, ordinary social-media snapshot aesthetic,, imperfect handheld capture, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321585",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f6ca395-d101-4c7d-b07b-ce996237e5a4/original=true/3f6ca395-d101-4c7d-b07b-ce996237e5a4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321584",
+      "title": "Civitai prompt 149321584",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her thumb gently touching her lower lip with a eye-role playful mocking innocent expression.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, slightly crooked perspective,, inconsistent camera distance,, uneven subject placement,, unplanned composition,, natural ambient lighting,, uneven indoor illumination,, mixed daylight and artificial lighting,, direct smartphone flash,, slightly overexposed flash highlights,, dark underexposed corners,, cool bluish window light,, mixed colour temperatures,, limited dynamic range,, clipped highlights,, subtle digital noise,, visible low-light image grain,, smartphone computational photography artefacts,, local contrast enhancement,, subtle JPEG compression,, inconsistent image clarity,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, imperfect handheld capture,, authentic candid photographic feel,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321584",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23e8b1d1-3c34-4122-bf8d-e5fb3fe6ddd6/original=true/23e8b1d1-3c34-4122-bf8d-e5fb3fe6ddd6.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134863,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459382+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "54cac6c86149f9c4c160a863a3b6924f7caaeb5521b28472c3a30399beaf9208",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321584 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her thumb gently touching her lower lip with a eye-role playful mocking innocent expression. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, slightly crooked perspective,, inconsistent camera distance,, uneven subject placement,, unplanned composition,, natural ambient lighting,, uneven indoor illumination,, mixed daylight and artificial lighting,, direct smartphone flash,, slightly overexposed flash highlights,, dark underexposed corners,, cool bluish window light,, mixed colour temperatures,, limited dynamic range,, clipped highlights,, subtle digital noise,, visible low-light image grain,, smartphone computational photography artefacts,, local contrast enhancement,, subtle jpeg compression,, inconsistent image clarity,, natural smartphone autofocus,, slightly imperfect focus,, subtle lens smudging,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, imperfect handheld capture,, authentic candid photographic feel, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321584",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23e8b1d1-3c34-4122-bf8d-e5fb3fe6ddd6/original=true/23e8b1d1-3c34-4122-bf8d-e5fb3fe6ddd6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321582",
+      "title": "Civitai prompt 149321582",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her relaxed index finger gently touching her lower lip with a knowing smile.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, spontaneous unposed composition,, ordinary everyday smartphone photography,, informal point-and-shoot framing,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, mild smartphone lens distortion,, exaggerated foreground perspective,, casual downward-facing viewpoint,, uneven subject placement,, mixed daylight and artificial lighting,, harsh overhead room lighting,, uneven exposure compensation,, mixed colour temperatures,, crushed shadow details,, subtle digital noise,, visible low-light image grain,, smartphone computational photography artefacts,, oversharpened fine details,, minor image compression artefacts,, slight softness from handheld capture,, occasional focus inconsistency,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321582",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5e391fc-5d20-48ce-9689-e10d1067c5d2/original=true/f5e391fc-5d20-48ce-9689-e10d1067c5d2.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134861,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459392+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e5142218204818b951fb5332b858c23d6581d9c7d6fbb79fe6b1ea1e46990c57",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321582 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her relaxed index finger gently touching her lower lip with a knowing smile. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , casual handheld phone snapshot,, spontaneous unposed composition,, ordinary everyday smartphone photography,, informal point-and-shoot framing,, slightly awkward camera angle,, uneven framing,, imperfectly centred composition,, tilted horizon,, mild smartphone lens distortion,, exaggerated foreground perspective,, casual downward-facing viewpoint,, uneven subject placement,, mixed daylight and artificial lighting,, harsh overhead room lighting,, uneven exposure compensation,, mixed colour temperatures,, crushed shadow details,, subtle digital noise,, visible low-light image grain,, smartphone computational photography artefacts,, oversharpened fine details,, minor image compression artefacts,, slight softness from handheld capture,, occasional focus inconsistency,, faint lens flare,, reflections across the camera lens,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, inconsistent saturation,, unfiltered everyday snapshot,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321582",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f5e391fc-5d20-48ce-9689-e10d1067c5d2/original=true/f5e391fc-5d20-48ce-9689-e10d1067c5d2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321581",
+      "title": "Civitai prompt 149321581",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth,  her thumb gently touching her lower lip with a knowing smile.  casual lounge-wear.\nThis candid selfie photograph. photograph has a casual, candid feel, capturing a private moment.\n <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, accidental foreground obstruction,, unconventional framing,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, inconsistent camera distance,, uneven subject placement,, spontaneous snapshot timing,, unplanned composition,, natural ambient lighting,, uneven indoor illumination,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, slightly yellow indoor colour cast,, cool bluish window light,, limited dynamic range,, crushed shadow details,, local contrast enhancement,, minor image compression artefacts,, slight softness from handheld capture,, minimal depth of field,, faint lens flare,, reflections across the camera lens,, low-light sensor noise,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321581",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36177643-ad83-4777-8453-b15283f2b46d/original=true/36177643-ad83-4777-8453-b15283f2b46d.jpeg",
+      "model": "mossImageTurbo4Step_10_3317151",
+      "model_version_ids": [
+        3422824,
+        3476738
+      ],
+      "width": 768,
+      "height": 1024,
+      "seed": 809134862,
+      "negative_prompt": "deformed, mutated, anime",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459403+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d990eb3266029941825318effaa7fe89bf99428f4b18c5d80733dc5cccbe7ea6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321581 advertising ai-image-prompts fl1rty-f1ng3r she is making a flirtatious gesture with her finger next to her mouth, her thumb gently touching her lower lip with a knowing smile. casual lounge-wear. this candid selfie photograph. photograph has a casual, candid feel, capturing a private moment. <lora:moss-base-flirty-finger-on-mouth-moss-image-base-epoch-07:1>, , candid amateur smartphone photograph,, ordinary everyday smartphone photography,, slightly awkward camera angle,, uneven framing,, accidental foreground obstruction,, unconventional framing,, close-range wide-angle perspective,, mild smartphone lens distortion,, exaggerated foreground perspective,, slightly elevated camera angle,, inconsistent camera distance,, uneven subject placement,, spontaneous snapshot timing,, unplanned composition,, natural ambient lighting,, uneven indoor illumination,, harsh overhead room lighting,, slightly overexposed flash highlights,, dark underexposed corners,, uneven exposure compensation,, slightly yellow indoor colour cast,, cool bluish window light,, limited dynamic range,, crushed shadow details,, local contrast enhancement,, minor image compression artefacts,, slight softness from handheld capture,, minimal depth of field,, faint lens flare,, reflections across the camera lens,, low-light sensor noise,, imperfect shadow rendering,, ordinary unfiltered colour reproduction,, slightly muted smartphone colours,, unedited camera-roll aesthetic,, unfiltered everyday snapshot,, no deliberate photographic styling,, informal domestic photography,, ordinary social-media snapshot aesthetic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321581",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36177643-ad83-4777-8453-b15283f2b46d/original=true/36177643-ad83-4777-8453-b15283f2b46d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149320996",
+      "title": "Civitai prompt 149320996",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra-detailed, flat 2D vector illustration, strictly two-dimensional art, zero 3D elements, graphic design poster art, cubism art style, bright and vibrant color palette, clean vector lines. On the entire far left edge of the frame, serving as the massive focal point, is a stylized geometric Moai head from Easter Island facing right, The Moai head breaks into a maximalist texture of vertical geometric distortions, pixel-stretched streaks, and sharp square-shaped frames of varying sizes and colors that cut directly across his torso and face from bottom to top, warping it's edges in a tight glitch aesthetic, nestled deeply into a cascade of abstract shapes. The Moai statue has its mouth wide open, exhaling and unleashing a dynamic, exploding stream of cubist cubes and geometric fragments that sweep across the canvas toward the right. Each emerging cube is intricately detailed with its own unique, lively interior universe: nested smaller cubes with both sharp angular edges and smooth rounded corners, optical distortions, dynamic motion streaks, hypnotic rotating concentric circles, halftone patterns, and vibrant color blocks. The background is a warm cream-white canvas infused with a tropical Aloha island and lush jungle theme. Tropical palm fronds, monstera leaves, exotic hibiscus flowers, and stylized island fauna surround the composition. The flora and fauna seamlessly transition in style from loose, hand-drawn sketchy ink line art and rough pencil outlines into rich, fully rendered flat vector illustrations. One or two stylized human figures in a geometric cubist style are subtly integrated into the tropical foliage and geometric flow, adding a sense of scale and narrative.,cinematic lighting , cinematic angle, soft light , color detail, backlighting, Depth of field, long exposure, light steps,  intricate colors, vibrant colors,.,high definition, high image quality, masterpiece, best quality, ultra detailed, high contrast, high resolution, super detailed... the scene is held in lime green, yellow, greyscales, and dark green",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149320996",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/541d8cad-1630-4151-ad55-c8ac2930cfe0/original=true/541d8cad-1630-4151-ad55-c8ac2930cfe0.jpeg",
+      "model_version_ids": [
+        3072332,
+        3091396,
+        3102659
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 105792030,
+      "negative_prompt": "3d, 3d render, cgi, octane render, unreal engine, blender, depth of field, photorealistic, photo, realistic shading, drop shadow, volumetric 3d, clay, plastic, glossy, metallic, blurry, muddy colors, dark background, gloomy, messy, watermark, signature, text, cropped, out of frame, bad anatomy, deformed faces, orange, red, cyan",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459420+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "42e3668f43e763f00b9542adeb97c80dd047a21e2f157e49513fba637f44eef6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149320996 architecture ai-image-prompts masterpiece, best quality, ultra-detailed, flat 2d vector illustration, strictly two-dimensional art, zero 3d elements, graphic design poster art, cubism art style, bright and vibrant color palette, clean vector lines. on the entire far left edge of the frame, serving as the massive focal point, is a stylized geometric moai head from easter island facing right, the moai head breaks into a maximalist texture of vertical geometric distortions, pixel-stretched streaks, and sharp square-shaped frames of varying sizes and colors that cut directly across his torso and face from bottom to top, warping it's edges in a tight glitch aesthetic, nestled deeply into a cascade of abstract shapes. the moai statue has its mouth wide open, exhaling and unleashing a dynamic, exploding stream of cubist cubes and geometric fragments that sweep across the canvas toward the right. each emerging cube is intricately detailed with its own unique, lively interior universe: nested smaller cubes with both sharp angular edges and smooth rounded corners, optical distortions, dynamic motion streaks, hypnotic rotating concentric circles, halftone patterns, and vibrant color blocks. the background is a warm cream-white canvas infused with a tropical aloha island and lush jungle theme. tropical palm fronds, monstera leaves, exotic hibiscus flowers, and stylized island fauna surround the composition. the flora and fauna seamlessly transition in style from loose, hand-drawn sketchy ink line art and rough pencil outlines into rich, fully rendered flat vector illustrations. one or two stylized human figures in a geometric cubist style are subtly integrated into the tropical foliage and geometric flow, adding a sense of scale and narrative.,cinematic lighting , cinematic angle, soft light , color detail, backlighting, depth of field, long exposure, light steps, intricate colors, vibrant colors,.,high definition, high image quality, masterpiece, best quality, ultra detailed, high contrast, high resolution, super detailed... the scene is held in lime green, yellow, greyscales, and dark green civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149320996",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/541d8cad-1630-4151-ad55-c8ac2930cfe0/original=true/541d8cad-1630-4151-ad55-c8ac2930cfe0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321311",
+      "title": "Civitai prompt 149321311",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "MASTER PROMPT - \"WILD CAT\" FUTURISTIC PROTOTYPE HYPERCAR\n\nSUBJECT & OVERALL DESIGN:\nA wide, low-slung, aggressive futuristic endurance prototype hypercar named \"Wild Cat\", inspired by Le Mans race cars. Perfect symmetrical straight-on front view, centered in frame, isolated on a seamless pure white studio background with a glossy, reflective white floor. Heavy battle-worn racing patina: dirty matte off-white paint, brown rust streaks, metallic scratches, grime, dust, and exposed industrial rivets. Racing livery accents in deep navy blue and maroon red across the hood, fenders, front splitter, and roof.\n\nKEY FEATURE — RAZOR-SHARP FRONT NOSE (DO NOT ROUND):\nThe front center terminates downward into a razor-sharp, pointed V-shaped wedge, like a wild cat's claw or fang. Two sloped hood planes angle diagonally downward and converge at a crisp, acute, knife-edge central apex. The central ridge is a sharp, hard-edged crease highlighted by a deep navy blue center stripe bordered in maroon red, forming an aerodynamic 3D blade cutting through the air—never rounded, blunt, or softened.\n\nFRONT FASCIA, LIGHTING & CABIN:\nTwo large, symmetrical hexagonal amber-orange headlights turned on, glowing brightly with an intricate honeycomb LED matrix pattern. Above each headlight, a vertical orange LED accent strip. Below, integrated into the lower carbon splitter, symmetrical horizontal orange LED bars. Deep matte-black aerodynamic air intakes flanking both sides of the sharp central nose. Dark smoked panoramic windshield with subtle studio reflections, revealing a shadowy cockpit interior with red-stitched racing seats and a single left-side steering wheel (no duplicate steering wheel).\n\nSIDE FENDERS & LIVERY NUMBERING:\nOn both front fenders, the number \"50\" painted in weathered orange military stencil typography, large and crisp. Both \"50\" decals must appear in normal, forward-reading orientation—never mirrored or reversed—symmetrically positioned with matching scale and wear.\n\nNEGATIVE CONSTRAINTS (STRICTLY AVOID):\nNo license plate, no grey rectangular mounts, no \"ID 72\" text, and no typography or badges on the lower center nose. Keep the lower center area completely clean, ending strictly in the sharp pointed V-wedge. Do not round or blunt the front tip.\n\nCAMERA, LIGHTING & FORMAT:\nFront-facing camera from a slightly elevated high angle, medium focal length, crisp depth of field. Soft, diffused pure white studio lighting with gentle contact shadows and a realistic, softly blurred reflection of the hypercar on the glossy white studio floor. Aspect ratio 3:4, centered composition with generous white negative space around the sides and top, uncropped. Photorealistic automotive studio photography, ultra-detailed, authentic weathered metal, carbon fiber, and rust textures, 8k resolution.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321311",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8697d95e-dabf-46b5-824f-f46e80372d76/original=true/8697d95e-dabf-46b5-824f-f46e80372d76.jpeg",
+      "model_version_ids": [],
+      "width": 1792,
+      "height": 2400,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459454+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a198e55cb9ccefc299c1be3a4fcde00067198dc83559ff8558542eac20ffc374",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321311 architecture ai-image-prompts master prompt - \"wild cat\" futuristic prototype hypercar subject & overall design: a wide, low-slung, aggressive futuristic endurance prototype hypercar named \"wild cat\", inspired by le mans race cars. perfect symmetrical straight-on front view, centered in frame, isolated on a seamless pure white studio background with a glossy, reflective white floor. heavy battle-worn racing patina: dirty matte off-white paint, brown rust streaks, metallic scratches, grime, dust, and exposed industrial rivets. racing livery accents in deep navy blue and maroon red across the hood, fenders, front splitter, and roof. key feature — razor-sharp front nose (do not round): the front center terminates downward into a razor-sharp, pointed v-shaped wedge, like a wild cat's claw or fang. two sloped hood planes angle diagonally downward and converge at a crisp, acute, knife-edge central apex. the central ridge is a sharp, hard-edged crease highlighted by a deep navy blue center stripe bordered in maroon red, forming an aerodynamic 3d blade cutting through the air—never rounded, blunt, or softened. front fascia, lighting & cabin: two large, symmetrical hexagonal amber-orange headlights turned on, glowing brightly with an intricate honeycomb led matrix pattern. above each headlight, a vertical orange led accent strip. below, integrated into the lower carbon splitter, symmetrical horizontal orange led bars. deep matte-black aerodynamic air intakes flanking both sides of the sharp central nose. dark smoked panoramic windshield with subtle studio reflections, revealing a shadowy cockpit interior with red-stitched racing seats and a single left-side steering wheel (no duplicate steering wheel). side fenders & livery numbering: on both front fenders, the number \"50\" painted in weathered orange military stencil typography, large and crisp. both \"50\" decals must appear in normal, forward-reading orientation—never mirrored or reversed—symmetrically positioned with matching scale and wear. negative constraints (strictly avoid): no license plate, no grey rectangular mounts, no \"id 72\" text, and no typography or badges on the lower center nose. keep the lower center area completely clean, ending strictly in the sharp pointed v-wedge. do not round or blunt the front tip. camera, lighting & format: front-facing camera from a slightly elevated high angle, medium focal length, crisp depth of field. soft, diffused pure white studio lighting with gentle contact shadows and a realistic, softly blurred reflection of the hypercar on the glossy white studio floor. aspect ratio 3:4, centered composition with generous white negative space around the sides and top, uncropped. photorealistic automotive studio photography, ultra-detailed, authentic weathered metal, carbon fiber, and rust textures, 8k resolution. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321311",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8697d95e-dabf-46b5-824f-f46e80372d76/original=true/8697d95e-dabf-46b5-824f-f46e80372d76.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321504",
+      "title": "Civitai prompt 149321504",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Medium shot, low angle, 35mm lens, f/2.8, Kodak Vision3 500T film stock, young brunette woman with sharp facial features and weathered skin, long flowing brown hair intricately styled into a thick single braid, leaning against a rusted bulkhead with arms crossed and a rebellious smirk, wearing a worn brown leather flight jacket over a cream linen tunic, utility belt with pouches, scuffed combat boots, worn leather straps across chest, oil stains on fabric, small blaster pistol holstered at hip, interior of a sci-fi freighter cargo hold, industrial environment with exposed wiring and metallic grating, heavy machinery framing the subject via rule of thirds, harsh overhead flickering fluorescent lighting contrasting with warm orange amber glow from a nearby humming holographic display, floating dust motes dancing in volumetric light beams, background filled with scuffed metal crates, peeling paint on bulkheads, distressed leather textures, brushed steel surfaces, coarse linen fabric, earthy browns, industrial grays, pops of safety orange, gritty adventurous atmosphere, cinematic Star Wars aesthetic, practical effects look, reminiscent of 1980s space opera cinematography, high contrast shadows, teal and orange color grading, micro-texture of rust and metallic oxidation.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321504",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a45cf48-6f12-42d0-bd08-4f21dcf9e21c/original=true/6a45cf48-6f12-42d0-bd08-4f21dcf9e21c.jpeg",
+      "model_version_ids": [
+        3072332,
+        3077110,
+        3210573
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 1224172019,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459467+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "737039e0260b7b69c9cbd4bcdca4a369f0045e1fdbf6f29ce21956c2eb50f9c2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321504 architecture ai-image-prompts medium shot, low angle, 35mm lens, f/2.8, kodak vision3 500t film stock, young brunette woman with sharp facial features and weathered skin, long flowing brown hair intricately styled into a thick single braid, leaning against a rusted bulkhead with arms crossed and a rebellious smirk, wearing a worn brown leather flight jacket over a cream linen tunic, utility belt with pouches, scuffed combat boots, worn leather straps across chest, oil stains on fabric, small blaster pistol holstered at hip, interior of a sci-fi freighter cargo hold, industrial environment with exposed wiring and metallic grating, heavy machinery framing the subject via rule of thirds, harsh overhead flickering fluorescent lighting contrasting with warm orange amber glow from a nearby humming holographic display, floating dust motes dancing in volumetric light beams, background filled with scuffed metal crates, peeling paint on bulkheads, distressed leather textures, brushed steel surfaces, coarse linen fabric, earthy browns, industrial grays, pops of safety orange, gritty adventurous atmosphere, cinematic star wars aesthetic, practical effects look, reminiscent of 1980s space opera cinematography, high contrast shadows, teal and orange color grading, micro-texture of rust and metallic oxidation. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321504",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a45cf48-6f12-42d0-bd08-4f21dcf9e21c/original=true/6a45cf48-6f12-42d0-bd08-4f21dcf9e21c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321444",
+      "title": "Civitai prompt 149321444",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "[Subject & Action] An adult woman sits at a wooden table assembling Christmas correspondence, her head inclined toward her hands and her eyes lowered with a quiet smile. She has long glossy dark brown hair with a side part, softly defined brows, bronze eyeshadow, fine dark eyeliner, warm peach blush, luminous skin and muted rose lipstick. She wears dangling crystal earrings and an oversized light gray crewneck knit top with extravagant black feather cuffs; her lower body and footwear are hidden behind the table. Her left hand holds a red photo greeting card while her right hand steadies a pale blush envelope beneath it, with pale pink manicured fingers resting naturally against the paper. [Scene & Spatial Relationship] In the foreground, a dark wooden tabletop holds red-handled scissors, trailing red and green ribbons, red wax seal discs, an amber glass vessel, a lit candle, a small green ceramic Christmas tree and a shallow scalloped stone dish filled with festive postage stamps. Branches bearing red berries and small green leaves extend inward from the left, partially overlapping the stationery. In the midground, red photo cards, a cream envelope and red-and-white striped and holly-patterned papers spread across the table directly before the seated woman, with part of a curved tan chair visible behind her left arm. A plain warm beige plaster wall fills the background. [Composition] Single vertical environmental portrait photographed from slightly above the tabletop, looking gently downward, with the woman occupying the upper center and right and the craft materials filling the lower half. Open wall space remains at upper left; overlapping berry branches and table objects establish foreground depth. Her bowed face, hands and tilted red card form a descending visual path, with the face and hands clearly resolved and foreground objects slightly softer. [Lighting] A direct frontal flash from slightly camera-left creates bright highlights on her forehead, cheekbones, glossy hair and crystal earrings, with defined shadows beneath her chin, hands and feather cuffs. Warm ambient light keeps the beige wall and wooden table softly illuminated; the small foreground candle adds a localized amber glow. [Medium & Material] Color lifestyle photograph with visible skin texture, individual shiny hair strands, fine gray knit fibers, wispy black feathers, faceted crystal reflections, matte printed card stock, smooth envelopes, satin ribbon edges, polished wood grain and glossy berries. Small monochrome photographs remain visibly printed within the red greeting cards. [Mood & Palette] Quiet festive concentration, warm beige and dark walnut balanced with heather gray, black feathers, cranberry red, cream paper and small forest-green accents. [Crop] 3:4 portrait crop.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321444",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/892c2ba4-da0c-4acb-aede-5db7899fba4f/original=true/892c2ba4-da0c-4acb-aede-5db7899fba4f.jpeg",
+      "model": "krea2_turbo_bf16",
+      "model_version_ids": [
+        3064584,
+        3072332
+      ],
+      "width": 1248,
+      "height": 1664,
+      "seed": 2539125351,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459498+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fdadf8ea7b95aeb65a5e5a4f3142c9057cf91628dd102de02e2f1ce9d3237654",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321444 food ai-image-prompts [subject & action] an adult woman sits at a wooden table assembling christmas correspondence, her head inclined toward her hands and her eyes lowered with a quiet smile. she has long glossy dark brown hair with a side part, softly defined brows, bronze eyeshadow, fine dark eyeliner, warm peach blush, luminous skin and muted rose lipstick. she wears dangling crystal earrings and an oversized light gray crewneck knit top with extravagant black feather cuffs; her lower body and footwear are hidden behind the table. her left hand holds a red photo greeting card while her right hand steadies a pale blush envelope beneath it, with pale pink manicured fingers resting naturally against the paper. [scene & spatial relationship] in the foreground, a dark wooden tabletop holds red-handled scissors, trailing red and green ribbons, red wax seal discs, an amber glass vessel, a lit candle, a small green ceramic christmas tree and a shallow scalloped stone dish filled with festive postage stamps. branches bearing red berries and small green leaves extend inward from the left, partially overlapping the stationery. in the midground, red photo cards, a cream envelope and red-and-white striped and holly-patterned papers spread across the table directly before the seated woman, with part of a curved tan chair visible behind her left arm. a plain warm beige plaster wall fills the background. [composition] single vertical environmental portrait photographed from slightly above the tabletop, looking gently downward, with the woman occupying the upper center and right and the craft materials filling the lower half. open wall space remains at upper left; overlapping berry branches and table objects establish foreground depth. her bowed face, hands and tilted red card form a descending visual path, with the face and hands clearly resolved and foreground objects slightly softer. [lighting] a direct frontal flash from slightly camera-left creates bright highlights on her forehead, cheekbones, glossy hair and crystal earrings, with defined shadows beneath her chin, hands and feather cuffs. warm ambient light keeps the beige wall and wooden table softly illuminated; the small foreground candle adds a localized amber glow. [medium & material] color lifestyle photograph with visible skin texture, individual shiny hair strands, fine gray knit fibers, wispy black feathers, faceted crystal reflections, matte printed card stock, smooth envelopes, satin ribbon edges, polished wood grain and glossy berries. small monochrome photographs remain visibly printed within the red greeting cards. [mood & palette] quiet festive concentration, warm beige and dark walnut balanced with heather gray, black feathers, cranberry red, cream paper and small forest-green accents. [crop] 3:4 portrait crop. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321444",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/892c2ba4-da0c-4acb-aede-5db7899fba4f/original=true/892c2ba4-da0c-4acb-aede-5db7899fba4f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321442",
+      "title": "Civitai prompt 149321442",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "[Subject & Action] An adult woman with long dark brown hair parted near the center sits barefoot on a cushioned stone bench, looking directly into the camera with a gentle closed-mouth smile and a slight head tilt. Her makeup includes defined brows, dark lashes, warm blush, luminous cheekbones, and muted rose lipstick. She wears dangling silver chandelier earrings, an oversized light gray crewneck sweatshirt with extravagant black feather cuffs, and loose cream trousers. One knee is drawn up beside her torso, one forearm rests across the raised knee with relaxed fingers, and her other hand supports a red Christmas card upright in front of her lap. The card contains a small monochrome photograph within a cream border. Her raised bare foot rests on the cushion, showing pale toenail polish, while the other trouser leg extends toward the lower edge and its foot is partially cropped. [Scene & Spatial Relationship] In the foreground, long red, green, and striped gift ribbons hang over the left edge of a beige stone bench, with a partially cropped plaid gift box on the dark wooden floor below. In the midground, the woman sits on a taupe upholstered cushion atop a thick pale travertine bench; ribbon spools and red-handled scissors sit to her left, while pale envelopes and additional red photo cards lie to her right. Behind her, a large red paper backdrop with subtle wrinkles fills most of the wall, bordered by a narrow dark wooden panel at the far left. A cropped glowing cream ribbed lamp appears at the far right beside a wooden surface. [Composition] A single posed holiday lifestyle portrait photographed straight on from approximately the seated subject's eye level, with the woman slightly left of center and generous red negative space above her head. Her raised knee and feathered sleeves create an asymmetric silhouette, while the bench forms a strong horizontal line across the lower frame. The face, clothing, card, and wrapping supplies remain clearly legible, with little background blur. [Lighting] Strong direct frontal flash creates bright highlights on her cheeks, forehead, hair, earrings, and hands, with crisp dark shadows behind her body and beneath the bench. The red backdrop is brightly illuminated, and the lamp at the right edge adds a localized warm cream glow. [Medium & Material] Flash photograph with visible skin texture, individual glossy hair strands, matte cotton sweatshirt fabric, fine black feathers spreading into irregular wisps, softly creased trouser fabric, velvety upholstery, porous veined travertine, satin ribbon, and matte printed cardstock. [Mood & Palette] Relaxed festive intimacy and playful dressed-up comfort, dominated by vivid warm red against light gray, cream, taupe, dark brown, and black, with small silver and green accents. [Crop] 3:4 portrait crop.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321442",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ede8ae3-37a3-4f12-ac69-f07081fefb0c/original=true/7ede8ae3-37a3-4f12-ac69-f07081fefb0c.jpeg",
+      "model": "krea2_turbo_bf16",
+      "model_version_ids": [
+        3064584,
+        3072332
+      ],
+      "width": 1248,
+      "height": 1664,
+      "seed": 3426223372,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459520+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a2608dcc6c4a4656957e7c4e3672d9c6895cfdc26cae4f01f38ad95486f4f16e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321442 image ai-image-prompts [subject & action] an adult woman with long dark brown hair parted near the center sits barefoot on a cushioned stone bench, looking directly into the camera with a gentle closed-mouth smile and a slight head tilt. her makeup includes defined brows, dark lashes, warm blush, luminous cheekbones, and muted rose lipstick. she wears dangling silver chandelier earrings, an oversized light gray crewneck sweatshirt with extravagant black feather cuffs, and loose cream trousers. one knee is drawn up beside her torso, one forearm rests across the raised knee with relaxed fingers, and her other hand supports a red christmas card upright in front of her lap. the card contains a small monochrome photograph within a cream border. her raised bare foot rests on the cushion, showing pale toenail polish, while the other trouser leg extends toward the lower edge and its foot is partially cropped. [scene & spatial relationship] in the foreground, long red, green, and striped gift ribbons hang over the left edge of a beige stone bench, with a partially cropped plaid gift box on the dark wooden floor below. in the midground, the woman sits on a taupe upholstered cushion atop a thick pale travertine bench; ribbon spools and red-handled scissors sit to her left, while pale envelopes and additional red photo cards lie to her right. behind her, a large red paper backdrop with subtle wrinkles fills most of the wall, bordered by a narrow dark wooden panel at the far left. a cropped glowing cream ribbed lamp appears at the far right beside a wooden surface. [composition] a single posed holiday lifestyle portrait photographed straight on from approximately the seated subject's eye level, with the woman slightly left of center and generous red negative space above her head. her raised knee and feathered sleeves create an asymmetric silhouette, while the bench forms a strong horizontal line across the lower frame. the face, clothing, card, and wrapping supplies remain clearly legible, with little background blur. [lighting] strong direct frontal flash creates bright highlights on her cheeks, forehead, hair, earrings, and hands, with crisp dark shadows behind her body and beneath the bench. the red backdrop is brightly illuminated, and the lamp at the right edge adds a localized warm cream glow. [medium & material] flash photograph with visible skin texture, individual glossy hair strands, matte cotton sweatshirt fabric, fine black feathers spreading into irregular wisps, softly creased trouser fabric, velvety upholstery, porous veined travertine, satin ribbon, and matte printed cardstock. [mood & palette] relaxed festive intimacy and playful dressed-up comfort, dominated by vivid warm red against light gray, cream, taupe, dark brown, and black, with small silver and green accents. [crop] 3:4 portrait crop. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321442",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ede8ae3-37a3-4f12-ac69-f07081fefb0c/original=true/7ede8ae3-37a3-4f12-ac69-f07081fefb0c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321441",
+      "title": "Civitai prompt 149321441",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "[Subject & Action] A young adult woman stands facing the camera with her head gently tilted, shoulders relaxed, knees close together, and both hands holding the beaded handles of a small yellow-and-black frog-shaped handbag in front of her skirt. She has brown hair in two thick braids with wispy bangs, small floral braid ornaments, orange flower earrings, softly defined eyeliner, peach blush, and coral lips. She wears a rounded mustard-yellow beret with dark blue floral patches, a matching calf-length dress with large puff sleeves, a fitted bodice, a gathered full skirt and broad ruffled hem, a wide black buckle belt, sheer black dotted gloves with lace cuffs, mustard socks, and black Mary Jane shoes. [Scene & Spatial Relationship] An olive-green seamless studio backdrop curves onto the floor. The foreground is an unobstructed strip of matte olive floor; the woman occupies the central midground with her handbag suspended against her skirt; the background is a plain olive surface with subtle tonal falloff. [Composition] A single full-length fashion portrait from a frontal, approximately torso-height camera, with the subject centered, the flared skirt spreading across the lower frame, narrow headroom, and both shoes fully visible. Clear subject focus and balanced empty space along both sides. [Lighting] Broad soft light from the upper front left creates gentle highlights on her forehead, cheeks, forearms, and satin folds, with soft shading beneath the sleeves and skirt and a diffuse floor shadow behind her shoes. [Medium & Material] Studio fashion photography with softly rendered skin texture, individual braid strands, slightly lustrous printed fabric, gathered seams, translucent dotted glove mesh, smooth leather belt and shoes, glossy beads, and a textured frog-shaped bag. [Mood & Palette] Quiet, whimsical styling with mustard yellow and deep navy floral shapes against muted olive green, accented by black accessories and orange flowers. [Crop] 9:16 portrait crop.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321441",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/522b28a0-740d-4825-bbb8-b627950a6150/original=true/522b28a0-740d-4825-bbb8-b627950a6150.jpeg",
+      "model": "Moody-Krea-Mix-premium_00002__clean",
+      "model_version_ids": [
+        3261440
+      ],
+      "width": 1088,
+      "height": 1920,
+      "seed": 138003350,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459537+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8c9fdfd4fe7126500e2489ff96ae0edc44e72a5d82a36db10f777e57157704d7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321441 fashion ai-image-prompts [subject & action] a young adult woman stands facing the camera with her head gently tilted, shoulders relaxed, knees close together, and both hands holding the beaded handles of a small yellow-and-black frog-shaped handbag in front of her skirt. she has brown hair in two thick braids with wispy bangs, small floral braid ornaments, orange flower earrings, softly defined eyeliner, peach blush, and coral lips. she wears a rounded mustard-yellow beret with dark blue floral patches, a matching calf-length dress with large puff sleeves, a fitted bodice, a gathered full skirt and broad ruffled hem, a wide black buckle belt, sheer black dotted gloves with lace cuffs, mustard socks, and black mary jane shoes. [scene & spatial relationship] an olive-green seamless studio backdrop curves onto the floor. the foreground is an unobstructed strip of matte olive floor; the woman occupies the central midground with her handbag suspended against her skirt; the background is a plain olive surface with subtle tonal falloff. [composition] a single full-length fashion portrait from a frontal, approximately torso-height camera, with the subject centered, the flared skirt spreading across the lower frame, narrow headroom, and both shoes fully visible. clear subject focus and balanced empty space along both sides. [lighting] broad soft light from the upper front left creates gentle highlights on her forehead, cheeks, forearms, and satin folds, with soft shading beneath the sleeves and skirt and a diffuse floor shadow behind her shoes. [medium & material] studio fashion photography with softly rendered skin texture, individual braid strands, slightly lustrous printed fabric, gathered seams, translucent dotted glove mesh, smooth leather belt and shoes, glossy beads, and a textured frog-shaped bag. [mood & palette] quiet, whimsical styling with mustard yellow and deep navy floral shapes against muted olive green, accented by black accessories and orange flowers. [crop] 9:16 portrait crop. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321441",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/522b28a0-740d-4825-bbb8-b627950a6150/original=true/522b28a0-740d-4825-bbb8-b627950a6150.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321443",
+      "title": "Civitai prompt 149321443",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "[Subject & Action] A young adult woman stands with both arms lifted overhead, elbows softly bent and hands loosely overlapping, her head turned toward the right side of the image with lowered eyes and gently parted lips. She has chestnut-brown hair arranged in two thick braids with a braided crown, wispy bangs, small floral decorations, and yellow braid ties. Her makeup includes softly defined eyeliner, peach eyeshadow, warm blush, and muted coral lips. She wears a cream ankle-length pleated dress with a deep V neckline, fluttering short sleeves, a gathered waist, and cascading asymmetric tiers printed with oversized butterfly-wing patterns in orange, yellow, turquoise, black, and ivory. Black leather lace-up boots rise to mid-calf, with metal eyelets and thick soles. Gold bracelets circle one raised wrist. [Scene & Spatial Relationship] An uninterrupted olive-green studio sweep fills the scene. The foreground is a clear matte green floor; the woman occupies the midground with her boots close together and the wide skirt spreading around her legs; the background is a matching green backdrop with no visible seam or props. A soft contact shadow anchors her boots to the floor. [Composition] A single vertical full-body fashion photograph, camera held level around the subject's torso height, showing her entire raised hands and boots. Her figure sits near the center, with the layered skirt extending farther toward the right and narrow green negative space surrounding the silhouette. The overhead arms create an open arch around her head, while descending pleats guide the eye toward the boots. The subject remains clearly focused against a smooth background. [Lighting] Broad soft studio light enters from the upper left and front, illuminating the raised arms, forehead, cheek, and cream pleats. Gentle shadows fall beneath the chin, inside the sleeves, between overlapping fabric tiers, and around the boot laces; subdued highlights trace the leather toes and bracelet edges. [Medium & Material] Fashion photography with softly rendered skin texture, individually visible loose hairs, fine accordion pleats, translucent cream fabric edges, overlapping printed chiffon layers, smooth black leather, and small metallic eyelet highlights. [Mood & Palette] A quiet, poised fashion portrait combining muted olive green and warm cream with saturated butterfly orange, golden yellow, and turquoise, grounded by black outlines and boots. [Crop] 9:16 portrait crop.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321443",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1310408-1fec-4948-aa19-d63cc0a1deeb/original=true/f1310408-1fec-4948-aa19-d63cc0a1deeb.jpeg",
+      "model": "Moody-Krea-Mix-premium_00002__clean",
+      "model_version_ids": [
+        3261440
+      ],
+      "width": 1088,
+      "height": 1920,
+      "seed": 3694243526,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459556+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "75baa1ebf5d9299445609aa60fe6419f69abc0235d68794b9024d0c0b765ba22",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321443 fashion ai-image-prompts [subject & action] a young adult woman stands with both arms lifted overhead, elbows softly bent and hands loosely overlapping, her head turned toward the right side of the image with lowered eyes and gently parted lips. she has chestnut-brown hair arranged in two thick braids with a braided crown, wispy bangs, small floral decorations, and yellow braid ties. her makeup includes softly defined eyeliner, peach eyeshadow, warm blush, and muted coral lips. she wears a cream ankle-length pleated dress with a deep v neckline, fluttering short sleeves, a gathered waist, and cascading asymmetric tiers printed with oversized butterfly-wing patterns in orange, yellow, turquoise, black, and ivory. black leather lace-up boots rise to mid-calf, with metal eyelets and thick soles. gold bracelets circle one raised wrist. [scene & spatial relationship] an uninterrupted olive-green studio sweep fills the scene. the foreground is a clear matte green floor; the woman occupies the midground with her boots close together and the wide skirt spreading around her legs; the background is a matching green backdrop with no visible seam or props. a soft contact shadow anchors her boots to the floor. [composition] a single vertical full-body fashion photograph, camera held level around the subject's torso height, showing her entire raised hands and boots. her figure sits near the center, with the layered skirt extending farther toward the right and narrow green negative space surrounding the silhouette. the overhead arms create an open arch around her head, while descending pleats guide the eye toward the boots. the subject remains clearly focused against a smooth background. [lighting] broad soft studio light enters from the upper left and front, illuminating the raised arms, forehead, cheek, and cream pleats. gentle shadows fall beneath the chin, inside the sleeves, between overlapping fabric tiers, and around the boot laces; subdued highlights trace the leather toes and bracelet edges. [medium & material] fashion photography with softly rendered skin texture, individually visible loose hairs, fine accordion pleats, translucent cream fabric edges, overlapping printed chiffon layers, smooth black leather, and small metallic eyelet highlights. [mood & palette] a quiet, poised fashion portrait combining muted olive green and warm cream with saturated butterfly orange, golden yellow, and turquoise, grounded by black outlines and boots. [crop] 9:16 portrait crop. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321443",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1310408-1fec-4948-aa19-d63cc0a1deeb/original=true/f1310408-1fec-4948-aa19-d63cc0a1deeb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149319112",
+      "title": "Civitai prompt 149319112",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "WORLD / SCENE IDENTITY\nAn enchanting historic floral conservatory with an elaborate stained-glass window, classical stone columns, and abundant flowering vines. An atmosphere of romantic serenity, delicate elegance, and timeless botanical beauty.\n\nMAIN ANCHOR / SUBJECT\nOne beautiful young adult woman standing gracefully before a magnificent arched stained-glass window, surrounded by vibrant sunflowers, blooming dahlias, and lush climbing foliage.\n\nFACE / APPEARANCE\nA refined softly oval feminine face with natural proportions, delicate cheekbones, a small graceful nose, softly defined lips, and fair skin with gentle peach undertones. Her expression is calm, tender, and slightly wistful.\n\nEYES\nLarge expressive crystalline blue eyes with naturally shaped eyelids, delicate eyelashes, clearly defined irises, and subtle luminous catchlights. Her gaze meets the viewer directly.\n\nHAIR\nShort glossy raven-black bob reaching the shoulders, with softly curved ends, delicate separated strands, and straight wispy bangs framing the forehead. Subtle midnight-blue highlights enrich the dark hair.\n\nCLOTHING\nAn exquisite floor-length ivory dress with a delicate high ruffled neckline, gently gathered long sleeves, and a narrow waist tied with thin orange cords.\n\nRich botanical embroidery decorates the bodice and lower skirt, featuring intricate golden sunflowers, orange blossoms, delicate blue flowers, and fine green stems.\n\nThe skirt falls in elegant vertical folds, expanding into a broad flowing hem with graceful fabric extensions resting upon the floor.\n\nLightweight natural silk and fine embroidered cotton create a soft romantic silhouette.\n\nSimple dark open-toe sandals remain partially visible beneath the dress.\n\nPOSE / EXPRESSION\nThe woman stands upright in a relaxed frontal pose, shoulders gently lowered and head facing forward.\n\nBoth hands rest delicately together in front of her lower waist, with naturally overlapping fingers and relaxed wrists.\n\nHer posture conveys quiet femininity, gentle innocence, and composed elegance.\n\nCAMERA\nVertical 9:16 full-length portrait from a natural frontal viewpoint.\n\nThe woman occupies the central axis of a nearly symmetrical composition. A large arched stained-glass window rises directly behind her, while flowering plants frame both sides.\n\nThe broad lower hem spreads toward the bottom corners, emphasizing the dress's graceful silhouette.\n\nFRAMING / CROP CONTROL\nPreserve the complete head, both hands, embroidered bodice, entire flowing skirt, and visible sandals.\n\nMaintain the recognizable arched window and abundant floral arrangements surrounding the figure.\n\nAllow the outer fabric extensions and peripheral flowers to continue naturally beyond the frame.\n\nFOREGROUND\nColorful patterned floor tiles, delicate fallen petals, and the softly spreading embroidered hem of the dress.\n\nVISUAL ROUTE\nForeground floral embroidery and flowing fabric -> delicately clasped hands -> richly decorated bodice -> expressive blue eyes -> dark bobbed hair -> magnificent stained-glass arch -> surrounding sunflowers and flowering vines.\n\nMIDDLE GROUND\nDense botanical arrangements surrounding the woman, with large golden-yellow sunflowers, coral-pink dahlias, smaller orange flowers, and deep green heart-shaped leaves.\n\nThe plants climb naturally around dark wooden window frames and pale carved stone columns.\n\nBACKGROUND\nAn ornate historic arched window containing elaborate stained-glass panels with intricate botanical patterns in warm amber, orange, cobalt blue, ivory, and muted turquoise.\n\nDecorative stone pillars frame the architectural structure, partially concealed by lush climbing vegetation.\n\nPHYSICAL / SPATIAL LOGIC\nThe woman maintains believable natural anatomy, with coherent shoulder alignment, relaxed arms, and anatomically consistent clasped hands.\n\nThe long dress follows gravity, with natural fabric tension around the waist and continuous folds extending toward the floor.\n\nFlowering vines grow from coherent stems, their leaves and blossoms supported by believable branching structures.\n\nThe stained-glass panels remain securely enclosed within the architectural framework.\n\nLIGHT\nBeautiful diffused spring sunlight enters through the conservatory, creating delicate patches of warm illumination across the woman's face, hair, and embroidered dress.\n\nSoft botanical shadows fall across the fabric and surrounding stone surfaces.\n\nSubtle colored reflections from the stained glass enrich the atmosphere while preserving natural skin tones.\n\nMaintain luminous midtones, soft penumbra, gentle reflected fill, and graceful tonal transitions.\n\nCOLOR\nA sophisticated romantic palette of warm ivory, golden yellow, burnt orange, coral pink, deep botanical emerald, and vivid cobalt blue.\n\nThe dark hair provides elegant tonal contrast against the pale dress, while the floral embroidery harmonizes with the richly colored stained glass.\n\nDEPTH\nElegant spatial layering through foreground fabric and petals, the clearly resolved central figure, overlapping flowers, climbing vines, and decorative stained-glass architecture.\n\nSelective focal precision emphasizes the face, hands, and principal embroidered details.\n\nMATERIALS\nFine natural silk, embroidered cotton, delicate flower petals, glossy green leaves, dark polished wood, colored stained glass, and aged carved limestone.\n\nPAINTERLY STYLE\nMature atmospheric romantic naturalism with refined digital painterly handling and restrained historical illustrative stylization.\n\nSophisticated broken-color modulation, soft semi-opaque layering, delicate directional brushwork, and controlled lost-and-found edges.\n\nBeautifully articulated facial anatomy, expressive natural eyes, intricate botanical embroidery, abundant flowering vegetation, and elegant architectural ornamentation.\n\nClean hand-painted surfaces, luminous natural midtones, harmonious color relationships, and selective focal detail.\n\nLOWER FRAME INTEGRATION\nThe embroidered ivory skirt spreads naturally across the decorative tiled floor, with flowing fabric folds and delicate floral patterns continuing through the bottom edge, preserving the graceful full-length composition.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149319112",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f132a34-011b-4586-a675-358bb6b22c23/original=true/4f132a34-011b-4586-a675-358bb6b22c23.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 50000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459596+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d4ab1b8e4ce8935ecaab4f9afb602036d7f64c70d90eb2c532eb6a3f87f8d8de",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149319112 architecture ai-image-prompts world / scene identity an enchanting historic floral conservatory with an elaborate stained-glass window, classical stone columns, and abundant flowering vines. an atmosphere of romantic serenity, delicate elegance, and timeless botanical beauty. main anchor / subject one beautiful young adult woman standing gracefully before a magnificent arched stained-glass window, surrounded by vibrant sunflowers, blooming dahlias, and lush climbing foliage. face / appearance a refined softly oval feminine face with natural proportions, delicate cheekbones, a small graceful nose, softly defined lips, and fair skin with gentle peach undertones. her expression is calm, tender, and slightly wistful. eyes large expressive crystalline blue eyes with naturally shaped eyelids, delicate eyelashes, clearly defined irises, and subtle luminous catchlights. her gaze meets the viewer directly. hair short glossy raven-black bob reaching the shoulders, with softly curved ends, delicate separated strands, and straight wispy bangs framing the forehead. subtle midnight-blue highlights enrich the dark hair. clothing an exquisite floor-length ivory dress with a delicate high ruffled neckline, gently gathered long sleeves, and a narrow waist tied with thin orange cords. rich botanical embroidery decorates the bodice and lower skirt, featuring intricate golden sunflowers, orange blossoms, delicate blue flowers, and fine green stems. the skirt falls in elegant vertical folds, expanding into a broad flowing hem with graceful fabric extensions resting upon the floor. lightweight natural silk and fine embroidered cotton create a soft romantic silhouette. simple dark open-toe sandals remain partially visible beneath the dress. pose / expression the woman stands upright in a relaxed frontal pose, shoulders gently lowered and head facing forward. both hands rest delicately together in front of her lower waist, with naturally overlapping fingers and relaxed wrists. her posture conveys quiet femininity, gentle innocence, and composed elegance. camera vertical 9:16 full-length portrait from a natural frontal viewpoint. the woman occupies the central axis of a nearly symmetrical composition. a large arched stained-glass window rises directly behind her, while flowering plants frame both sides. the broad lower hem spreads toward the bottom corners, emphasizing the dress's graceful silhouette. framing / crop control preserve the complete head, both hands, embroidered bodice, entire flowing skirt, and visible sandals. maintain the recognizable arched window and abundant floral arrangements surrounding the figure. allow the outer fabric extensions and peripheral flowers to continue naturally beyond the frame. foreground colorful patterned floor tiles, delicate fallen petals, and the softly spreading embroidered hem of the dress. visual route foreground floral embroidery and flowing fabric -> delicately clasped hands -> richly decorated bodice -> expressive blue eyes -> dark bobbed hair -> magnificent stained-glass arch -> surrounding sunflowers and flowering vines. middle ground dense botanical arrangements surrounding the woman, with large golden-yellow sunflowers, coral-pink dahlias, smaller orange flowers, and deep green heart-shaped leaves. the plants climb naturally around dark wooden window frames and pale carved stone columns. background an ornate historic arched window containing elaborate stained-glass panels with intricate botanical patterns in warm amber, orange, cobalt blue, ivory, and muted turquoise. decorative stone pillars frame the architectural structure, partially concealed by lush climbing vegetation. physical / spatial logic the woman maintains believable natural anatomy, with coherent shoulder alignment, relaxed arms, and anatomically consistent clasped hands. the long dress follows gravity, with natural fabric tension around the waist and continuous folds extending toward the floor. flowering vines grow from coherent stems, their leaves and blossoms supported by believable branching structures. the stained-glass panels remain securely enclosed within the architectural framework. light beautiful diffused spring sunlight enters through the conservatory, creating delicate patches of warm illumination across the woman's face, hair, and embroidered dress. soft botanical shadows fall across the fabric and surrounding stone surfaces. subtle colored reflections from the stained glass enrich the atmosphere while preserving natural skin tones. maintain luminous midtones, soft penumbra, gentle reflected fill, and graceful tonal transitions. color a sophisticated romantic palette of warm ivory, golden yellow, burnt orange, coral pink, deep botanical emerald, and vivid cobalt blue. the dark hair provides elegant tonal contrast against the pale dress, while the floral embroidery harmonizes with the richly colored stained glass. depth elegant spatial layering through foreground fabric and petals, the clearly resolved central figure, overlapping flowers, climbing vines, and decorative stained-glass architecture. selective focal precision emphasizes the face, hands, and principal embroidered details. materials fine natural silk, embroidered cotton, delicate flower petals, glossy green leaves, dark polished wood, colored stained glass, and aged carved limestone. painterly style mature atmospheric romantic naturalism with refined digital painterly handling and restrained historical illustrative stylization. sophisticated broken-color modulation, soft semi-opaque layering, delicate directional brushwork, and controlled lost-and-found edges. beautifully articulated facial anatomy, expressive natural eyes, intricate botanical embroidery, abundant flowering vegetation, and elegant architectural ornamentation. clean hand-painted surfaces, luminous natural midtones, harmonious color relationships, and selective focal detail. lower frame integration the embroidered ivory skirt spreads naturally across the decorative tiled floor, with flowing fabric folds and delicate floral patterns continuing through the bottom edge, preserving the graceful full-length composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149319112",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f132a34-011b-4586-a675-358bb6b22c23/original=true/4f132a34-011b-4586-a675-358bb6b22c23.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149275256",
+      "title": "Civitai prompt 149275256",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "thanksgiving feast table close-up, candles, fall colors, warm inviting atmosphere ,\nperson1 is wearing forest-green pullover, tan pants, leather boots, autumn hat ,\nperson1 (female): 1girl, 1 anthromorphic dog girl, golden retriever dog girl, golden retriever dog snout, floppy dog ears, dog whiskers, black dog collar with silver heart, solo ,, highly detailed, sharp focus, realistic textures, accurate proportions,\nclean rendering, refined materials, coherent anatomy, consistent lighting,\nprecise light behavior, stable shading, accurate hand anatomy,\nfully resolved forms, crisp structural definition, controlled highlights,\nconsistent material response, refined surface detail, stable subject clarity, <lora:AddMicroDetails_Illustrious_v7:0.5> addmicrodetails",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149275256",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb2e0cbe-1ee6-4e08-b784-1f44f1244f80/original=true/eb2e0cbe-1ee6-4e08-b784-1f44f1244f80.jpeg",
+      "model_version_ids": [
+        3206748
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 828637728,
+      "negative_prompt": "low quality, lowres, blurry, pixelated, distorted anatomy, warped limbs,\nfused bodies, merged forms, overlapping anatomy errors, duplicate features,\nglitch artifacts, rendering errors, watermark, text artifacts,\ncompression artifacts, moiré pattern, aliasing, grainy, overprocessed,\nexaggerated anatomy, unstable shapes, unintended deformations,\nunresolved details, smeared textures, inconsistent lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459605+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "abb1349c595d09067567639f9d98f3d2469ea530774bf130d58cf89d833e64f5",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149275256 photography ai-image-prompts thanksgiving feast table close-up, candles, fall colors, warm inviting atmosphere , person1 is wearing forest-green pullover, tan pants, leather boots, autumn hat , person1 (female): 1girl, 1 anthromorphic dog girl, golden retriever dog girl, golden retriever dog snout, floppy dog ears, dog whiskers, black dog collar with silver heart, solo ,, highly detailed, sharp focus, realistic textures, accurate proportions, clean rendering, refined materials, coherent anatomy, consistent lighting, precise light behavior, stable shading, accurate hand anatomy, fully resolved forms, crisp structural definition, controlled highlights, consistent material response, refined surface detail, stable subject clarity, <lora:addmicrodetails_illustrious_v7:0.5> addmicrodetails civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149275256",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb2e0cbe-1ee6-4e08-b784-1f44f1244f80/original=true/eb2e0cbe-1ee6-4e08-b784-1f44f1244f80.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148868245",
+      "title": "Civitai prompt 148868245",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "This is a semi-realistic digital painting with a three-quarter view, capturing a woman in ornate, historical attire against an opulent architectural backdrop. She stands with hands clasped before her, gazing softly at the viewer, her expression serene yet enigmatic under warm, directional light that highlights her skin and garments. The composition uses golden arches and rich textures to frame her figure, while the background’s deep shadows contrast with the luminous foreground, creating a mood of regal melancholy. The color palette—dominated by golds, maroons, and cream—is bathed in warm sunlight filtering through an unseen window, emphasizing luxurious detail and casting dramatic highlights on fabric and skin.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148868245",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574621a8-938c-42a9-8512-2690e1c6e47e/original=true/574621a8-938c-42a9-8512-2690e1c6e47e.jpeg",
+      "model": "Krea\\Krea_WSM_Turbo_fp8.safetensors",
+      "model_version_ids": [
+        3079282,
+        3461969,
+        3442448
+      ],
+      "width": 1432,
+      "height": 1344,
+      "seed": 4280611545799632,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459617+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "29913703f0a6d3c2ace98e5d932753c387c65d86771daa74b72c5a085e5798ff",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148868245 image ai-image-prompts this is a semi-realistic digital painting with a three-quarter view, capturing a woman in ornate, historical attire against an opulent architectural backdrop. she stands with hands clasped before her, gazing softly at the viewer, her expression serene yet enigmatic under warm, directional light that highlights her skin and garments. the composition uses golden arches and rich textures to frame her figure, while the background’s deep shadows contrast with the luminous foreground, creating a mood of regal melancholy. the color palette—dominated by golds, maroons, and cream—is bathed in warm sunlight filtering through an unseen window, emphasizing luxurious detail and casting dramatic highlights on fabric and skin. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148868245",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/574621a8-938c-42a9-8512-2690e1c6e47e/original=true/574621a8-938c-42a9-8512-2690e1c6e47e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148835226",
+      "title": "Civitai prompt 148835226",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@AN1M1X, anime screenshot, anime screencap,In a cel-shaded Japanese anime illustration style, with expressive linework and vibrant, saturated colors, a young woman with long, wavy green hair adorned with delicate white flowers sits cross-legged atop a crimson-red velvet dais. Her face, half-hidden in shadowed elegance, glances downward with eyes half-lidded as if lost in thought; her expression is serene yet subtly brooding. She wears an ornate red-and-white ensemble — the bodice embroidered with gold filigree, the skirt cascading into a voluminous, patterned train that trails behind her like smoke. Her high-heeled boots are slashed with angular metal accents and rest firmly on the floor, their soles catching glints of light as if reflecting an unseen flame. Beside her, curled comfortably against her thigh, is a small, white feline creature with closed eyes — its cheeks flushed pink, ears perked up like tiny antennae — wearing a polka-dotted costume that matches the woman’s skirt and features tiny, red-tipped wings folded neatly at its back. The background pulses with deep crimson tones streaked with motion lines suggesting an unstable atmosphere, while floating shards of glass-like gems swirl around them in slow, haunting orbits — each one reflecting fractured images of a distant, forgotten world. Her hair flows dramatically across the frame like ink spilled on parchment; the composition is framed by heavy shadows and high-contrast highlights that emphasize every curve, stitch, and flicker of light. The scene breathes with an aura of quiet intensity — a moment suspended between mischief and melancholy — as if time itself has paused to admire their silent coexistence against this surreal canvas.<lora:detailer\\detail_slider_krea2_loraholic.safetensors:4><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\ANIME MIX V1.safetensors:0.65><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1>",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148835226",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d8b3c26-cc43-4419-90ef-2f19e95be836/original=true/5d8b3c26-cc43-4419-90ef-2f19e95be836.jpeg",
+      "model": "krea2E58AA8E6BCABE5A29E.QEnV",
+      "model_version_ids": [
+        3121642,
+        3174829,
+        3328763,
+        3461399
+      ],
+      "width": 1664,
+      "height": 2496,
+      "seed": 779280035686427,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459641+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0b90ea06834cd6f1cd060cd4e74d36fda3f71ed23d19a9443ac3f9054f89c05c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148835226 image ai-image-prompts @an1m1x, anime screenshot, anime screencap,in a cel-shaded japanese anime illustration style, with expressive linework and vibrant, saturated colors, a young woman with long, wavy green hair adorned with delicate white flowers sits cross-legged atop a crimson-red velvet dais. her face, half-hidden in shadowed elegance, glances downward with eyes half-lidded as if lost in thought; her expression is serene yet subtly brooding. she wears an ornate red-and-white ensemble — the bodice embroidered with gold filigree, the skirt cascading into a voluminous, patterned train that trails behind her like smoke. her high-heeled boots are slashed with angular metal accents and rest firmly on the floor, their soles catching glints of light as if reflecting an unseen flame. beside her, curled comfortably against her thigh, is a small, white feline creature with closed eyes — its cheeks flushed pink, ears perked up like tiny antennae — wearing a polka-dotted costume that matches the woman’s skirt and features tiny, red-tipped wings folded neatly at its back. the background pulses with deep crimson tones streaked with motion lines suggesting an unstable atmosphere, while floating shards of glass-like gems swirl around them in slow, haunting orbits — each one reflecting fractured images of a distant, forgotten world. her hair flows dramatically across the frame like ink spilled on parchment; the composition is framed by heavy shadows and high-contrast highlights that emphasize every curve, stitch, and flicker of light. the scene breathes with an aura of quiet intensity — a moment suspended between mischief and melancholy — as if time itself has paused to admire their silent coexistence against this surreal canvas.<lora:detailer\\detail_slider_krea2_loraholic.safetensors:4><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\anime mix v1.safetensors:0.65><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148835226",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d8b3c26-cc43-4419-90ef-2f19e95be836/original=true/5d8b3c26-cc43-4419-90ef-2f19e95be836.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321296",
+      "title": "Civitai prompt 149321296",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "real action photography. A deeply atmospheric, dynamic, and exquisitely alluring low-angle shot of the Pink Power Ranger striking a confident, powerful pose on a rocky cliffside at sunset. She is fully suited in her iconic, hyper-detailed, form-fitting pink and white armored bodysuit that perfectly accentuates her hourglass figure, long legs, and athletic curves. Her helmet is off, revealing a stunning, radiant face with windblown hair, a playful, knowing wink, and a bright, tempting smile. Swirling, volumetric pink energy from the Morphin Grid crackles around her gloved hands, casting a warm, magical glow on her face and the textured surface of her suit. The background is a pure, uncluttered canvas of a vibrant orange and purple sunset sky with absolutely no text, no signage, no letters, no symbols, and no written elements anywhere in the image. The lighting is dramatic and cinematic, highlighting the glossy, realistic texture of the suit's material, the subtle muscle definition in her arms, and the hyper-detailed contours of her body. Subtle lens distortion typical of a vintage 24mm lens, fine authentic film grain, and a raw, unpolished atmosphere enhance the profoundly captivating aesthetic of this spontaneous, powerful, and undeniably hot tribute to the ultimate nostalgic icon.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321296",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd5517e1-15f0-43c4-8b1f-59d15ac430b3/original=true/cd5517e1-15f0-43c4-8b1f-59d15ac430b3.jpeg",
+      "model": "GonzaLomo Krea 2 _v4.0",
+      "model_version_ids": [
+        3066073,
+        3097834,
+        3121642,
+        3123867,
+        3245099
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 194228188485180,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459654+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7b89ac6b6b7dda4240d6e7c8949866435765683d750232e6de200646d5498e65",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321296 image ai-image-prompts real action photography. a deeply atmospheric, dynamic, and exquisitely alluring low-angle shot of the pink power ranger striking a confident, powerful pose on a rocky cliffside at sunset. she is fully suited in her iconic, hyper-detailed, form-fitting pink and white armored bodysuit that perfectly accentuates her hourglass figure, long legs, and athletic curves. her helmet is off, revealing a stunning, radiant face with windblown hair, a playful, knowing wink, and a bright, tempting smile. swirling, volumetric pink energy from the morphin grid crackles around her gloved hands, casting a warm, magical glow on her face and the textured surface of her suit. the background is a pure, uncluttered canvas of a vibrant orange and purple sunset sky with absolutely no text, no signage, no letters, no symbols, and no written elements anywhere in the image. the lighting is dramatic and cinematic, highlighting the glossy, realistic texture of the suit's material, the subtle muscle definition in her arms, and the hyper-detailed contours of her body. subtle lens distortion typical of a vintage 24mm lens, fine authentic film grain, and a raw, unpolished atmosphere enhance the profoundly captivating aesthetic of this spontaneous, powerful, and undeniably hot tribute to the ultimate nostalgic icon. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321296",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd5517e1-15f0-43c4-8b1f-59d15ac430b3/original=true/cd5517e1-15f0-43c4-8b1f-59d15ac430b3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321380",
+      "title": "Civitai prompt 149321380",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), close-up portrait shot, direct front view, kneeling on one knee with the other foot planted flat forward in a lunging stance, ((wearing a bright golden yellow cotton saree with basic check pattern)),set in waterfall flowing over terraced rocks into a series of clear pools, serene natural background, photorealistic, ultra detailed, , photorealistic texture, sharp focus",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321380",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d437cb23-5ea7-40c4-a934-6f06aaf6f05e/original=true/d437cb23-5ea7-40c4-a934-6f06aaf6f05e.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459662+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "773e2421ca6d308c8b40b6e7ef410d7d8a94a8fa079d92b0596bd95b15942916",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321380 image ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), close-up portrait shot, direct front view, kneeling on one knee with the other foot planted flat forward in a lunging stance, ((wearing a bright golden yellow cotton saree with basic check pattern)),set in waterfall flowing over terraced rocks into a series of clear pools, serene natural background, photorealistic, ultra detailed, , photorealistic texture, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321380",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d437cb23-5ea7-40c4-a934-6f06aaf6f05e/original=true/d437cb23-5ea7-40c4-a934-6f06aaf6f05e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321377",
+      "title": "Civitai prompt 149321377",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), full body shot, straight-on front view, standing with body arched gracefully in a ballet-inspired posture, ((wearing a deep wine red chiffon saree with soft texture and plain pallu)),set in waterfall in a narrow slot canyon with smooth sandstone walls, unique geological background, cinematic, high detail, , photorealistic texture, sharp focus",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321377",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62d9c1b2-2b1c-499a-a45e-368beecba8a1/original=true/62d9c1b2-2b1c-499a-a45e-368beecba8a1.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459670+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0eb03276e5a5604e56038af40752e783ec4efb272440c975f72f9d3afafb31d3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321377 image ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), full body shot, straight-on front view, standing with body arched gracefully in a ballet-inspired posture, ((wearing a deep wine red chiffon saree with soft texture and plain pallu)),set in waterfall in a narrow slot canyon with smooth sandstone walls, unique geological background, cinematic, high detail, , photorealistic texture, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321377",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62d9c1b2-2b1c-499a-a45e-368beecba8a1/original=true/62d9c1b2-2b1c-499a-a45e-368beecba8a1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321303",
+      "title": "Civitai prompt 149321303",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, A woman in a flowing burgundy dress standing in a lake surrounded by reeds, painterly fine-art composition.. set against Cinematic open-sky composition of a broad grassy plateau, featuring rolling grass and low shrubs, dry earth and small stones, clear dry air, and cool cloudy illumination; rich depth of field with the location remaining clearly readable.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321303",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63885325-236f-48e2-b6a7-302391f4183b/original=true/63885325-236f-48e2-b6a7-302391f4183b.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459678+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a3c281000ed5b0879c94c4a0f255d6d995944f0ad0c952bc0a854e8a430c2197",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321303 image ai-image-prompts mskmdesi517 indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a woman in a flowing burgundy dress standing in a lake surrounded by reeds, painterly fine-art composition.. set against cinematic open-sky composition of a broad grassy plateau, featuring rolling grass and low shrubs, dry earth and small stones, clear dry air, and cool cloudy illumination; rich depth of field with the location remaining clearly readable. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321303",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63885325-236f-48e2-b6a7-302391f4183b/original=true/63885325-236f-48e2-b6a7-302391f4183b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321289",
+      "title": "Civitai prompt 149321289",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), three-quarter medium shot, front-facing view, standing with weight shifted to one hip, counter-balanced pose, ((wearing a vivid cobalt blue linen saree with minimalistic handloom texture)),set in waterfall at sunset with golden light reflecting on wet rocks and mist, warm dramatic background, ultra detailed, 8k, , photorealistic texture, sharp focus",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321289",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44c1c18a-29b6-4773-9c51-08b2273897fe/original=true/44c1c18a-29b6-4773-9c51-08b2273897fe.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459685+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3db7a0f173cea873ed62c88cecd20da9403e3cdd2762ef4410ecc39689f70937",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321289 image ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), three-quarter medium shot, front-facing view, standing with weight shifted to one hip, counter-balanced pose, ((wearing a vivid cobalt blue linen saree with minimalistic handloom texture)),set in waterfall at sunset with golden light reflecting on wet rocks and mist, warm dramatic background, ultra detailed, 8k, , photorealistic texture, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321289",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44c1c18a-29b6-4773-9c51-08b2273897fe/original=true/44c1c18a-29b6-4773-9c51-08b2273897fe.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321282",
+      "title": "Civitai prompt 149321282",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), full body shot, straight-on front view, kneeling on both knees with body turned at a three-quarter angle, ((wearing a dark cherry red georgette saree with light sheen and simple drape)),set in waterfall pouring into a hidden lagoon surrounded by limestone cliffs, secluded paradise background, ultra detailed, high detail, , photorealistic texture, sharp focus",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321282",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79d8d29a-f443-4b05-bb85-f1f9739d3dc5/original=true/79d8d29a-f443-4b05-bb85-f1f9739d3dc5.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459692+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f69c9ab47c05adf5e6511a7879626967e5a31b57b525caf207b978fc6176b820",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321282 image ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (masterpiece, best quality:1.2), full body shot, straight-on front view, kneeling on both knees with body turned at a three-quarter angle, ((wearing a dark cherry red georgette saree with light sheen and simple drape)),set in waterfall pouring into a hidden lagoon surrounded by limestone cliffs, secluded paradise background, ultra detailed, high detail, , photorealistic texture, sharp focus civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321282",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79d8d29a-f443-4b05-bb85-f1f9739d3dc5/original=true/79d8d29a-f443-4b05-bb85-f1f9739d3dc5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321274",
+      "title": "Civitai prompt 149321274",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised woman wearing emerald green banarasi saree with a fully covering boat-neck blouse, no dupatta and no pallu, crossing a marble floor in a beachside evening venue, candlelight reflections, photorealistic fashion editorial, 50mm lens, natural perspective, elegant fashion editorial, tasteful adult full-body or three-quarter framing, lifelike skin texture, anatomically correct hands, intricate textile detail, flowing garment motion, detailed venue depth, soft ambient shadows, crisp focus, refined color grading, ultra-detailed. set against Low viewpoint toward jagged peaks of a rugged rocky mountain range, featuring jagged peaks and sharp ridges, cracked stone ledges, clear dry mountain air, and cool overcast mountain light; photorealistic location photography with believable scale.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321274",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2eead269-7cfd-4467-93cb-dea5def78120/original=true/2eead269-7cfd-4467-93cb-dea5def78120.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459703+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3344dc2d1b56a2c8cd1a3b45285e38f9a996a70352c6f4d6311e87294d4f768d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321274 fashion ai-image-prompts mskmdesi517 indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, a poised woman wearing emerald green banarasi saree with a fully covering boat-neck blouse, no dupatta and no pallu, crossing a marble floor in a beachside evening venue, candlelight reflections, photorealistic fashion editorial, 50mm lens, natural perspective, elegant fashion editorial, tasteful adult full-body or three-quarter framing, lifelike skin texture, anatomically correct hands, intricate textile detail, flowing garment motion, detailed venue depth, soft ambient shadows, crisp focus, refined color grading, ultra-detailed. set against low viewpoint toward jagged peaks of a rugged rocky mountain range, featuring jagged peaks and sharp ridges, cracked stone ledges, clear dry mountain air, and cool overcast mountain light; photorealistic location photography with believable scale. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321274",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2eead269-7cfd-4467-93cb-dea5def78120/original=true/2eead269-7cfd-4467-93cb-dea5def78120.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321237",
+      "title": "Civitai prompt 149321237",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (seated gracefully, erect spine, relaxed posture, fabric pooling naturally, direct front-facing camera angle, symmetrical perspective, knee-level medium shot, framing from lower legs to head:1.2), of an elegant Indian woman, petite body, small frame, short stature, delicate proportions, slender limbs, wearing a (cream Chanderi cotton saree normal:1.2) with traditional mango motifs with a decorative border, (elbow-sleeve Maggam work blouse:1.1), traditional medium Kundan necklace set, matching teardrop Jhumkas, stacked broad gold bangles, small maang tikka, serene neutral expression, looking at camera, (softly backcombed vintage-inspired low roll chignon:1.1), (seamless continuous saree pallu draped cleanly across torso and flowing smoothly over left shoulder:1.4), (traditional drape, traditional fit, neat folds, clean weave texture, everyday elegance:1.3), (pristine unbroken fabric border, sleek fluid body-con drape folds, authentic traditional Indian drape physics:1.3), masterpiece Indian fashion photography, photorealistic 8k, highly detailed, sharp focus. set against waterfall flowing into a deep blue pool with smooth stones, clear water background, ultra detailed, 8k",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321237",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92b6b6f5-100e-4be5-b640-972f886135dd/original=true/92b6b6f5-100e-4be5-b640-972f886135dd.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459715+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8886499bc8376fa690291540eefd031d2a00b221d4aa08aee6ce9f5579ec7b2c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321237 fashion ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (seated gracefully, erect spine, relaxed posture, fabric pooling naturally, direct front-facing camera angle, symmetrical perspective, knee-level medium shot, framing from lower legs to head:1.2), of an elegant indian woman, petite body, small frame, short stature, delicate proportions, slender limbs, wearing a (cream chanderi cotton saree normal:1.2) with traditional mango motifs with a decorative border, (elbow-sleeve maggam work blouse:1.1), traditional medium kundan necklace set, matching teardrop jhumkas, stacked broad gold bangles, small maang tikka, serene neutral expression, looking at camera, (softly backcombed vintage-inspired low roll chignon:1.1), (seamless continuous saree pallu draped cleanly across torso and flowing smoothly over left shoulder:1.4), (traditional drape, traditional fit, neat folds, clean weave texture, everyday elegance:1.3), (pristine unbroken fabric border, sleek fluid body-con drape folds, authentic traditional indian drape physics:1.3), masterpiece indian fashion photography, photorealistic 8k, highly detailed, sharp focus. set against waterfall flowing into a deep blue pool with smooth stones, clear water background, ultra detailed, 8k civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321237",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92b6b6f5-100e-4be5-b640-972f886135dd/original=true/92b6b6f5-100e-4be5-b640-972f886135dd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321235",
+      "title": "Civitai prompt 149321235",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,(single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (standing upright, elegant poise, balanced weight distribution, direct front-facing camera angle, symmetrical perspective, waist-up medium shot, framing from waist to head, focused on blouse detailing:1.2), of an elegant Indian woman, average body shape, natural proportions, moderate waist, balanced figure, realistic physique, wearing a (golden yellow Mysore silk saree normal:1.2) with traditional silk motifs with a lightly embellished pallu, (full-sleeve Zardosi bridal blouse:1.1), embossed Lakshmi motif gold choker, intricate gold Jhumkas, classic temple hair ornaments, solid gold kada bangles, gentle warm smile, calm expression, (sleek high-gloss middle-parted sleek hair twist:1.1), (seamless continuous saree pallu draped cleanly across torso and flowing smoothly over left shoulder:1.4), (traditional drape, traditional fit, neat folds, clean weave texture, everyday elegance:1.3), (pristine unbroken fabric border, sleek fluid body-con drape folds, authentic traditional Indian drape physics:1.3), masterpiece Indian fashion photography, photorealistic 8k, highly detailed, sharp focus. set against waterfall in a tropical rainforest at golden hour, warm light and mist, lush paradise background, high detail, 8k",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321235",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53f37515-e3ab-44e2-a44f-cf6942b7c2a2/original=true/53f37515-e3ab-44e2-a44f-cf6942b7c2a2.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459727+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "94ab312394c9b13eaf5691c285dbf24c8abc3d27666bcc4fcb3852c440c0741d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321235 fashion ai-image-prompts mskmdesi517 indian woman ,(single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, , ,(photorealistic subject:1.2), clearly defined face, hands and feet, sharp anatomical detail,realistic human anatomy, (standing upright, elegant poise, balanced weight distribution, direct front-facing camera angle, symmetrical perspective, waist-up medium shot, framing from waist to head, focused on blouse detailing:1.2), of an elegant indian woman, average body shape, natural proportions, moderate waist, balanced figure, realistic physique, wearing a (golden yellow mysore silk saree normal:1.2) with traditional silk motifs with a lightly embellished pallu, (full-sleeve zardosi bridal blouse:1.1), embossed lakshmi motif gold choker, intricate gold jhumkas, classic temple hair ornaments, solid gold kada bangles, gentle warm smile, calm expression, (sleek high-gloss middle-parted sleek hair twist:1.1), (seamless continuous saree pallu draped cleanly across torso and flowing smoothly over left shoulder:1.4), (traditional drape, traditional fit, neat folds, clean weave texture, everyday elegance:1.3), (pristine unbroken fabric border, sleek fluid body-con drape folds, authentic traditional indian drape physics:1.3), masterpiece indian fashion photography, photorealistic 8k, highly detailed, sharp focus. set against waterfall in a tropical rainforest at golden hour, warm light and mist, lush paradise background, high detail, 8k civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321235",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53f37515-e3ab-44e2-a44f-cf6942b7c2a2/original=true/53f37515-e3ab-44e2-a44f-cf6942b7c2a2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321224",
+      "title": "Civitai prompt 149321224",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "mskmdesi517 Indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional DSLR photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, woman wearing a wine-red lehenga choli, standing beside a large rain-covered window, blurred city lights outside, raindrops on glass, warm interior lighting, detailed gold embroidery, elegant side profile, reflective mood, luxury fashion portrait, cinematic contrast, realistic skin and fabric texture, shallow depth of field. set against Leading lines of waves toward the horizon of a tropical sandy beach, featuring gentle waves curling onto shore, wet reflective shoreline sand, gentle waves under clear skies, and warm sunrise light; rich depth of field with the location remaining clearly readable.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321224",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1640d32-7f9b-4fac-9bc5-09f7a5205e4d/original=true/a1640d32-7f9b-4fac-9bc5-09f7a5205e4d.jpeg",
+      "model": "juggernautXL_ragnarokBy",
+      "model_version_ids": [],
+      "width": 4608,
+      "height": 3392,
+      "seed": 856318774195683,
+      "negative_prompt": "(head cut off:1.3), (fused fingers:1.5), (bad anatomy:1.2), (mutated hands and fingers:1.5),(smooth skin:1.4), (worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), (blurry:1.2), (bad fingers:1.3), (painting, drawing, sketch, cartoon, anime, render, 3d, cgi:1.4), (plastic skin:1.2), (oversaturated:1.2), (white border:1.2), (text:1.2), (watermark:1.4) (text:1.4), logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459736+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cae030f9b6c84b7707fabd0896000a6496162d8b12f844cac98deeef9c71a2bc",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149321224 architecture ai-image-prompts mskmdesi517 indian woman ,knee-level shot, cowboy shot, framed from mid-thigh up, 50mm lens, eye-level angle (single subject in frame:1.2),wide-angle photography, (professional dslr photography, realistic skin texture, realistic facial features,sharp focus on fabric texture, highly detailed:1.2), red bindi on forehead, ,three-quarter portrait of , (photorealistic subject:1.2) clearly defined hands and feet, sharp anatomical detail,realistic human anatomy, woman wearing a wine-red lehenga choli, standing beside a large rain-covered window, blurred city lights outside, raindrops on glass, warm interior lighting, detailed gold embroidery, elegant side profile, reflective mood, luxury fashion portrait, cinematic contrast, realistic skin and fabric texture, shallow depth of field. set against leading lines of waves toward the horizon of a tropical sandy beach, featuring gentle waves curling onto shore, wet reflective shoreline sand, gentle waves under clear skies, and warm sunrise light; rich depth of field with the location remaining clearly readable. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321224",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1640d32-7f9b-4fac-9bc5-09f7a5205e4d/original=true/a1640d32-7f9b-4fac-9bc5-09f7a5205e4d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149321317",
+      "title": "Civitai prompt 149321317",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Award-winning cinematic still, melancholic tranquility in a futuristic city at twilight. A solitary woman with a thoughtful expression stands on a high balcony, her back to the viewer, gazing at the endless neon-drenched urban landscape. Soft rain blurs the neon signs (muted teal, deep violet, and gold color palette). The scene is a blend of organic solitude and sprawling, silent megastructures. Moody, volumetric lighting, shallow depth of field, capturing a moment of profound peace and introspection. Shot on 35mm film, grain,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149321317",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a7aa830-d96b-454b-b401-611e2f007150/original=true/9a7aa830-d96b-454b-b401-611e2f007150.jpeg",
+      "model_version_ids": [],
+      "width": 880,
+      "height": 1184,
+      "seed": 4090,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact,\nblurry, low quality, distorted, extra limbs, deformed, plastic look, oversaturated, sketch",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459744+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "565fd91aaeed03b0cf058f183e8e416f393e320acd7182f3240af4cb07d898de",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149321317 photography ai-image-prompts award-winning cinematic still, melancholic tranquility in a futuristic city at twilight. a solitary woman with a thoughtful expression stands on a high balcony, her back to the viewer, gazing at the endless neon-drenched urban landscape. soft rain blurs the neon signs (muted teal, deep violet, and gold color palette). the scene is a blend of organic solitude and sprawling, silent megastructures. moody, volumetric lighting, shallow depth of field, capturing a moment of profound peace and introspection. shot on 35mm film, grain, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149321317",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a7aa830-d96b-454b-b401-611e2f007150/original=true/9a7aa830-d96b-454b-b401-611e2f007150.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149320832",
+      "title": "Civitai prompt 149320832",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Breathtaking cinematic masterpiece, a beautiful warrior-herald of hope stands at the edge of a floating crystalline forest, her hands gently cradling a nascent star. The fantasy world around her is reborn: shattered amber skies reforming, bioluminescent flora blooming underfoot, light particles weaving through the air. Her expression is one of serene awe and determination. Cinematic color palette of luminous golds, vibrant emeralds, and ethereal violets. Shot with an anamorphic lens, god rays piercing through colossal leaves, hyper-detailed, awe-inspiring, a moment of genesis.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149320832",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/482726b5-4571-4e6c-99ca-8566d5880695/original=true/482726b5-4571-4e6c-99ca-8566d5880695.jpeg",
+      "model_version_ids": [],
+      "width": 880,
+      "height": 1184,
+      "seed": 3812,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact,\nblurry, low quality, distorted, extra limbs, deformed, plastic look, oversaturated, sketch",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T12:03:55.459751+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "904d524aab26361db3216d49dd073c9a92044328ca8dddbdabb03f489b489494",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149320832 photography ai-image-prompts breathtaking cinematic masterpiece, a beautiful warrior-herald of hope stands at the edge of a floating crystalline forest, her hands gently cradling a nascent star. the fantasy world around her is reborn: shattered amber skies reforming, bioluminescent flora blooming underfoot, light particles weaving through the air. her expression is one of serene awe and determination. cinematic color palette of luminous golds, vibrant emeralds, and ethereal violets. shot with an anamorphic lens, god rays piercing through colossal leaves, hyper-detailed, awe-inspiring, a moment of genesis. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149320832",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/482726b5-4571-4e6c-99ca-8566d5880695/original=true/482726b5-4571-4e6c-99ca-8566d5880695.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-16T23:45:17.331007+00:00",
-  "prompt_count": 2972,
+  "generated_at": "2026-11-17T12:04:00.908444+00:00",
+  "prompt_count": 3008,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 2933,
-    "failed_count": 39,
-    "updated_at": "2026-11-16T23:45:16Z"
+    "failed_count": 75,
+    "updated_at": "2026-11-17T12:04:00Z"
   }
 }
