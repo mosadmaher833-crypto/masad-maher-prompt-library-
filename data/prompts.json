@@ -137357,15 +137357,941 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/482726b5-4571-4e6c-99ca-8566d5880695/original=true/482726b5-4571-4e6c-99ca-8566d5880695.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149371499",
+      "title": "Civitai prompt 149371499",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A high-fashion avant-garde studio portrait featuring a woman with porcelain-white skin and a massive, architectural black bob hairstyle. The composition is a stark, monochromatic study in texture and contrast, focusing on the sharp geometry of the hair against soft, pale skin and dark boucl  fabric\",\"compositional_deconstruction\":{\"background\":\"A void-like, matte black studio backdrop with zero light reflection, providing an infinite depth that makes the subject's pale skin and textured black garments pop with high-contrast intensity\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,1000,587],\"desc\":\"An oversized, architectural bob wig made of dense, synthetic black fibers with a high-sheen finish. The heavy fringe is cut in a precise, straight horizontal line that completely obscures the eyes. The left side is keyed with a cool white light, revealing individual strand textures, while the right side fades into deep shadow\"},{\"type\":\"obj\",\"bbox\":[164,493,862,905],\"desc\":\"The face and shoulder of a woman with an East Asian phenotype and alabaster, powder-white skin. Her head is turned away in a three-quarter profile. Her lips are painted a muted, matte crimson with a slight smudge at the corner. A soft top-down key light illuminates the bridge of her nose and the curve of her shoulder\"},{\"type\":\"obj\",\"bbox\":[0,0,1000,1000],\"desc\":\"A heavy, sculptural garment made of thick, black boucl  wool with a knobby, nubby texture. The fabric drapes over the shoulders and head, blending seamlessly into the black background. The coarse loops of the wool catch the side-lighting, creating a rhythmic pattern of highlights and micro-shadows across the surface\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371499",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57b58a2b-d4ce-4e12-b910-63eac758db5e/original=true/57b58a2b-d4ce-4e12-b910-63eac758db5e.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216868+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ade933cc78f056dfb7608f4fa2ea95a19c3dd0ce6b55a6a3e1a8cf450480de6f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149371499 fashion ai-image-prompts {\"high_level_description\":\"a high-fashion avant-garde studio portrait featuring a woman with porcelain-white skin and a massive, architectural black bob hairstyle. the composition is a stark, monochromatic study in texture and contrast, focusing on the sharp geometry of the hair against soft, pale skin and dark boucl fabric\",\"compositional_deconstruction\":{\"background\":\"a void-like, matte black studio backdrop with zero light reflection, providing an infinite depth that makes the subject's pale skin and textured black garments pop with high-contrast intensity\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,1000,587],\"desc\":\"an oversized, architectural bob wig made of dense, synthetic black fibers with a high-sheen finish. the heavy fringe is cut in a precise, straight horizontal line that completely obscures the eyes. the left side is keyed with a cool white light, revealing individual strand textures, while the right side fades into deep shadow\"},{\"type\":\"obj\",\"bbox\":[164,493,862,905],\"desc\":\"the face and shoulder of a woman with an east asian phenotype and alabaster, powder-white skin. her head is turned away in a three-quarter profile. her lips are painted a muted, matte crimson with a slight smudge at the corner. a soft top-down key light illuminates the bridge of her nose and the curve of her shoulder\"},{\"type\":\"obj\",\"bbox\":[0,0,1000,1000],\"desc\":\"a heavy, sculptural garment made of thick, black boucl wool with a knobby, nubby texture. the fabric drapes over the shoulders and head, blending seamlessly into the black background. the coarse loops of the wool catch the side-lighting, creating a rhythmic pattern of highlights and micro-shadows across the surface\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371499",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/57b58a2b-d4ce-4e12-b910-63eac758db5e/original=true/57b58a2b-d4ce-4e12-b910-63eac758db5e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371498",
+      "title": "Civitai prompt 149371498",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A high-fashion studio portrait featuring a woman with a sharp, oversized black bob haircut that obscures her eyes, emphasizing her deep crimson matte lips against pale skin, set against a solid dark burgundy backdrop\",\"compositional_deconstruction\":{\"background\":\"Primary background is a seamless, solid dark burgundy studio wall with a smooth, matte finish. Lighting is a soft, top-down clinical white key light that creates a subtle gradient from a brighter center to deep vignetted corners, casting a sharp horizontal shadow under the hair's edge\",\"elements\":[{\"type\":\"obj\",\"bbox\":[35,14,940,662],\"desc\":\"An architectural, jet-black bob wig with a mirror-like sheen. The hair is cut into a perfectly straight, thick fringe that reaches the bridge of the nose, hiding the eyes. The sides curve inward to frame the jawline, reflecting cold white highlights from the overhead key light\"},{\"type\":\"obj\",\"bbox\":[0,498,1000,1000],\"desc\":\"A woman with porcelain skin, positioned centrally. Her head is tilted slightly upward, exposing a defined jawline and slender neck. Her lips are painted in a rich, velvety dark red matte lipstick with a crisp cupid's bow. A subtle shadow falls across the bridge of her nose from the heavy bangs\"},{\"type\":\"obj\",\"bbox\":[0,885,106,1000],\"desc\":\"Shoulder of a black fabric garment, likely a minimalist silk dress, visible at the bottom left edge. The fabric is deep black and non-reflective, disappearing into the shadows of the lower frame, keyed softly by the ambient red spill from the background\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371498",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3f2cf1c-5e10-484b-ad2f-e78b215d6cd6/original=true/f3f2cf1c-5e10-484b-ad2f-e78b215d6cd6.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216910+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "822fa67c29a7cd91d8b2d9d5724fd93774c36f13b1224140cea0716d43b9a075",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149371498 fashion ai-image-prompts {\"high_level_description\":\"a high-fashion studio portrait featuring a woman with a sharp, oversized black bob haircut that obscures her eyes, emphasizing her deep crimson matte lips against pale skin, set against a solid dark burgundy backdrop\",\"compositional_deconstruction\":{\"background\":\"primary background is a seamless, solid dark burgundy studio wall with a smooth, matte finish. lighting is a soft, top-down clinical white key light that creates a subtle gradient from a brighter center to deep vignetted corners, casting a sharp horizontal shadow under the hair's edge\",\"elements\":[{\"type\":\"obj\",\"bbox\":[35,14,940,662],\"desc\":\"an architectural, jet-black bob wig with a mirror-like sheen. the hair is cut into a perfectly straight, thick fringe that reaches the bridge of the nose, hiding the eyes. the sides curve inward to frame the jawline, reflecting cold white highlights from the overhead key light\"},{\"type\":\"obj\",\"bbox\":[0,498,1000,1000],\"desc\":\"a woman with porcelain skin, positioned centrally. her head is tilted slightly upward, exposing a defined jawline and slender neck. her lips are painted in a rich, velvety dark red matte lipstick with a crisp cupid's bow. a subtle shadow falls across the bridge of her nose from the heavy bangs\"},{\"type\":\"obj\",\"bbox\":[0,885,106,1000],\"desc\":\"shoulder of a black fabric garment, likely a minimalist silk dress, visible at the bottom left edge. the fabric is deep black and non-reflective, disappearing into the shadows of the lower frame, keyed softly by the ambient red spill from the background\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371498",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3f2cf1c-5e10-484b-ad2f-e78b215d6cd6/original=true/f3f2cf1c-5e10-484b-ad2f-e78b215d6cd6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371497",
+      "title": "Civitai prompt 149371497",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A cinematic, high-detail portrait of a young Scottish woman holding bagpipes in the misty Highlands. Her wild, auburn hair is wind-tossed against a backdrop of brooding, overcast mountains, capturing a mood of rugged heritage and ethereal, natural beauty\",\"compositional_deconstruction\":{\"background\":\"A vast, desolate Scottish Highland landscape under a heavy, charcoal-grey overcast sky. Steep, emerald-green mountain slopes rise into low-hanging clouds, creating a soft, diffused top-down key light. The ground is covered in damp, golden-brown moorland grass and heather\",\"elements\":[{\"type\":\"obj\",\"bbox\":[175,227,852,988],\"desc\":\"A young woman of Celtic descent with fair skin, freckles, and intense green eyes gazing directly at the viewer. Her long, messy, dark auburn waves are damp from mist. She wears a cream-colored, puffy-sleeved linen blouse with intricate lace trim and a heavy, pleated wool skirt in a muted brown and charcoal tartan\"},{\"type\":\"obj\",\"bbox\":[321,348,852,792],\"desc\":\"Handcrafted wooden bagpipes held across the woman's chest. The dark, polished cherrywood drones and chanter show subtle wear and grain texture, reflecting the cool, flat skylight on their upper surfaces. A heavy, frayed woolen tartan cover in dark earth tones is draped over the bag, appearing damp and weighted\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371497",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29e55f1d-7f85-4849-b6cc-c5b8d8eead15/original=true/29e55f1d-7f85-4849-b6cc-c5b8d8eead15.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216927+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b0fb4c42c3f2e081f5766dcf65f1573d0b75144f764b2e8746881a90e940e1ee",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149371497 photography ai-image-prompts {\"high_level_description\":\"a cinematic, high-detail portrait of a young scottish woman holding bagpipes in the misty highlands. her wild, auburn hair is wind-tossed against a backdrop of brooding, overcast mountains, capturing a mood of rugged heritage and ethereal, natural beauty\",\"compositional_deconstruction\":{\"background\":\"a vast, desolate scottish highland landscape under a heavy, charcoal-grey overcast sky. steep, emerald-green mountain slopes rise into low-hanging clouds, creating a soft, diffused top-down key light. the ground is covered in damp, golden-brown moorland grass and heather\",\"elements\":[{\"type\":\"obj\",\"bbox\":[175,227,852,988],\"desc\":\"a young woman of celtic descent with fair skin, freckles, and intense green eyes gazing directly at the viewer. her long, messy, dark auburn waves are damp from mist. she wears a cream-colored, puffy-sleeved linen blouse with intricate lace trim and a heavy, pleated wool skirt in a muted brown and charcoal tartan\"},{\"type\":\"obj\",\"bbox\":[321,348,852,792],\"desc\":\"handcrafted wooden bagpipes held across the woman's chest. the dark, polished cherrywood drones and chanter show subtle wear and grain texture, reflecting the cool, flat skylight on their upper surfaces. a heavy, frayed woolen tartan cover in dark earth tones is draped over the bag, appearing damp and weighted\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371497",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29e55f1d-7f85-4849-b6cc-c5b8d8eead15/original=true/29e55f1d-7f85-4849-b6cc-c5b8d8eead15.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371496",
+      "title": "Civitai prompt 149371496",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A cinematic, high-contrast portrait of a young woman in a sun-drenched room, balancing a glass wine bottle on her head. The scene uses warm, late-afternoon light to create a meditative, atmospheric mood with long, graphic shadows casting tree-branch patterns against the wall\",\"compositional_deconstruction\":{\"background\":\"A minimalist interior with a lime-washed beige wall and a dark wooden floor. The primary background wall is hit by sharp, slanted golden-hour light from a high-left window, creating intricate, dark umber shadows of leafless tree branches that stretch across the left side of the frame\",\"elements\":[{\"type\":\"obj\",\"bbox\":[463,47,541,275],\"desc\":\"A green-tinted glass wine bottle filled with translucent gold liquid, balanced vertically on the woman's crown. A small, aged paper residue remains near the base. The bottle acts as a lens, catching the golden key light on its left side and projecting a bright, caustic amber glow onto the woman's forehead\"},{\"type\":\"obj\",\"bbox\":[162,269,1000,1000],\"desc\":\"A young East Asian woman with long, wavy dark brown hair, eyes closed in a serene expression. She wears a mustard-yellow ribbed turtleneck sweater and a high-waisted orange plaid wool skirt. Her arms are raised, hands lightly touching the back of her head. Bright light keys her right side, while her left side falls into soft, warm shadow\"},{\"type\":\"obj\",\"bbox\":[223,490,762,986],\"desc\":\"A vintage dark-stained bentwood chair with a rounded backrest. The smooth, polished wood reflects the warm ambient light with a soft sheen. The vertical slats of the chair back create a rhythmic frame behind the woman, with the left side catching a sharp golden rim light and the right side receding into deep shadow\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371496",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42eec00c-714b-4078-b92c-7d5c686694b8/original=true/42eec00c-714b-4078-b92c-7d5c686694b8.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216944+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cdf32e9a62f97775e489594cd004b14a01501849e1adc9c3cbb2b33bf9987a35",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149371496 advertising ai-image-prompts {\"high_level_description\":\"a cinematic, high-contrast portrait of a young woman in a sun-drenched room, balancing a glass wine bottle on her head. the scene uses warm, late-afternoon light to create a meditative, atmospheric mood with long, graphic shadows casting tree-branch patterns against the wall\",\"compositional_deconstruction\":{\"background\":\"a minimalist interior with a lime-washed beige wall and a dark wooden floor. the primary background wall is hit by sharp, slanted golden-hour light from a high-left window, creating intricate, dark umber shadows of leafless tree branches that stretch across the left side of the frame\",\"elements\":[{\"type\":\"obj\",\"bbox\":[463,47,541,275],\"desc\":\"a green-tinted glass wine bottle filled with translucent gold liquid, balanced vertically on the woman's crown. a small, aged paper residue remains near the base. the bottle acts as a lens, catching the golden key light on its left side and projecting a bright, caustic amber glow onto the woman's forehead\"},{\"type\":\"obj\",\"bbox\":[162,269,1000,1000],\"desc\":\"a young east asian woman with long, wavy dark brown hair, eyes closed in a serene expression. she wears a mustard-yellow ribbed turtleneck sweater and a high-waisted orange plaid wool skirt. her arms are raised, hands lightly touching the back of her head. bright light keys her right side, while her left side falls into soft, warm shadow\"},{\"type\":\"obj\",\"bbox\":[223,490,762,986],\"desc\":\"a vintage dark-stained bentwood chair with a rounded backrest. the smooth, polished wood reflects the warm ambient light with a soft sheen. the vertical slats of the chair back create a rhythmic frame behind the woman, with the left side catching a sharp golden rim light and the right side receding into deep shadow\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371496",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42eec00c-714b-4078-b92c-7d5c686694b8/original=true/42eec00c-714b-4078-b92c-7d5c686694b8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371494",
+      "title": "Civitai prompt 149371494",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A moody, high-fashion editorial photograph of a young woman balancing a glass bottle of golden olive oil on her head, set against a stark, matte forest-green backdrop. The scene evokes a surreal, minimalist aesthetic with rich textures and dramatic chiaroscuro lighting\",\"compositional_deconstruction\":{\"background\":\"A flat, solid matte forest-green wall with a slight textured grain, absorbing light to create soft gradients. The floor is unseen, focusing entirely on the vertical plane which serves as a high-contrast foil for the subject's pale attire and the golden liquid\",\"elements\":[{\"type\":\"obj\",\"bbox\":[346,183,849,995],\"desc\":\"A young woman with an olive complexion, dark wavy shoulder-length hair, and a stoic expression sits facing forward. She wears a voluminous, tiered cream-colored cotton dress with a button-down bodice. Her right hand rests on her chin, while her left arm hangs over the back of a vintage wooden chair\"},{\"type\":\"obj\",\"bbox\":[476,12,558,206],\"desc\":\"A transparent rectangular glass bottle filled with viscous golden-yellow olive oil, balanced perfectly on the woman's head. The glass features sharp highlights from a high-angle key light, with the liquid refracting a warm glow. A simple wooden cork stopper seals the top\"},{\"type\":\"obj\",\"bbox\":[315,635,658,998],\"desc\":\"A vintage dark wood spindle-back chair with a visible vertical crack on the top rail (a story-fossil). The seat is upholstered in a faded floral tapestry fabric with muted red and green tones. The wood grain is highlighted by the cool-toned side light, contrasting with the warm shadows\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371494",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59afe4d4-c481-46f2-80da-c5b0c0a8ccd2/original=true/59afe4d4-c481-46f2-80da-c5b0c0a8ccd2.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216959+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0268a200ef5bfb2963c3715b4f26bc5959c3abca6430d36efb69953d49264b33",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 149371494 advertising ai-image-prompts {\"high_level_description\":\"a moody, high-fashion editorial photograph of a young woman balancing a glass bottle of golden olive oil on her head, set against a stark, matte forest-green backdrop. the scene evokes a surreal, minimalist aesthetic with rich textures and dramatic chiaroscuro lighting\",\"compositional_deconstruction\":{\"background\":\"a flat, solid matte forest-green wall with a slight textured grain, absorbing light to create soft gradients. the floor is unseen, focusing entirely on the vertical plane which serves as a high-contrast foil for the subject's pale attire and the golden liquid\",\"elements\":[{\"type\":\"obj\",\"bbox\":[346,183,849,995],\"desc\":\"a young woman with an olive complexion, dark wavy shoulder-length hair, and a stoic expression sits facing forward. she wears a voluminous, tiered cream-colored cotton dress with a button-down bodice. her right hand rests on her chin, while her left arm hangs over the back of a vintage wooden chair\"},{\"type\":\"obj\",\"bbox\":[476,12,558,206],\"desc\":\"a transparent rectangular glass bottle filled with viscous golden-yellow olive oil, balanced perfectly on the woman's head. the glass features sharp highlights from a high-angle key light, with the liquid refracting a warm glow. a simple wooden cork stopper seals the top\"},{\"type\":\"obj\",\"bbox\":[315,635,658,998],\"desc\":\"a vintage dark wood spindle-back chair with a visible vertical crack on the top rail (a story-fossil). the seat is upholstered in a faded floral tapestry fabric with muted red and green tones. the wood grain is highlighted by the cool-toned side light, contrasting with the warm shadows\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371494",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59afe4d4-c481-46f2-80da-c5b0c0a8ccd2/original=true/59afe4d4-c481-46f2-80da-c5b0c0a8ccd2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371491",
+      "title": "Civitai prompt 149371491",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Wan"
+      ],
+      "prompt": "{\"high_level_description\":\"A cinematic 35mm film still of a young woman in a tattered white gown wandering through a cold, mist-filled gothic ruin. Ethereal blue moonlight and warm flickering candlelight create a high-contrast atmosphere of mystery and romantic longing\",\"compositional_deconstruction\":{\"background\":\"A cavernous, dark stone hallway filled with swirling low-lying fog and hazy atmosphere. Deep blue moonlight spills from an unseen high window on the right, while the left side is grounded by the warm, blurred glow of ancient brass candelabras mounted to damp, shadowed walls\",\"elements\":[{\"type\":\"obj\",\"bbox\":[3,118,922,998],\"desc\":\"A Caucasian woman with long wavy blonde hair and a worried expression, her blue eyes fixed on an unseen light source to the upper left. She wears a voluminous, translucent white silk gown with a corseted bodice and off-the-shoulder sleeves. The blue moonlight rims her right side while warm candle spill highlights her left shoulder and face\"},{\"type\":\"obj\",\"bbox\":[233,154,352,234],\"desc\":\"Primary background element: An ornate brass candelabra mounted to the stone wall, emitting a soft, diffused golden glow. The flames are blurred into bokeh circles, casting a warm orange light onto the mist and the character's hair, contrasting sharply with the cold blue environment\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371491",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c95a0c80-f9c0-4dbf-a013-2a42516afa04/original=true/c95a0c80-f9c0-4dbf-a013-2a42516afa04.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 82,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216972+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6eb5ca4caaeb4ed7c924c51e6b87ba7e67ab6a491ffb93a5b45e0c727d84a0e8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Wan"
+      ],
+      "search_text": "civitai prompt 149371491 image ai-image-prompts {\"high_level_description\":\"a cinematic 35mm film still of a young woman in a tattered white gown wandering through a cold, mist-filled gothic ruin. ethereal blue moonlight and warm flickering candlelight create a high-contrast atmosphere of mystery and romantic longing\",\"compositional_deconstruction\":{\"background\":\"a cavernous, dark stone hallway filled with swirling low-lying fog and hazy atmosphere. deep blue moonlight spills from an unseen high window on the right, while the left side is grounded by the warm, blurred glow of ancient brass candelabras mounted to damp, shadowed walls\",\"elements\":[{\"type\":\"obj\",\"bbox\":[3,118,922,998],\"desc\":\"a caucasian woman with long wavy blonde hair and a worried expression, her blue eyes fixed on an unseen light source to the upper left. she wears a voluminous, translucent white silk gown with a corseted bodice and off-the-shoulder sleeves. the blue moonlight rims her right side while warm candle spill highlights her left shoulder and face\"},{\"type\":\"obj\",\"bbox\":[233,154,352,234],\"desc\":\"primary background element: an ornate brass candelabra mounted to the stone wall, emitting a soft, diffused golden glow. the flames are blurred into bokeh circles, casting a warm orange light onto the mist and the character's hair, contrasting sharply with the cold blue environment\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> civitai ai-image imported api wan wan",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371491",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c95a0c80-f9c0-4dbf-a013-2a42516afa04/original=true/c95a0c80-f9c0-4dbf-a013-2a42516afa04.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371490",
+      "title": "Civitai prompt 149371490",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"A cinematic 35mm film still of a young woman in an ethereal blue ballgown, standing within a dimly lit, vaulted gothic manor. Flickering candlelight from a background candelabra creates a warm contrast against a cool, misty blue atmospheric haze in the distance\",\"compositional_deconstruction\":{\"background\":\"Primary background is a dark, cavernous gothic interior featuring stone archways and a polished marble floor that catches soft reflections. Warm golden light emanates from a tall brass candelabra on the left, while a cold, hazy blue moonlight spills from an unseen courtyard on the right, creating a dual-tone atmosphere\",\"elements\":[{\"type\":\"obj\",\"bbox\":[4,124,1000,992],\"desc\":\"A Caucasian woman with long blonde hair and blue eyes, looking back over her shoulder with a focused expression. She wears a voluminous ice-blue satin gown with puffed sleeves and a sheer white lace high-neck collar. Her left side is keyed by warm candlelight, while her right side and hair catch a sharp, cool blue rim light\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371490",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bf2d178-9633-4f3a-a815-4aa325085407/original=true/5bf2d178-9633-4f3a-a815-4aa325085407.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 82,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.216983+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bd8fbd438758c7919c64f9f4dfa43cbfe2f1741c186dce65477f18f05c56df7e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371490 architecture ai-image-prompts {\"high_level_description\":\"a cinematic 35mm film still of a young woman in an ethereal blue ballgown, standing within a dimly lit, vaulted gothic manor. flickering candlelight from a background candelabra creates a warm contrast against a cool, misty blue atmospheric haze in the distance\",\"compositional_deconstruction\":{\"background\":\"primary background is a dark, cavernous gothic interior featuring stone archways and a polished marble floor that catches soft reflections. warm golden light emanates from a tall brass candelabra on the left, while a cold, hazy blue moonlight spills from an unseen courtyard on the right, creating a dual-tone atmosphere\",\"elements\":[{\"type\":\"obj\",\"bbox\":[4,124,1000,992],\"desc\":\"a caucasian woman with long blonde hair and blue eyes, looking back over her shoulder with a focused expression. she wears a voluminous ice-blue satin gown with puffed sleeves and a sheer white lace high-neck collar. her left side is keyed by warm candlelight, while her right side and hair catch a sharp, cool blue rim light\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371490",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5bf2d178-9633-4f3a-a815-4aa325085407/original=true/5bf2d178-9633-4f3a-a815-4aa325085407.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149370694",
+      "title": "Civitai prompt 149370694",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A highly sophisticated, extremely polished hand-painted digital illustration for a Berlin travel postcard. The central element is the word BERLIN, spelled in six enormous, bold, clearly readable uppercase letters: B E R L I N.\n\nEach letter is a large, solid, three-dimensional typographic structure with no closed counters containing one anthropomorphic male animal character INSIDE the letter. The animals are integrated into the letter shapes, using the interior space of each letter as their environment. They are not standing in front of the letters, beside them or replacing them. Each letter must remain clearly recognizable and legible as part of the word BERLIN.\n\nB – BEAR: The average Berlin guy. An anthropomorphic brown bear in his late 30s or 40s, casual, slightly grumpy, relaxed and effortlessly cool. Practical jacket, casual trousers, sneakers, perhaps holding a coffee cup. Slightly slouched, don't-care attitude.\n\nE – ELK: The businessman. A tall, elegant male elk with impressive antlers, wearing a well-tailored business suit, crisp shirt and leather shoes. Carrying a briefcase or checking his wristwatch. Upright, confident, slightly self-important.\n\nR – RACCOON: The skater. A young mischievous male raccoon wearing an oversized hoodie, baggy trousers, beanie and skate shoes. Holding a skateboard or performing a skating pose. Cheeky, relaxed, rebellious.\n\nL – LION: The Rastafarian. A charismatic male lion with a magnificent mane styled with long dreadlocks. Colourful knitted Rasta hat, relaxed bohemian streetwear, subtle red, yellow and green accessories. Peaceful, confident and charismatic.\n\nI – IRISH WOLFHOUND: The old gentleman. An elderly male Irish Wolfhound with grey wiry fur, long muzzle and wise expressive eyes. Tweed coat, waistcoat, scarf, perhaps flat cap. Slightly hunched, holding a walking cane. Gentle, dignified and thoughtful.\n\nN – NUBIAN GOAT: The punk. A rebellious male Nubian goat with long floppy ears and curved horns. Worn black leather jacket covered in punk patches, studs and safety pins, ripped trousers, combat boots, spiked mohawk and piercings. Energetic, defiant posture.\n\nCOMPOSITION: The six letters are enormous and dominate the composition. They form one continuous, clearly readable horizontal word: BERLIN. Each character is carefully posed within the interior structure of their respective letter, interacting naturally with its architecture, curves and negative spaces. Every animal has a distinct silhouette, body language, personality, clothing and facial expression. All six characters are male, anatomically believable and richly detailed.\n\nBACKGROUND: A gritty, authentic Berlin street-art wall covered with layered graffiti, colourful spray-paint marks, torn gig posters, faded concert flyers, stickers and weathered wheat-pasted posters. Urban, alternative and full of character. Slightly distressed concrete texture. The background remains secondary and does not compete with the letters or characters. The backgrounds in the letters differ from the main background and from each other.\n\nART DIRECTION: Extremely polished hand-painted digital illustration, sophisticated high-end comic-book rendering, premium video-game concept art quality, realistic animal anatomy and convincing anthropomorphic proportions, crisp confident ink outlines, beautifully rendered fur and fabric textures, intricate clothing details, highly expressive nuanced facial expressions, cinematic lighting, rich but controlled colours, subtle atmospheric depth, masterful composition, exceptional attention to detail. Evoke gritty, colourful, character-driven contemporary AAA open-world video game promotional artwork, with cinematic urban atmosphere and sophisticated painterly finish.\n\nFINAL RESULT: A visually striking premium illustrated Berlin souvenir postcard. Playful, witty, rebellious and full of personality. A celebration of Berlin's cultural diversity, subcultures and everyday characters. Like a professionally commissioned illustration by a top-tier concept artist, not generic AI artwork.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149370694",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e58a3ad-21d2-4b2b-8cb9-44d04fa65cb8/original=true/3e58a3ad-21d2-4b2b-8cb9-44d04fa65cb8.jpeg",
+      "model_version_ids": [],
+      "width": 2496,
+      "height": 1400,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217034+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5e5ab2289900de8ada1d35a5b051c68d1ca1d4d991a3a57082a8513b708839d9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149370694 architecture ai-image-prompts a highly sophisticated, extremely polished hand-painted digital illustration for a berlin travel postcard. the central element is the word berlin, spelled in six enormous, bold, clearly readable uppercase letters: b e r l i n. each letter is a large, solid, three-dimensional typographic structure with no closed counters containing one anthropomorphic male animal character inside the letter. the animals are integrated into the letter shapes, using the interior space of each letter as their environment. they are not standing in front of the letters, beside them or replacing them. each letter must remain clearly recognizable and legible as part of the word berlin. b – bear: the average berlin guy. an anthropomorphic brown bear in his late 30s or 40s, casual, slightly grumpy, relaxed and effortlessly cool. practical jacket, casual trousers, sneakers, perhaps holding a coffee cup. slightly slouched, don't-care attitude. e – elk: the businessman. a tall, elegant male elk with impressive antlers, wearing a well-tailored business suit, crisp shirt and leather shoes. carrying a briefcase or checking his wristwatch. upright, confident, slightly self-important. r – raccoon: the skater. a young mischievous male raccoon wearing an oversized hoodie, baggy trousers, beanie and skate shoes. holding a skateboard or performing a skating pose. cheeky, relaxed, rebellious. l – lion: the rastafarian. a charismatic male lion with a magnificent mane styled with long dreadlocks. colourful knitted rasta hat, relaxed bohemian streetwear, subtle red, yellow and green accessories. peaceful, confident and charismatic. i – irish wolfhound: the old gentleman. an elderly male irish wolfhound with grey wiry fur, long muzzle and wise expressive eyes. tweed coat, waistcoat, scarf, perhaps flat cap. slightly hunched, holding a walking cane. gentle, dignified and thoughtful. n – nubian goat: the punk. a rebellious male nubian goat with long floppy ears and curved horns. worn black leather jacket covered in punk patches, studs and safety pins, ripped trousers, combat boots, spiked mohawk and piercings. energetic, defiant posture. composition: the six letters are enormous and dominate the composition. they form one continuous, clearly readable horizontal word: berlin. each character is carefully posed within the interior structure of their respective letter, interacting naturally with its architecture, curves and negative spaces. every animal has a distinct silhouette, body language, personality, clothing and facial expression. all six characters are male, anatomically believable and richly detailed. background: a gritty, authentic berlin street-art wall covered with layered graffiti, colourful spray-paint marks, torn gig posters, faded concert flyers, stickers and weathered wheat-pasted posters. urban, alternative and full of character. slightly distressed concrete texture. the background remains secondary and does not compete with the letters or characters. the backgrounds in the letters differ from the main background and from each other. art direction: extremely polished hand-painted digital illustration, sophisticated high-end comic-book rendering, premium video-game concept art quality, realistic animal anatomy and convincing anthropomorphic proportions, crisp confident ink outlines, beautifully rendered fur and fabric textures, intricate clothing details, highly expressive nuanced facial expressions, cinematic lighting, rich but controlled colours, subtle atmospheric depth, masterful composition, exceptional attention to detail. evoke gritty, colourful, character-driven contemporary aaa open-world video game promotional artwork, with cinematic urban atmosphere and sophisticated painterly finish. final result: a visually striking premium illustrated berlin souvenir postcard. playful, witty, rebellious and full of personality. a celebration of berlin's cultural diversity, subcultures and everyday characters. like a professionally commissioned illustration by a top-tier concept artist, not generic ai artwork. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149370694",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e58a3ad-21d2-4b2b-8cb9-44d04fa65cb8/original=true/3e58a3ad-21d2-4b2b-8cb9-44d04fa65cb8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371483",
+      "title": "Civitai prompt 149371483",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@mygo_style. Anime screenshot. An adult woman in her mid-twenties with wavy ash-blonde hair and soft blue eyes stands beside a portable keyboard stand on a quiet rooftop terrace at dusk, wearing a dark navy zip hoodie over a pale lavender shirt. Both hands rest lightly on the edge of the synthesizer casing as she turns her head over her shoulder toward the viewer with a calm, attentive look, wired monitor headphones resting around her neck. Medium close-up at eye level in three-quarter view, with coiled audio cables and a twilight skyline softly behind her. Soft, even evening light and warm patio bulb glow light her features smoothly. Muted navy, ash-blonde, and pastel lavender palette. No visible text.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371483",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e93c27f8-f268-49a1-b95e-8fe2e579ff8d/original=true/e93c27f8-f268-49a1-b95e-8fe2e579ff8d.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3477139
+      ],
+      "width": 1360,
+      "height": 768,
+      "seed": 2026111838,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact, photorealistic, real person, selfie, photograph, signature, artist name, extra fingers, fused fingers, missing fingers, extra hands, extra arms, malformed hands, child, loli, minor, school uniform, sailor collar, text, subtitles, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217044+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e98eedebbcf98a7bb64360dd381813ae7e49a321d05ca80ac2b063ce6800eb41",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371483 image ai-image-prompts @mygo_style. anime screenshot. an adult woman in her mid-twenties with wavy ash-blonde hair and soft blue eyes stands beside a portable keyboard stand on a quiet rooftop terrace at dusk, wearing a dark navy zip hoodie over a pale lavender shirt. both hands rest lightly on the edge of the synthesizer casing as she turns her head over her shoulder toward the viewer with a calm, attentive look, wired monitor headphones resting around her neck. medium close-up at eye level in three-quarter view, with coiled audio cables and a twilight skyline softly behind her. soft, even evening light and warm patio bulb glow light her features smoothly. muted navy, ash-blonde, and pastel lavender palette. no visible text. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371483",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e93c27f8-f268-49a1-b95e-8fe2e579ff8d/original=true/e93c27f8-f268-49a1-b95e-8fe2e579ff8d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371485",
+      "title": "Civitai prompt 149371485",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@mygo_style. Anime screenshot. An adult woman in her mid-twenties with shoulder-length dusty pink hair and calm grey-green eyes sits on a black hardshell flight case on a rooftop patio at dusk, wearing an oversized cream cardigan over a dark slate t-shirt and jeans. Her left hand frets the maple neck of a seafoam-green electric guitar resting across her knee while her right hand holds a guitar pick near the strings, looking toward the viewer with a gentle wry smile. Medium close-up at eye level in slight three-quarter view, framed against a concrete parapet and soft twilight clouds. Even warm string-light fill and soft dusk sky light her face and hair without harsh shadows. Muted cream, slate grey, and pastel seafoam-green tones. No visible text.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371485",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a8e3549-a445-4e25-825a-e96c9f3e6934/original=true/8a8e3549-a445-4e25-825a-e96c9f3e6934.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3477139
+      ],
+      "width": 1360,
+      "height": 768,
+      "seed": 2026111834,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact, photorealistic, real person, selfie, photograph, signature, artist name, extra fingers, fused fingers, missing fingers, extra hands, extra arms, malformed hands, child, loli, minor, school uniform, sailor collar, text, subtitles, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217054+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "03361bd7492abb2c2a2aa17ed78bd5557e9a98cc2eb56eac0388a2f78e063bb1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371485 image ai-image-prompts @mygo_style. anime screenshot. an adult woman in her mid-twenties with shoulder-length dusty pink hair and calm grey-green eyes sits on a black hardshell flight case on a rooftop patio at dusk, wearing an oversized cream cardigan over a dark slate t-shirt and jeans. her left hand frets the maple neck of a seafoam-green electric guitar resting across her knee while her right hand holds a guitar pick near the strings, looking toward the viewer with a gentle wry smile. medium close-up at eye level in slight three-quarter view, framed against a concrete parapet and soft twilight clouds. even warm string-light fill and soft dusk sky light her face and hair without harsh shadows. muted cream, slate grey, and pastel seafoam-green tones. no visible text. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371485",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a8e3549-a445-4e25-825a-e96c9f3e6934/original=true/8a8e3549-a445-4e25-825a-e96c9f3e6934.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371482",
+      "title": "Civitai prompt 149371482",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@mygo_style. Anime screenshot. An adult woman in her mid-twenties with long silver-blue hair and expressive amber eyes stands on an urban building rooftop at twilight, wearing an open charcoal trench coat over a fitted black knit top. Her right hand holds a vintage chrome vocal microphone on a stand while her left hand rests lightly against her collarbone, looking directly toward the camera with a quiet, intense expression as the evening breeze lifts her hair. Close-up from the chest up at eye level in frontal three-quarter view, with portable guitar amplifiers and out-of-focus city twilight behind her. Soft, even dusk skylight mixed with warm tungsten string lights along the rooftop railing illuminates her face cleanly. Muted slate-blue and charcoal palette with her warm amber eyes as the focal accent. No visible text.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371482",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b24a94d0-4049-4a11-84e3-b380252cd428/original=true/b24a94d0-4049-4a11-84e3-b380252cd428.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3477139
+      ],
+      "width": 1360,
+      "height": 768,
+      "seed": 2026111832,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact, photorealistic, real person, selfie, photograph, signature, artist name, extra fingers, fused fingers, missing fingers, extra hands, extra arms, malformed hands, child, loli, minor, school uniform, sailor collar, text, subtitles, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217064+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5d7d2da32dce2d09e475fe9caa0d3b8407938f817e43319a22a4a6d242007fca",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371482 architecture ai-image-prompts @mygo_style. anime screenshot. an adult woman in her mid-twenties with long silver-blue hair and expressive amber eyes stands on an urban building rooftop at twilight, wearing an open charcoal trench coat over a fitted black knit top. her right hand holds a vintage chrome vocal microphone on a stand while her left hand rests lightly against her collarbone, looking directly toward the camera with a quiet, intense expression as the evening breeze lifts her hair. close-up from the chest up at eye level in frontal three-quarter view, with portable guitar amplifiers and out-of-focus city twilight behind her. soft, even dusk skylight mixed with warm tungsten string lights along the rooftop railing illuminates her face cleanly. muted slate-blue and charcoal palette with her warm amber eyes as the focal accent. no visible text. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371482",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b24a94d0-4049-4a11-84e3-b380252cd428/original=true/b24a94d0-4049-4a11-84e3-b380252cd428.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371484",
+      "title": "Civitai prompt 149371484",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@mygo_style. Anime screenshot. An adult woman in her late twenties with long dark violet hair tied in a loose side braid and sharp golden-brown eyes leans back against a metal rooftop railing after band practice, wearing a tailored olive field jacket over a white ribbed tank top. Her right hand holds a pair of wooden drumsticks together while her left hand rests on the railing beside an unopened metal coffee tumbler, gazing sideways toward the camera with a composed expression. Close-up from the waist up at eye level in three-quarter view, with soft urban evening lights in the distance. Even overcast twilight and soft warm doorway light from the rooftop stairwell illuminate her face cleanly. Muted olive, dark violet, and cool dusk grey palette. No visible text.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371484",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08fec2ab-8ccd-4250-9bcc-7989b7ab897e/original=true/08fec2ab-8ccd-4250-9bcc-7989b7ab897e.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [
+        3409867,
+        3477139
+      ],
+      "width": 1360,
+      "height": 768,
+      "seed": 2026111835,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact, photorealistic, real person, selfie, photograph, signature, artist name, extra fingers, fused fingers, missing fingers, extra hands, extra arms, malformed hands, child, loli, minor, school uniform, sailor collar, text, subtitles, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217074+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0d0b244baa89effd696babce868d180d878ae922cbb84c9e5cb12c9cd1e0efd2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371484 image ai-image-prompts @mygo_style. anime screenshot. an adult woman in her late twenties with long dark violet hair tied in a loose side braid and sharp golden-brown eyes leans back against a metal rooftop railing after band practice, wearing a tailored olive field jacket over a white ribbed tank top. her right hand holds a pair of wooden drumsticks together while her left hand rests on the railing beside an unopened metal coffee tumbler, gazing sideways toward the camera with a composed expression. close-up from the waist up at eye level in three-quarter view, with soft urban evening lights in the distance. even overcast twilight and soft warm doorway light from the rooftop stairwell illuminate her face cleanly. muted olive, dark violet, and cool dusk grey palette. no visible text. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371484",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08fec2ab-8ccd-4250-9bcc-7989b7ab897e/original=true/08fec2ab-8ccd-4250-9bcc-7989b7ab897e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149370756",
+      "title": "Civitai prompt 149370756",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "strangedaal. An imaginative collage art composition fusing torn a biologyl illustration plates with cut fragments of vintage mechanical engravings, gears, and blueprint paper to form a surreal dog-machine hybrid.  Portions of the dogs body are constructed from aged sepia gear diagrams, strips of graph paper and old ledger pages \n Every piece shows authentic paper texture, visible tears, faint foxing stains, and layered paste shadows suggesting handcrafted assembly. \nThe background is warm ivory cardstock with subtle glue wrinkles. Palette blends sepia, brass, and muted sage green, evoking steampunk scrapbook artistry, tactile layered depth, asymmetrical composition, fine art mixed-media piece photographed in soft studio light. <lora:Strange Reverie Moss_000002500-bf16:1.3>",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149370756",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d345cb1-2861-4344-a5d7-a8d342b4f9f7/original=true/7d345cb1-2861-4344-a5d7-a8d342b4f9f7.jpeg",
+      "model_version_ids": [
+        3409867,
+        3414934,
+        3426757
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1300471064,
+      "negative_prompt": "<Prompt generated by Claude Sonnet 5 medium><Title: \"Botanical Machine Dreams\">\nNegative template: <Prompt generated by Claude Sonnet 5 medium><Title: \"Botanical Machine Dreams\">",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217083+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "97b0b6a8377dc3554d5d96da4fdeb86dbb52cd5ae2481ae88cf5532143b4bde6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149370756 image ai-image-prompts strangedaal. an imaginative collage art composition fusing torn a biologyl illustration plates with cut fragments of vintage mechanical engravings, gears, and blueprint paper to form a surreal dog-machine hybrid. portions of the dogs body are constructed from aged sepia gear diagrams, strips of graph paper and old ledger pages every piece shows authentic paper texture, visible tears, faint foxing stains, and layered paste shadows suggesting handcrafted assembly. the background is warm ivory cardstock with subtle glue wrinkles. palette blends sepia, brass, and muted sage green, evoking steampunk scrapbook artistry, tactile layered depth, asymmetrical composition, fine art mixed-media piece photographed in soft studio light. <lora:strange reverie moss_000002500-bf16:1.3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149370756",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d345cb1-2861-4344-a5d7-a8d342b4f9f7/original=true/7d345cb1-2861-4344-a5d7-a8d342b4f9f7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371390",
+      "title": "Civitai prompt 149371390",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"Cinematic monochrome fashion portrait of an East Asian woman in a fringed leather jacket, standing on a concrete staircase. High-contrast noir lighting emphasizes sharp textures and a defiant gaze amidst urban shadows\",\"compositional_deconstruction\":{\"background\":\"A stark concrete stairwell with brutalist gray walls and a diagonal metal handrail. Hard overhead light creates deep shadows on vertical risers. Faded scuffs on the bottom step and a slight crack in the upper wall suggest an aging public building\",\"elements\":[{\"type\":\"obj\",\"bbox\":[186,400,1000,721],\"desc\":\"East Asian woman with long, wind-swept black hair and a piercing gaze toward the camera. She wears a black fringed leather jacket with a belted waist and matching trousers. Top-down light highlights her cheekbones and the glossy leather texture, while her back and fringe fall into deep shadow\"}]}}",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371390",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29498585-f031-4231-8429-7d68b88c6aac/original=true/29498585-f031-4231-8429-7d68b88c6aac.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 1536,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217093+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4f483bba77dd1895b92cab1b30494c3c3c9bd0028190c1bf37a5d11efe3e1321",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371390 architecture ai-image-prompts {\"high_level_description\":\"cinematic monochrome fashion portrait of an east asian woman in a fringed leather jacket, standing on a concrete staircase. high-contrast noir lighting emphasizes sharp textures and a defiant gaze amidst urban shadows\",\"compositional_deconstruction\":{\"background\":\"a stark concrete stairwell with brutalist gray walls and a diagonal metal handrail. hard overhead light creates deep shadows on vertical risers. faded scuffs on the bottom step and a slight crack in the upper wall suggest an aging public building\",\"elements\":[{\"type\":\"obj\",\"bbox\":[186,400,1000,721],\"desc\":\"east asian woman with long, wind-swept black hair and a piercing gaze toward the camera. she wears a black fringed leather jacket with a belted waist and matching trousers. top-down light highlights her cheekbones and the glossy leather texture, while her back and fringe fall into deep shadow\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371390",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29498585-f031-4231-8429-7d68b88c6aac/original=true/29498585-f031-4231-8429-7d68b88c6aac.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371388",
+      "title": "Civitai prompt 149371388",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"Cinematic black and white fashion portrait of an East Asian woman standing in a harbor. She wears a voluminous, bi-color oversized jacket, posed against a backdrop of historic tall ships under an overcast, high-contrast sky. The mood is stoic, editorial, and melancholic\",\"compositional_deconstruction\":{\"background\":\"A maritime harbor plaza paved with weathered cobblestones under a vast, flat grey sky. In the mid-ground, a row of three square planters with manicured shrubs lines a concrete pier edge. The air is misty, diffusing the natural overhead light into a soft, shadowless gray\",\"elements\":[{\"type\":\"obj\",\"bbox\":[293,348,995,788],\"desc\":\"An East Asian woman with a sharp jawline and stoic expression, her dark hair wind-swept. She wears a structural puffer jacket with cream-white lapels and massive, gathered black nylon sleeves. Her gaze is fixed directly at the viewer. Soft overhead light defines her cheekbones while deep shadows nestle in the fabric folds\"},{\"type\":\"obj\",\"bbox\":[1,126,450,470],\"desc\":\"Primary background: A historic three-masted schooner docked in the distance. Its intricate rigging and tall masts are rendered in sharp silhouette against the pale sky. The white hull shows faint signs of salt-wear and weathered wood textures, catching a dim, diffused top-down glow\"},{\"type\":\"obj\",\"bbox\":[0,713,446,903],\"desc\":\"Secondary background: The towering masts and complex rope lines of another sailing vessel positioned on the right. The thin vertical lines create a rhythmic, geometric contrast against the soft clouds, with the dark wood of the masts absorbing the flat, low-contrast ambient light\"}]}}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371388",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96ae62c2-4c9d-49d0-b787-5e212bb2db8e/original=true/96ae62c2-4c9d-49d0-b787-5e212bb2db8e.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 1536,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217108+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "99fe3547ea74ef0f1a017f6d7772737dfe08511af9f5d5d9b40cce538e2ceadd",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149371388 fashion ai-image-prompts {\"high_level_description\":\"cinematic black and white fashion portrait of an east asian woman standing in a harbor. she wears a voluminous, bi-color oversized jacket, posed against a backdrop of historic tall ships under an overcast, high-contrast sky. the mood is stoic, editorial, and melancholic\",\"compositional_deconstruction\":{\"background\":\"a maritime harbor plaza paved with weathered cobblestones under a vast, flat grey sky. in the mid-ground, a row of three square planters with manicured shrubs lines a concrete pier edge. the air is misty, diffusing the natural overhead light into a soft, shadowless gray\",\"elements\":[{\"type\":\"obj\",\"bbox\":[293,348,995,788],\"desc\":\"an east asian woman with a sharp jawline and stoic expression, her dark hair wind-swept. she wears a structural puffer jacket with cream-white lapels and massive, gathered black nylon sleeves. her gaze is fixed directly at the viewer. soft overhead light defines her cheekbones while deep shadows nestle in the fabric folds\"},{\"type\":\"obj\",\"bbox\":[1,126,450,470],\"desc\":\"primary background: a historic three-masted schooner docked in the distance. its intricate rigging and tall masts are rendered in sharp silhouette against the pale sky. the white hull shows faint signs of salt-wear and weathered wood textures, catching a dim, diffused top-down glow\"},{\"type\":\"obj\",\"bbox\":[0,713,446,903],\"desc\":\"secondary background: the towering masts and complex rope lines of another sailing vessel positioned on the right. the thin vertical lines create a rhythmic, geometric contrast against the soft clouds, with the dark wood of the masts absorbing the flat, low-contrast ambient light\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371388",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/96ae62c2-4c9d-49d0-b787-5e212bb2db8e/original=true/96ae62c2-4c9d-49d0-b787-5e212bb2db8e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371387",
+      "title": "Civitai prompt 149371387",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"Cinematic black-and-white fashion photography of a graceful East Asian woman standing by a serene lake. Dappled sunlight filters through overhead branches, creating a high-contrast play of light and shadow across her intricate lace dress and the rocky shoreline\",\"compositional_deconstruction\":{\"background\":\"A sun-drenched lakeside park under a canopy of dense, leafy trees. The ground is a mix of coarse pebbles and large, weathered gray rocks. The lake surface reflects the bright sky and overhanging foliage with soft, shimmering ripples. The lighting is dominated by high-noon sun filtering through leaves, creating bright specular highlights on the water\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,500,1000],\"desc\":\"Primary background canopy of dense deciduous leaves, creating a screen of textured foliage. Harsh sunlight hits the upper surfaces of the leaves, while the undersides remain in deep shadow, casting complex, jittery patterns of light across the ground and the central figure\"},{\"type\":\"obj\",\"bbox\":[138,306,958,635],\"desc\":\"An East Asian woman in her late 20s with long, dark hair. She wears an intricate, knee-length lace dress with a deep V-neck and long sleeves. She leans forward slightly, one hand tucked behind her back and the other near her neck. Dappled sunlight keys her face and the lace texture, while high-contrast shadows define her form\"},{\"type\":\"obj\",\"bbox\":[850,420,960,630],\"desc\":\"A pair of pointed-toe slingback kitten heels made of dark, polished leather with a decorative metallic buckle on the toe. The shoes rest on the uneven, rocky terrain, catching sharp glints of overhead sunlight on their reflective surfaces and hardware\"}]}}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371387",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a80b6fa-2025-4baf-a46f-5c189cbf8eca/original=true/5a80b6fa-2025-4baf-a46f-5c189cbf8eca.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 1536,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217123+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6f5a24346a0ef620f1ec792f10c721d555e9a23a1a43bc638890051acc63a26f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149371387 fashion ai-image-prompts {\"high_level_description\":\"cinematic black-and-white fashion photography of a graceful east asian woman standing by a serene lake. dappled sunlight filters through overhead branches, creating a high-contrast play of light and shadow across her intricate lace dress and the rocky shoreline\",\"compositional_deconstruction\":{\"background\":\"a sun-drenched lakeside park under a canopy of dense, leafy trees. the ground is a mix of coarse pebbles and large, weathered gray rocks. the lake surface reflects the bright sky and overhanging foliage with soft, shimmering ripples. the lighting is dominated by high-noon sun filtering through leaves, creating bright specular highlights on the water\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,500,1000],\"desc\":\"primary background canopy of dense deciduous leaves, creating a screen of textured foliage. harsh sunlight hits the upper surfaces of the leaves, while the undersides remain in deep shadow, casting complex, jittery patterns of light across the ground and the central figure\"},{\"type\":\"obj\",\"bbox\":[138,306,958,635],\"desc\":\"an east asian woman in her late 20s with long, dark hair. she wears an intricate, knee-length lace dress with a deep v-neck and long sleeves. she leans forward slightly, one hand tucked behind her back and the other near her neck. dappled sunlight keys her face and the lace texture, while high-contrast shadows define her form\"},{\"type\":\"obj\",\"bbox\":[850,420,960,630],\"desc\":\"a pair of pointed-toe slingback kitten heels made of dark, polished leather with a decorative metallic buckle on the toe. the shoes rest on the uneven, rocky terrain, catching sharp glints of overhead sunlight on their reflective surfaces and hardware\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371387",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5a80b6fa-2025-4baf-a46f-5c189cbf8eca/original=true/5a80b6fa-2025-4baf-a46f-5c189cbf8eca.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371180",
+      "title": "Civitai prompt 149371180",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"Cinematic 3D render of a sprawling futuristic seascraper city built upon a colossal, rib-like skeletal structure resembling a robotic leviathan, navigating a dark, turbulent ocean at dusk alongside a massive humpback whale for scale comparison\",\"compositional_deconstruction\":{\"background\":\"Primary background is a vast, churning dark indigo ocean under a heavy, overcast twilight sky. The water surface is textured with deep swells and white foam, reflecting the cold blue ambient light and the warm, scattered pinpricks of light from the city above\",\"elements\":[{\"type\":\"obj\",\"bbox\":[58,26,939,970],\"desc\":\"Colossal bio-mechanical city-ship with a skeletal, segmented spine. It features sleek glass-ribbed modules housing greenery, connected by glowing transparent transit tubes. The stern resembles a translucent fish tail. Warm yellow interior lights glow from skyscraper windows, while cool cyan rim light catches the glass edges and metallic struts\"},{\"type\":\"obj\",\"bbox\":[62,512,401,862],\"desc\":\"A dense cluster of vertical skyscrapers made of dark steel and glass, positioned on the 'head' of the vessel. Windows emit a warm, orange-yellow glow, contrasting against the cool twilight. The tallest spire has a blinking red aviation light at its peak, visible against the dark sky\"},{\"type\":\"obj\",\"bbox\":[615,445,987,703],\"desc\":\"A realistic humpback whale breaching the surface, its dark grey, barnacled skin shimmering with wetness. The whale is oriented toward the bottom left, positioned as a scale reference. The top of its head is keyed by the dim ambient sky light, while its underside remains in deep shadow\"},{\"type\":\"obj\",\"bbox\":[203,510,488,866],\"desc\":\"Intricate network of glowing, transparent acrylic transit tubes winding between buildings. Soft white light illuminates the interior of the tubes, casting a gentle spill onto the surrounding metallic hull and nearby glass enclosures, suggesting high-speed transport activity within\"}]}}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371180",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbeaaca8-a7b1-4461-97e1-4ee6d234a865/original=true/fbeaaca8-a7b1-4461-97e1-4ee6d234a865.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217139+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b6247f2687ad8a173b11be848272ba5e33469820aee9576fdb63df0cd487ff4e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371180 architecture ai-image-prompts {\"high_level_description\":\"cinematic 3d render of a sprawling futuristic seascraper city built upon a colossal, rib-like skeletal structure resembling a robotic leviathan, navigating a dark, turbulent ocean at dusk alongside a massive humpback whale for scale comparison\",\"compositional_deconstruction\":{\"background\":\"primary background is a vast, churning dark indigo ocean under a heavy, overcast twilight sky. the water surface is textured with deep swells and white foam, reflecting the cold blue ambient light and the warm, scattered pinpricks of light from the city above\",\"elements\":[{\"type\":\"obj\",\"bbox\":[58,26,939,970],\"desc\":\"colossal bio-mechanical city-ship with a skeletal, segmented spine. it features sleek glass-ribbed modules housing greenery, connected by glowing transparent transit tubes. the stern resembles a translucent fish tail. warm yellow interior lights glow from skyscraper windows, while cool cyan rim light catches the glass edges and metallic struts\"},{\"type\":\"obj\",\"bbox\":[62,512,401,862],\"desc\":\"a dense cluster of vertical skyscrapers made of dark steel and glass, positioned on the 'head' of the vessel. windows emit a warm, orange-yellow glow, contrasting against the cool twilight. the tallest spire has a blinking red aviation light at its peak, visible against the dark sky\"},{\"type\":\"obj\",\"bbox\":[615,445,987,703],\"desc\":\"a realistic humpback whale breaching the surface, its dark grey, barnacled skin shimmering with wetness. the whale is oriented toward the bottom left, positioned as a scale reference. the top of its head is keyed by the dim ambient sky light, while its underside remains in deep shadow\"},{\"type\":\"obj\",\"bbox\":[203,510,488,866],\"desc\":\"intricate network of glowing, transparent acrylic transit tubes winding between buildings. soft white light illuminates the interior of the tubes, casting a gentle spill onto the surrounding metallic hull and nearby glass enclosures, suggesting high-speed transport activity within\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371180",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbeaaca8-a7b1-4461-97e1-4ee6d234a865/original=true/fbeaaca8-a7b1-4461-97e1-4ee6d234a865.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371177",
+      "title": "Civitai prompt 149371177",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"A surrealist cinematic photograph captured through the curved frame of an airplane window, revealing two majestic giraffes standing chest-deep in a vast ocean of fluffy white clouds beneath a clear, gradient-blue stratosphere\",\"compositional_deconstruction\":{\"background\":\"Primary background is a bright, cloud-filled sky under a high-altitude atmosphere. A dense, textured sea of cumulus clouds stretches to the horizon, catching warm sunlight from an overhead 2 o'clock key light. The upper sky fades from a deep cerulean to a pale horizon haze\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,1000,1000],\"desc\":\"The interior frame of an oval airplane window, made of slightly textured, matte grey composite material. A tiny hairline scratch is visible on the lower left casing. The inner rim catches a soft white highlight from the external sky, while the interior-facing surfaces fall into deep, cool shadows\"},{\"type\":\"obj\",\"bbox\":[230,186,794,411],\"desc\":\"A reticulated giraffe in the foreground, positioned mid-left. Its long neck is upright, showing distinct tawny polygonal patches. Bright sunlight keys its right side and the top of its ossicones, while the left side is in soft shadow. It gazes calmly toward the camera with dark, lashed eyes\"},{\"type\":\"obj\",\"bbox\":[435,666,639,756],\"desc\":\"A second giraffe in the distant background, positioned mid-right. It is partially submerged in the thick cloud layer, with only its upper neck and head visible. The sunlight creates a bright rim light along its right silhouette, making it pop against the hazy blue horizon\"}]}}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371177",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95650c88-2d35-4ce5-ba54-b4fb27046484/original=true/95650c88-2d35-4ce5-ba54-b4fb27046484.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217153+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "82e3f5d182cd30aeca3332c4624c1d5d202d6c2620487c41d7042efef8f1d70a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371177 architecture ai-image-prompts {\"high_level_description\":\"a surrealist cinematic photograph captured through the curved frame of an airplane window, revealing two majestic giraffes standing chest-deep in a vast ocean of fluffy white clouds beneath a clear, gradient-blue stratosphere\",\"compositional_deconstruction\":{\"background\":\"primary background is a bright, cloud-filled sky under a high-altitude atmosphere. a dense, textured sea of cumulus clouds stretches to the horizon, catching warm sunlight from an overhead 2 o'clock key light. the upper sky fades from a deep cerulean to a pale horizon haze\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,1000,1000],\"desc\":\"the interior frame of an oval airplane window, made of slightly textured, matte grey composite material. a tiny hairline scratch is visible on the lower left casing. the inner rim catches a soft white highlight from the external sky, while the interior-facing surfaces fall into deep, cool shadows\"},{\"type\":\"obj\",\"bbox\":[230,186,794,411],\"desc\":\"a reticulated giraffe in the foreground, positioned mid-left. its long neck is upright, showing distinct tawny polygonal patches. bright sunlight keys its right side and the top of its ossicones, while the left side is in soft shadow. it gazes calmly toward the camera with dark, lashed eyes\"},{\"type\":\"obj\",\"bbox\":[435,666,639,756],\"desc\":\"a second giraffe in the distant background, positioned mid-right. it is partially submerged in the thick cloud layer, with only its upper neck and head visible. the sunlight creates a bright rim light along its right silhouette, making it pop against the hazy blue horizon\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371177",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95650c88-2d35-4ce5-ba54-b4fb27046484/original=true/95650c88-2d35-4ce5-ba54-b4fb27046484.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371174",
+      "title": "Civitai prompt 149371174",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\"high_level_description\":\"A conceptual macro photograph exploring identity and ambition, featuring a white chess pawn standing before a circular mirror that reflects it as a regal king. The scene uses a minimalist aesthetic with muted green tones and stark, directional lighting\",\"compositional_deconstruction\":{\"background\":\"Primary background is a matte, sage-green tiled surface with deep, clean grout lines extending toward a soft-focus, dark charcoal grey void. A cool, overhead fluorescent light source from the upper left creates long, soft-edged shadows that stretch across the tiles toward the bottom right\",\"elements\":[{\"type\":\"obj\",\"bbox\":[164,113,809,742],\"desc\":\"A thick, polished chrome circular mirror frame standing vertically. The reflective surface is flawless, capturing a sharp image of the king piece. The top-left curve of the metal rim is brightly keyed by the overhead light, while the inner right edge shows a sharp, high-contrast glint and dark reflection\"},{\"type\":\"obj\",\"bbox\":[501,475,865,654],\"desc\":\"A matte white ceramic chess pawn positioned in the foreground, slightly right of center. The pawn shows a subtle chip at the base of its collar, suggesting heavy use. The left side is brightly lit, while the right side transitions into a smooth, grey gradient shadow with faint green light bouncing from the tiles\"},{\"type\":\"obj\",\"bbox\":[370,344,773,514],\"desc\":\"The reflection of the pawn, appearing as a towering white king piece with a distinct cross-topped crown. The reflection is centered within the mirror's silver frame. The king piece displays a smooth, chalky texture, with the crown's edges catching crisp highlights that mirror the lighting direction of the physical pawn\"}]}}",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371174",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c61d1a5b-11c5-409c-8cb8-1d3ce0130f65/original=true/c61d1a5b-11c5-409c-8cb8-1d3ce0130f65.jpeg",
+      "model": "ideogram4_fp8_scaled",
+      "model_version_ids": [
+        3246186
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 66,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217168+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "91352c6325cea3f6f2782d9926a01d5ca2742a3df0404b92d9a12db3d5e0e758",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149371174 image ai-image-prompts {\"high_level_description\":\"a conceptual macro photograph exploring identity and ambition, featuring a white chess pawn standing before a circular mirror that reflects it as a regal king. the scene uses a minimalist aesthetic with muted green tones and stark, directional lighting\",\"compositional_deconstruction\":{\"background\":\"primary background is a matte, sage-green tiled surface with deep, clean grout lines extending toward a soft-focus, dark charcoal grey void. a cool, overhead fluorescent light source from the upper left creates long, soft-edged shadows that stretch across the tiles toward the bottom right\",\"elements\":[{\"type\":\"obj\",\"bbox\":[164,113,809,742],\"desc\":\"a thick, polished chrome circular mirror frame standing vertically. the reflective surface is flawless, capturing a sharp image of the king piece. the top-left curve of the metal rim is brightly keyed by the overhead light, while the inner right edge shows a sharp, high-contrast glint and dark reflection\"},{\"type\":\"obj\",\"bbox\":[501,475,865,654],\"desc\":\"a matte white ceramic chess pawn positioned in the foreground, slightly right of center. the pawn shows a subtle chip at the base of its collar, suggesting heavy use. the left side is brightly lit, while the right side transitions into a smooth, grey gradient shadow with faint green light bouncing from the tiles\"},{\"type\":\"obj\",\"bbox\":[370,344,773,514],\"desc\":\"the reflection of the pawn, appearing as a towering white king piece with a distinct cross-topped crown. the reflection is centered within the mirror's silver frame. the king piece displays a smooth, chalky texture, with the crown's edges catching crisp highlights that mirror the lighting direction of the physical pawn\"}]}} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371174",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c61d1a5b-11c5-409c-8cb8-1d3ce0130f65/original=true/c61d1a5b-11c5-409c-8cb8-1d3ce0130f65.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149371010",
+      "title": "Civitai prompt 149371010",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, very aesthetic, ektachrome fade film, scrollburst design, 1vertical panel, asymmetrical layout, vertical strip, extending out of frame, breaking borders, stark white background, minimalist, digital graphic art masterpiece, very aesthetic, ektachrome fade film, scrollburst design, 1vertical panel, asymmetrical layout, vertical strip, extending out of frame, breaking borders, stark white background, minimalist, digital graphic art  masterpiece, Mericello,mk brutal style, a woman with long flowing black hair and a serene expression wearing dark sunglasses and a wide-brimmed straw hat tied with ribbons. She is dressed in an expansive gown of muted yellow with puffy short sleeves, accented by a thick black choker and ornate jewelry. She stands in full view holding a wicker basket overflowing with lemons and other fruit like pears while clutching a small knife; several pieces of fruit are scattered across the ground near the base of trees in a natural outdoor setting, she also holds a decorative pipe. The composition is framed as an intricate Art Nouveau tarot card with elaborate scrolling borders, featuring 'XII' at the top center and 'MÉRICELLO' at the bottom. The color palette consists of muted yellows, deep blacks, and earthy tones against a weathered parchment-like backdrop. Captured using a 50mm lens at f/1.8 to create soft bokeh, the image emphasizes micro-textures such as the weave of the wicker basket, the rustic straw of the hat, the smooth skin of the fruit, and the heavy fabric of her gown. Dramatic rim lighting defines her silhouette against deep shadows, creating high contrast in an atmosphere filled with earthy textures and a sense of still life.,hat, 1girl, food, solo, fruit, dress, breasts, black_hair, holding, lemon, choker, long_hair, basket, yellow_hat, jewelry, yellow_dress, sunglasses, full_body, card_\\(medium\\), sun_hat, looking_at_viewer, shoes, high_heels, bracelet, cleavage, standing, pear, holding_basket, black_choker, short_sleeves, holding_food, tarot, medium_breasts, tarot_\\(medium\\), puffy_sleeves, collarbone, puffy_short_sleeves, closed_mouth, ribbon, black_shoes, straw_hat, hat_ribbon, outdoors, thigh_strap, nature, tree, holding_fruit, yellow_ribbon,\n<lora:9ECP5G6H21B9XYN727YWB5Z3E0.zA2EVzjR:0.8> <lora:krea2-masterpieces-v51:0.8> <lora:TSM3BMD98WNY1GS3X2XQC72C30:0.8> <lora:Mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8> <lora:Krea2_epoch_14:0.8> <lora:ThickThighsSaveLivesKrea:1.0>",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149371010",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e69e409f-4eb5-4e7a-9676-bde4e7928295/original=true/e69e409f-4eb5-4e7a-9676-bde4e7928295.jpeg",
+      "model": "sickOllie_krea2",
+      "model_version_ids": [
+        3077110,
+        3139356,
+        3154408,
+        3168308,
+        3186133,
+        3284125,
+        3382795,
+        3416242
+      ],
+      "width": 5120,
+      "height": 2176,
+      "seed": 194709809509323,
+      "negative_prompt": "Pubes, pubic hair, watermark, signature, pubic hair, extra fingers, distorted hands, distorted fingers, muscular, low quality, watermark,signature, logo, FastNegativeEmbedding, low-quality, moir pattern, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, old lady, sketch, doujinshi, penis growing from breasts, red hairs, hands joining into one hand, upside down, vaginal penetration, forehead mark, forehead tattoo, forehead jewel, forehead diamond, bindi, face paint, face tattoo, head accessory, forehead sticker, third eye, (overall:1.7), Prolapse, pubic_hair, bar_censor, anthropomorphic",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-17T22:53:00.217200+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c00baf7166863865b2199a2a6d099256cd5b0e8eafd3ee9512436ac446361a64",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149371010 food ai-image-prompts masterpiece, very aesthetic, ektachrome fade film, scrollburst design, 1vertical panel, asymmetrical layout, vertical strip, extending out of frame, breaking borders, stark white background, minimalist, digital graphic art masterpiece, very aesthetic, ektachrome fade film, scrollburst design, 1vertical panel, asymmetrical layout, vertical strip, extending out of frame, breaking borders, stark white background, minimalist, digital graphic art masterpiece, mericello,mk brutal style, a woman with long flowing black hair and a serene expression wearing dark sunglasses and a wide-brimmed straw hat tied with ribbons. she is dressed in an expansive gown of muted yellow with puffy short sleeves, accented by a thick black choker and ornate jewelry. she stands in full view holding a wicker basket overflowing with lemons and other fruit like pears while clutching a small knife; several pieces of fruit are scattered across the ground near the base of trees in a natural outdoor setting, she also holds a decorative pipe. the composition is framed as an intricate art nouveau tarot card with elaborate scrolling borders, featuring 'xii' at the top center and 'méricello' at the bottom. the color palette consists of muted yellows, deep blacks, and earthy tones against a weathered parchment-like backdrop. captured using a 50mm lens at f/1.8 to create soft bokeh, the image emphasizes micro-textures such as the weave of the wicker basket, the rustic straw of the hat, the smooth skin of the fruit, and the heavy fabric of her gown. dramatic rim lighting defines her silhouette against deep shadows, creating high contrast in an atmosphere filled with earthy textures and a sense of still life.,hat, 1girl, food, solo, fruit, dress, breasts, black_hair, holding, lemon, choker, long_hair, basket, yellow_hat, jewelry, yellow_dress, sunglasses, full_body, card_\\(medium\\), sun_hat, looking_at_viewer, shoes, high_heels, bracelet, cleavage, standing, pear, holding_basket, black_choker, short_sleeves, holding_food, tarot, medium_breasts, tarot_\\(medium\\), puffy_sleeves, collarbone, puffy_short_sleeves, closed_mouth, ribbon, black_shoes, straw_hat, hat_ribbon, outdoors, thigh_strap, nature, tree, holding_fruit, yellow_ribbon, <lora:9ecp5g6h21b9xyn727ywb5z3e0.za2evzjr:0.8> <lora:krea2-masterpieces-v51:0.8> <lora:tsm3bmd98wny1gs3x2xqc72c30:0.8> <lora:mrpopo anime full potential:0.8> <lora:refusal_reduction_v2_full_rank:0.8> <lora:krea2_epoch_14:0.8> <lora:thickthighssaveliveskrea:1.0> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149371010",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e69e409f-4eb5-4e7a-9676-bde4e7928295/original=true/e69e409f-4eb5-4e7a-9676-bde4e7928295.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-17T12:04:00.908444+00:00",
-  "prompt_count": 3008,
+  "generated_at": "2026-11-17T22:53:06.823126+00:00",
+  "prompt_count": 3028,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 2933,
-    "failed_count": 75,
-    "updated_at": "2026-11-17T12:04:00Z"
+    "failed_count": 95,
+    "updated_at": "2026-11-17T22:53:06Z"
   }
 }
