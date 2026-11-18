@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -139450,15 +139450,1442 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d6e0288-be2d-4de8-b58e-e1d90617fd31/original=true/9d6e0288-be2d-4de8-b58e-e1d90617fd31.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149473806",
+      "title": "Civitai prompt 149473806",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, highly detailed, sharp focus,\nHologram of Cookie Monster in silver pants, h4v_h0l0, Holography texture, rainbow colors, holographic bathroom, sitting elegantly on a Hologram throne, holding a cookie, eating cookie, dark background, soft studio lighting, medium shot, 3d render, octane render, clean composition, soft halo light, colour spectrum, reflections",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473806",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8eb12951-0d4f-4cc4-8cce-a766d8e1cbf4/original=true/8eb12951-0d4f-4cc4-8cce-a766d8e1cbf4.jpeg",
+      "model_version_ids": [
+        667312,
+        2555897,
+        2858836
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 153690539,
+      "negative_prompt": "low quality, blurry, deformed, mutated hands, poorly drawn hands, extra limbs, bad anatomy, text, watermark, jpeg artifacts, missing limbs, dull surfaces, overexposed, underexposed, out of focus, flat lighting, nsfw, explicit, mature content",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764428+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "df6c59fbdaea6aef6a9d342678ad1634f514d1cab9736e2f9398b42888cca2b2",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473806 image ai-image-prompts masterpiece, best quality, highly detailed, sharp focus, hologram of cookie monster in silver pants, h4v_h0l0, holography texture, rainbow colors, holographic bathroom, sitting elegantly on a hologram throne, holding a cookie, eating cookie, dark background, soft studio lighting, medium shot, 3d render, octane render, clean composition, soft halo light, colour spectrum, reflections civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473806",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8eb12951-0d4f-4cc4-8cce-a766d8e1cbf4/original=true/8eb12951-0d4f-4cc4-8cce-a766d8e1cbf4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149472376",
+      "title": "Civitai prompt 149472376",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A fierce young warrior with tousled platinum hair and piercing blue eyes stares intensely forward, her expression a mix of concentration and youthful determination. She wears a practical off-white sleeveless tunic under a loose, flowing cape, cinched at the waist with a heavy black utility belt featuring a metallic buckle. Her right arm is extended, gripping a futuristic, metallic hilt from which a brilliant, crackling blue energy blade erupts, illuminating her face. A simple grey headband holds back her windblown strands, while brown leather fingerless gloves protect her hands. The composition is a dynamic, waist-up shot, framing her against a deep, atmospheric blue background filled with floating debris and streaks of light. The lighting is dramatic, with the primary source being the glowing blade that casts sharp highlights on her skin and fabric, blending digital hyper-realism with a painterly texture to create an epic, otherworldly scene.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149472376",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/768c77b2-6725-42c7-983f-d6b26b4023f9/original=true/768c77b2-6725-42c7-983f-d6b26b4023f9.jpeg",
+      "model": "divingKrea2_photoV10Bf16_nvfp4",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 560567670,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764477+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "540f667d7892cd7d3df748f3f12cd226de1ce53a7e2c0c554840677a822c2fc3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149472376 image ai-image-prompts a fierce young warrior with tousled platinum hair and piercing blue eyes stares intensely forward, her expression a mix of concentration and youthful determination. she wears a practical off-white sleeveless tunic under a loose, flowing cape, cinched at the waist with a heavy black utility belt featuring a metallic buckle. her right arm is extended, gripping a futuristic, metallic hilt from which a brilliant, crackling blue energy blade erupts, illuminating her face. a simple grey headband holds back her windblown strands, while brown leather fingerless gloves protect her hands. the composition is a dynamic, waist-up shot, framing her against a deep, atmospheric blue background filled with floating debris and streaks of light. the lighting is dramatic, with the primary source being the glowing blade that casts sharp highlights on her skin and fabric, blending digital hyper-realism with a painterly texture to create an epic, otherworldly scene. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149472376",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/768c77b2-6725-42c7-983f-d6b26b4023f9/original=true/768c77b2-6725-42c7-983f-d6b26b4023f9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473665",
+      "title": "Civitai prompt 149473665",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her dark eyes and her own sleek, dark, chin-length bob with its blunt fringe — unmistakably herself, her own face kept exactly, a real person, not any actress. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: a 1990s bank employee's look — a cream silk blouse with a bow at the collar, a slim navy pencil skirt, small gold earrings, a name badge with no readable text.\r\n\r\nAs the crew's INSIDE WOMAN, in the middle of the robbery inside the grand marble lobby of a downtown Los Angeles bank, the other staff and customers lying face-down on the floor behind her and blurred figures of the crew in grey suits moving past, she alone stays standing calmly behind the teller counter with her arms folded, looking at the viewer with a smug, self-satisfied little smile, as if this was all her idea. Cool, hard bank-lobby light. Medium shot, from the waist up, at eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473665",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4453cbd9-be22-48b2-8407-4870a1967db5/original=true/4453cbd9-be22-48b2-8407-4870a1967db5.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764520+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "498ec907f4a746aa443b78b4e24ad0b7fe9c6f36f7b347f0d67209001ebc7f12",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473665 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her dark eyes and her own sleek, dark, chin-length bob with its blunt fringe — unmistakably herself, her own face kept exactly, a real person, not any actress. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: a 1990s bank employee's look — a cream silk blouse with a bow at the collar, a slim navy pencil skirt, small gold earrings, a name badge with no readable text. as the crew's inside woman, in the middle of the robbery inside the grand marble lobby of a downtown los angeles bank, the other staff and customers lying face-down on the floor behind her and blurred figures of the crew in grey suits moving past, she alone stays standing calmly behind the teller counter with her arms folded, looking at the viewer with a smug, self-satisfied little smile, as if this was all her idea. cool, hard bank-lobby light. medium shot, from the waist up, at eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473665",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4453cbd9-be22-48b2-8407-4870a1967db5/original=true/4453cbd9-be22-48b2-8407-4870a1967db5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473661",
+      "title": "Civitai prompt 149473661",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995): cool steel-blue and grey Los Angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her warm brown eyes and her features and her own big, bushy, voluminous mass of curly chestnut-brown hair — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: Vincent Hanna's look, tailored for a woman, faithfully — a dark suit jacket over a dark shirt, a detective's badge clipped to her belt, a long dark overcoat.\r\n\r\nAs a brilliant, obsessive LAPD robbery-homicide detective, she sits alone in a booth in a late-night coffee shop by the window, a cup of coffee in front of her, rain and city lights outside, leaning forward and looking at the viewer with a sharp, intense, knowing, slightly amused stare, as if she already knows exactly who you are. Warm diner light and cool blue window light. Medium shot, from the waist up, at eye level.\r\n\r\nShe is the only person in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473661",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0401763a-1c03-416c-b580-092397da73cf/original=true/0401763a-1c03-416c-b580-092397da73cf.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764558+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "67174e136ea1669c74d53d78f1d0ac6d532d082357d736306ac00e1db5451ee1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473661 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995): cool steel-blue and grey los angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her warm brown eyes and her features and her own big, bushy, voluminous mass of curly chestnut-brown hair — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: vincent hanna's look, tailored for a woman, faithfully — a dark suit jacket over a dark shirt, a detective's badge clipped to her belt, a long dark overcoat. as a brilliant, obsessive lapd robbery-homicide detective, she sits alone in a booth in a late-night coffee shop by the window, a cup of coffee in front of her, rain and city lights outside, leaning forward and looking at the viewer with a sharp, intense, knowing, slightly amused stare, as if she already knows exactly who you are. warm diner light and cool blue window light. medium shot, from the waist up, at eye level. she is the only person in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473661",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0401763a-1c03-416c-b580-092397da73cf/original=true/0401763a-1c03-416c-b580-092397da73cf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473660",
+      "title": "Civitai prompt 149473660",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her green eyes and her own pale platinum-blonde, almost white-blonde hair in a neat, low, sleek knot — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: the crew's look from the bank job, faithfully — a plain charcoal-grey suit, white shirt, loosened dark tie, black leather gloves.\r\n\r\nInside a bank's open steel vault in the middle of the robbery, the heavy round vault door swung open behind her, she kneels beside a black duffel bag, calmly sweeping thick bundles of cash off a metal shelf into it with both gloved hands, glancing up at the viewer with a cold, calm, focused stare, counting the seconds. Hard white fluorescent light on steel. Medium shot, at her eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473660",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b977e37a-5ed2-405a-8c89-387617646f66/original=true/b977e37a-5ed2-405a-8c89-387617646f66.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764591+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6d959f4b2879068933bf55346a4d56b0c42b258bb62321951d68dbad389642e6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473660 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her green eyes and her own pale platinum-blonde, almost white-blonde hair in a neat, low, sleek knot — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: the crew's look from the bank job, faithfully — a plain charcoal-grey suit, white shirt, loosened dark tie, black leather gloves. inside a bank's open steel vault in the middle of the robbery, the heavy round vault door swung open behind her, she kneels beside a black duffel bag, calmly sweeping thick bundles of cash off a metal shelf into it with both gloved hands, glancing up at the viewer with a cold, calm, focused stare, counting the seconds. hard white fluorescent light on steel. medium shot, at her eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473660",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b977e37a-5ed2-405a-8c89-387617646f66/original=true/b977e37a-5ed2-405a-8c89-387617646f66.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473664",
+      "title": "Civitai prompt 149473664",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her freckles, her brown eyes and her own messy jet-black pixie cut — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: the crew's look, faithfully — a dark grey suit, white shirt, loosened tie, a black duffel bag on her back.\r\n\r\nIn the middle of the famous downtown street shootout in broad daylight, abandoned cars and shattered glass across the wide avenue behind her, she crouches behind the open door of a car, a Colt Commando carbine exactly like the one in Image 3 — the black M16-pattern carbine with the fixed CARRY-HANDLE upper receiver, the very SHORT barrel with its flash hider, the short round ribbed handguard and the collapsible stock — braced across the top of the door, her right hand on the pistol grip and her left hand on the handguard, its short barrel pointed away down the street, glancing at the viewer with a flat, calm, utterly unbothered stare. Hard, bright daylight and drifting smoke. Medium shot, at her eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473664",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c4acb90-76ca-42cb-84df-39885e2ab23a/original=true/3c4acb90-76ca-42cb-84df-39885e2ab23a.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764629+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a4b794aca54bda78d3e2647b49d6aa750c85cb1efbd0dd40180f67dbe33e1fbe",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473664 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her freckles, her brown eyes and her own messy jet-black pixie cut — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: the crew's look, faithfully — a dark grey suit, white shirt, loosened tie, a black duffel bag on her back. in the middle of the famous downtown street shootout in broad daylight, abandoned cars and shattered glass across the wide avenue behind her, she crouches behind the open door of a car, a colt commando carbine exactly like the one in image 3 — the black m16-pattern carbine with the fixed carry-handle upper receiver, the very short barrel with its flash hider, the short round ribbed handguard and the collapsible stock — braced across the top of the door, her right hand on the pistol grip and her left hand on the handguard, its short barrel pointed away down the street, glancing at the viewer with a flat, calm, utterly unbothered stare. hard, bright daylight and drifting smoke. medium shot, at her eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473664",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c4acb90-76ca-42cb-84df-39885e2ab23a/original=true/3c4acb90-76ca-42cb-84df-39885e2ab23a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473663",
+      "title": "Civitai prompt 149473663",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995): cool steel-blue and grey Los Angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her freckles, her brown eyes and her own messy jet-black pixie cut — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: the heist crew's look, faithfully — a plain dark grey suit and white shirt with a loosened tie, black gloves, a heavy black duffel bag slung over her shoulder.\r\n\r\nIn broad daylight in downtown Los Angeles, she walks calmly out through the glass doors of a big marble bank, other office towers rising behind her, glancing at the viewer with a flat, cool, utterly unbothered stare as if nothing at all is happening. Hard, bright, cold daylight. Medium shot, from the waist up, at eye level.\r\n\r\nShe is the only person in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473663",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0954ed77-3695-4c9d-bd05-17439a0336bc/original=true/0954ed77-3695-4c9d-bd05-17439a0336bc.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764661+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "339a57abb13cc6287b4ba753e9812a111bcaf88fbf186f0a14f8410f59f2f16f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473663 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995): cool steel-blue and grey los angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her freckles, her brown eyes and her own messy jet-black pixie cut — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: the heist crew's look, faithfully — a plain dark grey suit and white shirt with a loosened tie, black gloves, a heavy black duffel bag slung over her shoulder. in broad daylight in downtown los angeles, she walks calmly out through the glass doors of a big marble bank, other office towers rising behind her, glancing at the viewer with a flat, cool, utterly unbothered stare as if nothing at all is happening. hard, bright, cold daylight. medium shot, from the waist up, at eye level. she is the only person in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473663",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0954ed77-3695-4c9d-bd05-17439a0336bc/original=true/0954ed77-3695-4c9d-bd05-17439a0336bc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473662",
+      "title": "Civitai prompt 149473662",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her warm brown eyes and her features and her own big, bushy, voluminous mass of curly chestnut-brown hair, tied back loosely — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: the crew's safecracker look — a dark work jacket over a dark shirt, black gloves, protective clear goggles pushed up into her hair.\r\n\r\nAt night inside a dark bank vault corridor, she kneels in front of a huge steel vault door, a heavy industrial drill rig clamped to it and biting into the lock in a shower of bright orange sparks, one gloved hand on the drill, glancing at the viewer with a sharp, focused, clever look. Orange spark light against cold blue darkness. Medium shot, at her eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473662",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e9cc5d1-9cb0-424c-9f90-0334f699860c/original=true/1e9cc5d1-9cb0-424c-9f90-0334f699860c.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764692+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "271b4d7a2aa390670225ab3fce7275c5a9cacc29bb17901f25a2fd6ca5a33d39",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473662 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her warm brown eyes and her features and her own big, bushy, voluminous mass of curly chestnut-brown hair, tied back loosely — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: the crew's safecracker look — a dark work jacket over a dark shirt, black gloves, protective clear goggles pushed up into her hair. at night inside a dark bank vault corridor, she kneels in front of a huge steel vault door, a heavy industrial drill rig clamped to it and biting into the lock in a shower of bright orange sparks, one gloved hand on the drill, glancing at the viewer with a sharp, focused, clever look. orange spark light against cold blue darkness. medium shot, at her eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473662",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e9cc5d1-9cb0-424c-9f90-0334f699860c/original=true/1e9cc5d1-9cb0-424c-9f90-0334f699860c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473666",
+      "title": "Civitai prompt 149473666",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her hazel eyes and her own warm caramel honey-brown hair in its thick braid — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: the armoured-car crew's look, faithfully — a dark navy work jumpsuit, black gloves, and a white hockey goalie mask pushed up on top of her head so her face is fully visible.\r\n\r\nAt night on a wide, empty industrial street under orange sodium lights, a big tow truck and a toppled armoured cash truck behind her, she stands as the lookout holding a handheld radio to her mouth with one gloved hand, looking at the viewer with a tense, alert, determined look. Orange sodium light and cold blue shadow. Medium shot, from the waist up, at eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473666",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b56c614-4ee8-4ce5-8a3f-d181474fe734/original=true/8b56c614-4ee8-4ce5-8a3f-d181474fe734.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764723+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "455e151f5b4f570f3037a591070e26fa27380a5d2e3166b2fdbf27a020b42e2b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473666 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her hazel eyes and her own warm caramel honey-brown hair in its thick braid — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: the armoured-car crew's look, faithfully — a dark navy work jumpsuit, black gloves, and a white hockey goalie mask pushed up on top of her head so her face is fully visible. at night on a wide, empty industrial street under orange sodium lights, a big tow truck and a toppled armoured cash truck behind her, she stands as the lookout holding a handheld radio to her mouth with one gloved hand, looking at the viewer with a tense, alert, determined look. orange sodium light and cold blue shadow. medium shot, from the waist up, at eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473666",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b56c614-4ee8-4ce5-8a3f-d181474fe734/original=true/8b56c614-4ee8-4ce5-8a3f-d181474fe734.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473667",
+      "title": "Civitai prompt 149473667",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995): cool steel-blue and grey Los Angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her hazel eyes and her own warm caramel honey-brown hair in its thick braid over one shoulder — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: Eady's look, faithfully — a soft oversized cream sweater and simple jeans, small silver earrings.\r\n\r\nAs EADY, the gentle graphic designer who has fallen for the wrong man, she sits curled up on the window seat of her hillside apartment at night, the endless glittering grid of Los Angeles lights spread out below her, looking at the viewer with a soft, warm, quietly hopeful smile. Warm lamplight inside, cool city glow outside. Medium shot, at her eye level.\r\n\r\nShe is the only person in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473667",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d08fa1ea-84f4-4b93-ad1f-f4c30e32fcf0/original=true/d08fa1ea-84f4-4b93-ad1f-f4c30e32fcf0.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764752+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "eaa04dfc76b81d04ae1db347988f57c26af63730443b3cc9d9f4b17fd2c7a638",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473667 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995): cool steel-blue and grey los angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her hazel eyes and her own warm caramel honey-brown hair in its thick braid over one shoulder — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: eady's look, faithfully — a soft oversized cream sweater and simple jeans, small silver earrings. as eady, the gentle graphic designer who has fallen for the wrong man, she sits curled up on the window seat of her hillside apartment at night, the endless glittering grid of los angeles lights spread out below her, looking at the viewer with a soft, warm, quietly hopeful smile. warm lamplight inside, cool city glow outside. medium shot, at her eye level. she is the only person in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473667",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d08fa1ea-84f4-4b93-ad1f-f4c30e32fcf0/original=true/d08fa1ea-84f4-4b93-ad1f-f4c30e32fcf0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473658",
+      "title": "Civitai prompt 149473658",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995), MID-HEIST: tense, precise, professional crime action in cool steel-blue and grey Los Angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her blue eyes and her own long, sleek, straight golden-blonde hair worn loose — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: a getaway driver's look — a dark grey suit jacket over a white shirt, thin black driving gloves.\r\n\r\nAs the GETAWAY DRIVER, she sits behind the wheel of a dark 1990s sedan parked at the kerb outside a downtown bank in bright daylight, both gloved hands on the steering wheel, the engine running, her eyes cutting to the viewer through the open driver's window with a cool, tense, steady look as she waits for the crew to come out. Hard daylight, glass office towers reflected in the windscreen. Medium shot, from the shoulders up through the car window, at eye level.\r\n\r\nShe is the only person clearly visible in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473658",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9156457-8b95-41b7-853a-6245b64185ea/original=true/a9156457-8b95-41b7-853a-6245b64185ea.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764785+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b422e4f0a6f6f38816c05c1558ab2dacfe0b47db7bdb0c1477ab528ede9105d9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473658 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995), mid-heist: tense, precise, professional crime action in cool steel-blue and grey los angeles, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her blue eyes and her own long, sleek, straight golden-blonde hair worn loose — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: a getaway driver's look — a dark grey suit jacket over a white shirt, thin black driving gloves. as the getaway driver, she sits behind the wheel of a dark 1990s sedan parked at the kerb outside a downtown bank in bright daylight, both gloved hands on the steering wheel, the engine running, her eyes cutting to the viewer through the open driver's window with a cool, tense, steady look as she waits for the crew to come out. hard daylight, glass office towers reflected in the windscreen. medium shot, from the shoulders up through the car window, at eye level. she is the only person clearly visible in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473658",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9156457-8b95-41b7-853a-6245b64185ea/original=true/a9156457-8b95-41b7-853a-6245b64185ea.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473659",
+      "title": "Civitai prompt 149473659",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photorealistic cinematic film still in the exact style of Michael Mann's HEAT (1995): cool steel-blue and grey Los Angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain.\r\n\r\nHER FACE AND HAIR: the woman from Image 1 — her face, her green eyes and her own pale platinum-blonde, almost white-blonde hair in a neat, low, sleek knot — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. Her build as in Image 2; nothing of the school uniform in Image 2 carries over.\r\n\r\nHER OUTFIT: Neil McCauley's look, tailored for a woman, faithfully — a sharp, plain charcoal-grey suit, a crisp white shirt open at the collar, no tie, a slim steel watch.\r\n\r\nAs a cold, disciplined master thief who lives by the rule of walking away in thirty seconds flat, she stands alone at the floor-to-ceiling window of her bare, empty modern house at night, the dark Pacific Ocean and the distant lights of the coast behind her, looking at the viewer with a still, cool, solitary, guarded gaze. Cold blue night light. Medium shot, from the waist up, at eye level.\r\n\r\nShe is the only person in the image. She is a grown woman in her late twenties. Natural skin texture. No readable text, no logos, no watermark.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473659",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a65c4a80-729e-4c2c-a53b-8f5374367d36/original=true/a65c4a80-729e-4c2c-a53b-8f5374367d36.jpeg",
+      "model_version_ids": [],
+      "width": 2848,
+      "height": 1600,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764816+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c0d6caf195ea743b4ed3954dbaf70a7e33cd5eeedb0f71792e9fcfcecfb012d1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473659 fashion ai-image-prompts a photorealistic cinematic film still in the exact style of michael mann's heat (1995): cool steel-blue and grey los angeles, night skylines, glass, concrete and sodium lights, restrained, precise, melancholy crime drama, long-lens photography, shot on 35mm film with a shallow depth of field and fine film grain. her face and hair: the woman from image 1 — her face, her green eyes and her own pale platinum-blonde, almost white-blonde hair in a neat, low, sleek knot — unmistakably herself, her own face kept exactly, a real person, not any actress or actor. her build as in image 2; nothing of the school uniform in image 2 carries over. her outfit: neil mccauley's look, tailored for a woman, faithfully — a sharp, plain charcoal-grey suit, a crisp white shirt open at the collar, no tie, a slim steel watch. as a cold, disciplined master thief who lives by the rule of walking away in thirty seconds flat, she stands alone at the floor-to-ceiling window of her bare, empty modern house at night, the dark pacific ocean and the distant lights of the coast behind her, looking at the viewer with a still, cool, solitary, guarded gaze. cold blue night light. medium shot, from the waist up, at eye level. she is the only person in the image. she is a grown woman in her late twenties. natural skin texture. no readable text, no logos, no watermark. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473659",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a65c4a80-729e-4c2c-a53b-8f5374367d36/original=true/a65c4a80-729e-4c2c-a53b-8f5374367d36.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473611",
+      "title": "Civitai prompt 149473611",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw unedited amateurish candid shot. a solo close-up portrait of young adult woman, g0ld13, with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. She has large bright blue eyes, pink full lips. . candid photo, amateurish quality. low quality 2MP digital camera quality",
+      "quality_score": 8.4,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473611",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19225a3f-6e8b-425b-a7dd-24f1df83ac64/original=true/19225a3f-6e8b-425b-a7dd-24f1df83ac64.jpeg",
+      "model": "dirtyMoss_bf16",
+      "model_version_ids": [
+        3423156,
+        3476141
+      ],
+      "width": 3268,
+      "height": 4096,
+      "seed": 516000630424920,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764828+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ed868f200feef6ba199c006f19e07b77c0d5e3288c4cbcd5572f094ec7c9e413",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473611 image ai-image-prompts raw unedited amateurish candid shot. a solo close-up portrait of young adult woman, g0ld13, with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. she has large bright blue eyes, pink full lips. . candid photo, amateurish quality. low quality 2mp digital camera quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473611",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19225a3f-6e8b-425b-a7dd-24f1df83ac64/original=true/19225a3f-6e8b-425b-a7dd-24f1df83ac64.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473537",
+      "title": "Civitai prompt 149473537",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{{ ( score_9, score_8_up, score_7_up, score_6_up, Masterpiece, Highly Detailed, 8k, Volumetric Lighting, Shadows, Proper Lighting Effects, Full body Shot, Focus On Girl, Holographic Style ) }}\n{{ Detailed Background ( Urban Landscape, Tall Buildings, Skyscraper, Nighttime, Full Moon, Stars, Sparse Clouds ) }}\n{{ 1girl solo ( Age 22, 150cm tall, shoulder length hair, pink eyes, 34C-24-34 measurements, futuristic armor ( no helmet ), holding a blaster, on a rooftop overlooking the city ) }}",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473537",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1334c37-7ba0-437b-a1d1-6ecd91ceaa46/original=true/b1334c37-7ba0-437b-a1d1-6ecd91ceaa46.jpeg",
+      "model_version_ids": [
+        128078,
+        667312
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 660390928,
+      "negative_prompt": "score_6, score_5, score_4,  badhandv4, (low quality, worst quality:1.4), disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, poorly drawn face, mutation, mutated, extra limb, poorly drawn hands, missing limb, floating limbs, disconnected limbs, blended limbs, malformed hands, blur, out of focus, long neck, long body, disgusting, poorly drawn, childish, mutilated, mangled, surreal, text, three legs, censor bar, three breasts, watermark, text",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764841+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fa934ec8e15334885f97430ae64c4776efca43428ad907f03c31ff595926bf18",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473537 architecture ai-image-prompts {{ ( score_9, score_8_up, score_7_up, score_6_up, masterpiece, highly detailed, 8k, volumetric lighting, shadows, proper lighting effects, full body shot, focus on girl, holographic style ) }} {{ detailed background ( urban landscape, tall buildings, skyscraper, nighttime, full moon, stars, sparse clouds ) }} {{ 1girl solo ( age 22, 150cm tall, shoulder length hair, pink eyes, 34c-24-34 measurements, futuristic armor ( no helmet ), holding a blaster, on a rooftop overlooking the city ) }} civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473537",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1334c37-7ba0-437b-a1d1-6ecd91ceaa46/original=true/b1334c37-7ba0-437b-a1d1-6ecd91ceaa46.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473594",
+      "title": "Civitai prompt 149473594",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw unedited amateurish candid shot. Young adult woman with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. Crouched low on a weathered stone ledge or wall within a lush green forest filled with tall slender trees and bright spring foliage surrounding her in every direction. Dynamic, grounded pose captured from a low upward angle as she squats with one knee drawn up and both hands resting against it, her gaze lifted upward toward the canopy above, body angled slightly to convey motion and energy. Wearing a fitted long-sleeved yellow crop top paired with loose-fitting gray trousers and chunky light-colored sneakers visible beneath the hemline. Soft diffused daylight filtering through the trees creates an even gentle glow across the scene. Contemplative, wistful expression with large bright blue eyes gazing upward in quiet awe of her surroundings, framed by pink full lips parted softly. . candid photo, amateurish quality. low quality 2MP digital camera quality",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473594",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43838bda-eae8-45f4-a2a3-88d982667ae4/original=true/43838bda-eae8-45f4-a2a3-88d982667ae4.jpeg",
+      "model": "dirtyMoss_bf16",
+      "model_version_ids": [
+        3423156,
+        3476141
+      ],
+      "width": 2560,
+      "height": 4096,
+      "seed": 164552261266375,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764861+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d83c7a0587027dc726c414c9b411b77a009e48caa68b522231d5e39ab9e445b8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473594 photography ai-image-prompts raw unedited amateurish candid shot. young adult woman with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. crouched low on a weathered stone ledge or wall within a lush green forest filled with tall slender trees and bright spring foliage surrounding her in every direction. dynamic, grounded pose captured from a low upward angle as she squats with one knee drawn up and both hands resting against it, her gaze lifted upward toward the canopy above, body angled slightly to convey motion and energy. wearing a fitted long-sleeved yellow crop top paired with loose-fitting gray trousers and chunky light-colored sneakers visible beneath the hemline. soft diffused daylight filtering through the trees creates an even gentle glow across the scene. contemplative, wistful expression with large bright blue eyes gazing upward in quiet awe of her surroundings, framed by pink full lips parted softly. . candid photo, amateurish quality. low quality 2mp digital camera quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473594",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43838bda-eae8-45f4-a2a3-88d982667ae4/original=true/43838bda-eae8-45f4-a2a3-88d982667ae4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473585",
+      "title": "Civitai prompt 149473585",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw unedited amateurish candid shot. Young adult woman with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. Standing within an elegant hotel corridor lined with cream-colored walls, white doorways, and patterned gray carpeting beneath her feet. Graceful, poised pose captured mid-turn as she pivots on one foot to glance back over her shoulder toward the camera, one arm bent at the elbow held gently near her waist. Wearing a sophisticated floor-length black evening gown featuring delicate spaghetti straps, a ruffled peplum detail at the waist, and horizontal bands of sheer embellished lace cascading down the fitted silhouette before flowing into a soft train. Warm ambient interior lighting accentuates the sheen of the fabric and casts a gentle glow on her profile. Confident, alluring expression with large bright blue eyes and pink full lips forming a subtle knowing smile as she gazes directly at the viewer. . candid photo, amateurish quality. low quality 2MP digital camera quality",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473585",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b03e3b36-7bff-465a-a7e0-d3c9f83b29e9/original=true/b03e3b36-7bff-465a-a7e0-d3c9f83b29e9.jpeg",
+      "model": "dirtyMoss_bf16",
+      "model_version_ids": [
+        3423156,
+        3476141
+      ],
+      "width": 2560,
+      "height": 4096,
+      "seed": 979847087784250,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764880+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d38f71e3e2d08383287565bf498c444794dfebb88472e230165a552f205d778f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473585 architecture ai-image-prompts raw unedited amateurish candid shot. young adult woman with tousled, wavy shoulder-length blonde hair featuring soft face-framing bangs styled in a relaxed, tousled manner that catches gentle highlights across the strands. standing within an elegant hotel corridor lined with cream-colored walls, white doorways, and patterned gray carpeting beneath her feet. graceful, poised pose captured mid-turn as she pivots on one foot to glance back over her shoulder toward the camera, one arm bent at the elbow held gently near her waist. wearing a sophisticated floor-length black evening gown featuring delicate spaghetti straps, a ruffled peplum detail at the waist, and horizontal bands of sheer embellished lace cascading down the fitted silhouette before flowing into a soft train. warm ambient interior lighting accentuates the sheen of the fabric and casts a gentle glow on her profile. confident, alluring expression with large bright blue eyes and pink full lips forming a subtle knowing smile as she gazes directly at the viewer. . candid photo, amateurish quality. low quality 2mp digital camera quality civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473585",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b03e3b36-7bff-465a-a7e0-d3c9f83b29e9/original=true/b03e3b36-7bff-465a-a7e0-d3c9f83b29e9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473558",
+      "title": "Civitai prompt 149473558",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vibrant, cinematic 3D animated fantasy-comedy scene with expressive original characters, polished CGI rendering, exaggerated comedic expressions, and a dramatic dark nighttime atmosphere.\nSetting: A lush rooftop garden overlooking a magnificent crystal city at night. Deep navy and black skies, distant city lights, mysterious clouds, and dramatic cinematic depth.\nThe Ritual: Six adorable, tiny robed mice form a magical circle, holding hands while performing an extremely serious summoning ritual. Each mouse holds a glowing crystal emitting one distinct beam of red, orange, yellow, green, blue, or violet. All six beams converge into a gigantic central holographic crystal, projecting an enormous rainbow beam into the sky. The mice look hilariously devoted, as though performing the most important ceremony in history.\nTheir robes feature a beautiful iridescent sheen, shifting between multiple colors. Thin cyan and magenta neon rim lights outline their silhouettes. Prismatic light illuminates their tiny faces.\nAbove the mice, one speech bubble reads exactly: \"Praise the Mice God!\"\nThe Bat God: Emerging from the enormous rainbow beam is a gigantic, translucent, anthropomorphic bat deity with enormous wings, expressive ears, and an utterly exhausted facial expression. He is sitting comfortably on a floating holographic toilet, holding a slice of pepperoni pizza in one hand. His posture is relaxed, one eyebrow raised, looking down at the mice with profound disappointment, as if they interrupted his bathroom break for the thousandth time.\nHis wings have a reflective holographic diffraction-film texture, shimmering with rainbow colors. His silhouette is traced by cyan and magenta neon rim lighting. Brilliant multicolored highlights sparkle across his wings and pizza.\nAbove his head, one speech bubble reads exactly: \"Not again.\"\nThe Offering: Beside the mice, an enormous wheel of cheese rests on an elegant marble pedestal. The cheese has a smooth rainbow-gradient rind, pearlescent iridescent surface, multicolored reflective highlights, a soft prismatic halo, and delicate neon edge lighting. One tiny mouse is secretly trying to sneak a bite while the others remain focused on the ritual.\nVisual Effects:\nSmooth rainbow gradients transitioning from red through violet\nPearlescent iridescent surfaces with angle-dependent color shifts\nSoft prismatic glow illuminating nearby objects\nClearly reflective holographic diffraction-film textures\nBright multicolored color-shift highlights\nThin cyan and magenta neon rim lighting\nDramatic contrast between dark surroundings and luminous rainbow effects\nComposition: Wide cinematic shot, mice in the foreground, central crystal in the middle, gigantic Bat God dominating the background sky, cheese offering clearly visible to one side. Every character fully visible, expressive faces, excellent visual storytelling, beautiful depth of field, sophisticated lighting, humorous contrast between epic fantasy and ridiculous everyday inconveniences.\nSTRICT TEXT RESTRICTION: The ONLY readable text in the entire image must appear inside the two speech bubbles:\n\"Praise the Mice God!\"\n\"Not again.\"\nNo other text, lettering, captions, labels, logos, symbols resembling writing, or watermarks. Family-friendly, SFW, whimsical comedy, no nudity, no explicit bathroom humor.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473558",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d09ed9f8-3df6-45ef-ba61-442578fbebe6/original=true/d09ed9f8-3df6-45ef-ba61-442578fbebe6.jpeg",
+      "model_version_ids": [
+        667312,
+        2555897
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1115204085,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764921+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9e3186ceac6f6dc0f4cd1d9220fb7d62c204f29a0e80d05045ab72a7ecc3d72a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473558 image ai-image-prompts a vibrant, cinematic 3d animated fantasy-comedy scene with expressive original characters, polished cgi rendering, exaggerated comedic expressions, and a dramatic dark nighttime atmosphere. setting: a lush rooftop garden overlooking a magnificent crystal city at night. deep navy and black skies, distant city lights, mysterious clouds, and dramatic cinematic depth. the ritual: six adorable, tiny robed mice form a magical circle, holding hands while performing an extremely serious summoning ritual. each mouse holds a glowing crystal emitting one distinct beam of red, orange, yellow, green, blue, or violet. all six beams converge into a gigantic central holographic crystal, projecting an enormous rainbow beam into the sky. the mice look hilariously devoted, as though performing the most important ceremony in history. their robes feature a beautiful iridescent sheen, shifting between multiple colors. thin cyan and magenta neon rim lights outline their silhouettes. prismatic light illuminates their tiny faces. above the mice, one speech bubble reads exactly: \"praise the mice god!\" the bat god: emerging from the enormous rainbow beam is a gigantic, translucent, anthropomorphic bat deity with enormous wings, expressive ears, and an utterly exhausted facial expression. he is sitting comfortably on a floating holographic toilet, holding a slice of pepperoni pizza in one hand. his posture is relaxed, one eyebrow raised, looking down at the mice with profound disappointment, as if they interrupted his bathroom break for the thousandth time. his wings have a reflective holographic diffraction-film texture, shimmering with rainbow colors. his silhouette is traced by cyan and magenta neon rim lighting. brilliant multicolored highlights sparkle across his wings and pizza. above his head, one speech bubble reads exactly: \"not again.\" the offering: beside the mice, an enormous wheel of cheese rests on an elegant marble pedestal. the cheese has a smooth rainbow-gradient rind, pearlescent iridescent surface, multicolored reflective highlights, a soft prismatic halo, and delicate neon edge lighting. one tiny mouse is secretly trying to sneak a bite while the others remain focused on the ritual. visual effects: smooth rainbow gradients transitioning from red through violet pearlescent iridescent surfaces with angle-dependent color shifts soft prismatic glow illuminating nearby objects clearly reflective holographic diffraction-film textures bright multicolored color-shift highlights thin cyan and magenta neon rim lighting dramatic contrast between dark surroundings and luminous rainbow effects composition: wide cinematic shot, mice in the foreground, central crystal in the middle, gigantic bat god dominating the background sky, cheese offering clearly visible to one side. every character fully visible, expressive faces, excellent visual storytelling, beautiful depth of field, sophisticated lighting, humorous contrast between epic fantasy and ridiculous everyday inconveniences. strict text restriction: the only readable text in the entire image must appear inside the two speech bubbles: \"praise the mice god!\" \"not again.\" no other text, lettering, captions, labels, logos, symbols resembling writing, or watermarks. family-friendly, sfw, whimsical comedy, no nudity, no explicit bathroom humor. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473558",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d09ed9f8-3df6-45ef-ba61-442578fbebe6/original=true/d09ed9f8-3df6-45ef-ba61-442578fbebe6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473491",
+      "title": "Civitai prompt 149473491",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A striking young woman with platinum-white hair styled into two thick, intricate braids that frame her face and shoulder, gazing intensely toward the viewer with a piercing, cool-toned gaze. She wears a dark, layered leather cuirass with ornate, curved shoulder pauldrons edged in warm gold and studded with small, gleaming metal rivets. The composition is a tight, intimate close-up that captures the texture of her skin and the sheen of her armor, set against a softly blurred, earthy forest background that hints at green and brown tones. The lighting is natural and diffused, casting gentle shadows that define her sharp cheekbones and the contours of her armor, while a subtle, dreamy vignette darkens the periphery to keep all focus on her determined, ethereal presence.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473491",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b22bc79-6fc3-406c-8629-50127e25cb46/original=true/9b22bc79-6fc3-406c-8629-50127e25cb46.jpeg",
+      "model": "divingKrea2_photoV10Bf16_nvfp4",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 503373962,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764938+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ce7f84c900f1949d782ba786b20c2d76a46c19e65aba2b1f13929fc838ea86f6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473491 photography ai-image-prompts a striking young woman with platinum-white hair styled into two thick, intricate braids that frame her face and shoulder, gazing intensely toward the viewer with a piercing, cool-toned gaze. she wears a dark, layered leather cuirass with ornate, curved shoulder pauldrons edged in warm gold and studded with small, gleaming metal rivets. the composition is a tight, intimate close-up that captures the texture of her skin and the sheen of her armor, set against a softly blurred, earthy forest background that hints at green and brown tones. the lighting is natural and diffused, casting gentle shadows that define her sharp cheekbones and the contours of her armor, while a subtle, dreamy vignette darkens the periphery to keep all focus on her determined, ethereal presence. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473491",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b22bc79-6fc3-406c-8629-50127e25cb46/original=true/9b22bc79-6fc3-406c-8629-50127e25cb46.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473494",
+      "title": "Civitai prompt 149473494",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece, a beautiful 2.5D anime-style cinematic key visual of a fashionable 25-year-old woman with a sophisticated punk aesthetic and a refined, elegant aura, sitting at a wooden table in a bright, stylish cafe on a rainy day.\nShe has a beautiful milk-tea-colored short bob haircut, with delicate individual hair strands catching the soft window light. Her layered punk-inspired outfit combines black fashionable streetwear, subtle metallic accessories, and elegant contemporary design.\nSeveral sheets of beautifully detailed musical notation are spread naturally across the wooden table in front of her. She leans slightly forward, carefully studying the sheet music with a thoughtful, peaceful expression, gently resting one hand on the score as if checking a particular musical passage. A ceramic cup of freshly brewed coffee sits beside the pages, delicate steam rising into the air.\nOutside the large glass windows, steady rain transforms the city into a dreamy, softly blurred landscape. Countless raindrops slide down the glass, reflecting the warm amber glow of the cafe interior.\nBeautiful natural window light illuminates her face, hair, hands, and musical scores, creating delicate highlights and soft cinematic shadows. The atmosphere is cheerful yet contemplative, balancing the cool blue-gray rainy exterior with the cozy golden warmth of the cafe.\nSophisticated composition, graceful three-quarter angle, detailed musical sheets, delicate facial features, luminous eyes, crisp anime linework, realistic materials, subtle depth of field, elegant fashion editorial aesthetics, beautifully rendered 2.5D anime realism, cinematic lighting, highly detailed textures, masterpiece quality.\nVertical 3:4 composition. No text overlays, no watermark, no distorted hands, no extra fingers.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473494",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b8f7be9-70b7-48b2-ba20-17da46269246/original=true/1b8f7be9-70b7-48b2-ba20-17da46269246.jpeg",
+      "model": "(Krea2)_krea2TurboRawINT8_krea2TurboINT8",
+      "model_version_ids": [
+        3062491,
+        3466318
+      ],
+      "width": 2376,
+      "height": 3488,
+      "seed": 702009024383023,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764963+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3616666515831db8759e7516780e223b340036e14fb17badd9c51093a87a19cc",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473494 architecture ai-image-prompts masterpiece, a beautiful 2.5d anime-style cinematic key visual of a fashionable 25-year-old woman with a sophisticated punk aesthetic and a refined, elegant aura, sitting at a wooden table in a bright, stylish cafe on a rainy day. she has a beautiful milk-tea-colored short bob haircut, with delicate individual hair strands catching the soft window light. her layered punk-inspired outfit combines black fashionable streetwear, subtle metallic accessories, and elegant contemporary design. several sheets of beautifully detailed musical notation are spread naturally across the wooden table in front of her. she leans slightly forward, carefully studying the sheet music with a thoughtful, peaceful expression, gently resting one hand on the score as if checking a particular musical passage. a ceramic cup of freshly brewed coffee sits beside the pages, delicate steam rising into the air. outside the large glass windows, steady rain transforms the city into a dreamy, softly blurred landscape. countless raindrops slide down the glass, reflecting the warm amber glow of the cafe interior. beautiful natural window light illuminates her face, hair, hands, and musical scores, creating delicate highlights and soft cinematic shadows. the atmosphere is cheerful yet contemplative, balancing the cool blue-gray rainy exterior with the cozy golden warmth of the cafe. sophisticated composition, graceful three-quarter angle, detailed musical sheets, delicate facial features, luminous eyes, crisp anime linework, realistic materials, subtle depth of field, elegant fashion editorial aesthetics, beautifully rendered 2.5d anime realism, cinematic lighting, highly detailed textures, masterpiece quality. vertical 3:4 composition. no text overlays, no watermark, no distorted hands, no extra fingers. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473494",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b8f7be9-70b7-48b2-ba20-17da46269246/original=true/1b8f7be9-70b7-48b2-ba20-17da46269246.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473221",
+      "title": "Civitai prompt 149473221",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a breathtaking surreal fantasy landscape, majestic ancient architecture surrounded by lush nature, colossal mountains, mysterious forests, winding rivers, impossible structures, dreamlike atmosphere, intricate environmental details, imaginative composition, vibrant yet harmonious colors, rich painterly textures, atmospheric perspective, dramatic cinematic lighting, ethereal clouds, highly detailed landscape illustration, artistic interpretation, masterpiece.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473221",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d36e4c74-7762-4804-8c51-e0f6d486cbbe/original=true/d36e4c74-7762-4804-8c51-e0f6d486cbbe.jpeg",
+      "model": "panini_V12",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 768,
+      "seed": 0,
+      "negative_prompt": "low quality, blurry, pixelated, flat lighting, oversaturated, poorly composed, distorted architecture, malformed structures, repetitive elements, text, watermark, logo, frame, border, football, soccer, sports stadium, characters, people, animals.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764973+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "14014f137291b7f3e377438ac480b119c077cf969f73eb436c49d81c066734be",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473221 architecture ai-image-prompts a breathtaking surreal fantasy landscape, majestic ancient architecture surrounded by lush nature, colossal mountains, mysterious forests, winding rivers, impossible structures, dreamlike atmosphere, intricate environmental details, imaginative composition, vibrant yet harmonious colors, rich painterly textures, atmospheric perspective, dramatic cinematic lighting, ethereal clouds, highly detailed landscape illustration, artistic interpretation, masterpiece. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473221",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d36e4c74-7762-4804-8c51-e0f6d486cbbe/original=true/d36e4c74-7762-4804-8c51-e0f6d486cbbe.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473411",
+      "title": "Civitai prompt 149473411",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A striking young woman with cool blue eyes and light brown hair pulled into a messy, high bun with wispy strands framing her face, stares directly at the viewer with an expression of focused calm. She wears large, black over-ear headphones that seem to dampen the noise around her, the wires draping down over her collarbone. Her outfit is a casual, layered look: a slightly open, black denim or heavy cotton jacket with silver hardware worn over a simple white crop top. The top features a bold, circular logo in pink and blue with the stylized word 'OLYMPIIC' printed beneath it. She is framed in a medium close-up, standing amidst a bustling, out-of-focus crowd inside a vast, industrial-style exhibition hall or arena. The background is a tapestry of warm, glowing signage and the dark, crisscrossing steel beams of the ceiling, all illuminated by the soft, diffused glow of overhead track lighting. The overall color palette is a grounded mix of denim blacks and skin tones, punctuated by the electric pop of the logo and the ambient yellow and white lights of the venue. The image has a hyper-realistic, cinematic quality, capturing a moment of quiet intensity within a vibrant, energetic space.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473411",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2dda3ba-0784-486a-98a2-23840225e33a/original=true/b2dda3ba-0784-486a-98a2-23840225e33a.jpeg",
+      "model": "divingKrea2_photoV10Bf16_w4a8",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 351994410,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.764994+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d246d2d5ab1c5932e69502f81e4c3e239c37c9d34520e4928a242784258fc7ed",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473411 fashion ai-image-prompts a striking young woman with cool blue eyes and light brown hair pulled into a messy, high bun with wispy strands framing her face, stares directly at the viewer with an expression of focused calm. she wears large, black over-ear headphones that seem to dampen the noise around her, the wires draping down over her collarbone. her outfit is a casual, layered look: a slightly open, black denim or heavy cotton jacket with silver hardware worn over a simple white crop top. the top features a bold, circular logo in pink and blue with the stylized word 'olympiic' printed beneath it. she is framed in a medium close-up, standing amidst a bustling, out-of-focus crowd inside a vast, industrial-style exhibition hall or arena. the background is a tapestry of warm, glowing signage and the dark, crisscrossing steel beams of the ceiling, all illuminated by the soft, diffused glow of overhead track lighting. the overall color palette is a grounded mix of denim blacks and skin tones, punctuated by the electric pop of the logo and the ambient yellow and white lights of the venue. the image has a hyper-realistic, cinematic quality, capturing a moment of quiet intensity within a vibrant, energetic space. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473411",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2dda3ba-0784-486a-98a2-23840225e33a/original=true/b2dda3ba-0784-486a-98a2-23840225e33a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473403",
+      "title": "Civitai prompt 149473403",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A focused young woman stands center-frame at an outdoor stadium, her gaze locked forward through large black over-ear headphones that rest atop her tousled, sun-bleached blonde hair. She wears a rugged, faded black denim jacket unzipped to reveal a shimmering silver metallic crop top speckled with water droplets like light rain, hinting at recent movement or weather. Her expression is calm yet intense, lips slightly parted. The background is softly blurred with a crowd in muted tones — orange and charcoal jackets — suggesting a pre-game huddle. Overhead, steel trusses and a glowing orange banner dangle from the rafters, adding urban texture. Natural daylight catches her cheekbones and the sheen on her skin, while subtle shadows deepen her collarbone and jawline. The image feels like a candid moment frozen mid-event — raw, modern, and alive with quiet anticipation.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473403",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/334d68a4-f9e0-46e0-a1c0-f5eb65504954/original=true/334d68a4-f9e0-46e0-a1c0-f5eb65504954.jpeg",
+      "model": "divingKrea2_photoV10Bf16_nvfp4",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 1391081428,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765019+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1b1c1d63957b4af2db2c9143e8411931121599430b672d6fb9c0018e5f59684f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473403 image ai-image-prompts a focused young woman stands center-frame at an outdoor stadium, her gaze locked forward through large black over-ear headphones that rest atop her tousled, sun-bleached blonde hair. she wears a rugged, faded black denim jacket unzipped to reveal a shimmering silver metallic crop top speckled with water droplets like light rain, hinting at recent movement or weather. her expression is calm yet intense, lips slightly parted. the background is softly blurred with a crowd in muted tones — orange and charcoal jackets — suggesting a pre-game huddle. overhead, steel trusses and a glowing orange banner dangle from the rafters, adding urban texture. natural daylight catches her cheekbones and the sheen on her skin, while subtle shadows deepen her collarbone and jawline. the image feels like a candid moment frozen mid-event — raw, modern, and alive with quiet anticipation. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473403",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/334d68a4-f9e0-46e0-a1c0-f5eb65504954/original=true/334d68a4-f9e0-46e0-a1c0-f5eb65504954.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473339",
+      "title": "Civitai prompt 149473339",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A close-up portrait of a young woman with sun-kissed skin and piercing blue eyes, gazing directly at the viewer with a soft, knowing expression. Her long, windswept hair is a mix of golden-blonde and honey tones, tousled and catching the warm light. She wears an ornate, antique-style headband adorned with teardrop-shaped turquoise stones and intricate gold filigree. Matching dangling earrings with similar turquoise accents frame her face, while a heavy, circular medallion necklace with a central gemstone rests on her collarbone. She is dressed in a simple, draped fabric top in a neutral, linen-like tone. The lighting is natural and directional, casting a golden glow on her left shoulder and cheek, while the background is a soft, warm blur of earthy tones. The overall style is a high-resolution, photorealistic image with a painterly warmth, evoking a timeless, sun-drenched moment.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473339",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6a25617-0f64-4868-9333-bb4d9ce371db/original=true/f6a25617-0f64-4868-9333-bb4d9ce371db.jpeg",
+      "model": "divingKrea2_photoV10Bf16_w4a8",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 1718426630,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765036+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "56f2eb2652a01bfc9756fac0e30ef88696b15a4d96b5df5c0c8be84de261ec4d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473339 image ai-image-prompts a close-up portrait of a young woman with sun-kissed skin and piercing blue eyes, gazing directly at the viewer with a soft, knowing expression. her long, windswept hair is a mix of golden-blonde and honey tones, tousled and catching the warm light. she wears an ornate, antique-style headband adorned with teardrop-shaped turquoise stones and intricate gold filigree. matching dangling earrings with similar turquoise accents frame her face, while a heavy, circular medallion necklace with a central gemstone rests on her collarbone. she is dressed in a simple, draped fabric top in a neutral, linen-like tone. the lighting is natural and directional, casting a golden glow on her left shoulder and cheek, while the background is a soft, warm blur of earthy tones. the overall style is a high-resolution, photorealistic image with a painterly warmth, evoking a timeless, sun-drenched moment. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473339",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6a25617-0f64-4868-9333-bb4d9ce371db/original=true/f6a25617-0f64-4868-9333-bb4d9ce371db.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473264",
+      "title": "Civitai prompt 149473264",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A young woman with sun-kissed skin and piercing blue eyes gazes directly at the viewer, her expression calm yet subtly knowing. Her long, windswept hair is a blend of chestnut and honey tones, loosely framing her face and catching sunlight in fine, stray strands. She wears an ornate, sunburst-style headpiece of gold and turquoise jewels that nestles just above her brow, complemented by dangling, filigree earrings that sway slightly as if caught in a breeze. A delicate, beaded necklace with turquoise accents rests on her collarbone, echoing the vibrant, draped fabric of her one-shoulder turquoise tunic — which appears to shimmer with embedded specks of light. The background is a softly blurred, textured stone archway bathed in warm, golden-hour glow, suggesting an ancient courtyard or desert ruin. Her skin bears a subtle sheen, as if dusted with fine sand or kissed by warmth, adding tactile life to the portrait. The composition is intimate and centered, drawing focus to her gaze and the interplay between light, texture, and timeless elegance.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473264",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daf19087-d313-4c9f-b835-2028229a23de/original=true/daf19087-d313-4c9f-b835-2028229a23de.jpeg",
+      "model": "divingKrea2_photoV10Bf16_nvfp4",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 54679098,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765063+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ffac28b341f8b2a31d6e0e7f26806e950dd9640f38594b3044ce93d65cc4aa27",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473264 image ai-image-prompts a young woman with sun-kissed skin and piercing blue eyes gazes directly at the viewer, her expression calm yet subtly knowing. her long, windswept hair is a blend of chestnut and honey tones, loosely framing her face and catching sunlight in fine, stray strands. she wears an ornate, sunburst-style headpiece of gold and turquoise jewels that nestles just above her brow, complemented by dangling, filigree earrings that sway slightly as if caught in a breeze. a delicate, beaded necklace with turquoise accents rests on her collarbone, echoing the vibrant, draped fabric of her one-shoulder turquoise tunic — which appears to shimmer with embedded specks of light. the background is a softly blurred, textured stone archway bathed in warm, golden-hour glow, suggesting an ancient courtyard or desert ruin. her skin bears a subtle sheen, as if dusted with fine sand or kissed by warmth, adding tactile life to the portrait. the composition is intimate and centered, drawing focus to her gaze and the interplay between light, texture, and timeless elegance. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473264",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/daf19087-d313-4c9f-b835-2028229a23de/original=true/daf19087-d313-4c9f-b835-2028229a23de.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473226",
+      "title": "Civitai prompt 149473226",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A contemplative young woman with soft, shoulder-length hair dyed in a dusty rose hue, featuring subtle blonde highlights that catch the light. She wears a relaxed, off-the-shoulder long-sleeve top in horizontal stripes of charcoal grey and warm cream, the fabric slightly gathered at the neckline. Her gaze is cast downward and to the side, lending a quiet, introspective mood, while a delicate silver hoop earring and a thin chain necklace with a textured circular pendant rest gently against her skin. The composition is a tight, elegant three-quarter profile against a seamless, softly lit off-white background, allowing the subject to dominate the frame. The lighting is diffused and even, highlighting the contours of her face and shoulders with a gentle glow, reminiscent of high-end editorial photography. The overall color palette is cool yet soft, balancing the warmth of her skin against the muted tones of her attire.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473226",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e01b4d5-4328-49a3-b4cc-dd52d13df119/original=true/5e01b4d5-4328-49a3-b4cc-dd52d13df119.jpeg",
+      "model": "divingKrea2_photoV10Bf16_w4a8",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 1690336226,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765081+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "14df7c97e071af8996f4212011c43f29998f8df16c83308d673797a9cdec6e67",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149473226 fashion ai-image-prompts a contemplative young woman with soft, shoulder-length hair dyed in a dusty rose hue, featuring subtle blonde highlights that catch the light. she wears a relaxed, off-the-shoulder long-sleeve top in horizontal stripes of charcoal grey and warm cream, the fabric slightly gathered at the neckline. her gaze is cast downward and to the side, lending a quiet, introspective mood, while a delicate silver hoop earring and a thin chain necklace with a textured circular pendant rest gently against her skin. the composition is a tight, elegant three-quarter profile against a seamless, softly lit off-white background, allowing the subject to dominate the frame. the lighting is diffused and even, highlighting the contours of her face and shoulders with a gentle glow, reminiscent of high-end editorial photography. the overall color palette is cool yet soft, balancing the warmth of her skin against the muted tones of her attire. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473226",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e01b4d5-4328-49a3-b4cc-dd52d13df119/original=true/5e01b4d5-4328-49a3-b4cc-dd52d13df119.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473270",
+      "title": "Civitai prompt 149473270",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,EUGENE-DELACROIX, parody of Liberty Leading the People, \ntamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:Spacescape_(Background)_(illustrious)_(AD):0.3>Spacescape\n<lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.75>\n<lora:ursulaTheLittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, screaming,BREAK,\n,leading a crowd over a barricade, holding a flag, dramatic oil painting, smoke, rubble, romanticism lighting,oil painting, thick brushstrokes, romanticism painting, 19th century painting, canvas texture, dramatic chiaroscuro, crowd behind her, barricade, rubble, fallen bodies in foreground, large black flag",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473270",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dbdd27a-dae8-42e7-9174-e6971ecf6208/original=true/7dbdd27a-dae8-42e7-9174-e6971ecf6208.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2521817,
+        2531839,
+        2603240,
+        2903663,
+        3478371
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 3672425433,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765095+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "366c1e822c0630f6f2310e1cf563d2503cf164e6bf58bd63c61f6882d95b232c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473270 image ai-image-prompts masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,eugene-delacroix, parody of liberty leading the people, tamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:spacescape_(background)_(illustrious)_(ad):0.3>spacescape <lora:[eugene delacroix] artist style v2 illustrious:0.75> <lora:ursulathelittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, screaming,break, ,leading a crowd over a barricade, holding a flag, dramatic oil painting, smoke, rubble, romanticism lighting,oil painting, thick brushstrokes, romanticism painting, 19th century painting, canvas texture, dramatic chiaroscuro, crowd behind her, barricade, rubble, fallen bodies in foreground, large black flag civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473270",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7dbdd27a-dae8-42e7-9174-e6971ecf6208/original=true/7dbdd27a-dae8-42e7-9174-e6971ecf6208.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473245",
+      "title": "Civitai prompt 149473245",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,POV(upper body)(from side:1.7)(from above:1.5)\ntamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:Spacescape_(Background)_(illustrious)_(AD):0.3>Spacescape\n<lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.75>\n<lora:ursulaTheLittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,BREAK,\n late night, standing on the edge of a narrow deep black irrigation canal, about 2 meters wide, suburban outskirts of a big city, towering modern skyscrapers in the distant background, beautiful night cityscape, sparkling lights of high-rise buildings, cold late autumn atmosphere, holding a bass fishing rod, desperately struggling to reel in a hooked largemouth bass, fish leaping out of the water, heavy water splash, unexpected panty shot from below, black still water surface, no plants, no vegetation, wet clothes slightly clinging, realistic, detailed, cinematic lighting, depth of field",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473245",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5caf6831-5025-4370-8c9b-2771696cc51c/original=true/5caf6831-5025-4370-8c9b-2771696cc51c.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2521817,
+        2531839,
+        2603240,
+        2903663,
+        3478371
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 4178762131,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765113+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3276e97f495ef021fcc3b5b31494b1fc5bdc319a903ea0d9edca4b4f818b533a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149473245 architecture ai-image-prompts masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,pov(upper body)(from side:1.7)(from above:1.5) tamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:spacescape_(background)_(illustrious)_(ad):0.3>spacescape <lora:[eugene delacroix] artist style v2 illustrious:0.75> <lora:ursulathelittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,break, late night, standing on the edge of a narrow deep black irrigation canal, about 2 meters wide, suburban outskirts of a big city, towering modern skyscrapers in the distant background, beautiful night cityscape, sparkling lights of high-rise buildings, cold late autumn atmosphere, holding a bass fishing rod, desperately struggling to reel in a hooked largemouth bass, fish leaping out of the water, heavy water splash, unexpected panty shot from below, black still water surface, no plants, no vegetation, wet clothes slightly clinging, realistic, detailed, cinematic lighting, depth of field civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473245",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5caf6831-5025-4370-8c9b-2771696cc51c/original=true/5caf6831-5025-4370-8c9b-2771696cc51c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473223",
+      "title": "Civitai prompt 149473223",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,POV(upper body)(from side:1.7)(from above:1.5)\ntamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:Spacescape_(Background)_(illustrious)_(AD):0.3>Spacescape\n<lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.75>\n<lora:ursulaTheLittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,BREAK,\nscreaming,holding a machine gun, <lora:training_2060058-20260927143224569-3o3e:0.75>HydMach,machine gun, realistic,BREAK\ndramatic cinematic scene from Platoon, girl soldier in the foreground kneeling with legs spread, both arms raised high in a V shape, head tilted back, intense pose, jungle battlefield at night, massive fiery explosions in the background illuminating the sky with orange and red flames, palm trees silhouetted against the fire, thick smoke, chaotic war atmosphere, green grass in the foreground, high contrast lighting, epic movie poster style, highly detailed, realistic",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473223",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b67de80b-6cd9-4719-9868-14718b77ff03/original=true/b67de80b-6cd9-4719-9868-14718b77ff03.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2521817,
+        2531839,
+        2603240,
+        2903663,
+        3363297,
+        3478371
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 2828428967,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765130+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "739f38d62da44e0cbe58a931a670f2205137b15d6471aa9a32b4b7e1b84e967a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473223 image ai-image-prompts masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,pov(upper body)(from side:1.7)(from above:1.5) tamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:spacescape_(background)_(illustrious)_(ad):0.3>spacescape <lora:[eugene delacroix] artist style v2 illustrious:0.75> <lora:ursulathelittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,break, screaming,holding a machine gun, <lora:training_2060058-20260927143224569-3o3e:0.75>hydmach,machine gun, realistic,break dramatic cinematic scene from platoon, girl soldier in the foreground kneeling with legs spread, both arms raised high in a v shape, head tilted back, intense pose, jungle battlefield at night, massive fiery explosions in the background illuminating the sky with orange and red flames, palm trees silhouetted against the fire, thick smoke, chaotic war atmosphere, green grass in the foreground, high contrast lighting, epic movie poster style, highly detailed, realistic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473223",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b67de80b-6cd9-4719-9868-14718b77ff03/original=true/b67de80b-6cd9-4719-9868-14718b77ff03.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473216",
+      "title": "Civitai prompt 149473216",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,POV(upper body)(from side:1.7)(from above:1.5)\ntamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:Spacescape_(Background)_(illustrious)_(AD):0.3>Spacescape\n<lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.75>\n<lora:ursulaTheLittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,BREAK,\na black venetian gondola floating on a narrow canal at night, realistic gondola, ferro at the prow,black gondola hull, they are sitting inside the gondola, rope and oar, dark still canal water, reflections of windows on the water, tall weathered venetian buildings on both sides, arched windows, closed shutters, brick and peeling plaster walls, a small stone bridge in the distance, late night, deep blue night sky, warm yellow window light, a few lit lanterns, dim moonlight, soft rim light, gentle breeze, rippling water, a girl sitting in the gondola, upper body, wind in their hair and clothes, night air wrapping around the gondola, photorealistic, matte skin, natural fabric, quiet atmosphere",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473216",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a79ed3c-5aba-48e4-8f79-3974b56f053d/original=true/3a79ed3c-5aba-48e4-8f79-3974b56f053d.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2521817,
+        2531839,
+        2603240,
+        2903663,
+        3478371
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 2675514127,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765148+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "08a72afb31c0b5fedeeab2b5bd131b677d01f865cb749d5026fd667aad431a6f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473216 architecture ai-image-prompts masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,pov(upper body)(from side:1.7)(from above:1.5) tamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:spacescape_(background)_(illustrious)_(ad):0.3>spacescape <lora:[eugene delacroix] artist style v2 illustrious:0.75> <lora:ursulathelittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,break, a black venetian gondola floating on a narrow canal at night, realistic gondola, ferro at the prow,black gondola hull, they are sitting inside the gondola, rope and oar, dark still canal water, reflections of windows on the water, tall weathered venetian buildings on both sides, arched windows, closed shutters, brick and peeling plaster walls, a small stone bridge in the distance, late night, deep blue night sky, warm yellow window light, a few lit lanterns, dim moonlight, soft rim light, gentle breeze, rippling water, a girl sitting in the gondola, upper body, wind in their hair and clothes, night air wrapping around the gondola, photorealistic, matte skin, natural fabric, quiet atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473216",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a79ed3c-5aba-48e4-8f79-3974b56f053d/original=true/3a79ed3c-5aba-48e4-8f79-3974b56f053d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473198",
+      "title": "Civitai prompt 149473198",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,POV(upper body)(from side:1.7)(from above:1.5)\ntamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:Spacescape_(Background)_(illustrious)_(AD):0.3>Spacescape\n<lora:[Eugene Delacroix] Artist Style v2 Illustrious:0.75>\n<lora:ursulaTheLittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,BREAK,\n, inside a combat helicopter at midnight, girl sitting cross-legged at the open boarding hatch, both hands gripping a mounted Gatling gun ready to fire,<lora:AF_HeavyGunsPose1_ILL:0.6>holding heavy firearms, holding_weapon,BREAK bold and fearless expression, looking out over a dark battlefield below filled with black smoke and raging fires, no other people, cinematic lighting, dramatic shadows, highly detailed, intense and dangerous atmosphere",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473198",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc3ea48d-3657-4100-9eb0-39bf881f2e7b/original=true/fc3ea48d-3657-4100-9eb0-39bf881f2e7b.jpeg",
+      "model": "pornmasterPro_noobV6",
+      "model_version_ids": [
+        1094878,
+        2272652,
+        2521817,
+        2531839,
+        2603240,
+        2903663,
+        3478371
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 3619122594,
+      "negative_prompt": "(torn clothes:1.3), (ripped clothing:1.3),( tattered clothes:1.3), (damaged outfit:1.3), (torn fabric:1.3)(sheer bra:1.8), (see throgh bra:1.8),(hole in panties:1.7)(hole in bra:1.7)(extra fingers:1.5), six fingers, fused fingers,worst quality, low quality, score_1, score_2, score_3, bad quality, worst quality, worst detail,low quality, bad anatomy, deformed, blurry, (6+ fingers:1.7)(6 fingers:1.7) long neck, bad proportions, gross proportions, (mosaic:1.5), censorship, bar censor, censored, black bar, white bar, pixel censor, light censor, covered genitals, (shiny nose:1.4), (glossy nose:1.4), (oily nose:1.4), (specular highlight on nose:1.4), (nose highlight:1.4),black penis,Pregnancy, pregnant ,hands clasped behind back, hands behind back, arms behind back, hands locked behind back, man wearing hat,boy crying, tears on boy,(red bra:1.7)e(glasses on male)(man wearing glasses)(turtle shell:1.7), (carapace), (turtle carapace:1.5)\nstanding with hands behind back, formal pose, confident pose, turtle on floor,blushing male, blushing old man, red cheeks on old man, flushed face on elderly male, embarrassed oyaji, rosy cheeks on male, male with blush, old man with embarrassed expression, red-faced man, oyaji with blush, tears on male,\n(futanari:1.3), futa, girl with penis, penis girl, hermaphrodite, dickgirl, shemale, newhalf,(running makeup:1.3), smeared makeup, running mascara, running eyeshadow, smeared eyeshadow, ruined makeup, sunken cheeks, hollow cheeks, gaunt cheeks, \npuffy cheeks, chubby cheeks, bloated cheeks, (man wearing sunglasses:1.6),simultaneous scenes, two shots, three shots, montage, collage art, mixed layout, broken composition, disjointed scene, disconnected images, merged images, overlapping scenes, forced multiple poses, multiple panels, split image, two panels, side by side images, collage, diptych, triptych, multi composition, multiple compositions, picture in picture, inset image, border between images, divided frame, comic panel, manga page layout, multiple views in one image, before and after, comparison image, dual scene, split screen, two different angles, full body and close-up combined, layout, grid, storyboard, multiple characters layout, extra image frame, framed composition, white border, black border, panel lines, comic style layout, low quality composition, bad composition, worst composition, prominent cheekbones, overly defined cheekbones, \nflat cheeks, uneven cheeks, deformed cheeks,\n(completely removed uniform:1.7), (uniform completely off:1.7), bare skin everywhere,(extra girl:1.5),\nbad hands, deformed hands, mutated hands, extra fingers, fewer fingers, ,handsome,(man looking at viewer:1.4),(young boy:1.4), (handsome:1.4), slim boy, long hair boy, (under middle age boy:1.4),(male beard:1.5), male stubble, male facial hair, man with beard, \nmale piercing, man piercing, male earrings, man earrings, sepia,man with glasses,\nmale jewelry, man jewelry, male necklace, male bracelet, male ring, \nmiddle-aged man with piercing, old man with earrings, \nmasculine jewelry, man accessory\nbra over clothes, bra outside suit, bra on top of jacket, bra worn over pantsuit, bra over clothing,\ndistorted mouth, puffed cheeks, bulging cheeks, weird mouth, stretched mouth, unnatural mouth shape, blowjob face, oral distortion, open mouth during fellatio, \nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, \ntext, watermark, signature, logo,\nbad teeth, yellow teeth, sharp fangs, crooked teeth, \npoorly drawn face, poorly drawn eyes, mutated eyes, \nglossy skin, shiny skin, plastic texture, western interiors, \ntext, watermark, signature, logo,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765163+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2fbe590f31cbd315b09195456769a990ce2c23485c73a63eaeafa739a3a1ad9f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473198 image ai-image-prompts masterpiece,best quality,amazing quality,highres,aesthetic, absurdres,depth of field,pov(upper body)(from side:1.7)(from above:1.5) tamiyaakito_style,<lora:tamiyaakito:0.25><lora:mai_head-mounted_display:0.45><lora:spacescape_(background)_(illustrious)_(ad):0.3>spacescape <lora:[eugene delacroix] artist style v2 illustrious:0.75> <lora:ursulathelittle_v1:0.85> 1girl, solo,tlmursla, scylla female, octopus female, solo, chubby, light purple skin, light blue skin, black eyes, short white hair, short permed white hair, one mole under mouth, blue eyeshadow, yellow necklace, yellow pendant, purple earrings, black strapless dress, cleavage, ,break, , inside a combat helicopter at midnight, girl sitting cross-legged at the open boarding hatch, both hands gripping a mounted gatling gun ready to fire,<lora:af_heavygunspose1_ill:0.6>holding heavy firearms, holding_weapon,break bold and fearless expression, looking out over a dark battlefield below filled with black smoke and raging fires, no other people, cinematic lighting, dramatic shadows, highly detailed, intense and dangerous atmosphere civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473198",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc3ea48d-3657-4100-9eb0-39bf881f2e7b/original=true/fc3ea48d-3657-4100-9eb0-39bf881f2e7b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149473166",
+      "title": "Civitai prompt 149473166",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A young woman with a high ponytail stands in profile against a dark, graffiti-splashed wall, her hair glowing with electric streaks of cyan and tangerine as if lit from within. She wears a faded black t-shirt with a teal graphic, slightly rumpled and dusted with glowing particles that cling to her skin and collarbone. Her face is softly illuminated by the ambient neon, casting subtle shadows and catching a few tiny, dangling earrings that shimmer like dew. Behind her, vibrant spray-painted tags in pink, teal, and burnt orange drip down the surface, while a warm orange neon outline frames the background, adding depth and contrast. The composition is intimate and cinematic, framing her from the shoulders up in a tight medium close-up that emphasizes her contemplative gaze into the dim distance. The entire scene is bathed in a cool-toned cyberpunk glow, blending street art grit with ethereal luminescence, rendered in a hyper-detailed, semi-realistic style that feels both grounded and otherworldly.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149473166",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab/original=true/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab.jpeg",
+      "model": "divingKrea2_photoV10Bf16_nvfp4",
+      "model_version_ids": [
+        3066073,
+        3067659,
+        3068969,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 222450712,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-18T22:37:34.765213+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b56d1e1b81b930216b50d402c38a72f7f14219701339cdeaf866448b1a5bb888",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149473166 image ai-image-prompts a young woman with a high ponytail stands in profile against a dark, graffiti-splashed wall, her hair glowing with electric streaks of cyan and tangerine as if lit from within. she wears a faded black t-shirt with a teal graphic, slightly rumpled and dusted with glowing particles that cling to her skin and collarbone. her face is softly illuminated by the ambient neon, casting subtle shadows and catching a few tiny, dangling earrings that shimmer like dew. behind her, vibrant spray-painted tags in pink, teal, and burnt orange drip down the surface, while a warm orange neon outline frames the background, adding depth and contrast. the composition is intimate and cinematic, framing her from the shoulders up in a tight medium close-up that emphasizes her contemplative gaze into the dim distance. the entire scene is bathed in a cool-toned cyberpunk glow, blending street art grit with ethereal luminescence, rendered in a hyper-detailed, semi-realistic style that feels both grounded and otherworldly. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149473166",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab/original=true/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-18T11:58:00.756312+00:00",
-  "prompt_count": 3053,
+  "generated_at": "2026-11-18T22:37:44.050367+00:00",
+  "prompt_count": 3084,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 2933,
-    "failed_count": 120,
-    "updated_at": "2026-11-18T11:57:59Z"
+    "failed_count": 151,
+    "updated_at": "2026-11-18T22:37:43Z"
   }
 }
