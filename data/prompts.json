@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -140877,15 +140877,1023 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab/original=true/9d7b7e84-5cc0-49dc-bfa4-8428c78a9cab.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149529566",
+      "title": "Civitai prompt 149529566",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4K, whimsical cinematic composition, a gigantic oversized chibi Darth Vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, Darth Vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on Darth Vader, skateboard and toilet, (toilet:1.5), (Pizza:1.6), (humor:1), (skate board:1.6)",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529566",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbcc22e7-07bb-4ec1-a504-45d0d42dd333/original=true/bbcc22e7-07bb-4ec1-a504-45d0d42dd333.jpeg",
+      "model_version_ids": [
+        354657,
+        639240
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1783213096,
+      "negative_prompt": "batman, human skin, realistic flesh, ordinary plastic objects, metal skateboard, floating disconnected wheels, missing skateboard, invisible toilet, distorted helmet, incorrect Darth Vader mask, extra limbs, extra wheels, duplicated objects, blurry details, low resolution, flat lighting, messy composition, cropped character, cropped skateboard, poorly defined toilet, text, watermark, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391773+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "13eae229181a783cb0a57e125d762983635129e8abb46fec4399bc16a8d1ee20",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529566 architecture ai-image-prompts w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4k, whimsical cinematic composition, a gigantic oversized chibi darth vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, darth vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on darth vader, skateboard and toilet, (toilet:1.5), (pizza:1.6), (humor:1), (skate board:1.6) civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529566",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bbcc22e7-07bb-4ec1-a504-45d0d42dd333/original=true/bbcc22e7-07bb-4ec1-a504-45d0d42dd333.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529490",
+      "title": "Civitai prompt 149529490",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra-detailed, 8k raw photo, \nstunningly beautiful East Asian woman, delicate elegant face, fair skin, subtle makeup with red lips, black hair in classic updo, \nwearing sheer luxurious traditional Chinese qipao: intricate red embroidered dress with gold and blue details, sheer overlay, sheer wide embroidered sleeves, \nextremely ornate black phoenix headdress with large red and white flowers, pearls and tassels, \nholding a delicate traditional fan, graceful standing pose with hands gently holding fan, slight head tilt, \nopulent traditional Chinese interior background with carved wooden screens, red plum blossom branches, soft blue smoke and dramatic volumetric lighting, cinematic atmosphere, highly detailed fabric embroidery and jewelry",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529490",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59aeeca7-e456-4b81-8e05-c443a8a5045d/original=true/59aeeca7-e456-4b81-8e05-c443a8a5045d.jpeg",
+      "model": "moss_image_sft_int8_convrot",
+      "model_version_ids": [],
+      "width": 1184,
+      "height": 1776,
+      "seed": 75813739571263,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391811+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6b6ecd7a941bfe1b82060966a57f239ddbe392af6e8232a961e9a92e4b5c15ac",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529490 architecture ai-image-prompts masterpiece, best quality, ultra-detailed, 8k raw photo, stunningly beautiful east asian woman, delicate elegant face, fair skin, subtle makeup with red lips, black hair in classic updo, wearing sheer luxurious traditional chinese qipao: intricate red embroidered dress with gold and blue details, sheer overlay, sheer wide embroidered sleeves, extremely ornate black phoenix headdress with large red and white flowers, pearls and tassels, holding a delicate traditional fan, graceful standing pose with hands gently holding fan, slight head tilt, opulent traditional chinese interior background with carved wooden screens, red plum blossom branches, soft blue smoke and dramatic volumetric lighting, cinematic atmosphere, highly detailed fabric embroidery and jewelry civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529490",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59aeeca7-e456-4b81-8e05-c443a8a5045d/original=true/59aeeca7-e456-4b81-8e05-c443a8a5045d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529503",
+      "title": "Civitai prompt 149529503",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4K, whimsical cinematic composition, a gigantic oversized chibi Darth Vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, Darth Vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on Darth Vader, skateboard and toilet, (toilet:1.5), (Pizza:1.6), (humor:1)",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529503",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a629e66-2c42-4a03-882f-53493ae08e18/original=true/1a629e66-2c42-4a03-882f-53493ae08e18.jpeg",
+      "model_version_ids": [
+        354657,
+        639240
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1469592176,
+      "negative_prompt": "batman, human skin, realistic flesh, ordinary plastic objects, metal skateboard, floating disconnected wheels, missing skateboard, invisible toilet, distorted helmet, incorrect Darth Vader mask, extra limbs, extra wheels, duplicated objects, blurry details, low resolution, flat lighting, messy composition, cropped character, cropped skateboard, poorly defined toilet, text, watermark, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391826+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "400f52232a33917959fdd1fbb7fcb6b0a90d9fe123a9702c12351cd393207f48",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529503 architecture ai-image-prompts w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4k, whimsical cinematic composition, a gigantic oversized chibi darth vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, darth vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on darth vader, skateboard and toilet, (toilet:1.5), (pizza:1.6), (humor:1) civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529503",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a629e66-2c42-4a03-882f-53493ae08e18/original=true/1a629e66-2c42-4a03-882f-53493ae08e18.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529367",
+      "title": "Civitai prompt 149529367",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Breathtaking fine art editorial photography, an extraordinarily beautiful woman with flowing dark hair, luminous eyes, elegant facial features and a powerful unwavering gaze, intimate cinematic portrait. She wears a minimalist black sculptural dress with subtle golden jewelry. A translucent wall of smoky glass separates her from the viewer, fractured into delicate branching cracks, while her face remains completely untouched and flawless. Brilliant orange light bursts through the fractures, illuminating her face with radiant amber highlights and casting intricate reflections across her skin. One hand rests gently against the glass, fingers gracefully extended, her expression confident, composed and fearless. Deep charcoal background, glowing orange particles suspended in darkness, sophisticated chiaroscuro, rich cinematic shadows, stunning light refraction, luxurious high fashion photography, exceptional realistic textures, dramatic visual storytelling through symbolism, strong emotional presence. Elegant vertical poster composition with generous negative space. Large perfectly readable ivory headline at the top: \"Orange the World 2026\". Directly underneath, smaller elegant orange typography: \"Art for Dignity\". Only these two text elements, no logos, no graphic violence. <lora:HollowlightCinematicDreamRealism:0.75>,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529367",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc/original=true/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [
+        3072332,
+        3461031
+      ],
+      "width": 1416,
+      "height": 1824,
+      "seed": 2099353514,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391840+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ed2efb71cc2e51889c2f9f17550e94e9205bbc26efaff9b18f717bff7475b073",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149529367 fashion ai-image-prompts breathtaking fine art editorial photography, an extraordinarily beautiful woman with flowing dark hair, luminous eyes, elegant facial features and a powerful unwavering gaze, intimate cinematic portrait. she wears a minimalist black sculptural dress with subtle golden jewelry. a translucent wall of smoky glass separates her from the viewer, fractured into delicate branching cracks, while her face remains completely untouched and flawless. brilliant orange light bursts through the fractures, illuminating her face with radiant amber highlights and casting intricate reflections across her skin. one hand rests gently against the glass, fingers gracefully extended, her expression confident, composed and fearless. deep charcoal background, glowing orange particles suspended in darkness, sophisticated chiaroscuro, rich cinematic shadows, stunning light refraction, luxurious high fashion photography, exceptional realistic textures, dramatic visual storytelling through symbolism, strong emotional presence. elegant vertical poster composition with generous negative space. large perfectly readable ivory headline at the top: \"orange the world 2026\". directly underneath, smaller elegant orange typography: \"art for dignity\". only these two text elements, no logos, no graphic violence. <lora:hollowlightcinematicdreamrealism:0.75>, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529367",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc/original=true/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529378",
+      "title": "Civitai prompt 149529378",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A film projector carved entirely from hardwood, flowing polished wood grain across the housing and reel arms, warm honey and chestnut timber tones, carved detailing around the lens and vents, wood knots swirling on the base, glossy varnish reflecting the light, dark mahogany accents on the reels, the whole form reading as one continuous sculpted wood texture, vintage cinema concept art, highly detailed.",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529378",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4bcd59b0-40ed-4bb2-9a66-cb07310fa856/original=true/4bcd59b0-40ed-4bb2-9a66-cb07310fa856.jpeg",
+      "model_version_ids": [
+        128078,
+        639240
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 787609474,
+      "negative_prompt": "scales, flesh, biological skin, metal, plastic, flat lighting, blurry, low resolution",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391849+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a810879d58a7f8af2c6fb63eb59fcc96391caca43a5c845b9fcf37393e7091b0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529378 image ai-image-prompts a film projector carved entirely from hardwood, flowing polished wood grain across the housing and reel arms, warm honey and chestnut timber tones, carved detailing around the lens and vents, wood knots swirling on the base, glossy varnish reflecting the light, dark mahogany accents on the reels, the whole form reading as one continuous sculpted wood texture, vintage cinema concept art, highly detailed. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529378",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4bcd59b0-40ed-4bb2-9a66-cb07310fa856/original=true/4bcd59b0-40ed-4bb2-9a66-cb07310fa856.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529379",
+      "title": "Civitai prompt 149529379",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vintage camera carved entirely from hardwood, flowing polished wood grain across the body and lens barrel, warm amber timber tones on the grip, carved detailing around the shutter and viewfinder, natural wood knots interrupting the grain on the back, glossy varnish catching highlights, dark walnut accents on the strap lugs, the whole form reading as one continuous sculpted wood texture, retro photography concept art, highly detailed",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529379",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a2cf209-ee6d-4283-8dcb-6702d3e36cab/original=true/7a2cf209-ee6d-4283-8dcb-6702d3e36cab.jpeg",
+      "model_version_ids": [
+        128078,
+        639240
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 475679857,
+      "negative_prompt": "scales, flesh, biological skin, metal, plastic, flat lighting, blurry, low resolution",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391856+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1225fb386f000bcf8262ad761cba31c7acf9afa698e3b23db79fa3053779e4b3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529379 image ai-image-prompts a vintage camera carved entirely from hardwood, flowing polished wood grain across the body and lens barrel, warm amber timber tones on the grip, carved detailing around the shutter and viewfinder, natural wood knots interrupting the grain on the back, glossy varnish catching highlights, dark walnut accents on the strap lugs, the whole form reading as one continuous sculpted wood texture, retro photography concept art, highly detailed civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529379",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a2cf209-ee6d-4283-8dcb-6702d3e36cab/original=true/7a2cf209-ee6d-4283-8dcb-6702d3e36cab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529255",
+      "title": "Civitai prompt 149529255",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A hyper-realistic digital portrait of a woman in profile facing right, her eyes gently closed as she holds a glowing, multifaceted diamond between her outstretched fingers. Her long, flowing hair is a blend of silvery white and warm golden-brown strands that drift like smoke to the left side of the frame, interwoven with a large, radiant sunflower and smaller star-shaped blooms. She wears delicate, tassel-like earrings that catch the light, while her skin remains smooth and luminous, dusted with fine, sparkling particles that suggest magic or stardust. The background is a deep, velvety cosmic blue-black, speckled with distant stars and nebulous clouds, creating a sense of infinite space behind her. Warm, ethereal lighting emanates from the diamond and her hair, casting a golden glow across her face and shoulders. In the lower left foreground, intricate, leafy branches made of shimmering gold and cream curl around her shoulder, adding texture and framing her form. A tiny, translucent butterfly flutters near her fingertips on the right. The composition is intimate and centered, with a shallow depth of field that keeps her face sharp while softly blurring the celestial backdrop. The overall color palette balances cool midnight blues with intense, fiery ambers and creams, creating a dreamlike, otherworldly atmosphere.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529255",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec57f07a-8d3b-49ef-96a7-42e0dcd75bbd/original=true/ec57f07a-8d3b-49ef-96a7-42e0dcd75bbd.jpeg",
+      "model_version_ids": [],
+      "width": 1536,
+      "height": 1536,
+      "seed": 999,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391871+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1316af432aa11d1d443f26fd5c33e9cb7a639b65a3a49c8a080898c2e92a7f00",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149529255 image ai-image-prompts a hyper-realistic digital portrait of a woman in profile facing right, her eyes gently closed as she holds a glowing, multifaceted diamond between her outstretched fingers. her long, flowing hair is a blend of silvery white and warm golden-brown strands that drift like smoke to the left side of the frame, interwoven with a large, radiant sunflower and smaller star-shaped blooms. she wears delicate, tassel-like earrings that catch the light, while her skin remains smooth and luminous, dusted with fine, sparkling particles that suggest magic or stardust. the background is a deep, velvety cosmic blue-black, speckled with distant stars and nebulous clouds, creating a sense of infinite space behind her. warm, ethereal lighting emanates from the diamond and her hair, casting a golden glow across her face and shoulders. in the lower left foreground, intricate, leafy branches made of shimmering gold and cream curl around her shoulder, adding texture and framing her form. a tiny, translucent butterfly flutters near her fingertips on the right. the composition is intimate and centered, with a shallow depth of field that keeps her face sharp while softly blurring the celestial backdrop. the overall color palette balances cool midnight blues with intense, fiery ambers and creams, creating a dreamlike, otherworldly atmosphere. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529255",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec57f07a-8d3b-49ef-96a7-42e0dcd75bbd/original=true/ec57f07a-8d3b-49ef-96a7-42e0dcd75bbd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529209",
+      "title": "Civitai prompt 149529209",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic fantasy scene rendered in a hyper-detailed, painterly digital art style featuring a female warrior riding a massive, dragonfly-like insect through a misty desert landscape. The rider is positioned centrally, leaning forward with her body angled toward the viewer's right, wearing a flowing, translucent light blue hooded cloak that billows dramatically behind her to the left. Her attire consists of textured, silver-toned armor covering her arms and torso, paired with loose, pale fabric trousers that drape over the creature's legs. She grips two curved, metallic swords, one held low near her waist and the other extended outward. The mount is an enormous arthropod with a segmented, pale grey exoskeleton, large bulbous compound eyes, and six spindly legs ending in sharp claws; its wings are vast, dark, and veined like stained glass, spanning wide on either side. The setting is a vast, golden-hued desert with rippled sand dunes in the immediate foreground and jagged, hazy rock formations rising in the background. Soft, diffused sunlight filters down from above, creating a dreamlike atmosphere with a shallow depth of field that blurs the distant mountains. The color palette is dominated by warm ochres and soft blues, blending the cool tones of the rider against the warm earth below.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529209",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92193d2c-3b32-4fc6-82a9-5a7913468207/original=true/92193d2c-3b32-4fc6-82a9-5a7913468207.jpeg",
+      "model_version_ids": [],
+      "width": 1536,
+      "height": 1536,
+      "seed": 999,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391885+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5bf7add1ddc42d8275992f369e376103c676d38cf7a581c89c4c42f9cd0b14ce",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149529209 photography ai-image-prompts a cinematic fantasy scene rendered in a hyper-detailed, painterly digital art style featuring a female warrior riding a massive, dragonfly-like insect through a misty desert landscape. the rider is positioned centrally, leaning forward with her body angled toward the viewer's right, wearing a flowing, translucent light blue hooded cloak that billows dramatically behind her to the left. her attire consists of textured, silver-toned armor covering her arms and torso, paired with loose, pale fabric trousers that drape over the creature's legs. she grips two curved, metallic swords, one held low near her waist and the other extended outward. the mount is an enormous arthropod with a segmented, pale grey exoskeleton, large bulbous compound eyes, and six spindly legs ending in sharp claws; its wings are vast, dark, and veined like stained glass, spanning wide on either side. the setting is a vast, golden-hued desert with rippled sand dunes in the immediate foreground and jagged, hazy rock formations rising in the background. soft, diffused sunlight filters down from above, creating a dreamlike atmosphere with a shallow depth of field that blurs the distant mountains. the color palette is dominated by warm ochres and soft blues, blending the cool tones of the rider against the warm earth below. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529209",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92193d2c-3b32-4fc6-82a9-5a7913468207/original=true/92193d2c-3b32-4fc6-82a9-5a7913468207.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529140",
+      "title": "Civitai prompt 149529140",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hyper-realistic 3D animated scene features a large anthropomorphic ant driver with massive compound eyes and a wide, joyful grin revealing rows of sharp white teeth and a pink tongue. The driver grips a worn brown leather steering wheel with its front legs while seated in the driver's seat of a vintage convertible, displaying a look of pure exhilaration. Behind the main subject sits a smaller, similarly styled ant passenger smiling broadly on the left side, both figures rendered with glossy exoskeletons that catch the light. The car's interior showcases plush tan leather upholstery with vertical stitching, creating a cozy cockpit feel against the dynamic exterior. The vehicle speeds along a blurred highway under a golden sunset sky where streaks of orange and soft clouds blend into the horizon, suggesting high velocity and freedom. Warm sunlight bathes the scene from the right, casting gentle highlights on the ants' shells and the chrome trim of the car's frame to enhance the metallic sheen. The camera is positioned at a low angle from the front-left, emphasizing the driver's expressive face and creating a sense of motion through dynamic background blur. The color palette radiates warmth with rich browns, tans, and metallic silvers contrasted against the amber glow of the setting sun, all rendered with cinematic depth of field that keeps the foreground sharp while melting the distant road into soft motion lines.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529140",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48167ce2-e0c2-4059-944c-7a7849a02990/original=true/48167ce2-e0c2-4059-944c-7a7849a02990.jpeg",
+      "model_version_ids": [],
+      "width": 1536,
+      "height": 1536,
+      "seed": 999,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391900+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8f89788e7c8340f3af9d7f5473c9d6a56a66495cd3ace372e4c3c8278d681001",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529140 architecture ai-image-prompts a hyper-realistic 3d animated scene features a large anthropomorphic ant driver with massive compound eyes and a wide, joyful grin revealing rows of sharp white teeth and a pink tongue. the driver grips a worn brown leather steering wheel with its front legs while seated in the driver's seat of a vintage convertible, displaying a look of pure exhilaration. behind the main subject sits a smaller, similarly styled ant passenger smiling broadly on the left side, both figures rendered with glossy exoskeletons that catch the light. the car's interior showcases plush tan leather upholstery with vertical stitching, creating a cozy cockpit feel against the dynamic exterior. the vehicle speeds along a blurred highway under a golden sunset sky where streaks of orange and soft clouds blend into the horizon, suggesting high velocity and freedom. warm sunlight bathes the scene from the right, casting gentle highlights on the ants' shells and the chrome trim of the car's frame to enhance the metallic sheen. the camera is positioned at a low angle from the front-left, emphasizing the driver's expressive face and creating a sense of motion through dynamic background blur. the color palette radiates warmth with rich browns, tans, and metallic silvers contrasted against the amber glow of the setting sun, all rendered with cinematic depth of field that keeps the foreground sharp while melting the distant road into soft motion lines. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529140",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48167ce2-e0c2-4059-944c-7a7849a02990/original=true/48167ce2-e0c2-4059-944c-7a7849a02990.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529296",
+      "title": "Civitai prompt 149529296",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "A bright, studio-lit comedic courtroom scene sculpted 100% from polished, glossy-varnished hardwood. In the center foreground, a massive Tyrannosaurus Rex carved from rich reddish-brown mahogany—with wide-open jaws in an exaggerated roar, expressive carved wooden eyes, visible flowing wood grain, and natural wood knots—sits awkwardly on an oversized, intricately chiselled oak toilet, holding a slice of carved wood pepperoni pizza in its tiny wooden claws. Standing beside a carved walnut podium on the right is a sharp-suited lawyer sculpted from chestnut and light maple marquetry, pointing dramatically at a whole carved wooden pizza resting on the bench next to a tiny golden-pine rubber duck gavel. The entire courtroom, judge's bench, and panelled walls are crafted from warm amber, honey, and dark walnut timber with crisp chiselled detailing and a lustrous three-coat lacquered sheen, with zero non-wood materials.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529296",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e48306c4-4cae-4eb4-97e7-815bd5e4427d/original=true/e48306c4-4cae-4eb4-97e7-815bd5e4427d.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:2572672@3047344",
+      "model_version_ids": [
+        639240,
+        3047344
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 896354366,
+      "negative_prompt": "nsfw, nude",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391917+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "98a74d0c4d8707c60d1309c363dfa32104d2d879e3aeea5493802ece8656c406",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149529296 food ai-image-prompts a bright, studio-lit comedic courtroom scene sculpted 100% from polished, glossy-varnished hardwood. in the center foreground, a massive tyrannosaurus rex carved from rich reddish-brown mahogany—with wide-open jaws in an exaggerated roar, expressive carved wooden eyes, visible flowing wood grain, and natural wood knots—sits awkwardly on an oversized, intricately chiselled oak toilet, holding a slice of carved wood pepperoni pizza in its tiny wooden claws. standing beside a carved walnut podium on the right is a sharp-suited lawyer sculpted from chestnut and light maple marquetry, pointing dramatically at a whole carved wooden pizza resting on the bench next to a tiny golden-pine rubber duck gavel. the entire courtroom, judge's bench, and panelled walls are crafted from warm amber, honey, and dark walnut timber with crisp chiselled detailing and a lustrous three-coat lacquered sheen, with zero non-wood materials. civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529296",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e48306c4-4cae-4eb4-97e7-815bd5e4427d/original=true/e48306c4-4cae-4eb4-97e7-815bd5e4427d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529295",
+      "title": "Civitai prompt 149529295",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "A bright, studio-lit comedic sculpture carved 100% from polished, glossy-varnished hardwood. In the center foreground, a chubby, lathe-turned wild boar sculpted from warm honey pine—with wide, comical wooden bead eyes, a deeply wrinkled snout, an exaggerated toothy grin, and a checkered marquetry lumberjack shirt inlaid from light maple and dark walnut squares—sits at a round oak table. Both wooden hooves grip a carved hickory hatchet raised enthusiastically over a whole pepperoni pizza sculpted from contrasting pale birch, amber pine, and dark cherry wood. The background is a bright, softly lit pale maple and cream birch workshop wall with a clean dark-walnut sign reading \"SLICE OF OAK\" in crisp carved letters. Flowing wood grain lines, swirling wood knots, sharp chiselled details, and a lustrous three-coat glossy varnish cover every single surface, captured with a sharp 50mm lens and zero non-wood elements.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529295",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af24bfcc-46d2-4715-8449-33caf88a36f1/original=true/af24bfcc-46d2-4715-8449-33caf88a36f1.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:2572672@3047344",
+      "model_version_ids": [
+        639240,
+        3047344
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1858608634,
+      "negative_prompt": "nsfw, nude",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391933+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9b7a344424ad8d440440f4d033418146351a17837f444c8a58a945e65f4eedfc",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149529295 image ai-image-prompts a bright, studio-lit comedic sculpture carved 100% from polished, glossy-varnished hardwood. in the center foreground, a chubby, lathe-turned wild boar sculpted from warm honey pine—with wide, comical wooden bead eyes, a deeply wrinkled snout, an exaggerated toothy grin, and a checkered marquetry lumberjack shirt inlaid from light maple and dark walnut squares—sits at a round oak table. both wooden hooves grip a carved hickory hatchet raised enthusiastically over a whole pepperoni pizza sculpted from contrasting pale birch, amber pine, and dark cherry wood. the background is a bright, softly lit pale maple and cream birch workshop wall with a clean dark-walnut sign reading \"slice of oak\" in crisp carved letters. flowing wood grain lines, swirling wood knots, sharp chiselled details, and a lustrous three-coat glossy varnish cover every single surface, captured with a sharp 50mm lens and zero non-wood elements. civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529295",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af24bfcc-46d2-4715-8449-33caf88a36f1/original=true/af24bfcc-46d2-4715-8449-33caf88a36f1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529254",
+      "title": "Civitai prompt 149529254",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4K, whimsical cinematic composition, a gigantic oversized chibi Darth Vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, Darth Vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on Darth Vader, skateboard and toilet",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529254",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3df65bb7-7a4f-4ba5-97fa-3795426d03fc/original=true/3df65bb7-7a4f-4ba5-97fa-3795426d03fc.jpeg",
+      "model_version_ids": [
+        354657,
+        639240
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 457327615,
+      "negative_prompt": "batman, human skin, realistic flesh, ordinary plastic objects, metal skateboard, floating disconnected wheels, missing skateboard, invisible toilet, distorted helmet, incorrect Darth Vader mask, extra limbs, extra wheels, duplicated objects, blurry details, low resolution, flat lighting, messy composition, cropped character, cropped skateboard, poorly defined toilet, text, watermark, logo",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391943+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a583d6c9da756eed3b3ee28e57a7d34b30e230ca9d85749b99a19ef978585561",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529254 architecture ai-image-prompts w0_o8_w2-enhanced-style, surreal fantasy art, extraordinary craftsmanship, masterpiece, ultra-detailed 4k, whimsical cinematic composition, a gigantic oversized chibi darth vader with a distinctive glossy black helmet and iconic dark armor, entirely sculpted from richly textured exotic hardwood, sitting confidently on a magnificent flying wooden toilet with intricately carved details, riding a wooden skateboard attached beneath the toilet, four clearly visible skateboard wheels, dynamic airborne pose above a fantastical wooden city, darth vader holding a delicious slice of pizza, comically relaxed posture, flowing wooden cape, elaborate carved wooden architecture, spectacular helicopter-inspired toilet design with decorative wooden wings, every element crafted from different types of polished hardwood, intricate natural wood grain patterns, sculpted organic textures, warm walnut, mahogany and amber tones, glossy varnished surfaces, magical atmosphere, incredible miniature details, dramatic cinematic lighting, surreal artistic masterpiece, highly imaginative wooden fantasy universe, visually striking composition, sharp focus on darth vader, skateboard and toilet civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529254",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3df65bb7-7a4f-4ba5-97fa-3795426d03fc/original=true/3df65bb7-7a4f-4ba5-97fa-3795426d03fc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529251",
+      "title": "Civitai prompt 149529251",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "s1_dram, masterpiece, best quality, absurdres, high detail, (traditional media, impressionist:1.5) , depth of field, blurry background, light particles, dust particles,(lineless:1.4),\n\n1girl, cute, beauty, gorgeous, gothic Girl, steel earrings, ginger hair, Green tank top, bare shoulders, freckles, body freckles, short hair, hair over one eye, tilted head, green eyes, lips parted, hand on cheek, bored expression, crossed arms, leaning on a bar, tattooed neck, eyeshadow, glossy red lips, Dynamic shot,eye_focus, buzz pls, speech bubble",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529251",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/665fc223-5a47-4c9c-b70e-f551f1d3d88c/original=true/665fc223-5a47-4c9c-b70e-f551f1d3d88c.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:1162518@1714002",
+      "model_version_ids": [
+        1468284,
+        1714002,
+        1732488,
+        2209882,
+        3432055
+      ],
+      "width": 1248,
+      "height": 1824,
+      "seed": 690639787,
+      "negative_prompt": "(Anime, illustration, big eyes, cartoon:1.5), worst quality, low quality, displeasing, text, watermark, bad anatomy, artist name, signature, hearts, deformed hands, missing finger, shiny skin",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391952+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7fb3b6229210a187dd0a17aee945d910888a0cb6d9baed928aecb2674f94a575",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149529251 image ai-image-prompts s1_dram, masterpiece, best quality, absurdres, high detail, (traditional media, impressionist:1.5) , depth of field, blurry background, light particles, dust particles,(lineless:1.4), 1girl, cute, beauty, gorgeous, gothic girl, steel earrings, ginger hair, green tank top, bare shoulders, freckles, body freckles, short hair, hair over one eye, tilted head, green eyes, lips parted, hand on cheek, bored expression, crossed arms, leaning on a bar, tattooed neck, eyeshadow, glossy red lips, dynamic shot,eye_focus, buzz pls, speech bubble civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529251",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/665fc223-5a47-4c9c-b70e-f551f1d3d88c/original=true/665fc223-5a47-4c9c-b70e-f551f1d3d88c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529231",
+      "title": "Civitai prompt 149529231",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a single sculpture of a classic 1970s cathode-ray television set with rabbit-ear antennae, displayed in an isometric view of a three-dimensional icon 3d sculpture. Both the outer cabinet and the curved screen face are rendered as a continuous sculpted wood texture with flowing polished wood grain and warm timber tones. Fine carved detailing forms the tuning dials and speaker grille, accented by deep walnut dark wood accents and swirling wood knots under a high-sheen glossy varnish. A surreal photographic replica displaying Minimalism (icon) lines and h4rdw0od hrdwdaf TOK details, unreal engine style ray-traced lighting, 8k resolution",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529231",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9032ec3-fdc5-4143-9406-32fca9d8bab1/original=true/d9032ec3-fdc5-4143-9406-32fca9d8bab1.jpeg",
+      "model_version_ids": [
+        274855,
+        342443,
+        505488,
+        630664,
+        639240,
+        641022,
+        760930,
+        1788213,
+        2227834,
+        3083739
+      ],
+      "width": 512,
+      "height": 512,
+      "seed": 487713588,
+      "negative_prompt": "white background++, bad_prompt++, bad tail, long neck, nipple, bust, exposed breasts, nsfw, clutter, signature, logo, gibberish, bad text, verybadimagenegative_v1.3++, bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, distorted, ugly, wrong proportions, watermark, image artifacts, bad-artist++, lowres, jpeg artifacts, deformed, noisy image, deformation, corrupt image, cropped body parts, deformed hands, deformed legs, deformed body, FastNegative++, cropped out, cropped, cropping, male genitals, big head, oversized head, distorted, wrong proportions, deformed feet, deformed arms, photo, greyscale. solid black. painting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391961+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0837486b78ab0e1d283b51ce9b801ec5cc53b3391cc6a087c5c62f2b2f1bbd14",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529231 image ai-image-prompts a single sculpture of a classic 1970s cathode-ray television set with rabbit-ear antennae, displayed in an isometric view of a three-dimensional icon 3d sculpture. both the outer cabinet and the curved screen face are rendered as a continuous sculpted wood texture with flowing polished wood grain and warm timber tones. fine carved detailing forms the tuning dials and speaker grille, accented by deep walnut dark wood accents and swirling wood knots under a high-sheen glossy varnish. a surreal photographic replica displaying minimalism (icon) lines and h4rdw0od hrdwdaf tok details, unreal engine style ray-traced lighting, 8k resolution civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529231",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9032ec3-fdc5-4143-9406-32fca9d8bab1/original=true/d9032ec3-fdc5-4143-9406-32fca9d8bab1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529143",
+      "title": "Civitai prompt 149529143",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, 1girl, solo, twin tails, brown hair, amber eyes, safe, playful smile, wink, carpenter, carved wood overalls, sculpted wood texture, polished wood grain, warm timber tones, chestnut and amber wood, dark wood accents, carved detailing, wood knots, glossy varnish, holding wooden mallet, wooden rubber duck on workbench, wood shavings, woodworking studio, hardwood flooring, sunbeams, rim lighting, depth of field, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529143",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22ebcf27-6929-4fba-bcd6-0b7b38923e48/original=true/22ebcf27-6929-4fba-bcd6-0b7b38923e48.jpeg",
+      "model_version_ids": [
+        639240,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1605468630,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry, cloth, soft fabric, school uniform, metal, steel, matte finish, flat color",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391968+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2dad3e3e2751cef02ead2e2c88ba3fa9f7796a05e8d0ce7266cddfcfafcc5c5b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529143 image ai-image-prompts hrdwdaf, wood, wooden, 1girl, solo, twin tails, brown hair, amber eyes, safe, playful smile, wink, carpenter, carved wood overalls, sculpted wood texture, polished wood grain, warm timber tones, chestnut and amber wood, dark wood accents, carved detailing, wood knots, glossy varnish, holding wooden mallet, wooden rubber duck on workbench, wood shavings, woodworking studio, hardwood flooring, sunbeams, rim lighting, depth of field, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529143",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22ebcf27-6929-4fba-bcd6-0b7b38923e48/original=true/22ebcf27-6929-4fba-bcd6-0b7b38923e48.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529138",
+      "title": "Civitai prompt 149529138",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, wearing (armor carved from hardwood:1.4), (sculpted wood texture:1.3), (polished wood grain:1.3), flowing grain lines, (warm timber tones:1.3), amber and honey oak, (dark wood accents:1.3), walnut and mahogany pauldrons, (carved detailing:1.3), chiselled edges, (wood knots:1.2), (glossy varnish:1.3), lacquered sheen, holding a carved wooden rubber duck, woodworking workshop, timber walls, warm lighting, rim light, depth of field, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529138",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77b6988c-70ae-4aa0-96ad-fdc7a5bceccf/original=true/77b6988c-70ae-4aa0-96ad-fdc7a5bceccf.jpeg",
+      "model_version_ids": [
+        639240,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 121645239,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry, cloth, soft fabric, school uniform, metal, steel, matte finish, flat color",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391976+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7b28fe6d2fd9c91b46af0fc618b2c0ce238b19c5dc010b98556b3fdcf8cac097",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529138 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, wearing (armor carved from hardwood:1.4), (sculpted wood texture:1.3), (polished wood grain:1.3), flowing grain lines, (warm timber tones:1.3), amber and honey oak, (dark wood accents:1.3), walnut and mahogany pauldrons, (carved detailing:1.3), chiselled edges, (wood knots:1.2), (glossy varnish:1.3), lacquered sheen, holding a carved wooden rubber duck, woodworking workshop, timber walls, warm lighting, rim light, depth of field, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529138",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77b6988c-70ae-4aa0-96ad-fdc7a5bceccf/original=true/77b6988c-70ae-4aa0-96ad-fdc7a5bceccf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529136",
+      "title": "Civitai prompt 149529136",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, wearing (armor carved from hardwood:1.4), (sculpted wood texture:1.3), (polished wood grain:1.3), flowing grain lines, (warm timber tones:1.3), amber and honey oak, (dark wood accents:1.3), walnut and mahogany pauldrons, (carved detailing:1.3), chiselled edges, (wood knots:1.2), (glossy varnish:1.3), lacquered sheen, holding a carved wooden rubber duck, woodworking workshop, timber walls, warm lighting, rim light, depth of field, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529136",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26076475-9023-4810-a34d-a88fbe6b6637/original=true/26076475-9023-4810-a34d-a88fbe6b6637.jpeg",
+      "model_version_ids": [
+        639240,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1145201577,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry, cloth, soft fabric, school uniform, metal, steel, matte finish, flat color",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391984+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6f3b0219d1dfff9708a13d8be831f02c05b6a7a4eb2e75e34e424fcdaba3756d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529136 image ai-image-prompts 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, wearing (armor carved from hardwood:1.4), (sculpted wood texture:1.3), (polished wood grain:1.3), flowing grain lines, (warm timber tones:1.3), amber and honey oak, (dark wood accents:1.3), walnut and mahogany pauldrons, (carved detailing:1.3), chiselled edges, (wood knots:1.2), (glossy varnish:1.3), lacquered sheen, holding a carved wooden rubber duck, woodworking workshop, timber walls, warm lighting, rim light, depth of field, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529136",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26076475-9023-4810-a34d-a88fbe6b6637/original=true/26076475-9023-4810-a34d-a88fbe6b6637.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529129",
+      "title": "Civitai prompt 149529129",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, a comical photorealistic scene of a fierce mahogany T-Rex dinosaur in a suit arguing across a desk with a panicked lawyer, both characters and the entire courtroom completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines across scales and suits, warm timber tones in amber honey and chestnut brown, rich dark wood accents in deep mahogany and walnut, natural wood knots and burl swirls, sharp hand-chiselled carved detailing, lustrous glossy varnish sheen catching warm courtroom lighting, carved wooden gavel and tiny wooden rubber duck on the desk, hardwood flooring, macro photography, 8k resolution, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529129",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ea471cc-02dc-4e61-aa61-b25bf92a6283/original=true/4ea471cc-02dc-4e61-aa61-b25bf92a6283.jpeg",
+      "model_version_ids": [
+        639240,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1683306926,
+      "negative_prompt": "anime, cartoon, illustration, painting, drawing, human skin, flesh, soft fabric, cloth, metal, chrome, plastic, matte finish, dull, unpainted drywall, blurry, lowres, bad anatomy, bad hands, deformed, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.391993+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "68f43de75cd5dcf9c82e9b1c672b9b1273d68024a093f185f954b212d43c276c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529129 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, a comical photorealistic scene of a fierce mahogany t-rex dinosaur in a suit arguing across a desk with a panicked lawyer, both characters and the entire courtroom completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines across scales and suits, warm timber tones in amber honey and chestnut brown, rich dark wood accents in deep mahogany and walnut, natural wood knots and burl swirls, sharp hand-chiselled carved detailing, lustrous glossy varnish sheen catching warm courtroom lighting, carved wooden gavel and tiny wooden rubber duck on the desk, hardwood flooring, macro photography, 8k resolution, sharp focus, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529129",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ea471cc-02dc-4e61-aa61-b25bf92a6283/original=true/4ea471cc-02dc-4e61-aa61-b25bf92a6283.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529123",
+      "title": "Civitai prompt 149529123",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, a photorealistic sculpture of darth vader completely carved out of solid hardwood, sculpted wood texture across helmet armor and flowing cape, flowing polished wood grain lines visible across every surface, warm timber tones in amber honey and chestnut brown, deep dark wood accents in walnut and mahogany, natural wood knots and burl swirls interrupting the grain, crisp hand-chiselled carved detailing, coated in a high-glossy varnish catching warm studio highlights, sitting on a hand-carved wooden toilet, holding a carved wooden rubber duck and a wooden speech sign reading \"WOOD YOU PLEASE KNOCK?\", surrounded by tiny carved wooden ducklings on hardwood flooring, warm workshop lighting, macro photography, 8k resolution, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529123",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e17ff3c2-ed8f-4897-9aa0-cfe1aba9df96/original=true/e17ff3c2-ed8f-4897-9aa0-cfe1aba9df96.jpeg",
+      "model_version_ids": [
+        639240,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1747402502,
+      "negative_prompt": "anime, cartoon, illustration, painting, drawing, human skin, flesh, soft fabric, cloth, metal, chrome, plastic, matte finish, dull, unpainted drywall, blurry, lowres, bad anatomy, bad hands, deformed, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.392002+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "240f56681613ed50ced006c7ef5546cb6c2d000c7b42941ced267a5fded5feaa",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149529123 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, a photorealistic sculpture of darth vader completely carved out of solid hardwood, sculpted wood texture across helmet armor and flowing cape, flowing polished wood grain lines visible across every surface, warm timber tones in amber honey and chestnut brown, deep dark wood accents in walnut and mahogany, natural wood knots and burl swirls interrupting the grain, crisp hand-chiselled carved detailing, coated in a high-glossy varnish catching warm studio highlights, sitting on a hand-carved wooden toilet, holding a carved wooden rubber duck and a wooden speech sign reading \"wood you please knock?\", surrounded by tiny carved wooden ducklings on hardwood flooring, warm workshop lighting, macro photography, 8k resolution, sharp focus, masterpiece civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529123",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e17ff3c2-ed8f-4897-9aa0-cfe1aba9df96/original=true/e17ff3c2-ed8f-4897-9aa0-cfe1aba9df96.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529118",
+      "title": "Civitai prompt 149529118",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, a chubby sailor duck wearing a captain hat completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines following the feathers, warm timber tones of amber and honey oak, contrasting dark wood accents in mahogany and walnut, natural wood knots and swirling burls, intricate hand-chiselled carved detailing, coated in a lustrous glossy varnish catching warm lantern light, steering a carved wooden ship wheel, miniature carved wooden rubber duck perched on compass, wooden ship cabin background, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529118",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bee49fca-83b5-4e01-b575-96229632faa4/original=true/bee49fca-83b5-4e01-b575-96229632faa4.jpeg",
+      "model_version_ids": [
+        639240,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2107491220,
+      "negative_prompt": "anime, cartoon, illustration, painting, drawing, human skin, flesh, soft fabric, cloth, metal, chrome, plastic, matte finish, dull, unpainted drywall, blurry, lowres, bad anatomy, bad hands, deformed, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.392011+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "23e2a306877686027f31319e2a615541512da5acd8587f372988642424409856",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529118 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, a chubby sailor duck wearing a captain hat completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines following the feathers, warm timber tones of amber and honey oak, contrasting dark wood accents in mahogany and walnut, natural wood knots and swirling burls, intricate hand-chiselled carved detailing, coated in a lustrous glossy varnish catching warm lantern light, steering a carved wooden ship wheel, miniature carved wooden rubber duck perched on compass, wooden ship cabin background, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529118",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bee49fca-83b5-4e01-b575-96229632faa4/original=true/bee49fca-83b5-4e01-b575-96229632faa4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529112",
+      "title": "Civitai prompt 149529112",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, a comical photorealistic scene of a fierce mahogany T-Rex dinosaur in a suit arguing across a desk with a panicked lawyer, both characters and the entire courtroom completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines across scales and suits, warm timber tones in amber honey and chestnut brown, rich dark wood accents in deep mahogany and walnut, natural wood knots and burl swirls, sharp hand-chiselled carved detailing, lustrous glossy varnish sheen catching warm courtroom lighting, carved wooden gavel and tiny wooden rubber duck on the desk, macro photography, 8k resolution, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529112",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83e5ec2a-f37d-4af9-819d-0ca116f25ea0/original=true/83e5ec2a-f37d-4af9-819d-0ca116f25ea0.jpeg",
+      "model_version_ids": [
+        639240,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 1267416483,
+      "negative_prompt": "anime, cartoon, illustration, painting, drawing, human skin, flesh, soft fabric, cloth, metal, chrome, plastic, matte finish, dull, unpainted drywall, blurry, lowres, bad anatomy, bad hands, deformed, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.392018+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d6075aa7ea3f5c25a1b972670580c5eaefd36530cda75d2435fd2c47bc977119",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149529112 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, a comical photorealistic scene of a fierce mahogany t-rex dinosaur in a suit arguing across a desk with a panicked lawyer, both characters and the entire courtroom completely carved out of solid hardwood, sculpted wood texture, flowing polished wood grain lines across scales and suits, warm timber tones in amber honey and chestnut brown, rich dark wood accents in deep mahogany and walnut, natural wood knots and burl swirls, sharp hand-chiselled carved detailing, lustrous glossy varnish sheen catching warm courtroom lighting, carved wooden gavel and tiny wooden rubber duck on the desk, macro photography, 8k resolution, sharp focus, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529112",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83e5ec2a-f37d-4af9-819d-0ca116f25ea0/original=true/83e5ec2a-f37d-4af9-819d-0ca116f25ea0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149529106",
+      "title": "Civitai prompt 149529106",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "hrdwdaf, wood, wooden, hardwood flooring, a photorealistic sculpture of darth vader completely carved out of solid hardwood, sculpted wood texture across helmet armor and flowing cape, flowing polished wood grain lines visible across every surface, warm timber tones in amber honey and chestnut brown, deep dark wood accents in walnut and mahogany, natural wood knots and burl swirls interrupting the grain, crisp hand-chiselled carved detailing, coated in a high-glossy varnish catching warm studio highlights, sitting on a hand-carved wooden toilet, holding a carved wooden rubber duck and a wooden speech sign reading \"WOOD YOU PLEASE KNOCK?\", surrounded by tiny carved wooden ducklings on a timber plank floor, warm workshop lighting, macro photography, 8k resolution, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149529106",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc01d496-a727-4243-86a0-91a8d14940ad/original=true/fc01d496-a727-4243-86a0-91a8d14940ad.jpeg",
+      "model_version_ids": [
+        639240,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 351024265,
+      "negative_prompt": "anime, cartoon, illustration, painting, drawing, human skin, flesh, soft fabric, cloth, metal, chrome, plastic, matte finish, dull, unpainted drywall, blurry, lowres, bad anatomy, bad hands, deformed, watermark, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-19T11:52:41.392026+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0962f381480e3ad968cdc9b60cd241deedd48745d9c5ab382ba0e54df597409a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 149529106 image ai-image-prompts hrdwdaf, wood, wooden, hardwood flooring, a photorealistic sculpture of darth vader completely carved out of solid hardwood, sculpted wood texture across helmet armor and flowing cape, flowing polished wood grain lines visible across every surface, warm timber tones in amber honey and chestnut brown, deep dark wood accents in walnut and mahogany, natural wood knots and burl swirls interrupting the grain, crisp hand-chiselled carved detailing, coated in a high-glossy varnish catching warm studio highlights, sitting on a hand-carved wooden toilet, holding a carved wooden rubber duck and a wooden speech sign reading \"wood you please knock?\", surrounded by tiny carved wooden ducklings on a timber plank floor, warm workshop lighting, macro photography, 8k resolution, sharp focus, masterpiece civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149529106",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc01d496-a727-4243-86a0-91a8d14940ad/original=true/fc01d496-a727-4243-86a0-91a8d14940ad.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-18T22:37:44.050367+00:00",
-  "prompt_count": 3084,
+  "generated_at": "2026-11-19T11:52:52.356427+00:00",
+  "prompt_count": 3106,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 2933,
-    "failed_count": 151,
-    "updated_at": "2026-11-18T22:37:43Z"
+    "failed_count": 173,
+    "updated_at": "2026-11-19T11:52:51Z"
   }
 }
