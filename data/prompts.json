@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request"
+      "translation_error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -144488,15 +144488,600 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d54a108b-6773-4ef0-b0f3-280f3a3e590c/original=true/d54a108b-6773-4ef0-b0f3-280f3a3e590c.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149686477",
+      "title": "Civitai prompt 149686477",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The image is a vertical conceptual beauty photograph. A sheet of thick off-white paper fills the entire frame, and a ragged hole has been torn in it slightly left of centre, the edges curling outward with fluffy paper fibres and a soft shadow. Through the hole we see a young woman's face, front three-quarter, her pale blue-grey eyes looking straight at the viewer, strands of messy black hair crossing her face and eyes, a small mole under one eye, a soft pink glossy lip. Her right hand pushes through the bottom edge of the hole, the fingers resting gently on her lower lip and chin; her almond nails are painted in a black-to-nude ombré gradient with a glossy highlight. Soft, even, diffused studio light, and a mostly white and cream palette with the black hair and nails as accents. Style: Korean beauty campaign photograph, high detail skin with fine texture, minimalist and intriguing. No text, letters, numbers, signature or watermark in the image.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686477",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a92f05ec-2f40-4ff9-aaba-1a29fad6575f/original=true/a92f05ec-2f40-4ff9-aaba-1a29fad6575f.jpeg",
+      "model": "minimax_H3_image_pruned_INT8",
+      "model_version_ids": [
+        3462708
+      ],
+      "width": 1792,
+      "height": 2368,
+      "seed": 7,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547179+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "507bc31b2c1209b2f4b4f28e9e31a71c9bbcd9a16faea34542362464dfb8e4f1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686477 photography ai-image-prompts the image is a vertical conceptual beauty photograph. a sheet of thick off-white paper fills the entire frame, and a ragged hole has been torn in it slightly left of centre, the edges curling outward with fluffy paper fibres and a soft shadow. through the hole we see a young woman's face, front three-quarter, her pale blue-grey eyes looking straight at the viewer, strands of messy black hair crossing her face and eyes, a small mole under one eye, a soft pink glossy lip. her right hand pushes through the bottom edge of the hole, the fingers resting gently on her lower lip and chin; her almond nails are painted in a black-to-nude ombré gradient with a glossy highlight. soft, even, diffused studio light, and a mostly white and cream palette with the black hair and nails as accents. style: korean beauty campaign photograph, high detail skin with fine texture, minimalist and intriguing. no text, letters, numbers, signature or watermark in the image. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686477",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a92f05ec-2f40-4ff9-aaba-1a29fad6575f/original=true/a92f05ec-2f40-4ff9-aaba-1a29fad6575f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686410",
+      "title": "Civitai prompt 149686410",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "The image is a vertical painterly fashion portrait of a woman with dark hair pulled back, her face turned toward screen-right and tilted slightly up, eyes closed, lips softly parted. A single sharp diagonal band of warm white sunlight falls across her face from the upper left, lighting one closed eye, the cheekbone and the side of her nose, while the rest of her face and neck sit in cool blue shadow. Elaborate antique gold filigree jewellery covers her: a head chain with round openwork medallions across her hair and temple, long chandelier earrings of filigree discs with dangling teardrop moonstones, a gold collar necklace and layered chains with pale oval stones. The dangling stones cast small sharp shadows on her skin. She wears a black lace jacket scattered with tiny gold flower appliqués and glitter. The background is a flat, saturated ultramarine blue. Style: semi-realistic digital painting with visible brush texture, glistening specks of light on the skin, strong blue and gold contrast, serene and regal mood. No text, letters, numbers, signature or watermark in the image.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686410",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e06714cb-896a-426b-a3ff-7d0b71c4407e/original=true/e06714cb-896a-426b-a3ff-7d0b71c4407e.jpeg",
+      "model": "minimax_H3_image_pruned_INT8",
+      "model_version_ids": [
+        3462708
+      ],
+      "width": 1536,
+      "height": 2720,
+      "seed": 7,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547234+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2de9ce6593e6bb83f30aee64ad5139c58109c0a5814ee01c357e081df35a6fbc",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686410 fashion ai-image-prompts the image is a vertical painterly fashion portrait of a woman with dark hair pulled back, her face turned toward screen-right and tilted slightly up, eyes closed, lips softly parted. a single sharp diagonal band of warm white sunlight falls across her face from the upper left, lighting one closed eye, the cheekbone and the side of her nose, while the rest of her face and neck sit in cool blue shadow. elaborate antique gold filigree jewellery covers her: a head chain with round openwork medallions across her hair and temple, long chandelier earrings of filigree discs with dangling teardrop moonstones, a gold collar necklace and layered chains with pale oval stones. the dangling stones cast small sharp shadows on her skin. she wears a black lace jacket scattered with tiny gold flower appliqués and glitter. the background is a flat, saturated ultramarine blue. style: semi-realistic digital painting with visible brush texture, glistening specks of light on the skin, strong blue and gold contrast, serene and regal mood. no text, letters, numbers, signature or watermark in the image. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686410",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e06714cb-896a-426b-a3ff-7d0b71c4407e/original=true/e06714cb-896a-426b-a3ff-7d0b71c4407e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686770",
+      "title": "Civitai prompt 149686770",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "candid photograph of gorgeous Brazilian lady, standing. slender with large natural bust, curvy hips. short-sleeved lacy buttoned mint-green top. athletic cream-colored stylish chic leggings. stylish short hair dyed blonde. full length body visible. bracelets. black purse. sneakers. she stands naturally, she looks at us with slight smile.\nelevator. mirror walls. electronic panel in back reads \"Buzz Up\"\natmospheric fluorescent lighting. realistic skin texture. cinematic, hyperrealistic, there is no posing. The result should feel like an authentic, candid, extremely realistic photograph, with no artificial or over-processed appearance.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686770",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5791280e-123b-4f4d-be74-857e6b8862fc/original=true/5791280e-123b-4f4d-be74-857e6b8862fc.jpeg",
+      "model_version_ids": [
+        3291238
+      ],
+      "width": 1152,
+      "height": 2048,
+      "seed": -1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547255+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0a5710d06065d2f8e08cd68e98dfe6a8aa303c06415a9fad7351c57c2c46c75b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149686770 image ai-image-prompts candid photograph of gorgeous brazilian lady, standing. slender with large natural bust, curvy hips. short-sleeved lacy buttoned mint-green top. athletic cream-colored stylish chic leggings. stylish short hair dyed blonde. full length body visible. bracelets. black purse. sneakers. she stands naturally, she looks at us with slight smile. elevator. mirror walls. electronic panel in back reads \"buzz up\" atmospheric fluorescent lighting. realistic skin texture. cinematic, hyperrealistic, there is no posing. the result should feel like an authentic, candid, extremely realistic photograph, with no artificial or over-processed appearance. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686770",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5791280e-123b-4f4d-be74-857e6b8862fc/original=true/5791280e-123b-4f4d-be74-857e6b8862fc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686748",
+      "title": "Civitai prompt 149686748",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece European comic illustration in the tradition of Moebius and H. R. Giger, Heavy Metal magazine dark dramatic atmosphere, intense chiaroscuro lighting, crisp black ink lines paired with blinding ice-cyan, deep cosmic indigo, antique gold, and pitch-black shadow hues. Anchored precariously onto the jagged, spinning surface of a hurtling ice-comet streaking through a star-strewn nebula, a rugged, fearless void-miner humanoid alien female is operating a massive, archaic biomechanical core-drill to extract a glowing star-crystal before the comet enters a nearby sun's lethal radiation zone. Keeping a strong, sinuous two-armed feminine silhouette, her body is clad in natural, vacuum-adapted dark-obsidian chitinous plating veined with glowing cyan bioluminescence, featuring a sleek, translucent biological visor-membrane sweeping back from her brow, tall swept-back sensory crests, necklaces of raw meteorite fragments, and piercing, wide-open luminous cyan eyes squinting against the glare. Bracing her boots against fossilized bone anchor-claws driven into the glowing blue ice, she strains with both hands on the vibrating, piston-driven brass handles of the heavy drill as blinding jets of pressurized vapor, ice shards, and radiant golden core-light erupt from the borehole around her. Behind her, a monumental tail of glowing cosmic dust and shattered asteroid debris stretches endlessly across the pitch-black void. Harsh, unfiltered starlight carves razor-sharp chiaroscuro shadows across her dark chitinous anatomy, the smoking biomechanical drill, and the jagged ice terrain. High-stakes cosmic frontier adventure, unforgettable extraterrestrial artistry, intricate crosshatching.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686748",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b52d94c-f29d-4cea-b243-0ea178434fdd/original=true/4b52d94c-f29d-4cea-b243-0ea178434fdd.jpeg",
+      "model": "loxsUtopicWorldKrea2_v20BF16",
+      "model_version_ids": [
+        3238520
+      ],
+      "width": 2048,
+      "height": 1536,
+      "seed": 3545879736,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547280+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "455bf84c28c55ee07e0906f7de7ebb008cfd56a7e3b19da699963848af744cf7",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149686748 image ai-image-prompts masterpiece european comic illustration in the tradition of moebius and h. r. giger, heavy metal magazine dark dramatic atmosphere, intense chiaroscuro lighting, crisp black ink lines paired with blinding ice-cyan, deep cosmic indigo, antique gold, and pitch-black shadow hues. anchored precariously onto the jagged, spinning surface of a hurtling ice-comet streaking through a star-strewn nebula, a rugged, fearless void-miner humanoid alien female is operating a massive, archaic biomechanical core-drill to extract a glowing star-crystal before the comet enters a nearby sun's lethal radiation zone. keeping a strong, sinuous two-armed feminine silhouette, her body is clad in natural, vacuum-adapted dark-obsidian chitinous plating veined with glowing cyan bioluminescence, featuring a sleek, translucent biological visor-membrane sweeping back from her brow, tall swept-back sensory crests, necklaces of raw meteorite fragments, and piercing, wide-open luminous cyan eyes squinting against the glare. bracing her boots against fossilized bone anchor-claws driven into the glowing blue ice, she strains with both hands on the vibrating, piston-driven brass handles of the heavy drill as blinding jets of pressurized vapor, ice shards, and radiant golden core-light erupt from the borehole around her. behind her, a monumental tail of glowing cosmic dust and shattered asteroid debris stretches endlessly across the pitch-black void. harsh, unfiltered starlight carves razor-sharp chiaroscuro shadows across her dark chitinous anatomy, the smoking biomechanical drill, and the jagged ice terrain. high-stakes cosmic frontier adventure, unforgettable extraterrestrial artistry, intricate crosshatching. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686748",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b52d94c-f29d-4cea-b243-0ea178434fdd/original=true/4b52d94c-f29d-4cea-b243-0ea178434fdd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686702",
+      "title": "Civitai prompt 149686702",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece,best quality,very aesthetic,absurdres,score_9,score_8,year 2025,newest,highres,official art,depth of field,1girl,solo,blonde hair,long hair,hair bun,messy hair,bangs,sidelocks,earrings,necklace,blue nails,nail polish,white shirt,collared shirt,short sleeves,black dress,pinafore dress,camera,compact camera,holding camera,camera strap,raised arm,looking at viewer,parted lips,upper body,close-up,tilted angle,dynamic angle,depth of field,shallow depth of field,blurry foreground,bokeh,yellow flower,flowers,flower field,outdoors,spring,sunlight,dappled sunlight,warm light,lens flare,chromatic aberration,prism light,film grain,soft focus,A blonde girl in a white shirt and black pinafore raises a compact film camera near her face while yellow flowers fill the frame around her. Her green gaze meets the viewer through warm spring sunlight,with foreground blossoms melting into soft bokeh and small prismatic flares scattered across the image.,strong rim light,Cinematic Lighting,available light,background light,moody lighting,<lora:Turbo-ANIMA:1>,<lora:Turbo-ANIMA-Upgrader:1>,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686702",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbd7b16c-314a-4b97-9577-cc6b58b510da/original=true/fbd7b16c-314a-4b97-9577-cc6b58b510da.jpeg",
+      "model": "TPG_ANIMA_ANIME_01",
+      "model_version_ids": [
+        2941393,
+        3452759,
+        3481323
+      ],
+      "width": 920,
+      "height": 1536,
+      "seed": 2018194165,
+      "negative_prompt": "lazyneg,lazyhand,cameltoe,nipples,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547296+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3e5c7ea2fae0e0ab47e4448b97778391d879489474212730a3ae7ef38a1b2f3c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149686702 image ai-image-prompts masterpiece,best quality,very aesthetic,absurdres,score_9,score_8,year 2025,newest,highres,official art,depth of field,1girl,solo,blonde hair,long hair,hair bun,messy hair,bangs,sidelocks,earrings,necklace,blue nails,nail polish,white shirt,collared shirt,short sleeves,black dress,pinafore dress,camera,compact camera,holding camera,camera strap,raised arm,looking at viewer,parted lips,upper body,close-up,tilted angle,dynamic angle,depth of field,shallow depth of field,blurry foreground,bokeh,yellow flower,flowers,flower field,outdoors,spring,sunlight,dappled sunlight,warm light,lens flare,chromatic aberration,prism light,film grain,soft focus,a blonde girl in a white shirt and black pinafore raises a compact film camera near her face while yellow flowers fill the frame around her. her green gaze meets the viewer through warm spring sunlight,with foreground blossoms melting into soft bokeh and small prismatic flares scattered across the image.,strong rim light,cinematic lighting,available light,background light,moody lighting,<lora:turbo-anima:1>,<lora:turbo-anima-upgrader:1>, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686702",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbd7b16c-314a-4b97-9577-cc6b58b510da/original=true/fbd7b16c-314a-4b97-9577-cc6b58b510da.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686527",
+      "title": "Civitai prompt 149686527",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Masterpiece digital dark fantasy concept art of a legendary warrior queen in dark holy armor, close-up panoramic layout, centered composition. The stunning red-haired knight gazes fiercely forward, her flawless facial features framed by a magnificent neo-gothic obsidian tiara decorated with burning crimson rubies. Her colossal, masterfully sculpted dark steel armor plates catch crisp silver rim lighting, showcasing complex gold-and-silver filigree engravings. Intricate deep red energy paths pulse cleanly within the joints of her pauldrons. The backdrop is an atmospheric, moody dark woodland filled with ancient trees and a dense, subtle stream of rising volumetric smoke and tiny glowing amber embers. Shot on a Sony FX3 camera, Zeiss Supreme Prime 65mm f/1.4 lens, rich dramatic color grading, heavy shadow contrast, trending on ArtStation",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686527",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bf5ffa2-7b29-4300-a771-a63283e706c6/original=true/7bf5ffa2-7b29-4300-a771-a63283e706c6.jpeg",
+      "model": "moodyKrea2MixUncensoredV8FREEV8_v80_int8",
+      "model_version_ids": [
+        3327244
+      ],
+      "width": 3456,
+      "height": 1472,
+      "seed": 1348958390,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547314+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cf827eedd40572c8d07b058bbb4cbd2344aef03e0814bc5624e8af24caf42cc3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149686527 image ai-image-prompts masterpiece digital dark fantasy concept art of a legendary warrior queen in dark holy armor, close-up panoramic layout, centered composition. the stunning red-haired knight gazes fiercely forward, her flawless facial features framed by a magnificent neo-gothic obsidian tiara decorated with burning crimson rubies. her colossal, masterfully sculpted dark steel armor plates catch crisp silver rim lighting, showcasing complex gold-and-silver filigree engravings. intricate deep red energy paths pulse cleanly within the joints of her pauldrons. the backdrop is an atmospheric, moody dark woodland filled with ancient trees and a dense, subtle stream of rising volumetric smoke and tiny glowing amber embers. shot on a sony fx3 camera, zeiss supreme prime 65mm f/1.4 lens, rich dramatic color grading, heavy shadow contrast, trending on artstation civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686527",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bf5ffa2-7b29-4300-a771-a63283e706c6/original=true/7bf5ffa2-7b29-4300-a771-a63283e706c6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686525",
+      "title": "Civitai prompt 149686525",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A professional cinematic widescreen close-up portrait of a powerful female fantasy knight, looking directly at the viewer with an intense, commanding expression, symmetric composition. Her beautiful face features pale skin with subtle natural pores, defined high cheekbones, and captivating, piercing light eyes under a sharp focus. Her long, thick, wind-blown deep resonant copper-red hair cascades elegantly over her shoulders. She wears an exquisite, hyper-detailed dark obsidian-iron plate armor with intricate baroque engravings, small silver rivets, and a high-collar quilted leather gorget. Atop her head sits a magnificent, heavy crown-like tiara inset with brilliant, faceted crystalline rubies that glow with a faint internal crimson light. Her massive, sculpted dark pauldrons are adorned with matching ruby emblems. The background is a deeply blurred, mysterious misty northern pine forest with soft atmospheric ground fog. Captured on a Phase One XF 100MP camera, 80mm portrait lens, f/2.8, dramatic high-contrast chiaroscuro daylight, immaculate material textures",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686525",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/966b0fc8-41f3-496c-a555-9ad91304462b/original=true/966b0fc8-41f3-496c-a555-9ad91304462b.jpeg",
+      "model": "lustifyNSFWCheckpoint_v10Krea2_fp8",
+      "model_version_ids": [
+        3112728
+      ],
+      "width": 3456,
+      "height": 1472,
+      "seed": 2687608833,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547332+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8ed149bfd52ee07afb260cceca350adcb1edfd28c051dbe2c3aadb4b365f5958",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686525 photography ai-image-prompts a professional cinematic widescreen close-up portrait of a powerful female fantasy knight, looking directly at the viewer with an intense, commanding expression, symmetric composition. her beautiful face features pale skin with subtle natural pores, defined high cheekbones, and captivating, piercing light eyes under a sharp focus. her long, thick, wind-blown deep resonant copper-red hair cascades elegantly over her shoulders. she wears an exquisite, hyper-detailed dark obsidian-iron plate armor with intricate baroque engravings, small silver rivets, and a high-collar quilted leather gorget. atop her head sits a magnificent, heavy crown-like tiara inset with brilliant, faceted crystalline rubies that glow with a faint internal crimson light. her massive, sculpted dark pauldrons are adorned with matching ruby emblems. the background is a deeply blurred, mysterious misty northern pine forest with soft atmospheric ground fog. captured on a phase one xf 100mp camera, 80mm portrait lens, f/2.8, dramatic high-contrast chiaroscuro daylight, immaculate material textures civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686525",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/966b0fc8-41f3-496c-a555-9ad91304462b/original=true/966b0fc8-41f3-496c-a555-9ad91304462b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686524",
+      "title": "Civitai prompt 149686524",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A professional cinematic widescreen close-up portrait of a powerful female fantasy knight,looking directly at the viewer with an intense,commanding expression,symmetric composition. Her beautiful face features pale skin with subtle natural pores,defined high cheekbones,and captivating,piercing light eyes under a sharp focus. Her long,thick,wind-blown deep resonant copper-red hair cascades elegantly over her shoulders. She wears an exquisite,hyper-detailed dark obsidian-iron plate armor with intricate baroque engravings,small silver rivets,and a high-collar quilted leather gorget. Atop her head sits a magnificent,heavy crown-like tiara inset with brilliant,faceted crystalline rubies that glow with a faint internal crimson light. Her massive,sculpted dark pauldrons are adorned with matching ruby emblems. The background is a deeply blurred,mysterious misty northern pine forest with soft atmospheric ground fog. Captured on a Phase One XF 100MP camera,80mm portrait lens,f/2.8,dramatic high-contrast chiaroscuro daylight,immaculate material textures,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686524",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d416b188-651c-4980-a0e2-626ada8df94d/original=true/d416b188-651c-4980-a0e2-626ada8df94d.jpeg",
+      "model": "moodyKrea2MixUncensoredV8FREEV8_v80_int8",
+      "model_version_ids": [
+        3327244
+      ],
+      "width": 3456,
+      "height": 1472,
+      "seed": 1565102278,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547349+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8e1a2df827c0154ee4831bbb6061cc968b94a6a90e7168bb036ff3b1e2f2711",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686524 photography ai-image-prompts a professional cinematic widescreen close-up portrait of a powerful female fantasy knight,looking directly at the viewer with an intense,commanding expression,symmetric composition. her beautiful face features pale skin with subtle natural pores,defined high cheekbones,and captivating,piercing light eyes under a sharp focus. her long,thick,wind-blown deep resonant copper-red hair cascades elegantly over her shoulders. she wears an exquisite,hyper-detailed dark obsidian-iron plate armor with intricate baroque engravings,small silver rivets,and a high-collar quilted leather gorget. atop her head sits a magnificent,heavy crown-like tiara inset with brilliant,faceted crystalline rubies that glow with a faint internal crimson light. her massive,sculpted dark pauldrons are adorned with matching ruby emblems. the background is a deeply blurred,mysterious misty northern pine forest with soft atmospheric ground fog. captured on a phase one xf 100mp camera,80mm portrait lens,f/2.8,dramatic high-contrast chiaroscuro daylight,immaculate material textures, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686524",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d416b188-651c-4980-a0e2-626ada8df94d/original=true/d416b188-651c-4980-a0e2-626ada8df94d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149661176",
+      "title": "Civitai prompt 149661176",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Extreme close-up of a curious owl’s eye, intricate feathers framing a sharply reflected rooftop courier crossing a pink neon bridge. A tiny drop of rain on one feather contains a second miniature city reflection. Keep one dominant eye and legible light shapes, not a collage. Deep indigo, amber iris, selective cyan rim, quiet shadow. illustration artwork, expressive faces, confident graphic contours, mischievous theatrical attitude. Digital Artwok, Cybernetic, Cyberpunk style, organic and mechanical forms, selective luminous materials. Kimokawa. Preserve the scene-specific palette and selective lighting. One continuous full-bleed artwork, clear focal hierarchy, no captions, watermarks, logos, signatures or collage; signs communicate with shapes and pictograms rather than readable writing.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149661176",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42fbabe4-6be6-4893-804f-10be95dc49ab/original=true/42fbabe4-6be6-4893-804f-10be95dc49ab.jpeg",
+      "model": "krea2_turbo_fp8_scaled.safetensors",
+      "model_version_ids": [
+        3072332,
+        3361092,
+        3440903,
+        3472733
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2026112020022,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547388+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "342fd94c63dd969c8b3bd8c25bdd167707ad69bdf216f999ce71d0f43d256d98",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149661176 photography ai-image-prompts extreme close-up of a curious owl’s eye, intricate feathers framing a sharply reflected rooftop courier crossing a pink neon bridge. a tiny drop of rain on one feather contains a second miniature city reflection. keep one dominant eye and legible light shapes, not a collage. deep indigo, amber iris, selective cyan rim, quiet shadow. illustration artwork, expressive faces, confident graphic contours, mischievous theatrical attitude. digital artwok, cybernetic, cyberpunk style, organic and mechanical forms, selective luminous materials. kimokawa. preserve the scene-specific palette and selective lighting. one continuous full-bleed artwork, clear focal hierarchy, no captions, watermarks, logos, signatures or collage; signs communicate with shapes and pictograms rather than readable writing. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149661176",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42fbabe4-6be6-4893-804f-10be95dc49ab/original=true/42fbabe4-6be6-4893-804f-10be95dc49ab.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686443",
+      "title": "Civitai prompt 149686443",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "FLUX"
+      ],
+      "prompt": "<lora:ink_splats_flux:1>, ink splats, Editorial graphic novel illustration centered around a massive, violent black ink explosion erupting directly from Batman sitting casually on a white porcelain toilet bowl. In one hand he holds a cheesy slice of pepperoni pizza, and in the other hand he holds a crisp white shopping bag printed with bold colourful \"VADER GO HOME\" lettering with ink splats. The toilet balances precariously on a worn wooden skateboard with metal trucks and urethane wheels, surrounded by small bright yellow rubber ducks scattered across a fragment of glossy tiled floor. Explosive, high-shine black ink bursts outward in all directions with extreme kinetic force—shattering the silhouettes of Batman 's glossy black armor, cape, the porcelain toilet, the skateboard, and the pizza into swirling liquid ink ribbons, thick wet splashes, high-velocity flying droplets suspended mid-air, dense fine ink mist speckles, and heavy dripping tendrils trailing downward. Dark glossy ink splatters and streaks drench the armor, porcelain, bag, and skateboard deck. Isolated against a stark, pure bright white background with expansive negative space framing the explosive ink dispersion. High-contrast dramatic studio lighting with specular highlights catching every wet ink splash and glossy surface, razor-sharp focus, intricate linework, award-winning editorial illustration.,​​​",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686443",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532bf644-485f-400c-8e87-55348cbbee24/original=true/532bf644-485f-400c-8e87-55348cbbee24.jpeg",
+      "model_version_ids": [
+        762749,
+        1355240
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 380223142,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547424+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e690c36c7675f6c2f28c7c9638c15749c53a5285ee6dee360dac91f2401832b9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "FLUX"
+      ],
+      "search_text": "civitai prompt 149686443 fashion ai-image-prompts <lora:ink_splats_flux:1>, ink splats, editorial graphic novel illustration centered around a massive, violent black ink explosion erupting directly from batman sitting casually on a white porcelain toilet bowl. in one hand he holds a cheesy slice of pepperoni pizza, and in the other hand he holds a crisp white shopping bag printed with bold colourful \"vader go home\" lettering with ink splats. the toilet balances precariously on a worn wooden skateboard with metal trucks and urethane wheels, surrounded by small bright yellow rubber ducks scattered across a fragment of glossy tiled floor. explosive, high-shine black ink bursts outward in all directions with extreme kinetic force—shattering the silhouettes of batman 's glossy black armor, cape, the porcelain toilet, the skateboard, and the pizza into swirling liquid ink ribbons, thick wet splashes, high-velocity flying droplets suspended mid-air, dense fine ink mist speckles, and heavy dripping tendrils trailing downward. dark glossy ink splatters and streaks drench the armor, porcelain, bag, and skateboard deck. isolated against a stark, pure bright white background with expansive negative space framing the explosive ink dispersion. high-contrast dramatic studio lighting with specular highlights catching every wet ink splash and glossy surface, razor-sharp focus, intricate linework, award-winning editorial illustration.,​​​ civitai ai-image imported api flux flux",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686443",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532bf644-485f-400c-8e87-55348cbbee24/original=true/532bf644-485f-400c-8e87-55348cbbee24.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149664007",
+      "title": "Civitai prompt 149664007",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "digital illustration of a young woman with long black hair with blonde highlights, wearing a black dress with intricate gold patterns and a choker necklace. She has pale skin, dark eyes with a melancholic expression, and a small black cross tattoo on her right shoulder. Her dress is off-shoulder, revealing her collarbones and a gold circular pendant with an eye design in the center. She is holding a small object in her right hand, looking down at it with a slight frown. The background is filled with various occult symbols, including pentagrams, stars, and runes, in black and white. The color palette is dominated by blacks, golds, and subtle beige tones. The illustration has a gothic and mystical style, with fine line work and a smooth, digital texture. The composition is centered, with the woman occupying the majority of the frame, and a slight top-down angle. The lighting is soft, highlighting her face and the details of her dress.\nusing an extremely strict four-color palette consisting exclusively of these exact colors: vivid red #F60018, bright orange #FF6A00, deep teal green #00685A, and vivid leaf green #188A00. No other colors are permitted",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149664007",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f/original=true/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f.jpeg",
+      "model": "DasiwaKrea2TurboRaw_darkdesireV3TurboUC_fp8Mixed",
+      "model_version_ids": [
+        3168099,
+        3362930,
+        3459871,
+        3460268
+      ],
+      "width": 1776,
+      "height": 2664,
+      "seed": 908791217980147,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547445+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cc40a205ca0453296c4bea57ca923d71466fb3d1fe19616b03e6533c8cb3f546",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149664007 image ai-image-prompts digital illustration of a young woman with long black hair with blonde highlights, wearing a black dress with intricate gold patterns and a choker necklace. she has pale skin, dark eyes with a melancholic expression, and a small black cross tattoo on her right shoulder. her dress is off-shoulder, revealing her collarbones and a gold circular pendant with an eye design in the center. she is holding a small object in her right hand, looking down at it with a slight frown. the background is filled with various occult symbols, including pentagrams, stars, and runes, in black and white. the color palette is dominated by blacks, golds, and subtle beige tones. the illustration has a gothic and mystical style, with fine line work and a smooth, digital texture. the composition is centered, with the woman occupying the majority of the frame, and a slight top-down angle. the lighting is soft, highlighting her face and the details of her dress. using an extremely strict four-color palette consisting exclusively of these exact colors: vivid red #f60018, bright orange #ff6a00, deep teal green #00685a, and vivid leaf green #188a00. no other colors are permitted civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149664007",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f/original=true/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686222",
+      "title": "Civitai prompt 149686222",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Beautiful flowing hair, full body, gun, dark steampunk female character, Victorian carnival villain aesthetic, elegant top hat, dramatic makeup, cream costume with brown leather details, gothic fashion, mechanical ornaments, twisted luxury design, mysterious atmosphere, steampunk city background, cinematic lighting, realistic portrait photography",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686222",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622da853-dd4a-4850-8795-be09ee5d2c17/original=true/622da853-dd4a-4850-8795-be09ee5d2c17.jpeg",
+      "model": "qwen_image_2512_i8x",
+      "model_version_ids": [
+        2552570,
+        2552957
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 1422285118,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547455+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8222369974711c7a14cc780335a2d05f9a152b9f014f10dc3afd9c5da05e85be",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686222 fashion ai-image-prompts beautiful flowing hair, full body, gun, dark steampunk female character, victorian carnival villain aesthetic, elegant top hat, dramatic makeup, cream costume with brown leather details, gothic fashion, mechanical ornaments, twisted luxury design, mysterious atmosphere, steampunk city background, cinematic lighting, realistic portrait photography civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686222",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622da853-dd4a-4850-8795-be09ee5d2c17/original=true/622da853-dd4a-4850-8795-be09ee5d2c17.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149686221",
+      "title": "Civitai prompt 149686221",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, anime coloring, Beautiful flowing hair, full body, gun, dark steampunk female character, Victorian carnival villain aesthetic, elegant top hat, dramatic makeup, cream costume with brown leather details, gothic fashion, mechanical ornaments, twisted luxury design, mysterious atmosphere, steampunk city background, cinematic lighting, realistic portrait photography",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149686221",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9/original=true/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9.jpeg",
+      "model": "hosekilustrousmixanima_animav10_f16",
+      "model_version_ids": [
+        2979642,
+        2982979
+      ],
+      "width": 2048,
+      "height": 2048,
+      "seed": 2018305509,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-20T22:17:57.547466+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "66017dfefbefc5dbc4d2c2346ff25d9d24e88493a20a4713de98c73450607799",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149686221 fashion ai-image-prompts masterpiece, best quality, anime coloring, beautiful flowing hair, full body, gun, dark steampunk female character, victorian carnival villain aesthetic, elegant top hat, dramatic makeup, cream costume with brown leather details, gothic fashion, mechanical ornaments, twisted luxury design, mysterious atmosphere, steampunk city background, cinematic lighting, realistic portrait photography civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149686221",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9/original=true/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-20T11:56:18.701636+00:00",
-  "prompt_count": 3154,
+  "generated_at": "2026-11-20T22:18:00.985983+00:00",
+  "prompt_count": 3167,
   "translation": {
     "language": "ar",
-    "translated_count": 214,
-    "skipped_count": 2933,
-    "failed_count": 7,
-    "updated_at": "2026-11-20T11:56:17Z"
+    "translated_count": 0,
+    "skipped_count": 3147,
+    "failed_count": 20,
+    "updated_at": "2026-11-20T22:18:00Z"
   }
 }
