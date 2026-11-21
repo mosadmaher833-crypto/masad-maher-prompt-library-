@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -144517,7 +144517,7 @@
       "imported_at": "2026-11-20T22:17:57.547179+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "507bc31b2c1209b2f4b4f28e9e31a71c9bbcd9a16faea34542362464dfb8e4f1",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144531,7 +144531,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a92f05ec-2f40-4ff9-aaba-1a29fad6575f/original=true/a92f05ec-2f40-4ff9-aaba-1a29fad6575f.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "الصورة عبارة عن صورة جمالية مفاهيمية عمودية. تملأ ورقة سميكة من الورق الأبيض المصفر الإطار بأكمله، وقد تم تمزق ثقب خشن فيه على يسار المركز قليلاً، وتلتف الحواف إلى الخارج بألياف ورقية ناعمة وظل ناعم. من خلال الثقب نرى وجه امرأة شابة، الجزء الأمامي من ثلاثة أرباعه، وعينيها الشاحبتين ذات اللون الأزرق الرمادي تنظران مباشرة إلى المشاهد، وخصلات من الشعر الأسود الفوضوي تعبر وجهها وعينيها، وشامة صغيرة تحت عين واحدة، وشفة ناعمة وردية لامعة. تدفع يدها اليمنى عبر الحافة السفلية للثقب، وتستقر الأصابع بلطف على شفتها السفلية وذقنها؛ تم طلاء أظافرها اللوزية بتدرج من الأسود إلى العاري مع إضاءة لامعة. ضوء استوديو ناعم ومتساوي ومنتشر، ولوحة بيضاء وكريمية في الغالب مع الشعر الأسود والأظافر كلكنات. النمط: صورة حملة التجميل الكورية، بشرة عالية التفاصيل ذات ملمس ناعم، بسيطة ومثيرة للاهتمام. لا يوجد نص أو أحرف أو أرقام أو توقيع أو علامة مائية في الصورة.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686410",
@@ -144561,7 +144563,7 @@
       "imported_at": "2026-11-20T22:17:57.547234+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "2de9ce6593e6bb83f30aee64ad5139c58109c0a5814ee01c357e081df35a6fbc",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144575,7 +144577,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e06714cb-896a-426b-a3ff-7d0b71c4407e/original=true/e06714cb-896a-426b-a3ff-7d0b71c4407e.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "الصورة عبارة عن صورة أزياء عمودية لامرأة ذات شعر داكن منسحب إلى الخلف، ووجهها متجه نحو يمين الشاشة ومائل قليلاً للأعلى، وعينيها مغلقتان، وشفتاها متباعدتان بهدوء. يسقط شريط قطري حاد من ضوء الشمس الأبيض الدافئ على وجهها من أعلى اليسار، مما يضيء عينًا مغلقة وعظمة الخد وجانب أنفها، بينما يجلس باقي وجهها ورقبتها في ظل أزرق بارد. تغطيها مجوهرات ذهبية عتيقة متقنة: سلسلة رأس ذات ميداليات مستديرة مخرمة عبر شعرها ومعبدها، وأقراط ثريا طويلة من أقراص مخرمة مع أحجار القمر المتدلية على شكل دمعة، وقلادة ذات ياقة ذهبية وسلاسل متعددة الطبقات بأحجار بيضاوية شاحبة. ألقت الحجارة المتدلية ظلالاً حادة صغيرة على جلدها. ترتدي سترة من الدانتيل الأسود متناثرة مع زخارف ذهبية صغيرة وبريق. الخلفية مسطحة ومشبعة باللون الأزرق الفاتح. النمط: رسم رقمي شبه واقعي مع ملمس فرشاة مرئي، وبقع لامعة من الضوء على الجلد، وتباين قوي بين اللونين الأزرق والذهبي، ومزاج هادئ وملكي. لا يوجد نص أو أحرف أو أرقام أو توقيع أو علامة مائية في الصورة.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686770",
@@ -144604,7 +144608,7 @@
       "imported_at": "2026-11-20T22:17:57.547255+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "0a5710d06065d2f8e08cd68e98dfe6a8aa303c06415a9fad7351c57c2c46c75b",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -144618,7 +144622,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5791280e-123b-4f4d-be74-857e6b8862fc/original=true/5791280e-123b-4f4d-be74-857e6b8862fc.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة صريحة لسيدة برازيلية رائعة الجمال واقفة. نحيف مع تمثال نصفي طبيعي كبير، الوركين متعرج. بلوزة بأكمام قصيرة وأزرار باللون الأخضر النعناعي. طماق رياضية أنيقة باللون الكريمي. شعر قصير أنيق مصبوغ باللون الأشقر. الجسم كامل الطول مرئي. الأساور. محفظة سوداء. أحذية رياضية. إنها تقف بشكل طبيعي، وتنظر إلينا بابتسامة خفيفة.\nمصعد. جدران المرآة. لوحة إلكترونية في الخلف مكتوب عليها \"Buzz Up\"\nالإضاءة الفلورسنت في الغلاف الجوي. نسيج الجلد واقعي. سينمائية، واقعية للغاية، لا يوجد أي انتحال. يجب أن تبدو النتيجة وكأنها صورة حقيقية وصريحة وواقعية للغاية، بدون مظهر مصطنع أو مبالغ في معالجته.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686748",
@@ -144648,7 +144654,7 @@
       "imported_at": "2026-11-20T22:17:57.547280+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "455bf84c28c55ee07e0906f7de7ebb008cfd56a7e3b19da699963848af744cf7",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -144662,7 +144668,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b52d94c-f29d-4cea-b243-0ea178434fdd/original=true/4b52d94c-f29d-4cea-b243-0ea178434fdd.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "تحفة فنية أوروبية هزلية في تقليد موبيوس وإتش آر جيجر، جو درامي داكن لمجلة هيفي ميتال، وإضاءة تشياروسكورو مكثفة، وخطوط حبر سوداء واضحة مقترنة باللون السماوي الجليدي، والنيلي الكوني العميق، والذهب العتيق، وألوان الظل السوداء. راسية بشكل غير مستقر على السطح الخشن الدوار لمذنب جليدي مندفع يتدفق عبر سديم مليء بالنجوم، تقوم أنثى غريبة قوية وشجاعة تعمل في منجم الفراغ بتشغيل مثقاب أساسي ميكانيكي حيوي ضخم وقديم لاستخراج بلورة نجمية متوهجة قبل أن يدخل المذنب منطقة إشعاع الشمس القاتلة القريبة. تحافظ على صورة ظلية أنثوية قوية ومتعرجة ذات ذراعين، ويرتدي جسدها طبقة شيتينية طبيعية من حجر السج الداكن ومتكيفة مع فراغ مع تلألؤ بيولوجي سماوي متوهج، وتتميز بغشاء حاجب بيولوجي أنيق وشفاف يندفع من جبينها، وقمم حسية طويلة مائلة إلى الخلف، وقلائد من شظايا نيزك خام، وعينان سماويتان ثاقبتان ومفتوحتان على مصراعيهما تحدقان ضد وهج. تستعد حذائها ضد مخالب المرساة العظمية المتحجرة المدفوعة في الجليد الأزرق المتوهج، وهي تضغط بكلتا يديها على المقابض النحاسية المهتزة والمكبسة للمثقاب الثقيل بينما تندلع نفاثات من البخار المضغوط وشظايا الجليد والضوء الذهبي المشع من البئر المحيطة بها. خلفها، يمتد ذيل ضخم من الغبار الكوني المتوهج وحطام الكويكب المحطم إلى ما لا نهاية عبر الفراغ الأسود. ينحت ضوء النجوم القاسي غير المرشح ظلالًا حادة للغاية على شكل تشياروسكورو عبر تشريحها الكيتيني الداكن، والحفر الميكانيكي الحيوي المدخن، والتضاريس الجليدية الخشنة. مغامرة حدودية كونية عالية المخاطر، وفنية لا تُنسى خارج كوكب الأرض، وتظليل متقاطع معقد.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686702",
@@ -144695,7 +144703,7 @@
       "imported_at": "2026-11-20T22:17:57.547296+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "3e5c7ea2fae0e0ab47e4448b97778391d879489474212730a3ae7ef38a1b2f3c",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -144709,7 +144717,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbd7b16c-314a-4b97-9577-cc6b58b510da/original=true/fbd7b16c-314a-4b97-9577-cc6b58b510da.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "تحفة، أفضل جودة، جمالية للغاية، سخافات، Score_9، Score_8، عام 2025، الأحدث، Highres، فن رسمي، عمق المجال، فتاة واحدة، منفرد، شعر أشقر، شعر طويل، كعكة شعر، شعر فوضوي، غرة، أقفال جانبية، أقراط، قلادة، أظافر زرقاء، طلاء أظافر، قميص أبيض، قميص بياقة، أكمام قصيرة، فستان أسود، فستان ميدعة، كاميرا، مضغوط كاميرا، إمساك كاميرا، حزام الكاميرا، ذراع مرفوعة، النظر إلى العارض، شفاه متباعدة، الجزء العلوي من الجسم، لقطة مقربة، زاوية مائلة، زاوية ديناميكية، عمق المجال، عمق المجال الضحل، مقدمة ضبابية، بوكيه، زهرة صفراء، زهور، حقل زهور، في الهواء الطلق، ربيع، ضوء الشمس، ضوء الشمس المتقطع، ضوء دافئ، توهج العدسة، انحراف لوني، ضوء المنشور، حبيبات الفيلم، تركيز ناعم، فتاة شقراء ترتدي قميصًا أبيض وترفع المريلة السوداء كاميرا فيلم مدمجة بالقرب من وجهها بينما تملأ الزهور الصفراء الإطار من حولها. تلتقي نظرتها الخضراء بالمشاهد من خلال ضوء شمس الربيع الدافئ، مع ذوبان أزهار المقدمة في بوكيه ناعم وتوهجات منشورية صغيرة متناثرة عبر الصورة.,ضوء حافة قوي,إضاءة سينمائية,الضوء المتوفر,إضاءة الخلفية,إضاءة متقلبة,<lora:Turbo-ANIMA:1>,<lora:Turbo-ANIMA-Upgrader:1>,",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686527",
@@ -144739,7 +144749,7 @@
       "imported_at": "2026-11-20T22:17:57.547314+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cf827eedd40572c8d07b058bbb4cbd2344aef03e0814bc5624e8af24caf42cc3",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -144753,7 +144763,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bf5ffa2-7b29-4300-a771-a63283e706c6/original=true/7bf5ffa2-7b29-4300-a771-a63283e706c6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "تحفة فنية خيالية رقمية مظلمة لملكة محاربة أسطورية ترتدي درعًا مقدسًا داكنًا، وتصميمًا بانوراميًا عن قرب، وتكوينًا مركزيًا. تحدق الفارسة المذهلة ذات الشعر الأحمر بقوة إلى الأمام، وتحيط ملامح وجهها الخالية من العيوب بتاج رائع من حجر السج القوطي الجديد مزين بالياقوت القرمزي المحترق. تلتقط ألواح الدرع الفولاذية الداكنة الضخمة والمنحوتة ببراعة إضاءة حافة فضية واضحة، وتعرض نقوشًا مخرمة ذهبية وفضية معقدة. تنبض مسارات الطاقة الحمراء العميقة المعقدة بشكل نظيف داخل مفاصل بولدرونها. الخلفية عبارة عن غابة داكنة متقلبة المزاج مليئة بالأشجار القديمة وتيار كثيف ودقيق من الدخان الحجمي المتصاعد وجمر العنبر المتوهج الصغير. تم الالتقاط بكاميرا Sony FX3، وعدسة Zeiss Supreme Prime مقاس 65 مم f/1.4، وتدرج ألوان دراماتيكي غني، وتباين شديد في الظل، وهو رائج على ArtStation",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686525",
@@ -144783,7 +144795,7 @@
       "imported_at": "2026-11-20T22:17:57.547332+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "8ed149bfd52ee07afb260cceca350adcb1edfd28c051dbe2c3aadb4b365f5958",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144797,7 +144809,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/966b0fc8-41f3-496c-a555-9ad91304462b/original=true/966b0fc8-41f3-496c-a555-9ad91304462b.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة سينمائية احترافية على شاشة عريضة لفارسة خيالية قوية، تنظر مباشرة إلى المشاهد بتعبير مكثف ومسيطر وتركيبة متناسقة. يتميز وجهها الجميل ببشرة شاحبة ذات مسام طبيعية دقيقة، وعظام خد عالية محددة، وعيون فاتحة آسرة وثاقبة تحت تركيز حاد. يتطاير شعرها الطويل السميك والنحاسي الأحمر الرنان بشكل أنيق على كتفيها. إنها ترتدي درعًا رائعًا ومفصلاً للغاية من ألواح الحديد السج الداكن مع نقوش باروكية معقدة ومسامير فضية صغيرة وغطاء جلدي مبطن عالي الياقة. يوجد فوق رأسها تاج رائع وثقيل يشبه التاج مرصع بأحجار الياقوت البلورية الرائعة ذات الأوجه التي تتوهج بضوء قرمزي داخلي خافت. تم تزيين أحجارها الداكنة الضخمة المنحوتة بشعارات ياقوتية متطابقة. الخلفية عبارة عن غابة صنوبر شمالية ضبابية وغير واضحة للغاية مع ضباب أرضي ناعم في الغلاف الجوي. تم التقاطها بكاميرا Phase One XF بدقة 100 ميجابكسل، وعدسة بورتريه مقاس 80 مم، وفتحة f/2.8، وضوء نهاري مثير عالي التباين، وتركيبات مادية نقية.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686524",
@@ -144827,7 +144841,7 @@
       "imported_at": "2026-11-20T22:17:57.547349+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "d8e1a2df827c0154ee4831bbb6061cc968b94a6a90e7168bb036ff3b1e2f2711",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144841,7 +144855,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d416b188-651c-4980-a0e2-626ada8df94d/original=true/d416b188-651c-4980-a0e2-626ada8df94d.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة سينمائية احترافية عريضة ومقربة لفارسة خيالية قوية، تنظر مباشرة إلى المشاهد بتعبير مكثف ومسيطر وتركيبة متناسقة. يتميز وجهها الجميل ببشرة شاحبة ذات مسام طبيعية خفية، وعظام خد عالية محددة، وعيون فاتحة آسرة وثاقبة تحت تركيز حاد. يتدلى شعرها الطويل والسميك والنحاسي الأحمر الرنان بشكل أنيق على كتفيها. إنها ترتدي درعًا رائعًا ومفصلاً للغاية من ألواح الحديد السج الداكن مع نقوش باروكية معقدة، ومسامير فضية صغيرة، وغطاء جلدي مبطن عالي الياقة. يوجد فوق رأسها تاج رائع وثقيل يشبه التاج مرصع بأحجار الياقوت البلورية الرائعة ذات الأوجه التي تتوهج بضوء قرمزي داخلي خافت. تم تزيين أحجارها الداكنة الضخمة المنحوتة بشعارات الياقوت المطابقة. الخلفية عبارة عن غابة صنوبر شمالية ضبابية وغير واضحة للغاية مع ضباب أرضي جوي ناعم. تم التقاطها بكاميرا Phase One XF بدقة 100 ميجابكسل، وعدسة بورتريه مقاس 80 مم، وفتحة f/2.8، وضوء نهاري مثير عالي التباين، وتركيبات مادية نقية،",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149661176",
@@ -144874,7 +144890,7 @@
       "imported_at": "2026-11-20T22:17:57.547388+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "342fd94c63dd969c8b3bd8c25bdd167707ad69bdf216f999ce71d0f43d256d98",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144888,7 +144904,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/42fbabe4-6be6-4893-804f-10be95dc49ab/original=true/42fbabe4-6be6-4893-804f-10be95dc49ab.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "لقطة مقربة للغاية لعين بومة فضولية، والريش المعقد يؤطر ساعيًا منعكسًا بشكل حاد على السطح يعبر جسرًا نيونًا ورديًا. تحتوي قطرة صغيرة من المطر على ريشة واحدة على انعكاس مصغر ثانٍ لمدينة. احتفظ بعين واحدة مهيمنة وأشكال ضوئية واضحة، وليس مجمعة. النيلي العميق، قزحية العنبر، حافة سماوية انتقائية، ظل هادئ. عمل فني توضيحي، وجوه معبرة، خطوط رسومية واثقة، موقف مسرحي مؤذ. الأعمال الفنية الرقمية، والأسلوب السيبرنيتيكي، وأسلوب السايبربانك، والأشكال العضوية والميكانيكية، والمواد المضيئة الانتقائية. كيموكاوا. حافظ على اللوحة الخاصة بالمشهد والإضاءة الانتقائية. عمل فني واحد متواصل وكامل، وتسلسل هرمي بؤري واضح، بدون تسميات توضيحية أو علامات مائية أو شعارات أو توقيعات أو مجمعات؛ تتواصل العلامات مع الأشكال والصور التوضيحية بدلاً من الكتابة المقروءة.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686443",
@@ -144919,7 +144937,7 @@
       "imported_at": "2026-11-20T22:17:57.547424+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "e690c36c7675f6c2f28c7c9638c15749c53a5285ee6dee360dac91f2401832b9",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -144935,7 +144953,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532bf644-485f-400c-8e87-55348cbbee24/original=true/532bf644-485f-400c-8e87-55348cbbee24.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "<lora:ink_splats_flux:1>، رذاذ الحبر، رسم توضيحي للرواية المصورة الافتتاحية يتمحور حول انفجار حبر أسود ضخم وعنيف ينفجر مباشرة من باتمان وهو جالس بشكل عرضي على وعاء مرحاض من الخزف الأبيض. يحمل في إحدى يديه شريحة جبنة من بيتزا بيبروني، وفي اليد الأخرى يحمل حقيبة تسوق بيضاء واضحة مطبوعة بحروف ملونة جريئة \"VADER GO HOME\" مع بقع حبر. يتوازن المرحاض بشكل غير مستقر على لوح تزلج خشبي متهالك مع شاحنات معدنية وعجلات من اليوريثان، وتحيط به بط مطاطية صفراء زاهية صغيرة منتشرة على قطعة من الأرضية المبلطة اللامعة. ينفجر الحبر الأسود شديد اللمعان إلى الخارج في كل الاتجاهات بقوة حركية شديدة - مما يؤدي إلى تحطيم الصور الظلية لدرع باتمان الأسود اللامع، والعباءة، والمرحاض الخزفي، ولوح التزلج، والبيتزا إلى أشرطة حبر سائلة دوامية، وبقع رطبة سميكة، وقطرات طائرة عالية السرعة معلقة في الهواء، وبقع ضباب كثيفة من الحبر الناعم، ومحلاق ثقيلة تتساقط إلى الأسفل. تتناثر خطوط وخطوط حبر لامعة داكنة على الدرع والبورسلين والحقيبة وسطح لوح التزلج. معزولة على خلفية بيضاء نقية ومشرقة مع مساحة سلبية واسعة تؤطر تشتت الحبر المتفجر. إضاءة استوديو درامية عالية التباين مع نقاط مضيئة تلتقط كل رذاذ حبر مبلل وسطح لامع، وتركيز حاد للغاية، وأعمال خطية معقدة، ورسوم توضيحية تحريرية حائزة على جوائز.",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149664007",
@@ -144968,7 +144988,7 @@
       "imported_at": "2026-11-20T22:17:57.547445+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cc40a205ca0453296c4bea57ca923d71466fb3d1fe19616b03e6533c8cb3f546",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -144982,7 +145002,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f/original=true/4f6d9a26-3ed6-4abc-b1d4-9083bf10658f.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "رسم توضيحي رقمي لامرأة شابة ذات شعر أسود طويل مع خصلات شقراء، ترتدي فستانًا أسود بنقوش ذهبية معقدة وقلادة ضيقة. لديها بشرة شاحبة، وعينان داكنتان مع تعبير حزين، وشم متقاطع أسود صغير على كتفها الأيمن. فستانها مكشوف الأكتاف، ويكشف عن الترقوة، وقلادة دائرية ذهبية بتصميم عين في المنتصف. تحمل شيئًا صغيرًا في يدها اليمنى، وتنظر إليه مع عبوس طفيف. تمتلئ الخلفية برموز غامضة مختلفة، بما في ذلك النجوم الخماسية والنجوم والرونية، باللونين الأبيض والأسود. يهيمن على لوحة الألوان اللون الأسود والذهبي ودرجات اللون البيج الرقيقة. يتميز الرسم التوضيحي بأسلوب قوطي وغامض، مع عمل الخطوط الدقيقة والملمس الرقمي السلس. يتم توسيط التكوين، حيث تحتل المرأة غالبية الإطار، وزاوية طفيفة من الأعلى إلى الأسفل. الإضاءة ناعمة تبرز وجهها وتفاصيل فستانها.\nباستخدام لوحة ألوان صارمة للغاية مكونة من أربعة ألوان تتكون حصريًا من هذه الألوان بالضبط: الأحمر الزاهي #F60018، والبرتقالي الساطع #FF6A00، والأخضر المخضر العميق #00685A، والأخضر الزاهي #188A00. لا يسمح بأي ألوان أخرى",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686222",
@@ -145013,7 +145035,7 @@
       "imported_at": "2026-11-20T22:17:57.547455+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "8222369974711c7a14cc780335a2d05f9a152b9f014f10dc3afd9c5da05e85be",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -145027,7 +145049,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/622da853-dd4a-4850-8795-be09ee5d2c17/original=true/622da853-dd4a-4850-8795-be09ee5d2c17.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "شعر جميل متدفق، جسم كامل، بندقية، شخصية أنثوية داكنة Steampunk، جمالية شريرة من الكرنفال الفيكتوري، قبعة أنيقة، مكياج درامي، زي كريمي مع تفاصيل من الجلد البني، أزياء قوطية، زخارف ميكانيكية، تصميم فاخر ملتوي، جو غامض، خلفية مدينة Steampunk، إضاءة سينمائية، تصوير صورة واقعي",
+      "translated_at": "2026-11-21T11:21:58Z"
     },
     {
       "id": "civitai-149686221",
@@ -145058,7 +145082,7 @@
       "imported_at": "2026-11-20T22:17:57.547466+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "66017dfefbefc5dbc4d2c2346ff25d9d24e88493a20a4713de98c73450607799",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -145072,16 +145096,945 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9/original=true/23c09e9a-5d2e-43b5-8ec4-952e0c8569c9.jpeg"
         }
+      ],
+      "prompt_ar": "تحفة، أفضل جودة، تلوين أنيمي، شعر جميل متدفق، جسم كامل، بندقية، شخصية أنثوية داكنة Steampunk، جمالية الشرير الكرنفال الفيكتوري، قبعة أنيقة، مكياج درامي، زي كريمي مع تفاصيل من الجلد البني، أزياء قوطية، زخارف ميكانيكية، تصميم فاخر ملتوي، جو غامض، خلفية مدينة Steampunk، إضاءة سينمائية، تصوير صورة واقعي",
+      "translated_at": "2026-11-21T11:21:58Z"
+    },
+    {
+      "id": "gh-f879dcc5c9d3",
+      "title": "YouMind-OpenLab/awesome-nano-banana-pro-prompts README prompt",
+      "category": "prompt-engineering",
+      "tags": [
+        "github",
+        "review"
+      ],
+      "prompt": "Goal: A single vertical live-action portrait photo. Dress the person in Image 1 with the clothes from Image 2, and reproduce the following scene, pose, and shooting conditions.\n[Reference Images]\nFace/Hair: Comply with attached face photo (Image 1)\n[Scene]\nLocation: Office interior, daytime, through transparent glass window, desk/PC monitor/surprised employees in background, strong depth and blur\nLight: Strong indoor light from front and ceiling, intermediate color temperature, high-key leaning, strong contrast, reflection on glass surface and slight blowout\n[Subject]\nHair state: Disheveled, spreading out as pressed against glass surface\nExpression: Eyes wide open, eyebrows furrowed, nose and lips strongly pressed and flattened against glass surface, mouth twisted open widely in a funny face\nTop: Comply with attached costume photo (Image 2)\nBottoms: Comply with attached costume photo (Image 2)\nFeet: Comply with attached costume photo (Image 2)\nClothing state: Disheveled around neck and shoulders, dry normal wear\nAccessories: Small heart motif silver necklace, one small stud earring on one ear only\nPose: Body facing camera, no twist at waist/shoulders, upper body leaning forward, face strongly pressed against transparent glass surface, both palms and fingers also pressed against glass surface, both legs outside frame\n[Camera/Composition]\nForeground/Background: Face and hands pressed against glass are foreground, focus on face/palms, background office/employees heavily blurred, strong perspective exaggeration\nComposition: Bust shot, bottom edge below chest/collarbone, top of head near top edge, face centered occupying approx 50% of screen height, slightly looking down from front, wide angle\nShooting: Indoor snap, close range through glass, wide-angle lens, shallow-medium depth of field, sharp, high saturation, high contrast, clear atmosphere\n[Finish]\nTexture: Realistic skin texture, texture of skin/lips flattened against glass, shallow depth of field, slightly cool vibrant tones, high saturation, high contrast\nStyle: Live-action/Photorealistic (Anime/Illustration/CG/Painting prohibited), glass-through snap, humorous funny face\nRatio: Vertical 9:16 / 1080x1920px (Horizontal prohibited)\n[Constraints]\nMaintain: Keep facial features/hair style/hair color/skin tone from Image 1 and clothing shape/color/pattern from Image 2 exactly.\nExclude: Do not include text/logos/watermarks in image.",
+      "quality_score": 8.0,
+      "source": "GitHub",
+      "source_id": "github",
+      "source_repository": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "source_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README.md",
+      "license": "NOASSERTION",
+      "imported_at": "2026-11-21T11:21:56.027106+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f879dcc5c9d3dc69b20ae947867c56dc3da0ce73880a5ca7d4f8681a0b06c8aa",
+      "prompt_ar": "الهدف: صورة شخصية عمودية واحدة. ألبس الشخص الموجود في الصورة 1 الملابس الموجودة في الصورة 2، وأعد إنتاج المشهد التالي والوضعية وظروف التصوير.\n[الصور المرجعية]\nالوجه / الشعر: يتوافق مع صورة الوجه المرفقة (الصورة 1)\n[مشهد]\nالموقع: داخل المكتب، خلال النهار، من خلال نافذة زجاجية شفافة، وشاشة مكتب/كمبيوتر شخصي/موظفون متفاجئون في الخلفية، وعمق قوي وطمس\nالضوء: ضوء داخلي قوي من الأمام والسقف، ودرجة حرارة لون متوسطة، وميل شديد، وتباين قوي، وانعكاس على سطح الزجاج، وانفجار طفيف\n[الموضوع]\nحالة الشعر: أشعث، منتشر عند الضغط على سطح زجاجي\nالتعبير: العيون مفتوحة على مصراعيها، الحواجب مجعدة، الأنف والشفتان مضغوطتان بقوة ومسطحتان على سطح زجاجي، الفم ملتوي مفتوح على نطاق واسع في وجه مضحك\nالأعلى: الامتثال لصورة الزي المرفقة (الصورة 2)\nالقيعان: متوافقة مع صورة الزي المرفقة (الصورة 2)\nالقدمين: متوافقة مع صورة الزي المرفقة (الصورة 2)\nحالة الملابس: أشعث حول الرقبة والأكتاف، ملابس عادية جافة\nالملحقات: قلادة فضية على شكل قلب صغير، حلق صغير على أذن واحدة فقط\nالوضعية: الكاميرا مواجهة للجسم، لا يوجد انحناء عند الخصر/الكتفين، الجزء العلوي من الجسم يميل للأمام، الوجه مضغوط بقوة على سطح زجاجي شفاف، كلا الكفين والأصابع مضغوطة أيضًا على السطح الزجاجي، كلا الساقين خارج الإطار\n[الكاميرا/التركيب]\nالمقدمة/الخلفية: الوجه والأيدي المضغوطة على الزجاج في المقدمة، والتركيز على الوجه/راحتي اليد، والمكتب الخلفي/الموظفون غير واضحين بشدة، ومبالغة قوية في المنظور\nالتكوين: لقطة التمثال النصفي، الحافة السفلية أسفل الصدر/عظمة الترقوة، أعلى الرأس بالقرب من الحافة العلوية، يشغل منتصف الوجه حوالي 50٪ من ارتفاع الشاشة، وينظر قليلاً إلى الأسفل من الأمام، وزاوية واسعة\nالتصوير: لقطة داخلية، مسافة قريبة من خلال الزجاج، عدسة واسعة الزاوية، عمق مجال ضحل متوسط، حاد، تشبع عالي، تباين عالٍ، جو واضح\n[إنهاء]\nالملمس: ملمس جلد واقعي، ملمس الجلد/الشفاه المسطحة على الزجاج، عمق المجال الضحل، درجات الألوان النابضة بالحياة والباردة قليلاً، التشبع العالي، التباين العالي\nالنمط: حركة حية/صورة واقعية (يحظر الرسوم المتحركة/الرسوم التوضيحية/الرسوم المتحركة/الرسم)، لقطة زجاجية، وجه مضحك وروح الدعابة\nالنسبة: عمودي 9:16 / 1080 × 1920 بكسل (أفقيًا محظور)\n[القيود]\nالحفاظ على: احتفظ بملامح الوجه/نمط الشعر/لون الشعر/لون البشرة من الصورة 1 وشكل/لون/نمط الملابس من الصورة 2 تمامًا.\nالاستبعاد: لا تقم بتضمين نص/شعارات/علامات مائية في الصورة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:58Z",
+      "task_type": "prompt-engineering",
+      "modality": "text",
+      "models": [],
+      "search_text": "youmind-openlab/awesome-nano-banana-pro-prompts readme prompt prompt-engineering goal: a single vertical live-action portrait photo. dress the person in image 1 with the clothes from image 2, and reproduce the following scene, pose, and shooting conditions. [reference images] face/hair: comply with attached face photo (image 1) [scene] location: office interior, daytime, through transparent glass window, desk/pc monitor/surprised employees in background, strong depth and blur light: strong indoor light from front and ceiling, intermediate color temperature, high-key leaning, strong contrast, reflection on glass surface and slight blowout [subject] hair state: disheveled, spreading out as pressed against glass surface expression: eyes wide open, eyebrows furrowed, nose and lips strongly pressed and flattened against glass surface, mouth twisted open widely in a funny face top: comply with attached costume photo (image 2) bottoms: comply with attached costume photo (image 2) feet: comply with attached costume photo (image 2) clothing state: disheveled around neck and shoulders, dry normal wear accessories: small heart motif silver necklace, one small stud earring on one ear only pose: body facing camera, no twist at waist/shoulders, upper body leaning forward, face strongly pressed against transparent glass surface, both palms and fingers also pressed against glass surface, both legs outside frame [camera/composition] foreground/background: face and hands pressed against glass are foreground, focus on face/palms, background office/employees heavily blurred, strong perspective exaggeration composition: bust shot, bottom edge below chest/collarbone, top of head near top edge, face centered occupying approx 50% of screen height, slightly looking down from front, wide angle shooting: indoor snap, close range through glass, wide-angle lens, shallow-medium depth of field, sharp, high saturation, high contrast, clear atmosphere [finish] texture: realistic skin texture, texture of skin/lips flattened against glass, shallow depth of field, slightly cool vibrant tones, high saturation, high contrast style: live-action/photorealistic (anime/illustration/cg/painting prohibited), glass-through snap, humorous funny face ratio: vertical 9:16 / 1080x1920px (horizontal prohibited) [constraints] maintain: keep facial features/hair style/hair color/skin tone from image 1 and clothing shape/color/pattern from image 2 exactly. exclude: do not include text/logos/watermarks in image. github review",
+      "sources": [
+        {
+          "source": "GitHub",
+          "source_id": "github",
+          "source_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README.md",
+          "source_repository": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+          "license": "NOASSERTION"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149526535",
+      "title": "Civitai prompt 149526535",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, scroe_9, best quality, newest, absurdres, highres,Smo0thL1nes, sfw.\nA sublime stone statue woman is putting her finger in calm water, making riddles on the surface, she is on a flat rock above the water with moss on it. She is reaching for the water. There is a strange but magical atmosphere, with crooked trees and strange plants around the place, the light is shallow with fireflies flying around. The night is deep and warm. The woman looks like a greek statue, with a concrete grey skin and long tunique. Stone skin.\nshadows, natural tones, sharp focus, digital illustration, soft shading, highly detailed, dappled light",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149526535",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2509608a-d9b0-4a15-b9f7-3dfcfb5af83a/original=true/2509608a-d9b0-4a15-b9f7-3dfcfb5af83a.jpeg",
+      "model_version_ids": [
+        3031464,
+        3054938,
+        3126711,
+        3163055,
+        3226360,
+        3367283,
+        3432055
+      ],
+      "width": 3840,
+      "height": 2688,
+      "seed": 313529585,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, blurry, jpeg artifacts, sepia, bad anatomy, extra limbs, deformed, watermark, text, signature, artifacts, monochrome, greyscale, censored, mosaic censoring, logo, bad hands, missing fingers, extra digit, fewer digits,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027583+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "20d5e680c664a8588056f199efd2968febcc2df44fb8469d2ceaaf575e350734",
+      "prompt_ar": "تحفة، scroe_9، أفضل جودة، الأحدث، السخافات، Highres،Smo0thL1nes، sfw.\nامرأة تمثال حجري سامي تضع إصبعها في ماء هادئ، وتصنع ألغازًا على السطح، وهي على صخرة مسطحة فوق الماء وعليها طحلب. إنها تصل إلى الماء. هناك جو غريب ولكنه ساحر، حيث توجد أشجار ملتوية ونباتات غريبة حول المكان، والضوء ضحل وتحلق حوله اليراعات. الليل عميق ودافئ. تشبه المرأة تمثالًا يونانيًا، ذات بشرة رمادية خرسانية وسترة طويلة. الجلد الحجري.\nالظلال، النغمات الطبيعية، التركيز الحاد، الرسم الرقمي، التظليل الناعم، التفصيل العالي، الضوء المرقط",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:58Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149526535 image ai-image-prompts masterpiece, scroe_9, best quality, newest, absurdres, highres,smo0thl1nes, sfw. a sublime stone statue woman is putting her finger in calm water, making riddles on the surface, she is on a flat rock above the water with moss on it. she is reaching for the water. there is a strange but magical atmosphere, with crooked trees and strange plants around the place, the light is shallow with fireflies flying around. the night is deep and warm. the woman looks like a greek statue, with a concrete grey skin and long tunique. stone skin. shadows, natural tones, sharp focus, digital illustration, soft shading, highly detailed, dappled light civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149526535",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2509608a-d9b0-4a15-b9f7-3dfcfb5af83a/original=true/2509608a-d9b0-4a15-b9f7-3dfcfb5af83a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562413",
+      "title": "Civitai prompt 149562413",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic still from a big-budget fantasy film, a photorealistic low three-quarter medium shot from the rim of a vast phoenix nest woven of glowing golden branches at the top of a burning tree at dusk. A barefoot young woman in her mid-twenties, a fire-keeper, kneels inside the nest beside a single egg that glows white-gold, reaching out with one hand to touch its shell, while the great phoenix stands over her with its wings half spread. Her bare feet are a key, clearly lit detail: tucked behind her as she kneels, soles turned up toward the camera and glowing warm orange in the firelight, slender toes curled into the soft smoldering down that lines the nest, a fine gold chain anklet, tiny embers drifting harmlessly around her heels. She has warm olive skin glistening with heat, a fine-boned face, amber eyes reflecting the flames and long dark wavy hair lifting in the hot updraft. She wears a sleeveless wrap dress of deep crimson linen belted with a braided gold cord, the skirt pooled around her knees, gold cuffs on her upper arms. The phoenix is magnificent, a bird the size of a horse made of crimson, orange and gold flame-feathers, a long tail of living fire curling around the nest, its head bowed gently toward her. Beside the nest on a thick branch, her companion, an old bearded druid in ash-grey robes, watches with a staff in hand. The tree's upper branches burn with slow golden flames that do not consume them, and far below lies a darkening valley of forest. Warm firelight from the phoenix and burning branches bathes her from above and the side, the egg underlighting her face, cool violet dusk sky behind. Photorealistic cinematic film still with anamorphic lens character, epic production and costume design, film color grading, ethereal and dreamlike, with deep atmospheric depth in the smoke and valley haze, a strong bloom around the flames and the egg, floating embers as bokeh across the frame, a mood of quiet solitude and reverence. Shot on a 35mm lens, razor-sharp detail on her bare feet and face, fine film grain, crimson, flame gold and dusk violet palette.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562413",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8c6564e-0f5c-401f-8cfd-4e93b4ee7f38/original=true/d8c6564e-0f5c-401f-8cfd-4e93b4ee7f38.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3068874,
+        3110766,
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 1932644452,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027626+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "87fd2db5598093aef2e282457c0850384aa8aab235728be35edd54ea9db5f0c8",
+      "prompt_ar": "لقطة سينمائية ثابتة من فيلم خيالي بميزانية كبيرة، لقطة واقعية منخفضة بمعدل ثلاثة أرباع من حافة عش طائر الفينيق الواسع المنسوج من أغصان ذهبية متوهجة أعلى شجرة محترقة عند الغسق. شابة حافية القدمين في منتصف العشرينيات من عمرها، حارسة إطفاء، تجثو داخل العش بجوار بيضة واحدة تتوهج باللون الأبيض، وتمد يدها لتلمس قشرتها، بينما يقف فوقها طائر الفينيق الكبير بجناحيه نصف منتشرين. تعد قدميها العاريتين من التفاصيل الرئيسية والمضاءة بوضوح: مدسوسة خلفها وهي تركع، ونعلها مرفوع نحو الكاميرا ويتوهج باللون البرتقالي الدافئ في ضوء النار، وأصابع القدم النحيلة ملتفة في الدخان الناعم الذي يبطن العش، وخلخال من سلسلة ذهبية رائعة، وجمر صغير ينجرف حول كعبيها دون ضرر. لديها بشرة زيتونية دافئة تتلألأ بالحرارة، ووجه ناعم العظام، وعينان كهرمانيتان تعكسان النيران، وشعر طويل مموج داكن اللون يرتفع في التيار الصاعد الساخن. ترتدي فستانًا ملفوفًا بلا أكمام من الكتان القرمزي العميق مربوطًا بحبل ذهبي مضفر، والتنورة مجمعة حول ركبتيها، وأصفاد ذهبية على ذراعيها العلويين. طائر الفينيق رائع، طائر بحجم حصان مصنوع من ريش اللهب القرمزي والبرتقالي والذهبي، وذيل طويل من النار الحية يلتف حول العش، وينحني رأسه بلطف نحوها. بجانب العش الموجود على غصن سميك، يراقب رفيقها، وهو كاهن عجوز ملتح يرتدي ثيابًا رمادية اللون، وهو يحمل عصا في يده. تحترق أغصان الشجرة العلوية بلهب ذهبي بطيء لا يستهلكها، وفي الأسفل يقع وادي الغابة المظلم. ضوء النار الدافئ المنبعث من العنقاء والفروع المحترقة يغمرها من الأعلى والجانب، والبيضة تسلط الضوء على وجهها، وسماء الغسق البنفسجية الباردة من الخلف. فيلم سينمائي واقعي لا يزال يتميز بشخصية عدسة بصرية مشوهة، وإنتاج ملحمي وتصميم أزياء، وتدرج ألوان الفيلم، أثيري وشبيه بالحلم، مع عمق جوي عميق في الدخان وضباب الوادي، وزهرة قوية حول اللهب والبيضة، وجمر عائم مثل البوكيه عبر الإطار، ومزاج من العزلة الهادئة والخشوع. تم تصويرها باستخدام عدسة مقاس 35 مم، وتفاصيل حادة للغاية على قدميها ووجهها العاريتين، وحبيبات رقيقة من الفيلم، وقرمزي، وذهبي لهب، ولوحة ألوان بنفسجية داكنة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149562413 advertising ai-image-prompts a cinematic still from a big-budget fantasy film, a photorealistic low three-quarter medium shot from the rim of a vast phoenix nest woven of glowing golden branches at the top of a burning tree at dusk. a barefoot young woman in her mid-twenties, a fire-keeper, kneels inside the nest beside a single egg that glows white-gold, reaching out with one hand to touch its shell, while the great phoenix stands over her with its wings half spread. her bare feet are a key, clearly lit detail: tucked behind her as she kneels, soles turned up toward the camera and glowing warm orange in the firelight, slender toes curled into the soft smoldering down that lines the nest, a fine gold chain anklet, tiny embers drifting harmlessly around her heels. she has warm olive skin glistening with heat, a fine-boned face, amber eyes reflecting the flames and long dark wavy hair lifting in the hot updraft. she wears a sleeveless wrap dress of deep crimson linen belted with a braided gold cord, the skirt pooled around her knees, gold cuffs on her upper arms. the phoenix is magnificent, a bird the size of a horse made of crimson, orange and gold flame-feathers, a long tail of living fire curling around the nest, its head bowed gently toward her. beside the nest on a thick branch, her companion, an old bearded druid in ash-grey robes, watches with a staff in hand. the tree's upper branches burn with slow golden flames that do not consume them, and far below lies a darkening valley of forest. warm firelight from the phoenix and burning branches bathes her from above and the side, the egg underlighting her face, cool violet dusk sky behind. photorealistic cinematic film still with anamorphic lens character, epic production and costume design, film color grading, ethereal and dreamlike, with deep atmospheric depth in the smoke and valley haze, a strong bloom around the flames and the egg, floating embers as bokeh across the frame, a mood of quiet solitude and reverence. shot on a 35mm lens, razor-sharp detail on her bare feet and face, fine film grain, crimson, flame gold and dusk violet palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562413",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8c6564e-0f5c-401f-8cfd-4e93b4ee7f38/original=true/d8c6564e-0f5c-401f-8cfd-4e93b4ee7f38.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149705689",
+      "title": "Civitai prompt 149705689",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "NijiSIS.\n\nSubject:\na cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, a wolf cut of cherry red hair, soft green eyes, a girl at a frosty hot-spring inn, fully dressed in a fluffy cream bathrobe-style kimono loosely tied with a red sash, a towel wrapped in her hair and wooden geta, with a shy blush, looking slightly away.\n\nEnvironment:\na snowy hot-spring inn courtyard with steam and lanterns.\n\nStyle:\nWatercolor Anime Illustration: A soft, luminous illustration style built on delicate translucent washes blending seamlessly with clean anime-adjacent linework, gentle bleeding and diffusion at the edges lending each plane a tender, organic softness, restrained tonal layering achieved through patient, unhurried wash-building rather than opaque coverage, a hushed, dreamlike stillness carried through soft directional light, and a poetic, wistful character-illustration finish that feels equally hand-painted and anime-refined. Influenced by: traditional watercolor-and-wash technique, contemporary anime-illustration tradition, gentle wash-blending practice, semi-realistic character-art method.\n\nComposition:\nA dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. No text or logos.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149705689",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/315f6a29-836e-4af9-aed2-2363c9790f10/original=true/315f6a29-836e-4af9-aed2-2363c9790f10.jpeg",
+      "model": "krea2_turbo_int8_convrot",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 2,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027650+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ccf57ad59dfc3bfc02e4542060d7e65d11ea4395f066613ef8952b59885ad4ac",
+      "prompt_ar": "NijiSIS.\n\nالموضوع:\nامرأة شابة لطيفة في أوائل العشرينات من عمرها ذات أبعاد ناضجة ووجه ناضج، بشرة فاتحة، قصة ذئب من شعر أحمر كرزي، عيون خضراء ناعمة، فتاة في نزل ينبوع حار فاتر، ترتدي بالكامل كيمونو كريمي رقيق على شكل رداء حمام مربوط بشكل فضفاض بوشاح أحمر، ومنشفة ملفوفة في شعرها وجيتا خشبية، مع خدود خجولة، وتنظر بعيدًا قليلاً.\n\nالبيئة:\nفناء نزل ينبوع ساخن ثلجي به بخار وفوانيس.\n\nالنمط:\nرسم توضيحي للرسوم المتحركة بالألوان المائية: أسلوب توضيحي ناعم ومشرق مبني على طبقات شفافة دقيقة تمتزج بسلاسة مع الخطوط النظيفة المجاورة للأنمي، والنزيف اللطيف والانتشار عند الحواف مما يضفي على كل مستوى نعومة عضوية رقيقة وطبقات لونية مقيدة يتم تحقيقها من خلال بناء الغسل المتأني بدلاً من التغطية المبهمة، وسكون هادئ يشبه الحلم يتم نقله من خلال ضوء اتجاهي ناعم، ولمسة نهائية شعرية حزينة لتوضيح الشخصية التي تشعر بأنها مرسومة يدويًا ومرسومة يدويًا. أنيمي المكرر. متأثرًا بـ: تقنية الألوان المائية والغسل التقليدية، وتقاليد الرسوم المتحركة المعاصرة، وممارسة المزج اللطيف، وطريقة فن الشخصيات شبه الواقعية.\n\nالتركيب:\nلقطة متوسطة بزاوية هولندية، الإطار مائل، وهي تميل قليلاً نحو المشاهد. لا يوجد نص أو شعارات.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149705689 architecture ai-image-prompts nijisis. subject: a cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, a wolf cut of cherry red hair, soft green eyes, a girl at a frosty hot-spring inn, fully dressed in a fluffy cream bathrobe-style kimono loosely tied with a red sash, a towel wrapped in her hair and wooden geta, with a shy blush, looking slightly away. environment: a snowy hot-spring inn courtyard with steam and lanterns. style: watercolor anime illustration: a soft, luminous illustration style built on delicate translucent washes blending seamlessly with clean anime-adjacent linework, gentle bleeding and diffusion at the edges lending each plane a tender, organic softness, restrained tonal layering achieved through patient, unhurried wash-building rather than opaque coverage, a hushed, dreamlike stillness carried through soft directional light, and a poetic, wistful character-illustration finish that feels equally hand-painted and anime-refined. influenced by: traditional watercolor-and-wash technique, contemporary anime-illustration tradition, gentle wash-blending practice, semi-realistic character-art method. composition: a dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. no text or logos. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149705689",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/315f6a29-836e-4af9-aed2-2363c9790f10/original=true/315f6a29-836e-4af9-aed2-2363c9790f10.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149705688",
+      "title": "Civitai prompt 149705688",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "NijiSIS.\n\nSubject:\na cute young woman in her early twenties with adult proportions and a grown-up face, pale porcelain skin, a messy low ponytail of lavender hair, pink eyes, a girl studying at a library cafe, fully dressed in a round-shoulder oatmeal cardigan buttoned up as a top, a khaki satin midi skirt and a velour headband, with a sulky look from under her bangs.\n\nEnvironment:\na library cafe table with books and a latte by the big window.\n\nStyle:\nFashion Sketch: An elegant, elongated illustration style built on fluid, confident linework stretching proportion into graceful, statuesque exaggeration, minimal, loose shading applied with quick, economical strokes rather than full rendering, a light, airy sense of movement carried through unhurried, gestural mark-making, deliberate emphasis on flowing silhouette and pose over anatomical exactness, and a chic, effortless sketch-illustration elegance that feels immediate, stylish, and quietly sophisticated. Influenced by: fashion-illustration tradition, croquis sketching technique, editorial fashion-sketch practice, elongated figure-drawing method.\n\nComposition:\nA dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. No text or logos.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149705688",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89edc81d-b55c-4608-b915-207d74344d8b/original=true/89edc81d-b55c-4608-b915-207d74344d8b.jpeg",
+      "model": "krea2_turbo_int8_convrot",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 2,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027670+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a49778915e64e844622579b19a7bfe7191864a9bce06e2be64962cac987e66d1",
+      "prompt_ar": "NijiSIS.\n\nالموضوع:\nامرأة شابة لطيفة في أوائل العشرينات من عمرها ذات أبعاد ناضجة ووجه ناضج، بشرة خزفية شاحبة، ذيل حصان منخفض فوضوي من شعر خزامي، عيون وردية، فتاة تدرس في مقهى مكتبة، ترتدي بالكامل سترة من دقيق الشوفان مستديرة الكتف ومزررة كقميص، وتنورة متوسطة الطول من الساتان الكاكي وعصابة رأس من القطيفة، مع مظهر متجهم من تحت غرتها.\n\nالبيئة:\nطاولة مقهى مكتبة بها كتب ومشروب لاتيه بجوار النافذة الكبيرة.\n\nالنمط:\nرسم الأزياء: أسلوب توضيحي أنيق ومطول مبني على خطوط خطية مرنة وواثقة تمتد إلى مبالغة تمثالية رشيقة، وتظليل بسيط وفضفاض يتم تطبيقه بضربات سريعة واقتصادية بدلاً من العرض الكامل، وإحساس خفيف ومتجدد الهواء بالحركة يتم تنفيذه من خلال صنع العلامات الإيمائية غير المستعجلة، والتركيز المتعمد على الصورة الظلية المتدفقة والوضعية على الدقة التشريحية، وأناقة الرسم التوضيحي الأنيقة والبسيطة التي تبدو فورية وأنيقة ومتطورة بهدوء. تأثرت بـ: تقاليد رسم الأزياء، وتقنية رسم الكروكيس، وممارسة رسم الأزياء التحريرية، وطريقة رسم الأشكال الممدودة.\n\nالتركيب:\nلقطة متوسطة بزاوية هولندية، الإطار مائل، وهي تميل قليلاً نحو المشاهد. لا يوجد نص أو شعارات.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149705688 fashion ai-image-prompts nijisis. subject: a cute young woman in her early twenties with adult proportions and a grown-up face, pale porcelain skin, a messy low ponytail of lavender hair, pink eyes, a girl studying at a library cafe, fully dressed in a round-shoulder oatmeal cardigan buttoned up as a top, a khaki satin midi skirt and a velour headband, with a sulky look from under her bangs. environment: a library cafe table with books and a latte by the big window. style: fashion sketch: an elegant, elongated illustration style built on fluid, confident linework stretching proportion into graceful, statuesque exaggeration, minimal, loose shading applied with quick, economical strokes rather than full rendering, a light, airy sense of movement carried through unhurried, gestural mark-making, deliberate emphasis on flowing silhouette and pose over anatomical exactness, and a chic, effortless sketch-illustration elegance that feels immediate, stylish, and quietly sophisticated. influenced by: fashion-illustration tradition, croquis sketching technique, editorial fashion-sketch practice, elongated figure-drawing method. composition: a dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. no text or logos. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149705688",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/89edc81d-b55c-4608-b915-207d74344d8b/original=true/89edc81d-b55c-4608-b915-207d74344d8b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149705685",
+      "title": "Civitai prompt 149705685",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "NijiSIS. @748cm_style.\n\nSubject:\na cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, twin tails of cherry red hair, heterochromatic blue and gold eyes, a girl taking photos on a city stroll, fully dressed in a ski-core look of a pastel blue padded ski jacket, a white hoodie, a pleated mini skirt and ski gloves clipped to her bag, with a gentle smile, looking at the viewer.\n\nEnvironment:\na footbridge over a canal with the city glowing at sunset.\n\nStyle:\nArcane Animation Still: A richly painterly animated-illustration style built on visible, confident brushstroke texture layered directly into rendering rather than smoothed away, dramatic chiaroscuro lighting that carves bold graphic shadow across stylized angular form, a fusion of hand-painted textural depth with clean animation-ready linework, moody atmospheric tonal harmony charged with cinematic tension, and a bold, painterly-meets-graphic animation intensity that feels both illustrated and alive. Influenced by: Fortiche Production, League of Legends concept-art tradition, painterly animation technique, cinematic stylized character-design practice.\n\nComposition:\nA dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. Her hair and clothes are swept by the wind as if caught mid-motion. No text or logos.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149705685",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba244901-214b-4be5-8b57-399f10ba3049/original=true/ba244901-214b-4be5-8b57-399f10ba3049.jpeg",
+      "model": "krea2_turbo_int8_convrot",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 2,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027691+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1f45c3da08eb1b5fd50bacec6a96f30b680d5b51a6cfaa5c30c853a295634cba",
+      "prompt_ar": "NijiSIS. @748cm_style.\n\nالموضوع:\nامرأة شابة لطيفة في أوائل العشرينات من عمرها ذات أبعاد بالغة ووجه ناضج، بشرة فاتحة، ذيلان مزدوجان من الشعر الأحمر الكرز، عيون زرقاء وذهبية متغايرة اللون، فتاة تلتقط صورًا أثناء نزهة في المدينة، ترتدي ملابس تزلج أساسية من سترة تزلج مبطنة باللون الأزرق الفاتح، وسترة بيضاء بقلنسوة، وتنورة قصيرة مطوية وقفازات تزلج مثبتة على حقيبتها، مع ابتسامة لطيفة، وتنظر إلى المشاهد.\n\nالبيئة:\nجسر للمشاة فوق قناة حيث تتوهج المدينة عند غروب الشمس.\n\nالنمط:\nArcane Animation Still: أسلوب رسوم متحركة غني بالرسومات التوضيحية مبني على نسيج واضح وواثق من ضربات الفرشاة يتم وضعه مباشرة في العرض بدلاً من تنعيمه، وإضاءة تشياروسكورو درامية تنحت ظلًا رسوميًا جريئًا عبر شكل زاوي منمق، وهو مزيج من العمق التركيبي المرسوم يدويًا مع خطوط نظيفة جاهزة للرسوم المتحركة، وتناغم نغمي متقلب المزاج مشحون بالتوتر السينمائي، وكثافة رسوم متحركة جريئة تجتمع مع الرسوم البيانية التي تبدو موضحة و على قيد الحياة. متأثرة بـ: Fortiche Production، وتقاليد الفنون المفاهيمية في League of Legends، وتقنية الرسوم المتحركة التصويرية، وممارسة تصميم الشخصيات السينمائية المنمقة.\n\nالتركيب:\nلقطة متوسطة بزاوية هولندية، الإطار مائل، وهي تميل قليلاً نحو المشاهد. تجتاح الريح شعرها وملابسها كما لو كانت في منتصف الحركة. لا يوجد نص أو شعارات.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149705685 advertising ai-image-prompts nijisis. @748cm_style. subject: a cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, twin tails of cherry red hair, heterochromatic blue and gold eyes, a girl taking photos on a city stroll, fully dressed in a ski-core look of a pastel blue padded ski jacket, a white hoodie, a pleated mini skirt and ski gloves clipped to her bag, with a gentle smile, looking at the viewer. environment: a footbridge over a canal with the city glowing at sunset. style: arcane animation still: a richly painterly animated-illustration style built on visible, confident brushstroke texture layered directly into rendering rather than smoothed away, dramatic chiaroscuro lighting that carves bold graphic shadow across stylized angular form, a fusion of hand-painted textural depth with clean animation-ready linework, moody atmospheric tonal harmony charged with cinematic tension, and a bold, painterly-meets-graphic animation intensity that feels both illustrated and alive. influenced by: fortiche production, league of legends concept-art tradition, painterly animation technique, cinematic stylized character-design practice. composition: a dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. her hair and clothes are swept by the wind as if caught mid-motion. no text or logos. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149705685",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba244901-214b-4be5-8b57-399f10ba3049/original=true/ba244901-214b-4be5-8b57-399f10ba3049.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149184064",
+      "title": "Civitai prompt 149184064",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@H4LPH4S9,anime screenshot, anime screencap,GPTImage,[Style: Japanese Anime Illustration, Cel-Shaded Coloring, Expressive Linework] In a twilight garden where the air hums with the scent of crushed violets and damp earth, stands a skeleton knight who seems both ancient and momentarily at peace. His skull is crowned with delicate, curling tendrils of electric blue hair that drift like smoke around his brow, framing hollow eyes that reflect not just light, but memory. Clad in weathered plate armor painted the color of midnight velvet and accented with ornate gold filigree along the edges of his pauldrons and greaves, he holds a massive longsword upright in one skeletal hand—the blade glowing faintly blue from its own inner life—while his other arm hangs limp beside him, fingers curled as if still gripping something lost. Around his neck drapes a tattered cloak of deep indigo fabric, frayed at the hem, swaying gently though there is no wind to push it. Behind him, vines thick with rose-pink blossoms and sky-blue clusters climb up stone pillars and twist through branches, forming an archway that frames him like a living portrait. The lighting is soft yet directional: moonlight bleeding in from above, casting long shadows against his ribcage while backlighting the translucent petals around him. Every line sings with intention—bold contours define his form, delicate strokes capture the flutter of fabric and bloom, and hatching techniques bring texture to both bone and steel. This is not merely a ghost standing among flowers; it is a moment suspended between death’s cold logic and nature’s warm embrace, rendered in cel-shaded glory where every highlight pops against deep contrasts. He waits—not for battle, nor for resurrection—but simply to exist within this floral cathedral, where time slows and the skeleton becomes both sentinel and dreamer under the pink-hued canopy of an otherworldly evening.<lora:tool\\krea2_refusal_compact (1).safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\Krea2_GPTImage_StyleLoRA.safetensors:1><lora:style\\HALPHAS-KREA-V1 (1).safetensors:1>",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149184064",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8a35e52-6494-4b15-a8f1-7998aea19918/original=true/b8a35e52-6494-4b15-a8f1-7998aea19918.jpeg",
+      "model": "CatPony-Ani-Krea2-v1.fp8_scaled",
+      "model_version_ids": [
+        3174829,
+        3375244,
+        3412855,
+        3450206,
+        3452437
+      ],
+      "width": 1664,
+      "height": 2496,
+      "seed": 779280035685684,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027739+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "961b48c55b7d5d9d575844d281892d690d4f413a55712f21ce03e8f87e1505c6",
+      "prompt_ar": "@H4LPH4S9,anime Screenshot, Anime Screencap,GPTImage,[النمط: رسم توضيحي للرسوم المتحركة اليابانية، تلوين مظلل، خطوط معبرة] في حديقة شفق حيث يطن الهواء برائحة البنفسج المسحوق والأرض الرطبة، يقف فارس هيكلي يبدو قديمًا ومرتاحًا للحظات. تتوج جمجمته بمحاليق دقيقة مجعدة من الشعر الأزرق الكهربائي الذي ينجرف مثل الدخان حول جبينه، ويشكل عيونًا مجوفة لا تعكس الضوء فحسب، بل الذاكرة أيضًا. يرتدي درعًا صفيحيًا مطليًا بلون مخمل منتصف الليل ومزينًا بزخرفة ذهبية مزخرفة على طول حواف بولدرونه وغرويده، ويحمل سيفًا طويلًا ضخمًا في وضع مستقيم في يد هيكلية واحدة - النصل يتوهج باللون الأزرق الباهت من حياته الداخلية - بينما تتدلى ذراعه الأخرى مرتخية بجانبه، وأصابعه ملتوية كما لو كانت لا تزال تمسك بشيء مفقود. تتدلى حول رقبته عباءة ممزقة من القماش النيلي العميق، مهترئة عند الحاشية، تتمايل بلطف على الرغم من عدم وجود ريح تدفعها. خلفه، تتسلق أشجار الكروم الكثيفة بأزهار وردية وعناقيد زرقاء سماوية أعمدة حجرية وتلتف عبر الفروع، لتشكل ممرًا يحيط به كصورة حية. الإضاءة ناعمة ولكنها موجهة: ضوء القمر يتدفق من الأعلى، ويلقي ظلالاً طويلة على قفصه الصدري بينما يضيء البتلات الشفافة من حوله من الخلف. كل سطر يغني بقصد، فالخطوط الجريئة تحدد شكله، والضربات الدقيقة تلتقط رفرفة القماش والزهر، وتقنيات التظليل تجلب الملمس إلى كل من العظم والفولاذ. هذا ليس مجرد شبح يقف بين الزهور؛ إنها لحظة معلقة بين منطق الموت البارد واحتضان الطبيعة الدافئ، مقدمة في مجد مظلل بالسيليكون حيث يبرز كل تسليط الضوء على التناقضات العميقة. إنه ينتظر - ليس للمعركة ولا للقيامة - ولكن ببساطة ليتواجد داخل هذه الكاتدرائية الزهرية، حيث يتباطأ الزمن ويصبح الهيكل العظمي حارسًا وحالمًا تحت المظلة ذات اللون الوردي لأمسية من عالم آخر.<lora:tool\\krea2_refusal_compact (1).safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\Krea2_GPTImage_StyleLoRA.safetensors:1><lora:style\\HALPHAS-KREA-V1 (1).safetensors:1>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149184064 photography ai-image-prompts @h4lph4s9,anime screenshot, anime screencap,gptimage,[style: japanese anime illustration, cel-shaded coloring, expressive linework] in a twilight garden where the air hums with the scent of crushed violets and damp earth, stands a skeleton knight who seems both ancient and momentarily at peace. his skull is crowned with delicate, curling tendrils of electric blue hair that drift like smoke around his brow, framing hollow eyes that reflect not just light, but memory. clad in weathered plate armor painted the color of midnight velvet and accented with ornate gold filigree along the edges of his pauldrons and greaves, he holds a massive longsword upright in one skeletal hand—the blade glowing faintly blue from its own inner life—while his other arm hangs limp beside him, fingers curled as if still gripping something lost. around his neck drapes a tattered cloak of deep indigo fabric, frayed at the hem, swaying gently though there is no wind to push it. behind him, vines thick with rose-pink blossoms and sky-blue clusters climb up stone pillars and twist through branches, forming an archway that frames him like a living portrait. the lighting is soft yet directional: moonlight bleeding in from above, casting long shadows against his ribcage while backlighting the translucent petals around him. every line sings with intention—bold contours define his form, delicate strokes capture the flutter of fabric and bloom, and hatching techniques bring texture to both bone and steel. this is not merely a ghost standing among flowers; it is a moment suspended between death’s cold logic and nature’s warm embrace, rendered in cel-shaded glory where every highlight pops against deep contrasts. he waits—not for battle, nor for resurrection—but simply to exist within this floral cathedral, where time slows and the skeleton becomes both sentinel and dreamer under the pink-hued canopy of an otherworldly evening.<lora:tool\\krea2_refusal_compact (1).safetensors:1><lora:detailer\\rdbt_krea2_v1_e10.safetensors:1><lora:style\\krea2_gptimage_stylelora.safetensors:1><lora:style\\halphas-krea-v1 (1).safetensors:1> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149184064",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8a35e52-6494-4b15-a8f1-7998aea19918/original=true/b8a35e52-6494-4b15-a8f1-7998aea19918.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460846",
+      "title": "Civitai prompt 148460846",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult woman in her twenties with light brown skin, long straight dark hair and brown eyes, bust portrait sitting by a window, her whole head inside the frame with empty space above. She looks serious and still, but in the lenses of her glasses her reflection is a double of herself that winks and playfully sticks out her tongue. Pink and blue palette, soft daylight.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460846",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/773dfcf7-b2c5-4da5-a208-8db14a98c086/original=true/773dfcf7-b2c5-4da5-a208-8db14a98c086.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 6847741671717584,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027753+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cab2ffcdfbadf6abbe3f3ca8fd4ffb1566f16e5a722b84444a476423c8d45862",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة بالغة في العشرينيات من عمرها ذات بشرة بنية فاتحة وشعر داكن طويل أملس وعينين بنيتين، صورة نصفية تجلس بجوار النافذة، ورأسها بالكامل داخل الإطار مع وجود مساحة فارغة أعلاه. تبدو جادة وساكنة، ولكن في عدسات نظارتها يكون انعكاسها بمثابة نسخة مزدوجة منها، حيث تغمز وتخرج لسانها بشكل هزلي. لوحة الوردي والأزرق، ضوء النهار الناعم.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148460846 image ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult woman in her twenties with light brown skin, long straight dark hair and brown eyes, bust portrait sitting by a window, her whole head inside the frame with empty space above. she looks serious and still, but in the lenses of her glasses her reflection is a double of herself that winks and playfully sticks out her tongue. pink and blue palette, soft daylight. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460846",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/773dfcf7-b2c5-4da5-a208-8db14a98c086/original=true/773dfcf7-b2c5-4da5-a208-8db14a98c086.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460831",
+      "title": "Civitai prompt 148460831",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult Middle Eastern woman in her late twenties with light tan skin, expressive dark eyes and a soft plum silk headscarf framing her face, bust portrait in a garden at golden hour, her whole head inside the frame with empty space above. A pair of glasses shaped like a violet and amber butterfly, wings softly spread, is landing on the bridge of her nose, and she smiles in wonder. Violet and amber palette, warm backlight.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460831",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1367202d-ee06-49f7-97ac-80c8064775a4/original=true/1367202d-ee06-49f7-97ac-80c8064775a4.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 2248666790641285,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027767+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b1250deba2d8099b60a9dafa1a6bbbd6e77975155fb7ef53b60c30bf65e2064a",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة شرق أوسطية بالغة في أواخر العشرينيات من عمرها ذات بشرة سمراء فاتحة، وعينان داكنتان معبرتان، وغطاء رأس حريري ناعم يحيط بوجهها، وصورة تمثال نصفي في حديقة في الساعة الذهبية، ورأسها بالكامل داخل الإطار مع وجود مساحة فارغة أعلاه. زوج من النظارات على شكل فراشة بنفسجية وعنبرية، أجنحتها منتشرة بهدوء، تهبط على جسر أنفها، وتبتسم في عجب. لوحة باللون البنفسجي والعنبر، وإضاءة خلفية دافئة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148460831 image ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult middle eastern woman in her late twenties with light tan skin, expressive dark eyes and a soft plum silk headscarf framing her face, bust portrait in a garden at golden hour, her whole head inside the frame with empty space above. a pair of glasses shaped like a violet and amber butterfly, wings softly spread, is landing on the bridge of her nose, and she smiles in wonder. violet and amber palette, warm backlight. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460831",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1367202d-ee06-49f7-97ac-80c8064775a4/original=true/1367202d-ee06-49f7-97ac-80c8064775a4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460826",
+      "title": "Civitai prompt 148460826",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult woman of mixed heritage in her thirties with golden-brown skin, long wavy dark hair with violet streaks and amber eyes, bust portrait on a black background, her whole head inside the frame with empty space above. Her glasses have a frame of liquid gold flowing like molten metal, a few slow golden drips hanging from the rims and stretching down without falling. Dramatic chiaroscuro lighting. Gold and black palette.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460826",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c7cf874-2a92-4bfa-80bd-89a913ec0dd9/original=true/9c7cf874-2a92-4bfa-80bd-89a913ec0dd9.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 8276263379645392,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027780+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d8757f6ca61c44f3c15fe54bbb63ce4785f71bf333f5bb9398c78de6b83abf58",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة بالغة ذات تراث مختلط في الثلاثينيات من عمرها، ذات بشرة بنية ذهبية، وشعر داكن طويل مموج مع خطوط بنفسجية وعينين كهرمانيتين، وصورة نصفية على خلفية سوداء، ورأسها بالكامل داخل الإطار مع وجود مساحة فارغة أعلاه. تحتوي نظارتها على إطار من الذهب السائل يتدفق مثل المعدن المنصهر، وبعض القطرات الذهبية البطيئة تتدلى من الحواف وتمتد إلى الأسفل دون أن تسقط. إضاءة تشياروسكورو درامية. لوحة الذهب والأسود.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:21:59Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148460826 image ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult woman of mixed heritage in her thirties with golden-brown skin, long wavy dark hair with violet streaks and amber eyes, bust portrait on a black background, her whole head inside the frame with empty space above. her glasses have a frame of liquid gold flowing like molten metal, a few slow golden drips hanging from the rims and stretching down without falling. dramatic chiaroscuro lighting. gold and black palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460826",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c7cf874-2a92-4bfa-80bd-89a913ec0dd9/original=true/9c7cf874-2a92-4bfa-80bd-89a913ec0dd9.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460820",
+      "title": "Civitai prompt 148460820",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult Black woman in her twenties with deep brown skin, short bleached platinum curls, dark brown eyes and a bold plum lip, bust portrait on a rainy night street, her whole head inside the frame with empty space above. Her glasses have a frame made of glowing neon tubes in magenta and cyan, buzzing with light, raindrops sparkling on the lenses. Wet pavement reflections behind her. Vivid magenta and cyan palette, strong colored rim light.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460820",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8dfbb374-3c97-497a-a9b4-88b76475f87f/original=true/8dfbb374-3c97-497a-a9b4-88b76475f87f.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 4765182908549635,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027793+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3cede4400cb56d3efb3659e897d747f8fc697fcf4ebd5529e140fc1a20b42f97",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة سوداء بالغة في العشرينيات من عمرها ذات بشرة بنية داكنة، وتجعيدات شعر بلاتينية قصيرة مبيضة، وعينان بنيتان داكنتان وشفة برقوقية جريئة، صورة نصفية في شارع ليل ممطر، ورأسها بالكامل داخل الإطار مع وجود مساحة فارغة أعلاه. تحتوي نظارتها على إطار مصنوع من أنابيب نيون متوهجة باللونين الأرجواني والسماوي، تنبض بالضوء، وتتلألأ قطرات المطر على العدسات. انعكاسات الرصيف الرطب خلفها. لوحة ألوان أرجوانية وسماوية زاهية، وإضاءة حافة ملونة قوية.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 148460820 image ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult black woman in her twenties with deep brown skin, short bleached platinum curls, dark brown eyes and a bold plum lip, bust portrait on a rainy night street, her whole head inside the frame with empty space above. her glasses have a frame made of glowing neon tubes in magenta and cyan, buzzing with light, raindrops sparkling on the lenses. wet pavement reflections behind her. vivid magenta and cyan palette, strong colored rim light. civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460820",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8dfbb374-3c97-497a-a9b4-88b76475f87f/original=true/8dfbb374-3c97-497a-a9b4-88b76475f87f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460818",
+      "title": "Civitai prompt 148460818",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult Nordic woman in her forties with white-blonde hair in a loose braid, pale blue eyes and fair skin with rosy cheeks, bust portrait in a snowy pine forest at blue hour, her whole head inside the frame with empty space above. Her glasses have a frame carved from translucent blue ice, frost crystals creeping across the clear lenses, her breath misting in the cold air. Soft snow falls behind her. Icy blue and white palette, crisp cold light.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460818",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ece84ef1-abea-4c99-909d-e8d08ffedc10/original=true/ece84ef1-abea-4c99-909d-e8d08ffedc10.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 6196155389404179,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027806+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "281f736d4106104ac28b78a0738b06a89f8d7432f2588e24ba2c84d96c919585",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة إسكندنافية بالغة في الأربعينيات من عمرها ذات شعر أشقر أبيض في جديلة فضفاضة، وعينان زرقاوان شاحبتان وبشرة فاتحة مع خدود وردية، صورة تمثال نصفي في غابة صنوبر ثلجية في الساعة الزرقاء، ورأسها بالكامل داخل الإطار مع وجود مساحة فارغة أعلاه. نظارتها لها إطار منحوت من الجليد الأزرق الشفاف، وبلورات الصقيع تزحف عبر العدسات الشفافة، وأنفاسها ضبابية في الهواء البارد. يتساقط الثلج الناعم خلفها. لوحة زرقاء وبيضاء جليدية، ضوء بارد هش.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148460818 photography ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult nordic woman in her forties with white-blonde hair in a loose braid, pale blue eyes and fair skin with rosy cheeks, bust portrait in a snowy pine forest at blue hour, her whole head inside the frame with empty space above. her glasses have a frame carved from translucent blue ice, frost crystals creeping across the clear lenses, her breath misting in the cold air. soft snow falls behind her. icy blue and white palette, crisp cold light. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460818",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ece84ef1-abea-4c99-909d-e8d08ffedc10/original=true/ece84ef1-abea-4c99-909d-e8d08ffedc10.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460812",
+      "title": "Civitai prompt 148460812",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n  \"summary\": {\n    \"caption\": \"A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult woman in her late twenties with light brown skin, curly auburn hair under a red knit beanie, hazel eyes and a plus-size figure, bust portrait, warm cheerful smile, her whole head and the beanie fully inside the frame with space above. She wears chunky white glasses whose lenses are snow globes. Light snow falls around her. Red and white palette.\"\n  },\n  \"items\": [\n    {\n      \"label\": \"character\",\n      \"caption\": \"The woman in a red scarf and the red beanie, facing the camera.\",\n      \"bbox\": [\n        -580,\n        -400,\n        768,\n        400\n      ]\n    },\n    {\n      \"label\": \"object\",\n      \"caption\": \"The lens on the viewer's left is a snow globe containing a tiny snowy village with glowing yellow windows.\",\n      \"bbox\": [\n        -330,\n        -250,\n        -190,\n        -20\n      ]\n    },\n    {\n      \"label\": \"object\",\n      \"caption\": \"The lens on the viewer's right is a snow globe containing a tiny snowy village with a small church and swirling flakes.\",\n      \"bbox\": [\n        -330,\n        20,\n        -190,\n        250\n      ]\n    }\n  ],\n  \"bbox_coord_space\": \"abs_centralized\",\n  \"bbox_format\": \"yxyx\"\n}",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460812",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb55619d-7af2-4956-b7de-1732e2256fd5/original=true/fb55619d-7af2-4956-b7de-1732e2256fd5.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 1841253925457785,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027825+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bb45655c7efc2dbedfc5971fb815a7122aa0133f81e7dcd5b53d0be54ab5e55c",
+      "prompt_ar": "{\n  \"ملخص\": {\n    \"caption\": \"رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة جريئة وإضاءة درامية. امرأة بالغة في أواخر العشرينيات من عمرها ذات بشرة بنية فاتحة وشعر بني محمر مجعد تحت قبعة حمراء متماسكة، وعينين عسليتين وشخصية كبيرة الحجم، وصورة تمثال نصفي، وابتسامة دافئة مبهجة، ورأسها بالكامل والقبعة الصغيرة داخل الإطار بالكامل مع وجود مساحة أعلاه. ترتدي نظارات بيضاء مكتنزة عدساتها عبارة عن كرات ثلجية. يتساقط الثلج الخفيف حولها. لوحة ألوان حمراء وبيضاء.\"\n  },\n  \"العناصر\": [\n    {\n      \"التسمية\": \"الشخصية\"،\n      \"caption\": \"المرأة ذات الوشاح الأحمر والقبعة الحمراء، تواجه الكاميرا.\",\n      \"بي بوكس\": [\n        -580،\n        -400،\n        768,\n        400\n      ]\n    },\n    {\n      \"التسمية\": \"الكائن\"،\n      \"caption\": \"العدسة الموجودة على يسار المشاهد عبارة عن كرة ثلجية تحتوي على قرية ثلجية صغيرة ذات نوافذ صفراء متوهجة.\",\n      \"بي بوكس\": [\n        -330،\n        -250،\n        -190،\n        -20\n      ]\n    },\n    {\n      \"التسمية\": \"الكائن\"،\n      \"caption\": \"العدسة الموجودة على يمين المشاهد عبارة عن كرة ثلجية تحتوي على قرية ثلجية صغيرة بها كنيسة صغيرة ورقائق دوامية.\",\n      \"بي بوكس\": [\n        -330،\n        20,\n        -190،\n        250\n      ]\n    }\n  ]،\n  \"bbox_coord_space\": \"abs_centralized\",\n  \"bbox_format\": \"yxyx\"\n}",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 148460812 image ai-image-prompts { \"summary\": { \"caption\": \"a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult woman in her late twenties with light brown skin, curly auburn hair under a red knit beanie, hazel eyes and a plus-size figure, bust portrait, warm cheerful smile, her whole head and the beanie fully inside the frame with space above. she wears chunky white glasses whose lenses are snow globes. light snow falls around her. red and white palette.\" }, \"items\": [ { \"label\": \"character\", \"caption\": \"the woman in a red scarf and the red beanie, facing the camera.\", \"bbox\": [ -580, -400, 768, 400 ] }, { \"label\": \"object\", \"caption\": \"the lens on the viewer's left is a snow globe containing a tiny snowy village with glowing yellow windows.\", \"bbox\": [ -330, -250, -190, -20 ] }, { \"label\": \"object\", \"caption\": \"the lens on the viewer's right is a snow globe containing a tiny snowy village with a small church and swirling flakes.\", \"bbox\": [ -330, 20, -190, 250 ] } ], \"bbox_coord_space\": \"abs_centralized\", \"bbox_format\": \"yxyx\" } civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460812",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb55619d-7af2-4956-b7de-1732e2256fd5/original=true/fb55619d-7af2-4956-b7de-1732e2256fd5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148460809",
+      "title": "Civitai prompt 148460809",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. An adult East Asian woman in her early thirties with long straight black hair and blunt bangs, dark almond eyes and fair skin, standing in a garden at dusk, bust portrait with her whole head inside the frame and empty space above it. She wears thin rose-gold glasses: through the lens on the viewer's left a golden sunrise spills over mountains, through the lens on the viewer's right a deep star-filled night sky glitters, and the two lights blend on her cheeks. A few glowing fireflies drift around her. Orange and indigo palette, soft dramatic rim light.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148460809",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5d3caa3-b070-4d13-9500-5135765d3a0a/original=true/c5d3caa3-b070-4d13-9500-5135765d3a0a.jpeg",
+      "model_version_ids": [
+        3412574,
+        3416884,
+        3426828
+      ],
+      "width": 2688,
+      "height": 4032,
+      "seed": 3878746978091312,
+      "negative_prompt": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027839+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7300eef7ce08d15e274e755f39e2a2c08780685900fed5d78227b16d5b13a402",
+      "prompt_ar": "رسم توضيحي غني بالتفاصيل مستوحى من الرسوم المتحركة بألوان مشبعة وجريئة وإضاءة درامية. امرأة بالغة من شرق آسيا في أوائل الثلاثينيات من عمرها، ذات شعر أسود طويل مستقيم وغرة حادة، وعينين لوزيتين داكنتين وبشرة فاتحة، تقف في حديقة عند الغسق، وتضع صورة نصفية ورأسها بالكامل داخل الإطار ومساحة فارغة فوقها. ترتدي نظارات رفيعة من الذهب الوردي: من خلال العدسة الموجودة على يسار المشاهد، ينسكب شروق الشمس الذهبي فوق الجبال، ومن خلال العدسة الموجودة على يمين المشاهد، تتلألأ سماء ليلية مليئة بالنجوم، ويمتزج الضوءان على خديها. هناك عدد قليل من اليراعات المتوهجة تتجول حولها. لوحة برتقالية ونيلي، ضوء حافة دراماتيكي ناعم.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148460809 photography ai-image-prompts a richly detailed anime-inspired illustration with bold saturated colors and dramatic lighting. an adult east asian woman in her early thirties with long straight black hair and blunt bangs, dark almond eyes and fair skin, standing in a garden at dusk, bust portrait with her whole head inside the frame and empty space above it. she wears thin rose-gold glasses: through the lens on the viewer's left a golden sunrise spills over mountains, through the lens on the viewer's right a deep star-filled night sky glitters, and the two lights blend on her cheeks. a few glowing fireflies drift around her. orange and indigo palette, soft dramatic rim light. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148460809",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5d3caa3-b070-4d13-9500-5135765d3a0a/original=true/c5d3caa3-b070-4d13-9500-5135765d3a0a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562409",
+      "title": "Civitai prompt 149562409",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic medium shot from slightly below in a moonlit meadow of giant toadstools, the scale making her fairy-sized, with the masthead \"AURELIA\" in large elegant high-contrast didone serif letters in pearly lilac across the top, a small \"NOVEMBER\" date line and the cover lines \"MOONLIT WINGS\" and \"IRIDESCENCE, REDEFINED\" in white capitals at the lower left. A barefoot young woman in her mid-twenties, a fairy and the cover model, reclines on the broad red-and-white-spotted cap of a giant mushroom, leaning back on one elbow with her face tilted up toward a huge full moon, a pair of delicate translucent wings fanned out behind her. She has fair skin dusted with iridescent pearl shimmer, a delicate heart-shaped face, large violet-grey eyes with glittering lids and short silvery-lilac hair in soft finger waves. She wears a couture slip gown of liquid silver-lilac satin cut on the bias with a cowl neckline, overlaid with a cape of sheer iridescent organza that echoes her wings, and a fine diamanté vine climbing one arm; her bare feet rest crossed at the ankles at the edge of the cap, slender toes catching the moonlight. On a neighboring smaller toadstool sits another fairy, her friend, a woman with dark curls and amber wings, quietly playing a tiny harp. Below them, the meadow is a sea of dew-heavy grass blades towering like trees, glowing fireflies and blue flowers the size of lanterns. A massive pale full moon fills the sky behind them, bathing everything in cool silver-blue light, the wings refracting it into soft rainbow edges, faint warm glow from the fireflies. Photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with deep atmospheric depth in the night mist over the meadow, a strong bloom around the moon and her wings, abundant firefly and dew bokeh, a mood of quiet solitude and moonlit dreaming. Shot on a 100mm macro lens, shallow depth of field, fine film grain, lilac, silver and moon-blue palette.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562409",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9925f23-4a46-4304-adde-aab3df69736f/original=true/a9925f23-4a46-4304-adde-aab3df69736f.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3068874,
+        3110766,
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 2298080843,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027886+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d5c428a85abbd6cc270bb994fcd941434ba6b53c116689a7c3bfa413f07384bc",
+      "prompt_ar": "غلاف رأسي لمجلة للأزياء الراقية في افتتاحية خيالية، تم تصويره كصورة واقعية لقطة من الأسفل قليلاً في مرج مضاء بضوء القمر من الضفادع العملاقة، المقياس يجعلها بحجم خرافي، مع التسمية الرئيسية \"AURELIA\" بأحرف كبيرة أنيقة عالية التباين من نوع ديدون سيريف باللون الأرجواني اللؤلؤي عبر الجزء العلوي، وخط تاريخ صغير \"نوفمبر\" وخطي الغلاف \"MOONLIT WINGS\" و\"IRIDESCENCE، \"تم إعادة تعريفه\" بالأحرف الكبيرة البيضاء في أسفل اليسار. امرأة شابة حافية القدمين في منتصف العشرينيات من عمرها، جنية وعارضة أزياء، تتكئ على قبعة فطر عملاقة مرقطة باللونين الأحمر والأبيض، وتتكئ على أحد مرفقيها ووجهها مائل للأعلى باتجاه البدر الضخم، وزوج من الأجنحة الشفافة الرقيقة منتشران خلفها. تتمتع ببشرة فاتحة اللون مغطاة ببريق لؤلؤي قزحي الألوان، ووجه رقيق على شكل قلب، وعينان كبيرتان باللون البنفسجي الرمادي مع جفون لامعة، وشعر أرجواني فضي قصير في موجات أصابع ناعمة. إنها ترتدي ثوبًا من تصميم الأزياء الراقية من الساتان الفضي السائل الليلكي المقطوع على التحيز مع خط رقبة على شكل قلنسوة، ومغطى بغطاء رأس من الأورجانزا الشفاف قزحي الألوان الذي يردد صدى جناحيها، وكرمة ماسية رائعة تتسلق ذراعًا واحدة؛ قدميها العاريتين متقاطعتان عند الكاحلين عند حافة القبعة، وأصابع قدميها النحيلة تلتقط ضوء القمر. على ضفدع صغير مجاور تجلس جنية أخرى، صديقتها، وهي امرأة ذات تجعيدات داكنة وأجنحة كهرمانية، تعزف بهدوء على قيثارة صغيرة. تحتها، المرج عبارة عن بحر من شفرات العشب الكثيفة الندى الشاهقة مثل الأشجار، واليراعات المتوهجة والزهور الزرقاء بحجم الفوانيس. يملأ البدر الشاحب الضخم السماء خلفهم، ويغمر كل شيء بضوء أزرق فضي بارد، وتكسره الأجنحة إلى حواف قوس قزح ناعمة، وتوهج دافئ خافت من اليراعات. تصوير فوتوغرافي تحريري عالي الجودة واقعي، تنقيح لامع لا تشوبه شائبة، أثيري وشبيه بالحلم، مع عمق جوي عميق في ضباب الليل فوق المرج، وزهرة قوية حول القمر وأجنحته، ووفرة من اليراع وخوخية الندى، ومزاج من العزلة الهادئة والحلم تحت ضوء القمر. تم التصوير باستخدام عدسة ماكرو مقاس 100 مم، وعمق مجال ضحل، وحبوب فيلم دقيقة، ولوحة أرجوانية، وفضية، وزرقاء قمرية.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149562409 fashion ai-image-prompts a vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic medium shot from slightly below in a moonlit meadow of giant toadstools, the scale making her fairy-sized, with the masthead \"aurelia\" in large elegant high-contrast didone serif letters in pearly lilac across the top, a small \"november\" date line and the cover lines \"moonlit wings\" and \"iridescence, redefined\" in white capitals at the lower left. a barefoot young woman in her mid-twenties, a fairy and the cover model, reclines on the broad red-and-white-spotted cap of a giant mushroom, leaning back on one elbow with her face tilted up toward a huge full moon, a pair of delicate translucent wings fanned out behind her. she has fair skin dusted with iridescent pearl shimmer, a delicate heart-shaped face, large violet-grey eyes with glittering lids and short silvery-lilac hair in soft finger waves. she wears a couture slip gown of liquid silver-lilac satin cut on the bias with a cowl neckline, overlaid with a cape of sheer iridescent organza that echoes her wings, and a fine diamanté vine climbing one arm; her bare feet rest crossed at the ankles at the edge of the cap, slender toes catching the moonlight. on a neighboring smaller toadstool sits another fairy, her friend, a woman with dark curls and amber wings, quietly playing a tiny harp. below them, the meadow is a sea of dew-heavy grass blades towering like trees, glowing fireflies and blue flowers the size of lanterns. a massive pale full moon fills the sky behind them, bathing everything in cool silver-blue light, the wings refracting it into soft rainbow edges, faint warm glow from the fireflies. photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with deep atmospheric depth in the night mist over the meadow, a strong bloom around the moon and her wings, abundant firefly and dew bokeh, a mood of quiet solitude and moonlit dreaming. shot on a 100mm macro lens, shallow depth of field, fine film grain, lilac, silver and moon-blue palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562409",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9925f23-4a46-4304-adde-aab3df69736f/original=true/a9925f23-4a46-4304-adde-aab3df69736f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562407",
+      "title": "Civitai prompt 149562407",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic close three-quarter medium shot at a lantern-lit stall in a crowded night bazaar, with the masthead \"AURELIA\" in large elegant high-contrast didone serif letters in shimmering violet across the top, a small \"NOVEMBER\" date line and the cover lines \"BOTTLED DREAMS\" and \"THE NIGHT MARKET GLAMOUR\" in pale gold capitals at the lower right. A barefoot young woman in her mid-twenties, the cover model, stands at a merchant's velvet-draped table holding a small glass bottle up to her eye, inside which a tiny swirling dream glows like a miniature aurora, her lips parted in fascination. She has warm medium-brown skin, a heart-shaped face, wide dark eyes with violet-glitter liner, a bold berry lip and long glossy black hair in a sleek middle part falling straight past her shoulders. She wears a couture column dress of metallic violet lamé with a high draped cowl neck and an open back, an embroidered short bolero of midnight silk scattered with tiny crystal stars, and stacked gold bangles; her bare feet stand on worn cobblestones scattered with spilled petals and lantern light, toes painted plum. Behind the table, an ancient hunched merchant with a long white beard and a hat of patched velvet uncorks another bottle, a wisp of dreamy pink mist escaping. The stall's shelves are crowded with hundreds of small bottles each holding a different glowing dream: a stormy sea, a starry meadow, a dancing couple, a burning city. Strings of paper lanterns, hanging silk awnings and crowds of hooded shoppers fill the bazaar behind her. Warm amber lantern light from above, the glowing bottles casting violet, teal and pink light across her face and dress. Photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with atmospheric depth in the incense haze of the market, a strong bloom around the bottles and lanterns, dense colorful bokeh of lanterns behind her, a mood of quiet solitude in a busy crowd. Shot on an 85mm lens wide open, very shallow depth of field, fine film grain, violet, amber and midnight palette.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562407",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c8ae47b-3e31-469e-b4e1-682e122d42cc/original=true/2c8ae47b-3e31-469e-b4e1-682e122d42cc.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3068874,
+        3110766,
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 36257614,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027935+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "6cdcf97fb76f1f25e8383d28f7ff3066ea4bd2561e4342c4e57a66484b6a6a4c",
+      "prompt_ar": "غلاف رأسي لمجلة للأزياء الراقية في افتتاحية خيالية، تم تصويره كلقطة واقعية قريبة من ثلاثة أرباع الصورة في كشك مضاء بالفوانيس في سوق ليلي مزدحم، مع التسمية الرئيسية \"AURELIA\" بأحرف كبيرة أنيقة عالية التباين باللون البنفسجي المتلألئ عبر الجزء العلوي، وخط تاريخ صغير \"نوفمبر\" وخطي الغلاف \"BOTTLED DREAMS\" و\"THE NIGHT MARKET GLAMOUR\" باللون الذهبي الفاتح العواصم في أسفل اليمين. تقف امرأة شابة حافية القدمين في منتصف العشرينيات من عمرها، عارضة الأزياء، على طاولة أحد التجار المغطاة بالمخمل، ممسكة بزجاجة صغيرة تصل إلى عينها، يتوهج بداخلها حلم صغير ملتف مثل شفق مصغر، وشفتاها مفترقتان من الانبهار. تتمتع ببشرة بنية متوسطة دافئة، ووجه على شكل قلب، وعينان داكنتان واسعتان مع كحل بنفسجي لامع، وشفة توتية جريئة وشعر أسود طويل لامع في الجزء الأوسط الأنيق الذي يتدلى مباشرة على كتفيها. ترتدي فستانًا عموديًا من تصميم الأزياء الراقية من اللون البنفسجي المعدني مع رقبة عالية وظهر مفتوح، وبوليرو قصير مطرز من حرير منتصف الليل متناثر مع نجوم كريستالية صغيرة، وأساور ذهبية مكدسة؛ تقف قدماها العاريتين على أحجار مرصوفة بالحصى متناثرة مع بتلات متناثرة وضوء فانوس، وأصابع قدميها مطلية باللون البرقوقي. خلف الطاولة، يقوم تاجر قديم محدب ذو لحية بيضاء طويلة وقبعة من المخمل المرقعة بفتح زجاجة أخرى، وتهرب خصلة من الضباب الوردي الحالم. أرفف الكشك مزدحمة بمئات الزجاجات الصغيرة التي تحمل كل منها حلمًا متوهجًا مختلفًا: بحر عاصف، مرج مليء بالنجوم، زوجان يرقصان، مدينة تحترق. سلاسل من الفوانيس الورقية، والمظلات الحريرية المعلقة، وحشود من المتسوقين المقنعين تملأ السوق خلفها. ضوء فانوس كهرماني دافئ من الأعلى، والزجاجات المتوهجة تلقي الضوء البنفسجي والأزرق المخضر والوردي على وجهها وفستانها. تصوير فوتوغرافي تحريري عالي الجودة واقعي، وتنقيح لامع لا تشوبه شائبة، أثيري وشبيه بالحلم، مع عمق جوي في ضباب البخور في السوق، وزهرة قوية حول الزجاجات والفوانيس، وبوكيه ملون كثيف للفوانيس خلفها، ومزاج من العزلة الهادئة وسط حشد مزدحم. تم التصوير باستخدام عدسة مقاس 85 مم مفتوحة على مصراعيها، وعمق مجال ضحل جدًا، وحبوب فيلم دقيقة، والبنفسج، والعنبر، ولوحة منتصف الليل.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149562407 advertising ai-image-prompts a vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic close three-quarter medium shot at a lantern-lit stall in a crowded night bazaar, with the masthead \"aurelia\" in large elegant high-contrast didone serif letters in shimmering violet across the top, a small \"november\" date line and the cover lines \"bottled dreams\" and \"the night market glamour\" in pale gold capitals at the lower right. a barefoot young woman in her mid-twenties, the cover model, stands at a merchant's velvet-draped table holding a small glass bottle up to her eye, inside which a tiny swirling dream glows like a miniature aurora, her lips parted in fascination. she has warm medium-brown skin, a heart-shaped face, wide dark eyes with violet-glitter liner, a bold berry lip and long glossy black hair in a sleek middle part falling straight past her shoulders. she wears a couture column dress of metallic violet lamé with a high draped cowl neck and an open back, an embroidered short bolero of midnight silk scattered with tiny crystal stars, and stacked gold bangles; her bare feet stand on worn cobblestones scattered with spilled petals and lantern light, toes painted plum. behind the table, an ancient hunched merchant with a long white beard and a hat of patched velvet uncorks another bottle, a wisp of dreamy pink mist escaping. the stall's shelves are crowded with hundreds of small bottles each holding a different glowing dream: a stormy sea, a starry meadow, a dancing couple, a burning city. strings of paper lanterns, hanging silk awnings and crowds of hooded shoppers fill the bazaar behind her. warm amber lantern light from above, the glowing bottles casting violet, teal and pink light across her face and dress. photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with atmospheric depth in the incense haze of the market, a strong bloom around the bottles and lanterns, dense colorful bokeh of lanterns behind her, a mood of quiet solitude in a busy crowd. shot on an 85mm lens wide open, very shallow depth of field, fine film grain, violet, amber and midnight palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562407",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2c8ae47b-3e31-469e-b4e1-682e122d42cc/original=true/2c8ae47b-3e31-469e-b4e1-682e122d42cc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562406",
+      "title": "Civitai prompt 149562406",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A medium-wide shot at eye level across a rustic Provençal country kitchen on a late-summer afternoon, of a graceful, beautiful woman in her mid-twenties standing barefoot at an old cast-iron range, stirring a huge, bubbling copper pot of dark apricot-and-lavender jam with a long wooden spoon, lifting the spoon to watch a ribbon of glistening jam drip back down, a smear of sticky jam on her lower lip. Her bare feet are slender and lightly tanned on the cool terracotta tiles, a few fallen apricot stones and lavender sprigs scattered near her toes. She wears a loose, flowing, dusty-apricot cotton voile sundress with a low smocked neckline and thin ties at the shoulders, one tie loosened, a faded floral linen apron tied over it, a tiny gold hoop in each ear. Her long, sun-streaked chestnut hair is piled up in a messy bun with loose curls falling at her neck, damp from the steam, her cheeks flushed, her expression contented, sensual and quietly wistful. Around her the kitchen overflows with summer: crates of ripe apricots and figs, bundles of dried lavender hanging from the beams, rows of empty glass jars with gingham lids, a scale, sugar sacks and a sunlit window open onto a field of purple lavender rows. Warm, honey-gold afternoon sun streams through the open window, catching the rising steam in glowing veils and lighting the translucent jam into molten amber, while flecks of light dance off the copper pot. Sweet, solitary summer abundance. Photorealistic yet ethereal and dreamlike, with glowing steam bloom, warm copper and glass-jar bokeh, hazy lavender-field atmospheric depth through the window, golden summer palette, and fine grainy film texture.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562406",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c7c3e9c-1aad-47a2-ba44-92ab9a7317f3/original=true/3c7c3e9c-1aad-47a2-ba44-92ab9a7317f3.jpeg",
+      "model": "Kreamania_v9_fp8_e4m3fn",
+      "model_version_ids": [
+        3068874,
+        3110766,
+        3116962,
+        3453282
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 3088573169,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.027974+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a51053b5fbc9085ab36ca44b8142c51defffa18ba466eafabe1fcb6ca0d6bfab",
+      "prompt_ar": "لقطة متوسطة العرض على مستوى العين عبر مطبخ ريفي بروفنسي ريفي في فترة ما بعد الظهيرة في أواخر الصيف، لامرأة جميلة ورشيقة في منتصف العشرينيات من عمرها تقف حافية القدمين في نطاق قديم من الحديد الزهر، وتحرك قدرًا نحاسيًا ضخمًا من مربى المشمش والخزامى الداكن بملعقة خشبية طويلة، وترفع الملعقة لتشاهد شريطًا من المربى اللامع يتساقط مرة أخرى، ومسحة من المربى اللزجة على شفتها السفلية. قدميها العاريتين نحيلتان ومسمّرتان قليلاً على بلاط التيراكوتا البارد، وبعض أحجار المشمش المتساقطة وأغصان الخزامى المتناثرة بالقرب من أصابع قدميها. ترتدي فستانًا شمسيًا فضفاضًا ومتدفقًا ومُغبرًا من القطن الفوال مع خط عنق منخفض وربطات عنق رفيعة عند الكتفين، وربطة عنق واحدة مفكوكة، ومئزر من الكتان الزهري الباهت مربوط فوقها، وحلقة ذهبية صغيرة في كل أذن. شعرها الكستنائي الطويل الذي ترسمه الشمس متراكم في كعكة فوضوية مع تجعيدات فضفاضة تتساقط على رقبتها، مبللة من البخار، وخدودها متوردة، وتعبيرها راضٍ، وحسي، وحزين بهدوء. من حولها يفيض المطبخ بالصيف: صناديق من المشمش الناضج والتين، وحزم من الخزامى المجففة تتدلى من العوارض، وصفوف من الجرار الزجاجية الفارغة ذات أغطية القماش القطني، وميزان، وأكياس سكر، ونافذة مضاءة بنور الشمس مفتوحة على حقل من صفوف الخزامى الأرجوانية. تتدفق شمس الظهيرة الدافئة ذات اللون الذهبي العسلي عبر النافذة المفتوحة، لتلتقط البخار المتصاعد في حجاب متوهج وتضيء المربى الشفاف في العنبر المنصهر، بينما تتراقص بقع الضوء من الوعاء النحاسي. وفرة صيفية حلوة ومنعزلة. صورة واقعية ولكنها أثيرية وشبيهة بالحلم، مع زهر بخار متوهج، وبوكيه نحاسي دافئ وجرة زجاجية، وعمق جوي ضبابي لحقل الخزامى من خلال النافذة، ولوحة صيفية ذهبية، وملمس فيلم محبب ناعم.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149562406 image ai-image-prompts a medium-wide shot at eye level across a rustic provençal country kitchen on a late-summer afternoon, of a graceful, beautiful woman in her mid-twenties standing barefoot at an old cast-iron range, stirring a huge, bubbling copper pot of dark apricot-and-lavender jam with a long wooden spoon, lifting the spoon to watch a ribbon of glistening jam drip back down, a smear of sticky jam on her lower lip. her bare feet are slender and lightly tanned on the cool terracotta tiles, a few fallen apricot stones and lavender sprigs scattered near her toes. she wears a loose, flowing, dusty-apricot cotton voile sundress with a low smocked neckline and thin ties at the shoulders, one tie loosened, a faded floral linen apron tied over it, a tiny gold hoop in each ear. her long, sun-streaked chestnut hair is piled up in a messy bun with loose curls falling at her neck, damp from the steam, her cheeks flushed, her expression contented, sensual and quietly wistful. around her the kitchen overflows with summer: crates of ripe apricots and figs, bundles of dried lavender hanging from the beams, rows of empty glass jars with gingham lids, a scale, sugar sacks and a sunlit window open onto a field of purple lavender rows. warm, honey-gold afternoon sun streams through the open window, catching the rising steam in glowing veils and lighting the translucent jam into molten amber, while flecks of light dance off the copper pot. sweet, solitary summer abundance. photorealistic yet ethereal and dreamlike, with glowing steam bloom, warm copper and glass-jar bokeh, hazy lavender-field atmospheric depth through the window, golden summer palette, and fine grainy film texture. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562406",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c7c3e9c-1aad-47a2-ba44-92ab9a7317f3/original=true/3c7c3e9c-1aad-47a2-ba44-92ab9a7317f3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562405",
+      "title": "Civitai prompt 149562405",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic intimate close medium shot across a cluttered scholar's desk by candlelight late at night, with the masthead \"AURELIA\" in large elegant high-contrast didone serif letters in warm parchment ivory across the top, a small \"NOVEMBER\" date line and the cover lines \"THE LOST SCROLL\" and \"LIBRARY LUXE\" in burnished gold capitals at the lower right. A barefoot young woman in her early twenties, a scholar and the cover model, sits curled sideways in a deep leather armchair at the desk, an ancient scroll unrolled across her lap and the desk, one finger tracing a line of glowing script, a pencil held in her teeth. She has warm light-brown skin, a heart-shaped face with a few freckles across the nose, thoughtful dark eyes behind thin gold reading glasses, a soft caramel lip and a big soft mass of dark curls piled on top of her head, a quill tucked into them. She wears a couture look of an oversized tailored blazer of camel cashmere with sharp shoulders draped over a fluid ivory silk slip dress, layered gold chains and a vintage cameo brooch on the lapel; her bare feet are tucked up on the armchair seat beneath her, toes peeking out over the cushion edge, soles warm in the candlelight. Leaning on the desk beside her, her mentor, an elderly woman archivist with silver braids and a shawl, holds a magnifying glass over a symbol on the scroll. The scroll is yellowed parchment with faded ink and illuminated borders, certain runes glowing a soft gold as she reads them. Around them, towering bookshelves, stacks of leather tomes, an astrolabe, an inkwell, maps pinned to the wall and a tall window showing a starry night. Warm golden light from a cluster of candles lights her face and the parchment, the glowing runes adding gold underlight, deep warm brown shadows behind. Photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with atmospheric depth in the candle smoke and floating dust, a soft bloom around the flames and glowing runes, warm bokeh of candles in the background, a mood of quiet solitude and deep concentration. Shot on an 85mm lens wide open, shallow depth of field, crisp detail on her face, hands and bare feet, fine film grain, camel, parchment and candle gold palette.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562405",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2367f7fa-b7c6-4635-b413-1568eb2be79b/original=true/2367f7fa-b7c6-4635-b413-1568eb2be79b.jpeg",
+      "model": "serendipity_v20",
+      "model_version_ids": [
+        3068874,
+        3110766,
+        3116962,
+        3238489
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 32557781,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.028006+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "54582401a04c6a840703507b083de262eb019ba03508172cbd7636be82701b13",
+      "prompt_ar": "غلاف عمودي لمجلة راقية في افتتاحية خيالية، تم تصويره كلقطة واقعية وحميمة عبر مكتب باحث مزدحم على ضوء الشموع في وقت متأخر من الليل، مع الترويسة الرئيسية \"AURELIA\" بأحرف كبيرة أنيقة عالية التباين من نوع didone serif باللون العاجي الدافئ عبر الجزء العلوي، وخط تاريخ صغير \"نوفمبر\" وخطي الغلاف \"THE LOST SCROLL\" و\"LIBRARY LUXE\" بأحرف كبيرة ذهبية مصقولة. في أسفل اليمين. امرأة شابة حافية القدمين في أوائل العشرينات من عمرها، باحثة وعارضة أزياء، تجلس متجعدة بشكل جانبي على كرسي جلدي عميق بذراعين على المكتب، ولفافة قديمة منتشرة على حجرها والمكتب، وإصبع واحد يرسم سطرًا من النص المتوهج، وقلم رصاص ممسك بأسنانها. لديها بشرة بنية فاتحة دافئة، ووجه على شكل قلب مع بعض النمش على الأنف، وعينان داكنتان مدروستان خلف نظارات قراءة ذهبية رفيعة، وشفة ناعمة بلون الكراميل وكتلة ناعمة كبيرة من تجعيد الشعر الداكن المتراكم فوق رأسها، وريشة مدسوسة فيها. وهي ترتدي مظهرًا راقيًا من سترة كبيرة الحجم مصنوعة من الكشمير الجملي مع أكتاف حادة ملفوفة فوق فستان من الحرير العاجي السائل، وسلاسل ذهبية متعددة الطبقات وبروش عتيق على طية الصدر؛ قدميها العاريتين مطويتان على مقعد الكرسي تحتها، وأصابع قدميها تطلان من حافة الوسادة، وباطنها دافئ في ضوء الشموع. تتكئ معلمتها، وهي موظفة أرشيف عجوز ذات ضفائر فضية وشال، على المكتب بجانبها، وتحمل عدسة مكبرة فوق رمز على اللفيفة. اللفافة عبارة عن رق أصفر اللون بحبر باهت وحدود مضيئة، وتتوهج بعض الأحرف الرونية باللون الذهبي الناعم أثناء قراءتها. من حولهم، أرفف كتب شاهقة، وأكوام من المجلدات الجلدية، وإسطرلاب، ومحبرة، وخرائط معلقة على الحائط، ونافذة طويلة تظهر ليلة مرصعة بالنجوم. ضوء ذهبي دافئ من مجموعة من الشموع يضيء وجهها والرق، وتضيف الأحرف الرونية المتوهجة ضوءًا ذهبيًا، وظلال بنية دافئة عميقة خلفها. تصوير تحريري عالي الجودة واقعي، تنقيح لامع لا تشوبه شائبة، أثيري وشبيه بالحلم، مع عمق جوي في دخان الشمعة والغبار العائم، وزهرة ناعمة حول النيران والرونية المتوهجة، وخوخه دافئ للشموع في الخلفية، ومزاج من العزلة الهادئة والتركيز العميق. تم التصوير باستخدام عدسة مقاس 85 مم مفتوحة على مصراعيها، وعمق مجال ضحل، وتفاصيل واضحة على وجهها ويديها وقدميها العاريتين، وحبيبات فيلم دقيقة، وجمل، ورق، ولوحة ذهبية من الشموع.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149562405 fashion ai-image-prompts a vertical high-fashion magazine cover in a fantasy editorial, photographed as a photorealistic intimate close medium shot across a cluttered scholar's desk by candlelight late at night, with the masthead \"aurelia\" in large elegant high-contrast didone serif letters in warm parchment ivory across the top, a small \"november\" date line and the cover lines \"the lost scroll\" and \"library luxe\" in burnished gold capitals at the lower right. a barefoot young woman in her early twenties, a scholar and the cover model, sits curled sideways in a deep leather armchair at the desk, an ancient scroll unrolled across her lap and the desk, one finger tracing a line of glowing script, a pencil held in her teeth. she has warm light-brown skin, a heart-shaped face with a few freckles across the nose, thoughtful dark eyes behind thin gold reading glasses, a soft caramel lip and a big soft mass of dark curls piled on top of her head, a quill tucked into them. she wears a couture look of an oversized tailored blazer of camel cashmere with sharp shoulders draped over a fluid ivory silk slip dress, layered gold chains and a vintage cameo brooch on the lapel; her bare feet are tucked up on the armchair seat beneath her, toes peeking out over the cushion edge, soles warm in the candlelight. leaning on the desk beside her, her mentor, an elderly woman archivist with silver braids and a shawl, holds a magnifying glass over a symbol on the scroll. the scroll is yellowed parchment with faded ink and illuminated borders, certain runes glowing a soft gold as she reads them. around them, towering bookshelves, stacks of leather tomes, an astrolabe, an inkwell, maps pinned to the wall and a tall window showing a starry night. warm golden light from a cluster of candles lights her face and the parchment, the glowing runes adding gold underlight, deep warm brown shadows behind. photorealistic high-fashion editorial photography, flawless glossy retouching, ethereal and dreamlike, with atmospheric depth in the candle smoke and floating dust, a soft bloom around the flames and glowing runes, warm bokeh of candles in the background, a mood of quiet solitude and deep concentration. shot on an 85mm lens wide open, shallow depth of field, crisp detail on her face, hands and bare feet, fine film grain, camel, parchment and candle gold palette. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562405",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2367f7fa-b7c6-4635-b413-1568eb2be79b/original=true/2367f7fa-b7c6-4635-b413-1568eb2be79b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-148430606",
+      "title": "Civitai prompt 148430606",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": ",rat girl, anthropomorphic, furry, black straight hair, low ponytail, long side bangs, small breasts, red eyes, white fur, short height,, white office shirt, brown short coat open, , gray office skirt, straight skirt, (long skirt:0.75), black pantyhose,sitting, looking at the viewer over the shoulder, shy pose, shy, cute , back view,library, cozy lighting, dramatic lighting,volumetric lighting, masterpiece, best quality, amazing quality, very aesthetic, 4k, 8k, high resolution, ultra-detailed, absurdres, newest, scenery, dynamic lighting, ultimate aesthetics, high-end texture, fashion photography, cinematic perspective, ,",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/148430606",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abcb6a08-115d-463d-bf0a-64a931d02005/original=true/abcb6a08-115d-463d-bf0a-64a931d02005.jpeg",
+      "model": "yiffInHell_yihxxxTENDEDV20",
+      "model_version_ids": [
+        420176,
+        1681903,
+        2547984
+      ],
+      "width": 1280,
+      "height": 1920,
+      "seed": 0,
+      "negative_prompt": "zairasass, easynegative, 3D, simple background,score_6, penis through girl, score_5, score_4, fat, chubby,censored, out of frame,monochrome, text, watermark, (worst quality, low quality),blurry face, clipping, bad face, deformed hands, (bad hands),bad feet, extra toes, extra fingers, heels, zPDXL-neg, zairasass, twintails score_6, score_5, score_4, ugly face, low res, blurry face, black and white, score_4, score_5, score_6, (muscular female), greyscale, big forehead, extra legs, extra hands, extra heads, multiple girls, two heads, two girls, upside down, eyes far apart, jacket,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.028019+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ec9340b9fc48fce946ffb34641d79464a775a8027a9332da45706e16150fbabf",
+      "prompt_ar": "،فتاة الفئران، مجسمة، فروي، شعر أسود مستقيم، ذيل حصان منخفض، غرة جانبية طويلة، ثديين صغيرين، عيون حمراء، فرو أبيض، قصير القامة،، قميص مكتب أبيض، معطف قصير بني مفتوح،، تنورة مكتب رمادية، تنورة مستقيمة، (تنورة طويلة: 0.75)، جوارب طويلة سوداء، تجلس، تنظر إلى المشاهد من فوق الكتف، وضع خجول، خجول، لطيف، منظر خلفي، مكتبة، إضاءة مريحة، إضاءة درامية، إضاءة حجمية، تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، 4K، 8K، دقة عالية، مفصلة للغاية، سخافات، الأحدث، مشهد، إضاءة ديناميكية، جماليات نهائية، نسيج راقي، تصوير أزياء، منظور سينمائي،،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:00Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 148430606 fashion ai-image-prompts ,rat girl, anthropomorphic, furry, black straight hair, low ponytail, long side bangs, small breasts, red eyes, white fur, short height,, white office shirt, brown short coat open, , gray office skirt, straight skirt, (long skirt:0.75), black pantyhose,sitting, looking at the viewer over the shoulder, shy pose, shy, cute , back view,library, cozy lighting, dramatic lighting,volumetric lighting, masterpiece, best quality, amazing quality, very aesthetic, 4k, 8k, high resolution, ultra-detailed, absurdres, newest, scenery, dynamic lighting, ultimate aesthetics, high-end texture, fashion photography, cinematic perspective, , civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/148430606",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/abcb6a08-115d-463d-bf0a-64a931d02005/original=true/abcb6a08-115d-463d-bf0a-64a931d02005.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149705673",
+      "title": "Civitai prompt 149705673",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "NijiSIS.\n\nSubject:\na cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, a high ponytail of pastel pink hair, big blue eyes, a chrome-winged sky courier, fully dressed in a pastel orange bodysuit under a cropped jacket and light chrome wing harness, with a cool sidelong glance.\n\nEnvironment:\na futuristic delivery dock among flying cars.\n\nStyle:\nCyberpunk: Edgerunners Style: A frenetic, high-contrast animation illustration style built on jagged, aggressive linework that fractures form into sharp angular fragments during moments of intensity, saturated glow-drenched lighting that bleeds and blooms aggressively around every luminous edge, gritty textural noise layered beneath clean cel-shaded color to keep the surface feeling raw and lived-in, dynamic, chaotic framing charged with kinetic violence and manic energy, and a visceral, dystopian animation intensity that feels equal parts stylish and feral. Influenced by: Studio Trigger animation technique, cyberpunk anime tradition, glow-bloom digital compositing practice, gritty dystopian character-design method.\n\nComposition:\nA dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. Her hair and clothes are swept by the wind as if caught mid-motion. No text or logos.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149705673",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d9cdcb9-dbbb-40c2-9f84-c5c53be283fd/original=true/0d9cdcb9-dbbb-40c2-9f84-c5c53be283fd.jpeg",
+      "model": "krea2_turbo_int8_convrot",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-21T11:21:56.028039+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "db23ec32a47fe03cbb628f00b0fd3bcc03c08a928fafcda74020e2f417efd32b",
+      "prompt_ar": "NijiSIS.\n\nالموضوع:\nامرأة شابة لطيفة في أوائل العشرينات من عمرها ذات أبعاد بالغة ووجه ناضج، بشرة فاتحة، ذيل حصان مرتفع من الشعر الوردي الفاتح، عيون زرقاء كبيرة، ساعي سماوي مجنح من الكروم، يرتدي بالكامل بدلة برتقالية باستيل تحت سترة قصيرة وحزام جناح كروم خفيف، مع نظرة جانبية رائعة.\n\nالبيئة:\nرصيف تسليم مستقبلي بين السيارات الطائرة.\n\nالنمط:\nCyberpunk: Edgerunners Style: أسلوب رسوم متحركة محموم وعالي التباين مبني على خطوط خشنة عدوانية تتشكل إلى أجزاء زاوية حادة خلال لحظات الشدة، وإضاءة مشبعة متوهجة تنزف وتزدهر بقوة حول كل حافة مضيئة، وطبقة ضوضاء نصية شجاعة تحت لون مظلل نظيف لإبقاء السطح يبدو خامًا ومعيشًا، وإطار ديناميكي فوضوي مشحون بالعنف الحركي والطاقة الهوسية، و كثافة الرسوم المتحركة العميقة والبائسة التي تبدو متساوية في الأناقة والوحشية. متأثرة بـ: تقنية الرسوم المتحركة Studio Trigger، وتقاليد الرسوم المتحركة السايبربانك، وممارسة التركيب الرقمي المتوهج، وطريقة تصميم الشخصيات البائسة الجريئة.\n\nالتركيب:\nلقطة متوسطة بزاوية هولندية، الإطار مائل، وهي تميل قليلاً نحو المشاهد. تجتاح الريح شعرها وملابسها كما لو كانت في منتصف الحركة. لا يوجد نص أو شعارات.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-21T11:22:01Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149705673 image ai-image-prompts nijisis. subject: a cute young woman in her early twenties with adult proportions and a grown-up face, fair skin, a high ponytail of pastel pink hair, big blue eyes, a chrome-winged sky courier, fully dressed in a pastel orange bodysuit under a cropped jacket and light chrome wing harness, with a cool sidelong glance. environment: a futuristic delivery dock among flying cars. style: cyberpunk: edgerunners style: a frenetic, high-contrast animation illustration style built on jagged, aggressive linework that fractures form into sharp angular fragments during moments of intensity, saturated glow-drenched lighting that bleeds and blooms aggressively around every luminous edge, gritty textural noise layered beneath clean cel-shaded color to keep the surface feeling raw and lived-in, dynamic, chaotic framing charged with kinetic violence and manic energy, and a visceral, dystopian animation intensity that feels equal parts stylish and feral. influenced by: studio trigger animation technique, cyberpunk anime tradition, glow-bloom digital compositing practice, gritty dystopian character-design method. composition: a dutch-angle medium shot, the frame tilted, she leans slightly toward the viewer. her hair and clothes are swept by the wind as if caught mid-motion. no text or logos. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149705673",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d9cdcb9-dbbb-40c2-9f84-c5c53be283fd/original=true/0d9cdcb9-dbbb-40c2-9f84-c5c53be283fd.jpeg"
+        }
       ]
     }
   ],
-  "generated_at": "2026-11-20T22:18:00.985983+00:00",
-  "prompt_count": 3167,
+  "generated_at": "2026-11-21T11:22:02.404145+00:00",
+  "prompt_count": 3187,
   "translation": {
     "language": "ar",
-    "translated_count": 0,
+    "translated_count": 33,
     "skipped_count": 3147,
-    "failed_count": 20,
-    "updated_at": "2026-11-20T22:18:00Z"
+    "failed_count": 7,
+    "updated_at": "2026-11-21T11:22:01Z"
   }
 }
