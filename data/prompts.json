@@ -35933,7 +35933,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "cefc97847913d18e25f27bb831eca7a6dae1bffdf12de0747f25d32ce5c4b07a",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -150537,15 +150537,1008 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4d24bd3-956f-49c3-bf66-928d597eef25/original=true/b4d24bd3-956f-49c3-bf66-928d597eef25.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-149968753",
+      "title": "Civitai prompt 149968753",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "close-up portrait of darth_vader with crazy eyes. . made of w00kiee. hairy, Tufted strands, Shaggy texture, fur, Brown hair palette,\nFlowing hair, Furry subject form\nLaughing face, ultra detailed face, ultra detailed eyes, perfect cute face,\ndynamic angle, dynamic motion,\nultra detailed background, ultra detailed objects, sharp lines, depth of field,",
+      "quality_score": 8.8,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968753",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e812ea7-8d2f-4fa7-86f8-2c076631d2c8/original=true/7e812ea7-8d2f-4fa7-86f8-2c076631d2c8.jpeg",
+      "model_version_ids": [
+        693814,
+        709468
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 572638741,
+      "negative_prompt": "low quality, blurry, distorted, extra limbs, watermark, text, deformed hands, bad anatomy, worst quality, normal quality, lowres bad eyes",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.744938+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "671a243fe1f5cce0a963173c32f76b3ab3d9622af7e90d85e43aed7a7ffafc4b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968753 image ai-image-prompts close-up portrait of darth_vader with crazy eyes. . made of w00kiee. hairy, tufted strands, shaggy texture, fur, brown hair palette, flowing hair, furry subject form laughing face, ultra detailed face, ultra detailed eyes, perfect cute face, dynamic angle, dynamic motion, ultra detailed background, ultra detailed objects, sharp lines, depth of field, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968753",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e812ea7-8d2f-4fa7-86f8-2c076631d2c8/original=true/7e812ea7-8d2f-4fa7-86f8-2c076631d2c8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968520",
+      "title": "Civitai prompt 149968520",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, highres, best quality, detailed face, detailed eyes, ultra-detailed, very aesthetic, perfect anatomy, absurdres, newest, 8K, lazypos, lazyhand\noutdoors, cowboy shot, wide shot\n(aged up:1.2), (mature female:1.2), ALLW, LWNM, light blue hair, long hair, straight hair, hair flaps, purple tips, bangs, long sidelocks, blue eyes, dragon horns, black horns, dragon tail, purple scales, tufted tail, chinese clothes, blue dress, mandarin collar, keyhole neckline, bare shoulders, white outerwear, oversized sleeves, wide sleeves, blue trim, white skirt, black bow, gold ornament, black flats, looking at viewer, full blush, depth of field, dynamic pose, smile, hand on own hips, one eye closed,",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968520",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0e764b9-96ac-475a-a037-b901b2a612ac/original=true/a0e764b9-96ac-475a-a037-b901b2a612ac.jpeg",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1872,
+      "negative_prompt": "lazyneg, lazywet, deformation, sketch, watermark, censor, tattoo, wip, worst quality, low quality, normal quality, lowres, sample watermark, bad anatomy, bad hands, bad fingers, bad mouth, bad tongue, bad arms, extra arms, bad limbs, extra limbs, extra fingers, bad eyes, extra nipples, multiple nipples, jpeg artifacts, mutated hands and fingers, old, oldest, ",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.744979+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "80196b7595dcca21b94ce8e296ab97c8bdcf8fd7e98cbcef0d17e8666ab80281",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968520 image ai-image-prompts masterpiece, highres, best quality, detailed face, detailed eyes, ultra-detailed, very aesthetic, perfect anatomy, absurdres, newest, 8k, lazypos, lazyhand outdoors, cowboy shot, wide shot (aged up:1.2), (mature female:1.2), allw, lwnm, light blue hair, long hair, straight hair, hair flaps, purple tips, bangs, long sidelocks, blue eyes, dragon horns, black horns, dragon tail, purple scales, tufted tail, chinese clothes, blue dress, mandarin collar, keyhole neckline, bare shoulders, white outerwear, oversized sleeves, wide sleeves, blue trim, white skirt, black bow, gold ornament, black flats, looking at viewer, full blush, depth of field, dynamic pose, smile, hand on own hips, one eye closed, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968520",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0e764b9-96ac-475a-a037-b901b2a612ac/original=true/a0e764b9-96ac-475a-a037-b901b2a612ac.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968466",
+      "title": "Civitai prompt 149968466",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Niji_Sweet_Spot_Krea2_v2A:0.8>,\n(chibi:1.3), cute little chibi, super deformed, big head, small body, colorful, 8k, best quality, masterpiece, (ultra-detailed), @reoen, @fuzichoco, @atdan, @torino_aqua, year 2024, @wlop, @ningen_mame, @ciloranko, @rhasta, @tidsean, @NJSW33T, (figurine:1.3), pvc figure, nendoroid style, plastic material, smooth finish, soft studio lighting, sharp focus, 3d render, octane render, miniature, full body, full shot, standing, (solo:1.2), simple background, (white background:1.2), looking at viewer,\n<lora:LoraBytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>,\nsi \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968466",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef578b1c-1b0c-4c2a-b775-a9c1ae722b9b/original=true/ef578b1c-1b0c-4c2a-b775-a9c1ae722b9b.jpeg",
+      "model": "krea2/krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 112001557,
+      "negative_prompt": "lowres,(bad),text,error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,watermark,unfinished,displeasing,oldest,faceless,bad  background,NEGATIVE_HANDSXL,furry,extra arms,extra fingers,extra  legs,extra toes,blush,((more than 5 fingers with 1 hand)),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745009+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "768966e6dd8bf5c4493744cffd5ab09cb3ed0b98987c19e093cca93d81fa1831",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968466 image ai-image-prompts <lora:niji_sweet_spot_krea2_v2a:0.8>, (chibi:1.3), cute little chibi, super deformed, big head, small body, colorful, 8k, best quality, masterpiece, (ultra-detailed), @reoen, @fuzichoco, @atdan, @torino_aqua, year 2024, @wlop, @ningen_mame, @ciloranko, @rhasta, @tidsean, @njsw33t, (figurine:1.3), pvc figure, nendoroid style, plastic material, smooth finish, soft studio lighting, sharp focus, 3d render, octane render, miniature, full body, full shot, standing, (solo:1.2), simple background, (white background:1.2), looking at viewer, <lora:lorabytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>, si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968466",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef578b1c-1b0c-4c2a-b775-a9c1ae722b9b/original=true/ef578b1c-1b0c-4c2a-b775-a9c1ae722b9b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968454",
+      "title": "Civitai prompt 149968454",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:jijia_krea2_fp8_tanger:1>, Realistic.A young woman, standing on a train platform at night, smooth pale skin texture with soft lighting highlights, body angled in a three-quarter rear view, turning her head back to look directly at the camera with her right hand gently touching her chin, blurred train passing rapidly in the background creating horizontal motion streaks, cool teal and cyan ambient lighting washing over the scene contrasting with warm orange interior lights from the train windows, shallow depth of field focusing on the subject, cinematic urban photography style, realistic textures, moody atmosphere, film grain, high resolution,\n<lora:LoraBytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>,\nsi \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968454",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81b554e2-aa4f-4772-8ea4-5f7d4c1bfb59/original=true/81b554e2-aa4f-4772-8ea4-5f7d4c1bfb59.jpeg",
+      "model": "krea2/krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2105896583,
+      "negative_prompt": "lowres,(bad),text,error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,watermark,unfinished,displeasing,oldest,faceless,bad  background,NEGATIVE_HANDSXL,furry,extra arms,extra fingers,extra  legs,extra toes,blush,((more than 5 fingers with 1 hand)),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745038+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b13e0b7bb533b1bf4087fbc99317a90b081f7fcfc1930ed043e433a57e6e005b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968454 architecture ai-image-prompts <lora:jijia_krea2_fp8_tanger:1>, realistic.a young woman, standing on a train platform at night, smooth pale skin texture with soft lighting highlights, body angled in a three-quarter rear view, turning her head back to look directly at the camera with her right hand gently touching her chin, blurred train passing rapidly in the background creating horizontal motion streaks, cool teal and cyan ambient lighting washing over the scene contrasting with warm orange interior lights from the train windows, shallow depth of field focusing on the subject, cinematic urban photography style, realistic textures, moody atmosphere, film grain, high resolution, <lora:lorabytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>, si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968454",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81b554e2-aa4f-4772-8ea4-5f7d4c1bfb59/original=true/81b554e2-aa4f-4772-8ea4-5f7d4c1bfb59.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968453",
+      "title": "Civitai prompt 149968453",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "<lora:Niji_Sweet_Spot_Krea2_v2A:0.8>, <lora:Krea_2_zidiusArt_Melancholy_v2:0.25>, <lora:realism_engine_krea2_v3.1:0.8>,\n@NJSW33T,\nShe depicts an oriental-inspired female.,\n• Appearance: A cute woman, 活泼可爱面带笑容的少女,\n<lora:LoraBytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>,\nsi \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear,\n- **Style:** Street photography, candid documentary shot, natural light, realistic urban scene, film grain,\n- **Decoration:**  creating a cool atmosphere that contrasts with the character's sunshine impression.,\n-**background:** a bustling city street in the daytime - pavement and crosswalk, storefronts with signs, streetlights, a few passersby walking past, natural sunlight casting real shadows, slightly grainy film look, shallow depth of field.,\n- **Contrast:** The character's outfit  in striking color contrast against the muted gray urban tones of the street background, grabbing attention.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968453",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6031e89-663d-440a-969d-225445380de0/original=true/f6031e89-663d-440a-969d-225445380de0.jpeg",
+      "model": "krea2/krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 751170585,
+      "negative_prompt": "lowres,(bad),text,error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,watermark,unfinished,displeasing,oldest,faceless,bad  background,NEGATIVE_HANDSXL,furry,extra arms,extra fingers,extra  legs,extra toes,blush,((more than 5 fingers with 1 hand)),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745067+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "017fe747c7ff811723ae5dd6e39e4d0356d8ec919632e285b2a1a563ceb6dd39",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149968453 fashion ai-image-prompts <lora:niji_sweet_spot_krea2_v2a:0.8>, <lora:krea_2_zidiusart_melancholy_v2:0.25>, <lora:realism_engine_krea2_v3.1:0.8>, @njsw33t, she depicts an oriental-inspired female., • appearance: a cute woman, 活泼可爱面带笑容的少女, <lora:lorabytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>, si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear, - **style:** street photography, candid documentary shot, natural light, realistic urban scene, film grain, - **decoration:** creating a cool atmosphere that contrasts with the character's sunshine impression., -**background:** a bustling city street in the daytime - pavement and crosswalk, storefronts with signs, streetlights, a few passersby walking past, natural sunlight casting real shadows, slightly grainy film look, shallow depth of field., - **contrast:** the character's outfit in striking color contrast against the muted gray urban tones of the street background, grabbing attention. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968453",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6031e89-663d-440a-969d-225445380de0/original=true/f6031e89-663d-440a-969d-225445380de0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968451",
+      "title": "Civitai prompt 149968451",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\n  \"composition\": \"distracted boyfriend meme composition, full body shot, entire bodies visible from head to toes\",\n  \"scene\": \"busy asian city sidewalk, candid street photograph, natural daylight, photorealistic urban environment\",\n  \"character\": {\n    \"identity\": \"si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear\",\n    \"skin\": \"pale smooth skin, natural skin texture\",\n    \"expression\": \"calm confident gaze at viewer, subtle smile\"\n  },\n  \"other_people\": [\n    {\n      \"role\": \"man\",\n      \"description\": \"east asian man in his thirties walking, turned to the left, looking over his shoulder with the classic distracted boyfriend expression, casual clothes\"\n    },\n    {\n      \"role\": \"girlfriend\",\n      \"description\": \"east asian girlfriend standing in profile, annoyed disapproving expression, plain everyday clothes\"\n    }\n  ],\n  \"style\": \"photorealistic, 35mm film photography, shallow depth of field, natural lighting, sharp focus, real street environment\",\n  \"quality\": \"masterpiece, best quality\"\n},\n<lora:real_3d_krea2_loraholic:1>, <lora:snofs_krea_v1_3D:1>, <lora:jijia_krea2_fp8_tanger:0.8>, jijia, realistic, CG,\n<lora:LoraBytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>,\nsi \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968451",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fcf6ccf-c812-44bc-adf8-1152a448cc2e/original=true/1fcf6ccf-c812-44bc-adf8-1152a448cc2e.jpeg",
+      "model": "krea2/krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 102490780,
+      "negative_prompt": "lowres,(bad),text,error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,watermark,unfinished,displeasing,oldest,faceless,bad  background,NEGATIVE_HANDSXL,furry,extra arms,extra fingers,extra  legs,extra toes,blush,((more than 5 fingers with 1 hand)),",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745105+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2400eaf56a2133cd9addd7b4244463ac292789c5c06c588320d64a72cb0ce8d4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968451 image ai-image-prompts { \"composition\": \"distracted boyfriend meme composition, full body shot, entire bodies visible from head to toes\", \"scene\": \"busy asian city sidewalk, candid street photograph, natural daylight, photorealistic urban environment\", \"character\": { \"identity\": \"si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear\", \"skin\": \"pale smooth skin, natural skin texture\", \"expression\": \"calm confident gaze at viewer, subtle smile\" }, \"other_people\": [ { \"role\": \"man\", \"description\": \"east asian man in his thirties walking, turned to the left, looking over his shoulder with the classic distracted boyfriend expression, casual clothes\" }, { \"role\": \"girlfriend\", \"description\": \"east asian girlfriend standing in profile, annoyed disapproving expression, plain everyday clothes\" } ], \"style\": \"photorealistic, 35mm film photography, shallow depth of field, natural lighting, sharp focus, real street environment\", \"quality\": \"masterpiece, best quality\" }, <lora:real_3d_krea2_loraholic:1>, <lora:snofs_krea_v1_3d:1>, <lora:jijia_krea2_fp8_tanger:0.8>, jijia, realistic, cg, <lora:lorabytanger/终末地-祀/krea2/si_arknights_krea2_fp8_tanger.safetensors:0.8>, si \\(arknights\\), dragon girl, eastern dragon horns, pointy ears, scaled dragon tail, tail ring, teal dragon arms, teal clawed hands, very low bun, black streaks, clothes: sidef white blue cross-cutout dress, black and yellow armored gauntlet, blue cross-pattern socks, 1girl, long hair, bangs, gloves, jewelry, earrings, green hair, black footwear civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968451",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fcf6ccf-c812-44bc-adf8-1152a448cc2e/original=true/1fcf6ccf-c812-44bc-adf8-1152a448cc2e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149562730",
+      "title": "Civitai prompt 149562730",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A wide, low-horizon shot across a windswept hillside garden behind a whitewashed stone cottage, a beautiful, fragile woman in her mid-twenties standing barefoot in the long grass, reaching up on tiptoe to peg a billowing white bedsheet onto a sagging clothesline, a wicker laundry basket at her feet and wooden pegs held between her lips. Her bare feet sink into the soft grass and clover, slender with heels lifted, the dew glistening on her ankles. She wears a pale cornflower-blue cotton lawn corset bustier with tiny white embroidered daisies, delicate boning, a softly scooped neckline and front ribbon lacing, paired with a long loose skirt of white muslin billowing sideways in the wind. Her long wavy chestnut hair streams sideways in the breeze, her skin luminous, her face upturned, fragile and dreamy, eyes half-closed against the light. A line of sheets, pillowcases and a lace tablecloth snap and swell in the wind, the hill falls away to a distant patchwork of fields and a glinting sea. Golden-hour sunlight shines from behind the hanging sheets, making the linen glow translucent and casting her soft silhouette through the fabric like a shadow play, with warm light spilling around the edges. Quiet, windswept solitude. Photorealistic yet ethereal and dreamlike, with glowing translucent fabric, sun flare peeking through the linen, soft bloom, airy bokeh in the grass seed heads, layered atmospheric depth to the sea, and fine film grain.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149562730",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4e2c9d1-d0d4-400c-b949-614d05d5d43e/original=true/a4e2c9d1-d0d4-400c-b949-614d05d5d43e.jpeg",
+      "model": "Kreamania_v9_fp8_e4m3fn",
+      "model_version_ids": [
+        3110766,
+        3116962,
+        3453282
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 241873398,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745129+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2c36af2f4716a95a5e83adc95126c2712e5437a0a59a02f41fb8dcb90e044c89",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149562730 image ai-image-prompts a wide, low-horizon shot across a windswept hillside garden behind a whitewashed stone cottage, a beautiful, fragile woman in her mid-twenties standing barefoot in the long grass, reaching up on tiptoe to peg a billowing white bedsheet onto a sagging clothesline, a wicker laundry basket at her feet and wooden pegs held between her lips. her bare feet sink into the soft grass and clover, slender with heels lifted, the dew glistening on her ankles. she wears a pale cornflower-blue cotton lawn corset bustier with tiny white embroidered daisies, delicate boning, a softly scooped neckline and front ribbon lacing, paired with a long loose skirt of white muslin billowing sideways in the wind. her long wavy chestnut hair streams sideways in the breeze, her skin luminous, her face upturned, fragile and dreamy, eyes half-closed against the light. a line of sheets, pillowcases and a lace tablecloth snap and swell in the wind, the hill falls away to a distant patchwork of fields and a glinting sea. golden-hour sunlight shines from behind the hanging sheets, making the linen glow translucent and casting her soft silhouette through the fabric like a shadow play, with warm light spilling around the edges. quiet, windswept solitude. photorealistic yet ethereal and dreamlike, with glowing translucent fabric, sun flare peeking through the linen, soft bloom, airy bokeh in the grass seed heads, layered atmospheric depth to the sea, and fine film grain. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149562730",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4e2c9d1-d0d4-400c-b949-614d05d5d43e/original=true/a4e2c9d1-d0d4-400c-b949-614d05d5d43e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149358969",
+      "title": "Civitai prompt 149358969",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical \n <lora:CROCELL-ANIMA-V1 (1):1> CR0C3LLX",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149358969",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d01bca8f-6c79-4e38-9277-4bca42915524/original=true/d01bca8f-6c79-4e38-9277-4bca42915524.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3469222
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580259,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745141+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8d62202be38d6e0388a334e68c61efa69698560d718e0fd4dbc11c3ce7ea4168",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149358969 architecture ai-image-prompts masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical <lora:crocell-anima-v1 (1):1> cr0c3llx civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149358969",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d01bca8f-6c79-4e38-9277-4bca42915524/original=true/d01bca8f-6c79-4e38-9277-4bca42915524.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149358964",
+      "title": "Civitai prompt 149358964",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast,\nmessy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background \n <lora:CROCELL-ANIMA-V1 (1):1> CR0C3LLX",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149358964",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9de0513-36b9-4b34-b1bd-6ae9cfe7e87c/original=true/e9de0513-36b9-4b34-b1bd-6ae9cfe7e87c.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3469222
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580255,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745156+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0ce131220b5c6a1894f6f65a7ad1ebba53ea58e56e1447a08d92db408ec9869c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149358964 image ai-image-prompts (masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast, messy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background <lora:crocell-anima-v1 (1):1> cr0c3llx civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149358964",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9de0513-36b9-4b34-b1bd-6ae9cfe7e87c/original=true/e9de0513-36b9-4b34-b1bd-6ae9cfe7e87c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968469",
+      "title": "Civitai prompt 149968469",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "masterpiece,best quality , very aesthetic, ultra detailed, ultra high res,8k,official art, ,anime screencap,(anime GuiltyCrown),((front view)),(Angle from front),standing,((contrapposto)),full body,toe,(slightly spread feet),(open eyes),(sexy look),looking at viewer,((head tilt)), (1woman),(solo),(sweat),(Embarrassed look),((red cheek)),(woman nose blush:1.3),pink lips,((glossy lips)),open mouth, perfect female figure,(Detailed beautiful delicate face),real texture skin,(5 fingers),(both hands in own hair),arms up,(steam),breath,(detailed hair),(vibrant hair texture),long hair, high ponytail, red hair scrunchie, parted bangs, brown hair, purple eyes,((detailed eyes)),((beautiful eyes)),Perfect large breasts, bursting breasts,beautiful breasts,perky breasts,curvy,even body lines,defined leg line,inner thigh sweat,((A tight-fitting uniform)),(tight clothes),red blazer,white stripes on blazer,((Close your blazer)),long sleeve,school uniform,red ribbon tie,thin floppy ribbon tie,white collar shirt,dark blue pleated skirt,Micro mini skirt,black high socks,(brown loafers), (School building exterior),tree in front school building ,Futuristic school building,sleek white and silver architecture, vibrant colour, broad daylight,outdoors,",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968469",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa486673-201e-43c5-a8d4-0a935be2eba7/original=true/aa486673-201e-43c5-a8d4-0a935be2eba7.jpeg",
+      "model": "urn:air:sdxl:checkpoint:civitai:827184@2167369",
+      "model_version_ids": [
+        164821,
+        1357653,
+        2167369,
+        2498503
+      ],
+      "width": 960,
+      "height": 2304,
+      "seed": 65212347,
+      "negative_prompt": "low resolution,worst quality,low quality , normal quality,dutch angle,Easy Negative,blurry,deformed face,bad face, deformed eyes, bad anatomy ,too long arms, disproportionate ,distorted body,unrealistic body, extremely slim waist, artist's sign,extra digit,body fusion,Six-fingered hand,Three or more hands,two woman ,two or more people,man ,two koma,bad teeth, mutated teeth, extra teeth, missing teeth,deformed teeth,painful eyes,small eyes,disgusted look,shoes taken off,nipples,thighhighs,butterfly bow,bag,Roll up your sleeves,holding,open your blazer,leaning forward,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745173+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7aafd16b891aa153a2c08a26208e1b2897c67e1a484776b5e0604c3ee1b73bd8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 149968469 architecture ai-image-prompts masterpiece,best quality , very aesthetic, ultra detailed, ultra high res,8k,official art, ,anime screencap,(anime guiltycrown),((front view)),(angle from front),standing,((contrapposto)),full body,toe,(slightly spread feet),(open eyes),(sexy look),looking at viewer,((head tilt)), (1woman),(solo),(sweat),(embarrassed look),((red cheek)),(woman nose blush:1.3),pink lips,((glossy lips)),open mouth, perfect female figure,(detailed beautiful delicate face),real texture skin,(5 fingers),(both hands in own hair),arms up,(steam),breath,(detailed hair),(vibrant hair texture),long hair, high ponytail, red hair scrunchie, parted bangs, brown hair, purple eyes,((detailed eyes)),((beautiful eyes)),perfect large breasts, bursting breasts,beautiful breasts,perky breasts,curvy,even body lines,defined leg line,inner thigh sweat,((a tight-fitting uniform)),(tight clothes),red blazer,white stripes on blazer,((close your blazer)),long sleeve,school uniform,red ribbon tie,thin floppy ribbon tie,white collar shirt,dark blue pleated skirt,micro mini skirt,black high socks,(brown loafers), (school building exterior),tree in front school building ,futuristic school building,sleek white and silver architecture, vibrant colour, broad daylight,outdoors, civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968469",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aa486673-201e-43c5-a8d4-0a935be2eba7/original=true/aa486673-201e-43c5-a8d4-0a935be2eba7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968501",
+      "title": "Civitai prompt 149968501",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(standing with one arm hanging and one arm on hip:1.2),  (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin,  \nExactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject.,\n((slight smile), soft and natural lips, (faint smile), face:1.4),   (upper body shot, framed from chest up:1.4),  (slightly elevated eye-level view:1.8),   (1girl, alone, solo:1.2),         (wedge cut,silver hair,:1.1), \n(splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0),\n(fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0),\nbokeh, depth of field, blurry backgrounds,\n(nsfw, tits, nipples, cameltoe, nude:-1.4),  \n <lora:Mohrbacher_k2:0.3><lora:LoveCacao_Style_Krea2_v1:0.3>\nluxury_evening_dress,mink_coat,\nluxury_palace_lobby,\n<lora:LoveCacao_Style_Krea2_v1:0.3>   \n<lora:detail_slider_krea2_loraholic:3><lora:Detailer-KREA2:1>\n<lora:krea2_Saturation_slider:3>  \n  game character concept art, high-end 2.5D semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality.,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968501",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c509774e-67ae-4c48-8a75-4c46a304b9a0/original=true/c509774e-67ae-4c48-8a75-4c46a304b9a0.jpeg",
+      "model": "krea2Muse_v15_Q8_0",
+      "model_version_ids": [
+        3068874,
+        3083240,
+        3102544,
+        3121642,
+        3295730
+      ],
+      "width": 2496,
+      "height": 3840,
+      "seed": 1651422184,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745192+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "772ec0ca31e6243837bc8014da2d80ff5f29421d70a119b1141f6f08f8349d52",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968501 image ai-image-prompts (standing with one arm hanging and one arm on hip:1.2), (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin, exactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject., ((slight smile), soft and natural lips, (faint smile), face:1.4), (upper body shot, framed from chest up:1.4), (slightly elevated eye-level view:1.8), (1girl, alone, solo:1.2), (wedge cut,silver hair,:1.1), (splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0), (fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0), bokeh, depth of field, blurry backgrounds, (nsfw, tits, nipples, cameltoe, nude:-1.4), <lora:mohrbacher_k2:0.3><lora:lovecacao_style_krea2_v1:0.3> luxury_evening_dress,mink_coat, luxury_palace_lobby, <lora:lovecacao_style_krea2_v1:0.3> <lora:detail_slider_krea2_loraholic:3><lora:detailer-krea2:1> <lora:krea2_saturation_slider:3> game character concept art, high-end 2.5d semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality., civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968501",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c509774e-67ae-4c48-8a75-4c46a304b9a0/original=true/c509774e-67ae-4c48-8a75-4c46a304b9a0.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968475",
+      "title": "Civitai prompt 149968475",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Canadian autumn landscape, endless maple and birch forest in peak fall colors, crimson and amber canopy, calm lake with mirror reflection, low morning mist, distant rocky hills, golden hour light, ultra detailed photography, 35mm, national geographic style",
+      "quality_score": 8.2,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968475",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15f4065a-0638-4788-a8ea-b0bb40623e64/original=true/15f4065a-0638-4788-a8ea-b0bb40623e64.jpeg",
+      "model_version_ids": [
+        2019115
+      ],
+      "width": 1216,
+      "height": 832,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745202+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c950c1e987bcbb716d4c24f96871d53e3fff8ea460b9f735faca5db90cf4088b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149968475 photography ai-image-prompts canadian autumn landscape, endless maple and birch forest in peak fall colors, crimson and amber canopy, calm lake with mirror reflection, low morning mist, distant rocky hills, golden hour light, ultra detailed photography, 35mm, national geographic style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968475",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/15f4065a-0638-4788-a8ea-b0bb40623e64/original=true/15f4065a-0638-4788-a8ea-b0bb40623e64.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968403",
+      "title": "Civitai prompt 149968403",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "reality-shot, realism, realistic photography of a massive blue whale made of w00kiee breaching out of a pastel ocean, wearing oversized neon 80s sunglasses and DJing on floating turntables, with tiny octopuses dancing on its back, furry subject form where the whale itself is sculpted entirely out of dense hair, shaggy texture with a messy and layered fur appearance, tufted strands with visible clusters of hair standing up and separating, dramatic flowing hair movement catching the ocean breeze and water spray, rich brown hair palette in shades of tan, rust, and dark chocolate brown, awesome appearance, magical seascape with enchanted elements, fantasy art style, pastel rainbowcolor theme, intricate details, ultra sharp, exquisite detail, flawless composition, vivid colors, masterpiece, exciting background",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968403",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21ce40a2-642a-43b4-8305-dd8338c4cf8c/original=true/21ce40a2-642a-43b4-8305-dd8338c4cf8c.jpeg",
+      "model_version_ids": [
+        693814,
+        1759168
+      ],
+      "width": 1216,
+      "height": 832,
+      "seed": 1193047284,
+      "negative_prompt": "low-res, low resolution, cartoon, 3d render, anime, comic, illustration, sketch, drawing, low quality, worst quality, blurry, pixelated, airbrushed skin, plastic skin, CGI look, video game graphics, over-saturated colors,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745218+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "75c67732e83d3a4bae5e333d43883bfbf68dd246df7e4f354a76d01812a36ce0",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968403 image ai-image-prompts reality-shot, realism, realistic photography of a massive blue whale made of w00kiee breaching out of a pastel ocean, wearing oversized neon 80s sunglasses and djing on floating turntables, with tiny octopuses dancing on its back, furry subject form where the whale itself is sculpted entirely out of dense hair, shaggy texture with a messy and layered fur appearance, tufted strands with visible clusters of hair standing up and separating, dramatic flowing hair movement catching the ocean breeze and water spray, rich brown hair palette in shades of tan, rust, and dark chocolate brown, awesome appearance, magical seascape with enchanted elements, fantasy art style, pastel rainbowcolor theme, intricate details, ultra sharp, exquisite detail, flawless composition, vivid colors, masterpiece, exciting background civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968403",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21ce40a2-642a-43b4-8305-dd8338c4cf8c/original=true/21ce40a2-642a-43b4-8305-dd8338c4cf8c.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968343",
+      "title": "Civitai prompt 149968343",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "style : semi realistic, league of legends art, simple geometric shapes, \nsubject : 1girl, solo, \n1girl, solo, full body, standing pose, young Italian woman, slightly tanned olive skin, warm Mediterranean complexion, dark wavy shoulder-length hair with soft volume and side-swept bangs, dark blonde hair, deep brown eyes, subtle natural makeup, soft confident expression with a hint of sharp wit, braid, smirk, narrowed eyes, \nThe woman is wearing a school uniform consisting of a tailored wool blazers, in light maroon, featuring school crest, a pleated tartan skirt worn around knee length, and a traditional white button-down shirts paired with striped school ties and nkee-high white socks.\n no excessive dramatic effects, confident and slightly seductive expression, refined and sophisticated atmosphere, deep teal and cyan background, diary, masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, perfect hands",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968343",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21d05e15-24ce-4cf9-8ef4-685c89850764/original=true/21d05e15-24ce-4cf9-8ef4-685c89850764.jpeg",
+      "model_version_ids": [
+        3072332,
+        3139440
+      ],
+      "width": 832,
+      "height": 1248,
+      "seed": 1592908071,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745234+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b8b66278504292cb26846b777f66b78953298700719d71fdbd3977f8188a6029",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968343 image ai-image-prompts style : semi realistic, league of legends art, simple geometric shapes, subject : 1girl, solo, 1girl, solo, full body, standing pose, young italian woman, slightly tanned olive skin, warm mediterranean complexion, dark wavy shoulder-length hair with soft volume and side-swept bangs, dark blonde hair, deep brown eyes, subtle natural makeup, soft confident expression with a hint of sharp wit, braid, smirk, narrowed eyes, the woman is wearing a school uniform consisting of a tailored wool blazers, in light maroon, featuring school crest, a pleated tartan skirt worn around knee length, and a traditional white button-down shirts paired with striped school ties and nkee-high white socks. no excessive dramatic effects, confident and slightly seductive expression, refined and sophisticated atmosphere, deep teal and cyan background, diary, masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, perfect hands civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968343",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21d05e15-24ce-4cf9-8ef4-685c89850764/original=true/21d05e15-24ce-4cf9-8ef4-685c89850764.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968356",
+      "title": "Civitai prompt 149968356",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(standing with body angled 45 degrees:1.2),  (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin,  \nExactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject.,\n((calm gaze), neutral yet warm eyes looking forward face:1.4),   (upper body shot, framed from chest up:1.4),  (right side view:1.8),   (1girl, alone, solo:1.2),         (long straight blunt bang,pink hair,:1.1), \n(splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0),\n(fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0),\nbokeh, depth of field, blurry backgrounds,\n(nsfw, tits, nipples, cameltoe, nude:-1.4),  \n <lora:Mohrbacher_k2:0.3><lora:LoveCacao_Style_Krea2_v1:0.3>\nleather_coat,BDSM,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0),\n<lora:LoveCacao_Style_Krea2_v1:0.3>   \n<lora:detail_slider_krea2_loraholic:3><lora:Detailer-KREA2:1>\n<lora:krea2_Saturation_slider:3>  \n  game character concept art, high-end 2.5D semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality.,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968356",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a09692db-b039-4471-85bb-b6974703d397/original=true/a09692db-b039-4471-85bb-b6974703d397.jpeg",
+      "model": "krea2Muse_v15_Q8_0",
+      "model_version_ids": [
+        3068874,
+        3083240,
+        3102544,
+        3121642,
+        3295730
+      ],
+      "width": 2496,
+      "height": 3840,
+      "seed": 860976017,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745253+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cbc8fbfed1b32c3552ac3d42a08d1634054a19e2eaca6ad0932669af61e71d6b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968356 image ai-image-prompts (standing with body angled 45 degrees:1.2), (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin, exactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject., ((calm gaze), neutral yet warm eyes looking forward face:1.4), (upper body shot, framed from chest up:1.4), (right side view:1.8), (1girl, alone, solo:1.2), (long straight blunt bang,pink hair,:1.1), (splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0), (fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0), bokeh, depth of field, blurry backgrounds, (nsfw, tits, nipples, cameltoe, nude:-1.4), <lora:mohrbacher_k2:0.3><lora:lovecacao_style_krea2_v1:0.3> leather_coat,bdsm,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0), <lora:lovecacao_style_krea2_v1:0.3> <lora:detail_slider_krea2_loraholic:3><lora:detailer-krea2:1> <lora:krea2_saturation_slider:3> game character concept art, high-end 2.5d semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality., civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968356",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a09692db-b039-4471-85bb-b6974703d397/original=true/a09692db-b039-4471-85bb-b6974703d397.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968355",
+      "title": "Civitai prompt 149968355",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(kneeling on one knee, other leg bent forward, hip tilted:1.2),  (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin,  \nExactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject.,\n((modest expression), looking down slightly with a faint smile, face:1.4),   (close-up portrait, head and shoulders:1.4),  (eye-level diagonal perspective:1.8),   (1girl, alone, solo:1.2),         (wavy hair,pink hair,:1.1), \n(splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0),\n(fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0),\nbokeh, depth of field, blurry backgrounds,\n(nsfw, tits, nipples, cameltoe, nude:-1.4),  \n <lora:Mohrbacher_k2:0.3><lora:LoveCacao_Style_Krea2_v1:0.3>\nleather_coat,BDSM,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0),\n<lora:LoveCacao_Style_Krea2_v1:0.3>   \n<lora:detail_slider_krea2_loraholic:3><lora:Detailer-KREA2:1>\n<lora:krea2_Saturation_slider:3>  \n  game character concept art, high-end 2.5D semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality.,",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968355",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d0229e4-a3f9-4c50-a547-2248265c15fc/original=true/0d0229e4-a3f9-4c50-a547-2248265c15fc.jpeg",
+      "model": "krea2Muse_v15_Q8_0",
+      "model_version_ids": [
+        3068874,
+        3083240,
+        3102544,
+        3121642,
+        3295730
+      ],
+      "width": 2496,
+      "height": 3840,
+      "seed": 860976004,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745272+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "db9f35efa01a76532791331eebb9abd68680502401afa89478b6caebb9bfb2e9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968355 image ai-image-prompts (kneeling on one knee, other leg bent forward, hip tilted:1.2), (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin, exactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject., ((modest expression), looking down slightly with a faint smile, face:1.4), (close-up portrait, head and shoulders:1.4), (eye-level diagonal perspective:1.8), (1girl, alone, solo:1.2), (wavy hair,pink hair,:1.1), (splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0), (fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0), bokeh, depth of field, blurry backgrounds, (nsfw, tits, nipples, cameltoe, nude:-1.4), <lora:mohrbacher_k2:0.3><lora:lovecacao_style_krea2_v1:0.3> leather_coat,bdsm,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0), <lora:lovecacao_style_krea2_v1:0.3> <lora:detail_slider_krea2_loraholic:3><lora:detailer-krea2:1> <lora:krea2_saturation_slider:3> game character concept art, high-end 2.5d semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality., civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968355",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d0229e4-a3f9-4c50-a547-2248265c15fc/original=true/0d0229e4-a3f9-4c50-a547-2248265c15fc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968354",
+      "title": "Civitai prompt 149968354",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(leaning to the side:1.2),  (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin,  \nExactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject.,\n((dreamy gaze), looking into the distance with a soft focus face:1.4),   (upper body shot, framed from chest up:1.4),  (close-range eye-level perspective:1.8),   (1girl, alone, solo:1.2),         (blowout,natural blonde hair,:1.1), \n(splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0),\n(fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0),\nbokeh, depth of field, blurry backgrounds,\n(nsfw, tits, nipples, cameltoe, nude:-1.4),  \n <lora:Mohrbacher_k2:0.3><lora:LoveCacao_Style_Krea2_v1:0.3>\nleather_coat,BDSM,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0),\n<lora:LoveCacao_Style_Krea2_v1:0.3>   \n<lora:detail_slider_krea2_loraholic:3><lora:Detailer-KREA2:1>\n<lora:krea2_Saturation_slider:3>  \n  game character concept art, high-end 2.5D semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality.,",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968354",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d908edc5-8727-4991-8d8f-45a3af9a6834/original=true/d908edc5-8727-4991-8d8f-45a3af9a6834.jpeg",
+      "model": "krea2Muse_v15_Q8_0",
+      "model_version_ids": [
+        3068874,
+        3083240,
+        3102544,
+        3121642,
+        3295730
+      ],
+      "width": 2496,
+      "height": 3840,
+      "seed": 860976008,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745290+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c0874aa0c70d60b9cd09492ecac41740c77c357648262d7235cacec9a734931f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968354 image ai-image-prompts (leaning to the side:1.2), (beautiful woman:1.4), solo, alone, 1 girl, single girl, clean even skin, exactly one person in the entire image, a single individual only,no additional characters, no background people, no crowds, no duplicate persons, one clearly isolated subject., ((dreamy gaze), looking into the distance with a soft focus face:1.4), (upper body shot, framed from chest up:1.4), (close-range eye-level perspective:1.8), (1girl, alone, solo:1.2), (blowout,natural blonde hair,:1.1), (splash paint, dusty, dirty, multiple people, multiple girls, 2girls, group, crowd, extra person, duplicate, twins, clone, background people, additional character, extra body:-1.0), (fur, crack, dusty, two face, two person, wet, sweat, closed eyes:-1.0), bokeh, depth of field, blurry backgrounds, (nsfw, tits, nipples, cameltoe, nude:-1.4), <lora:mohrbacher_k2:0.3><lora:lovecacao_style_krea2_v1:0.3> leather_coat,bdsm,thighhigh,boots,heels,hat,thighhighs,( fishnet:-1.0), <lora:lovecacao_style_krea2_v1:0.3> <lora:detail_slider_krea2_loraholic:3><lora:detailer-krea2:1> <lora:krea2_saturation_slider:3> game character concept art, high-end 2.5d semi-realistic illustration, refined digital painting, realistic anatomy, highly detailed textures, delicate hand-painted brushwork, subtle painterly shading, natural artistic strokes, softly blended colors, cinematic lighting, rich sophisticated colors, crisp details, premium game concept art quality., civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968354",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d908edc5-8727-4991-8d8f-45a3af9a6834/original=true/d908edc5-8727-4991-8d8f-45a3af9a6834.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968316",
+      "title": "Civitai prompt 149968316",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "style : semi realistic, league of legends art, simple geometric shapes, \nsubject : 1girl, solo, jewelry, bangs, red eyes ,white hair, piercing, blunt bangs, earrings, fur trim, ear piercing, soft colors, clean lineart, soft shading, detailed hair, \nShe wears an open high-collared black coat with deep orange edge accents and energy orange edges, the coat inside is yellow, her coat has orange decals,  under the coat she wears a greyish white vest, a large black belt with siver details, skirt worn around knee length, losed mouth, standing, palm up, an electric orange and red energy butterfly is landing in her fingers, cowboy shot, earrings, lips, greenish grey background, masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, perfect hands, one hand is in front of her chest, palms up, half open, as hiding some source of light over ver palm, but hidden between her fingers",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968316",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba845fc8-e720-4d53-b42d-03d39706530e/original=true/ba845fc8-e720-4d53-b42d-03d39706530e.jpeg",
+      "model_version_ids": [
+        3072332,
+        3139440
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 343184300,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745307+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "1727bee40193b211318b267abbccdcd1128d03f10114ac139ff57b137aa41d82",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968316 image ai-image-prompts style : semi realistic, league of legends art, simple geometric shapes, subject : 1girl, solo, jewelry, bangs, red eyes ,white hair, piercing, blunt bangs, earrings, fur trim, ear piercing, soft colors, clean lineart, soft shading, detailed hair, she wears an open high-collared black coat with deep orange edge accents and energy orange edges, the coat inside is yellow, her coat has orange decals, under the coat she wears a greyish white vest, a large black belt with siver details, skirt worn around knee length, losed mouth, standing, palm up, an electric orange and red energy butterfly is landing in her fingers, cowboy shot, earrings, lips, greenish grey background, masterpiece, best quality, amazing quality, very aesthetic, absurdres, depth of field, perfect hands, one hand is in front of her chest, palms up, half open, as hiding some source of light over ver palm, but hidden between her fingers civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968316",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba845fc8-e720-4d53-b42d-03d39706530e/original=true/ba845fc8-e720-4d53-b42d-03d39706530e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968314",
+      "title": "Civitai prompt 149968314",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Clean Japanese anime full-body studio character illustration with crisp slender ink linework, bright semi-cel shading, and a flat pure white background. One lively silver-haired young anime woman stands tall and straight in her compact off-shoulder royal-blue cropped coat over a white halter mini dress, giving a playful wink with the tiny tip of her tongue peeking out.\n\nShe has a slender 1:7 upright build, fair cool skin, a sleek silky straight chin-length silver-white bob with pale ice-blue shading, wispy see-through bangs, one thin curved crown stray strand, and strictly two small separate metallic silver four-pointed star hairpins stacked vertically at her left temple. Her left eye is wide and bright with a royal cobalt-blue outer ring and glowing pale lemon-gold core; her right eye closes in a crisp curved wink, paired with a cheerful smirk and a playful little tongue tip peeking from the corner of her lips.\n\nFramed in a 3:4 orthographic eye-level full-body portrait centered from 24% to 76% horizontally and 6% to 94% vertically, she stands completely upright with straight unbent legs and both glossy black loafer soles planted flat on the floor. Her torso angles slightly at twenty degrees; her right hand lifts near her temple in a teasing gesture while her left arm relaxes away from her waist.\n\nShe wears her pure-white high-neck sleeveless halter A-line mini dress with fine silver geometric collar linework, sculpted silver crescent-loop chest clasp, wide pure-white twin-tailed ribbon tie, and tiny silver skirt star clasps. Her compact tailored royal cobalt-blue cropped coat sits half-slipped cleanly below her bare shoulders around her upper arms, showing white-piped edges, flared bell cuffs, sharp silver sawtooth hem trim, and neat split rear tails. On her straight legs she wears opaque pure-white mid-calf socks with tiny silver star cuff badges and glossy black chunky leather loafers.\n\nEven diffused studio daylight from above front-left illuminates her face, bare shoulders, smooth cotton-poplin dress, matte-satin blue coat, polished silver ornaments, and glossy black leather, casting one tidy pale-grey shadow beneath her shoes. Palette (100%): 62% pure studio white background, 19% white dress, tie, socks, and silver hair, 9% porcelain skin and silver hardware, 3% black loafers and lineart, and 7% saturated royal cobalt-blue.\n\nNo squatting, no bent knees, no floating heels, no bulky bomber jacket, no second figure, no single oversized hairpin, no text, no watermarks, no props, no background scenery, no extra limbs, no framing borders.\n\nBright, crisp, and playful—clean studio simplicity framing her teasing wink, bare-shouldered tailoring, and vivid cobalt accents.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968314",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08d3cd96-62d6-4608-add8-d76643eaa74a/original=true/08d3cd96-62d6-4608-add8-d76643eaa74a.jpeg",
+      "model": "Krea2-Turbo-int8-ConvRot",
+      "model_version_ids": [],
+      "width": 1152,
+      "height": 1536,
+      "seed": 576967348518042,
+      "negative_prompt": "Clean Japanese anime full-body studio character illustration with crisp slender ink linework, bright semi-cel shading, and a flat pure white background. One lively silver-haired young anime woman stands tall and straight in her compact off-shoulder royal-blue cropped coat over a white halter mini dress, giving a playful wink with the tiny tip of her tongue peeking out.\n\nShe has a slender 1:7 upright build, fair cool skin, a sleek silky straight chin-length silver-white bob with pale ice-blue shading, wispy see-through bangs, one thin curved crown stray strand, and strictly two small separate metallic silver four-pointed star hairpins stacked vertically at her left temple. Her left eye is wide and bright with a royal cobalt-blue outer ring and glowing pale lemon-gold core; her right eye closes in a crisp curved wink, paired with a cheerful smirk and a playful little tongue tip peeking from the corner of her lips.\n\nFramed in a 3:4 orthographic eye-level full-body portrait centered from 24% to 76% horizontally and 6% to 94% vertically, she stands completely upright with straight unbent legs and both glossy black loafer soles planted flat on the floor. Her torso angles slightly at twenty degrees; her right hand lifts near her temple in a teasing gesture while her left arm relaxes away from her waist.\n\nShe wears her pure-white high-neck sleeveless halter A-line mini dress with fine silver geometric collar linework, sculpted silver crescent-loop chest clasp, wide pure-white twin-tailed ribbon tie, and tiny silver skirt star clasps. Her compact tailored royal cobalt-blue cropped coat sits half-slipped cleanly below her bare shoulders around her upper arms, showing white-piped edges, flared bell cuffs, sharp silver sawtooth hem trim, and neat split rear tails. On her straight legs she wears opaque pure-white mid-calf socks with tiny silver star cuff badges and glossy black chunky leather loafers.\n\nEven diffused studio daylight from above front-left illuminates her face, bare shoulders, smooth cotton-poplin dress, matte-satin blue coat, polished silver ornaments, and glossy black leather, casting one tidy pale-grey shadow beneath her shoes. Palette (100%): 62% pure studio white background, 19% white dress, tie, socks, and silver hair, 9% porcelain skin and silver hardware, 3% black loafers and lineart, and 7% saturated royal cobalt-blue.\n\nNo squatting, no bent knees, no floating heels, no bulky bomber jacket, no second figure, no single oversized hairpin, no text, no watermarks, no props, no background scenery, no extra limbs, no framing borders.\n\nBright, crisp, and playful—clean studio simplicity framing her teasing wink, bare-shouldered tailoring, and vivid cobalt accents.",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745364+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9ab8745e7d291cbcd17e86a47d0fef978369a3b2cae7cc7d540266f67b48877a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968314 image ai-image-prompts clean japanese anime full-body studio character illustration with crisp slender ink linework, bright semi-cel shading, and a flat pure white background. one lively silver-haired young anime woman stands tall and straight in her compact off-shoulder royal-blue cropped coat over a white halter mini dress, giving a playful wink with the tiny tip of her tongue peeking out. she has a slender 1:7 upright build, fair cool skin, a sleek silky straight chin-length silver-white bob with pale ice-blue shading, wispy see-through bangs, one thin curved crown stray strand, and strictly two small separate metallic silver four-pointed star hairpins stacked vertically at her left temple. her left eye is wide and bright with a royal cobalt-blue outer ring and glowing pale lemon-gold core; her right eye closes in a crisp curved wink, paired with a cheerful smirk and a playful little tongue tip peeking from the corner of her lips. framed in a 3:4 orthographic eye-level full-body portrait centered from 24% to 76% horizontally and 6% to 94% vertically, she stands completely upright with straight unbent legs and both glossy black loafer soles planted flat on the floor. her torso angles slightly at twenty degrees; her right hand lifts near her temple in a teasing gesture while her left arm relaxes away from her waist. she wears her pure-white high-neck sleeveless halter a-line mini dress with fine silver geometric collar linework, sculpted silver crescent-loop chest clasp, wide pure-white twin-tailed ribbon tie, and tiny silver skirt star clasps. her compact tailored royal cobalt-blue cropped coat sits half-slipped cleanly below her bare shoulders around her upper arms, showing white-piped edges, flared bell cuffs, sharp silver sawtooth hem trim, and neat split rear tails. on her straight legs she wears opaque pure-white mid-calf socks with tiny silver star cuff badges and glossy black chunky leather loafers. even diffused studio daylight from above front-left illuminates her face, bare shoulders, smooth cotton-poplin dress, matte-satin blue coat, polished silver ornaments, and glossy black leather, casting one tidy pale-grey shadow beneath her shoes. palette (100%): 62% pure studio white background, 19% white dress, tie, socks, and silver hair, 9% porcelain skin and silver hardware, 3% black loafers and lineart, and 7% saturated royal cobalt-blue. no squatting, no bent knees, no floating heels, no bulky bomber jacket, no second figure, no single oversized hairpin, no text, no watermarks, no props, no background scenery, no extra limbs, no framing borders. bright, crisp, and playful—clean studio simplicity framing her teasing wink, bare-shouldered tailoring, and vivid cobalt accents. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968314",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08d3cd96-62d6-4608-add8-d76643eaa74a/original=true/08d3cd96-62d6-4608-add8-d76643eaa74a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968243",
+      "title": "Civitai prompt 149968243",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@FGD_428, detailed background, scenery, photo background,\n(masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap),\nChara/(Undertale/). Chara from Undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968243",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63f4554e-fa71-4480-8a59-e718d3d44e6f/original=true/63f4554e-fa71-4480-8a59-e718d3d44e6f.jpeg",
+      "model_version_ids": [
+        1159963,
+        1761560,
+        3484316
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 2134929115,
+      "negative_prompt": "(lowres, bad quality, worst quality, score_1, score_2, score_3), (japanese text, chinese text), (censored, censorship, mosaic censoring, bar censor:2), (signature, watermark, artist name:1.2), (steam:2), loli, blunt bangs, child, kid, thin, skinny, chibi",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745379+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "386e73062d040a7129bf1b80f2bd8480598ee04fafda9e44dac37a1f20c8462c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968243 image ai-image-prompts @fgd_428, detailed background, scenery, photo background, (masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap), chara/(undertale/). chara from undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968243",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63f4554e-fa71-4480-8a59-e718d3d44e6f/original=true/63f4554e-fa71-4480-8a59-e718d3d44e6f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968225",
+      "title": "Civitai prompt 149968225",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@FGD_428,, chibi, detailed background, scenery, photo background,\n(masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap),\nChara/(Undertale/). Chara from Undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968225",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/686122e0-4f8c-45cf-b438-a062fcb1975e/original=true/686122e0-4f8c-45cf-b438-a062fcb1975e.jpeg",
+      "model_version_ids": [
+        3263843,
+        3485515
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 2094678704,
+      "negative_prompt": "(lowres, bad quality, worst quality, score_1, score_2, score_3), (japanese text, chinese text), (censored, censorship, mosaic censoring, bar censor:2), (signature, watermark, artist name:1.2), (steam:2), loli, blunt bangs, child, kid, thin, skinny",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745393+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "12d6b00fa36e0b3729db9dcad377b474973ae7cce4deaa7218266889927ef941",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968225 image ai-image-prompts @fgd_428,, chibi, detailed background, scenery, photo background, (masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap), chara/(undertale/). chara from undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968225",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/686122e0-4f8c-45cf-b438-a062fcb1975e/original=true/686122e0-4f8c-45cf-b438-a062fcb1975e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149968222",
+      "title": "Civitai prompt 149968222",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "@FGD_428,, chibi, detailed background, scenery, photo background,\n(masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap),\nChara/(Undertale/). Chara from Undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, teeth, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149968222",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0522c3e-4126-4cc7-b175-bac62856d263/original=true/a0522c3e-4126-4cc7-b175-bac62856d263.jpeg",
+      "model_version_ids": [
+        3263843,
+        3485515
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 447136270,
+      "negative_prompt": "(lowres, bad quality, worst quality, score_1, score_2, score_3), (japanese text, chinese text), (censored, censorship, mosaic censoring, bar censor:2), (signature, watermark, artist name:1.2), (steam:2), loli, blunt bangs, child, kid, thin, skinny",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-23T13:09:44.745406+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f7924452f0451f5f692e1b53204bbc8396c8b18842abd016bd2df15a35eb57a1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149968222 image ai-image-prompts @fgd_428,, chibi, detailed background, scenery, photo background, (masterpiece, best quality, good quality, score_8, score_7), depth of field, dramatic shadows, s1_dram, (anime screencap), chara/(undertale/). chara from undertale with vibrant red eyes, white pupils, thick eyelashes, light skin, circular light-pink blush-stickers, (large heavy breasts:1.6), wearing detailed clothing, short legged brown jumper with shoulder straps and open chest, tight green corduroy undershirt with a single horizontal yellow stripe across her chest, laying on back in flowers, short brown hair spread out in the breeze, bangs, half-lidded eyes, seductive eyes, smile, teeth, pale lips, looking down at viewer, field of flowers, cinematic lighting, highly detailed, 8k resolution, close up civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149968222",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0522c3e-4126-4cc7-b175-bac62856d263/original=true/a0522c3e-4126-4cc7-b175-bac62856d263.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-22T21:07:08.369441+00:00",
-  "prompt_count": 3283,
+  "generated_at": "2026-11-23T13:09:48.335594+00:00",
+  "prompt_count": 3305,
   "translation": {
     "language": "ar",
-    "translated_count": 54,
-    "skipped_count": 3222,
-    "failed_count": 7,
-    "updated_at": "2026-11-22T21:07:07Z"
+    "translated_count": 0,
+    "skipped_count": 3276,
+    "failed_count": 29,
+    "updated_at": "2026-11-23T13:09:47Z"
   }
 }
