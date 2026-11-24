@@ -153259,15 +153259,635 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e25a26e-5b21-4e45-a29a-fd5d324a5de1/original=true/8e25a26e-5b21-4e45-a29a-fd5d324a5de1.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-150124516",
+      "title": "Civitai prompt 150124516",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A hyper-realistic, ultra-close portrait of a delicate young woman with pale skin and platinum blonde hair entwined with opulent pearls and gold chain jewelry. **She faces the camera, but her eyes are half closed as if lost in thought, lashes heavy with shimmering gold, lips gently parted in a pensive sigh. Her expression conveys enigmatic sadness and beauty.** The background is an abstract, softly lit gradient. Dramatic side lighting brings iridescence to the pearls and a dewy glow to her cheekbones and lips. Focus is razor-sharp on her lashes and pearls, with a painterly fall-off around the edges. Captured on a macro lens at f/2.8 for cinematic intimacy. <lora:Z-Detail-Slider:1.0> <lora:MoriimeZ:0.4> <lora:midj-z-1:0.65>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124516",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cf692bc-11f9-4e2f-8352-e120192b3b31/original=true/1cf692bc-11f9-4e2f-8352-e120192b3b31.jpeg",
+      "model": "ming/ming_image_0.1_design_int8_convrot",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358309+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ecfb711d83314210827115a712e56eb8403d5f88e1c8973c6ece25a9c96c8a3a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124516 image ai-image-prompts a hyper-realistic, ultra-close portrait of a delicate young woman with pale skin and platinum blonde hair entwined with opulent pearls and gold chain jewelry. **she faces the camera, but her eyes are half closed as if lost in thought, lashes heavy with shimmering gold, lips gently parted in a pensive sigh. her expression conveys enigmatic sadness and beauty.** the background is an abstract, softly lit gradient. dramatic side lighting brings iridescence to the pearls and a dewy glow to her cheekbones and lips. focus is razor-sharp on her lashes and pearls, with a painterly fall-off around the edges. captured on a macro lens at f/2.8 for cinematic intimacy. <lora:z-detail-slider:1.0> <lora:moriimez:0.4> <lora:midj-z-1:0.65> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124516",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cf692bc-11f9-4e2f-8352-e120192b3b31/original=true/1cf692bc-11f9-4e2f-8352-e120192b3b31.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124564",
+      "title": "Civitai prompt 150124564",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, newest, year 2025, highres, safe, 1boy, [twink], solo, male focus, cyberpunk, dark kpop idol aesthetic, messy black hair, streaked hair, neon cyan hair, magenta hair, glowing eyes, heterochromia, slit pupils, yandere, seductive smirk, black cropped techwear trench coat, chest harness, turtleneck, heavy silver chains, collar chain, fingerless gloves, glowing holographic wings, fiber optic cables, floating screens, shattered glass, access denied hologram, dynamic pose, fisheye, extreme perspective, from below, foreshortening, reaching towards viewer, hand towards camera, dark background, server pillars, vertical neon lights, glowing particles, bold black lineart, stark shadows, neon cyan and hot pink lighting, cel shading",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124564",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/794609f7-00b4-48d3-9f54-1ae5d6f5a0cc/original=true/794609f7-00b4-48d3-9f54-1ae5d6f5a0cc.jpeg",
+      "model_version_ids": [
+        2911835,
+        2945208,
+        3261827,
+        3453180
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026025218,
+      "negative_prompt": "female, girl, 1girl, boobs, breasts, low quality, blurry, distorted, extra limbs, watermark, text, deformed hands,lowres, bad anatomy, bad hands, extra fingers, blurry, watermark, text, signature, flat lighting, photorealistic, 3d render, worst quality, low quality, score_1, score_2, score_3, blurry, jpeg artifacts, chromatic aberration, bad anatomy, bad hands, extra digits, fewer digits, muted colors, washed out, photorealistic, 3d[3]",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358345+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "abd6894542656bf0fef4579deb470eadb1ef4b9abda95f05e15509deee38c48e",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124564 image ai-image-prompts masterpiece, best quality, newest, year 2025, highres, safe, 1boy, [twink], solo, male focus, cyberpunk, dark kpop idol aesthetic, messy black hair, streaked hair, neon cyan hair, magenta hair, glowing eyes, heterochromia, slit pupils, yandere, seductive smirk, black cropped techwear trench coat, chest harness, turtleneck, heavy silver chains, collar chain, fingerless gloves, glowing holographic wings, fiber optic cables, floating screens, shattered glass, access denied hologram, dynamic pose, fisheye, extreme perspective, from below, foreshortening, reaching towards viewer, hand towards camera, dark background, server pillars, vertical neon lights, glowing particles, bold black lineart, stark shadows, neon cyan and hot pink lighting, cel shading civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124564",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/794609f7-00b4-48d3-9f54-1ae5d6f5a0cc/original=true/794609f7-00b4-48d3-9f54-1ae5d6f5a0cc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149186510",
+      "title": "Civitai prompt 149186510",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A young woman with dark, damp hair and a fur-collared coat leans close, her gaze intense and direct, framed by a blurred, rain-slicked window. She is viewed through a glowing red neon sign that reads \"LOVE ME,\" its soft, bokeh letters casting a warm, crimson glow over her face while contrasting with cool blue bokeh lights in the background. The composition is intimate and layered, with the subject positioned centrally but partially obscured by the foreground typography and the glass’s water droplets. The color palette is a vibrant duet of deep reds, electric blues, and shadowy blacks, creating a dreamy, cinematic atmosphere. The artistic style is a blend of sharp focus on the eyes with a soft, ethereal depth of field, reminiscent of a high-end film photography portrait, capturing a moment of quiet urban romance.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149186510",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8bfeb78-99bc-48bb-a60f-dd095a39f635/original=true/d8bfeb78-99bc-48bb-a60f-dd095a39f635.jpeg",
+      "model": "lunakrea_v11_nvfp4",
+      "model_version_ids": [
+        3067659,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3132956,
+        3319850
+      ],
+      "width": 768,
+      "height": 1376,
+      "seed": 706910820,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358367+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3d0af58f13b1276473255b828b44bfb2805f22be02f91ad00a74f93de53d89af",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149186510 image ai-image-prompts a young woman with dark, damp hair and a fur-collared coat leans close, her gaze intense and direct, framed by a blurred, rain-slicked window. she is viewed through a glowing red neon sign that reads \"love me,\" its soft, bokeh letters casting a warm, crimson glow over her face while contrasting with cool blue bokeh lights in the background. the composition is intimate and layered, with the subject positioned centrally but partially obscured by the foreground typography and the glass’s water droplets. the color palette is a vibrant duet of deep reds, electric blues, and shadowy blacks, creating a dreamy, cinematic atmosphere. the artistic style is a blend of sharp focus on the eyes with a soft, ethereal depth of field, reminiscent of a high-end film photography portrait, capturing a moment of quiet urban romance. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149186510",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8bfeb78-99bc-48bb-a60f-dd095a39f635/original=true/d8bfeb78-99bc-48bb-a60f-dd095a39f635.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149186509",
+      "title": "Civitai prompt 149186509",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A candid portrait captures a 23-year-old young woman with soft, natural platinum blonde hair and mesmerizing, clear blue eyes, featuring subtle natural freckles across her nose and cheeks. She wears a tailored navy velvet blazer layered over a subtly striped Breton long-sleeve tee and classic blue jeans, her posture relaxed as she leans slightly forward with one hand resting near an unlit candle holder on a small, round wooden table. Seated inside an intimate Parisian-style bistro, soft, warm tungsten light spills from overhead lamps, reflecting gently off the polished dark wood surface to create creamy bokeh from distant amber lights and hanging string bulbs in the background. The composition is a medium close-up with a shallow depth of field, emphasizing her authentic skin texture and gentle, candid expression.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149186509",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b78d7d2-583c-4d40-8f3c-ef5bef3216a1/original=true/9b78d7d2-583c-4d40-8f3c-ef5bef3216a1.jpeg",
+      "model": "lunakrea_v11_nvfp4",
+      "model_version_ids": [
+        3067659,
+        3073386,
+        3079282,
+        3121642,
+        3130045,
+        3132956,
+        3319850
+      ],
+      "width": 896,
+      "height": 1152,
+      "seed": 1066646885,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358380+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "93d11daaacd3521f47bebd6d1a00220a090a267f343966b150591b99be078697",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149186509 image ai-image-prompts a candid portrait captures a 23-year-old young woman with soft, natural platinum blonde hair and mesmerizing, clear blue eyes, featuring subtle natural freckles across her nose and cheeks. she wears a tailored navy velvet blazer layered over a subtly striped breton long-sleeve tee and classic blue jeans, her posture relaxed as she leans slightly forward with one hand resting near an unlit candle holder on a small, round wooden table. seated inside an intimate parisian-style bistro, soft, warm tungsten light spills from overhead lamps, reflecting gently off the polished dark wood surface to create creamy bokeh from distant amber lights and hanging string bulbs in the background. the composition is a medium close-up with a shallow depth of field, emphasizing her authentic skin texture and gentle, candid expression. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149186509",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b78d7d2-583c-4d40-8f3c-ef5bef3216a1/original=true/9b78d7d2-583c-4d40-8f3c-ef5bef3216a1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124342",
+      "title": "Civitai prompt 150124342",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A painterly anime illustration of a single tiny yellow flower blooming alone on a vast, barren wasteland. The flower sits at the center of the frame, small but luminous, its petals glowing softly from within as if it were the last spark of life in the world. The ground around it is cracked, dry grey-brown earth scattered with pebbles and a few dead twigs, with nothing else growing anywhere. A slender human hand reaches in from the side and stops just short of the blossom, fingers open and gentle, hesitating as if afraid to break the miracle. The flower's warm golden light falls across the fingertips and the cracked soil, and tiny glowing particles drift upward from the petals like pollen. Low camera angle close to the ground, extreme shallow depth of field, with the flower and hand in sharp focus and the endless wasteland dissolving into a soft blur behind them. A hazy, pale dusk sky glows faintly gold at the horizon. Muted ash-grey and dusty brown shadows, a single vivid note of warm yellow, soft light bloom around the flower, fine colored film grain. Quiet, tender and hopeful, like a miracle that has just happened.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124342",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf12c2f2-3a33-4984-9351-b43338ff14cd/original=true/cf12c2f2-3a33-4984-9351-b43338ff14cd.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1928,
+      "height": 1088,
+      "seed": 525875304631639,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358396+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4c4b51478137db392a9f7aec5721b685985026b01a2df8cd7f211a31c00a6579",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124342 image ai-image-prompts a painterly anime illustration of a single tiny yellow flower blooming alone on a vast, barren wasteland. the flower sits at the center of the frame, small but luminous, its petals glowing softly from within as if it were the last spark of life in the world. the ground around it is cracked, dry grey-brown earth scattered with pebbles and a few dead twigs, with nothing else growing anywhere. a slender human hand reaches in from the side and stops just short of the blossom, fingers open and gentle, hesitating as if afraid to break the miracle. the flower's warm golden light falls across the fingertips and the cracked soil, and tiny glowing particles drift upward from the petals like pollen. low camera angle close to the ground, extreme shallow depth of field, with the flower and hand in sharp focus and the endless wasteland dissolving into a soft blur behind them. a hazy, pale dusk sky glows faintly gold at the horizon. muted ash-grey and dusty brown shadows, a single vivid note of warm yellow, soft light bloom around the flower, fine colored film grain. quiet, tender and hopeful, like a miracle that has just happened. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124342",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf12c2f2-3a33-4984-9351-b43338ff14cd/original=true/cf12c2f2-3a33-4984-9351-b43338ff14cd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124294",
+      "title": "Civitai prompt 150124294",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A painterly anime illustration of a young woman with a black high ponytail, seen from behind, standing on a wet pedestrian bridge on a clear night and gazing up at the sky. She wears a soft knit sweater dress, and one hand rests lightly on the railing. The vast night sky fills most of the frame, and a school of enormous translucent stingrays glides slowly through it, their wide wing-like bodies glowing with shifting colors: aqua, lavender, rose pink and soft gold. Their long tails and wingtips dissolve into ribbons of luminous paint, scattering tiny stars of light like drifting petals. One giant stingray passes low and close overhead, partly blurred and dominating the upper frame, while smaller rays recede into a deep indigo sky full of faint stars and glowing clouds. Their colored light washes over the bridge, the puddles at her feet and the folds of her sweater dress, and the puddles mirror the whole sky in rippled reflections. Low camera angle looking up past her shoulder, with strong perspective and a sense of vast, quiet space. Deep indigo and teal shadows, warm peach-gold and pink highlights, brilliant white-blue glints, atmospheric depth, gentle light bloom, fine colored film grain. Hopeful, dreamlike and tender.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124294",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27be4890-3fbe-4e63-800e-25f25d497e2a/original=true/27be4890-3fbe-4e63-800e-25f25d497e2a.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1928,
+      "height": 1088,
+      "seed": 899663490580513,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358412+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e7f0750b25e01ecda5d52dec07e580203a647b221f875b311fd7d2e558464798",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124294 image ai-image-prompts a painterly anime illustration of a young woman with a black high ponytail, seen from behind, standing on a wet pedestrian bridge on a clear night and gazing up at the sky. she wears a soft knit sweater dress, and one hand rests lightly on the railing. the vast night sky fills most of the frame, and a school of enormous translucent stingrays glides slowly through it, their wide wing-like bodies glowing with shifting colors: aqua, lavender, rose pink and soft gold. their long tails and wingtips dissolve into ribbons of luminous paint, scattering tiny stars of light like drifting petals. one giant stingray passes low and close overhead, partly blurred and dominating the upper frame, while smaller rays recede into a deep indigo sky full of faint stars and glowing clouds. their colored light washes over the bridge, the puddles at her feet and the folds of her sweater dress, and the puddles mirror the whole sky in rippled reflections. low camera angle looking up past her shoulder, with strong perspective and a sense of vast, quiet space. deep indigo and teal shadows, warm peach-gold and pink highlights, brilliant white-blue glints, atmospheric depth, gentle light bloom, fine colored film grain. hopeful, dreamlike and tender. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124294",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27be4890-3fbe-4e63-800e-25f25d497e2a/original=true/27be4890-3fbe-4e63-800e-25f25d497e2a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124041",
+      "title": "Civitai prompt 150124041",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A cinematic anime painting of a woman with a pale blonde bob walking alone down a narrow residential alley after the rain, seen from behind. She wears a dark coat and carries a backpack with a glowing amber maple leaf suspended inside its translucent pocket, the only warm light in the scene. The glow outlines the fabric seams and spills orange reflections onto the wet ground behind her. The alley is hushed and melancholic, lined with closed shutters and dim windows, and it narrows toward a faint, distant golden haze at its far end, as if the path leads back to a day that has already passed. Heavy overcast sky in cold blue-grey dusk, power cables crossing overhead, a few wet leaves stirred around her ankles. In the puddles, her reflection and the amber light seem to belong to a warmer, earlier evening. Low camera angle, strong one-point perspective, softly blurred dark foliage in the foreground. Muted desaturated palette: teal-grey shadows, rough cobalt brushstrokes in the water, and tiny bright yellow highlights on the wet leaves. Soft light bloom around the leaf, subtle colored film grain, quiet and nostalgic mood.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124041",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbffa4ae-35d1-4528-a210-6d4fa81e3bcd/original=true/dbffa4ae-35d1-4528-a210-6d4fa81e3bcd.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1928,
+      "height": 1088,
+      "seed": 147090372774382,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358427+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "fd6a46fe12a4f31ceec8c4a5b01d352d3b73de5818ae0750ddabc377d3f8948d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124041 image ai-image-prompts a cinematic anime painting of a woman with a pale blonde bob walking alone down a narrow residential alley after the rain, seen from behind. she wears a dark coat and carries a backpack with a glowing amber maple leaf suspended inside its translucent pocket, the only warm light in the scene. the glow outlines the fabric seams and spills orange reflections onto the wet ground behind her. the alley is hushed and melancholic, lined with closed shutters and dim windows, and it narrows toward a faint, distant golden haze at its far end, as if the path leads back to a day that has already passed. heavy overcast sky in cold blue-grey dusk, power cables crossing overhead, a few wet leaves stirred around her ankles. in the puddles, her reflection and the amber light seem to belong to a warmer, earlier evening. low camera angle, strong one-point perspective, softly blurred dark foliage in the foreground. muted desaturated palette: teal-grey shadows, rough cobalt brushstrokes in the water, and tiny bright yellow highlights on the wet leaves. soft light bloom around the leaf, subtle colored film grain, quiet and nostalgic mood. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124041",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbffa4ae-35d1-4528-a210-6d4fa81e3bcd/original=true/dbffa4ae-35d1-4528-a210-6d4fa81e3bcd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150112437",
+      "title": "Civitai prompt 150112437",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "tr1p, vivid Zen Ink Painting.\n\nA deadpan comedy illustration of a massive, muscular adult anthropomorphic brown bear slumped in an office chair beside a crashed computer. Medium-wide three-quarter side view, showing the bear’s profile, both limp hands, and the monitor.\n\nThe bear has shaggy dark-brown fur, a lighter muzzle, small round ears, and an old scar across the bridge of his nose. Half-lidded eyes and heavy dark circles give him a blank, exhausted expression. He wears a worn charcoal-gray zip-up hoodie, open over a faded black T-shirt with a small off-white </> symbol on the chest. The hoodie bunches around his broad shoulders and elbows.\n\nThe bear tilts his head far back and biting a vodka bottle between his lips by its short open neck, draining the last few drops hands-free. The entire bottle is shorter than the bear’s muzzle and small enough to disappear inside one of his paws. Its raised glass base sits just above his nose. The miniature bottle has a compact rectangular body, a small cream label facing the camera, and bold black VODKA lettering.\n\nBoth arms hang straight down beside the chair, with empty, relaxed hands clearly visible. The bear stays slumped in his seat even with his head tipped back.\n\nThe monitor displays a bright blue crash screen with a small white sad face and a few white error lines. A worn mechanical keyboard, a chipped coffee mug, and a tangle of cables sit on the desk. Cold blue monitor light catches the underside of the bear’s muzzle and the edges of the little glass bottle. Dim late-night workspace, muted colors, awkward snapshot framing, completely resigned expression.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150112437",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19fbe7cb-2936-4f81-b6a0-f2bd26950e73/original=true/19fbe7cb-2936-4f81-b6a0-f2bd26950e73.jpeg",
+      "model": "kroma-v0.3.1-turbo-opd-W8A8",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 1728,
+      "seed": 533774081977348,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358470+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ddf7b7e62abe574cc480dfd0cd3a666c0a3cd22926948cab2b68d0330194afaa",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150112437 advertising ai-image-prompts tr1p, vivid zen ink painting. a deadpan comedy illustration of a massive, muscular adult anthropomorphic brown bear slumped in an office chair beside a crashed computer. medium-wide three-quarter side view, showing the bear’s profile, both limp hands, and the monitor. the bear has shaggy dark-brown fur, a lighter muzzle, small round ears, and an old scar across the bridge of his nose. half-lidded eyes and heavy dark circles give him a blank, exhausted expression. he wears a worn charcoal-gray zip-up hoodie, open over a faded black t-shirt with a small off-white </> symbol on the chest. the hoodie bunches around his broad shoulders and elbows. the bear tilts his head far back and biting a vodka bottle between his lips by its short open neck, draining the last few drops hands-free. the entire bottle is shorter than the bear’s muzzle and small enough to disappear inside one of his paws. its raised glass base sits just above his nose. the miniature bottle has a compact rectangular body, a small cream label facing the camera, and bold black vodka lettering. both arms hang straight down beside the chair, with empty, relaxed hands clearly visible. the bear stays slumped in his seat even with his head tipped back. the monitor displays a bright blue crash screen with a small white sad face and a few white error lines. a worn mechanical keyboard, a chipped coffee mug, and a tangle of cables sit on the desk. cold blue monitor light catches the underside of the bear’s muzzle and the edges of the little glass bottle. dim late-night workspace, muted colors, awkward snapshot framing, completely resigned expression. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150112437",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/19fbe7cb-2936-4f81-b6a0-f2bd26950e73/original=true/19fbe7cb-2936-4f81-b6a0-f2bd26950e73.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150112425",
+      "title": "Civitai prompt 150112425",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "tr1p, vivid Zen Ink Painting.\n\nA darkly comedic meme-like portrait of an adult anthropomorphic white dog who looks completely exhausted and emotionally dead.\n\nThe white dog stands in a dingy late-night kitchen, shown from the waist up in a slightly close, awkward camera angle. The white fur is shaggy, limp, and slightly unkempt rather than fluffy. The dog has drooping canine ears, a broad muzzle, and a visible old scar crossing the bridge of the nose.\n\nThe dog has dead, half-lidded jitome eyes with unfocused pupils, heavy dark circles, and a blank expression. The dog gives a slow sideways glance without turning the head, looking mildly suspicious but far too tired to react. The mouth remains expressionless around a messy bundle of several cigarettes.\n\nFive cigarettes are clenched together between the dog’s lips, spreading outward in a small fan. Every cigarette clearly originates from the mouth. The dog holds an open metal Zippo lighter in one hand, bringing the small flame directly beneath the cigarette tips and attempting to light all of them at once.\n\nThe dog wears a wrinkled red-and-black plaid flannel shirt, completely unbuttoned and hanging loosely from the shoulders, over a worn gray ribbed tank top. The sleeves are carelessly rolled up and the collar hangs unevenly.\n\nA cheap bottle of vodka and an almost empty glass sit on a small table in the background. Faded wallpaper, an old refrigerator, a buzzing fluorescent ceiling light, and a few dirty dishes create a bleak but strangely mundane atmosphere.\n\nHarsh greenish fluorescent lighting mixed with the warm orange flame of the lighter. Desaturated colors, nicotine-yellow highlights, deep shadows beneath the eyes, slightly distorted wide-angle perspective, grimy low-budget music-video atmosphere, absurd exhausted humor, intentionally awkward meme energy. The dog looks neither cool nor glamorous, only profoundly tired and committed to a terrible idea.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150112425",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad47e441-a628-4bf1-941b-53aa73355257/original=true/ad47e441-a628-4bf1-941b-53aa73355257.jpeg",
+      "model": "kroma-v0.3.1-turbo-opd-W8A8",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 1728,
+      "seed": 971928131089689,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358503+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "ce6be0d95a313fa039aae6643c58e3213ba2a471691a24d1c243702b4c8798b4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150112425 advertising ai-image-prompts tr1p, vivid zen ink painting. a darkly comedic meme-like portrait of an adult anthropomorphic white dog who looks completely exhausted and emotionally dead. the white dog stands in a dingy late-night kitchen, shown from the waist up in a slightly close, awkward camera angle. the white fur is shaggy, limp, and slightly unkempt rather than fluffy. the dog has drooping canine ears, a broad muzzle, and a visible old scar crossing the bridge of the nose. the dog has dead, half-lidded jitome eyes with unfocused pupils, heavy dark circles, and a blank expression. the dog gives a slow sideways glance without turning the head, looking mildly suspicious but far too tired to react. the mouth remains expressionless around a messy bundle of several cigarettes. five cigarettes are clenched together between the dog’s lips, spreading outward in a small fan. every cigarette clearly originates from the mouth. the dog holds an open metal zippo lighter in one hand, bringing the small flame directly beneath the cigarette tips and attempting to light all of them at once. the dog wears a wrinkled red-and-black plaid flannel shirt, completely unbuttoned and hanging loosely from the shoulders, over a worn gray ribbed tank top. the sleeves are carelessly rolled up and the collar hangs unevenly. a cheap bottle of vodka and an almost empty glass sit on a small table in the background. faded wallpaper, an old refrigerator, a buzzing fluorescent ceiling light, and a few dirty dishes create a bleak but strangely mundane atmosphere. harsh greenish fluorescent lighting mixed with the warm orange flame of the lighter. desaturated colors, nicotine-yellow highlights, deep shadows beneath the eyes, slightly distorted wide-angle perspective, grimy low-budget music-video atmosphere, absurd exhausted humor, intentionally awkward meme energy. the dog looks neither cool nor glamorous, only profoundly tired and committed to a terrible idea. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150112425",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad47e441-a628-4bf1-941b-53aa73355257/original=true/ad47e441-a628-4bf1-941b-53aa73355257.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150007485",
+      "title": "Civitai prompt 150007485",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "soft natural light, candid street photography shot from inside a taxi looking back, medium shot of a 22 year old French woman with a femme fatale aura, wearing an elegant smoky eye makeup and glossy lips, dressed in a chic and sexy tailored button-up blouse, a fitted pencil skirt, and sheer black stockings, sitting in the back seat of a vintage yellow taxi, talking animatedly with one hand raised, eyes directed forward out the window, confident expression, slight smile, urban city street background visible through the window, film grain texture, realistic lighting, 35mm lens",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150007485",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99a6c9f8-1d52-47d3-a060-1e33844d2f7f/original=true/99a6c9f8-1d52-47d3-a060-1e33844d2f7f.jpeg",
+      "model": "moss_image_base_int8_convrot",
+      "model_version_ids": [
+        3409868
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 71268464913929,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358513+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2ca8a2c156f9a9ed961e0f666032f35254203b9915df80598a15f033f52ddf03",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150007485 image ai-image-prompts soft natural light, candid street photography shot from inside a taxi looking back, medium shot of a 22 year old french woman with a femme fatale aura, wearing an elegant smoky eye makeup and glossy lips, dressed in a chic and sexy tailored button-up blouse, a fitted pencil skirt, and sheer black stockings, sitting in the back seat of a vintage yellow taxi, talking animatedly with one hand raised, eyes directed forward out the window, confident expression, slight smile, urban city street background visible through the window, film grain texture, realistic lighting, 35mm lens civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150007485",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99a6c9f8-1d52-47d3-a060-1e33844d2f7f/original=true/99a6c9f8-1d52-47d3-a060-1e33844d2f7f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150007471",
+      "title": "Civitai prompt 150007471",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "soft natural light, candid documentary style, medium shot, a 19-year-old petite French woman with a slender build, wearing a floral button-up shirt with the top buttons undone, a short mini skirt, no panties, subtly visible pubic area, white socks, and sneakers, sitting on a café terrace, having a serious conversation with a man across from her, late afternoon golden hour, film grain, realistic textures, natural pose, focused expression, urban street background",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150007471",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/350cd551-c7b2-4e2c-a2e1-65d1c5d47583/original=true/350cd551-c7b2-4e2c-a2e1-65d1c5d47583.jpeg",
+      "model": "moss_image_base_int8_convrot",
+      "model_version_ids": [
+        3409868
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 111157281775814,
+      "negative_prompt": "worst quality, bad anatomy, watermark, jpeg artifact",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358526+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "68357a7e0b89552e5e181412d2ce0430120559c8a1274415cb70adc5888ef4d4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150007471 image ai-image-prompts soft natural light, candid documentary style, medium shot, a 19-year-old petite french woman with a slender build, wearing a floral button-up shirt with the top buttons undone, a short mini skirt, no panties, subtly visible pubic area, white socks, and sneakers, sitting on a café terrace, having a serious conversation with a man across from her, late afternoon golden hour, film grain, realistic textures, natural pose, focused expression, urban street background civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150007471",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/350cd551-c7b2-4e2c-a2e1-65d1c5d47583/original=true/350cd551-c7b2-4e2c-a2e1-65d1c5d47583.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124302",
+      "title": "Civitai prompt 150124302",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "casual smartphone photo of a cute young East Asian woman in her early 20s, long straight black hair with soft bangs, light natural makeup with subtle eyeliner and soft blush, wearing a light beige coat, standing under blooming pink cherry blossom trees in a park in Japan, soft overcast spring daylight, pink sakura petals on the ground and a few in the air, body slightly turned, looking gently to the side with a soft expression, realistic skin texture with visible pores, authentic unposed snapshot, slightly imperfect framing, real life phone photo",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124302",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22fdf6ca-0a66-4c57-8c63-671b188b782d/original=true/22fdf6ca-0a66-4c57-8c63-671b188b782d.jpeg",
+      "model": "gonzalomoKrea2_v40_3128457",
+      "model_version_ids": [],
+      "width": 1280,
+      "height": 1920,
+      "seed": 871593257326316,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358536+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "10a4cc21cf196eb47c82c07df6387a8569ce2ebbe65482c253c8a49422083ea3",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124302 image ai-image-prompts casual smartphone photo of a cute young east asian woman in her early 20s, long straight black hair with soft bangs, light natural makeup with subtle eyeliner and soft blush, wearing a light beige coat, standing under blooming pink cherry blossom trees in a park in japan, soft overcast spring daylight, pink sakura petals on the ground and a few in the air, body slightly turned, looking gently to the side with a soft expression, realistic skin texture with visible pores, authentic unposed snapshot, slightly imperfect framing, real life phone photo civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124302",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22fdf6ca-0a66-4c57-8c63-671b188b782d/original=true/22fdf6ca-0a66-4c57-8c63-671b188b782d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124171",
+      "title": "Civitai prompt 150124171",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterwork masterpiece, best quality, high quality, absurdres, highres, 8k resolution, very aesthetic, sharp, crisp linework, refined line art, detailed shading, rich color depth, depth of field, \nBREAK \nManhwa style comic split panel, left panel shows a handsome man with short dark hair, wearing round wire-rimmed glasses and a dark suit with a white shirt and grey tie, looking seriously forward with subtle blushing on his cheeks, speech bubble in the upper corner with Spanish text. Right panel shows a graceful blonde woman with closed eyes and a gentle smile, wearing a red outfit and an earring, soft warm lighting, romance webtoon art style, clean line art, soft pastel watercolor background, high quality digital illustration.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124171",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5210ff0e-2277-41db-b761-ee5c06af8939/original=true/5210ff0e-2277-41db-b761-ee5c06af8939.jpeg",
+      "model_version_ids": [
+        3467153
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 506486488,
+      "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name, (lowres:1.2), (worst quality:1.4), (low quality:1.4), (bad anatomy:1.4), bad hands, multiple views, jpeg artifacts, patreon logo, patreon username, web address, signature, watermark, text, logo, artist name, censored, mosaic censoring, loli, chibi",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358547+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4949f49d557afafa64842179b6098f412ab326460a3820ecf55e8dc704840410",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150124171 fashion ai-image-prompts masterwork masterpiece, best quality, high quality, absurdres, highres, 8k resolution, very aesthetic, sharp, crisp linework, refined line art, detailed shading, rich color depth, depth of field, break manhwa style comic split panel, left panel shows a handsome man with short dark hair, wearing round wire-rimmed glasses and a dark suit with a white shirt and grey tie, looking seriously forward with subtle blushing on his cheeks, speech bubble in the upper corner with spanish text. right panel shows a graceful blonde woman with closed eyes and a gentle smile, wearing a red outfit and an earring, soft warm lighting, romance webtoon art style, clean line art, soft pastel watercolor background, high quality digital illustration. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124171",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5210ff0e-2277-41db-b761-ee5c06af8939/original=true/5210ff0e-2277-41db-b761-ee5c06af8939.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150124252",
+      "title": "Civitai prompt 150124252",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(clown at a computer)\nmasterpiece, extremely detailed, sharp outlines, high contrast,  fine details, intricate,  intricate background, bokeh,  inspiring, moody lights, digital magic dust enchantment. neoclassical art style\nmade of glossy ink splatter, flying ink droplets, dripping ink tendrils, clean white backdrop, ink-dissolved subject, fine spray speckles, ink-stained surfaces\nmade of Interlocking pieces, Multicolored tones, Piece seams, 3D depth, Jigsaw tabs, Puzzle board texture",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150124252",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/913bff5b-e14c-46e7-bdbf-d39363d229c7/original=true/913bff5b-e14c-46e7-bdbf-d39363d229c7.jpeg",
+      "model_version_ids": [
+        128078,
+        661182
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 810429561,
+      "negative_prompt": "safe_neg text, watermark, low quality, worst quality, bad anatomy, lowres, bad compostion, poor, low effort, (child, childish, young:1.2), nude, nudity, nsfw\nhuman, person, girl, female, woman\nworst quality, low quality, normal quality, watermark, signature, error, worst quality, low quality, jpeg artifacts, (Human) sex, nudity porn, explicit",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-24T23:54:55.358555+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8d25bf85443d0006866345fa1c0cc0a9ffefcb4a0a261b3205235a94e8369f16",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150124252 image ai-image-prompts (clown at a computer) masterpiece, extremely detailed, sharp outlines, high contrast, fine details, intricate, intricate background, bokeh, inspiring, moody lights, digital magic dust enchantment. neoclassical art style made of glossy ink splatter, flying ink droplets, dripping ink tendrils, clean white backdrop, ink-dissolved subject, fine spray speckles, ink-stained surfaces made of interlocking pieces, multicolored tones, piece seams, 3d depth, jigsaw tabs, puzzle board texture civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150124252",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/913bff5b-e14c-46e7-bdbf-d39363d229c7/original=true/913bff5b-e14c-46e7-bdbf-d39363d229c7.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-24T13:57:42.477406+00:00",
-  "prompt_count": 3342,
+  "generated_at": "2026-11-24T23:54:59.484189+00:00",
+  "prompt_count": 3356,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 3304,
-    "failed_count": 38,
-    "updated_at": "2026-11-24T13:57:41Z"
+    "failed_count": 52,
+    "updated_at": "2026-11-24T23:54:58Z"
   }
 }
