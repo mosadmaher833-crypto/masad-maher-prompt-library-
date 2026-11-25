@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 400: Bad Request",
+      "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -153879,15 +153879,1561 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/913bff5b-e14c-46e7-bdbf-d39363d229c7/original=true/913bff5b-e14c-46e7-bdbf-d39363d229c7.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-150179458",
+      "title": "Civitai prompt 150179458",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A film photograph with visible grain and warm colors, looking through an open\nwooden doorway into a hotel room. A beautiful East Asian woman in her mid-twenties\nsits on a wooden chair with a beige upholstered seat, slightly right of center.\nHer right arm wraps around her shins, bare feet extending toward the foreground,\nwhile her left hand lightly touches her hair. She has a cool, languid gaze\ndirected straight at the camera, her mouth gently closed. Her long black\nwet-look hair falls in tousled waves over her shoulders, chest, and back, with\nloose strands across her face. She is wrapped only in a simple white bath towel\nthat leaves her shoulders, arms, and legs bare. Fair pale skin.\nThe open wooden door and frame in the foreground create a frame-within-a-frame\naround her. Behind her are substantial wood doors and furniture, a wall-mounted\ntelevision, a warm bedside lamp and electric kettles on a desk, a bed at the\nright, and a framed monochrome landscape on the wall. Soft natural ambient light\nfills the room, revealing gentle skin contours and the texture of the towel.\nSmooth woody browns on the furniture, a beige carpet, and organic, supple\ntexture in her skin.\n<lora:MOSS_Image_SFT_8_steps_dmd_v0.1:1> <lora:hina_MOSSImageSFT_Fujifilm-proplusII:0.7> <lora:hina_MOSSImageSFT_asianMix_v3-R4_lora:0.4> <lora:Amateur_Nudes_MOSS-Image:0.5>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179458",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df5afd73-375a-4804-b21a-d8c9f80acdce/original=true/df5afd73-375a-4804-b21a-d8c9f80acdce.jpeg",
+      "model": "CatPony-Moss-real-v2.0.sft_int8c",
+      "model_version_ids": [
+        3411385,
+        3417654,
+        3476148,
+        3479970,
+        3480579
+      ],
+      "width": 896,
+      "height": 1536,
+      "seed": 1893773724,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840815+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "58ea0c21ef68232f2d97fe02cc8f8a53daab9b69bc11028a5e4b363997f0cfea",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150179458 photography ai-image-prompts a film photograph with visible grain and warm colors, looking through an open wooden doorway into a hotel room. a beautiful east asian woman in her mid-twenties sits on a wooden chair with a beige upholstered seat, slightly right of center. her right arm wraps around her shins, bare feet extending toward the foreground, while her left hand lightly touches her hair. she has a cool, languid gaze directed straight at the camera, her mouth gently closed. her long black wet-look hair falls in tousled waves over her shoulders, chest, and back, with loose strands across her face. she is wrapped only in a simple white bath towel that leaves her shoulders, arms, and legs bare. fair pale skin. the open wooden door and frame in the foreground create a frame-within-a-frame around her. behind her are substantial wood doors and furniture, a wall-mounted television, a warm bedside lamp and electric kettles on a desk, a bed at the right, and a framed monochrome landscape on the wall. soft natural ambient light fills the room, revealing gentle skin contours and the texture of the towel. smooth woody browns on the furniture, a beige carpet, and organic, supple texture in her skin. <lora:moss_image_sft_8_steps_dmd_v0.1:1> <lora:hina_mossimagesft_fujifilm-proplusii:0.7> <lora:hina_mossimagesft_asianmix_v3-r4_lora:0.4> <lora:amateur_nudes_moss-image:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179458",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df5afd73-375a-4804-b21a-d8c9f80acdce/original=true/df5afd73-375a-4804-b21a-d8c9f80acdce.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179384",
+      "title": "Civitai prompt 150179384",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still 39. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 30-year-old blonde woman with a delicate upturned nose and red lipstick, in a tight sweater and jeans, reaching for a wine bottle on a high cellar shelf, while an older sommelier holds a candle and looks up, candle tilting mid-air, his mouth slightly open, eyes wide, cobwebbed wine cellar background, warm candlelight, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179384",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/525244ac-f3d6-4aa1-8919-dc17583ccfe7/original=true/525244ac-f3d6-4aa1-8919-dc17583ccfe7.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2014684380,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840852+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b1b5ca9dd81d2e483bf992852e0820ded146b9aab0ed9a652562270f682b9f6a",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179384 advertising ai-image-prompts cinematic film still 39. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 30-year-old blonde woman with a delicate upturned nose and red lipstick, in a tight sweater and jeans, reaching for a wine bottle on a high cellar shelf, while an older sommelier holds a candle and looks up, candle tilting mid-air, his mouth slightly open, eyes wide, cobwebbed wine cellar background, warm candlelight, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179384",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/525244ac-f3d6-4aa1-8919-dc17583ccfe7/original=true/525244ac-f3d6-4aa1-8919-dc17583ccfe7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179340",
+      "title": "Civitai prompt 150179340",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still 36. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 28-year-old redhead woman with a delicate upturned nose and red lipstick, on a windy street holding her pleated dress down with both hands, while an older man with an umbrella blows away in the wind, umbrella flipping mid-air, his mouth slightly open, eyes wide, city avenue background, overcast natural light, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179340",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/023902a6-40d5-40b1-9c68-9ddcf9778752/original=true/023902a6-40d5-40b1-9c68-9ddcf9778752.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1545018556,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840872+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "251e9578dd3207af75feb18e267678cafd4b69987957e70240008fdd07ed7bbf",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150179340 fashion ai-image-prompts cinematic film still 36. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 28-year-old redhead woman with a delicate upturned nose and red lipstick, on a windy street holding her pleated dress down with both hands, while an older man with an umbrella blows away in the wind, umbrella flipping mid-air, his mouth slightly open, eyes wide, city avenue background, overcast natural light, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179340",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/023902a6-40d5-40b1-9c68-9ddcf9778752/original=true/023902a6-40d5-40b1-9c68-9ddcf9778752.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179295",
+      "title": "Civitai prompt 150179295",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still 35. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 31-year-old brunette stewardess with a delicate upturned nose and red lipstick, wearing a vintage fitted uniform, bending over to serve a drink, while an older first-class passenger drops his reading glasses, glasses falling mid-air from his face, his mouth slightly open, eyes wide, glamorous airplane cabin, warm cabin lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179295",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ed37dcd-1b1d-4796-9c05-85ce291ccc1a/original=true/1ed37dcd-1b1d-4796-9c05-85ce291ccc1a.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3068051478,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840887+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7a0dd73fedf4e58286d5a3340be75d22b32466ee67a2cf5052f7e5c34b9704bb",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150179295 fashion ai-image-prompts cinematic film still 35. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 31-year-old brunette stewardess with a delicate upturned nose and red lipstick, wearing a vintage fitted uniform, bending over to serve a drink, while an older first-class passenger drops his reading glasses, glasses falling mid-air from his face, his mouth slightly open, eyes wide, glamorous airplane cabin, warm cabin lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179295",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ed37dcd-1b1d-4796-9c05-85ce291ccc1a/original=true/1ed37dcd-1b1d-4796-9c05-85ce291ccc1a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179283",
+      "title": "Civitai prompt 150179283",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A watercolor illustration on white Japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. The composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. Soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. The artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy.Her eyes possess a beautifully soft quality, mild yet luminous, that draws you in with their pure and comforting warmth.  , modest smile, Her innocent eyes glanced down with pure shyness.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179283",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b4ee7e5-22a5-4596-8e40-4ce30f134efb/original=true/9b4ee7e5-22a5-4596-8e40-4ce30f134efb.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [],
+      "width": 3199,
+      "height": 1806,
+      "seed": 447530547327246,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840917+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "673b3745ed9768616aa68f9386281a72bcc83700efbb98b9d52c38902369569d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179283 image ai-image-prompts a watercolor illustration on white japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. the composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. the artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy.her eyes possess a beautifully soft quality, mild yet luminous, that draws you in with their pure and comforting warmth. , modest smile, her innocent eyes glanced down with pure shyness. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179283",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b4ee7e5-22a5-4596-8e40-4ce30f134efb/original=true/9b4ee7e5-22a5-4596-8e40-4ce30f134efb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179254",
+      "title": "Civitai prompt 150179254",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "P0lar0id, classic Polaroid instant photograph with deep shade and subdued green-gray tones. An over-the-shoulder view captures a sensual woman standing in a lantern-lit outdoor market, her form slightly turned toward the warm glow of hanging lights. She wears a revealing, dark slip dress that slips off one shoulder, hinting at the skin beneath with an air of quiet allure. The scene is rendered with a classic Polaroid instant-film aesthetic, featuring deep shade and subdued green-gray tones that lend a nostalgic, melancholic weight to the moment. A soft, direct flash illuminates her face and torso, creating a gentle pink haze and washing out the background details into a dreamy blur. Fine vertical scratches and heavy film grain texture the image, emphasizing the imperfection of the moment. She holds a small, glowing lantern in one hand, the light catching the curve of her neck and the subtle smile on her lips, evoking a sense of intimate, cinematic contemplation., moody, cinematic, filmic",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179254",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/132d3874-b3ea-4456-9511-f40dcfbca56e/original=true/132d3874-b3ea-4456-9511-f40dcfbca56e.jpeg",
+      "model_version_ids": [
+        3072332,
+        3111362,
+        3116962,
+        3168649,
+        3210573,
+        3487897
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 5528770213385168000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840937+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "d36d029622ae4adc0138e9e80595deeb305267b5628164b3a1256d9448bbd3e8",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179254 image ai-image-prompts p0lar0id, classic polaroid instant photograph with deep shade and subdued green-gray tones. an over-the-shoulder view captures a sensual woman standing in a lantern-lit outdoor market, her form slightly turned toward the warm glow of hanging lights. she wears a revealing, dark slip dress that slips off one shoulder, hinting at the skin beneath with an air of quiet allure. the scene is rendered with a classic polaroid instant-film aesthetic, featuring deep shade and subdued green-gray tones that lend a nostalgic, melancholic weight to the moment. a soft, direct flash illuminates her face and torso, creating a gentle pink haze and washing out the background details into a dreamy blur. fine vertical scratches and heavy film grain texture the image, emphasizing the imperfection of the moment. she holds a small, glowing lantern in one hand, the light catching the curve of her neck and the subtle smile on her lips, evoking a sense of intimate, cinematic contemplation., moody, cinematic, filmic civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179254",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/132d3874-b3ea-4456-9511-f40dcfbca56e/original=true/132d3874-b3ea-4456-9511-f40dcfbca56e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179226",
+      "title": "Civitai prompt 150179226",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A watercolor illustration on white Japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. The composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. Soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. The artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy.Her gentle eyes hold a soft, warm light that conveys quiet kindness and pure serenity.  , calm and kind smile, A quiet blush spread across her demure, pure face.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179226",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0356f9b-fb90-40bf-ba80-1c7a58d6f621/original=true/d0356f9b-fb90-40bf-ba80-1c7a58d6f621.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [],
+      "width": 3561,
+      "height": 1530,
+      "seed": 292154417322677,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840964+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "38c72a0bd08184a678c7cbc54efc3c7cb53be7eb2a0a86faad8343386045781c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179226 image ai-image-prompts a watercolor illustration on white japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. the composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. the artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy.her gentle eyes hold a soft, warm light that conveys quiet kindness and pure serenity. , calm and kind smile, a quiet blush spread across her demure, pure face. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179226",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0356f9b-fb90-40bf-ba80-1c7a58d6f621/original=true/d0356f9b-fb90-40bf-ba80-1c7a58d6f621.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179192",
+      "title": "Civitai prompt 150179192",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A watercolor illustration on white Japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. The composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. Soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. The artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179192",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d986e87c-2df5-4943-adb4-4f41776f5502/original=true/d986e87c-2df5-4943-adb4-4f41776f5502.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [],
+      "width": 3197,
+      "height": 1805,
+      "seed": 260001937452889,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.840985+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b81a68d65ef7342952fd0388498183d7c2f1df02f840514e519a23c138a8038f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179192 image ai-image-prompts a watercolor illustration on white japanese washi paper, featuring a girl curled up asleep under a thick woolen blanket alongside a dog, rendered in soft, diffused washes that gently bleed into the paper’s surface—creating an ethereal, tender atmosphere. the composition is a tight portrait framing their faces closely together, filling the frame with intimate connection and quiet eye contact between them, evoking warmth and comfort without any other elements or distractions. soft, golden ambient light wraps around them, subtly blurring facial edges and allowing watercolor pigments to softly dissolve into the white paper, enhancing the dreamlike, soothing quality of the scene. the artwork radiates gentle warmth and emotional safety, inviting viewers to feel calm and reassured through its tender, uncluttered intimacy. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179192",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d986e87c-2df5-4943-adb4-4f41776f5502/original=true/d986e87c-2df5-4943-adb4-4f41776f5502.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179185",
+      "title": "Civitai prompt 150179185",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A photoreal cinematic close-up of a beautiful East Asian woman in her\nmid-twenties seated as a mecha pilot in a dense industrial cockpit. She has\nlong straight vivid blue hair falling over her shoulders, fair pale skin, blue\neyes, and looks at the camera with a calm, slightly cool expression. A clear\nvisor HUD sits over her eyes, technical graphics etched across the transparent\nshield, the text \"CatPony Ani Krea2 v1\" clearly readable on the visor. She\nwears a metallic over-ear headset and a glossy black carbon-fiber technical\nbodysuit over a black turtleneck, with cyan and blue LED accents on the\nshoulder, chest, and arms, a small metallic nameplate on the chest, and\nmechanical gauntlets; her hands rest on the cockpit controls.\nBehind her, tightly packed instrument panels, switches, and multiple screens\nshow circular radar-like displays, lit by cyan and cool blue instrument lighting\nwith a few orange indicator lamps. Shallow depth of field, reflective carbon\nweave, sci-fi cockpit atmosphere.\n<lora:MOSS_Image_SFT_8_steps_dmd_v0.1:1> <lora:hina_MOSSImageSFT_Fujifilm-proplusII:0.7> <lora:hina_MOSSImageSFT_asianMix_v3-R4_lora:0.4> <lora:Amateur_Nudes_MOSS-Image:0.5>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179185",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/293ad3e6-01d9-4ae4-b663-472bcabfe771/original=true/293ad3e6-01d9-4ae4-b663-472bcabfe771.jpeg",
+      "model": "CatPony-Moss-real-v2.0.sft_int8c",
+      "model_version_ids": [
+        3411385,
+        3417654,
+        3476148,
+        3479970,
+        3480579
+      ],
+      "width": 896,
+      "height": 1536,
+      "seed": 1893773735,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841004+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5133eddbe0b3a8b1d01e947030a7f6c1c82d8229a678f9e20f51ba04b76c82ba",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179185 image ai-image-prompts a photoreal cinematic close-up of a beautiful east asian woman in her mid-twenties seated as a mecha pilot in a dense industrial cockpit. she has long straight vivid blue hair falling over her shoulders, fair pale skin, blue eyes, and looks at the camera with a calm, slightly cool expression. a clear visor hud sits over her eyes, technical graphics etched across the transparent shield, the text \"catpony ani krea2 v1\" clearly readable on the visor. she wears a metallic over-ear headset and a glossy black carbon-fiber technical bodysuit over a black turtleneck, with cyan and blue led accents on the shoulder, chest, and arms, a small metallic nameplate on the chest, and mechanical gauntlets; her hands rest on the cockpit controls. behind her, tightly packed instrument panels, switches, and multiple screens show circular radar-like displays, lit by cyan and cool blue instrument lighting with a few orange indicator lamps. shallow depth of field, reflective carbon weave, sci-fi cockpit atmosphere. <lora:moss_image_sft_8_steps_dmd_v0.1:1> <lora:hina_mossimagesft_fujifilm-proplusii:0.7> <lora:hina_mossimagesft_asianmix_v3-r4_lora:0.4> <lora:amateur_nudes_moss-image:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179185",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/293ad3e6-01d9-4ae4-b663-472bcabfe771/original=true/293ad3e6-01d9-4ae4-b663-472bcabfe771.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149592655",
+      "title": "Civitai prompt 149592655",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical  \n <lora:kazuhiko_style:1> kazuhiko style",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149592655",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb60781f-3d6a-4f75-8992-887b6ab6f388/original=true/eb60781f-3d6a-4f75-8992-887b6ab6f388.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3477439
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580259,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841016+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "9b83b14cb03b45e6e43bdeef1b0ca661190cf8f4d9a148a2076005e16830ef1d",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149592655 architecture ai-image-prompts masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical <lora:kazuhiko_style:1> kazuhiko style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149592655",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb60781f-3d6a-4f75-8992-887b6ab6f388/original=true/eb60781f-3d6a-4f75-8992-887b6ab6f388.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149592646",
+      "title": "Civitai prompt 149592646",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast,\nmessy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background  \n <lora:kazuhiko_style:1> kazuhiko style",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149592646",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe91665c-96ad-43fd-a3dd-91aef61e1990/original=true/fe91665c-96ad-43fd-a3dd-91aef61e1990.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3477439
+      ],
+      "width": 512,
+      "height": 768,
+      "seed": 3717580255,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841030+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "cb647485b3909bb5d7d591ee889a359da18335dcefa13af8b1f2839d6e682652",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149592646 image ai-image-prompts (masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast, messy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background <lora:kazuhiko_style:1> kazuhiko style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149592646",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe91665c-96ad-43fd-a3dd-91aef61e1990/original=true/fe91665c-96ad-43fd-a3dd-91aef61e1990.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149592625",
+      "title": "Civitai prompt 149592625",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "{\nmasterpiece, best quality, score_9, upper_body, 1girl, rating safe, facing viewer, looking at viewer, medium brown hair, middle part, brown eyes, tan skin, white tank top, simple pink background,|\nmasterpiece, best quality, score_9, upper_body, 1boy, rating safe, male focus, solo, very short white hair, hair slicked back, hair_antennae, grey eyebrows, light blue eyes, (aquiline_nose:0.7), tan skin, mole under left eye, head tilt, silver stud earrings, frown, thin simple mouth, tank top, cloud background, three_quarter_view |\nmasterpiece, score_9, best quality, highres, absurdres, aesthetic, portrait, watercolor_\\(medium\\), traditional_media,  contrapposto,  1girl, very dark skin, light-skinned_palms, (long) afrotextured hair, dark brown eyes, (nose:0.6), (lips), pointy_ears, white (embroidered:0.5) dress, juliet sleeves, floral brocade, white embroidery, white puffy short sleeves, bare shoulders, (hair flowers),  smile, pastel green and yellow theme, nature garden scenery background |\n(masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast,\nmessy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background |\nmasterpiece, newest, highres, score_9, left, dynamic, 1girl, solo, nude, ornate striped skin, glowing (patterned skin:0.7), (face:2), eyes, hands, absurdly long flowing thick tentacle_hair, floating, small breasts, (nipples:0.6), dark painterly (gradient:0.5) background, bloom, light, sunlight, subsurface scattering, depth of field, iridescent nacre skin, translucent |\nmasterpiece, score_9, cowboy shot, blue and pastel orange, simple painterly background, upper body,detailed, foreshortening, dynamic_pose, depth of field, pokemon, oil_painting_\\(medium\\),\nscalie, furry_male, muscular_male, dragon_boy, (long curved neck), two-tone_skin, dragon_wings, dragon horns, spikes and scales, open mouth, sharp teeth, slit pupil, long (glowing) forked tongue, tongue_out, glowing chest and throat neck, dragonborn_\\(d&d\\), large eyes, smug, smirk, crawling, squatting, leaning forward, delinquent, snake, nude, pokemon_\\(creature\\) |\nmasterpiece, score_9, best quality,  highres, absurdres, aesthetic, high contrast, dramatic lighting, three_quarter_view, speedpaint, cheerful, pastel, bloom, detailed fantasy background, no humans, environment,  concept art, temple, colored streamers |\nmasterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical |\nlowres, rating_safe, deep red, dark blue\n} \n <lora:kazuhiko_style:1> kazuhiko style",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149592625",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ada0e7d2-e80d-4859-8cd0-a930c8767887/original=true/ada0e7d2-e80d-4859-8cd0-a930c8767887.jpeg",
+      "model": "oneObsessionAnima_v40",
+      "model_version_ids": [
+        3301424,
+        3477439
+      ],
+      "width": 1536,
+      "height": 2304,
+      "seed": 3717580252,
+      "negative_prompt": "low quality, score_1, dark, tanlines, child, bulge,",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841066+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c33405afded70ae2ec369df0ff216244b6a3fd4f8316db66a8b901d1a3cd64c6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149592625 architecture ai-image-prompts { masterpiece, best quality, score_9, upper_body, 1girl, rating safe, facing viewer, looking at viewer, medium brown hair, middle part, brown eyes, tan skin, white tank top, simple pink background,| masterpiece, best quality, score_9, upper_body, 1boy, rating safe, male focus, solo, very short white hair, hair slicked back, hair_antennae, grey eyebrows, light blue eyes, (aquiline_nose:0.7), tan skin, mole under left eye, head tilt, silver stud earrings, frown, thin simple mouth, tank top, cloud background, three_quarter_view | masterpiece, score_9, best quality, highres, absurdres, aesthetic, portrait, watercolor_\\(medium\\), traditional_media, contrapposto, 1girl, very dark skin, light-skinned_palms, (long) afrotextured hair, dark brown eyes, (nose:0.6), (lips), pointy_ears, white (embroidered:0.5) dress, juliet sleeves, floral brocade, white embroidery, white puffy short sleeves, bare shoulders, (hair flowers), smile, pastel green and yellow theme, nature garden scenery background | (masterpiece:1.5), (best quality:1.4), (absurdres:1.4), (very aesthetic:1.3), (extreme aesthetic:1.2), (excellent depth of field:1.3), (oil painting /medium/:1.2), strong brush texture, messy lineart, (impressionism:1.2), (partly realistic texture:1.1), soft brush aesthetic, smooth finish, professional quality, (dramatic shadows:1.2), newest, highres, high contrast, messy black hair, low ponytail, long locks, parted bangs, yellow eyes, slit pupils, midshot, tiger ears, one tiger tail, striped white skin, sharp black fingernails, looking to side, athletic, (boy, male: 1.5), flat chest, athletic, (smirk:0.65), chinese clothes, floral print, tassel, fluffy fur trim, dynamic pose, foreshortening, extreme perspective, intricate fantasy background | masterpiece, newest, highres, score_9, left, dynamic, 1girl, solo, nude, ornate striped skin, glowing (patterned skin:0.7), (face:2), eyes, hands, absurdly long flowing thick tentacle_hair, floating, small breasts, (nipples:0.6), dark painterly (gradient:0.5) background, bloom, light, sunlight, subsurface scattering, depth of field, iridescent nacre skin, translucent | masterpiece, score_9, cowboy shot, blue and pastel orange, simple painterly background, upper body,detailed, foreshortening, dynamic_pose, depth of field, pokemon, oil_painting_\\(medium\\), scalie, furry_male, muscular_male, dragon_boy, (long curved neck), two-tone_skin, dragon_wings, dragon horns, spikes and scales, open mouth, sharp teeth, slit pupil, long (glowing) forked tongue, tongue_out, glowing chest and throat neck, dragonborn_\\(d&d\\), large eyes, smug, smirk, crawling, squatting, leaning forward, delinquent, snake, nude, pokemon_\\(creature\\) | masterpiece, score_9, best quality, highres, absurdres, aesthetic, high contrast, dramatic lighting, three_quarter_view, speedpaint, cheerful, pastel, bloom, detailed fantasy background, no humans, environment, concept art, temple, colored streamers | masterpiece, score_8, best quality, good quality, anime, very awa, cinematic composition, color grading, high-contrast, traditional_media, (lineart:0.75), retro artstyle, watercolor_\\(medium\\), color_ink_\\(medium\\), from above, (wide shot), three_quarter_view, (no humans,) art nouveau, warm sunlight, cottage tower interior, apothecary, potions, herbs, bookshelf, round window, ornate desk and chair, shabby, cluttered, (colorful:0.5), cheerful, storybook whimsical | lowres, rating_safe, deep red, dark blue } <lora:kazuhiko_style:1> kazuhiko style civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149592625",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ada0e7d2-e80d-4859-8cd0-a930c8767887/original=true/ada0e7d2-e80d-4859-8cd0-a930c8767887.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150179127",
+      "title": "Civitai prompt 150179127",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A watercolor illustration on pristine white Japanese washi paper, featuring a young girl dressed warmly in a thick fabric skirt, a scarf, and a heavy sweater, seated deeply into a fluffy chair while hiding her face behind a book — the composition is a tight portrait, her face filling the frame with an intimate, tender connection as her eyes gaze directly at the viewer, evoking quiet warmth and emotional closeness. The watercolor bleeds softly across the paper, blurring edges and dissolving into the white background to create a dreamy, gentle atmosphere that wraps around her figure like a comforting embrace; no other objects or distractions are present, focusing entirely on her serene, book-holding posture. Warm ambient light bathes the scene, softening contours of her face into gentle ambiguity, while the translucent washes of color fade subtly into the paper’s surface — reinforcing the impression of quiet warmth and safety. The overall effect is one of cozy reassurance, rendered in a delicately diffused, emotionally resonant style that invites the viewer to feel her gentle presence.With a demure blush, she hid her pure smile slightly., Her clear eyes, mild with kindness, hold a soothing depth that feels both pure and endlessly reassuring.  , gentle and serene smile",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150179127",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd08416d-8beb-4d88-a46e-3a8179b1734e/original=true/cd08416d-8beb-4d88-a46e-3a8179b1734e.jpeg",
+      "model": "krea2_turbo_bf16.safetensors",
+      "model_version_ids": [],
+      "width": 3275,
+      "height": 1849,
+      "seed": 769524738468049,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841099+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "32864edb72e664e11767204ad5a3ff265ea3f940a4191fd4b169ff04d07c643b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150179127 image ai-image-prompts a watercolor illustration on pristine white japanese washi paper, featuring a young girl dressed warmly in a thick fabric skirt, a scarf, and a heavy sweater, seated deeply into a fluffy chair while hiding her face behind a book — the composition is a tight portrait, her face filling the frame with an intimate, tender connection as her eyes gaze directly at the viewer, evoking quiet warmth and emotional closeness. the watercolor bleeds softly across the paper, blurring edges and dissolving into the white background to create a dreamy, gentle atmosphere that wraps around her figure like a comforting embrace; no other objects or distractions are present, focusing entirely on her serene, book-holding posture. warm ambient light bathes the scene, softening contours of her face into gentle ambiguity, while the translucent washes of color fade subtly into the paper’s surface — reinforcing the impression of quiet warmth and safety. the overall effect is one of cozy reassurance, rendered in a delicately diffused, emotionally resonant style that invites the viewer to feel her gentle presence.with a demure blush, she hid her pure smile slightly., her clear eyes, mild with kindness, hold a soothing depth that feels both pure and endlessly reassuring. , gentle and serene smile civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150179127",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd08416d-8beb-4d88-a46e-3a8179b1734e/original=true/cd08416d-8beb-4d88-a46e-3a8179b1734e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150177863",
+      "title": "Civitai prompt 150177863",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Cinematic film still, 35mm Kodak Portra 800 aesthetic, heavy film grain, shallow depth of field, natural color balance with a nostalgic warmth.\nAn elderly woman in her late 70s with silver hair in a loose bun, wearing a grey knit cardigan and reading glasses on a beaded chain. She has a quiet, poignant half-smile and her eyes are glistening with unshed tears. She is leaning slightly forward, both hands resting intimately on the worn joystick and buttons of the only powered-on arcade cabinet.\nThe setting is a shuttered 1980s arcade at night. Rows of dead cabinets are draped in dusty sheets, creating a sense of abandoned history. Rain streaks the front windows, and a half-burnt-out neon sign flickers in the background, casting faint, broken light. The atmosphere is melancholic yet warm, evoking a deep sense of nostalgia and memory.\nThe primary light source is the curved CRT screen of the active cabinet, emitting a strong cyan and magenta glow that illuminates the woman's face. This creates a dramatic chiaroscuro effect with deep teal shadows. Faint scanline patterns are visible on her skin and the dust motes drifting in the air within the light beam. The screen displays a pixel-art high-score table with a glowing top line reading \"1ST JUN 999990\".\nIn the ghostly reflection on the CRT screen glass, a young girl in a 1984 nylon windbreaker is visible in the exact same pose. Her small hands overlap the old woman's hands in the reflection, creating a seamless temporal bridge between past and present. The nylon windbreaker has a slight sheen, reflecting the internal light.\nSilbrioarkane\nThe image features high dynamic range, sharp focus on the subject's face and hands, with the background softly blurred. The texture of the knit cardigan, the rubber of the joystick, and the glass dust are rendered with macro-level detail. The overall mood is cinematic, intimate, and emotionally resonant, with a distinct analog film quality and soft lens flares from the neon sign interacting with the rain-streaked glass.",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150177863",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43eaa5d2-8c2a-4424-9e0b-404d20155a94/original=true/43eaa5d2-8c2a-4424-9e0b-404d20155a94.jpeg",
+      "model_version_ids": [
+        3072332,
+        3101597,
+        3443506
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 1598952841,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841128+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "404651e36789d015f799cad520fd9edcf9335f505268957b194a860927b82e0f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150177863 image ai-image-prompts cinematic film still, 35mm kodak portra 800 aesthetic, heavy film grain, shallow depth of field, natural color balance with a nostalgic warmth. an elderly woman in her late 70s with silver hair in a loose bun, wearing a grey knit cardigan and reading glasses on a beaded chain. she has a quiet, poignant half-smile and her eyes are glistening with unshed tears. she is leaning slightly forward, both hands resting intimately on the worn joystick and buttons of the only powered-on arcade cabinet. the setting is a shuttered 1980s arcade at night. rows of dead cabinets are draped in dusty sheets, creating a sense of abandoned history. rain streaks the front windows, and a half-burnt-out neon sign flickers in the background, casting faint, broken light. the atmosphere is melancholic yet warm, evoking a deep sense of nostalgia and memory. the primary light source is the curved crt screen of the active cabinet, emitting a strong cyan and magenta glow that illuminates the woman's face. this creates a dramatic chiaroscuro effect with deep teal shadows. faint scanline patterns are visible on her skin and the dust motes drifting in the air within the light beam. the screen displays a pixel-art high-score table with a glowing top line reading \"1st jun 999990\". in the ghostly reflection on the crt screen glass, a young girl in a 1984 nylon windbreaker is visible in the exact same pose. her small hands overlap the old woman's hands in the reflection, creating a seamless temporal bridge between past and present. the nylon windbreaker has a slight sheen, reflecting the internal light. silbrioarkane the image features high dynamic range, sharp focus on the subject's face and hands, with the background softly blurred. the texture of the knit cardigan, the rubber of the joystick, and the glass dust are rendered with macro-level detail. the overall mood is cinematic, intimate, and emotionally resonant, with a distinct analog film quality and soft lens flares from the neon sign interacting with the rain-streaked glass. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150177863",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43eaa5d2-8c2a-4424-9e0b-404d20155a94/original=true/43eaa5d2-8c2a-4424-9e0b-404d20155a94.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178809",
+      "title": "Civitai prompt 150178809",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, newest, GrimmsPaint, grimmsfantasy, \n\nA young woman of ethereal beauty and hourglass proportions leans forward in a dramatic diagonal composition, her gaze drifting toward a distant, unreachable horizon. She is draped in the dark elegance of Victorian occult attire, where open lace garments and ornate, see-through lingerie reveal the softness of her skin against a backdrop of oppressive shadow, complemented by the sharp line of thigh-high stockings. They stand within a cosmic Victorian corridor, a surreal intersection where the skeletal remains of a Gothic cathedral float amidst the boundless, star-dusted heavens. A single, divine source of god rays pierces the midnight umber void, casting a harsh, tenebrist light that carves her silhouette out of the darkness in a cinematic baroque frame. The palette is a rich collision of deep crimson, burnished gold, and ivory, rendered with the heavy impasto of oil paint. Every surface vibrates with texture: the weight of decaying velvet curtains, the fragility of delicate lace, and the cold, polished sheen of floating marble fragments. Swirling cosmic dust and gold leaf shards dance around her, intertwining with intricate occult symbols that drift in the air. Captured from a low angle, the scene evokes a reverent yet erotic tension, blending the muscularity of Rubens with the stark chiaroscuro of Caravaggio and the romantic precision of the Pre-Raphaelites. The composition is a study in asymmetrical balance and theatrical depth, defined by bold, painterly brushstrokes that blur the line between a digital masterpiece and a classical oil painting.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178809",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8dc0fd-5d65-41d9-acf8-38a57caafc9b/original=true/3f8dc0fd-5d65-41d9-acf8-38a57caafc9b.jpeg",
+      "model_version_ids": [],
+      "width": 1024,
+      "height": 1536,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841152+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "40c34182bde18cb3a5bbaf80c7bc3446a87d5461013245bdad1be20b92b5004b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178809 image ai-image-prompts masterpiece, best quality, very aesthetic, absurdres, newest, grimmspaint, grimmsfantasy, a young woman of ethereal beauty and hourglass proportions leans forward in a dramatic diagonal composition, her gaze drifting toward a distant, unreachable horizon. she is draped in the dark elegance of victorian occult attire, where open lace garments and ornate, see-through lingerie reveal the softness of her skin against a backdrop of oppressive shadow, complemented by the sharp line of thigh-high stockings. they stand within a cosmic victorian corridor, a surreal intersection where the skeletal remains of a gothic cathedral float amidst the boundless, star-dusted heavens. a single, divine source of god rays pierces the midnight umber void, casting a harsh, tenebrist light that carves her silhouette out of the darkness in a cinematic baroque frame. the palette is a rich collision of deep crimson, burnished gold, and ivory, rendered with the heavy impasto of oil paint. every surface vibrates with texture: the weight of decaying velvet curtains, the fragility of delicate lace, and the cold, polished sheen of floating marble fragments. swirling cosmic dust and gold leaf shards dance around her, intertwining with intricate occult symbols that drift in the air. captured from a low angle, the scene evokes a reverent yet erotic tension, blending the muscularity of rubens with the stark chiaroscuro of caravaggio and the romantic precision of the pre-raphaelites. the composition is a study in asymmetrical balance and theatrical depth, defined by bold, painterly brushstrokes that blur the line between a digital masterpiece and a classical oil painting. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178809",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f8dc0fd-5d65-41d9-acf8-38a57caafc9b/original=true/3f8dc0fd-5d65-41d9-acf8-38a57caafc9b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149862031",
+      "title": "Civitai prompt 149862031",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Wide shot at eye level of a barefoot woman in her late twenties stretched out along the curved bow of a small wooden sailboat anchored in a calm turquoise cove at golden hour, lying back on the warm deck with one arm draped over her eyes like a film star and the other trailing a long silk scarf into the breeze, a delighted grin on her lips. Her beauty is fragile and glamorous: sun-bronzed skin with a warm glow, a long elegant neck, high cheekbones, glossy coral lips, cat-eye sunglasses pushed into her hair and long tousled caramel-blonde waves spread across the varnished planks. She wears a crisp ivory piqué corset bustier with a sculpted sweetheart neckline, navy grosgrain trim along the boning seams and a row of gold hook closures, paired with high-waisted wide-leg trousers of flowing coral silk, a chunky gold chain bracelet and large gold shell earrings; her bare feet are crossed at the ankle on the gleaming teak. Around the boat the water glows translucent turquoise over pale sand, white limestone cliffs dotted with pines rise around the cove and a distant white villa glows on the headland under a sky melting from gold to blush. Low golden-hour sun skims across the cove, painting the sail in warm amber light, flaring off the brass fittings in sharp star glints and casting rippling reflected-water light patterns dancing over her skin and the hull, while the streaming apricot silk scarf glows translucent and a soft warm haze hangs over the water. Photorealistic, ethereal and dreamlike Riviera photography with lush bloom. Shot on a 35mm lens, shallow depth of field melting the cliffs into creamy bokeh, layered atmospheric depth, fine film grain, and a lazy, playful mood of quiet solitude.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149862031",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe07486c-27ae-4214-aa59-a989abe7b1e6/original=true/fe07486c-27ae-4214-aa59-a989abe7b1e6.jpeg",
+      "model": "krea2_turbo_bf16",
+      "model_version_ids": [
+        3068874,
+        3072332,
+        3116962,
+        3203435
+      ],
+      "width": 1088,
+      "height": 1600,
+      "seed": 1496498073,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841194+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3918714f82ad1e9939aaba01a4a65a3f3652d31f7692ee297b21abab0e7d7cf9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 149862031 image ai-image-prompts wide shot at eye level of a barefoot woman in her late twenties stretched out along the curved bow of a small wooden sailboat anchored in a calm turquoise cove at golden hour, lying back on the warm deck with one arm draped over her eyes like a film star and the other trailing a long silk scarf into the breeze, a delighted grin on her lips. her beauty is fragile and glamorous: sun-bronzed skin with a warm glow, a long elegant neck, high cheekbones, glossy coral lips, cat-eye sunglasses pushed into her hair and long tousled caramel-blonde waves spread across the varnished planks. she wears a crisp ivory piqué corset bustier with a sculpted sweetheart neckline, navy grosgrain trim along the boning seams and a row of gold hook closures, paired with high-waisted wide-leg trousers of flowing coral silk, a chunky gold chain bracelet and large gold shell earrings; her bare feet are crossed at the ankle on the gleaming teak. around the boat the water glows translucent turquoise over pale sand, white limestone cliffs dotted with pines rise around the cove and a distant white villa glows on the headland under a sky melting from gold to blush. low golden-hour sun skims across the cove, painting the sail in warm amber light, flaring off the brass fittings in sharp star glints and casting rippling reflected-water light patterns dancing over her skin and the hull, while the streaming apricot silk scarf glows translucent and a soft warm haze hangs over the water. photorealistic, ethereal and dreamlike riviera photography with lush bloom. shot on a 35mm lens, shallow depth of field melting the cliffs into creamy bokeh, layered atmospheric depth, fine film grain, and a lazy, playful mood of quiet solitude. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149862031",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe07486c-27ae-4214-aa59-a989abe7b1e6/original=true/fe07486c-27ae-4214-aa59-a989abe7b1e6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178840",
+      "title": "Civitai prompt 150178840",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still 27. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 31-year-old redhead woman with a delicate upturned nose and red lipstick, wearing a sequined cocktail dress, singing at a grand piano, while the older bartender spills a tower of glasses, glasses tumbling mid-air, his mouth slightly open, eyes wide, smoky jazz club background, warm amber lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178840",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4ca64cb-f9c3-4734-97d9-1ffb41704fe2/original=true/c4ca64cb-f9c3-4734-97d9-1ffb41704fe2.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2858299312,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841214+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "09e684ac970fc2ea904b35388136f7ef4aed633477bdc09a085617fb2313732f",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150178840 fashion ai-image-prompts cinematic film still 27. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 31-year-old redhead woman with a delicate upturned nose and red lipstick, wearing a sequined cocktail dress, singing at a grand piano, while the older bartender spills a tower of glasses, glasses tumbling mid-air, his mouth slightly open, eyes wide, smoky jazz club background, warm amber lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178840",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4ca64cb-f9c3-4734-97d9-1ffb41704fe2/original=true/c4ca64cb-f9c3-4734-97d9-1ffb41704fe2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178748",
+      "title": "Civitai prompt 150178748",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "cinematic film still 16. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 35-year-old brunette woman with a delicate upturned nose and red lipstick, wearing a sparkling silver opera gown with a plunging back, looking through binoculars from an opera box, while an older gentleman beside her looks at her instead of the stage, his opera glasses slipping mid-air from his hand, his mouth slightly open, eyes wide, opulent theater background with red velvet, warm stage lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178748",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11d689ef-9fc7-4a70-a1c4-c6c2096a4bf8/original=true/11d689ef-9fc7-4a70-a1c4-c6c2096a4bf8.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 1240361849,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841228+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3d1e614ac26de975ada5a4e2fcee0e87f5395db613910c6b5d7473480df45fa1",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 150178748 fashion ai-image-prompts cinematic film still 16. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 35-year-old brunette woman with a delicate upturned nose and red lipstick, wearing a sparkling silver opera gown with a plunging back, looking through binoculars from an opera box, while an older gentleman beside her looks at her instead of the stage, his opera glasses slipping mid-air from his hand, his mouth slightly open, eyes wide, opulent theater background with red velvet, warm stage lighting, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178748",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11d689ef-9fc7-4a70-a1c4-c6c2096a4bf8/original=true/11d689ef-9fc7-4a70-a1c4-c6c2096a4bf8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178745",
+      "title": "Civitai prompt 150178745",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "cinematic film still 17. editorial photography, shot on Hasselblad medium format, Kodak Portra 400 film grain, a 26-year-old blonde woman with a delicate upturned nose and red lipstick, wearing a tight turtleneck sweater and ski pants, warming her hands by a roaring fireplace, while an older ski instructor drops his marshmallow stick, marshmallow flying mid-air toward the fire, his mouth slightly open, eyes wide, cozy alpine lodge background with wooden beams, warm firelight, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178745",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/122ba7eb-8816-4e6a-8346-b18275665646/original=true/122ba7eb-8816-4e6a-8346-b18275665646.jpeg",
+      "model": "FKROMA2511-int8_convrot",
+      "model_version_ids": [
+        3488672
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3284264088,
+      "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841242+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "4d2b3eb7a82b2dbed1cef6700fa366cafe5d8d24e79b6d8ae5d62b00a49aceb5",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150178745 fashion ai-image-prompts cinematic film still 17. editorial photography, shot on hasselblad medium format, kodak portra 400 film grain, a 26-year-old blonde woman with a delicate upturned nose and red lipstick, wearing a tight turtleneck sweater and ski pants, warming her hands by a roaring fireplace, while an older ski instructor drops his marshmallow stick, marshmallow flying mid-air toward the fire, his mouth slightly open, eyes wide, cozy alpine lodge background with wooden beams, warm firelight, photorealistic skin texture, 85mm f/1.4 shallow depth of field, cinematic color grading, humorous adult situational setup, realistic gritty photo . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178745",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/122ba7eb-8816-4e6a-8346-b18275665646/original=true/122ba7eb-8816-4e6a-8346-b18275665646.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845335",
+      "title": "Civitai prompt 144845335",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Shot:0.0) (Photographic Lenses:0.0) 5. GFX 100S Clean Aesthetic: Soft-focus lifestyle photography, captured on Fujifilm GFX 100S, pastel color palette, bright morning sunlight creating a soft ethereal haze, clean aesthetics of (Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Elemental Outfits:0.0) Chalybs Phantasma, an \"Interstellar Glitch\" gown. The top of the dress is a solid, molten silver bodice that looks like mercury dripping down her torso. As the dress moves toward the floor, the metal \"shatters\" into glowing neon-cyan glitch particles and floating 3D pixels, holographic wireframes underneath the metal., walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny silver cars, set in the future, Sci-Fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), (Color Palettes & Grades) technicolor, sharp focus, depth of field, 8k photo, HDR, professional lighting, taken with Canon EOS R5, DSLR, 75mm lens",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845335",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/946cbd61-5297-42f5-bdd8-c5f2a48077d6/original=true/946cbd61-5297-42f5-bdd8-c5f2a48077d6.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 3072,
+      "seed": 209396919,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841262+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "05cd37af36dca4ba919fbda6398b1ac3c1151b09b883a834e00fc44767e7880b",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845335 advertising ai-image-prompts (shot:0.0) (photographic lenses:0.0) 5. gfx 100s clean aesthetic: soft-focus lifestyle photography, captured on fujifilm gfx 100s, pastel color palette, bright morning sunlight creating a soft ethereal haze, clean aesthetics of (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (elemental outfits:0.0) chalybs phantasma, an \"interstellar glitch\" gown. the top of the dress is a solid, molten silver bodice that looks like mercury dripping down her torso. as the dress moves toward the floor, the metal \"shatters\" into glowing neon-cyan glitch particles and floating 3d pixels, holographic wireframes underneath the metal., walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny silver cars, set in the future, sci-fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), (color palettes & grades) technicolor, sharp focus, depth of field, 8k photo, hdr, professional lighting, taken with canon eos r5, dslr, 75mm lens civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845335",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/946cbd61-5297-42f5-bdd8-c5f2a48077d6/original=true/946cbd61-5297-42f5-bdd8-c5f2a48077d6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845332",
+      "title": "Civitai prompt 144845332",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Masters Media, Synthesis Styles:0.0) 16a. Artsy-Elegant: \"The Gallery Curator\", a sleek, asymmetrical floor-length column dress made of midnight-black velvet, featuring a dramatic, oversized structural shoulder piece that twists like a white ceramic ribbon sculpture. One sleeve is long and fitted, while the other side is completely sleeveless. She wears architectural, clear-acrylic block heels and a single, giant raw-silver statement earring. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny sports cars, set in the future, Sci-Fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. Overall, it's an absolute world-class masterpiece digital painting. It's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845332",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b19ffe9-9988-4eba-a61f-ba0945d37dd2/original=true/8b19ffe9-9988-4eba-a61f-ba0945d37dd2.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 2048,
+      "seed": 652043511,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841283+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a843e71f03637e647deb6e577bf096e5fca99ac71ce4a2debd81c42ee732e5ba",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845332 advertising ai-image-prompts (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (masters media, synthesis styles:0.0) 16a. artsy-elegant: \"the gallery curator\", a sleek, asymmetrical floor-length column dress made of midnight-black velvet, featuring a dramatic, oversized structural shoulder piece that twists like a white ceramic ribbon sculpture. one sleeve is long and fitted, while the other side is completely sleeveless. she wears architectural, clear-acrylic block heels and a single, giant raw-silver statement earring. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny sports cars, set in the future, sci-fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. overall, it's an absolute world-class masterpiece digital painting. it's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845332",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b19ffe9-9988-4eba-a61f-ba0945d37dd2/original=true/8b19ffe9-9988-4eba-a61f-ba0945d37dd2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845317",
+      "title": "Civitai prompt 144845317",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Masters Media, Elemental Suits:0.0) Magma Fractum, carbon-fiber chaps and a chestplate made of sharp, fractured obsidian glass over a structural tailored suit. Between the cracks of the glass, glowing violet \"magma\" light pulses like a heartbeat, while heavy-duty work gloves are fused with liquid-bronze wireframes, emphasizing a molten-metal and glass aesthetic across the tailored silhouette. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny futuristic cars, set in the future, Sci-Fi buildings, pedestrians wearing neon clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , cinematic shot, dynamic lighting, 75mm, Technicolor, Panavision, cinemascope, sharp focus, fine details, 8k, HDR, realism, realistic, key visual, film still, cinematic color grading, depth of field. Overall, it's an absolute world-class cinematic masterpiece. It's an aesthetically pleasing cinematic shot with impeccable attention to detail and impressive composition.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845317",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d8fc67f-e422-4b0d-9e3c-7266d52a7c96/original=true/8d8fc67f-e422-4b0d-9e3c-7266d52a7c96.jpeg",
+      "model_version_ids": [],
+      "width": 2048,
+      "height": 3072,
+      "seed": 1049443602,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841302+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "70ba3abc4b38d5a356edf967bd3e7315188f15beae35f9ed10bbe1639dc72931",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845317 advertising ai-image-prompts (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (masters media, elemental suits:0.0) magma fractum, carbon-fiber chaps and a chestplate made of sharp, fractured obsidian glass over a structural tailored suit. between the cracks of the glass, glowing violet \"magma\" light pulses like a heartbeat, while heavy-duty work gloves are fused with liquid-bronze wireframes, emphasizing a molten-metal and glass aesthetic across the tailored silhouette. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny futuristic cars, set in the future, sci-fi buildings, pedestrians wearing neon clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , cinematic shot, dynamic lighting, 75mm, technicolor, panavision, cinemascope, sharp focus, fine details, 8k, hdr, realism, realistic, key visual, film still, cinematic color grading, depth of field. overall, it's an absolute world-class cinematic masterpiece. it's an aesthetically pleasing cinematic shot with impeccable attention to detail and impressive composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845317",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d8fc67f-e422-4b0d-9e3c-7266d52a7c96/original=true/8d8fc67f-e422-4b0d-9e3c-7266d52a7c96.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845314",
+      "title": "Civitai prompt 144845314",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Shot:0.0) (Random Shots:0.0) three-quarter view of (Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Masters Media, Random Costume Categories:0.0) (Sci-Fi:0.0) galactic starship officer, a sleek, high-collar charcoal grey tunic with asymmetrical silver piping, a glowing rank insignia badge on the left breast, crisp white trousers tucked into knee-high polished black boots, walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny metallic cars, set in the future, Sci-Fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), (Lighting:0.0) rembrandt lighting, sharp focus, depth of field, 8k photo, HDR, professional lighting, taken with Canon EOS R5, DSLR, 75mm lens",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845314",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e3f06f44-933c-4314-bb07-5c851cbe5210/original=true/e3f06f44-933c-4314-bb07-5c851cbe5210.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 3072,
+      "seed": 417000373,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841318+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "deac316e4d72f2638f7fff1c16694b8d6f427d228430031cdbc05b68ed340e83",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845314 advertising ai-image-prompts (shot:0.0) (random shots:0.0) three-quarter view of (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (masters media, random costume categories:0.0) (sci-fi:0.0) galactic starship officer, a sleek, high-collar charcoal grey tunic with asymmetrical silver piping, a glowing rank insignia badge on the left breast, crisp white trousers tucked into knee-high polished black boots, walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny metallic cars, set in the future, sci-fi buildings, pedestrians wearing pvc clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), (lighting:0.0) rembrandt lighting, sharp focus, depth of field, 8k photo, hdr, professional lighting, taken with canon eos r5, dslr, 75mm lens civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845314",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e3f06f44-933c-4314-bb07-5c851cbe5210/original=true/e3f06f44-933c-4314-bb07-5c851cbe5210.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845312",
+      "title": "Civitai prompt 144845312",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Masters Media, Wedding Dresses:0.0) Non-Binary Pride (Yellow, White, Purple, Black) an avant-garde ensemble featuring a purple velvet capelet, a high-collared white shirt, and a skirt made of layered geometric black and yellow organza. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny black cars, set in the future, Sci-Fi buildings, pedestrians wearing led clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), lens flare, breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. Overall, it's an absolute world-class masterpiece digital painting. It's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845312",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e235271f-5f52-45f7-90cc-b522eb670193/original=true/e235271f-5f52-45f7-90cc-b522eb670193.jpeg",
+      "model_version_ids": [],
+      "width": 3072,
+      "height": 2048,
+      "seed": 692070388,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841336+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "81c79ed77a17eadcf8916a766dfb2388a7e777d5aee0a414c0e30336078e5843",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845312 advertising ai-image-prompts (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (masters media, wedding dresses:0.0) non-binary pride (yellow, white, purple, black) an avant-garde ensemble featuring a purple velvet capelet, a high-collared white shirt, and a skirt made of layered geometric black and yellow organza. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny black cars, set in the future, sci-fi buildings, pedestrians wearing led clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), lens flare, breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. overall, it's an absolute world-class masterpiece digital painting. it's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845312",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e235271f-5f52-45f7-90cc-b522eb670193/original=true/e235271f-5f52-45f7-90cc-b522eb670193.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-144845311",
+      "title": "Civitai prompt 144845311",
+      "category": "advertising",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "(Masters Media, Cyberpunk Coutoure, NSFW, 18+) The profile of a gorgeous, alluring, skinny, long-legged, 18yo Japanese girl dressed as (Masters Media, Synthesis Styles:0.0) 21c. Sporty-Chic: \"Liquid Windbreaker\", a cropped, technical nylon windbreaker jacket in iridescent silver, cinched tightly at the waist over a fluid, bias-cut maxi skirt made of luxurious champagne-pink silk charmeuse. She wears clean white designer sneakers with chunky platforms, an elegant leather crossbody bag, and minimal, geometric gold jewelry, balancing speed and elegance. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny black cars, set in the future, Sci-Fi buildings, pedestrians wearing led clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. Overall, it's an absolute world-class masterpiece digital painting. It's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition.",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/144845311",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efdb8481-2495-412b-beb1-b5e299c0cfa5/original=true/efdb8481-2495-412b-beb1-b5e299c0cfa5.jpeg",
+      "model_version_ids": [],
+      "width": 2048,
+      "height": 3072,
+      "seed": 854787586,
+      "negative_prompt": "blurry, low quality, distorted",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841355+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a2d188c2982bc0aa7e3f1ed905b277b68fa33d28542513198411b00ae5a103d9",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "advertising",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 144845311 advertising ai-image-prompts (masters media, cyberpunk coutoure, nsfw, 18+) the profile of a gorgeous, alluring, skinny, long-legged, 18yo japanese girl dressed as (masters media, synthesis styles:0.0) 21c. sporty-chic: \"liquid windbreaker\", a cropped, technical nylon windbreaker jacket in iridescent silver, cinched tightly at the waist over a fluid, bias-cut maxi skirt made of luxurious champagne-pink silk charmeuse. she wears clean white designer sneakers with chunky platforms, an elegant leather crossbody bag, and minimal, geometric gold jewelry, balancing speed and elegance. , walking on the pavement of a sleek futuristic cyberpunk street at night, with her feet touching the rain-slicked stones, reflective surfaces on the street, sleek glass and metal buildings, 3d holograms of products and neon advertisements glowing everywhere, curvaceous and fluid-like chrome and shiny black cars, set in the future, sci-fi buildings, pedestrians wearing led clothing in the background. cyberpunk, neon color grading, wide-angle shot, (cyberpunk aesthetic), , breathtaking digital art, trending on artstation, in the style of atey ghailan, in the style of greg rutkowski, in the style of greg tocchini, in the style of james gilleard, 8k, high resolution, best quality. overall, it's an absolute world-class masterpiece digital painting. it's an aesthetically pleasing digital painting with impeccable attention to detail and impressive composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/144845311",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efdb8481-2495-412b-beb1-b5e299c0cfa5/original=true/efdb8481-2495-412b-beb1-b5e299c0cfa5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150070433",
+      "title": "Civitai prompt 150070433",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "WORLD / SCENE IDENTITY\nA secluded woodland pond in a peaceful northern European countryside during a warm late-summer afternoon. Dense riverside vegetation, flowering grasses, and tranquil reflective water create an intimate atmosphere of romantic serenity, gentle nostalgia, and quiet connection with nature.\n\nMAIN ANCHOR / SUBJECT\nA beautiful young adult woman with long golden-blonde hair sits gracefully on a broad natural stone at the edge of a woodland pond, gently dipping one bare foot into the water. Her delicate figure and its reflection form the central emotional anchor within the lush summer landscape.\n\nFACE / APPEARANCE\nA softly oval feminine face with naturally defined cheekbones, a delicate straight nose, proportionate lips, and a gently tapered jawline. Subtle rosy cheeks, refined painterly skin modeling, and a peaceful, thoughtful expression.\n\nEYES\nNaturally proportioned hazel-green eyes with clearly defined eyelids and delicate lashes. Her gaze is directed downward toward the water near her feet, conveying gentle contemplation and quiet happiness.\n\nHAIR\nLong, thick honey-blonde hair arranged in loose flowing waves, partially gathered behind her head with delicate braided sections. Soft curls descend over her shoulders, while a few wispy strands frame her cheeks.\n\nCLOTHING\nA flowing ivory-white linen summer dress with a modest gathered neckline, loose long sleeves, a softly fitted waist, and a generous ankle-length skirt. A narrow muted-brown fabric belt defines her waist. Lightweight matte fabric forms delicate natural folds across her seated figure.\n\nPOSE / EXPRESSION\nShe sits sideways on the stone, shoulders relaxed and head gently lowered. One slender hand rests against the rock for support, while the other lies naturally across her lap. Her bare foot extends into the shallow water, creating delicate concentric ripples. A faint, peaceful smile softens her expression.\n\nCAMERA\nVertical 9:16 medium-full environmental composition from a slightly elevated natural viewpoint. Position the woman near the left golden-section focal area, with the reflective pond extending broadly toward the right and lower foreground. Surrounding vegetation creates an organic asymmetric frame.\n\nFRAMING / CROP CONTROL\nPreserve her complete hairstyle, expressive face, both hands, flowing dress, and visible foot touching the water. Maintain sufficient open pond surface to reveal her reflection and surrounding aquatic plants.\n\nFOREGROUND\nClusters of delicate white wildflowers, slender green reeds, soft grasses, small blue blossoms, and floating lily pads partially overlapping the lower edges.\n\nVISUAL ROUTE\nForeground lily pads and delicate flowers → reflective water and gentle ripples → woman's bare foot → flowing ivory dress → softly illuminated face → golden hair → tranquil woodland pond and distant vegetation.\n\nMIDDLE GROUND\nThe woman rests upon a stable weathered stone surrounded by dense waterside grasses. The pond contains naturally scattered lily pads, small aquatic plants, and softly broken reflections of the surrounding foliage.\n\nBACKGROUND\nA sheltered woodland bank with mature deciduous trees, dense summer shrubs, scattered stones, and irregular clusters of golden grasses. Dark tree reflections stretch across the far side of the water.\n\nPHYSICAL / SPATIAL LOGIC\nThe stone supports her seated weight naturally. Her extended foot touches the water at a believable angle, producing small outward ripples that gently distort her reflection. Aquatic plants remain rooted in shallow areas, while surrounding vegetation follows the irregular shoreline.\n\nLIGHT\nRich late-afternoon sunlight filters diagonally through openings in the woodland canopy, illuminating her golden hair, face, shoulders, and selected folds of the ivory dress. Bright patches of sunlight strike the surrounding grasses and flower petals. Cool reflected skylight preserves the pond's darker surfaces, while gentle golden reflections shimmer between the lily pads. Maintain luminous midtones, soft penumbra, and open chromatic shadows.\n\nCOLOR\nA harmonious summer palette of deep forest green, dark olive, fresh yellow-green, warm ivory, honey gold, muted ochre, and rich petrol-blue water reflections. Small white and pale-blue floral accents contrast with the darker pond, preserving distinct natural color families.\n\nDEPTH / MATERIALS\nNatural optical depth through overlapping foreground flowers, the clearly resolved seated woman, reflective pond surface, and layered woodland vegetation. Delicate linen, soft flowing hair, weathered stone, translucent flower petals, fibrous grasses, and gently reflective freshwater retain distinct painted material qualities.\n\nPAINTERLY STYLE\nLuminous atmospheric digital painterly romanticism with mature naturalism and refined illustrative sensibility. Broad confident color masses, soft semi-opaque layering, sophisticated broken-color modulation, delicate directional brushwork, and controlled lost-and-found edges. Beautifully resolved facial anatomy, graceful natural gestures, expressive botanical details, elegant water reflections, and richly painted yet smooth digital surfaces without physical canvas texture.\n\nLOWER FRAME INTEGRATION\nFloating lily pads, delicate water reflections, overlapping reeds, and small white flowers continue naturally through the lower edge, preserving an immersive and intimate lakeside composition.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150070433",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7eb6c102-30cd-46db-9e82-ddfcc9756d96/original=true/7eb6c102-30cd-46db-9e82-ddfcc9756d96.jpeg",
+      "model": "krea2_turbo_fp8_scaled",
+      "model_version_ids": [],
+      "width": 1248,
+      "height": 1824,
+      "seed": 50000,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841469+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "33e39a54e505813bbc248806fdadab3edb154984b6a3e6a40de1207e17a98022",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150070433 photography ai-image-prompts world / scene identity a secluded woodland pond in a peaceful northern european countryside during a warm late-summer afternoon. dense riverside vegetation, flowering grasses, and tranquil reflective water create an intimate atmosphere of romantic serenity, gentle nostalgia, and quiet connection with nature. main anchor / subject a beautiful young adult woman with long golden-blonde hair sits gracefully on a broad natural stone at the edge of a woodland pond, gently dipping one bare foot into the water. her delicate figure and its reflection form the central emotional anchor within the lush summer landscape. face / appearance a softly oval feminine face with naturally defined cheekbones, a delicate straight nose, proportionate lips, and a gently tapered jawline. subtle rosy cheeks, refined painterly skin modeling, and a peaceful, thoughtful expression. eyes naturally proportioned hazel-green eyes with clearly defined eyelids and delicate lashes. her gaze is directed downward toward the water near her feet, conveying gentle contemplation and quiet happiness. hair long, thick honey-blonde hair arranged in loose flowing waves, partially gathered behind her head with delicate braided sections. soft curls descend over her shoulders, while a few wispy strands frame her cheeks. clothing a flowing ivory-white linen summer dress with a modest gathered neckline, loose long sleeves, a softly fitted waist, and a generous ankle-length skirt. a narrow muted-brown fabric belt defines her waist. lightweight matte fabric forms delicate natural folds across her seated figure. pose / expression she sits sideways on the stone, shoulders relaxed and head gently lowered. one slender hand rests against the rock for support, while the other lies naturally across her lap. her bare foot extends into the shallow water, creating delicate concentric ripples. a faint, peaceful smile softens her expression. camera vertical 9:16 medium-full environmental composition from a slightly elevated natural viewpoint. position the woman near the left golden-section focal area, with the reflective pond extending broadly toward the right and lower foreground. surrounding vegetation creates an organic asymmetric frame. framing / crop control preserve her complete hairstyle, expressive face, both hands, flowing dress, and visible foot touching the water. maintain sufficient open pond surface to reveal her reflection and surrounding aquatic plants. foreground clusters of delicate white wildflowers, slender green reeds, soft grasses, small blue blossoms, and floating lily pads partially overlapping the lower edges. visual route foreground lily pads and delicate flowers → reflective water and gentle ripples → woman's bare foot → flowing ivory dress → softly illuminated face → golden hair → tranquil woodland pond and distant vegetation. middle ground the woman rests upon a stable weathered stone surrounded by dense waterside grasses. the pond contains naturally scattered lily pads, small aquatic plants, and softly broken reflections of the surrounding foliage. background a sheltered woodland bank with mature deciduous trees, dense summer shrubs, scattered stones, and irregular clusters of golden grasses. dark tree reflections stretch across the far side of the water. physical / spatial logic the stone supports her seated weight naturally. her extended foot touches the water at a believable angle, producing small outward ripples that gently distort her reflection. aquatic plants remain rooted in shallow areas, while surrounding vegetation follows the irregular shoreline. light rich late-afternoon sunlight filters diagonally through openings in the woodland canopy, illuminating her golden hair, face, shoulders, and selected folds of the ivory dress. bright patches of sunlight strike the surrounding grasses and flower petals. cool reflected skylight preserves the pond's darker surfaces, while gentle golden reflections shimmer between the lily pads. maintain luminous midtones, soft penumbra, and open chromatic shadows. color a harmonious summer palette of deep forest green, dark olive, fresh yellow-green, warm ivory, honey gold, muted ochre, and rich petrol-blue water reflections. small white and pale-blue floral accents contrast with the darker pond, preserving distinct natural color families. depth / materials natural optical depth through overlapping foreground flowers, the clearly resolved seated woman, reflective pond surface, and layered woodland vegetation. delicate linen, soft flowing hair, weathered stone, translucent flower petals, fibrous grasses, and gently reflective freshwater retain distinct painted material qualities. painterly style luminous atmospheric digital painterly romanticism with mature naturalism and refined illustrative sensibility. broad confident color masses, soft semi-opaque layering, sophisticated broken-color modulation, delicate directional brushwork, and controlled lost-and-found edges. beautifully resolved facial anatomy, graceful natural gestures, expressive botanical details, elegant water reflections, and richly painted yet smooth digital surfaces without physical canvas texture. lower frame integration floating lily pads, delicate water reflections, overlapping reeds, and small white flowers continue naturally through the lower edge, preserving an immersive and intimate lakeside composition. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150070433",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7eb6c102-30cd-46db-9e82-ddfcc9756d96/original=true/7eb6c102-30cd-46db-9e82-ddfcc9756d96.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-149765640",
+      "title": "Civitai prompt 149765640",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "An unsigned 1920s Art Deco oil portrait on canvas, painted by hand rather than photographed, in the polished machine-age manner of 1929. The paint is smooth as enamel with no visible brushwork, and every form is built from hard-edged geometric planes: her face and body are sculpted volumes with crisp borders between lit and shadowed planes, cloth breaks into sharp angular folds, and hair sets in hard sculpted waves. Skin, satin and metal share one cool metallic sheen. Her face and body keep natural adult proportions. The palette is steel grey, gunmetal blue, black and white, plus one accent colour. She is the only person in the picture, in hard, clear daylight under a steel-grey sky broken into angular planes, and every surface around her is polished: chrome flashes white and satin gleams in long sharp highlights.\n\nScale: The roadster is a full-size open two-seat motor car of 1929, painted deep emerald green, its long bonnet as long as she is tall and each spoked wheel as high as her hip, with a plain unbadged chrome radiator grille and long sweeping mudguards.\n\nDepth: The car stands side-on across the frame, its front wheel at the left and its rear wheel at the right. She sits on the bonnet in front of the windscreen, nearest the view, and the angular sky is behind both.\n\nFraming: Eye level, a landscape frame at the height of the bonnet, a few paces off.\n\nPose: She is sitting in a yokozuwari side-sit.\n\nSitting on the bonnet is a 34-year-old French woman with short black hair in a sharp sculpted bob, side-parted and swept off her forehead, and fair skin. She has a long, fully adult face with high cheekbones, a firm jaw, a straight nose, heavy-lidded grey eyes and dark crimson lipstick. Her build is mature: rounded shoulders, full breasts, a narrow waist, wide hips and long, strong legs. She wears a white bias-cut satin slip dress, one strap fallen off her shoulder and the hem ridden up to show the tops of sheer stockings. Her gaze is turned past the left edge, down the road.\n\nPosture and light: Her hand on the left side of the picture is planted on the green bonnet beside her hip, and her hand on the right side of the picture rests on the chrome frame of the windscreen behind her. The satin is creased in sharp angular folds across her hip, and the chrome trim flashes white along the bonnet. The canvas is filled to every edge, and its corners are clean sky or polished surface.",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/149765640",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/671e010c-0b5b-4a63-b06b-3453ac609457/original=true/671e010c-0b5b-4a63-b06b-3453ac609457.jpeg",
+      "model": "RedCraft 赤佬 3.0 (Krea2)",
+      "model_version_ids": [
+        3139241
+      ],
+      "width": 1152,
+      "height": 896,
+      "seed": 93234250893299,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841506+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "03594c6ed7e660850b16521acf218ade9c7541611fcc600dea5d3cba2be92360",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 149765640 photography ai-image-prompts an unsigned 1920s art deco oil portrait on canvas, painted by hand rather than photographed, in the polished machine-age manner of 1929. the paint is smooth as enamel with no visible brushwork, and every form is built from hard-edged geometric planes: her face and body are sculpted volumes with crisp borders between lit and shadowed planes, cloth breaks into sharp angular folds, and hair sets in hard sculpted waves. skin, satin and metal share one cool metallic sheen. her face and body keep natural adult proportions. the palette is steel grey, gunmetal blue, black and white, plus one accent colour. she is the only person in the picture, in hard, clear daylight under a steel-grey sky broken into angular planes, and every surface around her is polished: chrome flashes white and satin gleams in long sharp highlights. scale: the roadster is a full-size open two-seat motor car of 1929, painted deep emerald green, its long bonnet as long as she is tall and each spoked wheel as high as her hip, with a plain unbadged chrome radiator grille and long sweeping mudguards. depth: the car stands side-on across the frame, its front wheel at the left and its rear wheel at the right. she sits on the bonnet in front of the windscreen, nearest the view, and the angular sky is behind both. framing: eye level, a landscape frame at the height of the bonnet, a few paces off. pose: she is sitting in a yokozuwari side-sit. sitting on the bonnet is a 34-year-old french woman with short black hair in a sharp sculpted bob, side-parted and swept off her forehead, and fair skin. she has a long, fully adult face with high cheekbones, a firm jaw, a straight nose, heavy-lidded grey eyes and dark crimson lipstick. her build is mature: rounded shoulders, full breasts, a narrow waist, wide hips and long, strong legs. she wears a white bias-cut satin slip dress, one strap fallen off her shoulder and the hem ridden up to show the tops of sheer stockings. her gaze is turned past the left edge, down the road. posture and light: her hand on the left side of the picture is planted on the green bonnet beside her hip, and her hand on the right side of the picture rests on the chrome frame of the windscreen behind her. the satin is creased in sharp angular folds across her hip, and the chrome trim flashes white along the bonnet. the canvas is filled to every edge, and its corners are clean sky or polished surface. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/149765640",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/671e010c-0b5b-4a63-b06b-3453ac609457/original=true/671e010c-0b5b-4a63-b06b-3453ac609457.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178788",
+      "title": "Civitai prompt 150178788",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw realistic photograph,[Style] Color theory study, neon palette. [camera angle and distance] Medium shot. [scale] Balanced. [subject] The girl and the monitor stack. [action] Static. [detailed background] Cables and desk. [cinematic film, atmospheric haze, color grading] A strict triadic scheme: electric magenta from the screens and cables, acid cyan from the floor paint, and absolute black from the leather jacket and shadows, with touches of warm orange wire; maximum saturation, high contrast, glossy highlights. [mood] Vibrant, electric, stylized. 8k, photorealistic.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178788",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a82e2053-4705-4777-bf2c-856e32442a6f/original=true/a82e2053-4705-4777-bf2c-856e32442a6f.jpeg",
+      "model": "Kromoss",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 1360,
+      "seed": 119,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841520+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "15ecf981c5b4ffe858db7246b77eb2f19038a0aa2a5885be24cb2a055d9fb483",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178788 image ai-image-prompts raw realistic photograph,[style] color theory study, neon palette. [camera angle and distance] medium shot. [scale] balanced. [subject] the girl and the monitor stack. [action] static. [detailed background] cables and desk. [cinematic film, atmospheric haze, color grading] a strict triadic scheme: electric magenta from the screens and cables, acid cyan from the floor paint, and absolute black from the leather jacket and shadows, with touches of warm orange wire; maximum saturation, high contrast, glossy highlights. [mood] vibrant, electric, stylized. 8k, photorealistic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178788",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a82e2053-4705-4777-bf2c-856e32442a6f/original=true/a82e2053-4705-4777-bf2c-856e32442a6f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178781",
+      "title": "Civitai prompt 150178781",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw realistic photograph,[Style] Macro tabletop photography, hacker's workspace study. [camera angle and distance] High-angle close-up on the desk surface. [scale] Detail scale. [subject] A grimy metal desk scattered with two black computer keyboards, two smartphones (one glowing with a pink chat screen), crumpled \"NOTICE\" documents scrawled with red marker, and bright magenta paint splatters across the worn surface. [action] A pale hand taps the glowing phone. [detailed background] The girl's bare legs and the base of the CRT stack in soft focus. [cinematic film, atmospheric haze, color grading] Harsh top-down screen glow, deep contact shadows, gritty textures, saturated pink accents. [mood] Messy, obsessive, lived-in. 8k, highly detailed.",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178781",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c75efbb0-a514-4e4f-a1f9-13d7f38e8a4f/original=true/c75efbb0-a514-4e4f-a1f9-13d7f38e8a4f.jpeg",
+      "model": "Kromoss",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 1360,
+      "seed": 111,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841535+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "16775435142981834a5cb058cb698ed6d1eed5401538efd8d7ebe779ecc0e7fe",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178781 image ai-image-prompts raw realistic photograph,[style] macro tabletop photography, hacker's workspace study. [camera angle and distance] high-angle close-up on the desk surface. [scale] detail scale. [subject] a grimy metal desk scattered with two black computer keyboards, two smartphones (one glowing with a pink chat screen), crumpled \"notice\" documents scrawled with red marker, and bright magenta paint splatters across the worn surface. [action] a pale hand taps the glowing phone. [detailed background] the girl's bare legs and the base of the crt stack in soft focus. [cinematic film, atmospheric haze, color grading] harsh top-down screen glow, deep contact shadows, gritty textures, saturated pink accents. [mood] messy, obsessive, lived-in. 8k, highly detailed. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178781",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c75efbb0-a514-4e4f-a1f9-13d7f38e8a4f/original=true/c75efbb0-a514-4e4f-a1f9-13d7f38e8a4f.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178779",
+      "title": "Civitai prompt 150178779",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "raw realistic photograph,[Style] Cinematic lighting study, neon-noir color science. [camera angle and distance] Medium shot, three-quarter view. [scale] Balanced composition. [subject] A seated girl in goggles and a black jacket. [action] Reading her phone. [detailed background] The CRT wall and hanging cables. [cinematic film, atmospheric haze, color grading] The entire scene is bathed in a magenta-pink emission from the watching-eye screens, with a secondary cool cyan cast on the floor paint splatters below; deep crushed blacks, soft volumetric bloom around the cables, high dynamic range, film grain. [mood] Atmospheric, hypnotic, dystopian. 8k, photorealistic.",
+      "quality_score": 10.0,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178779",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec8496be-b3bc-4c18-8c0e-a6df1e8388f2/original=true/ec8496be-b3bc-4c18-8c0e-a6df1e8388f2.jpeg",
+      "model": "Kromoss",
+      "model_version_ids": [],
+      "width": 768,
+      "height": 1360,
+      "seed": 113,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841548+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "01e579e36bcfa4cedf8f87e6c533b33156088d65af9a490dd6967764593c628c",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178779 image ai-image-prompts raw realistic photograph,[style] cinematic lighting study, neon-noir color science. [camera angle and distance] medium shot, three-quarter view. [scale] balanced composition. [subject] a seated girl in goggles and a black jacket. [action] reading her phone. [detailed background] the crt wall and hanging cables. [cinematic film, atmospheric haze, color grading] the entire scene is bathed in a magenta-pink emission from the watching-eye screens, with a secondary cool cyan cast on the floor paint splatters below; deep crushed blacks, soft volumetric bloom around the cables, high dynamic range, film grain. [mood] atmospheric, hypnotic, dystopian. 8k, photorealistic. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178779",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec8496be-b3bc-4c18-8c0e-a6df1e8388f2/original=true/ec8496be-b3bc-4c18-8c0e-a6df1e8388f2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178694",
+      "title": "Civitai prompt 150178694",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a retro kitchen toaster popping two slices of glowing toast, entirely made of cyberflies, transparent translucent dark reflective surfaces, obsidian metallic casing etched with intricate biological-tech fusion circuitry patterns, sharp contrast of bright cyan and orange glows pulsing like a trapped firefly inside, intense neon edges rim-lighting the silhouette, tiny floating particles and glowing fireflies hovering above the kitchen counter, dark moody kitchen setting, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178694",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59089ad1-69c7-4515-b071-f6e07f769dd7/original=true/59089ad1-69c7-4515-b071-f6e07f769dd7.jpeg",
+      "model_version_ids": [
+        646140,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 623900273,
+      "negative_prompt": "matte plastic, dull surface, daylight, bright white background, un-morphed skin, anime, cartoon, illustration, painting, drawing, blurry, lowres, bad anatomy, bad hands, deformed, watermark, text, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841560+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "da30d463ee24509d44f2f5ed52c2623da54a50c70922c9b88e2eb45f7f0174ad",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178694 image ai-image-prompts a retro kitchen toaster popping two slices of glowing toast, entirely made of cyberflies, transparent translucent dark reflective surfaces, obsidian metallic casing etched with intricate biological-tech fusion circuitry patterns, sharp contrast of bright cyan and orange glows pulsing like a trapped firefly inside, intense neon edges rim-lighting the silhouette, tiny floating particles and glowing fireflies hovering above the kitchen counter, dark moody kitchen setting, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178694",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59089ad1-69c7-4515-b071-f6e07f769dd7/original=true/59089ad1-69c7-4515-b071-f6e07f769dd7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178691",
+      "title": "Civitai prompt 150178691",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "a fierce dragon with translucent wings and horns, entirely made of cyberflies, dark reflective surfaces with obsidian metallic scales etched with intricate biological-tech fusion circuitry patterns, sharp contrast of bright cyan and orange glows pulsing along ribs and wing membranes, intense neon edges rim-lighting the silhouette, surrounded by floating particles and glowing fireflies in a dark futuristic alleyway, volumetric lighting, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178691",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5484e238-59f7-4e53-9979-d045205c30eb/original=true/5484e238-59f7-4e53-9979-d045205c30eb.jpeg",
+      "model_version_ids": [
+        646140,
+        1966530
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 585746705,
+      "negative_prompt": "matte plastic, dull surface, daylight, bright white background, un-morphed skin, anime, cartoon, illustration, painting, drawing, blurry, lowres, bad anatomy, bad hands, deformed, watermark, text, signature",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841572+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3f2a7932fd5acfa61a1eef75450f9a4761f2d35a2cacc2193b22b5cf49607aa4",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178691 image ai-image-prompts a fierce dragon with translucent wings and horns, entirely made of cyberflies, dark reflective surfaces with obsidian metallic scales etched with intricate biological-tech fusion circuitry patterns, sharp contrast of bright cyan and orange glows pulsing along ribs and wing membranes, intense neon edges rim-lighting the silhouette, surrounded by floating particles and glowing fireflies in a dark futuristic alleyway, volumetric lighting, macro photography, 8k resolution, photorealistic, sharp focus, masterpiece civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178691",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5484e238-59f7-4e53-9979-d045205c30eb/original=true/5484e238-59f7-4e53-9979-d045205c30eb.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178686",
+      "title": "Civitai prompt 150178686",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "1girl, solo, twin tails, silver hair, cyan eyes, safe, playful smile, wink, cyberflies, made of cyberflies, dark reflective surfaces, black techwear jacket, biological-tech fusion, circuitry patterns, cyan and orange glows, neon edges, floating particles, glowing fireflies, holding a glass jar filled with glowing fireflies, cyberflies rubber duck on desk, dark room, night, rim lighting, depth of field, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178686",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29c22392-022d-4a9d-9a4c-3a8ef09a1a2a/original=true/29c22392-022d-4a9d-9a4c-3a8ef09a1a2a.jpeg",
+      "model_version_ids": [
+        646140,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 2022226766,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry, white background, bright daylight, flat color, dull lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841584+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "3806c86ab61e1330c2f1627d8dad489eb8952757d4dfabc7a5d9a04070f33e90",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178686 image ai-image-prompts 1girl, solo, twin tails, silver hair, cyan eyes, safe, playful smile, wink, cyberflies, made of cyberflies, dark reflective surfaces, black techwear jacket, biological-tech fusion, circuitry patterns, cyan and orange glows, neon edges, floating particles, glowing fireflies, holding a glass jar filled with glowing fireflies, cyberflies rubber duck on desk, dark room, night, rim lighting, depth of field, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178686",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/29c22392-022d-4a9d-9a4c-3a8ef09a1a2a/original=true/29c22392-022d-4a9d-9a4c-3a8ef09a1a2a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178681",
+      "title": "Civitai prompt 150178681",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, cyberflies, made of cyberflies, dark reflective surfaces, obsidian armor, translucent glass sleeves, biological-tech fusion, circuitry patterns, cyan and orange glows, neon edges, floating particles, glowing fireflies, holding a translucent cyberflies rubber duck, night, dark alleyway, volumetric lighting, rim light, depth of field, masterpiece, high score, great score, absurdres",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178681",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a329616-d63d-4e18-a82c-19eecb894728/original=true/9a329616-d63d-4e18-a82c-19eecb894728.jpeg",
+      "model_version_ids": [
+        646140,
+        1408658
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 8326312,
+      "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry, white background, bright daylight, flat color, dull lighting",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841595+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c785ddbc58707a519bec827bc4cbd26ced36e2621817e03bdd586092d02bfeb6",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150178681 image ai-image-prompts 1girl, solo, straight shoulder-length black hair, neat blunt bangs, warm dark brown eyes, small beauty mark under right eye, safe, deadpan expression, looking at viewer, cyberflies, made of cyberflies, dark reflective surfaces, obsidian armor, translucent glass sleeves, biological-tech fusion, circuitry patterns, cyan and orange glows, neon edges, floating particles, glowing fireflies, holding a translucent cyberflies rubber duck, night, dark alleyway, volumetric lighting, rim light, depth of field, masterpiece, high score, great score, absurdres civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178681",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a329616-d63d-4e18-a82c-19eecb894728/original=true/9a329616-d63d-4e18-a82c-19eecb894728.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150178739",
+      "title": "Civitai prompt 150178739",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Claude"
+      ],
+      "prompt": "A delicate, luminous impressionist oil painting in the style of Claude Monet, capturing Princess Zelda from Breath of the Wild kneeling by the edge of a tranquil, glowing spring in an overgrown, ancient ruin. She is unmistakable in her elegant white and blue Sheikah gown, her golden hair softly framing her serene, detailed face with natural, realistic features and a gentle blush. The artwork is composed of soft, broken, shimmering brushstrokes of pastel greens, pale blues, and warm sunlight, focusing entirely on the play of dappled light and its reflection on the water's surface. Volumetric shafts of pale sunlight pierce through the canopy, and tiny, glowing light particles drift around her like magical pollen, rendered as delicate, translucent glazes. The visible texture of rough canvas and the dreamy, ethereal atmosphere give the iconic princess a quiet, poetic, and deeply emotional painted presence, devoid of any harsh lines.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150178739",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/177e223b-a205-481f-8436-3ec4cc535651/original=true/177e223b-a205-481f-8436-3ec4cc535651.jpeg",
+      "model": "Krea 2 Turbo _v1.0 _nvfp4",
+      "model_version_ids": [
+        3072332
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 345332822260153,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-25T13:09:48.841612+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "daea8415cfa8ddb123663b8f2c902c7dcf49637f375742af8884c173d14b4f39",
+      "translation_status": "failed",
+      "translation_error": "HTTP Error 429: Too Many Requests",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Claude"
+      ],
+      "search_text": "civitai prompt 150178739 image ai-image-prompts a delicate, luminous impressionist oil painting in the style of claude monet, capturing princess zelda from breath of the wild kneeling by the edge of a tranquil, glowing spring in an overgrown, ancient ruin. she is unmistakable in her elegant white and blue sheikah gown, her golden hair softly framing her serene, detailed face with natural, realistic features and a gentle blush. the artwork is composed of soft, broken, shimmering brushstrokes of pastel greens, pale blues, and warm sunlight, focusing entirely on the play of dappled light and its reflection on the water's surface. volumetric shafts of pale sunlight pierce through the canopy, and tiny, glowing light particles drift around her like magical pollen, rendered as delicate, translucent glazes. the visible texture of rough canvas and the dreamy, ethereal atmosphere give the iconic princess a quiet, poetic, and deeply emotional painted presence, devoid of any harsh lines. civitai ai-image imported api claude claude",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150178739",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/177e223b-a205-481f-8436-3ec4cc535651/original=true/177e223b-a205-481f-8436-3ec4cc535651.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-24T23:54:59.484189+00:00",
-  "prompt_count": 3356,
+  "generated_at": "2026-11-25T13:09:55.386342+00:00",
+  "prompt_count": 3391,
   "translation": {
     "language": "ar",
     "translated_count": 0,
     "skipped_count": 3304,
-    "failed_count": 52,
-    "updated_at": "2026-11-24T23:54:58Z"
+    "failed_count": 87,
+    "updated_at": "2026-11-25T13:09:54Z"
   }
 }
