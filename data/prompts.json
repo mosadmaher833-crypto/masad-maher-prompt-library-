@@ -5783,7 +5783,7 @@
         }
       ],
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests"
+      "translation_error": "HTTP Error 400: Bad Request"
     },
     {
       "id": "gh-3e1458fb343e",
@@ -35968,7 +35968,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "ddfff786fd91d2d6a8982429ac426073afb89e55245b5ca55fd725a25f07a793",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -36040,7 +36040,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "bfb834083faeec12feba08615c09b8c924f96a52ef91cbd206caf76ab8ee2410",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -86653,7 +86653,7 @@
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "fe7782b44e3cdb13ea687fd77eba60eceb302c4b694e0d25c3b66b938372aa3c",
       "translation_status": "failed",
-      "translation_error": "HTTP Error 429: Too Many Requests",
+      "translation_error": "HTTP Error 400: Bad Request",
       "task_type": "prompt-engineering",
       "modality": "text",
       "models": [
@@ -157317,7 +157317,7 @@
       "imported_at": "2026-11-26T12:49:28.576431+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "7efe87f429268319e909221faaed1cacb17fae329724176c9bb2325bc7b8ffeb",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157331,7 +157331,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa4db6bb-dd24-4b72-b5c0-6526102b6d1d/original=true/fa4db6bb-dd24-4b72-b5c0-6526102b6d1d.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "جماليا، تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، مفصلة للغاية، دقة عالية، 8k، 1boy، منفرد، تركيز ذكر، وجه مفصل، شعر برتقالي، شعر قصير، شعر شائك، عيون زرقاء فاتحة، ملابس ضغط سوداء، سترة رياضية بيضاء، سماعة رأس كبيرة على الرقبة، سماعة رأس برتقالية على الرقبة، خلفية بسيطة، خلفية بيضاء، يشير إلى المشاهد، مسدس الإصبع على المشاهد، غمزة، ابتسامة صفيق، أسنان مصاص دماء، الجزء العلوي من الجسم، عضلي، كبير صدريات، زاوية جانبية قليلاً، تنظر إلى العارض،<lora:add-detail-xl:1>,<lora:Chiave:0.7>,",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150272956",
@@ -157362,7 +157364,7 @@
       "imported_at": "2026-11-26T12:49:28.576469+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "7ebcc71ca4baf157b835a1f1f0030417b0cc7057f1c9f788cc6656ab7e974c6c",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157376,7 +157378,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e5c374ba-c614-4311-b959-2a1deb6f1379/original=true/e5c374ba-c614-4311-b959-2a1deb6f1379.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "جمالياً، تحفة، أفضل جودة، جودة مذهلة، جمالية للغاية، مفصلة للغاية، دقة عالية، 8k، 1boy، منفرد، تركيز ذكر، وجه مفصل، شعر برتقالي، شعر قصير، شعر شائك، عيون زرقاء فاتحة، ملابس ضغط سوداء، سترة رياضية بيضاء، سماعة رأس كبيرة على الرقبة، سماعة رأس برتقالية على الرقبة، خلفية بسيطة، خلفية بيضاء، كلتا اليدين خلف الرأس، ابتسامة صفيق، أسنان مصاصي الدماء، الجزء العلوي من الجسم، عضلي، صدريات كبيرة، زاوية جانبية قليلاً، النظر إلى المشاهد،<لورا:add-detail-xl:1>،<لورا:شيافي:0.7>،",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150273002",
@@ -157412,7 +157416,7 @@
       "imported_at": "2026-11-26T12:49:28.576489+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "66324acd5e6622f70761c4742c5b4728ad792bb10c7fa75001eac067342c1443",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157428,7 +157432,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d95134bd-aadb-404d-8063-103560ffcfa6/original=true/d95134bd-aadb-404d-8063-103560ffcfa6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "لقطة سينمائية فائقة التفاصيل بدقة 8K. امرأة لطيفة بشكل مذهل تبلغ من العمر 25 عامًا ترتدي بنطال جينز فضفاض وقميصًا واسع النطاق تتخذ وضعية \"جميلة\" مبالغ فيها - يداها متشابكتان تحت الذقن، وعينان واسعتان متلألئتان، وأحمر خدود كرتوني - وسط فوضى مطلقة. إنها تسخر من تسلسل تحول الأنمي للفتاة السحرية. يحيط بها: مقهى مزدحم حيث يتفاعل الزبائن بصدمة شديدة - صانع القهوة يسقط الأكواب وسط صب الماء، ورجل أعمال يبصق القهوة، ورجل مسن يمسك صدره، وأفواه مفتوحة في حالة عدم تصديق متزامنة. قطرات القهوة المتناثرة تتجمد في الهواء، والمعجنات المتناثرة، والكراسي المقلوبة. النمط: واقعية بيكسار النابضة بالحياة مع الرسوم المتحركة، وإضاءة درامية مع توهجات عدسة تؤكد على جاذبيتها الغافلة. الخلفية: آلات إسبرسو غير واضحة والمستفيدين المتعثرين.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272894",
@@ -157454,7 +157460,7 @@
       "imported_at": "2026-11-26T12:49:28.576512+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "63aaf1e12092fe37c29f8b9a54729dc539ceceee6ada3d7b2094c3702ae4b8ef",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157468,7 +157474,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06330cb2-3f59-4023-90e8-c5bcb13987db/original=true/06330cb2-3f59-4023-90e8-c5bcb13987db.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "تمثال مذهل بالحجم الطبيعي لامرأة ذات شعر متدرج يصل إلى الخصر، لم يتم تقديمه كنحت صلب ولكن كلغز معماري معقد ومتشابك مصنوع من الحجر الجيري الخام المسامي. إنها تجلس في وضعية ملكية، ويتكون شكلها من آلاف قطع الألغاز غير المنتظمة المنحوتة بدقة والتي تتلاءم مع الدقة الرياضية، ولكنها تترك كسورًا شعرية من الضوء الذهبي تنزف من خلال اللحامات. \"فستانها\" هو وهم إتقان النسيج الذي يتم تحقيقه من خلال الحجر. تم نحت الحجر الجيري بشكل معقد في طيات متدفقة وثقيلة من القماش تتدلى بأناقة حول ساقيها، في حين تم دمج المعادن القزحية المطعمة - اللازورد والملكيت واليشب القرمزي - في قطع اللغز لإنشاء نسيج نابض بالحياة ومتعدد الألوان من الملابس الملكية. يعتبر شعرها تحفة فنية ذات صلاحية مكانية، ويتكون من مئات من شرائط الحجر الجيري المتشابكة التي تلتف وتتدفق مثل شلال متجمد من الحجر، وبعض القطع تفصل بينها جزء من البوصة للتأكيد على البناء الشبيه بالألغاز. يرتكز التمثال على قاعدة متأثرة بالعوامل الجوية في فناء مشمس، حيث يتناقض الملمس القاسي للحجر الجيري مع الأناقة السريالية الملونة لفستانها والهندسة المذهلة لصورتها الظلية المجزأة والمجمعة بشكل مثالي، 8 ك، 2:3",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150272861",
@@ -157494,7 +157502,7 @@
       "imported_at": "2026-11-26T12:49:28.576535+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "3113887f53a5b435a258f617a3a1baa256f45a1974b1d691f908c633af28e271",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157508,7 +157516,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/900cc307-bf82-454f-9399-bdcd680c73d6/original=true/900cc307-bf82-454f-9399-bdcd680c73d6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "[الموضوع والإجراء] امرأة شابة ذات شعر داكن طويل وغرة فضفاضة وخيوط متناثرة على خديها تجلس بهدوء على جسر عشبي، وتنظر إلى حجرها. يتمتع وجهها بملمس طبيعي للبشرة وشفاه وردية خافتة، مع عدم ظهور مكياج عيون محدد بوضوح. ترتدي قميصًا فضفاضًا رمادي فاتح بأكمام قصيرة وياقة مستديرة، وتنورة زرقاء بطول الركبة متناثرة مع زهور بيضاء صغيرة، وصندل مسطح داكن مخفي جزئيًا بالعشب. يتحول جذعها إلى اليسار قليلاً، وتنحني ركبتيها بلطف وتمتد ساقيها العاريتين قطريًا نحو الزاوية السفلية اليسرى؛ توضع يد واحدة بشكل غير محكم على حقيبة سوداء ناعمة الجوانب بجانبها بينما تقع اليد الأخرى بالقرب من حجرها. [المشهد والعلاقة المكانية] تتداخل شفرات العشب الأمامية وسيقان البذور الرفيعة مع صندلها وساقيها. في منتصف الأرض، تجلس مباشرة على منحدر أخضر كثيف، وحقيبة سوداء مخبأة بجانب وخلف وركها. يرتفع السد نحو أعلى اليمين. يتراجع مسار مرصوف باللون الرمادي على طول أقصى اليسار، وتفصل سلسلة من التلال الضيقة المنحدرة العشب عن السماء الشاحبة المشرقة. [تكوين] صورة بيئية مربعة لكامل الجسم تم تصويرها بواسطة مراقب من موضع مرتفع قليلاً وينظر بلطف إلى الأسفل. يشغل رأسها وجذعها النصف الأيمن بينما تتجه ساقيها نحو أسفل اليسار. يخلق جانب التل القطري والمسار على الجانب الأيسر عمقًا، مع توفير السماء المفتوحة مساحة سلبية في الجزء العلوي الأيسر. يظل العشب مميزًا في جميع الأنحاء، مع تفاصيل بعيدة ناعمة. [إضاءة] يدخل ضوء النهار الطبيعي الناعم من السماء العلوية اليسرى المفتوحة، مما ينتج عنه توهجًا شاحبًا على طول شعرها وأكتاف القميص، وظلال خافتة أسفل ذقنها وطيات تنورتها، وظلال ملامسة أعمق أسفل الحقيبة والجسم الجالس. السماء بيضاء تقريبًا، والضباب الخفيف يقلل من التباين الإجمالي. [متوسط ​​وخامة] صورة رقمية غير رسمية لأسلوب الحياة مع تركيز ناعم قليلاً، وحبوب باهتة، وتفاصيل دقيقة للبشرة، وخصلات شعر فردية فضفاضة، وطيات قميص قطني غير لامع، ونسيج تنورة مطبوع مجمع بهدوء، ونسيج حقيبة سوداء محكم وشفرات غير متساوية من عشب المرج. [الحالة المزاجية واللوحة] توقف هادئ واستبطاني في الهواء الطلق، مع اللون الأخضر الزيتوني والمريمية الخافت، والرمادي الفاتح البارد، والأزرق المغبر، والشعر والحقيبة الفحمية الداكنة، وألوان البشرة الناعمة تحت سماء بيضاء فاتحة اللون. [اقتصاص] محصول مربع 1:1.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150270441",
@@ -157537,7 +157547,7 @@
       "imported_at": "2026-11-26T12:49:28.576544+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "93e236ead0a507ff9164629b4ae03a3f3056b1f9c03218f690a92c0287a749bd",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157551,7 +157561,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2d0c62e-d33e-4607-8775-86f30beee062/original=true/e2d0c62e-d33e-4607-8775-86f30beee062.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، Score_6_up، (تحفة فنية، أفضل جودة، واقعية، مفصلة للغاية: 1.2)، (تصوير خيالي أثيري، جمالية الحكاية الخيالية المسحورة، لا يوجد بشر، (آثار حجرية غامضة قديمة مغطاة بالطحالب واللبلاب: 1.2)، ممر متهالك، رونية غامضة متوهجة منحوتة في الحجر، (إضاءة حيوية نابضة بالحياة باللون البنفسجي العميق والفيروز ضوء أثيري) ينبعث من مركز الآثار:1.3)، جزيئات سحرية عائمة، خلفية غابة مسحورة عميقة، أشجار قديمة شاهقة، سرخس كثيف، ضباب حجمي، (ضوء القمر، وقت الليل يخترق المظلة، جو الشفق، إضاءة سينمائية، عمق المجال، دقة 8K، تركيز حاد",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150270440",
@@ -157580,7 +157592,7 @@
       "imported_at": "2026-11-26T12:49:28.576553+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "2cd402532c49c70e2b14e43f84418427c7171de817717507ce69d8e64653744b",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157594,7 +157606,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/845b9e9c-602c-4738-9907-cbadf1ace708/original=true/845b9e9c-602c-4738-9907-cbadf1ace708.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، Score_6_up، (تحفة فنية، أفضل جودة، واقعية، مفصلة للغاية: 1.2)، (تصوير خيالي أثيري، جمالية الحكاية الخيالية المسحورة، لا يوجد بشر، (آثار حجرية غامضة قديمة مغطاة بالطحالب واللبلاب: 1.2)، ممر متهالك، رونية غامضة متوهجة منحوتة في الحجر، (إضاءة حيوية نابضة بالحياة باللون البنفسجي العميق والفيروز ضوء أثيري) ينبعث من مركز الأطلال:1.3)، جزيئات سحرية عائمة، خلفية غابة مسحورة عميقة، أشجار قديمة شاهقة، سرخس كثيف، ضباب حجمي، (شعاع الله يخترق المظلة، جو الشفق، إضاءة سينمائية، عمق المجال، دقة 8K، تركيز حاد",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150270430",
@@ -157623,7 +157637,7 @@
       "imported_at": "2026-11-26T12:49:28.576561+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "a1ef65207db422494a5ab00feadf0c6e7b09518b4efd3e363419b2b75814b5f0",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157637,7 +157651,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4697c783-6702-401a-9e33-437944b9f7a6/original=true/4697c783-6702-401a-9e33-437944b9f7a6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "Score_9، Score_8_up، Score_7_up، Score_6_up، (تحفة فنية، أفضل جودة، واقعية، مفصلة للغاية: 1.2)، (تصوير خيالي أثيري، جمالية الحكاية الخرافية المسحورة، لا يوجد بشر، (آثار حجرية غامضة قديمة مغطاة بالطحالب واللبلاب: 1.2)، ممر متهالك، رونية غامضة متوهجة منحوتة في الحجر، (توهج سحري ذهبي وأخضر زمردي نابض بالحياة) المنبعث من مركز الأطلال:1.3)، جزيئات سحرية عائمة، خلفية غابة مسحورة عميقة، أشجار قديمة شاهقة، سرخس كثيف، ضباب حجمي، (شعاع الله يخترق المظلة، جو الشفق، إضاءة سينمائية، عمق المجال، دقة 8K، تركيز حاد",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150272751",
@@ -157666,7 +157682,7 @@
       "imported_at": "2026-11-26T12:49:28.576593+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "39ad24a0835205146a4bc9af60287fb406a48d7a454b2db97d2ec0a322927212",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157682,7 +157698,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1444482d-3afa-406c-8ec4-7de6dbc00093/original=true/1444482d-3afa-406c-8ec4-7de6dbc00093.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "عمل فني مذهل وسينمائي هجين عكسي يمزج بسلاسة ممثل بشري واقعي للغاية في المقدمة مع خلفية رسوم متحركة يابانية ثنائية الأبعاد ومركبة غنية بالرسوم التوضيحية.\nالموضوع والوضعية (الإنسان الواقعي للغاية):\nفي المقدمة، إلى اليسار قليلاً، تظهر ممثلة أزياء شابة من شرق آسيا، تجسّد شخصية كاساني تيتو، وقد تم التقاطها بواقعية فوتوغرافية نابضة بالحياة. إنها تمتلك بشرة خزفية طبيعية ذات مسام جلدية دقيقة أصلية، وتدفقًا خفيفًا من الطقس البارد على خديها وطرف أنفها، وتعبيرًا مرهقًا ومرهقًا بينما تحدق عيناها الواقعيتان باللون القرمزي مباشرة في الكاميرا. تم تصميم شعرها القرمزي النابض بالحياة على شكل مثقاب مزدوج واقعي مع جدائل متناثرة دقيقة تلتقط هواء الليل المتجمد. تجلس منتصبة على الأرض، وتسند ظهرها بشكل مباشر على المصد، مع تمديد ساقيها بشكل طبيعي نحو أسفل اليسار وظل ملامس مؤرض أسفلها.\n​العتاد والملابس التكتيكية (المواد الواقعية):\nإنها ترتدي سماعات اتصال تكتيكية أصلية من نوع Peltor ComTac VI بلون زيتوني فوق شعرها، وسترة تكتيكية شديدة التحمل من النايلون الأسود مزينة بخطوط حمراء، ودرع جسم باليستي معياري مع أكياس كوردورا منسوجة وأبازيم معدنية، وسراويل كارجو سوداء متينة مع تجاعيد شد من القماش الطبيعي، وأحذية قتالية من الجلد الثقيل.\nالمركبة والخلفية (رسوم متحركة ثنائية الأبعاد مظللة ومرسومة):\nخلفها، تم تقديمها بالكامل بأسلوب الرسوم المتحركة الياباني ثنائي الأبعاد مع خطوط حبر نظيفة، وتظليل مسطح، وفن خلفي مصور، وهي سيارة بورش 911 GT3 RS بيضاء متوقفة في شكل أمامي ثلاثي الأرباع على طريق غابة مغطاة بالثلوج. تتميز السيارة الرياضية التي تم عرضها بالرسوم المتحركة بخطوط ديناميكية هوائية حادة مرسومة باليد، وجناح خلفي بارز على شكل رقبة بجعة يمتد إلى اليمين، ومصابيح أمامية LED بيضاء متوهجة منمقة تقطع الهواء البارد المصور.\nتكامل البيئة والإضاءة:\nالبيئة المحيطة عبارة عن ليلة شتوية خصبة ومرسومة يدويًا ثنائية الأبعاد في غابة كاريليان، مليئة بأشجار الصنوبر المنمقة المغطاة بالثلوج وأنسجة ثلج الأنيمي الهشة. في الأعلى، تلمع شرائط مظللة بالسيليكون من الشفق القطبي الأخضر الزمردي والبنفسجي عبر سماء الليل المرصعة بالنجوم. يلتف ضوء الزمرد والبنفسجي متعدد الألوان الواقعي من شفق الأنمي بشكل طبيعي حول وجه مصمم الأزياء التنكرية الواقعية، ومثقابات الشعر القرمزية، والدروع التكتيكية، والأحذية، مما يوحد موضوع التصوير الفوتوغرافي بسلاسة مع عالم الرسوم المتحركة ثنائي الأبعاد النابض بالحياة.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272613",
@@ -157710,7 +157728,7 @@
       "imported_at": "2026-11-26T12:49:28.576602+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "766262a322751413abc45878d5256807c33ca56668d6a63acaa0c57c620b4484",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "architecture",
       "modality": "image",
@@ -157724,7 +157742,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b3c49b6-c4ad-431d-87f4-13c61cc5e794/original=true/5b3c49b6-c4ad-431d-87f4-13c61cc5e794.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "الكاميرا: عدسة Cine Prime مقاس 50 مم، ونسبة عرض إلى ارتفاع سينمائية\nالإضاءة: إضاءة تشياروسكورو عميقة ومثيرة، معظمها داكنة مع إبرازات حادة على الوجه\nالمكان: قصر داخلي كبير على الطراز القوطي أو مخبأ تحت الأرض عالي التقنية\nالموضوع الرئيسي: امرأة ذات شعر داكن أملس إلى الخلف، ترتدي ملابس أنيقة ولكن تكتيكية، ونظرة غامضة ومكثفة.\nالأسلوب المرئي: ملحمة الأبطال الخارقين المظلمة والمثيرة، منمقة للغاية\nعناصر الحركة: حركة هوائية خفيفة وغير محسوسة\nتفاصيل الغلاف الجوي: ظلال ثقيلة وباردة ودخان صناعي",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150272478",
@@ -157750,7 +157770,7 @@
       "imported_at": "2026-11-26T12:49:28.576613+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "07f88b5d875c6583af7ba04651e1bf83e2585a34f84410455ad06f46c51876c8",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157764,7 +157784,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cf971e9d-40c0-44fa-80db-5f939b5735a4/original=true/cf971e9d-40c0-44fa-80db-5f939b5735a4.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "لقطة متوسطة تظهر شابًا يجلس على كرسي أحمر أمام خلفية مسطحة باللون الأزرق الكوبالت. يرتدي معطفًا من الجلد الأسود مع أجزاء معدنية فضية، وحزام خصر بإبزيم، وكتاف على الكتف، فوق قميص أبيض وربطة عنق سوداء رفيعة. على رأسه قبعة سوداء على طراز السائق مع شعار دائري. يميل جسده نحو اليسار بينما يتم توجيه نظره بعيدًا عن الكاميرا إلى اليمين. تسلط إضاءة الاستوديو الواضحة والموجهة من الجانب الأيمن الأمامي الضوء على الملمس المرن وشبه اللامع للجلد، مما يخلق إبرازات حادة وظلال عميقة في ثنايا المعطف. التركيبة نظيفة وبسيطة، مع التركيز على القوام عالي التباين للبشرة الناعمة والمعدن المصقول والجلد الداكن، مما يثير جوًا حادًا وعصريًا.",
+      "translated_at": "2026-11-26T23:51:43Z"
     },
     {
       "id": "civitai-150272686",
@@ -157792,7 +157814,7 @@
       "imported_at": "2026-11-26T12:49:28.576631+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "dea296bfc34556caee1c9bb1d493f0c28db4b8ce1729c0195cd572469ed2e171",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -157806,7 +157828,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e5d24d2-8750-4aac-8c97-c05bc12546d6/original=true/7e5d24d2-8750-4aac-8c97-c05bc12546d6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "رسم توضيحي بإطار كامل ومقتص بإحكام على طراز الرسوم المتحركة حيث تظهر فتاة ترتدي قبعة مستلقية على السرير ووجهها لأسفل أثناء قراءة كتاب؛ تم تقديم شكلها بهدوء مع خطوط قلم رصاص لطيفة وغير مثالية عن قصد تتلاشى في ضوء الصباح الضبابي، وتم تلوينها بمهارة بألوان مائية ناعمة لخلق توهج أثيري كما لو كانت تذوب في الغلاف الجوي. يصبح جسدها لوحة قماشية للصور ذات التعرض المزدوج: الشوارع الأوروبية، والكنائس القديمة، والضباب الكثيف، وسماء الليل المرصعة بالنجوم، والأشجار الشاهقة من القصة داخل كتابها تذوب بلطف وتندمج في صورتها الظلية، كما لو أن السرد قد تم استيعابه في جوهرها ذاته. تركز التركيبة على أنها الموضوع المهيمن بدون مساحة سلبية، مغمورة بإضاءة الرسوم المتحركة السينمائية النابضة بالحياة التي تطمس الحدود بين الفتاة والخلفية، مما يخلق اندماجًا يشبه الحلم. تم تقديمه في فن الرسوم المتحركة الرقمي المعبّر والمفصل للغاية بتكوين ديناميكي وطبقات ألوان غنية وعمق عاطفي - مما يستحضر اللغة المرئية لأنيمي الاستوديو المصقول مع الحفاظ على العلاقة الحميمة المرسومة يدويًا.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272719",
@@ -157838,7 +157862,7 @@
       "imported_at": "2026-11-26T12:49:28.576640+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "acaca519fa607e47a25cecbfcd0aba0d0442a74a6aba43fd710274207cb12974",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157852,7 +157876,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ed6a09f-0dec-4689-946f-f53f87632ff0/original=true/2ed6a09f-0dec-4689-946f-f53f87632ff0.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة افتتاحية على طراز الشارع لعارضة أزياء هندية مذهلة بشعر أسود داكن تم سحبه إلى كعكة مريحة نصف مرفوعة مع خيوط ناعمة تحيط بالوجه، وبشرة بنية زيتونية دافئة، وملامح وجه واضحة ومبتسمة تتطلع نحو الكاميرا في أحد شوارع المدينة. ترتدي قميصًا بأكمام طويلة ورقبة وهمية بطبعة دوامة تجريدية بنية وتان وداكنة مدسوسة في بنطال جينز أزرق مع حزام من الجلد الأسود وإبزيم ذهبي، وتحمل حقيبة كتف سوداء لامعة وترتدي أقراطًا ذهبية. خلفية لشارع المدينة مع إضاءة متوازنة بجودة الاستوديو ودقة 8K.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272718",
@@ -157884,7 +157910,7 @@
       "imported_at": "2026-11-26T12:49:28.576649+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "4dc280f8d44a8c15ec5d856b080e86382455167e7f2ff71eda49679b18a2f50b",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157898,7 +157924,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ea9d5d5-d52f-4605-82c0-cfde13deee46/original=true/1ea9d5d5-d52f-4605-82c0-cfde13deee46.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة أزياء نظيفة في الاستوديو لامرأة هندية جذابة ذات شعر أسود طويل مستقيم يتدلى من كتفيها، وبشرة بنية دافئة متوهجة، وملامح وجه متناظرة واضحة المعالم تنظر مباشرة إلى الكاميرا بتعبير متوازن. ترتدي قميصًا بدون أكمام من الجيرسيه قصيرًا باللون الأزرق الداكن مع زخرفة برتقالية وشعار رسومي جريء باللون البرتقالي والبحري على الصدر، مُصمم مع شورت أبيض عالي الخصر وقلادات سلسلة ذهبية متعددة الطبقات وسوار ذهبي عريض وخواتم. خلفية بيضاء سلسة مع إضاءة ستروب ناعمة في الاستوديو، وأنسجة حادة، وتصوير أزياء بدقة 8K.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272715",
@@ -157930,7 +157958,7 @@
       "imported_at": "2026-11-26T12:49:28.576658+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "e49d679f72fa028d3e271448d90f372d07fec5b275a1f44b3c22862da09a1df9",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157944,7 +157972,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94020660-3697-4d2a-a14d-3ee5c9be4f59/original=true/94020660-3697-4d2a-a14d-3ee5c9be4f59.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة أزياء لكامل الجسم لامرأة هندية ساحرة ذات شعر أسود طويل مموج، وبشرة ذهبية بنية دافئة، وملامح وجه واضحة المعالم ومتوازنة تقف على مسار حديقة أمام ممر حجري به زهور برية أرجوانية. ترتدي فستانًا قصيرًا كريميًا ناعمًا بدون أكمام يتميز بأشرطة كتف مربوطة، وخط صدر مكشكش مع ربطة عنق أمامية، وخصر مُفصل، وتنورة واسعة الطبقات، مع صندل مسطح بأشرطة بيضاء. ضوء حديقة ساطع متوازن مع إضاءة الاستوديو الناعمة والتركيز الواضح والتصوير الفوتوغرافي للأزياء بدقة 8K.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272712",
@@ -157976,7 +158006,7 @@
       "imported_at": "2026-11-26T12:49:28.576666+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "3a260d58d87d8f9e6ec78283a6def33105773f64fc99ba0845ad77f5830e040c",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "other",
       "modality": "text",
@@ -157990,7 +158020,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5de215d-d9cc-4f03-bbf8-9db0a02ce6f6/original=true/d5de215d-d9cc-4f03-bbf8-9db0a02ce6f6.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "صورة أزياء مشرقة لأسلوب الحياة لامرأة هندية مبتسمة ذات شعر أسود طويل مجعد وبشرة بنية متوهجة وملامح وجه واضحة ومشرقة تتطلع نحو الجانب وسط أزهار الحديقة الأرجوانية والمساحات الخضراء. ترتدي فستانًا قصيرًا كريميًا بلا أكمام مع أحزمة كتف مربوطة، وصدرية مكشكشة مع رباط أمامي للإغلاق، وخصر مناسب، وتنورة واسعة بحاشية مزدوجة، مزينة بأقراط ذهبية صغيرة. ضوء النهار الطبيعي الناعم المعزز بإضاءة مفتاح الاستوديو اللطيفة وتفاصيل الصور الفوتوغرافية بدقة 8K.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272616",
@@ -158018,7 +158050,7 @@
       "imported_at": "2026-11-26T12:49:28.576682+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "0a6c3d59943f99138d2c4a5725cff40d35ebf20d16e1679ba3d3169e2b136805",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -158032,7 +158064,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c49eb88d-bab6-4974-aa72-b843bb292144/original=true/c49eb88d-bab6-4974-aa72-b843bb292144.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "رسم توضيحي بإطار كامل ومقتص بإحكام على طراز الرسوم المتحركة حيث تظهر فتاة ترتدي قبعة مستلقية على ظهرها وتتكئ على مسند ظهر الكرسي أثناء قراءة كتاب؛ تم تقديم شكلها بهدوء مع خطوط قلم رصاص لطيفة وغير مثالية عن قصد تتلاشى في ضوء الصباح الضبابي، وتم تلوينها بمهارة بألوان مائية ناعمة لخلق توهج أثيري كما لو كانت تذوب في الغلاف الجوي. يصبح جسدها لوحة قماشية للصور ذات التعرض المزدوج: الشوارع الأوروبية، والكنائس القديمة، والضباب الكثيف، وسماء الليل المرصعة بالنجوم، والأشجار الشاهقة من القصة داخل كتابها تذوب بلطف وتندمج في صورتها الظلية، كما لو أن السرد قد تم استيعابه في جوهرها ذاته. تركز التركيبة على أنها الموضوع المهيمن بدون مساحة سلبية، مغمورة بإضاءة الرسوم المتحركة السينمائية النابضة بالحياة التي تطمس الحدود بين الفتاة والخلفية، مما يخلق اندماجًا يشبه الحلم. تم تقديمه في فن الرسوم المتحركة الرقمي المعبّر والمفصل للغاية بتكوين ديناميكي وطبقات ألوان غنية وعمق عاطفي - مما يستحضر اللغة المرئية لأنيمي الاستوديو المصقول مع الحفاظ على العلاقة الحميمة المرسومة يدويًا.",
+      "translated_at": "2026-11-26T23:51:44Z"
     },
     {
       "id": "civitai-150272556",
@@ -158058,7 +158092,7 @@
       "imported_at": "2026-11-26T12:49:28.576706+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "3626bd4234cd612462bf94d390a3c5278cfd01a4c28ffc8ed80803aa0cd9b821",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "architecture",
       "modality": "image",
@@ -158072,7 +158106,9 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a30fe23e-3f1c-4a82-bff3-0e67402e3b4d/original=true/a30fe23e-3f1c-4a82-bff3-0e67402e3b4d.jpeg"
         }
-      ]
+      ],
+      "prompt_ar": "[الموضوع والإجراء] تجلس امرأة شابة بشكل جانبي على حافة نافذة حجرية عريضة، وتنظر إلى الأسفل بتعبير مريح، وتمتد ساقاها المنحنيتان نحو اليسار ويدها اليمنى تستريح بجانبها على العتبة. لديها شعر داكن بطول الكتفين مع غرة ناعمة، ونظارات شمسية مثبتة على رأسها، وعينان محددتان بهدوء، وأحمر خدود وردي، وشفاه وردية صامتة. ترتدي بلوزة بلا أكمام باللون الفضي والأزرق الفاتح مع خط عنق متجمع وأطراف قماشية طويلة مربوطة، وتنورة عاجية بطول الكاحل مع كشكشة شفافة ذات طبقات، وجوارب بيضاء وأحذية رياضية بيضاء مكتنزة بأربطة. تتدلى من جانبها حقيبة كتف فضية صغيرة ذات مربعات مع حلية فخمة شاحبة، ويحيط بمعصمها سوار جميل. [المشهد والعلاقة المكانية] في المقدمة، تحيط عضادات حجرية خشنة سميكة وقوس حجري ضحل بالمنظر بأكمله، مع عتبة حجرية داكنة وألواح خشبية ضيقة على طول الحافة السفلية. تحتل المرأة النصف الأيمن من العتبة. خلفها، يوجد شرفة حصن ساحلية مضاءة بنور الشمس تحتوي على عشب غير مكتمل، ورصف حجري، وجدران منخفضة من الحجارة، ومدفع تاريخي صدئ على دعامة، وحواجز حبال على أعمدة خشبية، وقاعدة مستطيلة شاحبة. يقف العديد من الزوار البعيدين بالقرب من المدفع تحت شجرة صنوبر منتشرة. وخلفهم، تحيط مياه البحر الزرقاء بجزيرة صخرية منخفضة، مع خط ساحلي مشجر وعر على اليسار وأرض بعيدة خافتة عبر الأفق. [تكوين] صورة سفر عمودية لكامل الجسم تم تصويرها بواسطة رفيق من داخل الفتحة الحجرية المظللة، بالقرب من مستوى عين الشخص الجالس. يقوم القوس بإنشاء إطار داخل الإطار؛ يقع وجهها على يمين الوسط ويمتد حذائها إلى أسفل اليسار. وتنتشر أغصان الصنوبر عبر الفتحة العلوية، بينما يوفر البحر مساحة زرقاء مفتوحة خلفها. يظل كل من الزي والإعداد الساحلي المميز قابلين للقراءة. [إضاءة] يدخل ضوء النهار الساطع من خلال الفتحة من جانب البحر، ليضيء وجهها وملابسها الشاحبة بهدوء مع الضوء الخارجي المنعكس. يظل الجزء الداخلي الحجري أكثر قتامة، مع وجود ظلال شقوق عميقة حول العضادات وأسفل العتبة؛ يلتقط ضوء الشمس القوي أوراق الصنوبر والشرفة والصخور البعيدة. [متوسط ​​وخامة] صورة سفر غير رسمية مع بشرة ناعمة، وخصلات شعر داكنة فردية، وقماش بلوزة مجمعة لامع قليلاً، وطبقات تنورة شفافة دقيقة، ونعال أحذية رياضية مصبوبة سميكة، وحجر حبيبي مقاوم للعوامل الجوية ومعدن مدفع مؤكسد. تعمل النعومة الطفيفة في الغلاف الجوي على تقليل التفاصيل عبر الساحل البعيد. [الحالة المزاجية واللوحة] مزاج عطلة هادئ على شاطئ البحر، يجمع بين المياه الفيروزية والأزرق العميق، وأخضر الصنوبر الطازج، والبناء البيج الدافئ، والنسيج العاجي والملابس الزرقاء الفضية الرائعة. [اقتصاص] قص الصورة الشخصية بنسبة 3:4.",
+      "translated_at": "2026-11-26T23:51:45Z"
     },
     {
       "id": "civitai-150272559",
@@ -158103,7 +158139,7 @@
       "imported_at": "2026-11-26T12:49:28.576717+00:00",
       "import_method": "enabled_connector_auto_publish",
       "prompt_hash": "d0d2ddba046780629456154aada7ff2c0f37e2ec48617d80448f0b1306fa24b9",
-      "translation_status": "failed",
+      "translation_status": "translated",
       "translation_error": "HTTP Error 429: Too Many Requests",
       "task_type": "image",
       "modality": "image",
@@ -158117,16 +158153,402 @@
           "license": "See original Civitai item and creator/model license",
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1c35693-0910-47bb-8f39-ca7a323d35a1/original=true/f1c35693-0910-47bb-8f39-ca7a323d35a1.jpeg"
         }
+      ],
+      "prompt_ar": "تحفة، جمالية للغاية، سخافات، أفضل جودة، وجه مفصل، عيون مفصلة، نظر للمشاهد، 1goblin، brknpnclsknsfw، \nتلوين الأنمي، تحفة فنية، أفضل جودة، جودة مذهلة، خلفية بيضاء، لقطة للركبة، تكوين مركزي، تصوير على مستوى العين، منظر أمامي، تصوير في مواجهة الهدف، اتجاه عمودي\n خلفية بيضاء، خلفية بسيطة، تلوين انمي، شاشة انمي، تحفة، أفضل جودة، جودة مذهلة، تفاصيل معقدة\nلقطة لعفريت أخضر خيالي يتميز بأذنين كبيرتين مدببتين مزينتين بأقراط دائرية ذهبية ثقيلة ووجه متناسق في المنتصف تمامًا. يرتدي درعًا جلديًا ممزقًا على كتفيه وصدره، مع دلوين معدنيين صدئين يستخدمان كأحذية على قدميه. إنه أصلع.\nأسلوب الأنمي، منظر درامي من أعلى، النظر إلى المشاهد، ملامح الوجه المصقولة، ابتسامة واثقة، إضاءة سينمائية، خلفية بيضاء نظيفة، تفاصيل معقدة، خطوط واضحة، تظليل تصويري ناعم",
+      "translated_at": "2026-11-26T23:51:45Z"
+    },
+    {
+      "id": "civitai-150318874",
+      "title": "Civitai prompt 150318874",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "candid raw photo, iPhone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale skin, wearing short floral sundress no panties no bra, sandals, cute redhead, adult woman, on mall escalator going up, shot from below, sundress showing no panties underneath, upskirt, full body wide shot",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318874",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8644de75-0494-4657-a02c-3a68f62eb7fc/original=true/8644de75-0494-4657-a02c-3a68f62eb7fc.jpeg",
+      "model": "lustify_v10_krea2",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1216,
+      "seed": 8474960881784729,
+      "negative_prompt": "candid raw photo, iPhone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale skin, wearing short floral sundress no panties no bra, sandals, cute redhead, adult woman, on mall escalator going up, shot from below, sundress showing no panties underneath, upskirt, full body wide shot",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.862887+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "8ee2aa01bd21bf756d87f8d3b034c7f11b52fa1eb24f1a9f3adfd042f22a7387",
+      "prompt_ar": "صورة خام صريحة، لقطة iPhone، غير محررة بدون مرشح، إضاءة طبيعية غير مثالية، ملمس جلد حقيقي مع مسام، عيون واقعية طبيعية، منفردة، فتاة عزباء، شخص واحد فقط، امرأة شابة تبلغ من العمر 19 عامًا، شعر أحمر طويل مموج، عيون خضراء، غمازات نمش، صغيرة، بشرة شاحبة، ترتدي فستان الشمس الزهري القصير بدون سراويل داخلية ولا حمالة صدر، صنادل، أحمر الشعر لطيف، امرأة بالغة، على سلم كهربائي في المركز التجاري تصعد، لقطة من الأسفل، فستان الشمس لا يظهر أي سراويل تحتها، تنورة في الهواء، ممتلئة لقطة واسعة للجسم",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150318874 image ai-image-prompts candid raw photo, iphone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale skin, wearing short floral sundress no panties no bra, sandals, cute redhead, adult woman, on mall escalator going up, shot from below, sundress showing no panties underneath, upskirt, full body wide shot civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318874",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8644de75-0494-4657-a02c-3a68f62eb7fc/original=true/8644de75-0494-4657-a02c-3a68f62eb7fc.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318869",
+      "title": "Civitai prompt 150318869",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "candid raw photo, iPhone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale freckled skin, wearing short denim skirt no panties white cropped tank top no bra, sneakers, cute redhead, adult woman, in supermarket, pushing cart, casual shopping, naughty look, fluorescent lights, full body wide shot",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318869",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b54fdf5c-38f1-45e5-8389-13f11c3d0706/original=true/b54fdf5c-38f1-45e5-8389-13f11c3d0706.jpeg",
+      "model": "lustify_v10_krea2",
+      "model_version_ids": [],
+      "width": 832,
+      "height": 1216,
+      "seed": 643916383594414,
+      "negative_prompt": "candid raw photo, iPhone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale freckled skin, wearing short denim skirt no panties white cropped tank top no bra, sneakers, cute redhead, adult woman, in supermarket, pushing cart, casual shopping, naughty look, fluorescent lights, full body wide shot",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.862922+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5c04e97c65302a91fd6aa9cb9f2ddbe947c6500753e97d1f0c7f0800ef90c42f",
+      "prompt_ar": "صورة خام صريحة، لقطة iPhone، غير محررة بدون مرشح، إضاءة طبيعية غير مثالية، ملمس جلد حقيقي مع مسام، عيون واقعية طبيعية، منفردة، فتاة عزباء، شخص واحد فقط، امرأة شابة تبلغ من العمر 19 عامًا، شعر أحمر طويل مموج، عيون خضراء، غمازات نمش، صغيرة، بشرة منمشة شاحبة، ترتدي تنورة قصيرة من الدنيم بدون سراويل داخلية بيضاء قصيرة بدون حمالة صدر، أحذية رياضية، أحمر الشعر لطيف، امرأة بالغة، في السوبر ماركت، عربة دفع، تسوق غير رسمي، مظهر شقي، فلورسنت أضواء، لقطة واسعة لكامل الجسم",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150318869 image ai-image-prompts candid raw photo, iphone snapshot, unedited no filter, natural imperfect lighting, real skin texture with pores, natural realistic eyes, solo, single girl, one person only, young woman 19yo, long wavy red hair, green eyes, freckles dimples, petite, pale freckled skin, wearing short denim skirt no panties white cropped tank top no bra, sneakers, cute redhead, adult woman, in supermarket, pushing cart, casual shopping, naughty look, fluorescent lights, full body wide shot civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318869",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b54fdf5c-38f1-45e5-8389-13f11c3d0706/original=true/b54fdf5c-38f1-45e5-8389-13f11c3d0706.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318808",
+      "title": "Civitai prompt 150318808",
+      "category": "food",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "(portrait, smile, looking at viewer:1.3) <lora:SDXL_Endou_Natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, portrait), (leaning on railing), (innocent), (Aran sweater blazer layered over a striped top and wide-leg trousers with heels), (outdoors, A hidden oasis within a sprawling urban landscape, where the gang cultivates illegal crops and engages in illicit trade to sustain its operations.  Secret greenhouses are hidden amongst overgrown vegetation, providing a clandestine source of food and income. The air is thick with the smell of fertilizer and the scent of ripening produce. Surveillance is minimal, allowing for a degree of anonymity., evening, natural lighting (bed, pillow, bed sheets, white sheets:-1.0):1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318808",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ba6bbc9-174c-4c46-bbf2-fee43547b5e6/original=true/8ba6bbc9-174c-4c46-bbf2-fee43547b5e6.jpeg",
+      "model": "novaAsianXL_illustriousV70",
+      "model_version_ids": [
+        1405178,
+        1820705,
+        2311249,
+        3490680
+      ],
+      "width": 1088,
+      "height": 1536,
+      "seed": 3552714221,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.862944+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f797b652608c7edece1e6f8dd600f0c578b76c4d96aa575c80eb407a4b494ba5",
+      "prompt_ar": "(صورة شخصية، ابتسامة، تنظر إلى المشاهد:1.3) <lora:SDXL_Endou_Natsumi:0.7> (آسيوي، شعر أسود، شعر متوسط، قصة بوب، عيون سوداء، ثديين صغيرين)، (عام، منفرد، وحده، صورة شخصية)، (متكئ على درابزين)، (بريء)، (سترة أران فوق بلوزة مخططة وبنطلون واسع الساق بكعب)، (في الهواء الطلق، واحة مخفية داخل المناظر الطبيعية الحضرية المترامية الأطراف، حيث تقوم العصابة بزراعة المحاصيل غير المشروعة وتشارك في التجارة غير المشروعة للحفاظ على عملياتها. الدفيئات السرية مخبأة بين النباتات المتضخمة، مما يوفر مصدرًا سريًا للطعام والدخل. الهواء كثيف برائحة الأسمدة ورائحة المنتجات الناضجة ضئيلة، مما يسمح بدرجة من عدم الكشف عن هويته.، مساء، إضاءة طبيعية (سرير، وسادة، ملاءات السرير، ملاءات بيضاء: -1.0): 1.5)، صورة فوتوغرافية احترافية، واقعية ومفصلة بشكل معقد <lora:dmd2_sdxl_4step_lora:0.7>aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:44Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 150318808 food ai-image-prompts (portrait, smile, looking at viewer:1.3) <lora:sdxl_endou_natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, portrait), (leaning on railing), (innocent), (aran sweater blazer layered over a striped top and wide-leg trousers with heels), (outdoors, a hidden oasis within a sprawling urban landscape, where the gang cultivates illegal crops and engages in illicit trade to sustain its operations. secret greenhouses are hidden amongst overgrown vegetation, providing a clandestine source of food and income. the air is thick with the smell of fertilizer and the scent of ripening produce. surveillance is minimal, allowing for a degree of anonymity., evening, natural lighting (bed, pillow, bed sheets, white sheets:-1.0):1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaimageupgrader-v0.3-il:0.5> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318808",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ba6bbc9-174c-4c46-bbf2-fee43547b5e6/original=true/8ba6bbc9-174c-4c46-bbf2-fee43547b5e6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318806",
+      "title": "Civitai prompt 150318806",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "(portrait, smile, looking at viewer:1.3) <lora:SDXL_Endou_Natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, loose close-up), (hugging legs), (innocent), (tailored blazer, notch lapel, fitted waist, single-button closure, smooth fabric, crisp collar, subtle sheen, long sleeves, cuff detail, matching trousers, straight-leg cut, ankle length, coordinating belt, muted tone, polished finish), (simple background, pink background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318806",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/faf76bea-08cb-431c-bc9f-bbef60892515/original=true/faf76bea-08cb-431c-bc9f-bbef60892515.jpeg",
+      "model": "novaAsianXL_illustriousV70",
+      "model_version_ids": [
+        1405178,
+        1820705,
+        2311249,
+        3490680
+      ],
+      "width": 1088,
+      "height": 1536,
+      "seed": 4088964764,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.862974+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "26fe82296f12a754d1337b5c4b1a5fab5e0fa2fe79d5ce5d16d59925df788c01",
+      "prompt_ar": "(صورة شخصية، ابتسامة، النظر إلى المشاهد:1.3) <lora:SDXL_Endou_Natsumi:0.7> (آسيوي، شعر أسود، شعر متوسط، قصة بوب، عيون سوداء، ثديين صغيرين)، (عام، منفرد، وحيد، لقطة قريبة فضفاضة)، (أرجل معانقة)، (بريء)، (سترة مصممة، طية صدر مدببة، خصر محكم، إغلاق بزر واحد، قماش ناعم، ياقة متموجة، لمعان خفيف، أكمام طويلة، أساور تفاصيل، بنطال متناسق، قصة ساق مستقيمة، طول الكاحل، حزام منسق، درجة لون هادئة، لمسة نهائية مصقولة)، (خلفية بسيطة، خلفية وردية: 1.5)، صورة فوتوغرافية احترافية، واقعية، تفاصيل معقدة <lora:dmd2_sdxl_4step_lora:0.7>aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:44Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 150318806 image ai-image-prompts (portrait, smile, looking at viewer:1.3) <lora:sdxl_endou_natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, loose close-up), (hugging legs), (innocent), (tailored blazer, notch lapel, fitted waist, single-button closure, smooth fabric, crisp collar, subtle sheen, long sleeves, cuff detail, matching trousers, straight-leg cut, ankle length, coordinating belt, muted tone, polished finish), (simple background, pink background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaimageupgrader-v0.3-il:0.5> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318806",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/faf76bea-08cb-431c-bc9f-bbef60892515/original=true/faf76bea-08cb-431c-bc9f-bbef60892515.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318798",
+      "title": "Civitai prompt 150318798",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "(portrait, smile, looking at viewer:1.3) <lora:SDXL_Endou_Natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, cowboy shot), <lora:Pinup-Illust-p1:0.5>, (laughing), (female patient gown, pale pink, loose fit, wide sleeves, front pocket, soft cotton, long hem, white undershirt visible, no jewelry, flat shoes, short hair, simple hairstyle, medical ID tag on chest, smooth fabric, light blue accents, breathable material, easy movement, small collar, lightweight), (simple background, yellow background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318798",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79d178a4-0b14-4be3-bc9a-93066915c521/original=true/79d178a4-0b14-4be3-bc9a-93066915c521.jpeg",
+      "model": "novaAsianXL_illustriousV70",
+      "model_version_ids": [
+        1405178,
+        1562104,
+        1820705,
+        2311249
+      ],
+      "width": 1088,
+      "height": 1536,
+      "seed": 1753926101,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.862990+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "0856d3af49a03ea1a7a151ea98b7eb4559e57b8f9fa4b08f2ecaff4f65f6fb11",
+      "prompt_ar": "(صورة شخصية، ابتسامة، تنظر إلى المشاهد:1.3) <lora:SDXL_Endou_Natsumi:0.7> (آسيوي، شعر أسود، شعر متوسط، قصة بوب، عيون سوداء، ثديين صغيرين)، (عام، منفرد، وحيد، لقطة رعاة البقر)، <lora:Pinup-Illust-p1:0.5>، (يضحك)، (عباءة مريضة، وردي شاحب، قصة فضفاضة، أكمام واسعة، جيب أمامي، قطن ناعم، طويل حاشية، قميص داخلي أبيض مرئي، بدون مجوهرات، أحذية مسطحة، شعر قصير، تسريحة شعر بسيطة، بطاقة هوية طبية على الصدر، قماش ناعم، لمسات زرقاء فاتحة، مادة قابلة للتنفس، حركة سهلة، ياقة صغيرة، خفيفة الوزن)، (خلفية بسيطة، خلفية صفراء: 1.5)، صورة فوتوغرافية احترافية، واقعية، مفصلة بشكل معقد <lora:dmd2_sdxl_4step_lora:0.7>aidmaimageupgrader <لورا:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 150318798 image ai-image-prompts (portrait, smile, looking at viewer:1.3) <lora:sdxl_endou_natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, cowboy shot), <lora:pinup-illust-p1:0.5>, (laughing), (female patient gown, pale pink, loose fit, wide sleeves, front pocket, soft cotton, long hem, white undershirt visible, no jewelry, flat shoes, short hair, simple hairstyle, medical id tag on chest, smooth fabric, light blue accents, breathable material, easy movement, small collar, lightweight), (simple background, yellow background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaimageupgrader-v0.3-il:0.5> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318798",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79d178a4-0b14-4be3-bc9a-93066915c521/original=true/79d178a4-0b14-4be3-bc9a-93066915c521.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318787",
+      "title": "Civitai prompt 150318787",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "SDXL"
+      ],
+      "prompt": "(portrait, smile, looking at viewer:1.3) <lora:SDXL_Endou_Natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, portrait), <lora:Pinup-Illust-p1:0.5>, (innocent), (female patient gown, pale pink, loose fit, wide sleeves, front pocket, soft cotton, long hem, white undershirt visible, no jewelry, flat shoes, short hair, simple hairstyle, medical ID tag on chest, smooth fabric, light blue accents, breathable material, easy movement, small collar, lightweight), (simple background, red background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318787",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5836b5f9-0d97-46ec-bee3-8ef8549aae6a/original=true/5836b5f9-0d97-46ec-bee3-8ef8549aae6a.jpeg",
+      "model": "novaAsianXL_illustriousV70",
+      "model_version_ids": [
+        1405178,
+        1562104,
+        1820705,
+        2311249
+      ],
+      "width": 1088,
+      "height": 1536,
+      "seed": 1753926098,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.863003+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "62a938e7bf46ecd376d217243616cdb8289f78f92e140980f361cf52cf5a9c52",
+      "prompt_ar": "(صورة شخصية، ابتسامة، النظر إلى المشاهد:1.3) <lora:SDXL_Endou_Natsumi:0.7> (آسيوي، شعر أسود، شعر متوسط، قصة بوب، عيون سوداء، ثديين صغيرين)، (عام، منفرد، وحده، صورة)، <lora:Pinup-Illust-p1:0.5>، (بريء)، (ثوب مريضة، وردي شاحب، قصة فضفاضة، أكمام واسعة، جيب أمامي، قطن ناعم، حاشية طويلة، قميص داخلي أبيض مرئي، بدون مجوهرات، أحذية مسطحة، شعر قصير، تسريحة شعر بسيطة، بطاقة هوية طبية على الصدر، قماش ناعم، لمسات زرقاء فاتحة، مادة قابلة للتنفس، حركة سهلة، ياقة صغيرة، خفيفة الوزن)، (خلفية بسيطة، خلفية حمراء: 1.5)، صورة فوتوغرافية احترافية، واقعية، مفصلة بشكل معقد <lora:dmd2_sdxl_4step_lora:0.7>aidmaimageupgrader <lora:aidmaImageUpgrader-v0.3-IL:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "SDXL"
+      ],
+      "search_text": "civitai prompt 150318787 image ai-image-prompts (portrait, smile, looking at viewer:1.3) <lora:sdxl_endou_natsumi:0.7> (asian, black hair, medium hair, bob cut, black eyes, small breasts), (general, solo, alone, portrait), <lora:pinup-illust-p1:0.5>, (innocent), (female patient gown, pale pink, loose fit, wide sleeves, front pocket, soft cotton, long hem, white undershirt visible, no jewelry, flat shoes, short hair, simple hairstyle, medical id tag on chest, smooth fabric, light blue accents, breathable material, easy movement, small collar, lightweight), (simple background, red background:1.5), professional photograph, photorealistic, intricately detailed <lora:dmd2_sdxl_4step_lora:0.7> aidmaimageupgrader <lora:aidmaimageupgrader-v0.3-il:0.5> civitai ai-image imported api sdxl sdxl",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318787",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5836b5f9-0d97-46ec-bee3-8ef8549aae6a/original=true/5836b5f9-0d97-46ec-bee3-8ef8549aae6a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318693",
+      "title": "Civitai prompt 150318693",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Smooth_Quality, (masterpiece :1.5), (best quality :1.5), amazing quality, very aesthetic, high resolution,  (4k, Ultra HD),  zzJolteon, electric sparks trailing from its paws and tail in a blur of yellow light.    <lora:JolteonPokedex_IXL:1.0>, Jolteon, zzJolteon, looking at viewer, jumping, running, centred, (perfect eyes) Black background, ultra-detailed, absurdres, JFTMVR, s3lfxp, digital media, detailed, realistic volumetric lighting, (dynamic pose:1.4), full body, foreshortening, extreme perspective, newest, very detailed, high quality, from above, source_anime, pokemon_(creature), dynamic composition, (harada takehito:1.2), (kotteri,masha,himukai yuuji:1.2) digital art, surreal, dynamic composition, (depth of field:1.5), (simple yellow background:1.5), <lora:Nezumi_Style_Lora_Illustrious_V7-000013:0.7>hdr:2.5 <lora:JFTMVR:0.5> jftmvr \nh4rdcrash, creepy aesthetic NeonPal_PDXL",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318693",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/612dd8ea-3cd9-40ed-8605-7106f410c1f7/original=true/612dd8ea-3cd9-40ed-8605-7106f410c1f7.jpeg",
+      "model_version_ids": [
+        1652667,
+        1714002,
+        1899930,
+        2112496
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 287550340,
+      "negative_prompt": "Smooth_Negative, SmoothNegative_Hands, worst quality, low quality, bad quality, nudity, cleavage, swimsuit, bad anatomy, nudity, poor poses, Chibi, Nipples, Genitalia, sexually suggestive, Ecchi, deformed, mutation, multi limb, amputee, signature, deformed, blurry, disfigured, mutated, extra limb, ugly, out of focus, focal blur, logo, text, watermark, Smooth_Negative-neg, SmoothNegative_Hands-neg, censored, username, signature, patreon logo, bad anatomy, distorted, extra limbs, deformed paws, deformed face, deformed eyes, low quality, medium quality, (deformed tail, two tails, extra tail), ENDXL_Neg_V2-neg, IllusN3g, unaestheticXL_cbp62 -neg, buttlocks, sexy, buttlocks, (bipedal), deformed face, deformed body, multiple persona, covered face, (grey fur in head)",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.863017+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f68aa0c6b50de051f8c173c980fc003c536c8e1e321e18ae3cb6ae0f97cfb0ed",
+      "prompt_ar": "جودة_سلسة، (تحفة: 1.5)، (أفضل جودة: 1.5)، جودة مذهلة، جمالية للغاية، دقة عالية، (4K، Ultra HD)، zzJolteon، شرارات كهربائية تتدفق من كفيه وذيله في ضبابية من الضوء الأصفر.    <lora:JolteonPokedex_IXL:1.0>، Jolteon، zzJolteon، النظر إلى المشاهد، القفز، الجري، في المنتصف، (عيون مثالية) خلفية سوداء، مفصلة للغاية، عبثية، JFTMVR، s3lfxp، الوسائط الرقمية، إضاءة حجمية مفصلة وواقعية، (وضع ديناميكي: 1.4)، كامل الجسم، تقصير، منظور متطرف، الأحدث، مفصل للغاية، جودة عالية، من الأعلى، مصدر_أنمي، بوكيمون_(مخلوق)، تكوين ديناميكي، (هارادا تاكيهيتو: 1.2)، (kotteri،masha،himukai yuuji: 1.2) فن رقمي، سريالي، تكوين ديناميكي، (عمق المجال: 1.5)، (خلفية صفراء بسيطة: 1.5)، <lora:Nezumi_Style_Lora_Illustious_V7-000013:0.7>HDR:2.5 <لورا:JFTMVR:0.5> jftmvr \nh4rdcrash، الجمالية المخيفة NeonPal_PDXL",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150318693 image ai-image-prompts smooth_quality, (masterpiece :1.5), (best quality :1.5), amazing quality, very aesthetic, high resolution, (4k, ultra hd), zzjolteon, electric sparks trailing from its paws and tail in a blur of yellow light. <lora:jolteonpokedex_ixl:1.0>, jolteon, zzjolteon, looking at viewer, jumping, running, centred, (perfect eyes) black background, ultra-detailed, absurdres, jftmvr, s3lfxp, digital media, detailed, realistic volumetric lighting, (dynamic pose:1.4), full body, foreshortening, extreme perspective, newest, very detailed, high quality, from above, source_anime, pokemon_(creature), dynamic composition, (harada takehito:1.2), (kotteri,masha,himukai yuuji:1.2) digital art, surreal, dynamic composition, (depth of field:1.5), (simple yellow background:1.5), <lora:nezumi_style_lora_illustrious_v7-000013:0.7>hdr:2.5 <lora:jftmvr:0.5> jftmvr h4rdcrash, creepy aesthetic neonpal_pdxl civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318693",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/612dd8ea-3cd9-40ed-8605-7106f410c1f7/original=true/612dd8ea-3cd9-40ed-8605-7106f410c1f7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150318237",
+      "title": "Civitai prompt 150318237",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Vintage Halloween screenprint poster with Pop surrealism energy, dreamlike pastel palette, uncanny whimsy, coarse halftone dots, soft ink registration drift, flat graphic shapes, and eerie carnival mood.\nA stagnant marsh spreads across the bottom of the composition, painted in layered washes of seafoam green, dusty teal, and pale violet fog. The sky is a flat sickly turquoise field, crossed by thin cream cloud bands and a faint apricot glow near the horizon. Cattails, broken fences, and distant leafless shapes sit behind the main tree as simplified black silhouettes.\nA colossal skeletal dead tree dominates the center, its trunk leaning slightly and its branches curling outward like hooked claws. The bark is rendered as pale ash grey plates shaped into gaunt rib forms, with hollow dark gaps between each rib curve. Dozens of mismatched pale-yellow eyes stare from knotholes across the trunk and limbs, some round, some almond shaped, some half lidded, all glowing with flat buttery ink and soft halo dots. The tree carries a strong ink-hatched silhouette, built from black contour lines, stippled shadows, and coarse print texture.\nA tiny wide-eyed traveler stands at the base of the roots in the lower right foreground, planted on a thick mossy root with both feet. The traveler leans back slightly, shoulders raised, elbows bent, and both hands gripping a flickering brass lantern near the chin. The face is small but clear, with enlarged eyes, a parted mouth, and a stunned upward gaze toward the watching tree. The lantern throws a warm orange cone across the roots and the traveler's coat, while cold mint ambient light rims the tree bark and fog banks.\nThe image uses pastel screenprint color, with mint, teal, lilac, cream, pale yellow, rust orange, and charcoal black. Halftone dots thicken in the shadows and soften in the glowing eyes. Slight ink misregistration creates ghost edges around the branches and lantern light. Fine details include cracked root ridges, wet marsh reflections, tiny paper fiber specks, and soft luminous rings around each pale-yellow eye.",
+      "quality_score": 8.7,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150318237",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c44b3b1-2f81-4932-a635-a343c05f6a97/original=true/8c44b3b1-2f81-4932-a635-a343c05f6a97.jpeg",
+      "model_version_ids": [
+        3409867
+      ],
+      "width": 832,
+      "height": 1216,
+      "seed": 614424171,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-26T23:51:41.863048+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "5aa5132c95047f8df85ef6d8d7f8b9b28382a4a5ab2129b353361b9d35e41e7c",
+      "prompt_ar": "ملصق طباعة شاشة الهالوين العتيق مع طاقة البوب ​​السريالية، لوحة ألوان باستيل تشبه الحلم، غريبة الأطوار، نقاط نصفية خشنة، انجراف تسجيل الحبر الناعم، أشكال رسومية مسطحة، ومزاج كرنفال غريب.\nينتشر المستنقع الراكد عبر الجزء السفلي من التركيبة، وهو مطلي بطبقات من زبد البحر باللون الأخضر، والأزرق المخضر المغبر، والضباب البنفسجي الشاحب. السماء عبارة عن حقل مسطح باللون الفيروزي المؤلم، تتقاطع معه أشرطة سحابية كريمية رقيقة وتوهج مشمشي خافت بالقرب من الأفق. توجد نباتات القطف والأسوار المكسورة والأشكال البعيدة الخالية من الأوراق خلف الشجرة الرئيسية كصور ظلية سوداء مبسطة.\nتهيمن شجرة ميتة ضخمة على المركز، ويميل جذعها قليلاً وأغصانها تتجعد نحو الخارج مثل المخالب المعقوفة. يتم تقديم اللحاء على شكل صفائح رمادية فاتحة اللون على شكل ضلع هزيل، مع وجود فجوات داكنة مجوفة بين كل منحنى ضلع. تحدق العشرات من العيون الصفراء الشاحبة غير المتطابقة من خلال العقد عبر الجذع والأطراف، بعضها مستدير، وبعضها على شكل لوز، وبعضها نصف جفن، وكلها متوهجة بحبر زبداني مسطح ونقاط هالة ناعمة. تحمل الشجرة صورة ظلية قوية مظللة بالحبر، مبنية من خطوط كفاف سوداء وظلال منقطّة وملمس مطبوع خشن.\nيقف مسافر صغير واسع العينين عند قاعدة الجذور في المقدمة اليمنى السفلية، مزروعًا على جذر مطحلب سميك بكلتا قدميه. يميل المسافر إلى الخلف قليلًا، ويرفع كتفيه، ويثني مرفقيه، وتمسك كلتا يديه بمصباح نحاسي وامض بالقرب من ذقنه. الوجه صغير ولكنه واضح، مع عيون مكبرة، وفم منفصل، ونظرة مذهلة نحو الشجرة المراقبة. يلقي الفانوس مخروطًا برتقاليًا دافئًا عبر الجذور ومعطف المسافر، بينما يحيط الضوء المحيط بالنعناع البارد لحاء الشجرة وضفاف الضباب.\nتستخدم الصورة لون طباعة الشاشة الباستيل، مع النعناع، ​​والأزرق المخضر، والأرجواني، والكريمي، والأصفر الشاحب، والبرتقالي الصدئ، والأسود الفحمي. تتكاثف نقاط الألوان النصفية في الظلال وتنعم في العيون المتوهجة. يؤدي التسجيل الخاطئ للحبر بشكل طفيف إلى إنشاء حواف شبحية حول الفروع وضوء الفانوس. تتضمن التفاصيل الدقيقة حواف الجذور المتشققة، وانعكاسات المستنقعات الرطبة، وبقع صغيرة من الألياف الورقية، وحلقات مضيئة ناعمة حول كل عين صفراء شاحبة.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-26T23:51:45Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150318237 image ai-image-prompts vintage halloween screenprint poster with pop surrealism energy, dreamlike pastel palette, uncanny whimsy, coarse halftone dots, soft ink registration drift, flat graphic shapes, and eerie carnival mood. a stagnant marsh spreads across the bottom of the composition, painted in layered washes of seafoam green, dusty teal, and pale violet fog. the sky is a flat sickly turquoise field, crossed by thin cream cloud bands and a faint apricot glow near the horizon. cattails, broken fences, and distant leafless shapes sit behind the main tree as simplified black silhouettes. a colossal skeletal dead tree dominates the center, its trunk leaning slightly and its branches curling outward like hooked claws. the bark is rendered as pale ash grey plates shaped into gaunt rib forms, with hollow dark gaps between each rib curve. dozens of mismatched pale-yellow eyes stare from knotholes across the trunk and limbs, some round, some almond shaped, some half lidded, all glowing with flat buttery ink and soft halo dots. the tree carries a strong ink-hatched silhouette, built from black contour lines, stippled shadows, and coarse print texture. a tiny wide-eyed traveler stands at the base of the roots in the lower right foreground, planted on a thick mossy root with both feet. the traveler leans back slightly, shoulders raised, elbows bent, and both hands gripping a flickering brass lantern near the chin. the face is small but clear, with enlarged eyes, a parted mouth, and a stunned upward gaze toward the watching tree. the lantern throws a warm orange cone across the roots and the traveler's coat, while cold mint ambient light rims the tree bark and fog banks. the image uses pastel screenprint color, with mint, teal, lilac, cream, pale yellow, rust orange, and charcoal black. halftone dots thicken in the shadows and soften in the glowing eyes. slight ink misregistration creates ghost edges around the branches and lantern light. fine details include cracked root ridges, wet marsh reflections, tiny paper fiber specks, and soft luminous rings around each pale-yellow eye. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150318237",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c44b3b1-2f81-4932-a635-a343c05f6a97/original=true/8c44b3b1-2f81-4932-a635-a343c05f6a97.jpeg"
+        }
       ]
     }
   ],
-  "generated_at": "2026-11-26T12:49:31.535306+00:00",
-  "prompt_count": 3447,
+  "generated_at": "2026-11-26T23:51:46.755534+00:00",
+  "prompt_count": 3455,
   "translation": {
     "language": "ar",
-    "translated_count": 0,
+    "translated_count": 27,
     "skipped_count": 3421,
-    "failed_count": 26,
-    "updated_at": "2026-11-26T12:49:30Z"
+    "failed_count": 7,
+    "updated_at": "2026-11-26T23:51:45Z"
   }
 }
