@@ -159692,15 +159692,707 @@
           "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/accb1650-bda2-4b16-9940-a2f93a1205e1/original=true/accb1650-bda2-4b16-9940-a2f93a1205e1.jpeg"
         }
       ]
+    },
+    {
+      "id": "civitai-150421056",
+      "title": "Civitai prompt 150421056",
+      "category": "fashion",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A moody, high-fashion close-up portrait of a woman with voluminous, wind-swept auburn hair, set against a dark void. A harsh red neon glow from below illuminates her features, creating deep shadows and a cinematic, noir-inspired atmosphere\",\"compositional_deconstruction\":{\"background\":\"A pitch-black, light-absorbent studio backdrop with no visible floor or horizon. The atmosphere is thick with a subtle haze that catches the red spill from the primary light source located below the frame\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,999,1000],\"desc\":\"A young woman with a striking, slightly parted expression and a direct, sultry gaze. Her thick, wavy mahogany-brown hair is tossed upward, obscuring parts of her face. A vivid red key light from the bottom left defines her jawline and hair texture, while her right side recedes into deep shadow\"},{\"type\":\"text\",\"bbox\":[65,818,752,992],\"text\":\"CHARM\",\"desc\":\"Cursive, fluid neon script in a vibrant crimson-red. The text glows with a bright white-hot core, casting a soft red halo onto the woman's lower torso and the stray strands of her hair. The font is hand-written, resembling a glowing signature\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150421056",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1075fe0-40d7-4c43-94aa-ad2942024d0e/original=true/f1075fe0-40d7-4c43-94aa-ad2942024d0e.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 42,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878518+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "566de426dc8f85fb3dc41cd1d28f01e79ded22f753a83586999d2bfe2f4fb2d6",
+      "prompt_ar": "{\"high_level_description\": صورة مقربة متقلبة الطراز لامرأة ذات شعر بني محمر كثيف اجتاحته الريح، في مواجهة فراغ مظلم. يضيء توهج النيون الأحمر القاسي من الأسفل ملامحها، مما يخلق ظلالًا عميقة وأجواء سينمائية مستوحاة من فيلم noirnish، \"compositional_deconstruction\":{\"background\": خلفية استوديو سوداء قاتمة، ماصة للضوء بدون أرضية أو أفق مرئي. الجو سميك مع طبقة خفية ضباب يلتقط الانسكاب الأحمر من مصدر الضوء الأساسي الموجود أسفل الإطار، \"عناصر\":[{\"type\":obj\"،\"bbox\":[0,0,999,1000],\"desc\":\"امرأة شابة ذات تعبير ملفت للنظر ومتباعد قليلاً ونظرة مباشرة ومثيرة. شعرها الكثيف والمموج ذو اللون البني الماهوغوني مرفوع إلى الأعلى، مما يحجب أجزاء من وجهها. يحدد الضوء الأحمر الزاهي من أسفل اليسار خط فكها وملمس شعرها يتراجع الجانب الأيمن إلى ظل عميق\"},{\"type\":text\"،bbox\":[65,818,752,992],\"text\":CHARM\"،desc\":خط نيون سلس ومخطوط باللون الأحمر القرمزي النابض بالحياة. يتوهج النص بنواة بيضاء ساطعة، ويلقي هالة حمراء ناعمة على الجزء السفلي من جسم المرأة وخصلات شعرها المتناثرة. الخط مكتوب بخط اليد، يشبه التوهج التوقيع\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 150421056 fashion ai-image-prompts {\"high_level_description\":\"a moody, high-fashion close-up portrait of a woman with voluminous, wind-swept auburn hair, set against a dark void. a harsh red neon glow from below illuminates her features, creating deep shadows and a cinematic, noir-inspired atmosphere\",\"compositional_deconstruction\":{\"background\":\"a pitch-black, light-absorbent studio backdrop with no visible floor or horizon. the atmosphere is thick with a subtle haze that catches the red spill from the primary light source located below the frame\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,999,1000],\"desc\":\"a young woman with a striking, slightly parted expression and a direct, sultry gaze. her thick, wavy mahogany-brown hair is tossed upward, obscuring parts of her face. a vivid red key light from the bottom left defines her jawline and hair texture, while her right side recedes into deep shadow\"},{\"type\":\"text\",\"bbox\":[65,818,752,992],\"text\":\"charm\",\"desc\":\"cursive, fluid neon script in a vibrant crimson-red. the text glows with a bright white-hot core, casting a soft red halo onto the woman's lower torso and the stray strands of her hair. the font is hand-written, resembling a glowing signature\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150421056",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1075fe0-40d7-4c43-94aa-ad2942024d0e/original=true/f1075fe0-40d7-4c43-94aa-ad2942024d0e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150421054",
+      "title": "Civitai prompt 150421054",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"A haunting cinematic portrait of a pale young woman in a vivid red wool cloak, leaning against a pile of raw sheep's wool while an older woman watches over her shoulder in a foggy, rustic homestead setting\",\"compositional_deconstruction\":{\"background\":\"Primary background: A desolate, mist-shrouded rural scene featuring a weathered, silvered-wood log cabin with a thatched roof in the deep background. The ground is damp earth and wild grass, bathed in flat, diffused overcast daylight coming from above, creating a somber, desaturated atmosphere with soft, heavy shadows\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,786,466],\"desc\":\"A thick, gnarled tree branch with peeling bark and patches of green moss, extending diagonally from the top left. The top surface is caught in the cool skylight, while the underside is dark and textured with age and decay\"},{\"type\":\"obj\",\"bbox\":[417,140,735,440],\"desc\":\"An older woman with deeply lined, sun-weathered skin and gray hair pulled back. She has a protective, weary expression, her hand resting on the younger woman's shoulder. Her face is keyed from the top, casting soft shadows into her eyes and along her prominent cheekbones\"},{\"type\":\"obj\",\"bbox\":[170,205,988,988],\"desc\":\"A pale young woman with translucent skin, freckles across her nose, and damp, dark brown hair. She wears a heavy, blood-red wool cloak with a large hood. Her light blue eyes gaze directly at the viewer. The red fabric is rich and matte, catching soft top-down light on the folds\"},{\"type\":\"obj\",\"bbox\":[0,344,442,996],\"desc\":\"A massive, overflowing pile of raw, unwashed sheep's wool in shades of oily gray and beige, showing curly, lanolin-heavy textures. It acts as a soft support for the woman, with deep shadows between the matted clumps and soft highlights on the top curves\"},{\"type\":\"obj\",\"bbox\":[123,625,760,991],\"desc\":\"A woven wicker laundry basket filled with rumpled white linen cloths. The basket shows a 'story-fossil' of a broken reed on the left edge. The white fabric provides a stark, bright contrast to the red cloak, illuminated by the flat, ambient gray light\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150421054",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f29172a-97f4-491c-ad98-b0a46ba9337d/original=true/3f29172a-97f4-491c-ad98-b0a46ba9337d.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 42,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878558+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c0e2b5080cff80838ddf6a990b23563ed358052f3f1d8263d1633a406215e44d",
+      "prompt_ar": "{\"high_level_description\":\"صورة سينمائية مؤثرة لامرأة شابة شاحبة ترتدي عباءة من الصوف الأحمر الزاهي، تتكئ على كومة من صوف الأغنام الخام بينما تراقب امرأة مسنة فوق كتفها في منزل ريفي ضبابي. \"compositional_deconstruction\":{\"background\": \"الخلفية الأساسية: مشهد ريفي مقفر ومغطى بالضباب يضم مقصورة خشبية من الخشب الفضي مع سقف من القش في الخلفية العميقة. الأرض عبارة عن أرض رطبة وبرية العشب، يغمره ضوء النهار المسطح والمنتشر الملبد بالغيوم القادم من الأعلى، مما يخلق جوًا كئيبًا وغير مشبع مع ظلال ناعمة وثقيلة، \"عناصر\":[{\"type\":obj\"،\"،bbox\":[0,0,786,466],\"desc\":فرع شجرة سميك معقود مع لحاء مقشر وبقع من الطحالب الخضراء، يمتد قطريًا من أعلى اليسار. السطح العلوي عالق في كوة باردة، بينما الجانب السفلي داكن ومزخرف \"العمر والانحلال\"},{\"type\":\"obj\"،\"bbox\":[417,140,735,440]\"،desc\":\"امرأة مسنة ذات بشرة رمادية مبطنة بعمق وشعر رمادي متراجع إلى الخلف. لديها تعبير وقائي ومرهق، وتستقر يدها على كتف المرأة الأصغر سنًا، ويلقي وجهها بظلال ناعمة على عينيها وعلى طول جسدها البارز \"عظام الخد\"},{\"type\":\"obj\"،\"bbox\":[170,205,988,988]\"،desc\":\"امرأة شابة شاحبة ذات بشرة شفافة ونمش على أنفها وشعر بني غامق رطب. ترتدي عباءة ثقيلة من الصوف باللون الأحمر الدموي مع غطاء كبير. عيونها الزرقاء الفاتحة تحدق مباشرة في المشاهد. القماش الأحمر غني وغير لامع، يلتقط ضوءًا ناعمًا من أعلى إلى أسفل folds\"},{\"type\":\"obj\"،\"bbox\":[0,344,442,996],\"desc\":كومة ضخمة من صوف الأغنام الخام غير المغسول بظلال من اللون الرمادي الزيتي والبيج، تُظهر قوامًا مجعدًا كثيفًا من اللانولين، وهو بمثابة دعم ناعم للمرأة، مع ظلال عميقة بين الكتل المتشابكة والإبرازات الناعمة في الأعلى منحنيات\"},{\"type\":\"obj\"،\"bbox\":[123,625,760,991],\"desc\":\"سلة غسيل منسوجة من الخيزران مملوءة بأقمشة الكتان البيضاء المجعدة. تُظهر السلة \"قصة أحفورية\" لقصب مكسور على الحافة اليسرى. يوفر القماش الأبيض تباينًا صارخًا ومشرقًا مع العباءة الحمراء، مضاءة بالضوء الرمادي المحيط المسطح\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 150421054 image ai-image-prompts {\"high_level_description\":\"a haunting cinematic portrait of a pale young woman in a vivid red wool cloak, leaning against a pile of raw sheep's wool while an older woman watches over her shoulder in a foggy, rustic homestead setting\",\"compositional_deconstruction\":{\"background\":\"primary background: a desolate, mist-shrouded rural scene featuring a weathered, silvered-wood log cabin with a thatched roof in the deep background. the ground is damp earth and wild grass, bathed in flat, diffused overcast daylight coming from above, creating a somber, desaturated atmosphere with soft, heavy shadows\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,0,786,466],\"desc\":\"a thick, gnarled tree branch with peeling bark and patches of green moss, extending diagonally from the top left. the top surface is caught in the cool skylight, while the underside is dark and textured with age and decay\"},{\"type\":\"obj\",\"bbox\":[417,140,735,440],\"desc\":\"an older woman with deeply lined, sun-weathered skin and gray hair pulled back. she has a protective, weary expression, her hand resting on the younger woman's shoulder. her face is keyed from the top, casting soft shadows into her eyes and along her prominent cheekbones\"},{\"type\":\"obj\",\"bbox\":[170,205,988,988],\"desc\":\"a pale young woman with translucent skin, freckles across her nose, and damp, dark brown hair. she wears a heavy, blood-red wool cloak with a large hood. her light blue eyes gaze directly at the viewer. the red fabric is rich and matte, catching soft top-down light on the folds\"},{\"type\":\"obj\",\"bbox\":[0,344,442,996],\"desc\":\"a massive, overflowing pile of raw, unwashed sheep's wool in shades of oily gray and beige, showing curly, lanolin-heavy textures. it acts as a soft support for the woman, with deep shadows between the matted clumps and soft highlights on the top curves\"},{\"type\":\"obj\",\"bbox\":[123,625,760,991],\"desc\":\"a woven wicker laundry basket filled with rumpled white linen cloths. the basket shows a 'story-fossil' of a broken reed on the left edge. the white fabric provides a stark, bright contrast to the red cloak, illuminated by the flat, ambient gray light\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneyanalog19k2_d32a32e10:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150421054",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f29172a-97f4-491c-ad98-b0a46ba9337d/original=true/3f29172a-97f4-491c-ad98-b0a46ba9337d.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150421053",
+      "title": "Civitai prompt 150421053",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Midjourney"
+      ],
+      "prompt": "{\"high_level_description\":\"Cinematic fashion portrait of a stylish couple in a cluttered, kitsch kitchen. A man in a patterned shirt sips tea while a woman with a sharp bob in a gold satin robe stares intensely, surrounded by shelves of blue-and-white porcelain\",\"compositional_deconstruction\":{\"background\":\"Primary background is a set of white-painted wooden kitchen shelves packed with an overflowing collection of antique blue-and-white chinoiserie teapots, ceramic figurines, and glass jars. A delicate white lace doily hangs over the top shelf. Dim, warm indoor lighting creates soft shadows against the white cabinetry\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,251,540,985],\"desc\":\"A young man with damp, dark disheveled hair and sun-kissed skin. He wears a short-sleeved shirt with a dense architectural print and a matching patterned tie over a white collar. He holds a small, chipped ceramic teacup to his lips. Warm key light strikes his right cheek, leaving the left in soft shadow\"},{\"type\":\"obj\",\"bbox\":[466,330,996,994],\"desc\":\"A woman with fair, freckled skin and a copper-toned blunt bob with micro-fringe. She wears a voluminous, olive-gold satin robe with heavy pleats that catch a metallic sheen. Her lips are painted a bold, matte scarlet. She gazes directly forward with pale blue eyes. Sharp highlights glint off the silk shoulders\"},{\"type\":\"obj\",\"bbox\":[527,18,670,150],\"desc\":\"A large ceramic teapot with intricate blue floral patterns, sitting on the top shelf. The glazed surface reflects a soft white highlight from the overhead light source. A small hairline fracture is visible near the base of the spout, suggesting long-term use\"},{\"type\":\"obj\",\"bbox\":[242,516,382,551],\"desc\":\"A small, shallow ceramic teacup with a thin brown rim and faded floral interior detail. It is held delicately between the man's fingers, positioned just below his nose as if tasting the aroma. The ceramic has a dull, eggshell finish\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "quality_score": 8.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150421053",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e57a18c2-ae5d-4888-bf4e-253439b045ee/original=true/e57a18c2-ae5d-4888-bf4e-253439b045ee.jpeg",
+      "model": "krea-2-raw",
+      "model_version_ids": [
+        3066079,
+        3072329
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 420,
+      "negative_prompt": "EasyNegative",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878578+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b9fb8d363aaf9c70586f458b88b17b65044766eeb291a14bd036c6f875b1708a",
+      "prompt_ar": "{\"high_level_description\":\"صورة أزياء سينمائية لزوجين أنيقين في مطبخ فوضوي ومزدحم. رجل يرتدي قميصًا منقوشًا يرشف الشاي بينما تحدق امرأة ذات شعر حاد ترتدي رداء ساتان ذهبي بكثافة، وتحيط بها أرفف من الخزف باللونين الأزرق والأبيض\"، \"compositional_deconstruction\":{\"background\": الخلفية الأساسية عبارة عن مجموعة من أرفف المطبخ الخشبية المطلية باللون الأبيض المليئة بمجموعة كبيرة من الخزف الصيني العتيق باللونين الأزرق والأبيض أباريق الشاي والتماثيل الخزفية والجرار الزجاجية. مفرش دانتيل أبيض رقيق معلق فوق الرف العلوي. تخلق الإضاءة الداخلية الخافتة والدافئة ظلالًا ناعمة على الخزانات البيضاء، \"عناصر\":[{\"type\":\"،bbox\":[0,251,540,985],\"desc\":\"شاب ذو شعر رطب أشعث داكن وبشرة مشمسة. يرتدي قميصًا قصير الأكمام بطبعة معمارية كثيفة وربطة عنق منقوشة متطابقة ياقة بيضاء. يحمل فنجان شاي صغيرًا من السيراميك على شفتيه. يضرب الضوء الرئيسي الدافئ خده الأيمن، ويترك اليسار في ظل ناعم\"},{\"type\":obj\"،\"bbox\":[466,330,996,994],\"desc\":\"امرأة ذات بشرة فاتحة منمشة وشعر قصير نحاسي مع هامش صغير. ترتدي رداءً ضخمًا من الساتان باللون الذهبي الزيتوني مع طيات ثقيلة تخطف الأنظار لمعان. تم طلاء شفتيها باللون القرمزي غير اللامع. وهي تحدق مباشرة إلى الأمام بعيون زرقاء شاحبة وتتلألأ من أكتافها الحريرية\"},{\"type\":\"obj\"،\"bbox\":[527,18,670,150],\"desc\":\"يوجد إبريق شاي خزفي كبير به أنماط زهرية زرقاء معقدة، ويعكس السطح المزجج تسليط الضوء الأبيض الناعم من مصدر الضوء العلوي صنبور، يقترح الاستخدام على المدى الطويل\"},{\"type\":\"obj\"،\"bbox\":[242,516,382,551],\"desc\":\"فنجان شاي صغير من السيراميك ذو حافة بنية رفيعة وتفاصيل داخلية زهرية باهتة. يتم حمله بدقة بين أصابع الرجل، ويتم وضعه أسفل أنفه مباشرةً كما لو كان يتذوق الرائحة.\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [
+        "Midjourney"
+      ],
+      "search_text": "civitai prompt 150421053 architecture ai-image-prompts {\"high_level_description\":\"cinematic fashion portrait of a stylish couple in a cluttered, kitsch kitchen. a man in a patterned shirt sips tea while a woman with a sharp bob in a gold satin robe stares intensely, surrounded by shelves of blue-and-white porcelain\",\"compositional_deconstruction\":{\"background\":\"primary background is a set of white-painted wooden kitchen shelves packed with an overflowing collection of antique blue-and-white chinoiserie teapots, ceramic figurines, and glass jars. a delicate white lace doily hangs over the top shelf. dim, warm indoor lighting creates soft shadows against the white cabinetry\",\"elements\":[{\"type\":\"obj\",\"bbox\":[0,251,540,985],\"desc\":\"a young man with damp, dark disheveled hair and sun-kissed skin. he wears a short-sleeved shirt with a dense architectural print and a matching patterned tie over a white collar. he holds a small, chipped ceramic teacup to his lips. warm key light strikes his right cheek, leaving the left in soft shadow\"},{\"type\":\"obj\",\"bbox\":[466,330,996,994],\"desc\":\"a woman with fair, freckled skin and a copper-toned blunt bob with micro-fringe. she wears a voluminous, olive-gold satin robe with heavy pleats that catch a metallic sheen. her lips are painted a bold, matte scarlet. she gazes directly forward with pale blue eyes. sharp highlights glint off the silk shoulders\"},{\"type\":\"obj\",\"bbox\":[527,18,670,150],\"desc\":\"a large ceramic teapot with intricate blue floral patterns, sitting on the top shelf. the glazed surface reflects a soft white highlight from the overhead light source. a small hairline fracture is visible near the base of the spout, suggesting long-term use\"},{\"type\":\"obj\",\"bbox\":[242,516,382,551],\"desc\":\"a small, shallow ceramic teacup with a thin brown rim and faded floral interior detail. it is held delicately between the man's fingers, positioned just below his nose as if tasting the aroma. the ceramic has a dull, eggshell finish\"}]}} <lora:krea2_raw_to_turbo_r256_comfy:0.6> <lora:photojournalisticjson1k2_d32a16e8:0.7> <lora:midjourneypastel13k2_d32a32e20:1.0> civitai ai-image imported api midjourney midjourney",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150421053",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e57a18c2-ae5d-4888-bf4e-253439b045ee/original=true/e57a18c2-ae5d-4888-bf4e-253439b045ee.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150384593",
+      "title": "Civitai prompt 150384593",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup,\nwinter jacket with hood, sporty jacket, oversized jacket,\ndark grey jacket, open jacket\n, BREAK\nred shirt, untucked shirt, oversized shirt, draped shirt\n,\nfull body shot\n,\n(long skirt:1.2), tight skirt, white skirt, draped skirt\n, winter,\nStarbucks\n,\nhands up\n,\nlove, sweet, looking at viewer\n, BREAK\nblack hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, cinematic lighting, CN Girl6, <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <lora:st-fs_v1.1:-0.8> <lora:exposure_control_v10:0.3> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150384593",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a5a9af3-0d6d-4a66-9f70-536d4e3c6af1/original=true/9a5a9af3-0d6d-4a66-9f70-536d4e3c6af1.jpeg",
+      "model": "cosplaymix_v42",
+      "model_version_ids": [
+        101461,
+        122388,
+        123045,
+        130189,
+        146373,
+        154448,
+        167456,
+        180175
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 3491404939,
+      "negative_prompt": "(bad face, 3 legs, 3 hands, slit skirt, side slit, worst quality, low quality:2), nipples, blue eyes, child, childish, red lips, pale skin, face in a shadow, PA7_UnRealistic-Neg_v2-neg NegfeetV2",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878587+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "713143a77d924f603b74109662fcf300cc2748646e2a9bb357e4434c5521dfec",
+      "prompt_ar": "تحفة، صور واقعية، أعلى جودة، تفاصيل معقدة، سيدة، مكياج طبيعي،\nسترة شتوية مع غطاء محرك السيارة، سترة رياضية، سترة المتضخم،\nسترة رمادية داكنة، سترة مفتوحة\n، استراحة\nقميص أحمر، قميص غير مطوي، قميص كبير الحجم، قميص رايات\n,\nلقطة لكامل الجسم\n,\n(تنورة طويلة: 1.2)، تنورة ضيقة، تنورة بيضاء، تنورة ثنيات\nالشتاء,\nستاربكس\n,\nارفعوا أيديكم\n,\nالحب، الحلو، والنظر إلى المشاهد\n، استراحة\nشعر أسود، شعر بوب قصير، جبهة عريضة، (عيون سوداء: 1.2)، عيون مثالية، ثديين كبيرين، إضاءة سينمائية، CN Girl6، <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <lora:st-fs_v1.1:-0.8> <لورا:exposure_control_v10:0.3> <لورا:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150384593 image ai-image-prompts masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup, winter jacket with hood, sporty jacket, oversized jacket, dark grey jacket, open jacket , break red shirt, untucked shirt, oversized shirt, draped shirt , full body shot , (long skirt:1.2), tight skirt, white skirt, draped skirt , winter, starbucks , hands up , love, sweet, looking at viewer , break black hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, cinematic lighting, cn girl6, <lora:facesizeadjuster:-2> <lora:eye_opening_v2.0:2> <lora:chenchen_v2:0.5> <lora:raita:0.2> <lora:st-fs_v1.1:-0.8> <lora:exposure_control_v10:0.3> <lora:liuli3-000005_0.5_exceptface+liuli2_0.3:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150384593",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a5a9af3-0d6d-4a66-9f70-536d4e3c6af1/original=true/9a5a9af3-0d6d-4a66-9f70-536d4e3c6af1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150384576",
+      "title": "Civitai prompt 150384576",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup,\n,\n<lora:md019:0.5> cmd, scarf, shirt, untucked shirt, oversized shirt, draped shirt, <lora:color_temperature_slider_v1:1.7>\n,\n(extreme close up:1.2)\n, realistic skin\n, autumn,\nin front of window, translucent curtain, soft lighthigh key\n,<lora:exposure_control_v10:0.3>\n,\nakimbo, hands on hips\n,\n, turning to viewer,\n, black hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, professional lighting, CN Girl6, <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150384576",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd0280d8-f5b6-436b-ba61-bb97db4b3e8a/original=true/cd0280d8-f5b6-436b-ba61-bb97db4b3e8a.jpeg",
+      "model": "cosplaymix_v42",
+      "model_version_ids": [
+        101461,
+        123045,
+        130189,
+        139548,
+        146373,
+        154448,
+        167456,
+        180175,
+        300891
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2944764187,
+      "negative_prompt": "(bad face, 3 legs, 3 hands, slit skirt, side slit, worst quality, low quality:2), blue eyes, bra, shorts, nipples, blue eyes, child, childish, red lips, pale skin, face in a shadow, PA7_UnRealistic-Neg_v2-neg NegfeetV2",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878595+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f23f665ebcaa56576ef9fd1346229322983c9d6b18e9fbde6fcb026f5d1c7906",
+      "prompt_ar": "تحفة، صور واقعية، أعلى جودة، تفاصيل معقدة، سيدة، مكياج طبيعي،\n,\n<lora:md019:0.5> cmd، وشاح، قميص، قميص غير مطوي، قميص كبير الحجم، قميص بثنيات، <lora:color_temperature_slider_v1:1.7>\n,\n(الإغلاق الشديد: 1.2)\nبشرة واقعية\nالخريف,\nأمام النافذة، ستارة شفافة، مفتاح عالي الإضاءة ناعم\n,<lora:exposure_control_v10:0.3>\n,\nأكيمبو، الأيدي على الوركين\n,\n، التفت إلى المشاهد،\n، شعر أسود، شعر بوب قصير، جبهة عريضة، (عيون سوداء: 1.2)، عيون مثالية، ثديين كبيرين، إضاءة احترافية، CN Girl6، <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <لورا:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150384576 image ai-image-prompts masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup, , <lora:md019:0.5> cmd, scarf, shirt, untucked shirt, oversized shirt, draped shirt, <lora:color_temperature_slider_v1:1.7> , (extreme close up:1.2) , realistic skin , autumn, in front of window, translucent curtain, soft lighthigh key ,<lora:exposure_control_v10:0.3> , akimbo, hands on hips , , turning to viewer, , black hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, professional lighting, cn girl6, <lora:facesizeadjuster:-2> <lora:eye_opening_v2.0:2> <lora:chenchen_v2:0.5> <lora:raita:0.2> <lora:liuli3-000005_0.5_exceptface+liuli2_0.3:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150384576",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cd0280d8-f5b6-436b-ba61-bb97db4b3e8a/original=true/cd0280d8-f5b6-436b-ba61-bb97db4b3e8a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150384570",
+      "title": "Civitai prompt 150384570",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup,\n,\nfull body shot\n,\n<lora:md019:0.5> dress, cmd, scarf, shirt, (long skirt), a paper bag, <lora:color_temperature_slider_v1:1.7>\n, <lora:st-fs_v1.1:-0.9>\n, autumn,\nbusy street, passerby, twilight, depth of field\n, depth of field,\n, <lora:exposure_control_v10:0.3>\n,\n(dancing, hands up, chin up), motion blur\n, black hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, professional lighting, CN Girl6, <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "quality_score": 9.5,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150384570",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec86ae45-cd37-470e-b480-ef54a884fb60/original=true/ec86ae45-cd37-470e-b480-ef54a884fb60.jpeg",
+      "model": "cosplaymix_v42",
+      "model_version_ids": [
+        101461,
+        122388,
+        123045,
+        130189,
+        139548,
+        146373,
+        154448,
+        167456,
+        180175,
+        300891
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2143766072,
+      "negative_prompt": "(bad face, 3 legs, 3 hands, slit skirt, side slit, worst quality, low quality:2), blue eyes, bra, shorts, nipples, blue eyes, child, childish, red lips, pale skin, face in a shadow, PA7_UnRealistic-Neg_v2-neg NegfeetV2",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878602+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "c316d7f44d47fd85266380c8a520db231492d7a5166ce4d607e61adb7e7fcd98",
+      "prompt_ar": "تحفة، صور واقعية، أعلى جودة، تفاصيل معقدة، سيدة، مكياج طبيعي،\n,\nلقطة لكامل الجسم\n,\n<lora:md019:0.5> فستان، cmd، وشاح، قميص، (تنورة طويلة)، كيس ورقي، <lora:color_temperature_slider_v1:1.7>\n, <لورا:st-fs_v1.1:-0.9>\nالخريف,\nشارع مزدحم، المارة، الشفق، عمق الميدان\nعمق الميدان,\n, <lora:exposure_control_v10:0.3>\n,\n(الرقص، الأيدي لأعلى، الذقن لأعلى)، ضبابية الحركة\n، شعر أسود، شعر بوب قصير، جبهة عريضة، (عيون سوداء: 1.2)، عيون مثالية، ثديين كبيرين، إضاءة احترافية، CN Girl6، <lora:FaceSizeAdjuster:-2> <lora:eye_opening_v2.0:2> <lora:Chenchen_v2:0.5> <lora:raita:0.2> <لورا:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.5>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150384570 image ai-image-prompts masterpiece, photorealistic, highest quality, intricate detail, a lady, natural makeup, , full body shot , <lora:md019:0.5> dress, cmd, scarf, shirt, (long skirt), a paper bag, <lora:color_temperature_slider_v1:1.7> , <lora:st-fs_v1.1:-0.9> , autumn, busy street, passerby, twilight, depth of field , depth of field, , <lora:exposure_control_v10:0.3> , (dancing, hands up, chin up), motion blur , black hair, short bob hair, broad forehead, (black eyes:1.2), perfect eyes, large breasts, professional lighting, cn girl6, <lora:facesizeadjuster:-2> <lora:eye_opening_v2.0:2> <lora:chenchen_v2:0.5> <lora:raita:0.2> <lora:liuli3-000005_0.5_exceptface+liuli2_0.3:0.5> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150384570",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec86ae45-cd37-470e-b480-ef54a884fb60/original=true/ec86ae45-cd37-470e-b480-ef54a884fb60.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150421059",
+      "title": "Civitai prompt 150421059",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "Downtown Heist Extraction in the Rain\nIntense cinematic action-drama composition blending GTA 6 heist urgency with South Park's signature flat construction-paper cutouts, simple geometric limbs, and dry satirical tone. Outside a gleaming downtown bank tower during a downpour, a getaway sports coupe screeches to a halt beside a concrete plaza while sirens flash crimson and blue across slick pavement and glass facades. Masked adult crew members sprint across the rain-streaked plaza clutching duffel bags as tactical vehicles block the avenue ahead, rain streaks and smoke puffs rendered in crisp graphic layers with moody shadows and high-tension drama.",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150421059",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef9d93f0-b814-44fa-8ec8-313aed984c46/original=true/ef9d93f0-b814-44fa-8ec8-313aed984c46.jpeg",
+      "model_version_ids": [
+        2442439,
+        3432292
+      ],
+      "width": 768,
+      "height": 1344,
+      "seed": 1336643928,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878611+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "e50b54dda00df295b9e192154f22baedd1afff4f54080d3102cd6dd78c7b9a1a",
+      "prompt_ar": "استخراج سرقة وسط المدينة تحت المطر\nتكوين درامي سينمائي مكثف يمزج بين إلحاح سرقة GTA 6 مع قطع ورق البناء المسطحة المميزة من South Park، والأطراف الهندسية البسيطة، والنغمة الساخرة الجافة. خارج برج بنك لامع في وسط المدينة أثناء هطول الأمطار، تنطلق سيارة كوبيه رياضية متوقفة بجوار ساحة خرسانية بينما تومض صفارات الإنذار باللونين القرمزي والأزرق عبر الرصيف الأملس والواجهات الزجاجية. يركض أفراد الطاقم البالغون الملثمون عبر الساحة المليئة بالمطر ممسكين بأكياس من القماش الخشن بينما تسد المركبات التكتيكية الطريق أمامهم، وتظهر خطوط المطر ونفثات الدخان في طبقات رسومية واضحة مع ظلال مزاجية ودراما شديدة التوتر.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150421059 photography ai-image-prompts downtown heist extraction in the rain intense cinematic action-drama composition blending gta 6 heist urgency with south park's signature flat construction-paper cutouts, simple geometric limbs, and dry satirical tone. outside a gleaming downtown bank tower during a downpour, a getaway sports coupe screeches to a halt beside a concrete plaza while sirens flash crimson and blue across slick pavement and glass facades. masked adult crew members sprint across the rain-streaked plaza clutching duffel bags as tactical vehicles block the avenue ahead, rain streaks and smoke puffs rendered in crisp graphic layers with moody shadows and high-tension drama. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150421059",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef9d93f0-b814-44fa-8ec8-313aed984c46/original=true/ef9d93f0-b814-44fa-8ec8-313aed984c46.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150421067",
+      "title": "Civitai prompt 150421067",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, very aesthetic, extremely detailed, digital illustration,\n 1boy, solo, bara, muscular, huge pectorals, wide back, thick thighs, bodybuilder, \nvarkaGI, blonde hair, blue eyes, scar on face, scar on body, white collared shirt, turquoise shorts, turquoise sneakers, white socks, pectoral cleavage, fingerless gloves, jewelry, side angle, full body, lying on hill,\n daylight, detailed background, on a hill, vibrant colors, windmills, ruins, german towns in the distance, lake, forest, depth of field, cinematic, light particles, visual effects, hues of turquoise, blue, and yellow, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, very awa, absurdres, intricate details, natural lighting,cinematic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150421067",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db46da44-717c-43ac-9169-715721f9f64b/original=true/db46da44-717c-43ac-9169-715721f9f64b.jpeg",
+      "model_version_ids": [
+        2949122,
+        3119589,
+        3226360,
+        3483121
+      ],
+      "width": 1536,
+      "height": 640,
+      "seed": 1184999139,
+      "negative_prompt": "(bad quality,worst quality,low quality,bad anatomy,bad hand:1.3), female, woman, girl, breasts, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, low detail, username, blurry, artist name, nsfw, explicit",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878620+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "f1504c5c7fdfd3d8cf40f7e8bca90c19eb7ab2226da04275bc472a821b1952af",
+      "prompt_ar": "تحفة، أفضل جودة، جمالية للغاية، مفصلة للغاية، رسم رقمي،\n 1boy، منفردًا، بارا، عضلي، صدريات ضخمة، ظهر عريض، أفخاذ سميكة، لاعب كمال أجسام، \nvarkaGI، شعر أشقر، عيون زرقاء، ندبة على الوجه، ندبة على الجسم، قميص بياقة بيضاء، شورت فيروزي، أحذية رياضية فيروزية، جوارب بيضاء، انقسام صدري، قفازات بدون أصابع، مجوهرات، زاوية جانبية، جسم كامل، مستلقي على التل،\n ضوء النهار، خلفية مفصلة، على تلة، ألوان نابضة بالحياة، طواحين الهواء، أطلال، مدن ألمانية على مسافة، بحيرة، غابة، عمق المجال، سينمائي، جزيئات الضوء، تأثيرات بصرية، ألوان الفيروز والأزرق والأصفر، تحفة فنية، أفضل جودة، جودة مذهلة، جمالية للغاية، عبثيات، الأحدث، واعي جدًا، عبثيات، تفاصيل معقدة، إضاءة طبيعية، سينمائية،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150421067 photography ai-image-prompts masterpiece, best quality, very aesthetic, extremely detailed, digital illustration, 1boy, solo, bara, muscular, huge pectorals, wide back, thick thighs, bodybuilder, varkagi, blonde hair, blue eyes, scar on face, scar on body, white collared shirt, turquoise shorts, turquoise sneakers, white socks, pectoral cleavage, fingerless gloves, jewelry, side angle, full body, lying on hill, daylight, detailed background, on a hill, vibrant colors, windmills, ruins, german towns in the distance, lake, forest, depth of field, cinematic, light particles, visual effects, hues of turquoise, blue, and yellow, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, very awa, absurdres, intricate details, natural lighting,cinematic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150421067",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db46da44-717c-43ac-9169-715721f9f64b/original=true/db46da44-717c-43ac-9169-715721f9f64b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150420265",
+      "title": "Civitai prompt 150420265",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, very aesthetic, extremely detailed, digital illustration,\n 1boy, solo, bara, muscular, huge pectorals, wide back, thick thighs, bodybuilder, \nvarkaGI, blonde hair, blue eyes, scar on face, scar on body, white collared shirt, turquoise shorts, turquoise sneakers, white socks, pectoral cleavage, fingerless gloves, jewelry, side angle, holding wine glass, full body, sitting on hill,\n daylight, detailed background, on a hill, vibrant colors, windmills, ruins, german towns in the distance, lake, forest, depth of field, cinematic, light particles, visual effects, hues of turquoise, blue, and yellow, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, very awa, absurdres, intricate details, natural lighting,cinematic,",
+      "quality_score": 9.3,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150420265",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97b22f6d-bfae-4355-805c-3ad16ea7ae07/original=true/97b22f6d-bfae-4355-805c-3ad16ea7ae07.jpeg",
+      "model_version_ids": [
+        2949122,
+        3119589,
+        3226360,
+        3483121
+      ],
+      "width": 1536,
+      "height": 640,
+      "seed": 952926673,
+      "negative_prompt": "(bad quality,worst quality,low quality,bad anatomy,bad hand:1.3), female, woman, girl, breasts, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, low detail, username, blurry, artist name, nsfw, explicit",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878628+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "7634c8e47866651a50dfc2b2137eaae39d160df98f62d07a4fa3638f7e83846d",
+      "prompt_ar": "تحفة، أفضل جودة، جمالية للغاية، مفصلة للغاية، رسم رقمي،\n 1boy، منفردًا، بارا، عضلي، صدريات ضخمة، ظهر عريض، أفخاذ سميكة، لاعب كمال أجسام، \nvarkaGI، شعر أشقر، عيون زرقاء، ندبة على الوجه، ندبة على الجسم، قميص بياقة بيضاء، شورت فيروزي، أحذية رياضية فيروزية، جوارب بيضاء، انقسام صدري، قفازات بدون أصابع، مجوهرات، زاوية جانبية، تحمل كأس النبيذ، جسد كامل، يجلس على التل،\n ضوء النهار، خلفية مفصلة، على تلة، ألوان نابضة بالحياة، طواحين الهواء، أطلال، مدن ألمانية على مسافة، بحيرة، غابة، عمق المجال، سينمائي، جزيئات الضوء، تأثيرات بصرية، ألوان الفيروز والأزرق والأصفر، تحفة فنية، أفضل جودة، جودة مذهلة، جمالية للغاية، عبثيات، الأحدث، واعي جدًا، عبثيات، تفاصيل معقدة، إضاءة طبيعية، سينمائية،",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [],
+      "search_text": "civitai prompt 150420265 photography ai-image-prompts masterpiece, best quality, very aesthetic, extremely detailed, digital illustration, 1boy, solo, bara, muscular, huge pectorals, wide back, thick thighs, bodybuilder, varkagi, blonde hair, blue eyes, scar on face, scar on body, white collared shirt, turquoise shorts, turquoise sneakers, white socks, pectoral cleavage, fingerless gloves, jewelry, side angle, holding wine glass, full body, sitting on hill, daylight, detailed background, on a hill, vibrant colors, windmills, ruins, german towns in the distance, lake, forest, depth of field, cinematic, light particles, visual effects, hues of turquoise, blue, and yellow, masterpiece, best quality, amazing quality, very aesthetic, absurdres, newest, very awa, absurdres, intricate details, natural lighting,cinematic, civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150420265",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97b22f6d-bfae-4355-805c-3ad16ea7ae07/original=true/97b22f6d-bfae-4355-805c-3ad16ea7ae07.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150420815",
+      "title": "Civitai prompt 150420815",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, best quality, ultra detailed, highres, absurdres, (kings crown:1.4), ornate, gold, jeweled, regal, (silk pillow:1.2), velvet, luxurious, crimson, royal, (close-up still life:1.2), detailed, intricate, jewels, rubies, diamonds, emeralds, filigree, hammered gold, crown resting, abandoned, solitary, dramatic lighting, chiaroscuro, moody, dark background, shallow depth of field, cinematic, high quality, best quality, photorealistic, fine detail",
+      "quality_score": 9.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150420815",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a9f3f76-7ba5-4c47-95b9-df01020bf0d4/original=true/8a9f3f76-7ba5-4c47-95b9-df01020bf0d4.jpeg",
+      "model_version_ids": [
+        1969455
+      ],
+      "width": 1024,
+      "height": 1024,
+      "seed": 1802286583,
+      "negative_prompt": "worst quality, low quality, bad quality, bad anatomy, bad hands, deformed, distorted, blurry, jpeg artifacts, watermark, signature, artist name",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878634+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "126ae9ea731ab85efa18e598a235f93398e391566f6430f977aaeaec49af6d18",
+      "prompt_ar": "تحفة، أفضل جودة، مفصلة للغاية، عالية، عبثية، (تاج الملوك: 1.4)، مزخرف، ذهبي، مرصع بالجواهر، ملكي، (وسادة حريرية: 1.2)، مخمل، فاخر، قرمزي، ملكي، (لقطة قريبة للحياة الساكنة: 1.2)، مفصلة، معقدة، جواهر، ياقوت، ماس، زمرد، تخريمية، ذهب مطروق، استراحة التاج، مهجور، انفرادي، إضاءة درامية، تشياروسكورو، متقلب المزاج، داكن الخلفية، عمق المجال الضحل، سينمائي، جودة عالية، أفضل جودة، واقعية، تفاصيل دقيقة",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:29Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150420815 image ai-image-prompts masterpiece, best quality, ultra detailed, highres, absurdres, (kings crown:1.4), ornate, gold, jeweled, regal, (silk pillow:1.2), velvet, luxurious, crimson, royal, (close-up still life:1.2), detailed, intricate, jewels, rubies, diamonds, emeralds, filigree, hammered gold, crown resting, abandoned, solitary, dramatic lighting, chiaroscuro, moody, dark background, shallow depth of field, cinematic, high quality, best quality, photorealistic, fine detail civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150420815",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a9f3f76-7ba5-4c47-95b9-df01020bf0d4/original=true/8a9f3f76-7ba5-4c47-95b9-df01020bf0d4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150420686",
+      "title": "Civitai prompt 150420686",
+      "category": "photography",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api",
+        "Kling"
+      ],
+      "prompt": "Vertical 4:5 composition. Art style: hyper-detailed maximalist 3D animation blended with vibrant neo-pop digital illustration, ultra-saturated neon color palette, rich volumetric lighting, dynamic glowing particle effects, felt and glitter textures, and explosive visual density with zero empty space. Four iconic Trolls characters standing together on a festive wooden bridge in the heart of Troll Village at night, surrounded by hanging glowing pod houses, giant bioluminescent mushrooms, neon flowers, and fairy lanterns. The four characters are: Poppy (bright pink skin and tall pink hair), Branch (vibrant blue skin and dark blue hair), Biggie (large bright green troll with green hair), and a bright golden-yellow troll (yellow skin and tall glowing yellow hair). Each troll holds a festive party popper cannon aimed upward, firing glowing light trails directly into the night sky, each connected to a massive, intricate firework of their exact color: Poppy launches a huge shimmering pinkish-red crimson firework, Branch launches a massive sparkling blue-and-cyan firework, the yellow troll launches a radiant golden-yellow firework, and Biggie launches a vibrant emerald-green firework. High in the center of the night sky, formed out of bright glowing golden and cyan firework sparks and neon light trails, is the clear, bold text logo \"CIVITAI\" shining brilliantly. The entire sky is densely packed with diverse, multi-layered shimmering fireworks — weeping willows, glittering strobes, starbursts, swirling sparks, neon confetti, and glowing glitter dust leaving no dark empty space. Intense multi-colored rim lighting illuminating the trolls and the magical forest village, dynamic wide-angle shot, 8k resolution, --ar 4:5",
+      "quality_score": 8.1,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150420686",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6882f75b-1e35-487a-9f33-562074d2787a/original=true/6882f75b-1e35-487a-9f33-562074d2787a.jpeg",
+      "model_version_ids": [
+        3154408,
+        3407019,
+        3487659
+      ],
+      "width": 928,
+      "height": 1152,
+      "seed": 2105366855,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878657+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "a1fa356e5a0d4aced2989dfc87457442b1481b02607a0da3c0489f4f0be41536",
+      "prompt_ar": "تكوين عمودي 4:5. أسلوب الفن: رسوم متحركة ثلاثية الأبعاد شديدة التفصيل ممزوجة بالرسومات الرقمية النابضة بالحياة لموسيقى البوب ​​الجديدة، ولوحة ألوان نيون مشبعة للغاية، وإضاءة حجرية غنية، وتأثيرات جسيمات ديناميكية متوهجة، وأنسجة لامعة ولامعة، وكثافة بصرية متفجرة مع عدم وجود مساحة فارغة. أربع شخصيات ترولز مميزة تقف معًا على جسر خشبي احتفالي في قلب قرية ترول ليلاً، وتحيط بها منازل معلقة متوهجة، وفطر عملاق مضيء بيولوجيًا، وزهور نيون، وفوانيس خرافية. الشخصيات الأربعة هي: الخشخاش (بشرة وردية زاهية وشعر وردي طويل)، الفرع (بشرة زرقاء نابضة بالحياة وشعر أزرق غامق)، بيجي (قزم أخضر ساطع كبير بشعر أخضر)، وقزم أصفر ذهبي لامع (بشرة صفراء وشعر أصفر طويل متوهج). يحمل كل قزم مدفع احتفالي موجه نحو الأعلى، ويطلق مسارات ضوئية متوهجة مباشرة في سماء الليل، كل منها متصل بألعاب نارية ضخمة ومعقدة من لونها الدقيق: يطلق بوبي ألعابًا نارية ضخمة متلألئة قرمزية حمراء وردية، ويطلق برانش ألعابًا نارية ضخمة متلألئة باللونين الأزرق والسماوي، ويطلق القزم الأصفر ألعابًا نارية ذهبية صفراء مشعة، ويطلق بيجي ألعابًا نارية خضراء زمردية نابضة بالحياة. في أعلى وسط سماء الليل، والذي يتكون من شرارات الألعاب النارية الذهبية والسماوية المتوهجة ومسارات ضوء النيون، يوجد شعار النص الواضح والجريء \"CIVITAI\" الذي يتألق ببراعة. السماء بأكملها مليئة بكثافة بألعاب نارية متلألئة متنوعة ومتعددة الطبقات - الصفصاف الباكى، والومضات المتلألئة، والانفجارات النجمية، والشرر الدوامي، وقصاصات النيون، والغبار اللامع المتوهج لا تترك أي مساحة فارغة مظلمة. إضاءة حافة مكثفة متعددة الألوان تضيء المتصيدون وقرية الغابة السحرية، لقطة ديناميكية واسعة الزاوية، دقة 8K، --ar 4:5",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "other",
+      "modality": "text",
+      "models": [
+        "Kling"
+      ],
+      "search_text": "civitai prompt 150420686 photography ai-image-prompts vertical 4:5 composition. art style: hyper-detailed maximalist 3d animation blended with vibrant neo-pop digital illustration, ultra-saturated neon color palette, rich volumetric lighting, dynamic glowing particle effects, felt and glitter textures, and explosive visual density with zero empty space. four iconic trolls characters standing together on a festive wooden bridge in the heart of troll village at night, surrounded by hanging glowing pod houses, giant bioluminescent mushrooms, neon flowers, and fairy lanterns. the four characters are: poppy (bright pink skin and tall pink hair), branch (vibrant blue skin and dark blue hair), biggie (large bright green troll with green hair), and a bright golden-yellow troll (yellow skin and tall glowing yellow hair). each troll holds a festive party popper cannon aimed upward, firing glowing light trails directly into the night sky, each connected to a massive, intricate firework of their exact color: poppy launches a huge shimmering pinkish-red crimson firework, branch launches a massive sparkling blue-and-cyan firework, the yellow troll launches a radiant golden-yellow firework, and biggie launches a vibrant emerald-green firework. high in the center of the night sky, formed out of bright glowing golden and cyan firework sparks and neon light trails, is the clear, bold text logo \"civitai\" shining brilliantly. the entire sky is densely packed with diverse, multi-layered shimmering fireworks — weeping willows, glittering strobes, starbursts, swirling sparks, neon confetti, and glowing glitter dust leaving no dark empty space. intense multi-colored rim lighting illuminating the trolls and the magical forest village, dynamic wide-angle shot, 8k resolution, --ar 4:5 civitai ai-image imported api kling kling",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150420686",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6882f75b-1e35-487a-9f33-562074d2787a/original=true/6882f75b-1e35-487a-9f33-562074d2787a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150384528",
+      "title": "Civitai prompt 150384528",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, RAW photo, highest quality, photo-realistic, intricate detail, (simple white background),\na torso of a lady, (wind:1.2), (dark blue dress:1.2), swirling around, slovenly,languid, decent dress, (loose fitting),\nlong torso, huge breasts, professional lighting, realistic skin, ultra-detailed skin,\n, turning to viewer, <lora:raita:0.2> <lora:OC:0.15> <lora:exposure_control_v10:0.5> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.5> <lora:tight_clothes_v1:-2>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150384528",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bebc0d30-f100-42f3-9b41-d90a8a578cc2/original=true/bebc0d30-f100-42f3-9b41-d90a8a578cc2.jpeg",
+      "model": "cosplaymix_v42+FaceSizeAdjuster.fp16+eye_opening_v2.0.fp16+makina69_yeji_v2.0.fp16",
+      "model_version_ids": [
+        47871,
+        122388,
+        146373,
+        167456,
+        180175,
+        577618
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2142799288,
+      "negative_prompt": "(3 hands, 3 legs, 3 arms, 2 navels. skinny, thigh, knee:2), (sea, sky, cloud:1.4), child, childish, glossy skin, (worst quality:2), badhandv4 PA7_UnRealistic-Neg_v2-neg",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878663+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "2b28f477bc4ec000f76270d0a869c77b7707ae89b8de684e1891db2c2086f0fa",
+      "prompt_ar": "تحفة فنية، صورة RAW، أعلى جودة، صورة واقعية، تفاصيل معقدة، (خلفية بيضاء بسيطة)،\nجذع سيدة، (الريح: 1.2)، (فستان أزرق داكن: 1.2)، يحوم حوله، قذر، ضعيف، لائق، (فضفاض)،\nجذع طويل، ثديين ضخمين، إضاءة احترافية، بشرة واقعية، بشرة فائقة التفاصيل،\n، التفت إلى العارض، <lora:raita:0.2> <lora:OC:0.15> <lora:exposure_control_v10:0.5> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.5> <لورا:tight_clothes_v1:-2>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150384528 image ai-image-prompts masterpiece, raw photo, highest quality, photo-realistic, intricate detail, (simple white background), a torso of a lady, (wind:1.2), (dark blue dress:1.2), swirling around, slovenly,languid, decent dress, (loose fitting), long torso, huge breasts, professional lighting, realistic skin, ultra-detailed skin, , turning to viewer, <lora:raita:0.2> <lora:oc:0.15> <lora:exposure_control_v10:0.5> <lora:liuli3-000005_0.5_exceptface+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.5> <lora:tight_clothes_v1:-2> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150384528",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bebc0d30-f100-42f3-9b41-d90a8a578cc2/original=true/bebc0d30-f100-42f3-9b41-d90a8a578cc2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150384513",
+      "title": "Civitai prompt 150384513",
+      "category": "image",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "masterpiece, RAW photo, highest quality, photo-realistic, intricate detail, (simple white background),\na torso of a lady, tall, (dark blue silk:1.2), decent dress, swirling in wind, professional lighting, realistic skin, ultra-detailed skin,\n, , , side view, <lora:raita:0.2> <lora:OC:0.15> <lora:exposure_control_v10:0.4> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.3>  <lora:toned-v1-5:0.4> toned, , <lora:tight_clothes_v1:-3>",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150384513",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6ec4410-08b0-4395-b362-238db600e31e/original=true/b6ec4410-08b0-4395-b362-238db600e31e.jpeg",
+      "model": "cosplaymix_v42+FaceSizeAdjuster.fp16+eye_opening_v2.0.fp16+makina69_yeji_v2.0.fp16",
+      "model_version_ids": [
+        47871,
+        122079,
+        122388,
+        146373,
+        167456,
+        180175,
+        577618
+      ],
+      "width": 1024,
+      "height": 1536,
+      "seed": 2291252515,
+      "negative_prompt": "(3 hands, 3 legs, 3 arms, 2 navels. skinny, thigh, knee:, slit skirt2), revealing outfit, (sea, sky, cloud:1.4), child, childish, glossy skin, (worst quality:2), badhandv4 PA7_UnRealistic-Neg_v2-neg",
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878669+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "bbc109b3a112724fd469b7da47e4a4f53fc02e5b174dfb9a5f570eba5890abc4",
+      "prompt_ar": "تحفة فنية، صورة RAW، أعلى جودة، صورة واقعية، تفاصيل معقدة، (خلفية بيضاء بسيطة)،\nجذع سيدة، طويل القامة، (حرير أزرق داكن: 1.2)، فستان لائق، يحوم في مهب الريح، إضاءة احترافية، بشرة واقعية، بشرة فائقة التفاصيل،\n, , منظر جانبي <lora:raita:0.2> <lora:OC:0.15> <lora:exposure_control_v10:0.4> <lora:liuli3-000005_0.5_EXCEPTFACE+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.3> <lora:toned-v1-5:0.4> منغم، , <lora:tight_clothes_v1:-3>",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "image",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150384513 image ai-image-prompts masterpiece, raw photo, highest quality, photo-realistic, intricate detail, (simple white background), a torso of a lady, tall, (dark blue silk:1.2), decent dress, swirling in wind, professional lighting, realistic skin, ultra-detailed skin, , , , side view, <lora:raita:0.2> <lora:oc:0.15> <lora:exposure_control_v10:0.4> <lora:liuli3-000005_0.5_exceptface+liuli2_0.3:0.4> <lora:st-fs_v1.1:-0.3> <lora:toned-v1-5:0.4> toned, , <lora:tight_clothes_v1:-3> civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150384513",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6ec4410-08b0-4395-b362-238db600e31e/original=true/b6ec4410-08b0-4395-b362-238db600e31e.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "civitai-150420585",
+      "title": "Civitai prompt 150420585",
+      "category": "architecture",
+      "subcategory": "ai-image-prompts",
+      "tags": [
+        "civitai",
+        "ai-image",
+        "imported",
+        "api"
+      ],
+      "prompt": "A tall vertical 2:3 portrait digital oil-paint concept painting shows a rainy neon city at night from an extreme low angle looking upward from wet asphalt toward a towering skyscraper in a storm. The entire image has heavy impasto-like texture, with visible knife-and-bristle strokes, smeared paint ridges, scratchy grain, dripping rain streaks, and smeared slashing marks layered over a dark vignette. The palette is dominated by cold electric blue, cobalt, and near-black shadows, contrasted with warm orange streetlight reflections and magenta, violet, crimson, and cyan neon highlights.\n\nThe upper portion is filled with a dense, stormy night sky painted in broad vertical drips and rough, textured strokes. A looming dark skyscraper occupies the upper center, rising above the surrounding buildings. Its facade is rectangular and dark, with many small window openings rendered in pale cyan, white, and yellow-orange light. The tower is seen from below, making it appear massive and imposing, with angular edges and shadowed vertical panels. Around it, the sky is turbulent and cloud-like, broken by streaks of blue, purple, and orange illumination that suggest distant lightning, neon spill, or reflected city light.\n\nAcross the upper left and upper center, thin black overhead wires stretch diagonally through the stormy sky, crisscrossing over the buildings. The wires are irregular and painterly, blending into the dark brushwork while still forming a web-like urban structure. On the upper right, another cluster of wires and dark structural silhouettes cuts through the blue-purple sky. Far up in the stormy sky, one small lone flying craft appears as a tiny dark silhouette against warm orange-lit haze, with short wing-like shapes visible against the glowing cloud forms.\n\nThe middle area shows the city receding into heavy rain and mist. Tall buildings flank the street on both sides, their edges broken by rough strokes of blue, black, purple, and red neon. Orange streetlights glow on poles along the wet roadway, casting long streaks of amber and red light onto the pavement. The rain is visible as vertical streaks throughout the scene, especially in the sky and around the tower, giving the atmosphere a soaked, oppressive feeling. Reflections of cyan, magenta, violet, crimson, yellow, and orange smear across the ground in elongated bands.\n\nIn the lower left foreground, a yellow taxi is parked or moving slowly along the rain-soaked street. It is shown from a low side-front angle, with a bright rectangular body rendered in saturated yellow-orange paint. Its headlights and reflected glow are intense and warm, blending into the wet pavement. The taxi’s form is softened by brush texture and rain, with dark wheels and shadowed undercarriage suggested by thick strokes. Reflections of the vehicle extend downward across the asphalt in shimmering yellow and orange pools.\n\nNear the lower center foreground, a single small dark silhouette stands under an umbrella at a crosswalk. The umbrella has a distinctive round shape, resembling the unmistakable silhouette of a penguin despite the figure being rendered as a human-like person. The figure is backlit by orange neon reflection from the wet street, so facial details, ethnicity, age, and clothing texture are not discernible. The posture is still and patient, with the umbrella held above the head while the surrounding city appears drenched in rain. The body is a small dark mass against the glowing pavement, emphasizing scale beneath the towering skyscraper.\n\nThe bottom foreground is dominated by the wet crosswalk and reflective asphalt. Thick, diagonal brushstrokes form pale crosswalk markings, partially obscured by rain, puddles, and painterly texture. Neon and street glow streak into long vertical reflections across the surface, especially in cyan, orange, red, magenta, violet, and yellow. The brushwork is energetic and tactile, with ridges, smears, scratches, and splatters visible throughout. The composition feels cinematic and oppressive, using the extreme low viewpoint, storm clouds, overhead wires, towering architecture, rain, and neon reflections to create a dramatic cyberpunk-like urban atmosphere.",
+      "quality_score": 8.9,
+      "source": "Civitai",
+      "source_id": "civitai",
+      "source_url": "https://civitai.com/images/150420585",
+      "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ea9b40-059f-485a-b213-5d7c05575638/original=true/38ea9b40-059f-485a-b213-5d7c05575638.jpeg",
+      "model_version_ids": [],
+      "width": 1344,
+      "height": 2016,
+      "seed": 1172594888,
+      "license": "See original Civitai item and creator/model license",
+      "imported_at": "2026-11-27T23:28:27.878718+00:00",
+      "import_method": "enabled_connector_auto_publish",
+      "prompt_hash": "b02a2167d122e3965d62d20add5d3c3050518dff7ed52a3490ffb46c774d3a96",
+      "prompt_ar": "تُظهر لوحة مفاهيمية رقمية طويلة بالطلاء الزيتي عموديًا بنسبة 2:3 مدينة نيون ممطرة في الليل من زاوية منخفضة للغاية تتجه نحو الأعلى من الأسفلت الرطب باتجاه ناطحة سحاب شاهقة أثناء العاصفة. تحتوي الصورة بأكملها على نسيج ثقيل يشبه الإمباستو، مع ضربات مرئية بالسكين والشعر الخشن، وحواف طلاء ملطخة، وحبوب مخدوشة، وخطوط مطر متساقطة، وعلامات تقطيع ملطخة موضوعة فوق صورة صغيرة داكنة. ويهيمن على اللوحة ظلال زرقاء باردة وكوبالت وظلال شبه سوداء، تتناقض مع انعكاسات أضواء الشوارع البرتقالية الدافئة وإبرازات النيون الأرجواني والبنفسجي والقرمزي والسماوي.\n\nيمتلئ الجزء العلوي بسماء ليلية كثيفة وعاصفة مرسومة بقطرات عمودية عريضة وضربات خشنة. ناطحة سحاب داكنة تلوح في الأفق تحتل المركز العلوي، وترتفع فوق المباني المحيطة. واجهته مستطيلة ومظلمة، مع العديد من فتحات النوافذ الصغيرة باللون السماوي الفاتح والأبيض والأصفر البرتقالي. يمكن رؤية البرج من الأسفل، مما يجعله يبدو ضخمًا ومهيبًا، بحواف زاوية وألواح عمودية مظللة. من حولها، السماء مضطربة وشبيهة بالسحابة، تتخللها خطوط من الإضاءة الزرقاء والأرجوانية والبرتقالية التي تشير إلى البرق البعيد، أو انسكاب النيون، أو ضوء المدينة المنعكس.\n\nعبر أعلى اليسار وأعلى الوسط، تمتد أسلاك علوية سوداء رفيعة قطريًا عبر السماء العاصفة، وتتقاطع فوق المباني. الأسلاك غير منتظمة ومرسومة، تمتزج مع الفرشاة الداكنة بينما لا تزال تشكل بنية حضرية تشبه شبكة الإنترنت. في الجزء العلوي الأيمن، مجموعة أخرى من الأسلاك والصور الظلية الهيكلية الداكنة تقطع السماء الزرقاء الأرجوانية. بعيدًا في السماء العاصفة، تظهر مركبة طيران صغيرة وحيدة كصورة ظلية صغيرة داكنة مقابل ضباب دافئ مضاء باللون البرتقالي، مع أشكال قصيرة تشبه الأجنحة مرئية مقابل أشكال السحابة المتوهجة.\n\nتُظهر المنطقة الوسطى انحسار المدينة بسبب الأمطار الغزيرة والضباب. تحيط المباني الشاهقة بالشارع من كلا الجانبين، وتتكسر حوافها بضربات خشنة من أضواء النيون الأزرق والأسود والأرجواني والأحمر. تتوهج أضواء الشوارع البرتقالية على أعمدة على طول الطريق الرطب، وتلقي خطوطًا طويلة من الضوء الأصفر والأحمر على الرصيف. يمكن رؤية المطر على شكل خطوط عمودية في جميع أنحاء المشهد، خاصة في السماء وحول البرج، مما يضفي على الجو شعورًا رطبًا وقمعيًا. انعكاسات اللون السماوي والأرجواني والبنفسجي والقرمزي والأصفر والبرتقالي تمتد على الأرض في أشرطة ممدودة.\n\nفي الجزء السفلي الأيسر من المقدمة، تقف سيارة أجرة صفراء أو تتحرك ببطء على طول الشارع المبلل بالمطر. يتم عرضه من زاوية جانبية أمامية منخفضة، مع جسم مستطيل لامع مطلي بطلاء أصفر برتقالي مشبع. المصابيح الأمامية والتوهج المنعكس كثيف ودافئ، ويمتزج مع الرصيف المبلل. تم تخفيف شكل سيارة الأجرة من خلال ملمس الفرشاة والمطر، مع عجلات داكنة وهيكل سفلي مظلل توحي به ضربات سميكة. تمتد انعكاسات السيارة إلى الأسفل عبر الأسفلت في برك صفراء وبرتقالية متلألئة.\n\nبالقرب من الجزء السفلي من وسط المقدمة، توجد صورة ظلية صغيرة داكنة تقف تحت مظلة عند ممر للمشاة. تتميز المظلة بشكل دائري مميز، يشبه الصورة الظلية الواضحة للبطريق على الرغم من أن الشكل يبدو كشخص يشبه الإنسان. تمت إضاءة الشكل من الخلف بواسطة انعكاس نيون برتقالي من الشارع الرطب، لذلك لا يمكن تمييز تفاصيل الوجه والعرق والعمر وملمس الملابس. كان الوضع ثابتًا وصبورًا، مع وضع المظلة فوق الرأس بينما تبدو المدينة المحيطة غارقة في المطر. الجسم عبارة عن كتلة داكنة صغيرة مقابل الرصيف المتوهج، مما يؤكد الحجم الموجود أسفل ناطحة السحاب الشاهقة.\n\nويهيمن على الجزء السفلي من المقدمة ممر المشاة الرطب والأسفلت العاكس. تشكل ضربات الفرشاة السميكة المائلة علامات ممرات شاحبة، يحجبها المطر والبرك والملمس الرسومي جزئيًا. يتدفق توهج النيون والشارع إلى انعكاسات رأسية طويلة عبر السطح، خاصة باللون السماوي والبرتقالي والأحمر والأرجواني والبنفسجي والأصفر. تتميز أعمال الفرشاة بالحيوية واللمس، مع ظهور نتوءات ومسحات وخدوش وبقع في كل مكان. تبدو التركيبة سينمائية وقمعية، باستخدام وجهة النظر المنخفضة للغاية، والسحب العاصفة، والأسلاك العلوية، والهندسة المعمارية الشاهقة، والمطر، وانعكاسات النيون لخلق جو حضري مثير يشبه السايبربانك.",
+      "translation_status": "translated",
+      "translated_at": "2026-11-27T23:28:30Z",
+      "task_type": "architecture",
+      "modality": "image",
+      "models": [],
+      "search_text": "civitai prompt 150420585 architecture ai-image-prompts a tall vertical 2:3 portrait digital oil-paint concept painting shows a rainy neon city at night from an extreme low angle looking upward from wet asphalt toward a towering skyscraper in a storm. the entire image has heavy impasto-like texture, with visible knife-and-bristle strokes, smeared paint ridges, scratchy grain, dripping rain streaks, and smeared slashing marks layered over a dark vignette. the palette is dominated by cold electric blue, cobalt, and near-black shadows, contrasted with warm orange streetlight reflections and magenta, violet, crimson, and cyan neon highlights. the upper portion is filled with a dense, stormy night sky painted in broad vertical drips and rough, textured strokes. a looming dark skyscraper occupies the upper center, rising above the surrounding buildings. its facade is rectangular and dark, with many small window openings rendered in pale cyan, white, and yellow-orange light. the tower is seen from below, making it appear massive and imposing, with angular edges and shadowed vertical panels. around it, the sky is turbulent and cloud-like, broken by streaks of blue, purple, and orange illumination that suggest distant lightning, neon spill, or reflected city light. across the upper left and upper center, thin black overhead wires stretch diagonally through the stormy sky, crisscrossing over the buildings. the wires are irregular and painterly, blending into the dark brushwork while still forming a web-like urban structure. on the upper right, another cluster of wires and dark structural silhouettes cuts through the blue-purple sky. far up in the stormy sky, one small lone flying craft appears as a tiny dark silhouette against warm orange-lit haze, with short wing-like shapes visible against the glowing cloud forms. the middle area shows the city receding into heavy rain and mist. tall buildings flank the street on both sides, their edges broken by rough strokes of blue, black, purple, and red neon. orange streetlights glow on poles along the wet roadway, casting long streaks of amber and red light onto the pavement. the rain is visible as vertical streaks throughout the scene, especially in the sky and around the tower, giving the atmosphere a soaked, oppressive feeling. reflections of cyan, magenta, violet, crimson, yellow, and orange smear across the ground in elongated bands. in the lower left foreground, a yellow taxi is parked or moving slowly along the rain-soaked street. it is shown from a low side-front angle, with a bright rectangular body rendered in saturated yellow-orange paint. its headlights and reflected glow are intense and warm, blending into the wet pavement. the taxi’s form is softened by brush texture and rain, with dark wheels and shadowed undercarriage suggested by thick strokes. reflections of the vehicle extend downward across the asphalt in shimmering yellow and orange pools. near the lower center foreground, a single small dark silhouette stands under an umbrella at a crosswalk. the umbrella has a distinctive round shape, resembling the unmistakable silhouette of a penguin despite the figure being rendered as a human-like person. the figure is backlit by orange neon reflection from the wet street, so facial details, ethnicity, age, and clothing texture are not discernible. the posture is still and patient, with the umbrella held above the head while the surrounding city appears drenched in rain. the body is a small dark mass against the glowing pavement, emphasizing scale beneath the towering skyscraper. the bottom foreground is dominated by the wet crosswalk and reflective asphalt. thick, diagonal brushstrokes form pale crosswalk markings, partially obscured by rain, puddles, and painterly texture. neon and street glow streak into long vertical reflections across the surface, especially in cyan, orange, red, magenta, violet, and yellow. the brushwork is energetic and tactile, with ridges, smears, scratches, and splatters visible throughout. the composition feels cinematic and oppressive, using the extreme low viewpoint, storm clouds, overhead wires, towering architecture, rain, and neon reflections to create a dramatic cyberpunk-like urban atmosphere. civitai ai-image imported api",
+      "sources": [
+        {
+          "source": "Civitai",
+          "source_id": "civitai",
+          "source_url": "https://civitai.com/images/150420585",
+          "license": "See original Civitai item and creator/model license",
+          "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38ea9b40-059f-485a-b213-5d7c05575638/original=true/38ea9b40-059f-485a-b213-5d7c05575638.jpeg"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-27T12:43:59.721279+00:00",
-  "prompt_count": 3479,
+  "generated_at": "2026-11-27T23:28:31.544930+00:00",
+  "prompt_count": 3493,
   "translation": {
     "language": "ar",
-    "translated_count": 24,
-    "skipped_count": 3448,
+    "translated_count": 14,
+    "skipped_count": 3472,
     "failed_count": 7,
-    "updated_at": "2026-11-27T12:43:58Z"
+    "updated_at": "2026-11-27T23:28:30Z"
   }
 }
